@@ -1,0 +1,139 @@
+- react.js
+  - raw-reactjs router
+  - https://www.reddit.com/r/reactjs/comments/3yjix3/explain_like_im_a_child_stateless_functional/
+  - https://www.reddit.com/r/reactjs/comments/3yh1nv/should_i_use_reactcreateclass_es6_classes_or/
+  - usages - http://builtwithreact.io/
+  - testing
+    - If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React [source](If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React) [source](https://github.com/facebook/react/issues/5046#issuecomment-146222515)
+- cycle.js
+  - examples
+    - https://github.com/Widdershin/cycle-music-sequencer
+    - [minimal](https://medium.com/@fkrautwald/we-are-not-writing-much-code-5404fb7d39e)
+
+      ```javascript
+      Cycle.run(
+        (sources) => ({DOM: Rx.Observable.timer(0, 1000).map(i => CycleDOM.h(`div`, `Seconds elapsed: ${i}`))}),
+        {DOM: CycleDOM.makeDOMDriver(`#app`)}
+      )
+      ```
+  - awesome list
+    - https://github.com/Widdershin/cycle-ecosystem
+  - community
+    - [chat](https://gitter.im/cyclejs/cycle-core)
+    - https://twitter.com/search?q=cycle.js
+    - blogs
+      - https://medium.com/@andrestaltz
+      - https://medium.com/@fkrautwald
+  - [canvas performance](https://gitter.im/cyclejs/cycle-core?at=5681a7610199d70069dffd60)
+  - pros/cons
+    - pros
+      - Cycle.js is a paradigm changer, because it is the only framework in which you can extract explicit data flow graphs from the code base. When introducing new developers to large code bases, this can make them reason about the code without looking at code. [link](https://medium.com/@fkrautwald/we-are-not-writing-much-code-5404fb7d39e)
+- graphql
+  - https://github.com/chentsulin/awesome-graphql
+  - https://github.com/kadirahq/lokka
+    - https://porter.io/github.com/chentsulin/awesome-graphql
+    - https://voice.kadira.io/introducing-lokka-a-simple-javascript-client-for-graphql-e0802695648c
+    - https://forums.meteor.com/t/lokka-a-javascript-client-for-graphql/14922
+- statistics
+  - http://www.evanmiller.org/how-not-to-sort-by-average-rating.html
+  - [How to share data with a statistician](https://github.com/jtleek/datasharing)
+- github.com
+  - https://github.com/tiimgreen/github-cheat-sheet
+  - markdown
+    - https://github.com/tchapi/markdown-cheatsheet
+    - https://gist.github.com/micmcg/976172
+    - new line inside list - use two spaces after line and indent next line with at least one space [source](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)
+  - gist
+      - [Fenced code blocks inside ordered and unordered lists](https://gist.github.com/clintel/1155906)
+      - Secret gists don't count as private repositories. You can create as many secret gists as you like.
+
+        Warning: Secret gists aren't private. If you send the URL of a secret gist to a friend, they'll be able to see it. However, if someone you don't know discovers the URL, they'll also be able to see your gist. [link](https://help.github.com/articles/about-gists/)
+      - gist.github.com supports search. So you can search your gist. I use #hashtag in description, so I can search my gist by tags via myusername #tag [link](http://stackoverflow.com/questions/2082723/how-do-you-manage-your-gists-on-github/5537451#5537451)
+      - Issues and pull requests with task list items defined will summarize the task list on the pull request listing and any cross reference [link](https://github.com/blog/1375%0A-task-lists-in-gfm-issues-pulls-comments)
+      - [What You Can Do With Gists on Github?](http://www.labnol.org/internet/github-gist-tutorial/28499/)
+        - publish gist as a standalone web page using http://roughdraft.io
+        - save the Gist as index.html and then use http://bl.ocks.org to serve the rendered version
+        - save text snippets from web pages as public or private gists
+        - embed any Gist in your web pages
+        - use Google Analytics to measure the traffic to your Gists
+      - [gist](https://github.com/defunkt/gist) - upload content from command line to https://gist.github.com/
+  - http://brettterpstra.com/2013/02/13/quick-tip-chrome-extensions-that-make-github-rock/
+  - browser extensions/styles
+    - https://github.com/showcases/github-browser-extensions
+    - chrome
+      - https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn
+    - https://userstyles.org/styles/70979/github-better-sized-tabs-in-code
+- git
+  - [A workshopper module for learning Git and GitHub](https://github.com/jlord/git-it)
+  - So you're rebasing and you resolve a conflict wrong? `git checkout --conflict=merge <FILE>` to get it back to its conflicted state https://twitter.com/maybekatz/status/677656507052392448
+- web development
+  - https://github.com/google/WebFundamentals
+- html/css
+  - http://cssdb.co/
+  - interface/widgets
+    - https://github.com/uikit/uikit
+    - http://codecondo.com/minimal-css-frameworks-grid-systems/
+  - frameworks
+    - http://codecondo.com/minimal-css-frameworks-grid-systems/
+      - https://github.com/owenversteeg/min
+      - https://github.com/mrmrs/fluidity
+      - https://github.com/andhart/bijou
+      - https://github.com/matthewhartman/base
+      - https://github.com/imperavi/kube
+      - https://github.com/visiondesignzoo/Responsee
+  - css
+    - speed
+      - https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Writing_efficient_CSS
+      - http://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/
+    - learn
+      - books
+        - [CSS Secrets: Better Solutions to Everyday Web Design Problems - Lea Verou](http://www.amazon.com/CSS-Secrets-Lea-Verou/dp/1449372635)
+- flexbox
+  - https://github.com/10up/flexibility
+- reactive programming
+  - pros/cons
+    - cons
+      - [Duality and the End of Reactive - Erik Meijer](https://channel9.msdn.com/Events/Lang-NEXT/Lang-NEXT-2014/Keynote-Duality)
+        - https://www.facebook.com/rofrol/posts/10153688958215956
+      - https://medium.com/@puppybits/rxjs-is-great-so-why-have-i-moved-on-534c513e7af3
+        -  FRP has a very unique API that takes a bit to learn, even if you’ve done map/reduces before. The DSL being very unique made it harder to reuse other functions in my code base. I couldn’t reuse code but the Observable and Streams could be pasted around to leverage in other classes.
+        - Merging and combining streams is where it got muddy really fast. I had events going that were hard to track down. I lost the finer grain control when more than one stream was being used.
+        - Debugging FRP processes was stepping through a lot of the internals of the libraries to find where events got twisted. Using FRP in smaller more isolated uses and limiting combining streams was much more beneficial and the file size increase if you’re just using it in place of a single callback function is not very useful.
+        - a pattern called CSP (...) code that looks like normal is synchronous and walks line by line acutally parks and waits until something comes across the channel before going to the next line. JavaScript will be getting this with `await` in ES2016. (...) CSP is really cool, right? Async work looks like sync work and all the code is together making it easy to rationalize about.
+        - FRP functions used inside streams needed to understand they were in a stream. Functions used in a transducer don’t know they’re in a transducer. Basically I can reuse them with all my current map/reduce/filtering code inside async channel.
+  - http://www.reactivemanifesto.org/
+    - https://www.quora.com/What-is-the-significance-of-the-Reactive-Manifesto
+  - Principles of Reactive Programming (using Scala) https://www.coursera.org/course/reactive
+    - https://github.com/dnvriend/reactive-programming
+  - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+    - https://news.ycombinator.com/item?id=7964873
+  - Before we launched React we had a big discussion as whether we should change the name or not. React is completely different from everything that's called "reactive programming" and we were afraid to cause confusion. https://news.ycombinator.com/item?id=7965194
+- programming
+  - [Don't comment, delete the code. Next time you write the same logic with better code!](https://twitter.com/AjeyGore/status/640430919954755585)
+    - [Delete your code](https://www.youtube.com/watch?v=Oj4vXMRenFo)
+- stackexchange.com
+  - http://meta.stackexchange.com/questions/3792/how-to-nest-code-within-a-list-using-markdown
+- jspm
+  - https://gitter.im/jspm/jspm
+- jsx
+  - [use without react.js](http://stackoverflow.com/questions/30430982/can-i-use-jsx-without-react-to-inline-html-in-script/34262983)
+  - It’s such a tight coupling to the DOM  
+    Well, not really, it is just a declarative syntax to describe components in a tree…Virtual? DOM?  
+    We are describing how trees SHOULD look like, not fiddling with the DOM itself.  
+    https://medium.com/@abhiaiyer/dear-templating-sincerely-jsx-part-1-1df99c599001
+- [elm](/elm.md)
+- virtual DOM
+  - [widely used in the game industry](http://en.wikipedia.org/wiki/Scene_graph) http://elm-lang.org/blog/blazing-fast-html
+- speed
+  - http://calendar.perfplanet.com/
+  - http://calendar.perfplanet.com/2015/why-amp-is-fast/
+- image
+  - http://calendar.perfplanet.com/2015/upgrading-jpegtran-to-mozjpeg/
+  - http://calendar.perfplanet.com/2015/why-arent-your-images-using-chroma-subsampling/
+- tools
+  - browsers
+    - chrome
+      - extensions
+        - https://chrome.google.com/webstore/detail/facebook-messenger-notifi/pdndipdnnemoafpneeeljgiimhgkjkfg
+- tabs vs spaces
+  - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/

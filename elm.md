@@ -1,0 +1,71 @@
+- learn
+  - videos
+    - [Evan Czaplicki - Let's be mainstream! User focused design in Elm](https://youtu.be/oYk8CKH7OhE)
+    - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64112108k)
+    - ["Controlling Time and Space: understanding the many formulations of FRP" by Evan Czaplicki](https://www.youtube.com/watch?v=Agu6jipKfYw)
+  - courses
+    - [Elm: Building Reactive Web Apps](https://pragmaticstudio.com/elm)
+    - [Elm: Signals, Mailboxes & Ports](https://pragmaticstudio.com/elm-signals)
+      - https://www.reddit.com/r/elm/comments/3wgxxh/trying_to_understand_the_execution_order/
+  - http://package.elm-lang.org/packages/elm-lang/core/latest - for offline clone https://github.com/elm-lang/core
+  - https://github.com/isRuslan/awesome-elm
+  - http://elm-lang.org
+    - http://elm-lang.org/get-started
+      - http://elm-lang.org/blog/interactive-programming
+      - http://elm-lang.org/blog/time-travel-made-easy
+      - http://elm-lang.org/docs/syntax
+      - http://elm-lang.org/guide/model-the-problem
+    - http://elm-lang.org/docs
+    - http://elm-lang.org/guide/reactivity
+    - http://elm-lang.org/blog/compilers-as-assistants
+    - http://elm-lang.org/docs/style-guide
+    - http://elm-lang.org/guide/architecture
+      - https://www.reddit.com/r/elm/comments/3xummo/targeting_child_actions_in_parent_views/
+      - [document and explore the implementation of what is known as "the Elm architecture"](https://github.com/paldepind/functional-frontend-architecture)
+  - http://tech.noredink.com/post/129641182738/building-a-live-validated-signup-form-in-elm
+  - https://pragmaticstudio.com/blog/2014/12/19/getting-started-with-elm
+  - https://pragmaticstudio.com/blog/2015/7/23/what-is-elm-qa
+  - [Asynchronous Functional Reactive Programming for GUIs](http://people.seas.harvard.edu/~chong/pubs/pldi13-elm.pdf)
+  - don't need a port to map each input signal and then redirect it as an Action to the mailbox. Much easier to use merge/mergeMany, mapping each input signal to respective Action [source](https://www.reddit.com/r/elm/comments/3w0tsh/a_question_about_merging_signals/)
+  - http://scrambledeggsontoast.github.io/2014/05/09/writing-2048-elm/
+  - https://en.wikibooks.org/wiki/Elm_programming_language
+
+- usages/examples/packages
+
+  - https://github.com/trending?l=elm&since=daily
+  - [packages](http://package.elm-lang.org)
+    - `elm package install evancz/elm-html`
+    - http://package.elm-lang.org/packages/evancz/elm-html/latest
+    - http://package.elm-lang.org/packages/elm-community/elm-undo-redo/latest
+    - http://package.elm-lang.org/packages/etaque/elm-route-parser/latest
+  - http://builtwithelm.co/
+  - https://github.com/odedw/elm-plane
+  - https://www.reddit.com/r/elm/comments/3wa0pb/how_to_make_a_full_website_in_elm/
+  - https://www.reddit.com/r/elm/comments/3vs52d/looking_for_elm_crud_example/
+  - http://elm-lang.org/examples
+  - https://github.com/evancz/TodoFRP
+  - https://github.com/twopoint718/elmchat
+    - http://bendyworks.com/elm-frontend-right-now/
+- tools
+  - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
+  - https://github.com/elm-lang/elm-reactor
+    - Install Elm Platform. This will install Elm Reactor and everything else it needs.
+      - `npm install -g elm` or binaries
+    - it improves the time traveling debugger created by Laszlo Pandy and Evan Czaplicki, turning it into a practical development tool [source](http://elm-lang.org/blog/time-travel-made-easy)
+- quotes
+  - First The Elm Architecture in React, now Flow follows Elm's UX lead! [source](https://twitter.com/rtfeldman/status/673680421545107456)
+  - Elm's hidden agenda - to subtly spoil us with the idea of declarative programming for building GUIs [source](https://speakerdeck.com/suvash/getting-reactive-with-elm)
+  - 100% typed code (with @elmlang) is orders of magnitude better than 95% typed code (with TypeScript or Flow). Elm eliminates runtime errors. [source](https://twitter.com/andrestaltz/status/681186227039678465)
+- community
+  - https://twitter.com/elmlang
+  - https://www.reddit.com/r/elm/
+  - https://groups.google.com/forum/?fromgroups#!forum/elm-discuss
+- jsfiddle/jsbin/codepen alike
+  - http://share-elm.com/
+  - http://elm-lang.org/try
+- pros/cons
+  - https://www.quora.com/What-do-you-think-is-the-future-of-the-Elm-programming-language
+  - cons
+    - Regardless of the technical merits of any alternative solution offers, and we are not just talking about Clojurescript, Elm offers a similar set of advantages, the herding effect is powerful. Your investment in Javascript is far more likely to pay off that putting time into one of the alternatives, none of which have momentum. http://rrees.me/2014/01/16/clojurescript-is-it-any-better-yet/
+    - it's hard to interface with JavaScript, making libraries such as three.js and pixi.js unavailable https://www.reddit.com/r/elm/comments/3vxxyt/is_elm_lacking_an_assetgame_framework/cxrrier
+    - Right now, making use of browser api's isn't as easy as it should be, and interop with external js libraries almost too much work to be worth it (I'm my experience). https://www.reddit.com/r/elm/comments/3y9un5/any_idea_about_how_to_make_mobile_html_apps/cyc6r33
