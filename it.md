@@ -134,6 +134,30 @@
   - browsers
     - chrome
       - extensions
-        - https://chrome.google.com/webstore/detail/facebook-messenger-notifi/pdndipdnnemoafpneeeljgiimhgkjkfg
+        - facebook
+          - https://chrome.google.com/webstore/detail/facebook-messenger-notifi/pdndipdnnemoafpneeeljgiimhgkjkfg
+          - http://www.fbpurity.com/
+          - https://chrome.google.com/webstore/detail/friends-feed/nlenanfmnogchfccgdadohbacedphodd
+  - editors
+    - atom
+      - Clickable links in markdown
+        - ctrl+o https://atom.io/packages/open-path
+        - ctrl+click https://atom.io/packages/nuclide-url-hyperclick + https://atom.io/packages/hyperclick
+        - https://discuss.atom.io/t/clickable-links-in-markdown-file/15130
+      - diff two files from tree view
+        - https://atom.io/packages/compare-files
+        - https://github.com/mupchrch/split-diff
+      - git diff
+        - https://github.com/atom/git-diff
+        - side-by-side
+          - ungit https://github.com/FredrikNoren/ungit/issues/126
+          - https://atom.io/packages/git-history + https://github.com/mupchrch/split-diff
+            - https://discuss.atom.io/t/compare-files-side-by-side-with-diff-highlight/13726/10
+      - linter
+        - linter-plus is now linter:  
+        https://github.com/steelbrain/linter-plus > https://github.com/AtomLinter/linter > https://github.com/atom-community/linter
 - tabs vs spaces
   - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
+- quantum computing
+  - algorytmy odporne na ataki kwantowe np większość/wszystkie symetryczne, a z asymetrycznych między innymi NTRU (algorytm oparty na kratach). [source](http://antyweb.pl/komputer-kwantowy-nasa-google/#comment-2429625112)
+    - https://en.wikipedia.org/wiki/Elliptic_curve_cryptography#Quantum_computing_attacks

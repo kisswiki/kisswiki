@@ -1,0 +1,1 @@
+- http://antyweb.pl/brak-kary-umownej-za-zerwanie-umowy-z-operatorem-sieci-to-jest-mozliwe/
