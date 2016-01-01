@@ -136,6 +136,18 @@
   - http://calendar.perfplanet.com/2015/why-arent-your-images-using-chroma-subsampling/
 - tools
   - browsers
+    - userstyles
+      - https://userstyles.org/styles/browse/global
+      - https://userstyles.org/styles/47391/midnight-surfing-alternative
+        - blacklist stack*
+          - regexp("^https?:\\/\\/(?!.*(stackoverflow|stackexchange|serverfault|superuser|stackapps|mathoverflow|askubuntu|github|youtube|wikipedia)\.(com|org)\\/).*")
+      - https://userstyles.org/styles/35345/stackoverflow-dark
+      - https://userstyles.org/styles/101409/youtube-dark-grey
+      - https://userstyles.org/styles/47161/dark-wikipedia-rounded
+      - blacklist
+        - http://stackoverflow.com/questions/12904773/specify-urls-not-to-affect-wih-moz-document-in-stylish
+      - https://github.com/JasonBarnabe/stylish/wiki/Valid-@-moz-document-rules
+      - https://github.com/JasonBarnabe/stylish/wiki/Applying-styles-to-specific-sites
     - chrome
       - extensions
         - facebook
@@ -143,20 +155,27 @@
           - http://www.fbpurity.com/
           - https://chrome.google.com/webstore/detail/friends-feed/nlenanfmnogchfccgdadohbacedphodd
     - firefox
-      - reader
+      - dark
         - https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages
+        - https://addons.mozilla.org/en-US/firefox/addon/owl/
+        - https://addons.mozilla.org/en-US/firefox/addon/ft-deepdark/
       - language translate
         - https://addons.mozilla.org/en-US/firefox/addon/google-translator/
       - suspend/unload tabs
         - https://www.reddit.com/r/firefox/comments/36qc63/which_tab_suspender/
-          - https://addons.mozilla.org/en-US/firefox/addon/auto-unload-tab/
+          - https://addons.mozilla.org/en-US/firefox/addon/auto-unload-tab/ - maybe not needed, seems firefox has it built-in
         - https://addons.mozilla.org/pl/firefox/addon/tab-data/
+      - buttons
+        - https://addons.mozilla.org/en-US/firefox/addon/proper-buttons/
+        - https://addons.mozilla.org/en-US/firefox/addon/movablereload29/
   - editors
     - atom
       - clickable links in markdown
         - ctrl+o https://atom.io/packages/open-path
         - ctrl+click https://atom.io/packages/nuclide-url-hyperclick + https://atom.io/packages/hyperclick
         - https://discuss.atom.io/t/clickable-links-in-markdown-file/15130
+        - snippets installed with package langauge-gfm, look at settings to see the list
+          - example: type b, tooltip shows, press tab
       - javascript jump to definition
         - https://discuss.atom.io/t/is-there-a-simple-go-to-definition/11809/15
           - https://atom.io/packages/goto
@@ -173,6 +192,9 @@
       - linter
         - linter-plus is now linter:  
         https://github.com/steelbrain/linter-plus > https://github.com/AtomLinter/linter > https://github.com/atom-community/linter
+        - eslint
+          - [recent versions of ESLint do not use any rules by-default](https://atom.io/packages/linter-eslint)
+          - npm i -D eslint-config-airbnb
       - appearance/themes/syntax highlighting
         - https://github.com/silvestreh/atom-material-ui (uses background color from syntax theme)
         - https://atom.io/themes/oceanic-next
@@ -197,8 +219,17 @@
       - https://github.com/ShareX/ShareX
       - [LightShot](https://app.prntscr.com)
 - javascript
+  - framework
+    - http://www.commitstrip.com/en/2015/09/16/how-to-choose-the-right-javascript-framework/
   - validation
     - https://github.com/SzybkiSasza/validators-pl
+  - lint
+    - eslint
+      - [recent versions of ESLint do not use any rules by-default](https://atom.io/packages/linter-eslint)
+      - http://devnull.guru/get-started-with-eslint/
+      - https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
+
+        `npm i -D eslint-config-airbnb`
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
@@ -206,6 +237,8 @@
   - http://stackoverflow.com/questions/6164629/dynamic-programming-and-memoization-bottom-up-vs-top-down-approaches
   - https://en.wikipedia.org/wiki/Dynamic_programming
   - http://stackoverflow.com/questions/12042356/memoization-or-tabulation-approach-for-dynamic-programming
+  - http://addyosmani.com/blog/faster-javascript-memoization/
+  - http://www.sitepoint.com/implementing-memoization-in-javascript/
   - using lodash
 
     ```
