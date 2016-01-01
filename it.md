@@ -38,6 +38,10 @@
   - http://www.evanmiller.org/how-not-to-sort-by-average-rating.html
   - [How to share data with a statistician](https://github.com/jtleek/datasharing)
 - github.com
+  - contributions
+    - yearly heat map https://github.com/rofrol?tab=contributions&period=yearly
+    - https://developer.github.com/v3/repos/statistics/#get-the-last-year-of-commit-activity-data
+    - most contributions https://gist.github.com/paulmillr/2657075/
   - https://github.com/tiimgreen/github-cheat-sheet
   - markdown
     - https://github.com/tchapi/markdown-cheatsheet
@@ -138,12 +142,25 @@
           - https://chrome.google.com/webstore/detail/facebook-messenger-notifi/pdndipdnnemoafpneeeljgiimhgkjkfg
           - http://www.fbpurity.com/
           - https://chrome.google.com/webstore/detail/friends-feed/nlenanfmnogchfccgdadohbacedphodd
+    - firefox
+      - reader
+        - https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages
+      - language translate
+        - https://addons.mozilla.org/en-US/firefox/addon/google-translator/
+      - suspend/unload tabs
+        - https://www.reddit.com/r/firefox/comments/36qc63/which_tab_suspender/
+          - https://addons.mozilla.org/en-US/firefox/addon/auto-unload-tab/
+        - https://addons.mozilla.org/pl/firefox/addon/tab-data/
   - editors
     - atom
-      - Clickable links in markdown
+      - clickable links in markdown
         - ctrl+o https://atom.io/packages/open-path
         - ctrl+click https://atom.io/packages/nuclide-url-hyperclick + https://atom.io/packages/hyperclick
         - https://discuss.atom.io/t/clickable-links-in-markdown-file/15130
+      - javascript jump to definition
+        - https://discuss.atom.io/t/is-there-a-simple-go-to-definition/11809/15
+          - https://atom.io/packages/goto
+        - https://atom.io/packages/js-hyperclick
       - diff two files from tree view
         - https://atom.io/packages/compare-files
         - https://github.com/mupchrch/split-diff
@@ -156,8 +173,43 @@
       - linter
         - linter-plus is now linter:  
         https://github.com/steelbrain/linter-plus > https://github.com/AtomLinter/linter > https://github.com/atom-community/linter
+      - appearance/themes/syntax highlighting
+        - https://github.com/silvestreh/atom-material-ui (uses background color from syntax theme)
+        - https://atom.io/themes/oceanic-next
+        - https://atom.io/packages/file-icons
+      - git
+        - https://atom.io/packages/git-plus
+      - html
+        - https://atom.io/packages/emmet
+      - markdown
+        - https://atom.io/packages/toggle-markdown-task
+        - https://atom.io/packages/markdown-helpers
+        - https://atom.io/packages/markdown-deluxe
+        - https://atom.io/packages/linter-markdown
 - tabs vs spaces
   - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
 - quantum computing
   - algorytmy odporne na ataki kwantowe np większość/wszystkie symetryczne, a z asymetrycznych między innymi NTRU (algorytm oparty na kratach). [source](http://antyweb.pl/komputer-kwantowy-nasa-google/#comment-2429625112)
     - https://en.wikipedia.org/wiki/Elliptic_curve_cryptography#Quantum_computing_attacks
+- operating systems
+  - windows
+    - screen capture/record
+      - https://github.com/ShareX/ShareX
+      - [LightShot](https://app.prntscr.com)
+- javascript
+  - validation
+    - https://github.com/SzybkiSasza/validators-pl
+- hardware
+  - robots
+    - https://www.hackster.io/projects/tags/robots
+- dynamic programming
+  - http://stackoverflow.com/questions/6164629/dynamic-programming-and-memoization-bottom-up-vs-top-down-approaches
+  - https://en.wikipedia.org/wiki/Dynamic_programming
+  - http://stackoverflow.com/questions/12042356/memoization-or-tabulation-approach-for-dynamic-programming
+  - using lodash
+
+    ```
+    var fibonacci = _.memoize(function(n) {
+    return n < 2 ? n : fibonacci(n - 1) + fibonacci(n - 2);
+      });
+    ```

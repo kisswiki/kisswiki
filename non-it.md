@@ -1,1 +1,2 @@
 - http://antyweb.pl/brak-kary-umownej-za-zerwanie-umowy-z-operatorem-sieci-to-jest-mozliwe/
+- http://antyweb.pl/sad-uznal-kary-za-zerwanie-umowy-z-operatorem-za-niezgodne-z-prawem/
