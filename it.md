@@ -139,8 +139,9 @@
     - userstyles
       - https://userstyles.org/styles/browse/global
       - https://userstyles.org/styles/47391/midnight-surfing-alternative
-        - blacklist stack*
-          - regexp("^https?:\\/\\/(?!.*(stackoverflow|stackexchange|serverfault|superuser|stackapps|mathoverflow|askubuntu|github|youtube|wikipedia)\.(com|org)\\/).*")
+        - blacklist
+
+          `regexp("^https?:\\/\\/(?!.*(stackoverflow|stackexchange|serverfault|superuser|stackapps|mathoverflow|askubuntu|github|youtube|wikipedia)\.(com|org)\\/).*")`
       - https://userstyles.org/styles/35345/stackoverflow-dark
       - https://userstyles.org/styles/101409/youtube-dark-grey
       - https://userstyles.org/styles/47161/dark-wikipedia-rounded
