@@ -90,9 +90,10 @@
     - speed
       - https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Writing_efficient_CSS
       - http://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/
-    - learn
+     - learn
       - books
         - [CSS Secrets: Better Solutions to Everyday Web Design Problems - Lea Verou](http://www.amazon.com/CSS-Secrets-Lea-Verou/dp/1449372635)
+  - http://www.joezimjs.com/javascript/top-5-9-favorite-html5-apis/
 - flexbox
   - https://github.com/10up/flexibility
 - reactive programming
@@ -271,6 +272,7 @@
         - Keybinding Resolver
           - You can open and close the resolver using `cmd-.`
       - http://blog.atom.io/2014/06/09/stars.html
+      - default line ending - use .editorconfig
 - tabs vs spaces
   - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
 - quantum computing
@@ -304,6 +306,8 @@
     - https://github.com/domenic/count-to-6
   - storage
     - http://nolanlawson.com/2015/09/29/indexeddb-websql-localstorage-what-blocks-the-dom/
+  - regex
+    - https://github.com/slevithan/xregexp
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
@@ -363,3 +367,7 @@
   - http://nolanlawson.com/2015/12/28/how-to-fix-a-bug-in-an-open-source-project/
 - npm
   - http://nolanlawson.com/2015/10/19/the-struggles-of-publishing-a-javascript-library/
+- people/news
+  - http://www.joezimjs.com/
+- cms
+  - https://github.com/relax/relax
