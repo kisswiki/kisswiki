@@ -1,2 +1,3 @@
 - [it](/it.md)
 - [non-it](/non-it.md)
+- [math](/math.md)

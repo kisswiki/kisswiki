@@ -1,0 +1,8 @@
+- statistics
+  - http://www.evanmiller.org/how-not-to-sort-by-average-rating.html
+  - [How to share data with a statistician](https://github.com/jtleek/datasharing)
+  - https://medium.com/@fburkitt/ozzie-i-liked-your-idea-so-i-used-it-to-estimate-how-long-it-would-take-to-remove-my-christmas-tree-fa90c6a7b6a4
+    - http://getguesstimate.com/models/252
+    - https://github.com/getguesstimate/guesstimate-app
+- game theory
+  - Game Theory (Open Access textbook with 165 solved exercises) http://arxiv.org/abs/1512.06808
