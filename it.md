@@ -208,6 +208,8 @@
         - https://atom.io/packages/markdown-deluxe
         - https://atom.io/packages/linter-markdown
         - https://atom.io/packages/markdown-lists
+        - sort list
+          - https://atom.io/packages/markdown-sort-list - changes `-` to `*`, doesn't sort for me
       - indent without moving to beginning Ctrl+]
 - tabs vs spaces
   - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
