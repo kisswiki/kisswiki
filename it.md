@@ -37,6 +37,9 @@
 - statistics
   - http://www.evanmiller.org/how-not-to-sort-by-average-rating.html
   - [How to share data with a statistician](https://github.com/jtleek/datasharing)
+  - https://medium.com/@fburkitt/ozzie-i-liked-your-idea-so-i-used-it-to-estimate-how-long-it-would-take-to-remove-my-christmas-tree-fa90c6a7b6a4
+    - http://getguesstimate.com/models/252
+    - https://github.com/getguesstimate/guesstimate-app
 - github.com
   - contributions
     - yearly heat map https://github.com/rofrol?tab=contributions&period=yearly
@@ -131,6 +134,7 @@
 - speed
   - http://calendar.perfplanet.com/
   - http://calendar.perfplanet.com/2015/why-amp-is-fast/
+  - https://www.devcasts.io/p/simple-hacks-to-dramatically-improve-your-page-loading/
 - image
   - http://calendar.perfplanet.com/2015/upgrading-jpegtran-to-mozjpeg/
   - http://calendar.perfplanet.com/2015/why-arent-your-images-using-chroma-subsampling/
@@ -262,3 +266,6 @@
   - https://academy.zenva.com/product/the-complete-mobile-game-development-course-platinum-edition/
   - http://phaser.io/news/2015/09/interphase-is-released
   - http://phaser.io/games
+- learn
+  - video courses
+    - https://www.devcasts.io/
