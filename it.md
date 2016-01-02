@@ -95,6 +95,8 @@
   - https://github.com/10up/flexibility
 - reactive programming
   - pros/cons
+    - pros
+      - merge three streams together but you want to debounce one of them, map the other, and sample the third based on a timer, and then map the merged stream into a different object type https://www.reddit.com/r/javascript/comments/3z0m1i/thoughts_on_rxjs/cyj0x49
     - cons
       - [Duality and the End of Reactive - Erik Meijer](https://channel9.msdn.com/Events/Lang-NEXT/Lang-NEXT-2014/Keynote-Duality)
         - https://www.facebook.com/rofrol/posts/10153688958215956
@@ -104,6 +106,9 @@
         - Debugging FRP processes was stepping through a lot of the internals of the libraries to find where events got twisted. Using FRP in smaller more isolated uses and limiting combining streams was much more beneficial and the file size increase if you’re just using it in place of a single callback function is not very useful.
         - a pattern called CSP (...) code that looks like normal is synchronous and walks line by line acutally parks and waits until something comes across the channel before going to the next line. JavaScript will be getting this with `await` in ES2016. (...) CSP is really cool, right? Async work looks like sync work and all the code is together making it easy to rationalize about.
         - FRP functions used inside streams needed to understand they were in a stream. Functions used in a transducer don’t know they’re in a transducer. Basically I can reuse them with all my current map/reduce/filtering code inside async channel.
+      - The Observable proposal is also just one way to handle asynchronous data streams there are others e.g. async/await, CSP/channels, event emitters, streams or maybe even an actor system. https://medium.com/@BrianDiPalma/thoughts-on-rxjs-cf3562e20d74
+        - https://www.reddit.com/r/javascript/comments/3z0m1i/thoughts_on_rxjs/
+  - debugging http://staltz.com/how-to-debug-rxjs-code.html
   - http://www.reactivemanifesto.org/
     - https://www.quora.com/What-is-the-significance-of-the-Reactive-Manifesto
   - Principles of Reactive Programming (using Scala) https://www.coursera.org/course/reactive
