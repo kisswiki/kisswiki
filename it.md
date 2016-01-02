@@ -181,10 +181,14 @@
         - https://discuss.atom.io/t/clickable-links-in-markdown-file/15130
         - snippets installed with package langauge-gfm, look at settings to see the list
           - example: type b, tooltip shows, press tab
-      - javascript jump to definition
-        - https://discuss.atom.io/t/is-there-a-simple-go-to-definition/11809/15
-          - https://atom.io/packages/goto
-        - https://atom.io/packages/js-hyperclick
+      - javascript
+        - jump to definition
+          - https://discuss.atom.io/t/is-there-a-simple-go-to-definition/11809/15
+            - https://atom.io/packages/goto
+          - https://atom.io/packages/js-hyperclick
+        - https://atom.io/packages/autocomplete-modules
+        - https://atom.io/packages/atom-ternjs
+        - https://atom.io/packages/turbo-javascript
       - diff two files from tree view
         - https://atom.io/packages/compare-files
         - https://github.com/mupchrch/split-diff
@@ -195,11 +199,32 @@
           - https://atom.io/packages/git-history + https://github.com/mupchrch/split-diff
             - https://discuss.atom.io/t/compare-files-side-by-side-with-diff-highlight/13726/10
       - linter
+        - to reload rules run `Linter: Toggle`
         - linter-plus is now linter:  
         https://github.com/steelbrain/linter-plus > https://github.com/AtomLinter/linter > https://github.com/atom-community/linter
         - eslint
           - [recent versions of ESLint do not use any rules by-default](https://atom.io/packages/linter-eslint)
-          - npm i -D eslint-config-airbnb
+          - https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
+            - npm i -D eslint-config-airbnb eslint-plugin-react
+            - .eslintrc
+
+              ```json
+              {
+                'extends': 'airbnb',
+                'rules': {
+                  'react/react-in-jsx-scope': 0, // when using jsx with i.e. cycle.js and not with react.js
+                  'comma-dangle': 0
+                }
+              }
+              ```
+            - When using --init, your configuration file will automatically [include](http://eslint.org/docs/user-guide/migrating-to-1.0.0.html) the following line:
+
+              ```
+              {
+                  "extends": "eslint:recommended"
+              }
+              ```
+          - https://github.com/walmartlabs/eslint-config-defaults
       - appearance/themes/syntax highlighting
         - https://github.com/silvestreh/atom-material-ui (uses background color from syntax theme)
         - https://atom.io/themes/oceanic-next
@@ -217,6 +242,19 @@
         - sort list
           - https://atom.io/packages/markdown-sort-list - changes `-` to `*`, doesn't sort for me
       - indent without moving to beginning Ctrl+]
+      - terminal
+        - https://atom.io/packages/term2 most popular - cannot install on windows and atom beta - node-gyp related
+        - https://atom.io/packages/terminal-plus second most popular and installs without problems
+      - focus
+        - https://atom.io/packages/Zen
+      - emmet
+        - https://atom.io/packages/emmet-simplified
+      - https://atom.io/packages/windows-carriage-return-remover
+      - https://atom.io/packages/atom-diary
+      - https://atom.io/packages/block-comment `ctrl+shift+/` works
+      - key binding
+        - Keybinding Resolver
+          - You can open and close the resolver using `cmd-.`
 - tabs vs spaces
   - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
 - quantum computing
