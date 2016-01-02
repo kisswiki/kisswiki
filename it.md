@@ -140,11 +140,9 @@
       - https://userstyles.org/styles/browse/global
       - https://userstyles.org/styles/47391/midnight-surfing-alternative
         - blacklist
-
-          `regexp("^https?:\\/\\/(?!.*(stackoverflow|stackexchange|serverfault|superuser|stackapps|mathoverflow|askubuntu|github|youtube|wikipedia)\.(com|org)\\/).*")`
+          `regexp("^https?:\\/\\/(?!.*(stackoverflow|stackexchange|serverfault|superuser|stackapps|mathoverflow|askubuntu|github)\.(com|org)\\/).*")`
       - https://userstyles.org/styles/35345/stackoverflow-dark
-      - https://userstyles.org/styles/101409/youtube-dark-grey
-      - https://userstyles.org/styles/47161/dark-wikipedia-rounded
+      - https://userstyles.org/styles/79105/facebook-flat
       - blacklist
         - http://stackoverflow.com/questions/12904773/specify-urls-not-to-affect-wih-moz-document-in-stylish
       - https://github.com/JasonBarnabe/stylish/wiki/Valid-@-moz-document-rules
@@ -167,8 +165,8 @@
           - https://addons.mozilla.org/en-US/firefox/addon/auto-unload-tab/ - maybe not needed, seems firefox has it built-in
         - https://addons.mozilla.org/pl/firefox/addon/tab-data/
       - buttons
-        - https://addons.mozilla.org/en-US/firefox/addon/proper-buttons/
-        - https://addons.mozilla.org/en-US/firefox/addon/movablereload29/
+        - https://addons.mozilla.org/en-US/firefox/addon/ClassicThemeRestorer/
+      - https://services.addons.mozilla.org/en-US/firefox/discovery/addon/noverflow/
   - editors
     - atom
       - clickable links in markdown
@@ -234,6 +232,11 @@
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
+    - drone
+      - http://www.instructables.com/id/DIY-Drones/
+      - http://www.makershed.com/collections/drones-flight
+      - http://diydrones.com/
+      - http://myfirstdrone.com/build-your-first-quad/
 - dynamic programming
   - http://stackoverflow.com/questions/6164629/dynamic-programming-and-memoization-bottom-up-vs-top-down-approaches
   - https://en.wikipedia.org/wiki/Dynamic_programming
@@ -247,3 +250,15 @@
     return n < 2 ? n : fibonacci(n - 1) + fibonacci(n - 2);
       });
     ```
+- game
+  - https://github.com/showcases/javascript-game-engines
+  - kids
+    - http://phaser.io/news/2015/09/doctor-who-game-maker
+    - http://phaser.io/news/2015/12/minecraft-meets-hour-of-code
+    - http://phaser.io/news/2015/09/eastenders-soap-factory
+- phaser/lazer
+  - http://www.emanueleferonato.com/2015/01/02/html5-swipe-controlled-sokoban-game-made-with-phaser-step-2-adding-keyboard-controls-and-unlimited-undos/
+  - http://www.emanueleferonato.com/2015/06/08/get-my-first-indie-minibook-from-null-to-full-html5-cross-platform-game/
+  - https://academy.zenva.com/product/the-complete-mobile-game-development-course-platinum-edition/
+  - http://phaser.io/news/2015/09/interphase-is-released
+  - http://phaser.io/games

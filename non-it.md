@@ -1,2 +1,6 @@
 - http://antyweb.pl/brak-kary-umownej-za-zerwanie-umowy-z-operatorem-sieci-to-jest-mozliwe/
 - http://antyweb.pl/sad-uznal-kary-za-zerwanie-umowy-z-operatorem-za-niezgodne-z-prawem/
+- crowdfounding
+  - https://www.patreon.com/photonstorm
+- sell digital goods
+  - https://gumroad.com/discover?query=phaser#
