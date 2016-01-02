@@ -256,10 +256,12 @@
     ```
 - game
   - https://github.com/showcases/javascript-game-engines
-  - kids
+  - for kids
     - http://phaser.io/news/2015/09/doctor-who-game-maker
     - http://phaser.io/news/2015/12/minecraft-meets-hour-of-code
     - http://phaser.io/news/2015/09/eastenders-soap-factory
+  - for programmers
+    - https://www.codingame.com
 - phaser/lazer
   - http://www.emanueleferonato.com/2015/01/02/html5-swipe-controlled-sokoban-game-made-with-phaser-step-2-adding-keyboard-controls-and-unlimited-undos/
   - http://www.emanueleferonato.com/2015/06/08/get-my-first-indie-minibook-from-null-to-full-html5-cross-platform-game/
@@ -269,3 +271,8 @@
 - learn
   - video courses
     - https://www.devcasts.io/
+- quotes
+  -  Slaves are not allowed to say no. Laborers may be hesitant to say no. But professionals are expected to say no.  
+  Indeed, good managers crave someone who has the guts to say no. It’s the only way you can really get anything done.  
+  ― Robert C. Martin, The Clean Coder: A Code of Conduct for Professional Programmers  
+  http://javarevisited.blogspot.com/2015/12/20-java-quotes-to-learn-and-motivate-yourself.html
