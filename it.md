@@ -147,6 +147,7 @@
         - blacklist
           `regexp("^https?:\\/\\/(?!.*(stackoverflow|stackexchange|serverfault|superuser|stackapps|mathoverflow|askubuntu|github)\.(com|org)\\/).*")`
       - https://userstyles.org/styles/35345/stackoverflow-dark
+      - https://userstyles.org/styles/37035/github-dark
       - https://userstyles.org/styles/79105/facebook-flat
       - blacklist
         - http://stackoverflow.com/questions/12904773/specify-urls-not-to-affect-wih-moz-document-in-stylish
