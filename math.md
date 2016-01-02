@@ -4,5 +4,10 @@
   - https://medium.com/@fburkitt/ozzie-i-liked-your-idea-so-i-used-it-to-estimate-how-long-it-would-take-to-remove-my-christmas-tree-fa90c6a7b6a4
     - http://getguesstimate.com/models/252
     - https://github.com/getguesstimate/guesstimate-app
+    - https://news.ycombinator.com/item?id=10816563
+    - http://probcomp.csail.mit.edu/bayesdb/
 - game theory
   - Game Theory (Open Access textbook with 165 solved exercises) http://arxiv.org/abs/1512.06808
+- artificial intelligence
+  - http://www.bloomberg.com/news/articles/2015-12-08/why-2015-was-a-breakthrough-year-in-artificial-intelligence
+  - http://googleresearch.blogspot.com/2015/08/the-neural-networks-behind-google-voice.html?m=1

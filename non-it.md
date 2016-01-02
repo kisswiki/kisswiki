@@ -4,3 +4,13 @@
   - https://www.patreon.com/photonstorm
 - sell digital goods
   - https://gumroad.com/discover?query=phaser#
+- time management
+  - Long lists don't get done https://amzn.com/0307463745
+    - http://lubimyczytac.pl/ksiazka/195804/rework
+- business
+  - Long lists don't get done https://amzn.com/0307463745
+    - http://lubimyczytac.pl/ksiazka/195804/rework
+- star wars
+  - http://xkcd.com/1433/
+- anger
+  - https://github.com/nzakas/ama/issues/9

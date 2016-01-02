@@ -67,6 +67,8 @@
 - git
   - [A workshopper module for learning Git and GitHub](https://github.com/jlord/git-it)
   - So you're rebasing and you resolve a conflict wrong? `git checkout --conflict=merge <FILE>` to get it back to its conflicted state https://twitter.com/maybekatz/status/677656507052392448
+  - https://xkcd.com/1597/
+  - http://think-like-a-git.net/
 - web development
   - https://github.com/google/WebFundamentals
 - html/css
@@ -205,6 +207,8 @@
         - https://atom.io/packages/markdown-helpers
         - https://atom.io/packages/markdown-deluxe
         - https://atom.io/packages/linter-markdown
+        - https://atom.io/packages/markdown-lists
+      - indent without moving to beginning Ctrl+]
 - tabs vs spaces
   - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
 - quantum computing
@@ -220,13 +224,16 @@
     - http://www.commitstrip.com/en/2015/09/16/how-to-choose-the-right-javascript-framework/
   - validation
     - https://github.com/SzybkiSasza/validators-pl
-  - lint
-    - eslint
+   - lint
+     - eslint
       - [recent versions of ESLint do not use any rules by-default](https://atom.io/packages/linter-eslint)
       - http://devnull.guru/get-started-with-eslint/
-      - https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
-
+       - https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb  
         `npm i -D eslint-config-airbnb`
+  - key binding
+    - https://github.com/piranha/keymage
+  - computer science
+    - https://github.com/nzakas/computer-science-in-javascript
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
@@ -256,12 +263,13 @@
     - http://phaser.io/news/2015/09/eastenders-soap-factory
   - for programmers
     - https://www.codingame.com
-- phaser/lazer
+ - phaser/lazer
   - http://www.emanueleferonato.com/2015/01/02/html5-swipe-controlled-sokoban-game-made-with-phaser-step-2-adding-keyboard-controls-and-unlimited-undos/
   - http://www.emanueleferonato.com/2015/06/08/get-my-first-indie-minibook-from-null-to-full-html5-cross-platform-game/
   - https://academy.zenva.com/product/the-complete-mobile-game-development-course-platinum-edition/
   - http://phaser.io/news/2015/09/interphase-is-released
   - http://phaser.io/games
+    -
 - learn
   - video courses
     - https://www.devcasts.io/
@@ -270,3 +278,14 @@
   Indeed, good managers crave someone who has the guts to say no. It’s the only way you can really get anything done.  
   ― Robert C. Martin, The Clean Coder: A Code of Conduct for Professional Programmers  
   http://javarevisited.blogspot.com/2015/12/20-java-quotes-to-learn-and-motivate-yourself.html
+ - news/blogs
+  - https://blog.codinghorror.com/
+  - https://news.ycombinator.com/
+  - https://rrrepo.co/repo/webdesign
+  - http://www.smashingmagazine.com/
+  - [Front-end, programming, design](https://gist.github.com/DrummerHead/bb62741ecf65a4e601a3)
+  - https://www.nczonline.net/
+- immutable
+  - https://github.com/nzakas/ama/issues/34
+- static websites
+  - https://www.nczonline.net/blog/2015/08/wordpress-jekyll-my-new-blog-setup/
