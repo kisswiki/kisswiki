@@ -64,6 +64,8 @@
     - chrome
       - https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn
     - https://userstyles.org/styles/70979/github-better-sized-tabs-in-code
+  - README
+    - http://vadimdemedes.com/5-tips-to-make-your-readme-stand-out/
 - git
   - [A workshopper module for learning Git and GitHub](https://github.com/jlord/git-it)
   - So you're rebasing and you resolve a conflict wrong? `git checkout --conflict=merge <FILE>` to get it back to its conflicted state https://twitter.com/maybekatz/status/677656507052392448
@@ -175,6 +177,7 @@
       - https://services.addons.mozilla.org/en-US/firefox/discovery/addon/noverflow/
   - editors
     - atom
+      - https://atom.io/docs/
       - clickable links in markdown
         - ctrl+o https://atom.io/packages/open-path
         - ctrl+click https://atom.io/packages/nuclide-url-hyperclick + https://atom.io/packages/hyperclick
@@ -203,6 +206,10 @@
         - linter-plus is now linter:  
         https://github.com/steelbrain/linter-plus > https://github.com/AtomLinter/linter > https://github.com/atom-community/linter
         - eslint
+          - error level http://devnull.guru/get-started-with-eslint/
+            - 0 - Turn the rule off
+            - 1 - Turn the rule on as a warning
+            - 2 - Turn the rule on as an error
           - [recent versions of ESLint do not use any rules by-default](https://atom.io/packages/linter-eslint)
           - https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
             - npm i -D eslint-config-airbnb eslint-plugin-react
@@ -225,6 +232,8 @@
               }
               ```
           - https://github.com/walmartlabs/eslint-config-defaults
+          - Illegal import declaration https://github.com/eslint/eslint/issues/2112#issuecomment-83633766
+            - ecmaFeatures: { modules: true }
       - appearance/themes/syntax highlighting
         - https://github.com/silvestreh/atom-material-ui (uses background color from syntax theme)
         - https://atom.io/themes/oceanic-next
@@ -238,7 +247,7 @@
         - https://atom.io/packages/markdown-helpers
         - https://atom.io/packages/markdown-deluxe
         - https://atom.io/packages/linter-markdown
-        - https://atom.io/packages/markdown-lists
+        - https://atom.io/packages/markdown-lists or https://atom.io/packages/gfm-lists
         - sort list
           - https://atom.io/packages/markdown-sort-list - changes `-` to `*`, doesn't sort for me
       - indent without moving to beginning Ctrl+]
@@ -252,9 +261,16 @@
       - https://atom.io/packages/windows-carriage-return-remover
       - https://atom.io/packages/atom-diary
       - https://atom.io/packages/block-comment `ctrl+shift+/` works
+      - https://atom.io/packages/image-view
+      - https://atom.io/packages/incompatible-packages
+      - https://atom.io/packages/notifications
+      - https://atom.io/packages/aligner
+      - https://atom.io/packages/list-edit
+      - TimeCop: View
       - key binding
         - Keybinding Resolver
           - You can open and close the resolver using `cmd-.`
+      - http://blog.atom.io/2014/06/09/stars.html
 - tabs vs spaces
   - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
 - quantum computing
@@ -280,6 +296,14 @@
     - https://github.com/piranha/keymage
   - computer science
     - https://github.com/nzakas/computer-science-in-javascript
+  - testing
+    - https://github.com/vdemedes/trevor
+    - code coverage
+      - https://github.com/bcoe/nyc
+  - es6
+    - https://github.com/domenic/count-to-6
+  - storage
+    - http://nolanlawson.com/2015/09/29/indexeddb-websql-localstorage-what-blocks-the-dom/
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
@@ -335,3 +359,7 @@
   - https://github.com/nzakas/ama/issues/34
 - static websites
   - https://www.nczonline.net/blog/2015/08/wordpress-jekyll-my-new-blog-setup/
+- open source
+  - http://nolanlawson.com/2015/12/28/how-to-fix-a-bug-in-an-open-source-project/
+- npm
+  - http://nolanlawson.com/2015/10/19/the-struggles-of-publishing-a-javascript-library/
