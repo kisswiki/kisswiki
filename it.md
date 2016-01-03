@@ -21,6 +21,7 @@
   - community
     - [chat](https://gitter.im/cyclejs/cycle-core)
     - https://twitter.com/search?q=cycle.js
+    - http://stackoverflow.com/questions/tagged/cyclejs?sort=votes
     - blogs
       - https://medium.com/@andrestaltz
       - https://medium.com/@fkrautwald
@@ -94,7 +95,7 @@
       - books
         - [CSS Secrets: Better Solutions to Everyday Web Design Problems - Lea Verou](http://www.amazon.com/CSS-Secrets-Lea-Verou/dp/1449372635)
   - http://www.joezimjs.com/javascript/top-5-9-favorite-html5-apis/
-- flexbox
+ - flexbox
   - https://github.com/10up/flexibility
 - reactive programming
   - pros/cons
@@ -111,6 +112,10 @@
         - FRP functions used inside streams needed to understand they were in a stream. Functions used in a transducer don’t know they’re in a transducer. Basically I can reuse them with all my current map/reduce/filtering code inside async channel.
       - The Observable proposal is also just one way to handle asynchronous data streams there are others e.g. async/await, CSP/channels, event emitters, streams or maybe even an actor system. https://medium.com/@BrianDiPalma/thoughts-on-rxjs-cf3562e20d74
         - https://www.reddit.com/r/javascript/comments/3z0m1i/thoughts_on_rxjs/
+      - http://lambda-the-ultimate.org/node/4900
+        - State in FRP can be distributed throughout the program. It's modeled using folds (or integrals, accumulators) over time. This is actually one of the significant weaknesses of FRP. It means FRP cannot be staged or layered compositionally: if you reactively update the FRP program from an earlier stage, you lose important state encapsulated in the FRP program of the later stage. (...) Most of the limitations of FRP are intrinsic to the nature of 'functions' and signals/events. (...) Control systems and signal processing are an excellent fit for FRP because they are naturally closed systems that tend to make very limited use of state
+        - Reactive applications are difficult to implement. Traditional solutions based on event systems and the Observer pattern have a number of inconveniences, but programmers bear them in return for the benefits of OO design. On the other hand, reactive approaches based on automatic updates of dependencies - like functional reactive programming and dataflow languages - provide undoubted advantages but do not fit well with mutable objects.
+        - here are still open challenges in the field of reactive programming. For instance, multidirectionality is supported only by a small number of languages, which do not automatically track dependencies between time-varying values. Similarly, glitch avoidance, which is subtle in reactive programs, cannot be ensured in distributed reactive programs using the current techniques.
   - debugging http://staltz.com/how-to-debug-rxjs-code.html
   - http://www.reactivemanifesto.org/
     - https://www.quora.com/What-is-the-significance-of-the-Reactive-Manifesto
@@ -119,6 +124,11 @@
   - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
     - https://news.ycombinator.com/item?id=7964873
   - Before we launched React we had a big discussion as whether we should change the name or not. React is completely different from everything that's called "reactive programming" and we were afraid to cause confusion. https://news.ycombinator.com/item?id=7965194
+  - learn
+    - tutorial
+      - https://github.com/channikhabra/yarr
+  - components
+    - https://github.com/mmai/cyclejs-sparklines
 - programming
   - [Don't comment, delete the code. Next time you write the same logic with better code!](https://twitter.com/AjeyGore/status/640430919954755585)
     - [Delete your code](https://www.youtube.com/watch?v=Oj4vXMRenFo)
@@ -139,6 +149,9 @@
   - http://calendar.perfplanet.com/
   - http://calendar.perfplanet.com/2015/why-amp-is-fast/
   - https://www.devcasts.io/p/simple-hacks-to-dramatically-improve-your-page-loading/
+  - https://github.com/wilsonpage/fastdom
+  - http://calendar.perfplanet.com/2015/using-chrome-traces-to-automate-rendering-performance/
+  - http://www.sitepoint.com/complete-guide-reducing-page-weight/
 - image
   - http://calendar.perfplanet.com/2015/upgrading-jpegtran-to-mozjpeg/
   - http://calendar.perfplanet.com/2015/why-arent-your-images-using-chroma-subsampling/
@@ -302,12 +315,15 @@
     - https://github.com/vdemedes/trevor
     - code coverage
       - https://github.com/bcoe/nyc
+    - https://github.com/erykpiast/cross-tester
   - es6
     - https://github.com/domenic/count-to-6
   - storage
     - http://nolanlawson.com/2015/09/29/indexeddb-websql-localstorage-what-blocks-the-dom/
   - regex
     - https://github.com/slevithan/xregexp
+  - modules
+    - http://calendar.perfplanet.com/2015/loading-es2015-modules-using-combo-service/
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
@@ -371,3 +387,15 @@
   - http://www.joezimjs.com/
 - cms
   - https://github.com/relax/relax
+ - security
+  - https://github.com/quantumfoam/DVNA/
+- functional programming
+  - pros/cons
+    - cons
+      - http://stackoverflow.com/questions/1786969/pitfalls-disadvantages-of-functional-programming/
+        - the real challenge in multicore programming is taking advantage of CPU caches to make sure cores aren't starved of data, a problem that has never been addressed in the context of Haskell (...) This leaves a big question mark over the purely functional programming paradigm. This is the price you pay for abstracting away time and space, which was always the major motivation behind this declarative paradigm.
+        - Functional idioms often do lots of inversion-of-control or laziness, which often has a negative impact on debugging (using a debugger). (This is somewhat offset by FP being much less error-prone due to immutability/referential transparency, which means you'll need to debug less often.)
+        - easy to add new functions for existing datatypes, but it's "hard" to add new datatypes
+      - Functional programming has one big advantage: it avoids (on conceptual level) 'states' during the runtime. Thus, the value of a term is always predetermined by the input. https://www.researchgate.net/post/What_are_the_advantages_and_disadvantages_of_functional_programming
+    - pros
+      - "immutability/referential transparency, which means you'll need to debug less often" ... and since everything is built of little independent functions, you can just test those directly; if each function is (a) a correct little function or (b) a correct composition of two or more correct little functions then wham! your program is correct http://stackoverflow.com/questions/1786969/pitfalls-disadvantages-of-functional-programming/#comment2238664_1786999

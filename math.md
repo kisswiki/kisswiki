@@ -11,3 +11,5 @@
 - artificial intelligence
   - http://www.bloomberg.com/news/articles/2015-12-08/why-2015-was-a-breakthrough-year-in-artificial-intelligence
   - http://googleresearch.blogspot.com/2015/08/the-neural-networks-behind-google-voice.html?m=1
+  - https://github.com/ivanseidel/IAMDinosaur
+    - https://www.facebook.com/groups/257881290932879/permalink/942309409156727/

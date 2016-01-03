@@ -12,5 +12,11 @@
     - http://lubimyczytac.pl/ksiazka/195804/rework
 - star wars
   - http://xkcd.com/1433/
-- anger
-  - https://github.com/nzakas/ama/issues/9
+- meditation
+  - Thich Nhat Hanh
+    - Anger https://github.com/nzakas/ama/issues/9
+    - http://lubimyczytac.pl/autor/10724/thich-nh-t-h-nh
+    - http://www.amazon.com/s?ie=UTF8&page=1&rh=n%3A283155%2Cp_27%3AThich%20Nhat%20Hanh
+    - http://www.joga-joga.pl/pl154/teksty1471/czternascie_wskazan_buddyzmu_zaangazowanego_thich
+- yoga
+  -
