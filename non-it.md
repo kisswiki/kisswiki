@@ -19,4 +19,14 @@
     - http://www.amazon.com/s?ie=UTF8&page=1&rh=n%3A283155%2Cp_27%3AThich%20Nhat%20Hanh
     - http://www.joga-joga.pl/pl154/teksty1471/czternascie_wskazan_buddyzmu_zaangazowanego_thich
 - yoga
-  -
+  - https://www.youtube.com/watch?v=GldVsaj2hg4
+- food
+  - soaking seeds
+    - Some of the principle reasons why [soaking](http://healthyblenderrecipes.com/info/soaking_grains_nuts_seeds) is beneficial to our health:
+      - it removes anti-nutrients like phytates, tannins and goitrogens
+      - it helps to neutralise enzyme inhibitors
+      - it increases the potency of nutrients such as Vitamin B
+      - it makes proteins more readily available
+      - it eradicate toxins contained in the colon and encourages the growth of beneficial bacteria like lactobacilli which we know is vital for intestinal and colon health
+      - it promotes the growth of healthy enzymes vital for healthy digestion
+    - The phytates and enzyme inhibitors that make nuts and seeds so tricky to digest can be easily neutralized by soaking in salt water and low temperature dehydrating. The combination of minerals and heat works to break down irritating compounds, while preserving the beneficial fats and proteins. Many traditional cultures intuitively practiced these preparation methods using seawater and the sun http://blog.radiantlifecatalog.com/bid/69542/That-s-Nuts-A-Complete-Guide-to-Soaking-Nuts-and-Seeds

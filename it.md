@@ -291,7 +291,11 @@
       - key binding
         - Keybinding Resolver
           - You can open and close the resolver using `cmd-.`
-      - http://blog.atom.io/2014/06/09/stars.html
+      - stars
+        - http://blog.atom.io/2014/06/09/stars.html
+        - error: `Command failed: fatal: Unable to find remote helper for 'https'` happend when installing terminal-plus from command line
+          - solution: add `C:\Program Files\Git\mingw64\libexec\git-core` to %PATH%
+          - http://stackoverflow.com/questions/28216987/impossible-to-install-atom-beautify-on-windows-7-64bit-machine-with-apm/30314943#30314943
       - default line ending - use .editorconfig
       - proxy https://github.com/atom/apm
 
