@@ -293,6 +293,12 @@
           - You can open and close the resolver using `cmd-.`
       - http://blog.atom.io/2014/06/09/stars.html
       - default line ending - use .editorconfig
+      - proxy https://github.com/atom/apm
+
+        ```
+        apm config set http-proxy <proxy>
+        apm config set https-proxy <proxy>
+        ```
 - tabs vs spaces
   - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
 - quantum computing
