@@ -297,12 +297,8 @@
           - solution: add `C:\Program Files\Git\mingw64\libexec\git-core` to %PATH%
           - http://stackoverflow.com/questions/28216987/impossible-to-install-atom-beautify-on-windows-7-64bit-machine-with-apm/30314943#30314943
       - default line ending - use .editorconfig
-      - proxy https://github.com/atom/apm
-
-        ```
-        apm config set http-proxy <proxy>
-        apm config set https-proxy <proxy>
-        ```
+      - open recent files/folders
+        - https://atom.io/packages/open-recent
 - tabs vs spaces
   - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
 - quantum computing
@@ -406,7 +402,7 @@
   - https://github.com/relax/relax
  - security
   - https://github.com/quantumfoam/DVNA/
-- functional programming
+ - functional programming
   - pros/cons
     - cons
       - http://stackoverflow.com/questions/1786969/pitfalls-disadvantages-of-functional-programming/
@@ -416,3 +412,13 @@
       - Functional programming has one big advantage: it avoids (on conceptual level) 'states' during the runtime. Thus, the value of a term is always predetermined by the input. https://www.researchgate.net/post/What_are_the_advantages_and_disadvantages_of_functional_programming
     - pros
       - "immutability/referential transparency, which means you'll need to debug less often" ... and since everything is built of little independent functions, you can just test those directly; if each function is (a) a correct little function or (b) a correct composition of two or more correct little functions then wham! your program is correct http://stackoverflow.com/questions/1786969/pitfalls-disadvantages-of-functional-programming/#comment2238664_1786999
+- proxy
+  - atom https://github.com/atom/apm
+
+   ```
+   apm config set http-proxy <proxy>
+   apm config set https-proxy <proxy>
+   ```
+  - bower
+    - bower run such commands `git ls-remote --tags --heads git://github.com/jrburke/requirejs-bower.git` even when you specified `git config --global http.proxy` and `https.proxy`  
+      `git config --global url."https://".insteadOf git://`
