@@ -5,8 +5,6 @@
   - usages - http://builtwithreact.io/
   - testing
     - If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React [source](If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React) [source](https://github.com/facebook/react/issues/5046#issuecomment-146222515)
-  - better than redux?
-    - https://engineering.heroku.com/blogs/2015-12-16-react-refetch/
 - cycle.js
   - examples
     - https://github.com/Widdershin/cycle-music-sequencer
@@ -270,14 +268,12 @@
         - https://atom.io/packages/markdown-helpers
         - https://atom.io/packages/markdown-deluxe
         - https://atom.io/packages/linter-markdown
-        - https://atom.io/packages/markdown-lists (or https://atom.io/packages/gfm-lists)
-          - ctrl+enter - new line without creating list entry
+        - https://atom.io/packages/markdown-lists or https://atom.io/packages/gfm-lists
         - sort list
           - https://atom.io/packages/markdown-sort-list - changes `-` to `*`, doesn't sort for me
       - indent without moving to beginning Ctrl+]
       - terminal
-        - https://atom.io/packages/term2 most popular
-          - cannot install on windows https://github.com/f/atom-term2/issues/132#issuecomment-168885503
+        - https://atom.io/packages/term2 most popular - cannot install on windows and atom beta - node-gyp related
         - https://atom.io/packages/terminal-plus second most popular and installs without problems
       - focus
         - https://atom.io/packages/Zen
@@ -289,11 +285,8 @@
       - https://atom.io/packages/image-view
       - https://atom.io/packages/incompatible-packages
       - https://atom.io/packages/notifications
-      - align
-        - https://atom.io/packages/aligner
-        - https://atom.io/packages/atom-alignment https://youtu.be/nTdTBs6jk98?t=88
+      - https://atom.io/packages/aligner
       - https://atom.io/packages/list-edit
-      - https://atom.io/packages/fancy-new-file
       - TimeCop: View
       - key binding
         - Keybinding Resolver
@@ -306,16 +299,6 @@
       - default line ending - use .editorconfig
       - open recent files/folders
         - https://atom.io/packages/open-recent
-      - develop packages locally
-        - https://discuss.atom.io/t/load-developing-package/2554/3
-        - manually installing an Atom package is generally a bad idea for the same reason. The process to manually install was simple at one point, but it is getting more complex as the needs of Atom grow. https://discuss.atom.io/t/manually-install-package/9251/12
-        - https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md
-      - problems installing packages
-        - http://stackoverflow.com/questions/31932858/atom-install-packages-fails-every-time/33846025#33846025
-      - mutliple cursors
-        - select word, press ctrl+d multiple times https://www.youtube.com/watch?v=bo5MM2N_3tw
-      - last opened files - `ctrl+p` https://www.youtube.com/watch?v=bo5MM2N_3tw
-      - emmet https://youtu.be/nTdTBs6jk98?t=15
 - tabs vs spaces
   - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
 - quantum computing
@@ -413,38 +396,6 @@
   - http://nolanlawson.com/2015/12/28/how-to-fix-a-bug-in-an-open-source-project/
 - npm
   - http://nolanlawson.com/2015/10/19/the-struggles-of-publishing-a-javascript-library/
-  - develop locally
-    - https://github.com/npm/npm/issues/6700#issuecomment-71302066
-    - https://github.com/npm/npm/issues/6700#issuecomment-74788010
-    - http://stackoverflow.com/questions/24949902/errors-installing-pty-js-node
-  - scopes
-    - http://blog.npmjs.org/post/116936804365/solving-npms-hard-problem-naming-packages
-  - npm3
-  - update npm
-    - setting path to global npm packages before path to nodejs directory has no effect inside conemu/git bash. Works in cmd.exe
-      - I've used Option 3 to udpdate internal npm https://github.com/msysgit/msysgit/wiki/Diagnosing-why-Git-is-so-slow
-  - msvs_version
-    - https://github.com/nodejs/node-gyp/blob/9049241f9181456a6fbe3b263bcedae504e0c571/gyp/pylib/gyp/MSVSVersion.py#L229
-    - no need to set with env `GYP_MSVS_VERSION`
-
-      ```
-      npm config set msvs_version 2013
-      npm config ls
-      apm config set msvs_version 2013
-      apm config ls
-      ```
-    - don't use `msvs_version` 2015, use 2013
-      - [Visual Studio Community 2013](http://go.microsoft.com/fwlink/?LinkId=517284)
-      - https://github.com/f/atom-term2/issues/132#issuecomment-135601641
-      - when installing term2 apm package: `npm error C3688: invalid literal suffix` http://stackoverflow.com/questions/31738796/using-macro-with-string-fails-on-vc-2015
-    - https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md
-  - node-gyp
-    - [node-gyp is not recognized as an internal or external command](https://github.com/atom/electron/issues/711)
-        - `npm install -g node-gyp`
-    - https://github.com/nodejs/node-gyp
-    - http://stackoverflow.com/questions/20051318/npm-native-builds-with-only-visual-studio-2013-installed/26685368#26685368
-      - https://github.com/nodejs/node-gyp/wiki/Updating-npm's-bundled-node-gyp
-    - require package inside browser https://tonicdev.com/
 - people/news
   - http://www.joezimjs.com/
 - cms
@@ -471,3 +422,13 @@
   - bower
     - bower run such commands `git ls-remote --tags --heads git://github.com/jrburke/requirejs-bower.git` even when you specified `git config --global http.proxy` and `https.proxy`  
       `git config --global url."https://".insteadOf git://`
+- forward proxy
+  - nginx isn't supposed to be used as forward proxy, use squid or privoxy eventually
+    - http://serverfault.com/questions/298392/nginx-as-http-proxy-server-not-reverse-proxy/298401#298401
+    - http://superuser.com/questions/604352/nginx-as-forward-proxy-for-https/623592#623592
+  - squid
+    - http://www.cyberciti.biz/tips/linux-setup-transparent-proxy-squid-howto.html
+    - http://stackoverflow.com/questions/19199424/squid-forward-to-another-proxy-with-authentication-details-for-the-parent-prox
+    - http://www.reaper-x.com/2011/10/17/how-to-install-squid-proxy-on-windows/
+    - https://www.youtube.com/watch?v=pFt4fZANC-I
+    - https://www.youtube.com/watch?v=l2bEBlGG2A0
