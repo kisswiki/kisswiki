@@ -30,3 +30,6 @@
       - it eradicate toxins contained in the colon and encourages the growth of beneficial bacteria like lactobacilli which we know is vital for intestinal and colon health
       - it promotes the growth of healthy enzymes vital for healthy digestion
     - The phytates and enzyme inhibitors that make nuts and seeds so tricky to digest can be easily neutralized by soaking in salt water and low temperature dehydrating. The combination of minerals and heat works to break down irritating compounds, while preserving the beneficial fats and proteins. Many traditional cultures intuitively practiced these preparation methods using seawater and the sun http://blog.radiantlifecatalog.com/bid/69542/That-s-Nuts-A-Complete-Guide-to-Soaking-Nuts-and-Seeds
+- health
+  - posture
+    - http://ed.ted.com/lessons/the-benefits-of-good-posture-murat-dalkinic
