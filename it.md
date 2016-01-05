@@ -292,6 +292,7 @@
         - Keybinding Resolver
           - You can open and close the resolver using `cmd-.`
       - stars
+        - `apm stars [--user thedaniel] --install`
         - http://blog.atom.io/2014/06/09/stars.html
         - error: `Command failed: fatal: Unable to find remote helper for 'https'` happend when installing terminal-plus from command line
           - solution: add `C:\Program Files\Git\mingw64\libexec\git-core` to %PATH%
@@ -396,6 +397,8 @@
   - http://nolanlawson.com/2015/12/28/how-to-fix-a-bug-in-an-open-source-project/
 - npm
   - http://nolanlawson.com/2015/10/19/the-struggles-of-publishing-a-javascript-library/
+  - [remove confg entry](http://stackoverflow.com/questions/21228995/how-to-clear-https-proxy-setting-of-npm)
+    - `npm config rm proxy`
 - people/news
   - http://www.joezimjs.com/
 - cms
@@ -419,16 +422,15 @@
    apm config set http-proxy <proxy>
    apm config set https-proxy <proxy>
    ```
-  - bower
-    - bower run such commands `git ls-remote --tags --heads git://github.com/jrburke/requirejs-bower.git` even when you specified `git config --global http.proxy` and `https.proxy`  
+   - bower
+     - bower run such commands `git ls-remote --tags --heads git://github.com/jrburke/requirejs-bower.git` even when you specified `git config --global http.proxy` and `https.proxy`  
       `git config --global url."https://".insteadOf git://`
-- forward proxy
-  - nginx isn't supposed to be used as forward proxy, use squid or privoxy eventually
-    - http://serverfault.com/questions/298392/nginx-as-http-proxy-server-not-reverse-proxy/298401#298401
-    - http://superuser.com/questions/604352/nginx-as-forward-proxy-for-https/623592#623592
-  - squid
-    - http://www.cyberciti.biz/tips/linux-setup-transparent-proxy-squid-howto.html
-    - http://stackoverflow.com/questions/19199424/squid-forward-to-another-proxy-with-authentication-details-for-the-parent-prox
-    - http://www.reaper-x.com/2011/10/17/how-to-install-squid-proxy-on-windows/
-    - https://www.youtube.com/watch?v=pFt4fZANC-I
-    - https://www.youtube.com/watch?v=l2bEBlGG2A0
+  - gem
+    - http://stackoverflow.com/questions/5782631/how-to-install-gem-through-proxy-with-authorization/15387768#15387768  
+      http://stackoverflow.com/questions/4418/how-do-i-update-ruby-gems-from-behind-a-proxy-isa-ntlm/34412185#34412185  
+      in your ~/.gemrc  
+      `http_proxy: http://<YOUR_USER>:<YOUR_PASSWORD>@<YOUR_PROXY_HOST>:<YOUR_PROXY_PORT>`  
+      check with  
+      `gem environment`
+- ruby
+  - http://stackoverflow.com/questions/18908708/installing-ruby-gem-in-windows/32957325#32957325
