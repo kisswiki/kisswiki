@@ -1,3 +1,110 @@
+- atom
+  - https://atom.io/docs/
+  - clickable links in markdown
+    - ctrl+o https://atom.io/packages/open-path
+    - ctrl+click https://atom.io/packages/nuclide-url-hyperclick + https://atom.io/packages/hyperclick
+    - https://discuss.atom.io/t/clickable-links-in-markdown-file/15130
+    - snippets installed with package langauge-gfm, look at settings to see the list
+      - example: type b, tooltip shows, press tab
+  - javascript
+    - jump to definition
+      - https://discuss.atom.io/t/is-there-a-simple-go-to-definition/11809/15
+        - https://atom.io/packages/goto
+      - https://atom.io/packages/js-hyperclick
+    - https://atom.io/packages/autocomplete-modules
+    - https://atom.io/packages/atom-ternjs
+    - https://atom.io/packages/turbo-javascript
+  - diff two files from tree view
+    - https://atom.io/packages/compare-files
+    - https://github.com/mupchrch/split-diff
+  - git diff
+    - https://github.com/atom/git-diff
+    - side-by-side
+      - ungit https://github.com/FredrikNoren/ungit/issues/126
+      - https://atom.io/packages/git-history + https://github.com/mupchrch/split-diff
+        - https://discuss.atom.io/t/compare-files-side-by-side-with-diff-highlight/13726/10
+  - linter
+    - to reload rules run `Linter: Toggle`
+    - linter-plus is now linter:  
+    https://github.com/steelbrain/linter-plus > https://github.com/AtomLinter/linter > https://github.com/atom-community/linter
+    - eslint
+      - error level http://devnull.guru/get-started-with-eslint/
+        - 0 - Turn the rule off
+        - 1 - Turn the rule on as a warning
+        - 2 - Turn the rule on as an error
+      - [recent versions of ESLint do not use any rules by-default](https://atom.io/packages/linter-eslint)
+      - https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
+        - npm i -D eslint-config-airbnb eslint-plugin-react
+        - .eslintrc
+
+          ```json
+          {
+            'extends': 'airbnb',
+            'rules': {
+              'react/react-in-jsx-scope': 0, // when using jsx with i.e. cycle.js and not with react.js
+              'comma-dangle': 0
+            }
+          }
+          ```
+        - When using --init, your configuration file will automatically [include](http://eslint.org/docs/user-guide/migrating-to-1.0.0.html) the following line:
+
+          ```
+          {
+              "extends": "eslint:recommended"
+          }
+          ```
+      - https://github.com/walmartlabs/eslint-config-defaults
+      - Illegal import declaration https://github.com/eslint/eslint/issues/2112#issuecomment-83633766
+        - ecmaFeatures: { modules: true }
+  - appearance/themes/syntax highlighting
+    - https://github.com/silvestreh/atom-material-ui (uses background color from syntax theme)
+    - https://atom.io/themes/oceanic-next
+    - https://atom.io/packages/file-icons
+  - git
+    - https://atom.io/packages/git-plus
+  - html
+    - https://atom.io/packages/emmet
+    - https://atom.io/packages/autoclose-html
+    - https://atom.io/packages/html-entities
+  - markdown
+    - https://atom.io/packages/toggle-markdown-task
+    - https://atom.io/packages/markdown-helpers
+    - https://atom.io/packages/markdown-deluxe
+    - https://atom.io/packages/linter-markdown
+    - https://atom.io/packages/markdown-lists or https://atom.io/packages/gfm-lists
+    - sort list
+      - https://atom.io/packages/markdown-sort-list - changes `-` to `*`, doesn't sort for me
+    - https://atom.io/packages/markdown-toc/
+  - indent without moving to beginning Ctrl+]
+  - terminal
+    - https://atom.io/packages/term2 most popular - cannot install on windows and atom beta - node-gyp related
+    - https://atom.io/packages/terminal-plus second most popular and installs without problems
+  - focus
+    - https://atom.io/packages/Zen
+  - emmet
+    - https://atom.io/packages/emmet-simplified
+  - https://atom.io/packages/windows-carriage-return-remover
+  - https://atom.io/packages/atom-diary
+  - https://atom.io/packages/block-comment `ctrl+shift+/` works
+  - https://atom.io/packages/image-view
+  - https://atom.io/packages/incompatible-packages
+  - https://atom.io/packages/notifications
+  - https://atom.io/packages/aligner
+  - https://atom.io/packages/list-edit
+  - https://atom.io/packages/fancy-new-file
+  - TimeCop: View
+  - key binding
+    - Keybinding Resolver
+      - You can open and close the resolver using `cmd-.`
+  - stars
+    - `apm stars [--user thedaniel] --install`
+    - http://blog.atom.io/2014/06/09/stars.html
+    - error: `Command failed: fatal: Unable to find remote helper for 'https'` happend when installing terminal-plus from command line
+      - solution: add `C:\Program Files\Git\mingw64\libexec\git-core` to %PATH%
+      - http://stackoverflow.com/questions/28216987/impossible-to-install-atom-beautify-on-windows-7-64bit-machine-with-apm/30314943#30314943
+  - default line ending - use .editorconfig
+  - open recent files/folders
+    - https://atom.io/packages/open-recent
 - react.js
   - raw-reactjs router
   - https://www.reddit.com/r/reactjs/comments/3yjix3/explain_like_im_a_child_stateless_functional/
@@ -158,6 +265,29 @@
   - pragmatic definition of FRP
     - Use streams of data to create the application state (data)
     - Build a UI given only the application state with pure functions (view)
+  - Reactive programming is simply about decoupling data production from data consumption https://github.com/arqex/curxor/issues/1#issuecomment-72642125
+  - vs
+    - CSP
+      - CSP channels go beyond and decouple 3 things: data production, data medium, data consumption. It has its benefits, but you can also choose to decouple the data medium with Rx et al, so then CSP versus event stream processing becomes just a matter of taste. https://github.com/cyclejs/cycle-core/issues/74
+      - While there are various mechanisms to make events/callbacks cleaner (FRP, Rx/Observables) they don't change their fundamental nature, which is that upon an event an arbitrary amount of other code is run, possibly on the same thread, leading to admonitions such as "don't do too much work in your handler", and phrases like "callback hell". http://stackoverflow.com/questions/20632512/comparing-core-async-and-functional-reactive-programming-rx
+      - Streams act like events and broadcast their values. As a result you can attach many listeners to the same stream of data. Channels, act as value bridges. One value put on one end, is only received by one receiver. However, the one-to-many data stream can be simulated with a helper function, and Dropping channels. With a few helper methods, channels can be used to achieve the same semantics of promises or of streams, or a one receiver semantic that is unique.  
+      Note: this function like other functions, still needs work to account for closed channels.  
+      One downside of the one-to-many semantic of streams is that it is hard to send a message upstream telling the origin to stop emitting data.  
+      https://github.com/ubolonton/js-csp/issues/40
+      - http://potetm.github.io/2014/01/07/frp.html
+        http://potetm.github.io/2014/01/27/responsive-design-csp.html  
+        That guy reimplemented David Nolen's CSP examples on Bacon + ClojureScript and got  
+        very interesting results. He came to the opposite conclusion that it's hard to see  
+        the declared benefit of CSP over Rx (at least from the app code point of view)  
+        https://github.com/ubolonton/js-csp/issues/40#issuecomment-104650318
+      - [In the end, there is still not a clear winner but some key differences](https://github.com/ubolonton/js-csp/issues/40#issuecomment-104740618):
+        - FRP is a much higher-level abstraction and comes with many more goodies and features. It also comes with a centralized error handling. CSP on the other hand is a much lower level tool, and does very little.
+        - For someone new to async programming, CSP is a much easier concept to learn, however, in most of the common cases, FRP is much more concise. With high level methods like flatMap, FRP libraries give a simple way to handle complex interactions. CSP gives you a lower-level primitive that can easily be used to accomplish similar tasks using good old loops and if constructs, but obviously that involves more code.
+        - CSP has a default case of one sender and one receiver. FRP is more or a pub-sub model. So they are really well suited for different tasks. That said, CSP supports Mults and pub-sub as well, and FRP can be made to work in a more CSP way.
+      - [The main differences are](https://github.com/cyclejs/cycle-core/issues/74#issuecomment-73616952):
+        - js-csp is dependent on generator functions, RxJS is not.
+        - js-csp creates pipes from single senders to single receivers by default. RxJS streams can be used many times and are by default one to many streams.
+        - js-csp is a small concept that is then built on by many helper functions. (these helper functions can come in various forms, transducers being just one) RxJS, basically needs to be used as a whole large library.
 - programming
   - [Don't comment, delete the code. Next time you write the same logic with better code!](https://twitter.com/AjeyGore/status/640430919954755585)
     - [Delete your code](https://www.youtube.com/watch?v=Oj4vXMRenFo)
@@ -224,113 +354,6 @@
       - buttons
         - https://addons.mozilla.org/en-US/firefox/addon/ClassicThemeRestorer/
       - https://services.addons.mozilla.org/en-US/firefox/discovery/addon/noverflow/
-  - editors
-    - atom
-      - https://atom.io/docs/
-      - clickable links in markdown
-        - ctrl+o https://atom.io/packages/open-path
-        - ctrl+click https://atom.io/packages/nuclide-url-hyperclick + https://atom.io/packages/hyperclick
-        - https://discuss.atom.io/t/clickable-links-in-markdown-file/15130
-        - snippets installed with package langauge-gfm, look at settings to see the list
-          - example: type b, tooltip shows, press tab
-      - javascript
-        - jump to definition
-          - https://discuss.atom.io/t/is-there-a-simple-go-to-definition/11809/15
-            - https://atom.io/packages/goto
-          - https://atom.io/packages/js-hyperclick
-        - https://atom.io/packages/autocomplete-modules
-        - https://atom.io/packages/atom-ternjs
-        - https://atom.io/packages/turbo-javascript
-      - diff two files from tree view
-        - https://atom.io/packages/compare-files
-        - https://github.com/mupchrch/split-diff
-      - git diff
-        - https://github.com/atom/git-diff
-        - side-by-side
-          - ungit https://github.com/FredrikNoren/ungit/issues/126
-          - https://atom.io/packages/git-history + https://github.com/mupchrch/split-diff
-            - https://discuss.atom.io/t/compare-files-side-by-side-with-diff-highlight/13726/10
-      - linter
-        - to reload rules run `Linter: Toggle`
-        - linter-plus is now linter:  
-        https://github.com/steelbrain/linter-plus > https://github.com/AtomLinter/linter > https://github.com/atom-community/linter
-        - eslint
-          - error level http://devnull.guru/get-started-with-eslint/
-            - 0 - Turn the rule off
-            - 1 - Turn the rule on as a warning
-            - 2 - Turn the rule on as an error
-          - [recent versions of ESLint do not use any rules by-default](https://atom.io/packages/linter-eslint)
-          - https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
-            - npm i -D eslint-config-airbnb eslint-plugin-react
-            - .eslintrc
-
-              ```json
-              {
-                'extends': 'airbnb',
-                'rules': {
-                  'react/react-in-jsx-scope': 0, // when using jsx with i.e. cycle.js and not with react.js
-                  'comma-dangle': 0
-                }
-              }
-              ```
-            - When using --init, your configuration file will automatically [include](http://eslint.org/docs/user-guide/migrating-to-1.0.0.html) the following line:
-
-              ```
-              {
-                  "extends": "eslint:recommended"
-              }
-              ```
-          - https://github.com/walmartlabs/eslint-config-defaults
-          - Illegal import declaration https://github.com/eslint/eslint/issues/2112#issuecomment-83633766
-            - ecmaFeatures: { modules: true }
-      - appearance/themes/syntax highlighting
-        - https://github.com/silvestreh/atom-material-ui (uses background color from syntax theme)
-        - https://atom.io/themes/oceanic-next
-        - https://atom.io/packages/file-icons
-      - git
-        - https://atom.io/packages/git-plus
-      - html
-        - https://atom.io/packages/emmet
-        - https://atom.io/packages/autoclose-html
-        - https://atom.io/packages/html-entities
-      - markdown
-        - https://atom.io/packages/toggle-markdown-task
-        - https://atom.io/packages/markdown-helpers
-        - https://atom.io/packages/markdown-deluxe
-        - https://atom.io/packages/linter-markdown
-        - https://atom.io/packages/markdown-lists or https://atom.io/packages/gfm-lists
-        - sort list
-          - https://atom.io/packages/markdown-sort-list - changes `-` to `*`, doesn't sort for me
-        - https://atom.io/packages/markdown-toc/
-      - indent without moving to beginning Ctrl+]
-      - terminal
-        - https://atom.io/packages/term2 most popular - cannot install on windows and atom beta - node-gyp related
-        - https://atom.io/packages/terminal-plus second most popular and installs without problems
-      - focus
-        - https://atom.io/packages/Zen
-      - emmet
-        - https://atom.io/packages/emmet-simplified
-      - https://atom.io/packages/windows-carriage-return-remover
-      - https://atom.io/packages/atom-diary
-      - https://atom.io/packages/block-comment `ctrl+shift+/` works
-      - https://atom.io/packages/image-view
-      - https://atom.io/packages/incompatible-packages
-      - https://atom.io/packages/notifications
-      - https://atom.io/packages/aligner
-      - https://atom.io/packages/list-edit
-      - TimeCop: View
-      - key binding
-        - Keybinding Resolver
-          - You can open and close the resolver using `cmd-.`
-      - stars
-        - `apm stars [--user thedaniel] --install`
-        - http://blog.atom.io/2014/06/09/stars.html
-        - error: `Command failed: fatal: Unable to find remote helper for 'https'` happend when installing terminal-plus from command line
-          - solution: add `C:\Program Files\Git\mingw64\libexec\git-core` to %PATH%
-          - http://stackoverflow.com/questions/28216987/impossible-to-install-atom-beautify-on-windows-7-64bit-machine-with-apm/30314943#30314943
-      - default line ending - use .editorconfig
-      - open recent files/folders
-        - https://atom.io/packages/open-recent
 - tabs vs spaces
   - http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
 - quantum computing
