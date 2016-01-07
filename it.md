@@ -6,8 +6,10 @@
   - testing
     - If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React [source](If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React) [source](https://github.com/facebook/react/issues/5046#issuecomment-146222515)
     - https://egghead.io/series/react-testing-cookbook
-  - better than redux?
+   - better than redux?
     - https://engineering.heroku.com/blogs/2015-12-16-react-refetch/
+  - https://github.com/petehunt/react-howto
+  - RactDOM vs https://groups.google.com/d/msg/scala-js/Z-8O2TtQJ0Q/oKW8TxVjBgAJ
 - cycle.js
   - examples
     - https://github.com/Widdershin/cycle-music-sequencer
@@ -36,7 +38,7 @@
    - https://github.com/mmai/cyclejs-sparklines
 - graphql
   - https://github.com/chentsulin/awesome-graphql
-  - https://github.com/kadirahq/lokka
+   - https://github.com/kadirahq/lokka
     - https://porter.io/github.com/chentsulin/awesome-graphql
     - https://voice.kadira.io/introducing-lokka-a-simple-javascript-client-for-graphql-e0802695648c
     - https://forums.meteor.com/t/lokka-a-javascript-client-for-graphql/14922
@@ -72,6 +74,7 @@
     - https://userstyles.org/styles/70979/github-better-sized-tabs-in-code
   - README
     - http://vadimdemedes.com/5-tips-to-make-your-readme-stand-out/
+  - https://github.com/facebook/mention-bot
 - git
   - [A workshopper module for learning Git and GitHub](https://github.com/jlord/git-it)
   - So you're rebasing and you resolve a conflict wrong? `git checkout --conflict=merge <FILE>` to get it back to its conflicted state https://twitter.com/maybekatz/status/677656507052392448
@@ -145,6 +148,7 @@
 - programming
   - [Don't comment, delete the code. Next time you write the same logic with better code!](https://twitter.com/AjeyGore/status/640430919954755585)
     - [Delete your code](https://www.youtube.com/watch?v=Oj4vXMRenFo)
+  - [Succinctness is Power](http://www.paulgraham.com/power.html)
 - stackexchange.com
   - http://meta.stackexchange.com/questions/3792/how-to-nest-code-within-a-list-using-markdown
 - jspm
@@ -452,9 +456,13 @@
    - fabric.js
     - Fabric provides simple but powerful object model on top of native methods. It takes care of canvas state and rendering, and lets us work with “objects” directly http://fabricjs.com/fabric-intro-part-1/
     - downloads 65k http://npm-stat.com/charts.html?package=fabric
-  - comparison
+   - comparison
     - [Javascript 2D Canvas Libraries](https://docs.google.com/spreadsheets/d/1JYEGMN2jJtmwyjB4DMw3uaYLVMkduf61suKpiOzo0hc) - by kangax
     - http://danielsternlicht.com/playground/html5-canvas-libraries-comparison-table/
+    - http://jsperf.com/canvas-lib-render
+    - http://fabricjs.com/benchmarks/
+    - https://www.smashingmagazine.com/2012/02/web-drawing-throwdown-paper-processing-raphael/
+    - http://www.slant.co/topics/28/~javascript-drawing-library
   - [A scene management module for CreateJS](https://github.com/bloomingbridges/AtelierJS)
   - easel.js
     - downloads 12k https://bower.herokuapp.com/packages/easeljs
