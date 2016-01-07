@@ -117,9 +117,13 @@
     - https://engineering.heroku.com/blogs/2015-12-16-react-refetch/
   - https://github.com/petehunt/react-howto
   - RactDOM vs https://groups.google.com/d/msg/scala-js/Z-8O2TtQJ0Q/oKW8TxVjBgAJ
-  - with RxJS
+   - with RxJS
     - https://medium.com/@garychambers108/functional-reactive-react-js-b04a8d97a540
     - http://www.aryweb.nl/2015/02/16/Reactive-React-using-reactive-streams/
+  - immutability
+    - https://github.com/arqex/freezer
+  - https://github.com/nmn/react-infinity
+  - http://airbnb.io/infinity/
 - cycle.js
   - examples
     - https://github.com/Widdershin/cycle-music-sequencer
@@ -284,10 +288,18 @@
         - FRP is a much higher-level abstraction and comes with many more goodies and features. It also comes with a centralized error handling. CSP on the other hand is a much lower level tool, and does very little.
         - For someone new to async programming, CSP is a much easier concept to learn, however, in most of the common cases, FRP is much more concise. With high level methods like flatMap, FRP libraries give a simple way to handle complex interactions. CSP gives you a lower-level primitive that can easily be used to accomplish similar tasks using good old loops and if constructs, but obviously that involves more code.
         - CSP has a default case of one sender and one receiver. FRP is more or a pub-sub model. So they are really well suited for different tasks. That said, CSP supports Mults and pub-sub as well, and FRP can be made to work in a more CSP way.
-      - [The main differences are](https://github.com/cyclejs/cycle-core/issues/74#issuecomment-73616952):
+       - There are some differences and many similarities between js-csp and RxJS. They are both stream interfaces that can be treated as any other set of data, and so you can use common methods like map and filter. (also throttle and debounce)  
+        The main differences are:
         - js-csp is dependent on generator functions, RxJS is not.
         - js-csp creates pipes from single senders to single receivers by default. RxJS streams can be used many times and are by default one to many streams.
-        - js-csp is a small concept that is then built on by many helper functions. (these helper functions can come in various forms, transducers being just one) RxJS, basically needs to be used as a whole large library.
+        - js-csp is a small concept that is then built on by many helper functions. (these helper functions can come in various forms, transducers being just one) RxJS, basically needs to be used as a whole large library.  
+        https://github.com/cyclejs/cycle-core/issues/74#issuecomment-73616952  
+      - http://www.jayway.com/2014/09/16/comparing-core-async-and-rx-by-example/
+    - events
+      - Events are fine for one-shot notifications, but break down when you want to coordinate data from a number of sources. Event handlers tend to not be very reusable or composable. https://phuu.net/2014/08/31/csp-and-transducers.html
+      - Actors
+        - The difference between reactive objects and actors with regard to undefined methods seems to be the following: depending on its state, an actor may only respond to some subset of its full set of methods at any given time (the remainder of the methods being "undefined" at that time, and calls to those methods being queued); in contrast, reactive objects will always respond to all methods, no matter what its internal state. http://lambda-the-ultimate.org/node/2203
+  - streams can be overly chatty in which the consumer cannot keep up with the producer. To that end, we need mechanisms to control the source so that the consumer does not get overwhelmed https://github.com/Reactive-Extensions/RxJS/blob/master/doc/gettingstarted/backpressure.md
 - programming
   - [Don't comment, delete the code. Next time you write the same logic with better code!](https://twitter.com/AjeyGore/status/640430919954755585)
     - [Delete your code](https://www.youtube.com/watch?v=Oj4vXMRenFo)
@@ -476,6 +488,7 @@
     - pros
       - "immutability/referential transparency, which means you'll need to debug less often" ... and since everything is built of little independent functions, you can just test those directly; if each function is (a) a correct little function or (b) a correct composition of two or more correct little functions then wham! your program is correct http://stackoverflow.com/questions/1786969/pitfalls-disadvantages-of-functional-programming/#comment2238664_1786999
 - proxy
+  - https://gist.github.com/rofrol/3eefaa43876719428f6e
   - atom https://github.com/atom/apm
 
    ```
@@ -551,3 +564,7 @@
     - https://github.com/cerebral/addressbar
     - https://github.com/cerebral/url-mapper
 - asynchronous javascript https://github.com/Sage/streamlinejs
+ - CSP
+  - Creates a channel with an optional buffer, an optional transducer, and optional exception handler. We'll elaborate more on them later on. https://github.com/ubolonton/js-csp/blob/master/doc/basic.md
+- webpack
+  - [From Require.js & Grunt to Webpack. Heres how](https://blog.serverdensity.com/the-journey-to-webpack/)
