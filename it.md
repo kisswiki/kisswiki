@@ -372,6 +372,8 @@
   - codemod - take a JS file as input and turn them into Abstract Syntax Trees (AST) and apply transformations on this AST later converting them back to JS again https://vramana.github.io/blog/2015/12/21/codemod-tutorial/
   - documenation
     - https://github.com/documentationjs/documentation
+  - filter errors
+    - https://spion.github.io/posts/es7-async-await-step-in-the-wrong-direction.html
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
@@ -507,7 +509,7 @@
   - http://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html
   - pros/cons
     - cons
-      - http://jlongster.com/Stop-Trying-to-Catch-Me
+      - They have no idea that they made a typo in asyncFunction, and it takes them a while to learn that run actually returns a promise http://jlongster.com/Stop-Trying-to-Catch-Me
       - await has also another problem in that if somewhere, deep down the call stack, something is intending to do async, then up the entire call stack everywhere you've got to insert await https://esdiscuss.org/topic/does-async-await-solve-a-real-problem#content-4
       - On the syntax side, I am not convinced by the await construct. The problem is that await is prefix. So it does not play well in chains of async calls. Consider the following:
 
@@ -516,11 +518,13 @@
         async/await: await (await (await f1()).f2()).f3();
         ```
         https://esdiscuss.org/topic/does-async-await-solve-a-real-problem#content-11
+      - https://spion.github.io/posts/es7-async-await-step-in-the-wrong-direction.html
   - vs
     - generator and yield
       - https://esdiscuss.org/topic/does-async-await-solve-a-real-problem#content-2
-- router
+ - router
   - http://www.christianalfoni.com/articles/2015_08_20_What-if-the-adddressbar-worked-like-an-input
     - https://github.com/christianalfoni/reactive-router
     - https://github.com/cerebral/addressbar
     - https://github.com/cerebral/url-mapper
+- asynchronous javascript https://github.com/Sage/streamlinejs
