@@ -10,6 +10,9 @@
     - https://engineering.heroku.com/blogs/2015-12-16-react-refetch/
   - https://github.com/petehunt/react-howto
   - RactDOM vs https://groups.google.com/d/msg/scala-js/Z-8O2TtQJ0Q/oKW8TxVjBgAJ
+  - with RxJS
+    - https://medium.com/@garychambers108/functional-reactive-react-js-b04a8d97a540
+    - http://www.aryweb.nl/2015/02/16/Reactive-React-using-reactive-streams/
 - cycle.js
   - examples
     - https://github.com/Widdershin/cycle-music-sequencer
@@ -36,6 +39,9 @@
       - Cycle.js is a paradigm changer, because it is the only framework in which you can extract explicit data flow graphs from the code base. When introducing new developers to large code bases, this can make them reason about the code without looking at code. [link](https://medium.com/@fkrautwald/we-are-not-writing-much-code-5404fb7d39e)
   - components
    - https://github.com/mmai/cyclejs-sparklines
+ - vs
+   - flux
+
 - graphql
   - https://github.com/chentsulin/awesome-graphql
    - https://github.com/kadirahq/lokka
@@ -108,8 +114,10 @@
   - https://github.com/10up/flexibility
 - reactive programming
   - pros/cons
+    - Functional reactive programming provides us with a toolset to easily describe complex concurrent data or control flows in a declarative way using a clear interface—it’s all about what and not how! Indeed you have to learn a new paradigm, which adds another level of abstraction, but in the end it feels very natural. One major drawback is the ability to debug reactive code, because events fly around at many points in time. I ignored error handling in all examples, which is in fact not a big deal and built into event streams by design. FRP is not the holy grail and has to be chosen wisely for the right job—like data binding. https://www.zweitag.de/en/blog/technology/functional-reactive-programming-frp
     - pros
       - merge three streams together but you want to debounce one of them, map the other, and sample the third based on a timer, and then map the merged stream into a different object type https://www.reddit.com/r/javascript/comments/3z0m1i/thoughts_on_rxjs/cyj0x49
+      - While Flux suggests using the low-level EventEmitter which requires manual event handling, RxJS and similar event processing tools are powerhouses capable of replacing a lot of boilerplate that a typical Flux application contains. RxJS also allows the internal structure of a component to be reactive. http://futurice.com/blog/reactive-mvc-and-the-virtual-dom
     - cons
       - [Duality and the End of Reactive - Erik Meijer](https://channel9.msdn.com/Events/Lang-NEXT/Lang-NEXT-2014/Keynote-Duality)
         - https://www.facebook.com/rofrol/posts/10153688958215956
@@ -145,10 +153,22 @@
       - https://egghead.io/series/introduction-to-reactive-programming
       - https://egghead.io/lessons/javascript-introducing-the-observable
   - distinguish deeply/genuinely functional programming from merely functional-looking notations https://stackoverflow.com/questions/5875929/specification-for-a-functional-reactive-programming-language
+  - https://github.com/christianalfoni/EmptyBox/blob/master/posts/2015_04_01_Functional-Reactive-Applications.md
+    - RxJS feels much like the immutable-js project by Facebook. It is a huge API that is about handling data, not about creating applications.
+    - when developers think Functional Reactive Programming they think Observables and being able to use functional concepts like Map, Reduce, Filter etc. on them
+    - Reactive Programming can most easily be explained as reacting to a change, instead of being told about a change
+  - unlike an iterable, which has a known length, an observable is often open-ended, so we have to use the slightly less familiar scan operation. This is basically an incremental reduce, performing an aggregation step for each item in the observable sequence as soon as it arrives. https://medium.com/@garychambers108/functional-reactive-react-js-b04a8d97a540
+  - pragmatic definition of FRP
+    - Use streams of data to create the application state (data)
+    - Build a UI given only the application state with pure functions (view)
 - programming
   - [Don't comment, delete the code. Next time you write the same logic with better code!](https://twitter.com/AjeyGore/status/640430919954755585)
     - [Delete your code](https://www.youtube.com/watch?v=Oj4vXMRenFo)
   - [Succinctness is Power](http://www.paulgraham.com/power.html)
+    - the measure of the power of a programming language is how small it makes your programs
+    - programmers seemed to generate about the same amount of code per day regardless of the language
+    - programs written in more powerful languages tend to have fewer bugs
+    -  the notation is not the problem, even though it may feel like it is. The math paper is hard to read because the ideas are hard.
 - stackexchange.com
   - http://meta.stackexchange.com/questions/3792/how-to-nest-code-within-a-list-using-markdown
 - jspm
@@ -353,6 +373,8 @@
    - modules
     - http://calendar.perfplanet.com/2015/loading-es2015-modules-using-combo-service/
   - codemod - take a JS file as input and turn them into Abstract Syntax Trees (AST) and apply transformations on this AST later converting them back to JS again https://vramana.github.io/blog/2015/12/21/codemod-tutorial/
+  - documenation
+    - https://github.com/documentationjs/documentation
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
@@ -484,3 +506,8 @@
   - The definition of race conditions is not tied to multithreading. It is simply when you have a system that is dependent on the sequence of events from multiple components and then the components behave in an unintended way http://amasad.me/2015/10/31/javascript-async-functions-for-easier-concurrent-programming
 - async/await
   - Using async functions (or generally co-routines) you can write programs that makes the expected ordering of events explicit and makes it easier to recover from failures in subcomponents. http://amasad.me/2015/10/31/javascript-async-functions-for-easier-concurrent-programming
+- router
+  - http://www.christianalfoni.com/articles/2015_08_20_What-if-the-adddressbar-worked-like-an-input
+    - https://github.com/christianalfoni/reactive-router
+    - https://github.com/cerebral/addressbar
+    - https://github.com/cerebral/url-mapper
