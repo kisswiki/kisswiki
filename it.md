@@ -5,6 +5,9 @@
   - usages - http://builtwithreact.io/
   - testing
     - If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React [source](If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React) [source](https://github.com/facebook/react/issues/5046#issuecomment-146222515)
+    - https://egghead.io/series/react-testing-cookbook
+  - better than redux?
+    - https://engineering.heroku.com/blogs/2015-12-16-react-refetch/
 - cycle.js
   - examples
     - https://github.com/Widdershin/cycle-music-sequencer
@@ -26,9 +29,11 @@
       - https://medium.com/@andrestaltz
       - https://medium.com/@fkrautwald
   - [canvas performance](https://gitter.im/cyclejs/cycle-core?at=5681a7610199d70069dffd60)
-  - pros/cons
-    - pros
+   - pros/cons
+     - pros
       - Cycle.js is a paradigm changer, because it is the only framework in which you can extract explicit data flow graphs from the code base. When introducing new developers to large code bases, this can make them reason about the code without looking at code. [link](https://medium.com/@fkrautwald/we-are-not-writing-much-code-5404fb7d39e)
+  - components
+   - https://github.com/mmai/cyclejs-sparklines
 - graphql
   - https://github.com/chentsulin/awesome-graphql
   - https://github.com/kadirahq/lokka
@@ -72,6 +77,7 @@
   - So you're rebasing and you resolve a conflict wrong? `git checkout --conflict=merge <FILE>` to get it back to its conflicted state https://twitter.com/maybekatz/status/677656507052392448
   - https://xkcd.com/1597/
   - http://think-like-a-git.net/
+  - extra commands https://github.com/alebcay/awesome-shell
 - web development
   - https://github.com/google/WebFundamentals
 - html/css
@@ -122,7 +128,6 @@
           Contrast FRP with something like the script for a play, which is a well proven technology for describing time-varying behavior that coordinates multiple agents. What would an FRP program for Hamlet look like?  
 
           One visible symptom of this issue is when complex applications of FRP end up creating types that represent "deltas" or partial states, along with composition operators, and then describe many behaviors in terms of time-varying deltas, rather than time-varying states. This is effectively constructing a "thing an agent does" model of behavior inside of FRP, to make up for its absence.
-  - debugging http://staltz.com/how-to-debug-rxjs-code.html
   - http://www.reactivemanifesto.org/
     - https://www.quora.com/What-is-the-significance-of-the-Reactive-Manifesto
   - Principles of Reactive Programming (using Scala) https://www.coursera.org/course/reactive
@@ -133,8 +138,10 @@
   - learn
     - tutorial
       - https://github.com/channikhabra/yarr
-  - components
-    - https://github.com/mmai/cyclejs-sparklines
+     - video courses
+      - https://egghead.io/series/introduction-to-reactive-programming
+      - https://egghead.io/lessons/javascript-introducing-the-observable
+  - distinguish deeply/genuinely functional programming from merely functional-looking notations https://stackoverflow.com/questions/5875929/specification-for-a-functional-reactive-programming-language
 - programming
   - [Don't comment, delete the code. Next time you write the same logic with better code!](https://twitter.com/AjeyGore/status/640430919954755585)
     - [Delete your code](https://www.youtube.com/watch?v=Oj4vXMRenFo)
@@ -263,6 +270,8 @@
         - https://atom.io/packages/git-plus
       - html
         - https://atom.io/packages/emmet
+        - https://atom.io/packages/autoclose-html
+        - https://atom.io/packages/html-entities
       - markdown
         - https://atom.io/packages/toggle-markdown-task
         - https://atom.io/packages/markdown-helpers
@@ -271,6 +280,7 @@
         - https://atom.io/packages/markdown-lists or https://atom.io/packages/gfm-lists
         - sort list
           - https://atom.io/packages/markdown-sort-list - changes `-` to `*`, doesn't sort for me
+        - https://atom.io/packages/markdown-toc/
       - indent without moving to beginning Ctrl+]
       - terminal
         - https://atom.io/packages/term2 most popular - cannot install on windows and atom beta - node-gyp related
@@ -336,8 +346,9 @@
     - http://nolanlawson.com/2015/09/29/indexeddb-websql-localstorage-what-blocks-the-dom/
   - regex
     - https://github.com/slevithan/xregexp
-  - modules
+   - modules
     - http://calendar.perfplanet.com/2015/loading-es2015-modules-using-combo-service/
+  - codemod - take a JS file as input and turn them into Abstract Syntax Trees (AST) and apply transformations on this AST later converting them back to JS again https://vramana.github.io/blog/2015/12/21/codemod-tutorial/
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
@@ -380,8 +391,9 @@
 - quotes
   -  Slaves are not allowed to say no. Laborers may be hesitant to say no. But professionals are expected to say no.  
   Indeed, good managers crave someone who has the guts to say no. It’s the only way you can really get anything done.  
-  ― Robert C. Martin, The Clean Coder: A Code of Conduct for Professional Programmers  
+  - Robert C. Martin, The Clean Coder: A Code of Conduct for Professional Programmers  
   http://javarevisited.blogspot.com/2015/12/20-java-quotes-to-learn-and-motivate-yourself.html
+  - A programming language is low level when its programs require attention to the irrelevant - Alan Perlis
  - news/blogs
   - https://blog.codinghorror.com/
   - https://news.ycombinator.com/
@@ -433,4 +445,34 @@
       check with  
       `gem environment`
 - ruby
-  - http://stackoverflow.com/questions/18908708/installing-ruby-gem-in-windows/32957325#32957325
+  - windows http://stackoverflow.com/questions/18908708/installing-ruby-gem-in-windows/32957325#32957325
+- bash
+  - https://github.com/alebcay/awesome-shell
+- canvas
+   - fabric.js
+    - Fabric provides simple but powerful object model on top of native methods. It takes care of canvas state and rendering, and lets us work with “objects” directly http://fabricjs.com/fabric-intro-part-1/
+    - downloads 65k http://npm-stat.com/charts.html?package=fabric
+  - comparison
+    - [Javascript 2D Canvas Libraries](https://docs.google.com/spreadsheets/d/1JYEGMN2jJtmwyjB4DMw3uaYLVMkduf61suKpiOzo0hc) - by kangax
+    - http://danielsternlicht.com/playground/html5-canvas-libraries-comparison-table/
+  - [A scene management module for CreateJS](https://github.com/bloomingbridges/AtelierJS)
+  - easel.js
+    - downloads 12k https://bower.herokuapp.com/packages/easeljs
+      - http://stackoverflow.com/questions/28558536/does-bower-expose-download-statistics-for-each-package
+- translate
+  - https://github.com/thejameskyle/babel-plugin-handbook/issues/29
+- rx.js
+  - v5 https://github.com/ReactiveX/RxJS/blob/master/MIGRATION.md
+    - Better performance
+    - Better debugging
+    - Compliance with the ES7 Observable Spec
+    - RxJS 5 is not ready yet and still has bugs https://twitter.com/andrestaltz/status/678485673863704576
+  - http://staltz.com/how-to-debug-rxjs-code.html
+  - http://rxmarbles.com/
+  - pros/cons
+    - cons
+      - Reactive extensions (Rx) is like RegEx. Super concise/powerful if you know it; otherwise—what the hell is going on? https://twitter.com/kangax/status/664097597016154112
+- race condition
+  - The definition of race conditions is not tied to multithreading. It is simply when you have a system that is dependent on the sequence of events from multiple components and then the components behave in an unintended way http://amasad.me/2015/10/31/javascript-async-functions-for-easier-concurrent-programming
+- async/await
+  - Using async functions (or generally co-routines) you can write programs that makes the expected ordering of events explicit and makes it easier to recover from failures in subcomponents. http://amasad.me/2015/10/31/javascript-async-functions-for-easier-concurrent-programming

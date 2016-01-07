@@ -43,3 +43,8 @@
 - startup
   - http://snitt.pl/startupy-maja-za-nic-programistow-wedlug-mnie-to-jeden-z-powodow-ich-porazek/
   - http://productlabs.co/zarobki-programisty-praca-koszty/
+  - http://flowingdata.com/2016/01/05/causes-of-death/
+- corwdfunding
+  - https://flattr.com
+  - https://www.bountysource.com/
+  - https://gratipay.com
