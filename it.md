@@ -124,6 +124,17 @@
     - https://github.com/arqex/freezer
   - https://github.com/nmn/react-infinity
   - http://airbnb.io/infinity/
+  - pros/cons
+    - pros
+      - [smart approach](https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyohtnu)  
+        I think React + Reactive Strems via bacon.js or something is great (currently loving elm).  
+        However, I think React is smart in that their approach brings a lot of benefits of functional programming in a very approachable way. It lets you move things over gradually, maintain components, and feels very "familiar" which helps with adoption.  
+        Personally, I started with Angular, moved to React due to the hype, learnt Flux really well, saw where the concepts came from, and started learning Elm. I think this is a really great path, but I don't think I would have ever checked anything out if React enforced full FRP all the time.  
+        In my mind, it's the natural path to take, but React nails adoptability. Relatively familiar, can implement incrementally. I would even go as far to say React is responsible for the huge surge in interest around FRP lately, even though FRP solutions have been around longer.  
+        In fact, it's easy to imagine doing this...the Redux docs even state:  
+        The question is: do you really need Redux if you already use Rx? Maybe not. It’s not hard to re-implement Redux in Rx. Some say it’s a two-liner using Rx .scan() method. It may very well be!
+    - cons
+      - https://www.reddit.com/r/javascript/comments/3zcdky/what_are_the_cons_of_react/
 - cycle.js
   - examples
     - https://github.com/Widdershin/cycle-music-sequencer
@@ -300,6 +311,7 @@
       - Actors
         - The difference between reactive objects and actors with regard to undefined methods seems to be the following: depending on its state, an actor may only respond to some subset of its full set of methods at any given time (the remainder of the methods being "undefined" at that time, and calls to those methods being queued); in contrast, reactive objects will always respond to all methods, no matter what its internal state. http://lambda-the-ultimate.org/node/2203
   - streams can be overly chatty in which the consumer cannot keep up with the producer. To that end, we need mechanisms to control the source so that the consumer does not get overwhelmed https://github.com/Reactive-Extensions/RxJS/blob/master/doc/gettingstarted/backpressure.md
+  - The official terminology for a stream is "Observable", for the fact that it can be observed, but I find it to be a silly name, so I call it stream https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 - programming
   - [Don't comment, delete the code. Next time you write the same logic with better code!](https://twitter.com/AjeyGore/status/640430919954755585)
     - [Delete your code](https://www.youtube.com/watch?v=Oj4vXMRenFo)
