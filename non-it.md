@@ -18,13 +18,13 @@
     - http://lubimyczytac.pl/autor/10724/thich-nh-t-h-nh
     - http://www.amazon.com/s?ie=UTF8&page=1&rh=n%3A283155%2Cp_27%3AThich%20Nhat%20Hanh
     - http://www.joga-joga.pl/pl154/teksty1471/czternascie_wskazan_buddyzmu_zaangazowanego_thich
-  - [yt > Meditation 101: A Beginner's Guide Animation](https://www.youtube.com/watch?v=rqoxYKtEWEc)
+  - [yt > Meditation 101: A Beginner's Guide Animation](https://youtu.be/rqoxYKtEWEc)
   - http://produktywnie.pl/2659/30-dniowe-wyzwanie-medytacja-koncentracja-siedzenie/
     - http://produktywnie.pl/2816/30-dniowe-wyzwanie-najpierw-odpoczynek-a-potem-praca/
     - http://web.archive.org/web/20120113071412/http://zatoka-zen.com/2011/12/13/mity-i-fakty-medytacji-cz-1
     - https://web.archive.org/web/20120204052634/http://www.proaktywnie.pl/2011/12/mity-i-fakty-medytacji-cz-2/
 - yoga
-  - [yt > Joga dla początkujacych Wiktor Morgulec - tadasana - Yoga dla początkujących](https://www.youtube.com/watch?v=GldVsaj2hg4)
+  - [yt > Joga dla początkujacych Wiktor Morgulec - tadasana - Yoga dla początkujących](https://youtu.be/GldVsaj2hg4)
 - food
   - soaking seeds
     - Some of the principle reasons why [soaking](http://healthyblenderrecipes.com/info/soaking_grains_nuts_seeds) is beneficial to our health:
@@ -38,6 +38,9 @@
 - health
   - posture
     - http://ed.ted.com/lessons/the-benefits-of-good-posture-murat-dalkinic
+    - [yt > Exercise to improve hunchback posture forward head carriage correction](https://youtu.be/LT_dFRnmdGs)
+  - scale
+    - http://antyweb.pl/recenzja-nie-takiej-zwyczajne-wagi-lazienkowej-fitbit-aria/
 - mind
   - Osoby biegające regularnie zwracają również uwagę na takie korzyści jak ograniczenie stresu oraz poprawa pracy mózgu. Wystarczy tylko 20 minut biegania, aby poprawić swoją zdolność koncentracji, dlatego warto zrobić sobie krótką przerwę na jogging na przykład podczas nauki do egzaminu. http://www.proaktywnie.pl/42195-km-meta-pewnego-etapu/
 - startup
@@ -48,3 +51,5 @@
   - https://flattr.com
   - https://www.bountysource.com/
   - https://gratipay.com
+- resume/cv
+  - http://business.tutsplus.com/articles/9-creative-resume-design-tips-with-template-examples--cms-25478

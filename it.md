@@ -115,7 +115,10 @@
     - https://egghead.io/series/react-testing-cookbook
    - better than redux?
     - https://engineering.heroku.com/blogs/2015-12-16-react-refetch/
-  - https://github.com/petehunt/react-howto
+  - learn
+    - https://github.com/petehunt/react-howto
+    - books
+      - Pro React http://www.apress.com/9781484212615
   - RactDOM vs https://groups.google.com/d/msg/scala-js/Z-8O2TtQJ0Q/oKW8TxVjBgAJ
    - with RxJS
     - https://medium.com/@garychambers108/functional-reactive-react-js-b04a8d97a540
@@ -580,3 +583,18 @@
   - Creates a channel with an optional buffer, an optional transducer, and optional exception handler. We'll elaborate more on them later on. https://github.com/ubolonton/js-csp/blob/master/doc/basic.md
 - webpack
   - [From Require.js & Grunt to Webpack. Heres how](https://blog.serverdensity.com/the-journey-to-webpack/)
+- seo
+  - Apologies if you’re working for a great SEO company which doesn’t make unsubstantiated or misleading promises. I’m sure there are some out there — I’ve just never encountered one. http://www.sitepoint.com/10-web-predictions-2016/
+- password
+  - http://niebezpiecznik.pl/post/lamacz-hasel-do-sieci-wi-fi-dla-niektorych-routerow-upc/
+- regex
+  - https://github.com/VerbalExpressions/JSVerbalExpressions/wiki
+- postgresql
+  - Of course it's going to be obsolete next year as we drop everything into distributed, scaleable cloud systems with Amazon Dynamo, Redis and other NoSQL services.  
+    And then reimplement the data-integrity systems that relational databases do for you already. No thanks, Postgres is rapidly gaining the ability to do both. JSONB, HSTORE, now lovely parallelism and hopefully multi-master replication soon.  
+    Postgres is an example of a software solution solving things correctly and not inventing new solutions every 6 months.  
+    http://www.phoronix.com/forums/forum/software/general-linux-open-source/834238-parallel-query-support-coming-to-postgresql-9-6?p=834426#post834426
+  - 9.5 http://www.phoronix.com/forums/forum/software/general-linux-open-source/844049-postgresql-9-5-brings-upsert-big-data-features
+    - To me, the best features of this new version is the UPSERT and jsonb_set, which allows update a property of a jsonb collumn
+    - For me the best is native bi-directional replication
+    - PostgreSQL has some exciting stuff in it. As someone working for a large company wanting to use it commercially as a "free" option, the biggest down side is the unpolished backup / recovery feature set. I am also not impressed with the older Oracle style one-process-per-connection scheme it deploys. I wish someone would change it over to an NginX style architecture to see what kind of performance benefit can be achieved.
