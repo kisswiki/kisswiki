@@ -55,3 +55,6 @@
   - https://gratipay.com
 - resume/cv
   - http://business.tutsplus.com/articles/9-creative-resume-design-tips-with-template-examples--cms-25478
+- how to
+  - make your own Nutella https://twitter.com/ThingsWork/status/684921356429856768
+  - tie shoelaces in 1 second https://twitter.com/ThingsWork/status/649341149749071873

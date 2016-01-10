@@ -205,6 +205,7 @@
   - README
     - http://vadimdemedes.com/5-tips-to-make-your-readme-stand-out/
   - https://github.com/facebook/mention-bot
+  - programming game https://twitter.com/OldManKris/status/673184195485790208
 - git
   - [A workshopper module for learning Git and GitHub](https://github.com/jlord/git-it)
   - So you're rebasing and you resolve a conflict wrong? `git checkout --conflict=merge <FILE>` to get it back to its conflicted state https://twitter.com/maybekatz/status/677656507052392448
@@ -396,6 +397,7 @@
 - javascript
   - framework
     - http://www.commitstrip.com/en/2015/09/16/how-to-choose-the-right-javascript-framework/
+    - http://www.isaacchansky.me/days-since-last-new-js-framework/
   - validation
     - https://github.com/SzybkiSasza/validators-pl
    - lint
@@ -433,10 +435,13 @@
       - http://kangax.github.io/compat-table/es6/#test-let
     - When it comes to objects, const will protect your variable from reassignment, and the freeze method will protect all immediate properties. If you need all nested properties to be immutable also, then you will need to recursively freeze them. [source](http://programmers.stackexchange.com/questions/278652/how-much-should-i-be-using-let-vs-const-in-es6/302436#302436)
     - const and let will allow for block scoping variables in JavaScript, rendering patterns like IIFE less necessary http://www.sitepoint.com/joys-block-scoping-es6/
-    - [ES6 Conventions](https://twitter.com/raganwald/status/564792624934961152)
+     - [ES6 Conventions](https://twitter.com/raganwald/status/564792624934961152)
       - use const by default
       - use let if you have to rebind a variable
       - use var to signal untouched legacy code
+  - log
+    - https://github.com/RReverser/better-log
+    - https://github.com/padolsey-archive/prettyprint.js
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
@@ -618,3 +623,23 @@
     - http://js.cytoscape.org/demos/173313aba1f31cae49a5/
 - webdev/web development
   - [In these labs you will learn and work with the latest trends, practices and technologies for web development](https://github.com/deltakosh/interoperable-web-development/)
+- flat design
+  - Users are forced to explore pages to determine what’s clickable. They frequently pause in their activities to hover over elements hoping for dynamic clickability signifiers, or click experimentally to discover potential links.  
+  This behavior is analogous to the behavior of laboratory rats in operant-conditioning experiments: if a rat gets a food pellet at random intervals after performing a specific action, the rat will keep doing that action in the hope of getting fed again. Similarly, users have discovered that clicking elements that don’t have strong signifiers sometimes works. Like the lab rats, users will stick to random clicking as long as they get rewarded from time to time.  
+  Even though users are mostly able to find their way through interfaces with this exploratory behavior, they’re still being forced to do extra work and are being distracted from their primary goals without gaining any tangible benefit.  
+  https://www.nngroup.com/articles/flat-design-long-exposure/
+- Readme Driven Development
+  - In Agile, this is a "user story"http://programmers.stackexchange.com/questions/205706/how-can-i-apply-readme-driven-development-to-an-ongoing-project
+  - My approach is the following with my startup project (but not with my day-job project):  
+  I start to write this: brainstorm.txt  
+  In brainstorm.txt I don't have to be concrete and concise. I just write down all kind of ideas.  
+  After a while I start to write this: design.txt This is very concrete (factual) and concise. It is not an essay, it is not written for other people. It is just for myself: to make a conceptual skeleton. It is not too structured, because it is impossible if it is about an innovative product. The only way I can avoid chaos is that I apply extreme minimalism. (Minimalist things are easier to structure, and don't need to be too structured.) Meanwhile I start to write code, mostly bottom-up. And I continuously refine design.txt.  
+  The User's guide (I call the Readme User's Guide) is already a quite different story for me. It must be written for the user and not myself. I don't like fluffy user's guides, but still it should not be as concise and as abstract as my notes to myself. If I would have to start with the User's Guide than my brain would work in a 'user's guide writer mode'. For me 'engineer/hacker mode' is different.  
+  https://news.ycombinator.com/item?id=1630123
+  - He mentioned in passing that writing a typical README requires just the right amount of planning upfront. It was tangential to his main point, about documentation, but I think it's a good observation.  
+  It avoids both planning extremes: writing an incredibly detailed spec upfront without any feedback from prototyping (waterfall), and diving in without any planning and expecting tests to magically do your design for you (naive TDD).  
+  It's good to having an articulate summary of your project, but for planning, the README is just a prop. It could just as well be "whiteboard-driven design" or whatever.  
+  https://news.ycombinator.com/item?id=1628312
+  - He mentioned in passing that writing a typical README requires just the right amount of planning upfront
+"just the right amount of planning upfront" is exactly what Scrum should do https://news.ycombinator.com/item?id=1629522
+  - User stories serve the same purpose as traditional requirements specifications, but their style and level of detail are different. https://www.computer.org/csdl/mags/so/2005/06/s6103.pdf
