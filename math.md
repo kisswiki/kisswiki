@@ -25,3 +25,4 @@
   If you were an experienced programmer, you would rightly call me insane.  
 
   If you were a mathematician, it would be a day ending in y.
+- mathematics is the pursuit of abstraction http://programmers.stackexchange.com/questions/136987/what-does-mathematics-have-to-do-with-programming/137075#137075
