@@ -138,6 +138,8 @@
         The question is: do you really need Redux if you already use Rx? Maybe not. It’s not hard to re-implement Redux in Rx. Some say it’s a two-liner using Rx .scan() method. It may very well be!
     - cons
       - https://www.reddit.com/r/javascript/comments/3zcdky/what_are_the_cons_of_react/
+  - components
+    - https://github.com/MattMcFarland/react-markdown-area
 - cycle.js
   - examples
     - https://github.com/Widdershin/cycle-music-sequencer
@@ -411,6 +413,7 @@
     - code coverage
       - https://github.com/bcoe/nyc
     - https://github.com/erykpiast/cross-tester
+    - http://vorlonjs.com/
   - es6
     - https://github.com/domenic/count-to-6
   - storage
@@ -424,6 +427,16 @@
     - https://github.com/documentationjs/documentation
   - filter errors
     - https://spion.github.io/posts/es7-async-await-step-in-the-wrong-direction.html
+  - const/let
+    - browser support
+      - http://kangax.github.io/compat-table/es6/#test-const
+      - http://kangax.github.io/compat-table/es6/#test-let
+    - When it comes to objects, const will protect your variable from reassignment, and the freeze method will protect all immediate properties. If you need all nested properties to be immutable also, then you will need to recursively freeze them. [source](http://programmers.stackexchange.com/questions/278652/how-much-should-i-be-using-let-vs-const-in-es6/302436#302436)
+    - const and let will allow for block scoping variables in JavaScript, rendering patterns like IIFE less necessary http://www.sitepoint.com/joys-block-scoping-es6/
+    - [ES6 Conventions](https://twitter.com/raganwald/status/564792624934961152)
+      - use const by default
+      - use let if you have to rebind a variable
+      - use var to signal untouched legacy code
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
@@ -598,3 +611,10 @@
     - To me, the best features of this new version is the UPSERT and jsonb_set, which allows update a property of a jsonb collumn
     - For me the best is native bi-directional replication
     - PostgreSQL has some exciting stuff in it. As someone working for a large company wanting to use it commercially as a "free" option, the biggest down side is the unpolished backup / recovery feature set. I am also not impressed with the older Oracle style one-process-per-connection scheme it deploys. I wish someone would change it over to an NginX style architecture to see what kind of performance benefit can be achieved.
+- data visualization/chart
+  - http://noeticforce.com/best-free-data-visualization-tools-javascript-charts-graphs
+  - pie
+    - https://gionkunz.github.io/chartist-js/examples.html#pie-with-custom-labels
+    - http://js.cytoscape.org/demos/173313aba1f31cae49a5/
+- webdev/web development
+  - [In these labs you will learn and work with the latest trends, practices and technologies for web development](https://github.com/deltakosh/interoperable-web-development/)

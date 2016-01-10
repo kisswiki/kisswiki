@@ -38,7 +38,9 @@
 - health
   - posture
     - http://ed.ted.com/lessons/the-benefits-of-good-posture-murat-dalkinic
-    - [yt > Exercise to improve hunchback posture forward head carriage correction](https://youtu.be/LT_dFRnmdGs)
+    - https://www.reddit.com/r/LifeProTips/comments/3zjgoh/lpt_request_how_to_consistently_improve_my_posture/
+      - [yt > Exercise to improve hunchback posture forward head carriage correction](https://youtu.be/LT_dFRnmdGs)
+      - https://youtu.be/BEn61BL4Nwk
   - scale
     - http://antyweb.pl/recenzja-nie-takiej-zwyczajne-wagi-lazienkowej-fitbit-aria/
 - mind
