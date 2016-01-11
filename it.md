@@ -700,3 +700,5 @@
     - https://www.tawk.to/ - free
     - http://zopim.com/ - basic free
     - https://www.livechatinc.com/
+- slides/presentation
+  - https://github.com/FormidableLabs/spectacle
