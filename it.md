@@ -342,6 +342,7 @@
 - [elm](/elm.md)
 - virtual DOM
   - [widely used in the game industry](http://en.wikipedia.org/wiki/Scene_graph) http://elm-lang.org/blog/blazing-fast-html
+  - https://github.com/wilsonpage/fastdom
 - speed
   - http://calendar.perfplanet.com/
   - http://calendar.perfplanet.com/2015/why-amp-is-fast/
