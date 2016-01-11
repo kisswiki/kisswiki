@@ -343,7 +343,7 @@
 - virtual DOM
   - [widely used in the game industry](http://en.wikipedia.org/wiki/Scene_graph) http://elm-lang.org/blog/blazing-fast-html
   - https://github.com/wilsonpage/fastdom
-  - https://github.com/trueadm/t7
+  -
 - speed
   - http://calendar.perfplanet.com/
   - http://calendar.perfplanet.com/2015/why-amp-is-fast/
@@ -440,10 +440,11 @@
       - http://kangax.github.io/compat-table/es6/#test-let
     - When it comes to objects, const will protect your variable from reassignment, and the freeze method will protect all immediate properties. If you need all nested properties to be immutable also, then you will need to recursively freeze them. [source](http://programmers.stackexchange.com/questions/278652/how-much-should-i-be-using-let-vs-const-in-es6/302436#302436)
     - const and let will allow for block scoping variables in JavaScript, rendering patterns like IIFE less necessary http://www.sitepoint.com/joys-block-scoping-es6/
-     - [ES6 Conventions](https://twitter.com/raganwald/status/564792624934961152)
+    - [ES6 Conventions](https://twitter.com/raganwald/status/564792624934961152)
       - use const by default
       - use let if you have to rebind a variable
       - use var to signal untouched legacy code
+    - const with objects is very useful, since it ensures that you continue to use the same mutable object whenever you use a particular variable https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyka28l
   - log
     - https://github.com/RReverser/better-log
     - https://github.com/padolsey-archive/prettyprint.js
