@@ -213,6 +213,7 @@
   - https://xkcd.com/1597/
   - http://think-like-a-git.net/
   - extra commands https://github.com/alebcay/awesome-shell
+  - .gitignore http://stackoverflow.com/questions/5533050/gitignore-exclude-folder-but-include-specific-subfolder
 - web development
   - https://github.com/google/WebFundamentals
 - html/css
