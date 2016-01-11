@@ -641,8 +641,7 @@
   It avoids both planning extremes: writing an incredibly detailed spec upfront without any feedback from prototyping (waterfall), and diving in without any planning and expecting tests to magically do your design for you (naive TDD).  
   It's good to having an articulate summary of your project, but for planning, the README is just a prop. It could just as well be "whiteboard-driven design" or whatever.  
   https://news.ycombinator.com/item?id=1628312
-  - He mentioned in passing that writing a typical README requires just the right amount of planning upfront
-"just the right amount of planning upfront" is exactly what Scrum should do https://news.ycombinator.com/item?id=1629522
+  - He mentioned in passing that writing a typical README requires just the right amount of planning upfront. "just the right amount of planning upfront" is exactly what Scrum should do https://news.ycombinator.com/item?id=1629522
   - User stories serve the same purpose as traditional requirements specifications, but their style and level of detail are different. https://www.computer.org/csdl/mags/so/2005/06/s6103.pdf
 - group messaging/chat
   - examples
@@ -663,6 +662,8 @@
       - opensource. szyfrowany. można tworzyć grupy. zarówno na mobilne jak i na desktop (zarówno mac/linux/windows).  https://www.facebook.com/groups/startupy/permalink/1015492605160905/?comment_id=1015522848491214&comment_tracking=%7B%22tn%22%3A%22R0%22%7D
     - https://jitsi.org/
     - https://discordapp.com/
+    - https://glip.com/
+    - https://www.yammer.com/
   - matrix
     - http://matrix.org/docs/guides/faq.html
   - irc
@@ -690,3 +691,8 @@
   - DNSSEC-based systems actually provide reduced trust agility. As unrealistic as it might be, I or a browser vendor do at least have the option of removing VeriSign from the trusted CA database, even if it would break authenticity with some large percentage of sites. With DNSSEC, there is no action that I or a browser vendor could take which would change the fact that VeriSign controls the .com TLD. http://www.thoughtcrime.org/blog/ssl-and-the-future-of-authenticity/
 - npm
   - http://stackoverflow.com/questions/25997519/how-to-view-the-dependency-tree-of-a-given-npm-module
+- live chat
+  - https://www.facebook.com/groups/512365358860279/permalink/940426976054113/
+    - https://www.tawk.to/ - free
+    - http://zopim.com/ - basic free
+    - https://www.livechatinc.com/
