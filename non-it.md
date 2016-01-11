@@ -2,8 +2,17 @@
 - http://antyweb.pl/sad-uznal-kary-za-zerwanie-umowy-z-operatorem-za-niezgodne-z-prawem/
 - crowdfounding
   - https://www.patreon.com/photonstorm
-- sell digital goods
-  - https://gumroad.com/discover?query=phaser#
+- sell
+  - digital goods
+    - https://gumroad.com/discover?query=phaser#
+  - https://www.facebook.com/groups/startupy/permalink/1013720442004788/
+    - http://lubimyczytac.pl/ksiazka/264377/autentycznosc-przyciaga-jak-budowac-swoja-marke-na-prawdziwym-i-porywajacym-przekazie
+    - http://sklep.marketerplus.pl/nowa_sprzedaz_1_1_2015.html
+    - http://lubimyczytac.pl/ksiazka/275681/sprzedaz-tylko-sprawdzone-techniki
+    - http://blog.close.io/outbound-sales-book
+    - http://growbots.com/The_Complete_Handbook_of_Cold_Mailing_Growbots.pdf
+  - https://www.quora.com/What-is-the-best-source-of-sales-strategy-advice-for-startups
+  - https://www.reddit.com/r/startups/comments/34k1rx/the_10_actionable_ebooks_every_entrepreneur_must/
 - time management
   - Long lists don't get done https://amzn.com/0307463745
     - http://lubimyczytac.pl/ksiazka/195804/rework
