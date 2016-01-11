@@ -12,10 +12,10 @@ function ep() {
 ep();
 
 watch('.', (event, filename) => {
-  console.log(`event is: ${event}`);
+  // console.log(`event is: ${event}`);
 
   if (filename) {
-    console.log(`filename provided: ${filename}`);
+    // console.log(`filename provided: ${filename}`);
     if(filename !== '.git') {
       ep();
     }
