@@ -5,9 +5,7 @@
   "main": "README.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ep": "git add -A && git commit -a -m '' --allow-empty-message && git push",
-    "b": "babel-node",
-    "watch": "watchman -- trigger . ls"
+    "watch": "babel-node watch.js"
   },
   "repository": {
     "type": "git",

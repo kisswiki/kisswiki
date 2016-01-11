@@ -1,1 +1,4 @@
-node_modules/
+/*
+!/*.md
+!/package.json
+!/watch.js
