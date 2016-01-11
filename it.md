@@ -445,6 +445,8 @@
       - use let if you have to rebind a variable
       - use var to signal untouched legacy code
     - const with objects is very useful, since it ensures that you continue to use the same mutable object whenever you use a particular variable https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyka28l
+    - Object.freeze can be also used in constructors [source](https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyjufzh)
+    - [references](https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyk2dyv)
   - log
     - https://github.com/RReverser/better-log
     - https://github.com/padolsey-archive/prettyprint.js
