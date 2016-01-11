@@ -62,3 +62,5 @@
   - https://www.facebook.com/UniOslo/videos/851733171556005/
 - management
   - [Linux kernel management style](http://lwn.net/Articles/105375/)
+- migration
+  - [My New Passport](http://paulmillr.com/mnp/) — compare countries for living based on their living conditions and tax rates
