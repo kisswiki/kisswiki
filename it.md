@@ -176,7 +176,7 @@
   - contributions
     - yearly heat map https://github.com/rofrol?tab=contributions&period=yearly
     - https://developer.github.com/v3/repos/statistics/#get-the-last-year-of-commit-activity-data
-    - most contributions https://gist.github.com/paulmillr/2657075/
+    - most contributions http://git.io/top https://gist.github.com/paulmillr/2657075/
   - https://github.com/tiimgreen/github-cheat-sheet
   - markdown
     - https://github.com/tchapi/markdown-cheatsheet
