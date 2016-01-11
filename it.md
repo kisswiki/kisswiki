@@ -201,6 +201,7 @@
     - https://github.com/showcases/github-browser-extensions
     - chrome
       - https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn
+      - https://github.com/octo-linker/chrome-extension
     - https://userstyles.org/styles/70979/github-better-sized-tabs-in-code
   - README
     - http://vadimdemedes.com/5-tips-to-make-your-readme-stand-out/
@@ -660,9 +661,12 @@
     - https://www.zulip.org/
     - https://en.wikipedia.org/wiki/Signal_(software)
       - opensource. szyfrowany. można tworzyć grupy. zarówno na mobilne jak i na desktop (zarówno mac/linux/windows).  https://www.facebook.com/groups/startupy/permalink/1015492605160905/?comment_id=1015522848491214&comment_tracking=%7B%22tn%22%3A%22R0%22%7D
+    - https://jitsi.org/
+    - https://discordapp.com/
   - matrix
     - http://matrix.org/docs/guides/faq.html
   - irc
+    - https://discuss.dev.twitch.tv/t/irc-v3-the-future/1121
     - http://ircv3.net/software/clients.html
     - https://grove.io/
     - https://www.irccloud.com/
@@ -684,3 +688,5 @@
   - https://www.facebook.com/groups/startupy/permalink/1015492605160905/
 - Certification Authorities
   - DNSSEC-based systems actually provide reduced trust agility. As unrealistic as it might be, I or a browser vendor do at least have the option of removing VeriSign from the trusted CA database, even if it would break authenticity with some large percentage of sites. With DNSSEC, there is no action that I or a browser vendor could take which would change the fact that VeriSign controls the .com TLD. http://www.thoughtcrime.org/blog/ssl-and-the-future-of-authenticity/
+- npm
+  - http://stackoverflow.com/questions/25997519/how-to-view-the-dependency-tree-of-a-given-npm-module

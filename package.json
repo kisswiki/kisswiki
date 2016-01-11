@@ -1,0 +1,26 @@
+{
+  "name": "mindmap",
+  "version": "1.0.0",
+  "description": "- [it](/it.md) - [non-it](/non-it.md) - [math](/math.md)",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ep": "git add -A && git commit -a -m '' --allow-empty-message && git push",
+    "b": "babel-node",
+    "watch": "watchman -- trigger . ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rofrol/mindmap.git"
+  },
+  "author": "",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/rofrol/mindmap/issues"
+  },
+  "homepage": "https://github.com/rofrol/mindmap#readme",
+  "dependencies": {
+    "babel-cli": "^6.4.0",
+    "shelljs": "^0.5.3"
+  }
+}
