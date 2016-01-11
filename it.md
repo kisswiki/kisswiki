@@ -453,7 +453,7 @@
     - https://github.com/padolsey-archive/prettyprint.js
   - arrow function
     - doesn't have `arguments`. You have to use [rest parameters](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/rest_parameters), but this gives us [performance and correctness](http://stackoverflow.com/questions/20541339/usage-of-rest-parameter-and-spread-operator-in-javascript/22077804#22077804)
-    - `this` is taken from the surrounding code, beware http://derickbailey.com/2015/09/28/do-es6-arrow-functions-really-solve-this-in-javascript/
+    - `this` is taken from the surrounding code, beware http://derickbailey.com/2015/09/28/do-es6-arrow-functions-really-solve-this-in-javascript/ resolve this via their closure (lexically) legacy functions locally override the lexical this instead https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyk7oq5
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
