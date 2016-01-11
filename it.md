@@ -444,7 +444,7 @@
       - use const by default
       - use let if you have to rebind a variable
       - use var to signal untouched legacy code
-    - const with objects is very useful, since it ensures that you continue to use the same mutable object whenever you use a particular variable https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyka28l
+    - const with objects is very useful, since it ensures that you continue to use the same mutable object whenever you use a particular variable https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyka28l const is a safeguard to avoid situations like re-assigning a variable accidentally or writing a new variable with that name in the same scope https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyke57d
     - Object.freeze can be also used in constructors [source](https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyjufzh)
     - [references](https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyk2dyv)
     - const - It does offer compilers a very important guarantee though. JITs can know that the type of a variable will never change which gets rid of a whole host of optimization and bailout issues. https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyk8gry
