@@ -58,3 +58,7 @@
 - how to
   - make your own Nutella https://twitter.com/ThingsWork/status/684921356429856768
   - tie shoelaces in 1 second https://twitter.com/ThingsWork/status/649341149749071873
+- chemistry
+  - https://www.facebook.com/UniOslo/videos/851733171556005/
+- management
+  - [Linux kernel management style](http://lwn.net/Articles/105375/)
