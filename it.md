@@ -506,6 +506,9 @@
   - http://nolanlawson.com/2015/10/19/the-struggles-of-publishing-a-javascript-library/
   - [remove confg entry](http://stackoverflow.com/questions/21228995/how-to-clear-https-proxy-setting-of-npm)
     - `npm config rm proxy`
+- node.js
+  - watch
+    - https://github.com/paulmillr/chokidar
 - people/news
   - http://www.joezimjs.com/
 - cms
