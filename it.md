@@ -520,6 +520,7 @@
     - https://github.com/jaxgeller/tweezer.js
   - geolocation
     - https://github.com/onury/geolocator
+    - https://github.com/straup/js-geolocation
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
