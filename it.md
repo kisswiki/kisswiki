@@ -450,6 +450,7 @@
     - const - It does offer compilers a very important guarantee though. JITs can know that the type of a variable will never change which gets rid of a whole host of optimization and bailout issues. https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyk8gry
     - The TDZ causes it's own host of problems both for the user and for the JIT when it comes to making the code fast (JITs should only be able to heuristically optimize a couple common use cases).  
       There are other less-known related issues such as default parameters actually creating an intermediate scope. Babel and other transpilers are fairly open about not being able to detect all violations of the TDZ until runtime (meaning that you can write code that seems to transpile correctly into ES5, but breaks if it's actually run in an ES6 environment). https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyjx36c
+    - TDZ (Temporal Dead Zone) http://jsrocks.org/2015/01/temporal-dead-zone-tdz-demystified/
   - log
     - https://github.com/RReverser/better-log
     - https://github.com/padolsey-archive/prettyprint.js
