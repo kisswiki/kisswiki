@@ -339,6 +339,7 @@
     Well, not really, it is just a declarative syntax to describe components in a tree…Virtual? DOM?  
     We are describing how trees SHOULD look like, not fiddling with the DOM itself.  
     https://medium.com/@abhiaiyer/dear-templating-sincerely-jsx-part-1-1df99c599001
+  - https://medium.com/@housecor/react-s-jsx-the-other-side-of-the-coin-2ace7ab62b98
 - [elm](/elm.md)
 - virtual DOM
   - [widely used in the game industry](http://en.wikipedia.org/wiki/Scene_graph) http://elm-lang.org/blog/blazing-fast-html
