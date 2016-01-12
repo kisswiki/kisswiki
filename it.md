@@ -140,6 +140,7 @@
     - cons
       - https://www.reddit.com/r/javascript/comments/3zcdky/what_are_the_cons_of_react/
       - First of all RxJS Observables are not event buses. RxJS Subjects are event buses, and these are known to be frowned upon, people are supposed to avoid using them. Second, Flux's Dispatcher is an Event Bus, so whatever disadvantages you attribute to event buses apply to Flux. Read more http://staltz.com/nothing-new-in-react-and-flux-except-one-thing.html https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cypclav
+      - http://staltz.com/nothing-new-in-react-and-flux-except-one-thing.html
    - components
     - https://github.com/MattMcFarland/react-markdown-area
    - internationalization
