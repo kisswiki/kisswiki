@@ -64,6 +64,7 @@
   - http://snitt.pl/startupy-maja-za-nic-programistow-wedlug-mnie-to-jeden-z-powodow-ich-porazek/
   - http://productlabs.co/zarobki-programisty-praca-koszty/
   - http://flowingdata.com/2016/01/05/causes-of-death/
+  - http://www.sitepoint.com/7-new-ways-to-test-your-minimum-viable-product/
 - corwdfunding
   - https://flattr.com
   - https://www.bountysource.com/
