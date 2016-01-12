@@ -332,6 +332,7 @@ Everything is in JS.
         - The difference between reactive objects and actors with regard to undefined methods seems to be the following: depending on its state, an actor may only respond to some subset of its full set of methods at any given time (the remainder of the methods being "undefined" at that time, and calls to those methods being queued); in contrast, reactive objects will always respond to all methods, no matter what its internal state. http://lambda-the-ultimate.org/node/2203
   - streams can be overly chatty in which the consumer cannot keep up with the producer. To that end, we need mechanisms to control the source so that the consumer does not get overwhelmed https://github.com/Reactive-Extensions/RxJS/blob/master/doc/gettingstarted/backpressure.md
   - The official terminology for a stream is "Observable", for the fact that it can be observed, but I find it to be a silly name, so I call it stream https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+  - http://www.thedotpost.com/2015/12/andre-medeiros-the-whole-future-declared-in-a-var
 - programming
   - [Don't comment, delete the code. Next time you write the same logic with better code!](https://twitter.com/AjeyGore/status/640430919954755585)
     - [Delete your code](https://www.youtube.com/watch?v=Oj4vXMRenFo)
