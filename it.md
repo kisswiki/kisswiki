@@ -228,6 +228,8 @@
   - https://github.com/facebook/mention-bot
   - programming game https://twitter.com/OldManKris/status/673184195485790208
   - https://github.com/Kikobeats/awesome-github
+  - http://zachholman.com/talk/git-github-secrets/
+  - http://zachholman.com/talk/more-git-and-github-secrets/
 - git
   - [A workshopper module for learning Git and GitHub](https://github.com/jlord/git-it)
   - So you're rebasing and you resolve a conflict wrong? `git checkout --conflict=merge <FILE>` to get it back to its conflicted state https://twitter.com/maybekatz/status/677656507052392448
@@ -235,6 +237,8 @@
   - http://think-like-a-git.net/
   - extra commands https://github.com/alebcay/awesome-shell
   - .gitignore http://stackoverflow.com/questions/5533050/gitignore-exclude-folder-but-include-specific-subfolder
+  - http://zachholman.com/talk/git-github-secrets/
+  - http://zachholman.com/talk/more-git-and-github-secrets/
 - web development
   - https://github.com/google/WebFundamentals
 - html/css
