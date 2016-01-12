@@ -577,6 +577,7 @@
     - https://github.com/ryanlelek/atmosphere
 - people/news
   - http://www.joezimjs.com/
+  - http://www.raduangelescu.com/
 - cms
   - https://github.com/relax/relax
  - security
