@@ -3,22 +3,27 @@
 var chokidar = require('chokidar');
 var shell = require("shelljs");
 
+shell.exec('git add -A');
+shell.exec('git commit -a -m "" --allow-empty-message');
+shell.exec('git push');
+
 var watcher = chokidar.watch('.', {
   ignored: [
     '.git',
     'node_modules',
     '.idea'
   ],
-  persistent: true
+  persistent: true,
+  ignoreInitial: true
 });
 
 watcher
 .on('add', function (path) {
   console.log('add '+ path);
-  // on is always triggered during start
   shell.exec('git add -A');
   shell.exec('git commit -a -m "" --allow-empty-message');
   shell.exec('git push');
+
 })
 .on('change', function (path) {
   console.log('change '+path);
