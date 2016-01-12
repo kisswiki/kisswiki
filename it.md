@@ -504,8 +504,10 @@
   - [super() considered hmmm-ful](http://raganwald.com/2015/12/23/super-considered-hmmmful.html)
   - polyfill not so good https://channel9.msdn.com/Events/WebPlatformSummit/2015/Advancing-JavaScript-without-breaking-the-web/
   - https://github.com/Kikobeats/awesome-network-js
-  - promise
+   - promise
     - https://github.com/getify/native-promise-only
+  - module
+    - http://www.2ality.com/2015/12/bundling-modules-future.html
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
