@@ -516,8 +516,10 @@
     - https://www.reddit.com/r/learnjavascript
     - http://eloquentjavascript.net/
   - [hyperscript helper tutorial](https://freezer.js.org/minimum-viable-view-library/)
-  - animation
+   - animation
     - https://github.com/jaxgeller/tweezer.js
+  - geolocation
+    - https://github.com/onury/geolocator
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
