@@ -766,3 +766,5 @@
   - You're kidding me, right? "Of use"? This thing is a goddamn miracle, no two-ways about it https://algorithms.rdio.com/post/make/#comment-2224552519
 - typescript
   - dead code elimination like rollup https://github.com/Microsoft/TypeScript/issues/6319
+- https
+  - https://github.com/EFForg/https-everywhere
