@@ -143,7 +143,7 @@
 - cycle.js
   - examples
     - https://github.com/Widdershin/cycle-music-sequencer
-    - [minimal](https://medium.com/@fkrautwald/we-are-not-writing-much-code-5404fb7d39e)
+     - [minimal](https://medium.com/@fkrautwald/we-are-not-writing-much-code-5404fb7d39e)
 
       ```javascript
       Cycle.run(
@@ -151,6 +151,7 @@
         {DOM: CycleDOM.makeDOMDriver(`#app`)}
       )
       ```
+    - http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/
   - awesome list
     - https://github.com/Widdershin/cycle-ecosystem
   - community
