@@ -69,5 +69,5 @@
     - it's hard to interface with JavaScript, making libraries such as three.js and pixi.js unavailable https://www.reddit.com/r/elm/comments/3vxxyt/is_elm_lacking_an_assetgame_framework/cxrrier
     - Right now, making use of browser api's isn't as easy as it should be, and interop with external js libraries almost too much work to be worth it (I'm my experience). https://www.reddit.com/r/elm/comments/3y9un5/any_idea_about_how_to_make_mobile_html_apps/cyc6r33
 - isomorphic
-  - https://github.com/elm-lang/elm-compiler/issues/1150
+  - https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
   - https://github.com/elm-lang/elm-compiler/issues/1150
