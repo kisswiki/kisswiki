@@ -29,9 +29,8 @@
   - don't need a port to map each input signal and then redirect it as an Action to the mailbox. Much easier to use merge/mergeMany, mapping each input signal to respective Action [source](https://www.reddit.com/r/elm/comments/3w0tsh/a_question_about_merging_signals/)
   - http://scrambledeggsontoast.github.io/2014/05/09/writing-2048-elm/
   - https://en.wikibooks.org/wiki/Elm_programming_language
-
+  - https://confengine.com/functional-conf-2014/proposal/329/functional-reactive-uis-with-elm
 - usages/examples/packages
-
   - https://github.com/trending?l=elm&since=daily
   - [packages](http://package.elm-lang.org)
     - `elm package install evancz/elm-html`
