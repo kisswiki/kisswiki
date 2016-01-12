@@ -247,8 +247,8 @@
   - HTML+CSS+JS are no longer a frontend formula to me.  
     CSS => https://github.com/blakeembrey/free-style  
     HTML => https://github.com/ohanhi/hyperscript-helpers  
+    Everything is in JS.  
     https://twitter.com/andrestaltz/status/685462895342301188
-Everything is in JS.
  - flexbox
   - https://github.com/10up/flexibility
 - reactive programming
