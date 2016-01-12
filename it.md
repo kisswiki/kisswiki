@@ -481,6 +481,7 @@
   - es6 https://medium.com/ecmascript-2015/default-rest-spread-f3ab0d2e0a5e
   - https://github.com/loverajoel/jstips
   - hile for...in iterates over property names, for...of iterates over property values https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of
+  - execute exported function from the cli without running the whole program https://github.com/shri3k/funxtion
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
