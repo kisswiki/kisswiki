@@ -81,3 +81,5 @@
   - https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
   - https://github.com/elm-lang/elm-compiler/issues/1150
   - https://github.com/eeue56/servelm
+- ports
+  - Ports are essentially strictly typed event streams to listen to (Elm to JS) or to push events into (JS to Elm). This means you will need to write some boilerplate-ish code, both in Elm and in JavaScript, in order to pass a message to the other side. So the more JavaScript libraries you need, and the more different kinds of objects you want to pass through, the more boilerplate code you will end up with. http://futurice.com/blog/elm-in-the-real-world
