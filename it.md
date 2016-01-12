@@ -533,6 +533,7 @@
     - `npm config rm proxy`
   - http://jonnyreeves.co.uk/2016/shrinkwrap-your-npm-dependencies/#shrinkwrap-your-npm-dependencies
   - http://stackoverflow.com/questions/25997519/how-to-view-the-dependency-tree-of-a-given-npm-module
+  - http://stackoverflow.com/questions/23243353/how-to-set-shell-for-npm-run-scripts-in-windows
 - node.js
   - watch
     - https://github.com/paulmillr/chokidar
