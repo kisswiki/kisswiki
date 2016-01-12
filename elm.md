@@ -49,6 +49,7 @@
   - https://github.com/eeue56/elm-all-dict
   - https://github.com/Fresheyeball/elm-node
   - https://github.com/mgold/elm-date-format
+  - https://github.com/eeue56/elm-query
 - tools
   - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
    - https://github.com/elm-lang/elm-reactor
