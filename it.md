@@ -587,6 +587,8 @@
   - http://jonnyreeves.co.uk/2016/shrinkwrap-your-npm-dependencies/#shrinkwrap-your-npm-dependencies
   - http://stackoverflow.com/questions/25997519/how-to-view-the-dependency-tree-of-a-given-npm-module
   - http://stackoverflow.com/questions/23243353/how-to-set-shell-for-npm-run-scripts-in-windows
+  - ranking
+    - https://www.facebook.com/groups/257881290932879/permalink/948608231860178/
 - node.js
   - watch
     - https://github.com/paulmillr/chokidar
