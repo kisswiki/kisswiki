@@ -113,6 +113,7 @@
   - testing
     - If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React [source](If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React) [source](https://github.com/facebook/react/issues/5046#issuecomment-146222515)
     - https://egghead.io/series/react-testing-cookbook
+    - http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html
    - better than redux?
     - https://engineering.heroku.com/blogs/2015-12-16-react-refetch/
   - learn
