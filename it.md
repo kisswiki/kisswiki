@@ -429,6 +429,7 @@
       - https://github.com/bcoe/nyc
     - https://github.com/erykpiast/cross-tester
     - http://vorlonjs.com/
+    - http://thejsguy.com/2015/01/12/jasmine-vs-mocha-chai-and-sinon.html
   - es6
     - https://github.com/domenic/count-to-6
   - storage
