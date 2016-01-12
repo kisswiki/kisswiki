@@ -756,3 +756,5 @@
 - watchman
   - https://www.facebook.com/notes/facebook-engineering/watchman-faster-builds-with-large-source-trees/10151457195103920/
   - You're kidding me, right? "Of use"? This thing is a goddamn miracle, no two-ways about it https://algorithms.rdio.com/post/make/#comment-2224552519
+- typescript
+  - dead code elimination like rollup https://github.com/Microsoft/TypeScript/issues/6319
