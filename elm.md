@@ -53,7 +53,7 @@
     - Install Elm Platform. This will install Elm Reactor and everything else it needs.
       - `npm install -g elm` or binaries
     - it improves the time traveling debugger created by Laszlo Pandy and Evan Czaplicki, turning it into a practical development tool [source](http://elm-lang.org/blog/time-travel-made-easy)
-  - https://github.com/avh4/elm-format
+  - It is inspired by the popular gofmt https://github.com/avh4/elm-format
 - quotes
   - First The Elm Architecture in React, now Flow follows Elm's UX lead! [source](https://twitter.com/rtfeldman/status/673680421545107456)
   - Elm's hidden agenda - to subtly spoil us with the idea of declarative programming for building GUIs [source](https://speakerdeck.com/suvash/getting-reactive-with-elm)
