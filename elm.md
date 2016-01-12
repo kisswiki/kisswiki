@@ -97,3 +97,5 @@
   - http://zkessin.github.io/elm-examples-blog/examples/2016/01/07/understanding-Signal.forwardTo.html
 - truth
   - https://twitter.com/twopoint718/status/686765116285583360
+- repl
+  - add space in new line to indent when using `\` like in `over9000 powerLevel = \` [1](http://elm-lang.org/guide/core-language) [2](https://github.com/elm-lang/elm-repl/issues/67)
