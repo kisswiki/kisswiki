@@ -430,6 +430,7 @@
     - https://github.com/erykpiast/cross-tester
     - http://vorlonjs.com/
     - http://thejsguy.com/2015/01/12/jasmine-vs-mocha-chai-and-sinon.html
+    - http://www.techtalkdc.com/which-javascript-test-library-should-you-use-qunit-vs-jasmine-vs-mocha/
     - http://stackoverflow.com/questions/26032124/karma-vs-testing-framework-jasmine-mocha-qunit
     - http://stackoverflow.com/questions/24391462/what-are-the-differences-between-mocha-chai-karma-jasmine-should-js-etc-te
     - https://sean.is/writing/client-side-testing-with-mocha-and-karma/
