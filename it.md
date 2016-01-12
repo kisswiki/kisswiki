@@ -167,6 +167,9 @@
   - components
    - https://github.com/mmai/cyclejs-sparklines
  - http://staltz.com/unidirectional-user-interface-architectures.html
+ - pros/cons
+   - cons
+     - Cycle makes no apologies about sacrificing ease of use for proper FRP. That's fine. It will continue to be confusing to most developers. You can't even reuse components without writing a custom isolate function. https://www.reddit.com/r/javascript/comments/3xugbp/why_i_chose_to_use_cyclejs/cyafp29
 - graphql
   - https://github.com/chentsulin/awesome-graphql
    - https://github.com/kadirahq/lokka
