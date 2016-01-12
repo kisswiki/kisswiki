@@ -176,6 +176,8 @@
   - vs
     - yolk.js
       - https://github.com/garbles/yolk/issues/4
+  - router
+    - https://github.com/bcoop713/routerx
 - graphql
   - https://github.com/chentsulin/awesome-graphql
    - https://github.com/kadirahq/lokka
