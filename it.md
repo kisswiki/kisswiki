@@ -659,6 +659,7 @@
   - http://www.2ality.com/2015/12/webpack-tree-shaking.html
   - http://www.2ality.com/2015/04/webpack-es6.html
   - http://www.zsoltnagy.eu/using-es6-modules-with-webpack/
+  - https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
 - seo
   - Apologies if you’re working for a great SEO company which doesn’t make unsubstantiated or misleading promises. I’m sure there are some out there — I’ve just never encountered one. http://www.sitepoint.com/10-web-predictions-2016/
 - password
