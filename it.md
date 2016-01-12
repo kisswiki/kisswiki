@@ -734,6 +734,7 @@
   - pie
     - https://gionkunz.github.io/chartist-js/examples.html#pie-with-custom-labels
     - http://js.cytoscape.org/demos/173313aba1f31cae49a5/
+  - http://www.tracemedia.co.uk/projects/terra/map/#type=ol&lang=ru,uk&map=language&loc=UA
 - webdev/web development
   - [In these labs you will learn and work with the latest trends, practices and technologies for web development](https://github.com/deltakosh/interoperable-web-development/)
 - flat design
