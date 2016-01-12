@@ -95,3 +95,5 @@
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
 - signal
   - http://zkessin.github.io/elm-examples-blog/examples/2016/01/07/understanding-Signal.forwardTo.html
+- truth
+  - https://twitter.com/twopoint718/status/686765116285583360
