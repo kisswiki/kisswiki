@@ -543,6 +543,8 @@
 - node.js
   - watch
     - https://github.com/paulmillr/chokidar
+  - env
+    - https://github.com/ryanlelek/atmosphere
 - people/news
   - http://www.joezimjs.com/
 - cms
