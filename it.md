@@ -214,6 +214,7 @@
     - http://vadimdemedes.com/5-tips-to-make-your-readme-stand-out/
   - https://github.com/facebook/mention-bot
   - programming game https://twitter.com/OldManKris/status/673184195485790208
+  - https://github.com/Kikobeats/awesome-github
 - git
   - [A workshopper module for learning Git and GitHub](https://github.com/jlord/git-it)
   - So you're rebasing and you resolve a conflict wrong? `git checkout --conflict=merge <FILE>` to get it back to its conflicted state https://twitter.com/maybekatz/status/677656507052392448
