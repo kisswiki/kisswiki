@@ -16,6 +16,7 @@
 - time management
   - Long lists don't get done https://amzn.com/0307463745
     - http://lubimyczytac.pl/ksiazka/195804/rework
+  - http://www.amazon.com/Life-Changing-Magic-Tidying-Decluttering-Organizing/dp/1607747308/
 - business
   - Long lists don't get done https://amzn.com/0307463745
     - http://lubimyczytac.pl/ksiazka/195804/rework
