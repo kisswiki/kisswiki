@@ -139,6 +139,7 @@
         The question is: do you really need Redux if you already use Rx? Maybe not. It’s not hard to re-implement Redux in Rx. Some say it’s a two-liner using Rx .scan() method. It may very well be!
     - cons
       - https://www.reddit.com/r/javascript/comments/3zcdky/what_are_the_cons_of_react/
+      - First of all RxJS Observables are not event buses. RxJS Subjects are event buses, and these are known to be frowned upon, people are supposed to avoid using them. Second, Flux's Dispatcher is an Event Bus, so whatever disadvantages you attribute to event buses apply to Flux. Read more http://staltz.com/nothing-new-in-react-and-flux-except-one-thing.html https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cypclav
    - components
     - https://github.com/MattMcFarland/react-markdown-area
    - internationalization
