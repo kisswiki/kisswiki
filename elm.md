@@ -33,6 +33,7 @@
   - https://github.com/eeue56/elm-for-web-developers
   - http://futurice.com/blog/elm-in-the-real-world
   - Learning FP the hard way: Experiences on the Elm language https://gist.github.com/ohanhi/0d3d83cf3f0d7bbea9db/
+  - https://www.romanzolotarev.com/elm/
 - usages/examples/packages
   - https://github.com/trending?l=elm&since=daily
   - [packages](http://package.elm-lang.org)
