@@ -487,6 +487,7 @@
   - execute exported function from the cli without running the whole program https://github.com/shri3k/funxtion
   - [super() considered hmmm-ful](http://raganwald.com/2015/12/23/super-considered-hmmmful.html)
   - polyfill not so good https://channel9.msdn.com/Events/WebPlatformSummit/2015/Advancing-JavaScript-without-breaking-the-web/
+  - https://github.com/Kikobeats/awesome-network-js
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
