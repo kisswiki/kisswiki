@@ -648,6 +648,7 @@
   - Creates a channel with an optional buffer, an optional transducer, and optional exception handler. We'll elaborate more on them later on. https://github.com/ubolonton/js-csp/blob/master/doc/basic.md
 - webpack
   - [From Require.js & Grunt to Webpack. Heres how](https://blog.serverdensity.com/the-journey-to-webpack/)
+  - http://www.2ality.com/2015/12/webpack-tree-shaking.html
 - seo
   - Apologies if you’re working for a great SEO company which doesn’t make unsubstantiated or misleading promises. I’m sure there are some out there — I’ve just never encountered one. http://www.sitepoint.com/10-web-predictions-2016/
 - password
