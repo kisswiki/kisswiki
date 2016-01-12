@@ -139,8 +139,10 @@
         The question is: do you really need Redux if you already use Rx? Maybe not. It’s not hard to re-implement Redux in Rx. Some say it’s a two-liner using Rx .scan() method. It may very well be!
     - cons
       - https://www.reddit.com/r/javascript/comments/3zcdky/what_are_the_cons_of_react/
-  - components
+   - components
     - https://github.com/MattMcFarland/react-markdown-area
+  - internationalization
+    - http://blog.getsentry.com/2016/01/07/react-i18n.html
 - cycle.js
   - examples
     - https://github.com/Widdershin/cycle-music-sequencer
