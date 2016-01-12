@@ -13,7 +13,7 @@ var watcher = chokidar.watch('.', {
     'node_modules',
     '.idea'
   ],
-  persistent: false,
+  persistent: true,
   ignoreInitial: true
 });
 
