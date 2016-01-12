@@ -79,3 +79,5 @@
   - [Linux kernel management style](http://lwn.net/Articles/105375/)
 - migration
   - [My New Passport](http://paulmillr.com/mnp/) — compare countries for living based on their living conditions and tax rates
+- Syria
+  - Movement for a Democratic Society http://kurdishquestion.com/index.php/kurdistan/west-kurdistan/tev-dem-announces-project-for-a-democratic-syria.html
