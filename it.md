@@ -430,6 +430,7 @@
     - https://github.com/erykpiast/cross-tester
     - http://vorlonjs.com/
     - http://thejsguy.com/2015/01/12/jasmine-vs-mocha-chai-and-sinon.html
+    - http://stackoverflow.com/questions/26032124/karma-vs-testing-framework-jasmine-mocha-qunit
   - es6
     - https://github.com/domenic/count-to-6
   - storage
