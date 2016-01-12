@@ -462,6 +462,7 @@
     - `this` is taken from the surrounding code, beware http://derickbailey.com/2015/09/28/do-es6-arrow-functions-really-solve-this-in-javascript/ resolve this via their closure (lexically) legacy functions locally override the lexical this instead https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyk7oq5
   - es6 https://medium.com/ecmascript-2015/default-rest-spread-f3ab0d2e0a5e
   - https://github.com/loverajoel/jstips
+  - hile for...in iterates over property names, for...of iterates over property values https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
