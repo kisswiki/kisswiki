@@ -72,3 +72,4 @@
 - isomorphic
   - https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
   - https://github.com/elm-lang/elm-compiler/issues/1150
+  - https://github.com/eeue56/servelm
