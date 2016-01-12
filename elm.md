@@ -31,6 +31,7 @@
   - https://en.wikibooks.org/wiki/Elm_programming_language
   - https://confengine.com/functional-conf-2014/proposal/329/functional-reactive-uis-with-elm
   - https://github.com/eeue56/elm-for-web-developers
+  - Learning FP the hard way: Experiences on the Elm language https://gist.github.com/ohanhi/0d3d83cf3f0d7bbea9db/
 - usages/examples/packages
   - https://github.com/trending?l=elm&since=daily
   - [packages](http://package.elm-lang.org)
