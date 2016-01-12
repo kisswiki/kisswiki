@@ -179,6 +179,7 @@
   - router
     - https://github.com/bcoop713/routerx
   - http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/
+  - https://www.reddit.com/comments/3da3e2
 - graphql
   - https://github.com/chentsulin/awesome-graphql
    - https://github.com/kadirahq/lokka
