@@ -30,6 +30,7 @@
   - http://scrambledeggsontoast.github.io/2014/05/09/writing-2048-elm/
   - https://en.wikibooks.org/wiki/Elm_programming_language
   - https://confengine.com/functional-conf-2014/proposal/329/functional-reactive-uis-with-elm
+  - https://github.com/eeue56/elm-for-web-developers
 - usages/examples/packages
   - https://github.com/trending?l=elm&since=daily
   - [packages](http://package.elm-lang.org)
