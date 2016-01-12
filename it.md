@@ -274,6 +274,8 @@
     - https://github.com/Huddle/PhantomCSS
   - http://codepen.io/2015/popular/pens/
   - http://www.sitepoint.com/an-introduction-to-css-supports-rule-feature-queries/
+  - gradient
+    - http://gradient.quasi.ink/
  - flexbox
   - https://github.com/10up/flexibility
 - reactive programming
