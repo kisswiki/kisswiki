@@ -483,6 +483,7 @@
   - https://github.com/loverajoel/jstips
   - hile for...in iterates over property names, for...of iterates over property values https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of
   - execute exported function from the cli without running the whole program https://github.com/shri3k/funxtion
+  -[ super() considered hmmm-ful](http://raganwald.com/2015/12/23/super-considered-hmmmful.html)
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
