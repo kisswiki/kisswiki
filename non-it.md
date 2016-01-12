@@ -19,6 +19,8 @@
 - business
   - Long lists don't get done https://amzn.com/0307463745
     - http://lubimyczytac.pl/ksiazka/195804/rework
+  - https://www.facebook.com/groups/firmawuk/
+  - http://firmauk.pl/
 - star wars
   - http://xkcd.com/1433/
 - meditation
