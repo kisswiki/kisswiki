@@ -65,6 +65,7 @@
   - http://productlabs.co/zarobki-programisty-praca-koszty/
   - http://flowingdata.com/2016/01/05/causes-of-death/
   - http://www.sitepoint.com/7-new-ways-to-test-your-minimum-viable-product/
+  - http://blog.landingi.pl/checklista-landing-page-sprawdz/
 - corwdfunding
   - https://flattr.com
   - https://www.bountysource.com/
