@@ -694,6 +694,7 @@
     - PostgreSQL has some exciting stuff in it. As someone working for a large company wanting to use it commercially as a "free" option, the biggest down side is the unpolished backup / recovery feature set. I am also not impressed with the older Oracle style one-process-per-connection scheme it deploys. I wish someone would change it over to an NginX style architecture to see what kind of performance benefit can be achieved.
 - data visualization/chart
   - http://noeticforce.com/best-free-data-visualization-tools-javascript-charts-graphs
+  - https://www.reddit.com/r/dataisbeautiful
   - pie
     - https://gionkunz.github.io/chartist-js/examples.html#pie-with-custom-labels
     - http://js.cytoscape.org/demos/173313aba1f31cae49a5/
