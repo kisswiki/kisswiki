@@ -432,6 +432,7 @@
     - http://thejsguy.com/2015/01/12/jasmine-vs-mocha-chai-and-sinon.html
     - http://stackoverflow.com/questions/26032124/karma-vs-testing-framework-jasmine-mocha-qunit
     - http://stackoverflow.com/questions/24391462/what-are-the-differences-between-mocha-chai-karma-jasmine-should-js-etc-te
+    - https://sean.is/writing/client-side-testing-with-mocha-and-karma/
   - es6
     - https://github.com/domenic/count-to-6
   - storage
