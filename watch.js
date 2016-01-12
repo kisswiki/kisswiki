@@ -12,7 +12,7 @@ var watcher = chokidar.watch('.', {
     '.git',
     'node_modules',
     '.idea',
-    '.gitignore'
+    '.gitignore' // I had to add this, or chokidar would repeatdly fire `on` event
   ],
   persistent: true,
   ignoreInitial: true
