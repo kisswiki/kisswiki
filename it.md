@@ -522,6 +522,7 @@
   - http://nolanlawson.com/2015/10/19/the-struggles-of-publishing-a-javascript-library/
   - [remove confg entry](http://stackoverflow.com/questions/21228995/how-to-clear-https-proxy-setting-of-npm)
     - `npm config rm proxy`
+  - http://jonnyreeves.co.uk/2016/shrinkwrap-your-npm-dependencies/#shrinkwrap-your-npm-dependencies
 - node.js
   - watch
     - https://github.com/paulmillr/chokidar
