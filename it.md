@@ -173,6 +173,9 @@
   - isolate
     - http://stackoverflow.com/questions/34541050/components-isolate-function-and-referential-transparency
     - https://github.com/cyclejs/isolate/blob/master/src/index.js
+  - vs
+    - yolk.js
+      - https://github.com/garbles/yolk/issues/4
 - graphql
   - https://github.com/chentsulin/awesome-graphql
    - https://github.com/kadirahq/lokka
