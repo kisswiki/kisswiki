@@ -457,6 +457,7 @@
     - https://github.com/padolsey-archive/prettyprint.js
   - arrow function
     - doesn't have `arguments`. You have to use [rest parameters](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/rest_parameters), but this gives us [performance and correctness](http://stackoverflow.com/questions/20541339/usage-of-rest-parameter-and-spread-operator-in-javascript/22077804#22077804)
+      - I dlatego w Nodzie 5 arrow functions są trochę upośledzone, bo resta tam jeszcze nie ma, a arguments użyć nie można https://www.facebook.com/groups/257881290932879/permalink/948429821878019/?comment_id=948432228544445&comment_tracking=%7B%22tn%22%3A%22R%22%7D
     - `this` is taken from the surrounding code, beware http://derickbailey.com/2015/09/28/do-es6-arrow-functions-really-solve-this-in-javascript/ resolve this via their closure (lexically) legacy functions locally override the lexical this instead https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyk7oq5
 - hardware
   - robots
