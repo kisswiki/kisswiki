@@ -180,6 +180,7 @@
     - https://github.com/bcoop713/routerx
   - http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/
   - Intro to Functional Reactive Programming with Cycle.js - YouTube https://www.reddit.com/comments/3da3e2
+  - https://medium.com/@fkrautwald/plug-and-play-all-your-observable-streams-with-cycle-js-e543fc287872
 - graphql
   - https://github.com/chentsulin/awesome-graphql
    - https://github.com/kadirahq/lokka
