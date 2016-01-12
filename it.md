@@ -521,6 +521,7 @@
 - learn
   - video courses
     - https://www.devcasts.io/
+    - https://www.codeschool.com/
 - quotes
   -  Slaves are not allowed to say no. Laborers may be hesitant to say no. But professionals are expected to say no.  
   Indeed, good managers crave someone who has the guts to say no. It’s the only way you can really get anything done.  
