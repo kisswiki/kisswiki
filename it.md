@@ -508,6 +508,8 @@
     - https://github.com/getify/native-promise-only
   - module
     - http://www.2ality.com/2015/12/bundling-modules-future.html
+  - learn
+    - http://www.2ality.com/2015/12/bundling-modules-future.html
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
