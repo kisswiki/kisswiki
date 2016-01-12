@@ -342,6 +342,7 @@
     - programs written in more powerful languages tend to have fewer bugs
     -  the notation is not the problem, even though it may feel like it is. The math paper is hard to read because the ideas are hard.
   - http://blog.codinghorror.com/the-magpie-developer/
+  - https://blog.lelonek.me/jack-of-all-trades-but-master-of-none-2865d34a6442
 - stackexchange.com
   - http://meta.stackexchange.com/questions/3792/how-to-nest-code-within-a-list-using-markdown
 - jspm
