@@ -789,3 +789,5 @@
   - dead code elimination like rollup https://github.com/Microsoft/TypeScript/issues/6319
 - https
   - https://github.com/EFForg/https-everywhere
+- svg
+  - http://teespring.engineering/posts/how-teespring-uses-canvas-svg-dom-to-design-tshirts/
