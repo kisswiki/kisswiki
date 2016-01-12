@@ -509,7 +509,7 @@
   - module
     - http://www.2ality.com/2015/12/bundling-modules-future.html
   - learn
-    - http://www.2ality.com/2015/12/bundling-modules-future.html
+    - https://leanpub.com/javascriptallongesix/read
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
