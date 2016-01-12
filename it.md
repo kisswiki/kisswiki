@@ -330,11 +330,12 @@
 - programming
   - [Don't comment, delete the code. Next time you write the same logic with better code!](https://twitter.com/AjeyGore/status/640430919954755585)
     - [Delete your code](https://www.youtube.com/watch?v=Oj4vXMRenFo)
-  - [Succinctness is Power](http://www.paulgraham.com/power.html)
+   - [Succinctness is Power](http://www.paulgraham.com/power.html)
     - the measure of the power of a programming language is how small it makes your programs
     - programmers seemed to generate about the same amount of code per day regardless of the language
     - programs written in more powerful languages tend to have fewer bugs
     -  the notation is not the problem, even though it may feel like it is. The math paper is hard to read because the ideas are hard.
+  - http://blog.codinghorror.com/the-magpie-developer/
 - stackexchange.com
   - http://meta.stackexchange.com/questions/3792/how-to-nest-code-within-a-list-using-markdown
 - jspm
