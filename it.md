@@ -151,7 +151,6 @@
         {DOM: CycleDOM.makeDOMDriver(`#app`)}
       )
       ```
-    - http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/
   - awesome list
     - https://github.com/Widdershin/cycle-ecosystem
   - community
@@ -179,6 +178,7 @@
       - https://github.com/garbles/yolk/issues/4
   - router
     - https://github.com/bcoop713/routerx
+  - http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/
 - graphql
   - https://github.com/chentsulin/awesome-graphql
    - https://github.com/kadirahq/lokka
