@@ -529,8 +529,10 @@
     - https://www.reddit.com/r/learnjavascript
     - http://eloquentjavascript.net/
   - [hyperscript helper tutorial](https://freezer.js.org/minimum-viable-view-library/)
-   - animation
+  - animation
     - https://github.com/jaxgeller/tweezer.js
+  - colision
+    - https://www.reddit.com/r/javascript/comments/3zrsec/p2js_polygon_demo_draw_something/
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
