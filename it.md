@@ -524,6 +524,7 @@
     - https://www.codeschool.com/
     - https://www.pluralsight.com/
     - http://meteorscreencasts.com/create-a-meteor-app-tutorial/appendix
+    - https://www.codecademy.com/
 - quotes
   -  Slaves are not allowed to say no. Laborers may be hesitant to say no. But professionals are expected to say no.  
   Indeed, good managers crave someone who has the guts to say no. It’s the only way you can really get anything done.  
