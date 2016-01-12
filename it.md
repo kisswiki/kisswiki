@@ -513,7 +513,7 @@
     - http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X
     - https://www.reddit.com/r/learnjavascript
     - http://eloquentjavascript.net/
-  - hyperscript helper tutorial https://freezer.js.org/minimum-viable-view-library/
+  - [hyperscript helper tutorial](https://freezer.js.org/minimum-viable-view-library/)
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
