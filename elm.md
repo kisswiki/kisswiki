@@ -53,6 +53,7 @@
   - https://github.com/Fresheyeball/elm-node
   - https://github.com/mgold/elm-date-format
   - https://github.com/eeue56/elm-query
+  - http://zkessin.github.io/elm-examples-blog//examples/2016/01/11/parsing-json.html
 - tools
   - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
    - https://github.com/elm-lang/elm-reactor
