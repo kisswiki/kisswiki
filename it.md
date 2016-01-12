@@ -740,3 +740,5 @@
   - https://github.com/FormidableLabs/spectacle
 - REST
   - and postgresql https://github.com/srid/spas
+- watchman
+  - https://www.facebook.com/notes/facebook-engineering/watchman-faster-builds-with-large-source-trees/10151457195103920/
