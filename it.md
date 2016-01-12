@@ -510,6 +510,7 @@
     - http://www.2ality.com/2015/12/bundling-modules-future.html
   - learn
     - https://leanpub.com/javascriptallongesix/read
+    - http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
