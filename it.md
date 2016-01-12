@@ -803,3 +803,5 @@
   - https://github.com/EFForg/https-everywhere
 - svg
   - http://teespring.engineering/posts/how-teespring-uses-canvas-svg-dom-to-design-tshirts/
+- mobservable
+  - https://medium.com/@mweststrate/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254
