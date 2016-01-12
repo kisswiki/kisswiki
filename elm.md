@@ -46,6 +46,7 @@
   - https://github.com/evancz/TodoFRP
   - https://github.com/twopoint718/elmchat
     - http://bendyworks.com/elm-frontend-right-now/
+  - https://github.com/eeue56/elm-all-dict
 - tools
   - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
   - https://github.com/elm-lang/elm-reactor
