@@ -461,6 +461,7 @@
       - I dlatego w Nodzie 5 arrow functions są trochę upośledzone, bo resta tam jeszcze nie ma, a arguments użyć nie można https://www.facebook.com/groups/257881290932879/permalink/948429821878019/?comment_id=948432228544445&comment_tracking=%7B%22tn%22%3A%22R%22%7D
     - `this` is taken from the surrounding code, beware http://derickbailey.com/2015/09/28/do-es6-arrow-functions-really-solve-this-in-javascript/ resolve this via their closure (lexically) legacy functions locally override the lexical this instead https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyk7oq5
   - es6 https://medium.com/ecmascript-2015/default-rest-spread-f3ab0d2e0a5e
+  - https://github.com/loverajoel/jstips
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
