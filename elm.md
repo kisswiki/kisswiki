@@ -109,4 +109,4 @@
   a = over9000 9001
   ```
 - need to declare type of variable before using it?
-- i can't just run funtction without taking its output?
+- I can't just run function without taking its output?
