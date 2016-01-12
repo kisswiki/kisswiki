@@ -356,6 +356,7 @@
     https://medium.com/@abhiaiyer/dear-templating-sincerely-jsx-part-1-1df99c599001
   - https://medium.com/@housecor/react-s-jsx-the-other-side-of-the-coin-2ace7ab62b98
   - JSX is an ugly artefact of legacy PHP and HTML spread into JS because Facebook runs (ran) on PHP https://github.com/jsforum/jsforum/issues/1 https://twitter.com/andrestaltz/status/653960734112673794
+  - https://www.facebook.com/notes/facebook-engineering/xhp-a-new-way-to-write-php/294003943919
 - [elm](/elm.md)
 - virtual DOM
   - [widely used in the game industry](http://en.wikipedia.org/wiki/Scene_graph) http://elm-lang.org/blog/blazing-fast-html
