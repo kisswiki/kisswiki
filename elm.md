@@ -47,6 +47,7 @@
   - https://github.com/twopoint718/elmchat
     - http://bendyworks.com/elm-frontend-right-now/
   - https://github.com/eeue56/elm-all-dict
+  - https://github.com/Fresheyeball/elm-node
 - tools
   - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
    - https://github.com/elm-lang/elm-reactor
