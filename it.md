@@ -518,7 +518,14 @@
   - [hyperscript helper tutorial](https://freezer.js.org/minimum-viable-view-library/)
    - animation
     - https://github.com/jaxgeller/tweezer.js
-
+- hardware
+  - robots
+    - https://www.hackster.io/projects/tags/robots
+    - drone
+      - http://www.instructables.com/id/DIY-Drones/
+      - http://www.makershed.com/collections/drones-flight
+      - http://diydrones.com/
+      - http://myfirstdrone.com/build-your-first-quad/
 - dynamic programming
   - http://stackoverflow.com/questions/6164629/dynamic-programming-and-memoization-bottom-up-vs-top-down-approaches
   - https://en.wikipedia.org/wiki/Dynamic_programming
