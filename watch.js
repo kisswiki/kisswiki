@@ -11,7 +11,8 @@ var watcher = chokidar.watch('.', {
   ignored: [
     '.git',
     'node_modules',
-    '.idea'
+    '.idea',
+    '.gitignore'
   ],
   persistent: true,
   ignoreInitial: true
