@@ -757,6 +757,7 @@
     - https://www.livechatinc.com/
 - slides/presentation
   - https://github.com/FormidableLabs/spectacle
+  - https://github.com/jdan/cleaver
 - REST
   - and postgresql https://github.com/srid/spas
 - watchman
