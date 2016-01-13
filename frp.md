@@ -2,6 +2,7 @@
   - Reactive programming is simply about decoupling data production from data consumption
   - CSP channels go beyond and decouple 3 things: data production, data medium, data consumption
 - Inversion of control
+  - The common ground is that all FRP works with the concept of observability which enables reacting to change automatically https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyov7dj
 
 CSP + transducers vs reactive programming
 - FRP functions used inside streams needed to understand they were in a stream. Functions used in a transducer don’t know they’re in a transducer. Basically I can reuse them with all my current map/reduce/filtering code inside async channel. https://medium.com/@puppybits/rxjs-is-great-so-why-have-i-moved-on-534c513e7af3
