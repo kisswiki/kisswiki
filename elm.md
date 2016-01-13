@@ -102,6 +102,7 @@
   - https://github.com/jvoigtlaender/labyrinth-elm
 - animation
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
+  - https://github.com/evancz/elm-effects
 - signal
   - http://zkessin.github.io/elm-examples-blog/examples/2016/01/07/understanding-Signal.forwardTo.html
 - truth
