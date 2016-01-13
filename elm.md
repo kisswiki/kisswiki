@@ -130,3 +130,7 @@
   - two ways
     - `import StartApp.Simple as StartApp` and then `StartUp.start`
     - `import StartApp.Simple exposing(start)` and then `start`
+- With Elm you're really getting into new (if you have a "typical" HTML/JS frontend dev background) territory. It's a different way to do (and think of) GUI development. You will write in a completely new language – made specifically for creating GUIs in a functional reactive programming way – and ideally you'll never deal (at least not directly) with any of the traditional DOM APIs. Elm comes with a sort of "standard library" that gives you tools to create and manipulate graphics/text/etc through time.  
+
+  Your Elm language code will describe, in a totally declarative way, what you want your GUI to look and behave like as time goes by and events (user input, etc) occur. Then, it will compile it all to HTML/JS/CSS in order that runs on the browser.  
+  http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
