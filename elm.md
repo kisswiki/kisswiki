@@ -157,4 +157,4 @@
   - Gizra http://www.google.com/url?q=http%3A%2F%2Fwww.gizra.com%2Fcontent%2Fthinking-choosing-elm%2F&sa=D&sntz=1&usg=AFQjCNEkcaPSSNNQSMMahrQV_Xli91iwOw
   - Beautiful Destinations
   - Your CRM Link
-  - TruQu
+  - TruQu http://www.google.com/url?q=http%3A%2F%2Fengineering.truqu.com%2F&sa=D&sntz=1&usg=AFQjCNFpEQLf_w_LYn2X_ufxPYw8ar_ZSg
