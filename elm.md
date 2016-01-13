@@ -70,9 +70,9 @@
   - https://github.com/elm-community/builtwithelm
 - tools
   - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
-   - https://github.com/elm-lang/elm-reactor
-    - Install Elm Platform. This will install Elm Reactor and everything else it needs.
+     - Install Elm Platform. This will install Elm Reactor and everything else it needs.
       - `npm install -g elm` or binaries
+   - https://github.com/elm-lang/elm-reactor
     - it improves the time traveling debugger created by Laszlo Pandy and Evan Czaplicki, turning it into a practical development tool [source](http://elm-lang.org/blog/time-travel-made-easy)
   - It is inspired by the popular gofmt https://github.com/avh4/elm-format
   - Light Table
