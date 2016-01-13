@@ -76,10 +76,11 @@
   - First The Elm Architecture in React, now Flow follows Elm's UX lead! [source](https://twitter.com/rtfeldman/status/673680421545107456)
   - Elm's hidden agenda - to subtly spoil us with the idea of declarative programming for building GUIs [source](https://speakerdeck.com/suvash/getting-reactive-with-elm)
   - 100% typed code (with @elmlang) is orders of magnitude better than 95% typed code (with TypeScript or Flow). Elm eliminates runtime errors. [source](https://twitter.com/andrestaltz/status/681186227039678465)
-- community
+- community/news/blogs
   - https://twitter.com/elmlang
   - https://www.reddit.com/r/elm/
   - https://groups.google.com/forum/?fromgroups#!forum/elm-discuss
+  - https://www.quora.com/topic/Elm-programming-language
 - jsfiddle/jsbin/codepen alike
   - http://share-elm.com/
   - http://elm-lang.org/try
@@ -143,3 +144,6 @@
   Your Elm language code will describe, in a totally declarative way, what you want your GUI to look and behave like as time goes by and events (user input, etc) occur. Then, it will compile it all to HTML/JS/CSS in order that runs on the browser.  
   http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
 - Evan Czaplicki joined noredink http://elm-lang.org/blog/new-adventures-for-elm http://tech.noredink.com/post/136615783598/welcome-evan
+- jobs
+  - https://www.noredink.com/jobs?gh_jid=123590
+- companies using
