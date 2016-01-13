@@ -9,6 +9,7 @@
     - LambdaConf 2015 - Shipping a Production Web App in Elm Richard Feldman https://youtu.be/B7Iwreo1ReU
     - "Make the Back-End Team Jealous: Elm in Production" by Richard Feldman https://youtu.be/FV0DXNB94NE
     - Evan Czaplicki on FRP in the Browser with Elm, Time Travelling Debugger http://www.infoq.com/interviews/czaplicki-frp-elm
+      - DOM is data, and CSS are transformations
   - courses
     - [Elm: Building Reactive Web Apps](https://pragmaticstudio.com/elm)
     - [Elm: Signals, Mailboxes & Ports](https://pragmaticstudio.com/elm-signals)
