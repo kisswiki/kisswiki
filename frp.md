@@ -1,7 +1,12 @@
-Decoupling
-- Reactive programming is simply about decoupling data production from data consumption
-- CSP channels go beyond and decouple 3 things: data production, data medium, data consumption
+- Decoupling https://github.com/arqex/curxor/issues/1#issuecomment-72642125
+  - Reactive programming is simply about decoupling data production from data consumption
+  - CSP channels go beyond and decouple 3 things: data production, data medium, data consumption
+- Inversion of control
 
+CSP + transducers vs reactive programming
+- FRP functions used inside streams needed to understand they were in a stream. Functions used in a transducer don’t know they’re in a transducer. Basically I can reuse them with all my current map/reduce/filtering code inside async channel. https://medium.com/@puppybits/rxjs-is-great-so-why-have-i-moved-on-534c513e7af3
+- csp is a small concept that is then built on by many helper functions. (these helper functions can come in various forms, transducers being just one) RxJS, basically needs to be used as a whole large library. https://github.com/ubolonton/js-csp/issues/40#issuecomment-104740618
+- They are both stream interfaces that can be treated as any other set of data https://github.com/ubolonton/js-csp/issues/40#issuecomment-104740618
 
 FRP is functional programming with
 
