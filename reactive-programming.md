@@ -18,9 +18,22 @@
   - The Observable proposal is also just one way to handle asynchronous data streams there are others e.g. async/await, CSP/channels, event emitters, streams or maybe even an actor system. https://medium.com/@BrianDiPalma/thoughts-on-rxjs-cf3562e20d74
 - State
   - State is actually the dual to events. Given one, you can extract the other. An example is your age (state) and your birthdays (events). So modelling data as a stream of events makes state implicit because state is just the other side of the coin, you are not eliminating it, you are just working in a different "coordinate system" https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyojrze
-- Immutability
+- Immutability/Stream/Spreadsheet cells
   - TODO: why it's good
   - RxJS feels much like the immutable-js project by Facebook. It is a huge API that is about handling data, not about creating applications. https://github.com/christianalfoni/EmptyBox/blob/master/posts/2015_04_01_Functional-Reactive-Applications.md
+  - example (2:27 in video http://www.thedotpost.com/2015/12/andre-medeiros-the-whole-future-declared-in-a-var)
+
+    ```javascript
+    var a = 3;
+    var b = 10 * a;
+    console.log(b); // 30
+    a = 4;
+    b = 10 * a;
+    console.log(b); // 40
+    a = 6;
+    b = 10 * a;
+    console.log(b); // 60
+    ```
 - pragmatic definition of FRP
   - Use streams of data to create the application state (data)
   - Build a UI given only the application state with pure functions (view)
