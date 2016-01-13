@@ -129,6 +129,7 @@
   - https://www.reddit.com/r/elm/comments/401448/using_elm_to_create_a_fun_game_in_just_five_days/
   - https://github.com/liubko/elm-snake
   - https://github.com/jvoigtlaender/labyrinth-elm
+  - https://github.com/johnpmayer/celestia
 - animation
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
   - https://github.com/evancz/elm-effects
