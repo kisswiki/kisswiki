@@ -83,3 +83,8 @@
   - [My New Passport](http://paulmillr.com/mnp/) — compare countries for living based on their living conditions and tax rates
 - Syria
   - Movement for a Democratic Society http://kurdishquestion.com/index.php/kurdistan/west-kurdistan/tev-dem-announces-project-for-a-democratic-syria.html
+- overpopulation
+  - http://www.wykop.pl/tag/przeludnienie/wszystkie/
+  - [Masa krytyczna](https://youtu.be/rglRRZcAE0E
+  - [Ostatni dzwonek -The limit of the Grown](https://youtu.be/BzHrecF1_n8)
+  - [Immigration, World Poverty and Gumballs - NumbersUSA.com](https://youtu.be/LPjzfGChGlE)
