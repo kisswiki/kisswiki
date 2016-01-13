@@ -1,3 +1,8 @@
+Decoupling
+- Reactive programming is simply about decoupling data production from data consumption
+- CSP channels go beyond and decouple 3 things: data production, data medium, data consumption
+
+
 FRP is functional programming with
 
 
