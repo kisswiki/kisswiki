@@ -82,6 +82,7 @@
   - https://www.reddit.com/r/elm/
   - https://groups.google.com/forum/?fromgroups#!forum/elm-discuss
   - https://www.quora.com/topic/Elm-programming-language
+  - http://mbylstra.github.io/elm-events/
 - jsfiddle/jsbin/codepen alike
   - http://share-elm.com/
   - http://elm-lang.org/try
