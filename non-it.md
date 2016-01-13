@@ -13,6 +13,9 @@
     - http://growbots.com/The_Complete_Handbook_of_Cold_Mailing_Growbots.pdf
   - https://www.quora.com/What-is-the-best-source-of-sales-strategy-advice-for-startups
   - https://www.reddit.com/r/startups/comments/34k1rx/the_10_actionable_ebooks_every_entrepreneur_must/
+  - http://ranking.money.pl/
+  - http://natemat.pl/168055,pis-poczul-miliardy-w-internecie-zgadnijcie-co-nowy-podatek-przyniesie-klientom-allegro-czy-komputronik
+  - http://natemat.pl/164027,temu-polakowi-amazon-oferowal-10-miliardow-dolarow-odmowil-nie-chce-sie-tanio-sprzedac
 - time management
   - Long lists don't get done https://amzn.com/0307463745
     - http://lubimyczytac.pl/ksiazka/195804/rework
