@@ -174,8 +174,9 @@
   - What does "fully reactive" mean? https://github.com/jsforum/jsforum/issues/6
   - state
     - making state explicit as an object is advantageous over streams for achieving separation of concerns. State (and managing state) is just a means to an end. We don't want to manage state. We want to deliver features, and that ultimately is about what the user inputs, and what the user gets out. If you can build that without state in between, you accomplish what you need. And you also get "look at a handful of LOC and be able to tell exactly what that does". State is actually the dual to events. Given one, you can extract the other. An example is your age (state) and your birthdays (events). So modelling data as a stream of events makes state implicit because state is just the other side of the coin, you are not eliminating it, you are just working in a different "coordinate system". Besides all that, reactive pattern (on which FRP and Streams are based) is all about separation of concerns. I'm talking about A--> B versus A -->B explained better here: http://cycle.js.org/observables.html#reactive-programming https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyojrze
-  - inversion of control
+   - inversion of control
     - The common ground is that all FRP works with the concept of observability which enables reacting to change automatically. In other words, FRP establishes inversion of control. This is also the reason that you cannot call React in itself reactive; there is simply no inversion of control. Developers have to push changes through the system themselves by using setState. https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyov7dj
+  - convert between different stream implementations https://github.com/TylorS/stream-conversions
 - programming
   - [Don't comment, delete the code. Next time you write the same logic with better code!](https://twitter.com/AjeyGore/status/640430919954755585)
     - [Delete your code](https://www.youtube.com/watch?v=Oj4vXMRenFo)
