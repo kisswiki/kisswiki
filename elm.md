@@ -161,3 +161,6 @@
   - Beautiful Destinations
   - Your CRM Link
   - TruQu http://engineering.truqu.com/
+- router
+  - https://github.com/rgrempel/elm-route-hash
+    - http://www.gizra.com/content/elm-hedley-overview/
