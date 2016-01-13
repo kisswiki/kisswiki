@@ -119,4 +119,8 @@
   - https://github.com/lukewestby/elm-string-interpolate
 - debugging
   - [yt > Bret Victor style reactive debugging ‒ Laszlo Pandy](https://www.youtube.com/watch?v=lK0vph1zR8s)
-- What differentiate Elm? You may thought its: Haskell syntax, FRP, running in Browser.
+- What differentiate Elm? You may thought its: Haskell syntax, FRP, running in Browser. But these can have any language. Elm differentiates:
+  - All mutable state is in the signal graph (foldp)
+  - All events enter via the signal graph (elm.notify)
+  - External state is provided by single-purpose high-level APIs (Time.fps)  
+  [yt > Bret Victor style reactive debugging ‒ Laszlo Pandy](https://www.youtube.com/watch?v=lK0vph1zR8s)
