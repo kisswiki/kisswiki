@@ -83,6 +83,7 @@
   - https://github.com/johnpmayer/elm-webgl
   - https://github.com/elm-community/elm-linear-algebra
   - https://github.com/elm-community/elm-history
+  - https://github.com/elm-community/elm-material-icons
 - tools
    - https://github.com/elm-lang/elm-reactor
     - Install Elm Platform. This will install Elm Reactor and everything else it needs.
