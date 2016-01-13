@@ -119,3 +119,4 @@
   - https://github.com/lukewestby/elm-string-interpolate
 - debugging
   - [yt > Bret Victor style reactive debugging ‒ Laszlo Pandy](https://www.youtube.com/watch?v=lK0vph1zR8s)
+- What differentiate Elm? You may thought its: Haskell syntax, FRP, running in Browser.
