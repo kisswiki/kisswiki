@@ -1,6 +1,6 @@
-- Decoupling https://github.com/arqex/curxor/issues/1#issuecomment-72642125
-  - Reactive programming is simply about decoupling data production from data consumption
-  - CSP channels go beyond and decouple 3 things: data production, data medium, data consumption
+- Decoupling
+  - Reactive programming is simply about decoupling data production from data consumption https://github.com/arqex/curxor/issues/1#issuecomment-72642125
+  - CSP channels go beyond and decouple 3 things: data production, data medium, data consumption https://github.com/arqex/curxor/issues/1#issuecomment-72642125
 - Inversion of control
   - The common ground is that all FRP works with the concept of observability which enables reacting to change automatically https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyov7dj
   - Reactive Programming can most easily be explained as reacting to a change, instead of being told about a change https://github.com/christianalfoni/EmptyBox/blob/master/posts/2015_04_01_Functional-Reactive-Applications.md
