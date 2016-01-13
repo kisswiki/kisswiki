@@ -80,7 +80,6 @@
   - effects like HTTP and animation https://github.com/evancz/elm-effects
   - https://github.com/jvoigtlaender/elm-drag-and-drop
   - https://github.com/elm-community/builtwithelm
-  - https://github.com/johnpmayer/elm-webgl
   - https://github.com/elm-community/elm-linear-algebra
   - https://github.com/elm-community/elm-history
   - https://github.com/elm-community/elm-material-icons
@@ -211,3 +210,6 @@
     }
 - canvas
   - https://github.com/fresheyeball/elm-chartjs
+- webgl
+  - https://evancz.github.io/first-person-elm/
+  - https://github.com/johnpmayer/elm-webgl
