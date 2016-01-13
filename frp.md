@@ -8,10 +8,6 @@ CSP + transducers vs reactive programming
 - csp is a small concept that is then built on by many helper functions. (these helper functions can come in various forms, transducers being just one) RxJS, basically needs to be used as a whole large library. https://github.com/ubolonton/js-csp/issues/40#issuecomment-104740618
 - They are both stream interfaces that can be treated as any other set of data https://github.com/ubolonton/js-csp/issues/40#issuecomment-104740618
 
-FRP is functional programming with
-
-
-
 pragmatic definition of FRP
   - Use streams of data to create the application state (data)
   - Build a UI given only the application state with pure functions (view)
