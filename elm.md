@@ -180,12 +180,14 @@
   - UNIT TEST AND CI INTEGRATION http://www.gizra.com/content/elm-hedley-overview/
 - json
   - https://github.com/lambdatoast/elm-json
-- number of spaces to indent https://groups.google.com/forum/#!topic/elm-dev/1fWxZPcQVqI
+ - number of spaces to indent https://groups.google.com/forum/#!topic/elm-dev/1fWxZPcQVqI
   - most agree to 2 spaces
-  - and updating record example:
+   - and updating record example:
 
     ```elm
     { particle
       | position = particle.position + particle.velocity
       , velocity = particle.velocity + particle.acceleration
     }
+- canvas
+  - https://github.com/fresheyeball/elm-chartjs
