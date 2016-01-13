@@ -63,6 +63,7 @@
   - http://elm-lang.org/examples/resize-yogi
   - Google Maps https://github.com/vilterp/elm-gmaps-experiment
   - https://github.com/evancz/elm-effects
+  - https://github.com/jvoigtlaender/elm-drag-and-drop
 - tools
   - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
    - https://github.com/elm-lang/elm-reactor
