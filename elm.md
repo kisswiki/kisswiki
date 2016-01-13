@@ -175,3 +175,5 @@
   - https://github.com/Gizra/generator-elmlang
 - testing
   - UNIT TEST AND CI INTEGRATION http://www.gizra.com/content/elm-hedley-overview/
+- json
+  - https://github.com/lambdatoast/elm-json
