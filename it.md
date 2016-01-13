@@ -832,3 +832,6 @@
   - http://sujanpatel.com/marketing/the-science-of-stickiness/
 - logging/monitoring
   - https://www.graylog.org/
+- http/2
+  - https://www.facebook.com/smashmag/posts/10153897515457490
+  - https://www.nginx.com/blog/7-tips-for-faster-http2-performance/
