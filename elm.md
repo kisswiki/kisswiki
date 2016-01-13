@@ -69,15 +69,16 @@
   - https://github.com/jvoigtlaender/elm-drag-and-drop
   - https://github.com/elm-community/builtwithelm
 - tools
-  - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
-     - Install Elm Platform. This will install Elm Reactor and everything else it needs.
-      - `npm install -g elm` or binaries
    - https://github.com/elm-lang/elm-reactor
-    - it improves the time traveling debugger created by Laszlo Pandy and Evan Czaplicki, turning it into a practical development tool [source](http://elm-lang.org/blog/time-travel-made-easy)
+    - Install Elm Platform. This will install Elm Reactor and everything else it needs.
+      - `npm install -g elm` or binaries
   - It is inspired by the popular gofmt https://github.com/avh4/elm-format
   - Light Table
     - https://github.com/rundis/elm-light
     - http://rundis.github.io/blog/2016/elm_light_package.html
+- debug
+  - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
+  - it improves the time traveling debugger created by Laszlo Pandy and Evan Czaplicki, turning it into a practical development tool [source](http://elm-lang.org/blog/time-travel-made-easy)
 - quotes
   - First The Elm Architecture in React, now Flow follows Elm's UX lead! [source](https://twitter.com/rtfeldman/status/673680421545107456)
   - Elm's hidden agenda - to subtly spoil us with the idea of declarative programming for building GUIs [source](https://speakerdeck.com/suvash/getting-reactive-with-elm)
