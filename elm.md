@@ -166,3 +166,5 @@
 - router
   - https://github.com/rgrempel/elm-route-hash
     - http://www.gizra.com/content/elm-hedley-overview/
+- tuple?
+  - `setError : (Model, Effects Action)` https://github.com/Gizra/elm-hedley/blob/v1.0.0/src/elm/Config/Test.elm#L16
