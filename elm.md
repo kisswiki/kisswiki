@@ -2,8 +2,12 @@
   - [Make the introduction more streamlined](https://github.com/elm-lang/elm-lang.org/issues/509#issuecomment-171261155)
   - videos
     - [Evan Czaplicki - Let's be mainstream! User focused design in Elm](https://youtu.be/oYk8CKH7OhE)
-    - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64112108k)
+    - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64191291)
     - ["Controlling Time and Space: understanding the many formulations of FRP" by Evan Czaplicki](https://www.youtube.com/watch?v=Agu6jipKfYw)
+    - "Web Apps without Web Servers" by Richard Feldman https://www.youtube.com/watch?v=WqV5kqaFRDU
+    - Climbing Into Elm https://www.youtube.com/watch?v=-JlC2Q89yg4
+    - LambdaConf 2015 - Shipping a Production Web App in Elm Richard Feldman https://www.youtube.com/watch?v=B7Iwreo1ReU
+    - "Make the Back-End Team Jealous: Elm in Production" by Richard Feldman https://www.youtube.com/watch?v=FV0DXNB94NE
   - courses
     - [Elm: Building Reactive Web Apps](https://pragmaticstudio.com/elm)
     - [Elm: Signals, Mailboxes & Ports](https://pragmaticstudio.com/elm-signals)
