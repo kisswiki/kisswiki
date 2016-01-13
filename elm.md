@@ -60,6 +60,7 @@
   - http://zkessin.github.io/elm-examples-blog//examples/2016/01/11/parsing-json.html
   - http://elm-lang.org/examples/resize-yogi
   - Google Maps https://github.com/vilterp/elm-gmaps-experiment
+  - https://github.com/evancz/elm-effects
 - tools
   - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
    - https://github.com/elm-lang/elm-reactor
