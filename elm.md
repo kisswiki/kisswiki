@@ -39,7 +39,7 @@
   - https://blog.codecentric.de/en/2015/11/elm-friday-table-of-contents/
   - http://elm-by-example.org/chapter1helloworld.html
   - errors
-    - https://github.com/elm-lang/error-message-catalog
+    - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
 - usages/examples/packages
   - https://github.com/trending?l=elm&since=daily
   - [packages](http://package.elm-lang.org)
