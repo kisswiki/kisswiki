@@ -75,6 +75,7 @@
     - sort list
       - https://atom.io/packages/markdown-sort-list - changes `-` to `*`, doesn't sort for me
     - https://atom.io/packages/markdown-toc/
+    - https://atom.io/packages/markdown-preview-plus
   - indent without moving to beginning Ctrl+]
   - terminal
     - https://atom.io/packages/term2 most popular - cannot install on windows and atom beta - node-gyp related
