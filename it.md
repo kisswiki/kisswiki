@@ -534,8 +534,10 @@
   - [hyperscript helper tutorial](https://freezer.js.org/minimum-viable-view-library/)
   - animation
     - https://github.com/jaxgeller/tweezer.js
-  - colision
+   - colision
     - https://www.reddit.com/r/javascript/comments/3zrsec/p2js_polygon_demo_draw_something/
+  - equality
+    - http://dorey.github.io/JavaScript-Equality-Table/unified/
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
