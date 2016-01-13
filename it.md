@@ -204,6 +204,7 @@
     - https://github.com/tchapi/markdown-cheatsheet
     - https://gist.github.com/micmcg/976172
     - new line inside list - use two spaces after line and indent next line with at least one space [source](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)
+    - URLs in angle brackets will automatically get turned into links https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
   - gist
       - [Fenced code blocks inside ordered and unordered lists](https://gist.github.com/clintel/1155906)
       - Secret gists don't count as private repositories. You can create as many secret gists as you like.
