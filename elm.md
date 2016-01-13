@@ -64,6 +64,7 @@
   - Google Maps https://github.com/vilterp/elm-gmaps-experiment
   - effects like HTTP and animation https://github.com/evancz/elm-effects
   - https://github.com/jvoigtlaender/elm-drag-and-drop
+  - https://github.com/elm-community/builtwithelm
 - tools
   - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
    - https://github.com/elm-lang/elm-reactor
