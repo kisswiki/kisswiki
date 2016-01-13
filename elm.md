@@ -50,6 +50,7 @@
   - Why Elm? https://www.seas.harvard.edu/blog/2015/10/alumni-profile-evan-czaplicki-ab-12
   - https://github.com/rtfeldman/lambdaconf-2015-elm-workshop
     - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64191291)
+  - http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app
 - errors
     - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
 - usages/examples/packages
