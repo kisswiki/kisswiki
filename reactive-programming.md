@@ -34,6 +34,8 @@
     a = 6;
     b = 10 * a;
     console.log(b); // 60
+    //...
+    var b$ = a$.map(a => 10 * a)
     ```
 - pragmatic definition of FRP
   - Use streams of data to create the application state (data)
