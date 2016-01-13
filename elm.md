@@ -1,4 +1,5 @@
 - learn
+  - [Make the introduction more streamlined](https://github.com/elm-lang/elm-lang.org/issues/509#issuecomment-171261155)
   - videos
     - [Evan Czaplicki - Let's be mainstream! User focused design in Elm](https://youtu.be/oYk8CKH7OhE)
     - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64112108k)
