@@ -34,7 +34,7 @@
     a = 6;
     b = 10 * a;
     console.log(b); // 60
-    //...
+    //... dolar sign indicates a stream
     var b$ = a$.map(a => 10 * a)
     ```
 - pragmatic definition of FRP
