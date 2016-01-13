@@ -40,6 +40,7 @@
   - http://elm-by-example.org/chapter1helloworld.html
   - http://www.gizra.com/content/elm-hedley-overview/
   - http://www.gizra.com/content/thinking-choosing-elm/
+  - http://www.gizra.com/content/elmlang-headless-drupal/
   - errors
     - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
 - usages/examples/packages
