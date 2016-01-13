@@ -105,9 +105,12 @@
   - https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
   - https://github.com/elm-lang/elm-compiler/issues/1150
   - https://github.com/eeue56/servelm
-- port
+- ports
   - Ports are essentially strictly typed event streams to listen to (Elm to JS) or to push events into (JS to Elm). This means you will need to write some boilerplate-ish code, both in Elm and in JavaScript, in order to pass a message to the other side. So the more JavaScript libraries you need, and the more different kinds of objects you want to pass through, the more boilerplate code you will end up with. http://futurice.com/blog/elm-in-the-real-world
   - https://www.reddit.com/r/elm/comments/401qtb/startapp_and_the_redirect_port/
+  - pros/cons
+    - cons
+      - creating a DOM element from elm-html, initializing a widget into that element in JS, then talking to it with ports breaks Elm's semantics pretty badly https://groups.google.com/forum/#!topic/elm-dev/2j1c5HIBqRM
 - game
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_cl one_in_elm/
   - https://www.reddit.com/r/elm/comments/401448/using_elm_to_create_a_fun_game_in_just_five_days/
@@ -116,7 +119,7 @@
 - animation
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
   - https://github.com/evancz/elm-effects
-- signal
+- signals
   - http://zkessin.github.io/elm-examples-blog/examples/2016/01/07/understanding-Signal.forwardTo.html
 - truth
   - https://twitter.com/twopoint718/status/686765116285583360
