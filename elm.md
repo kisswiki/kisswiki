@@ -111,6 +111,7 @@
   - pros/cons
     - cons
       - creating a DOM element from elm-html, initializing a widget into that element in JS, then talking to it with ports breaks Elm's semantics pretty badly https://groups.google.com/forum/#!topic/elm-dev/2j1c5HIBqRM
+  - Richard Feldman - Workshop: Growing the Oasis: Elm in Production http://www.ustream.tv/recorded/64191291
 - game
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_cl one_in_elm/
   - https://www.reddit.com/r/elm/comments/401448/using_elm_to_create_a_fun_game_in_just_five_days/
