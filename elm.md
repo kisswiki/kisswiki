@@ -1,5 +1,6 @@
 - learn
   - [Make the introduction more streamlined](https://github.com/elm-lang/elm-lang.org/issues/509#issuecomment-171261155)
+  - http://futurice.com/blog/elm-in-the-real-world
   - https://github.com/elm-community/elm-faq/blob/gh-pages/index.md
   - videos
     - [Evan Czaplicki - Let's be mainstream! User focused design in Elm](https://youtu.be/oYk8CKH7OhE)
@@ -39,7 +40,6 @@
   - https://en.wikibooks.org/wiki/Elm_programming_language
   - https://confengine.com/functional-conf-2014/proposal/329/functional-reactive-uis-with-elm
   - https://github.com/eeue56/elm-for-web-developers
-  - http://futurice.com/blog/elm-in-the-real-world
   - Learning FP the hard way: Experiences on the Elm language https://gist.github.com/ohanhi/0d3d83cf3f0d7bbea9db/
   - https://www.romanzolotarev.com/elm/
   - http://langnostic.blogspot.com/2013/06/elm-in-practice.html
