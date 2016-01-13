@@ -3,11 +3,12 @@
   - CSP channels go beyond and decouple 3 things: data production, data medium, data consumption
 - Inversion of control
   - The common ground is that all FRP works with the concept of observability which enables reacting to change automatically https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyov7dj
-
-CSP + transducers vs reactive programming
-- FRP functions used inside streams needed to understand they were in a stream. Functions used in a transducer don’t know they’re in a transducer. Basically I can reuse them with all my current map/reduce/filtering code inside async channel. https://medium.com/@puppybits/rxjs-is-great-so-why-have-i-moved-on-534c513e7af3
-- csp is a small concept that is then built on by many helper functions. (these helper functions can come in various forms, transducers being just one) RxJS, basically needs to be used as a whole large library. https://github.com/ubolonton/js-csp/issues/40#issuecomment-104740618
-- They are both stream interfaces that can be treated as any other set of data https://github.com/ubolonton/js-csp/issues/40#issuecomment-104740618
+- CSP + transducers vs reactive programming
+  - FRP functions used inside streams needed to understand they were in a stream. Functions used in a transducer don’t know they’re in a transducer. Basically I can reuse them with all my current map/reduce/filtering code inside async channel. https://medium.com/@puppybits/rxjs-is-great-so-why-have-i-moved-on-534c513e7af3
+  - csp is a small concept that is then built on by many helper functions. (these helper functions can come in various forms, transducers being just one) RxJS, basically needs to be used as a whole large library. https://github.com/ubolonton/js-csp/issues/40#issuecomment-104740618
+  - They are both stream interfaces that can be treated as any other set of data https://github.com/ubolonton/js-csp/issues/40#issuecomment-104740618
+- State
+  - State is actually the dual to events. Given one, you can extract the other. An example is your age (state) and your birthdays (events). So modelling data as a stream of events makes state implicit because state is just the other side of the coin, you are not eliminating it, you are just working in a different "coordinate system" https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyojrze
 
 pragmatic definition of FRP
   - Use streams of data to create the application state (data)
