@@ -80,6 +80,7 @@
   - https://github.com/jvoigtlaender/elm-drag-and-drop
   - https://github.com/elm-community/builtwithelm
   - https://github.com/johnpmayer/elm-webgl
+  - https://github.com/elm-community/elm-linear-algebra
 - tools
    - https://github.com/elm-lang/elm-reactor
     - Install Elm Platform. This will install Elm Reactor and everything else it needs.
