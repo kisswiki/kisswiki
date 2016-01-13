@@ -151,10 +151,10 @@
   - the companies using Elm (5+ now) are not sharing their stuff on there, but I'm going to be working on a series showcasing them! https://twitter.com/czaplic/status/677035150773903361
   - https://groups.google.com/forum/#!topic/elm-discuss/3bgQlAeJpbc
   - http://elm-lang.org/blog/new-adventures-for-elm
-  - NoRedInk
+  - NoRedInk http://www.google.com/url?q=http%3A%2F%2Fnoredinktech.tumblr.com%2Fpost%2F126978281075%2Fwalkthrough-introducing-elm-to-a-js-web-app&sa=D&sntz=1&usg=AFQjCNFeD-YJYj8l4vjNfdcf-7UANaSqnQ
   - CircuitHub
   - Prezi
-  - Gizra
+  - Gizra http://www.google.com/url?q=http%3A%2F%2Fwww.gizra.com%2Fcontent%2Fthinking-choosing-elm%2F&sa=D&sntz=1&usg=AFQjCNEkcaPSSNNQSMMahrQV_Xli91iwOw
   - Beautiful Destinations
   - Your CRM Link
   - TruQu
