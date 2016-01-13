@@ -47,11 +47,11 @@
     - Elm Arch utilizes Signals at the extremes (for input and for output), but not that much in between. Cycle.js uses Signals/Observables at the extremes but also in between, extensively.
     - Elm follows the React way when it comes to event handlers: they are specified and attached to the virtual DOM element. In Cycle.js, the virtual DOM elements we create in the app never have event handlers attached to them. This gives a clear separation of what exits the system (HTML without event handlers) and what enters the system (events through an event delegation system). In Elm and React, what exits the system is a data structure that has callbacks to return to the system.  
 
-    To compliment some points you mentioned: indeed React is only "reactive" with regard to rendering. Render happens when state or props changes. Other parts are not reactive. In Redux and Flux, the Store however is "observable" by components. And the Dispatcher is observable by the Store.  
+      To compliment some points you mentioned: indeed React is only "reactive" with regard to rendering. Render happens when state or props changes. Other parts are not reactive. In Redux and Flux, the Store however is "observable" by components. And the Dispatcher is observable by the Store.  
 
-    React is in fact clearly multiparadigm: it uses OOP as a the main building block (for components), uses reactive pattern for its advertised "one-way data flow" from state to rendering, uses functional pattern with regard to "UI as a pure function of state". It is not properly seeking to be functional because it does not make effects explicit and push effects to the boundary of the application. They may be spread out in the application and there is no prescribed interface for effects. (Both Elm and Cycle have prescribed interfaces for effects: ports/drivers. Elm is strict about purity, Cycle cannot be because it is JavaScript, so purity is a matter of discipline). Conclusion: I disagree with your claim that React is plain FP. It's not.  
+      React is in fact clearly multiparadigm: it uses OOP as a the main building block (for components), uses reactive pattern for its advertised "one-way data flow" from state to rendering, uses functional pattern with regard to "UI as a pure function of state". It is not properly seeking to be functional because it does not make effects explicit and push effects to the boundary of the application. They may be spread out in the application and there is no prescribed interface for effects. (Both Elm and Cycle have prescribed interfaces for effects: ports/drivers. Elm is strict about purity, Cycle cannot be because it is JavaScript, so purity is a matter of discipline). Conclusion: I disagree with your claim that React is plain FP. It's not.  
 
-    Discussion point: why are we not aiming to using a true FRP approach?
-    Beats me. React's multiparadigm confusion plus its almost unanimous praise really intrigues me.  
+      Discussion point: why are we not aiming to using a true FRP approach?
+      Beats me. React's multiparadigm confusion plus its almost unanimous praise really intrigues me.  
 
-    https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyoj29a
+      https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyoj29a
