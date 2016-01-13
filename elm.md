@@ -39,6 +39,7 @@
   - https://blog.codecentric.de/en/2015/11/elm-friday-table-of-contents/
   - http://elm-by-example.org/chapter1helloworld.html
   - http://www.gizra.com/content/elm-hedley-overview/
+  - http://www.gizra.com/content/thinking-choosing-elm/
   - errors
     - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
 - usages/examples/packages
