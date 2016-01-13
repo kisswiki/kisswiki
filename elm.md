@@ -36,6 +36,7 @@
   - https://www.romanzolotarev.com/elm/
   - http://langnostic.blogspot.com/2013/06/elm-in-practice.html
   - https://blog.codecentric.de/en/2015/11/elm-friday-table-of-contents/
+  - http://elm-by-example.org/chapter1helloworld.html
 - usages/examples/packages
   - https://github.com/trending?l=elm&since=daily
   - [packages](http://package.elm-lang.org)
