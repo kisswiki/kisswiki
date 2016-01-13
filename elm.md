@@ -202,6 +202,8 @@
   - `setError : (Model, Effects Action)` https://github.com/Gizra/elm-hedley/blob/v1.0.0/src/elm/Config/Test.elm#L16
 - starer kit
   - https://github.com/Gizra/generator-elmlang
+  - https://github.com/christianalfoni/exploring-elm-boilerplate
+    - http://www.christianalfoni.com/articles/2015_11_30_Exploring-Elm-part1
 - testing
   - UNIT TEST AND CI INTEGRATION http://www.gizra.com/content/elm-hedley-overview/
 - json
