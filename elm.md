@@ -113,3 +113,6 @@
   ```
 - I need to declare type of variable before using it?
 - I can't just run function without taking its output?
+- string interpolation
+  - not done yet https://github.com/elm-lang/elm-compiler/issues/905
+  - https://github.com/lukewestby/elm-string-interpolate
