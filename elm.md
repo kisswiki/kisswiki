@@ -79,6 +79,7 @@
   - effects like HTTP and animation https://github.com/evancz/elm-effects
   - https://github.com/jvoigtlaender/elm-drag-and-drop
   - https://github.com/elm-community/builtwithelm
+  - https://github.com/johnpmayer/elm-webgl
 - tools
    - https://github.com/elm-lang/elm-reactor
     - Install Elm Platform. This will install Elm Reactor and everything else it needs.
