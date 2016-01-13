@@ -16,6 +16,7 @@
   - http://ranking.money.pl/
   - http://natemat.pl/168055,pis-poczul-miliardy-w-internecie-zgadnijcie-co-nowy-podatek-przyniesie-klientom-allegro-czy-komputronik
   - http://natemat.pl/164027,temu-polakowi-amazon-oferowal-10-miliardow-dolarow-odmowil-nie-chce-sie-tanio-sprzedac
+    - http://wish.com
 - time management
   - Long lists don't get done https://amzn.com/0307463745
     - http://lubimyczytac.pl/ksiazka/195804/rework
