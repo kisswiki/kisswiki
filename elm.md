@@ -126,5 +126,5 @@
   [yt > Bret Victor style reactive debugging ‒ Laszlo Pandy](https://www.youtube.com/watch?v=lK0vph1zR8s)
 - import
   - two ways
-    - import StartApp.Simple as StartApp
-    - import StartApp.Simple exposing(start)
+    - `import StartApp.Simple as StartApp` and then `StartUp.start`
+    - `import StartApp.Simple exposing(start)` and then `start`
