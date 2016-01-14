@@ -281,3 +281,6 @@
   - https://github.com/savuori/elm-bs-datepicker
 - milestones
   - https://github.com/elm-lang/elm-compiler/milestones
+- forms
+  - validation
+    - http://tech.noredink.com/post/129641182738/building-a-live-validated-signup-form-in-elm
