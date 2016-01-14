@@ -11,7 +11,6 @@
     http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
 - learn
   - [Make the introduction more streamlined](https://github.com/elm-lang/elm-lang.org/issues/509#issuecomment-171261155)
-  - http://futurice.com/blog/elm-in-the-real-world
   - https://github.com/elm-community/elm-faq/blob/gh-pages/index.md
   - videos
     - [Evan Czaplicki - Let's be mainstream! User focused design in Elm](https://youtu.be/oYk8CKH7OhE)
@@ -148,6 +147,7 @@
   - pros
     - https://prezi.com/qaklogolc1qz/why-prezi-is-investing-in-frp-elm/
     - http://forwardjs.com/university/why-prezi-is-betting-on-frp
+    - http://futurice.com/blog/elm-in-the-real-world
 - isomorphic
   - https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
   - https://github.com/elm-lang/elm-compiler/issues/1150
