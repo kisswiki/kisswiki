@@ -193,6 +193,7 @@
 - types
   - No need to declare type of variable before using it - type inference
   - https://www.reddit.com/r/elm/comments/1ush0h/what_is_elm_type_system_based_on/
+  - https://blog.codecentric.de/en/2015/11/elm-friday-part-06-type-annotations/
 - string interpolation
   - not done yet https://github.com/elm-lang/elm-compiler/issues/905
   - https://github.com/lukewestby/elm-string-interpolate
