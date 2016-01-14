@@ -263,6 +263,7 @@
   - https://github.com/sonnym/node-elm-loader
 - testing
   - UNIT TEST AND CI INTEGRATION http://www.gizra.com/content/elm-hedley-overview/
+  - https://github.com/deadfoxygrandpa/elm-test
 - json
   - https://github.com/lambdatoast/elm-json
 - number of spaces to indent https://groups.google.com/forum/#!topic/elm-dev/1fWxZPcQVqI
