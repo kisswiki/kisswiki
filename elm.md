@@ -127,9 +127,7 @@
   - 100% typed code (with @elmlang) is orders of magnitude better than 95% typed code (with TypeScript or Flow). Elm eliminates runtime errors. [source](https://twitter.com/andrestaltz/status/681186227039678465)
 - community/news/blogs
   - http://elm-lang.org/blog
-  - https://twitter.com/elmlang
-  - https://www.reddit.com/r/elm/
-  - https://groups.google.com/forum/?fromgroups#!forum/elm-discuss
+  - http://elm-lang.org/community (mailing list, reddit, slack, irc, twitter)
   - https://www.quora.com/topic/Elm-programming-language
   - http://mbylstra.github.io/elm-events/
   - https://github.com/Gizra/planet-elm
