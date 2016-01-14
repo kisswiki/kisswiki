@@ -9,4 +9,6 @@ npm run watch
 
 I edit it in atom.io
 - I use commands `fold-all` and `unfold-all`
-- I use `ctrl+[` to decrease indent and `ctrl+]` to increase indent. Those key bindings work even when you are in the middle of line, contrary to `tab` and `shift+tab`.
+- key strokes
+  - `Ctrl+[` to decrease indent and `Ctrl+]` to increase indent. Those key bindings work even when you are in the middle of line, contrary to `tab` and `Shift+Tab`.
+  - `Ctrl+Alt+[` - fold current row, `Ctrl+Alt+]` - unfold current row
