@@ -176,15 +176,15 @@
   - add space in new line to indent when using `\` like in `over9000 powerLevel = \` [1](http://elm-lang.org/guide/core-language) [2](https://github.com/elm-lang/elm-repl/issues/67)
 - function
   - example
-  
+
     ```elm
     over9000 powerLevel =
     if powerLevel > 9000 then "upps 9000" else "meh"
-
+    -- I can't just run function without taking its output
+    -- over9000 9001
     a : String
     a = over9000 9001
     ```
-  - I can't just run function without taking its output
   - what is this `add : Int -> Int -> Int` -  this is a function that takes one integer as argument and returns another function. This returned function takes another integer and returns an integer. https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/functions.html
   - generic with type variables
     - what is `a` in `indexOf: a -> Array a -> Int` - this function takes any type and an array of that same type and returns an integer https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/more_on_functions.html
