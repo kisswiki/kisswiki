@@ -60,8 +60,6 @@
   - http://www.gizra.com/content/thinking-choosing-elm/
   - http://www.gizra.com/content/elmlang-headless-drupal/
   - Why Elm? https://www.seas.harvard.edu/blog/2015/10/alumni-profile-evan-czaplicki-ab-12
-  - https://github.com/rtfeldman/lambdaconf-2015-elm-workshop
-    - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64191291)
   - http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app
   - http://www.christianalfoni.com/articles/2015_11_30_Exploring-Elm-part1
   - http://www.christianalfoni.com/articles/2015_12_17_Exploring-Elm-part2
@@ -73,6 +71,10 @@
   - http://elm-lang.org/guide/interop
   - podcasts
     - https://devchat.tv/ruby-rogues/212-rr-elm-with-richard-feldman-and-evan-czaplicki
+  - workshops
+    - https://github.com/rtfeldman/lambdaconf-2015-elm-workshop
+      - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64191291)
+    - https://github.com/ohanhi/hacksess-elm
 - errors
     - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
 - usages/examples/packages/libraries
