@@ -188,7 +188,7 @@
     a = over9000 9001
     ```
   - what is this `add : Int -> Int -> Int` -  this is a function that takes one integer as argument and returns another function. This returned function takes another integer and returns an integer. https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/functions.html
-  - generic with type variables
+  - generic with type variables `a -> Array a`
     - what is `a` in `indexOf: a -> Array a -> Int` - this function takes any type and an array of that same type and returns an integer https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/more_on_functions.html
 - types
   - No need to declare type of variable before using it - type inference
