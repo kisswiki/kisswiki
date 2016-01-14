@@ -160,6 +160,7 @@
   - https://github.com/avh4/wire-game
   - https://github.com/BlackBrane/destroid
   - https://github.com/slawrence/vessel
+  - https://github.com/jcollard/elmtris
 - animation
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
   - https://github.com/evancz/elm-effects
