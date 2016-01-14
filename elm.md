@@ -254,6 +254,7 @@
   - https://github.com/fresheyeball/elm-chartjs
 - webgl
   - https://evancz.github.io/first-person-elm/
+    - https://github.com/evancz/first-person-elm
   - https://github.com/johnpmayer/elm-webgl
 - transducers
   - https://github.com/avh4/elm-transducers
