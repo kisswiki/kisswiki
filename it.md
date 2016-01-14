@@ -656,3 +656,5 @@
     - Decoupling From Sequences
 - conferences
   - non-profit tech conferences http://mloc-js.com/
+- UX
+  - http://amuseconf.com/
