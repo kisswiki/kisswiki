@@ -161,6 +161,7 @@
   - https://github.com/BlackBrane/destroid
   - https://github.com/slawrence/vessel
   - https://github.com/jcollard/elmtris
+  - An intro to games in Elm http://elm-lang.org/blog/making-pong
 - animation
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
   - https://github.com/evancz/elm-effects
