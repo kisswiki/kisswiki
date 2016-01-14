@@ -69,7 +69,6 @@
   - https://github.com/exercism/xelm
   - http://blog.jessitron.com/2015/11/getting-off-ground-in-elm-project-setup.html
   - http://elm-lang.org/guide/interop
-  - https://github.com/mgold/elm-turtle-graphics
   - podcasts
     - https://devchat.tv/ruby-rogues/212-rr-elm-with-richard-feldman-and-evan-czaplicki
   - workshops
@@ -112,6 +111,7 @@
   - https://github.com/johnpmayer/vec2
   - https://github.com/ohanhi/elm-html-drag-and-drop
   - https://github.com/mgold/elm-socketio
+  - https://github.com/mgold/elm-turtle-graphics
   - audio
     - https://github.com/search?l=elm&q=audio&type=Repositories&utf8=%E2%9C%93
     - https://github.com/bmatcuk/elm-webaudio
