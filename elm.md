@@ -107,6 +107,7 @@
   - https://github.com/elm-community/elm-material-icons
   - https://github.com/elm-community/elm-undo-redo
   - https://github.com/johnpmayer/vec2
+  - https://github.com/bmatcuk/elm-webaudio
 - tools
    - https://github.com/elm-lang/elm-reactor
     - Install Elm Platform. This will install Elm Reactor and everything else it needs.
