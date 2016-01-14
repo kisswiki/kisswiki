@@ -248,7 +248,7 @@
 - Entity Component System
   - https://groups.google.com/forum/#!topic/elm-discuss/NJCZFIYxshE
 - hot reload
-  - WIP in elm-reactor https://groups.google.com/forum/#!topic/elm-discuss/bY7c8oad1VA
+  - WIP in elm-reactor https://groups.google.com/forum/#!topic/elm-discuss/bY7c8oad1VA https://github.com/elm-lang/elm-reactor/issues/168
 - random
   - https://github.com/elm-lang/core/blob/master/src/Random.elm
   - https://github.com/mgold/elm-random-pcg
