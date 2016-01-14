@@ -648,7 +648,7 @@
 - http/2
   - https://www.facebook.com/smashmag/posts/10153897515457490
   - https://www.nginx.com/blog/7-tips-for-faster-http2-performance/
-- transducer
+- transducers
   - definition http://ignaciothayer.com/post/Transducers-Are-Fundamental/
     - A transducer is a function that takes one reducing function and returns another.
     - A reducing function is a function that has the structure of what you'd pass to reduce.
