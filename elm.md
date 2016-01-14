@@ -123,6 +123,7 @@
   - Elm's hidden agenda - to subtly spoil us with the idea of declarative programming for building GUIs [source](https://speakerdeck.com/suvash/getting-reactive-with-elm)
   - 100% typed code (with @elmlang) is orders of magnitude better than 95% typed code (with TypeScript or Flow). Elm eliminates runtime errors. [source](https://twitter.com/andrestaltz/status/681186227039678465)
 - community/news/blogs
+  - http://elm-lang.org/blog
   - https://twitter.com/elmlang
   - https://www.reddit.com/r/elm/
   - https://groups.google.com/forum/?fromgroups#!forum/elm-discuss
