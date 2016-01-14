@@ -173,6 +173,7 @@
   - https://github.com/etaque/tacks
   - https://github.com/mgold/Sequence-Maze
   - https://github.com/basti1302/elm-turing-machine-game
+  - https://github.com/mikegehard/elm-minesweeper
 - animation
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
   - https://github.com/evancz/elm-effects
