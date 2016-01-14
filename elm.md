@@ -252,6 +252,7 @@
   - https://github.com/avh4/elm-transducers
 - modules
   - http://boonofcode.svbtle.com/organising-elm-components
+  - if there's a private Utils module in evancz/focus and in evancz/automaton, the module that wins at runtime depends on what order things were compiled https://github.com/elm-lang/elm-compiler/issues/826
 - Entity Component System
   - https://groups.google.com/forum/#!topic/elm-discuss/NJCZFIYxshE
 - hot reload
