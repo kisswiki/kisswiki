@@ -70,6 +70,7 @@
   - http://blog.jessitron.com/2015/11/getting-off-ground-in-elm-project-setup.html
   - http://elm-lang.org/guide/interop
   - https://github.com/grzegorzbalcerek/elm-by-example
+  - https://github.com/grzegorzbalcerek/ElmByExample
   - podcasts
     - https://devchat.tv/ruby-rogues/212-rr-elm-with-richard-feldman-and-evan-czaplicki
   - workshops
