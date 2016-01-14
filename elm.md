@@ -153,6 +153,7 @@
   - https://github.com/jvoigtlaender/labyrinth-elm
   - https://github.com/johnpmayer/celestia
   - https://github.com/avh4/wire-game
+  - https://github.com/BlackBrane/destroid
 - animation
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
   - https://github.com/evancz/elm-effects
