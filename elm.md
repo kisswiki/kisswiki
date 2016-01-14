@@ -119,6 +119,7 @@
   - https://github.com/mgold/elm-multiset
   - https://github.com/NoRedInk/elm-lazy-list
   - https://github.com/mgold/elm-join
+  - https://github.com/grzegorzbalcerek/Preselm
   - audio
     - https://github.com/search?l=elm&q=audio&type=Repositories&utf8=%E2%9C%93
     - https://github.com/bmatcuk/elm-webaudio
