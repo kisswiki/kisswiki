@@ -189,6 +189,7 @@
   - https://github.com/lukewestby/elm-string-interpolate
 - debugging
   - [yt > Bret Victor style reactive debugging ‒ Laszlo Pandy](https://youtu.be/lK0vph1zR8s)
+  - Elm needs to(/will hopefully) implement source map support at some point. That will allow you to debug from you favorite browsers debugger (or perphaps a decent IDE). https://groups.google.com/forum/#!topic/elm-discuss/CZxERFbHj6s
 - import
   - two ways
     - `import StartApp.Simple as StartApp` and then `StartUp.start`
