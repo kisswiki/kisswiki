@@ -23,6 +23,7 @@
     - "Make the Back-End Team Jealous: Elm in Production" by Richard Feldman https://youtu.be/FV0DXNB94NE
     - Evan Czaplicki on FRP in the Browser with Elm, Time Travelling Debugger http://www.infoq.com/interviews/czaplicki-frp-elm
       - DOM is data, and CSS are transformations
+    - Evan Czaplicki's youtube videos https://www.youtube.com/user/eZap3/videos
   - courses
     - [Elm: Building Reactive Web Apps](https://pragmaticstudio.com/elm)
     - [Elm: Signals, Mailboxes & Ports](https://pragmaticstudio.com/elm-signals)
