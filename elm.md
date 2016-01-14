@@ -72,6 +72,7 @@
   - http://elm-lang.org/guide/interop
   - https://github.com/grzegorzbalcerek/elm-by-example
   - https://github.com/grzegorzbalcerek/ElmByExample
+  - https://yobriefca.se/blog/2015/08/02/deconstructing-your-first-elm-app/
   - podcasts
     - https://devchat.tv/ruby-rogues/212-rr-elm-with-richard-feldman-and-evan-czaplicki
   - workshops
