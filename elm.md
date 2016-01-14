@@ -70,6 +70,7 @@
   - https://github.com/madsflensted/elm-cph-signals
   - https://github.com/exercism/xelm
   - http://blog.jessitron.com/2015/11/getting-off-ground-in-elm-project-setup.html
+  - http://elm-lang.org/guide/interop
   - podcasts
     - https://devchat.tv/ruby-rogues/212-rr-elm-with-richard-feldman-and-evan-czaplicki
 - errors
