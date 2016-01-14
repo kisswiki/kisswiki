@@ -183,8 +183,11 @@
   a : String
   a = over9000 9001
   ```
+  - I can't just run function without taking its output
+  - what is this `add : Int -> Int -> Int` -  this is a function that takes one integer as argument and returns another function. This returned function takes another integer and returns an integer. https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/functions.html
+  - generic with type variables
+    - what is `a` in `indexOf: a -> Array a -> Int` - this function takes any type and an array of that same type and returns an integer https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/more_on_functions.html
 - I need to declare type of variable before using it?
-- I can't just run function without taking its output?
 - string interpolation
   - not done yet https://github.com/elm-lang/elm-compiler/issues/905
   - https://github.com/lukewestby/elm-string-interpolate
@@ -239,10 +242,6 @@
 - webgl
   - https://evancz.github.io/first-person-elm/
   - https://github.com/johnpmayer/elm-webgl
-- functions
-  - what is this `add : Int -> Int -> Int` -  this is a function that takes one integer as argument and returns another function. This returned function takes another integer and returns an integer. https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/functions.html
-  - generic with type variables
-    - what is `a` in `indexOf: a -> Array a -> Int` - this function takes any type and an array of that same type and returns an integer https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/more_on_functions.html
 - transducers
   - https://github.com/avh4/elm-transducers
 - modules
