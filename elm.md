@@ -194,6 +194,7 @@
   - https://github.com/FireflyLogic/pewpew
   - https://github.com/grzegorzbalcerek/chess-elm
   - https://github.com/Lopi/HackMan
+  - https://github.com/bamboo/take-the-blue-pills
 - animation
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
   - https://github.com/evancz/elm-effects
