@@ -206,18 +206,17 @@
     ```elm
     over9000 powerLevel =
     if powerLevel > 9000 then "upps 9000" else "meh"
-    -- I can't just run function without taking its output
-    -- over9000 9001
+
     a : String
     a = over9000 9001
     ```
-  - what is this `add : Int -> Int -> Int` -  this is a function that takes one integer as argument and returns another function. This returned function takes another integer and returns an integer. https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/functions.html
-  - generic with type variables `a -> Array a`
+  - what is this `add : Int -> Int -> Int`
+    - this is a function that takes one integer as argument and returns another function. This returned function takes another integer and returns an integer. https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/functions.html
+    - The type annotation says: given a Float and a Ship, I will return a Ship, but also: given a Float, I will return Ship -> Ship. For example, (applyPhysics 16.7) would actually return a working function to which we can pass a Ship, and get the physics-applied ship as the return value. This property is called Currying and all Elm functions automatically behave this way. https://gist.github.com/ohanhi/0d3d83cf3f0d7bbea9db
+  - generic with type variables
     - what is `a` in `indexOf: a -> Array a -> Int` - this function takes any type and an array of that same type and returns an integer https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/more_on_functions.html
-- types
-  - No need to declare type of variable before using it - type inference
-  - https://www.reddit.com/r/elm/comments/1ush0h/what_is_elm_type_system_based_on/
-  - https://blog.codecentric.de/en/2015/11/elm-friday-part-06-type-annotations/
+- I need to declare type of variable before using it?
+- I can't just run function without taking its output?
 - string interpolation
   - not done yet https://github.com/elm-lang/elm-compiler/issues/905
   - https://github.com/lukewestby/elm-string-interpolate
@@ -277,12 +276,6 @@
   - https://evancz.github.io/first-person-elm/
     - https://github.com/evancz/first-person-elm
   - https://github.com/johnpmayer/elm-webgl
-- functions
-  - what is this `add : Int -> Int -> Int`
-    - this is a function that takes one integer as argument and returns another function. This returned function takes another integer and returns an integer. https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/functions.html
-    - The type annotation says: given a Float and a Ship, I will return a Ship, but also: given a Float, I will return Ship -> Ship. For example, (applyPhysics 16.7) would actually return a working function to which we can pass a Ship, and get the physics-applied ship as the return value. This property is called Currying and all Elm functions automatically behave this way. https://gist.github.com/ohanhi/0d3d83cf3f0d7bbea9db
-  - generic with type variables
-    - what is `a` in `indexOf: a -> Array a -> Int` - this function takes any type and an array of that same type and returns an integer https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/more_on_functions.html
 - transducers
   - https://github.com/avh4/elm-transducers
 - modules
