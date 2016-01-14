@@ -237,6 +237,7 @@
   - https://github.com/Gizra/generator-elmlang
   - https://github.com/christianalfoni/exploring-elm-boilerplate
     - http://www.christianalfoni.com/articles/2015_11_30_Exploring-Elm-part1
+  - Get up and running on multi-user Elm applications in a few easy steps! https://github.com/sonnym/elm-expressway
 - testing
   - UNIT TEST AND CI INTEGRATION http://www.gizra.com/content/elm-hedley-overview/
 - json
