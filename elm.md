@@ -237,3 +237,5 @@
     - what is `a` in `indexOf: a -> Array a -> Int` - this function takes any type and an array of that same type and returns an integer https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/more_on_functions.html
 - transducers
   - https://github.com/avh4/elm-transducers
+- modules
+  - http://boonofcode.svbtle.com/organising-elm-components
