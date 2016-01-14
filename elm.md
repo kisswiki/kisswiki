@@ -204,7 +204,7 @@
 - router
   - https://github.com/rgrempel/elm-route-hash
     - http://www.gizra.com/content/elm-hedley-overview/
-  - Getting the router working on our Elm app helped me realize we were approaching the routing task incorrectly while we were using Angular http://www.gizra.com/content/thinking-choosing-elm/
+  - Getting the router working on our Elm app helped me realize we were approaching the routing task incorrectly while we were using Angular. (...) http://www.gizra.com/content/thinking-choosing-elm/ http://www.gizra.com/content/thinking-choosing-elm/
   - https://github.com/TheSeamau5/elm-router
 - tuple?
   - `setError : (Model, Effects Action)` https://github.com/Gizra/elm-hedley/blob/v1.0.0/src/elm/Config/Test.elm#L16
