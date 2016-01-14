@@ -62,18 +62,11 @@
   - http://www.gizra.com/content/thinking-choosing-elm/
   - http://www.gizra.com/content/elmlang-headless-drupal/
   - Why Elm? https://www.seas.harvard.edu/blog/2015/10/alumni-profile-evan-czaplicki-ab-12
-  - http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app
+  - https://github.com/rtfeldman/lambdaconf-2015-elm-workshop
+    - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64191291)
+  - how to get started with Elm by integrating it with your exisiting Javascript framework http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app
   - http://www.christianalfoni.com/articles/2015_11_30_Exploring-Elm-part1
   - http://www.christianalfoni.com/articles/2015_12_17_Exploring-Elm-part2
-  - how to get started with Elm by integrating it with your exisiting Javascript framework http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app
-  - https://github.com/madsflensted/connect-four
-  - https://github.com/madsflensted/elm-cph-signals
-  - https://github.com/exercism/xelm
-  - http://blog.jessitron.com/2015/11/getting-off-ground-in-elm-project-setup.html
-  - http://elm-lang.org/guide/interop
-  - https://github.com/grzegorzbalcerek/elm-by-example
-  - https://github.com/grzegorzbalcerek/ElmByExample
-  - https://yobriefca.se/blog/2015/08/02/deconstructing-your-first-elm-app/
   - podcasts
     - https://devchat.tv/ruby-rogues/212-rr-elm-with-richard-feldman-and-evan-czaplicki
   - workshops
