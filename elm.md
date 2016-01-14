@@ -65,6 +65,7 @@
   - http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app
   - http://www.christianalfoni.com/articles/2015_11_30_Exploring-Elm-part1
   - http://www.christianalfoni.com/articles/2015_12_17_Exploring-Elm-part2
+  - how to get started with Elm by integrating it with your exisiting Javascript framework http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app
   - podcasts
     - https://devchat.tv/ruby-rogues/212-rr-elm-with-richard-feldman-and-evan-czaplicki
 - errors
