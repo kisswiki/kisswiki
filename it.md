@@ -653,3 +653,4 @@
     - A transducer is a function that takes one reducing function and returns another.
     - A reducing function is a function that has the structure of what you'd pass to reduce.
     - It is a function which accepts an element of input and a previous reduction, and returns a new reduction.
+    - Decoupling From Sequences
