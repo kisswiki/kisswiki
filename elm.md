@@ -252,5 +252,6 @@
 - random
   - https://github.com/elm-lang/core/blob/master/src/Random.elm
   - https://github.com/mgold/elm-random-pcg
+  - https://github.com/NoRedInk/elm-random-extra
 - uuid
   - https://groups.google.com/forum/#!topic/elm-discuss/jvjstbLdpww
