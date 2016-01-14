@@ -162,6 +162,7 @@
   - https://github.com/slawrence/vessel
   - https://github.com/jcollard/elmtris
   - An intro to games in Elm http://elm-lang.org/blog/making-pong
+  - https://github.com/etaque/tacks
 - animation
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
   - https://github.com/evancz/elm-effects
