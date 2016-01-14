@@ -239,3 +239,5 @@
   - https://github.com/avh4/elm-transducers
 - modules
   - http://boonofcode.svbtle.com/organising-elm-components
+- Entity Component System
+  - https://groups.google.com/forum/#!topic/elm-discuss/NJCZFIYxshE
