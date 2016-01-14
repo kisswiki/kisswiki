@@ -267,12 +267,13 @@
   - https://github.com/NoRedInk/elm-random-extra
 - uuid
   - https://groups.google.com/forum/#!topic/elm-discuss/jvjstbLdpww
-- components
+- components/widgets
   - The main problem (the way I see it) is that there is no composable widget architecture as of yet. Yes, we do have Elm Architecture and that is great BUT what I think is needed for what you want is "a language for describing component hierarchies."  
     Ideally, it should be a series of functions that make it easy to create and modify a tree like structure that encapsulates this hierarchy.  
 
     This is notoriously difficult.  
     Evan tried to implement something like that with Graphics.* but failed to produce something viable.  
     https://groups.google.com/forum/#!topic/elm-discuss/tOFOO4uBiNw
+  - https://github.com/savuori/elm-bs-datepicker
 - milestones
   - https://github.com/elm-lang/elm-compiler/milestones
