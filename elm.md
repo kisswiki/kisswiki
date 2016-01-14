@@ -112,6 +112,7 @@
   - https://github.com/ohanhi/elm-html-drag-and-drop
   - https://github.com/mgold/elm-socketio
   - https://github.com/mgold/elm-turtle-graphics
+  - https://github.com/mgold/elm-multiset
   - audio
     - https://github.com/search?l=elm&q=audio&type=Repositories&utf8=%E2%9C%93
     - https://github.com/bmatcuk/elm-webaudio
