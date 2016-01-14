@@ -146,6 +146,7 @@
     - not-expressive-enough static type systems, because it means that polymorphic code that we're used to easily express in JS, becomes a type error in Elm, due to lack of e.g. rank-2 types http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
   - pros
     - https://prezi.com/qaklogolc1qz/why-prezi-is-investing-in-frp-elm/
+    - http://forwardjs.com/university/why-prezi-is-betting-on-frp
 - isomorphic
   - https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
   - https://github.com/elm-lang/elm-compiler/issues/1150
