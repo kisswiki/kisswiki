@@ -130,6 +130,7 @@
   - https://www.quora.com/topic/Elm-programming-language
   - http://mbylstra.github.io/elm-events/
   - https://github.com/Gizra/planet-elm
+  - https://www.reddit.com/user/wheatBread Evan Czaplicki on reddit
 - jsfiddle/jsbin/codepen alike
   - http://share-elm.com/
   - http://elm-lang.org/try
