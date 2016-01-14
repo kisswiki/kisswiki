@@ -246,3 +246,5 @@
   - http://boonofcode.svbtle.com/organising-elm-components
 - Entity Component System
   - https://groups.google.com/forum/#!topic/elm-discuss/NJCZFIYxshE
+- hot reload
+  - WIP in elm-reactor https://groups.google.com/forum/#!topic/elm-discuss/bY7c8oad1VA
