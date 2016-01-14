@@ -269,3 +269,5 @@
     This is notoriously difficult.  
     Evan tried to implement something like that with Graphics.* but failed to produce something viable.  
     https://groups.google.com/forum/#!topic/elm-discuss/tOFOO4uBiNw
+- milestones
+  - https://github.com/elm-lang/elm-compiler/milestones
