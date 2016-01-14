@@ -42,3 +42,4 @@
   - Build a UI given only the application state with pure functions (view)
 - Scan
   - Unlike an iterable, which has a known length, an observable is often open-ended, so we have to use the slightly less familiar scan operation. This is basically an incremental reduce, performing an aggregation step for each item in the observable sequence as soon as it arrives. https://medium.com/@garychambers108/functional-reactive-react-js-b04a8d97a540
+- My presentation WIP https://prezi.com/kukbatetjqgw/reactive-programming/
