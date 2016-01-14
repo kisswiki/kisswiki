@@ -109,6 +109,7 @@
   - https://github.com/elm-community/elm-material-icons
   - https://github.com/elm-community/elm-undo-redo
   - https://github.com/johnpmayer/vec2
+  - https://github.com/ohanhi/elm-html-drag-and-drop
   - audio
     - https://github.com/search?l=elm&q=audio&type=Repositories&utf8=%E2%9C%93
     - https://github.com/bmatcuk/elm-webaudio
