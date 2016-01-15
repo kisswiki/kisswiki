@@ -43,6 +43,7 @@
     - http://elm-lang.org/guide/architecture
       - https://www.reddit.com/r/elm/comments/3xummo/targeting_child_actions_in_parent_views/
       - [document and explore the implementation of what is known as "the Elm architecture"](https://github.com/paldepind/functional-frontend-architecture)
+      - https://www.reddit.com/r/elm/comments/40gkds/elm_in_the_real_world/
   - http://tech.noredink.com/post/129641182738/building-a-live-validated-signup-form-in-elm
   - https://pragmaticstudio.com/blog/2014/12/19/getting-started-with-elm
   - https://pragmaticstudio.com/blog/2015/7/23/what-is-elm-qa
