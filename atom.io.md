@@ -105,3 +105,5 @@
 - default line ending - use .editorconfig
 - open recent files/folders
   - https://atom.io/packages/open-recent
+- theme
+  - https://atom.io/themes/4-color-dark
