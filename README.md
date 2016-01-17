@@ -12,3 +12,5 @@ I edit it in atom.io
 - key strokes
   - `Ctrl+[` to decrease indent and `Ctrl+]` to increase indent. Those key bindings work even when you are in the middle of line, contrary to `tab` and `Shift+Tab`.
   - `Ctrl+Alt+[` - fold current row, `Ctrl+Alt+]` - unfold current row
+- searching in atom.io
+  - first level: regex `^- something`
