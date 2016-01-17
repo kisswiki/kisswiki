@@ -60,6 +60,7 @@
       (...)  
       Being able to compile the work-in-progress state for both components simultaneously is very useful to catch the kind of problems like incorrect const-qualifiers.  
       https://news.ycombinator.com/item?id=9745616
+  - GitFlow considered harmful https://news.ycombinator.com/item?id=9744059
 - web development
   - https://github.com/google/WebFundamentals
 - html/css
