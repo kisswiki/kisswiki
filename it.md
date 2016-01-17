@@ -52,6 +52,14 @@
   - .gitignore http://stackoverflow.com/questions/5533050/gitignore-exclude-folder-but-include-specific-subfolder
   - http://zachholman.com/talk/git-github-secrets/
   - http://zachholman.com/talk/more-git-and-github-secrets/
+  - rewriting history
+    - It also lets me commit whenever I want to during development, even if the build is broken. This is useful for finding bugs during development as you'll have more recorded states to, i.e., find the last working state when you screw something up. https://news.ycombinator.com/item?id=9745350
+    - There's something to be said for having every commit pass tests/work https://news.ycombinator.com/item?id=9748339
+    - Another nice side benefit is that you are able to use git bisect to find bugs more easily. If some of the commits fail the build then it becomes difficult to separate commits that actually introduce a bug from those that are just incomplete.  
+      The team I work with has recently started making sure every commit passes the build and it's had some fantastic results in our productivity.  
+      (...)  
+      Being able to compile the work-in-progress state for both components simultaneously is very useful to catch the kind of problems like incorrect const-qualifiers.  
+      https://news.ycombinator.com/item?id=9745616
 - web development
   - https://github.com/google/WebFundamentals
 - html/css
