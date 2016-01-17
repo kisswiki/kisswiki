@@ -28,6 +28,8 @@
     - [Elm: Building Reactive Web Apps](https://pragmaticstudio.com/elm)
     - [Elm: Signals, Mailboxes & Ports](https://pragmaticstudio.com/elm-signals)
       - https://www.reddit.com/r/elm/comments/3wgxxh/trying_to_understand_the_execution_order/
+  - books
+    - http://www.amazon.com/Seven-More-Languages-Weeks-Shaping-ebook/dp/B00RW8XFUK/
   - http://package.elm-lang.org/packages/elm-lang/core/latest - for offline clone https://github.com/elm-lang/core
   - https://github.com/isRuslan/awesome-elm
   - http://elm-lang.org
