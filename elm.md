@@ -62,11 +62,18 @@
   - http://www.gizra.com/content/thinking-choosing-elm/
   - http://www.gizra.com/content/elmlang-headless-drupal/
   - Why Elm? https://www.seas.harvard.edu/blog/2015/10/alumni-profile-evan-czaplicki-ab-12
-  - https://github.com/rtfeldman/lambdaconf-2015-elm-workshop
-    - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64191291)
-  - how to get started with Elm by integrating it with your exisiting Javascript framework http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app
+  - http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app
   - http://www.christianalfoni.com/articles/2015_11_30_Exploring-Elm-part1
   - http://www.christianalfoni.com/articles/2015_12_17_Exploring-Elm-part2
+  - how to get started with Elm by integrating it with your exisiting Javascript framework http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app
+  - https://github.com/madsflensted/connect-four
+  - https://github.com/madsflensted/elm-cph-signals
+  - https://github.com/exercism/xelm
+  - http://blog.jessitron.com/2015/11/getting-off-ground-in-elm-project-setup.html
+  - http://elm-lang.org/guide/interop
+  - https://github.com/grzegorzbalcerek/elm-by-example
+  - https://github.com/grzegorzbalcerek/ElmByExample
+  - https://yobriefca.se/blog/2015/08/02/deconstructing-your-first-elm-app/
   - podcasts
     - https://devchat.tv/ruby-rogues/212-rr-elm-with-richard-feldman-and-evan-czaplicki
   - workshops
@@ -206,6 +213,8 @@
     ```elm
     over9000 powerLevel =
     if powerLevel > 9000 then "upps 9000" else "meh"
+    -- I can't just run function without taking its output
+    -- over9000 9001
 
     a : String
     a = over9000 9001
@@ -213,10 +222,12 @@
   - what is this `add : Int -> Int -> Int`
     - this is a function that takes one integer as argument and returns another function. This returned function takes another integer and returns an integer. https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/functions.html
     - The type annotation says: given a Float and a Ship, I will return a Ship, but also: given a Float, I will return Ship -> Ship. For example, (applyPhysics 16.7) would actually return a working function to which we can pass a Ship, and get the physics-applied ship as the return value. This property is called Currying and all Elm functions automatically behave this way. https://gist.github.com/ohanhi/0d3d83cf3f0d7bbea9db
-  - generic with type variables
+  - generic with type variables `a -> Array a`
     - what is `a` in `indexOf: a -> Array a -> Int` - this function takes any type and an array of that same type and returns an integer https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/more_on_functions.html
-- I need to declare type of variable before using it?
-- I can't just run function without taking its output?
+- types
+  - No need to declare type of variable before using it - type inference
+  - https://www.reddit.com/r/elm/comments/1ush0h/what_is_elm_type_system_based_on/
+  - https://blog.codecentric.de/en/2015/11/elm-friday-part-06-type-annotations/
 - string interpolation
   - not done yet https://github.com/elm-lang/elm-compiler/issues/905
   - https://github.com/lukewestby/elm-string-interpolate
