@@ -265,11 +265,12 @@
   - algorytmy odporne na ataki kwantowe np większość/wszystkie symetryczne, a z asymetrycznych między innymi NTRU (algorytm oparty na kratach). [source](http://antyweb.pl/komputer-kwantowy-nasa-google/#comment-2429625112)
     - https://en.wikipedia.org/wiki/Elliptic_curve_cryptography#Quantum_computing_attacks
 - windows
-   - screen capture/record
-      - https://github.com/ShareX/ShareX
-      - [LightShot](https://app.prntscr.com)
+  - screen capture/record
+    - https://github.com/ShareX/ShareX
+    - [LightShot](https://app.prntscr.com)
   - wifi password
     - https://github.com/RReverser/WiFi-Password
+  - color picker http://charliecm.github.io/ColorPicker/
 - javascript
   - framework
     - http://www.commitstrip.com/en/2015/09/16/how-to-choose-the-right-javascript-framework/
