@@ -106,4 +106,4 @@
 - open recent files/folders
   - https://atom.io/packages/open-recent
 - theme
-  - https://atom.io/themes/4-color-dark
+  - https://atom.io/themes/4-color-dark + https://atom.io/themes/atom-material-ui
