@@ -666,3 +666,5 @@
   - non-profit tech conferences http://mloc-js.com/
 - UX
   - http://amuseconf.com/
+-  pipe things directly into the shell from internet
+  - https://github.com/jbenet/hashpipe
