@@ -209,7 +209,6 @@
   - https://medium.com/@housecor/react-s-jsx-the-other-side-of-the-coin-2ace7ab62b98
   - JSX is an ugly artefact of legacy PHP and HTML spread into JS because Facebook runs (ran) on PHP https://github.com/jsforum/jsforum/issues/1 https://twitter.com/andrestaltz/status/653960734112673794
   - https://www.facebook.com/notes/facebook-engineering/xhp-a-new-way-to-write-php/294003943919
-- [elm](/elm.md)
 - virtual DOM
   - [widely used in the game industry](http://en.wikipedia.org/wiki/Scene_graph) http://elm-lang.org/blog/blazing-fast-html
   - https://github.com/wilsonpage/fastdom
@@ -359,6 +358,9 @@
     - https://www.reddit.com/r/javascript/comments/3zrsec/p2js_polygon_demo_draw_something/
   - equality
     - http://dorey.github.io/JavaScript-Equality-Table/unified/
+  - asynchronous javascript https://github.com/Sage/streamlinejs
+    - CSP
+      - Creates a channel with an optional buffer, an optional transducer, and optional exception handler. We'll elaborate more on them later on. https://github.com/ubolonton/js-csp/blob/master/doc/basic.md
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
@@ -528,9 +530,7 @@
     - https://github.com/christianalfoni/reactive-router
     - https://github.com/cerebral/addressbar
     - https://github.com/cerebral/url-mapper
-- asynchronous javascript https://github.com/Sage/streamlinejs
- - CSP
-  - Creates a channel with an optional buffer, an optional transducer, and optional exception handler. We'll elaborate more on them later on. https://github.com/ubolonton/js-csp/blob/master/doc/basic.md
+
 - webpack
   - [From Require.js & Grunt to Webpack. Heres how](https://blog.serverdensity.com/the-journey-to-webpack/)
   - http://www.2ality.com/2015/12/webpack-tree-shaking.html
@@ -650,7 +650,6 @@
   - http://teespring.engineering/posts/how-teespring-uses-canvas-svg-dom-to-design-tshirts/
 - mobservable
   - https://medium.com/@mweststrate/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254
-- [geolocation](/geolocation.md)
 - increase traffic
   - http://sujanpatel.com/marketing/the-science-of-stickiness/
 - logging/monitoring
