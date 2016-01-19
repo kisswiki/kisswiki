@@ -276,6 +276,7 @@
           - https://github.com/ShareX/ShareX/wiki/FFmpeg-options
           - https://github.com/ShareX/ShareX/wiki/FFmpeg
         - Start/stop recording with the same hotkey - Shifth + Print Screen
+      - proxy - there are settings for that
     - [LightShot](https://app.prntscr.com)
   - wifi password
     - https://github.com/RReverser/WiFi-Password
