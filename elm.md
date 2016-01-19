@@ -182,7 +182,7 @@
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_cl one_in_elm/
   - https://www.reddit.com/r/elm/comments/401448/using_elm_to_create_a_fun_game_in_just_five_days/
   - https://github.com/liubko/elm-snake
-    - http://www.slideshare.net/theburningmonk/my-adventure-with-elm
+      - http://www.slideshare.net/theburningmonk/my-adventure-with-elm
   - https://github.com/jvoigtlaender/labyrinth-elm
   - https://github.com/johnpmayer/celestia
   - https://github.com/avh4/wire-game
