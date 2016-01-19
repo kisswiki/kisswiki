@@ -63,6 +63,9 @@
   - gitflow
     - GitFlow considered harmful https://news.ycombinator.com/item?id=9744059
     - http://stackoverflow.com/questions/18188492/what-are-the-pros-and-cons-of-git-flow-vs-github-flow
+  - rebase doesn't work with empty commit message http://stackoverflow.com/questions/8542304/rebasing-a-git-history-with-empty-commit-messages
+    - replace empty commit message
+    - or use `git cherry-pick --allow-empty-message from^..to`
 - web development
   - https://github.com/google/WebFundamentals
 - html/css
