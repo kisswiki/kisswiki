@@ -66,6 +66,8 @@
   - rebase doesn't work with empty commit message http://stackoverflow.com/questions/8542304/rebasing-a-git-history-with-empty-commit-messages
     - replace empty commit message
     - or use `git cherry-pick --allow-empty-message from^..to`
+  - replace CRLF to LF in all files in history http://superuser.com/questions/293941/rewrite-git-history-to-replace-all-crlf-to-lf
+    - `git filter-branch --tree-filter 'git ls-files -z | xargs -0 dos2unix' -- --all`
 - web development
   - https://github.com/google/WebFundamentals
 - html/css
