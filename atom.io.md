@@ -107,3 +107,5 @@
   - https://atom.io/packages/open-recent
 - theme
   - https://atom.io/themes/4-color-dark + https://atom.io/themes/atom-material-ui
+  - create
+    - generated theme will appear in directory specified in Settings > Project Home. Default is ~/github
