@@ -68,6 +68,8 @@
     - or use `git cherry-pick --allow-empty-message from^..to`
   - replace CRLF to LF in all files in history http://superuser.com/questions/293941/rewrite-git-history-to-replace-all-crlf-to-lf
     - `git filter-branch --tree-filter 'git ls-files -z | xargs -0 dos2unix' -- --all`
+  - http://stackoverflow.com/questions/13064613/how-to-prune-local-tracking-branches-that-do-not-exist-on-remote-anymore
+    - `git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d`
 - web development
   - https://github.com/google/WebFundamentals
 - html/css
