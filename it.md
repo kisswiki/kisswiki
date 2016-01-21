@@ -687,4 +687,4 @@
 - pipe things directly into the shell from internet
   - https://github.com/jbenet/hashpipe
 - reveal.js
-  - Vertically fill screen 100% https://github.com/hakimel/reveal.js/issues/180#issuecomment-173543708
+  - Vertically fill screen 100% https://github.com/hakimel/reveal.js/issues/180#issuecomment-173543708 http://stackoverflow.com/questions/23241903/positionfixed-in-reveal-js/34922750#34922750
