@@ -686,3 +686,5 @@
   - http://amuseconf.com/
 - pipe things directly into the shell from internet
   - https://github.com/jbenet/hashpipe
+- reveal.js
+  - Vertically fill screen 100% https://github.com/hakimel/reveal.js/issues/180#issuecomment-173543708
