@@ -9,6 +9,7 @@
 
     Your Elm language code will describe, in a totally declarative way, what you want your GUI to look and behave like as time goes by and events (user input, etc) occur. Then, it will compile it all to HTML/JS/CSS in order that runs on the browser.  
     http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
+  - https://www.reddit.com/r/haskell/comments/rkyoa/my_thesis_is_finally_complete_elm_concurrent_frp/
 - learn
   - [Make the introduction more streamlined](https://github.com/elm-lang/elm-lang.org/issues/509#issuecomment-171261155)
   - https://github.com/elm-community/elm-faq/blob/gh-pages/index.md
@@ -125,6 +126,7 @@
   - https://github.com/NoRedInk/elm-lazy-list
   - https://github.com/mgold/elm-join
   - https://github.com/grzegorzbalcerek/Preselm
+  - https://www.reddit.com/r/elm/comments/41b0e3/a_more_readable_elm_task_example/
   - audio
     - https://github.com/search?l=elm&q=audio&type=Repositories&utf8=%E2%9C%93
     - https://github.com/bmatcuk/elm-webaudio
@@ -150,6 +152,7 @@
   - http://mbylstra.github.io/elm-events/
   - https://github.com/Gizra/planet-elm
   - https://www.reddit.com/user/wheatBread Evan Czaplicki on reddit
+  - http://stackoverflow.com/questions/tagged/elm
 - jsfiddle/jsbin/codepen alike
   - http://share-elm.com/
   - http://elm-lang.org/try
@@ -167,6 +170,7 @@
     - https://prezi.com/qaklogolc1qz/why-prezi-is-investing-in-frp-elm/
     - http://forwardjs.com/university/why-prezi-is-betting-on-frp
     - http://futurice.com/blog/elm-in-the-real-world
+    - https://pragmaticstudio.com/blog/2015/10/22/is-learning-elm-worth-your-time
 - isomorphic
   - https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
   - https://github.com/elm-lang/elm-compiler/issues/1150
@@ -320,3 +324,5 @@
     - http://tech.noredink.com/post/129641182738/building-a-live-validated-signup-form-in-elm
 - style guide
   - https://github.com/ohanhi/elm-style-guide
+- atom.io
+  - https://groups.google.com/forum/#!topic/elm-discuss/DFymqONIFjc
