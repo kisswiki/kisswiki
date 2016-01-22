@@ -696,3 +696,4 @@
   - PDF Export https://github.com/hakimel/reveal.js#pdf-export
 - agile
   - http://blog.8thlight.com/uncle-bob/2015/10/16/agile-and-waterfall.html
+  - http://martinfowler.com/bliki/FlaccidScrum.html
