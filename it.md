@@ -462,6 +462,7 @@
  - security
   - https://github.com/quantumfoam/DVNA/
  - functional programming
+  - http://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
   - pros/cons
     - cons
       - http://stackoverflow.com/questions/1786969/pitfalls-disadvantages-of-functional-programming/
