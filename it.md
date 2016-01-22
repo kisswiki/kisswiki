@@ -694,3 +694,5 @@
 - reveal.js
   - Vertically fill screen 100% https://github.com/hakimel/reveal.js/issues/180#issuecomment-173543708 http://stackoverflow.com/questions/23241903/positionfixed-in-reveal-js/34922750#34922750
   - PDF Export https://github.com/hakimel/reveal.js#pdf-export
+- agile
+  - http://blog.8thlight.com/uncle-bob/2015/10/16/agile-and-waterfall.html
