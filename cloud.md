@@ -7,4 +7,3 @@
   - SaaS: you pay someone to deliver groceries.
 - It's a marketing term for redundant, distributed, server side storage that synchronizes changes with the client side data. It's as new as the pointy stick. https://www.reddit.com/r/explainlikeimfive/comments/j62ec/eli5_cloud_computing_andor_the_cloud/c29gb3f
 - This used to be called "hosting", but advances such as virtualization - something that makes a big computer pretend its a bunch of smaller computers (partitioning on steroids), mean that a whole bunch of computers can be on one computer (a server) and a computer farm can be divvied up on demand. https://www.reddit.com/r/explainlikeimfive/comments/j62ec/eli5_cloud_computing_andor_the_cloud/c2aeec4
--
