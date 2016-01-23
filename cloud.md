@@ -25,4 +25,5 @@
   - https://github.com/panicsteve/cloud-to-butt
   - https://www.stickermule.com/marketplace/3442-there-is-no-cloud
   - https://xkcd.com/908/
+  - http://download.fsfe.org/advocacy/promomaterial/NoCloud/thereisnocloud-sticker-74mm.en.pdf https://fsfe.org/contribute/spreadtheword.en.html
 - When I was in high 'the cloud' was geek slang for the internet https://www.reddit.com/r/funny/comments/3aoy7r/there_is_no_cloud/csexzfb
