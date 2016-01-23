@@ -17,3 +17,4 @@
 - Replacing all instances of the word "cloud" with "somebody else's computer" might make organisations stop and think about the security implications of cloud computing. https://www.grahamcluley.com/2013/12/cloud-privacy-computer/
 - https://www.reddit.com/r/funny/comments/3aoy7r/there_is_no_cloud/
   - [HP Offers 'That Cloud Thing Everyone Is Talking About](https://youtu.be/9ntPxdWAWq8)
+  - Countdown to Losing Our Users' Data
