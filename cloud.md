@@ -14,3 +14,4 @@
 - copmputing as utility (pl: usługa) [Changes to computer thinking - Stephen Fry explains cloud computing](https://youtu.be/J9LK6EtxzgM)
   - pay for as much as is needed, when it is needed
   - enables to exactly align technology expenditure with requirements
+- Replacing all instances of the word "cloud" with "somebody else's computer" might make organisations stop and think about the security implications of cloud computing. https://www.grahamcluley.com/2013/12/cloud-privacy-computer/
