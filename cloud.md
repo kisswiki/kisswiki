@@ -1,3 +1,4 @@
+- Cloud computing before the word was corrupted to mean "remote server". What the "cloud" is today: Storage or processing done on some other computer but accessed via the internet, even a single server in many cases. https://www.reddit.com/r/explainlikeimfive/comments/3peb5l/eli5_cloud_computing/cw5zyy7
 - Iaas, Paas, Saas https://www.reddit.com/r/explainlikeimfive/comments/3peb5l/eli5_cloud_computing/cw5kaoe
   - Iaas- infrastructure as a service- you pay for some servers and do whatever you want on them.
   - Paas- platform as a service - you pay for a server with the OS/ Middleware on it and you run your software on top of it.
