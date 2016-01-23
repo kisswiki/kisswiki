@@ -24,4 +24,5 @@
   - Countdown to Losing Our Users' Data
   - https://github.com/panicsteve/cloud-to-butt
   - https://www.stickermule.com/marketplace/3442-there-is-no-cloud
+  - https://xkcd.com/908/
 - When I was in high 'the cloud' was geek slang for the internet https://www.reddit.com/r/funny/comments/3aoy7r/there_is_no_cloud/csexzfb
