@@ -15,6 +15,10 @@
   - pay for as much as is needed, when it is needed
   - enables to exactly align technology expenditure with requirements
 - Replacing all instances of the word "cloud" with "somebody else's computer" might make organisations stop and think about the security implications of cloud computing. https://www.grahamcluley.com/2013/12/cloud-privacy-computer/
+- I thought it was just buzzwords, nothing more than the icon we use to denote "the network".... It's not....  
+  By switching your thinking on this, most of the costs of IT infrastructure go away. There are companies saving millions by embracing "the cloud".  
+  Which isn't "someone elses computer" but "virtualised data centre".  
+  https://www.reddit.com/r/funny/comments/3aoy7r/there_is_no_cloud/csf5ce8
 - https://www.reddit.com/r/funny/comments/3aoy7r/there_is_no_cloud/
   - [HP Offers 'That Cloud Thing Everyone Is Talking About](https://youtu.be/9ntPxdWAWq8)
   - Countdown to Losing Our Users' Data
