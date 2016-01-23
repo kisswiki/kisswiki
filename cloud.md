@@ -23,4 +23,5 @@
   - [HP Offers 'That Cloud Thing Everyone Is Talking About](https://youtu.be/9ntPxdWAWq8)
   - Countdown to Losing Our Users' Data
   - https://github.com/panicsteve/cloud-to-butt
+  - https://www.stickermule.com/marketplace/3442-there-is-no-cloud
 - When I was in high 'the cloud' was geek slang for the internet https://www.reddit.com/r/funny/comments/3aoy7r/there_is_no_cloud/csexzfb
