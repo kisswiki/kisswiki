@@ -1,0 +1,1 @@
+- It's a marketing term for redundant, distributed, server side storage that synchronizes changes with the client side data. It's as new as the pointy stick. https://www.reddit.com/r/explainlikeimfive/comments/j62ec/eli5_cloud_computing_andor_the_cloud/c29gb3f
