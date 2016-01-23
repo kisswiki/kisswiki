@@ -1,1 +1,10 @@
+- Iaas, Paas, Saas https://www.reddit.com/r/explainlikeimfive/comments/3peb5l/eli5_cloud_computing/cw5kaoe
+  - Iaas- infrastructure as a service- you pay for some servers and do whatever you want on them.
+  - Paas- platform as a service - you pay for a server with the OS/ Middleware on it and you run your software on top of it.
+  - Saas- software as a service- you pay to get everything, servers, o/s, Middleware, and the software.
+  - Iaas: you rent a car, you have to get gas, drive it and get groceries from the grocery store.
+  - Paas: you take a taxi, and get groceries.
+  - SaaS: you pay someone to deliver groceries.
 - It's a marketing term for redundant, distributed, server side storage that synchronizes changes with the client side data. It's as new as the pointy stick. https://www.reddit.com/r/explainlikeimfive/comments/j62ec/eli5_cloud_computing_andor_the_cloud/c29gb3f
+- This used to be called "hosting", but advances such as virtualization - something that makes a big computer pretend its a bunch of smaller computers (partitioning on steroids), mean that a whole bunch of computers can be on one computer (a server) and a computer farm can be divvied up on demand. https://www.reddit.com/r/explainlikeimfive/comments/j62ec/eli5_cloud_computing_andor_the_cloud/c2aeec4
+-
