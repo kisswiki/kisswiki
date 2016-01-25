@@ -68,6 +68,7 @@
       Now, that's not to say that you should always produce perfect history while working on a branch. Feel free, when you're in exploratory coding mode, to make lots of checkpoint commits, experiments, and so on. Just clean it up before you present it for review and merge. The nice thing about Git is that you have your own local branches that no one else ever has to see, clean things up quickly and easily with "git rebase -i", and present a much nicer history when it's ready for merge.  
       https://news.ycombinator.com/item?id=6457450
     - Commits should be logical units of the codebase, not units of developer productivity over time https://news.ycombinator.com/item?id=6461562
+    - I don't care to know that you merged 3 times from master yesterday before pushing your feature. Also I don't care to know details like you forgot to put a config file in your first commit and had to do a second one, or that it took you 3 commits to have the spelling alright in the UI. https://news.ycombinator.com/item?id=6456445
   - git flow
     - GitFlow considered harmful http://endoflineblog.com/gitflow-considered-harmful
       - https://news.ycombinator.com/item?id=9744059
