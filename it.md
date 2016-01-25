@@ -66,7 +66,8 @@
       - https://news.ycombinator.com/item?id=9744059
       - https://www.reddit.com/r/programming/comments/3ae2tx/gitflow_considered_harmful/
       - “Considered Harmful” Essays Considered Harmful http://meyerweb.com/eric/comment/chech.html
-    - http://stackoverflow.com/questions/18188492/what-are-the-pros-and-cons-of-git-flow-vs-github-flow
+    - The primary reason for moving away is that the git-flow process is hard to deal with in a continuous (or near-continuous) deployment model.  
+      Start with a model as simple as possible (like GitHub flow tends to be), and move towards a more complex model if you need to.   http://stackoverflow.com/questions/18188492/what-are-the-pros-and-cons-of-git-flow-vs-github-flow
     - Git Branches Considered Harmful http://hintjens.com/blog:24
     - a simple git branching model https://gist.github.com/17twenty/6733076
     - https://about.gitlab.com/2014/09/29/gitlab-flow/
