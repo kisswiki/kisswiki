@@ -72,6 +72,7 @@
     - https://about.gitlab.com/2014/09/29/gitlab-flow/
     - http://scottchacon.com/2011/08/31/github-flow.html
     - http://widgetsandshit.com/teddziuba/2011/12/process.html
+      - http://programmers.stackexchange.com/questions/187512/is-a-merging-strategy-like-git-flow-really-an-anti-pattern#comment361190_187512
   - rebase doesn't work with empty commit message http://stackoverflow.com/questions/8542304/rebasing-a-git-history-with-empty-commit-messages
     - replace empty commit message
     - or use `git cherry-pick --allow-empty-message from^..to`
