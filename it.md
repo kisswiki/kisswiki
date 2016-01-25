@@ -69,6 +69,7 @@
       https://news.ycombinator.com/item?id=6457450
     - Commits should be logical units of the codebase, not units of developer productivity over time https://news.ycombinator.com/item?id=6461562
     - I don't care to know that you merged 3 times from master yesterday before pushing your feature. Also I don't care to know details like you forgot to put a config file in your first commit and had to do a second one, or that it took you 3 commits to have the spelling alright in the UI. https://news.ycombinator.com/item?id=6456445
+    - hey claim that git bisect gets confused by merge-based workflows, and instead advocate rebase-based workflows without explicit feature branches. They're wrong. https://gist.github.com/canton7/3737126
   - git flow
     - GitFlow considered harmful http://endoflineblog.com/gitflow-considered-harmful
       - https://news.ycombinator.com/item?id=9744059
