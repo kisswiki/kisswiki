@@ -67,8 +67,8 @@
       - https://www.reddit.com/r/programming/comments/3ae2tx/gitflow_considered_harmful/
       - “Considered Harmful” Essays Considered Harmful http://meyerweb.com/eric/comment/chech.html
     - http://stackoverflow.com/questions/18188492/what-are-the-pros-and-cons-of-git-flow-vs-github-flow
-    - http://hintjens.com/blog:24
-    - a simple git branching model a simple git branching model
+    - Git Branches Considered Harmful http://hintjens.com/blog:24
+    - a simple git branching model https://gist.github.com/17twenty/6733076
   - rebase doesn't work with empty commit message http://stackoverflow.com/questions/8542304/rebasing-a-git-history-with-empty-commit-messages
     - replace empty commit message
     - or use `git cherry-pick --allow-empty-message from^..to`
