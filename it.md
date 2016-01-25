@@ -67,7 +67,7 @@
       The "history of experimentation" nature of VCS history is just not all that interesting. Think of your VCS history more as an extended form of comments, that document why everything is the way it is. If you actually wrote comments on every line describing why you had changed it in a particular way every time you changed it, your code would wind up being more than 90% comments in not too long. Most of the time, you don't need to see this; but when you are left wondering "hmm, why is this the way it is?", good history is invaluable. The experimental changes in between aren't all that useful; if you got any information from them, then feel free to summarize that in the cleaned up commit message after you've squashed them out.  
       Now, that's not to say that you should always produce perfect history while working on a branch. Feel free, when you're in exploratory coding mode, to make lots of checkpoint commits, experiments, and so on. Just clean it up before you present it for review and merge. The nice thing about Git is that you have your own local branches that no one else ever has to see, clean things up quickly and easily with "git rebase -i", and present a much nicer history when it's ready for merge.  
       https://news.ycombinator.com/item?id=6457450
-    - What you want is a logical sequence of correct changes https://news.ycombinator.com/item?id=6461099
+    - Commits should be logical units of the codebase, not units of developer productivity over time https://news.ycombinator.com/item?id=6461562
   - git flow
     - GitFlow considered harmful http://endoflineblog.com/gitflow-considered-harmful
       - https://news.ycombinator.com/item?id=9744059
