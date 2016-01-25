@@ -77,7 +77,6 @@
     - Git Branches Considered Harmful http://hintjens.com/blog:24
     - a simple git branching model https://gist.github.com/jbenet/ee6c9ac48068889b0912
       - https://news.ycombinator.com/item?id=6456193
-    - a simple git branching model https://gist.github.com/17twenty/6733076
     - https://about.gitlab.com/2014/09/29/gitlab-flow/
     - http://scottchacon.com/2011/08/31/github-flow.html
     - http://widgetsandshit.com/teddziuba/2011/12/process.html
