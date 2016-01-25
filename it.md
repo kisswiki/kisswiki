@@ -70,6 +70,7 @@
     - Git Branches Considered Harmful http://hintjens.com/blog:24
     - a simple git branching model https://gist.github.com/17twenty/6733076
     - https://about.gitlab.com/2014/09/29/gitlab-flow/
+    - http://scottchacon.com/2011/08/31/github-flow.html
   - rebase doesn't work with empty commit message http://stackoverflow.com/questions/8542304/rebasing-a-git-history-with-empty-commit-messages
     - replace empty commit message
     - or use `git cherry-pick --allow-empty-message from^..to`
