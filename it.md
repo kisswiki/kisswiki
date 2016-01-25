@@ -62,8 +62,13 @@
       Being able to compile the work-in-progress state for both components simultaneously is very useful to catch the kind of problems like incorrect const-qualifiers.  
       https://news.ycombinator.com/item?id=9745616
   - gitflow
-    - GitFlow considered harmful https://news.ycombinator.com/item?id=9744059
+    - GitFlow considered harmful http://endoflineblog.com/gitflow-considered-harmful
+      - https://news.ycombinator.com/item?id=9744059
+      - https://www.reddit.com/r/programming/comments/3ae2tx/gitflow_considered_harmful/
+      - “Considered Harmful” Essays Considered Harmful http://meyerweb.com/eric/comment/chech.html
     - http://stackoverflow.com/questions/18188492/what-are-the-pros-and-cons-of-git-flow-vs-github-flow
+    - http://hintjens.com/blog:24
+    - a simple git branching model a simple git branching model
   - rebase doesn't work with empty commit message http://stackoverflow.com/questions/8542304/rebasing-a-git-history-with-empty-commit-messages
     - replace empty commit message
     - or use `git cherry-pick --allow-empty-message from^..to`
