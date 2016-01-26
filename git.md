@@ -38,7 +38,7 @@
   - http://widgetsandshit.com/teddziuba/2011/12/process.html
     - http://programmers.stackexchange.com/questions/187512/is-a-merging-strategy-like-git-flow-really-an-anti-pattern#comment361190_187512
   - How GitHub Uses GitHub to Build GitHub by Zach Holman https://www.youtube.com/watch?v=qyz3jkOBbQY&t=09m12s
-  - fter a release branch is announced, only serious bug fixes are included in the release branch. If possible these bug fixes are first merged into master and then cherry-picked into the release branch. This way you can’t forget to cherry-pick them into master and encounter the same bug on subsequent releases. This is called an ‘upstream first’ policy that is also practiced by Google and Red Hat. https://about.gitlab.com/2014/09/29/gitlab-flow/
+  - After a release branch is announced, only serious bug fixes are included in the release branch. If possible these bug fixes are first merged into master and then cherry-picked into the release branch. This way you can’t forget to cherry-pick them into master and encounter the same bug on subsequent releases. This is called an ‘upstream first’ policy that is also practiced by Google and Red Hat. https://about.gitlab.com/2014/09/29/gitlab-flow/
 - rebase doesn't work with empty commit message http://stackoverflow.com/questions/8542304/rebasing-a-git-history-with-empty-commit-messages
   - replace empty commit message
   - or use `git cherry-pick --allow-empty-message from^..to`
