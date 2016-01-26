@@ -6,5 +6,5 @@
 - assign the headers to the request on every request made after I log in http://stackoverflow.com/questions/18877715/http-auth-headers-in-angularjs/24126951#24126951
 - http://stackoverflow.com/questions/21972133/best-practive-for-xsrf-csrf-secured-rest-calls
 - OWASP recommended double submit cookies XSRF prevention method  
-  he site does not have to save this value in any way.  
+  The site does not have to save this value in any way.  
   https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet#Double_Submit_Cookies
