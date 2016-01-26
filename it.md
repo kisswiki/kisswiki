@@ -97,6 +97,8 @@
     - `git filter-branch --tree-filter 'git ls-files -z | xargs -0 dos2unix' -- --all`
   - http://stackoverflow.com/questions/13064613/how-to-prune-local-tracking-branches-that-do-not-exist-on-remote-anymore
     - `git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d`
+  - graph in shell https://github.com/holman/spark/wiki/Wicked-Cool-Usage
+    - git spark --days 14 Stegosaurus
 - web development
   - https://github.com/google/WebFundamentals
 - html/css
