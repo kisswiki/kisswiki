@@ -5,4 +5,6 @@
 - If you use AngularJS 1.1.3 or newer you can use xsrfHeaderName and xsrfCookieName http://stackoverflow.com/questions/18156452/django-csrf-token-angularjs http://stackoverflow.com/questions/16663574/angular-django-and-csrf
 - assign the headers to the request on every request made after I log in http://stackoverflow.com/questions/18877715/http-auth-headers-in-angularjs/24126951#24126951
 - http://stackoverflow.com/questions/21972133/best-practive-for-xsrf-csrf-secured-rest-calls
-- OWASP recommended double submit cookies XSRF prevention method https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet#Double_Submit_Cookies
+- OWASP recommended double submit cookies XSRF prevention method  
+  he site does not have to save this value in any way.  
+  https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet#Double_Submit_Cookies
