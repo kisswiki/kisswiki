@@ -490,9 +490,9 @@
   - http://www.raduangelescu.com/
 - cms
   - https://github.com/relax/relax
- - security
+- security
   - https://github.com/quantumfoam/DVNA/
- - functional programming
+- functional programming
   - http://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
   - pros/cons
     - cons
