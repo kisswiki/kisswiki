@@ -100,6 +100,7 @@
     - `git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d`
   - graph in shell https://github.com/holman/spark/wiki/Wicked-Cool-Usage
     - git spark --days 14 Stegosaurus
+  - change author https://help.github.com/articles/changing-author-info/
 - web development
   - https://github.com/google/WebFundamentals
 - html/css
