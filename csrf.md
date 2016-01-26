@@ -8,4 +8,4 @@
 - OWASP recommended double submit cookies XSRF prevention method  
   The site does not have to save this value in any way.  
   https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet#Double_Submit_Cookies
-- https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/
+-  it would not be possible to <iframe> your site, generate a POST request and re-use the existing authentication cookie because there will be none https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/
