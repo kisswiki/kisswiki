@@ -522,6 +522,7 @@
   - windows http://stackoverflow.com/questions/18908708/installing-ruby-gem-in-windows/32957325#32957325
 - bash
   - https://github.com/alebcay/awesome-shell
+  - https://github.com/holman/spark
 - canvas
    - fabric.js
     - Fabric provides simple but powerful object model on top of native methods. It takes care of canvas state and rendering, and lets us work with “objects” directly http://fabricjs.com/fabric-intro-part-1/
