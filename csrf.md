@@ -3,3 +3,4 @@
 - http://stackoverflow.com/questions/19793695/does-a-proper-cors-setup-prevent-xsrf
 - https://github.com/pillarjs/understanding-csrf
 - If you use AngularJS 1.1.3 or newer you can use xsrfHeaderName and xsrfCookieName http://stackoverflow.com/questions/18156452/django-csrf-token-angularjs http://stackoverflow.com/questions/16663574/angular-django-and-csrf
+- assign the headers to the request on every request made after I log in http://stackoverflow.com/questions/18877715/http-auth-headers-in-angularjs/24126951#24126951
