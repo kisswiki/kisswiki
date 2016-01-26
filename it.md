@@ -44,6 +44,10 @@
   - https://github.com/Kikobeats/awesome-github
   - http://zachholman.com/talk/git-github-secrets/
   - http://zachholman.com/talk/more-git-and-github-secrets/
+  - API
+    - 5 entertaining things you can find with the GitHub Search API https://gist.github.com/jasonrudolph/6065289
+    - https://github.com/rochefort/git-trend
+    - https://github.com/sheharyarn/github-trending
 - git
   - [A workshopper module for learning Git and GitHub](https://github.com/jlord/git-it)
   - So you're rebasing and you resolve a conflict wrong? `git checkout --conflict=merge <FILE>` to get it back to its conflicted state https://twitter.com/maybekatz/status/677656507052392448
