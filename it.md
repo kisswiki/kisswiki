@@ -725,3 +725,4 @@
 - agile
   - http://blog.8thlight.com/uncle-bob/2015/10/16/agile-and-waterfall.html
   - http://martinfowler.com/bliki/FlaccidScrum.html
+- how to browse in a privacy and security conscious manner https://gist.github.com/atcuno/3425484ac5cce5298932
