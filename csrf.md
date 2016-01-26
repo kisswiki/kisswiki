@@ -2,3 +2,4 @@
 - http://stackoverflow.com/questions/24680302/csrf-protection-with-cors-origin-header-vs-csrf-token
 - http://stackoverflow.com/questions/19793695/does-a-proper-cors-setup-prevent-xsrf
 - https://github.com/pillarjs/understanding-csrf
+- If you use AngularJS 1.1.3 or newer you can use xsrfHeaderName and xsrfCookieName http://stackoverflow.com/questions/16663574/angular-django-and-csrf
