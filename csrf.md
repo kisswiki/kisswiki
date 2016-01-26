@@ -1,3 +1,4 @@
 - http://stackoverflow.com/questions/20504846/why-is-it-common-to-put-csrf-prevention-tokens-in-cookies
 - http://stackoverflow.com/questions/24680302/csrf-protection-with-cors-origin-header-vs-csrf-token
 - http://stackoverflow.com/questions/19793695/does-a-proper-cors-setup-prevent-xsrf
+- https://github.com/pillarjs/understanding-csrf
