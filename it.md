@@ -403,6 +403,8 @@
     - CSP
       - Creates a channel with an optional buffer, an optional transducer, and optional exception handler. We'll elaborate more on them later on. https://github.com/ubolonton/js-csp/blob/master/doc/basic.md
   - https://www.reddit.com/r/javascript/comments/42036z/i_thought_it_might_be_fun_to_recreate_new_by_hand/
+  - you don't need jquery
+    - bling.js https://gist.github.com/paulirish/12fb951a8b893a454b32
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
