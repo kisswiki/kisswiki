@@ -71,6 +71,7 @@
   - http://www.sitepoint.com/7-new-ways-to-test-your-minimum-viable-product/
   - http://blog.landingi.pl/checklista-landing-page-sprawdz/
   - http://righthello.com/start-selling/
+  - http://www.startupfuckingadvice.com/
 - corwdfunding
   - https://flattr.com
   - https://www.bountysource.com/
