@@ -38,3 +38,8 @@
 - http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/
 - Intro to Functional Reactive Programming with Cycle.js - YouTube https://www.reddit.com/comments/3da3e2
 - https://medium.com/@fkrautwald/plug-and-play-all-your-observable-streams-with-cycle-js-e543fc287872
+- learn
+  - video
+    - https://egghead.io/series/cycle-js-fundamentals
+- speed
+  - https://github.com/TylorS/cycle-snabbdom
