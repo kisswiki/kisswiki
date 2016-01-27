@@ -1,3 +1,19 @@
+Cookies are always included on same-origin requests, regardless of how
+that request was initiated. If you’re logged in to www.twitter.com, any time your
+browser navigates to a www.twitter.com site, the cookies will be included in the request.
+It doesn’t matter where the request originates: you can visit www.twitter.com directly
+or click a link to go to www.twitter.com. Even if a page merely links to an image
+hosted on www.twitter.com, the request for that image will include your cookies.
+You have no control over this behavior. If your browser has cookies associated with
+a site, they’re always included on the request.
+ Suppose a hacker creates a page that adds a new tweet to Twitter. Whenever
+someone visits this site, it sends a request to Twitter to create a tweet that says, “I
+have hacked your site!” (see figure C.1). If the hacker can somehow trick you into
+visiting his page, the tweet will be added to your own Twitter feed!
+ This is at the heart of CSRF: an unauthorized site makes a request on your
+behalf using your cookies.
+CORS in Action, C.1 What is CSRF?
+
 - http://stackoverflow.com/questions/20504846/why-is-it-common-to-put-csrf-prevention-tokens-in-cookies
 - http://stackoverflow.com/questions/24680302/csrf-protection-with-cors-origin-header-vs-csrf-token
 - http://stackoverflow.com/questions/19793695/does-a-proper-cors-setup-prevent-xsrf
