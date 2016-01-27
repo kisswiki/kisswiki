@@ -139,6 +139,7 @@
     -  the notation is not the problem, even though it may feel like it is. The math paper is hard to read because the ideas are hard.
   - http://blog.codinghorror.com/the-magpie-developer/
   - https://blog.lelonek.me/jack-of-all-trades-but-master-of-none-2865d34a6442
+  - Let me tell you about programming! It's like giving directions to a baby that has the ability to understand and implement what you are saying and telling it to do, but none of the life experience to infer about what you're telling it. You can't just say: "go get the shovel". If I asked you that, you would just go to the shed and grab it for me. With the programming baby, you have to explain what a shovel is, and where the shovel is, and how the baby can "get" the shovel, in order for the baby to be able to do anything. It will also do EXACTLY as you ask, and nothing more. I tell the baby that she shovel is in the shed, and he goes in the shed and comes back empty-handed, because the shovel was leaning up on the outside of the shed. Imbecile. https://devhumor.com/media/my-friends-accurate-description-of-programming
 - stackexchange.com
   - http://meta.stackexchange.com/questions/3792/how-to-nest-code-within-a-list-using-markdown
 - jspm
