@@ -224,6 +224,7 @@
   - framework
     - http://www.commitstrip.com/en/2015/09/16/how-to-choose-the-right-javascript-framework/
     - http://www.isaacchansky.me/days-since-last-new-js-framework/
+    - https://devhumor.com/media/first-week-in-a-new-framework
   - validation
     - https://github.com/SzybkiSasza/validators-pl
    - lint
