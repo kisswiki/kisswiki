@@ -150,6 +150,8 @@
     - webpack
       - http://ilikekillnerds.com/2015/07/jspm-vs-webpack/
         - https://www.reddit.com/r/javascript/comments/42cigp/jspm_vs_webpack_i_like_kill_nerds/
+      - http://blog.dripstat.com/why-we-switched-from-jspm-to-webpack/
+        - https://www.reddit.com/r/javascript/comments/42ozl3/why_we_switched_from_jspm_to_webpack/
 - jsx
   - [use without react.js](http://stackoverflow.com/questions/30430982/can-i-use-jsx-without-react-to-inline-html-in-script/34262983)
   - It’s such a tight coupling to the DOM  
