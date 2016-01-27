@@ -22,6 +22,7 @@
     - http://lubimyczytac.pl/ksiazka/195804/rework
   - http://www.amazon.com/Life-Changing-Magic-Tidying-Decluttering-Organizing/dp/1607747308/
   - http://www.amazon.com/Master-Your-Workday-Now-Strategi-ebook/dp/B004FN1LSS
+  - http://calnewport.com/blog/2011/11/11/if-youre-busy-youre-doing-something-wrong-the-surprisingly-relaxed-lives-of-elite-achievers/
 - business
   - Long lists don't get done https://amzn.com/0307463745
     - http://lubimyczytac.pl/ksiazka/195804/rework
