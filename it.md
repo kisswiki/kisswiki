@@ -146,6 +146,9 @@
   - http://meta.stackexchange.com/questions/3792/how-to-nest-code-within-a-list-using-markdown
 - jspm
   - https://gitter.im/jspm/jspm
+  - vs
+    - webpack
+      - http://ilikekillnerds.com/2015/07/jspm-vs-webpack/
 - jsx
   - [use without react.js](http://stackoverflow.com/questions/30430982/can-i-use-jsx-without-react-to-inline-html-in-script/34262983)
   - It’s such a tight coupling to the DOM  
