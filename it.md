@@ -8,24 +8,22 @@
   - https://github.com/google/WebFundamentals
 - html/css
   - http://cssdb.co/
-  - interface/widgets
-    - https://github.com/uikit/uikit
-    - http://codecondo.com/minimal-css-frameworks-grid-systems/
-  - frameworks
-    - http://codecondo.com/minimal-css-frameworks-grid-systems/
+  - css
+    - speed
+      - https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Writing_efficient_CSS
+      - http://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/
+    - learn
+      - books
+        - [CSS Secrets: Better Solutions to Everyday Web Design Problems - Lea Verou](http://www.amazon.com/CSS-Secrets-Lea-Verou/dp/1449372635)
+    - frameworks
+      - http://codecondo.com/minimal-css-frameworks-grid-systems/
       - https://github.com/owenversteeg/min
       - https://github.com/mrmrs/fluidity
       - https://github.com/andhart/bijou
       - https://github.com/matthewhartman/base
       - https://github.com/imperavi/kube
       - https://github.com/visiondesignzoo/Responsee
-  - css
-    - speed
-      - https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Writing_efficient_CSS
-      - http://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/
-     - learn
-      - books
-        - [CSS Secrets: Better Solutions to Everyday Web Design Problems - Lea Verou](http://www.amazon.com/CSS-Secrets-Lea-Verou/dp/1449372635)
+      - https://github.com/milligram/milligram
   - http://www.joezimjs.com/javascript/top-5-9-favorite-html5-apis/
    - HTML+CSS+JS are no longer a frontend formula to me.  
     CSS => https://github.com/blakeembrey/free-style  
@@ -39,7 +37,8 @@
   - http://www.sitepoint.com/an-introduction-to-css-supports-rule-feature-queries/
   - gradient
     - http://gradient.quasi.ink/
- - flexbox
+  - browser feature detection https://github.com/viljamis/feature.js
+- flexbox
   - https://github.com/10up/flexibility
 - reactive programming
   - pros/cons
@@ -139,7 +138,12 @@
     -  the notation is not the problem, even though it may feel like it is. The math paper is hard to read because the ideas are hard.
   - http://blog.codinghorror.com/the-magpie-developer/
   - https://blog.lelonek.me/jack-of-all-trades-but-master-of-none-2865d34a6442
+<<<<<<< 6fb9a00887fbf273aca306bdd33bc9b5e7e14913
   - Let me tell you about programming! It's like giving directions to a baby that has the ability to understand and implement what you are saying and telling it to do, but none of the life experience to infer about what you're telling it. You can't just say: "go get the shovel". If I asked you that, you would just go to the shed and grab it for me. With the programming baby, you have to explain what a shovel is, and where the shovel is, and how the baby can "get" the shovel, in order for the baby to be able to do anything. It will also do EXACTLY as you ask, and nothing more. I tell the baby that she shovel is in the shed, and he goes in the shed and comes back empty-handed, because the shovel was leaning up on the outside of the shed. Imbecile. https://devhumor.com/media/my-friends-accurate-description-of-programming
+=======
+  - https://github.com/braydie/HowToBeAProgrammer
+  - https://github.com/FreeCodeCamp/FreeCodeCamp
+>>>>>>> 
 - stackexchange.com
   - http://meta.stackexchange.com/questions/3792/how-to-nest-code-within-a-list-using-markdown
 - jspm
@@ -288,7 +292,7 @@
     - `this` is taken from the surrounding code, beware http://derickbailey.com/2015/09/28/do-es6-arrow-functions-really-solve-this-in-javascript/ resolve this via their closure (lexically) legacy functions locally override the lexical this instead https://www.reddit.com/r/javascript/comments/3z74ok/will_let_eventually_replace_var/cyk7oq5
   - es6 https://medium.com/ecmascript-2015/default-rest-spread-f3ab0d2e0a5e
   - https://github.com/loverajoel/jstips
-  - hile for...in iterates over property names, for...of iterates over property values https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of
+  - for...in iterates over property names, for...of iterates over property values https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of
   - execute exported function from the cli without running the whole program https://github.com/shri3k/funxtion
   - [super() considered hmmm-ful](http://raganwald.com/2015/12/23/super-considered-hmmmful.html)
   - polyfill not so good https://channel9.msdn.com/Events/WebPlatformSummit/2015/Advancing-JavaScript-without-breaking-the-web/
@@ -302,6 +306,7 @@
     - http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X
     - https://www.reddit.com/r/learnjavascript
     - http://eloquentjavascript.net/
+    - https://github.com/loverajoel/jstips
   - [hyperscript helper tutorial](https://freezer.js.org/minimum-viable-view-library/)
   - animation
     - https://github.com/jaxgeller/tweezer.js
@@ -313,8 +318,9 @@
     - CSP
       - Creates a channel with an optional buffer, an optional transducer, and optional exception handler. We'll elaborate more on them later on. https://github.com/ubolonton/js-csp/blob/master/doc/basic.md
   - https://www.reddit.com/r/javascript/comments/42036z/i_thought_it_might_be_fun_to_recreate_new_by_hand/
-  - you don't need jquery
+  - vanilla.js/you don't need jquery
     - bling.js https://gist.github.com/paulirish/12fb951a8b893a454b32
+    - http://vanilla-js.com/
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots

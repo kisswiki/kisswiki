@@ -55,3 +55,5 @@
     Beats me. React's multiparadigm confusion plus its almost unanimous praise really intrigues me.  
 
     https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyoj29a
+- starter kit/boilerplate
+  - https://github.com/mxstbr/react-boilerplate

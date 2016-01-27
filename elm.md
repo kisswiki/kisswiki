@@ -85,6 +85,7 @@
     - https://github.com/ohanhi/hacksess-elm
   - koans
     - https://github.com/robertjlooby/elm-koans
+  - http://learnyouanelm.github.io/
 - errors
     - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
 - usages/examples/packages/libraries
@@ -138,6 +139,7 @@
   - Light Table
     - https://github.com/rundis/elm-light
     - http://rundis.github.io/blog/2016/elm_light_package.html
+  - https://maximilianhoffmann.com/posts/how-to-compile-elm-files-on-save
 - debug
   - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
   - it improves the time traveling debugger created by Laszlo Pandy and Evan Czaplicki, turning it into a practical development tool [source](http://elm-lang.org/blog/time-travel-made-easy)
