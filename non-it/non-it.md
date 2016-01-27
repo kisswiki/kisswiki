@@ -99,3 +99,4 @@
   - http://www.ted.com/talks/shubhendu_sharma_how_to_grow_a_tiny_forest_anywhere/transcript?language=en
 - happiness
   - https://www.ted.com/talks/robert_waldinger_what_makes_a_good_life_lessons_from_the_longest_study_on_happiness/transcript?language=en
+  - http://www.ted.com/playlists/245/talks_for_when_you_feel_totall
