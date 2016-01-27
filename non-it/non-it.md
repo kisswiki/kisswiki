@@ -72,6 +72,7 @@
   - http://blog.landingi.pl/checklista-landing-page-sprawdz/
   - http://righthello.com/start-selling/
   - http://www.startupfuckingadvice.com/
+  - The number one thing was timing. Timing accounted for 42 percent of the difference between success and failure. Team and execution came in second, and the idea, the differentiability of the idea, the uniqueness of the idea, that actually came in third. http://www.ted.com/talks/bill_gross_the_single_biggest_reason_why_startups_succeed/transcript?language=en
 - corwdfunding
   - https://flattr.com
   - https://www.bountysource.com/
