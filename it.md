@@ -325,6 +325,10 @@
   - vanilla.js/you don't need jquery
     - bling.js https://gist.github.com/paulirish/12fb951a8b893a454b32
     - http://vanilla-js.com/
+  - benchmark/speed
+    - https://www.reddit.com/r/javascript/comments/42tdqi/preact_fast_3kb_react_alternative_with_the_same/
+      - http://mathieuancelin.github.io/js-repaint-perfs/
+      - http://localvoid.github.io/uibench/
 - hardware
   - robots
     - https://www.hackster.io/projects/tags/robots
