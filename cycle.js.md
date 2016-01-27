@@ -43,3 +43,5 @@
     - https://egghead.io/series/cycle-js-fundamentals
 - speed
   - https://github.com/TylorS/cycle-snabbdom
+- visualize
+  - https://glebbahmutov.com/draw-cycle/
