@@ -113,3 +113,19 @@
   - https://atom.io/themes/mbo + one dark or https://atom.io/themes/dark-flat-ui
     - https://github.com/elm-lang/elm-lang.org/blob/00badde648c0451b2ce1d2654c83a13c3b7e9ce6/src/editor/editor.js#L215
     - used in in elm i.e. http://elm-lang.org/examples/flickr
+- polish accents with right alt
+  - https://atom.io/packages/keyboard-localization
+  - https://github.com/atom/atom-keymap/issues/35#issuecomment-110439831  
+    ~/.atom/keymap.cson
+
+    ```
+    'body':
+      'ctrl-alt-o': 'unset!'
+
+    'atom-workspace atom-text-editor:not([mini])':
+      'ctrl-alt-z': 'unset!'
+      'ctrl-alt-c': 'unset!'
+
+    '.platform-win32 atom-workspace':
+      'ctrl-alt-c': 'unset!'
+    ```
