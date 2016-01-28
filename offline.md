@@ -1,0 +1,2 @@
+- https://www.udacity.com/course/offline-web-applications--ud899
+- http://deanhume.com/Home/BlogPost/create-a-really--really-simple-offline-page-using-service-workers/10135
