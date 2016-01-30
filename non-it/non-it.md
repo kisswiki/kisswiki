@@ -198,38 +198,38 @@
 
           The only way to master life — like Tetris — is to learn to play with the same self-control at the highest speeds. You can’t allow your goals to be compromised, no matter the pace at which you move. You must control your own mind, your own behaviors, and your own time. Which leads us to…
 
-          3. In life, you can’t control the board.  
+        3. In life, you can’t control the board.  
 
-            As I mentioned earlier, chess is causal. There is a “best move” for any given position. You can force your opponent into a corner. You can see twenty moves into the future, if you’re a supercomputer.  
+          As I mentioned earlier, chess is causal. There is a “best move” for any given position. You can force your opponent into a corner. You can see twenty moves into the future, if you’re a supercomputer.  
 
-            Chess comes with a set of prescriptions and best practices. 1. e4 is considered a strong opening move for white. 1. h3 is not. That’s because chess is a closed system. There’s no random constraints, no dumb luck. The pieces always move the same, and the starting position is always identical.  
+          Chess comes with a set of prescriptions and best practices. 1. e4 is considered a strong opening move for white. 1. h3 is not. That’s because chess is a closed system. There’s no random constraints, no dumb luck. The pieces always move the same, and the starting position is always identical.  
 
-            Tetris? You only know what the next piece is. You play for the present moment, trying to construct the best possible configuration of pieces, knowing that it is impossible to predict the situation even two pieces from now. You don’t get fooled into thinking you can control the future.  
+          Tetris? You only know what the next piece is. You play for the present moment, trying to construct the best possible configuration of pieces, knowing that it is impossible to predict the situation even two pieces from now. You don’t get fooled into thinking you can control the future.  
 
-            I spent much of my life in that chess mindset, trying to find the best possible play or force my way toward a predetermined conclusion. I was hard-wired to see causality all around me and to seek control.  
+          I spent much of my life in that chess mindset, trying to find the best possible play or force my way toward a predetermined conclusion. I was hard-wired to see causality all around me and to seek control.  
 
-            But real life isn’t causal. There is always a distribution of possible events. Things happen that are one in a billion. There is no direct, predictable response to our actions. Our lives are open systems, where any number of unobservable events can change our outlooks and perspectives in moments. Even life’s biggest decisions are hardly calculable — that’s why lots of marriages end in divorce.  
+          But real life isn’t causal. There is always a distribution of possible events. Things happen that are one in a billion. There is no direct, predictable response to our actions. Our lives are open systems, where any number of unobservable events can change our outlooks and perspectives in moments. Even life’s biggest decisions are hardly calculable — that’s why lots of marriages end in divorce.  
 
-            Don’t try to guess what pieces are coming when you try to improve your situation. Like Tetris, you can simply put yourself in the best possible position without seeking to completely control the system you play in. By all means, control and challenge yourself — seriously, go for that Tetris — but don’t expect any favors just because you did. And remember…  
+          Don’t try to guess what pieces are coming when you try to improve your situation. Like Tetris, you can simply put yourself in the best possible position without seeking to completely control the system you play in. By all means, control and challenge yourself — seriously, go for that Tetris — but don’t expect any favors just because you did. And remember…  
 
-          4. In life, no one tells you when you’ve won.  
+        4. In life, no one tells you when you’ve won.  
 
-            In chess, you’ll get to see your opponent tip over his king in resignation. You’ll see the final tournament scores posted. You’ll feel the satisfaction of victory — unless, one day, you don’t.  
+          In chess, you’ll get to see your opponent tip over his king in resignation. You’ll see the final tournament scores posted. You’ll feel the satisfaction of victory — unless, one day, you don’t.  
 
-            I remember the day I quit chess. I didn’t get beaten and give up in frustration. In fact, I won a tournament. And afterwards, I felt nothing.  
+          I remember the day I quit chess. I didn’t get beaten and give up in frustration. In fact, I won a tournament. And afterwards, I felt nothing.  
 
-            According to the millennia-old rules of chess, there’s only two ways to lose — get checkmated, or resign. The day I quit chess, I came up with another. If I wasn’t learning, if I wasn’t enjoying the struggles or victories, I had already lost.  
+          According to the millennia-old rules of chess, there’s only two ways to lose — get checkmated, or resign. The day I quit chess, I came up with another. If I wasn’t learning, if I wasn’t enjoying the struggles or victories, I had already lost.  
 
-            The decision to quit was liberating, terrifying, and confusing. Why did I feel so free when I had given up one of my first loves? But quitting felt good for the reason that starting to play chess felt right in the first place — it was entirely my choice to do so. And with that decision, my competitive, causal chess mindset began to weaken, and my perspective finally cleared.  
+          The decision to quit was liberating, terrifying, and confusing. Why did I feel so free when I had given up one of my first loves? But quitting felt good for the reason that starting to play chess felt right in the first place — it was entirely my choice to do so. And with that decision, my competitive, causal chess mindset began to weaken, and my perspective finally cleared.  
 
-            Meanwhile, Tetris began to fill my gaming void. I play Tetris every day, and every day I pick up the game knowing that I will lose. How long will I play before I lose? How fast will the pieces go? How much will I score? Those are the metrics the game tracks. But I added a way to win — if I play Tetris every day.  
+          Meanwhile, Tetris began to fill my gaming void. I play Tetris every day, and every day I pick up the game knowing that I will lose. How long will I play before I lose? How fast will the pieces go? How much will I score? Those are the metrics the game tracks. But I added a way to win — if I play Tetris every day.  
 
-            I enjoy being uncompromising in setting goals for myself. I get great satisfaction from knowing that I can regularly set myself a personal challenge and attack it daily. Whether I accomplish what I set out to achieve, only I know.  
+          I enjoy being uncompromising in setting goals for myself. I get great satisfaction from knowing that I can regularly set myself a personal challenge and attack it daily. Whether I accomplish what I set out to achieve, only I know.  
 
-            Playing Tetris every day builds my determination, my focus, my will to persevere at things I know have no conclusion. And I don’t play to win — I play to play.  
+          Playing Tetris every day builds my determination, my focus, my will to persevere at things I know have no conclusion. And I don’t play to win — I play to play.  
 
-            We should all be playing life to play. We shouldn’t only see our enemies or seek to control.  
+          We should all be playing life to play. We shouldn’t only see our enemies or seek to control.  
 
-            We must understand that this is simply a matter of perspective. Chess can be a lonely game — but so can Tetris. Both require patience and determination. Both require an open mind.  
+          We must understand that this is simply a matter of perspective. Chess can be a lonely game — but so can Tetris. Both require patience and determination. Both require an open mind.  
 
-            You and you alone get to choose how you play your life. Try to play the right game.
+          You and you alone get to choose how you play your life. Try to play the right game.
