@@ -57,3 +57,4 @@
     https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/cyoj29a
 - starter kit/boilerplate
   - https://github.com/mxstbr/react-boilerplate
+- elm-inspired redux modification https://github.com/raisemarketplace/redux-loop
