@@ -407,6 +407,7 @@
     - https://github.com/paulmillr/chokidar
   - env
     - https://github.com/ryanlelek/atmosphere
+  - http://davidvgalbraith.com/how-i-fixed-node-js/
 - people/news
   - http://www.joezimjs.com/
   - http://www.raduangelescu.com/

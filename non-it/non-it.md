@@ -30,6 +30,7 @@
     - https://www.facebook.com/groups/firmawuk/
     - http://firmauk.pl/
     - https://www.facebook.com/groups/512365358860279/permalink/941464912616986/
+    - http://www.kancelaria-skarbiec.pl/raje-podatkowe/spolki-offshore.html
 - star wars
   - http://xkcd.com/1433/
 - meditation
@@ -103,3 +104,132 @@
   - http://www.ted.com/playlists/245/talks_for_when_you_feel_totall
 - survey/questionary
   - http://www.typeform.com/
+- startup
+  - http://a16z.com/2015/01/22/the-full-stack-startup/
+- email campaigns
+  - http://woodpecker.co/
+- mvp
+  - http://lighttheflame.co/blog/2016/przeblyski-28-mvp/
+- meetings
+  - https://www.facebook.com/djdpl/photos/a.862909183766458.1073741828.734582743265770/993613887362653/?type=3&theater
+- bank
+  - https://www.facebook.com/groups/startupy/permalink/1023774070999425/
+  - http://extra.innpoland.pl/innbankidlabiznesu
+  - http://anglozof.oferty-kredytowe.pl/kontafirmowe/porownanie-ofert
+  - https://www.aliorbank.pl/mapa-strony.html
+  - http://www.bizbank.pl/
+  - http://www.banksmart.pl/
+- love
+  - 10 ways to love https://www.facebook.com/ev45ive/posts/10206814663899596
+    - LISTEN without interrupting
+    - SHARE without pretending
+    - SPEAK without accusing
+    - ENJOY without complaint
+    - GIVE without sparing
+    - TRUST without wavering
+    - PRAY without ceasing
+    - FORGIVE without punishing
+    - ANSWER without arguing
+    - PROMISE without forgeting
+- confidence
+  - Real confidence https://www.facebook.com/ev45ive/posts/10206852007433161 http://www.lifehack.org/339425/real-confidence-isnt-like-what-most-people-think-of
+    - don't seak approval from others
+    - smile only when you really meant it
+    - don't be afraid of silence
+    - don't shift responsibility
+    - don't flatter
+    - always love yourself
+    - don't be afraid to show your weaknesses
+    - know who you are and what you want
+    - don't judge others
+    - don't be afraid to fail
+  - http://www.lifehack.org/283544/11-signs-revealed-only-people-with-true-confidence
+  - http://www.lifehack.org/articles/lifestyle/63-ways-to-build-self-confidence.html
+- przewozy
+  - https://www.facebook.com/groups/512365358860279/permalink/949436948486449/
+- equity compensation
+  - https://github.com/jlevy/og-equity-compensation
+- life
+  - https://medium.com/life-learning/your-life-is-tetris-stop-playing-it-like-chess-4baac6b2750d
+    - In life, your only opponent is yourself
+    - In life, things don’t get harder — they just get faster
+    - In life, you can’t control the board
+    - In life, no one tells you when you’ve won
+    - Full text
+      - Your Life Is Tetris. Stop Playing It Like Chess.  
+
+        I grew up playing chess. It taught me a lot of great lessons about competition — and a lot of wrong lessons about life.  
+
+        From the age of seven, I played chess constantly and competitively. I played in school, online, at national competitions. Chess taught me patience, perseverance, critical thinking — crucial skills for tackling life’s hard problems and difficult situations.  
+
+        Chess also introduced the idea of the “other”. Black versus white. Our school versus theirs. And every game was zero sum — there was only ever one point to score, either to be shared or taken in its entirety. No way to grow the pie.  
+
+        I played chess seriously until the age of fifteen, around the time I got my first cell phone. The cell phone was a significant mark of freedom for a teenager, even though it lacked real utility. I remember it well — a small flip phone with a color screen. I carried it everywhere with me as a symbol of my independence. My phone couldn’t access the internet or send a Snapchat, but I found it could kill boredom with its one included game: Tetris. And I became addicted.  
+
+        Tetris, to some, is frustration incarnate. It’s repetitive! It’s impossible to win! It’s driven by luck! But to me, it became the truest representation of life there is. In comparison, chess is just a silly war game.  
+
+        I don’t play chess competitively anymore. But to this day, Tetris is the only game on my phone. It sits on the front page of my apps, a constant reminder that life is Tetris, not chess.  
+
+        I’ll make this distinction clear in four simple points. Maybe you’ve been playing the game wrong too.  
+
+        1. In life, your only opponent is yourself.  
+
+          I grew up looking for opponents — people to fight, people to blame, people to prove wrong. I imagined enemies when there were none because fighting was easy. I treated everything like it was zero-sum when there was so much else to gain.  
+
+          That’s the chess mindset. And it holds you back.  
+
+          In Tetris, you’re only playing against time and the never-ending flow of pieces from top to bottom. The mindset is internally focused — you are challenging yourself to correctly manipulate a random stream of inputs into an orderly configuration. There’s no final boss. No blame to assign.  
+
+          The real game of life is completely internal. There really are no big, bad enemies who exist to make you suffer. There is no absolute right or wrong move that a certain opponent can punish. And your score can increase to infinity, if you just push yourself harder. Your life score can increase slowly or quickly, depending on how hard you push yourself. Which brings me to…
+
+        2. In life, things don’t get harder — they just get faster.  
+
+          Some games get harder the longer you play, including chess. Positions get more complicated, opponents become more challenging, the stakes increase. You have a public rating, and thus more to lose when you play the same opponents.  
+
+          Not Tetris. The game remains the same from Piece One until you run out of space on the screen. The only thing that changes is the speed.  
+
+          If you played Tetris at the slowest possible speed for the rest of your life, you could possibly never lose. The only enemy would be fatigue. But the algorithm for beating Tetris is not complicated, and you have plenty of time to move the pieces to their optimal locations.  
+
+          In Tetris, more often than not, we challenge ourselves. We are not content with simply making one row at a time. We push ourselves to get a Tetris — four rows simultaneously. It’s the name of the game. Why bother playing if you don’t go for it?  
+
+          I treated life like chess for a long time — a series of ever-increasing challenges. I would invent problems where none were required and take on a victim mindset. But life doesn’t actually get harder the longer you play. As we get older, we have more money and more wisdom. Our independence increases. We don’t have to take on new challenges if we don’t wish to. But we seek fulfillment, so we often do.  
+
+          However, life does get faster. Every day we live is a smaller percentage of our total life, and we perceive time as moving more quickly. Our responsibilities grow until tasks we should sincerely enjoy are treated as annoyances or mindless distractions.  
+
+          The only way to master life — like Tetris — is to learn to play with the same self-control at the highest speeds. You can’t allow your goals to be compromised, no matter the pace at which you move. You must control your own mind, your own behaviors, and your own time. Which leads us to…
+
+          3. In life, you can’t control the board.  
+
+            As I mentioned earlier, chess is causal. There is a “best move” for any given position. You can force your opponent into a corner. You can see twenty moves into the future, if you’re a supercomputer.  
+
+            Chess comes with a set of prescriptions and best practices. 1. e4 is considered a strong opening move for white. 1. h3 is not. That’s because chess is a closed system. There’s no random constraints, no dumb luck. The pieces always move the same, and the starting position is always identical.  
+
+            Tetris? You only know what the next piece is. You play for the present moment, trying to construct the best possible configuration of pieces, knowing that it is impossible to predict the situation even two pieces from now. You don’t get fooled into thinking you can control the future.  
+
+            I spent much of my life in that chess mindset, trying to find the best possible play or force my way toward a predetermined conclusion. I was hard-wired to see causality all around me and to seek control.  
+
+            But real life isn’t causal. There is always a distribution of possible events. Things happen that are one in a billion. There is no direct, predictable response to our actions. Our lives are open systems, where any number of unobservable events can change our outlooks and perspectives in moments. Even life’s biggest decisions are hardly calculable — that’s why lots of marriages end in divorce.  
+
+            Don’t try to guess what pieces are coming when you try to improve your situation. Like Tetris, you can simply put yourself in the best possible position without seeking to completely control the system you play in. By all means, control and challenge yourself — seriously, go for that Tetris — but don’t expect any favors just because you did. And remember…  
+
+          4. In life, no one tells you when you’ve won.  
+
+            In chess, you’ll get to see your opponent tip over his king in resignation. You’ll see the final tournament scores posted. You’ll feel the satisfaction of victory — unless, one day, you don’t.  
+
+            I remember the day I quit chess. I didn’t get beaten and give up in frustration. In fact, I won a tournament. And afterwards, I felt nothing.  
+
+            According to the millennia-old rules of chess, there’s only two ways to lose — get checkmated, or resign. The day I quit chess, I came up with another. If I wasn’t learning, if I wasn’t enjoying the struggles or victories, I had already lost.  
+
+            The decision to quit was liberating, terrifying, and confusing. Why did I feel so free when I had given up one of my first loves? But quitting felt good for the reason that starting to play chess felt right in the first place — it was entirely my choice to do so. And with that decision, my competitive, causal chess mindset began to weaken, and my perspective finally cleared.  
+
+            Meanwhile, Tetris began to fill my gaming void. I play Tetris every day, and every day I pick up the game knowing that I will lose. How long will I play before I lose? How fast will the pieces go? How much will I score? Those are the metrics the game tracks. But I added a way to win — if I play Tetris every day.  
+
+            I enjoy being uncompromising in setting goals for myself. I get great satisfaction from knowing that I can regularly set myself a personal challenge and attack it daily. Whether I accomplish what I set out to achieve, only I know.  
+
+            Playing Tetris every day builds my determination, my focus, my will to persevere at things I know have no conclusion. And I don’t play to win — I play to play.  
+
+            We should all be playing life to play. We shouldn’t only see our enemies or seek to control.  
+
+            We must understand that this is simply a matter of perspective. Chess can be a lonely game — but so can Tetris. Both require patience and determination. Both require an open mind.  
+
+            You and you alone get to choose how you play your life. Try to play the right game.

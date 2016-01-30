@@ -212,6 +212,7 @@
   - https://github.com/mgold/elm-animation
 - signals
   - http://zkessin.github.io/elm-examples-blog/examples/2016/01/07/understanding-Signal.forwardTo.html
+  - http://stackoverflow.com/questions/7451317/is-the-signal-representation-of-functional-reactive-programming-correct
 - truth
   - https://twitter.com/twopoint718/status/686765116285583360
 - repl
@@ -328,3 +329,5 @@
   - https://github.com/ohanhi/elm-style-guide
 - atom.io
   - https://groups.google.com/forum/#!topic/elm-discuss/DFymqONIFjc
+- jsx
+  - https://github.com/pzavolinsky/elmx
