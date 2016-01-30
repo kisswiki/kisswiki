@@ -30,4 +30,4 @@
   - http://download.fsfe.org/advocacy/promomaterial/NoCloud/thereisnocloud-sticker-74mm.en.pdf https://fsfe.org/contribute/spreadtheword.en.html
 - When I was in high 'the cloud' was geek slang for the internet https://www.reddit.com/r/funny/comments/3aoy7r/there_is_no_cloud/csexzfb
 - on-demand computing, on-demand access to a shared pool of configurable computing resources. https://en.wikipedia.org/wiki/Cloud_computing
-http://a16z.com/2015/01/22/cloud-client-computing/
+- http://a16z.com/2015/01/22/cloud-client-computing/
