@@ -233,3 +233,5 @@
           We must understand that this is simply a matter of perspective. Chess can be a lonely game — but so can Tetris. Both require patience and determination. Both require an open mind.  
 
           You and you alone get to choose how you play your life. Try to play the right game.
+- parenting
+  - https://www.ted.com/playlists/150/advice_to_help_you_be_a_great
