@@ -25,6 +25,8 @@
       - https://github.com/imperavi/kube
       - https://github.com/visiondesignzoo/Responsee
       - https://github.com/milligram/milligram
+    - name space
+      - https://github.com/jareware/css-ns
   - http://www.joezimjs.com/javascript/top-5-9-favorite-html5-apis/
    - HTML+CSS+JS are no longer a frontend formula to me.  
     CSS => https://github.com/blakeembrey/free-style  
