@@ -6,7 +6,6 @@
 - Compiled file available at http://s.codepen.io/rofrol/debug/VedqMG
 - After linking your account to github, you can update your gist with export
 - Auto-saving is enabled when you ctrs+s in the window
-- http://blog.codepen.io/2014/03/11/resizeable-embeds/
 
 How to embed codepen in medium.com without click-to-run? I don't know.
 
@@ -15,3 +14,4 @@ How to embed codepen in medium.com without click-to-run? I don't know.
 - I could only embed with oembed - just pasting link http://codepen.io/rofrol/pen/VedqMG and pressing enter
 - oEmbed - For now we only allow /pen/ URL's http://blog.codepen.io/2014/04/03/oembed/
 - Example of medium post which embeds codepen without click-to-run https://medium.com/@gilbox/an-elegant-functional-architecture-for-react-faa3fb42b75b
+- - http://blog.codepen.io/2014/03/11/resizeable-embeds/
