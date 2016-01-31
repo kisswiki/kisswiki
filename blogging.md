@@ -45,4 +45,5 @@ How to embed codepen in medium.com without click-to-run? I don't know.
 
 ## jsbin
 
-https://github.com/jsbin/jsbin/blob/master/docs/running-your-own-jsbin.md
+- https://github.com/jsbin/jsbin/blob/master/docs/running-your-own-jsbin.md
+- http://jsbin.com/somari/7/edit?js,output
