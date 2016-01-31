@@ -4,7 +4,7 @@
 - Babel works http://codepen.io/rofrol/pen/VedqMG
 - There is debug view http://s.codepen.io/rofrol/debug/VedqMG
 - Compiled file available at http://s.codepen.io/rofrol/debug/VedqMG
-- After linking your account to github, you can update your gist with export
+- After linking your account to github, you can update your gist with export http://blog.codepen.io/2013/09/04/joy-gists-now-update/
 - Auto-saving is enabled when you ctrs+s in the window
 
 How to embed codepen in medium.com without click-to-run? I don't know.
