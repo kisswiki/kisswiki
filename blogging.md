@@ -6,6 +6,7 @@
 - Compiled file available at http://s.codepen.io/rofrol/debug/VedqMG
 - After linking your account to github, you can update your gist with export
 - Auto-saving is enabled when you ctrs+s in the window
+- http://blog.codepen.io/2014/03/11/resizeable-embeds/
 
 How to embed codepen in medium.com without click-to-run? I don't know.
 
