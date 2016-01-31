@@ -19,5 +19,8 @@ How to embed codepen in medium.com without click-to-run? I don't know.
 
 ## github gist
 
-- Permanent link to latest version of file https://gist.github.com/rofrol/c11c3926742b0ce65b87/raw/app.js or https://gist.githubusercontent.com/rofrol/c11c3926742b0ce65b87/raw/app.js
+- Permanent link to latest version of file
+  - http://stackoverflow.com/questions/12522539/github-gist-editing-without-changing-url
+  - https://gist.github.com/rofrol/c11c3926742b0ce65b87/raw/app.js
+  - https://gist.githubusercontent.com/rofrol/c11c3926742b0ce65b87/raw/app.js
 - with correct mime-type https://rawgit.com/rofrol/c11c3926742b0ce65b87/raw/app.js
