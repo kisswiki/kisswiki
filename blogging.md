@@ -16,3 +16,8 @@ How to embed codepen in medium.com without click-to-run? I don't know.
 - Example of medium post which embeds codepen without click-to-run https://medium.com/@gilbox/an-elegant-functional-architecture-for-react-faa3fb42b75b
 - http://blog.codepen.io/2014/03/11/resizeable-embeds/
 - http://blog.codepen.io/documentation/features/exporting-pens/
+
+## github gist
+
+- Permanent link to latest version of file https://gist.github.com/rofrol/c11c3926742b0ce65b87/raw/app.js
+- with correct mime-type https://rawgit.com/rofrol/c11c3926742b0ce65b87/raw/app.js
