@@ -8,6 +8,7 @@
       {DOM: CycleDOM.makeDOMDriver(`#app`)}
     )
     ```
+  - http://widdersh.in/built-with-cycle/
 - awesome list
   - https://github.com/Widdershin/cycle-ecosystem
 - community
