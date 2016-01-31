@@ -10,5 +10,5 @@ How to embed codepen in medium.com without click-to-run? I don't know.
 
 - http://blog.codepen.io/documentation/features/embedded-pens/
 - my experiments with embeding https://medium.com/@rofrol/and-now-index-html-68725e69de20
-- I could only embed with oembed - just pasting link   and pressing enter
+- I could only embed with oembed - just pasting link http://codepen.io/rofrol/pen/VedqMG and pressing enter
 - oEmbed - For now we only allow /pen/ URL's http://blog.codepen.io/2014/04/03/oembed/
