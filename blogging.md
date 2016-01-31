@@ -42,3 +42,7 @@ How to embed codepen in medium.com without click-to-run? I don't know.
 - embed a Gist on GitHub Pages using Jekyll https://gist.github.com/benbalter/5555251
 - http://stackoverflow.com/questions/14206307/how-do-i-embed-a-single-file-from-a-github-gist-with-the-new-gist-interface
   - `<script src="https://gist.github.com/4505639.js?file=macroBuild.scala" type="text/javascript"></script>`
+
+## jsbin
+
+https://github.com/jsbin/jsbin/blob/master/docs/running-your-own-jsbin.md
