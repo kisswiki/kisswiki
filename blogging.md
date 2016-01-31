@@ -26,3 +26,4 @@ How to embed codepen in medium.com without click-to-run? I don't know.
 - with correct mime-type https://rawgit.com/rofrol/c11c3926742b0ce65b87/raw/app.js
 - https://gist.github.com/noromanba/2370972
   - https://gist.github.com/raw/2370972/
+- https://github.com/blairvanderhoof/gist-embed
