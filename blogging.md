@@ -5,6 +5,7 @@
 - There is debug view http://s.codepen.io/rofrol/debug/VedqMG
 - Compiled file available at http://s.codepen.io/rofrol/debug/VedqMG
 - After linking your account to github, you can update your gist with export
+- Auto-saving is enabled when you ctrs+s in the window
 
 How to embed codepen in medium.com without click-to-run? I don't know.
 
