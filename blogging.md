@@ -9,6 +9,8 @@
 - tabs https://blog.codepen.io/2015/02/17/prefer-tabs-prefer-spaces-prefer-specify-indentation-width-got-covered/
 - http://blog.codepen.io/2016/01/01/2015-year-end-review/
 - http://blog.codepen.io/documentation/views/full-page-view/
+- http://blog.codepen.io/documentation/pro-features/live-view/
+- http://blog.codepen.io/documentation/
 
 How to embed codepen in medium.com without click-to-run? I don't know.
 
