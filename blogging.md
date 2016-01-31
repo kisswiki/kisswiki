@@ -11,7 +11,7 @@
 - http://blog.codepen.io/documentation/views/full-page-view/
 - http://blog.codepen.io/documentation/pro-features/live-view/
 - http://blog.codepen.io/documentation/
-- Play iFrame embedded YouTube Video on click
+- Play iFrame embedded YouTube Video on click http://codepen.io/martinwolf/pen/dyLAC
 
 How to embed codepen in medium.com without click-to-run? I don't know.
 
