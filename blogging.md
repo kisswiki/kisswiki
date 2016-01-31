@@ -13,6 +13,7 @@
 - http://blog.codepen.io/documentation/
 - Play iFrame embedded YouTube Video on click http://codepen.io/martinwolf/pen/dyLAC
 - http://blog.codepen.io/documentation/views/editor-view/
+- preview colors `body { background-color: #1D1F20; color: #FFFFF8; }`
 
 How to embed codepen in medium.com without click-to-run? I don't know.
 
