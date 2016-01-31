@@ -27,3 +27,4 @@ How to embed codepen in medium.com without click-to-run? I don't know.
 - https://gist.github.com/noromanba/2370972
   - https://gist.github.com/raw/2370972/
 - https://github.com/blairvanderhoof/gist-embed
+- http://stackoverflow.com/questions/14605890/embed-partial-gist-file
