@@ -7,6 +7,7 @@
 - After linking your account to github, you can update your gist with export http://blog.codepen.io/2013/09/04/joy-gists-now-update/
 - Auto-saving is enabled when you ctrs+s in the window
 - tabs https://blog.codepen.io/2015/02/17/prefer-tabs-prefer-spaces-prefer-specify-indentation-width-got-covered/
+- http://blog.codepen.io/2016/01/01/2015-year-end-review/
 
 How to embed codepen in medium.com without click-to-run? I don't know.
 
