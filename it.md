@@ -559,6 +559,7 @@
       - http://swipesapp.com/slack/
       - https://www.meistertask.com/
       - http://techcrunch.com/2015/10/29/slack-introduces-user-groups-allowing-larger-teams-to-collaborate-way-more-effectively/
+      - http://slackvshipchat.com/
     - http://www.zapty.com/
     - http://grouprocket.net/
     - http://www.mattermost.org/
