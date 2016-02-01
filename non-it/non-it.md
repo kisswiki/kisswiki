@@ -32,6 +32,7 @@
     - https://www.facebook.com/groups/512365358860279/permalink/941464912616986/
     - http://www.kancelaria-skarbiec.pl/raje-podatkowe/spolki-offshore.html
     - http://antyweb.pl/zakladanie-firmy-przez-programiste-i-grafika-7-praktycznych-kwestii/
+    - http://antyweb.pl/nadchodza-wielkie-zmiany-w-rozliczaniu-uslug-elektronicznych/
 - star wars
   - http://xkcd.com/1433/
 - meditation
