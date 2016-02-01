@@ -27,6 +27,8 @@
       - https://github.com/milligram/milligram
     - name space
       - https://github.com/jareware/css-ns
+    - style guide
+      - https://18f.gsa.gov/2016/01/11/introducing-the-css-coding-style-guide/
   - http://www.joezimjs.com/javascript/top-5-9-favorite-html5-apis/
    - HTML+CSS+JS are no longer a frontend formula to me.  
     CSS => https://github.com/blakeembrey/free-style  
