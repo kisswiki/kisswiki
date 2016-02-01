@@ -1,3 +1,4 @@
 - iphone 6s plus 128GB
   - 4599 zł http://www.oleole.pl/telefony-komorkowe/apple-iphone-6s-plus-128gb-srebrny.bhtml
   - 4699 zł http://www.x-kom.pl/p/258487-smartfon-telefon-fablet-apple-new-iphone-6s-plus-128gb-space-gray.html
+  - 3999 zł http://allegro.pl/apple-iphone-6s-128gb-silver-zabrze-fv23-i5937399128.html
