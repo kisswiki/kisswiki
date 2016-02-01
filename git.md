@@ -49,3 +49,5 @@
 - graph in shell https://github.com/holman/spark/wiki/Wicked-Cool-Usage
   - git spark --days 14 Stegosaurus
 - change author https://help.github.com/articles/changing-author-info/
+- revert multiple commits
+  - `git revert --no-commit HEAD~2..` http://stackoverflow.com/questions/1463340/revert-multiple-git-commits#comment19940208_11743042
