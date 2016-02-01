@@ -409,6 +409,7 @@
   - env
     - https://github.com/ryanlelek/atmosphere
   - http://davidvgalbraith.com/how-i-fixed-node-js/
+  - https://github.com/totaljs/framework
 - people/news
   - http://www.joezimjs.com/
   - http://www.raduangelescu.com/
