@@ -5,6 +5,7 @@
   - A Closer Look at the BabylonJS 3D HTML5 Game Engine https://www.youtube.com/watch?v=pmEAlZBvOCw
   - http://www.html5gamedevs.com/forum/16-babylonjs/
   - http://pixelcodr.com/tutorials.html
+  - http://www.pixelcodr.com/tutos/toad_attack/toad_attack.html
+  - http://learningbabylonjs.com/
 - https://github.com/ellisonleao/magictools
-- http://www.pixelcodr.com/tutos/toad_attack/toad_attack.html
-- http://learningbabylonjs.com/
+- https://www.reddit.com/r/javascript/comments/42klzr/we_want_to_create_a_js_game/
