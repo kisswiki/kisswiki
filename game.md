@@ -6,3 +6,4 @@
   - http://pixelcodr.com/tutorials.html
 - https://github.com/ellisonleao/magictools
 - http://www.pixelcodr.com/tutos/toad_attack/toad_attack.html
+- http://learningbabylonjs.com/
