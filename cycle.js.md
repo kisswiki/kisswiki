@@ -48,3 +48,5 @@
   - https://github.com/TylorS/cycle-snabbdom
 - visualize
   - https://glebbahmutov.com/draw-cycle/
+- hot-reload
+  - https://github.com/widdershin/cycle-hot-reloading-example/
