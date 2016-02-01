@@ -1,0 +1,3 @@
+- https://github.com/saan1984/BabelInBrowserDemo
+- https://github.com/Daniel15/babel-standalone
+- http://stackoverflow.com/questions/33643967/how-to-install-babel-and-using-es6-locally-on-browser
