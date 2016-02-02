@@ -238,4 +238,4 @@
 - parenting
   - https://www.ted.com/playlists/150/advice_to_help_you_be_a_great
 - teach kids
-  - http://www.ted.com/talks/bj_miller_what_really_matters_at_the_end_of_life
+  - http://antyweb.pl/specjalnie-dla-antyweb-tak-minecraft-uczy-polskie-dzieciaki/
