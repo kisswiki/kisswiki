@@ -1,3 +1,6 @@
+- https://github.com/google/WebFundamentals
+- Web platform status links https://gist.github.com/mathiasbynens/9e26f733b53dd6a9d417
+- [In these labs you will learn and work with the latest trends, practices and technologies for web development](https://github.com/deltakosh/interoperable-web-development/)
 - Web Standards Plugin http://www.sitepoint.com/three-plugins-every-gruntfile-gulpfile-needs-make-website-great/
   - https://github.com/MicrosoftDX/grunt-webstandards
   - https://github.com/MicrosoftDX/gulp-webstandards
