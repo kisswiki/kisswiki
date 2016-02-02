@@ -12,3 +12,16 @@
 - examples
   - text games
     - https://github.com/veltman/clmystery
+- https://github.com/showcases/javascript-game-engines
+- for kids
+  - http://phaser.io/news/2015/09/doctor-who-game-maker
+  - http://phaser.io/news/2015/12/minecraft-meets-hour-of-code
+  - http://phaser.io/news/2015/09/eastenders-soap-factory
+- for programmers
+  - https://www.codingame.com
+- phaser/lazer
+- http://www.emanueleferonato.com/2015/01/02/html5-swipe-controlled-sokoban-game-made-with-phaser-step-2-adding-keyboard-controls-and-unlimited-undos/
+- http://www.emanueleferonato.com/2015/06/08/get-my-first-indie-minibook-from-null-to-full-html5-cross-platform-game/
+- https://academy.zenva.com/product/the-complete-mobile-game-development-course-platinum-edition/
+- http://phaser.io/news/2015/09/interphase-is-released
+- http://phaser.io/games
