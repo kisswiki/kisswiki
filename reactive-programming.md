@@ -45,3 +45,4 @@
 - My presentation WIP https://prezi.com/kukbatetjqgw/reactive-programming/
 - https://prezi.com/jqowmkidsrmy/the-taxonomy-of-frp/
 - https://github.com/alexvictoor/RxJsKata
+- Observable benchmarks https://gist.github.com/TylorS/55573b29df19c064c6b1
