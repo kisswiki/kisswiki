@@ -1,0 +1,6 @@
+- https://github.com/chentsulin/awesome-graphql
+ - https://github.com/kadirahq/lokka
+  - https://porter.io/github.com/chentsulin/awesome-graphql
+  - https://voice.kadira.io/introducing-lokka-a-simple-javascript-client-for-graphql-e0802695648c
+  - https://forums.meteor.com/t/lokka-a-javascript-client-for-graphql/14922
+- https://medium.com/@matt.krick/how-to-build-a-graphql-client-cache-part-i-25e698acd8af
