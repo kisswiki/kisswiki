@@ -1,9 +1,3 @@
-- graphql
-  - https://github.com/chentsulin/awesome-graphql
-   - https://github.com/kadirahq/lokka
-    - https://porter.io/github.com/chentsulin/awesome-graphql
-    - https://voice.kadira.io/introducing-lokka-a-simple-javascript-client-for-graphql-e0802695648c
-    - https://forums.meteor.com/t/lokka-a-javascript-client-for-graphql/14922
 - web development
   - https://github.com/google/WebFundamentals
   - Web platform status links https://gist.github.com/mathiasbynens/9e26f733b53dd6a9d417
