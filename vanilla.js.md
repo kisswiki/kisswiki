@@ -1,0 +1,5 @@
+- bling.js https://gist.github.com/paulirish/12fb951a8b893a454b32
+- http://vanilla-js.com/
+- https://github.com/albxncom/lib.js
+- https://github.com/jbebe/all-my-projects/blob/master/priv/web/javascriptLibrary/minJS.dev.js
+- https://www.reddit.com/r/javascript/comments/42quf8/youdontneedlodashunderscore/
