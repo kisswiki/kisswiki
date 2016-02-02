@@ -1,0 +1,2 @@
+- Use flexbox while supporting older Internet Explorers https://github.com/10up/flexibility
+- Flexbox playgroung http://codepen.io/enxaneta/full/adLPwv/
