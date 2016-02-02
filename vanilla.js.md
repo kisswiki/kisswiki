@@ -3,4 +3,3 @@
 - https://github.com/albxncom/lib.js
 - https://github.com/jbebe/all-my-projects/blob/master/priv/web/javascriptLibrary/minJS.dev.js
 - https://www.reddit.com/r/javascript/comments/42quf8/youdontneedlodashunderscore/
-- https://www.reddit.com/r/Frontend/comments/42qt4d/youdontneedlodashunderscore/
