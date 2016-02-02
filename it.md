@@ -611,6 +611,7 @@
     - A reducing function is a function that has the structure of what you'd pass to reduce.
     - It is a function which accepts an element of input and a previous reduction, and returns a new reduction.
     - Decoupling From Sequences
+  - https://medium.com/@roman01la/understanding-transducers-in-javascript-3500d3bd9624
 - conferences
   - non-profit tech conferences http://mloc-js.com/
 - UX
