@@ -46,6 +46,7 @@
     - https://egghead.io/series/cycle-js-fundamentals
 - speed
   - https://github.com/TylorS/cycle-snabbdom
+  - Observable benchmarks https://gist.github.com/TylorS/55573b29df19c064c6b1
 - visualize
   - https://glebbahmutov.com/draw-cycle/
 - hot-reload
