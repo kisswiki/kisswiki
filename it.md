@@ -16,9 +16,6 @@
   - gradient
     - http://gradient.quasi.ink/
   - browser feature detection https://github.com/viljamis/feature.js
-- flexbox
-  - Use flexbox while supporting older Internet Explorers https://github.com/10up/flexibility
-  - Flexbox playgroung http://codepen.io/enxaneta/full/adLPwv/
 - reactive programming
   - pros/cons
     - Functional reactive programming provides us with a toolset to easily describe complex concurrent data or control flows in a declarative way using a clear interface—it’s all about what and not how! Indeed you have to learn a new paradigm, which adds another level of abstraction, but in the end it feels very natural. One major drawback is the ability to debug reactive code, because events fly around at many points in time. I ignored error handling in all examples, which is in fact not a big deal and built into event streams by design. FRP is not the holy grail and has to be chosen wisely for the right job—like data binding. https://www.zweitag.de/en/blog/technology/functional-reactive-programming-frp
