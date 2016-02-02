@@ -50,3 +50,4 @@
   Readable streams and observables/EventTarget are not terribly related. Observables/EventTarget are specifically designed for multi-consumer scenarios, and have no support for backpressure. They are generally a bad fit for anything related to I/O, whereas streams excel there.  
 
   Observables and readable streams both share the semantic of "zero or more chunks, followed by either an error or done signal". But beyond that, they are not very comparable.
+- http://reactivex.io/learnrx/

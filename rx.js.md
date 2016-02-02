@@ -1,0 +1,5 @@
+- flatMap
+  - https://egghead.io/lessons/rxjs-rxjs-map-vs-flatmap
+  - http://reactivex.io/documentation/operators/flatmap.html
+- flatMapLatest
+  - Expand RxJS and search for flatMapLatest http://reactivex.io/documentation/operators/flatmap.html

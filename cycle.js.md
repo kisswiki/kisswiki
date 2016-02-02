@@ -44,6 +44,7 @@
 - learn
   - video
     - https://egghead.io/series/cycle-js-fundamentals
+      - http://codepen.io/rofrol/pen/OMwdEX?editors=0010
 - speed
   - https://github.com/TylorS/cycle-snabbdom
   - Observable benchmarks https://gist.github.com/TylorS/55573b29df19c064c6b1
@@ -52,3 +53,5 @@
 - hot-reload
   - https://github.com/widdershin/cycle-hot-reloading-example/
 - https://github.com/staltz/combineLatestObj
+- starer kit
+  - https://github.com/edge/cyc/tree/master/skel
