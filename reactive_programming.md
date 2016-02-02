@@ -46,3 +46,7 @@
 - https://prezi.com/jqowmkidsrmy/the-taxonomy-of-frp/
 - https://github.com/alexvictoor/RxJsKata
 - Observable benchmarks https://gist.github.com/TylorS/55573b29df19c064c6b1
+- readable streams vs observables  https://github.com/whatwg/streams/blob/master/FAQ.md#how-do-readable-streams-relate-to-observables-or-eventtarget  
+  Readable streams and observables/EventTarget are not terribly related. Observables/EventTarget are specifically designed for multi-consumer scenarios, and have no support for backpressure. They are generally a bad fit for anything related to I/O, whereas streams excel there.  
+
+  Observables and readable streams both share the semantic of "zero or more chunks, followed by either an error or done signal". But beyond that, they are not very comparable.
