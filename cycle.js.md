@@ -51,3 +51,4 @@
   - https://glebbahmutov.com/draw-cycle/
 - hot-reload
   - https://github.com/widdershin/cycle-hot-reloading-example/
+- https://github.com/staltz/combineLatestObj
