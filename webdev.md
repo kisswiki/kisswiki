@@ -1,0 +1,3 @@
+- Web Standards Plugin http://www.sitepoint.com/three-plugins-every-gruntfile-gulpfile-needs-make-website-great/
+  - https://github.com/MicrosoftDX/grunt-webstandards
+  - https://github.com/MicrosoftDX/gulp-webstandards
