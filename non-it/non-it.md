@@ -109,6 +109,7 @@
 - startup
   - http://a16z.com/2015/01/22/the-full-stack-startup/
   - Startup Growth Calculator http://growth.tlb.org/
+    - https://www.facebook.com/groups/polishstartups/permalink/1006289269431291/
 - email campaigns
   - http://woodpecker.co/
 - mvp
