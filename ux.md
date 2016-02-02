@@ -1,0 +1,2 @@
+- http://amuseconf.com/
+- Designers love icons because they present a nice intellectual challenge. Problem is, icons are hard to get right. In our experience users don’t “get” them. At least not until they’ve experimented by clicking on them. That’s not a pleasant experience. It’s also the opposite of intuitive. https://blog.serverdensity.com/how-to-improve-usability-in-software/
