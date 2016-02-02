@@ -1,6 +1,3 @@
-- web development
-  - https://github.com/google/WebFundamentals
-  - Web platform status links https://gist.github.com/mathiasbynens/9e26f733b53dd6a9d417
 - html
   - http://www.joezimjs.com/javascript/top-5-9-favorite-html5-apis/
    - HTML+CSS+JS are no longer a frontend formula to me.  
@@ -505,8 +502,6 @@
     - https://gionkunz.github.io/chartist-js/examples.html#pie-with-custom-labels
     - http://js.cytoscape.org/demos/173313aba1f31cae49a5/
   - http://www.tracemedia.co.uk/projects/terra/map/#type=ol&lang=ru,uk&map=language&loc=UA
-- webdev/web development
-  - [In these labs you will learn and work with the latest trends, practices and technologies for web development](https://github.com/deltakosh/interoperable-web-development/)
 - flat design
   - Users are forced to explore pages to determine what’s clickable. They frequently pause in their activities to hover over elements hoping for dynamic clickability signifiers, or click experimentally to discover potential links.  
   This behavior is analogous to the behavior of laboratory rats in operant-conditioning experiments: if a rat gets a food pellet at random intervals after performing a specific action, the rat will keep doing that action in the hope of getting fed again. Similarly, users have discovered that clicking elements that don’t have strong signifiers sometimes works. Like the lab rats, users will stick to random clicking as long as they get rewarded from time to time.  
