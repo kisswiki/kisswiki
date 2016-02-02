@@ -9,3 +9,6 @@
   - http://learningbabylonjs.com/
 - https://github.com/ellisonleao/magictools
 - https://www.reddit.com/r/javascript/comments/42klzr/we_want_to_create_a_js_game/
+- examples
+  - text games
+    - https://github.com/veltman/clmystery
