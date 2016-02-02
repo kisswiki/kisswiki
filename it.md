@@ -596,8 +596,6 @@
   - https://medium.com/@roman01la/understanding-transducers-in-javascript-3500d3bd9624
 - conferences
   - non-profit tech conferences http://mloc-js.com/
-- UX
-  - http://amuseconf.com/
 - pipe things directly into the shell from internet
   - https://github.com/jbenet/hashpipe
 - reveal.js
