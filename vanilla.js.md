@@ -3,3 +3,4 @@
 - https://github.com/albxncom/lib.js
 - https://github.com/jbebe/all-my-projects/blob/master/priv/web/javascriptLibrary/minJS.dev.js
 - https://www.reddit.com/r/javascript/comments/42quf8/youdontneedlodashunderscore/
+  - https://github.com/cht8687/You-Dont-Need-Lodash-Underscore
