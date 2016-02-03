@@ -51,3 +51,6 @@
 - change author https://help.github.com/articles/changing-author-info/
 - revert multiple commits
   - `git revert --no-commit HEAD~2..` http://stackoverflow.com/questions/1463340/revert-multiple-git-commits#comment19940208_11743042
+- extract domains from email
+  - git log --format='%ae' | grep -Eo '[^@]+$'
+  - group by some domain when we have `user1.example.com` etc: `git log --format='%ae' | grep -Eo '[^@]+$' | sed -e 's/.*\(example\.com\)/\1/g`
