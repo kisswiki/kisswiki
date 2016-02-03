@@ -1,0 +1,2 @@
+- inline with node-sass https://github.com/sass/node-sass/issues/372#issuecomment-61536001
+  - node-sass input.scss --source-map-embed --source-map-contents > output.css
