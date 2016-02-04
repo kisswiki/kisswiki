@@ -13,3 +13,4 @@
     - optical image stabilisation for video - 6s plus
     - Optical image stabilisation - 6s plus and 6 plus
     - with Focus Pixels - 6s plus and 6s
+  - 3d touch - without the need for you to be constantly reaching to the top of the display for the back button http://www.techradar.com/reviews/phones/mobile-phones/iphone-6s-plus-1303759/review/2
