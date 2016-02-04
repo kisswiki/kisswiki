@@ -4,3 +4,7 @@
     - http://allegro.pl/apple-iphone-6s-plus-253003?offerTypeBuyNow=1&buyNew=1&vat_invoice=1
   - 4599 zł http://www.oleole.pl/telefony-komorkowe/apple-iphone-6s-plus-128gb-srebrny.bhtml
   - 4699 zł http://www.x-kom.pl/p/258487-smartfon-telefon-fablet-apple-new-iphone-6s-plus-128gb-space-gray.html
+  - http://www.phonearena.com/phones/benchmarks
+  - http://www.benchmark.pl/ranking/smartfony/sunspider-javascript
+  - shockingly Apple has again snubbed the smaller iPhone with the 6S not receiving Optical Image Stabilisation (OIS) like the 6S Plus. Instead it will have to put up with Digital Image Stabilisation (DIS) which should again give the iPhone phablet a noticeable advantage. http://www.forbes.com/sites/gordonkelly/2015/09/10/iphone-6s-vs-iphone-6s-whats-the-differences/
+  - http://www.apple.com/pl/shop/iphone/iphone-accessories/cases-protection
