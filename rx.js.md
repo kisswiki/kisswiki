@@ -3,3 +3,4 @@
   - http://reactivex.io/documentation/operators/flatmap.html
 - flatMapLatest
   - Expand RxJS and search for flatMapLatest http://reactivex.io/documentation/operators/flatmap.html
+  - https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/flatmaplatest.md
