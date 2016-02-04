@@ -10,5 +10,5 @@
   - http://www.apple.com/pl/shop/iphone/iphone-accessories/cases-protection
   - Although the device is not promoted as such, the iPhone 6S has a degree of water resistance due to a change to its internal design, which places a silicone seal around components of the logic board to prevent them from being shorted by accidental exposure to water. https://en.wikipedia.org/wiki/IPhone_6S#iPhone_6S_Plus
   - http://www.apple.com/in/iphone/compare/
-    - optical image stabilisation for video - only 6s plus
-    - Optical image stabilisation - only 6s plus and 6 plus
+    - optical image stabilisation for video - 6s plus
+    - Optical image stabilisation - 6s plus and 6 plus
