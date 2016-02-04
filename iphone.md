@@ -10,6 +10,7 @@
   - http://www.apple.com/pl/shop/iphone/iphone-accessories/cases-protection
   - Although the device is not promoted as such, the iPhone 6S has a degree of water resistance due to a change to its internal design, which places a silicone seal around components of the logic board to prevent them from being shorted by accidental exposure to water. https://en.wikipedia.org/wiki/IPhone_6S#iPhone_6S_Plus
   - http://www.apple.com/in/iphone/compare/
+    - 3d touch - 6s plus and 6s
     - optical image stabilisation for video - 6s plus
     - Optical image stabilisation - 6s plus and 6 plus
     - with Focus Pixels - 6s plus and 6s
@@ -18,4 +19,4 @@
     - Apple's updated its motion co-processor from the M8 chip in the 6 Plus to the M9 in the iPhone 6S Plus, giving you more accurate readings in the Health app, which tracks you steps, flights of stairs climbed and calories burned.
     - jump down half way with a light double tap of the home button
     - I regularly got to the end of the day with around 30% left in the tank, and that included emails, calls, texts, social media, games, music streaming and web browsing throughout the day. Play a game or watch a movie for an extended period of time though and the large 5.5-inch display on the iPhone 6S Plus will start to take a toll on the battery. I ran the techradar 90 minute battery test video on the iPhone 6S Plus, with the screen on full brightness and accounts syncing in the background over Wi-Fi. From 100% the battery dropped to 78% by the end of the video, losing 22% of life in the process. That's an improved showing over the 6 Plus which witnessed a drop of 27%, while the iPhone 6 lost 26%. It appears the A9 processor is a little more power efficient than the A8, and the 6S Plus didn't heat up much during the test.
-    - In a bid to save power the iPhone 6S Plus turns off background mail, the always-on Hey Siri command, automatic downloads and some visual effects in the interface. You can turn the function on by diving into Settings > Battery, although it will prompt you to turn it on when you get below 20% juice left. You'll know when you've got low power mode switched on as the battery icon will be yellow instead of green. 
+    - In a bid to save power the iPhone 6S Plus turns off background mail, the always-on Hey Siri command, automatic downloads and some visual effects in the interface. You can turn the function on by diving into Settings > Battery, although it will prompt you to turn it on when you get below 20% juice left. You'll know when you've got low power mode switched on as the battery icon will be yellow instead of green.
