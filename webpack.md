@@ -1,3 +1,8 @@
+- [From Require.js & Grunt to Webpack. Heres how](https://blog.serverdensity.com/the-journey-to-webpack/)
+- http://www.2ality.com/2015/12/webpack-tree-shaking.html
+- http://www.2ality.com/2015/04/webpack-es6.html
+- http://www.zsoltnagy.eu/using-es6-modules-with-webpack/
+- https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
 - speed https://www.facebook.com/groups/217169631654737/permalink/1006902786014747/
   - sprawdź czy w babelu masz cacheDirectory: true
   - excluduj/includuj tylko potrzebne foldery. Czyli co najmniej miej exclude: /(node_modules|bower)/
