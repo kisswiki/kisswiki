@@ -70,6 +70,7 @@
       - https://youtu.be/BEn61BL4Nwk
   - scale
     - http://antyweb.pl/recenzja-nie-takiej-zwyczajne-wagi-lazienkowej-fitbit-aria/
+  - http://healthypanda.net/9-harmful-food-combinations-that-you-should-always-avoid/
 - mind
   - Osoby biegające regularnie zwracają również uwagę na takie korzyści jak ograniczenie stresu oraz poprawa pracy mózgu. Wystarczy tylko 20 minut biegania, aby poprawić swoją zdolność koncentracji, dlatego warto zrobić sobie krótką przerwę na jogging na przykład podczas nauki do egzaminu. http://www.proaktywnie.pl/42195-km-meta-pewnego-etapu/
 - startup
