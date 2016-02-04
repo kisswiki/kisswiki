@@ -8,3 +8,4 @@
   - http://www.benchmark.pl/ranking/smartfony/sunspider-javascript
   - shockingly Apple has again snubbed the smaller iPhone with the 6S not receiving Optical Image Stabilisation (OIS) like the 6S Plus. Instead it will have to put up with Digital Image Stabilisation (DIS) which should again give the iPhone phablet a noticeable advantage. http://www.forbes.com/sites/gordonkelly/2015/09/10/iphone-6s-vs-iphone-6s-whats-the-differences/
   - http://www.apple.com/pl/shop/iphone/iphone-accessories/cases-protection
+  - Although the device is not promoted as such, the iPhone 6S has a degree of water resistance due to a change to its internal design, which places a silicone seal around components of the logic board to prevent them from being shorted by accidental exposure to water. https://en.wikipedia.org/wiki/IPhone_6S#iPhone_6S_Plus
