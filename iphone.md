@@ -22,3 +22,5 @@
     - In a bid to save power the iPhone 6S Plus turns off background mail, the always-on Hey Siri command, automatic downloads and some visual effects in the interface. You can turn the function on by diving into Settings > Battery, although it will prompt you to turn it on when you get below 20% juice left. You'll know when you've got low power mode switched on as the battery icon will be yellow instead of green.
   - http://gadgets.ndtv.com/mobiles/reviews/iphone-6s-and-iphone-6s-plus-review-786021
     - iPhone 6s Plus fares better than the 6s due to the presence of optical image stabilisation - the two aren't quite at the same level as the likes of Samsung Galaxy S6 Edge and Note 5, which are able to capture more light than any competing smartphone
+- ios 9
+  - Moving between apps is a lot easier on iOS 9. If an app opens a link in another app, you'll be able to get back to the first app without needing the app switcher. For example, if you open a link in the Messages app, it will open in Safari. To return to the app, just tap the Back to Messages link on the top-left. http://gadgets.ndtv.com/mobiles/features/20-awesome-hidden-features-of-ios-9-741121
