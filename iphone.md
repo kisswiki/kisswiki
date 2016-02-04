@@ -17,3 +17,4 @@
     - 3d touch - without the need for you to be constantly reaching to the top of the display for the back button
     - Apple's updated its motion co-processor from the M8 chip in the 6 Plus to the M9 in the iPhone 6S Plus, giving you more accurate readings in the Health app, which tracks you steps, flights of stairs climbed and calories burned.
     - jump down half way with a light double tap of the home button
+    - I regularly got to the end of the day with around 30% left in the tank, and that included emails, calls, texts, social media, games, music streaming and web browsing throughout the day. Play a game or watch a movie for an extended period of time though and the large 5.5-inch display on the iPhone 6S Plus will start to take a toll on the battery.
