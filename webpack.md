@@ -1,0 +1,6 @@
+- speed https://www.facebook.com/groups/217169631654737/permalink/1006902786014747/
+  - sprawdź czy w babelu masz cacheDirectory: true
+  - excluduj/includuj tylko potrzebne foldery. Czyli co najmniej miej exclude: /(node_modules|bower)/
+  - bez sensu aby webpack niepotrzebnie parsował niezbudowane node'owe biblioteki. Uzyj 'noParse' (aby webpack nie szukał np. 'require' w kodzie biblioteki) w kombinacji z 'resolve' (aby wskazać na już dystrybucyjny plik a nie tez z package.json -> main
+  - użyj szybszych source-map przy developemencie - devtool: 'cheap-module-inline-source-map'
+  - używaj watch w webpacku
