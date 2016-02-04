@@ -13,4 +13,6 @@
     - optical image stabilisation for video - 6s plus
     - Optical image stabilisation - 6s plus and 6 plus
     - with Focus Pixels - 6s plus and 6s
-  - 3d touch - without the need for you to be constantly reaching to the top of the display for the back button http://www.techradar.com/reviews/phones/mobile-phones/iphone-6s-plus-1303759/review/2
+  - http://www.techradar.com/reviews/phones/mobile-phones/iphone-6s-plus-1303759/review/
+    - 3d touch - without the need for you to be constantly reaching to the top of the display for the back button 
+    - Apple's updated its motion co-processor from the M8 chip in the 6 Plus to the M9 in the iPhone 6S Plus, giving you more accurate readings in the Health app, which tracks you steps, flights of stairs climbed and calories burned.
