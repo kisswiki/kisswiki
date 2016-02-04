@@ -12,3 +12,4 @@
   - http://www.apple.com/in/iphone/compare/
     - optical image stabilisation for video - 6s plus
     - Optical image stabilisation - 6s plus and 6 plus
+    - with Focus Pixels - 6s plus and 6s
