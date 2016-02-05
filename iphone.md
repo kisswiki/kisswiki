@@ -39,3 +39,4 @@
   - https://itunes.apple.com/us/app/z-the-game/id418354265
   - https://www.reddit.com/r/iosgaming/comments/42msfr/whats_your_all_time_favorite_game_on_ios/
   - http://hubpages.com/games-hobbies/5-Best-iPhone-RTS-Games
+  - http://www.techradar.com/news/gaming/loved-command-and-conquer-you-ll-love-these-ios-games-1124172
