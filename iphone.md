@@ -36,3 +36,4 @@
   - https://www.reddit.com/r/iosgaming/comments/43n9we/any_rts_games/
   - https://itunes.apple.com/br/app/the-settlers/id337938346
   - https://itunes.apple.com/gb/app/palm-kingdoms-2-for-ipad/id421346804
+  - https://itunes.apple.com/us/app/z-the-game/id418354265
