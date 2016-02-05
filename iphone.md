@@ -75,3 +75,4 @@
     - 35 zł spirala http://allegro.pl/spirala-indukcyjna-qi-lightning-iphone-5-6-6s-plus-i5952874200.html
     - 19.99 zł ładowarka http://allegro.pl/bezprzewodowa-ladowarka-qi-nokia-htc-samsung-i5835525978.html
     - 116.19 zł etui http://www.mytrendyphone.pl/iphone-6-plus-wireless-charging-tpu-case-white-2.html
+    - 45 zł ale 6 plus bez s http://www.bezprzewodoweladowarki.pl/pl/p/iPhone-66-Plus-Odbiornik-Qi-zloty-lub-czarny/27
