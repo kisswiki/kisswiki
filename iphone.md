@@ -51,3 +51,6 @@
   - http://appcrawlr.com/ios-apps/best-apps-rts-game
   - http://www.pockettactics.com/tag/real-time-strategy/
   - https://itunes.apple.com/us/app/ceg-y-pana-wiesia/id1054327369
+- case/car holder
+  - http://fix2car.pl/pl/p/Aktywny-uchwyt-samochodowy-FIX2CAR-do-Apple-iPhone-66S-Plus-do-kokpitu/147
+  - http://allegro.pl/uchwyt-samochodowy-fix2car-do-apple-iphone-6s-plus-i5705883138.html
