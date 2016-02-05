@@ -33,3 +33,4 @@
   - price drops http://appshopper.com/games/prices/
   - http://appadvice.com/appnn/tag/apps-gone-free
   - http://appadvice.com/appnn/tag/rts
+  - https://www.reddit.com/r/iosgaming/comments/43n9we/any_rts_games/
