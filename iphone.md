@@ -59,3 +59,4 @@
   - 193 zł bez kabla, nie zasłania głośnika tak jak fix2car http://www.brodit24.pl/product-pol-3695-Uchwyt-regulowany-do-Apple-iPhone-6s-Plus-w-futerale-lub-obudowie-o-wymiarach-75-89-mm-szer-2-10-mm-grubosc-z-mozliwoscia-wpiecia-kabla-lightning-USB.html
   - http://ispot.pl/doki-i-uchwyty/kidigi-dock-white-stacja-dokujaca-dla-iphone-5-5c-5s-6-6s-6,id-76358
   - 209 zł ale do szyby, z ładowarką http://www.mobilefun.pl/56114-kidigi-iphone-6s-plus-6-plus-6s-6-car-mount-kit.htm
+  - 199 zł http://www.cortland.pl/ibolt-ipro2-uchwyt-do-samochodu-z-kablem-lightining-2m.html
