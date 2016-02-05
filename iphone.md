@@ -62,6 +62,7 @@
   - 199 zł http://www.cortland.pl/ibolt-ipro2-uchwyt-do-samochodu-z-kablem-lightining-2m.html
   - 234 zł uchwyt samochodowy qi samsung do 5.7 cala http://www.redcoon.pl/B570357-Samsung-EP-HN910IBEGWW-black_Uchwyty-do-telefon%C3%B3w?refId=skapiec&utm_source=skapiec.pl&utm_medium=referral
   - https://ibolt.co/car-docks/smartphone-mounts/dock-n-drive-for-iphone/ipro2-for-iphone-6-and-6-plus
+  - http://www.mobilefun.pl/50949-ibolt-ipro2-mfi-iphone-6-5-series-active-car-holder.htm
   - qi
     - 145 zł http://www.mobilefun.pl/50090-qi-charging-iphone-6s-plus-6-plus-case-black.htm
     - 116.49 zł http://www.mobilefun.pl/50527-flexishield-qi-iphone-6-plus-wireless-charging-case-black.htm
