@@ -70,3 +70,4 @@
     - 142 zł http://www.morele.net/peter-j-ckel-apple-iphone-6-plus-fluxport-qi-modul-do-bezprzewodowego-ladowania-14968-830860/
     - 159 zł cewka + ładowarka http://allegro.pl/g-case-wireless-pad-iphone-6-6s-plus-cewka-qi-i5731040037.html
     - 129 zł etui + szkło http://allegro.pl/ShowItem2.php?item=5860869491&reco_id=c8e97396-cc54-11e5-a593-02eb15ce87d7&ars_rule_id=201
+    - 29 zł spirala http://allegro.pl/spirala-indukcyjna-qi-lightning-iphone-5-6-6s-plus-i5952874200.html
