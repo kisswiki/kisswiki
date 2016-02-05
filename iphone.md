@@ -68,3 +68,4 @@
       - http://smartcase.pl/product-pol-3433-Etui-Nillkin-Magic-Case-do-ladowania-indukcyjnego-Apple-iPhone-6-bezprzewodowe-ladowanie-Qi-czarne.html
       - http://allegro.pl/ShowItem2.php?item=5728531637&reco_id=7137a734-cc54-11e5-b0d7-02e028c1d167&ars_rule_id=201
     - 142 zł http://www.morele.net/peter-j-ckel-apple-iphone-6-plus-fluxport-qi-modul-do-bezprzewodowego-ladowania-14968-830860/
+    - 159 zł cewka + ładowarka http://allegro.pl/g-case-wireless-pad-iphone-6-6s-plus-cewka-qi-i5731040037.html
