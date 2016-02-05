@@ -27,6 +27,7 @@
 - ios 9
   - Moving between apps is a lot easier on iOS 9. If an app opens a link in another app, you'll be able to get back to the first app without needing the app switcher. For example, if you open a link in the Messages app, it will open in Safari. To return to the app, just tap the Back to Messages link on the top-left. http://gadgets.ndtv.com/mobiles/features/20-awesome-hidden-features-of-ios-9-741121
   - This is our favourite feature as it breathes new life into old iOS devices. As we reported earlier, iOS 9 brings smoother switching between apps, quicker load times and less lag on devices such as iPhone 4S, iPad 2 and iPad 3. http://gadgets.ndtv.com/mobiles/features/15-ios-9-features-that-make-your-iphone-and-ipad-better-than-ever-740701
+  - http://www.applevis.com/forum/ios-ios-app-discussion/finally-figured-out-what-causes-screen-slide-down-iphone-6
 - apps
   - http://www.metacritic.com/browse/games/genre/metascore/strategy/ios
   - https://www.reddit.com/r/iosgaming/
