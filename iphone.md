@@ -72,3 +72,4 @@
     - 129 zł etui + szkło http://allegro.pl/ShowItem2.php?item=5860869491&reco_id=c8e97396-cc54-11e5-a593-02eb15ce87d7&ars_rule_id=201
     - 35 zł spirala http://allegro.pl/spirala-indukcyjna-qi-lightning-iphone-5-6-6s-plus-i5952874200.html
     - 19.99 zł ładowarka http://allegro.pl/bezprzewodowa-ladowarka-qi-nokia-htc-samsung-i5835525978.html
+    - 116.19 zł etui http://www.mytrendyphone.pl/iphone-6-plus-wireless-charging-tpu-case-white-2.html
