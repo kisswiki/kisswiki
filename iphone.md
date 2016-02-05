@@ -56,3 +56,4 @@
   - http://allegro.pl/uchwyt-samochodowy-fix2car-do-apple-iphone-6s-plus-i5705883138.html
   - http://holdersandmounts.co.uk/fix2car-apple-iphone-6-iphone-6s-holder-cradle-suitable-for-brodit-proclip-mount.html
   - http://www.brodit24.pl/pol_m_UCHWYTY-SAMOCHODOWE-DO-SMARTFONOW_APPLE_IPHONE-6S-PLUS-4147.html
+  - 193 zł bez kabla http://www.brodit24.pl/product-pol-3695-Uchwyt-regulowany-do-Apple-iPhone-6s-Plus-w-futerale-lub-obudowie-o-wymiarach-75-89-mm-szer-2-10-mm-grubosc-z-mozliwoscia-wpiecia-kabla-lightning-USB.html
