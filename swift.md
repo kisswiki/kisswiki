@@ -1,1 +1,2 @@
 - https://swift.org/blog/swift-api-transformation/
+- https://medium.com/magnetis-backstage/your-first-ios-game-fda99504c3e4
