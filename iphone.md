@@ -41,3 +41,4 @@
   - http://hubpages.com/games-hobbies/5-Best-iPhone-RTS-Games
   - http://www.techradar.com/news/gaming/loved-command-and-conquer-you-ll-love-these-ios-games-1124172
   - http://appcrawlr.com/ios-apps/best-apps-rts-game
+  - http://www.pockettactics.com/tag/real-time-strategy/
