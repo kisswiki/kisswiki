@@ -64,5 +64,7 @@
   - etui qi
     - 145 zł http://www.mobilefun.pl/50090-qi-charging-iphone-6s-plus-6-plus-case-black.htm
     - 116.49 zł http://www.mobilefun.pl/50527-flexishield-qi-iphone-6-plus-wireless-charging-case-black.htm
-    - 129 zł http://smartcase.pl/product-pol-3433-Etui-Nillkin-Magic-Case-do-ladowania-indukcyjnego-Apple-iPhone-6-bezprzewodowe-ladowanie-Qi-czarne.html
+    - 129 zł
+      - http://smartcase.pl/product-pol-3433-Etui-Nillkin-Magic-Case-do-ladowania-indukcyjnego-Apple-iPhone-6-bezprzewodowe-ladowanie-Qi-czarne.html
+      - http://allegro.pl/ShowItem2.php?item=5728531637&reco_id=7137a734-cc54-11e5-b0d7-02e028c1d167&ars_rule_id=201
     - 142 zł http://www.morele.net/peter-j-ckel-apple-iphone-6-plus-fluxport-qi-modul-do-bezprzewodowego-ladowania-14968-830860/
