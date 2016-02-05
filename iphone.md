@@ -54,3 +54,4 @@
 - case/car holder
   - http://fix2car.pl/pl/p/Aktywny-uchwyt-samochodowy-FIX2CAR-do-Apple-iPhone-66S-Plus-do-kokpitu/147
   - http://allegro.pl/uchwyt-samochodowy-fix2car-do-apple-iphone-6s-plus-i5705883138.html
+  - http://holdersandmounts.co.uk/fix2car-apple-iphone-6-iphone-6s-holder-cradle-suitable-for-brodit-proclip-mount.html
