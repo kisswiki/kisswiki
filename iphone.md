@@ -33,6 +33,7 @@
   - double click (or hard press on left screen edge) to open app switcher
   - click home button and hold finger to unlock
   - hard press keyboard to move cursor
+  - slide left to delete sms, task etc.
   - http://gadgets.ndtv.com/apps/features/25-hidden-ios-8-features-you-probably-didnt-spot-599966
 - apps
   - http://www.metacritic.com/browse/games/genre/metascore/strategy/ios
