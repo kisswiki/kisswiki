@@ -29,6 +29,7 @@
   - This is our favourite feature as it breathes new life into old iOS devices. As we reported earlier, iOS 9 brings smoother switching between apps, quicker load times and less lag on devices such as iPhone 4S, iPad 2 and iPad 3. http://gadgets.ndtv.com/mobiles/features/15-ios-9-features-that-make-your-iphone-and-ipad-better-than-ever-740701
 - apps
   - http://www.metacritic.com/browse/games/genre/metascore/strategy/ios
+  - https://www.reddit.com/r/iosgaming/
   - price drops http://appshopper.com/games/prices/
   - http://appadvice.com/appnn/tag/apps-gone-free
   - http://appadvice.com/appnn/tag/rts
