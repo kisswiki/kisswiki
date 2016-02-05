@@ -42,3 +42,4 @@
   - http://www.techradar.com/news/gaming/loved-command-and-conquer-you-ll-love-these-ios-games-1124172
   - http://appcrawlr.com/ios-apps/best-apps-rts-game
   - http://www.pockettactics.com/tag/real-time-strategy/
+  - https://itunes.apple.com/us/app/ceg-y-pana-wiesia/id1054327369
