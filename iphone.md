@@ -57,3 +57,4 @@
   - http://holdersandmounts.co.uk/fix2car-apple-iphone-6-iphone-6s-holder-cradle-suitable-for-brodit-proclip-mount.html
   - http://www.brodit24.pl/pol_m_UCHWYTY-SAMOCHODOWE-DO-SMARTFONOW_APPLE_IPHONE-6S-PLUS-4147.html
   - 193 zł bez kabla, nie zasłania głośnika tak jak fix2car http://www.brodit24.pl/product-pol-3695-Uchwyt-regulowany-do-Apple-iPhone-6s-Plus-w-futerale-lub-obudowie-o-wymiarach-75-89-mm-szer-2-10-mm-grubosc-z-mozliwoscia-wpiecia-kabla-lightning-USB.html
+  - http://ispot.pl/doki-i-uchwyty/kidigi-dock-white-stacja-dokujaca-dla-iphone-5-5c-5s-6-6s-6,id-76358
