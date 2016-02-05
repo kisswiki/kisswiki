@@ -1,5 +1,6 @@
-- https://swift.org/blog/swift-api-transformation/
-- https://developer.apple.com/swift/blog/?id=29
+- language
+  - https://swift.org/blog/swift-api-transformation/
+  - https://developer.apple.com/swift/blog/?id=29
 - game
   - https://medium.com/magnetis-backstage/your-first-ios-game-fda99504c3e4
   - http://open.bekk.no/a-swift-run-through-making-an-ios-game
