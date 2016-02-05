@@ -30,6 +30,7 @@
   - double tap home button
     - http://www.tekrevue.com/tip/reachability-iphone-6/
     - http://www.applevis.com/forum/ios-ios-app-discussion/finally-figured-out-what-causes-screen-slide-down-iphone-6
+  - double click (or hard press on left screen edge) to open app switcher
 - apps
   - http://www.metacritic.com/browse/games/genre/metascore/strategy/ios
   - https://www.reddit.com/r/iosgaming/
