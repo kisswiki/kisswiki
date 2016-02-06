@@ -86,3 +86,4 @@
       - http://www.qi-power.com/not-supported-accessories-for-qi-wireless-charging/
       - http://www.amazon.com/Certified-Wireless-Charging-Battery-Compatible/dp/B017I37J78
       - MFI (made for iphone) certification http://www.air-charge.com/news/53/22/Add-Wireless-Charging-to-iPhone-6-6S-with-the-new-Aircharge-Case
+      - but for 6 not for plus http://www.amazon.com/Certified-Wireless-Charging-Battery-Compatible/dp/B017I37J78
