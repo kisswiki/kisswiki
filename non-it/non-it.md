@@ -152,6 +152,11 @@
   - http://www.lifehack.org/articles/lifestyle/63-ways-to-build-self-confidence.html
 - przewozy
   - https://www.facebook.com/groups/512365358860279/permalink/949436948486449/
+  - https://www.facebook.com/groups/512365358860279/permalink/954107784686032/
+    - Protokół spisany przy kurierze ma znaczenie w razie dochodzenia odszkodowania od kuriera.
+    - bez znaczenia czy protokół został spisany przy odbiorze czy po - w sądzie sam dokument ma taką samą wartość dowodową. co prawda w razie pozwania kuriera (firmy kurierskiej) będzie on twierdził, że uszkodzenie powstało po odbiorze (standardowa droga obrony), ale jeśli na świadka weźmiecie sąsiada, który akurat wtedy był przy otwieraniu i potwierdzi Wasze stanowisko - nie ma powodów, aby sąd Wam nie uwierzył.  
+      Sąd ocenia przedłożony mu materiał dowodowy na podstawie całokształtu okoliczności. Jeśli składacie zeznania i mówicie jasno, klarownie, spójnie i logicznie - dlaczego Sąd nie ma Wam dać wiary? W sądach nie zawsze siedzą głupi ludzie, wręcz przeciwnie - często to są bardzo mądrzy ludzie.
+    - dwa powyższe nie mają absolutnie żadnego znaczenia w sytuacji gdy odstępujecie od umowy zawartej na odległość i jesteście konsumentem. Ma rację Sebastian Jakubiec, że sprzedawca może się stresować, że odesłaliście mu uszkodzony towar.
 - equity compensation
   - https://github.com/jlevy/og-equity-compensation
 - life
