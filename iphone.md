@@ -85,3 +85,4 @@
         - The charging cable belongs to the Qi Wireless case seem to not support the latest iOS version 9.2.1. It won't charge after the update of iOS. For others, if you want to use this case, the iOS version must degraded or need be below 9.2.1.
       - http://www.qi-power.com/not-supported-accessories-for-qi-wireless-charging/
       - http://www.amazon.com/Certified-Wireless-Charging-Battery-Compatible/dp/B017I37J78
+      - MFI (made for iphone) certification http://www.air-charge.com/news/53/22/Add-Wireless-Charging-to-iPhone-6-6S-with-the-new-Aircharge-Case
