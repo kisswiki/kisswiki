@@ -72,6 +72,7 @@
     - http://case4mobile.eu/product-pol-2592-QIOTTI-Q-Book-CarrierMagicSlimBK-iPhone6Plus-szklo.html
     - http://allegro.pl/qiotti-q-book-carrier-magic-slim-bk-iphone6-szklo-i5803482840.html
     - http://cellaris.pl/product-pol-2568-QIOTTI-Q-Book-Carrier-Magic-Slim-BK-iPhone6-szklo.html
+    - http://www.qiotti.com/product/q-book-carrier-slim-magic-black-2/
   - qi
     - 145 zł http://www.mobilefun.pl/50090-qi-charging-iphone-6s-plus-6-plus-case-black.htm
     - 116.49 zł http://www.mobilefun.pl/50527-flexishield-qi-iphone-6-plus-wireless-charging-case-black.htm
