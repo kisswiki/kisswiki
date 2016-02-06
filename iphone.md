@@ -101,4 +101,4 @@
       - 6s plus mfi certified case? http://www.amazon.com/certified-wireless-FIRSTWAY%C2%AE-charging-receiver/dp/B01391IDDC/ref=sr_1_7?s=wireless&ie=UTF8&qid=1454721296&sr=1-7&keywords=6s+plus+mfi
       - compatible with 6s plus? http://www.wirelesspowerkit.com/product/wireless-charging-case-iphone-6-plus/
 - http://www.spidersweb.pl/2016/02/error-53-iphone-ios-9-3.html
-- http://www.spidersweb.pl/2016/02/nexus-5x-recenzja.html
+- Ten telefon nie zasłużył na miano Nexusa ttp://www.spidersweb.pl/2016/02/nexus-5x-recenzja.html
