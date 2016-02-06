@@ -9,3 +9,9 @@
   - http://stackoverflow.com/questions/10386310/how-to-install-a-private-npm-module-without-my-own-registry
   - `npm i git+https://git@github.com/visionmedia/express.git#sha`
   - `npm rm express`
+- http://stackoverflow.com/questions/25997519/how-to-view-the-dependency-tree-of-a-given-npm-module
+- license
+  - SPDX license expression syntax version 2.0 string https://docs.npmjs.com/files/package.json#license
+  - http://npm1k.org/
+  - https://spdx.org/licenses/
+  - https://spdx.org/licenses/licenses.json
