@@ -80,3 +80,6 @@
       - http://www.amazon.co.uk/product-reviews/B00TNNUCD0/ref=cm_cr_dp_hist_two?ie=UTF8&filterByStar=two_star&showViewpoints=0
       - http://www.amazon.co.uk/Wireless-Charging-MoKo-Receiver-5-5-Inch/dp/B016JOG69E/ref=sr_1_6?s=telephone&ie=UTF8&qid=1454716084&sr=1-6&keywords=iphone+6s+plus+qi
       - ten ma dobre oceny http://www.amazon.co.uk/dp/B017WKEVTG?psc=1
+      - http://www.amazon.com/MobilePal-Wireless-Charging-Tempered-Glass-Protector/product-reviews/B00TNNUCD0/ref=cm_cr_dp_qt_hist_one?ie=UTF8&filterByStar=one_star&showViewpoints=0
+        - The connector is flimsy, I bought two in less than two months and both didn't last because the connector came off on both of them. What a disappointment and waste of money...twice.
+        - The charging cable belongs to the Qi Wireless case seem to not support the latest iOS version 9.2.1. It won't charge after the update of iOS. For others, if you want to use this case, the iOS version must degraded or need be below 9.2.1.
