@@ -84,3 +84,4 @@
         - The connector is flimsy, I bought two in less than two months and both didn't last because the connector came off on both of them. What a disappointment and waste of money...twice.
         - The charging cable belongs to the Qi Wireless case seem to not support the latest iOS version 9.2.1. It won't charge after the update of iOS. For others, if you want to use this case, the iOS version must degraded or need be below 9.2.1.
       - http://www.qi-power.com/not-supported-accessories-for-qi-wireless-charging/
+      - http://www.amazon.com/Certified-Wireless-Charging-Battery-Compatible/dp/B017I37J78
