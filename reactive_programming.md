@@ -51,4 +51,4 @@
 
   Observables and readable streams both share the semantic of "zero or more chunks, followed by either an error or done signal". But beyond that, they are not very comparable.
 - http://reactivex.io/learnrx/
-- https://glebbahmutov.com/blog/node-server-with-rx-and-cycle/
+- Reactive streams help us manage time-related complexity very well https://glebbahmutov.com/blog/node-server-with-rx-and-cycle/
