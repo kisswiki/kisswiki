@@ -68,7 +68,10 @@
     - https://www.youtube.com/watch?v=59YfN2bi7nU&feature=player_detailpage
   - http://flavour-design.pl/supcase-sport-armband-iphone-6-6s-plus-5-5-black,id2906.html
   - http://allegro.pl/etui-case-spigen-thin-fit-iphone-6-plus-6s-plus-i5863472737.html
-  - zamówiłem ten pokrowiec ze szkłem za 139 zł http://case4mobile.eu/product-pol-2592-QIOTTI-Q-Book-CarrierMagicSlimBK-iPhone6Plus-szklo.html http://allegro.pl/qiotti-q-book-carrier-magic-slim-bk-iphone6-szklo-i5803482840.html http://cellaris.pl/product-pol-2568-QIOTTI-Q-Book-Carrier-Magic-Slim-BK-iPhone6-szklo.html
+  - zamówiłem ten pokrowiec ze szkłem za 139 zł
+    - http://case4mobile.eu/product-pol-2592-QIOTTI-Q-Book-CarrierMagicSlimBK-iPhone6Plus-szklo.html
+    - http://allegro.pl/qiotti-q-book-carrier-magic-slim-bk-iphone6-szklo-i5803482840.html
+    - http://cellaris.pl/product-pol-2568-QIOTTI-Q-Book-Carrier-Magic-Slim-BK-iPhone6-szklo.html
   - qi
     - 145 zł http://www.mobilefun.pl/50090-qi-charging-iphone-6s-plus-6-plus-case-black.htm
     - 116.49 zł http://www.mobilefun.pl/50527-flexishield-qi-iphone-6-plus-wireless-charging-case-black.htm
