@@ -76,3 +76,5 @@
     - 19.99 zł ładowarka http://allegro.pl/bezprzewodowa-ladowarka-qi-nokia-htc-samsung-i5835525978.html
     - 116.19 zł etui http://www.mytrendyphone.pl/iphone-6-plus-wireless-charging-tpu-case-white-2.html
     - 45 zł ale 6 plus bez s http://www.bezprzewodoweladowarki.pl/pl/p/iPhone-66-Plus-Odbiornik-Qi-zloty-lub-czarny/27
+    - vary bad scores
+      - http://www.amazon.co.uk/product-reviews/B00TNNUCD0/ref=cm_cr_dp_hist_two?ie=UTF8&filterByStar=two_star&showViewpoints=0
