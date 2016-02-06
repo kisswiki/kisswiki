@@ -89,3 +89,4 @@
       - but for 6 not for plus http://www.amazon.com/Certified-Wireless-Charging-Battery-Compatible/dp/B017I37J78
       - mfi case + battery http://www.amazon.com/Certified-Tek-Republic-Rechargeable-capacity/dp/B00UW6BWVI/ref=sr_1_4?s=wireless&ie=UTF8&qid=1454721296&sr=1-4&keywords=6s+plus+mfi
       - 6s plus mfi certified case? http://www.amazon.com/certified-wireless-FIRSTWAY%C2%AE-charging-receiver/dp/B01391IDDC/ref=sr_1_7?s=wireless&ie=UTF8&qid=1454721296&sr=1-7&keywords=6s+plus+mfi
+      - compatible with 6s plus? http://www.wirelesspowerkit.com/product/wireless-charging-case-iphone-6-plus/
