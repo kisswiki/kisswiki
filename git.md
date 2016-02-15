@@ -54,7 +54,7 @@
 - extract domains from email
   - git log --format='%ae' | grep -Eo '[^@]+$'
   - group by some domain when we have `user1.example.com` etc: `git log --format='%ae' | grep -Eo '[^@]+$' | sed -e 's/.*\(example\.com\)/\1/g`
-- remove some files from git history and not last commit
+- remove some files from git history and not last commit, based on https://help.github.com/articles/removing-files-from-a-repository-s-history/
 
   ```shell
   git rebase -i <parent_sha>
