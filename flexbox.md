@@ -5,21 +5,21 @@
 
   ```css
   /**
- * 1. Avoid the IE 10-11 `min-height` bug.
- * 2. Set `flex-shrink` to `0` to prevent Chrome, Opera, and Safari from
- *    letting these items shrink to smaller than their content's default
- *    minimum size.
- */
-.Site {
-  display: flex;
-  flex-direction: column;
-  height: 100vh; /* 1 */
-}
-.Site-header,
-.Site-footer {
-  flex-shrink: 0; /* 2 */
-}
-.Site-content {
-  flex: 1 0 auto; /* 2 */
-}
+   * 1. Avoid the IE 10-11 `min-height` bug.
+   * 2. Set `flex-shrink` to `0` to prevent Chrome, Opera, and Safari from
+   *    letting these items shrink to smaller than their content's default
+   *    minimum size.
+   */
+  .Site {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* 1 */
+  }
+  .Site-header,
+  .Site-footer {
+    flex-shrink: 0; /* 2 */
+  }
+  .Site-content {
+    flex: 1 0 auto; /* 2 */
+  }
   ```
