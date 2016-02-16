@@ -16,7 +16,11 @@ GC is only efficient when given 3-4x more memory to work with than the process i
 
 https://github.com/apple/swift-evolution/blob/master/commonly_proposed.md
 
+the fastest GC "matches or exceeds (by up to 9%) the runtime performance of the best explicit memory manager when given five times as much memory"
+ARC "does not slow down in constrained memory environments."
+https://www.reddit.com/r/programming/comments/2xj9ku/memory_management_myths_in_apple_circles/
+
 ## Idle power consumption
 
-UFS offers a low active power level and a near-zero idle power level 
+UFS offers a low active power level and a near-zero idle power level
 https://www.reddit.com/r/Android/comments/2m9h1t/samsung_and_xiaomi_to_switch_to_faster_ufs_memory/cm2b4ai
