@@ -18,6 +18,9 @@ https://github.com/apple/swift-evolution/blob/master/commonly_proposed.md
 
 the fastest GC "matches or exceeds (by up to 9%) the runtime performance of the best explicit memory manager when given five times as much memory"
 ARC "does not slow down in constrained memory environments."
+
+It's animations and games where pauses are most noticeable. GCs defer deallocation and then perform it in batch, so even a small per-frame allocation may eventually add up to a significant pause. ARC doesn't defer deallocation so the work doesn't have an opportunity to pile up.
+
 https://www.reddit.com/r/programming/comments/2xj9ku/memory_management_myths_in_apple_circles/
 
 ## Idle power consumption
