@@ -12,3 +12,5 @@
   - objective-c
     - http://ericasadun.com/2016/02/08/when-your-client-demands-swift/
 - most loved - swift http://stackoverflow.com/research/developer-survey-2015#tech-super
+- learn
+  - http://blog.pusher.com/5-reasons-you-should-learn-swift-in-2016-2/
