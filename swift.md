@@ -16,7 +16,11 @@
     - Yeah as nice as Swift is, Cocoa was designed for Objective-C.  
       e.g. -[NSBezierPath setLineDash:count:phase:] takes a C array in Objective-C, but an UnsafePointer<CGFloat> in Swift.  
       Apple needs new API interfaces for their new language, and that will take time.  
-      https://news.ycombinator.com/item?id=10925668
+      https://news.ycombinator.com/item?id=10925668  
+      This will improve in Swift 3.0, via an improved mapping of Cocoa APIs into Swift (naming wise):  
+      https://github.com/apple/swift-evolution/blob/master/proposals/0005-objective-c-name-translation.md  
+      At some point in the future I imagine we would also see native Swift APIs.  
+      https://news.ycombinator.com/item?id=10927557
 - most loved - swift http://stackoverflow.com/research/developer-survey-2015#tech-super
 - learn
   - http://blog.pusher.com/5-reasons-you-should-learn-swift-in-2016-2/
