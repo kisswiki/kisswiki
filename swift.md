@@ -11,6 +11,7 @@
 - vs
   - objective-c
     - http://ericasadun.com/2016/02/08/when-your-client-demands-swift/
+    - For larger apps, well, I have a Swift app that isn't really very big, probably still small but significantly bigger than a tutorial, and it keeps freezing Xcode. (Edit something in Interface Builder, switch to the ViewController class with IBOutlets in it, then switch back and forth between ViewControllers making edits. Each time it takes longer and longer until I just force-quit Xcode to avoid twiddling my thumbs for 5 minutes.) So I don't think Swift is ready for any app that isn't pretty small anyway. https://news.ycombinator.com/item?id=10925916
 - most loved - swift http://stackoverflow.com/research/developer-survey-2015#tech-super
 - learn
   - http://blog.pusher.com/5-reasons-you-should-learn-swift-in-2016-2/
