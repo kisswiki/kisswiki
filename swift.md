@@ -24,6 +24,7 @@
       https://news.ycombinator.com/item?id=10927557
     - We tried using Swift for a new app but the language isn't ready for prime time. It's an impressive language by itself, but the support for it just isn't there yet. Since it's still in infancy things change too much and documentation/stackoverflow is pretty weak. Our app was simple but we spent more time trying to make it work than actually programming and ended up doing an obj-c rewrite in less time. I'm sure this scenario won't be the case for long, but it's the case for now. https://news.ycombinator.com/item?id=10924737
     - So far there are some performance issues with containers as value types. Other bottlenecks are structs that contain many references types. https://news.ycombinator.com/item?id=10924984
+    - http://www.slideshare.net/KyleSherman/swift-at-linkedin/31
 - most loved - swift http://stackoverflow.com/research/developer-survey-2015#tech-super
 - learn
   - http://blog.pusher.com/5-reasons-you-should-learn-swift-in-2016-2/
