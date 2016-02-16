@@ -15,3 +15,8 @@ https://phab.enlightenment.org/phame/live/1/post/3/efl_memory_consumption_-_moo/
 GC is only efficient when given 3-4x more memory to work with than the process is using at any time, and this tradeoff is not acceptable for Swift.
 
 https://github.com/apple/swift-evolution/blob/master/commonly_proposed.md
+
+## Idle power consumption
+
+UFS offers a low active power level and a near-zero idle power level 
+https://www.reddit.com/r/Android/comments/2m9h1t/samsung_and_xiaomi_to_switch_to_faster_ufs_memory/cm2b4ai
