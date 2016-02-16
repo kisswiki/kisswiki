@@ -1,8 +1,13 @@
 - language
   - https://swift.org/blog/swift-api-transformation/
   - https://developer.apple.com/swift/blog/?id=29
+  - http://www.infoworld.com/article/3027100/mobile-development/seven-swift-2-enhancements-every-ios-developer-will-love.html
+  - roadmap https://github.com/apple/swift-evolution/blob/master/README.md
 - game
   - https://medium.com/magnetis-backstage/your-first-ios-game-fda99504c3e4
   - http://open.bekk.no/a-swift-run-through-making-an-ios-game
 - job
   - http://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/
+- vs
+  - objective-c
+    - http://ericasadun.com/2016/02/08/when-your-client-demands-swift/
