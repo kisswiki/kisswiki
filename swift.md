@@ -26,3 +26,4 @@
 - most loved - swift http://stackoverflow.com/research/developer-survey-2015#tech-super
 - learn
   - http://blog.pusher.com/5-reasons-you-should-learn-swift-in-2016-2/
+- 89% of top 100 apps don't use Swfit (2016-01-10) https://medium.com/art-marketing/are-the-top-apps-using-swift-42e880e7727f#.jyg4wwcqw
