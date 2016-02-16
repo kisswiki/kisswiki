@@ -29,3 +29,4 @@
 - learn
   - http://blog.pusher.com/5-reasons-you-should-learn-swift-in-2016-2/
 - 89% of top 100 apps don't use Swfit (2016-01-10) https://medium.com/art-marketing/are-the-top-apps-using-swift-42e880e7727f
+- style guide https://github.com/SlideShareInc/swift-style-guide/
