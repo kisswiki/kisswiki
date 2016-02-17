@@ -10,3 +10,4 @@
 - wifi password
   - https://github.com/RReverser/WiFi-Password
 - color picker http://charliecm.github.io/ColorPicker/
+- disable search indexing: `services.msc > Windows Search > Right-click > Properties > Startup Type: Disabled` http://www.addictivetips.com/windows-tips/how-to-permanently-disable-search-indexing-in-windows-8/
