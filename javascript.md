@@ -96,3 +96,5 @@
   - https://www.reddit.com/r/javascript/comments/42tdqi/preact_fast_3kb_react_alternative_with_the_same/
     - http://mathieuancelin.github.io/js-repaint-perfs/
     - http://localvoid.github.io/uibench/
+- regex
+  - find words without `e` character `/\b[^e\s]*\b/g` https://regex101.com/r/sR6wH0/1 https://www.facebook.com/groups/js.pierwsze.kroki/permalink/564727727026666/
