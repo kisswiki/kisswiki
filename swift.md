@@ -31,3 +31,4 @@
 - 89% of top 100 apps don't use Swfit (2016-01-10) https://medium.com/art-marketing/are-the-top-apps-using-swift-42e880e7727f
 - style guide https://github.com/SlideShareInc/swift-style-guide/
 - Migrattion tips from Objective-C https://www.reddit.com/r/swift/comments/451xmo/transitioning_from_objective_c_to_swift_without/
+- https://github.com/vsouza/awesome-ios#getting-started
