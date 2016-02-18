@@ -32,3 +32,4 @@
 - style guide https://github.com/SlideShareInc/swift-style-guide/
 - Migrattion tips from Objective-C https://www.reddit.com/r/swift/comments/451xmo/transitioning_from_objective_c_to_swift_without/
 - https://github.com/vsouza/awesome-ios#getting-started
+- https://www.reddit.com/r/swift/comments/456y2c/what_are_some_of_the_best_swift_app_github_repo/
