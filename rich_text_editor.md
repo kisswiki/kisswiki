@@ -4,7 +4,7 @@
 - https://github.com/tinymce/tinymce TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under LGPL
 - https://github.com/jawerty/Hyro A real-time desktop HTML5 editor -- view your html while you code it
 - https://github.com/Voog/wysihtml Open source rich text editor for the modern web
-- https://github.com/neilj/Squire HTML5 rich text editor. Try the demo integration at
+- https://github.com/neilj/Squire HTML5 rich text editor
 - https://github.com/quilljs/quill A cross browser rich text editor with an API
 - https://github.com/jakiestfu/Medium.js A tiny JavaScript library for making contenteditable beautiful (Like Medium's editor)
 - https://github.com/alohaeditor/Aloha-Editor Aloha Editor is a JavaScript content editing library
