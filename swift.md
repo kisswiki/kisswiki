@@ -34,3 +34,5 @@
 - https://github.com/vsouza/awesome-ios#getting-started
 - https://www.reddit.com/r/swift/comments/456y2c/what_are_some_of_the_best_swift_app_github_repo/
 - https://github.com/allenwong/30DaysofSwift
+- news
+  - http://nshipster.com/
