@@ -3,3 +3,5 @@
   Oczywiście potwierdzimy to podczas diagnozy
   darmowy kurier
   wystarczy wypełnić formularz na stronie www.applefix.pl/formularz
+- http://diagnoserwis.pl/
+- http://iphonewarszawa.pl/
