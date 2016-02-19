@@ -112,5 +112,5 @@
   http://www.androidauthority.com/develop-apps-for-android-rather-than-ios-607219/
   - real money goes to free-to-play money-drainers and simple puzzle games - that are also free-to-play money-drainers. http://www.gamesindustry.biz/articles/2015-04-28-avernum-developer-walks-away-from-ios-development
   - The App Store made over 70 percent more money than Google Play in 2015  
-    Much of the company's digital revenue growth was driven by strong growth in China, as well as healthy development in Japan and the U.S. Overall, those three countries contributed to nearly 90 percent of the Apple App Store's revenue growth over 2014. But the main underwriter of the App Store's standout expansion in 2015 was China.
+    Much of the company's digital revenue growth was driven by strong growth in China, as well as healthy development in Japan and the U.S. Overall, those three countries contributed to nearly 90 percent of the Apple App Store's revenue growth over 2014. But the main underwriter of the App Store's standout expansion in 2015 was China.  
     http://www.latinpost.com/articles/110519/20160121/ios-vs-android-market-share-revenue-one-win-for-each-app-store-in-2015.htm
