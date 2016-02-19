@@ -110,3 +110,4 @@
   - some common reasons for developing for iOS first is because it is easier, and more lucrative. You only have so many iOS devices to support and test for, and it is easy to target the latest version of the OS because you know that majority of users are already on them. The hardware is pretty standard.  
   for Flappy Birds it generates more revenue on Android since its revenue was based on ads and more people downloaded it on Android than iOS.
   http://www.androidauthority.com/develop-apps-for-android-rather-than-ios-607219/
+  - real money goes to free-to-play money-drainers and simple puzzle games - that are also free-to-play money-drainers. http://www.gamesindustry.biz/articles/2015-04-28-avernum-developer-walks-away-from-ios-development
