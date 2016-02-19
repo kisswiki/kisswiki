@@ -26,10 +26,11 @@
     - So far there are some performance issues with containers as value types. Other bottlenecks are structs that contain many references types. https://news.ycombinator.com/item?id=10924984
     - http://www.slideshare.net/KyleSherman/swift-at-linkedin/31
     - Cocoa is vastly easier to use since APIs return the correct types (instead of the ambiguous Objective-C "AnyObject") and error handling is now easy (instead of pure torture) https://www.reddit.com/r/swift/comments/3cre4i/seven_months_ago_someone_asked_if_it_was_viable/csyb6ow
-    - Once the language is stable and established, Apple may well decide it doesn’t want to support two languages and will start requiring developers to use Swift for certain aspects of coding. This probably won’t happen for years, but Wenderlich say he expects it to happen at some point. “Then people will start to migrate to Swift,” he says, "and eventually Objective C will go away.”  http://www.bloomberg.com/news/articles/2015-06-04/apple-s-big-breakthrough-that-almost-no-one-knows-about-swift-code 
+    - Once the language is stable and established, Apple may well decide it doesn’t want to support two languages and will start requiring developers to use Swift for certain aspects of coding. This probably won’t happen for years, but Wenderlich say he expects it to happen at some point. “Then people will start to migrate to Swift,” he says, "and eventually Objective C will go away.”  http://www.bloomberg.com/news/articles/2015-06-04/apple-s-big-breakthrough-that-almost-no-one-knows-about-swift-code
 - most loved - swift http://stackoverflow.com/research/developer-survey-2015#tech-super
 - learn
   - http://blog.pusher.com/5-reasons-you-should-learn-swift-in-2016-2/
+  - https://www.hackingwithswift.com/test/
 - 89% of top 100 apps don't use Swfit (2016-01-10) https://medium.com/art-marketing/are-the-top-apps-using-swift-42e880e7727f
 - style guide https://github.com/SlideShareInc/swift-style-guide/
 - Migrattion tips from Objective-C https://www.reddit.com/r/swift/comments/451xmo/transitioning_from_objective_c_to_swift_without/
