@@ -11,6 +11,7 @@
   - https://www.natashatherobot.com/swift-jobs/
   - http://www.indeed.co.uk/Swift-Developer-jobs
   - https://www.freelancer.com/jobs/iPhone/1/
+  - https://www.upwork.com/o/jobs/browse/?q=swift
 - vs
   - http://www.slideshare.net/KyleSherman/swift-at-linkedin
   - objective-c
