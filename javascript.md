@@ -98,3 +98,4 @@
     - http://localvoid.github.io/uibench/
 - regex
   - find words without `e` character `/\b[^e\s]*\b/g` https://regex101.com/r/sR6wH0/1 https://www.facebook.com/groups/js.pierwsze.kroki/permalink/564727727026666/
+- input file fire change event on the same file name http://stackoverflow.com/questions/12030686/html-input-file-selection-event-not-firing-upon-selecting-the-same-file
