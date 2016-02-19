@@ -9,6 +9,7 @@
 - job
   - http://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/
   - https://www.natashatherobot.com/swift-jobs/
+  - http://www.indeed.co.uk/Swift-Developer-jobs
 - vs
   - http://www.slideshare.net/KyleSherman/swift-at-linkedin
   - objective-c
