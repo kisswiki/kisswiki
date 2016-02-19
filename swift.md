@@ -8,6 +8,7 @@
   - http://open.bekk.no/a-swift-run-through-making-an-ios-game
 - job
   - http://artsy.github.io/blog/2016/01/30/iOS-Junior-Interviews/
+  - https://www.natashatherobot.com/swift-jobs/
 - vs
   - http://www.slideshare.net/KyleSherman/swift-at-linkedin
   - objective-c
