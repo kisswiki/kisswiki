@@ -34,6 +34,7 @@
   - https://www.reddit.com/r/swift/comments/469559/what_sources_can_you_recommend_where_an_absolute/
   - http://www.ios-blog.co.uk/tutorials/all/
   - https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/
+  - https://github.com/allenwong/30DaysofSwift
 - 89% of top 100 apps don't use Swfit (2016-01-10) https://medium.com/art-marketing/are-the-top-apps-using-swift-42e880e7727f
 - style guide https://github.com/SlideShareInc/swift-style-guide/
 - migrattion
@@ -41,7 +42,6 @@
   - example http://blog.tarkalabs.com/2016/02/16/refactoring-swift/
 - https://github.com/vsouza/awesome-ios#getting-started
 - https://www.reddit.com/r/swift/comments/456y2c/what_are_some_of_the_best_swift_app_github_repo/
-- https://github.com/allenwong/30DaysofSwift
 - news
   - http://nshipster.com/
 - server https://github.com/crossroadlabs/Express
