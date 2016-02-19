@@ -102,3 +102,7 @@
       - compatible with 6s plus? http://www.wirelesspowerkit.com/product/wireless-charging-case-iphone-6-plus/
 - http://www.spidersweb.pl/2016/02/error-53-iphone-ios-9-3.html
 - Nexus 5X to zdecydowanie najgorszy Nexus w historii http://www.spidersweb.pl/2016/02/nexus-5x-recenzja.html
+- ios vs android
+  - Over the past two years, Android has retained 82 percent of users according to the study, while Apple has retained 78 percent of users. Less than 20 percent of Windows users stuck with a Windows-powered phone, while Blackberry retained just 4 percent of users.  
+  As for where new users came from, almost all movement was between iOS and Android. About 16 percent of all Android users who bought a new phone in the past two years came from iOS while 20 percent of all iOS users had previously used an Android device.  
+  http://www.geekwire.com/2015/android-vs-ios-the-mobile-os-wars-are-basically-over-according-to-new-study-of-smartphone-switchers/
