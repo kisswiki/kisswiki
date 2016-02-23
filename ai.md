@@ -1,0 +1,2 @@
+- https://medium.com/@cdixon/what-s-next-in-computing-e54b870b80cc
+- https://medium.com/machine-intelligence-report/the-current-state-of-machine-intelligence-2-0-a9e0bab95511
