@@ -1,1 +1,3 @@
-- simple checkbox tree http://codepen.io/sliiice/pen/GurpF
+- simple checkbox tree
+  - http://codepen.io/sliiice/pen/GurpF
+  - http://ivantage.github.io/angular-ivh-treeview/
