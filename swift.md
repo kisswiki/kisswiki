@@ -45,6 +45,7 @@
 - migrattion
   - tips from Objective-C https://www.reddit.com/r/swift/comments/451xmo/transitioning_from_objective_c_to_swift_without/
   - example http://blog.tarkalabs.com/2016/02/16/refactoring-swift/
+  - remember to mark methods as @dynamic if you're passing a selector to them, or you (may or may not) get a nasty crash when the selector is called https://www.reddit.com/r/iOSProgramming/comments/46jzx1/swift_vs_objectivec/d05sx2o
 - https://github.com/vsouza/awesome-ios#getting-started
 - https://www.reddit.com/r/swift/comments/456y2c/what_are_some_of_the_best_swift_app_github_repo/
 - news
