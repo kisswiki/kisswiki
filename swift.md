@@ -33,6 +33,7 @@
     - Once the language is stable and established, Apple may well decide it doesn’t want to support two languages and will start requiring developers to use Swift for certain aspects of coding. This probably won’t happen for years, but Wenderlich say he expects it to happen at some point. “Then people will start to migrate to Swift,” he says, "and eventually Objective C will go away.”  http://www.bloomberg.com/news/articles/2015-06-04/apple-s-big-breakthrough-that-almost-no-one-knows-about-swift-code
     - https://www.reddit.com/r/iOSProgramming/comments/46jzx1/swift_vs_objectivec/
     - [Swift] still needs to add it's own runtime in the binary https://www.reddit.com/r/iOSProgramming/comments/46jzx1/swift_vs_objectivec/d05qwic, its runtime libraries are bundled with iOS instead of with each app separately https://www.reddit.com/r/iOSProgramming/comments/46jzx1/swift_vs_objectivec/d05t9la
+    - Objective‑C of a Hello World app is 72k vs. Swift, 3.1mb; full version: Objective‑C, 92k vs. 4.6mb. https://realm.io/news/ben-sandofsky-time-for-swift/
 - most loved - swift http://stackoverflow.com/research/developer-survey-2015#tech-super
 - learn
   - http://blog.pusher.com/5-reasons-you-should-learn-swift-in-2016-2/
@@ -41,6 +42,8 @@
   - http://www.ios-blog.co.uk/tutorials/all/
   - https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/
   - https://github.com/allenwong/30DaysofSwift
+  - https://www.hackingwithswift.com/example-code/
+  - https://littlebitesofcocoa.com/
 - 89% of top 100 apps don't use Swfit (2016-01-10) https://medium.com/art-marketing/are-the-top-apps-using-swift-42e880e7727f
 - style guide https://github.com/SlideShareInc/swift-style-guide/
 - migrattion
