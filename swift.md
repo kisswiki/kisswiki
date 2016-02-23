@@ -32,6 +32,7 @@
     - Cocoa is vastly easier to use since APIs return the correct types (instead of the ambiguous Objective-C "AnyObject") and error handling is now easy (instead of pure torture) https://www.reddit.com/r/swift/comments/3cre4i/seven_months_ago_someone_asked_if_it_was_viable/csyb6ow
     - Once the language is stable and established, Apple may well decide it doesn’t want to support two languages and will start requiring developers to use Swift for certain aspects of coding. This probably won’t happen for years, but Wenderlich say he expects it to happen at some point. “Then people will start to migrate to Swift,” he says, "and eventually Objective C will go away.”  http://www.bloomberg.com/news/articles/2015-06-04/apple-s-big-breakthrough-that-almost-no-one-knows-about-swift-code
     - https://www.reddit.com/r/iOSProgramming/comments/46jzx1/swift_vs_objectivec/
+    - [Swift] still needs to add it's own runtime in the binary https://www.reddit.com/r/iOSProgramming/comments/46jzx1/swift_vs_objectivec/d05qwic
 - most loved - swift http://stackoverflow.com/research/developer-survey-2015#tech-super
 - learn
   - http://blog.pusher.com/5-reasons-you-should-learn-swift-in-2016-2/
