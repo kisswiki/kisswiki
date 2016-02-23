@@ -63,3 +63,82 @@
   git commit --amend --no-edit
   git rebase --continue
   ```
+- https://github.com/qw3rtman/git-fire
+- https://github.com/jayphelps/git-blame-someone-else
+
+## Rebase or merge, rewrite or not
+
+Ostatnio zawrzała dyskusja https://www.facebook.com/groups/257881290932879/permalink/955179261203075/ czy rebasować czy nie
+
+### Rewriting
+
+Commits should be logical units of the codebase, not units of developer productivity over time https://news.ycombinator.com/item?id=6461562
+
+I don't care to know that you merged 3 times from master yesterday before pushing your feature. Also I don't care to know details like you forgot to put a config file in your first commit and had to do a second one, or that it took you 3 commits to have the spelling alright in the UI.
+https://news.ycombinator.com/item?id=6456445
+
+Cleaning up your history before merging is important. For one, before you merge you should usually have someone do code review. No one wants to do a code review on a branch that has a bunch of false starts, typo fixups, debug print statements being added and removed, and so on. Code reviewing a branch that breaks something and then fixes it three commits later is a real pain; you sit there puzzling over the first commit, wondering how it could possibly work, and writing up a big explanation for why they need to fix something, then you go on to a later commit and realize they already fixed it.
+    Furthermore, dirty branches lose you a lot of the power that having a good, clean history gives you. When you do a blame on a line of code, to figure out when the last change was, do you want to see the "fix whitespace to match style guide" commit that someone insert in the branch at the end, or the actual meaningful change that occurred earlier? If you don't squash your commits to deal with these kinds of issues, you lose a lot of the power and convenience that good history gives you.
+There's more. One of Git's most powerful tools is bisect, but even in a VCS without an automated bisect, doing it manually can be useful too.
+https://news.ycombinator.com/item?id=6457450
+
+### Merge commits
+
+Jeśli chodzi o merge commity (--no-ff) to bisect też je rozumie https://gist.github.com/canton7/3737126
+
+Zalety merge commitów to że można krok po kroku prześledzić w którym etapie zrobiliśmy błąd jak pracowaliśmy nad jakimś feature. Oraz można łatwo revertować cały feature składający się z kilku commitów.
+
+Jednak trzeba pilnować żeby nie krzyżowały się takie dwa merge.
+
+### Every commit pass tests/work
+
+https://news.ycombinator.com/item?id=9748339
+
+Another nice side benefit is that you are able to use git bisect to find bugs more easily. If some of the commits fail the build then it becomes difficult to separate commits that actually introduce a bug from those that are just incomplete.
+The team I work with has recently started making sure every commit passes the build and it's had some fantastic results in our productivity.
+(...)
+Being able to compile the work-in-progress state for both components simultaneously is very useful to catch the kind of problems like incorrect const-qualifiers.
+https://news.ycombinator.com/item?id=9745616
+
+### Git flow
+
+I generalnie nie wrąbywać się w skomplikowane git-flow:
+
+The primary reason for moving away is that the git-flow process is hard to deal with in a continuous (or near-continuous) deployment model.
+Start with a model as simple as possible (like GitHub flow tends to be), and move towards a more complex model if you need to.
+http://stackoverflow.com/questions/18188492/what-are-the-pros-and-cons-of-git-flow-vs-github-flow
+
+Dlatego polecam a simple git branching model
+https://gist.github.com/jbenet/ee6c9ac48068889b0912
+https://news.ycombinator.com/item?id=6456193
+
+GitFlow considered harmful
+http://endoflineblog.com/gitflow-considered-harmful
+- https://news.ycombinator.com/item?id=9744059
+- https://www.reddit.com/r/programming/comments/3ae2tx/gitflow_considered_harmful/
+Issues with git-flow http://scottchacon.com/2011/08/31/github-flow.html
+Who Needs Process? http://widgetsandshit.com/teddziuba/2011/12/process.html
+
+Ciekawe jest też podejście żeby nie używać feature branchy ale forków:
+Git Branches Considered Harmful http://hintjens.com/blog:24
+
+### Hotfixy najpierw do master
+
+After a release branch is announced, only serious bug fixes are included in the release branch. If possible these bug fixes are first merged into master and then cherry-picked into the release branch. This way you can’t forget to cherry-pick them into master and encounter the same bug on subsequent releases. This is called an ‘upstream first’ policy that is also practiced by Google and Red Hat.
+https://about.gitlab.com/2014/09/29/gitlab-flow/
+
+### Tags
+
+Uważam że powinno się robić commity typu: "Preparing for release" i wtedy commituje się jakiś plik gdzie zapisujemy numer wersji. Dzięki temu jak coś się z tagami stanie to będziemy mogli odtworzyć to miejsce.
+
+### Śmietnik
+
+I generalnie nie róbcie śmietnika z gita. Niektórzy traktują to jako narzędzie do pilnowania kiedy programista zaczął pracę na featurem i nie można rebasować.
+
+Albo ludzie od budowania wrzucają tagi na gdzie zrobili builda.
+
+Niektórze jeszcze wrzucają dist/build do drzewa. W repo nie powinien się znajdować kod który można wygenerować.
+
+### Humor
+
+https://devhumor.com/media/i-fucked-up-git-so-bad-it-turned-into-guitar-hero
