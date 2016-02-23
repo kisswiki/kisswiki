@@ -137,6 +137,7 @@
     - FORGIVE without punishing
     - ANSWER without arguing
     - PROMISE without forgeting
+  - https://pokolenieikea.com/2016/02/21/dlaczego-kobiety-uciekaja-ze-zwiazkow-ktorych-zazdroszcza-im-kolezanki/
 - confidence
   - Real confidence https://www.facebook.com/ev45ive/posts/10206852007433161 http://www.lifehack.org/339425/real-confidence-isnt-like-what-most-people-think-of
     - don't seak approval from others
