@@ -1,0 +1,2 @@
+- https://github.com/blog/2112-delivering-octicons-with-svg
+- http://stackoverflow.com/questions/33812303/svg-animation-not-working-on-ie-11
