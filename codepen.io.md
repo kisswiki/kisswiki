@@ -1,0 +1,1 @@
+- shouldStopExecution http://codepen.io/quezo/post/improving-infinite-loop-detection
