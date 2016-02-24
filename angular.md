@@ -1,3 +1,4 @@
 - simple checkbox tree
   - http://codepen.io/sliiice/pen/GurpF
   - https://github.com/iVantage/angular-ivh-treeview
+- http://stackoverflow.com/questions/25655434/manipulating-inline-style-with-angular-does-not-work-in-ie
