@@ -12,3 +12,4 @@
 - https://github.com/yabwe/medium-editor Medium.com WYSIWYG editor clone. Uses contenteditable API to implement a rich text solution
 - https://github.com/ProseMirror/prosemirror The ProseMirror WYSIWYM editor
 - https://github.com/danielearwicker/carota Simple, flexible rich text rendering/editing on HTML Canvas
+- https://github.com/facebook/draft-js
