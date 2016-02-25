@@ -7,6 +7,7 @@
       - Start/stop recording with the same hotkey - Shifth + Print Screen
     - proxy - there are settings for that
   - [LightShot](https://app.prntscr.com)
+  - https://screentogif.codeplex.com/
 - wifi password
   - https://github.com/RReverser/WiFi-Password
 - color picker http://charliecm.github.io/ColorPicker/
