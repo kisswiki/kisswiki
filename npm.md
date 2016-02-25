@@ -23,3 +23,4 @@
   $ npm config set init.author.url http://iamsim.me/
   $ npm config set init.license MIT
   ```
+- npm3 dependencies https://docs.npmjs.com/how-npm-works/npm3
