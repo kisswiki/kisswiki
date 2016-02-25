@@ -68,4 +68,6 @@ i wtedy dopiero będzie system-wide i nie trzeba będzie dołączać runtime do 
 
 ale to nie znaczy że swift jest kompilowany just-in-time czy coś innego
 
-A tutaj jacyś goście robią własną implementację Foundation https://github.com/PureSwift/SwiftFoundation 
+A tutaj jacyś goście robią własną implementację Foundation https://github.com/PureSwift/SwiftFoundation
+
+A tu Foundation od Apple https://github.com/apple/swift-corelibs-foundation
