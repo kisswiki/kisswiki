@@ -1,0 +1,5 @@
+- display filter https://wiki.wireshark.org/DisplayFilters
+  - AND: &&
+  - OR: ||
+  - filter only http: http
+  - http host: http.host contains "wp.pl"
