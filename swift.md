@@ -72,3 +72,4 @@ A tutaj jacyś goście robią własną implementację Foundation https://github.
 
 A tu Foundation od Apple https://github.com/apple/swift-corelibs-foundation
 https://github.com/apple/swift-corelibs-foundation/blob/master/Docs/Status.md
+https://github.com/apple/swift-corelibs-foundation/blob/master/Docs/Design.md
