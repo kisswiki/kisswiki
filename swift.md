@@ -71,3 +71,4 @@ ale to nie znaczy że swift jest kompilowany just-in-time czy coś innego
 A tutaj jacyś goście robią własną implementację Foundation https://github.com/PureSwift/SwiftFoundation
 
 A tu Foundation od Apple https://github.com/apple/swift-corelibs-foundation
+https://github.com/apple/swift-corelibs-foundation/blob/master/Docs/Status.md
