@@ -1,0 +1,5 @@
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+- http://seanamarasinghe.com/developer/fetch-api/
+- https://github.com/matthew-andrews/isomorphic-fetch
+- https://github.com/bitinn/node-fetch
+- There is no content in Response with no-cors. So JSON.parse will fail. I just wonder why 'web-security': false does not work with window.fetch. Now I turn into using superagent instead of native window.fetch. https://github.com/atom/electron/issues/1990#issuecomment-120860477
