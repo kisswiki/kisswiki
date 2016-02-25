@@ -4,6 +4,7 @@
 - https://hacks.mozilla.org/2015/03/this-api-is-so-fetching/
 - https://jakearchibald.com/2015/thats-so-fetch/
 - https://davidwalsh.name/fetch
+- http://stackoverflow.com/questions/9922101/get-json-data-from-external-url-and-display-it-in-a-div-as-plain-text
 
 ## Code
 
