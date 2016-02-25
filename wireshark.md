@@ -4,4 +4,4 @@
   - AND: &&
   - OR: ||
   - filter only http: http
-  - http host: http.host contains "wp.pl"
+  - domain http://stackoverflow.com/questions/22028943/filtering-by-domain: http.host contains "wp.pl"
