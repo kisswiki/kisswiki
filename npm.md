@@ -15,3 +15,11 @@
   - http://npm1k.org/
   - https://spdx.org/licenses/
   - https://spdx.org/licenses/licenses.json
+- defaults http://iamsim.me/set-your-npm-init-defaults/
+
+  ```
+  $ npm config set init.author.name "Simon Ljungberg"
+  $ npm config set init.author.email hi@iamsim.me
+  $ npm config set init.author.url http://iamsim.me/
+  $ npm config set init.license MIT
+  ```
