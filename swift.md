@@ -57,3 +57,15 @@
 - server https://github.com/crossroadlabs/Express
 - https://github.com/realm/realm-cocoa
 - http://www.swiftgl.org/
+
+## Foundation and runtime
+
+Runtime - to biblioteka do komunikacji binarki ze środowiskiem. Jest dla obj-c czy dla swift https://en.wikipedia.org/wiki/Runtime_library
+
+Runtime dla swift ma być ustabilizowany w 3.0 https://github.com/apple/swift/blob/master/docs/Runtime.md
+
+i wtedy dopiero będzie system-wide i nie trzeba będzie dołączać runtime do binarek
+
+ale to nie znaczy że swift jest kompilowany just-in-time czy coś innego
+
+A tutaj jacyś goście robią własną implementację Foundation https://github.com/PureSwift/SwiftFoundation 
