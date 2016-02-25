@@ -12,3 +12,4 @@
 - http://stackoverflow.com/questions/32859611/no-access-control-allow-origin-header-is-present-origin-is-therefore-not-allo
 - http://stackoverflow.com/questions/34189883/cors-problems-no-access-control-allow-origin-header-is-present-on-the-requeste
 - https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
