@@ -4,4 +4,7 @@
 - https://hacks.mozilla.org/2015/03/this-api-is-so-fetching/
 - https://github.com/matthew-andrews/isomorphic-fetch
 - https://github.com/bitinn/node-fetch
+
+## CORS
 - There is no content in Response with no-cors. So JSON.parse will fail. I just wonder why 'web-security': false does not work with window.fetch. Now I turn into using superagent instead of native window.fetch. https://github.com/atom/electron/issues/1990#issuecomment-120860477
+- http://stackoverflow.com/questions/32722409/access-control-allow-origin-header-not-present-with-fetch-api-call
