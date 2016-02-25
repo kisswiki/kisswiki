@@ -14,3 +14,4 @@
 - https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
 - https://jvaneyck.wordpress.com/2014/01/07/cross-domain-requests-in-javascript/
+- https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy#Cross-origin_network_access
