@@ -1,4 +1,6 @@
-- display filter https://wiki.wireshark.org/DisplayFilters
+- display filter
+  - https://wiki.wireshark.org/DisplayFilters
+  - http://www.thegeekstuff.com/2012/07/wireshark-filter/
   - AND: &&
   - OR: ||
   - filter only http: http
