@@ -3,6 +3,7 @@
 - https://developers.google.com/web/updates/2015/03/introduction-to-fetch
 - https://hacks.mozilla.org/2015/03/this-api-is-so-fetching/
 - https://jakearchibald.com/2015/thats-so-fetch/
+- https://davidwalsh.name/fetch
 
 ## Code
 
