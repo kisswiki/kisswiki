@@ -168,6 +168,7 @@
           - https://chrome.google.com/webstore/detail/facebook-messenger-notifi/pdndipdnnemoafpneeeljgiimhgkjkfg
           - http://www.fbpurity.com/
           - https://chrome.google.com/webstore/detail/friends-feed/nlenanfmnogchfccgdadohbacedphodd
+        - json https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
     - firefox
       - dark
         - https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages
