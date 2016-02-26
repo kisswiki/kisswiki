@@ -8,6 +8,7 @@
 - https://davidwalsh.name/fetch
 - http://stackoverflow.com/questions/9922101/get-json-data-from-external-url-and-display-it-in-a-div-as-plain-text
 - headers example http://richardkho.com/making-ajax-calls-in-react-native/
+- http://caniuse.com/#feat=fetch
 
 ## Code
 
