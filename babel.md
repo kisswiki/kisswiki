@@ -1,3 +1,4 @@
 - https://github.com/saan1984/BabelInBrowserDemo
 - https://github.com/Daniel15/babel-standalone
 - http://stackoverflow.com/questions/33643967/how-to-install-babel-and-using-es6-locally-on-browser
+- Since babel 6.2.0 browser.js has been removed http://stackoverflow.com/questions/33643967/how-to-install-babel-and-using-es6-locally-on-browser
