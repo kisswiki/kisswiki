@@ -4,3 +4,4 @@
 - https://www.codingpedia.org/jhadesdev/introduction-to-the-jspm-package-manager-and-the-systemjs-module-loader/
 - http://blog.jhades.org/introduction-to-es6-modularity-the-jspm-package-manager-and-the-systemjs-loader/
 - http://guybedford.com/practical-workflows-for-es6-modules
+- http://jspm.io/0.17-beta-guide/hot-reloading.html
