@@ -7,6 +7,7 @@
 - http://jspm.io/0.17-beta-guide/hot-reloading.html
   - https://github.com/capaj/systemjs-hot-reloader
 - https://github.com/jspm/jspm-cli/issues/872
+- http://stackoverflow.com/questions/22291236/system-js-load-multiple-dependencies-in-one-call
 
 ## Automatic module splitting
 
