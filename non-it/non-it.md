@@ -27,6 +27,7 @@
   - http://www.amazon.com/Master-Your-Workday-Now-Strategi-ebook/dp/B004FN1LSS
   - http://calnewport.com/blog/2011/11/11/if-youre-busy-youre-doing-something-wrong-the-surprisingly-relaxed-lives-of-elite-achievers/
   - https://medium.com/life-tips/multitasking-is-killing-your-brain-79104e62e930
+  - http://lifehacker.com/5952121/stick-to-one-goal-at-a-time-and-keep-your-motivation-in-check
 - business
   - Long lists don't get done https://amzn.com/0307463745
     - http://lubimyczytac.pl/ksiazka/195804/rework
