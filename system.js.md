@@ -1,3 +1,4 @@
 - https://matthewphillips.info/posts/using-npm-with-systemjs.html
 - https://github.com/stealjs/system-npm
 - https://github.com/OliverJAsh/systemjs-browser-node-example
+- https://www.codingpedia.org/jhadesdev/introduction-to-the-jspm-package-manager-and-the-systemjs-module-loader/
