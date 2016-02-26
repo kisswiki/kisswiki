@@ -1,0 +1,13 @@
+- http://snitt.pl/startupy-maja-za-nic-programistow-wedlug-mnie-to-jeden-z-powodow-ich-porazek/
+- http://productlabs.co/zarobki-programisty-praca-koszty/
+- http://flowingdata.com/2016/01/05/causes-of-death/
+- http://www.sitepoint.com/7-new-ways-to-test-your-minimum-viable-product/
+- http://blog.landingi.pl/checklista-landing-page-sprawdz/
+- http://righthello.com/start-selling/
+- http://www.startupfuckingadvice.com/
+- The number one thing was timing. Timing accounted for 42 percent of the difference between success and failure. Team and execution came in second, and the idea, the differentiability of the idea, the uniqueness of the idea, that actually came in third. http://www.ted.com/talks/bill_gross_the_single_biggest_reason_why_startups_succeed/transcript?language=en
+- http://www.polskieradio.pl/42/259/Artykul/1439711,Pomysl-na-startup-jest-wart-1-zl-VAT-inwestuje-sie-w-ludzi
+- https://interviewme.pl/blog/praca-w-startupie
+- http://righthello.com/what-kills-software/
+- wilk chodzi czasami głodny ale wolny - Marcin
+- Start-up to organizacja, która jeszcze nie znalazła swojego modelu biznesowego. http://backpakuje.pl/praca-berlin-startup-10-faktow/
