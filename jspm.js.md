@@ -6,3 +6,4 @@
 - http://guybedford.com/practical-workflows-for-es6-modules
 - http://jspm.io/0.17-beta-guide/hot-reloading.html
   - https://github.com/capaj/systemjs-hot-reloader
+- https://github.com/jspm/jspm-cli/issues/872
