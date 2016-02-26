@@ -7,4 +7,8 @@
 - http://jspm.io/0.17-beta-guide/hot-reloading.html
   - https://github.com/capaj/systemjs-hot-reloader
 - https://github.com/jspm/jspm-cli/issues/872
-- automatic module splitting https://github.com/jspm/jspm-cli/issues/923
+
+## Automatic module splitting
+
+- https://github.com/jspm/jspm-cli/issues/923
+- http://stackoverflow.com/questions/32151386/jspm-multiple-bundles-vendor-and-app
