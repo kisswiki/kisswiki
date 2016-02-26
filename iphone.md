@@ -115,3 +115,4 @@
     The App Store made over 70 percent more money than Google Play in 2015  
     Much of the company's digital revenue growth was driven by strong growth in China, as well as healthy development in Japan and the U.S. Overall, those three countries contributed to nearly 90 percent of the Apple App Store's revenue growth over 2014. But the main underwriter of the App Store's standout expansion in 2015 was China.  
     http://www.latinpost.com/articles/110519/20160121/ios-vs-android-market-share-revenue-one-win-for-each-app-store-in-2015.htm
+- open youtube in safari, lock screen, show welcome screen, slide up bottom panel, touch play http://wiedzoholik.pl/jak-sprawic-aby-muzyka-z-youtube-wciaz-grala-na-telefonie-kiedy-go-wygasisz/
