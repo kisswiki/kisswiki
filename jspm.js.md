@@ -8,6 +8,7 @@
   - https://github.com/capaj/systemjs-hot-reloader
 - https://github.com/jspm/jspm-cli/issues/872
 - http://stackoverflow.com/questions/22291236/system-js-load-multiple-dependencies-in-one-call
+- Support plugin-relay-babel https://github.com/systemjs/systemjs/issues/1117
 
 ## Automatic module splitting
 
