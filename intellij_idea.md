@@ -1,0 +1,1 @@
+- disable HTML breadcrumbs: Settings > Editor > General > Appearance > Show HTML breadcrumbs http://stackoverflow.com/questions/29391588/how-to-hide-the-div-structure-thing-next-to-the-editor-tabs
