@@ -1,1 +1,3 @@
 - disable HTML breadcrumbs: Settings > Editor > General > Appearance > Show HTML breadcrumbs http://stackoverflow.com/questions/29391588/how-to-hide-the-div-structure-thing-next-to-the-editor-tabs
+- http://stackoverflow.com/questions/9162802/intellij-idea-output-directory-reverts-to-default-target
+  - IDEA will revert to the Maven configuration on every pom.xml re-import. You can disable it in the IDEA Maven settings
