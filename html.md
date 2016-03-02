@@ -12,3 +12,4 @@
 - gradient
   - http://gradient.quasi.ink/
 - browser feature detection https://github.com/viljamis/feature.js
+- autocompletion https://developer.mozilla.org/en/docs/Web/HTML/Element/datalist
