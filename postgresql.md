@@ -16,5 +16,5 @@
 - psql
   - psql: `\q` or `ctrl+c`
   - import sql file
-    - `psql -U user -d database < file.sql`
+    - `psql -U user -d database < file.sql` http://stackoverflow.com/questions/6842393/import-sql-dump-into-postgresql-database/26610212#26610212
     - `psql -U user -d database -f file.sql` // ERROR:  character with byte sequence 0xc5 0x81 in encoding "UTF8" has no equivalent in encoding "WIN1252"
