@@ -12,3 +12,8 @@
   - https://github.com/RReverser/WiFi-Password
 - color picker http://charliecm.github.io/ColorPicker/
 - disable search indexing: `services.msc > Windows Search > Right-click > Properties > Startup Type: Disabled` http://www.addictivetips.com/windows-tips/how-to-permanently-disable-search-indexing-in-windows-8/
+- telnet installation https://kb.ctera.com/article/how-to-open-a-telnet-session-on-windows-7-or-windows-8-os-16.html
+- can't run node.js server on port 80
+  - http://superuser.com/questions/352017/pid4-using-port-80
+  - http://www.blackviper.com/windows-services/print-spooler/
+  - https://www.devside.net/wamp-server/opening-up-port-80-for-apache-to-use-on-windows

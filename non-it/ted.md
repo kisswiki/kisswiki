@@ -1,0 +1,15 @@
+- https://www.ted.com/talks/nick_bostrom_what_happens_when_our_computers_get_smarter_than_we_are
+- https://www.ted.com/talks/frances_larson_why_public_beheadings_get_millions_of_views
+- https://www.ted.com/talks/monica_lewinsky_the_price_of_shame
+- https://www.ted.com/talks/mia_birdsong_the_story_we_tell_about_poverty_isn_t_true
+- https://www.ted.com/talks/gary_haugen_the_hidden_reason_for_poverty_the_world_needs_to_address_now
+- https://www.ted.com/talks/margaret_heffernan_why_it_s_time_to_forget_the_pecking_order_at_work
+- https://www.ted.com/talks/esther_perel_rethinking_infidelity_a_talk_for_anyone_who_has_ever_loved
+- https://www.ted.com/talks/johann_hari_everything_you_think_you_know_about_addiction_is_wrong
+- https://www.ted.com/talks/bj_miller_what_really_matters_at_the_end_of_life
+- http://www.ted.com/talks/oscar_schwartz_can_a_computer_write_poetry
+- Talks to watch when you want to let go of regret http://www.ted.com/playlists/276/ted_talks_to_watch_when_you_wa
+- http://blog.ted.com/a-teenage-ted-speakers-mom-on-how-she-encourages-her-sons-to-innovate/
+- http://www.ted.com/talks/linda_liukas_a_delightful_way_to_teach_kids_about_computers/transcript
+- http://www.ted.com/talks/bj_miller_what_really_matters_at_the_end_of_life
+- [ ] http://www.ted.com/talks/guy_winch_the_case_for_emotional_hygiene/transcript
