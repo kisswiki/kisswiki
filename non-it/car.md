@@ -1,5 +1,2 @@
-- http://moto.wp.pl/kat,55194,title,Kradzieze-samochodow-w-2015-roku,wid,18152323,wiadomosc.html?ticaid=1168b3&_ticrsn=3
-- http://statystyka.policja.pl/st/wybrane-statystyki/kradzieze-samochodow
-- http://www.spidersweb.pl/2016/01/nowa-toyota-rav4-hybryda.html
-- http://www.thetruthaboutcars.com/2016/03/2016-toyota-rav4-hybrid-review-crossover-unicorn/
-- http://www.slashgear.com/2016-toyota-rav4-hybrid-review-02429826/
+- http://www.spidersweb.pl/2016/02/hybryda-toyoty-oszczednosc.html
+- http://www.spidersweb.pl/2016/01/jak-dziala-hybryda.html
