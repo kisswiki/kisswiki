@@ -8,4 +8,6 @@
 - show databases `\l`
 - show users (for particular db) `\du` https://stackoverflow.com/questions/8926389/postgresql-user-listing
 - describe table `\d+ tablename` https://stackoverflow.com/questions/109325/postgresql-describe-table
-- node.js http://stackoverflow.com/questions/6466833/node-js-postgres-connection-problem
+- node.js
+  - https://github.com/brianc/node-postgres
+  - http://stackoverflow.com/questions/6466833/node-js-postgres-connection-problem
