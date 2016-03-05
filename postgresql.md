@@ -13,4 +13,4 @@
   - https://github.com/brianc/node-postgres
   - http://stackoverflow.com/questions/6466833/node-js-postgres-connection-problem
 - https://github.com/dhamaniasad/awesome-postgres
-- exit psql `\q` or `ctrl+c`
+- exit psql: `\q` or `ctrl+c`
