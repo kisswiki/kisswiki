@@ -7,4 +7,4 @@
 - show tables
   - `\dt`
   - `select * from pg_catalog.pg_tables`
-  - without system tables `select * from pg_catalog.pg_tables where schemaname != 'pg_catalog' and schemaname != 'information_schema'`
+  - without system tables `select * from pg_catalog.pg_tables where schemaname != 'pg_catalog' and schemaname != 'information_schema'` https://stackoverflow.com/questions/769683/show-tables-in-postgresql
