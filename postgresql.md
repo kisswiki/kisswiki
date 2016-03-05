@@ -8,6 +8,6 @@
   - `\dt`
   - `select * from pg_catalog.pg_tables`
   - without system tables `select * from pg_catalog.pg_tables where schemaname != 'pg_catalog' and schemaname != 'information_schema'` https://stackoverflow.com/questions/769683/show-tables-in-postgresql
-  - show databases `\l`
-  - show users (for particular db) `\du` https://stackoverflow.com/questions/8926389/postgresql-user-listing
-  - describe table `\d+ tablename` https://stackoverflow.com/questions/109325/postgresql-describe-table
+- show databases `\l`
+- show users (for particular db) `\du` https://stackoverflow.com/questions/8926389/postgresql-user-listing
+- describe table `\d+ tablename` https://stackoverflow.com/questions/109325/postgresql-describe-table
