@@ -16,6 +16,9 @@
 - psql
   - psql: `\q` or `ctrl+c`
   - import sql file
-    - `psql -U user -d database -a < file.sql` http://stackoverflow.com/questions/6842393/import-sql-dump-into-postgresql-database/26610212#26610212 http://stackoverflow.com/questions/3393961/how-to-import-existing-sql-files-in-postgresql-8-4/29297796#29297796
+    - `psql -U user -d database -a < file.sql`
+      - http://stackoverflow.com/questions/6842393/import-sql-dump-into-postgresql-database/26610212#26610212
+      -  http://stackoverflow.com/questions/3393961/how-to-import-existing-sql-files-in-postgresql-8-4/29297796#29297796
+      - http://stackoverflow.com/questions/9736085/run-a-postgresql-sql-file-using-command-line-args/12085561#12085561
     - `psql -U user -d database -f file.sql` // ERROR:  character with byte sequence 0xc5 0x81 in encoding "UTF8" has no equivalent in encoding "WIN1252"
 - password: `export PGPASSWORD=[password]` http://stackoverflow.com/questions/6523019/postgresql-scripting-psql-execution-with-password/22693461#22693461
