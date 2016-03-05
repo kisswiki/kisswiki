@@ -3,4 +3,8 @@
 
 ## psql
 
-\c[onnect] database
+- change database `\c[onnect] database`
+- show tables
+  - `\dt`
+  - `select * from pg_catalog.pg_tables`
+  - without system tables `select * from pg_catalog.pg_tables where schemaname != 'pg_catalog' and schemaname != 'information_schema'`
