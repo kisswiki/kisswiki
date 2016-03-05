@@ -129,3 +129,6 @@
     '.platform-win32 atom-workspace':
       'ctrl-alt-c': 'unset!'
     ```
+- line endings `\r\n`
+  - As a workaournd you can create a .editorconfig https://github.com/atom/line-ending-selector/issues/5#issuecomment-145816608
+  - https://github.com/atom/line-ending-selector
