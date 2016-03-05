@@ -13,4 +13,8 @@
   - https://github.com/brianc/node-postgres
   - http://stackoverflow.com/questions/6466833/node-js-postgres-connection-problem
 - https://github.com/dhamaniasad/awesome-postgres
-- exit psql: `\q` or `ctrl+c`
+- psql
+  - psql: `\q` or `ctrl+c`
+  - import sql file
+    - `psql -U user -d database < file.sql`
+    - `psql -U user -d database -f file.sql` // ERROR:  character with byte sequence 0xc5 0x81 in encoding "UTF8" has no equivalent in encoding "WIN1252"
