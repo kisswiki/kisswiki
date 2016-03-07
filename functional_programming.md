@@ -2,6 +2,8 @@
 
 ## FP vs OO
 
+fp don't use assignment (mutation is reserved for specific sections) - no concurrent update problems
+
 - The overriding difference between a functional language and a non-functional language is that functional languages don't have assignment statements
 
 - what OO really comes down to is that OO languages replace function pointers with convenient polymorphism
