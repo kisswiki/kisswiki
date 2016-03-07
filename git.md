@@ -141,7 +141,8 @@ Niektórze jeszcze wrzucają dist/build do drzewa. W repo nie powinien się znaj
 
 ### Humor
 
-https://devhumor.com/media/i-fucked-up-git-so-bad-it-turned-into-guitar-hero
+- https://devhumor.com/media/i-fucked-up-git-so-bad-it-turned-into-guitar-hero
+- https://xkcd.com/1597/
 
 ### No-ff
 
