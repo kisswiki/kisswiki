@@ -8,7 +8,7 @@ Cookies clearly exempt from consent according to the EU include:
 - user‑centric security cookies, used to detect authentication abuses, for a limited persistent duration
 - multimedia content player cookies, used to store technical data to play back video or audio content, for the duration of a session
 - load‑balancing cookies, for the duration of session
-user‑interface customization cookies such as language or font preferences, for the duration of a session (or slightly longer)
+- user‑interface customization cookies such as language or font preferences, for the duration of a session (or slightly longer)
 - third‑party social plug‑in content‑sharing cookies, for logged‑in members of a social network.
 
 http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm
