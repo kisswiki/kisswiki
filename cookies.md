@@ -1,3 +1,5 @@
+inform users that cookies are not being used to gather information unnecessarily
+
 you must ask users if they agree to most cookies and similar technologies (e.g. web beacons, Flash cookies, etc.) before the site starts to use them.
 
 For consent to be valid, it must be informed, specific, freely given and must constitute a real indication of the individual's wishes.
