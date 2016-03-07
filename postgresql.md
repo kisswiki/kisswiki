@@ -22,4 +22,4 @@
       - http://stackoverflow.com/questions/9736085/run-a-postgresql-sql-file-using-command-line-args/12085561#12085561
     - `psql -U user -d database -f file.sql` // ERROR:  character with byte sequence 0xc5 0x81 in encoding "UTF8" has no equivalent in encoding "WIN1252"
 - password: `export PGPASSWORD=[password]` http://stackoverflow.com/questions/6523019/postgresql-scripting-psql-execution-with-password/22693461#22693461
-- command line query `psql -U postgres -d scrape -c "insert into stats (hash, seeds, peers) values ('asdfasd32d23f23', 23, 25)"`
+- command line query `psql -U username -d mydatabase -c 'SELECT * FROM mytable'` 
