@@ -65,6 +65,9 @@
   ```
 - https://github.com/qw3rtman/git-fire
 - https://github.com/jayphelps/git-blame-someone-else
+- extract directory to new repository `git subtree split -P <name-of-folder> -b <name-of-new-branch>`
+  - http://stackoverflow.com/questions/359424/detach-subdirectory-into-separate-git-repository/17864475#17864475
+  - https://help.github.com/articles/splitting-a-subfolder-out-into-a-new-repository/
 
 ## Rebase or merge, rewrite or not
 
