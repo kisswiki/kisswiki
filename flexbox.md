@@ -24,3 +24,4 @@
   }
   ```
 - bug in IE11 when `flex-basis: 50%`, needed `max-height: 50%`, otherwise there is overflow and scrollbar appears http://degradingdisgracefully.com/ie11-ie10-flexbox-overflow-bug/
+- bug in IE11: max-width needed http://degradingdisgracefully.com/ie11-ie10-flexbox-overflow-bug/
