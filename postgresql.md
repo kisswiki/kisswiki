@@ -28,7 +28,12 @@
 - http://stackoverflow.com/questions/12331668/node-postgres-how-to-prepare-a-statement-without-executing-the-query
 - multiple inserts
   - http://stackoverflow.com/questions/10502121/node-postgres-will-not-insert-data-but-doesnt-throw-errors-either
-  - `client.on('drain', client.end.bind(client));` https://github.com/brianc/node-postgres/wiki/Client#event-drain http://stackoverflow.com/questions/17319395/node-js-pg-postgresql-and-insert-queries-app-hangs#comment25151171_17336848
+  - `client.on('drain', client.end.bind(client));`
+    - https://github.com/brianc/node-postgres/wiki/Client#event-drain
+    - http://stackoverflow.com/questions/17319395/node-js-pg-postgresql-and-insert-queries-app-hangs#comment25151171_17336848
   - use pg;s connection pooling but have to wait 30s
   - build multiple inserts https://github.com/brianc/node-postgres/issues/530
-  - pg-promise http://stackoverflow.com/questions/34990186/how-do-i-properly-insert-multiple-rows-into-pg-with-node-postgres/35015424#35015424 http://stackoverflow.com/questions/29100807/node-postgres-with-massive-amount-of-queries https://github.com/vitaly-t/pg-promise/wiki/Performance-Boost
+  - pg-promise
+    - http://stackoverflow.com/questions/34990186/how-do-i-properly-insert-multiple-rows-into-pg-with-node-postgres/35015424#35015424
+    - http://stackoverflow.com/questions/29100807/node-postgres-with-massive-amount-of-queries
+    - https://github.com/vitaly-t/pg-promise/wiki/Performance-Boost
