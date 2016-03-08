@@ -46,3 +46,5 @@ Change TimeZone to `UTC` in posgresql.conf
 
 David E. Wheeler, a major Postgres expert, would agree with your assessment
 http://stackoverflow.com/questions/6151084/which-timestamp-type-should-i-choose-in-a-postgresql-database/17562423#17562423
+
+http://justatheory.com/computers/databases/postgresql/use-timestamptz.html
