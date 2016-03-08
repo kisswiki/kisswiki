@@ -64,4 +64,8 @@ If you know it's UTC, why don't you tell the database about it? http://stackover
 
 ### Against WITH TIME ZONE
 
-The simplest way is to always store time stamps without time zone and in UTC http://stackoverflow.com/questions/32033114/javascript-postgres-timezone-and-timestamp-usage
+The simplest way is to always store time stamps without time zone and in UTC.
+
+Using CURRENT_TIMESTAMP will get the timestamp from the server at the time of execution.
+
+http://stackoverflow.com/questions/32033114/javascript-postgres-timezone-and-timestamp-usage
