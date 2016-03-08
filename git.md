@@ -69,6 +69,7 @@
   - http://stackoverflow.com/questions/359424/detach-subdirectory-into-separate-git-repository/17864475#17864475
   - https://help.github.com/articles/splitting-a-subfolder-out-into-a-new-repository/
 - disable eol conversion: `* -text` in .gitattributes http://stackoverflow.com/questions/9933004/how-to-to-disable-git-end-of-line-crlf-to-lf-across-all-clones-machines
+- To make script executable under windows (--add when it's a new file) `git update-index --add --chmod=+x <file>` http://stackoverflow.com/questions/6476513/git-file-permissions-on-windows
 
 ## Rebase or merge, rewrite or not
 
