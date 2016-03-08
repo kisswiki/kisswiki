@@ -64,6 +64,8 @@ If you know it's UTC, why don't you tell the database about it? http://stackover
 
 with a time zone as part of the value, the value can be rendered as a local time in the client, whereas without a time zone value the only meaningful rendering of the value is as UTC time. http://stackoverflow.com/questions/5876218/difference-between-timestamps-with-without-time-zone-in-postgresql
 
+http://stackoverflow.com/questions/11779293/how-to-set-timezone-for-postgres-psql
+
 ### Against WITH TIME ZONE
 
 The simplest way is to always store time stamps without time zone and in UTC.
