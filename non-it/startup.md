@@ -11,5 +11,5 @@
 - http://righthello.com/what-kills-software/
 - wilk chodzi czasami głodny ale wolny - Marcin
 - Start-up to organizacja, która jeszcze nie znalazła swojego modelu biznesowego. http://backpakuje.pl/praca-berlin-startup-10-faktow/
-- http://www.brief.pl/kreatywni2015
+- http://www.brief.pl/kreatywni2015/
 - http://www.brief.pl/kreatywni2016/
