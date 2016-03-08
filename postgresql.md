@@ -25,3 +25,4 @@
 - command line query `psql -U username -d mydatabase -c 'SELECT * FROM mytable'`
 - Client instances created via the constructor do not participate in pg's connection pooling https://github.com/brianc/node-postgres/wiki/Client
 - https://github.com/brianc/node-postgres/wiki/FAQ
+- http://stackoverflow.com/questions/12331668/node-postgres-how-to-prepare-a-statement-without-executing-the-query
