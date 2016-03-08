@@ -71,6 +71,8 @@ SELECT * FROM pg_timezone_names;
 ALTER DATABASE postgres SET timezone TO 'Europe/Berlin';
 ```
 
+http://stackoverflow.com/questions/6663765/postgres-default-timezone/32009497#32009497
+
 ### Against WITH TIME ZONE
 
 The simplest way is to always store time stamps without time zone and in UTC.
