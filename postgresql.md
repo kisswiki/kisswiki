@@ -43,9 +43,14 @@
 
 ## Timestamp, timezone
 
+Always use "WITH time zone" unless there is a very specific reason not to
+
 Change TimeZone to `UTC` in posgresql.conf
 
 David E. Wheeler, a major Postgres expert, would agree with your assessment
 http://stackoverflow.com/questions/6151084/which-timestamp-type-should-i-choose-in-a-postgresql-database/17562423#17562423
 
 http://justatheory.com/computers/databases/postgresql/use-timestamptz.html
+
+
+The simplest way is to always store time stamps without time zone and in UTC
