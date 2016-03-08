@@ -29,3 +29,4 @@
 - multiple inserts
   - http://stackoverflow.com/questions/10502121/node-postgres-will-not-insert-data-but-doesnt-throw-errors-either
   - `client.on('drain', client.end.bind(client));` https://github.com/brianc/node-postgres/wiki/Client#event-drain http://stackoverflow.com/questions/17319395/node-js-pg-postgresql-and-insert-queries-app-hangs#comment25151171_17336848
+  - use pg;s connection pooling but have to wait 30s
