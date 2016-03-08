@@ -43,7 +43,7 @@
 
 ## Timestamp, timezone
 
-### Pro UTF
+### Pro WITH TIME ZONE
 
 Always use "WITH time zone" unless there is a very specific reason not to
 
@@ -56,6 +56,6 @@ http://justatheory.com/computers/databases/postgresql/use-timestamptz.html
 
 If you know it's UTC, why don't you tell the database about it? http://stackoverflow.com/questions/22891740/postgresql-different-output-for-timestamp-without-time-zone-depending-on-client#comment51584460_30760391
 
-### Against
+### Against WITH TIME ZONE
 
 The simplest way is to always store time stamps without time zone and in UTC http://stackoverflow.com/questions/32033114/javascript-postgres-timezone-and-timestamp-usage
