@@ -66,6 +66,11 @@ with a time zone as part of the value, the value can be rendered as a local time
 
 http://stackoverflow.com/questions/11779293/how-to-set-timezone-for-postgres-psql
 
+```
+SELECT * FROM pg_timezone_names;
+ALTER DATABASE postgres SET timezone TO 'Europe/Berlin';
+```
+
 ### Against WITH TIME ZONE
 
 The simplest way is to always store time stamps without time zone and in UTC.
