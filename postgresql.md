@@ -39,3 +39,8 @@
     - https://github.com/vitaly-t/pg-promise/wiki/Performance-Boost
 - config location `SHOW config_file;` http://stackoverflow.com/questions/3602450/where-are-my-postgres-conf-files
 - reload config `SELECT pg_reload_conf()` http://serverfault.com/questions/554359/postgresql-timezone-does-not-match-system-timezone
+
+## Timestamp, timezone
+
+David E. Wheeler, a major Postgres expert, would agree with your assessment
+http://stackoverflow.com/questions/6151084/which-timestamp-type-should-i-choose-in-a-postgresql-database/17562423#17562423
