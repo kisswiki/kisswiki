@@ -31,4 +31,4 @@
   - `client.on('drain', client.end.bind(client));` https://github.com/brianc/node-postgres/wiki/Client#event-drain http://stackoverflow.com/questions/17319395/node-js-pg-postgresql-and-insert-queries-app-hangs#comment25151171_17336848
   - use pg;s connection pooling but have to wait 30s
   - build multiple inserts https://github.com/brianc/node-postgres/issues/530
-  - pg-promise http://stackoverflow.com/questions/34990186/how-do-i-properly-insert-multiple-rows-into-pg-with-node-postgres/35015424#35015424
+  - pg-promise http://stackoverflow.com/questions/34990186/how-do-i-properly-insert-multiple-rows-into-pg-with-node-postgres/35015424#35015424 http://stackoverflow.com/questions/29100807/node-postgres-with-massive-amount-of-queries
