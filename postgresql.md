@@ -82,6 +82,9 @@ an offset is a time zone plus rules for DST. You cannot discover the time zone g
 
 http://stackoverflow.com/questions/5876218/difference-between-timestamps-with-without-time-zone-in-postgresql
 
+
+https://github.com/brianc/node-postgres/issues/510
+
 ### Against WITH TIME ZONE
 
 The simplest way is to always store time stamps without time zone and in UTC.
