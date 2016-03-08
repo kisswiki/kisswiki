@@ -89,6 +89,8 @@ ISO-8601 dates are parsed as UTC by default while non-ISO dates are parsed using
 SELECT now(), now()::timestamp, now()::timestamp with time zone, now() AT TIME ZONE 'POLAND', now()::timestamp AT TIME ZONE 'POLAND', now()::timestamp with time zone at time zone 'poland'
 ```
 
+http://stackoverflow.com/questions/5876218/difference-between-timestamps-with-without-time-zone-in-postgresql/5876298#5876298
+
 ### Against WITH TIME ZONE
 
 The simplest way is to always store time stamps without time zone and in UTC.
