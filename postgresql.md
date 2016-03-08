@@ -74,7 +74,7 @@ ALTER DATABASE postgres SET timezone TO 'Europe/Berlin';
 http://stackoverflow.com/questions/6663765/postgres-default-timezone/32009497#32009497
 
 
-
+Correct only if referring to the process of inserting/retrieving values.
 timestamp with time zone and timestamp without time zone, in Postgres do *not actually store time zone information.
 "without tz" means "ignore offset when inserting data" and "with tz" means "use offset to adjust to UTC"
 
