@@ -53,4 +53,4 @@ http://stackoverflow.com/questions/6151084/which-timestamp-type-should-i-choose-
 http://justatheory.com/computers/databases/postgresql/use-timestamptz.html
 
 
-The simplest way is to always store time stamps without time zone and in UTC
+The simplest way is to always store time stamps without time zone and in UTC http://stackoverflow.com/questions/32033114/javascript-postgres-timezone-and-timestamp-usage
