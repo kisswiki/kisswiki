@@ -9,6 +9,13 @@
 - show users (for particular db) `\du` https://stackoverflow.com/questions/8926389/postgresql-user-listing
 - describe table `\d+ tablename` https://stackoverflow.com/questions/109325/postgresql-describe-table
 - create user http://stackoverflow.com/questions/10861260/how-to-create-user-for-a-db-in-postgresql
+- creat user and table http://stackoverflow.com/questions/1471571/how-to-configure-postgresql-for-the-first-time/1471678#1471678
+
+  ```
+  $ psql -U postgres
+  postgres=# CREATE ROLE myuser LOGIN password 'secret';
+  postgres=#CREATE DATABASE mydatabase ENCODING 'UTF8' OWNER myuser;
+  ```
 - node.js
   - https://github.com/brianc/node-postgres
   - http://stackoverflow.com/questions/6466833/node-js-postgres-connection-problem
@@ -92,6 +99,10 @@ SELECT now(), now()::timestamp, now()::timestamp with time zone, now() AT TIME Z
 ```
 
 http://stackoverflow.com/questions/5876218/difference-between-timestamps-with-without-time-zone-in-postgresql/5876298#5876298
+
+`show timezone;`
+
+http://stackoverflow.com/questions/11779293/how-to-set-timezone-for-postgres-psql
 
 ### Against WITH TIME ZONE
 
