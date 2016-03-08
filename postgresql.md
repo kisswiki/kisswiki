@@ -37,3 +37,4 @@
     - http://stackoverflow.com/questions/34990186/how-do-i-properly-insert-multiple-rows-into-pg-with-node-postgres/35015424#35015424
     - http://stackoverflow.com/questions/29100807/node-postgres-with-massive-amount-of-queries
     - https://github.com/vitaly-t/pg-promise/wiki/Performance-Boost
+- config location `SHOW config_file;` http://stackoverflow.com/questions/3602450/where-are-my-postgres-conf-files
