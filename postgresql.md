@@ -45,7 +45,13 @@
 
 ### Pro WITH TIME ZONE
 
-Always use "WITH time zone" unless there is a very specific reason not to
+The fact is that both "WITH TIME ZONE" and "WITHOUT TIME ZONE" store the value as a unix-like absolute UTC timestamp. The difference is all in how the timestamp is displayed. When "WITH time zone" then the displayed value is the UTC stored value translated to the user's zone. When "WITHOUT time zone" the UTC stored value is twisted so as to show the same clock face no matter what zone the user has set".
+
+The only situation where a "WITHOUT time zone" is usable is when a clock face value is applicable regardless of actual zone. For example, when a timestamp indicates when voting booths might close (ie. they close at 20:00 regardless of a person's timezone).
+
+Use choice 3. Always use "WITH time zone" unless there is a very specific reason not to.
+
+http://stackoverflow.com/questions/32033114/javascript-postgres-timezone-and-timestamp-usage/32033471#32033471
 
 Change TimeZone to `UTC` in posgresql.conf
 
