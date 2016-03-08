@@ -68,8 +68,17 @@
 - extract directory to new repository `git subtree split -P <name-of-folder> -b <name-of-new-branch>`
   - http://stackoverflow.com/questions/359424/detach-subdirectory-into-separate-git-repository/17864475#17864475
   - https://help.github.com/articles/splitting-a-subfolder-out-into-a-new-repository/
-- disable eol conversion: `* -text` in .gitattributes http://stackoverflow.com/questions/9933004/how-to-to-disable-git-end-of-line-crlf-to-lf-across-all-clones-machines
 - To make script executable under windows (--add when it's a new file) `git update-index --add --chmod=+x <file>` http://stackoverflow.com/questions/6476513/git-file-permissions-on-windows
+
+## crlf
+
+- disable eol conversion: `* -text` in .gitattributes http://stackoverflow.com/questions/9933004/how-to-to-disable-git-end-of-line-crlf-to-lf-across-all-clones-machines
+- https://github.com/rofrol/git-helpers/blob/master/git-crlf2lf
+- hook to prevent committing crlf
+  - http://stackoverflow.com/questions/3455772/make-sure-files-are-converted-crlf-into-lf-in-an-update-hook-is-there-a-perform
+  - https://gist.github.com/benprew/6384274
+  - https://gergap.wordpress.com/2010/05/12/git-crlf-hook/
+  -
 
 ## Rebase or merge, rewrite or not
 
