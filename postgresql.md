@@ -23,5 +23,5 @@
     - `psql -U user -d database -f file.sql` // ERROR:  character with byte sequence 0xc5 0x81 in encoding "UTF8" has no equivalent in encoding "WIN1252"
 - password: `export PGPASSWORD=[password]` http://stackoverflow.com/questions/6523019/postgresql-scripting-psql-execution-with-password/22693461#22693461
 - command line query `psql -U username -d mydatabase -c 'SELECT * FROM mytable'`
-- Client instances created via the constructor do not participate in pg's connection pooling.
+- Client instances created via the constructor do not participate in pg's connection pooling https://github.com/brianc/node-postgres/wiki/Client
 - https://github.com/brianc/node-postgres/wiki/FAQ
