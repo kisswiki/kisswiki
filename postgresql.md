@@ -31,6 +31,8 @@
   - `client.on('drain', client.end.bind(client));`
     - https://github.com/brianc/node-postgres/wiki/Client#event-drain
     - http://stackoverflow.com/questions/17319395/node-js-pg-postgresql-and-insert-queries-app-hangs#comment25151171_17336848
+    - got this `(node) warning: possible EventEmitter memory leak detected. 11 drain listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace`
   - use pg;s connection pooling but have to wait 30s
   - build multiple inserts https://github.com/brianc/node-postgres/issues/530
   - pg-promise
