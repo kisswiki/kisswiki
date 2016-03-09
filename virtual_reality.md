@@ -1,4 +1,5 @@
-- https://virtualrealporn.com/ 
+- https://virtualrealporn.com/
+- http://www.pocket-lint.com/news/133835-forget-head-tracking-on-oculus-rift-fove-vr-headset-can-track-your-eyes
 
 ## head tracking
 
