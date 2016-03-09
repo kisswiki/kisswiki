@@ -1,5 +1,14 @@
 - https://virtualrealporn.com/
-- http://www.pocket-lint.com/news/133835-forget-head-tracking-on-oculus-rift-fove-vr-headset-can-track-your-eyes
+
+## eye tracking
+
+CTO and co-founder Lochlainn Wilson took us through two different experiences designed to show what's possible when VR meets eye-tracking.
+
+In the first, we were tasked with shooting aliens out of the sky merely by looking at them - just like Cyclops from X-Men.
+
+The second demo, while incredibly rough around the edges, was the more exciting of the two. Because the software knows where a user is looking, just like in real life, it focused the images directly where we stared but added blur to the rest of the virtual world, much like the short focal length of a decent camera lens.
+
+http://www.pocket-lint.com/news/133835-forget-head-tracking-on-oculus-rift-fove-vr-headset-can-track-your-eyes
 
 ## head tracking
 
