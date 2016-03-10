@@ -1,0 +1,4 @@
+- http://stackoverflow.com/questions/1696877/how-to-set-a-value-to-a-file-input-in-html
+- http://stackoverflow.com/questions/20537696/remember-and-repopulate-file-input
+- http://stackoverflow.com/questions/1017224/dynamically-set-value-of-a-file-input
+- https://www.cs.tut.fi/~jkorpela/forms/file.html#value
