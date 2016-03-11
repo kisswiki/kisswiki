@@ -101,3 +101,4 @@
 - input file fire change event on the same file name http://stackoverflow.com/questions/12030686/html-input-file-selection-event-not-firing-upon-selecting-the-same-file
 - code meant to be run in your browser's console to provide you with some scraping utilities https://medialab.github.io/artoo/
 - https://www.smashingmagazine.com/2015/04/web-scraping-with-nodejs/
+- https://medium.com/@Functionite/5-tips-for-writing-more-maintainable-javascript-code-b87de1147e94
