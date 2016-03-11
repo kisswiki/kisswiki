@@ -58,3 +58,5 @@
 - starter kit/boilerplate
   - https://github.com/mxstbr/react-boilerplate
 - elm-inspired redux modification https://github.com/raisemarketplace/redux-loop
+- [ ] https://engineering.heroku.com/blogs/2015-12-16-react-refetch/
+- [ ] React.js Conf 2016 - Aditya Punjani - Building a Progressive Web App https://youtu.be/m2tvYGCdOzs
