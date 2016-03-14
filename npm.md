@@ -21,6 +21,7 @@
   $ npm config set init.author.name "Simon Ljungberg"
   $ npm config set init.author.email hi@iamsim.me
   $ npm config set init.author.url http://iamsim.me/
-  $ npm config set init.license MIT
+  $ npm config set init.license Apache-2.0
+  $ npm config set save-exact true
   ```
 - npm3 dependencies https://docs.npmjs.com/how-npm-works/npm3
