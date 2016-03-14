@@ -19,7 +19,7 @@
     - https://atom.io/packages/git-history + https://github.com/mupchrch/split-diff
       - https://discuss.atom.io/t/compare-files-side-by-side-with-diff-highlight/13726/10
 - linter
-  - I had to `rm -rf ~/.atom` to make linter work, I've also installed https://atom.io/packages/react instead of https://atom.io/packages/language-javascript-jsx
+  - I had to `rm -rf ~/.atom` to make linter work http://stackoverflow.com/questions/29712232/cant-get-atom-linter-to-work/36000092#36000092, I've also installed https://atom.io/packages/react instead of https://atom.io/packages/language-javascript-jsx
   - to reload rules run `Linter: Toggle`
   - linter-plus is now linter:  
   https://github.com/steelbrain/linter-plus > https://github.com/AtomLinter/linter > https://github.com/atom-community/linter

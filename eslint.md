@@ -22,11 +22,15 @@ Disable rules from preset:
 }
 ```
 
+http://stackoverflow.com/questions/27732209/turning-off-eslint-rule-for-a-specific-line
+
 ## Ignore
 
 ESLint ignores node_modules by default https://github.com/eslint/eslint/issues/3788#issuecomment-140232261
 
 https://github.com/eslint/eslint/blob/master/.eslintignore
+
+http://stackoverflow.com/questions/32184532/eslintignore-not-working-in-sibling-directory
 
 ## fix indent
 
