@@ -11,7 +11,7 @@ http://eslint.org/docs/developer-guide/shareable-configs
 
 Disable rules from preset:
 
-```json
+```
 {
   'extends': 'airbnb',
   'rules': {
