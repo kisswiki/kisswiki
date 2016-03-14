@@ -5,4 +5,6 @@
 
 ## ignore
 
+ESLint ignores node_modules by default https://github.com/eslint/eslint/issues/3788#issuecomment-140232261
+
 https://github.com/eslint/eslint/blob/master/.eslintignore
