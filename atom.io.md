@@ -23,6 +23,7 @@
     - https://atom.io/packages/git-history + https://github.com/mupchrch/split-diff
       - https://discuss.atom.io/t/compare-files-side-by-side-with-diff-highlight/13726/10
 - linter
+  - I had to `rm -rf ~/.atom` to make linter work
   - to reload rules run `Linter: Toggle`
   - linter-plus is now linter:  
   https://github.com/steelbrain/linter-plus > https://github.com/AtomLinter/linter > https://github.com/atom-community/linter
