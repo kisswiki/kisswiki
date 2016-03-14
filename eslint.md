@@ -9,6 +9,19 @@ You can also omit the eslint-config- and it will be automatically assumed by ESL
 
 http://eslint.org/docs/developer-guide/shareable-configs
 
+Disable rules from preset:
+
+```json
+{
+  'extends': 'airbnb',
+  'rules': {
+    'indent': [2, 'tab', { 'SwitchCase': 1, 'VariableDeclarator': 1 }],
+    'react/prop-types': 0,
+    'react/jsx-indent-props': [2, 'tab'],
+  }
+}
+```
+
 ## Ignore
 
 ESLint ignores node_modules by default https://github.com/eslint/eslint/issues/3788#issuecomment-140232261
