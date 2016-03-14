@@ -61,4 +61,9 @@
 - [ ] https://engineering.heroku.com/blogs/2015-12-16-react-refetch/
 - [ ] React.js Conf 2016 - Aditya Punjani - Building a Progressive Web App https://youtu.be/m2tvYGCdOzs
 
-## 
+## Pass argument to onChange functional
+
+var MyInput = props => <div>{ props.list.map((cur, i))<input onchange={props.onChange(bind, props.id)} />
+// ...
+function update(id) {
+}
