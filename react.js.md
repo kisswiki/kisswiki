@@ -88,6 +88,10 @@ but
 > performance of reading data-attributes compared to storing this data in a JS data warehouse is poor. Using dataset is even slower than reading the data out with getAttribute().
 https://developer.mozilla.org/en/docs/Web/Guide/HTML/Using_data_attributes
 
+but
+
+> A bind call or arrow function in a JSX prop will create a brand new function on every single render. This is bad for performance, as it will result in the garbage collector being invoked way more than is necessary. https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
+
 ## value
 
 ```javascript
