@@ -63,7 +63,57 @@
 
 ## Pass argument to onChange functional
 
-var MyInput = props => <div>{ props.list.map((cur, i))<input onchange={props.onChange(bind, props.id)} />
+### bind
+
+```javascript
+onChange={props.onChange.bind(null, current.id)}
 // ...
 function update(id) {
 }
+```
+
+We can preset multiple arguments `props.onChange.bind(null, current.id, current.name)`.
+
+And we still have access to event
+
+```javascript
+onChange={props.onChange.bind(null, current.id)}
+// ...
+function update(id) {
+}
+```
+
+but
+
+> performance of reading data-attributes compared to storing this data in a JS data warehouse is poor. Using dataset is even slower than reading the data out with getAttribute().
+https://developer.mozilla.org/en/docs/Web/Guide/HTML/Using_data_attributes
+
+## value
+
+```javascript
+value={current.id} onChange={props.onChange}
+// ...
+function update(event) {
+  var id = parseInt(event.target.value);
+}
+```
+
+## value
+
+```javascript
+value={current.id} onChange={props.onChange}
+// ...
+function update(event) {
+  var id = parseInt(event.target.value);
+}
+```
+
+## data-*
+
+```javascript
+data-id={current.id} onChange={props.onChange}
+// ...
+function update(event) {
+  var id = parseInt(event.target.dataset.id);
+}
+```
