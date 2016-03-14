@@ -1,10 +1,6 @@
 - https://atom.io/docs/
-- clickable links in markdown
-  - ctrl+o https://atom.io/packages/open-path
-  - ctrl+click https://atom.io/packages/nuclide-url-hyperclick + https://atom.io/packages/hyperclick
-  - https://discuss.atom.io/t/clickable-links-in-markdown-file/15130
-  - snippets installed with package langauge-gfm, look at settings to see the list
-    - example: type b, tooltip shows, press tab
+- snippets installed with package langauge-gfm, look at settings to see the list
+  - example: type b, tooltip shows, press tab
 - javascript
   - jump to definition
     - https://discuss.atom.io/t/is-there-a-simple-go-to-definition/11809/15
@@ -59,6 +55,7 @@
 - appearance/themes/syntax highlighting
   - https://github.com/silvestreh/atom-material-ui (uses background color from syntax theme)
   - https://atom.io/themes/oceanic-next
+  - https://atom.io/themes/yoceanic-next-syntax
   - https://atom.io/packages/file-icons
 - git
   - https://atom.io/packages/git-plus
@@ -76,6 +73,12 @@
     - https://atom.io/packages/markdown-sort-list - changes `-` to `*`, doesn't sort for me
   - https://atom.io/packages/markdown-toc/
   - https://atom.io/packages/markdown-preview-plus
+  - clickable links in markdown
+    - https://atom.io/packages/link - had to make a button because this ctrl+shif+o is used already
+    - ctrl+o https://atom.io/packages/open-path
+    - ctrl+click https://atom.io/packages/nuclide-url-hyperclick (package delete) + https://atom.io/packages/hyperclick
+    - https://discuss.atom.io/t/clickable-links-in-markdown-file/15130
+    - https://github.com/atom/markdown-preview/issues/85
 - indent without moving to beginning Ctrl+]
 - terminal
   - https://atom.io/packages/term2 most popular - cannot install on windows and atom beta - node-gyp related
