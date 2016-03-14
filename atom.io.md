@@ -134,3 +134,5 @@
   - As a workaournd you can create a .editorconfig https://github.com/atom/line-ending-selector/issues/5#issuecomment-145816608
   - https://github.com/atom/line-ending-selector
 - autosave https://atom.io/packages/atom-idle-autosave
+
+## React
