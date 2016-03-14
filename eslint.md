@@ -31,3 +31,7 @@ https://github.com/eslint/eslint/blob/master/.eslintignore
 ## fix indent
 
 Looks like indent's auto-fix only knows how to remove or add indent characters. It doesn't seem to detect that, for example, if tabs are expected but a file has spaces, then the whole space range should be replaced with the whole expected tab range. https://github.com/eslint/eslint/issues/4274
+
+## React
+
+http://stackoverflow.com/questions/30294870/how-to-config-eslint-for-react-on-atom-editor
