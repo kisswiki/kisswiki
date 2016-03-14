@@ -25,4 +25,4 @@
   $ npm config set save-exact true # http://stackoverflow.com/questions/30656189/make-npm-install-save-add-a-strict-version-to-package-json
   ```
 - npm3 dependencies https://docs.npmjs.com/how-npm-works/npm3
-- show package versions: `npm show <pkg> versions; npm show <pkg> dist-tags; npm show <pkg> version; npm show <pkg> versions --json`
+- show package versions: `npm show <pkg> versions; npm show <pkg> dist-tags; npm show <pkg> version; npm show <pkg> versions --json;`
