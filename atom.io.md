@@ -136,3 +136,5 @@
 - autosave https://atom.io/packages/atom-idle-autosave
 
 ## React
+
+https://atom.io/packages/react
