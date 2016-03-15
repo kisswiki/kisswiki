@@ -49,4 +49,8 @@ This may speed up installation:
 
 `npm config set progress false`
 
+To enable progress bar:
+
+`npm config delete progress`
+
 https://github.com/npm/npm/issues/11283
