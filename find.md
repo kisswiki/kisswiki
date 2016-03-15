@@ -1,0 +1,1 @@
+- ignore some directiores `find . -type f -name "*_peaks.bed" ! -path "./tmp/*" ! -path "./scripts/*"` http://stackoverflow.com/questions/14132210/use-find-command-but-exclude-files-in-two-directories
