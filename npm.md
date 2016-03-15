@@ -39,4 +39,6 @@ $ echo -n $PATH | tr ':' '\n'
 
 It works in `cmd.exe` without setting path.
 
-https://github.com/nodejs/node/issues/2951#issuecomment-197006582
+- https://github.com/nodejs/node/issues/2951#issuecomment-197006582
+- https://github.com/Alexpux/MSYS2-packages/issues/360#issuecomment-146185954
+- https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows
