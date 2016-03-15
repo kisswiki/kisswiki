@@ -1,0 +1,1 @@
+- split string ` echo -n 'one;two;three;' | tr ';' '\n'` http://stackoverflow.com/questions/18234378/using-sed-to-split-a-string-with-a-delimiter
