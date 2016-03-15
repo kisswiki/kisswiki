@@ -45,3 +45,5 @@ $ echo 'YOLO ;)' | xxd
 ```
 
 http://unix.stackexchange.com/questions/17732/where-has-the-trailing-newline-char-gone-from-my-command-substitution
+
+http://stackoverflow.com/users/4890818/0x594f4c4f203b29
