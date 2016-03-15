@@ -26,3 +26,17 @@
   ```
 - npm3 dependencies https://docs.npmjs.com/how-npm-works/npm3
 - show package versions: `npm show <pkg> versions; npm show <pkg> dist-tags; npm show <pkg> version; npm show <pkg> versions --json;`
+
+## Update npm
+
+`npm update -g npm`
+
+Then verify version with `npm -v`. If it still shows old version, you probably use mingw (git bash etc.). In that case you need to set `%USERPROFILE%\AppData\Roaming\npm` to be at the beggining of `%PATH%`. Then verify it:
+
+```bash
+$ echo -n $PATH | tr ':' '\n'
+```
+
+It works in `cmd.exe` without setting path.
+
+https://github.com/nodejs/node/issues/2951#issuecomment-197006582
