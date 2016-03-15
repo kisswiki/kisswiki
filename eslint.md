@@ -1,3 +1,5 @@
+- http://stackoverflow.com/questions/34700062/intellij-plugin-airbnb-eslint-w-react/36006123#36006123
+
 ## Presets
 
 - https://github.com/airbnb/javascript/blob/master/linters/.eslintrc
