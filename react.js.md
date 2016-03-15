@@ -121,3 +121,13 @@ function update(event) {
   var id = parseInt(event.target.dataset.id);
 }
 ```
+
+## RxJS
+
+- [ ] https://www.reddit.com/r/reactjs/comments/30w2o5/anybody_used_rxjs_with_react/
+- [ ] https://www.reddit.com/r/reactjs/comments/3ruqw2/rxjs_or_kefir_worth_it_with_react/
+- [ ] https://github.com/Cmdv/React-RxJS
+- [ ] https://www.codementor.io/reactjs/tutorial/using-rxjs-to-create-a-scroll-table-with-adjustable-width
+- [ ] https://github.com/fdecampredon/react-rxjs-todomvc
+- [ ] https://github.com/zxbodya/rx-react-container
+- [ ] http://qiita.com/kimagure/items/22cf4bb2a967fcba376e
