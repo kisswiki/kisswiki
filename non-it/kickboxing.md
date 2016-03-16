@@ -1,0 +1,3 @@
+- That's a well fed kid http://9gag.com/gag/aBYP7Gx
+- An Old Man Fights Bullies http://9gag.com/gag/aA1MdVR
+- Informacje o szkoleniu http://www.kbpiaseczno.pl/index.php?44
