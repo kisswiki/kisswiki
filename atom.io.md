@@ -83,7 +83,7 @@
 - terminal
   - https://atom.io/packages/term2 most popular - cannot install on windows and atom beta - node-gyp related
   - https://atom.io/packages/terminal-plus second most popular and installs without problems
-    - git bash http://superuser.com/questions/856979/can-we-open-gitbash-from-atom-text-editor/1054082#1054082
+    - git bash: `Shell Override: C:\Program Files\Git\bin\bash.exe`, `Shell Arguments: -l -i` http://superuser.com/questions/856979/can-we-open-gitbash-from-atom-text-editor/1054082#1054082
 - focus
   - https://atom.io/packages/Zen
 - emmet
