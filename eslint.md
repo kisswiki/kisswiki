@@ -64,7 +64,7 @@ http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-
 - https://github.com/eslint/eslint/issues/2153
 - https://github.com/eslint/eslint/issues/5234
 
-## eslint and jsx
+## eslint and jsx: 'hJSX' is defined but never used
 
 `npm i -D eslint-plugin-react`
 
