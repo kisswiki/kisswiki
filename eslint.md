@@ -66,4 +66,20 @@ http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-
 
 ## eslint and jsx
 
+{
+  extends: [
+    'eslint-config-airbnb/base',
+    'eslint-config-airbnb/rules/strict',
+  ],
+  'rules': {
+    'indent': [2, 'tab', { 'SwitchCase': 1, 'VariableDeclarator': 1 }],
+    'quotes': [1, 'single', 'avoid-escape'],
+    'react/jsx-uses-react': [2, {'pragma': 'hJSX'}],
+  },
+  'plugins': [
+    'react'
+  ],
+}
+
+
 https://github.com/killercup/cycle-webpack-starter/blob/master/.eslintrc
