@@ -58,3 +58,5 @@ require.resolve('eslint-config-airbnb/legacy'),
 # undef
 
 http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-allow-global-variables-in-package-json
+
+## backticks and single quotes not supported 
