@@ -56,4 +56,6 @@
 - starer kit
   - https://github.com/edge/cyc/tree/master/skel
 - eslint https://github.com/cyclejs/eslint-config-cycle https://github.com/killercup/cycle-webpack-starter/blob/master/.eslintrc
+
+## Starterkit, boilerplate
 - https://github.com/killercup/cycle-webpack-starter
