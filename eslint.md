@@ -66,6 +66,8 @@ http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-
 
 ## eslint and jsx
 
+
+
 {
   extends: [
     'eslint-config-airbnb/base',
