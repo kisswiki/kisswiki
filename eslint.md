@@ -63,3 +63,7 @@ http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-
 
 - https://github.com/eslint/eslint/issues/2153
 - https://github.com/eslint/eslint/issues/5234
+
+## eslint and jsx
+
+https://github.com/killercup/cycle-webpack-starter/blob/master/.eslintrc
