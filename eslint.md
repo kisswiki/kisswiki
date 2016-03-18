@@ -41,3 +41,20 @@ Looks like indent's auto-fix only knows how to remove or add indent characters. 
 ## React
 
 http://stackoverflow.com/questions/30294870/how-to-config-eslint-for-react-on-atom-editor
+
+## require.resolve
+
+By default eslint always resolves files in extends relative to the top-level project. Using require.resolve converts the references to absolute paths.
+
+https://github.com/airbnb/javascript/pull/582
+
+https://github.com/groupon/javascript/blob/master/linters/eslint-config-groupon/legacy.js#L28-L48
+// ESLint will resolve all references relative to the app,
+// not relative to our package.
+// We use require.resolve to get absolute paths which will
+// always point to the right place.
+require.resolve('eslint-config-airbnb/legacy'),
+
+# undef
+
+http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-allow-global-variables-in-package-json
