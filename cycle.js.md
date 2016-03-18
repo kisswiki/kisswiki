@@ -55,3 +55,4 @@
 - https://github.com/staltz/combineLatestObj
 - starer kit
   - https://github.com/edge/cyc/tree/master/skel
+- eslint https://github.com/cyclejs/eslint-config-cycle 
