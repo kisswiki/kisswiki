@@ -66,7 +66,7 @@ http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-
 
 ## eslint and jsx
 
-
+npm install eslint-plugin-react
 
 {
   extends: [
