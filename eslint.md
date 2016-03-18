@@ -70,6 +70,7 @@ http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-
 
 .eslintrc
 
+```
 {
   extends: [
     'eslint-config-airbnb/base',
@@ -84,6 +85,6 @@ http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-
     'react'
   ],
 }
-
+```
 
 https://github.com/killercup/cycle-webpack-starter/blob/master/.eslintrc
