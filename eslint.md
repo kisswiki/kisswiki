@@ -61,4 +61,5 @@ http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-
 
 ## backticks and single quotes not supported both
 
-https://github.com/eslint/eslint/issues/2153
+- https://github.com/eslint/eslint/issues/2153
+- https://github.com/eslint/eslint/issues/5234
