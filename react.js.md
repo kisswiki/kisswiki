@@ -143,3 +143,5 @@ https://facebook.github.io/react/docs/forms.html
 Side note: avoid defaultChecked/defaultValue and use checked/value with onChange instead. http://stackoverflow.com/questions/27750864/conditionally-setting-html-attributes-in-react-js/27750979#27750979
 
 http://stackoverflow.com/questions/10610249/prevent-checkbox-from-ticking-checking-completely
+
+https://jsfiddle.net/rofrol/4pLjm8hu/1/
