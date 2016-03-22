@@ -4,3 +4,4 @@
 - http://stackoverflow.com/questions/25655434/manipulating-inline-style-with-angular-does-not-work-in-ie
 - $parse is like eval but you can pass it a context https://umur.io/advanced-angular-parse/
 - $scope http://jsfiddle.net/simpulton/SPMfT/
+- alert in ng-click: `$scope.alert = alert.bind(window);` and `ng-click="test(game)"` http://stackoverflow.com/questions/25907383/use-alert-from-ng-click-of-a-directive
