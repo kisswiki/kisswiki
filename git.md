@@ -180,3 +180,9 @@ http://stackoverflow.com/questions/2500296/can-i-make-fast-forwarding-be-off-by-
 `git config --global branch.autosetuprebase always`
 
 http://kernowsoul.com/blog/2012/06/20/4-ways-to-avoid-merge-commits-in-git/
+
+## Change author and commiter
+
+`git -c user.name="New Author Name" -c user.email=email@address.com commit --amend  --author "New Author Name <email@address.com>"`
+
+http://stackoverflow.com/questions/750172/change-the-author-of-a-commit-in-git
