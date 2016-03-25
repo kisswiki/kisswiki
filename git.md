@@ -96,6 +96,18 @@ Cleaning up your history before merging is important. For one, before you merge 
 There's more. One of Git's most powerful tools is bisect, but even in a VCS without an automated bisect, doing it manually can be useful too.
 https://news.ycombinator.com/item?id=6457450
 
+### Rebase
+
+One interesting "mix" of the workflows that I practice rebasing feature branches on top of master and then doing a non-ff merge back into master, noting the branch name. It keeps the history cleaner, makes bisecting easy, and makes it significantly easier to keep the history independent for each feature. http://programmers.stackexchange.com/questions/218801/why-do-so-many-websites-prefer-git-rebase-over-git-merge/218807#comment435184_218807
+
+Rebasing destroys bisect's utility at times. Except for the head commits of a rebase, the commits from a rebase may not be runnable. Example: You branched at A and made B,C, D, someone pushed E. You're B and C and work but rebased on E, you're B and C are unrunnable or are runnable and don't work. Best case is you give up, worst case you think B or C contains the issue when in reality it is D http://programmers.stackexchange.com/questions/218801/why-do-so-many-websites-prefer-git-rebase-over-git-merge/218839#comment526777_218839
+
+making it conflict-prone to pull directly from a colleague without going through the "central" server. http://programmers.stackexchange.com/questions/218801/why-do-so-many-websites-prefer-git-rebase-over-git-merge/218807#218807
+
+The "evil merges" that mmutz was describing have nothing to do with git bisect alone. It happens when feature A changes a function that feature B also uses. All tests will pass in both A and B prior to the merge, but after the merge tests can break due to incompatible changes between A and B - but git bisect can't partially apply one branch to another, so its only clue is that the merge commit is when the bug was introduced. http://programmers.stackexchange.com/questions/72632/are-there-any-flaws-with-this-git-branching-model#comment373489_72634
+
+Why not test merging commit? ^^^ So maybe this situation may apply when you introduce some test later on. And even then bisect will point to the merge commit as failing so you could sort things out.
+
 ### Merge commits
 
 Jeśli chodzi o merge commity (--no-ff) to bisect też je rozumie https://gist.github.com/canton7/3737126
