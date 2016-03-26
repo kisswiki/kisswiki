@@ -28,3 +28,4 @@
 - bug in chrome: input needs placeholder for middle vertical centering (text base)
 - https://github.com/channingallen/tower-defense
 - http://flexboxfroggy.com/
+- https://github.com/luisrudge/postcss-flexbugs-fixes
