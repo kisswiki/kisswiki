@@ -13,3 +13,6 @@
 - Start-up to organizacja, która jeszcze nie znalazła swojego modelu biznesowego. http://backpakuje.pl/praca-berlin-startup-10-faktow/
 - http://www.brief.pl/kreatywni2015/
 - http://www.brief.pl/kreatywni2016/
+-   - http://a16z.com/2015/01/22/the-full-stack-startup/
+  - Startup Growth Calculator http://growth.tlb.org/
+    - https://www.facebook.com/groups/polishstartups/permalink/1006289269431291/
