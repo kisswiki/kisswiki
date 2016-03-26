@@ -137,6 +137,7 @@
 - line endings `\r\n`
   - As a workaournd you can create a .editorconfig https://github.com/atom/line-ending-selector/issues/5#issuecomment-145816608
   - https://github.com/atom/line-ending-selector
+- editorconfig: for changes to take effect reopen 
 - autosave https://atom.io/packages/atom-idle-autosave
 - css lint https://github.com/AtomLinter/linter-stylelint
 - convert spaces <=> tabs https://github.com/AtomLinter/linter-stylelint
