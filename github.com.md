@@ -42,4 +42,4 @@
   - 5 entertaining things you can find with the GitHub Search API https://gist.github.com/jasonrudolph/6065289
   - https://github.com/rochefort/git-trend
   - https://github.com/sheharyarn/github-trending
-- https://gist.github.com/search?q=stars%3A%3E1000
+- Find gists with `stars:>1000` https://gist.github.com/search?q=stars%3A%3E1000
