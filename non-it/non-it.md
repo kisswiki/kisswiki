@@ -97,7 +97,6 @@
   - http://www.ted.com/playlists/245/talks_for_when_you_feel_totall
 - survey/questionary
   - http://www.typeform.com/
-- startup
 
 - email campaigns
   - http://woodpecker.co/
