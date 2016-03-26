@@ -139,7 +139,7 @@
   - https://github.com/atom/line-ending-selector
 - autosave https://atom.io/packages/atom-idle-autosave
 - css lint https://github.com/AtomLinter/linter-stylelint
-- convert spaces <=> tabs https://github.com/AtomLinter/linter-stylelint http://stackoverflow.com/questions/9104706/how-can-i-convert-spaces-to-tabs-in-vim-or-linux
+- convert spaces <=> tabs https://github.com/AtomLinter/linter-stylelint
 ## React
 
 https://atom.io/packages/react
