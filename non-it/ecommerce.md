@@ -1,0 +1,1 @@
+- http://www.elevenbyte.com/blog/marketing/10-przykazan-sklepu-internetowego/
