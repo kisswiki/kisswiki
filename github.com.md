@@ -24,6 +24,7 @@
       - use Google Analytics to measure the traffic to your Gists
     - [gist](https://github.com/defunkt/gist) - upload content from command line to https://gist.github.com/
 - browser extensions/styles
+  - http://brettterpstra.com/2013/02/13/quick-tip-chrome-extensions-that-make-github-rock/
   - https://github.com/showcases/github-browser-extensions
   - chrome
     - https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn
