@@ -1,0 +1,1 @@
+- for single extension don't use curly brackets like this `[*.{css}]`. Instead use this `[*.css]`
