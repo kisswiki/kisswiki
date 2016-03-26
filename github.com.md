@@ -23,7 +23,6 @@
       - embed any Gist in your web pages
       - use Google Analytics to measure the traffic to your Gists
     - [gist](https://github.com/defunkt/gist) - upload content from command line to https://gist.github.com/
-
 - browser extensions/styles
   - https://github.com/showcases/github-browser-extensions
   - chrome
