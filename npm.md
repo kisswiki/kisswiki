@@ -54,3 +54,7 @@ To enable progress bar:
 `npm config delete progress`
 
 https://github.com/npm/npm/issues/11283
+
+## Security
+
+http://blog.npmjs.org/post/141702881055/package-install-scripts-vulnerability
