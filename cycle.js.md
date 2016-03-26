@@ -61,4 +61,7 @@
 ## Starterkit, boilerplate
 
 - https://github.com/killercup/cycle-webpack-starter
--
+
+## library template
+
+https://github.com/TylorS/khaos-ts-library
