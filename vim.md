@@ -58,3 +58,8 @@ http://stackoverflow.com/users/4890818/0x594f4c4f203b29
 http://stackoverflow.com/questions/9104706/how-can-i-convert-spaces-to-tabs-in-vim-or-linux
 
 ## tabs to spaces
+
+```
+:set ts=4 sw=4 sts=4 et
+:rebab
+```
