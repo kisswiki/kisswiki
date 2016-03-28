@@ -50,6 +50,6 @@ http://stackoverflow.com/users/4890818/0x594f4c4f203b29
 
 ## spaces to tabs
 
-```set ts=2 noet`
+```:set ts=2 noet`
 
 http://stackoverflow.com/questions/9104706/how-can-i-convert-spaces-to-tabs-in-vim-or-linux
