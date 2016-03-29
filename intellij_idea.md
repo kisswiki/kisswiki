@@ -17,3 +17,7 @@ Warning! If you exclude some dir, it won't be searched but also won't be deploye
 ## JBoss output directory changes when switching git branches
 
 `Settings > Build, Execution, Deployment > Build Tols > Maven > Importing > uncheck 'Use Maven output directories'`
+
+## Duplicate artifact
+
+Edit run configuration, in section 'Before launch' click + > Run External tool > Add > { Name: 'restore jboss config', Program: 'bash', Parameters: '-c "cd /c/installed/jboss-eap-6.2/ && git checkout -f"' }
