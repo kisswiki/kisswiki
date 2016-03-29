@@ -198,3 +198,20 @@ http://kernowsoul.com/blog/2012/06/20/4-ways-to-avoid-merge-commits-in-git/
 `git -c user.name="New Author Name" -c user.email=email@address.com commit --amend  --author "New Author Name <email@address.com>"`
 
 http://stackoverflow.com/questions/750172/change-the-author-of-a-commit-in-git
+
+## force the user to always set user.email & user.name
+
+If you do not want to have a default email address (email address links to a github user), you can use
+
+```
+[user]
+    name = Your name
+    email = "(none)"
+```
+
+http://stackoverflow.com/questions/4220416/can-i-specify-multiple-users-for-myself-in-gitconfig/32124169#32124169
+
+or from git>=2.8
+
+> The "user.useConfigOnly" configuration variable can be used to force the user to always set user.email & user.name configuration variables, serving as a reminder for those who work on multiple projects and do not want to put these in their $HOME/.gitconfig.
+> - https://github.com/git/git/blob/master/Documentation/RelNotes/2.8.0.txt
