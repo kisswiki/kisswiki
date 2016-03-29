@@ -21,3 +21,6 @@ Warning! If you exclude some dir, it won't be searched but also won't be deploye
 ## Duplicate artifact
 
 Edit run configuration, in section 'Before launch' click + > Run External tool > Add > { Name: 'restore jboss config', Program: 'bash', Parameters: '-c "cd /c/installed/jboss-eap-6.2/ && git checkout -f"' }
+
+- http://stackoverflow.com/questions/15203498/intellij-idea-11-running-a-shell-script-as-a-run-debug-configuration
+- http://stackoverflow.com/questions/16966033/run-a-bash-script-before-running-a-maven-goal-in-intellij-idea
