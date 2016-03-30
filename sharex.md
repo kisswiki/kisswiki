@@ -1,0 +1,1 @@
+- set ffmpeg: `Task setting > Capture > Screen recorder > Screen recording options > FFmpeg path (to ffmpeg.exe)`  https://sublimelms.com/docs/Video-App-Guide/Video%20App/How_to_record_screen_with_voice_using_Sharex_.html
