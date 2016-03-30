@@ -7,3 +7,6 @@
 - alert in ng-click: `$scope.alert = alert.bind(window);` and `ng-click="test(game)"` http://stackoverflow.com/questions/25907383/use-alert-from-ng-click-of-a-directive
 - http://odetocode.com/blogs/scott/archive/2014/05/28/compile-pre-and-post-linking-in-angularjs.aspx
 - http://stackoverflow.com/questions/11125078/is-there-a-post-render-callback-for-angular-js-directive/11126336#11126336
+- $timeout(function () {
+    //DOM has finished rendering
+});
