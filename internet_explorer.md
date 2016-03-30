@@ -1,0 +1,1 @@
+- change default search provider: install google toolbar from http://www.google.com/intl/en-GB/toolbar/ie/index.html http://superuser.com/questions/642176/how-do-i-remove-bing-as-the-default-search-engine-in-windows-8/903018#903018
