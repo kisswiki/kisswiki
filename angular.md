@@ -16,3 +16,11 @@ $timeout(function () {
     //DOM has finished rendering
 });
 ```
+
+## clear input
+
+In angular-1.4 I can't just null model associated to input. I need to
+
+`document.getElementById('fileupload').value = null;`
+
+http://stackoverflow.com/questions/15079779/how-to-clear-a-file-input-from-angular-js#comment58018460_17178099
