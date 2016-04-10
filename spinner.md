@@ -1,2 +1,2 @@
 - http://loading.io/
-- http://codepen.io/MoOx/pen/grXZRQ
+- Dead simple CSS spinner/loader http://codepen.io/MoOx/pen/grXZRQ
