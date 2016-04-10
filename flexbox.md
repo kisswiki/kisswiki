@@ -29,6 +29,4 @@
 - https://github.com/channingallen/tower-defense
 - http://flexboxfroggy.com/
 - https://github.com/luisrudge/postcss-flexbugs-fixes
-
-## Aligning Text Smartly in CSS, with flexbox
-http://codepen.io/MoOx/pen/XdVjpK
+- Aligning Text Smartly in CSS, with flexbox http://codepen.io/MoOx/pen/XdVjpK
