@@ -146,3 +146,5 @@ Side note: avoid defaultChecked/defaultValue and use checked/value with onChange
 http://stackoverflow.com/questions/10610249/prevent-checkbox-from-ticking-checking-completely
 
 https://jsfiddle.net/rofrol/4pLjm8hu/1/
+
+## CSS
