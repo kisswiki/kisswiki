@@ -215,3 +215,9 @@ or from git>=2.8
 
 > The "user.useConfigOnly" configuration variable can be used to force the user to always set user.email & user.name configuration variables, serving as a reminder for those who work on multiple projects and do not want to put these in their $HOME/.gitconfig.
 > - https://github.com/git/git/blob/master/Documentation/RelNotes/2.8.0.txt
+=======
+## After git pull, git status shows changed files
+
+`git config --global core.autocrlf input`
+
+http://stackoverflow.com/questions/5009096/files-showing-as-modified-directly-after-git-clone
