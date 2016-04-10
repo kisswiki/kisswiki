@@ -103,3 +103,8 @@
 - https://www.smashingmagazine.com/2015/04/web-scraping-with-nodejs/
 - https://medium.com/@Functionite/5-tips-for-writing-more-maintainable-javascript-code-b87de1147e94
 - Codemods allow you to transform your code to make breaking changes but without breaking the code. Codemods take a JS file as input and turn them into Abstract Syntax Trees (AST) and apply transformations on this AST later converting them back to JS again. https://github.com/sindresorhus/ava/issues/644 https://github.com/facebook/jscodeshift
+
+## console.proto
+
+
+http://stackoverflow.com/questions/29195856/proto-array-prototype-symbolsymbol-unscopables-object
