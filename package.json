@@ -5,7 +5,7 @@
   "main": "README.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "node watch.js"
+    "start": "node watch.js"
   },
   "repository": {
     "type": "git",
