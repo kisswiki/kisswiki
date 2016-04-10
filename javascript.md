@@ -106,5 +106,12 @@
 
 ## console.proto
 
+```javascript
+console.proto = function (object) {
+  console.log(object, '|', object.constructor);
+  if (object.__proto__) console.proto(object.__proto__);
+}
+
+```
 
 http://stackoverflow.com/questions/29195856/proto-array-prototype-symbolsymbol-unscopables-object
