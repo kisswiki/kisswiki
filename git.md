@@ -227,3 +227,9 @@ http://stackoverflow.com/questions/5009096/files-showing-as-modified-directly-af
 `git config --global core.untrackedCache true`
 
 https://news.ycombinator.com/item?id=11388131
+
+## git push -u origin head
+
+You don't need to specify branch name or using aliases like :
+
+`pu = !"git push -u origin $(git symbolic-ref -q HEAD --short)"``
