@@ -4,7 +4,7 @@ To have it autosave and push changes:
 
 ```
 npm i
-npm run watch
+npm start
 ```
 
 I edit it in atom.io
