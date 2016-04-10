@@ -14,3 +14,7 @@
 
 - https://github.com/jspm/jspm-cli/issues/923
 - http://stackoverflow.com/questions/32151386/jspm-multiple-bundles-vendor-and-app
+
+## React
+
+Webpack's offering is good, but it is a big hack which lacks robustness. Even such basic thing as component event listeners is not working properly with webpack hot reloading. JSPMs module system is robust and safe. It will not suprise you-ES6 modules are very predictable when hot reloaded, much more than raw React components. Try it for yourself. Speed is certainly not the issue anymore.
