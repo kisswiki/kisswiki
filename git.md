@@ -221,3 +221,9 @@ or from git>=2.8
 `git config --global core.autocrlf input`
 
 http://stackoverflow.com/questions/5009096/files-showing-as-modified-directly-after-git-clone
+
+## speed up "git status" and similar index operations significantly
+
+`git config --global core.untrackedCache true`
+
+https://news.ycombinator.com/item?id=11388131
