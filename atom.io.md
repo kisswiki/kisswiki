@@ -144,3 +144,9 @@
 ## React
 
 https://atom.io/packages/react
+
+## Stylelint
+
+Undefined rule "declaration-block-no-ignored-properties"
+
+Update atom-linter
