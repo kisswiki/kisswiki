@@ -29,12 +29,18 @@
 
 ## Update npm
 
-`npm update -g npm`
+`npm install npm@latest -g`
+
+(`npm cache clean -f` may be needed)
+
+http://stackoverflow.com/questions/6237295/how-can-i-update-node-js-and-npm-to-the-next-versions/29023180#29023180
+
+https://docs.npmjs.com/getting-started/installing-node
 
 Then verify version with `npm -v`. If it still shows old version, you probably use mingw (git bash etc.). In that case you need to set `%USERPROFILE%\AppData\Roaming\npm` to be at the beggining of `%PATH%`. Then verify it:
 
-```bash
-$ echo -n $PATH | tr ':' '\n'
+```shell
+$ echo $PATH | tr ':' '\n' | grep npm
 ```
 
 It works in `cmd.exe` without setting path.
@@ -58,3 +64,7 @@ https://github.com/npm/npm/issues/11283
 ## Security
 
 http://blog.npmjs.org/post/141702881055/package-install-scripts-vulnerability
+
+## Check packages
+
+https://github.com/dylang/npm-check
