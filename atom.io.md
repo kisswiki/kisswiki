@@ -154,3 +154,5 @@ http://stackoverflow.com/questions/27178363/install-autocomplete-plus-package-in
 #### Single-click to open file in tree-view
 
 Still not merged https://github.com/atom/tree-view/pull/804
+
+Need to double-click.
