@@ -156,3 +156,7 @@ http://stackoverflow.com/questions/27178363/install-autocomplete-plus-package-in
 Still not merged https://github.com/atom/tree-view/pull/804
 
 Need to double-click.
+
+## Command toolbar
+
+can copy settings from ~/.atom/command-toolbar.json
