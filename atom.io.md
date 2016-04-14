@@ -159,4 +159,6 @@ Need to double-click.
 
 ## Command toolbar
 
+https://atom.io/packages/command-toolbar
+
 can copy settings from ~/.atom/command-toolbar.json
