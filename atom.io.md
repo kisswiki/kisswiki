@@ -76,7 +76,7 @@
   - clickable links in markdown
     - https://atom.io/packages/link - had to make a button because this ctrl+shif+o is used already
     - ctrl+o https://atom.io/packages/open-path
-    - ctrl+click https://atom.io/packages/nuclide-url-hyperclick (package delete) + https://atom.io/packages/hyperclick
+    - ctrl+click https://atom.io/packages/hyperlink-hyperclick + https://atom.io/packages/hyperclick
     - https://discuss.atom.io/t/clickable-links-in-markdown-file/15130
     - https://github.com/atom/markdown-preview/issues/85
 - indent without moving to beginning Ctrl+]
