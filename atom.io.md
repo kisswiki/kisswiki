@@ -57,9 +57,7 @@
   - https://atom.io/themes/yoceanic-next-syntax
   - https://atom.io/packages/file-icons
 - html
-  - https://atom.io/packages/emmet
   - https://atom.io/packages/autoclose-html
-  - https://atom.io/packages/html-entities
 - markdown
   - https://atom.io/packages/toggle-markdown-task
   - https://atom.io/packages/markdown-helpers
