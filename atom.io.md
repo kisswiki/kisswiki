@@ -62,8 +62,6 @@
   - https://atom.io/packages/markdown-lists or https://atom.io/packages/gfm-lists
   - sort list
     - https://atom.io/packages/markdown-sort-list - changes `-` to `*`, doesn't sort for me
-  - https://atom.io/packages/markdown-toc/
-  - https://atom.io/packages/markdown-preview-plus
   - clickable links in markdown
     - https://atom.io/packages/link - had to make a button because this ctrl+shif+o is used already
     - ctrl+o https://atom.io/packages/open-path
