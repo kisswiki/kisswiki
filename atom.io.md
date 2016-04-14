@@ -140,3 +140,11 @@ https://atom.io/packages/react
 Undefined rule "declaration-block-no-ignored-properties"
 
 Update atom-linter
+
+## Troubleshooting
+
+Unable to find remote helper for 'https'
+
+- Verify that the git command is on the PATH.
+- Use PowerShell to run the command instead of cmd or git-bash.
+- Run PowerShell in administrator mode.
