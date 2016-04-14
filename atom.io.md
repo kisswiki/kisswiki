@@ -53,12 +53,9 @@
     - Illegal import declaration https://github.com/eslint/eslint/issues/2112#issuecomment-83633766
       - ecmaFeatures: { modules: true }
 - appearance/themes/syntax highlighting
-  - https://github.com/silvestreh/atom-material-ui (uses background color from syntax theme)
-  - https://atom.io/themes/oceanic-next
+  - https://atom.io/themes/material-ui (uses background color from syntax theme)
   - https://atom.io/themes/yoceanic-next-syntax
   - https://atom.io/packages/file-icons
-- git
-  - https://atom.io/packages/git-plus
 - html
   - https://atom.io/packages/emmet
   - https://atom.io/packages/autoclose-html
