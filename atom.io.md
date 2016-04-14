@@ -148,3 +148,5 @@ Unable to find remote helper for 'https'
 - Verify that the git command is on the PATH.
 - Use PowerShell to run the command instead of cmd or git-bash.
 - Run PowerShell in administrator mode.
+
+http://stackoverflow.com/questions/27178363/install-autocomplete-plus-package-in-windows/27186255#27186255
