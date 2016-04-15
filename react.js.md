@@ -153,4 +153,5 @@ http://engineering.khanacademy.org/posts/aphrodite-inline-css.htm
 
 ## Stateless functional components
 
-http://buildwithreact.com/article/stateless-functional-components
+- Props http://buildwithreact.com/article/stateless-functional-components
+- example http://jsbin.com/xowixu/edit?js,console
