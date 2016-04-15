@@ -233,3 +233,22 @@ https://news.ycombinator.com/item?id=11388131
 You don't need to specify branch name or using aliases like :
 
 `pu = !"git push -u origin $(git symbolic-ref -q HEAD --short)"``
+
+## Received HTTP code 503 from proxy after CONNECT
+
+I looks like I can't connect when using git inside git bash.
+
+http://stackoverflow.com/questions/36650023/why-git-doesnt-connect-from-git-bash-but-works-in-cmd-exe-503-from-proxy-afte
+
+Solution:
+
+~/.bashrc
+alias git=~/AppData/Local/GitHub/PortableGit_25d850739bc178b2eb13c3e2a9faafea2f9143c0/cmd/git
+
+I got error using git from github because they use credential manager that I don't have in path. So I need to use other. Notice using `--system`, because `--global` didn't work.
+
+git config --system credential.helper wincred
+
+Maybe need to analize openssl used http://serverfault.com/questions/678228/why-do-openssl-and-ssh-of-git-for-windows-report-different-versions-of-openssl
+
+or cert http://askubuntu.com/questions/23680/problems-with-certificate-with-wget-and-github-lately
