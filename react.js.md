@@ -148,3 +148,9 @@ http://stackoverflow.com/questions/10610249/prevent-checkbox-from-ticking-checki
 https://jsfiddle.net/rofrol/4pLjm8hu/1/
 
 ## CSS
+
+http://engineering.khanacademy.org/posts/aphrodite-inline-css.htm
+
+## Stateless functional components
+
+http://buildwithreact.com/article/stateless-functional-components
