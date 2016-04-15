@@ -238,7 +238,8 @@ You don't need to specify branch name or using aliases like :
 
 I looks like I can't connect when using git inside git bash.
 
-http://stackoverflow.com/questions/36650023/why-git-doesnt-connect-from-git-bash-but-works-in-cmd-exe-503-from-proxy-afte
+- https://github.com/git-for-windows/git/issues/732
+- http://stackoverflow.com/questions/36650023/why-git-doesnt-connect-from-git-bash-but-works-in-cmd-exe-503-from-proxy-afte
 
 Solution:
 
