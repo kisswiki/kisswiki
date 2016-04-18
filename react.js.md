@@ -61,6 +61,7 @@
 - [ ] https://engineering.heroku.com/blogs/2015-12-16-react-refetch/
 - [ ] React.js Conf 2016 - Aditya Punjani - Building a Progressive Web App https://youtu.be/m2tvYGCdOzs
 - [ ] http://www.sitepoint.com/getting-started-react-jsx/
+- [ ] https://github.com/markerikson/react-redux-links
 
 ## Pass argument to onChange functional
 
