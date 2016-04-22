@@ -30,3 +30,5 @@ https://www.reddit.com/r/reactjs/comments/4f60j9/fluxredux_how_necessary_are_the
 I just gave an example where it wasn't possible, the computed function does not accept any parameters which means its "computation" must be derived from instances variables this, from a variable enclosed upstream, or globals. It is currently not possible for computed to be pure. Every aspect of redux emphasizes pure functions and/or composition.
 
 https://www.reddit.com/r/reactjs/comments/4f60j9/fluxredux_how_necessary_are_they/d27fv6r
+
+https://www.reddit.com/r/reactjs/comments/4fojit/what_is_your_structure_when_using_mobx_with/
