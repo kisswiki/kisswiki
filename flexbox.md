@@ -30,3 +30,4 @@
 - http://flexboxfroggy.com/
 - https://github.com/luisrudge/postcss-flexbugs-fixes
 - Aligning Text Smartly in CSS, with flexbox http://codepen.io/MoOx/pen/XdVjpK
+- http://www.flexboxpatterns.com/
