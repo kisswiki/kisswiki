@@ -18,3 +18,4 @@ This is a webpack plugin that simplifies creation of HTML files to serve your we
 - example https://github.com/MichalZalecki/connect-rxjs-to-react/blob/master/webpack/webpack.config.js
 - http://www.jonathan-petitcolas.com/2016/01/23/webpack-html-plugin-in-a-nutshell.html
 - http://stackoverflow.com/questions/34620628/htmlwebpackplugin-injects-relative-path-files-which-breaks-when-loading-non-root
+- https://github.com/jaketrent/html-webpack-template
