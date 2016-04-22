@@ -1,3 +1,7 @@
+# Redux
+
+- https://www.reddit.com/r/reactjs/comments/4fmgb8/reactthunk_functional_stateless_components_as/
+
 ## Saga
 
 https://github.com/yelouafi/redux-saga
