@@ -136,7 +136,6 @@ function update(event) {
 - [ ] https://github.com/justinwoo/react-rxjs-flow
 - [ ] https://medium.com/@milankinen/containers-are-dead-long-live-observable-combinators-2cb0c1f06c96#.usr4b52sg
 - [ ] http://michalzalecki.com/use-rxjs-with-react/
-- [ ] https://www.reddit.com/r/reactjs/comments/3ruqw2/rxjs_or_kefir_worth_it_with_react/
 - [ ] https://github.com/acdlite/recompose/tree/master/src/packages/rx-recompose
 
 ## checkbox and radio buttons
