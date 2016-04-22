@@ -63,6 +63,7 @@
 - [ ] http://www.sitepoint.com/getting-started-react-jsx/
 - [ ] https://github.com/markerikson/react-redux-links
 - [ ] https://github.com/skellock/reactotron
+- [ ] https://github.com/react-materialize/react-materialize
 
 ## Pass argument to onChange functional
 
