@@ -157,6 +157,8 @@ Still not merged https://github.com/atom/tree-view/pull/804
 
 Need to double-click.
 
+https://atom.io/packages/single-click-open
+
 ## Command toolbar
 
 https://atom.io/packages/command-toolbar
