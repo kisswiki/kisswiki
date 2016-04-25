@@ -13,3 +13,4 @@
 - http://www.ted.com/talks/linda_liukas_a_delightful_way_to_teach_kids_about_computers/transcript
 - http://www.ted.com/talks/bj_miller_what_really_matters_at_the_end_of_life
 - [ ] http://www.ted.com/talks/guy_winch_the_case_for_emotional_hygiene/transcript
+- [ ] https://www.ted.com/talks/judson_brewer_a_simple_way_to_break_a_bad_habit/
