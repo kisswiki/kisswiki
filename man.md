@@ -6,3 +6,5 @@
 2. You can check if groff works with this command `groff -Tascii -pet -mandoc -P-c <manpage-file> | less -irs` http://mingw.org/wiki/FAQ#toc10
 3. Install ManScript in path http://mingw.org/wiki/ManScript http://superuser.com/a/634889
 4. Test it with i.e. `man git-config`
+
+http://stackoverflow.com/questions/5517564/how-do-i-get-git-to-show-command-line-help-in-windows
