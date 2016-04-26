@@ -44,3 +44,12 @@ http://jimhoskins.com/2012/12/17/angularjs-and-apply.html
 ```
 
 http://stackoverflow.com/questions/33695738/angular-validation-prevent-button-ng-click-when-form-is-invalid
+
+## Touched vs pristine
+
+- @property {boolean} $untouched True if control has not lost focus yet.
+- @property {boolean} $touched True if control has lost focus.
+- @property {boolean} $pristine True if user has not interacted with the control yet.
+- @property {boolean} $dirty True if user has already interacted with the control.
+
+  http://stackoverflow.com/questions/25025102/angular-difference-between-pristine-dirty-and-touched-untouched
