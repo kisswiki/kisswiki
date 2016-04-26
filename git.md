@@ -263,3 +263,13 @@ http://stackoverflow.com/questions/5517564/how-do-i-get-git-to-show-command-line
 Download and extract man pages for your `git version` https://www.kernel.org/pub/software/scm/git/ to `~/man`
 
 http://www.codeography.com/2009/09/15/install-git-man-pages-the-easy-way.html
+
+I couldn't make it to work with git like `git help config`
+
+I've set `git config --global help.format man` but it doesn't work:
+
+```
+$ git help config
+warning: failed to exec 'man': No such file or directory
+fatal: no man viewer handled the request
+```
