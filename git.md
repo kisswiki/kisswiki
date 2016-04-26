@@ -253,3 +253,11 @@ git config --system credential.helper wincred
 Maybe need to analize openssl used http://serverfault.com/questions/678228/why-do-openssl-and-ssh-of-git-for-windows-report-different-versions-of-openssl
 
 or cert http://askubuntu.com/questions/23680/problems-with-certificate-with-wget-and-github-lately
+
+## Man pages on windows
+
+Install man from man.md and
+
+http://stackoverflow.com/questions/5517564/how-do-i-get-git-to-show-command-line-help-in-windows
+
+Download and extract man pages for your `git version` https://www.kernel.org/pub/software/scm/git/ to `~/man`
