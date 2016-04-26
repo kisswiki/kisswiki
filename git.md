@@ -273,3 +273,5 @@ $ git help config
 warning: failed to exec 'man': No such file or directory
 fatal: no man viewer handled the request
 ```
+
+http://stackoverflow.com/questions/5517564/how-do-i-get-git-to-show-command-line-help-in-windows
