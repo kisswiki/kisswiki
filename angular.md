@@ -41,3 +41,4 @@ http://jimhoskins.com/2012/12/17/angularjs-and-apply.html
   </div>
   <button class="orange" ng-class="inactive: form.$invalid || form.$pending" ng-disabled="form.$invalid || form.$pending" ng-click="!(form.$invalid || form.$pending) && save()">Save</button>
 </div>
+```
