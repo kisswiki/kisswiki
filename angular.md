@@ -30,3 +30,14 @@ http://stackoverflow.com/questions/15079779/how-to-clear-a-file-input-from-angul
 If your code isn’t wrapped in a function passed to $apply, and it throws an error, that error is thrown outside of AngularJS, which means any error handling being used in your application is going to miss it. $apply not only runs your code, but it runs it in a try/catch so your error is always caught, and the $digest call is in a finally clause, meaning it will run regardless of an error being thrown.
 
 http://jimhoskins.com/2012/12/17/angularjs-and-apply.html
+
+## Form
+
+```html
+<form name="form" novalidate>
+  <div ng-class="{'has-error': form.description.$touched && form.description.$error.required}">
+    <label>Description</label>
+    <textarea required name="description"></textarea>
+  </div>
+  <button class="orange" ng-class="inactive: form.$invalid || form.$pending" ng-disabled="form.$invalid || form.$pending" ng-click="!(form.$invalid || form.$pending) && save()">Save</button>
+</div>
