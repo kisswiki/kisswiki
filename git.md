@@ -261,3 +261,5 @@ Install man from man.md and
 http://stackoverflow.com/questions/5517564/how-do-i-get-git-to-show-command-line-help-in-windows
 
 Download and extract man pages for your `git version` https://www.kernel.org/pub/software/scm/git/ to `~/man`
+
+http://www.codeography.com/2009/09/15/install-git-man-pages-the-easy-way.html
