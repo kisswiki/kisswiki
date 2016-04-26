@@ -42,3 +42,5 @@ http://jimhoskins.com/2012/12/17/angularjs-and-apply.html
   <button class="orange" ng-class="inactive: form.$invalid || form.$pending" ng-disabled="form.$invalid || form.$pending" ng-click="!(form.$invalid || form.$pending) && save()">Save</button>
 </div>
 ```
+
+http://stackoverflow.com/questions/33695738/angular-validation-prevent-button-ng-click-when-form-is-invalid
