@@ -20,3 +20,4 @@ I have problems with conemu and git bash that I can't scroll sometimes. So now I
 - tabs
   - fatty (couldn't compile on windows) https://github.com/babun/babun/issues/81
   - conemu, tmux https://github.com/babun/babun/issues/39
+  - https://github.com/babun/babun/issues/101
