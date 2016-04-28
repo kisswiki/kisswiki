@@ -2,7 +2,7 @@
 
 - run with `~/.babun/babun.bat`
 - `babun --welcome`
-- `$HOME` is set to `.babun/cygwin/home/<user>`
+- `$HOME` is set to `.babun/cygwin/home/<user>` https://github.com/babun/babun/issues/289
 - change default shell: `babun shell /bin/bash` http://babun.github.io/
 - proxy: set in ` ~/.babunrc`
 - conemu http://babun.github.io/faq.html
