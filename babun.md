@@ -1,5 +1,7 @@
 # Babun
 
+I have problems with conemu and git bash that I can't scroll sometimes. So now I'm trying babun.
+
 - run with `~/.babun/babun.bat`
 - `babun --welcome`
 - `$HOME` is set to `.babun/cygwin/home/<user>`
