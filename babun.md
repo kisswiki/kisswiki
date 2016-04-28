@@ -12,8 +12,8 @@ I have problems with conemu and git bash that I can't scroll sometimes. So now I
 - proxy: set in ` ~/.babunrc`
 - conemu http://babun.github.io/faq.html
 - colors
+  - put `.minttyrc` in `.babun\cygwin\home\<user>`: `curl https://raw.githubusercontent.com/wbinnssmith/base16-oceanic-next/master/mintty/base16-oceanicnext.dark.256.minttyrc -o ~/.minttyrc`
   - `base16-builder -s oceanicnext.yml -t mintty -b dark` https://github.com/babun/babun/issues/179 - problems with unicode on Windows when run this https://groups.google.com/forum/#!topic/keystonejs/b_REKzd7RxA
-  - Remember to run it in babun or put `.minttyrc` in `.babun\cygwin\home\<user>`: `curl https://raw.githubusercontent.com/wbinnssmith/base16-oceanic-next/master/mintty/base16-oceanicnext.dark.256.minttyrc -o ~/.minttyrc`
 - update git `pact remove git; pact install git` http://stackoverflow.com/questions/25280199/how-to-upgrade-git-in-babun
 - babun uses cygwin, not mingw
   - http://stackoverflow.com/questions/13503533/mingw-or-cygwin-gcc
