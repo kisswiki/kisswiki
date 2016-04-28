@@ -68,3 +68,7 @@ http://blog.npmjs.org/post/141702881055/package-install-scripts-vulnerability
 ## Check packages
 
 https://github.com/dylang/npm-check
+
+## node-gyp
+
+https://github.com/nodejs/node-gyp/issues/629#issuecomment-153196245
