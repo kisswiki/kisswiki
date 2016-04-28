@@ -5,7 +5,9 @@ I have problems with conemu and git bash that I can't scroll sometimes. So now I
 - run with `~/.babun/babun.bat`
 - `babun --welcome`
 - `$HOME` is set to `.babun/cygwin/home/<user>`
-- change `$HOME`: set HOME C:\Users\<user> (probably better before installing) then `babun install`, change home in `/etc/passwd` to `/cygdrive/c/Users/<user>` https://github.com/babun/babun/issues/289
+- change `$HOME`: set HOME C:\Users\<user> (probably better before installing) then `babun install`, change home in `/etc/passwd` to `/cygdrive/c/Users/<user>`
+  - https://github.com/babun/babun/issues/289
+  - https://github.com/babun/babun/issues/173
 - change default shell: `babun shell /bin/bash` http://babun.github.io/
 - proxy: set in ` ~/.babunrc`
 - conemu http://babun.github.io/faq.html
