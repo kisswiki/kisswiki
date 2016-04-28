@@ -24,3 +24,4 @@ I have problems with conemu and git bash that I can't scroll sometimes. So now I
   - conemu, tmux https://github.com/babun/babun/issues/39
   - https://github.com/babun/babun/issues/101
 - bash and git completion: in `~/.bashrc`: `source /cygdrive/c/Users/frolow/AppData/Local/GitHub/PortableGit_25d850739bc178b2eb13c3e2a9faafea2f9143c0/mingw32/share/git/completion/git-completion.bash` https://github.com/babun/babun/issues/47
+- vim: needed to comment `colorscheme ir_black` in `/etc/vimrc`
