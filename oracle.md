@@ -2,14 +2,24 @@
 
 ## localhost:8080 already in use
 
+Let's find out what occupies 8080
+
 ```
 C:\> netstat -ano | findstr 8080
   TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       2424
   TCP    [::]:8080              [::]:0                 LISTENING       2424
+```
 
+Now get the executable name
+
+```
 C:\> tasklist | findstr 2424
 TNSLSNR.EXE                   2424 Services                   0     21 908 K
+```
 
+Change the port on which oracle web listens on
+
+```
 C:\>sqlplus /nolog
 SQL*Plus: Release 10.2.0.1.0 - Production on Tue Aug 26 10:40:44 2008
 Copyright (c) 1982, 2005, Oracle.  All rights reserved.
