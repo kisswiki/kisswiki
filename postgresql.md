@@ -52,7 +52,7 @@ Trace`
 
 ## Timestamp, timezone
 
-### Pro WITH TIME ZONE
+### Problems WITH TIME ZONE
 
 The fact is that both "WITH TIME ZONE" and "WITHOUT TIME ZONE" store the value as a unix-like absolute UTC timestamp. The difference is all in how the timestamp is displayed. When "WITH time zone" then the displayed value is the UTC stored value translated to the user's zone. When "WITHOUT time zone" the UTC stored value is twisted so as to show the same clock face no matter what zone the user has set".
 
