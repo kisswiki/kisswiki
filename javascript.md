@@ -33,7 +33,7 @@
   - https://github.com/slevithan/xregexp
  - modules
   - http://calendar.perfplanet.com/2015/loading-es2015-modules-using-combo-service/
-- codemod - take a JS file as input and turn them into Abstract Syntax Trees (AST) and apply transformations on this AST later converting them back to JS again https://vramana.github.io/blog/2015/12/21/codemod-tutorial/
+- codemod - take a JS file as input and turn them into Abstract Syntax Trees (AST) and apply transformations on this AST later converting them back to JS again https://vramana.github.io/blog/2015/12/21/codemod-tutorial/ https://github.com/cpojer/js-codemod
 - documenation
   - https://github.com/documentationjs/documentation
 - filter errors
