@@ -15,6 +15,7 @@
   $ psql -U postgres
   postgres=# CREATE ROLE myuser LOGIN password 'secret';
   postgres=# CREATE DATABASE mydatabase ENCODING 'UTF8' OWNER myuser;
+  postgres=# DROP ROLE myuser;
   ```
 - node.js
   - https://github.com/brianc/node-postgres
