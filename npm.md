@@ -72,3 +72,5 @@ https://github.com/dylang/npm-check
 ## node-gyp
 
 https://github.com/nodejs/node-gyp/issues/629#issuecomment-153196245
+
+https://github.com/atom/atom/issues/2614
