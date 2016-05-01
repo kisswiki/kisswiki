@@ -74,3 +74,19 @@ https://github.com/dylang/npm-check
 https://github.com/nodejs/node-gyp/issues/629#issuecomment-153196245
 
 https://github.com/atom/atom/issues/2614
+
+
+'auto': ('14.0', '12.0', '10.0', '9.0', '8.0', '11.0'),
+'2005': ('8.0',),
+'2005e': ('8.0',),
+'2008': ('9.0',),
+'2008e': ('9.0',),
+'2010': ('10.0',),
+'2010e': ('10.0',),
+'2012': ('11.0',),
+'2012e': ('11.0',),
+'2013': ('12.0',),
+'2013e': ('12.0',),
+'2015': ('14.0',),
+
+https://github.com/nodejs/node-gyp/blob/master/gyp/pylib/gyp/MSVSVersion.py#L413
