@@ -23,4 +23,4 @@
   - http://superuser.com/questions/43307/why-is-system-process-listening-on-port-80
   - http://stackoverflow.com/questions/1430141/port-80-is-being-used-by-system-pid-4-what-is-that
   - http://stackoverflow.com/questions/3985127/what-does-can-not-obtain-ownership-information-in-netstat-ab-mean
-- disable search indexer `sc config WSearch start= disabled` http://superuser.com/questions/73204/correct-way-to-disable-indexing-in-windows-7/349802#349802
+- disable search indexer. run in cmd.exe as Administrator: `sc config WSearch start= disabled` http://superuser.com/questions/73204/correct-way-to-disable-indexing-in-windows-7/349802#349802
