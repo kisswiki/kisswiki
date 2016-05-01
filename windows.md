@@ -24,4 +24,4 @@
   - http://stackoverflow.com/questions/1430141/port-80-is-being-used-by-system-pid-4-what-is-that
   - http://stackoverflow.com/questions/3985127/what-does-can-not-obtain-ownership-information-in-netstat-ab-mean
 - disable search indexer. run in cmd.exe as Administrator: `sc config WSearch start= disabled` http://superuser.com/questions/73204/correct-way-to-disable-indexing-in-windows-7/349802#349802
-- do I have usb 3 ports http://superuser.com/questions/331885/how-to-determine-whether-i-have-usb3-ports-in-my-laptop/331887#331887
+- do I have usb 3 ports http://superuser.com/questions/331885/how-to-determine-whether-i-have-usb3-ports-in-my-laptop/331887#331887 http://superuser.com/questions/756669/how-to-detect-if-a-usb-port-is-3-0-or-2-0/756671
