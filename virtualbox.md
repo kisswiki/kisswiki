@@ -12,6 +12,7 @@ sudo apt-get install virtualbox-guest-dkms virtualbox-guest-additions-iso virtua
 
 - http://askubuntu.com/questions/451805/screen-resolution-problem-with-ubuntu-14-04-and-virtualbox
 - http://askubuntu.com/questions/573596/unable-to-install-guest-additions-cd-image-on-virtual-box
+- https://help.ubuntu.com/community/VirtualBox/GuestAdditions
 
 ### Remove guest addtitions
 
