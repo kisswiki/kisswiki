@@ -1,5 +1,7 @@
 # Virtualbox
 
+- disable mini toolbar in `VM's Settings > User Interface` http://askubuntu.com/questions/31798/in-virtualbox-fullscreen-mode-can-i-disable-or-move-the-popup-menu-bar/722423#722423
+
 ## Guest Additions
 
 There was problem with mounting iso installed with exe. I've downloaded iso manually and then mounted it. Maybe version mismatch between virtualbox 5.0.20 and guest additinos 5.0.18.
