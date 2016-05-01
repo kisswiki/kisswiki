@@ -23,3 +23,11 @@ VBoxManage list extpacks
 ```
 
 https://forums.virtualbox.org/viewtopic.php?f=7&t=43231
+
+## Switch to host
+
+Click Host key (ctrl default) and than press alt+tab or windows key.
+
+- http://superuser.com/questions/660554/how-to-switch-between-virtual-machines-that-are-in-fullscreen-mode
+- http://superuser.com/questions/569836/fixing-command-tab-on-virtual-box
+- http://askubuntu.com/questions/220221/how-to-do-alt-tab-for-main-system-while-in-vbox
