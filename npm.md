@@ -75,6 +75,7 @@ https://github.com/nodejs/node-gyp/issues/629#issuecomment-153196245
 
 https://github.com/atom/atom/issues/2614
 
+sGYP_MSVS_VERSION
 
 'auto': ('14.0', '12.0', '10.0', '9.0', '8.0', '11.0'),
 '2005': ('8.0',),
