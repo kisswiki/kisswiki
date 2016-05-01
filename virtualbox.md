@@ -7,9 +7,10 @@ There was problem with mounting iso installed with exe. I've downloaded iso manu
 I've also run:
 
 ```
-sudo apt-get install virtualbox-guest-additions-iso virtualbox-guest-utils
+sudo apt-get install virtualbox-guest-dkms virtualbox-guest-additions-iso virtualbox-guest-utils
 ```
 
+- http://askubuntu.com/questions/451805/screen-resolution-problem-with-ubuntu-14-04-and-virtualbox
 - http://askubuntu.com/questions/573596/unable-to-install-guest-additions-cd-image-on-virtual-box
 
 ### Remove guest addtitions
