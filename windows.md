@@ -27,4 +27,12 @@
 - do I have usb 3 ports http://superuser.com/questions/331885/how-to-determine-whether-i-have-usb3-ports-in-my-laptop/331887#331887 http://superuser.com/questions/756669/how-to-detect-if-a-usb-port-is-3-0-or-2-0/756671
 - environmental variables shortcut:
   - `C:\Windows\system32\rundll32.exe sysdm.cpl,EditEnvironmentVariables` https://autohotkey.com/board/topic/68086-open-the-environment-variable-editing-window/
-  - control.exe sysdm.cpl,System,3` http://www.chami.com/tips/windows/012097W.html
+  - `control.exe sysdm.cpl,System,3` http://www.chami.com/tips/windows/012097W.html
+
+## Windows 10
+
+## How to stop middle mouse button from bringing up cortana
+
+i just went to the buttons section on dell touchpad driver and changed the "both buttons" option to something other than " middle button click " , saved the changes , then change it back to " middle button click " ...hoorraaay that bitch is gone
+
+https://www.reddit.com/r/windows/comments/3f0opd/how_to_stop_middle_mouse_button_from_bringing_up/cttfwh5
