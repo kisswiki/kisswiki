@@ -164,3 +164,13 @@ Solved: https://atom.io/packages/single-click-open
 https://atom.io/packages/command-toolbar
 
 can copy settings from ~/.atom/command-toolbar.json
+
+## Windows
+
+## AtomSetup.exe failed to install
+
+Probably problem with privilieges and antivirus. Should be fixed already https://github.com/atom/atom/issues/5773#issuecomment-77003900 so I've downloaded exe from https://github.com/atom/atom/releases. I've also deleted `%USERPROFILE%\C:\Users\frolow\AppData\Local\SquirrelTemp` though I don't know if that has a positive effect.
+
+## Failed to `apm stars --install`: EINVAL, invalid argument
+
+Run it in cmd.exe, not in git bash.
