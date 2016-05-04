@@ -30,6 +30,7 @@
   - `C:\Windows\system32\rundll32.exe sysdm.cpl,EditEnvironmentVariables` https://autohotkey.com/board/topic/68086-open-the-environment-variable-editing-window/
   - `control.exe sysdm.cpl,System,3` http://www.chami.com/tips/windows/012097W.html
 - set env var in cmd line: `setx NEWVAR SOMETHING` https://superuser.com/questions/79612/setting-and-getting-windows-environment-variables-from-the-command-prompt/
+- delete directory: `rd /s /q <dir>` http://www.windows-commandline.com/delete-directory-from-command-line/
 
 ## Windows 10
 
