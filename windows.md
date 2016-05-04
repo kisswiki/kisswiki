@@ -32,6 +32,14 @@
 - set env var in cmd line: `setx NEWVAR SOMETHING` https://superuser.com/questions/79612/setting-and-getting-windows-environment-variables-from-the-command-prompt/
 - delete directory: `rd /s /q <dir>` http://www.windows-commandline.com/delete-directory-from-command-line/
 
+## env variable
+
+Problem setting it from command line
+
+- spaces in path
+- truncation
+- in bat file need to replace `%` with `%%`
+
 ## Windows 10
 
 ## How to stop middle mouse button from bringing up cortana
