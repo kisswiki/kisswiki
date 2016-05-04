@@ -24,3 +24,9 @@ Edit run configuration, in section 'Before launch' click + > Run External tool >
 
 - http://stackoverflow.com/questions/15203498/intellij-idea-11-running-a-shell-script-as-a-run-debug-configuration
 - http://stackoverflow.com/questions/16966033/run-a-bash-script-before-running-a-maven-goal-in-intellij-idea
+
+## JBoss - edit configuration - missing
+
+The JBoss Integration plugin must be enabled
+
+https://www.jetbrains.com/help/idea/2016.1/run-debug-configuration-jboss-server.html?origin=old_help
