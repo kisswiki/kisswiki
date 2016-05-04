@@ -1,6 +1,7 @@
 ## convert file to utf-8
 
 ```
+:e ++enc=cp1250
 :set fenc=utf8
 :w
 ```
