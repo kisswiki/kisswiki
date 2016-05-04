@@ -36,9 +36,9 @@
 
 Problem setting it from command line
 
-- spaces in path
-- truncation
-- in bat file need to replace `%` with `%%`
+- spaces in path http://stackoverflow.com/questions/11011115/setx-setting-path-with-spaces
+- truncation http://superuser.com/questions/387619/overcoming-the-1024-character-limit-with-setx
+- in bat file need to replace `%` with `%%` https://support.microsoft.com/en-us/kb/75634
 
 ## Windows 10
 
