@@ -12,7 +12,9 @@
   - https://github.com/RReverser/WiFi-Password
 - color picker http://charliecm.github.io/ColorPicker/
 - ruler http://sliver.com/dotnet/Ruler/
-- disable search indexing: `services.msc > Windows Search > Right-click > Properties > Startup Type: Disabled` http://www.addictivetips.com/windows-tips/how-to-permanently-disable-search-indexing-in-windows-8/
+- disable search indexing
+  - `services.msc > Windows Search > Right-click > Properties > Startup Type: Disabled` http://www.addictivetips.com/windows-tips/how-to-permanently-disable-search-indexing-in-windows-8/
+  - run in cmd.exe as Administrator: `sc config WSearch start= disabled` http://superuser.com/questions/73204/correct-way-to-disable-indexing-in-windows-7/349802#349802
 - telnet installation https://kb.ctera.com/article/how-to-open-a-telnet-session-on-windows-7-or-windows-8-os-16.html
 - can't run node.js server on port 80
   - http://superuser.com/questions/352017/pid4-using-port-80
@@ -23,7 +25,6 @@
   - http://superuser.com/questions/43307/why-is-system-process-listening-on-port-80
   - http://stackoverflow.com/questions/1430141/port-80-is-being-used-by-system-pid-4-what-is-that
   - http://stackoverflow.com/questions/3985127/what-does-can-not-obtain-ownership-information-in-netstat-ab-mean
-- disable search indexer. run in cmd.exe as Administrator: `sc config WSearch start= disabled` http://superuser.com/questions/73204/correct-way-to-disable-indexing-in-windows-7/349802#349802
 - do I have usb 3 ports http://superuser.com/questions/331885/how-to-determine-whether-i-have-usb3-ports-in-my-laptop/331887#331887 http://superuser.com/questions/756669/how-to-detect-if-a-usb-port-is-3-0-or-2-0/756671
 - environmental variables shortcut:
   - `C:\Windows\system32\rundll32.exe sysdm.cpl,EditEnvironmentVariables` https://autohotkey.com/board/topic/68086-open-the-environment-variable-editing-window/
@@ -33,6 +34,6 @@
 
 ## How to stop middle mouse button from bringing up cortana
 
-i just went to the buttons section on dell touchpad driver and changed the "both buttons" option to something other than " middle button click " , saved the changes , then change it back to " middle button click " ...hoorraaay that bitch is gone
+I just went to the buttons section on dell touchpad driver and changed the "both buttons" option to something other than " middle button click " , saved the changes , then change it back to " middle button click " ...hoorraaay that bitch is gone
 
 https://www.reddit.com/r/windows/comments/3f0opd/how_to_stop_middle_mouse_button_from_bringing_up/cttfwh5
