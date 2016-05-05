@@ -1,0 +1,1 @@
+- http://stackoverflow.com/questions/5103083/ssh-in-git-behind-proxy-on-windows-7
