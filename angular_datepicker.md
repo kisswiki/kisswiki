@@ -1,0 +1,7 @@
+- uib-datepicker-popup https://angular-ui.github.io/bootstrap/ setup: https://github.com/angular-ui/bootstrap minimal: http://plnkr.co/edit/r1PmRYXyvg2rrtw1sLSD?p=preview
+- https://github.com/restorando/angular-pickadate
+- https://github.com/jkuri/ngDatepicker
+- https://material.angularjs.org/latest/demo/datepicker
+- https://github.com/g00fy-/angular-datepicker
+- https://github.com/720kb/angular-datepicker
+- https://github.com/Toilal/ng-pickadate
