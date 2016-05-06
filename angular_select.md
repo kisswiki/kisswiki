@@ -1,4 +1,6 @@
+# Angular select
 
+## From array
 
 ```
 <div ng-controller="MyCtrl">
@@ -11,3 +13,5 @@ function MyCtrl($scope) {
     $scope.years = [2012, 2013, 2014];
 }
 ```
+
+ng-init didn't work for me http://stackoverflow.com/questions/18194255/how-to-have-a-default-option-in-select-box-angular-js
