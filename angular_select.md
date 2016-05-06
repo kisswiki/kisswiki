@@ -17,3 +17,5 @@ function MyCtrl($scope) {
 https://jsfiddle.net/mrajcok/4mqFJ/
 
 ng-init didn't work for me http://stackoverflow.com/questions/18194255/how-to-have-a-default-option-in-select-box-angular-js
+
+A lot info about select http://stackoverflow.com/questions/13047923/working-with-select-using-angulars-ng-options
