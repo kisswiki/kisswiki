@@ -1,1 +1,2 @@
  - http://stackoverflow.com/questions/17510962/can-angularjs-routes-have-optional-parameter-values
+ - http://stackoverflow.com/questions/11534710/angularjs-how-to-use-routeparams-in-generating-the-templateurl
