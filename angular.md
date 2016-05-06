@@ -62,4 +62,7 @@ myApp.config(['$compileProvider', function ($compileProvider) {
 }]);
 ```
 
-https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476
+- https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476
+- https://docs.angularjs.org/guide/production
+- https://ng-perf.com/
+- http://orizens.com/wp/topics/environment-configuration-with-angular-js-es2015-es6-browserify/
