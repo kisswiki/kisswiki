@@ -62,6 +62,10 @@ myApp.config(['$compileProvider', function ($compileProvider) {
 }]);
 ```
 
+`$httpProvider.useApplyAsync(true);`
+
+It delays calling apply on http responses and chunks the multiple responses into one digest cycle.
+
 - https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476
 - https://docs.angularjs.org/guide/production
 - https://ng-perf.com/
