@@ -53,3 +53,13 @@ http://stackoverflow.com/questions/33695738/angular-validation-prevent-button-ng
 - @property {boolean} $dirty True if user has already interacted with the control.
 
   http://stackoverflow.com/questions/25025102/angular-difference-between-pristine-dirty-and-touched-untouched
+
+## Disable debug to speed up
+
+```
+myApp.config(['$compileProvider', function ($compileProvider) {
+  $compileProvider.debugInfoEnabled(false);
+}]);
+```
+
+https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476
