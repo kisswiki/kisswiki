@@ -1,4 +1,5 @@
  - http://stackoverflow.com/questions/17510962/can-angularjs-routes-have-optional-parameter-values
  - http://stackoverflow.com/questions/11534710/angularjs-how-to-use-routeparams-in-generating-the-templateurl
  - http://stackoverflow.com/questions/12524533/can-angularjs-routes-have-default-parameter-values
- - `$route.current.params` http://stackoverflow.com/questions/12524533/can-angularjs-routes-have-default-parameter-values/27279054#27279054 https://docs.angularjs.org/api/ngRoute/service/$route
+ - `$route.current.params` http://stackoverflow.com/questions/12524533/can-angularjs-routes-have-default-parameter-values/27279054#27279054
+ - `<a href="Book/Gatsby/ch/4?key=value">Gatsby: Ch4</a>` https://docs.angularjs.org/api/ngRoute/service/$route
