@@ -1,1 +1,2 @@
 - https://github.com/Diaoul/subliminal
+- https://github.com/ajknol/Subliminal-Windows-right-click-menu
