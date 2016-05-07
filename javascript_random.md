@@ -1,0 +1,2 @@
+- 0, 1, 2 `Math.floor(Math.random()*3)` https://www.facebook.com/DevHumor/posts/1155959127761661
+- -, 0, + `0.5 - Math.random()` 
