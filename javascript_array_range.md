@@ -1,1 +1,1 @@
-- `var arr = ((a,b)=>{while(a--)b[a]=a;return b})(10,[]); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]` http://stackoverflow.com/a/16901629/588759
+- `var arr = ((a,b)=>{while(a--)b[a]=a;return b})(10,[]); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]` http://stackoverflow.com/a/16901629/588759http://stackoverflow.com/questions/3746725/create-a-javascript-array-containing-1-n/16901629#16901629
