@@ -1,1 +1,1 @@
-- https://github.com/MichalZalecki/connect-rxjs-to-react/tree/xstream
+- Rewrite of connect-rxjs-to-react using xstream https://github.com/MichalZalecki/connect-rxjs-to-react/tree/xstream
