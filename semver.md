@@ -1,0 +1,1 @@
+- beta: beta.9, beta.18, and not beta9, beta19 as beta comes lexicographically before beta9 https://github.com/rtfpessoa/diff2html/issues/74
