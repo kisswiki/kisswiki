@@ -1,0 +1,1 @@
+- https://github.com/MichalZalecki/connect-rxjs-to-react/tree/xstream
