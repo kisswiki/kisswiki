@@ -157,6 +157,7 @@ https://jsfiddle.net/rofrol/4pLjm8hu/1/
 
 - http://engineering.khanacademy.org/posts/aphrodite-inline-css.htm
 - `:local` and css-loader https://github.com/MichalZalecki/react-the-boring-part/blob/master/src/components/App.jsx https://www.facebook.com/groups/972937362726271/permalink/1211423268877678/
+- css-modules and server-side rendering https://github.com/css-modules/css-modules/issues/9
 
 ## Stateless functional components
 
