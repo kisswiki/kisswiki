@@ -91,3 +91,13 @@ sGYP_MSVS_VERSION
 '2015': ('14.0',),
 
 https://github.com/nodejs/node-gyp/blob/master/gyp/pylib/gyp/MSVSVersion.py#L413
+
+## Versioning and semver
+
+You should check out https://docs.npmjs.com/cli/version .
+It's super useful npm subcommand for releasing new versions!
+It automatically creates the corresponding commit and tag.
+Actually I'd even go so far to say that this should be the only way to create new versions!
+Then it's also impossible to create invalid version numbers
+
+https://github.com/rtfpessoa/diff2html/issues/74#issuecomment-217633109
