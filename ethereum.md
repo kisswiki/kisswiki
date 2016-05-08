@@ -1,0 +1,2 @@
+- https://www.facebook.com/EthereumPL
+- http://ethereum.pl/index.php/poradniki/
