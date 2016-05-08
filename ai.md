@@ -3,3 +3,4 @@
 - Hello World - Machine Learning Recipes #1 https://www.youtube.com/watch?v=cKxRvEZd3Mw
 - IQ as a service http://techcrunch.com/2016/05/07/the-next-stop-on-the-road-to-revolution-is-ambient-intelligence/
 - AI is today synonmous with algorithm that are automatically tuned given new data, and don't require changing their source code to perform better https://news.ycombinator.com/item?id=11651863
+- Machine Learning is where you can infer something (usually classify or extrapolate) about future data based on present data/examples and this inference has had no human input determining it https://news.ycombinator.com/item?id=11651225
