@@ -1,3 +1,4 @@
 - https://medium.com/@cdixon/what-s-next-in-computing-e54b870b80cc
 - https://medium.com/machine-intelligence-report/the-current-state-of-machine-intelligence-2-0-a9e0bab95511
 - Hello World - Machine Learning Recipes #1 https://www.youtube.com/watch?v=cKxRvEZd3Mw
+- IQ as a service http://techcrunch.com/2016/05/07/the-next-stop-on-the-road-to-revolution-is-ambient-intelligence/
