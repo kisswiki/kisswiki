@@ -162,6 +162,7 @@ https://jsfiddle.net/rofrol/4pLjm8hu/1/
   - https://github.com/webpack/css-loader
 - css-modules and server-side rendering https://github.com/css-modules/css-modules/issues/9
 - https://webpack.github.io/docs/stylesheets.html
+- Use 'Local scope' in isomorphics code https://github.com/webpack/css-loader/issues/59
 
 ## Stateless functional components
 
