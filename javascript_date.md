@@ -4,3 +4,10 @@
 
 - http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
+
+```
+var today = new Date();
+var formattedToday = today.toLocaleDateString() + today.toLocaleTimeString();
+```
+
+http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date/35303057#35303057
