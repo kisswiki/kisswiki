@@ -1,0 +1,2 @@
+- http://discover-devtools.codeschool.com/
+- http://tutorialzine.com/2015/03/15-must-know-chrome-devtools-tips-tricks/
