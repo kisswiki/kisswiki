@@ -8,3 +8,5 @@ function obj2params(obj) {
     return a;
   }, []).join('&')
 ```
+
+http://stackoverflow.com/questions/3308846/serialize-object-to-query-string-in-javascript-jquery/30707423#30707423
