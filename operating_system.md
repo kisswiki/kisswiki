@@ -7,8 +7,8 @@ https://en.wikipedia.org/wiki/Shell_(computing)
 
 Czy możliwy jest OS bez shella? Tak.
 
-> What does an operating system look like before a shell is run?
->> Depends on the OS and how you configure it. Linux can be configured to write boot text to a console device, whether a text mode console, framebuffer console or a serial port.
+>> What does an operating system look like before a shell is run?
+> Depends on the OS and how you configure it. Linux can be configured to write boot text to a console device, whether a text mode console, framebuffer console or a serial port.
 http://superuser.com/questions/631789/what-does-an-operating-system-look-like-without-a-shell/
 
 Launcher nie jest usługą dla innych programów ale dla użytkownika:
