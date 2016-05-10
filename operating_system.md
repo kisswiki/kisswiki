@@ -23,7 +23,7 @@ A to, że ty nie będziesz mógł wprowadzać swojego inputu (uruchamiać aplika
 
 Wiadomo są wyjątki, że inne programy wymagają basha do działania, ale to potwierdza tylko regułę.
 
-OS bez interaktywności (czyli komunikacji ze światem zewnętrznym), też jest OS-em.
+OS bez interaktywności, czyli komunikacji ze światem zewnętrznym, też jest OS-em.
 
 > Essentially (and leaving out a lot but this should get you the idea) - You loaded your program, either by flipping switches on a panel or using a paper-tape reader (these devices would write to memory directly without CPU intervention) and then start the CPU with another switch. The CPU would run this program, generate its output, and stop. This is batch processing as opposed to interactive processing. If you wanted to run a different program you had to do this over.
 http://superuser.com/questions/631789/what-does-an-operating-system-look-like-without-a-shell
