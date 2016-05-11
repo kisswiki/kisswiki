@@ -2,3 +2,4 @@
 - https://github.com/pathable/truncate
 - http://stackoverflow.com/questions/28334540/truncate-text-in-html-with-link-to-show-more-less-and-keep-elements-inside
 - https://github.com/sparkalow/angular-truncate
+- http://stackoverflow.com/questions/18095727/limit-the-length-of-a-string-with-angularjs
