@@ -16,3 +16,4 @@
     ```
 - reloadOnSearch -> reloadOnlyOnSearchOrHashChange, search everything after `?`: ?key1=value1&key2=value2
 - http://weblogs.asp.net/dwahlin/cancelling-route-navigation-in-angularjs
+- http://stackoverflow.com/questions/15354329/how-to-get-the-route-name-when-location-changes
