@@ -5,3 +5,4 @@
  - `<a href="Book/Gatsby/ch/4?key=value">Gatsby: Ch4</a>` https://docs.angularjs.org/api/ngRoute/service/$route
 - Change path without reloading https://github.com/anglibs/angular-location-update http://stackoverflow.com/questions/14974271/can-you-change-a-path-without-reloading-the-controller-in-angularjs/31963975#31963975
 - reloadOnSearch -> reloadOnlyOnSearchOrHashChange, search everything after `?`: ?key1=value1&key2=value2
+- http://weblogs.asp.net/dwahlin/cancelling-route-navigation-in-angularjs
