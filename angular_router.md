@@ -6,7 +6,7 @@
 - Change path without reloading https://github.com/anglibs/angular-location-update http://stackoverflow.com/questions/14974271/can-you-change-a-path-without-reloading-the-controller-in-angularjs/31963975#31963975
   - Update: there is a problem with this approach. When I click another link, the site didn't reload because of this code:
 
-    ```
+    ```javascript
       $rootScope.$on('$locationChangeSuccess', function () {
         if (routeToKeep) {
           $route.current = routeToKeep;
