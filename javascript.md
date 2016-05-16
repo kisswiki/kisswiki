@@ -81,6 +81,7 @@
   - http://eloquentjavascript.net/
   - https://github.com/loverajoel/jstips
   - https://github.com/ericelliott/essential-javascript-links
+  - http://www.w3resource.com/javascript-exercises/
 - [hyperscript helper tutorial](https://freezer.js.org/minimum-viable-view-library/)
 - animation
   - https://github.com/jaxgeller/tweezer.js
