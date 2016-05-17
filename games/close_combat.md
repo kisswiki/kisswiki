@@ -1,9 +1,9 @@
 ## Panthers in the fog
 
-- wprowadzenie https://www.youtube.com/watch?v=eMp_2A9UwbY
-- zasady gry https://www.youtube.com/watch?v=Q0ooV8_NK0c
-- bitwa https://www.youtube.com/watch?v=7pyf2swFTzY
-- wzgórze 110 https://www.youtube.com/watch?v=uTTBKZHtskI
+- wprowadzenie - Combat Camera https://www.youtube.com/watch?v=eMp_2A9UwbY
+- zasady gry - Combat Camera https://www.youtube.com/watch?v=Q0ooV8_NK0c
+- bitwa - Combat Camera https://www.youtube.com/watch?v=7pyf2swFTzY
+- wzgórze 110 - Combat Camera https://www.youtube.com/watch?v=uTTBKZHtskI
 - Tips, Tricks and Tactics - The Basics - TIK https://www.youtube.com/watch?v=uaKBTyiXwrA
 - playlist 8 parts - TIK https://www.youtube.com/playlist?list=PLNSNgGzaledhcB3cfyhE1A0eU1J8LRXFI
 - Juvigny - dimensi id
