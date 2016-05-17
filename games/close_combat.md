@@ -20,14 +20,22 @@
 
 ### Shortcuts
 
-- click+drag - move
-- ctrl+u
-- ctrl+
-- f5
-- f6
-- f7
-- f9
-- space
-- shift+click
-- x
+- CLICK+DRAG - move
+- CTRL+U
+- CTRL+
+- F5
+- F6
+- F7
+- F9
+- SPACE
+- SHIFT+CLICK
+- X
 - mouse wheel - cycle in squads
+- Z ____________Move
+X ____________Move Fast
+C_ ___________Sneak
+V ____________Fire 
+B_ ___________Smoke
+N____________Defend
+M____________Ambush
+ , ____________Dismount (the comma key)
