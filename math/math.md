@@ -1,0 +1,7 @@
+- http://math.stackexchange.com/questions/275/best-maths-books-for-non-mathematicians
+  - What Is Mathematics? An Elementary Approach to Ideas and Methods - for adults who have not had a math class for a few decades, but are open to the idea of learning more about mathematics
+- http://math.stackexchange.com/questions/69060/what-is-a-good-book-for-learning-math-from-the-ground-up
+  - Journey Through Genius - A brilliant combination of interesting storytelling and large amounts of actual Mathematics. It took my love of Maths to a whole other level.
+  - Mathematics: Its Content, Methods and Meaning by Kolmogorov et al. This is a readable summary by the top Soviet mathematicians, and as the Soviets had no copyright it is incredibly inexpensive. If you have mastered this, you are pretty well prepared for anything.
+- http://steve-yegge.blogspot.de/2006/03/math-for-programmers.html
+-
