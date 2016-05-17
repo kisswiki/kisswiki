@@ -5,7 +5,7 @@
 - bitwa https://www.youtube.com/watch?v=7pyf2swFTzY
 - wzgórze 110 https://www.youtube.com/watch?v=uTTBKZHtskI
 - Tips, Tricks and Tactics - The Basics https://www.youtube.com/watch?v=uaKBTyiXwrA
-- playlist - 8 parts https://www.youtube.com/playlist?list=PLNSNgGzaledhcB3cfyhE1A0eU1J8LRXFI
+- playlist - 8 parts (author: TIK) https://www.youtube.com/playlist?list=PLNSNgGzaledhcB3cfyhE1A0eU1J8LRXFI
 - Juvigny (author: dimensi id)
   - part 1 https://www.youtube.com/watch?v=grzrDAJH2eg
   - part 2 https://www.youtube.com/watch?v=sp_-ly82HgI
