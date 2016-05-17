@@ -14,6 +14,7 @@
 - Gameplay - SpeedWolf https://www.youtube.com/watch?v=ZmXPTrgC8ew
 - http://www.closecombatseries.net
 - http://www.closecombat.org/
+- suppression fire - ogień zaporowy, tłumiący
 
 ### Shortcuts
 
