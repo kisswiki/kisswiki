@@ -27,7 +27,7 @@
 - F6
 - F7
 - F9
-- SPACE
+- SPACE - command radius
 - SHIFT+CLICK
 - mouse wheel - cycle in squads
 - Z - Move
