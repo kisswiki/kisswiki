@@ -10,6 +10,7 @@
   - part 1 https://www.youtube.com/watch?v=grzrDAJH2eg
   - part 2 https://www.youtube.com/watch?v=sp_-ly82HgI
   - part 3 https://www.youtube.com/watch?v=5rU7JSyfJm8
+- Let's Play - darthcareful https://www.youtube.com/watch?v=3uJXWt_nwGs
 
 ### Shortcuts
 
