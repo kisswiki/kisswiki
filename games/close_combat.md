@@ -1,5 +1,7 @@
 ## Panthers in the fog
 
+### Videos
+
 - wprowadzenie - Combat Camera https://www.youtube.com/watch?v=eMp_2A9UwbY
 - zasady gry - Combat Camera https://www.youtube.com/watch?v=Q0ooV8_NK0c
 - bitwa - Combat Camera https://www.youtube.com/watch?v=7pyf2swFTzY
@@ -12,6 +14,9 @@
   - part 3 https://www.youtube.com/watch?v=5rU7JSyfJm8
 - Let's Play - darthcareful https://www.youtube.com/watch?v=3uJXWt_nwGs
 - Gameplay - SpeedWolf https://www.youtube.com/watch?v=ZmXPTrgC8ew
+
+### Other
+
 - http://www.closecombatseries.net
 - http://www.closecombat.org/
 - suppression fire - ogień zaporowy, tłumiący
