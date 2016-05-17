@@ -29,6 +29,7 @@
 - the "difficulty" level on increases or decreases the size of your force pool and available slots you can use for a battle. Setting difficulty for elite give you the least amount of men, and slots to bring them in for battle http://steamcommunity.com/sharedfiles/filedetails/?id=646106165&insideModal=0
 - If you keep a command team near your guns or tanks. I do think that will give them better accurate shots. http://steamcommunity.com/app/297750/discussions/0/485624149149976401/?insideModal=1#c485624149159035827
 - AI bad https://www.youtube.com/watch?v=BjYg4gcvDog https://www.youtube.com/watch?v=U42co59Q0b0
+- Gateway to Caen - Tactical Guide http://steamcommunity.com/sharedfiles/filedetails/?id=272476416
 
 ### Shortcuts
 
