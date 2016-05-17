@@ -29,13 +29,12 @@
 - F9
 - SPACE
 - SHIFT+CLICK
-- X
 - mouse wheel - cycle in squads
-- Z ____________Move
-X ____________Move Fast
-C_ ___________Sneak
-V ____________Fire 
-B_ ___________Smoke
-N____________Defend
-M____________Ambush
- , ____________Dismount (the comma key)
+- Z - Move
+- X - Move Fast
+- C - Sneak
+- V - Fire
+- B - Smoke
+- N - Defend (you can click to set direction)
+- M - Ambush
+- , - Dismount (the comma key)
