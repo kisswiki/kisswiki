@@ -30,6 +30,7 @@
 - If you keep a command team near your guns or tanks. I do think that will give them better accurate shots. http://steamcommunity.com/app/297750/discussions/0/485624149149976401/?insideModal=1#c485624149159035827
 - AI bad https://www.youtube.com/watch?v=BjYg4gcvDog https://www.youtube.com/watch?v=U42co59Q0b0
 - Gateway to Caen - Tactical Guide http://steamcommunity.com/sharedfiles/filedetails/?id=272476416
+  - You can number your troops by CTRL + ... (numbers 1 - 9)  It is especially useful to number your mortar teams during the deployment phase like this. Then you can call them easily by only pressing the numbers during the battle.
 
 ### Shortcuts
 
