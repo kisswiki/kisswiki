@@ -4,3 +4,4 @@
 - zasady gry https://www.youtube.com/watch?v=Q0ooV8_NK0c
 - bitwa https://www.youtube.com/watch?v=7pyf2swFTzY
 - wzgórze 110 https://www.youtube.com/watch?v=uTTBKZHtskI
+- Tips, Tricks and Tactics - The Basics https://www.youtube.com/watch?v=uaKBTyiXwrA
