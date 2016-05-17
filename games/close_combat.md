@@ -27,6 +27,7 @@
 - It aint real time strategy, it's Real Time Tactics ;) http://steamcommunity.com/app/368220/discussions/0/617335934135861178/#c617335934136055424
 - PinF for €3.99 in bundle https://www.bundlestars.com/en/bundle/slitherine-bundle
 - the "difficulty" level on increases or decreases the size of your force pool and available slots you can use for a battle. Setting difficulty for elite give you the least amount of men, and slots to bring them in for battle http://steamcommunity.com/sharedfiles/filedetails/?id=646106165&insideModal=0
+- If you keep a command team near your guns or tanks. I do think that will give them better accurate shots. http://steamcommunity.com/app/297750/discussions/0/485624149149976401/?insideModal=1#c485624149159035827
 
 ### Shortcuts
 
