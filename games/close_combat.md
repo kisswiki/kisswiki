@@ -28,3 +28,4 @@
 - space
 - shift+click
 - x
+- mouse wheel - cycle in squads
