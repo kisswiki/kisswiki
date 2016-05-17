@@ -17,7 +17,7 @@
 
 ### Shortcuts
 
-- click+drag
+- click+drag - move
 - ctrl+u
 - ctrl+
 - f5
