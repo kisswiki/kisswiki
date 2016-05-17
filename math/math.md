@@ -5,4 +5,5 @@
   - Mathematics: Its Content, Methods and Meaning by Kolmogorov et al. This is a readable summary by the top Soviet mathematicians, and as the Soviets had no copyright it is incredibly inexpensive. If you have mastered this, you are pretty well prepared for anything.
 - http://steve-yegge.blogspot.de/2006/03/math-for-programmers.html
 - http://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain
+  - Proofs without Words: Exercises in Visual Thinking http://www.amazon.com/dp/0883857006/
 - τ http://tauday.com/tau-manifesto
