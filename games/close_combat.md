@@ -16,6 +16,7 @@
 - http://www.closecombat.org/
 - suppression fire - ogień zaporowy, tłumiący
 - Note that when selecting your platoons, you can unselect the second and third(support) which will leave you with only one, the first platoon. The number of squads (men) of this platoon is based on the Mission Settings for troop strength. Recruit setting will give you more soldiers and less experience, whereas elite will give you fewer soldiers with more experience. http://steamcommunity.com/app/297750/discussions/0/522729358949340251/#c522729359083473378
+- C:\Program Files (x86)\Steam\steamapps\common\Close Combat  Panthers in the Fog\Manuals
 
 ### Shortcuts
 
