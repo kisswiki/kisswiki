@@ -46,3 +46,5 @@ An Instance, is an Instance of the RDBMS software. An instance MOUNTS a controlf
 A database has a name, the db_name, and (optionally) a domain (db_domain) --> together global_db_name. Now imagine you're replicating (DataGuard) your database. You'd like to keep the DB_name the same, right? (I mean: data-wise, it's the SAME database) But then how to identify the two 'versions' of your database? Enter ' DB_UNIQUE_NAME'.
 
 http://serverfault.com/questions/49509/oracle-difference-between-sid-db-name-db-domain-global-database-name-service/51944#51944
+
+The SID is a site identifier https://asktom.oracle.com/pls/asktom/f?p=100:11:0::NO::P11_QUESTION_ID:318216852435
