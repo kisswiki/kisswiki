@@ -36,3 +36,13 @@ SQL>quit
 ```
 
 http://stackoverflow.com/questions/142868/change-oracle-port-from-port-8080
+
+## SID
+
+SID - The name of your instance.
+
+An Instance, is an Instance of the RDBMS software. An instance MOUNTS a controlfile, (alter database mount) In this controfile are written the location of the datafiles. the collection of datafiles (okay, and the controlfile(s) ) == the database.
+
+A database has a name, the db_name, and (optionally) a domain (db_domain) --> together global_db_name. Now imagine you're replicating (DataGuard) your database. You'd like to keep the DB_name the same, right? (I mean: data-wise, it's the SAME database) But then how to identify the two 'versions' of your database? Enter ' DB_UNIQUE_NAME'.
+
+http://serverfault.com/questions/49509/oracle-difference-between-sid-db-name-db-domain-global-database-name-service/51944#51944
