@@ -1,5 +1,7 @@
 # Oracle
 
+- create user http://stackoverflow.com/questions/9447492/how-to-create-a-user-in-oracle-11g-and-grant-permissions
+
 ## localhost:8080 already in use
 
 Let's find out what occupies 8080
