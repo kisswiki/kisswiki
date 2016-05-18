@@ -52,3 +52,10 @@ http://serverfault.com/questions/49509/oracle-difference-between-sid-db-name-db-
 The SID is a site identifier https://asktom.oracle.com/pls/asktom/f?p=100:11:0::NO::P11_QUESTION_ID:318216852435
 
 namespace - me :D
+
+## command line
+
+```
+echo -e "drop user paab cascade; \n drop user paabwork cascade;" | sqlplus -s system/${ORACLE_SYSTEM_PASSWORD}@localhost:1521/xe
+exit | sqlplus -s system/${ORACLE_SYSTEM_PASSWORD}@localhost:1521/xe @usersPAAB.sql
+```
