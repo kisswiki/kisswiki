@@ -48,3 +48,5 @@ A database has a name, the db_name, and (optionally) a domain (db_domain) --> to
 http://serverfault.com/questions/49509/oracle-difference-between-sid-db-name-db-domain-global-database-name-service/51944#51944
 
 The SID is a site identifier https://asktom.oracle.com/pls/asktom/f?p=100:11:0::NO::P11_QUESTION_ID:318216852435
+
+namespace - me :D
