@@ -67,3 +67,6 @@ select * from dba_roles;
 select * from dba_users;
 select username from dba_users;
 ```
+
+- http://stackoverflow.com/questions/20725581/how-to-list-all-the-roles-existing-in-oracle-database
+- http://stackoverflow.com/questions/22451252/how-to-find-the-users-list-in-oracle-11g-db
