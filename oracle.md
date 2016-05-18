@@ -59,3 +59,11 @@ namespace - me :D
 echo -e "drop user paab cascade; \n drop user paabwork cascade;" | sqlplus -s system/${ORACLE_SYSTEM_PASSWORD}@localhost:1521/xe
 exit | sqlplus -s system/${ORACLE_SYSTEM_PASSWORD}@localhost:1521/xe @usersPAAB.sql
 ```
+
+## get users and roles
+
+```
+select * from dba_roles;
+select * from dba_users;
+select username from dba_users;
+```
