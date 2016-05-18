@@ -1,6 +1,5 @@
 - http://math.stackexchange.com/questions/275/best-maths-books-for-non-mathematicians
   - What Is Mathematics? An Elementary Approach to Ideas and Methods - for adults who have not had a math class for a few decades, but are open to the idea of learning more about mathematics
-  - My favorite of all books I have ever read, or otherwise examined, is "What is Mathematics" by Courant and Robbins. A much more recent book is Math Overboard! (Basic Math for Adults) Part 1 by Colin W. Clark http://www.math.utah.edu/~pa/math.html
 - http://math.stackexchange.com/questions/69060/what-is-a-good-book-for-learning-math-from-the-ground-up
   - Journey Through Genius - A brilliant combination of interesting storytelling and large amounts of actual Mathematics. It took my love of Maths to a whole other level.
   - Mathematics: Its Content, Methods and Meaning by Kolmogorov et al. This is a readable summary by the top Soviet mathematicians, and as the Soviets had no copyright it is incredibly inexpensive. If you have mastered this, you are pretty well prepared for anything.
@@ -8,3 +7,6 @@
 - http://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain
   - Proofs without Words: Exercises in Visual Thinking http://www.amazon.com/dp/0883857006/
 - τ http://tauday.com/tau-manifesto
+- My favorite of all books I have ever read, or otherwise examined, is "What is Mathematics" by Courant and Robbins. A much more recent book is Math Overboard! (Basic Math for Adults) Part 1 by Colin W. Clark http://www.math.utah.edu/~pa/math.html
+  - Part 1 https://www.amazon.com/dp/B00GUTGWWU
+  - Part2 https://www.amazon.com/dp/B00GUT7EFO/
