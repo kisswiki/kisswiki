@@ -11,3 +11,7 @@ var formattedToday = today.toLocaleDateString() + today.toLocaleTimeString();
 ```
 
 http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date/35303057#35303057
+
+## date to unix timestamp
+
+`Math.floor(Date.now() / 1000)`
