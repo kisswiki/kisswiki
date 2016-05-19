@@ -16,4 +16,5 @@ http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date/35303
 
 `Math.floor(Date.now() / 1000)`
 
-http://stackoverflow.com/questions/221294/how-do-you-get-a-timestamp-in-javascript
+- http://stackoverflow.com/questions/221294/how-do-you-get-a-timestamp-in-javascript
+- http://stackoverflow.com/questions/9756120/how-do-i-get-a-utc-timestamp-in-javascript
