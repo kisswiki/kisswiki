@@ -22,3 +22,5 @@ http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date/35303
 ## unix timestamp to Date
 
 `var date = new Date(unix timestamp * 1000)`
+
+http://stackoverflow.com/questions/847185/convert-a-unix-timestamp-to-time-in-javascript
