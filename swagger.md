@@ -9,7 +9,7 @@
 - https://github.com/Gi60s/swagger-response
 - http://swagger.io/specification/
 - https://help.apiary.io/api_101/swagger-tutorial/
-- http://bfanger.github.io/swagger-explained/#/swaggerObject
+- http://bfanger.github.io/swagger-explained/
 
 ## Cons
 
