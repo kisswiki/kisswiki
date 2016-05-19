@@ -4,3 +4,5 @@
 - https://coffitivity.com/
 - http://noiz.io/
 - https://brain.fm/
+- http://www.rainymood.com/
+- http://asoftmurmur.com/
