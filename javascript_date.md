@@ -12,9 +12,13 @@ var formattedToday = today.toLocaleDateString() + today.toLocaleTimeString();
 
 http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date/35303057#35303057
 
-## date to unix timestamp
+## Date to unix timestamp
 
-`Math.floor(Date.now() / 1000)`
+`var unix timestamp = Math.floor(Date.now() / 1000)`
 
 - http://stackoverflow.com/questions/221294/how-do-you-get-a-timestamp-in-javascript
 - http://stackoverflow.com/questions/9756120/how-do-i-get-a-utc-timestamp-in-javascript
+
+## unix timestamp to Date
+
+`var date = new Date(unix timestamp * 1000)`
