@@ -2,3 +2,5 @@
 - http://www.noisli.com/
 - https://www.calm.com/
 - https://coffitivity.com/
+- http://noiz.io/
+- https://brain.fm/
