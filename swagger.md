@@ -10,6 +10,8 @@
 - http://swagger.io/specification/
 - https://help.apiary.io/api_101/swagger-tutorial/
 - http://bfanger.github.io/swagger-explained/
+- http://stackoverflow.com/questions/32502026/create-complex-types-definitions-in-swagger
+- http://stackoverflow.com/questions/30655552/swagger-specification-for-anything-other-than-http-get
 
 ## Cons
 
