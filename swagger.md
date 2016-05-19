@@ -23,3 +23,9 @@ https://dzone.com/articles/swagger-great
 - https://dzone.com/articles/how-configure-swagger-generate
 - https://github.com/flickr/flickr-api-swagger
 - https://www.flickr.com/services/api/explore/flickr.activity.userComments
+
+## operationId
+
+operationId: This refers to the function, in the controller, in charge of the business logic.
+
+https://scotch.io/tutorials/speed-up-your-restful-api-development-in-node-js-with-swagger
