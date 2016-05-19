@@ -5,6 +5,9 @@
 - https://github.com/swagger-api/swagger-node/blob/master/docs/quick-start.md (on Windows use cmd.exe - bash doesn't work, type 2 and enter to use express)
 - https://scotch.io/tutorials/speed-up-your-restful-api-development-in-node-js-with-swagger
 - https://github.com/Gi60s/swagger-response
+- http://swagger.io/specification/
+- https://help.apiary.io/api_101/swagger-tutorial/
+- http://bfanger.github.io/swagger-explained/#/swaggerObject
 
 ## Cons
 
