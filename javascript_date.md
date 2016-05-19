@@ -15,3 +15,5 @@ http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date/35303
 ## date to unix timestamp
 
 `Math.floor(Date.now() / 1000)`
+
+http://stackoverflow.com/questions/221294/how-do-you-get-a-timestamp-in-javascript
