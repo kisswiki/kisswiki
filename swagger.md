@@ -2,16 +2,27 @@
 
 - http://stackoverflow.com/questions/tagged/swagger
 - https://swaggerhub.com
-- https://github.com/swagger-api/swagger-node
-  - https://github.com/swagger-api/swagger-node/blob/master/docs/quick-start.md (on Windows use cmd.exe - bash doesn't work, type 2 and enter to use express)
-  - https://github.com/swagger-api/swagger-node/blob/master/docs/swagger-file.md
-- https://scotch.io/tutorials/speed-up-your-restful-api-development-in-node-js-with-swagger
 - https://github.com/Gi60s/swagger-response
 - http://swagger.io/specification/
 - https://help.apiary.io/api_101/swagger-tutorial/
 - http://bfanger.github.io/swagger-explained/
 - http://stackoverflow.com/questions/32502026/create-complex-types-definitions-in-swagger
 - http://stackoverflow.com/questions/30655552/swagger-specification-for-anything-other-than-http-get
+
+## quick start
+
+```
+$ swagger project create hello-world
+$ cd hello-world
+$ swagger project edit
+$ swagger project start
+$ curl http://127.0.0.1:10010/hello?name=Scott
+```
+
+- https://github.com/swagger-api/swagger-node
+  - https://github.com/swagger-api/swagger-node/blob/master/docs/quick-start.md (on Windows use cmd.exe - bash doesn't work, type 2 and enter to use express)
+  - https://github.com/swagger-api/swagger-node/blob/master/docs/swagger-file.md
+- https://scotch.io/tutorials/speed-up-your-restful-api-development-in-node-js-with-swagger
 
 ## Cons
 
