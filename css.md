@@ -19,3 +19,4 @@
   - https://18f.gsa.gov/2016/01/11/introducing-the-css-coding-style-guide/
 - http://cssdb.co/
 - flexbox and grid http://www.thedotpost.com/2015/12/rachel-andrew-the-new-css-layout
+- disable text select http://stackoverflow.com/questions/826782/css-rule-to-disable-text-selection-highlighting
