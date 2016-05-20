@@ -60,6 +60,8 @@ echo -e "drop user paab cascade; \n drop user paabwork cascade;" | sqlplus -s sy
 exit | sqlplus -s system/${ORACLE_SYSTEM_PASSWORD}@localhost:1521/xe @usersPAAB.sql
 ```
 
+http://stackoverflow.com/questions/1639704/sqlplus-statement-from-command-line/20640697#20640697
+
 ## get users and roles
 
 ```
@@ -70,3 +72,15 @@ select username from dba_users;
 
 - http://stackoverflow.com/questions/20725581/how-to-list-all-the-roles-existing-in-oracle-database
 - http://stackoverflow.com/questions/22451252/how-to-find-the-users-list-in-oracle-11g-db
+
+## dual table
+
+It is a dummy table with one element in it. It is useful because Oracle doesn't allow statements like
+
+`SELECT 3+4`
+
+You can work around this restriction by writing
+
+`SELECT 3+4 FROM DUAL`
+
+http://stackoverflow.com/questions/73751/what-is-the-dual-table-in-oracle/73793#73793
