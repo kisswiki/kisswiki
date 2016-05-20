@@ -44,3 +44,19 @@ https://dzone.com/articles/swagger-great
 operationId: This refers to the function, in the controller, in charge of the business logic.
 
 https://scotch.io/tutorials/speed-up-your-restful-api-development-in-node-js-with-swagger
+
+## Windows users
+
+For some versions of npm on Windows will have problems on the npm install step of swagger project create. They are related to a debug module on npm not being managed properly. The following steps should resolve this issue:
+
+In the project directory, execute the following commands:
+
+```
+npm install yamljs
+npm install debug
+npm install swagger-tools
+```
+
+Now, when you run swagger project start your project should start successfully.
+
+https://github.com/swagger-api/swagger-node/blob/master/docs/quick-start.md
