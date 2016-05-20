@@ -70,3 +70,9 @@ It delays calling apply on http responses and chunks the multiple responses into
 - https://docs.angularjs.org/guide/production
 - https://ng-perf.com/
 - http://orizens.com/wp/topics/environment-configuration-with-angular-js-es2015-es6-browserify/
+
+## format date from unix time stamp
+
+`{{contract.start_date_unix * 1000 | date:'MM-dd-yyyy'}}`
+
+http://stackoverflow.com/questions/25534721/angularjs-unixtime-to-datetime-format-with-date-filter-failed
