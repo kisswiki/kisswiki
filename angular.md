@@ -5,7 +5,7 @@
 - $parse is like eval but you can pass it a context https://umur.io/advanced-angular-parse/
 - $scope http://jsfiddle.net/simpulton/SPMfT/
 - alert in ng-click: `$scope.alert = alert.bind(window);` and `ng-click="test(game)"` http://stackoverflow.com/questions/25907383/use-alert-from-ng-click-of-a-directive
-- ng-repeat and label http://stackoverflow.com/questions/16887012/angular-directive-ng-repeat-to-generate-pair-of-elements-inputspan
+- ng-repeat and label: `<label for="UNIQUELABEL{{$id}}">name</label><input  id="UNIQUELABEL{{$id}}">` http://stackoverflow.com/questions/14663397/how-to-use-labels-inside-loops-with-angularjs
 
 ## compile, post, pre
 
