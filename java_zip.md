@@ -8,3 +8,4 @@
 - https://github.com/rubyzip/rubyzip/wiki/Files-with-non-ascii-filenames
 - http://stackoverflow.com/questions/19997312/german-letters-and-encoding-in-c-sharp
 - http://stackoverflow.com/questions/22775758/java-io-file-accessing-files-with-invalid-filename-encodings
+- Character Sets Used in File Names https://msdn.microsoft.com/en-us/library/windows/desktop/dd317748(v=vs.85).aspx
