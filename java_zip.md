@@ -11,3 +11,4 @@
 - Character Sets Used in File Names https://msdn.microsoft.com/en-us/library/windows/desktop/dd317748(v=vs.85).aspx
 - http://superuser.com/questions/327816/convert-file-names-into-utf
 - https://marcosc.com/2008/12/zip-files-and-encoding-i-hate-you/
+- http://stackoverflow.com/questions/106367/add-non-ascii-file-names-to-zip-in-java
