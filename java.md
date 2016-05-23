@@ -1,0 +1,1 @@
+- loop over list: `for (E element : list) { }` http://stackoverflow.com/questions/18410035/ways-to-iterate-over-a-list-in-java
