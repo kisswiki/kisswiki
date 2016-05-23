@@ -1,0 +1,1 @@
+- http://lifehacker.com/the-power-of-going-it-alone-1776843438
