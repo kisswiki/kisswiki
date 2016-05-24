@@ -39,3 +39,4 @@
 - My favorite of all books I have ever read, or otherwise examined, is "What is Mathematics" by Courant and Robbins. A much more recent book is Math Overboard! (Basic Math for Adults) Part 1 by Colin W. Clark http://www.math.utah.edu/~pa/math.html
   - Part 1 https://www.amazon.com/dp/B00GUTGWWU
   - Part2 https://www.amazon.com/dp/B00GUT7EFO/
+- Mathematics is an attempt to model reality but its formalism is a human construct https://www.quantamagazine.org/20150519-will-computers-redefine-the-roots-of-math/#comment-347147
