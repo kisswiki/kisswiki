@@ -7,6 +7,7 @@
 - alert in ng-click: `$scope.alert = alert.bind(window);` and `ng-click="test(game)"` http://stackoverflow.com/questions/25907383/use-alert-from-ng-click-of-a-directive
 - ng-repeat and label: `<label for="UNIQUELABEL{{$id}}">name</label><input  id="UNIQUELABEL{{$id}}">` http://stackoverflow.com/questions/14663397/how-to-use-labels-inside-loops-with-angularjs
 - Clear button in input doesn't update model in ie 9-11 from angular 1.3.6. Need to hide http://stackoverflow.com/questions/14007655/remove-ie10s-clear-field-x-button-on-certain-inputs https://github.com/angular/angular.js/issues/11193#issuecomment-167243824
+- ng-repeat causes flickering: `ng-repeat="channel in UIModel.channels track by $index"` http://stackoverflow.com/questions/24144970/angular-ng-repeat-causes-flickering
 
 ## compile, post, pre
 
