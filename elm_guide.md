@@ -6,7 +6,20 @@
 - https://www.cis.upenn.edu/~matuszek/Concise%20Guides/Concise%20Elm.html
 - http://package.elm-lang.org/packages/elm-lang/core/latest/String
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Char
-- elm make, elm reactor, elm repl http://stackoverflow.com/questions/34375446/type-annotations-in-elm-repl
+- elm make, elm reactor
+
+## elm repl
+
+- http://stackoverflow.com/questions/34375446/type-annotations-in-elm-repl
+
+Multiline:
+
+1. type `over9000 powerLevel = \`
+2. press Enter, Space, Space
+3. type `if powerLevel > 9000 then "It's over 9000!!!" else "meh"`
+4. press Enter
+
+https://github.com/elm-lang/elm-repl/issues/67#issuecomment-125012923
 
 ## True and False
 
