@@ -2,6 +2,12 @@
 
 http://guide.elm-lang.org/
 
+## Installing Html
+
+`elm package install elm-lang/html`
+
+http://stackoverflow.com/questions/34201205/elm-cannot-find-module
+
 ## Tagging function
 
 2.1.2. Text Fields
