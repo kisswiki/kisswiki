@@ -370,5 +370,4 @@ userPhoto user =
 photos : List String
 photos =
   List.map userPhoto activeUsers
-
 ```
