@@ -46,6 +46,9 @@ photos =
 | &&         | &&   |
 | \|\|       | \|\| |
 
+- https://github.com/izdi/elm-cheat-sheet#operators
+- https://elm-community.github.io/elm-faq/operators.html
+
 ## Char.isLower and Char.isUpper only recognize ASCII letters
 
 https://github.com/elm-lang/core/pull/385
