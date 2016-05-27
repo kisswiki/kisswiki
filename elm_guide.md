@@ -6,7 +6,8 @@ http://guide.elm-lang.org/
 
 `elm package install elm-lang/html`
 
-http://stackoverflow.com/questions/34201205/elm-cannot-find-module
+- http://stackoverflow.com/questions/34201205/elm-cannot-find-module
+- package.elm-lang.org/packages/elm-lang/html/latest/
 
 ## Tagging function
 
