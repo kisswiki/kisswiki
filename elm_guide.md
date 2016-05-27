@@ -1,6 +1,14 @@
 # Elm Guide
 
-http://guide.elm-lang.org/
+- http://guide.elm-lang.org/
+- http://elm-lang.org/docs/syntax
+- package.elm-lang.org/packages/elm-lang/core/latest/Basics
+
+## True and False
+
+> Elm does not have the notion of “truthiness”.
+> The condition must evaluate to True or False, and nothing else.
+> - https://github.com/izdi/elm-cheat-sheet#if
 
 ## Installing Html
 
