@@ -109,6 +109,9 @@ isUpper c =
 > values which aren't dependant on another value in the same scope get processed bottom-up. When a value relies on another value within the same scope, it is handled separately and put at the bottom.
 > - http://stackoverflow.com/questions/33476943/why-debug-log-prints-out-in-reversed-order-in-elm
 
+> Let these values be so and so in the following expression
+> - https://www.reddit.com/r/elm/comments/3jpnhb/what_is_let_in/
+
 ## Debug
 
 ```
