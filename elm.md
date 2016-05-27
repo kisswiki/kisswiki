@@ -371,3 +371,13 @@ photos : List String
 photos =
   List.map userPhoto activeUsers
 ```
+
+## Multiline function
+
+```
+isUpper c =
+  let
+    s = String.fromChar c
+  in
+    s == String.toUpper s && s /= String.toLower s
+```
