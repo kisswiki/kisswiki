@@ -9,7 +9,7 @@ http://guide.elm-lang.org/
 - http://stackoverflow.com/questions/34201205/elm-cannot-find-module
 - package.elm-lang.org/packages/elm-lang/html/latest/
 
-## Tagging function
+## Tagging function and Union Types
 
 2.1.2. Text Fields
 
