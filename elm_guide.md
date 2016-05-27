@@ -37,7 +37,7 @@ photos =
   List.map userPhoto activeUsers
 ```
 
-## Multiline function
+## Multiline function (let ... in)
 
 ```
 isUpper c =
