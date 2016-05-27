@@ -107,6 +107,8 @@ isUpper c =
 
 ## Debug
 
+- http://package.elm-lang.org/packages/elm-lang/core/latest/Debug
+
 ## Loop
 
 No loop, use List.map etc.
