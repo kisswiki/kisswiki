@@ -103,3 +103,11 @@ isUpper c =
 > The most common form of a local definition is a function argument. Exactly like JavaScript, any argument is visible from anywhere inside the function.
 > The other form of local definitions are created using a let... in... statement
 > - https://github.com/elm-guides/elm-for-js/blob/master/Scope.md
+
+## Debug
+
+## Loop
+
+No loop, use List.map etc.
+
+- https://groups.google.com/forum/#!topic/elm-discuss/E2mgQnQWD3c
