@@ -10,3 +10,9 @@ Set homepage as `about:blank`.
 4. Double-click the browser.newtab.url preference and change the url to about:blank
 
 https://support.mozilla.org/en-US/questions/963855
+
+## Reader View
+
+- wider margins: install Better Reader. It enhances embeded Reader with more options
+  - https://addons.mozilla.org/en-US/firefox/addon/better-reader/
+  - http://www.ghacks.net/2015/11/07/better-reader-improves-firefoxs-reader-mode/
