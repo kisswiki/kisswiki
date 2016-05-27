@@ -2,7 +2,7 @@
 
 - http://guide.elm-lang.org/
 - http://elm-lang.org/docs/syntax
-- - package.elm-lang.org/packages/elm-lang/core/latest/Basics
+- package.elm-lang.org/packages/elm-lang/core/latest/Basics
 - https://www.cis.upenn.edu/~matuszek/Concise%20Guides/Concise%20Elm.html
 
 ## True and False
