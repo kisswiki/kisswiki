@@ -1,1 +1,3 @@
 - http://stackoverflow.com/questions/5103083/ssh-in-git-behind-proxy-on-windows-7
+- https://www.privacytools.io/
+- https://thatoneprivacysite.net/vpn-comparison-chart/
