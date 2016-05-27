@@ -106,6 +106,9 @@ isUpper c =
 > The other form of local definitions are created using a let... in... statement
 > - https://github.com/elm-guides/elm-for-js/blob/master/Scope.md
 
+> values which aren't dependant on another value in the same scope get processed bottom-up. When a value relies on another value within the same scope, it is handled separately and put at the bottom.
+> - http://stackoverflow.com/questions/33476943/why-debug-log-prints-out-in-reversed-order-in-elm
+
 ## Debug
 
 ```
