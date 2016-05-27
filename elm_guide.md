@@ -6,7 +6,7 @@
 - https://www.cis.upenn.edu/~matuszek/Concise%20Guides/Concise%20Elm.html
 - http://package.elm-lang.org/packages/elm-lang/core/latest/String
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Char
-- elm make, elm reactor, elm repl
+- elm make, elm reactor, elm repl http://stackoverflow.com/questions/34375446/type-annotations-in-elm-repl
 
 ## True and False
 
