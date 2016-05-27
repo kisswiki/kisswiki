@@ -49,6 +49,7 @@ photos =
 
 - https://github.com/izdi/elm-cheat-sheet#operators
 - https://elm-community.github.io/elm-faq/operators.html
+- https://www.cis.upenn.edu/~matuszek/Concise%20Guides/Concise%20Elm.html
 
 ## Char.isLower and Char.isUpper only recognize ASCII letters
 
