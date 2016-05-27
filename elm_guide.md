@@ -37,6 +37,13 @@ photos =
   List.map userPhoto activeUsers
 ```
 
+## Operator
+
+| javascript | elm |
+| --- | --- |
+
+
+
 ## Multiline function (let ... in ...)
 
 ```
