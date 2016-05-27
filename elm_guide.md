@@ -37,14 +37,14 @@ photos =
   List.map userPhoto activeUsers
 ```
 
-## Operator
+## Operators
 
 | javascript | elm  |
 | ---        | ---  |
 | !==        | /=   |
 | !          | not  |
 | &&         | &&   |
-| \|\|       | \|\| | 
+| \|\|       | \|\| |
 
 
 
