@@ -39,12 +39,13 @@ photos =
 
 ## Operators
 
-| javascript | elm  |
-| ---        | ---  |
-| !==        | /=   |
-| !          | not  |
-| &&         | &&   |
-| \|\|       | \|\| |
+| javascript | elm  | notice |
+| ---        | ---  | ---    |
+| !==        | /=   | |
+| !          | not  | |
+| &&         | &&   | |
+| \|\|       | \|\| | |
+| +          | ++   | on strings |
 
 - https://github.com/izdi/elm-cheat-sheet#operators
 - https://elm-community.github.io/elm-faq/operators.html
