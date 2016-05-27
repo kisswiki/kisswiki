@@ -25,6 +25,7 @@ not False == True
 
 `elm package install elm-lang/html`
 
+- https://elm-community.github.io/elm-faq/#why-does-elm-repl-or-elm-make-report-cannot-find-module-html
 - http://stackoverflow.com/questions/34201205/elm-cannot-find-module
 - http://stackoverflow.com/questions/37454562/elm-get-started-documentation-cannot-find-module
 - package.elm-lang.org/packages/elm-lang/html/latest/
