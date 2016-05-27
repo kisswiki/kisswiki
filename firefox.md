@@ -16,3 +16,4 @@ https://support.mozilla.org/en-US/questions/963855
 - wider margins: install Better Reader. It enhances embeded Reader with more options
   - https://addons.mozilla.org/en-US/firefox/addon/better-reader/
   - http://www.ghacks.net/2015/11/07/better-reader-improves-firefoxs-reader-mode/
+- https://userstyles.org/styles/114669/firefox-reader-custom-width-multi-column
