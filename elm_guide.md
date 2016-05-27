@@ -4,6 +4,7 @@
 - http://elm-lang.org/docs/syntax
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Basics
 - https://www.cis.upenn.edu/~matuszek/Concise%20Guides/Concise%20Elm.html
+- http://package.elm-lang.org/packages/elm-lang/core/latest/String
 
 ## True and False
 
