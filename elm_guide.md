@@ -46,6 +46,7 @@ photos =
 | &&         | &&   |
 | \|\|       | \|\| |
 
+## Char.isLower and Char.isUpper only recognize ASCII letters
 
 
 ## Multiline function (let ... in ...)
