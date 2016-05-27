@@ -47,4 +47,9 @@ isUpper c =
     s == String.toUpper s && s /= String.toLower s
 ```
 
-- http://www.lambdacat.com/road-to-elm-let-and-in/
+> In an imperative language you can get away with sprinkling your variables all over the place. Nothing is enforcing their placement in a particular place in the code.
+>
+> In many functional languages the variables you need for a specific function are defined in a let, and then they are in scope only for the code between the let and the end of the function.
+>
+> Also the in part must evaluate to one expression, you can't just write line after line in it.
+> - http://www.lambdacat.com/road-to-elm-let-and-in/
