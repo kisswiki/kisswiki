@@ -39,8 +39,12 @@ photos =
 
 ## Operator
 
-| javascript | elm |
-| --- | --- |
+| javascript | elm  |
+| ---        | ---  |
+| !==        | /=   |
+| !          | not  |
+| &&         | &&   |
+| \|\|       | \|\| | 
 
 
 
