@@ -48,6 +48,7 @@ photos =
 
 ## Char.isLower and Char.isUpper only recognize ASCII letters
 
+https://github.com/elm-lang/core/pull/385
 
 ## Multiline function (let ... in ...)
 
