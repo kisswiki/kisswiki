@@ -4,6 +4,7 @@
   - most contributions http://git.io/top https://gist.github.com/paulmillr/2657075/
 - https://github.com/tiimgreen/github-cheat-sheet
 - markdown
+  - https://help.github.com/categories/writing-on-github/
   - https://github.com/tchapi/markdown-cheatsheet
   - https://gist.github.com/micmcg/976172
   - new line inside list - use two spaces after line and indent next line with at least one space [source](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)
