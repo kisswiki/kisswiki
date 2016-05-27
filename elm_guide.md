@@ -108,6 +108,7 @@ isUpper c =
 ## Debug
 
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Debug
+- http://jaketrent.com/post/debug-locally-elm/
 
 ## Loop
 
