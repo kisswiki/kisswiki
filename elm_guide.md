@@ -48,8 +48,10 @@ isUpper c =
 ```
 
 > In an imperative language you can get away with sprinkling your variables all over the place. Nothing is enforcing their placement in a particular place in the code.
->
 > In many functional languages the variables you need for a specific function are defined in a let, and then they are in scope only for the code between the let and the end of the function.
->
 > Also the in part must evaluate to one expression, you can't just write line after line in it.
 > - http://www.lambdacat.com/road-to-elm-let-and-in/
+
+> The most common form of a local definition is a function argument. Exactly like JavaScript, any argument is visible from anywhere inside the function.
+> The other form of local definitions are created using a let... in... statement
+> - https://github.com/elm-guides/elm-for-js/blob/master/Scope.md
