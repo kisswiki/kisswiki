@@ -2,9 +2,15 @@
 
 - http://guide.elm-lang.org/
 - http://elm-lang.org/docs/syntax
-- package.elm-lang.org/packages/elm-lang/core/latest/Basics
 
 ## True and False
+
+```
+not True == False
+not False == True
+```
+
+- package.elm-lang.org/packages/elm-lang/core/latest/Basics
 
 > Elm does not have the notion of “truthiness”.
 > The condition must evaluate to True or False, and nothing else.
