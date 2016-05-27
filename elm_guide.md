@@ -113,6 +113,8 @@ isUpper c =
 > "Let these values be so and so in the following expression"
 > - https://www.reddit.com/r/elm/comments/3jpnhb/what_is_let_in/
 
+- http://stackoverflow.com/questions/37101583/elm-executing-multiple-lines-in-a-function
+
 ## Debug
 
 ```
