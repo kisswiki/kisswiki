@@ -26,6 +26,7 @@ not False == True
 `elm package install elm-lang/html`
 
 - http://stackoverflow.com/questions/34201205/elm-cannot-find-module
+- http://stackoverflow.com/questions/37454562/elm-get-started-documentation-cannot-find-module
 - package.elm-lang.org/packages/elm-lang/html/latest/
 
 ## Destructuring (or pattern matching)
