@@ -37,7 +37,7 @@ photos =
   List.map userPhoto activeUsers
 ```
 
-## Multiline function (let ... in)
+## Multiline function (let ... in ...)
 
 ```
 isUpper c =
@@ -46,3 +46,5 @@ isUpper c =
   in
     s == String.toUpper s && s /= String.toLower s
 ```
+
+- http://www.lambdacat.com/road-to-elm-let-and-in/
