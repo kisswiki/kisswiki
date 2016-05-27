@@ -107,6 +107,12 @@ isUpper c =
 
 ## Debug
 
+```
+import Debug
+_ = Debug.log "my message" someValue
+```
+
+- https://elm-community.github.io/elm-faq/#how-can-i-write-debugging-information-to-the-console
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Debug
 - http://jaketrent.com/post/debug-locally-elm/
 
