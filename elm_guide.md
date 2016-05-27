@@ -116,6 +116,7 @@ _ = Debug.log "my message" someValue
 - https://elm-community.github.io/elm-faq/#how-can-i-write-debugging-information-to-the-console
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Debug
 - http://jaketrent.com/post/debug-locally-elm/
+- http://stackoverflow.com/questions/33476943/why-debug-log-prints-out-in-reversed-order-in-elm
 
 ## Loop
 
