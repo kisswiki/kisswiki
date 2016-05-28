@@ -133,6 +133,12 @@ isUpper c =
 ```
 import Debug
 _ = Debug.log "my message" someValue
+
+update : Msg -> Model -> Model
+update action model =
+  case action of
+    Send ->
+      Debug.log "model" model
 ```
 
 - https://elm-community.github.io/elm-faq/#how-can-i-write-debugging-information-to-the-console
