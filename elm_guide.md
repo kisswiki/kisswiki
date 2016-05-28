@@ -151,3 +151,8 @@ update action model =
 No loop, use List.map etc.
 
 - https://groups.google.com/forum/#!topic/elm-discuss/E2mgQnQWD3c
+
+## FRP
+
+Model is state
+Msg is event
