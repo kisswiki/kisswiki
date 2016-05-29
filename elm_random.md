@@ -8,6 +8,7 @@
 - https://github.com/TheSeamau5/elm-check/wiki/Guide-to-Writing-Your-Own-Random-Generators
 - http://package.elm-lang.org/packages/elm-community/elm-random-extra/latest/Random-Array
 - http://package.elm-lang.org/packages/mgold/elm-random-pcg/latest/
+- https://github.com/blacktaxi/pwdgen-elm/tree/30b96b8e49d685e3bf3842f0353c399e26fe2dc4
 
 ## Random in 0.17 and purity
 
