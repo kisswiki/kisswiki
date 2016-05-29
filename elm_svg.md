@@ -1,0 +1,1 @@
+- idiomatic use of elm-svg https://github.com/etaque/tacks/tree/v2/client/src/Game/Render
