@@ -34,3 +34,4 @@
   - Elm 0.17
     - https://gist.github.com/pdamoc/fd29925b8e20dd92e91c5b75e6c3711e
     - https://groups.google.com/forum/#!topic/elm-discuss/1aQLki2sUrY
+- Roguelike https://github.com/sindikat/roguelike
