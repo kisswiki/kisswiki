@@ -12,6 +12,7 @@
 - https://github.com/blacktaxi/elm-random-secure
 - http://reversemicrowave.me/blog/2016/03/04/elm-secure-random/
 - https://github.com/jcollard/elm-random
+- https://github.com/jcollard/generator
 
 ## Random in 0.17 and purity
 
