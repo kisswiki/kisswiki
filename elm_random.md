@@ -7,6 +7,7 @@
   - http://stackoverflow.com/questions/28606248/what-is-the-correct-way-of-initializing-an-elm-application/
 - https://github.com/TheSeamau5/elm-check/wiki/Guide-to-Writing-Your-Own-Random-Generators
 - http://package.elm-lang.org/packages/elm-community/elm-random-extra/latest/Random-Array
+- http://package.elm-lang.org/packages/mgold/elm-random-pcg/latest/
 
 ## Random in 0.17 and purity
 
