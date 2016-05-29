@@ -1,3 +1,3 @@
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Random
-- https://evancz.gitbooks.io/an-introduction-to-elm/content/architecture/effects/random.html
+- http://guide.elm-lang.org/architecture/effects/random.html
 - https://github.com/jcollard/random-examples
