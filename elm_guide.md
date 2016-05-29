@@ -156,3 +156,7 @@ No loop, use List.map etc.
 
 Model is state
 Msg is event
+
+## Random - two dices
+
+http://stackoverflow.com/questions/37227421/how-do-i-add-a-second-die-to-this-elm-effects-example/37505183#37505183

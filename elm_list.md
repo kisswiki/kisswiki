@@ -1,0 +1,4 @@
+- http://stackoverflow.com/questions/23199398/how-do-i-get-a-list-item-by-index-in-elm
+- http://stackoverflow.com/questions/33625335/how-to-get-the-first-index-of-a-given-element-in-array-list-in-elm
+- http://stackoverflow.com/questions/34252924/position-of-element-in-list
+- http://stackoverflow.com/questions/31932683/transpose-in-elm-without-maybe
