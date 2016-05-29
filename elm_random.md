@@ -6,6 +6,7 @@
   - This doc is wrong, wrong, wrong. As you've discovered, there isn't an easy way to get the current timestamp. Use `Math.floor(Math.random()*0xFFFFFFFF)` instead. This gives you a seed that is better sampled over the possible input space. http://stackoverflow.com/questions/35235708/elm-generate-random-number/35414047#35414047
   - http://stackoverflow.com/questions/28606248/what-is-the-correct-way-of-initializing-an-elm-application/
 - https://github.com/TheSeamau5/elm-check/wiki/Guide-to-Writing-Your-Own-Random-Generators
+- http://package.elm-lang.org/packages/elm-community/elm-random-extra/latest/Random-Array
 
 ## Random in 0.17 and purity
 
