@@ -181,7 +181,7 @@ Difference between `<|` and `<<` is that `<<` returns function for later use.
 ```elm
 add x y = x + y
 v1 = 4 |> add 4 |> add 5
-v2 = (add 4 >> add 5 >> times3 >> show) 4
+v2 = (add 4 >> add 5) 4
 ```
 
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Basics
