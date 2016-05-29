@@ -15,6 +15,7 @@
 - http://reversemicrowave.me/blog/2016/03/04/elm-secure-random/
 - https://github.com/jcollard/elm-random
 - https://github.com/jcollard/generator
+- http://elm-by-example.org/chapter8circles.html
 
 ## Random in 0.17 and purity
 
