@@ -1,2 +1,3 @@
 - https://github.com/NoRedInk/take-home/wiki/Writing-Native#should-i-be-writing-native
 - https://github.com/NoRedInk/take-home/wiki/Writing-your-first-Elm-Native-module
+- https://elm-community.github.io/elm-faq/#why-doesnt-the-elm-compiler-find-the-native-code-in-a-module-that-i-cloned-from-github
