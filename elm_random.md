@@ -17,6 +17,7 @@
 - https://github.com/jcollard/generator
 - http://elm-by-example.org/chapter8circles.html
 - https://github.com/NoRedInk/elm-random-extra
+- https://www.reddit.com/r/elm/comments/3vpau7/randomrange_in_modern_elm/
 
 ## Random in 0.17 and purity
 
