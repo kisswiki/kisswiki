@@ -3,7 +3,7 @@
 - https://github.com/jcollard/random-examples
 - Don't use the current time. It's not randomly distributed over the keyspace (of 32 bits, I think)
   - https://groups.google.com/forum/#!topic/elm-discuss/KHkBHaZGWks
-  - use `Math.floor(Math.random()*0xFFFFFFFF)` instead. This gives you a seed that is better sampled over the possible input space. http://stackoverflow.com/questions/35235708/elm-generate-random-number
+  - use `Math.floor(Math.random()*0xFFFFFFFF)` instead. This gives you a seed that is better sampled over the possible input space. http://stackoverflow.com/questions/35235708/elm-generate-random-number/35414047#35414047
 
 ## Random in 0.17 and purity
 
