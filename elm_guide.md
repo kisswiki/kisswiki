@@ -168,7 +168,7 @@ http://stackoverflow.com/questions/37227421/how-do-i-add-a-second-die-to-this-el
 
 ## <| and <<
 
-Difference between <| and << is that << returns function for later use.
+Difference between `<|` and `<<` is that `<<` returns function for later use.
 
 ```
 <| function application
