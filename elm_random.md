@@ -10,6 +10,7 @@
 - http://package.elm-lang.org/packages/mgold/elm-random-pcg/latest/
 - https://github.com/blacktaxi/pwdgen-elm
 - https://github.com/blacktaxi/elm-random-secure
+- http://reversemicrowave.me/blog/2016/03/04/elm-secure-random/
 
 ## Random in 0.17 and purity
 
