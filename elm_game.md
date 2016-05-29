@@ -17,6 +17,7 @@
 - breakout
   - http://daiw.de/games/breakout/
   - https://github.com/Dobiasd/Breakout
+  - https://github.com/kbaba1001/elm-breakout
 - Mario
   - https://github.com/elm-lang/debug.elm-lang.org/blob/master/examples/Mario.elm
   - https://github.com/elm-lang/debug.elm-lang.org/tree/master/resources/imgs/mario
