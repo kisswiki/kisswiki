@@ -1,0 +1,1 @@
+- Canvas performance (redrawing lots of colored rectangles) https://groups.google.com/forum/#!topic/elm-discuss/NwX78Fmxeo0
