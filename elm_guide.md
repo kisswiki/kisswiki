@@ -160,3 +160,8 @@ Msg is event
 ## Random - two dices
 
 http://stackoverflow.com/questions/37227421/how-do-i-add-a-second-die-to-this-elm-effects-example/37505183#37505183
+
+## Int to String
+
+> In Basics (imported by default), there's a toString method which will convert anything into a string
+> - https://groups.google.com/d/msg/elm-discuss/_eSmF5a52qw/VFXF-6MCBAAJ
