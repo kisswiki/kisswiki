@@ -1,0 +1,6 @@
+- http://elm-by-example.org/chapter14snakerevisited.html
+- elm rocket lander
+  - https://blog.wearewizards.io/rocket-lander-in-elm-extra/ship.html
+  - https://github.com/WeAreWizards/elm-rocket-lander
+  - https://blog.wearewizards.io/experience-report-rocket-lander-in-elm
+  - https://news.ycombinator.com/item?id=9068685
