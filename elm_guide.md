@@ -170,8 +170,10 @@ http://stackoverflow.com/questions/37227421/how-do-i-add-a-second-die-to-this-el
 
 Difference between <| and << is that << returns function for later use.
 
+```
 <| function application
 << function composition
 
 (<|) : (a -> b) -> a -> b
 (<<) : (b -> c) -> (a -> b) -> a -> c
+```
