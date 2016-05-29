@@ -9,6 +9,7 @@
 - https://github.com/TheSeamau5/elm-check/wiki/Guide-to-Writing-Your-Own-Random-Generators
 - http://package.elm-lang.org/packages/elm-community/elm-random-extra/latest/Random-Array
 - http://package.elm-lang.org/packages/mgold/elm-random-pcg/latest/
+- http://package.elm-lang.org/packages/mgold/Elm-Random-Sampling/latest/Random-Array
 - https://github.com/blacktaxi/pwdgen-elm
 - https://github.com/blacktaxi/elm-random-secure
 - http://reversemicrowave.me/blog/2016/03/04/elm-secure-random/
