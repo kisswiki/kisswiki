@@ -177,3 +177,6 @@ Difference between `<|` and `<<` is that `<<` returns function for later use.
 (<|) : (a -> b) -> a -> b
 (<<) : (b -> c) -> (a -> b) -> a -> c
 ```
+
+- http://package.elm-lang.org/packages/elm-lang/core/latest/Basics
+- http://stackoverflow.com/questions/27441648/what-does-the-operator-mean-in-elm
