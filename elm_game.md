@@ -27,6 +27,7 @@
   - http://elm-lang.org/blog/making-pong
   - https://github.com/davydog187/elm-pong
   - https://github.com/rmies/fp-ams-elm/blob/master/Pong.elm
+  - https://github.com/r00k/elm-pong
   - Elm 0.17
     - https://gist.github.com/pdamoc/fd29925b8e20dd92e91c5b75e6c3711e
     - https://groups.google.com/forum/#!topic/elm-discuss/1aQLki2sUrY
