@@ -1,11 +1,6 @@
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Random
 - http://guide.elm-lang.org/architecture/effects/random.html
 - https://github.com/jcollard/random-examples
-- Don't use the current time. It's not randomly distributed over the keyspace (of 32 bits, I think)
-  - https://groups.google.com/forum/#!topic/elm-discuss/KHkBHaZGWks
-  - This doc is wrong, wrong, wrong. As you've discovered, there isn't an easy way to get the current timestamp. Use `Math.floor(Math.random()*0xFFFFFFFF)` instead. This gives you a seed that is better sampled over the possible input space. http://stackoverflow.com/questions/35235708/elm-generate-random-number/35414047#35414047
-  - http://stackoverflow.com/questions/28606248/what-is-the-correct-way-of-initializing-an-elm-application/
-  - http://stackoverflow.com/questions/33855791/elm-random-generator-timestamp-as-initialseed/33858118#33858118
 - https://github.com/TheSeamau5/elm-check/wiki/Guide-to-Writing-Your-Own-Random-Generators
 - http://package.elm-lang.org/packages/elm-community/elm-random-extra/latest/Random-Array
 - http://package.elm-lang.org/packages/mgold/elm-random-pcg/latest/
@@ -18,6 +13,13 @@
 - http://elm-by-example.org/chapter8circles.html
 - https://github.com/NoRedInk/elm-random-extra
 - https://www.reddit.com/r/elm/comments/3vpau7/randomrange_in_modern_elm/
+
+## Don't use the current time as seed
+
+- It's not randomly distributed over the keyspace (of 32 bits, I think) https://groups.google.com/forum/#!topic/elm-discuss/KHkBHaZGWks
+- This doc is wrong, wrong, wrong. As you've discovered, there isn't an easy way to get the current timestamp. Use `Math.floor(Math.random()*0xFFFFFFFF)` instead. This gives you a seed that is better sampled over the possible input space. http://stackoverflow.com/questions/35235708/elm-generate-random-number/35414047#35414047
+- http://stackoverflow.com/questions/28606248/what-is-the-correct-way-of-initializing-an-elm-application/
+- http://stackoverflow.com/questions/33855791/elm-random-generator-timestamp-as-initialseed/33858118#33858118
 
 ## Random in 0.17 and purity
 

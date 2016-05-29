@@ -165,3 +165,8 @@ http://stackoverflow.com/questions/37227421/how-do-i-add-a-second-die-to-this-el
 
 > In Basics (imported by default), there's a toString method which will convert anything into a string
 > - https://groups.google.com/d/msg/elm-discuss/_eSmF5a52qw/VFXF-6MCBAAJ
+
+## <| and <<
+
+(<|) : (a -> b) -> a -> b
+(<<) : (b -> c) -> (a -> b) -> a -> c
