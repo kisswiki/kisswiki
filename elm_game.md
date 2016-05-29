@@ -7,3 +7,7 @@
 - tacks
   - https://github.com/etaque/tacks
   - http://www.playtacks.com/
+- 404 Elm Street
+  - https://zalando.github.io/elm-street-404/
+  - https://tech.zalando.de/blog/using-elm-to-create-a-fun-game-in-just-five-days/
+  - https://github.com/zalando/elm-street-404
