@@ -20,4 +20,10 @@
   - https://github.com/elm-lang/debug.elm-lang.org/blob/master/examples/Mario.elm
   - https://github.com/elm-lang/debug.elm-lang.org/tree/master/resources/imgs/mario
   - http://debug.elm-lang.org/edit/Mario.elm
-  - Elm 0.17 https://gist.github.com/pdamoc/6f7aa2d3774e5af58ebeba369637c228
+  - Elm 0.17
+    - https://gist.github.com/pdamoc/6f7aa2d3774e5af58ebeba369637c228
+    - https://groups.google.com/forum/#!topic/elm-discuss/1aQLki2sUrY
+- Pong
+  - Elm 0.17
+    - https://gist.github.com/pdamoc/fd29925b8e20dd92e91c5b75e6c3711e
+    - https://groups.google.com/forum/#!topic/elm-discuss/1aQLki2sUrY
