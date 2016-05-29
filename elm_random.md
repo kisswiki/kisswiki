@@ -1,3 +1,4 @@
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Random
 - http://guide.elm-lang.org/architecture/effects/random.html
 - https://github.com/jcollard/random-examples
+- Don't use the current time. It's not randomly distributed over the keyspace (of 32 bits, I think) https://groups.google.com/forum/#!topic/elm-discuss/KHkBHaZGWks
