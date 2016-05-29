@@ -2,3 +2,4 @@
   - https://groups.google.com/forum/#!topic/elm-discuss/NwX78Fmxeo0
   - http://stackoverflow.com/questions/31907496/how-to-make-collage-with-lots-of-containers-more-responsive-in-elm
   - http://share-elm.com/sprout/574b3596e4b070fd20dac4d4
+- http://stackoverflow.com/questions/37407096/how-can-i-preserve-canvas-content-in-elm-between-updates
