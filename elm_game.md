@@ -14,3 +14,10 @@
 - flatris
   - https://github.com/w0rm/elm-flatris
   - http://unsoundscapes.com/elm-flatris.html
+- breakout
+  - http://daiw.de/games/breakout/
+- Mario
+  - https://github.com/elm-lang/debug.elm-lang.org/blob/master/examples/Mario.elm
+  - https://github.com/elm-lang/debug.elm-lang.org/tree/master/resources/imgs/mario
+  - http://debug.elm-lang.org/edit/Mario.elm
+  - Elm 0.17 https://gist.github.com/pdamoc/6f7aa2d3774e5af58ebeba369637c228
