@@ -180,3 +180,4 @@ Difference between `<|` and `<<` is that `<<` returns function for later use.
 
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Basics
 - http://stackoverflow.com/questions/27441648/what-does-the-operator-mean-in-elm
+- Don't mix `<|` and `<<` https://www.reddit.com/r/elm/comments/49s8o2/help_with_basics_of_function_composition/
