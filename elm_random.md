@@ -5,6 +5,7 @@
   - https://groups.google.com/forum/#!topic/elm-discuss/KHkBHaZGWks
   - use `Math.floor(Math.random()*0xFFFFFFFF)` instead. This gives you a seed that is better sampled over the possible input space. http://stackoverflow.com/questions/35235708/elm-generate-random-number/35414047#35414047
   - http://stackoverflow.com/questions/28606248/what-is-the-correct-way-of-initializing-an-elm-application/
+- https://github.com/TheSeamau5/elm-check/wiki/Guide-to-Writing-Your-Own-Random-Generators
 
 ## Random in 0.17 and purity
 
