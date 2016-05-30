@@ -1,0 +1,1 @@
+- https://speakerdeck.com/jose_zap/stepping-out-of-the-chaos-with-elm
