@@ -1,214 +1,285 @@
 ## about
-  - One thing that has really driven the attention and the adoption of Elm is that it emphasizes simplicity and ease of use in a way that rocks the boat a bit within the existing functional programming community. I’m consistently looking for ways to reduce the learning curve. - Evan Czaplicki https://www.seas.harvard.edu/blog/2015/10/alumni-profile-evan-czaplicki-ab-12
-  - What differentiate Elm? You may thought its: Haskell syntax, FRP, running in Browser. But these can have any language. Elm differentiates:
-    - All mutable state is in the signal graph (foldp)
-    - All events enter via the signal graph (elm.notify) - called global event dispatcher
-    - External state is provided by single-purpose high-level APIs (Time.fps)  
-    [yt > Bret Victor style reactive debugging ‒ Laszlo Pandy](https://youtu.be/lK0vph1zR8s)
-  - With Elm you're really getting into new (if you have a "typical" HTML/JS frontend dev background) territory. It's a different way to do (and think of) GUI development. You will write in a completely new language – made specifically for creating GUIs in a functional reactive programming way – and ideally you'll never deal (at least not directly) with any of the traditional DOM APIs. Elm comes with a sort of "standard library" that gives you tools to create and manipulate graphics/text/etc through time.  
 
-    Your Elm language code will describe, in a totally declarative way, what you want your GUI to look and behave like as time goes by and events (user input, etc) occur. Then, it will compile it all to HTML/JS/CSS in order that runs on the browser.  
-    http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
-  - https://www.reddit.com/r/haskell/comments/rkyoa/my_thesis_is_finally_complete_elm_concurrent_frp/
+- One thing that has really driven the attention and the adoption of Elm is that it emphasizes simplicity and ease of use in a way that rocks the boat a bit within the existing functional programming community. I’m consistently looking for ways to reduce the learning curve. - Evan Czaplicki https://www.seas.harvard.edu/blog/2015/10/alumni-profile-evan-czaplicki-ab-12
+- What differentiate Elm? You may thought its: Haskell syntax, FRP, running in Browser. But these can have any language. Elm differentiates:
+  - All mutable state is in the signal graph (foldp)
+  - All events enter via the signal graph (elm.notify) - called global event dispatcher
+  - External state is provided by single-purpose high-level APIs (Time.fps)  
+  [yt > Bret Victor style reactive debugging ‒ Laszlo Pandy](https://youtu.be/lK0vph1zR8s)
+- With Elm you're really getting into new (if you have a "typical" HTML/JS frontend dev background) territory. It's a different way to do (and think of) GUI development. You will write in a completely new language – made specifically for creating GUIs in a functional reactive programming way – and ideally you'll never deal (at least not directly) with any of the traditional DOM APIs. Elm comes with a sort of "standard library" that gives you tools to create and manipulate graphics/text/etc through time.  
+
+  Your Elm language code will describe, in a totally declarative way, what you want your GUI to look and behave like as time goes by and events (user input, etc) occur. Then, it will compile it all to HTML/JS/CSS in order that runs on the browser.  
+  http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
+- https://www.reddit.com/r/haskell/comments/rkyoa/my_thesis_is_finally_complete_elm_concurrent_frp/
+
 ## errors
-    - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
+- [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
+
 ## usages/examples/packages/libraries
-  - core libraries https://github.com/elm-lang/core
-    - default imports: Basics, Debug, List, Maybe, Result, Signal
-  - https://github.com/trending?l=elm&since=daily
-  - [packages](http://package.elm-lang.org)
-    - `elm package install evancz/elm-html`
-    - http://package.elm-lang.org/packages/evancz/elm-html/latest
-    - http://package.elm-lang.org/packages/elm-community/elm-undo-redo/latest
-    - http://package.elm-lang.org/packages/etaque/elm-route-parser/latest
-  - http://builtwithelm.co/
-  - https://github.com/odedw/elm-plane
-  - https://www.reddit.com/r/elm/comments/3wa0pb/how_to_make_a_full_website_in_elm/
-  - https://www.reddit.com/r/elm/comments/3vs52d/looking_for_elm_crud_example/
-  - http://elm-lang.org/examples
-  - https://github.com/evancz/TodoFRP
-  - https://github.com/twopoint718/elmchat
-    - http://bendyworks.com/elm-frontend-right-now/
-  - https://github.com/eeue56/elm-all-dict
-  - https://github.com/Fresheyeball/elm-node
-  - https://github.com/mgold/elm-date-format
-  - https://github.com/eeue56/elm-query
-  - http://zkessin.github.io/elm-examples-blog//examples/2016/01/11/parsing-json.html
-  - http://elm-lang.org/examples/resize-yogi
-  - Google Maps https://github.com/vilterp/elm-gmaps-experiment
-  - effects like HTTP and animation https://github.com/evancz/elm-effects
-  - https://github.com/jvoigtlaender/elm-drag-and-drop
-  - https://github.com/elm-community/builtwithelm
-  - https://github.com/elm-community/elm-linear-algebra
-  - https://github.com/elm-community/elm-history
-  - https://github.com/elm-community/elm-material-icons
-  - https://github.com/elm-community/elm-undo-redo
-  - https://github.com/johnpmayer/vec2
-  - https://github.com/ohanhi/elm-html-drag-and-drop
-  - https://github.com/mgold/elm-socketio
-  - https://github.com/mgold/elm-turtle-graphics
-  - https://github.com/mgold/elm-multiset
-  - https://github.com/NoRedInk/elm-lazy-list
-  - https://github.com/mgold/elm-join
-  - https://github.com/grzegorzbalcerek/Preselm
-  - https://www.reddit.com/r/elm/comments/41b0e3/a_more_readable_elm_task_example/
-  - audio
-    - https://github.com/search?l=elm&q=audio&type=Repositories&utf8=%E2%9C%93
-    - https://github.com/bmatcuk/elm-webaudio
+
+- core libraries https://github.com/elm-lang/core
+  - default imports: Basics, Debug, List, Maybe, Result, Signal
+- https://github.com/trending?l=elm&since=daily
+- [packages](http://package.elm-lang.org)
+  - `elm package install evancz/elm-html`
+  - http://package.elm-lang.org/packages/evancz/elm-html/latest
+  - http://package.elm-lang.org/packages/elm-community/elm-undo-redo/latest
+  - http://package.elm-lang.org/packages/etaque/elm-route-parser/latest
+- http://builtwithelm.co/
+- https://github.com/odedw/elm-plane
+- https://www.reddit.com/r/elm/comments/3wa0pb/how_to_make_a_full_website_in_elm/
+- https://www.reddit.com/r/elm/comments/3vs52d/looking_for_elm_crud_example/
+- http://elm-lang.org/examples
+- https://github.com/evancz/TodoFRP
+- https://github.com/twopoint718/elmchat
+  - http://bendyworks.com/elm-frontend-right-now/
+- https://github.com/eeue56/elm-all-dict
+- https://github.com/Fresheyeball/elm-node
+- https://github.com/mgold/elm-date-format
+- https://github.com/eeue56/elm-query
+- http://zkessin.github.io/elm-examples-blog//examples/2016/01/11/parsing-json.html
+- http://elm-lang.org/examples/resize-yogi
+- Google Maps https://github.com/vilterp/elm-gmaps-experiment
+- effects like HTTP and animation https://github.com/evancz/elm-effects
+- https://github.com/jvoigtlaender/elm-drag-and-drop
+- https://github.com/elm-community/builtwithelm
+- https://github.com/elm-community/elm-linear-algebra
+- https://github.com/elm-community/elm-history
+- https://github.com/elm-community/elm-material-icons
+- https://github.com/elm-community/elm-undo-redo
+- https://github.com/johnpmayer/vec2
+- https://github.com/ohanhi/elm-html-drag-and-drop
+- https://github.com/mgold/elm-socketio
+- https://github.com/mgold/elm-turtle-graphics
+- https://github.com/mgold/elm-multiset
+- https://github.com/NoRedInk/elm-lazy-list
+- https://github.com/mgold/elm-join
+- https://github.com/grzegorzbalcerek/Preselm
+- https://www.reddit.com/r/elm/comments/41b0e3/a_more_readable_elm_task_example/
+- audio
+  - https://github.com/search?l=elm&q=audio&type=Repositories&utf8=%E2%9C%93
+  - https://github.com/bmatcuk/elm-webaudio
+
 ## tools
-   - https://github.com/elm-lang/elm-reactor
-    - Install Elm Platform. This will install Elm Reactor and everything else it needs.
-      - `npm install -g elm` or binaries
-  - It is inspired by the popular gofmt https://github.com/avh4/elm-format
-  - Light Table
-    - https://github.com/rundis/elm-light
-    - http://rundis.github.io/blog/2016/elm_light_package.html
-  - https://maximilianhoffmann.com/posts/how-to-compile-elm-files-on-save
+
+ - https://github.com/elm-lang/elm-reactor
+  - Install Elm Platform. This will install Elm Reactor and everything else it needs.
+    - `npm install -g elm` or binaries
+- It is inspired by the popular gofmt https://github.com/avh4/elm-format
+- Light Table
+  - https://github.com/rundis/elm-light
+  - http://rundis.github.io/blog/2016/elm_light_package.html
+- https://maximilianhoffmann.com/posts/how-to-compile-elm-files-on-save
+
 ## quotes
-  - First The Elm Architecture in React, now Flow follows Elm's UX lead! [source](https://twitter.com/rtfeldman/status/673680421545107456)
-  - Elm's hidden agenda - to subtly spoil us with the idea of declarative programming for building GUIs [source](https://speakerdeck.com/suvash/getting-reactive-with-elm)
-  - 100% typed code (with @elmlang) is orders of magnitude better than 95% typed code (with TypeScript or Flow). Elm eliminates runtime errors. [source](https://twitter.com/andrestaltz/status/681186227039678465)
+
+- First The Elm Architecture in React, now Flow follows Elm's UX lead! [source](https://twitter.com/rtfeldman/status/673680421545107456)
+- Elm's hidden agenda - to subtly spoil us with the idea of declarative programming for building GUIs [source](https://speakerdeck.com/suvash/getting-reactive-with-elm)
+- 100% typed code (with @elmlang) is orders of magnitude better than 95% typed code (with TypeScript or Flow). Elm eliminates runtime errors. [source](https://twitter.com/andrestaltz/status/681186227039678465)
+
 ## community/news/blogs
-  - http://elm-lang.org/blog
-  - http://elm-lang.org/community (mailing list, reddit, slack, irc, twitter)
-  - https://www.quora.com/topic/Elm-programming-language
-  - http://mbylstra.github.io/elm-events/
-  - https://github.com/Gizra/planet-elm
-  - https://www.reddit.com/user/wheatBread Evan Czaplicki on reddit
-  - http://stackoverflow.com/questions/tagged/elm
+
+- http://elm-lang.org/blog
+- http://elm-lang.org/community (mailing list, reddit, slack, irc, twitter)
+- https://www.quora.com/topic/Elm-programming-language
+- http://mbylstra.github.io/elm-events/
+- https://github.com/Gizra/planet-elm
+- https://www.reddit.com/user/wheatBread Evan Czaplicki on reddit
+- http://stackoverflow.com/questions/tagged/elm
+
 ## jsfiddle/jsbin/codepen alike
-  - http://share-elm.com/
-  - http://elm-lang.org/try
+
+- http://share-elm.com/
+- http://elm-lang.org/try
+
 ## pros/cons
-  - https://www.quora.com/What-do-you-think-is-the-future-of-the-Elm-programming-language
-  - https://news.ycombinator.com/item?id=10081955
-  - cons
-    - Regardless of the technical merits of any alternative solution offers, and we are not just talking about Clojurescript, Elm offers a similar set of advantages, the herding effect is powerful. Your investment in Javascript is far more likely to pay off that putting time into one of the alternatives, none of which have momentum. http://rrees.me/2014/01/16/clojurescript-is-it-any-better-yet/
-    - it's hard to interface with JavaScript, making libraries such as three.js and pixi.js unavailable https://www.reddit.com/r/elm/comments/3vxxyt/is_elm_lacking_an_assetgame_framework/cxrrier
-    - Right now, making use of browser api's isn't as easy as it should be, and interop with external js libraries almost too much work to be worth it (I'm my experience). https://www.reddit.com/r/elm/comments/3y9un5/any_idea_about_how_to_make_mobile_html_apps/cyc6r33
-    - SIGNAL HELL. This is the same situation as callback hell. The only difference is that callbacks separate your code at boundaries determined by asynchronous calls, while these signal display functions do it at boundaries determined by the type system. http://langnostic.blogspot.com/2013/06/elm-in-practice.html
-    - not-expressive-enough static type systems, because it means that polymorphic code that we're used to easily express in JS, becomes a type error in Elm, due to lack of e.g. rank-2 types http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
-    - Elm architecture is nice and clean, but it gets complicated when you add effects https://github.com/mgold/elm-sandbox/tree/master/src/Change
-    - https://news.ycombinator.com/item?id=10837278
-  - pros
-    - https://prezi.com/qaklogolc1qz/why-prezi-is-investing-in-frp-elm/
-    - http://forwardjs.com/university/why-prezi-is-betting-on-frp
-    - http://futurice.com/blog/elm-in-the-real-world
-    - https://pragmaticstudio.com/blog/2015/10/22/is-learning-elm-worth-your-time
+
+- https://www.quora.com/What-do-you-think-is-the-future-of-the-Elm-programming-language
+- https://news.ycombinator.com/item?id=10081955
+- cons
+  - Regardless of the technical merits of any alternative solution offers, and we are not just talking about Clojurescript, Elm offers a similar set of advantages, the herding effect is powerful. Your investment in Javascript is far more likely to pay off that putting time into one of the alternatives, none of which have momentum. http://rrees.me/2014/01/16/clojurescript-is-it-any-better-yet/
+  - it's hard to interface with JavaScript, making libraries such as three.js and pixi.js unavailable https://www.reddit.com/r/elm/comments/3vxxyt/is_elm_lacking_an_assetgame_framework/cxrrier
+  - Right now, making use of browser api's isn't as easy as it should be, and interop with external js libraries almost too much work to be worth it (I'm my experience). https://www.reddit.com/r/elm/comments/3y9un5/any_idea_about_how_to_make_mobile_html_apps/cyc6r33
+  - SIGNAL HELL. This is the same situation as callback hell. The only difference is that callbacks separate your code at boundaries determined by asynchronous calls, while these signal display functions do it at boundaries determined by the type system. http://langnostic.blogspot.com/2013/06/elm-in-practice.html
+  - not-expressive-enough static type systems, because it means that polymorphic code that we're used to easily express in JS, becomes a type error in Elm, due to lack of e.g. rank-2 types http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
+  - Elm architecture is nice and clean, but it gets complicated when you add effects https://github.com/mgold/elm-sandbox/tree/master/src/Change
+  - https://news.ycombinator.com/item?id=10837278
+- pros
+  - https://prezi.com/qaklogolc1qz/why-prezi-is-investing-in-frp-elm/
+  - http://forwardjs.com/university/why-prezi-is-betting-on-frp
+  - http://futurice.com/blog/elm-in-the-real-world
+  - https://pragmaticstudio.com/blog/2015/10/22/is-learning-elm-worth-your-time
+
 ## isomorphic
-  - https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
-  - https://github.com/elm-lang/elm-compiler/issues/1150
-  - https://github.com/eeue56/servelm
+
+- https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
+- https://github.com/elm-lang/elm-compiler/issues/1150
+- https://github.com/eeue56/servelm
+
 ## ports
-  - Ports are essentially strictly typed event streams to listen to (Elm to JS) or to push events into (JS to Elm). This means you will need to write some boilerplate-ish code, both in Elm and in JavaScript, in order to pass a message to the other side. So the more JavaScript libraries you need, and the more different kinds of objects you want to pass through, the more boilerplate code you will end up with. http://futurice.com/blog/elm-in-the-real-world
-  - https://www.reddit.com/r/elm/comments/401qtb/startapp_and_the_redirect_port/
-  - pros/cons
-    - cons
-      - creating a DOM element from elm-html, initializing a widget into that element in JS, then talking to it with ports breaks Elm's semantics pretty badly https://groups.google.com/forum/#!topic/elm-dev/2j1c5HIBqRM
-  - Richard Feldman - Workshop: Growing the Oasis: Elm in Production http://www.ustream.tv/recorded/64191291
+
+- Ports are essentially strictly typed event streams to listen to (Elm to JS) or to push events into (JS to Elm). This means you will need to write some boilerplate-ish code, both in Elm and in JavaScript, in order to pass a message to the other side. So the more JavaScript libraries you need, and the more different kinds of objects you want to pass through, the more boilerplate code you will end up with. http://futurice.com/blog/elm-in-the-real-world
+- https://www.reddit.com/r/elm/comments/401qtb/startapp_and_the_redirect_port/
+- pros/cons
+  - cons
+    - creating a DOM element from elm-html, initializing a widget into that element in JS, then talking to it with ports breaks Elm's semantics pretty badly https://groups.google.com/forum/#!topic/elm-dev/2j1c5HIBqRM
+- Richard Feldman - Workshop: Growing the Oasis: Elm in Production http://www.ustream.tv/recorded/64191291
+
 ## animation
-  - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
-  - https://github.com/evancz/elm-effects
-  - https://github.com/mgold/elm-animation
+
+- https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
+- https://github.com/evancz/elm-effects
+- https://github.com/mgold/elm-animation
+
 ## truth
-  - https://twitter.com/twopoint718/status/686765116285583360
+
+- https://twitter.com/twopoint718/status/686765116285583360
+
 ## repl
-  - add space in new line to indent when using `\` like in `over9000 powerLevel = \` [1](http://elm-lang.org/guide/core-language) [2](https://github.com/elm-lang/elm-repl/issues/67)
+
+- add space in new line to indent when using `\` like in `over9000 powerLevel = \` [1](http://elm-lang.org/guide/core-language) [2](https://github.com/elm-lang/elm-repl/issues/67)
+
 ## function
-  - example
 
-    ```elm
-    over9000 powerLevel =
-    if powerLevel > 9000 then "upps 9000" else "meh"
-    -- I can't just run function without taking its output
-    -- over9000 9001
+- example
 
-    a : String
-    a = over9000 9001
-    ```
-  - what is this `add : Int -> Int -> Int`
-    - this is a function that takes one integer as argument and returns another function. This returned function takes another integer and returns an integer. https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/functions.html
-    - The type annotation says: given a Float and a Ship, I will return a Ship, but also: given a Float, I will return Ship -> Ship. For example, (applyPhysics 16.7) would actually return a working function to which we can pass a Ship, and get the physics-applied ship as the return value. This property is called Currying and all Elm functions automatically behave this way. https://gist.github.com/ohanhi/0d3d83cf3f0d7bbea9db
-  - generic with type variables `a -> Array a`
-    - what is `a` in `indexOf: a -> Array a -> Int` - this function takes any type and an array of that same type and returns an integer https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/more_on_functions.html
+  ```elm
+  over9000 powerLevel =
+  if powerLevel > 9000 then "upps 9000" else "meh"
+  -- I can't just run function without taking its output
+  -- over9000 9001
+
+  a : String
+  a = over9000 9001
+  ```
+- what is this `add : Int -> Int -> Int`
+  - this is a function that takes one integer as argument and returns another function. This returned function takes another integer and returns an integer. https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/functions.html
+  - The type annotation says: given a Float and a Ship, I will return a Ship, but also: given a Float, I will return Ship -> Ship. For example, (applyPhysics 16.7) would actually return a working function to which we can pass a Ship, and get the physics-applied ship as the return value. This property is called Currying and all Elm functions automatically behave this way. https://gist.github.com/ohanhi/0d3d83cf3f0d7bbea9db
+- generic with type variables `a -> Array a`
+  - what is `a` in `indexOf: a -> Array a -> Int` - this function takes any type and an array of that same type and returns an integer https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/more_on_functions.html
+
 ## types
-  - No need to declare type of variable before using it - type inference
-  - https://www.reddit.com/r/elm/comments/1ush0h/what_is_elm_type_system_based_on/
-  - https://blog.codecentric.de/en/2015/11/elm-friday-part-06-type-annotations/
+
+- No need to declare type of variable before using it - type inference
+- https://www.reddit.com/r/elm/comments/1ush0h/what_is_elm_type_system_based_on/
+- https://blog.codecentric.de/en/2015/11/elm-friday-part-06-type-annotations/
+
 ## string interpolation
-  - not done yet https://github.com/elm-lang/elm-compiler/issues/905
-  - https://github.com/lukewestby/elm-string-interpolate
+
+- not done yet https://github.com/elm-lang/elm-compiler/issues/905
+- https://github.com/lukewestby/elm-string-interpolate
+
 ## import
-  - two ways
-    - `import StartApp.Simple as StartApp` and then `StartUp.start`
-    - `import StartApp.Simple exposing(start)` and then `start`
+
+- two ways
+  - `import StartApp.Simple as StartApp` and then `StartUp.start`
+  - `import StartApp.Simple exposing(start)` and then `start`
+
 ## Evan Czaplicki joined noredink http://elm-lang.org/blog/new-adventures-for-elm http://tech.noredink.com/post/136615783598/welcome-evan
+
 ## jobs
-  - https://www.noredink.com/jobs?gh_jid=123590
+
+- https://www.noredink.com/jobs?gh_jid=123590
+
 ## companies using elm
-  - the companies using Elm (5+ now) are not sharing their stuff on there, but I'm going to be working on a series showcasing them! https://twitter.com/czaplic/status/677035150773903361
-  - https://groups.google.com/forum/#!topic/elm-discuss/3bgQlAeJpbc
-  - http://elm-lang.org/blog/new-adventures-for-elm
-  - NoRedInk http://www.google.com/url?q=http%3A%2F%2Fnoredinktech.tumblr.com%2Fpost%2F126978281075%2Fwalkthrough-introducing-elm-to-a-js-web-app&sa=D&sntz=1&usg=AFQjCNFeD-YJYj8l4vjNfdcf-7UANaSqnQ
-  - CircuitHub
-  - Prezi
-  - Gizra http://www.google.com/url?q=http%3A%2F%2Fwww.gizra.com%2Fcontent%2Fthinking-choosing-elm%2F&sa=D&sntz=1&usg=AFQjCNEkcaPSSNNQSMMahrQV_Xli91iwOw
-  - Beautiful Destinations
-  - Your CRM Link
-  - TruQu http://engineering.truqu.com/
+
+- the companies using Elm (5+ now) are not sharing their stuff on there, but I'm going to be working on a series showcasing them! https://twitter.com/czaplic/status/677035150773903361
+- https://groups.google.com/forum/#!topic/elm-discuss/3bgQlAeJpbc
+- http://elm-lang.org/blog/new-adventures-for-elm
+- NoRedInk http://www.google.com/url?q=http%3A%2F%2Fnoredinktech.tumblr.com%2Fpost%2F126978281075%2Fwalkthrough-introducing-elm-to-a-js-web-app&sa=D&sntz=1&usg=AFQjCNFeD-YJYj8l4vjNfdcf-7UANaSqnQ
+- CircuitHub
+- Prezi
+- Gizra http://www.google.com/url?q=http%3A%2F%2Fwww.gizra.com%2Fcontent%2Fthinking-choosing-elm%2F&sa=D&sntz=1&usg=AFQjCNEkcaPSSNNQSMMahrQV_Xli91iwOw
+- Beautiful Destinations
+- Your CRM Link
+- TruQu http://engineering.truqu.com/
+
 ## tuple?
-  - `setError : (Model, Effects Action)` https://github.com/Gizra/elm-hedley/blob/v1.0.0/src/elm/Config/Test.elm#L16
+
+- `setError : (Model, Effects Action)` https://github.com/Gizra/elm-hedley/blob/v1.0.0/src/elm/Config/Test.elm#L16
+
 ## starer kit
-  - https://github.com/Gizra/generator-elmlang
-  - https://github.com/christianalfoni/exploring-elm-boilerplate
-    - http://www.christianalfoni.com/articles/2015_11_30_Exploring-Elm-part1
-  - https://github.com/simonewebdesign/elm-new/tree/master/share/elm-new
+
+- https://github.com/Gizra/generator-elmlang
+- https://github.com/christianalfoni/exploring-elm-boilerplate
+  - http://www.christianalfoni.com/articles/2015_11_30_Exploring-Elm-part1
+- https://github.com/simonewebdesign/elm-new/tree/master/share/elm-new
+
 ## node.js
-  - Get up and running on multi-user Elm applications in a few easy steps! https://github.com/sonnym/elm-expressway
-  - https://github.com/sonnym/node-elm-loader
+
+- Get up and running on multi-user Elm applications in a few easy steps! https://github.com/sonnym/elm-expressway
+- https://github.com/sonnym/node-elm-loader
+
 ## testing
-  - UNIT TEST AND CI INTEGRATION http://www.gizra.com/content/elm-hedley-overview/
-  - https://github.com/deadfoxygrandpa/elm-test
+
+- UNIT TEST AND CI INTEGRATION http://www.gizra.com/content/elm-hedley-overview/
+- https://github.com/deadfoxygrandpa/elm-test
+
 ## json
-  - https://github.com/lambdatoast/elm-json
+
+- https://github.com/lambdatoast/elm-json
+
 ## number of spaces to indent https://groups.google.com/forum/#!topic/elm-dev/1fWxZPcQVqI
-  - most agree to 2 spaces
-  - and updating record example:
 
-    ```elm
-    { particle
-      | position = particle.position + particle.velocity
-      , velocity = particle.velocity + particle.acceleration
-    }
-    ```
+- most agree to 2 spaces
+- and updating record example:
+
+  ```elm
+  { particle
+    | position = particle.position + particle.velocity
+    , velocity = particle.velocity + particle.acceleration
+  }
+  ```
+
 ## webgl
-  - https://evancz.github.io/first-person-elm/
-    - https://github.com/evancz/first-person-elm
-  - https://github.com/johnpmayer/elm-webgl
-## transducers
-  - https://github.com/avh4/elm-transducers
-## modules
-  - http://boonofcode.svbtle.com/organising-elm-components
-  - if there's a private Utils module in evancz/focus and in evancz/automaton, the module that wins at runtime depends on what order things were compiled https://github.com/elm-lang/elm-compiler/issues/826
-## Entity Component System
-  - https://groups.google.com/forum/#!topic/elm-discuss/NJCZFIYxshE
-## hot reload
-  - WIP in elm-reactor https://groups.google.com/forum/#!topic/elm-discuss/bY7c8oad1VA https://github.com/elm-lang/elm-reactor/issues/168
-## uuid
-  - https://groups.google.com/forum/#!topic/elm-discuss/jvjstbLdpww
-## components/widgets
-  - The main problem (the way I see it) is that there is no composable widget architecture as of yet. Yes, we do have Elm Architecture and that is great BUT what I think is needed for what you want is "a language for describing component hierarchies."  
-    Ideally, it should be a series of functions that make it easy to create and modify a tree like structure that encapsulates this hierarchy.  
 
-    This is notoriously difficult.  
-    Evan tried to implement something like that with Graphics.* but failed to produce something viable.  
-    https://groups.google.com/forum/#!topic/elm-discuss/tOFOO4uBiNw
-  - https://github.com/savuori/elm-bs-datepicker
+- https://evancz.github.io/first-person-elm/
+  - https://github.com/evancz/first-person-elm
+- https://github.com/johnpmayer/elm-webgl
+
+## transducers
+
+- https://github.com/avh4/elm-transducers
+
+## modules
+
+- http://boonofcode.svbtle.com/organising-elm-components
+- if there's a private Utils module in evancz/focus and in evancz/automaton, the module that wins at runtime depends on what order things were compiled https://github.com/elm-lang/elm-compiler/issues/826
+
+## Entity Component System
+
+- https://groups.google.com/forum/#!topic/elm-discuss/NJCZFIYxshE
+
+## hot reload
+
+- WIP in elm-reactor https://groups.google.com/forum/#!topic/elm-discuss/bY7c8oad1VA https://github.com/elm-lang/elm-reactor/issues/168
+
+## uuid
+
+- https://groups.google.com/forum/#!topic/elm-discuss/jvjstbLdpww
+
+## components/widgets
+
+- The main problem (the way I see it) is that there is no composable widget architecture as of yet. Yes, we do have Elm Architecture and that is great BUT what I think is needed for what you want is "a language for describing component hierarchies."  
+  Ideally, it should be a series of functions that make it easy to create and modify a tree like structure that encapsulates this hierarchy.  
+
+  This is notoriously difficult.  
+  Evan tried to implement something like that with Graphics.* but failed to produce something viable.  
+  https://groups.google.com/forum/#!topic/elm-discuss/tOFOO4uBiNw
+- https://github.com/savuori/elm-bs-datepicker
+
 ## milestones
-  - https://github.com/elm-lang/elm-compiler/milestones
+
+- https://github.com/elm-lang/elm-compiler/milestones
+
 ## style guide
-  - https://github.com/ohanhi/elm-style-guide
+
+- https://github.com/ohanhi/elm-style-guide
+
 ## atom.io
-  - https://groups.google.com/forum/#!topic/elm-discuss/DFymqONIFjc
+
+- https://groups.google.com/forum/#!topic/elm-discuss/DFymqONIFjc
+
 ## jsx
-  - https://github.com/pzavolinsky/elmx
+
+- https://github.com/pzavolinsky/elmx
