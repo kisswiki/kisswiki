@@ -1,4 +1,4 @@
-- about
+## about
   - One thing that has really driven the attention and the adoption of Elm is that it emphasizes simplicity and ease of use in a way that rocks the boat a bit within the existing functional programming community. I’m consistently looking for ways to reduce the learning curve. - Evan Czaplicki https://www.seas.harvard.edu/blog/2015/10/alumni-profile-evan-czaplicki-ab-12
   - What differentiate Elm? You may thought its: Haskell syntax, FRP, running in Browser. But these can have any language. Elm differentiates:
     - All mutable state is in the signal graph (foldp)
@@ -10,9 +10,9 @@
     Your Elm language code will describe, in a totally declarative way, what you want your GUI to look and behave like as time goes by and events (user input, etc) occur. Then, it will compile it all to HTML/JS/CSS in order that runs on the browser.  
     http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
   - https://www.reddit.com/r/haskell/comments/rkyoa/my_thesis_is_finally_complete_elm_concurrent_frp/
-- errors
+## errors
     - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
-- usages/examples/packages/libraries
+## usages/examples/packages/libraries
   - core libraries https://github.com/elm-lang/core
     - default imports: Basics, Debug, List, Maybe, Result, Signal
   - https://github.com/trending?l=elm&since=daily
@@ -55,7 +55,7 @@
   - audio
     - https://github.com/search?l=elm&q=audio&type=Repositories&utf8=%E2%9C%93
     - https://github.com/bmatcuk/elm-webaudio
-- tools
+## tools
    - https://github.com/elm-lang/elm-reactor
     - Install Elm Platform. This will install Elm Reactor and everything else it needs.
       - `npm install -g elm` or binaries
@@ -64,11 +64,11 @@
     - https://github.com/rundis/elm-light
     - http://rundis.github.io/blog/2016/elm_light_package.html
   - https://maximilianhoffmann.com/posts/how-to-compile-elm-files-on-save
-- quotes
+## quotes
   - First The Elm Architecture in React, now Flow follows Elm's UX lead! [source](https://twitter.com/rtfeldman/status/673680421545107456)
   - Elm's hidden agenda - to subtly spoil us with the idea of declarative programming for building GUIs [source](https://speakerdeck.com/suvash/getting-reactive-with-elm)
   - 100% typed code (with @elmlang) is orders of magnitude better than 95% typed code (with TypeScript or Flow). Elm eliminates runtime errors. [source](https://twitter.com/andrestaltz/status/681186227039678465)
-- community/news/blogs
+## community/news/blogs
   - http://elm-lang.org/blog
   - http://elm-lang.org/community (mailing list, reddit, slack, irc, twitter)
   - https://www.quora.com/topic/Elm-programming-language
@@ -76,10 +76,10 @@
   - https://github.com/Gizra/planet-elm
   - https://www.reddit.com/user/wheatBread Evan Czaplicki on reddit
   - http://stackoverflow.com/questions/tagged/elm
-- jsfiddle/jsbin/codepen alike
+## jsfiddle/jsbin/codepen alike
   - http://share-elm.com/
   - http://elm-lang.org/try
-- pros/cons
+## pros/cons
   - https://www.quora.com/What-do-you-think-is-the-future-of-the-Elm-programming-language
   - https://news.ycombinator.com/item?id=10081955
   - cons
@@ -95,26 +95,26 @@
     - http://forwardjs.com/university/why-prezi-is-betting-on-frp
     - http://futurice.com/blog/elm-in-the-real-world
     - https://pragmaticstudio.com/blog/2015/10/22/is-learning-elm-worth-your-time
-- isomorphic
+## isomorphic
   - https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
   - https://github.com/elm-lang/elm-compiler/issues/1150
   - https://github.com/eeue56/servelm
-- ports
+## ports
   - Ports are essentially strictly typed event streams to listen to (Elm to JS) or to push events into (JS to Elm). This means you will need to write some boilerplate-ish code, both in Elm and in JavaScript, in order to pass a message to the other side. So the more JavaScript libraries you need, and the more different kinds of objects you want to pass through, the more boilerplate code you will end up with. http://futurice.com/blog/elm-in-the-real-world
   - https://www.reddit.com/r/elm/comments/401qtb/startapp_and_the_redirect_port/
   - pros/cons
     - cons
       - creating a DOM element from elm-html, initializing a widget into that element in JS, then talking to it with ports breaks Elm's semantics pretty badly https://groups.google.com/forum/#!topic/elm-dev/2j1c5HIBqRM
   - Richard Feldman - Workshop: Growing the Oasis: Elm in Production http://www.ustream.tv/recorded/64191291
-- animation
+## animation
   - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
   - https://github.com/evancz/elm-effects
   - https://github.com/mgold/elm-animation
-- truth
+## truth
   - https://twitter.com/twopoint718/status/686765116285583360
-- repl
+## repl
   - add space in new line to indent when using `\` like in `over9000 powerLevel = \` [1](http://elm-lang.org/guide/core-language) [2](https://github.com/elm-lang/elm-repl/issues/67)
-- function
+## function
   - example
 
     ```elm
@@ -131,21 +131,21 @@
     - The type annotation says: given a Float and a Ship, I will return a Ship, but also: given a Float, I will return Ship -> Ship. For example, (applyPhysics 16.7) would actually return a working function to which we can pass a Ship, and get the physics-applied ship as the return value. This property is called Currying and all Elm functions automatically behave this way. https://gist.github.com/ohanhi/0d3d83cf3f0d7bbea9db
   - generic with type variables `a -> Array a`
     - what is `a` in `indexOf: a -> Array a -> Int` - this function takes any type and an array of that same type and returns an integer https://sporto.gitbooks.io/web-apps-with-elm/content/foundations/more_on_functions.html
-- types
+## types
   - No need to declare type of variable before using it - type inference
   - https://www.reddit.com/r/elm/comments/1ush0h/what_is_elm_type_system_based_on/
   - https://blog.codecentric.de/en/2015/11/elm-friday-part-06-type-annotations/
-- string interpolation
+## string interpolation
   - not done yet https://github.com/elm-lang/elm-compiler/issues/905
   - https://github.com/lukewestby/elm-string-interpolate
-- import
+## import
   - two ways
     - `import StartApp.Simple as StartApp` and then `StartUp.start`
     - `import StartApp.Simple exposing(start)` and then `start`
-- Evan Czaplicki joined noredink http://elm-lang.org/blog/new-adventures-for-elm http://tech.noredink.com/post/136615783598/welcome-evan
-- jobs
+## Evan Czaplicki joined noredink http://elm-lang.org/blog/new-adventures-for-elm http://tech.noredink.com/post/136615783598/welcome-evan
+## jobs
   - https://www.noredink.com/jobs?gh_jid=123590
-- companies using elm
+## companies using elm
   - the companies using Elm (5+ now) are not sharing their stuff on there, but I'm going to be working on a series showcasing them! https://twitter.com/czaplic/status/677035150773903361
   - https://groups.google.com/forum/#!topic/elm-discuss/3bgQlAeJpbc
   - http://elm-lang.org/blog/new-adventures-for-elm
@@ -156,22 +156,22 @@
   - Beautiful Destinations
   - Your CRM Link
   - TruQu http://engineering.truqu.com/
-- tuple?
+## tuple?
   - `setError : (Model, Effects Action)` https://github.com/Gizra/elm-hedley/blob/v1.0.0/src/elm/Config/Test.elm#L16
-- starer kit
+## starer kit
   - https://github.com/Gizra/generator-elmlang
   - https://github.com/christianalfoni/exploring-elm-boilerplate
     - http://www.christianalfoni.com/articles/2015_11_30_Exploring-Elm-part1
   - https://github.com/simonewebdesign/elm-new/tree/master/share/elm-new
-- node.js
+## node.js
   - Get up and running on multi-user Elm applications in a few easy steps! https://github.com/sonnym/elm-expressway
   - https://github.com/sonnym/node-elm-loader
-- testing
+## testing
   - UNIT TEST AND CI INTEGRATION http://www.gizra.com/content/elm-hedley-overview/
   - https://github.com/deadfoxygrandpa/elm-test
-- json
+## json
   - https://github.com/lambdatoast/elm-json
-- number of spaces to indent https://groups.google.com/forum/#!topic/elm-dev/1fWxZPcQVqI
+## number of spaces to indent https://groups.google.com/forum/#!topic/elm-dev/1fWxZPcQVqI
   - most agree to 2 spaces
   - and updating record example:
 
@@ -181,22 +181,22 @@
       , velocity = particle.velocity + particle.acceleration
     }
     ```
-- webgl
+## webgl
   - https://evancz.github.io/first-person-elm/
     - https://github.com/evancz/first-person-elm
   - https://github.com/johnpmayer/elm-webgl
-- transducers
+## transducers
   - https://github.com/avh4/elm-transducers
-- modules
+## modules
   - http://boonofcode.svbtle.com/organising-elm-components
   - if there's a private Utils module in evancz/focus and in evancz/automaton, the module that wins at runtime depends on what order things were compiled https://github.com/elm-lang/elm-compiler/issues/826
-- Entity Component System
+## Entity Component System
   - https://groups.google.com/forum/#!topic/elm-discuss/NJCZFIYxshE
-- hot reload
+## hot reload
   - WIP in elm-reactor https://groups.google.com/forum/#!topic/elm-discuss/bY7c8oad1VA https://github.com/elm-lang/elm-reactor/issues/168
-- uuid
+## uuid
   - https://groups.google.com/forum/#!topic/elm-discuss/jvjstbLdpww
-- components/widgets
+## components/widgets
   - The main problem (the way I see it) is that there is no composable widget architecture as of yet. Yes, we do have Elm Architecture and that is great BUT what I think is needed for what you want is "a language for describing component hierarchies."  
     Ideally, it should be a series of functions that make it easy to create and modify a tree like structure that encapsulates this hierarchy.  
 
@@ -204,11 +204,11 @@
     Evan tried to implement something like that with Graphics.* but failed to produce something viable.  
     https://groups.google.com/forum/#!topic/elm-discuss/tOFOO4uBiNw
   - https://github.com/savuori/elm-bs-datepicker
-- milestones
+## milestones
   - https://github.com/elm-lang/elm-compiler/milestones
-- style guide
+## style guide
   - https://github.com/ohanhi/elm-style-guide
-- atom.io
+## atom.io
   - https://groups.google.com/forum/#!topic/elm-discuss/DFymqONIFjc
-- jsx
+## jsx
   - https://github.com/pzavolinsky/elmx
