@@ -13,6 +13,7 @@
 - https://www.reddit.com/r/haskell/comments/rkyoa/my_thesis_is_finally_complete_elm_concurrent_frp/
 
 ## errors
+
 - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
 
 ## usages/examples/packages/libraries
