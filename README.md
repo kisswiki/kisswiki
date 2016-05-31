@@ -14,3 +14,4 @@ I edit it in atom.io
   - `Ctrl+Alt+[` - fold current row, `Ctrl+Alt+]` - unfold current row
 - searching in atom.io
   - first level: regex `^- something`
+- internal links: `[javascript](../javascript/javascript.md)` http://stackoverflow.com/questions/6474045/linking-to-other-wiki-pages-on-github
