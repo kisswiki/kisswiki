@@ -88,3 +88,7 @@
 ## koans
 
 - https://github.com/robertjlooby/elm-koans
+
+## cheatsheets
+
+- https://github.com/izdi/elm-cheat-sheet
