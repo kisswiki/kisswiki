@@ -1,3 +1,4 @@
 - https://github.com/ohanhi/elm-chronographify
 - https://github.com/krisajenkins/elm-rays/
 - https://github.com/jessitron/elm-sydron
+- Hacker News in Elm https://github.com/massung/elm-hn
