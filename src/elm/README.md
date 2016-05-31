@@ -212,6 +212,7 @@
 - https://github.com/christianalfoni/exploring-elm-boilerplate
   - http://www.christianalfoni.com/articles/2015_11_30_Exploring-Elm-part1
 - https://github.com/simonewebdesign/elm-new/tree/master/share/elm-new
+- https://github.com/archetypes/elm
 
 ## node.js
 
