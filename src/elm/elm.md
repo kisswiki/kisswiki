@@ -1,3 +1,6 @@
+- [canvas](canvas.md)
+- [javascript](../javascript/javascript.md)
+
 ## about
 
 - One thing that has really driven the attention and the adoption of Elm is that it emphasizes simplicity and ease of use in a way that rocks the boat a bit within the existing functional programming community. I’m consistently looking for ways to reduce the learning curve. - Evan Czaplicki https://www.seas.harvard.edu/blog/2015/10/alumni-profile-evan-czaplicki-ab-12
