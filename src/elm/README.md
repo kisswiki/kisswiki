@@ -1,5 +1,4 @@
-- [canvas](canvas.md)
-- [javascript](../javascript/javascript.md)
+- always: `\_ -> sth` https://www.reddit.com/r/elm/comments/3q8fxy/what_is_always/
 
 ## about
 
