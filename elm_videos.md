@@ -1,2 +1,0 @@
-- Jessica Kerr - Adventures in Elm: Question Your Principles http://www.ustream.tv/recorded/86157626
-- From jQuery to Flux to Elm - Forward 4 Web Summit https://youtu.be/NgwQHGqIMbw

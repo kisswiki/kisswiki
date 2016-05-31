@@ -1,3 +1,25 @@
+- https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_cl one_in_elm/
+- https://www.reddit.com/r/elm/comments/401448/using_elm_to_create_a_fun_game_in_just_five_days/
+- https://github.com/liubko/elm-snake
+  - http://www.slideshare.net/theburningmonk/my-adventure-with-elm
+- https://github.com/jvoigtlaender/labyrinth-elm
+- https://github.com/johnpmayer/celestia
+- https://github.com/avh4/wire-game
+- https://github.com/BlackBrane/destroid
+- https://github.com/slawrence/vessel
+- https://github.com/jcollard/elmtris
+- An intro to games in Elm http://elm-lang.org/blog/making-pong
+- https://github.com/etaque/tacks
+- https://github.com/mgold/Sequence-Maze
+- https://github.com/basti1302/elm-turing-machine-game
+- https://github.com/mikegehard/elm-minesweeper
+- https://github.com/sonnym/elm-expressway_pong
+- https://github.com/ohanhi/elmvaders
+- https://github.com/FireflyLogic/pewpew
+- https://github.com/grzegorzbalcerek/chess-elm
+- https://github.com/Lopi/HackMan
+- https://github.com/bamboo/take-the-blue-pills
+
 - http://elm-by-example.org/chapter14snakerevisited.html
 - elm rocket lander
   - https://blog.wearewizards.io/rocket-lander-in-elm-extra/ship.html

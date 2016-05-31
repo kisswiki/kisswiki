@@ -1,2 +1,0 @@
-- https://www.amazon.com/Seven-More-Languages-Weeks-Shaping-ebook/dp/B00RW8XFUK
-- A tutorial on developing single page web applications (SPAs) with Elm http://www.elm-tutorial.org/en/

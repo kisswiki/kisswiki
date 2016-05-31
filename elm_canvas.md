@@ -1,3 +1,4 @@
+- https://github.com/fresheyeball/elm-chartjs
 - Canvas performance (redrawing lots of colored rectangles)
   - https://groups.google.com/forum/#!topic/elm-discuss/NwX78Fmxeo0
   - http://stackoverflow.com/questions/31907496/how-to-make-collage-with-lots-of-containers-more-responsive-in-elm
