@@ -56,9 +56,11 @@
 - https://github.com/mgold/elm-join
 - https://github.com/grzegorzbalcerek/Preselm
 - https://www.reddit.com/r/elm/comments/41b0e3/a_more_readable_elm_task_example/
-- audio
-  - https://github.com/search?l=elm&q=audio&type=Repositories&utf8=%E2%9C%93
-  - https://github.com/bmatcuk/elm-webaudio
+
+## audio
+
+- https://github.com/search?l=elm&q=audio&type=Repositories&utf8=%E2%9C%93
+- https://github.com/bmatcuk/elm-webaudio
 
 ## tools
 
