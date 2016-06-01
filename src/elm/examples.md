@@ -2,4 +2,6 @@
 - https://github.com/krisajenkins/elm-rays/
 - https://github.com/jessitron/elm-sydron
 - Hacker News in Elm https://github.com/massung/elm-hn
-- https://github.com/Bogdanp/elm-datepicker/tree/1.0.0
+- elm-datepicker
+  - https://github.com/Bogdanp/elm-datepicker/tree/latest
+  - is there a reason you decided to return a 3-tuple with Maybe Date, instead of providing a way to query the date picker for the currently selected date? https://www.reddit.com/r/elm/comments/4m0iby/ann_elmdatepicker_a_reusable_date_picker_component/
