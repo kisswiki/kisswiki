@@ -1,6 +1,7 @@
 - always: `\_ -> sth` https://www.reddit.com/r/elm/comments/3q8fxy/what_is_always/
 - http://stackoverflow.com/questions/37363294/what-does-a-function-with-2-values-on-the-right-side-mean-model-html-msg
 - nesting http://stackoverflow.com/questions/37328203/elm-0-17-how-to-subscribe-to-sibling-nested-component-changes
+- http://package.elm-lang.org/packages/krisajenkins/elm-exts/latest/
 
 ## about
 
