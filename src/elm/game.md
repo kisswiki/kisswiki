@@ -20,7 +20,9 @@
 - https://github.com/Lopi/HackMan
 - https://github.com/bamboo/take-the-blue-pills
 
-- http://elm-by-example.org/chapter14snakerevisited.html
+- snake
+  - http://elm-by-example.org/chapter14snakerevisited.html
+  - http://www.elmfiddle.io/view/ciohidiwb0000ittvijce7hy5
 - elm rocket lander
   - https://blog.wearewizards.io/rocket-lander-in-elm-extra/ship.html
   - https://github.com/WeAreWizards/elm-rocket-lander
