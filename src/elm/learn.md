@@ -16,6 +16,7 @@
 - https://github.com/jessitron/elm-sydron video and slides
 - Jessica Kerr - Adventures in Elm: Question Your Principles http://www.ustream.tv/recorded/86157626
 - From jQuery to Flux to Elm - Forward 4 Web Summit https://youtu.be/NgwQHGqIMbw
+- Stepping out of the chaos with Elm https://vimeo.com/168450114 from https://vimeo.com/channels/1079506/168450114
 
 ## courses
 
