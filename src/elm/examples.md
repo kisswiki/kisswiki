@@ -2,3 +2,4 @@
 - https://github.com/krisajenkins/elm-rays/
 - https://github.com/jessitron/elm-sydron
 - Hacker News in Elm https://github.com/massung/elm-hn
+- https://github.com/Bogdanp/elm-datepicker/tree/1.0.0
