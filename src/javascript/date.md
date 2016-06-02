@@ -9,6 +9,7 @@
 
 - http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
+- http://stackoverflow.com/questions/17913681/how-do-i-use-tolocaletimestring-without-displaying-seconds#comment50460422_20430558
 
 ```
 var today = new Date();
