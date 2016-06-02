@@ -1,0 +1,1 @@
+- A minimal Angular2 playground using TypeScript and SystemJS loader https://github.com/pkozlowski-opensource/ng2-play
