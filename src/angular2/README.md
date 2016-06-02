@@ -1,1 +1,3 @@
-- A minimal Angular2 playground using TypeScript and SystemJS loader https://github.com/pkozlowski-opensource/ng2-play http://stackoverflow.com/users/2898867/jhadesdev
+- A minimal Angular2 playground using TypeScript and SystemJS loader
+  - https://github.com/pkozlowski-opensource/ng2-play
+  - http://stackoverflow.com/questions/32713534/how-to-config-system-js-when-using-angular2#comment53270349_32713534
