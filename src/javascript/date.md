@@ -10,6 +10,8 @@
 
 `new Date().toLocaleString([], {month: '2-digit'});`
 
+http://stackoverflow.com/questions/17913681/how-do-i-use-tolocaletimestring-without-displaying-seconds#comment50460422_20430558
+
 - iso year
 `new Intl.DateTimeFormat('en-ca-iso8601').format(date) // "2012-12-20"`
 
@@ -18,7 +20,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 - http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
-- http://stackoverflow.com/questions/17913681/how-do-i-use-tolocaletimestring-without-displaying-seconds#comment50460422_20430558
 
 ```
 var today = new Date();
