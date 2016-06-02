@@ -16,12 +16,6 @@ http://stackoverflow.com/questions/17913681/how-do-i-use-tolocaletimestring-with
 
 `new Date().toLocaleString([], {month: '2-digit'});`
 
-- iso year
-`new Intl.DateTimeFormat('en-ca-iso8601').format(date) // "2012-12-20"`
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat
-
-
 ```
 var today = new Date();
 var formattedToday = today.toLocaleDateString() + today.toLocaleTimeString();
@@ -63,6 +57,11 @@ http://stackoverflow.com/questions/542938/how-do-i-get-the-number-of-days-betwee
 
 `new Date().toISOString().split('T')[0]`
 
-But what if browser doesn't return timezone? http://stackoverflow.com/questions/6348431/best-way-to-remove-edt-from-a-date-returned-via-javascript-with-tolocalestring
-
 - http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date#comment62675778_11172083
+
+But what if browser doesn't return timezone?
+
+`new Intl.DateTimeFormat('en-ca-iso8601').format(date) // "2012-12-20"`
+
+- http://stackoverflow.com/questions/6348431/best-way-to-remove-edt-from-a-date-returned-via-javascript-with-tolocalestring
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat
