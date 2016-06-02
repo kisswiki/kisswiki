@@ -2,6 +2,11 @@
 
 `new Date().toLocaleString('de-DE', {hour12: false, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit'}) //  09.05.2016, 17:01:34`
 
+- default locale for user, use []:
+-
+`new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', hour12: false});`
+"17:08"
+
 - http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
 
