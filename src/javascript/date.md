@@ -10,11 +10,13 @@
 
 `new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', hour12: false})`
 
+
+http://stackoverflow.com/questions/17913681/how-do-i-use-tolocaletimestring-without-displaying-seconds#comment50460422_20430558
+
 - get only month
 
 `new Date().toLocaleString([], {month: '2-digit'});`
 
-http://stackoverflow.com/questions/17913681/how-do-i-use-tolocaletimestring-without-displaying-seconds#comment50460422_20430558
 
 - iso year
 `new Intl.DateTimeFormat('en-ca-iso8601').format(date) // "2012-12-20"`
