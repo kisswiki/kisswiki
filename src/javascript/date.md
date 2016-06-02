@@ -71,3 +71,13 @@ But what if browser doesn't return timezone?
 - http://stackoverflow.com/questions/6348431/best-way-to-remove-edt-from-a-date-returned-via-javascript-with-tolocalestring
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat
 - http://stackoverflow.com/questions/2573521/how-do-i-output-an-iso-8601-formatted-string-in-javascript
+
+## Add number of days to today's date
+
+```javascript
+var someDate = new Date();
+var numberOfDaysToAdd = 6;
+someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
+```
+
+http://stackoverflow.com/questions/3818193/how-to-add-number-of-days-to-todays-date
