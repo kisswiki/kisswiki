@@ -56,4 +56,6 @@ http://stackoverflow.com/questions/542938/how-do-i-get-the-number-of-days-betwee
 
 `new Date().toISOString().split('T')[0]`
 
-http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date#comment62675778_11172083
+But what if browser doesn't return timezone? http://stackoverflow.com/questions/6348431/best-way-to-remove-edt-from-a-date-returned-via-javascript-with-tolocalestring
+
+- http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date#comment62675778_11172083
