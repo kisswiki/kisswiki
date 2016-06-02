@@ -1,6 +1,8 @@
-## Format date
 
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 - http://kangax.github.io/compat-table/es5/#test-Date_methods
+
+## Format date
 
 `new Date().toLocaleString('de-DE', {hour12: false, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit'}) //  09.05.2016, 17:01:34`
 
