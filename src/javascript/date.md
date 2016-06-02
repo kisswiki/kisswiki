@@ -4,7 +4,7 @@
 
 - default locale for user, use []:
 
-`new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', hour12: false});`
+`new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', hour12: false})`
 
 
 - http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date
