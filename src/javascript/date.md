@@ -10,6 +10,9 @@
 
 `new Date().toLocaleString([], {month: '2-digit'});`
 
+- iso year
+`new Intl.DateTimeFormat('en-ca-iso8601').format(date) // "2012-12-20"`
+
 
 - http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
