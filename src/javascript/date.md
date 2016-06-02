@@ -6,6 +6,10 @@
 
 `new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', hour12: false})`
 
+- get only month
+
+`new Date().toLocaleString([], {month: '2-digit'});`
+
 
 - http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
