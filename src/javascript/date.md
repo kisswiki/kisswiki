@@ -19,8 +19,31 @@ http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date/35303
 - http://stackoverflow.com/questions/221294/how-do-you-get-a-timestamp-in-javascript
 - http://stackoverflow.com/questions/9756120/how-do-i-get-a-utc-timestamp-in-javascript
 
-## unix timestamp to Date
+## Unix timestamp to Date
 
 `var date = new Date(unix timestamp * 1000)`
 
 http://stackoverflow.com/questions/847185/convert-a-unix-timestamp-to-time-in-javascript
+
+## Number of days between dates
+
+```javascript
+function treatAsUTC(date) {
+    var result = new Date(date);
+    result.setMinutes(result.getMinutes() - result.getTimezoneOffset());
+    return result;
+}
+
+function daysBetween(startDate, endDate) {
+    var millisecondsPerDay = 24 * 60 * 60 * 1000;
+    return (treatAsUTC(endDate) - treatAsUTC(startDate)) / millisecondsPerDay;
+}
+```
+
+http://stackoverflow.com/questions/542938/how-do-i-get-the-number-of-days-between-two-dates-in-javascript/11252167
+
+## ISO year
+
+`new Date().toISOString().split('T')[0]`
+
+http://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date#comment62675778_11172083
