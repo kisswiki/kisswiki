@@ -1,1 +1,2 @@
 - My Tangram program is built with Elm 0.17 and shows drag-and-drop with SVG shapes http://fredcy.github.io/
+- https://medium.com/wunder-nerds/storing-and-restoring-the-state-in-elm-0-17-94874429dc1d
