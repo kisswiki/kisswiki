@@ -17,3 +17,4 @@
 - [ ] How doing a drawing a day changed my life: David Litchfield at TEDxBedford https://www.youtube.com/watch?v=nclSb-MlAxo
 - [ ] How to Magically Connect with Anyone | Brian Miller | TEDxManchesterHighSchool https://www.youtube.com/watch?v=D4cV8yfgNyI
 - [ ] Why Sitting Down Destroys You | Roger Frampton | TEDxLeamingtonSpa https://www.youtube.com/watch?v=jOJLx4Du3vU
+- [ ] How to travel the world with almost no money | Tomislav Perko | TEDxTUHH https://www.youtube.com/watch?v=R7vmHGAshi8
