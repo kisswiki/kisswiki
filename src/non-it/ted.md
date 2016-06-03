@@ -14,3 +14,4 @@
 - http://www.ted.com/talks/bj_miller_what_really_matters_at_the_end_of_life
 - [ ] http://www.ted.com/talks/guy_winch_the_case_for_emotional_hygiene/transcript
 - [ ] https://www.ted.com/talks/judson_brewer_a_simple_way_to_break_a_bad_habit/
+- [ ] Conquering Math Anxiety - The Power of Yay Math: Robert Ahdoot at TEDxAJU https://www.youtube.com/watch?v=66y4W5HervQ
