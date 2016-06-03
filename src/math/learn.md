@@ -1,1 +1,2 @@
 - [ ] Conquering Math Anxiety - The Power of Yay Math: Robert Ahdoot at TEDxAJU https://www.youtube.com/watch?v=66y4W5HervQ
+- [ ] Faster than a calculator | Arthur Benjamin | TEDxOxford https://www.youtube.com/watch?v=e4PTvXtz4GM
