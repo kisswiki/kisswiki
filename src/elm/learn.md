@@ -1,5 +1,6 @@
 - [Make the introduction more streamlined](https://github.com/elm-lang/elm-lang.org/issues/509#issuecomment-171261155)
 - https://github.com/elm-community/elm-faq/blob/gh-pages/index.md
+- https://www.dailydrip.com/topics/elm
 
 ## videos
 
