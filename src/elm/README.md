@@ -207,7 +207,7 @@
 
 - `setError : (Model, Effects Action)` https://github.com/Gizra/elm-hedley/blob/v1.0.0/src/elm/Config/Test.elm#L16
 
-## starter kit
+## starter kits
 
 - https://github.com/Gizra/generator-elmlang
 - https://github.com/christianalfoni/exploring-elm-boilerplate
