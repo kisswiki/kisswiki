@@ -1,0 +1,1 @@
+- How to become a memory master | Idriz Zogaj | TEDxGoteborg https://www.youtube.com/watch?v=9ebJlcZMx3c
