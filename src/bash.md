@@ -22,3 +22,9 @@ set +o allexport
 ```
 
 http://stackoverflow.com/questions/19331497/set-environment-variables-from-file/30969768#30969768
+
+## check if file exists before removing
+
+> Don't bother checking if the file exists, just try to remove it. eg: `rm -f /p/a/t/h`
+
+http://stackoverflow.com/questions/31318068/shell-script-to-remove-a-file-if-it-already-exist
