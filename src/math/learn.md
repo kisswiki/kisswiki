@@ -1,0 +1,1 @@
+- [ ] Conquering Math Anxiety - The Power of Yay Math: Robert Ahdoot at TEDxAJU https://www.youtube.com/watch?v=66y4W5HervQ
