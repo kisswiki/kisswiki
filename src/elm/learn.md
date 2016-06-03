@@ -22,6 +22,7 @@
 - Stepping out of the chaos with Elm https://vimeo.com/168450114 from https://vimeo.com/channels/1079506/168450114
 - Climbing Into Elm
   - https://youtu.be/JlC2Q89yg4
+  - http://slides.com/splodingsocks/elm
 
 ## courses
 
