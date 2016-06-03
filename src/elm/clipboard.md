@@ -1,1 +1,3 @@
-- https://www.reddit.com/r/elm/comments/4ltxdn/clipboard_operations_with_elm/
+- elm-clipboard
+  - https://www.reddit.com/r/elm/comments/4ltxdn/clipboard_operations_with_elm/
+  - https://groups.google.com/forum/#!topic/elm-discuss/0bxzoNRwPPk
