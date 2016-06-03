@@ -15,3 +15,4 @@
 - [ ] http://www.ted.com/talks/guy_winch_the_case_for_emotional_hygiene/transcript
 - [ ] https://www.ted.com/talks/judson_brewer_a_simple_way_to_break_a_bad_habit/
 - [ ] How doing a drawing a day changed my life: David Litchfield at TEDxBedford https://www.youtube.com/watch?v=nclSb-MlAxo
+- [ ] How to Magically Connect with Anyone | Brian Miller | TEDxManchesterHighSchool https://www.youtube.com/watch?v=D4cV8yfgNyI
