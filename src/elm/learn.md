@@ -25,6 +25,7 @@
   - http://slides.com/splodingsocks/elm
 - Stepping out of the chaos https://vimeo.com/168450114
 - Juan Caicedo - ELM JAVASCRIPT, HOW TO ENJOY FUNCTIONAL PROGRAMMING IN ES5 https://www.youtube.com/watch?v=UmxPZpam7o0
+- Richard Feldman - Introduction to Elm (March 22, 2016) https://www.youtube.com/watch?v=zBHB9i8e3Kc
 
 ## courses
 
