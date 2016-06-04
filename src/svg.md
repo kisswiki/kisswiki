@@ -1,3 +1,3 @@
 - https://github.com/blog/2112-delivering-octicons-with-svg
 - http://stackoverflow.com/questions/33812303/svg-animation-not-working-on-ie-11
-- http://snapsvg.io/
+- The JavaScript SVG library for the modern web http://snapsvg.io/
