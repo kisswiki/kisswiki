@@ -6,6 +6,10 @@ Usually, people use loops for three things namely
 
 https://www.quora.com/Why-dont-pure-functional-programming-languages-provide-a-loop-construct/answer/Chidi-Muorah
 
+> If we ask how to iterate in a functional language, the answer is already there: functions or even expressions (in a lazy language) can refer to themselves, giving us unbounded iteration for free. If we ask how to do that with an imperative set of statements, the answer has to be added in—either we have a way of jumping around our set of statements or, since that proves unruly, we have special language constructs expressly designed to iterate. Loops are a purely synthetic solution to the question of iteration: to iterate, we throw in a language construct that says "iterate". A bit of deus ex machina where the language designer, appropriately enough, gets to play god.
+> Map, filter, fold and friends package up common recursive patterns into library functions that are easier to use than direct recursion and signal intent. When you see a map, you know that it will apply a function to every element in a list and nothing more. Moreover, when you use map, you know the iteration is going to be correct—you can't make off-by-one errors or skip elements in the list.
+> - https://www.quora.com/Why-dont-pure-functional-programming-languages-provide-a-loop-construct
+
 ## tail-call optimizations
 
 Since version 0.16 elm does tail-call optimizations for self-recursive functions http://elm-lang.org/blog/compilers-as-assistants
@@ -23,7 +27,11 @@ So no need for elm-loop? https://groups.google.com/forum/#!topic/elm-discuss/E2m
 > In the world of pure functions, data is passed into the functions that carry out their work-- they don't reach out to them or depend on them
 > - https://www.quora.com/Why-dont-pure-functional-programming-languages-provide-a-loop-construct
 
-Haskell has it? https://hackage.haskell.org/package/loop-while-1.0.0/docs/Control-Monad-LoopWhile.html
+Loop in Haskell
+
+- https://hackage.haskell.org/package/loop-while-1.0.0/docs/Control-Monad-LoopWhile.html
+- https://doingmyprogramming.com/2014/08/08/haskell-doesnt-have-loops/
+- https://www.rosettacode.org/wiki/Loops/While#Haskell
 
 ## Is using tail-call optimization for recursion, making it loop?
 
