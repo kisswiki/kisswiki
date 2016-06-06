@@ -20,8 +20,7 @@ http://raganwald.com/2014/03/31/class-hierarchies-dont-do-that.html
 
 ## Composition over Inheritance
 
-- https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205
-- https://storify.com/realtalktech/5-absurd-lies-of-functional-programmer-shills
+https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205
 
 ## Humor
 - https://twitter.com/old_sound/status/674298612785000452
@@ -30,7 +29,9 @@ http://raganwald.com/2014/03/31/class-hierarchies-dont-do-that.html
 
 ## pros/cons
 
-Ask HN: Is functional programming really worth it? https://news.ycombinator.com/item?id=1191167
+- Ask HN: Is functional programming really worth it? https://news.ycombinator.com/item?id=1191167
+- https://storify.com/realtalktech/5-absurd-lies-of-functional-programmer-shills
+- pissed off about functional programming http://www.perlmonks.org/?node_id=450922
 
 ### cons
 
