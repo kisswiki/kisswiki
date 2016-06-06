@@ -14,8 +14,7 @@ So no need for elm-loop? https://groups.google.com/forum/#!topic/elm-discuss/E2m
 
 ## Why no loop in pure functional programming languages?
 
-Purity means that an expression and its value are equivalent, and that side effects are not available.
-
-https://www.quora.com/Why-dont-pure-functional-programming-languages-provide-a-loop-construct/answer/Nicolae-Marasoiu
+> Pure functional languages generally do not maintain state, or at the very least, try to not rely on it. That means, generally, there aren't 'variables' -- values can be bound to a name, but you can't change that value later. Loop constructs as used in other languages rely on the concept of changing values to end the loop. Without variables, this can't happen. So no loop constructs.
+> - https://www.quora.com/Why-dont-pure-functional-programming-languages-provide-a-loop-construct
 
 Haskell has it? https://hackage.haskell.org/package/loop-while-1.0.0/docs/Control-Monad-LoopWhile.html
