@@ -3,6 +3,7 @@
 - https://www.dailydrip.com/topics/elm
 - http://www.elmweekly.nl/
 - https://twitter.com/search?q=elmlang
+- https://learnxinyminutes.com/docs/elm/
 
 ## videos
 
