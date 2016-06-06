@@ -14,6 +14,8 @@ So no need for elm-loop? https://groups.google.com/forum/#!topic/elm-discuss/E2m
 
 ## Why no loop in pure functional programming languages?
 
+> In contrast with the imperative paradigm, where user expresses her logic in term of subsequent operations, FP programs are expressed as a set of facts that the compiler and runtime will strive to keep true (sometime by internally using loops BTW).
+>
 > Pure functional languages generally do not maintain state, or at the very least, try to not rely on it. That means, generally, there aren't 'variables' -- values can be bound to a name, but you can't change that value later. Loop constructs as used in other languages rely on the concept of changing values to end the loop. Without variables, this can't happen. So no loop constructs.
 >
 > The loop construction is inherently a low-level expression of an execution strategy that enforces a law and relies on run-time operations sequencing. Hence, it isn't part of the more declarative approach of a FPL.
