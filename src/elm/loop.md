@@ -7,3 +7,5 @@ So no need for elm-loop? https://groups.google.com/forum/#!topic/elm-discuss/E2m
 ## Why no loop in pure functional programming languages?
 
 https://www.quora.com/Why-dont-pure-functional-programming-languages-provide-a-loop-construct
+
+Haskell has it? https://hackage.haskell.org/package/loop-while-1.0.0/docs/Control-Monad-LoopWhile.html
