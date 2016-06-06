@@ -27,9 +27,10 @@ Haskell has it? https://hackage.haskell.org/package/loop-while-1.0.0/docs/Contro
 
 ## Is using tail-call optimization for recursion, making it loop?
 
-> Having a call-stack is not a requirement of recursion. See CPS transformation.
+> bad_at_photoshop: recursion is equal in power to looping
+> CyRaid: Recursion is not equal in power to loop. It has a slight draw back: Stack
+> passwordisINDUCTION: Having a call-stack is not a requirement of recursion. See CPS transformation.
 > - https://www.reddit.com/r/programming/comments/2oljb8/myth_of_the_day_functional_programmers_dont_use/
-
-> I think you have a sort of pre-determined image of what a loop is based on how it is implemented (it needs to be a special language construct, it needs implicitly to mutate the counter variables, the loop body can't be defined in a function body and so on) and not at all how it is used. If there's one lesson I have taken away from programming it's that the public API is what matters, not the implementation.
+> kqr: I think you have a sort of pre-determined image of what a loop is based on how it is implemented (it needs to be a special language construct, it needs implicitly to mutate the counter variables, the loop body can't be defined in a function body and so on) and not at all how it is used. If there's one lesson I have taken away from programming it's that the public API is what matters, not the implementation.
 If you have to go into the language and look at the implementation of a loop before you can conclude whether it's actually a loop or not, I think you're not making a useful distinction anymore. What should be interesting is how you use the construct, not how it is implemented. Do you use it like a loop? Then it is a loop!
 > - https://www.reddit.com/r/programming/comments/2oljb8/myth_of_the_day_functional_programmers_dont_use/cmq147c
