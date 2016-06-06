@@ -32,7 +32,7 @@ https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070
 - Ask HN: Is functional programming really worth it? https://news.ycombinator.com/item?id=1191167
 - https://storify.com/realtalktech/5-absurd-lies-of-functional-programmer-shills
 - pissed off about functional programming http://www.perlmonks.org/?node_id=450922
-- https://www.facebook.com/groups/217169631654737/permalink/1085555794816112/
+- http://flyingfrogblog.blogspot.be/2016/05/disadvantages-of-purely-functional.html via https://www.facebook.com/groups/217169631654737/permalink/1085555794816112/
 
 ### cons
 
