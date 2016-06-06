@@ -20,7 +20,8 @@ http://raganwald.com/2014/03/31/class-hierarchies-dont-do-that.html
 
 ## Composition over Inheritance
 
-https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205
+- https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205
+- https://storify.com/realtalktech/5-absurd-lies-of-functional-programmer-shills
 
 ## Humor
 - https://twitter.com/old_sound/status/674298612785000452
