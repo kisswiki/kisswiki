@@ -29,6 +29,8 @@ https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070
 
 ## pros/cons
 
+Ask HN: Is functional programming really worth it? https://news.ycombinator.com/item?id=1191167
+
 ### cons
 
 - http://stackoverflow.com/questions/1786969/pitfalls-disadvantages-of-functional-programming/
