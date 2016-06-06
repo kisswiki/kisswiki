@@ -30,3 +30,9 @@ Edit run configuration, in section 'Before launch' click + > Run External tool >
 The JBoss Integration plugin must be enabled
 
 https://www.jetbrains.com/help/idea/2016.1/run-debug-configuration-jboss-server.html?origin=old_help
+
+## only 75 visible characters in Intellij Idea's embedded terminal
+
+For windows change the terminal shell path (File->Settings->Tools->Terminal) from cmd.exe to:
+
+`cmd.exe /K "mode con:cols=500 lines=9999&cmd.exe"`
