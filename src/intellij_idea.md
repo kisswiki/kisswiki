@@ -36,3 +36,5 @@ https://www.jetbrains.com/help/idea/2016.1/run-debug-configuration-jboss-server.
 For windows change the terminal shell path (File->Settings->Tools->Terminal) from cmd.exe to:
 
 `cmd.exe /K "mode con:cols=500 lines=9999&cmd.exe"`
+
+http://stackoverflow.com/questions/24936479/why-there-are-only-75-visible-characters-in-intellij-ideas-embedded-terminal
