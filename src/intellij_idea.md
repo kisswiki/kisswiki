@@ -38,3 +38,11 @@ For windows change the terminal shell path (File->Settings->Tools->Terminal) fro
 `cmd.exe /K "mode con:cols=500 lines=9999&cmd.exe"`
 
 http://stackoverflow.com/questions/24936479/why-there-are-only-75-visible-characters-in-intellij-ideas-embedded-terminal
+
+## Output window of IntelliJ IDEA cuts output
+
+IDEA_HOME\bin\idea.properties
+
+`idea.cycle.buffer.size=1024`
+
+http://stackoverflow.com/questions/11763996/output-window-of-intellij-idea-cuts-output
