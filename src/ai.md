@@ -7,4 +7,11 @@
 - But calling machine learning algorithms just algorithms is not helpful at all. I had to work through a few books and courses to get a decent understanding of ML despite the fact that I had a CS degree and a good understanding of discrete algorithms. In short, the things that are put on top of the technology stack do not reduce to the layers below in a useful way. https://news.ycombinator.com/item?id=11650747
 - Is this just a huge Monte Carlo simulation machine for generating loads of input setups, run AI many times to see which setup was "best"? https://news.ycombinator.com/item?id=11651005
 - As Mehana says, Facebook trains and tests about 300,000 machine learning models each month. AutoML can then use the results of these tests to train another machine learning model that can optimize the training of machine learning models. Yes, that can be a hard thing to wrap your head around. Mehanna compares it to Inception. But it works. The system can automatically chooses algorithms and parameters that are likely to work. “It can almost predict the result before the training,” Mehanna says. http://www.wired.com/2016/05/facebook-trying-create-ai-can-create-ai/
-- http://www.r2d3.us/visual-intro-to-machine-learning-part-1/?lang=en
+
+## Machine learning
+
+> In machine learning, computers apply statistical learning techniques to automatically identify patterns in data. These techniques can be used to make highly accurate predictions.
+> - http://www.r2d3.us/visual-intro-to-machine-learning-part-1/?lang=en
+
+> While most of the core algorithms that drive machine learning have been around for decades, what has magnified its promise so dramatically in recent years is the extraordinary growth of the two fuels that power these algorithms – data and computing power.
+> - http://techcrunch.com/2016/06/02/the-barbell-effect-of-machine-learning/
