@@ -1,0 +1,3 @@
+PPC was only introduced in 2002; until then, advertisements were charged at cost-per-thousand impressions or Cost per mille (CPM). Overture has filed a patent infringement lawsuit against Google, saying the rival search service overstepped its bounds with its ad-placement tools. https://en.wikipedia.org/wiki/Pay_per_click
+
+ Overture sells its listings by auctioning off search terms to the highest bidder--an approach that it compares to the yellow pages. Google, by contrast, seeks to index every page on the Web and then rank pages according to a proprietary statistical system http://www.cnet.com/news/overture-sues-google-over-search-patent/
