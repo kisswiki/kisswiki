@@ -17,5 +17,7 @@
 > - http://techcrunch.com/2016/06/02/the-barbell-effect-of-machine-learning/
 
 > to make predictions about other, unseen data.
+>
 > how can you speak of machine learning if the metric is fixed before seeing any data? PageRank is human learning: people look at a bunch of pages they want categorized, figure out an intuitively appealing way to categorize them, and then encode those rules in an algorithm
+> Edit: after thinking about this a bit more, I guess you could in fact think of e.g. k-means clustering as just a very advanced form of descriptive statistics, perhaps not fundamentally different from calculating a mean or a kernel density estimate. And in that sense PageRank would be unsupervised learning too, but it still feels to me like that's obscuring rather than clarifying how it works?
 > - https://news.ycombinator.com/item?id=11837475
