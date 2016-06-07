@@ -1,3 +1,5 @@
+- screen resolutin shortcut http://superuser.com/questions/268162/shortcut-to-windows-7-screen-resolution-setting-other-than-by-right-click-on-the/1086359#1086359
+
 - screen capture/record
   - https://github.com/ShareX/ShareX
     - video
