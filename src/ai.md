@@ -15,3 +15,6 @@
 
 > While most of the core algorithms that drive machine learning have been around for decades, what has magnified its promise so dramatically in recent years is the extraordinary growth of the two fuels that power these algorithms – data and computing power.
 > - http://techcrunch.com/2016/06/02/the-barbell-effect-of-machine-learning/
+
+> to make predictions about other, unseen data.
+> - https://news.ycombinator.com/item?id=11837475
