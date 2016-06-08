@@ -118,11 +118,13 @@
   - http://futurice.com/blog/elm-in-the-real-world
   - https://pragmaticstudio.com/blog/2015/10/22/is-learning-elm-worth-your-time
 
-## isomorphic
+## isomorphic / server-side rendering
 
 - https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
 - https://github.com/elm-lang/elm-compiler/issues/1150
 - https://github.com/eeue56/servelm
+- I think you may want to check https://github.com/NoRedInk/take-home#support-summary. Note the item "Server-side rendered client-side HTML". https://github.com/elm-lang/elm-compiler/issues/1113#issuecomment-218251181
+- https://groups.google.com/forum/#!topic/elm-discuss/SFIC-yuHTI8
 
 ## ports
 
