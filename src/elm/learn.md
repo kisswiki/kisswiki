@@ -58,7 +58,6 @@
 - https://pragmaticstudio.com/blog/2014/12/19/getting-started-with-elm
 - https://pragmaticstudio.com/blog/2015/7/23/what-is-elm-qa
 - [Asynchronous Functional Reactive Programming for GUIs](http://people.seas.harvard.edu/~chong/pubs/pldi13-elm.pdf)
-- don't need a port to map each input signal and then redirect it as an Action to the mailbox. Much easier to use merge/mergeMany, mapping each input signal to respective Action [source](https://www.reddit.com/r/elm/comments/3w0tsh/a_question_about_merging_signals/)
 - http://scrambledeggsontoast.github.io/2014/05/09/writing-2048-elm/
 - https://en.wikibooks.org/wiki/Elm_programming_language
 - https://confengine.com/functional-conf-2014/proposal/329/functional-reactive-uis-with-elm

@@ -18,3 +18,4 @@
   - https://www.facebook.com/groups/polishstartups/permalink/1006289269431291/
 - I wake up every morning and think about how I can put myself out of business. By that, I mean I think about every way another business can disrupt my profit margins and my current successes. By thinking about what they could do, I can do it myself and innovate my own business. https://medium.com/@garyvee/uber-and-airbnb-should-have-never-happened-the-way-they-did-17c829055d33
 - The interesting thing about a lot of the big successful tech companies is that they blend things that are often difficult to find together naturally, which makes their success difficult to replicate. https://news.ycombinator.com/item?id=11837475
+- http://innpoland.pl/127361,nadeszla-pora-by-powiedziec-to-glosno-drazni-mnie-filozofia-start-upow
