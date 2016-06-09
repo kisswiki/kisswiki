@@ -79,3 +79,10 @@ It delays calling apply on http responses and chunks the multiple responses into
 `{{contract.start_date_unix * 1000 | date:'MM-dd-yyyy'}}`
 
 http://stackoverflow.com/questions/25534721/angularjs-unixtime-to-datetime-format-with-date-filter-failed
+
+## access $scope from console
+
+In Chrome pick an element in the HTML panel of the developer tools and type this in the console:
+`angular.element($0).scope()`
+
+http://stackoverflow.com/questions/13743058/how-to-access-the-scope-variable-in-browsers-console-using-angularjs
