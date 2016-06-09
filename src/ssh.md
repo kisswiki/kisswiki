@@ -5,3 +5,7 @@
 copy:
 
 `clip < ~/.ssh/personalid.pub`
+
+## RSA vs DSA
+
+Verification is generally what you want to be faster: use RSA http://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys
