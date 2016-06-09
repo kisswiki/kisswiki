@@ -1,5 +1,7 @@
 ## keygen
 
+https://help.github.com/articles/generating-an-ssh-key/
+
 `ssh-keygen -t rsa -C "your_email@youremail.com" -f ~/.ssh/personalid`
 
 copy:
