@@ -1,10 +1,18 @@
 ## keygen
 
-`ssh-keygen -t rsa -C "your_email@youremail.com" -f ~/.ssh/personalid`
+`ssh-keygen -t rsa -C "your_email@youremail.com" -f ~/.ssh/github_rsa`
 
 copy:
 
-`clip < ~/.ssh/personalid.pub`
+`clip < ~/.ssh/github_rsa.pub`
+
+~/.ssh/config
+
+```
+Host *.github.com github.com
+  IdentityFile ~/.ssh/github_rsa
+```
+
 
 - https://help.github.com/articles/generating-an-ssh-key/
 - http://www.cloudvps.com/community/knowledge-base/regenerating-ssh-host-keys/
