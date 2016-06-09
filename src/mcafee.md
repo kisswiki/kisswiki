@@ -25,3 +25,7 @@ I was able to stop and disable:
 - McAfee Framework Service
 - McAfee McShield
 - McAfee Task Manager
+
+## Check
+
+Control Panel > System and Security > Security and Maintainance > Click 'Security' fold and see that Spyware is off, and Virus protection is off.
