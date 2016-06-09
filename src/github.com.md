@@ -44,3 +44,12 @@
   - https://github.com/rochefort/git-trend
   - https://github.com/sheharyarn/github-trending
 - Find gists with `stars:>1000` https://gist.github.com/search?q=stars%3A%3E1000
+
+## ssh
+
+~/.ssh/config
+
+```
+Host *.github.com github.com
+  IdentityFile ~/.ssh/github_rsa
+```
