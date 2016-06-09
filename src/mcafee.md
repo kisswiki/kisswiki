@@ -12,6 +12,8 @@ https://kc.mcafee.com/corporate/index?page=content&id=KB52204
 3. Deselect **Prevent McAfee services from being stopped**.
 4. Click **Apply**.
 
+Disable anything that can be disabled.
+
 http://superuser.com/questions/67265/how-to-disable-a-mcafee-service
 
 ## Disable services
