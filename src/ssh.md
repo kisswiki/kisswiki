@@ -15,6 +15,8 @@ Host *.github.com github.com
   IdentityFile ~/.ssh/github_rsa
 ```
 
+http://superuser.com/questions/469329/ssh-config-wildcard-on-expanded-hostname
+
 test
 
 ```
