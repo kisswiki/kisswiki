@@ -1,8 +1,10 @@
 ## keygen
 
+generate
+
 `ssh-keygen -t rsa -C "your_email@youremail.com" -f ~/.ssh/github_rsa`
 
-copy:
+copy to clipboard
 
 `clip < ~/.ssh/github_rsa.pub`
 
@@ -13,7 +15,7 @@ Host *.github.com github.com
   IdentityFile ~/.ssh/github_rsa
 ```
 
-test:
+test
 
 ```
 $ ssh -T git@github.com
