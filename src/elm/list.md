@@ -8,4 +8,4 @@
 ## List vs Array
 
 > List is great when you make a lot of changes because you are merely updating linked list pointers, whereas Array is great for speedy lookup but has somewhat poorer performance for modifications
-> - http://stackoverflow.com/questions/37627593/return-a-single-record-from-a-list-of-records-in-elm/37628289#37628289
+> - http://stackoverflow.com/questions/37707577/array-vs-list-in-elm/37707812#37707812
