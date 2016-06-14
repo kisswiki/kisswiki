@@ -4,3 +4,8 @@
 - http://stackoverflow.com/questions/33625335/how-to-get-the-first-index-of-a-given-element-in-array-list-in-elm
 - http://stackoverflow.com/questions/34252924/position-of-element-in-list
 - http://stackoverflow.com/questions/31932683/transpose-in-elm-without-maybe
+
+## List vs Array
+
+> List is great when you make a lot of changes because you are merely updating linked list pointers, whereas Array is great for speedy lookup but has somewhat poorer performance for modifications
+> - http://stackoverflow.com/questions/37627593/return-a-single-record-from-a-list-of-records-in-elm/37628289#37628289
