@@ -5,3 +5,5 @@
 >
 > If you live long enough you will get cancer
 > - http://www.bbc.com/earth/story/20160601-is-cancer-inevitable?curator=MediaREDEF
+
+- http://wiedzoholik.pl/rak-w-rzeczywistosci-dziala-na-korzysc-ludzkosci-a-my-caly-czas-blednie-go-rozumielismy/
