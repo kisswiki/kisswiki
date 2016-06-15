@@ -39,6 +39,8 @@ For windows change the terminal shell path (File->Settings->Tools->Terminal) fro
 
 http://stackoverflow.com/questions/24936479/why-there-are-only-75-visible-characters-in-intellij-ideas-embedded-terminal
 
+Sometimes I have to revert it, because terminal doesn't start.
+
 ## Output window of IntelliJ IDEA cuts output
 
 IDEA_HOME\bin\idea.properties
@@ -46,3 +48,10 @@ IDEA_HOME\bin\idea.properties
 `idea.cycle.buffer.size=1024`
 
 http://stackoverflow.com/questions/11763996/output-window-of-intellij-idea-cuts-output
+
+## Exclude file from beeing scanned
+
+- Preferences > Build, Execution, Deployment > Compiler > Excludes
+- Preferences > Editor > File Types -> Ignored files and folders
+
+http://stackoverflow.com/questions/33260148/intellij-cant-find-generated-sources-when-used-in-same-module
