@@ -1,3 +1,4 @@
 - https://www.youtube.com/watch?v=6FChDBwYsg8
 - https://www.youtube.com/watch?v=jOqiE-CQndU
 - Why Filipino Martial Arts Training is Unrealistic | Doug Marcaida https://www.youtube.com/watch?v=M3I_dlku2PA
+- http://www.functionalselfdefense.org/kali/stick-sword
