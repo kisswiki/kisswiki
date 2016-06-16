@@ -1,6 +1,7 @@
 - https://atom.io/docs/
 - indent without moving to beginning Ctrl+]
 - convert spaces <=> tabs https://github.com/AtomLinter/linter-stylelint
+- safe mode: `atom --safe` https://discuss.atom.io/t/what-does-safe-mode-do/22229
 
 ## snippets installed with package langauge-gfm, look at settings to see the list
 
