@@ -175,6 +175,11 @@ Undefined rule "declaration-block-no-ignored-properties"
 
 Update atom-linter
 
+## Search and replace
+
+- Search on Windows doesn't work with **\*.ext https://github.com/atom/find-and-replace/issues/744
+- Normalize slashes to backslashes on Windows https://github.com/atom/find-and-replace/issues/295
+
 ## Troubleshooting
 
 ### Unable to find remote helper for 'https'
