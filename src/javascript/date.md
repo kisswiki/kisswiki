@@ -81,3 +81,24 @@ someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
 ```
 
 http://stackoverflow.com/questions/3818193/how-to-add-number-of-days-to-todays-date
+
+## get age
+
+```javascript
+// http://stackoverflow.com/questions/2587345/why-does-date-parse-give-incorrect-results/2587398#2587398
+function parseDate(input) {
+    var parts = input.split('.');
+    return new Date(parts[0], parts[1]-1, parts[2]);
+}
+
+// http://stackoverflow.com/questions/4060004/calculate-age-in-javascript/7091965#7091965
+function getAge(birthDate) {
+    var today = new Date();
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    return age;
+}
+```
