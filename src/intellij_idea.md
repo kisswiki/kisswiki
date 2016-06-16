@@ -2,6 +2,7 @@
 - http://stackoverflow.com/questions/9162802/intellij-idea-output-directory-reverts-to-default-target
   - IDEA will revert to the Maven configuration on every pom.xml re-import. You can disable it in the IDEA Maven settings
 - Colorize console output: install plugin `Grep Console` http://stackoverflow.com/questions/9420992/colorize-console-output-in-intellij-products/14584030#14584030
+- material ui theme https://github.com/ChrisRM/material-theme-jetbrains
 
 ## Exclude from searching
 
