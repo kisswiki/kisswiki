@@ -3,7 +3,20 @@
   - IDEA will revert to the Maven configuration on every pom.xml re-import. You can disable it in the IDEA Maven settings
 - Colorize console output: install plugin `Grep Console` http://stackoverflow.com/questions/9420992/colorize-console-output-in-intellij-products/14584030#14584030
 - material theme https://github.com/ChrisRM/material-theme-jetbrains
-- fonts http://superuser.com/questions/614960/how-to-fix-font-anti-aliasing-in-intellij-idea-when-using-high-dpi
+
+## Fonts
+
+in idea64.exe.vmoptions:
+
+```
+-Dawt.useSystemAAFontSettings=gasp
+```
+
+on, off, lcd, gasp
+
+- http://superuser.com/questions/614960/how-to-fix-font-anti-aliasing-in-intellij-idea-when-using-high-dpi
+
+``1234567890-=!@#$%^&*()_+[]\{}|;':",./<>?`
 
 ## Exclude from searching
 
