@@ -35,3 +35,7 @@ http://stackoverflow.com/questions/31318068/shell-script-to-remove-a-file-if-it-
 - use `||`: `if [ $my_error_flag -eq 1 ] ||  [ $my_error_flag_o -eq 2 ]; then fi`
 
 http://stackoverflow.com/questions/16203088/multiple-conditions-if-statement-bash-script
+
+## Check if variable is set or empty
+
+You can use -z to test whether a variable is unset or empty http://stackoverflow.com/questions/29278743/how-to-check-if-multiple-variables-are-defined-or-not-in-bash
