@@ -2,5 +2,5 @@
 - http://stackoverflow.com/questions/37376509/work-with-elm-and-select
 - http://stackoverflow.com/questions/34101269/elm-dynamic-html-option-tags-within-a-select-tag
 - https://gist.github.com/freakingawesome/2a021ddeaf0fb3592c4714885339ca2a
-- https://github.com/pzavolinsky/elm-bootstrap/blob/master/src/Bootstrap/Select.elm
 - http://stackoverflow.com/questions/32426042/how-to-print-index-of-selected-option-in-elm
+- https://github.com/pzavolinsky/elm-bootstrap/blob/master/src/Bootstrap/Select.elm
