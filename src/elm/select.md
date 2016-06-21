@@ -1,0 +1,2 @@
+- http://stackoverflow.com/questions/37393864/change-a-record-value-with-a-select-in-elm
+- http://stackoverflow.com/questions/37376509/work-with-elm-and-select
