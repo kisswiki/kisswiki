@@ -33,3 +33,5 @@ http://stackoverflow.com/questions/31318068/shell-script-to-remove-a-file-if-it-
 
 - Use -a (for and) and -o (for or) operations `if [ $my_error_flag -eq 1 -o $my_error_flag_o -eq 2 ]; then fi`
 - use `||`: `if [ $my_error_flag -eq 1 ] ||  [ $my_error_flag_o -eq 2 ]; then fi`
+
+http://stackoverflow.com/questions/16203088/multiple-conditions-if-statement-bash-script
