@@ -1,0 +1,1 @@
+- `<li ng-class="$first ? 'firstRow' : 'nonFirstRow'">` http://stackoverflow.com/questions/12008580/a-ternary-in-templates
