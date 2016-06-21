@@ -38,4 +38,8 @@ http://stackoverflow.com/questions/16203088/multiple-conditions-if-statement-bas
 
 ## Check if variable is set or empty
 
-You can use -z to test whether a variable is unset or empty http://stackoverflow.com/questions/29278743/how-to-check-if-multiple-variables-are-defined-or-not-in-bash
+This will return true if a variable is unset or set to the empty string ("").
+
+`if [ -z "$VAR" ];`
+
+http://serverfault.com/questions/7503/how-to-determine-if-a-bash-variable-is-empty
