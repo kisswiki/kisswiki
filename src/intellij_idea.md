@@ -12,11 +12,25 @@ in idea64.exe.vmoptions:
 -Dawt.useSystemAAFontSettings=gasp
 ```
 
-on, off, lcd, gasp
+- off or false or default – No anti-aliasing
+- on – Full anti-aliasing
+- gasp – Use the font's built-in hinting instructions
+- lcd or lcd_hrgb – Anti-aliasing tuned for many popular LCD monitors
+- lcd_hbgr – Alternative LCD monitor setting
+- lcd_vrgb – Alternative LCD monitor setting
+- lcd_vbgr – Alternative LCD monitor setting
 
 - http://superuser.com/questions/614960/how-to-fix-font-anti-aliasing-in-intellij-idea-when-using-high-dpi
+- http://stackoverflow.com/questions/17346942/intellij-idea-font-smoothing-in-linux
 
-`1234567890-=!@#$%^&*()_+[]\{}|;':",./<>?`
+```
+1234567890-=!@#$%^&*()_+
+[]\{}|;':",./<>?
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+```
+
+
 
 ## Exclude from searching
 
