@@ -13,6 +13,10 @@
 
 - https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 
+## performance
+
+- FooTab https://chrome.google.com/webstore/detail/footab/anbodogikfbehidmmjdokehphginagbb
+
 ## dark
 
 - https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
