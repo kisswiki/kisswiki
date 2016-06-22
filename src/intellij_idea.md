@@ -16,7 +16,7 @@ on, off, lcd, gasp
 
 - http://superuser.com/questions/614960/how-to-fix-font-anti-aliasing-in-intellij-idea-when-using-high-dpi
 
-``1234567890-=!@#$%^&*()_+[]\{}|;':",./<>?`
+`1234567890-=!@#$%^&*()_+[]\{}|;':",./<>?`
 
 ## Exclude from searching
 
