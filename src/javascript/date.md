@@ -87,8 +87,9 @@ http://stackoverflow.com/questions/3818193/how-to-add-number-of-days-to-todays-d
 ```javascript
 // http://stackoverflow.com/questions/2587345/why-does-date-parse-give-incorrect-results/2587398#2587398
 function parseDate(input) {
+    // input = "28.03.1990"
     var parts = input.split('.');
-    return new Date(parts[0], parts[1]-1, parts[2]);
+    return new Date(parts[2], parts[1]-1, parts[0]);
 }
 
 // http://stackoverflow.com/questions/4060004/calculate-age-in-javascript/7091965#7091965
