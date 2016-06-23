@@ -14,6 +14,7 @@
 - ["Controlling Time and Space: understanding the many formulations of FRP" by Evan Czaplicki](https://youtu.be/Agu6jipKfYw)
 - "Web Apps without Web Servers" by Richard Feldman https://youtu.be/WqV5kqaFRDU
 - Climbing Into Elm https://youtu.be/-JlC2Q89yg4
+  - http://slides.com/splodingsocks/elm
 - LambdaConf 2015 - Shipping a Production Web App in Elm Richard Feldman https://youtu.be/B7Iwreo1ReU
 - "Make the Back-End Team Jealous: Elm in Production" by Richard Feldman https://youtu.be/FV0DXNB94NE
 - Evan Czaplicki on FRP in the Browser with Elm, Time Travelling Debugger http://www.infoq.com/interviews/czaplicki-frp-elm
@@ -23,9 +24,6 @@
 - Jessica Kerr - Adventures in Elm: Question Your Principles http://www.ustream.tv/recorded/86157626
 - From jQuery to Flux to Elm - Forward 4 Web Summit https://youtu.be/NgwQHGqIMbw
 - Stepping out of the chaos with Elm https://vimeo.com/168450114 from https://vimeo.com/channels/1079506/168450114
-- Climbing Into Elm
-  - https://youtu.be/JlC2Q89yg4
-  - http://slides.com/splodingsocks/elm
 - Stepping out of the chaos https://vimeo.com/168450114
 - Juan Caicedo - ELM JAVASCRIPT, HOW TO ENJOY FUNCTIONAL PROGRAMMING IN ES5 https://www.youtube.com/watch?v=UmxPZpam7o0
 - Richard Feldman - Introduction to Elm (March 22, 2016) https://www.youtube.com/watch?v=zBHB9i8e3Kc
