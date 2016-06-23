@@ -29,6 +29,7 @@
   - ungit https://github.com/FredrikNoren/ungit/issues/126
   - https://atom.io/packages/git-history + https://github.com/mupchrch/split-diff
     - https://discuss.atom.io/t/compare-files-side-by-side-with-diff-highlight/13726/10
+
 ## linter
 
 - I had to `rm -rf ~/.atom` to make linter work http://stackoverflow.com/questions/29712232/cant-get-atom-linter-to-work/36000092#36000092, I've also installed https://atom.io/packages/react instead of https://atom.io/packages/language-javascript-jsx
