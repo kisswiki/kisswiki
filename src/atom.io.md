@@ -180,7 +180,7 @@ Update atom-linter
 
 ## Search and replace
 
-- Search on Windows doesn't work with **\*.ext https://github.com/atom/find-and-replace/issues/744
+- Search on Windows doesn't work with  https://github.com/atom/find-and-replace/issues/744
 - Normalize slashes to backslashes on Windows https://github.com/atom/find-and-replace/issues/295
 - https://atom.io/packages/fold-search-results
 
