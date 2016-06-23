@@ -70,7 +70,7 @@
 
 ## tools
 
- - https://github.com/elm-lang/elm-reactor
+- https://github.com/elm-lang/elm-reactor
   - Install Elm Platform. This will install Elm Reactor and everything else it needs.
     - `npm install -g elm` or binaries
 - It is inspired by the popular gofmt https://github.com/avh4/elm-format
