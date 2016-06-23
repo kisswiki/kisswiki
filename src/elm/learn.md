@@ -24,7 +24,6 @@
 - Jessica Kerr - Adventures in Elm: Question Your Principles http://www.ustream.tv/recorded/86157626
 - From jQuery to Flux to Elm - Forward 4 Web Summit https://youtu.be/NgwQHGqIMbw
 - Stepping out of the chaos with Elm https://vimeo.com/168450114 from https://vimeo.com/channels/1079506/168450114
-- Stepping out of the chaos https://vimeo.com/168450114
 - Juan Caicedo - ELM JAVASCRIPT, HOW TO ENJOY FUNCTIONAL PROGRAMMING IN ES5 https://www.youtube.com/watch?v=UmxPZpam7o0
 - Richard Feldman - Introduction to Elm (March 22, 2016) https://www.youtube.com/watch?v=zBHB9i8e3Kc
 
