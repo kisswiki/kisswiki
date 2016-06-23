@@ -72,6 +72,7 @@
 - https://atom.io/themes/material-ui (uses background color from syntax theme)
 - https://atom.io/themes/yoceanic-next-syntax
 - https://atom.io/packages/file-icons
+
 ## html
 
 - https://atom.io/packages/autoclose-html
