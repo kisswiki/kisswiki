@@ -26,6 +26,7 @@
 - Stepping out of the chaos with Elm https://vimeo.com/168450114 from https://vimeo.com/channels/1079506/168450114
 - Juan Caicedo - ELM JAVASCRIPT, HOW TO ENJOY FUNCTIONAL PROGRAMMING IN ES5 https://www.youtube.com/watch?v=UmxPZpam7o0
 - Richard Feldman - Introduction to Elm (March 22, 2016) https://www.youtube.com/watch?v=zBHB9i8e3Kc
+- React.js Conf 2016 - Jamison Dance - Rethinking All Practices: Building Applications in Elm https://youtu.be/txxKx_I39a8
 
 ## courses
 
