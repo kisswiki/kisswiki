@@ -5,6 +5,7 @@
 - https://twitter.com/search?q=elmlang
 - https://learnxinyminutes.com/docs/elm/
 - http://exercism.io/languages/elm
+  - https://github.com/exercism/xelm
 
 ## videos
 
