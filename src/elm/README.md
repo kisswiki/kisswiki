@@ -20,6 +20,7 @@
 ## errors
 
 - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
+- Error: Unable to get ... Failed reading: satisfy: `rm -rf ~/AppData/Roaming/elm/package/<author>/<package>`. Should be fixed in elm-0.17.1 https://github.com/elm-lang/elm-package/issues/164
 
 ## usages/examples/packages/libraries
 
