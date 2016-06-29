@@ -85,21 +85,46 @@ http://stackoverflow.com/questions/3818193/how-to-add-number-of-days-to-todays-d
 ## get age
 
 ```javascript
+
+/**
+ * Calculates the age of person
+ *
+ * @param date of birthday in the format dd.mm.YYYY e.g. 20.04.2001
+ * @returns {number} number of full years - age
+ */
+function getAge(date) {
+    return yearsDiff(parseDate(date), new Date());
+}
+
 // http://stackoverflow.com/questions/2587345/why-does-date-parse-give-incorrect-results/2587398#2587398
 function parseDate(input) {
-    // input = "28.03.1990"
     var parts = input.split('.');
     return new Date(parts[2], parts[1]-1, parts[0]);
 }
 
 // http://stackoverflow.com/questions/4060004/calculate-age-in-javascript/7091965#7091965
-function getAge(birthDate) {
-    var today = new Date();
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+function yearsDiff(eariler, later) {
+    var age = later.getFullYear() - eariler.getFullYear();
+    var m = later.getMonth() - eariler.getMonth();
+    if (m < 0 || (m === 0 && later.getDate() < eariler.getDate())) {
         age--;
     }
     return age;
+}
+
+// http://stackoverflow.com/questions/15313418/javascript-assert/15313435#15313435
+function assert(condition, message) {
+    if (!condition) {
+        message = message || 'Assertion failed';
+        if (typeof Error !== 'undefined') {
+            throw new Error(message);
+        }
+        throw message; // Fallback
+    }
+}
+
+function test() {
+    assert(19 === yearsDiff(parseDate('22.05.1997'), parseDate('22.06.2016')), 'yearsDiff should return 19');
+    assert(19 === yearsDiff(parseDate('23.05.1997'), parseDate('22.06.2016')), 'yearsDiff should return 19');
 }
 ```
