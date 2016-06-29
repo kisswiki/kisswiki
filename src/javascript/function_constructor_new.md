@@ -9,3 +9,6 @@ function a() {
   }
 }
 ```
+
+> returning this is not necessary, but it is valid. If the returned value is an object, new will return that object instead of the newly created object.
+> - http://stackoverflow.com/questions/7064673/is-return-from-constructor-necessary-when-creating-object-with-new
