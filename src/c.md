@@ -1,6 +1,6 @@
 ## Reading type declarations
 
-```C
+```c
 void (*(*f[])())()
 ```
 
