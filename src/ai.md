@@ -21,3 +21,6 @@
 > how can you speak of machine learning if the metric is fixed before seeing any data? PageRank is human learning: people look at a bunch of pages they want categorized, figure out an intuitively appealing way to categorize them, and then encode those rules in an algorithm
 > Edit: after thinking about this a bit more, I guess you could in fact think of e.g. k-means clustering as just a very advanced form of descriptive statistics, perhaps not fundamentally different from calculating a mean or a kernel density estimate. And in that sense PageRank would be unsupervised learning too, but it still feels to me like that's obscuring rather than clarifying how it works?
 > - https://news.ycombinator.com/item?id=11837475
+
+> I don't believe in "everyone should work on machine learning". I worked on several deep learning models but I don't really like it. It is a very different job than software engineering in my opinion. ML is more about gathering data and tuning the models as opposed to building stuff. I have spent months working on models and barely wrote any code. It is more efficient to have ML experts focus on the modeling and software engineers use the model.
+> - https://news.ycombinator.com/item?id=11954988
