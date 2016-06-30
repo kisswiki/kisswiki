@@ -21,3 +21,9 @@
 
 - https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
 - https://chrome.google.com/webstore/detail/slinky-elegant/bmanlajnpdncmhfkiccmbgeocgbncfln
+
+## Reset to google as default search engine in omnibox
+
+http://www.google.com/search?q=%s
+
+https://support.google.com/chrome/answer/95426?co=GENIE.Platform%3DDesktop&hl=en
