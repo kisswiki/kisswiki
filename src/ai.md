@@ -23,4 +23,8 @@
 > - https://news.ycombinator.com/item?id=11837475
 
 > I don't believe in "everyone should work on machine learning". I worked on several deep learning models but I don't really like it. It is a very different job than software engineering in my opinion. ML is more about gathering data and tuning the models as opposed to building stuff. I have spent months working on models and barely wrote any code. It is more efficient to have ML experts focus on the modeling and software engineers use the model.
+>
+> The sudden breakthrough in the mid-2000s is IMO still not fully understood - and parts of it may have been very accidental. Initially, it was thought that pre-training was the big breakthrough, but it is quite unclear what the big breakthrough was. It could be that simply the increase of data / compute sizes and the switch to minibatch-SGD explains why modern DNNs generalize well
+>
+> we need better sensors more than greater amounts of the same data available now. We need better hypotheses which lead to better ideas of where to look and what to look for. In general, ML can't help with that. Until we better imagine how the mechanism might work, our questions remain too vague.
 > - https://news.ycombinator.com/item?id=11954988
