@@ -1,1 +1,7 @@
 - http://www.rottentomatoes.com/
+- Whiplash (2014)
+  - http://williamdickersonfilmmaker.com/why-whiplash-won-an-oscar-for-best-editing/
+  - https://www.reddit.com/r/movies/comments/2nn52y/those_whove_seen_whiplash_what_do_you_think_of/
+  - http://www.vulture.com/2014/10/ask-an-expert-juilliard-professor-whiplash.html
+  - BUDDY RICH IMPOSSIBLE DRUM SOLO *HQ* https://youtu.be/9esWG6A6g-k
+  - https://www.quora.com/Is-the-song-Whiplash-a-real-song
