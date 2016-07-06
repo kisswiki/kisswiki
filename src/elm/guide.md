@@ -190,3 +190,7 @@ v4 = (add 4 << add 5) 4
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Basics
 - http://stackoverflow.com/questions/27441648/what-does-the-operator-mean-in-elm/37510017#37510017
 - Don't mix `<|` and `<<` https://www.reddit.com/r/elm/comments/49s8o2/help_with_basics_of_function_composition/
+
+# It's `msg` and not `a` to be more expressive since all lower case names are allowed to designate abstract types
+
+https://elmlang.slack.com/archives/general/p1467811165010028
