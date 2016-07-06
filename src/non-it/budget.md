@@ -1,0 +1,9 @@
+- Always make sure you record every transaction as soon as it happens https://www.quora.com/How-do-I-manage-my-finance
+- http://1secspeed.com/1SecMoney/
+  - enter in notification center widget
+  - dark theme
+  - enable auto backup
+  - enable budget
+  - enable accounts - long press to transfer
+  - fixed position in widget
+  - own categories
