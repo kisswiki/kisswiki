@@ -7,3 +7,11 @@
   - enable accounts - long press to transfer
   - fixed position in widget
   - own categories
+- https://www.quora.com/How-do-you-manage-your-personal-finances
+  - Income
+  - Expenses
+  - Protection
+  - Savings & Investments
+  - Learning
+- https://www.quora.com/How-do-married-couples-handle-finances-together
+- http://finansowyninja.pl/
