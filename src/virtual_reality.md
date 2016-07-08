@@ -24,3 +24,10 @@ http://www.cs.umd.edu/~varshney/498W/lectures/Lecture8s.pdf
 
 The tracking update rate of the Oculus Rift DK2, meaning the rate at which Oculus’ tracking driver sends different position/orientation estimates to VR applications, is 1000 Hz. However, the time between updates is 2ms, meaning that the driver updates the position/orientation, and then updates it again immediately afterwards, 500 times per second.
 http://doc-ok.org/?tag=head-tracking
+
+## lenses
+
+> If you look at something in the distance the lens does not need to bend a lot.
+> That’s also why when you work a lot in front of a computer, you should take breaks at least once an hour and focus on something in the distance. This helps prevent eye strain because it gives your lenses a chance to relax.
+> humans have difficulty looking at virtual reality head mounted displays (VR HMDs) that are 3 to 7 cm in front of our eyes. That’s why we need lenses in VR HMDs that bend the light and make it easier for our eyes to see. The HTC Vive uses Fresnel lenses and the Oculus Rift CV1 has hybrid Fresnel lenses to keep the lenses thin and bend the light in a way that helps us to see clearly.
+> https://vr-lens-lab.com/lenses-for-virtual-reality-headsets/
