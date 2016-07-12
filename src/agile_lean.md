@@ -1,3 +1,9 @@
+> Fail fast, MVP, Agile, Lean <=> max information gain & min cost of failure
+> - https://youtu.be/dSSNLyaZBUU
+> - https://news.ycombinator.com/item?id=7378815
+> - http://www.slideshare.net/chrisconley/redsnake-philly-2014
+
+
 >> You can't use points to determine hours.
 >> They can also be used to have a guess of how many stories can be completed in the current sprint.
 > These two statements are in direct conflict unless you measure sprints in fairly tales instead of weeks.
