@@ -30,8 +30,6 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz
 ```
 
-
-
 ## Exclude from searching
 
 Warning! If you exclude some dir, it won't be searched but also won't be deployed. If you want to exclude some dirs from searching you have to create scope. `Find in Path > Scope > Custom > Shift+Enter or click '...' buton > click + (Add scope) > Choose project from dropdown > Select some dir and click exclude recursively`. Later on you combine patters. Double slash before asterisk `//*` means recursively:
