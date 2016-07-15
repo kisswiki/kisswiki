@@ -37,6 +37,15 @@ PL/SQL procedure successfully completed.
 SQL>quit
 ```
 
+### Restart oracle
+
+Run cmd.exe as admin
+
+```
+lsnrctl stop
+lsnrctl start
+```
+
 http://stackoverflow.com/questions/142868/change-oracle-port-from-port-8080
 
 ## SID
