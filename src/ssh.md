@@ -22,8 +22,8 @@ http://unix.stackexchange.com/questions/61655/multiple-similar-entries-in-ssh-co
 ### Test
 
 ```
-$ ssh -T git@github.com
-$ ssh -T git@gist.github.com
+ssh -T git@github.com
+ssh -T git@gist.github.com
 ```
 
 ### Links
