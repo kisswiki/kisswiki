@@ -2,7 +2,7 @@
 
 ### Generate
 
-`ssh-keygen -t rsa -C "your_email@youremail.com" -f ~/.ssh/github_rsa`
+`ssh-keygen -t rsa -C "your_email@example.com" -f ~/.ssh/github_rsa`
 
 copy to clipboard
 
