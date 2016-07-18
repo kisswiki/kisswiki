@@ -1,6 +1,6 @@
 ## keygen
 
-generate
+### Generate
 
 `ssh-keygen -t rsa -C "your_email@youremail.com" -f ~/.ssh/github_rsa`
 
@@ -8,7 +8,9 @@ copy to clipboard
 
 `clip < ~/.ssh/github_rsa.pub`
 
-~/.ssh/config
+### ssh config
+
+Add entry in file ~/.ssh/config
 
 ```
 Host *.github.com github.com
@@ -17,12 +19,14 @@ Host *.github.com github.com
 
 http://unix.stackexchange.com/questions/61655/multiple-similar-entries-in-ssh-config
 
-test
+### Test
 
 ```
 $ ssh -T git@github.com
 $ ssh -T git@gist.github.com
 ```
+
+### Links
 
 - https://help.github.com/articles/generating-an-ssh-key/
 - http://www.cloudvps.com/community/knowledge-base/regenerating-ssh-host-keys/
