@@ -1,0 +1,1 @@
+- CSS-Only Animated <label> Placeholders https://codepen.io/sivan/pen/alKwf
