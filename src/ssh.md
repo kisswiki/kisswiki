@@ -10,7 +10,7 @@ copy to clipboard
 
 ### ssh config
 
-Add entry in file ~/.ssh/config
+Add entry in file ~/.ssh/config (~ means home directory)
 
 ```
 Host *.github.com github.com
