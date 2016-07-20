@@ -93,3 +93,12 @@ You can work around this restriction by writing
 `SELECT 3+4 FROM DUAL`
 
 http://stackoverflow.com/questions/73751/what-is-the-dual-table-in-oracle/73793#73793
+
+## Change password
+
+```
+SQL> connect / as sysdba
+SQL> alter user <username> identified by <password>;
+```
+
+https://community.oracle.com/thread/631553?tstart=0

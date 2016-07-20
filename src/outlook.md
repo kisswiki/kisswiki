@@ -33,3 +33,11 @@ Click Done.
 Open Outlook. When you are prompted for your credentials, select the new profile.
 
 Then open Skype (Lync).
+
+## Search for email containg attachment of specific file type
+
+`ext:xlsx`
+
+or general
+
+`hasattachment:true`
