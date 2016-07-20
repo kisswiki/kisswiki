@@ -101,4 +101,4 @@ SQL> connect / as sysdba
 SQL> alter user <username> identified by <password>;
 ```
 
-https://community.oracle.com/thread/631553?tstart=0
+https://community.oracle.com/thread/631553?tstart=0n
