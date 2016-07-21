@@ -20,3 +20,5 @@
 - https://github.com/kapouer/express-urlrewrite
 
 ## Live reload
+
+- https://github.com/intesso/connect-livereload
