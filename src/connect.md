@@ -12,6 +12,9 @@
 > Placing this middleware after the static middleware will have no effect other than rewriting req.url for subsequent middlewares
 > - https://ninja.sg/spa-router-fallback/
 
+> use a rewrite middleware that is inserted prior to app.use(express.static(..))
+> - http://stackoverflow.com/a/22968287
+
 - https://github.com/tinganho/connect-modrewrite
 - https://github.com/bripkens/connect-history-api-fallback
 - https://github.com/kapouer/express-urlrewrite
