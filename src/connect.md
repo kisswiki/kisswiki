@@ -17,6 +17,7 @@
 
 - https://github.com/tinganho/connect-modrewrite
 - https://github.com/bripkens/connect-history-api-fallback
+- https://github.com/joehewitt/express-rewrite
 - https://github.com/kapouer/express-urlrewrite
 
 ## Live reload
