@@ -44,3 +44,11 @@
   - https://github.com/rochefort/git-trend
   - https://github.com/sheharyarn/github-trending
 - Find gists with `stars:>1000` https://gist.github.com/search?q=stars%3A%3E1000
+
+## Issues
+
+### Template
+
+` - [ ] I understand that GitHub issues are not for tech support, but for questions specific to this generator, bug reports, and feature requests.`
+
+https://github.com/angular-fullstack/generator-angular-fullstack/issues/new
