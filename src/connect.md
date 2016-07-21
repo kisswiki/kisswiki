@@ -8,3 +8,6 @@
 
 > Placing this middleware after the static middleware will have no effect other than rewriting req.url for subsequent middlewares
 > - https://ninja.sg/spa-router-fallback/
+
+- https://github.com/tinganho/connect-modrewrite
+- https://github.com/bripkens/connect-history-api-fallback
