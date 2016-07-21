@@ -1,5 +1,8 @@
 ## Connect vs Express
 
+> Express 4 no longer depends on Connect, and removes all built-in middleware from its core, except for the express.static function. This means that Express is now an independent routing and middleware web framework, and Express versioning and releases are not affected by middleware updates.
+> - https://expressjs.com/en/guide/migrating-4.html
+
 > ExpressJS and connect are parallel projects. Connect is just a middleware framework, with a nice use function. Express does not depend on Connect
 > - http://stackoverflow.com/questions/5284340/what-is-node-js-connect-express-and-middleware
 
