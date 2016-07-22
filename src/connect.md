@@ -26,3 +26,5 @@
 ## Live reload
 
 - https://github.com/intesso/connect-livereload
+- http://stackoverflow.com/questions/31022819/using-connect-livereload-in-an-express-node-app
+- https://github.com/napcs/node-livereload
