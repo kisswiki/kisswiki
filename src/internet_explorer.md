@@ -9,7 +9,8 @@ http://stackoverflow.com/questions/22098259/access-denied-in-ie-10-and-11-when-a
 create bookmarklet with address:
 
 `javascript: var style = document.createElement('style'); style.appendChild(document.createTextNode('* { background: #1b2b34 !important; color: #d8dee9 !important; }')); document.head.appendChild(style);`
- http://stackoverflow.com/questions/524696/how-to-create-a-style-tag-with-javascript
+
+http://stackoverflow.com/questions/524696/how-to-create-a-style-tag-with-javascript
 
 ## Force cache reload
 
