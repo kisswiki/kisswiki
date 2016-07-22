@@ -70,3 +70,10 @@ require('http').createServer(function (request, response) {
 ```
 
 http://stackoverflow.com/questions/5892569/responding-with-a-json-object-in-nodejs-converting-object-array-to-json-string/9806180#9806180
+
+## Exec
+
+node-cross-spawn
+
+- http://stackoverflow.com/questions/27688804/how-do-i-debug-error-spawn-enoent-on-node-js/35561971#35561971
+- https://github.com/IndigoUnited/node-cross-spawn
