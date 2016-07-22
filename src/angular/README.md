@@ -89,4 +89,4 @@ http://stackoverflow.com/questions/13743058/how-to-access-the-scope-variable-in-
 
 ## Whitelist
 
-`$sceDelegateProvider.resourceUrlWhitelist(['self', http://localhost:8080/**]);`
+`$sceDelegateProvider.resourceUrlWhitelist(['self', 'http://localhost:8080/**']);`
