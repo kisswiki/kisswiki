@@ -86,3 +86,7 @@ In Chrome pick an element in the HTML panel of the developer tools and type this
 `angular.element($0).scope()`
 
 http://stackoverflow.com/questions/13743058/how-to-access-the-scope-variable-in-browsers-console-using-angularjs
+
+## Whitelist
+
+$sceDelegateProvider.resourceUrlWhitelist(['self']);
