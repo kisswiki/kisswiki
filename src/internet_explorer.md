@@ -1,4 +1,6 @@
-- change default search provider: install google toolbar from http://www.google.com/intl/en-GB/toolbar/ie/index.html http://superuser.com/questions/642176/how-do-i-remove-bing-as-the-default-search-engine-in-windows-8/903018#903018
+## change default search provider
+
+install google toolbar from http://www.google.com/intl/en-GB/toolbar/ie/index.html http://superuser.com/questions/642176/how-do-i-remove-bing-as-the-default-search-engine-in-windows-8/903018#903018
 
 ## Cannot run jsfiddle or plunkr: add `https://plunkr.com` to the "Trusted sites" security zone
 
