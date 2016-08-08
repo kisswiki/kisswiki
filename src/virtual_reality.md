@@ -70,7 +70,8 @@ http://doc-ok.org/?tag=head-tracking
 
 ### HTC Vive
 
-http://newatlas.com/htc-vive-tips-2016/42750/
+- http://newatlas.com/htc-vive-tips-2016/42750/
+- http://www.pcadvisor.co.uk/how-to/game/htc-vive-tracking-base-station-controller-troubleshooting-guide-3640323/
 
 #### Shaking
 
