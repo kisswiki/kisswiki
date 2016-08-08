@@ -2,3 +2,8 @@
 - http://www.businessinsider.com/formula-predicts-success-of-marriages-2012-12
 - http://repozytorium.ceon.pl/bitstream/handle/123456789/2674/Dlaczego%20Ciebie%20lubi%C4%99%20Bo%20si%C4%99%20koordynujemy.pdf
 - Miłość, małżeństwo i matematyka http://wyborcza.pl/1,75248,1913212.html
+- Hot Crazy Matrix - A Man's Guide to Women https://youtu.be/TjZIPClPR6I
+- http://www.wikihow.com/Choose-the-Right-Girlfriend
+- http://charmingoo.com/10-qualities-of-the-perfect-girlfriend/
+- http://www.girlschase.com/content/choosing-right-qualities-woman
+- http://themodernsavage.com/2010/03/16/attraction-triangle-game-theory/
