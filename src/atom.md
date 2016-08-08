@@ -189,11 +189,19 @@ Update atom-linter
 
 ### Unable to find remote helper for 'https'
 
-- Verify that the git command is on the PATH.
+- Add `C:\Program Files\Git\mingw64\libexec\git-core` to the `PATH`.
+- git is on the PATH
+
+- http://stackoverflow.com/questions/28216987/impossible-to-install-atom-beautify-on-windows-7-64bit-machine-with-apm
+- https://discuss.atom.io/t/windows-fix-fatal-unable-to-find-remote-helper-for-https/18434
+
+Maybe this:
+
 - Use PowerShell to run the command instead of cmd or git-bash.
 - Run PowerShell in administrator mode.
 
 http://stackoverflow.com/questions/27178363/install-autocomplete-plus-package-in-windows/27186255#27186255
+
 
 ### Single-click to open file in tree-view
 
