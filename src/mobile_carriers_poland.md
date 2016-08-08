@@ -30,3 +30,6 @@
 > T-Mobile - 83 PB
 > Nie dziwne, że Orange i TM mają wyższe prędkości jak przesył danych jest ponad 2 razy mniejszy.
 > - http://www.spidersweb.pl/2016/08/windows-10-redstone-2.html#comment-2818531118
+
+> Długo w LTE nie wierzyłem. Aż wziąłem (bez wcześniejszego sprawdzania - do nadajnika mam 150 m w linii prostej) internet od Orange. Ciężko nie być zadowolonym jak nigdy nie spada poniżej 60 Mbit/s w dół (a często dobija do 80) zaś w górę 25-30 Mbit/s i pingi w okolicach 50 ms.
+> - http://www.spidersweb.pl/2016/08/windows-10-redstone-2.html#comment-2818551623
