@@ -1,5 +1,6 @@
 - https://virtualrealporn.com/
 - http://webvr.info/
+- razr and open source - osvr http://www.pcgamer.com/razers-400-hdk-2-vr-headset-undercuts-oculus-rift-and-htc-vive/
 
 ## eye tracking
 
