@@ -3,3 +3,4 @@
 - http://antyweb.pl/oferty-na-abonament-internet-mobilny/
 - search cell towers - don't use zoom level below 11 and LTE http://beta.btsearch.pl
   - Orange: LTE 800 MHz, 2600 MHz, 1800 MHz (dzierżawiona od T-Mobile) https://pl.wikipedia.org/wiki/Long_Term_Evolution#Obs.C5.82ugiwane_cz.C4.99stotliwo.C5.9Bci
+  - http://blog.orange.pl/korporacyjny/entry/40-mhz-transferu-czyli-o-agregacji-pasm-lte-4g/
