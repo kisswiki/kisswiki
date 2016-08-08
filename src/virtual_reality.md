@@ -31,3 +31,12 @@ http://doc-ok.org/?tag=head-tracking
 > That’s also why when you work a lot in front of a computer, you should take breaks at least once an hour and focus on something in the distance. This helps prevent eye strain because it gives your lenses a chance to relax.
 > humans have difficulty looking at virtual reality head mounted displays (VR HMDs) that are 3 to 7 cm in front of our eyes. That’s why we need lenses in VR HMDs that bend the light and make it easier for our eyes to see. The HTC Vive uses Fresnel lenses and the Oculus Rift CV1 has hybrid Fresnel lenses to keep the lenses thin and bend the light in a way that helps us to see clearly.
 > https://vr-lens-lab.com/lenses-for-virtual-reality-headsets/
+
+## motion sickness
+
+> Motion sickness has been largely fixed for VR headsets like Oculus Rift, HTC Vive and PlayStation VR thanks to the high frame rate - anything lower than 90fps will make you lose your lunch pretty quickly.
+>
+> That doesn't mean the problem with nausea has been completely solved. There are still games that require a steel stomach and aren't for the faint of heart. Oculus lists three 'intensity' levels for its library while Steam doesn't say anything at all. We don't know what PS VR's planning but we're hoping it will also display some sort of comfort meter.
+>
+> Regardless, it's still a subjective struggle which is why we've decided to test out as many games, films and experiences we can to give you an even clearer idea of how sick you might get in VR. Keep in mind, these are all still pretty fun to try and most actually leave you feeling nausea-free - but consider yourself warned about the other titles if you aren't sure how you'll fare in VR.
+> - http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.wareable.com%2Fvr%2Fvr-experiences-rated-from-most-nauseating-to-least&h=iAQEn6fKE
