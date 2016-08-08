@@ -70,6 +70,8 @@ http://doc-ok.org/?tag=head-tracking
 
 ### HTC Vive
 
+http://newatlas.com/htc-vive-tips-2016/42750/
+
 #### Shaking
 
 - https://www.reddit.com/r/Vive/comments/4eu3uh/how_to_revive_your_nonworking_vive_tips_and_tricks/
