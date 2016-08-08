@@ -39,4 +39,4 @@ http://doc-ok.org/?tag=head-tracking
 > That doesn't mean the problem with nausea has been completely solved. There are still games that require a steel stomach and aren't for the faint of heart. Oculus lists three 'intensity' levels for its library while Steam doesn't say anything at all. We don't know what PS VR's planning but we're hoping it will also display some sort of comfort meter.
 >
 > Regardless, it's still a subjective struggle which is why we've decided to test out as many games, films and experiences we can to give you an even clearer idea of how sick you might get in VR. Keep in mind, these are all still pretty fun to try and most actually leave you feeling nausea-free - but consider yourself warned about the other titles if you aren't sure how you'll fare in VR.
-> - http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.wareable.com%2Fvr%2Fvr-experiences-rated-from-most-nauseating-to-least&h=iAQEn6fKE
+> - http://www.wareable.com/vr/vr-experiences-rated-from-most-nauseating-to-least
