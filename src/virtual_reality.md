@@ -9,6 +9,7 @@
 - http://www.roadtovr.com/
 - http://uploadvr.com/
 - http://www.wareable.com/vr
+- https://www.reddit.com/r/SteamVR/
 
 ## eye tracking
 
