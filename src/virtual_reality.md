@@ -55,6 +55,8 @@ http://doc-ok.org/?tag=head-tracking
 
 ## games
 
+- steam and htc vive http://store.steampowered.com/search/?sort_by=Released_DESC&vrsupport=303%2C201%2C101
+- steam and oculus rift http://store.steampowered.com/search/?sort_by=Released_DESC&vrsupport=303%2C201%2C102
 - fallout https://youtu.be/5mlEwVnGXTU
 - skyrim https://youtu.be/Z8kjFcwYB5g
 - gta 5 https://youtu.be/9zbo0mBgqzE
