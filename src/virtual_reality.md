@@ -74,3 +74,9 @@ http://doc-ok.org/?tag=head-tracking
 
 - https://www.engadget.com/2011/01/08/razer-hydra-impressions-super-precise-motion-controllers-make-i/
 - http://www.vrspies.com/realitycheckvr/steamvr-will-now-allow-the-razer-hydra-as-motion-controllers/
+
+### Striker VR
+
+> Striker VR’s ARENA Infinity is a haptic VR gun which can simulate various weapon fire modes and other haptic effects.
+> The gun is capable of impressively powerful kick, especially for an electronic system, adding a convincing recoil to firing a virtual weapon.
+> - http://www.roadtovr.com/striker-vr-arena-infinity-v1-prototype-haptic-vr-gun/
