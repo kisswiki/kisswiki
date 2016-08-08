@@ -62,6 +62,18 @@ http://doc-ok.org/?tag=head-tracking
 - gta 5 https://youtu.be/9zbo0mBgqzE
 - onward http://store.steampowered.com/app/496240/
 
+## SteamVR
+
+- SteamVR Troubleshooting https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326
+
+## headsets
+
+### HTC Vive
+
+#### Shaking
+
+- https://www.reddit.com/r/Vive/comments/4eu3uh/how_to_revive_your_nonworking_vive_tips_and_tricks/
+
 ## controllers
 
 ### Leap Motion
