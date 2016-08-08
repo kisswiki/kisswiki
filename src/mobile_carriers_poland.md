@@ -38,3 +38,6 @@
 >> W czasie wakacji - ping 71 ms, download 7,8 mbps
 > A u mnie w roku szkolnym szkoda gadać (1-15Mb), a teraz oczy przecieram (do 40Mb)
 > - http://www.spidersweb.pl/2016/08/windows-10-redstone-2.html#comment-2819281226
+
+> Play ma niezly internet o ile znajdziemy zasieg orange za to ma zasieg ale predkosci bywaja rozne od groteskowych do przyzwoityc, a o plusie sie nie wypowiadam.
+> - http://www.spidersweb.pl/2016/08/windows-10-redstone-2.html#comment-2819093272
