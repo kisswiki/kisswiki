@@ -2,6 +2,12 @@
 - http://webvr.info/
 - razr and open source - osvr http://www.pcgamer.com/razers-400-hdk-2-vr-headset-undercuts-oculus-rift-and-htc-vive/
 
+## news
+
+- http://www.roadtovr.com/
+- http://uploadvr.com/
+- http://www.wareable.com/vr
+
 ## eye tracking
 
 CTO and co-founder Lochlainn Wilson took us through two different experiences designed to show what's possible when VR meets eye-tracking.
