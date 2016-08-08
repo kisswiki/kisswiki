@@ -15,3 +15,10 @@
 
 > plus nie ogarnia LTE na iPadach. Tak wiec koniec końców padło na Orange
 > - http://www.spidersweb.pl/2016/08/windows-10-redstone-2.html#comment-2818995091
+
+> Play można korzystać z nadajników wszystkich operatorów, ale tylko do technologii 3G. LTE Play daje tylko na własnych nadajnikach
+> - http://www.spidersweb.pl/2016/08/windows-10-redstone-2.html#comment-2818706618
+
+> Oferta internetowa tylko zasięg Play ,pozostałe oferty działają także w roamingu .Ja też przez ten brak roamingu bym nie brał oferty internetowej Playa.
+> Sam używam Redbull Mobile w tablecie ale mam 24 gb transferu do wykorzystania także w roamingu .
+> - http://www.spidersweb.pl/2016/08/windows-10-redstone-2.html#comment-2820107294
