@@ -41,3 +41,8 @@ http://doc-ok.org/?tag=head-tracking
 >
 > Regardless, it's still a subjective struggle which is why we've decided to test out as many games, films and experiences we can to give you an even clearer idea of how sick you might get in VR. Keep in mind, these are all still pretty fun to try and most actually leave you feeling nausea-free - but consider yourself warned about the other titles if you aren't sure how you'll fare in VR.
 > - http://www.wareable.com/vr/vr-experiences-rated-from-most-nauseating-to-least
+
+## games
+
+- fallout https://youtu.be/5mlEwVnGXTU
+- skyrim https://youtu.be/Z8kjFcwYB5g
