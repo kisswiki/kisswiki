@@ -78,6 +78,7 @@ http://doc-ok.org/?tag=head-tracking
 
 - https://www.reddit.com/r/Vive/comments/4g7ym6/htc_vive_tracking_wobble_jittering_thread/
 - https://www.reddit.com/r/Vive/comments/4n4y6x/test_your_vive_jittershaking_before_its_too_late/
+- https://www.reddit.com/r/Vive/comments/4drmev/tracking_issues_its_shaking/
 
 ## controllers
 
