@@ -5,6 +5,7 @@
 
 ## news
 
+- http://steamcommunity.com/steamvr
 - http://www.roadtovr.com/
 - http://uploadvr.com/
 - http://www.wareable.com/vr
