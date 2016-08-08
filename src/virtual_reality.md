@@ -61,3 +61,9 @@ http://doc-ok.org/?tag=head-tracking
 - skyrim https://youtu.be/Z8kjFcwYB5g
 - gta 5 https://youtu.be/9zbo0mBgqzE
 - onward http://store.steampowered.com/app/496240/
+
+## controllers
+
+### Leap Motion
+
+http://www.vrspies.com/realitycheckvr/leap-motion-controllers-are-working-in-steamvr-how-to-guide/
