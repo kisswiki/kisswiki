@@ -22,3 +22,11 @@
 > Oferta internetowa tylko zasięg Play ,pozostałe oferty działają także w roamingu .Ja też przez ten brak roamingu bym nie brał oferty internetowej Playa.
 > Sam używam Redbull Mobile w tablecie ale mam 24 gb transferu do wykorzystania także w roamingu .
 > - http://www.spidersweb.pl/2016/08/windows-10-redstone-2.html#comment-2820107294
+
+> Tak wyglądała transmisja danych w 2015 roku:
+> Plus - 236 PB
+> Play - 221 PB
+> Orange - 95 PB
+> T-Mobile - 83 PB
+> Nie dziwne, że Orange i TM mają wyższe prędkości jak przesył danych jest ponad 2 razy mniejszy.
+> - http://www.spidersweb.pl/2016/08/windows-10-redstone-2.html#comment-2818531118
