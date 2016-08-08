@@ -67,3 +67,7 @@ http://doc-ok.org/?tag=head-tracking
 ### Leap Motion
 
 http://www.vrspies.com/realitycheckvr/leap-motion-controllers-are-working-in-steamvr-how-to-guide/
+
+### Razer Hydra
+
+https://www.engadget.com/2011/01/08/razer-hydra-impressions-super-precise-motion-controllers-make-i/
