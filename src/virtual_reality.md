@@ -6,10 +6,10 @@
 ## news
 
 - http://steamcommunity.com/steamvr
+- https://www.reddit.com/r/SteamVR/
 - http://www.roadtovr.com/
 - http://uploadvr.com/
 - http://www.wareable.com/vr
-- https://www.reddit.com/r/SteamVR/
 
 ## eye tracking
 
