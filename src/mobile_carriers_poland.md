@@ -41,3 +41,6 @@
 
 > Play ma niezly internet o ile znajdziemy zasieg orange za to ma zasieg ale predkosci bywaja rozne od groteskowych do przyzwoityc, a o plusie sie nie wypowiadam.
 > - http://www.spidersweb.pl/2016/08/windows-10-redstone-2.html#comment-2819093272
+
+> Ciekawe że ilość testów w Play jest dwukrotnie a niekiedy trzykrotnie większa niż konkurencji.
+> - http://www.spidersweb.pl/2016/08/windows-10-redstone-2.html#comment-2819249962
