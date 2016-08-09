@@ -11,3 +11,17 @@
 > Opera's VPN seems to stand up well when tested for DNS leaks, but unfortunately it's still vulnerable to the well-known WebRTC VPN security flaw which betrays your true location.
 > Visit https://ipleak.net/ with Opera's VPN enabled and it will list a foreign IP address instead of your own, but scroll down to WebRTC detection and you'll see your true IP address staring back at you. Other WebRTC test sites confirm the flaw.
 > - http://www.smh.com.au/technology/gadgets-on-the-go/opera-browsers-free-builtin-vpn-vulnerable-to-major-security-flaw-20160422-gocmmo.html
+
+## Potrzebujemy ISA Proxy, aby korzystać w pełni z npm-a, git itp.
+
+pobierz i zainstaluj sobie ten program ze strony Microsoft
+http://www.microsoft.com/en-us/download/details.aspx?id=10193
+
+Po instalacji
+
+Otwórz gui z Start > Autostart > Microsoft Firewall Client Management
+
+W zakładce Settings jako „Manual specified ISA Server” wpis: PROXYV
+W zakładce Web Browser odznacz opcję Enable web browser automatic configuration.”
+
+Nie jest już potrzebny cntlm :D
