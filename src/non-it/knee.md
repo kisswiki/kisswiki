@@ -1,0 +1,5 @@
+- http://www.prevention.com/fitness/fitness-tips/workout-tips-joint-pain-aging-and-rheumatoid-arthritis
+- http://www.prevention.com/health/health-concerns/best-treatments-knee-pain
+- http://www.prevention.com/fitness/fitness-tips/solutions-10-biggest-walking-pains
+- http://www.prevention.com/fitness/fitness-tips/workout-tips-joint-pain-aging-and-rheumatoid-arthritis
+- http://www.prevention.com/health/symptoms-knee-osteoarthritis
