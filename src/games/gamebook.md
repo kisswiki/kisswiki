@@ -1,0 +1,12 @@
+- https://pl.wikipedia.org/wiki/Kategoria:Gry_paragrafowe
+- https://en.wikipedia.org/wiki/Category:Gamebooks
+- https://www.projectaon.org/en/Main/Books
+- http://rolegames.pl/gry-paragrafowe/baza-gier-paragrafowych/
+- http://www.tomsguide.com/us/best-gamebook-apps,review-2419.html
+- This Is Not a Test: A Survival RPG Comic
+  - https://itunes.apple.com/us/app/this-is-not-test-survival/id681453732
+  - https://play.google.com/store/apps/details?id=com.robomopro.interactivecomicWeb
+- The Doom Beneath
+  - https://itunes.apple.com/us/app/the-doom-beneath/id1026083370
+  - https://play.google.com/store/apps/details?id=com.doomBeneathAndroid
+- http://www.grabitmagazine.com/blog/post/tin-man-games-talks-joe-dever-partnership/
