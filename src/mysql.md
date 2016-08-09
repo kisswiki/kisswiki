@@ -15,5 +15,7 @@
 > It sounds like Uber is using MySQL as just a data bucket with primary keys ("Schemaless") which is good -- because you can't alter tables to save your life with MySQL.
 > At the end of the data each developer/business needs to use what works for them, but I would really shy away from pointing to this article as a linchpin in the "MySQL vs. Postgres" war (if there even is such a thing.)
 
+> So the major issue detailed here is that postgres basically uses immutables rows which creates performance issues with writes.
+
 - https://news.ycombinator.com/item?id=12166585
 - https://eng.uber.com/mysql-migration/
