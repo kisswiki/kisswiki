@@ -1,3 +1,7 @@
+## proxy.sh
+
+https://github.com/rofrol/proxy.sh
+
 ## Potrzebujemy ISA Proxy, aby korzystać w pełni z npm-a, git itp.
 
 pobierz i zainstaluj sobie ten program ze strony Microsoft
