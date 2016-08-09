@@ -4,5 +4,7 @@
 
 > There's been quite a few improvements to VACUUM in 9.6 [1], including avoiding full-table scans
 
+> MySQL has had solid and flexible replication options for a long time. Postgres has only just started to catch up in the last couple of years.
+
 - https://news.ycombinator.com/item?id=12166585
 - https://eng.uber.com/mysql-migration/
