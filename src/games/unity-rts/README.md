@@ -9,7 +9,8 @@
 - https://www.udemy.com/learn-unity3d-from-scratch/
 - https://www.udemy.com/unity-2016-character-gear-and-weapon-use/
 - https://www.udemy.com/creating-simple-3d-models-in-blender-for-unity/
+- https://www.udemy.com/create-a-2d-game-in-unity/
 - https://www.udemy.com/courses/development/game-development/
   - https://www.udemy.com/unity-2d-bouncing-and-sliding-with-physics/
   - https://www.udemy.com/unity3d-concepts/
-  - https://www.udemy.com/unitycourse/
+  - -->>>> https://www.udemy.com/unitycourse/
