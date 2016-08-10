@@ -1,3 +1,4 @@
 - Unity 5 Build a Real-Time Strategy Game https://www.youtube.com/watch?v=xVtREfO-FIY&list=PL31JjEjYEcA3oW6DdswgYLYsZn4jakQE1
 - Unity 5: Build a Real-Time Strategy Game https://www.lynda.com/Unity-tutorials/Welcome/427923/479691-4.html
+- https://www.quora.com/How-do-you-create-an-RTS-in-Unity
 - http://forum.unity3d.com/threads/what-is-the-less-expensive-way-for-rts-over-units-life-bar.419547/
