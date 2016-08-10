@@ -10,3 +10,4 @@
   - https://itunes.apple.com/us/app/the-doom-beneath/id1026083370
   - https://play.google.com/store/apps/details?id=com.doomBeneathAndroid
 - http://www.grabitmagazine.com/blog/post/tin-man-games-talks-joe-dever-partnership/
+- http://chomikuj.pl/syrob2021/Dokumenty/Gry+Paragrafowe
