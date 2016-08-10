@@ -13,7 +13,8 @@
 - https://www.udemy.com/courses/development/game-development/
   - https://www.udemy.com/unity-2d-bouncing-and-sliding-with-physics/
   - https://www.udemy.com/unity3d-concepts/
-  - -->>>> BOUGHT https://www.udemy.com/unitycourse/
+  - >>>> BOUGHT https://www.udemy.com/unitycourse/
+    - you will need is a copy of Unity 4.6. We'll upgrade to Unity 5 in Bowlmaster, which is also the first time we actually use Unity 5's additional features https://unity3d.com/get-unity/download/archive
 - http://unity3d.com/learn/tutorials
 - https://www.reddit.com/r/Unity3D/
 - http://gamedev.stackexchange.com/questions/tagged/unity
