@@ -6,3 +6,6 @@
 - https://github.com/stormtek/unity-rts-demo
 - https://www.reddit.com/r/Unity3D/comments/3aoyp4/any_tutorials_for_making_an_rtsstrategy_game/
 - https://www.packtpub.com/game-development/unity-5x-2d-game-development-blueprints
+- https://www.udemy.com/learn-unity3d-from-scratch/
+- https://www.udemy.com/unity-2016-character-gear-and-weapon-use/
+- https://www.udemy.com/creating-simple-3d-models-in-blender-for-unity/
