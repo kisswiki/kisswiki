@@ -14,5 +14,6 @@
   - https://www.udemy.com/unity-2d-bouncing-and-sliding-with-physics/
   - https://www.udemy.com/unity3d-concepts/
   - -->>>> BOUGHT https://www.udemy.com/unitycourse/
-- https://www.reddit.com/r/Unity3D/
 - http://unity3d.com/learn/tutorials
+- https://www.reddit.com/r/Unity3D/
+- http://gamedev.stackexchange.com/questions/tagged/unity
