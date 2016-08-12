@@ -1,0 +1,2 @@
+- https://www.reddit.com/r/GlobalOffensive/comments/346brs/updated_csgo_pro_sensitivity_spreadsheet/
+- https://www.reddit.com/r/GlobalOffensive/comments/2o8j29/csgo_pro_players_sensitivity/ 
