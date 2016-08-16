@@ -1,0 +1,1 @@
+- XE is limited to one database per server http://programmers.stackexchange.com/questions/154370/development-environment-to-manage-multiple-oracle-databases
