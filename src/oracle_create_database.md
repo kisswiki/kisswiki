@@ -21,4 +21,5 @@
 > If there is shared development, might be best to have a single schema so everyone is working on the same copy.
 > http://stackoverflow.com/questions/5079616/how-can-i-create-and-access-multiple-databases-in-oracle-11g
 
-http://stackoverflow.com/questions/9534136/how-to-create-a-new-database-after-initally-installing-oracle-database-11g-expre
+- http://stackoverflow.com/questions/9534136/how-to-create-a-new-database-after-initally-installing-oracle-database-11g-expre
+- Creating a Database with the CREATE DATABASE Statement https://docs.oracle.com/cd/B28359_01/server.111/b28310/create003.htm
