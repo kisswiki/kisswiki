@@ -11,3 +11,5 @@
 > - You want to create another database (and database instance) on the same host computer as an existing Oracle database. In this case, this chapter assumes that the new database uses the same Oracle home as the existing database. You can also create the database in a new Oracle home by running OUI again.
 > - You want to make a copy of (clone) a database.
 > https://docs.oracle.com/database/121/ADMIN/create.htm#ADMIN11068
+
+http://stackoverflow.com/questions/9534136/how-to-create-a-new-database-after-initally-installing-oracle-database-11g-expre
