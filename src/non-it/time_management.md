@@ -1,0 +1,2 @@
+- https://text.sourcegraph.com/thyme-a-simple-cli-to-measure-human-time-and-focus-577b87337b9c
+- https://github.com/sourcegraph/thyme
