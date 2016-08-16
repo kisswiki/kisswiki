@@ -1,2 +1,9 @@
 - http://ewejsciowki.pl/
 - https://www.terazteatr.pl/
+- http://www.e-teatr.pl/
+- http://warszawa.dlastudenta.pl/teatr/repertuar_teatrow/teatry.html
+- http://www.eteatry.pl/
+- http://teatrpolonia.pl/
+- http://www.bagatela.pl/
+- http://teatrkwadrat.pl/
+- http://teatrkamienica.pl/
