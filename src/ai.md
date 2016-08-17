@@ -29,3 +29,14 @@
 >
 > we need better sensors more than greater amounts of the same data available now. We need better hypotheses which lead to better ideas of where to look and what to look for. In general, ML can't help with that. Until we better imagine how the mechanism might work, our questions remain too vague.
 > - https://news.ycombinator.com/item?id=11954988
+
+## Courses
+
+> - you can just take the courses for free
+> - Is it possiblte, to complete those courses for free and get the nanodegree with a one month subscription?
+> - nope, you have to be graded for the projects you complete as part of the degree
+> https://www.reddit.com/r/MachineLearning/comments/3sebf0/udacity_machine_learning_engineer_nanodegree/
+
+- https://www.quora.com/Is-the-Machine-Learning-Nano-degree-Udacity-worth-it-given-I-have-a-BS-in-Computer-Science
+- http://www.learndatasci.com/best-data-science-online-courses/
+- https://ask.slashdot.org/story/15/12/28/1745237/ask-slashdot-how-to-get-into-machine-learning
