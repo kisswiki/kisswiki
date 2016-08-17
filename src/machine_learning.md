@@ -46,5 +46,6 @@
 > https://www.reddit.com/r/MachineLearning/comments/3sebf0/udacity_machine_learning_engineer_nanodegree/
 
 - https://www.quora.com/Is-the-Machine-Learning-Nano-degree-Udacity-worth-it-given-I-have-a-BS-in-Computer-Science
+- https://www.reddit.com/r/MachineLearning/comments/46j69l/is_an_udacity_nanodegree_in_machine_learning/
 - http://www.learndatasci.com/best-data-science-online-courses/
 - https://ask.slashdot.org/story/15/12/28/1745237/ask-slashdot-how-to-get-into-machine-learning
