@@ -5,7 +5,6 @@
 
 - https://medium.com/@cdixon/what-s-next-in-computing-e54b870b80cc
 - https://medium.com/machine-intelligence-report/the-current-state-of-machine-intelligence-2-0-a9e0bab95511
-- Hello World - Machine Learning Recipes #1 https://www.youtube.com/watch?v=cKxRvEZd3Mw
 - IQ as a service http://techcrunch.com/2016/05/07/the-next-stop-on-the-road-to-revolution-is-ambient-intelligence/
 - AI is today synonmous with algorithm that are automatically tuned given new data, and don't require changing their source code to perform better https://news.ycombinator.com/item?id=11651863
 - Machine Learning is where you can infer something (usually classify or extrapolate) about future data based on present data/examples and this inference has had no human input determining it https://news.ycombinator.com/item?id=11651225
@@ -18,6 +17,7 @@
 
 - https://github.com/josephmisiti/awesome-machine-learning
 - https://github.com/showcases/machine-learning
+- Hello World - Machine Learning Recipes #1 https://www.youtube.com/watch?v=cKxRvEZd3Mw
 
 > In machine learning, computers apply statistical learning techniques to automatically identify patterns in data. These techniques can be used to make highly accurate predictions.
 > - http://www.r2d3.us/visual-intro-to-machine-learning-part-1/?lang=en
