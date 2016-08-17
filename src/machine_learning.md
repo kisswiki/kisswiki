@@ -57,9 +57,11 @@
 
 ## Courses
 
-> - you can just take the courses for free
-> - Is it possiblte, to complete those courses for free and get the nanodegree with a one month subscription?
-> - nope, you have to be graded for the projects you complete as part of the degree
+> you can just take the courses for free
+>
+> Is it possiblte, to complete those courses for free and get the nanodegree with a one month subscription?
+>
+> nope, you have to be graded for the projects you complete as part of the degree
 > https://www.reddit.com/r/MachineLearning/comments/3sebf0/udacity_machine_learning_engineer_nanodegree/
 
 - https://www.quora.com/Is-the-Machine-Learning-Nano-degree-Udacity-worth-it-given-I-have-a-BS-in-Computer-Science
