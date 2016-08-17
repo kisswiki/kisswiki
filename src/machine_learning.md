@@ -50,5 +50,9 @@
   - https://www.coursera.org/learn/machine-learning
   - https://www.reddit.com/r/MachineLearning/comments/46j69l/is_an_udacity_nanodegree_in_machine_learning/
   - https://www.quora.com/I-have-completed-Andrew-Ngs-Coursera-class-on-Machine-Learning-What-should-I-do-next-What-*can*-I-do-next
+    - Computer vision
+    - Natural Language Processing
+    - Memory Network / Question & Answering
+    - Deep Reinforcement Learning
 - http://www.learndatasci.com/best-data-science-online-courses/
 - https://ask.slashdot.org/story/15/12/28/1745237/ask-slashdot-how-to-get-into-machine-learning
