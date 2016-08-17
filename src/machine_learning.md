@@ -8,14 +8,18 @@
 - IQ as a service http://techcrunch.com/2016/05/07/the-next-stop-on-the-road-to-revolution-is-ambient-intelligence/
 - AI is today synonmous with algorithm that are automatically tuned given new data, and don't require changing their source code to perform better https://news.ycombinator.com/item?id=11651863
 - Is this just a huge Monte Carlo simulation machine for generating loads of input setups, run AI many times to see which setup was "best"? https://news.ycombinator.com/item?id=11651005
-- As Mehana says, Facebook trains and tests about 300,000 machine learning models each month. AutoML can then use the results of these tests to train another machine learning model that can optimize the training of machine learning models. Yes, that can be a hard thing to wrap your head around. Mehanna compares it to Inception. But it works. The system can automatically chooses algorithms and parameters that are likely to work. “It can almost predict the result before the training,” Mehanna says. http://www.wired.com/2016/05/facebook-trying-create-ai-can-create-ai/
 - https://medium.com/ai-revolution/ai-revolution-101-8dce1d9cb62d
 
 ## About ML
 
 - https://github.com/josephmisiti/awesome-machine-learning
 - https://github.com/showcases/machine-learning
-- Hello World - Machine Learning Recipes #1 https://www.youtube.com/watch?v=cKxRvEZd3Mw
+- Hello World - Machine Learning Recipes #1 https://youtu.be/cKxRvEZd3Mw
+
+> As Mehana says, Facebook trains and tests about 300,000 machine learning models each month. AutoML can then use the results of these tests to train another machine learning model that can optimize the training of machine learning models. Yes, that can be a hard thing to wrap your head around. Mehanna compares it to Inception. But it works. The system can automatically chooses algorithms and parameters that are likely to work. “It can almost predict the result before the training,” Mehanna says.
+> http://www.wired.com/2016/05/facebook-trying-create-ai-can-create-ai/
+
+<br>
 
 > Machine Learning is where you can infer something (usually classify or extrapolate) about future data based on present data/examples and this inference has had no human input determining it
 > https://news.ycombinator.com/item?id=11651225
