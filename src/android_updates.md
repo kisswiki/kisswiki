@@ -1,0 +1,2 @@
+> The year is 2016 and I’m officially sick of talking about Android software updates because the whole system is still broken. I’ve just had enough of the lack thereof, the slowness and inconsistency of them, the bugginess when they arrive, and the number of players involved that have allowed this platform, which is the best mobile platform in the business, to continue to stay such a disaster in one of its most important areas.
+> http://www.droid-life.com/2016/08/16/android-security-updates-suck/
