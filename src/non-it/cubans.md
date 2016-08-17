@@ -1,2 +1,2 @@
 - The majority of Cubans descend from Spaniards https://en.wikipedia.org/wiki/Cubans
-- Spaniards[a] are a nation and ethnic group native to Spain that share a common Spanish culture and speak one of the national languages of Spain, including most numerously the Castilian Spanish language, as a mother tongue. https://en.wikipedia.org/wiki/Spaniards
+- Spaniards are a nation and ethnic group native to Spain that share a common Spanish culture and speak one of the national languages of Spain, including most numerously the Castilian Spanish language, as a mother tongue. https://en.wikipedia.org/wiki/Spaniards
