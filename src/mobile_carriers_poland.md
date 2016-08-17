@@ -5,6 +5,7 @@
 
 ## Internet
 
+- old http://www.spidersweb.pl/2016/02/internet-mobilny-raport-uke.html
 - http://www.speedtest.pl/wiadomosci/predkosc/najlepsi-dostawcy-lte-w-lipcu-2016-roku/
   - http://www.spidersweb.pl/2016/08/najszybszy-internet-mobilny-lte.html
 - search cell towers - don't use zoom level below 11 and LTE http://beta.btsearch.pl
