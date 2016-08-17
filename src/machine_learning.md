@@ -17,6 +17,7 @@
 ## About ML
 
 - https://github.com/josephmisiti/awesome-machine-learning
+- https://github.com/showcases/machine-learning
 
 > In machine learning, computers apply statistical learning techniques to automatically identify patterns in data. These techniques can be used to make highly accurate predictions.
 > - http://www.r2d3.us/visual-intro-to-machine-learning-part-1/?lang=en
