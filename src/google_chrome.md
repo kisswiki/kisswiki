@@ -27,3 +27,8 @@
 http://www.google.com/search?q=%s
 
 https://support.google.com/chrome/answer/95426?co=GENIE.Platform%3DDesktop&hl=en
+
+## Popups and new windows
+
+- https://chrome.google.com/webstore/detail/one-window/papnlnnbddhckngcblfljaelgceffobn
+- https://chrome.google.com/webstore/detail/merge-windows/mmpokgfcmbkfdeibafoafkiijdbfblfg
