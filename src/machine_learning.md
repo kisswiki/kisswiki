@@ -47,7 +47,8 @@
 
 - https://www.quora.com/Is-the-Machine-Learning-Nano-degree-Udacity-worth-it-given-I-have-a-BS-in-Computer-Science
 - Start from Coursera, Machine Learning by Andrew Ng
-  - https://www.reddit.com/r/MachineLearning/comments/46j69l/is_an_udacity_nanodegree_in_machine_learning/
   - https://www.coursera.org/learn/machine-learning
+  - https://www.reddit.com/r/MachineLearning/comments/46j69l/is_an_udacity_nanodegree_in_machine_learning/
+  - https://www.quora.com/I-have-completed-Andrew-Ngs-Coursera-class-on-Machine-Learning-What-should-I-do-next-What-*can*-I-do-next
 - http://www.learndatasci.com/best-data-science-online-courses/
 - https://ask.slashdot.org/story/15/12/28/1745237/ask-slashdot-how-to-get-into-machine-learning
