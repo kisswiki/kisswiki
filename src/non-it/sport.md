@@ -1,1 +1,2 @@
-- http://www.fix-knee-pain.com/knee-strengthening-exercises/
+- http://www.ted.com/talks/david_epstein_are_athletes_really_getting_faster_better_stronger?
+- The gravity-defying physics of Simone Biles https://youtu.be/9HO0zsigh30
