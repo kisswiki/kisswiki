@@ -1,5 +1,3 @@
-http://superuser.com/questions/1110580/how-to-install-windows-10-anniversary-update-on-windows-10-enterprise-edition
-
 ## Download ISO
 
 As magicandre1981 said, download iso and run setup.exe
@@ -27,6 +25,7 @@ To find out [what version of Windows][2] you have, run `winver`.
 
 From:
 
+- http://superuser.com/questions/1110580/how-to-install-windows-10-anniversary-update-on-windows-10-enterprise-edition
 - http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
 - http://stackoverflow.com/questions/36352627/how-to-enable-bash-in-windows-10-developer-preview
 
