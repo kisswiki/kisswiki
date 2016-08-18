@@ -8,6 +8,10 @@ As magicandre1981 said, download iso and run setup.exe
 - sha1 from [reddit][1]: f9ffea3a40bf39ccde105bb064e153343560d73e
 - manget link: magnet:?xt=urn:btih:5FF1712FBD8EFE1BF911C77157841EAB3E01D988&dn=Microsoft%20Windows%2010%2010.0.14393%20Version%201607%20EN&tr=http%3a%2f%2ftorrents-club.org%2fbt%2fannounce.php%3fuk%3daGVYjdCbyI
 
+Check sum of downloaded iso in powershell:
+
+`Get-FileHash <filepath> -Algorithm SHA1`
+
 To find out [what version of Windows][2] you have, run `winver`.
 
 ## Enable Developer Mode
