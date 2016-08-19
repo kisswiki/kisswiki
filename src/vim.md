@@ -67,3 +67,7 @@ http://stackoverflow.com/questions/9104706/how-can-i-convert-spaces-to-tabs-in-v
 `:retab` may be required.
 
 http://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
+
+## editorconfig
+
+- https://github.com/editorconfig/editorconfig-vim
