@@ -1,15 +1,24 @@
-- contributions
-  - yearly heat map https://github.com/rofrol?tab=contributions&period=yearly
-  - https://developer.github.com/v3/repos/statistics/#get-the-last-year-of-commit-activity-data
-  - most contributions http://git.io/top https://gist.github.com/paulmillr/2657075/
 - https://github.com/tiimgreen/github-cheat-sheet
-- markdown
-  - https://help.github.com/categories/writing-on-github/
-  - https://github.com/tchapi/markdown-cheatsheet
-  - https://gist.github.com/micmcg/976172
-  - new line inside list - use two spaces after line and indent next line with at least one space [source](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)
-  - URLs in angle brackets will automatically get turned into links https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
-  - http://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md/29842302#29842302
+- https://github.com/facebook/mention-bot
+- programming game https://twitter.com/OldManKris/status/673184195485790208
+- https://github.com/Kikobeats/awesome-github
+- http://zachholman.com/talk/git-github-secrets/
+- http://zachholman.com/talk/more-git-and-github-secrets/
+
+## contributions
+
+- yearly heat map https://github.com/rofrol?tab=contributions&period=yearly
+- https://developer.github.com/v3/repos/statistics/#get-the-last-year-of-commit-activity-data
+- most contributions http://git.io/top https://gist.github.com/paulmillr/2657075/
+
+## markdown
+
+- https://help.github.com/categories/writing-on-github/
+- https://github.com/tchapi/markdown-cheatsheet
+- https://gist.github.com/micmcg/976172
+- new line inside list - use two spaces after line and indent next line with at least one space [source](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)
+- URLs in angle brackets will automatically get turned into links https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
+- http://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md/29842302#29842302
 
 ## gist
 
@@ -26,28 +35,28 @@
   - embed any Gist in your web pages
   - use Google Analytics to measure the traffic to your Gists
 - [gist](https://github.com/defunkt/gist) - upload content from command line to https://gist.github.com/
+- Find gists with `stars:>1000` https://gist.github.com/search?q=stars%3A%3E1000
 - You cannot currently open a pull request on a Gist http://stackoverflow.com/questions/8758612/can-i-make-a-pull-request-on-a-gist-on-github
 
-- browser extensions/styles
-  - http://brettterpstra.com/2013/02/13/quick-tip-chrome-extensions-that-make-github-rock/
-  - https://github.com/showcases/github-browser-extensions
-  - chrome
-    - https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn
-    - https://github.com/octo-linker/chrome-extension
-    - https://chrome.google.com/webstore/detail/dark-theme-v2/djlgdeklopcjagknhlchbdjekgpgenad
-  - https://userstyles.org/styles/70979/github-better-sized-tabs-in-code
-- README
-  - http://vadimdemedes.com/5-tips-to-make-your-readme-stand-out/
-- https://github.com/facebook/mention-bot
-- programming game https://twitter.com/OldManKris/status/673184195485790208
-- https://github.com/Kikobeats/awesome-github
-- http://zachholman.com/talk/git-github-secrets/
-- http://zachholman.com/talk/more-git-and-github-secrets/
-- API
-  - 5 entertaining things you can find with the GitHub Search API https://gist.github.com/jasonrudolph/6065289
-  - https://github.com/rochefort/git-trend
-  - https://github.com/sheharyarn/github-trending
-- Find gists with `stars:>1000` https://gist.github.com/search?q=stars%3A%3E1000
+## browser extensions/styles
+
+- http://brettterpstra.com/2013/02/13/quick-tip-chrome-extensions-that-make-github-rock/
+- https://github.com/showcases/github-browser-extensions
+- chrome
+  - https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn
+  - https://github.com/octo-linker/chrome-extension
+  - https://chrome.google.com/webstore/detail/dark-theme-v2/djlgdeklopcjagknhlchbdjekgpgenad
+- https://userstyles.org/styles/70979/github-better-sized-tabs-in-code
+
+## README
+
+- http://vadimdemedes.com/5-tips-to-make-your-readme-stand-out/
+
+## API
+
+- 5 entertaining things you can find with the GitHub Search API https://gist.github.com/jasonrudolph/6065289
+- https://github.com/rochefort/git-trend
+- https://github.com/sheharyarn/github-trending
 
 ## Issues
 
