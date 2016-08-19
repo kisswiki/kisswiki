@@ -273,3 +273,11 @@ $ git help config
 warning: failed to exec 'man': No such file or directory
 fatal: no man viewer handled the request
 ```
+
+## git log unknown date "format:%c"
+
+Upgrade to git >= 2.6
+
+> Git 2.6+ (Q3 2015) add a new option
+> introduce "format" date-mode
+> http://stackoverflow.com/questions/19742345/what-is-the-format-for-date-parameter-of-git-commit
