@@ -55,3 +55,12 @@ path="server.rs"
 
 - http://stackoverflow.com/questions/37491436/failed-to-parse-manifest-no-targets-specified
 - http://doc.crates.io/manifest.html#configuring-a-target
+
+## cargo - working on an existing project
+
+```bash
+cargo build
+./target/build/main
+```
+
+http://doc.crates.io/guide.html#working-on-an-existing-cargo-project
