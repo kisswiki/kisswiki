@@ -69,3 +69,5 @@ http://doc.crates.io/guide.html#working-on-an-existing-cargo-project
 
 > add log = "0.3" to your Cargo.toml
 > https://github.com/rust-lang/rust/issues/27812#issuecomment-224004191
+
+https://users.rust-lang.org/t/make-rust-use-the-crates-io-version-of-log/174/4
