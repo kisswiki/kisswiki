@@ -1,4 +1,4 @@
-## cargo - proxy
+## proxy
 
 ~/.cargo/config
 
@@ -9,7 +9,7 @@ proxy = "..."
 
 http://doc.crates.io/config.html
 
-## cargo - no targets specified in the manifest
+## no targets specified in the manifest
 
 Cargo.toml
 
@@ -22,7 +22,7 @@ path="server.rs"
 - http://stackoverflow.com/questions/37491436/failed-to-parse-manifest-no-targets-specified
 - http://doc.crates.io/manifest.html#configuring-a-target
 
-## cargo - working on an existing project
+## working on an existing project
 
 ```bash
 cargo build
