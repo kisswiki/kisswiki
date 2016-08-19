@@ -48,3 +48,4 @@ https://users.rust-lang.org/t/make-rust-use-the-crates-io-version-of-log/174/4
 ## tokio
 
 - https://gkbrk.com/2016/08/asynchronous-servers-in-rust/
+- tokio in rust https://github.com/hyperium/hyper/issues/881
