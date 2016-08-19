@@ -75,5 +75,12 @@ http://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
 ## Rust
 
 - https://github.com/rust-lang/rust.vim
-- https://github.com/racer-rust/vim-racer
 - https://github.com/ivanceras/rust-vim-setup
+
+### Racer
+
+- https://github.com/racer-rust/vim-racer
+
+- completion `C-x C-o`
+- go to definition `gd` or `gs` or `gx`
+- go back `C-o` http://stackoverflow.com/questions/53911/in-vim-how-do-i-go-back-to-where-i-was-before-a-search
