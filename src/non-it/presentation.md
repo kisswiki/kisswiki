@@ -1,0 +1,1 @@
+- https://medium.com/@codepo8/things-not-to-say-on-stage-at-a-tech-event-178337b8c481
