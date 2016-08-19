@@ -66,3 +66,6 @@ cargo build
 http://doc.crates.io/guide.html#working-on-an-existing-cargo-project
 
 ## use of unstable library feature 'rustc_private'
+
+> add log = "0.3" to your Cargo.toml
+> https://github.com/rust-lang/rust/issues/27812#issuecomment-224004191
