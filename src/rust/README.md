@@ -38,3 +38,9 @@ let _ = something
 > https://github.com/rust-lang/rust/issues/27812#issuecomment-224004191
 
 https://users.rust-lang.org/t/make-rust-use-the-crates-io-version-of-log/174/4
+
+## style guide
+
+- https://github.com/rust-lang-nursery/rustfmt
+- https://github.com/rust-lang/rust/tree/master/src/doc/style/style
+- https://gist.github.com/xtian/339112af8a11d0583d81
