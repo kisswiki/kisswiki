@@ -10,20 +10,23 @@
   - new line inside list - use two spaces after line and indent next line with at least one space [source](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)
   - URLs in angle brackets will automatically get turned into links https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
   - http://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md/29842302#29842302
-- gist
-    - [Fenced code blocks inside ordered and unordered lists](https://gist.github.com/clintel/1155906)
-    - Secret gists don't count as private repositories. You can create as many secret gists as you like.
 
-      Warning: Secret gists aren't private. If you send the URL of a secret gist to a friend, they'll be able to see it. However, if someone you don't know discovers the URL, they'll also be able to see your gist. [link](https://help.github.com/articles/about-gists/)
-    - gist.github.com supports search. So you can search your gist. I use #hashtag in description, so I can search my gist by tags via myusername #tag [link](http://stackoverflow.com/questions/2082723/how-do-you-manage-your-gists-on-github/5537451#5537451)
-    - Issues and pull requests with task list items defined will summarize the task list on the pull request listing and any cross reference [link](https://github.com/blog/1375%0A-task-lists-in-gfm-issues-pulls-comments)
-    - [What You Can Do With Gists on Github?](http://www.labnol.org/internet/github-gist-tutorial/28499/)
-      - publish gist as a standalone web page using http://roughdraft.io
-      - save the Gist as index.html and then use http://bl.ocks.org to serve the rendered version
-      - save text snippets from web pages as public or private gists
-      - embed any Gist in your web pages
-      - use Google Analytics to measure the traffic to your Gists
-    - [gist](https://github.com/defunkt/gist) - upload content from command line to https://gist.github.com/
+## gist
+
+- [Fenced code blocks inside ordered and unordered lists](https://gist.github.com/clintel/1155906)
+- Secret gists don't count as private repositories. You can create as many secret gists as you like.
+
+  Warning: Secret gists aren't private. If you send the URL of a secret gist to a friend, they'll be able to see it. However, if someone you don't know discovers the URL, they'll also be able to see your gist. [link](https://help.github.com/articles/about-gists/)
+- gist.github.com supports search. So you can search your gist. I use #hashtag in description, so I can search my gist by tags via myusername #tag [link](http://stackoverflow.com/questions/2082723/how-do-you-manage-your-gists-on-github/5537451#5537451)
+- Issues and pull requests with task list items defined will summarize the task list on the pull request listing and any cross reference [link](https://github.com/blog/1375%0A-task-lists-in-gfm-issues-pulls-comments)
+- [What You Can Do With Gists on Github?](http://www.labnol.org/internet/github-gist-tutorial/28499/)
+  - publish gist as a standalone web page using http://roughdraft.io
+  - save the Gist as index.html and then use http://bl.ocks.org to serve the rendered version
+  - save text snippets from web pages as public or private gists
+  - embed any Gist in your web pages
+  - use Google Analytics to measure the traffic to your Gists
+- [gist](https://github.com/defunkt/gist) - upload content from command line to https://gist.github.com/
+
 - browser extensions/styles
   - http://brettterpstra.com/2013/02/13/quick-tip-chrome-extensions-that-make-github-rock/
   - https://github.com/showcases/github-browser-extensions
