@@ -1,5 +1,7 @@
 # Functional programming
 
+- https://github.com/hemanth/functional-programming-jargon
+
 ## FP vs OO
 
 fp don't use assignment (mutation is reserved for specific sections) - no concurrent update problems
