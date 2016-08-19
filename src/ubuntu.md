@@ -31,3 +31,11 @@ apt-get update
 ## add sources manually
 
 http://askubuntu.com/questions/38021/how-to-add-a-ppa-on-a-server/38029#38029
+
+## update git
+
+```bash
+apt-add-repository ppa:git-core/ppa -y
+apt-get update
+apt-get install git
+```
