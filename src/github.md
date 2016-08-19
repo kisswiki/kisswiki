@@ -26,6 +26,7 @@
   - embed any Gist in your web pages
   - use Google Analytics to measure the traffic to your Gists
 - [gist](https://github.com/defunkt/gist) - upload content from command line to https://gist.github.com/
+- You cannot currently open a pull request on a Gist http://stackoverflow.com/questions/8758612/can-i-make-a-pull-request-on-a-gist-on-github
 
 - browser extensions/styles
   - http://brettterpstra.com/2013/02/13/quick-tip-chrome-extensions-that-make-github-rock/
