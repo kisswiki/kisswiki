@@ -11,4 +11,5 @@ command man "$@"
 }
 ```
 
-http://boredzo.org/blog/archives/2016-08-15/colorized-man-pages-understood-and-customized#comment-822111
+- http://boredzo.org/blog/archives/2016-08-15/colorized-man-pages-understood-and-customized#comment-822111
+- https://www.reddit.com/r/programming/comments/4xyvoe/
