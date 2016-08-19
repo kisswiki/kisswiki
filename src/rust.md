@@ -23,6 +23,15 @@
 To get your function return types consistent to be Iterator<> right now you actually have to use dynamic dispatch and return a Box<Iterator<>> - and you pay the price for dynamic dispatch. With this you just declare your function to return impl Iterator<> and the compiler will fill in the arbitrarily complex data type for you.
 > https://www.reddit.com/r/rust/comments/4xdghn/merged_implement_impl_trait_in_return_type/d6eowx6
 
+## warning unused result
+
+```rust
+let _ = something
+```
+
+> In Rust, the underscore is a pattern that means "I don't care about this thing, completely ignore it"
+> https://news.ycombinator.com/item?id=7792660
+
 ## cargo - proxy
 
 ~/.cargo/config
