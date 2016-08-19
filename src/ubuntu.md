@@ -39,3 +39,5 @@ apt-add-repository ppa:git-core/ppa
 apt-get update
 apt-get install git
 ```
+
+http://askubuntu.com/questions/568591/how-do-i-install-the-latest-version-of-git-with-apt
