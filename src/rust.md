@@ -22,3 +22,14 @@
 > It allows for consistent return type declarations. For example if you have a function that calls filter().map() and returns the result, it will actually return a Filter<Map<>> (Map, Filter). This can get arbitrarily complex - i.e. chain several map calls and your type will be a Map<Map<Map<>>>. As a caller you do not care though - you just care that it behaves like a Iterator.
 To get your function return types consistent to be Iterator<> right now you actually have to use dynamic dispatch and return a Box<Iterator<>> - and you pay the price for dynamic dispatch. With this you just declare your function to return impl Iterator<> and the compiler will fill in the arbitrarily complex data type for you.
 > https://www.reddit.com/r/rust/comments/4xdghn/merged_implement_impl_trait_in_return_type/d6eowx6
+
+## Cargo and proxy
+
+~/.cargo/config
+
+```
+[http]
+proxy = "..."
+```
+
+http://doc.crates.io/config.html
