@@ -30,3 +30,9 @@ cargo build
 ```
 
 http://doc.crates.io/guide.html#working-on-an-existing-cargo-project
+
+## new project
+
+`cargo new hello_world --bin`
+
+http://doc.crates.io/guide.html
