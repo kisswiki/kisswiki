@@ -64,3 +64,5 @@ cargo build
 ```
 
 http://doc.crates.io/guide.html#working-on-an-existing-cargo-project
+
+## use of unstable library feature 'rustc_private
