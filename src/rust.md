@@ -23,7 +23,7 @@
 To get your function return types consistent to be Iterator<> right now you actually have to use dynamic dispatch and return a Box<Iterator<>> - and you pay the price for dynamic dispatch. With this you just declare your function to return impl Iterator<> and the compiler will fill in the arbitrarily complex data type for you.
 > https://www.reddit.com/r/rust/comments/4xdghn/merged_implement_impl_trait_in_return_type/d6eowx6
 
-## Cargo and proxy
+## cargo - proxy
 
 ~/.cargo/config
 
@@ -33,3 +33,16 @@ proxy = "..."
 ```
 
 http://doc.crates.io/config.html
+
+## cargo - no targets specified in the manifest
+
+Cargo.toml
+
+```
+[[bin]]
+name="server"
+path="server.rs"
+```
+
+- http://stackoverflow.com/questions/37491436/failed-to-parse-manifest-no-targets-specified
+- http://doc.crates.io/manifest.html#configuring-a-target
