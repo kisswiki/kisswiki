@@ -71,3 +71,9 @@ http://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
 ## editorconfig
 
 - https://github.com/editorconfig/editorconfig-vim
+
+## Rust
+
+- https://github.com/rust-lang/rust.vim
+- https://github.com/racer-rust/vim-racer
+- https://github.com/ivanceras/rust-vim-setup
