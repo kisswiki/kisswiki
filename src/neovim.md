@@ -14,6 +14,8 @@
     insteadOf = https://github.com/
 ```
 
+https://github.com/junegunn/vim-plug/issues/472
+
 ## Completion
 
 > If you're on neovim, I'd put my vote in for deoplete + vim-racer. deoplete in my experience is much faster and much easier to configure.
