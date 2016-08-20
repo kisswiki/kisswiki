@@ -1,0 +1,2 @@
+- http://m4rw3r.github.io/rust-questionmark-operator/
+- https://www.reddit.com/r/rust/comments/4ygei4/the_operator_will_be_harmful_to_rust/
