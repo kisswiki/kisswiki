@@ -29,4 +29,4 @@ https://github.com/junegunn/vim-plug/issues/472
 
 1. install with vim-plug: `Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }`
 2. `deoplete#enable()` in init.vim
-3. `pip3 install neovim`
+3. `sudo -E pip3 install neovim`
