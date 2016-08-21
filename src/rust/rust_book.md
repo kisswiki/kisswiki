@@ -18,3 +18,19 @@ fn print_sum(x, y) {
 let mut y = 5;
 let x = (y = 6); // x == ()
 ```
+
+Return:
+
+```rust
+fun sum(x: i32, y: i32) -> i32 {
+  x + y
+}
+```
+
+or
+
+```rust
+fun sum(x: i32, y: i32) -> i32 {
+  return x + y;
+}
+```
