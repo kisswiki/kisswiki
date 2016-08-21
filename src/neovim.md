@@ -1,9 +1,11 @@
 - https://github.com/neovim/neovim/wiki/FAQ
 
 ## vim-plug
+
 - https://github.com/junegunn/vim-plug
 - https://github.com/junegunn/vim-plug/wiki/faq
 - https://www.reddit.com/r/neovim/comments/3z6c2i/how_does_one_install_vimplug_for_neovim/
+- https://github.com/Shougo/dein.vim
 
 ### install over ssh
 
