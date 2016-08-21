@@ -55,3 +55,5 @@ let f = sum;
 let x = 42; // type i32
 let y = 0.1 // type f64
 ```
+
+i32, u32, isize, usize
