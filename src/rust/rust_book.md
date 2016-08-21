@@ -1,3 +1,5 @@
+## Functions
+
 > Unlike let, you must declare the types of function arguments. This does not work:
 
 ```rust
@@ -45,4 +47,11 @@ function pointers:
 
 ```rust
 let f = sum;
+```
+
+## Primitive types
+
+```rust
+let x = 42; // type i32
+let y = 0.1 // type f64
 ```
