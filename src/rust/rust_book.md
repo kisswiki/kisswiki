@@ -40,3 +40,9 @@ Backtrace:
 ```
 $ RUST_BACKTRACE=1 cargo run
 ```
+
+function pointers:
+
+```rust
+let f = sum;
+```
