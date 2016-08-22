@@ -40,3 +40,6 @@ http://doc.crates.io/guide.html
 ## build all examples
 
 `for i in examples/*; do cargo build --target=x86_64-pc-windows-gnu --verbose --example $(basename $i .rs); done`
+
+- https://github.com/rust-lang/cargo/issues/192
+- http://stackoverflow.com/questions/29969208/how-to-build-rust-examples-without-running
