@@ -43,6 +43,6 @@ From:
   [2]: http://www.howtogeek.com/236195/how-to-find-out-which-build-and-version-of-windows-10-you-have/
   [3]: https://social.msdn.microsoft.com/Forums/en-US/a7e94e5b-db19-492f-a1c1-d5fa3aa87d0d/enabling-developer-mode-fails-with-error-code-0x80004005?forum=Win10SDKToolsIssues
 
-## Copy to clipboard
+## Copy to windows clipboard
 
 Select with mouse and ctrl+c.
