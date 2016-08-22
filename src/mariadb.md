@@ -1,2 +1,3 @@
 - http://db-engines.com/en/ranking_trend/system/MariaDB%3BMySQL
 - http://cloudacademy.com/blog/mariadb-vs-mysql-aws-rds/
+- new licensing model https://news.ycombinator.com/item?id=12325276
