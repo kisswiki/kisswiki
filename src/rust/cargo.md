@@ -36,3 +36,7 @@ http://doc.crates.io/guide.html#working-on-an-existing-cargo-project
 `cargo new hello_world --bin`
 
 http://doc.crates.io/guide.html
+
+## build all examples
+
+`for i in examples/*; do cargo build --target=x86_64-pc-windows-gnu --verbose --example $(basename $i .rs); done`
