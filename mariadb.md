@@ -1,0 +1,2 @@
+- http://db-engines.com/en/ranking_trend/system/MariaDB%3BMySQL
+- http://cloudacademy.com/blog/mariadb-vs-mysql-aws-rds/
