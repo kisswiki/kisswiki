@@ -1,4 +1,6 @@
-## Download ISO
+## Install
+
+### Download ISO
 
 As magicandre1981 said, download iso and run setup.exe
 
@@ -12,7 +14,7 @@ Check sum of downloaded iso in powershell:
 
 To find out [what version of Windows][2] you have, run `winver`.
 
-## Enable Developer Mode
+### Enable Developer Mode
 
 1. `Settings > Update & Security > For Developers > Developer Mode`
 
@@ -29,7 +31,7 @@ From:
 - http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
 - http://stackoverflow.com/questions/36352627/how-to-enable-bash-in-windows-10-developer-preview
 
-## Other links
+### Other links
 
 - https://tinkertry.com/download-windows-10-iso
 - https://www.reddit.com/r/Piracy/comments/4vzon3/anyone_know_the_windows_10_anniversary_1607/
