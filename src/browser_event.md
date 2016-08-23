@@ -27,5 +27,6 @@ window.addEventListener("optimizedResize", function() {
 ```
 
 - https://developer.mozilla.org/en-US/docs/Web/Events/resize
+- https://www.viget.com/articles/better-scroll-and-resize-event-handling
 - https://github.com/danmasta/ng-resize
 - https://github.com/kmaida/angular-resize
