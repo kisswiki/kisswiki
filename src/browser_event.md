@@ -27,3 +27,5 @@ window.addEventListener("optimizedResize", function() {
 ```
 
 - https://developer.mozilla.org/en-US/docs/Web/Events/resize
+- https://github.com/danmasta/ng-resize
+- https://github.com/kmaida/angular-resize
