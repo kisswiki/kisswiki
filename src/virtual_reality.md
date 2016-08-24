@@ -81,7 +81,7 @@ http://doc-ok.org/?tag=head-tracking
 
 > As someone who owns a Vive, my advice is to hold out for gen 2 or 3 anyways.
 Don't get me wrong, it's fantastically fun and they have the motion tracking down flawlessly, but headset resolution and ease of use/fit have much room for improvement.
-> https://www.reddit.com/r/gaming/comments/4z8qir/gta_race_wheel_vive_gaming_glory/
+> https://www.reddit.com/r/gaming/comments/4z8qir/gta_race_wheel_vive_gaming_glory/d6tyuaz
 
 #### Shaking
 
