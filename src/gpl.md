@@ -8,3 +8,6 @@
 
 > What about this apparent exception for JavaScript listed in the GPL FAQ? https://www.gnu.org/licenses/gpl-faq.html#WMS
 > That exception is only valid if the author adds it to the license. Anyway, it still contaminates your other javascript code
+
+> By minifying code and removing comments; one might argue that the GPL is not being followed to the letter of the law. By providing a comment in the minified JS pointing to the js source file this should solve most potential issues as a link to the unmodified source is now provided.
+> https://www.drupal.org/node/1493876
