@@ -1,0 +1,3 @@
+-	Less stress, more productivity: working fewer hours is good for you and your boss
+  - https://codewithoutrules.com/2016/08/18/productive-programmer/
+  - https://news.ycombinator.com/item?id=12320188
