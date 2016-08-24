@@ -68,7 +68,9 @@ On a GTX 1080 I can super-sample x2 (double the resolution, then down sample) an
 - steam and oculus rift http://store.steampowered.com/search/?sort_by=Released_DESC&vrsupport=303%2C201%2C102
 - fallout https://youtu.be/5mlEwVnGXTU
 - skyrim https://youtu.be/Z8kjFcwYB5g
-- gta 5 https://youtu.be/9zbo0mBgqzE
+- gta 5
+  - https://youtu.be/9zbo0mBgqzE
+  - https://www.reddit.com/r/gaming/comments/4z8qir/gta_race_wheel_vive_gaming_glory/
 - onward http://store.steampowered.com/app/496240/
 
 ## SteamVR
