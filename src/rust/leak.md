@@ -14,3 +14,7 @@ Other than the part where Rust's ownership system and smart pointers make it har
 > Rust does a good job providing tools to make it hard to leak memory, but when they guaranty safety they mean access safety not freeing memory safety
 
 https://www.reddit.com/r/rust/comments/4yxz98/
+
+> safe rust provides similar guarantees to garbage collected languages as the heap-allocated classes will clean themselves up
+> Not if they have circular references
+> Rust doesn't prevent memory leak. Rust doesn't consider memory leak to be "unsafe".
