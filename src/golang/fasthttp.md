@@ -2,6 +2,7 @@
 - https://www.reddit.com/r/golang/comments/3vf87b/fasthttp_vs_nginx_performance_comparison_for/
 - https://www.quora.com/If-fasthttp-Go-can-make-199K-successful-database-queries-per-second-do-we-still-need-caching-for-an-application-based-on-Go
 - https://husobee.github.io/golang/fasthttp/2016/06/23/golang-fasthttp.html
+- https://github.com/kataras/iris
 
 ## Known net/http advantages comparing to fasthttp
 
