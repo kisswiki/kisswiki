@@ -3,6 +3,7 @@
 - https://www.quora.com/If-fasthttp-Go-can-make-199K-successful-database-queries-per-second-do-we-still-need-caching-for-an-application-based-on-Go
 - https://husobee.github.io/golang/fasthttp/2016/06/23/golang-fasthttp.html
 - https://github.com/kataras/iris
+- http://stackoverflow.com/questions/38557843/fasthttp-fasthttprouter-trying-to-write-middleware
 
 ## Known net/http advantages comparing to fasthttp
 
