@@ -1,2 +1,3 @@
 - http://www.purepc.pl/klawiatury_i_myszki/test_razer_deathadder_chroma_najpopularniejsza_mysz_w_akcji
 - http://www.test-gear.pl/testy-i-recenzje/myszki/zowie-ec1-a/
+- http://www.test-gear.pl/testy-i-recenzje/myszki/steelseries-rival/
