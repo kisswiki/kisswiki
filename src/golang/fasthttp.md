@@ -4,6 +4,7 @@
 - https://husobee.github.io/golang/fasthttp/2016/06/23/golang-fasthttp.html
 - https://github.com/kataras/iris
 - http://stackoverflow.com/questions/38557843/fasthttp-fasthttprouter-trying-to-write-middleware
+- good results on this benchmark https://www.techempower.com/benchmarks/
 
 ## Known net/http advantages comparing to fasthttp
 
