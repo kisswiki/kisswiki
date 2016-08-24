@@ -1,6 +1,6 @@
 Unlike Ingress, where there is
 - [ ] a continuing story line influenced by how well the two factions are doing
-- [ ] a global score that every player can influence,
+- [ ] a global score that every player can influence
 - [ ] an in game chat function so players can interact without knowing each other ahead of time
 - [ ] the ability for huge operations involving dozens of players
 - [ ] the challenge of organizing such an operation
