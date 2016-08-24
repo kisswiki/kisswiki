@@ -74,6 +74,10 @@ http://doc-ok.org/?tag=head-tracking
 - http://www.pcadvisor.co.uk/how-to/game/htc-vive-tracking-base-station-controller-troubleshooting-guide-3640323/
 - https://www.reddit.com/r/Vive/comments/4eu3uh/how_to_revive_your_nonworking_vive_tips_and_tricks/
 
+> As someone who owns a Vive, my advice is to hold out for gen 2 or 3 anyways.
+Don't get me wrong, it's fantastically fun and they have the motion tracking down flawlessly, but headset resolution and ease of use/fit have much room for improvement.
+> https://www.reddit.com/r/gaming/comments/4z8qir/gta_race_wheel_vive_gaming_glory/
+
 #### Shaking
 
 - https://www.reddit.com/r/Vive/comments/4g7ym6/htc_vive_tracking_wobble_jittering_thread/
