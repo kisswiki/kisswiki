@@ -1,4 +1,5 @@
 - https://www.reddit.com/r/golang/comments/3ty5uy/fast_http_package_for_go/
+- https://www.reddit.com/r/golang/comments/3vf87b/fasthttp_vs_nginx_performance_comparison_for/
 
 ## Known net/http advantages comparing to fasthttp
 
