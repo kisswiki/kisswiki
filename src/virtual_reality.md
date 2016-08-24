@@ -53,6 +53,11 @@ http://doc-ok.org/?tag=head-tracking
 
 - No motion sickness https://youtu.be/f8N3aOn1iWE?t=35
 
+## resolution
+
+> well, actually the rendering resolution is high, but it needs to be way higher because of how much area there is to cover. A screen only covers a small area of your vision, so it appears much sharper. Once we hit 8k per eye it'll be about on point with 1440p but covering your whole view. Unfortunately, we're going to need insanely faster computers for that day. Here's to hoping it is in the next decade or two.
+> https://www.reddit.com/r/gaming/comments/4z8qir/gta_race_wheel_vive_gaming_glory/d6uax1x
+
 ## games
 
 - steam and htc vive http://store.steampowered.com/search/?sort_by=Released_DESC&vrsupport=303%2C201%2C101
