@@ -1,3 +1,6 @@
+> React's templating allows you to execute arbitrary JS logic when rendering, which is more versatile than simple one-way data binding
+> https://news.ycombinator.com/item?id=12243269
+
 - raw-reactjs router
 - https://www.reddit.com/r/reactjs/comments/3yjix3/explain_like_im_a_child_stateless_functional/
 - https://www.reddit.com/r/reactjs/comments/3yh1nv/should_i_use_reactcreateclass_es6_classes_or/
