@@ -3,6 +3,10 @@
 - https://www.reddit.com/r/reactjs/comments/3yh1nv/should_i_use_reactcreateclass_es6_classes_or/
 - usages - http://builtwithreact.io/
 - Dan Abramov (gaearon) on Facebook's PATENTS clause https://www.reddit.com/r/reactjs/comments/4ybhzw/
+
+  > Facebook needs to find a patent that they own that relates to React to sue you for using React.
+If they didn't give you the patent grant in the first place, they could do that anyway. In fact anyone with a patent that relates to React could sue you for using React.
+
 - testing
   - If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React [source](If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React) [source](https://github.com/facebook/react/issues/5046#issuecomment-146222515)
   - https://egghead.io/series/react-testing-cookbook
