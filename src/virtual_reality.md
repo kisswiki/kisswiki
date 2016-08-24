@@ -57,6 +57,8 @@ http://doc-ok.org/?tag=head-tracking
 
 > well, actually the rendering resolution is high, but it needs to be way higher because of how much area there is to cover. A screen only covers a small area of your vision, so it appears much sharper. Once we hit 8k per eye it'll be about on point with 1440p but covering your whole view. Unfortunately, we're going to need insanely faster computers for that day. Here's to hoping it is in the next decade or two.
 > Plus, you're ideally hitting a solid 90fps to avoid the unpleasantness that comes with VR at low frame rates. Sub 90, you can get nauseous, dizzy, just all around not a good experience.
+> Forget the 8K thing, that's 5-7 years away, minimum. Right now the Vive and Rift display 2160x1200 (1080x1200 per eye). That's approx. 2.6 million px/s. For reference, 1080 res is approx. 2.1 mil px/s. and 1440 res is approx. 3.7 mil px/s.
+On a GTX 1080 I can super-sample x2 (double the resolution, then down sample) and get a really nice, crisp image on the Vive. But even at the default x1 sampling, I was able to enjoy most current games on my old 970 without hassle. VR's a different bird altogether. Think of it more as a new alternative way of playing (that fits some genres better than others), rather than a replacement for what we have now.
 > https://www.reddit.com/r/gaming/comments/4z8qir/gta_race_wheel_vive_gaming_glory/d6uax1x
 
 ## games
