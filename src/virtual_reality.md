@@ -59,6 +59,7 @@ http://doc-ok.org/?tag=head-tracking
 > Plus, you're ideally hitting a solid 90fps to avoid the unpleasantness that comes with VR at low frame rates. Sub 90, you can get nauseous, dizzy, just all around not a good experience.
 > Forget the 8K thing, that's 5-7 years away, minimum. Right now the Vive and Rift display 2160x1200 (1080x1200 per eye). That's approx. 2.6 million px/s. For reference, 1080 res is approx. 2.1 mil px/s. and 1440 res is approx. 3.7 mil px/s.
 On a GTX 1080 I can super-sample x2 (double the resolution, then down sample) and get a really nice, crisp image on the Vive. But even at the default x1 sampling, I was able to enjoy most current games on my old 970 without hassle. VR's a different bird altogether. Think of it more as a new alternative way of playing (that fits some genres better than others), rather than a replacement for what we have now.
+> if VR headsets rendered only where you look, a tech that now exists for the Vive, the setup above could already hit 8K @ 60fps minimum.
 > https://www.reddit.com/r/gaming/comments/4z8qir/gta_race_wheel_vive_gaming_glory/d6uax1x
 
 ## games
