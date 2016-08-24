@@ -4,4 +4,4 @@ This means that Rollup turns multiple modules into what you would have written i
 > Rollup doesn't (yet) do automatic code-splitting
 > Rollup generates smaller and faster bundles even without tree shaking. It's also faster at creating bundles
 > Until Webpack does 'scope-hoisting' – i.e. putting modules in a single scope, rather than wrapping them in functions and including an inline module loader – it will generate bundles that are larger and slower to initialise than Rollup bundles
-> https://www.reddit.com/r/javascript/comments/4yprc5/
+> https://www.reddit.com/r/javascript/comments/4yprc5/how_to_bundle_javascript_with_rollup_stepbystep/
