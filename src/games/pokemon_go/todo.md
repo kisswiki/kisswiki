@@ -5,7 +5,7 @@ Unlike Ingress, where there is
 - [ ] the ability for huge operations involving dozens of players
 - [ ] the challenge of organizing such an operation
   - [ ] clearing lanes to make way for linking
-  - [ ] capturing or destroying key portals,
+  - [ ] capturing or destroying key portals
   - [ ] heading out to some obscure location in the middle of the night and feeling like a secret agent on a top secret mission
 
 Pokemon Go really has very little to offer. On top of that
