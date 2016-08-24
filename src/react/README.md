@@ -1,5 +1,7 @@
 > React's templating allows you to execute arbitrary JS logic when rendering, which is more versatile than simple one-way data binding
 > you only have to write that arbitrary JS logic once to cover both the rendering and all the updating cases, so you get the same kind of automagic monitoring in your view that data binding gives but in the general case.
+> Data-binding is crap for many reasons. Here's a big one: inability to use immutable data types, except for the trivial case of a static component.
+> When you have to worry about how to get your model to play nice with the view, that's a leak in the abstraction. This applies to ALL data-binding systems
 > https://news.ycombinator.com/item?id=12243269
 
 - raw-reactjs router
