@@ -1,4 +1,5 @@
 > React's templating allows you to execute arbitrary JS logic when rendering, which is more versatile than simple one-way data binding
+> you only have to write that arbitrary JS logic once to cover both the rendering and all the updating cases, so you get the same kind of automagic monitoring in your view that data binding gives but in the general case.
 > https://news.ycombinator.com/item?id=12243269
 
 - raw-reactjs router
