@@ -71,6 +71,7 @@ On a GTX 1080 I can super-sample x2 (double the resolution, then down sample) an
 - gta 5
   - https://youtu.be/9zbo0mBgqzE
   - https://www.reddit.com/r/gaming/comments/4z8qir/gta_race_wheel_vive_gaming_glory/
+  - https://youtu.be/dVLni-K9wKI
 - onward http://store.steampowered.com/app/496240/
 
 ## SteamVR
