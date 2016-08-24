@@ -2,6 +2,7 @@
 - https://www.reddit.com/r/reactjs/comments/3yjix3/explain_like_im_a_child_stateless_functional/
 - https://www.reddit.com/r/reactjs/comments/3yh1nv/should_i_use_reactcreateclass_es6_classes_or/
 - usages - http://builtwithreact.io/
+- Dan Abramov (gaearon) on Facebook's PATENTS clause https://www.reddit.com/r/reactjs/comments/4ybhzw/
 - testing
   - If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React [source](If you are using jsdom make sure you are creating the correct globals in the environment before any requires of React) [source](https://github.com/facebook/react/issues/5046#issuecomment-146222515)
   - https://egghead.io/series/react-testing-cookbook
