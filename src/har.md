@@ -7,3 +7,4 @@
 - https://github.com/rafacesar/simplehar
 - https://github.com/zzo/browsermob-node
 - https://github.com/shyiko/electron-har
+- https://github.com/micmro/PerfCascade
