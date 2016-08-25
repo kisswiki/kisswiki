@@ -5,6 +5,7 @@
 - license: MIT, borderless: no https://github.com/jarvisniu/Niv
 - https://github.com/Helios-vmg/Borderless
 - https://github.com/Traubenfuchs/ComfyViewer
+- http://quivi.sourceforge.net/
 
 - http://alternativeto.net/tag/image-viewer/?license=opensource&platform=windows
 - https://github.com/search?l=C%2B%2B&o=desc&q=image+viewer+windows&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93
