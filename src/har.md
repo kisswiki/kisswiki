@@ -3,3 +3,7 @@
 
 - How to get a HAR capture https://toolbox.googleapps.com/apps/har_analyzer/?lang=en
 - http://stackoverflow.com/questions/16199002/how-do-i-view-replay-a-chrome-network-debugger-har-file-saved-with-content
+- https://github.com/lightbody/browsermob-proxy
+- https://github.com/rafacesar/simplehar
+- https://github.com/zzo/browsermob-node
+- https://github.com/shyiko/electron-har
