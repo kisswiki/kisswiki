@@ -2,3 +2,4 @@
 > https://ask.wireshark.org/questions/43731/unable-to-open-or-import-http-archive-files-har-generated-by-chrome
 
 - How to get a HAR capture https://toolbox.googleapps.com/apps/har_analyzer/?lang=en
+- http://stackoverflow.com/questions/16199002/how-do-i-view-replay-a-chrome-network-debugger-har-file-saved-with-content
