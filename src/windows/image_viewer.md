@@ -7,3 +7,4 @@
 - http://softwarerecs.stackexchange.com/questions/1684/image-photo-viewer-for-windows
 - http://softwarerecs.stackexchange.com/search?tab=votes&q=%5bimage-viewer%5d%20%5bwindows%5d%20fast
 - https://en.wikipedia.org/wiki/Comparison_of_image_viewers
+- http://superuser.com/questions/538741/image-viewer-without-large-window-borders
