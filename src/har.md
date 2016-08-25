@@ -10,3 +10,4 @@
 - https://github.com/shyiko/electron-har
 - https://github.com/micmro/PerfCascade
 - Using Fiddler2 instead of the online HAR viewer http://alertfox.com/using-fiddler2-instead-of-the-online-har-viewer/
+- http://stackoverflow.com/questions/12330927/easiest-way-to-convert-pcap-to-json
