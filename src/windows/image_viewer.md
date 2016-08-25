@@ -1,2 +1,2 @@
-- license: GPLv3 https://github.com/nomacs/nomacs
-- license: GPLv2 https://sourceforge.net/projects/jpegview/
+- license: GPLv3, border-less: possible https://github.com/nomacs/nomacs
+- license: GPLv2  border-less: no https://sourceforge.net/projects/jpegview/
