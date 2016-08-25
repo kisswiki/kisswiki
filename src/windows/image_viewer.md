@@ -6,10 +6,10 @@
 - https://github.com/Helios-vmg/Borderless
 - https://github.com/Traubenfuchs/ComfyViewer
 
+- http://alternativeto.net/tag/image-viewer/?license=opensource&platform=windows
 - https://github.com/search?l=C%2B%2B&o=desc&q=image+viewer+windows&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93
 - http://softwarerecs.stackexchange.com/questions/17600/fast-picture-viewer-for-windows
 - http://softwarerecs.stackexchange.com/questions/1684/image-photo-viewer-for-windows
 - http://softwarerecs.stackexchange.com/search?tab=votes&q=%5bwindows%5d%20%5bimage-viewer%5d%20image
 - https://en.wikipedia.org/wiki/Comparison_of_image_viewers
 - http://superuser.com/questions/538741/image-viewer-without-large-window-borders
-- http://alternativeto.net/tag/image-viewer/?license=opensource&platform=windows
