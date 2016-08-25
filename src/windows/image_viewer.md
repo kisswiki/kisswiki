@@ -1,0 +1,2 @@
+- license: GPLv3 https://github.com/nomacs/nomacs
+- license: GPLv2 https://sourceforge.net/projects/jpegview/
