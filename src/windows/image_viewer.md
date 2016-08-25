@@ -3,6 +3,7 @@
 - license: GPLv3+ https://github.com/d2phap/ImageGlass/blob/master/Source/ImageGlass/Global.cs, border-less: no https://github.com/d2phap/ImageGlass
 - https://github.com/dermoritz/FastImageViewer
 - license: MIT, borderless: no https://github.com/jarvisniu/Niv
+- https://github.com/Helios-vmg/Borderless
 
 - https://github.com/search?l=C%2B%2B&o=desc&q=image+viewer+windows&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93
 - http://softwarerecs.stackexchange.com/questions/17600/fast-picture-viewer-for-windows
