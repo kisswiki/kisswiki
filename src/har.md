@@ -2,6 +2,7 @@
 > https://ask.wireshark.org/questions/43731/unable-to-open-or-import-http-archive-files-har-generated-by-chrome
 
 - How to get a HAR capture https://toolbox.googleapps.com/apps/har_analyzer/?lang=en
+- http://stackoverflow.com/questions/7521942/export-data-from-chrome-developer-tool
 - http://stackoverflow.com/questions/16199002/how-do-i-view-replay-a-chrome-network-debugger-har-file-saved-with-content
 - https://github.com/lightbody/browsermob-proxy
 - https://github.com/rafacesar/simplehar
@@ -9,4 +10,3 @@
 - https://github.com/shyiko/electron-har
 - https://github.com/micmro/PerfCascade
 - Using Fiddler2 instead of the online HAR viewer http://alertfox.com/using-fiddler2-instead-of-the-online-har-viewer/
-- http://stackoverflow.com/questions/7521942/export-data-from-chrome-developer-tool
