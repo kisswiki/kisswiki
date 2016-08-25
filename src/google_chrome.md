@@ -19,7 +19,7 @@
 
 ### download manager
 
-- https://github.com/auxdesigner/Material-Design-Download-Manager
+- https://github.com/auxdesigner/Material-Design-Download-Manager 
 - Don't use it, injects ads https://chrome.google.com/webstore/detail/downloads-your-download-b/gjihnjejboipjmadkpmknccijhibnpfe
 
 ## dark
