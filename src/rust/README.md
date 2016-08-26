@@ -15,6 +15,7 @@
 <br>
 
 > excellent mechanisms for isolating and declaring effects, encoding recursive algorithms and data structures, and making programs obvious from their lexical structure, much more so than standard c++
+> a robust type system similar to Haskells and an emphasis on immutability, but has unrestricted side effects and mutability as well
 > https://www.quora.com/What-do-functional-programmers-think-of-the-Rust-language
 
 ## Syntax
