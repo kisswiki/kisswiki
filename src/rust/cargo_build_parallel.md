@@ -10,6 +10,7 @@ $ cargo clean && RUSTFLAGS="-C codegen-units=1" time cargo build
 117.53user 27.18system 0:41.50elapsed 348%CPU (0avgtext+0avgdata 286164maxresident)k
 0inputs+0outputs (0major+2391345minor)pagefaults 0swaps
 ```
+
 - https://www.reddit.com/r/rust/comments/4yzx7x/hey_rustaceans_got_an_easy_question_ask_here/d6ru634
 - http://stackoverflow.com/questions/32029486/how-can-i-globally-configure-a-cargo-profile-option
 - https://github.com/rust-lang/cargo/blob/master/src/doc/manifest.md
