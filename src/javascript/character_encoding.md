@@ -16,6 +16,7 @@ document.write(decodeURI('%C3%9C')) // Ü
 - http://www.javascripter.net/faq/accentedcharacters.htm
 - http://www.tuxlanding.net/how-to-display-the-accented-characters-in-javascript/
 - URI is percent-encoding https://en.wikipedia.org/wiki/Percent-encoding
+- https://en.wikipedia.org/wiki/List_of_Unicode_characters
 - https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
 - https://www.w3.org/TR/html5/syntax.html#named-character-references
 
