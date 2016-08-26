@@ -1,5 +1,6 @@
 - http://rustbyexample.com/std_misc/file/create.html
 - http://stackoverflow.com/questions/19854513/how-can-i-read-and-write-a-text-file-in-rust
+- https://rosettacode.org/wiki/File_input/output#Rust
 - https://doc.rust-lang.org/std/fs/struct.File.html
 - https://doc.rust-lang.org/std/io/trait.Write.html
 - https://github.com/rust-lang/rust-by-example/blob/master/src/file.rs
