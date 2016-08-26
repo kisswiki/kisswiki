@@ -1,3 +1,5 @@
+- this is using Rustful http://maniagnosis.crsr.net/2015/07/reimplementing-ashurbanipalweb-in-rust_15.html
+
 ## JSON
 
 - https://ogeon.github.io/docs/rustful/master/rustful/context/body/struct.BodyReader.html
