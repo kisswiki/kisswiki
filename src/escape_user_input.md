@@ -1,6 +1,7 @@
 - https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet
 - http://security.stackexchange.com/questions/32394/when-to-escape-user-input
 - https://www.quora.com/What-are-the-best-practices-for-escaping-or-sanitizing-user-input-in-PHP
+- https://en.wikipedia.org/wiki/Secure_input_and_output_handling
 
 > Whenever you embed a string within foreign code, you must escape it, according to the rules of that language
 > Do not try to prevent SQL injection by sanitizing input data.
