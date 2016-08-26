@@ -84,3 +84,7 @@ http://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
 - completion `C-x C-o`
 - go to definition `gd` or `gs` or `gx`
 - go back `C-o` http://stackoverflow.com/questions/53911/in-vim-how-do-i-go-back-to-where-i-was-before-a-search
+
+## Enetring special characters
+
+http://vim.wikia.com/wiki/Entering_special_characters
