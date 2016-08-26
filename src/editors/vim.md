@@ -92,3 +92,11 @@ http://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
 ## Enetring special characters
 
 http://vim.wikia.com/wiki/Entering_special_characters
+
+## unsplit windows
+
+Close every window with `:q` or `ZZ` or close all other
+
+`cltr-w o`
+
+`:on`
