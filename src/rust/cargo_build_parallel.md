@@ -11,4 +11,5 @@ $ cargo clean && RUSTFLAGS="-C codegen-units=1" time cargo build
 0inputs+0outputs (0major+2391345minor)pagefaults 0swaps
 ```
 
-http://stackoverflow.com/questions/32029486/how-can-i-globally-configure-a-cargo-profile-option
+- http://stackoverflow.com/questions/32029486/how-can-i-globally-configure-a-cargo-profile-option
+- https://github.com/rust-lang/cargo/blob/master/src/doc/manifest.md
