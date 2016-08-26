@@ -19,6 +19,7 @@ document.write(decodeURI('%C3%9C')) // Ü
 - https://en.wikipedia.org/wiki/List_of_Unicode_characters
 - https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
 - https://www.w3.org/TR/html5/syntax.html#named-character-references
+- https://www.w3.org/TR/xml-entity-names/bycodes.html
 
 > UTF-8 represents code points above U+007F using more than one byte. So when you want ä (U+00E4), the UTF-8 representation is the two bytes C3 A4 and thus the percent-encoding is %C3%A4. A handy website that will help you with these conversions is
 > http://stackoverflow.com/questions/2117942/twitter-sharing-problems-with-umlauts-%C3%A4-%C3%B6
