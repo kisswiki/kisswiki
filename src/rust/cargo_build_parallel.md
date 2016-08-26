@@ -13,3 +13,4 @@ $ cargo clean && RUSTFLAGS="-C codegen-units=1" time cargo build
 
 - http://stackoverflow.com/questions/32029486/how-can-i-globally-configure-a-cargo-profile-option
 - https://github.com/rust-lang/cargo/blob/master/src/doc/manifest.md
+- https://www.reddit.com/r/rust/comments/3tco32/shattering_a_crate_in_pursuit_of_compile_times/
