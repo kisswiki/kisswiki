@@ -43,3 +43,34 @@ http://doc.crates.io/guide.html
 
 - https://github.com/rust-lang/cargo/issues/192
 - http://stackoverflow.com/questions/29969208/how-to-build-rust-examples-without-running
+
+## run
+
+By default it will compile and run `src/main.rs`
+
+```
+cargo run
+```
+
+If you want to have multiple bin, you have to add it to Cargo.toml:
+
+```toml
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "server"
+path = "src/server.rs"
+```
+
+And then run it like that:
+
+```
+cargo run --bin main
+cargo run --bin server
+```
+
+Runing single `cargo run` won't work if specified `[[bin]]`.
+
+https://www.reddit.com/r/rust/comments/2bhr28/cargo_how_to_use_srcbin_effectively/cj5gdq5

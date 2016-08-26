@@ -78,10 +78,12 @@ http://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
 
 - https://github.com/rust-lang/rust.vim
 - https://github.com/ivanceras/rust-vim-setup
+- https://www.reddit.com/r/rust/comments/4y6teu/how_do_i_use_rust_on_vim/
 
 ### Racer
 
 - https://github.com/racer-rust/vim-racer
+- http://stackoverflow.com/questions/37966696/cargo-path-setup-for-rust-racer
 
 - completion `C-x C-o`
 - go to definition `gd` or `gs` or `gx`
