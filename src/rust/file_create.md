@@ -1,3 +1,4 @@
 - http://rustbyexample.com/std_misc/file/create.html
 - https://doc.rust-lang.org/std/fs/struct.File.html
 - https://doc.rust-lang.org/std/io/trait.Write.html
+- https://github.com/rust-lang/rust-by-example/blob/master/src/file.rs
