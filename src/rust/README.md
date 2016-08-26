@@ -1,6 +1,7 @@
 - Rust is a new, practical, community-developed systems programming language that "runs blazingly fast, prevents almost all crashes, and eliminates data races." Rust derives from a rich history of languages to create a multi-paradigm (imperative/functional), low-level language that focuses on high-performance, zero-cost safety guarantees in concurrent programs. It began to gain traction in industry even before its official 1.0 release in May 2015, showing a recognized need for a new low-level systems language. http://cis198-2016s.github.io/
 - http://softwaremaniacs.org/blog/2016/02/12/ownership-borrowing-hard/en/
 - web frameworks https://github.com/flosse/rust-web-framework-comparison
+- https://www.reddit.com/r/rust/comments/4yzx7x/hey_rustaceans_got_an_easy_question_ask_here/
 
 ## Syntax
 
