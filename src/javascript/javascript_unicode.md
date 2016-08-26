@@ -1,10 +1,10 @@
 ```javascript
-console.log('\334')              // Ü
-console.log('\xDC')              // Ü
-console.log('&#220;')            // &#220;
-console.log('&Uuml;')            // &Uuml;
-console.log(unescape('%DC'))     // Ü
-console.log(decodeURI('%C3%9C')) // Ü
+console.log('\334')                 // Ü
+console.log('\xDC')                 // Ü
+console.log('&#220;')               // &#220;
+console.log('&Uuml;')               // &Uuml;
+console.log(unescape('%DC'))        // Ü
+console.log(decodeURI('%C3%9C'))    // Ü
 document.write('\xDC')              // Ü
 document.write('&#220;')            // Ü
 document.write('&Uuml;')            // Ü
