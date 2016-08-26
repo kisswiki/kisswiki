@@ -3,6 +3,7 @@
 - https://www.quora.com/What-are-the-best-practices-for-escaping-or-sanitizing-user-input-in-PHP
 - https://en.wikipedia.org/wiki/Secure_input_and_output_handling
 
+> It's a common misconception that user input can be filtered. PHP even has a (now deprecated) "feature", called magic-quotes, that builds on this idea. It's nonsense.
 > Whenever you embed a string within foreign code, you must escape it, according to the rules of that language
 > Do not try to prevent SQL injection by sanitizing input data.
 > Instead, do not allow data to be used in creating your SQL code. Use Prepared Statements
