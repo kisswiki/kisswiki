@@ -11,3 +11,5 @@
 > http://stackoverflow.com/questions/129677/whats-the-best-method-for-sanitizing-user-input-with-php
 
 ## HTML
+
+> Rule \#1 is for when you want to put untrusted data directly into the HTML body somewhere. This includes inside normal tags like div, p, b, td, etc. Most web frameworks have a method for HTML escaping for the characters detailed below. However, this is absolutely not sufficient for other HTML contexts.
