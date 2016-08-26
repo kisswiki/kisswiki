@@ -16,6 +16,7 @@ document.write(decodeURI('%C3%9C')) // Ü
 - http://www.javascripter.net/faq/accentedcharacters.htm
 - http://www.tuxlanding.net/how-to-display-the-accented-characters-in-javascript/
 - URI is percent-encoding https://en.wikipedia.org/wiki/Percent-encoding
+- https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
 - https://www.w3.org/TR/html5/syntax.html#named-character-references
 
 > UTF-8 represents code points above U+007F using more than one byte. So when you want ä (U+00E4), the UTF-8 representation is the two bytes C3 A4 and thus the percent-encoding is %C3%A4. A handy website that will help you with these conversions is
