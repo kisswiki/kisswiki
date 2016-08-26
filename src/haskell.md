@@ -3,3 +3,8 @@
 Haskell has no place on modern computer systems. And the future system it's waiting for isn't going to come.
 > Larger caches doesn't solve the issues. See above.
 With TLB pollution which is endemic to linked lists. Even smart slab allocators have this problem. You can just can't handle million of pointers efficiently. The virtual memory translation becomes an issue.
+
+<br>
+
+> Haskell - which, by the way, has an unofficial motto of "Avoid success at any costs."
+> http://www.akitaonrails.com/2015/10/28/personal-thoughts-on-the-current-functional-programming-bandwagon
