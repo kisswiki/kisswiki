@@ -2,6 +2,11 @@
 - http://softwaremaniacs.org/blog/2016/02/12/ownership-borrowing-hard/en/
 - web frameworks https://github.com/flosse/rust-web-framework-comparison
 
+## Syntax
+
+> Rust requires the braces but not the parens, while C is the contrary
+> https://www.reddit.com/r/rust/comments/4yzx7x/hey_rustaceans_got_an_easy_question_ask_here/d6vkvfp
+
 ## Limitations, drawbacks
 
 - https://www.reddit.com/r/rust/comments/4b5rfi/what_in_your_opinion_is_the_worst_thing_about_rust/
