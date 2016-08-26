@@ -95,8 +95,10 @@ http://vim.wikia.com/wiki/Entering_special_characters
 
 ## unsplit windows
 
-Close every window with `:q` or `ZZ` or close all other
+Close every window with `:q` or `ZZ` or `ctrl-w q`.
 
-`cltr-w o`
+If you want to have only one window:
 
-`:on`
+`cltr-w o` or `:on`
+
+http://stackoverflow.com/questions/4809729/cancel-split-window-in-vim
