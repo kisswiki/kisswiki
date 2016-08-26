@@ -12,6 +12,11 @@
 > really the first and only well-supported language that has focused mainly on static memory lifetimes
 > https://www.quora.com/Is-Rust-a-functional-programming-language
 
+<br>
+
+> excellent mechanisms for isolating and declaring effects, encoding recursive algorithms and data structures, and making programs obvious from their lexical structure, much more so than standard c++
+> https://www.quora.com/What-do-functional-programmers-think-of-the-Rust-language
+
 ## Syntax
 
 > Rust requires the braces but not the parens, while C is the contrary
