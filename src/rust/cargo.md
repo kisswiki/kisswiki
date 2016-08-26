@@ -52,7 +52,7 @@ By default it will compile and run `src/main.rs`
 cargo run
 ```
 
-If you want to have multiple bin, you have to add it to Cargo.toml:
+If you want to have multiple bins, you have to add it to Cargo.toml:
 
 ```toml
 [[bin]]
