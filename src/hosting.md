@@ -28,6 +28,8 @@
 > Well the speedtest website does both upload and download tests when a user runs it. Most every time a customer comes to me saying they are not getting their advertised network speed it is because they are using the speedtest.net cli tool. It is wrong too much and just leads to clients getting incorrect results.
 > I always end up telling them that the test is not suitable to test servers.
 
+> Speedtest sux - use iperf instead
+
 > https://www.lowendtalk.com/discussion/85392/building-a-serverbear-alternative
 
 
