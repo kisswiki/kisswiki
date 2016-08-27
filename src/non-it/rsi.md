@@ -1,0 +1,2 @@
+- https://en.wikipedia.org/wiki/List_of_repetitive_strain_injury_software
+- https://inchwest.com/smartbreak/
