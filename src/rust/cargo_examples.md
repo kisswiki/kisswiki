@@ -1,3 +1,7 @@
-## build all
+```bash
+# build single
+cargo build --example file
 
-`for i in examples/*; do cargo build --target=x86_64-pc-windows-gnu --verbose --example $(basename $i .rs); done`
+# build all
+for i in examples/*; do cargo build --example $(basename $i .rs); done
+```
