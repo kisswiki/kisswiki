@@ -6,8 +6,8 @@ Edit ~/.cargo/config where where `$ARCH` is for example
 
 ```
 [target.x86_64-pc-windows-gnu]
-linker = "/usr/bin/x86_64-w64-mingw32-gcc"
-ar = "/usr/bin/x86_64-w64-mingw32-gcc-ar"
+linker = "x86_64-w64-mingw32-gcc"
+ar = "x86_64-w64-mingw32-gcc-ar"
 ```
 
 Buil with
