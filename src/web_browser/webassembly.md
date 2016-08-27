@@ -18,6 +18,8 @@
 > currently one of the performance bottle-necks with {asm.,}js is parsing the source code. This is specifically what web-assembler is here to address.
 > https://www.reddit.com/r/programming/comments/4aif1n/v8_javascript_engine_experimental_support_for/d113qrk
 
+- http://www.2ality.com/2015/06/web-assembly.html
+
 ## Examples
 
 - https://webassembly.github.io/demo/
