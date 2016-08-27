@@ -36,6 +36,7 @@
   - http://stackoverflow.com/questions/359424/detach-subdirectory-into-separate-git-repository/17864475#17864475
   - https://help.github.com/articles/splitting-a-subfolder-out-into-a-new-repository/
 - To make script executable under windows (--add when it's a new file) `git update-index --add --chmod=+x <file>` http://stackoverflow.com/questions/6476513/git-file-permissions-on-windows
+- https://wildlyinaccurate.com/a-hackers-guide-to-git/
 
 ## rewriting history
 
