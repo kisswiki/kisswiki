@@ -17,6 +17,7 @@
 ### serverscope.io
 
 - https://serverscope.io/
+- https://github.com/serverscope/serverscope-benchmark
 
 > Will always be free for users
 
