@@ -1,6 +1,6 @@
 ## Ubuntu/Debian to Windows x86_64
 
-`apt-get install gcc-mingw-w64-x86-64`
+`sudo apt-get install gcc-mingw-w64-x86-64`
 
 Edit ~/.cargo/config where where `$ARCH` is for example
 
