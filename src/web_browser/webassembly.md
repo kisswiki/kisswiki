@@ -13,4 +13,7 @@
 > WASM is ASM.js on steroids. It'll start as a bytecode version of JS with a few new features and no GC - then it'll be the compile target for ASM.js - then it'll be the last binary format that matters.
 > https://www.reddit.com/r/programming/comments/4aif1n/v8_javascript_engine_experimental_support_for/d11oia2
 
+> currently one of the performance bottle-necks with {asm.,}js is parsing the source code. This is specifically what web-assembler is here to address.
+> https://www.reddit.com/r/programming/comments/4aif1n/v8_javascript_engine_experimental_support_for/d113qrk
+
 - https://webassembly.github.io/demo/
