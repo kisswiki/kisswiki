@@ -8,5 +8,6 @@
 - There is timer (20 minutes default), after it smartbreak imposes on you to make a break.
 - It's smart, because time of work increases when you move mouse or type on keyboard, and decreases if you don't.
 - There is small always-on-top progress bar. You can change it's position or disable.
-- If you unlock your computer before breaks' end, your screen still will be locked but visible.
+- If you enable 'turn of screen', it will turn on automatically after break.
+- If you unlock your computer before break ends, your screen still will be locked but visible.
 - For more info, right-click on icon and choose `Display help`.
