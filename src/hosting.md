@@ -32,6 +32,9 @@
 
 > Iperf needs another server. And I think nobody wants to expose one to the volumes of traffic it needs
 
+> Most speedtest.net servers seem to have 1Gbps max connection to them. Speedtest.net is designed to test residential connections so most of the time this is fine.
+> My nodes each have a 10Gbps connection, 10x that of the server they are testing against. If you combine that with the bandwidth being used by others testing against the speed test server the results are usually far far off, even when in close proximity.
+
 > https://www.lowendtalk.com/discussion/85392/building-a-serverbear-alternative
 
 
