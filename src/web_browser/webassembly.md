@@ -1,3 +1,6 @@
+>> Why does it need support in a JavaScript engine
+> I think the situation is more like this http://www.2ality.com/2015/06/web-assembly.html#webassembly_does_not_replace_javascript
+> because it's a little much to expects browser to implement 2 vms
 > WebAssembly is a low-level, portable bytecode that is designed to be encoded in a compact binary format and executed at near-native speed in a memory-safe sandbox. As an evolution of existing technologies, WebAssembly is tightly integrated with the web platform, as well as faster to download over the network and faster to instantiate than asm.js, a low-level subset of JavaScript.
 > http://v8project.blogspot.sg/2016/03/experimental-support-for-webassembly.html
 > https://www.reddit.com/r/programming/comments/4aif1n/v8_javascript_engine_experimental_support_for/
