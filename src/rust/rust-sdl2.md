@@ -1,1 +1,2 @@
 - https://github.com/AngryLawyer/rust-sdl2
+- cargo build --target=x86_64-pc-windows-gnu
