@@ -10,6 +10,7 @@ For comparisions
   - https://hub.docker.com/r/kylemanna/serverbear-benchmark/
 - https://serverscope.io/
   - https://www.lowendtalk.com/discussion/85392/building-a-serverbear-alternative
+    - Will always be free for users
   - https://serverscope.io/trials/nAr
 
 > We shut down ServerBear today, thanks for all the support it was fun! 🐻
