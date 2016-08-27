@@ -21,4 +21,4 @@
 - http://innpoland.pl/127361,nadeszla-pora-by-powiedziec-to-glosno-drazni-mnie-filozofia-start-upow
 - https://www.reddit.com/r/programming/comments/4px0eu/dont_automate_it_yet_a_story/
 - Firmą trzeba zarządzać jak armią, ale tak jakby znajdowała się w stanie wojny http://mamstartup.pl/sukces/9164/majac-40-lat-otworzyl-firme-z-siedziba-w-akademiku-dzis-comarch-osiaga-miliard-zlotych-przychodu
-- Learn how developers are writing their own paychecks https://www.indiehackers.com/businesses
+- Learn how developers are writing their own paychecks https://www.indiehackers.com
