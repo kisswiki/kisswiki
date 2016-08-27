@@ -1,3 +1,4 @@
+- https://cinesift.com
 - http://www.rottentomatoes.com/
 - Whiplash (2014)
   - http://williamdickersonfilmmaker.com/why-whiplash-won-an-oscar-for-best-editing/
