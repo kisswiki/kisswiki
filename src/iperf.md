@@ -1,0 +1,3 @@
+- https://en.wikipedia.org/wiki/Iperf
+- https://github.com/esnet/iperf
+- http://software.es.net/iperf/ https://iperf.fr/
