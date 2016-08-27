@@ -24,4 +24,4 @@
 > The speedtest.net tests work horribly on servers. Geolocation is most always wrong, the server you are testing from often has more bandwidth available than the speed test server (which leads to incorrect reports) and it is very inconsistent.
 > https://www.lowendtalk.com/discussion/85392/building-a-serverbear-alternative
 
-- https://serverscope.io/trials/nAr
+- example result https://serverscope.io/trials/nAr
