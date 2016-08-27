@@ -1,6 +1,9 @@
 https://www.reddit.com/r/rust/comments/4z6fni/landgrabs_on_cratesio/
 
 > I don't have control over the phaylon prefix, piston doesn't have control over the piston namespace, because they are not really namespaces
+
+<br>
+
 > Rubygems.org has existed for 13 years now, without namespaces and with a first-come-first-served policy, and the Rubygems ecosystem is doing just fine.
 
 <br>
