@@ -1,5 +1,6 @@
 > WebAssembly is a low-level, portable bytecode that is designed to be encoded in a compact binary format and executed at near-native speed in a memory-safe sandbox. As an evolution of existing technologies, WebAssembly is tightly integrated with the web platform, as well as faster to download over the network and faster to instantiate than asm.js, a low-level subset of JavaScript.
 > http://v8project.blogspot.sg/2016/03/experimental-support-for-webassembly.html
+> https://www.reddit.com/r/programming/comments/4aif1n/v8_javascript_engine_experimental_support_for/
 
 > Technically WebAssembly is a virtual ISA
 > http://blog.golovin.in/how-to-start-using-webassembly-today/
