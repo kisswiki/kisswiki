@@ -1,1 +1,2 @@
 - https://www.reddit.com/r/rust/comments/46z75s/deploying_a_web_server_written_in_rust/
+- build a statically-linked binary with musl https://blog.rust-lang.org/2016/05/13/rustup.html
