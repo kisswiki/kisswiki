@@ -19,6 +19,7 @@
 > https://www.reddit.com/r/programming/comments/4aif1n/v8_javascript_engine_experimental_support_for/d113qrk
 
 - http://www.2ality.com/2015/06/web-assembly.html
+- https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723
 
 ## Examples
 
