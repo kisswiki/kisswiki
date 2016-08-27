@@ -2,8 +2,6 @@
 
 `apt-get install gcc-mingw-w64-x86-64`
 
-- https://hypermansite.wordpress.com/2015/11/28/3/
-
 Edit ~/.cargo/config where where `$ARCH` is for example
 
 ```
@@ -12,4 +10,5 @@ linker = "/usr/bin/x86_64-w64-mingw32-gcc"
 ar = "/usr/bin/x86_64-w64-mingw32-gcc-ar"
 ```
 
-http://stackoverflow.com/questions/31492799/cross-compile-a-rust-application-from-linux-to-windows
+- https://hypermansite.wordpress.com/2015/11/28/3/
+- http://stackoverflow.com/questions/31492799/cross-compile-a-rust-application-from-linux-to-windows
