@@ -1,0 +1,2 @@
+- http://www.arewewebyet.org/topics/database/
+- https://github.com/diesel-rs/diesel
