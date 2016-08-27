@@ -1,0 +1,1 @@
+- http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git
