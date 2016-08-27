@@ -1,3 +1,5 @@
+## About
+
 >> Why does it need support in a JavaScript engine
 > I think the situation is more like this http://www.2ality.com/2015/06/web-assembly.html#webassembly_does_not_replace_javascript
 > because it's a little much to expects browser to implement 2 vms
@@ -15,5 +17,7 @@
 
 > currently one of the performance bottle-necks with {asm.,}js is parsing the source code. This is specifically what web-assembler is here to address.
 > https://www.reddit.com/r/programming/comments/4aif1n/v8_javascript_engine_experimental_support_for/d113qrk
+
+## Examples
 
 - https://webassembly.github.io/demo/
