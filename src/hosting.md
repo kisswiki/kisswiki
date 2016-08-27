@@ -11,6 +11,7 @@ For comparisions
 - https://serverscope.io/
   - https://www.lowendtalk.com/discussion/85392/building-a-serverbear-alternative
     - Will always be free for users
+    - Closest servers are found using speedtest.net API
   - https://serverscope.io/trials/nAr
 
 > We shut down ServerBear today, thanks for all the support it was fun! 🐻
