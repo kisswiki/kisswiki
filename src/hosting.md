@@ -30,6 +30,8 @@
 
 > Speedtest sux - use iperf instead
 
+> Iperf needs another server. And I think nobody wants to expose one to the volumes of traffic it needs
+
 > https://www.lowendtalk.com/discussion/85392/building-a-serverbear-alternative
 
 
