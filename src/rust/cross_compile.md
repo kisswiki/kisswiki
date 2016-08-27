@@ -1,4 +1,4 @@
-## Ubuntu/Debian to Windows
+## Ubuntu/Debian to Windows x86_64
 
 `apt-get install gcc-mingw-w64-x86-64`
 
