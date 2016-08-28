@@ -1,5 +1,7 @@
 ## pull/fetch images
 
+- https://coreos.com/rkt/docs/latest/subcommands/fetch.html
+
 > I know a number of folks are working on supporting OCI Images in their
 > Docker registries. To make it possible to test we have added support to pull
 > OCI images from a Docker registry to rkt. To test it out run:
