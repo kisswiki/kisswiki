@@ -14,4 +14,4 @@
 - https://www.lowendtalk.com/discussion/30465/cheapest-european-dedicated-server-excluding-ovh
   - £35/month https://zare.com/dedicated-servers
   - €23.99/month https://www.scaleway.com/ Cheap division of Online.Net
-  - https://www.firstheberg.com/serveur-dedie
+  - €9.99/month https://www.firstheberg.com/serveur-dedie
