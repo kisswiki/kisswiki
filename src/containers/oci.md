@@ -19,6 +19,12 @@
 > - Delegatable DNS namespace
 > https://coreos.com/blog/oci-image-specification.html
 
+> Under the new format, containers will have up to four layers:
+> - a base layer that's the actual image format itself
+> - another layer for "integrity and content-addressing" (presumably to address some of CoreOS's concerns about security)
+> - optional layers to support image signing and federated naming based on DNS.
+> http://www.infoworld.com/article/3055992/open-source-tools/docker-and-coreos-no-longer-have-an-image-problem.html
+
 can be run by runC or rkt
 
 > The OCI Image Format project creates and maintains the software shipping container image format spec (OCI Image Format). The goal of this specification is to enable the creation of interoperable tools for building, transporting, and preparing a container image to run.
