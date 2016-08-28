@@ -1,7 +1,7 @@
 - http://www.webhostingtalk.pl/forum/4-serwery-dedykowane-i-vps/
 - €2.232/month http://iwstack.com/price-calculator.php
 - "The Lowest Price for Storage" https://www.backblaze.com/b2/cloud-storage.html
-- https://www.vultr.com/pricing/
+- 5 USD/month https://www.vultr.com/pricing/
 
 ## About
 
