@@ -43,6 +43,7 @@
 > good for testing services like travis
 > travis could also test statically compiled binary
 > but with container you also test with your binary will build in isolated environment
+> but there could be problem with installing dependencies not related to your program
 > https://docs.travis-ci.com/user/docker/
 
 <br>
