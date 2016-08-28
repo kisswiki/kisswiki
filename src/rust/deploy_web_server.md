@@ -51,3 +51,9 @@
 > Environment vars are inherited and follow the process tree, so those are solved by Linux itself.
 > Process trees also handle "nesting": Parent dies, children die. But you will end up in a situation where a child process might spawn a child process that detaches. This is particularly hard to fix when a parent terminates, because the child doesn't want to be killed. Now you have orphaned process trees. The Linux solution is called cgroups, which allows you to associate process trees with groups, which children cannot escape from. So you use cgroups, and write state management code to clean up an app's processes.
 > https://news.ycombinator.com/item?id=12306457
+
+<br>
+
+> It's about the automation of these things.
+You now have generic interfaces (Dockerfile, docker-compose, Kubernetes/Rancher templates, etc.) to define your app and how to tie it together with the infrastructure.
+> https://news.ycombinator.com/item?id=12305164
