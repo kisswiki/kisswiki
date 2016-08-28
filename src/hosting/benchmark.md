@@ -2,6 +2,7 @@
 - http://serverfault.com/questions/156366/how-to-benchmark-hosting-provider
 - http://www.wikibench.eu/
 - https://www.neustar.biz/services/web-performance/load-testing
+- https://haydenjames.io/web-host-doesnt-want-read-benchmark-vps/
 
 ## serverbear.com
 
