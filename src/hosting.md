@@ -43,3 +43,7 @@
 > https://www.lowendtalk.com/discussion/85392/building-a-serverbear-alternative
 
 - example result https://serverscope.io/trials/nAr
+
+## Dedicated server
+
+- https://vstoike.ru/en/
