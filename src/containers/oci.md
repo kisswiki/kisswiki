@@ -4,7 +4,7 @@
 
 > an open, standard container image format
 > The reluctance from OCI can be attributed to the fact that the body was formed recently and they wanted to keep a very narrow focus on their goal.  But major players like VMWare, Google and Red Hat backed rkt by CoreOS, sending out a very a strong message. These heavyweight are also members of OCI, so their support for rkt and appc carried a lot of weight.
-> a software shipping container image format spec (OCI Image Format) with security and naming as components.
+> This project is tasked with creating a software shipping container image format spec (OCI Image Format) with security and naming as components.
 > http://www.cio.com/article/3057579/open-source-tools/open-container-initiative-addresses-docker-coreos-image-problem.html
 
 can be run by runC or rkt
