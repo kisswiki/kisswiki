@@ -4,7 +4,13 @@
 
 > The easiest way to fetch an ACI is through meta discovery. rkt will find and download the ACI and signature from a location that the creator has published on their website.
 > https://coreos.com/rkt/docs/latest/subcommands/fetch.html
+
+<br>
+
+> Image Discovery locates the templates using HTTPS+HTML meta tags retrieved from a discovery URL
 > https://github.com/appc/spec/blob/master/spec/discovery.md
+
+<br>
 
 > I know a number of folks are working on supporting OCI Images in their
 > Docker registries. To make it possible to test we have added support to pull
