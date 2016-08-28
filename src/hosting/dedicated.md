@@ -11,5 +11,6 @@
   - Is there a web interface to power on/off, reboot, reload the OS of the server?
     - No, this is a manual (free) intervention by us on a best-effort basis. You can request this for free, once we go to the datacenter we will do this.
   - 7.5 EUR/month https://fusa.is/en/bestel/product/1361
-- https://zare.com/dedicated-servers
-- €23.99/month https://www.scaleway.com/ Cheap division of Online.Net
+- https://www.lowendtalk.com/discussion/30465/cheapest-european-dedicated-server-excluding-ovh
+  - £35/month https://zare.com/dedicated-servers
+  - €23.99/month https://www.scaleway.com/ Cheap division of Online.Net
