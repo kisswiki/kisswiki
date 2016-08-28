@@ -7,6 +7,9 @@
 > This project is tasked with creating a software shipping container image format spec (OCI Image Format) with security and naming as components.
 > http://www.cio.com/article/3057579/open-source-tools/open-container-initiative-addresses-docker-coreos-image-problem.html
 
+> an industry-backed project under the OCI with a strong technical community of industry maintainers to standardize how container images are built, verified, signed, and named.
+> https://coreos.com/blog/oci-image-specification.html
+
 can be run by runC or rkt
 
 > The OCI Image Format project creates and maintains the software shipping container image format spec (OCI Image Format). The goal of this specification is to enable the creation of interoperable tools for building, transporting, and preparing a container image to run.
