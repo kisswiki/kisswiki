@@ -1,7 +1,5 @@
 - https://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes
 - https://github.com/hermanjunge/kubernetes-digitalocean-terraform
-- https://github.com/hashicorp/terraform
-- https://www.terraform.io/intro/index.html
 
 ## About
 
