@@ -5,6 +5,7 @@
   - Brak VNC przy pełnej wirtualizacji to trochę jak serwer dedykowany bez IPMI...  http://www.webhostingtalk.pl/topic/52633-aruba-cloud/page-9
 - http://www.webhostingtalk.pl/
 - https://www.trustpilot.com/categories/cloud_computing
+- http://serverfault.com/questions/156366/how-to-benchmark-hosting-provider
 
 ## serverbear.com
 
