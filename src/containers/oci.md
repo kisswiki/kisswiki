@@ -1,11 +1,18 @@
+
+can be run by runC or rkt
+
 > We are excited to introduce Docker Engine 1.11, our first release built on runC ™ and containerd ™. With this release, Docker is the first to ship a runtime based on OCI technology
 > With this release, Docker Engine is now built on containerd, so everyone who is using Docker is now using OCI.
 > https://blog.docker.com/2016/04/docker-engine-1-11-runc/
+
+<br>
 
 > an open, standard container image format
 > The reluctance from OCI can be attributed to the fact that the body was formed recently and they wanted to keep a very narrow focus on their goal.  But major players like VMWare, Google and Red Hat backed rkt by CoreOS, sending out a very a strong message. These heavyweight are also members of OCI, so their support for rkt and appc carried a lot of weight.
 > This project is tasked with creating a software shipping container image format spec (OCI Image Format) with security and naming as components.
 > http://www.cio.com/article/3057579/open-source-tools/open-container-initiative-addresses-docker-coreos-image-problem.html
+
+<br>
 
 > an industry-backed project under the OCI with a strong technical community of industry maintainers to standardize how container images are built, verified, signed, and named.
 > package once, run anywhere
@@ -19,6 +26,8 @@
 > - Delegatable DNS namespace
 > https://coreos.com/blog/oci-image-specification.html
 
+<br>
+
 > Under the new format, containers will have up to four layers:
 > - a base layer that's the actual image format itself
 > - another layer for "integrity and content-addressing" (presumably to address some of CoreOS's concerns about security)
@@ -26,7 +35,7 @@
 > decouple the image format from the runtime
 > http://www.infoworld.com/article/3055992/open-source-tools/docker-and-coreos-no-longer-have-an-image-problem.html
 
-can be run by runC or rkt
+<br>
 
 > The OCI Image Format project creates and maintains the software shipping container image format spec (OCI Image Format). The goal of this specification is to enable the creation of interoperable tools for building, transporting, and preparing a container image to run.
 > This specification defines how to create an OCI Image, which will generally be done by a build system, and output an image manifest, a filesystem serialization, and an image configuration. At a high level the image manifest contains metadata about the contents and dependencies of the image including the content-addressable identity of one or more filesystem serialization archives that will be unpacked to make up the final runnable filesystem. The image configuration includes information such as application arguments, environments, etc. The combination of the image manifest, image configuration, and one or more filesystem serializations is called the "OCI Image".
