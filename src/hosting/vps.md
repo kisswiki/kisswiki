@@ -5,3 +5,8 @@
 
 > If you don't have a managed VPS, you have to manage it yourself - applying operating system patches.
 > http://webmasters.stackexchange.com/questions/20838/how-to-find-web-hosting-that-meets-my-requirements
+
+<br>
+
+> Jeśli nie wystarczają ci ograniczenia hostingu przejdź na vps z wydzielonymi zasobami
+> http://www.wykop.pl/link/3310903/dlaczego-nie-przedluze-uslug-w-cal-pl/#comment-38649165
