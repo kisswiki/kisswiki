@@ -53,3 +53,10 @@ can be run by runC or rkt
 > Q: What happens to AppC or Docker Image Formats?
 > A: Existing formats can continue to be a proving ground for technologies, as needed. The OCI Image Format project strives to provide a dependable open specification that can be shared between different tools and be evolved for years or decades of compatibility; as the deb and rpm format have.
 > https://github.com/opencontainers/image-spec
+
+<br>
+
+> The organization has launched a project to establish a container image format specification.
+> As a follow-up to the container runtime standard OCI is working on
+> “I like web browser analogies. It’s like Firefox and Chrome,” he said. “Those are like Docker and rkt; it’s like both of them sharing HTML5. It’s the thing developers develop against, and the web should just work the same in the browser.
+> http://thenewstack.io/open-container-initiative-launches-container-image-format-spec/
