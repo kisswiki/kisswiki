@@ -47,3 +47,10 @@
 
 > Docker.com hosts its own index to a central registry which contains a large number of repositories. Having said that, the central docker registry does not do a good job of verifying images and should be avoided if you're worried about security.
 > https://github.com/wsargent/docker-cheat-sheet#registry--repository
+
+## Build from github
+
+> Git URLs accept context configuration in their fragment section, separated by a colon :. The first part represents the reference that Git will check out, this can be either a branch, a tag, or a commit SHA. The second part represents a subdirectory inside the repository that will be used as a build context.
+> https://docs.docker.com/engine/reference/commandline/build/
+
+`docker build https://github.com/docker/rootfs.git#container:docker`
