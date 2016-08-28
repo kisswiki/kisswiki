@@ -61,3 +61,8 @@ can be run by runC or rkt
 > “I like web browser analogies. It’s like Firefox and Chrome,” he said. “Those are like Docker and rkt; it’s like both of them sharing HTML5. It’s the thing developers develop against, and the web should just work the same in the browser.
 > The project’s goal is to allow developers to package and sign application containers, then run them in a variety of container engines using the build tools and execution scheme that best meets their needs.
 > http://thenewstack.io/open-container-initiative-launches-container-image-format-spec/
+
+<br>
+
+> "Creating and maintaining formal specifications ("OCI Specifications") for container image formats and runtime, which will allow a compliant container to be portable across all major, compliant operating systems and platforms without artificial technical barriers." – OCI Charter
+> https://www.opencontainers.org/charter/
