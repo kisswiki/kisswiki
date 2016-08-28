@@ -1,5 +1,6 @@
 - https://github.com/wsargent/docker-cheat-sheet
 - https://github.com/docker/docker/wiki/Public-docker-images
+- http://stackoverflow.com/questions/26710153/remote-access-to-a-private-docker-registry
 
 ## About
 
