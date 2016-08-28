@@ -4,7 +4,6 @@
 - http://dropped.pl (http://afermarket.pl)
 - https://premium.pl/
 - http://MapaDomen.pl
-- http://exDomeny.pl
 
 > Dropped.pl posiada 6 lub 7 umów partnerskich dzięki czemu łapie więcej i szybciej niż inni. Pozostali gracze rynkowi zbierają niestety odpady. Wynika to z tego, że, im więcej umów partnerskich tym większe limity odpytań serwerów NASK.
 > Przy okazji, gdy domena jest zwolniona po okresie wygasania, to przechwytywana jest w ułamku milisekundy
