@@ -8,17 +8,17 @@
 - http://webmasters.stackexchange.com/questions/86833/what-is-difference-between-vps-and-dedicated-servers
 - http://webmasters.stackexchange.com/questions/20838/how-to-find-web-hosting-that-meets-my-requirements
 - http://webmasters.stackexchange.com/questions/tagged/dedicated-hosting?sort=votes&pageSize=15
-- 10 EURO/month https://lowendbox.com/blog/fusa-dedicated-4gb-ram-dual-core-amd-1-6ghz-60gb-ssd-100mbit-in-belgium/
+- 10 EUR/month https://lowendbox.com/blog/fusa-dedicated-4gb-ram-dual-core-amd-1-6ghz-60gb-ssd-100mbit-in-belgium/
   - Is there a web interface to power on/off, reboot, reload the OS of the server?
     - No, this is a manual (free) intervention by us on a best-effort basis. You can request this for free, once we go to the datacenter we will do this.
   - 7.5 EUR/month https://fusa.is/en/bestel/product/1361
 - https://www.lowendtalk.com/discussion/30465/cheapest-european-dedicated-server-excluding-ovh
-  - £35/month https://zare.com/dedicated-servers
-  - €23.99/month https://www.scaleway.com/ Cheap division of Online.Net
-  - €9.99/month https://www.firstheberg.com/serveur-dedie
-  - €7/month http://oneprovider.com/dedicated-servers/paris-france
-  - €12.99/month https://servdiscount.com/en.html
-  - €8.99/month https://www.online.net/en/dedicated-server
-  - €14/month http://www.finalhosting.cz/
-  - €19.99/month https://express.ikoula.com/en/dedicated-server#promo
+  - 35 GBP/month https://zare.com/dedicated-servers
+  - 23.99 EUR/month https://www.scaleway.com/ Cheap division of Online.Net
+  - 9.99 EUR/month https://www.firstheberg.com/serveur-dedie
+  - 7 EUR/month http://oneprovider.com/dedicated-servers/paris-france
+  - 12.99 EUR/month https://servdiscount.com/en.html
+  - 8.99 EUR/month https://www.online.net/en/dedicated-server
+  - 14 EUR/month http://www.finalhosting.cz/
+  - 19.99 EUR/month https://express.ikoula.com/en/dedicated-server#promo
   - dedicated cpu https://www.time4vps.eu/
