@@ -53,3 +53,4 @@
 - https://vstoike.ru/en/
 - https://www.online.net/en/dedicated-server#perso
 - https://homecloud.pl/uslugi/serwery-dedykowane/
+- http://webmasters.stackexchange.com/questions/86833/what-is-difference-between-vps-and-dedicated-servers
