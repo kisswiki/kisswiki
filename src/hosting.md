@@ -47,3 +47,4 @@
 ## Dedicated server
 
 - https://vstoike.ru/en/
+- https://www.online.net/en/dedicated-server#perso
