@@ -64,3 +64,9 @@
 > It's about the automation of these things.
 You now have generic interfaces (Dockerfile, docker-compose, Kubernetes/Rancher templates, etc.) to define your app and how to tie it together with the infrastructure.
 > https://news.ycombinator.com/item?id=12305164
+
+<br>
+
+> In my humble case, Docker solves the problems I have to manage the systems on which my application runs (and that's mainly it). A single dockerfile of 20-30 lines describes a whole system (operating system, versions, packages, libraries, etc), and cherry on the cake, I can version it in my git repository.
+> This is not revolutionary in itself, but having the creation and deployment of a server being 100% replicable (+ fast and easy!) on dev, preproduction, and production environments, plus it's managed with my usual versionning tool, that is something I appreciate very much.
+> https://news.ycombinator.com/item?id=12305967
