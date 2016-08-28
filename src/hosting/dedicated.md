@@ -17,3 +17,4 @@
   - €9.99/month https://www.firstheberg.com/serveur-dedie
   - €7/month http://oneprovider.com/dedicated-servers/paris-france
   - €12.99/month https://servdiscount.com/en.html
+  - €8.99/month https://www.online.net/en/dedicated-server
