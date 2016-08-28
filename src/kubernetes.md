@@ -1,4 +1,5 @@
 - https://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes
+- https://github.com/hermanjunge/kubernetes-digitalocean-terraform
 
 ## About
 
