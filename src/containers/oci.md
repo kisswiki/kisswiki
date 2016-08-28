@@ -23,6 +23,7 @@
 > - a base layer that's the actual image format itself
 > - another layer for "integrity and content-addressing" (presumably to address some of CoreOS's concerns about security)
 > - optional layers to support image signing and federated naming based on DNS.
+> decouple the image format from the runtime
 > http://www.infoworld.com/article/3055992/open-source-tools/docker-and-coreos-no-longer-have-an-image-problem.html
 
 can be run by runC or rkt
