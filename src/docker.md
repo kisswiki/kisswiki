@@ -16,6 +16,9 @@
 > Containers are basically glorified user groups
 > https://bobcares.com/blog/rkt-rocket-container-technology-use/
 
+> Docker introduced containerd, a daemon to control runC, as part of their effort to break out Docker into small reusable components.
+> https://jaxenter.com/docker-1-11-ties-its-fate-to-open-container-initiative-125603.html
+
 - Official Repositories on Docker Hub https://docs.docker.com/docker-hub/official_repos/
 
 ## Windows
