@@ -10,6 +10,7 @@
 > an industry-backed project under the OCI with a strong technical community of industry maintainers to standardize how container images are built, verified, signed, and named.
 > package once, run anywhere
 > users can expect increased innovation and interoperability between container registries, build tools, and runtimes
+> an open specification for a container image, the build artifact that contains everything needed to run a piece of software.
 > https://coreos.com/blog/oci-image-specification.html
 
 can be run by runC or rkt
