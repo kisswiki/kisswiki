@@ -24,6 +24,7 @@
 <br>
 
 > One benefit: one could install latest version of Rust on any distribution. Debian stable for instance usually lags behind (with good reason, but still...)
+> The installer from https://www.rust-lang.org works fine on Debian stable. Right now, you can just use the upstream rustup.sh script for platforms that don't yet have it packaged (like Debian stable), or install from your distro for those that do (or use rustup.sh on those as well if you like).
 
 <br>
 
