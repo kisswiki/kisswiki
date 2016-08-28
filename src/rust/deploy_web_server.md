@@ -2,6 +2,7 @@
 - Deploying a Rust application https://www.clever-cloud.com/doc/docker/docker/
 - https://www.distelli.com/docs/tutorials/build-and-deploy-rust-application
 - http://www.arewewebyet.org/topics/deploy/
+- https://github.com/fnichol/docker-rust
 - https://github.com/Scorpil/docker-rust
 
 ## Use docker or install compiler on production machine?
