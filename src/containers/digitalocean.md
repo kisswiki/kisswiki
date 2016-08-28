@@ -29,6 +29,12 @@
 - or doctl, the official DigitalOcean command-line client https://www.digitalocean.com/community/tutorials/how-to-use-doctl-the-official-digitalocean-command-line-client
 > https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/
 
+<br>
+
+> you can not currently attach a volume to multiple Droplets at the same time. Setting up a GlusterFS storage pool would be a one way to achieve something similar right now.
+> https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/#comment-2780986082
+> https://www.digitalocean.com/community/tutorials/how-to-create-a-redundant-storage-pool-using-glusterfs-on-ubuntu-servers
+
 ## Bandwidth
 
 > The transfer limits are for external traffic, so you should be alright when moving data internally between your block and your servers.
