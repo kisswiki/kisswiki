@@ -1,6 +1,18 @@
 
 can be run by runC or rkt
 
+> December 8, 2015
+> This means, for example, a user can build a container using docker build, and then run it in rkt, Amazon EC2 Container Service (ECS), Kubernetes, or Mesos, all without needing to repackage.
+> OCI and appc Intersections
+> - Container Image - no
+> - Image distribution (and discovery?) - no
+> - Runtime - yes
+> - On-disk Image Format - yes
+> Image distribution and discovery is another area of container standards we believe is very important. By creating a vendor-neutral, federated protocol for how containers are namespaced, discovered, and downloaded, we can provide a simple federated view for end-users while eliminating vendor lock-in and encouraging a variety of implementations. We think tools like git do a great job of this. GitHub is a very popular centralized repository, which makes it highly convenient for users to share projects, but the git protocol itself does not favor GitHub in any way. This model opens the playing field for competition, benefiting the user.
+> https://coreos.com/blog/making-sense-of-standards/
+
+<br>
+
 > We are excited to introduce Docker Engine 1.11, our first release built on runC ™ and containerd ™. With this release, Docker is the first to ship a runtime based on OCI technology
 > With this release, Docker Engine is now built on containerd, so everyone who is using Docker is now using OCI.
 > https://blog.docker.com/2016/04/docker-engine-1-11-runc/
@@ -66,14 +78,3 @@ can be run by runC or rkt
 
 > "Creating and maintaining formal specifications ("OCI Specifications") for container image formats and runtime, which will allow a compliant container to be portable across all major, compliant operating systems and platforms without artificial technical barriers." – OCI Charter
 > https://www.opencontainers.org/charter/
-
-<br>
-
-> This means, for example, a user can build a container using docker build, and then run it in rkt, Amazon EC2 Container Service (ECS), Kubernetes, or Mesos, all without needing to repackage.
-> OCI and appc Intersections
-> - Container Image - no
-> - Image distribution (and discovery?) - no
-> - Runtime - yes
-> - On-disk Image Format - yes
-> Image distribution and discovery is another area of container standards we believe is very important. By creating a vendor-neutral, federated protocol for how containers are namespaced, discovered, and downloaded, we can provide a simple federated view for end-users while eliminating vendor lock-in and encouraging a variety of implementations. We think tools like git do a great job of this. GitHub is a very popular centralized repository, which makes it highly convenient for users to share projects, but the git protocol itself does not favor GitHub in any way. This model opens the playing field for competition, benefiting the user.
-> https://coreos.com/blog/making-sense-of-standards/
