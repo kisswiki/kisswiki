@@ -4,6 +4,9 @@
 > It's all about simplifying deployment. That's it, that's what's so good about using containers.
 > https://news.ycombinator.com/item?id=12304165
 
+> Docker containers don't contain a kernel. A container isn't anything special -- it's "just" a namespaced set of processes that are isolated from the host system. If you run "ps" on the host, you will see all the containers' processes.
+> https://news.ycombinator.com/item?id=12306210
+
 - Official Repositories on Docker Hub https://docs.docker.com/docker-hub/official_repos/
 
 ## Windows
