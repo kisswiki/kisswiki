@@ -1,0 +1,1 @@
+- http://www.webhostingtalk.pl/topic/42242-calpl-problem-z-uzyskaniem-kodw-authinfo/
