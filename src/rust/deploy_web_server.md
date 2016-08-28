@@ -2,6 +2,8 @@
 - Deploying a Rust application https://www.clever-cloud.com/doc/docker/docker/
 - https://www.distelli.com/docs/tutorials/build-and-deploy-rust-application
 
+## Use docker or install compiler on production machine?
+
 > it's not a very good process to use resources of the production system to build your project
 > https://www.reddit.com/r/rust/comments/46z75s/deploying_a_web_server_written_in_rust/
 
@@ -32,3 +34,8 @@
 > rustup.sh has an --uninstall flag that should remove everything cleanly
 > Should. It wouldn't be the first script to have a bug.
 > https://news.ycombinator.com/item?id=10720239
+
+<br>
+
+> good for testing services
+> https://docs.travis-ci.com/user/docker/
