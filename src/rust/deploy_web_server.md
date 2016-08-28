@@ -73,5 +73,6 @@ You now have generic interfaces (Dockerfile, docker-compose, Kubernetes/Rancher 
 
 <br>
 
+>> having the creation and deployment of a server being 100% replicable
 > The problem of ensuring that upstream dependencies can be reproducibly installed and/or built is, of course, left as an exercise for the reader.
 > https://news.ycombinator.com/item?id=12309162
