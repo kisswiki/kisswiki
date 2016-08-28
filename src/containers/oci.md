@@ -72,7 +72,7 @@ can be run by runC or rkt
 > This means, for example, a user can build a container using docker build, and then run it in rkt, Amazon EC2 Container Service (ECS), Kubernetes, or Mesos, all without needing to repackage.
 > OCI and appc Intersections
 > - Container Image - no
-> - Image distribution (and discovery) - no
+> - Image distribution (and discovery?) - no
 > - Runtime - yes
 > - On-disk Image Format - yes
 > Image distribution and discovery is another area of container standards we believe is very important. By creating a vendor-neutral, federated protocol for how containers are namespaced, discovered, and downloaded, we can provide a simple federated view for end-users while eliminating vendor lock-in and encouraging a variety of implementations. We think tools like git do a great job of this. GitHub is a very popular centralized repository, which makes it highly convenient for users to share projects, but the git protocol itself does not favor GitHub in any way. This model opens the playing field for competition, benefiting the user.
