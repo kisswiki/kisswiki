@@ -51,6 +51,8 @@
 ## Build from github
 
 > Git URLs accept context configuration in their fragment section, separated by a colon :. The first part represents the reference that Git will check out, this can be either a branch, a tag, or a commit SHA. The second part represents a subdirectory inside the repository that will be used as a build context.
-> https://docs.docker.com/engine/reference/commandline/build/
 
 `docker build https://github.com/docker/rootfs.git#container:docker`
+
+- https://docs.docker.com/engine/reference/commandline/build/
+- http://stackoverflow.com/questions/26753030/how-to-build-docker-image-from-github-repository
