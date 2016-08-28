@@ -76,3 +76,8 @@ You now have generic interfaces (Dockerfile, docker-compose, Kubernetes/Rancher 
 >> having the creation and deployment of a server being 100% replicable
 > The problem of ensuring that upstream dependencies can be reproducibly installed and/or built is, of course, left as an exercise for the reader.
 > https://news.ycombinator.com/item?id=12309162
+
+<br>
+>> Isolation is a strong argument. You don't want one process to starve another. You can get isolation via one-host-per-service or you can get it using cgroups. Docker sort of gives you both, without the waste of one-per-host and with a manageable set of tooling around cgroups.
+> systemd runs services in their own cgroup by default and gives you control over the resources alloted to those cgroups.
+> https://news.ycombinator.com/item?id=12305790
