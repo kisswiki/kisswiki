@@ -15,3 +15,6 @@
 > - A volume may only be attached to one Droplet at a time. However, up to five volumes can be attached to a single Droplet.
 > Block Storage is a good solution in scenarios where you need more storage space, but do not require the additional processing power or memory that a larger Droplet would provide. Block Storage volumes can be created, destroyed, or expanded easily as your needs change, simplifying initial planning around your storage requirements.
 > https://www.digitalocean.com/community/tutorials/how-to-use-block-storage-on-digitalocean
+
+> To date, the top feature request from our community has been to have the ability to add additional disk space to their Droplets.
+> https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/
