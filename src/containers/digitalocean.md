@@ -32,6 +32,7 @@
 <br>
 
 > you can not currently attach a volume to multiple Droplets at the same time. Setting up a GlusterFS storage pool would be a one way to achieve something similar right now.
+> you can certainly use NFS or other tools that you can layer on top of your volume that will allow you to export and mount it on multiple droplets at the same time.
 > https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/#comment-2780986082
 > https://www.digitalocean.com/community/tutorials/how-to-create-a-redundant-storage-pool-using-glusterfs-on-ubuntu-servers
 
