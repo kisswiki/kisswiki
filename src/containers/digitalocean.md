@@ -63,6 +63,11 @@
 > In order to use Block Storage you do need to mount it to a Droplet. If you're looking for an object storage solution, please vote for this suggestion over on our UserVoice page.
 > https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/#comment-2784123158
 
+<br>
+
+> We believe in giving the best price to all customers. So we actually give you the best price right from the start. Otherwise the customer who would be using 10 gigs would be paying more than the one using 200 gigs or 1 TB. So we instead look at what would the largest tier of usage price be and give that price to everyone so that everyone benefits from it.
+> https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/#comment-2781183867
+
 ## Bandwidth
 
 > The transfer limits are for external traffic, so you should be alright when moving data internally between your block and your servers.
