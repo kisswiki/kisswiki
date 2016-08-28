@@ -57,6 +57,12 @@
 > now that we have block storage out the there we can begin to review our pricing on our plans as customers will be able to augment their storage needs with block storage
 > https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/#comment-2798737633
 
+<br>
+
+> can it be use as cdn like s3, access it directly without droplet?
+> In order to use Block Storage you do need to mount it to a Droplet. If you're looking for an object storage solution, please vote for this suggestion over on our UserVoice page.
+> https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/#comment-2784123158
+
 ## Bandwidth
 
 > The transfer limits are for external traffic, so you should be alright when moving data internally between your block and your servers.
