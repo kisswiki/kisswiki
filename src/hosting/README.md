@@ -6,3 +6,4 @@
 - http://www.webhostingtalk.pl/
 - https://www.trustpilot.com/categories/cloud_computing
 - http://www.wykop.pl/tag/hosting/
+- for startups https://www.ovh.ie/dlp/
