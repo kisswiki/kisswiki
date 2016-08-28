@@ -42,6 +42,7 @@
 ## Windows
 
 - https://docs.docker.com/docker-for-windows/
+- http://stackoverflow.com/questions/33532138/docker-pull-push-not-working-with-insecure-registry
 
 ## Registry
 
