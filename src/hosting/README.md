@@ -8,3 +8,4 @@
 - http://www.wykop.pl/tag/hosting/
 - for startups 6 months https://www.ovh.ie/dlp/
 - http://lowendstock.com/
+- http://iwstack.com/price-calculator.php
