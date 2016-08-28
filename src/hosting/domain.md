@@ -1,6 +1,10 @@
 - http://www.webhostingtalk.pl/topic/42242-calpl-problem-z-uzyskaniem-kodw-authinfo/
 - Lowest cost https://www.cosmotown.com
 - http://www.wykop.pl/link/1167087/serwis-aftermarket-pl-dropped-pl-sprzedaje-domeny-swoich-uzytkownikow/
+- http://zlapane.pl (http://ppd.pl)
+- http://MapaDomen.pl
+- http://ParkDomen.pl
+- http://exDomeny.pl
 
 > Dropped.pl posiada 6 lub 7 umów partnerskich dzięki czemu łapie więcej i szybciej niż inni. Pozostali gracze rynkowi zbierają niestety odpady. Wynika to z tego, że, im więcej umów partnerskich tym większe limity odpytań serwerów NASK.
 > Przy okazji, gdy domena jest zwolniona po okresie wygasania, to przechwytywana jest w ułamku milisekundy
