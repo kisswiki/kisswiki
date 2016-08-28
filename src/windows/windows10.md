@@ -1,6 +1,3 @@
-
-# Windows 10
-
 ## How to stop middle mouse button from bringing up cortana
 
 I just went to the buttons section on dell touchpad driver and changed the "both buttons" option to something other than " middle button click " , saved the changes , then change it back to " middle button click " ...hoorraaay that bitch is gone
@@ -29,3 +26,7 @@ dir e:|find "bytes free"
 `Settings > Personalization > Start > Show recently opened items in Jump Lists on Start or the taskbar`
 
 http://www.howtogeek.com/236711/how-to-turn-off-recent-items-and-frequent-places-in-windows-10/
+
+## Restart in recovery mode
+
+`Shift-click` on `Power > Restart`
