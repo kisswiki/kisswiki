@@ -9,6 +9,7 @@
 
 
 > DigitalOcean Block Storage is a flexible, convenient way of managing additional storage for your DigitalOcean Droplets. Block Storage is provisioned in units known as volumes. Volumes function as block devices, meaning they appear to the operating system as locally attached storage drives which can be partitioned and formatted according to your needs.
+> Region Support: Currently, volumes are available in NYC1 and SFO2.
 > Additional details:
 > - Volumes are region-specific resources. Volumes can be moved freely between Droplets within that region.
 > - A volume may only be attached to one Droplet at a time. However, up to five volumes can be attached to a single Droplet.
