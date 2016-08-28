@@ -15,3 +15,4 @@
   - £35/month https://zare.com/dedicated-servers
   - €23.99/month https://www.scaleway.com/ Cheap division of Online.Net
   - €9.99/month https://www.firstheberg.com/serveur-dedie
+  - http://oneprovider.com/dedicated-servers/paris-france
