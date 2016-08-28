@@ -1,2 +1,3 @@
 - https://github.com/hashicorp/terraform
 - https://www.terraform.io/intro/index.html
+- https://github.com/hermanjunge/kubernetes-digitalocean-terraform
