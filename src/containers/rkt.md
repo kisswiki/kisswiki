@@ -21,3 +21,9 @@
 > OCI images from a Docker registry to rkt. To test it out run:
 > rkt fetch docker://my-oci-registry.example.com:v1.0.0
 > https://groups.google.com/a/opencontainers.org/forum/#!topic/dev/KwhsI87ezaA
+
+<br>
+
+> rkt uses HTTPS protocol to download images and uses a meta description on the web server to point to the location. So, that’s one less server to maintain, and easier for partners to access.
+> HTTPS is just one way to distribute ACI files. Using rkt torrent pull command, images can be downloaded over torrents.
+> https://bobcares.com/blog/docker-vs-rkt-rocket/2/
