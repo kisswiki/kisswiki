@@ -41,5 +41,6 @@
 <br>
 
 > good for testing services like travis
-> but travis could also test statically compiled binary
+> travis could also test statically compiled binary
+> but with container you also test with your binary will build in isolated environment
 > https://docs.travis-ci.com/user/docker/
