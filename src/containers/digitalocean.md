@@ -2,6 +2,9 @@
 
 > Volumes are units of highly available block storage that you can attach to your Droplet - use them to store assets, backups, databases, and more. Volumes can be moved between Droplets and you can increase their size as needed.
 
+> - Highly available: Your data is stored on hardware separated from your Droplet and it's replicated multiple times across different racks, reducing the chances of data loss in case of hardware failure.
+> - Live resize: Easily scale Block Storage volumes from 1GB up to 16TB, resize them if you need more space, and move them between Droplets.
+> - Reliable and secure: All your data is encrypted at rest and transmitted to the Droplets over isolated networks.
 - https://www.digitalocean.com/products/storage/
 
 
