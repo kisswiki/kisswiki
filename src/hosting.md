@@ -62,4 +62,4 @@
 - 10 EURO/month https://lowendbox.com/blog/fusa-dedicated-4gb-ram-dual-core-amd-1-6ghz-60gb-ssd-100mbit-in-belgium/
   - Is there a web interface to power on/off, reboot, reload the OS of the server?
     - No, this is a manual (free) intervention by us on a best-effort basis. You can request this for free, once we go to the datacenter we will do this.
-- 7.5 EUR/month https://fusa.is/en/bestel/product/1361
+  - 7.5 EUR/month https://fusa.is/en/bestel/product/1361
