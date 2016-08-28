@@ -4,6 +4,12 @@
 
 <br>
 
+> tools like kubernetes, which are really useful if you're deploying a number of heterogeneous apps
+> Something like kubernetes also lets you abstract away the lock-in of your cloud infrastructure
+> https://news.ycombinator.com/item?id=12307950
+
+<br>
+
 > One benefit: one could install latest version of Rust on any distribution. Debian stable for instance usually lags behind (with good reason, but still...)
 > The installer from https://www.rust-lang.org works fine on Debian stable. Right now, you can just use the upstream rustup.sh script for platforms that don't yet have it packaged (like Debian stable), or install from your distro for those that do (or use rustup.sh on those as well if you like).
 
