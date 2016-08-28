@@ -51,6 +51,12 @@
 > When we begin billing for snapshots on October 1st, you will only be billed for the amount of space used. This is based on the size of the compressed image file, not the total disk space allocated to the Droplet. Before that time, we'll be sending out updates showing exactly what each user's bill would be so you can make adjustments to your snapshot usage based on real info.
 > https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/#comment-2841549346
 
+<br>
+
+> your competitors are doubling resources (ram/disk space). Don't you think you should follow? It has been 3 years since last time you have done that.
+> now that we have block storage out the there we can begin to review our pricing on our plans as customers will be able to augment their storage needs with block storage
+> https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/#comment-2798737633
+
 ## Bandwidth
 
 > The transfer limits are for external traffic, so you should be alright when moving data internally between your block and your servers.
