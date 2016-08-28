@@ -19,4 +19,7 @@
 > To date, the top feature request from our community has been to have the ability to add additional disk space to their Droplets.
 > We’re working quickly to expand to other regions.
 > As of Monday, August 1st Block Storage is now live in FRA1.
+> Like all DigitalOcean resources, you can also automate provisioning using
+- our brand new volumes API https://developers.digitalocean.com/documentation/v2/#block-storage
+- or doctl, the official DigitalOcean command-line client https://www.digitalocean.com/community/tutorials/how-to-use-doctl-the-official-digitalocean-command-line-client
 > https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/
