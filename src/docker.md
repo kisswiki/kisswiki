@@ -13,6 +13,9 @@
 > On March 13, 2014, with the release of version 0.9, Docker dropped LXC as the default execution environment and replaced it with its own libcontainer library written in the Go programming language.
 > https://en.wikipedia.org/wiki/Docker_(software)
 
+> Containers are basically glorified user groups
+> https://bobcares.com/blog/rkt-rocket-container-technology-use/
+
 - Official Repositories on Docker Hub https://docs.docker.com/docker-hub/official_repos/
 
 ## Windows
