@@ -44,3 +44,10 @@
 > travis could also test statically compiled binary
 > but with container you also test with your binary will build in isolated environment
 > https://docs.travis-ci.com/user/docker/
+
+<br>
+
+> For example, volumes: With Kubernetes (on Docker), the lifetime of the volume mount is handled for you. No other containers have access to the mount. Container dies, mount dies. Whereas on plain Linux, mounts stay. You need cleanup, or you need to statically bind apps to their machines, which will seriously limit your ability to launch new machines -- there will be a lot of state associated with the bootstrapping of each node. Statefulness is the enemy of deployment, so really what you want is some networked block storage (EBS on AWS, for example) plus an automatic mount/unmount controller, thereby decoupling the app from the machine and allowing the app to run anywhere.
+> Environment vars are inherited and follow the process tree, so those are solved by Linux itself.
+> Process trees also handle "nesting": Parent dies, children die. But you will end up in a situation where a child process might spawn a child process that detaches. This is particularly hard to fix when a parent terminates, because the child doesn't want to be killed. Now you have orphaned process trees. The Linux solution is called cgroups, which allows you to associate process trees with groups, which children cannot escape from. So you use cgroups, and write state management code to clean up an app's processes.
+> https://news.ycombinator.com/item?id=12306457
