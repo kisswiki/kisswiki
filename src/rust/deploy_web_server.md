@@ -40,5 +40,6 @@
 
 <br>
 
-> good for testing services
+> good for testing services like travis
+> but travis could also test statically compiled binary
 > https://docs.travis-ci.com/user/docker/
