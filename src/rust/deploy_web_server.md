@@ -20,3 +20,14 @@
 > What benefit would Docker images have over the existing upstream distribution or distro packaging? The Rust compiler doesn't have any particularly complicated dependencies, either installing the binaries directly from rust-lang.org or installing packages from your distro (if your distro has packages yet) should work fine.
 > Container images are great for daemons with possibly complicated dependency sets that might have conflicting version requirements with other packages and can benefit from isolation from other packages that containerization gives, but seem like a pretty heavyweight solution for just installing a compiler.
 > https://news.ycombinator.com/item?id=10711255
+
+<br>
+
+> One benefit: one could install latest version of Rust on any distribution. Debian stable for instance usually lags behind (with good reason, but still...)
+
+<br>
+
+> If I don't like having Rust around, with containers I can just remove it
+> rustup.sh has an --uninstall flag that should remove everything cleanly
+> Should. It wouldn't be the first script to have a bug.
+> https://news.ycombinator.com/item?id=10720239
