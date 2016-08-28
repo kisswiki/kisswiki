@@ -1,4 +1,5 @@
 - https://lowendbox.com/tag/dedicated/
+- https://www.lowendtalk.com/discussions/tagged/dedicated
 - http://www.webhostingtalk.pl/forum/4-serwery-dedykowane-i-vps/
 - http://www.wykop.pl/tag/dedyk/
 - https://vstoike.ru/en/
