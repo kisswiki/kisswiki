@@ -1,6 +1,7 @@
 - https://lowendbox.com/
 - https://www.arubacloud.pl/
   - http://kb.arubacloud.pl/pl/computing/dostep-do-serwerow-cloud/polaczenie-do-serwera-cloud-poprzez-ssh.aspx
+  - Brak VNC przy pełnej wirtualizacji to trochę jak serwer dedykowany bez IPMI...  http://www.webhostingtalk.pl/topic/52633-aruba-cloud/page-9
 
 ## serverbear.com
 
