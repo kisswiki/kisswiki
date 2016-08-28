@@ -11,6 +11,7 @@
 ## Benchmarks
 
 - http://serverfault.com/questions/156366/how-to-benchmark-hosting-provider
+- http://www.wikibench.eu/
 
 ### serverbear.com
 
