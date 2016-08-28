@@ -98,3 +98,12 @@ You now have generic interfaces (Dockerfile, docker-compose, Kubernetes/Rancher 
 
 > I get the goodies of containerization such as process isolation, resource-quotas, etc.
 > https://news.ycombinator.com/item?id=12305031
+
+<br>
+
+> Docker containers don't contain a kernel. A container isn't anything special -- it's "just" a namespaced set of processes that are isolated from the host system. If you run "ps" on the host, you will see all the containers' processes.
+> One process per container is perfectly fine. In fact, that's the common use case. There is absolutely nothing wrong with it, and there is practically zero overhead in doing it.
+> What you gain is isolation. I can bring up a container and know that when it dies, it leaves no cruft behind. I can start a temporary Ubuntu container, install stuff in it, compile code in it, export the compilation outputs, terminate the container and know that everything is gone. We do this with Drone, a CI/build system that launches temporary containers to build code. This way, we avoid putting compilers in the final container images; only the compiled program ends up there.
+> Similarly, Drone allows us to start temporary "sidecar" containers while running tests. For example, if the app's test suite needs PostgreSQL and Memcached and Elasticsearch, our Drone config starts those three for the duration of the test run. When the test completes, they're gone.
+> This encapsulation concept changes how you think about deployment and about hardware. Apps become redundant, expendable, ephemeral things. Hardware, now, is just a substrate that an app lives on, temporarily. We shuffle things around, and apps are scheduled on the hardware that has enough space. No need to name your boxes (they're all interchangeable and differ only in specs and location), and there's no longer any fixed relationship between app and machine, or even between app and routing. For example, I can start another copy of my app from an experimental branch, that runs concurrently with the current version. All the visitors are routed to the current version, and I can privately test my experimental version without impacting the production setup. I can even route some of the public traffic to the new version, to see that it holds up. When I am ready to put my new version into production, I deploy it properly, and the system will start routing traffic to it.
+> Yes, it very much is the future.
