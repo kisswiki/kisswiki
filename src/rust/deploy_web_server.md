@@ -93,3 +93,8 @@ You now have generic interfaces (Dockerfile, docker-compose, Kubernetes/Rancher 
 > Each container has it's own IP stack.
 > Containers provide proper abstractions so you can then assemble all of this, pretty much like you use pipes on a unix shell.
 > https://news.ycombinator.com/item?id=12305540
+
+<br>
+
+> I get the goodies of containerization such as process isolation, resource-quotas, etc.
+> https://news.ycombinator.com/item?id=12305031
