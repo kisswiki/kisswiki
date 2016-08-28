@@ -27,3 +27,10 @@
 > rkt uses HTTPS protocol to download images and uses a meta description on the web server to point to the location. So, that’s one less server to maintain, and easier for partners to access.
 > HTTPS is just one way to distribute ACI files. Using rkt torrent pull command, images can be downloaded over torrents.
 > https://bobcares.com/blog/docker-vs-rkt-rocket/2/
+
+## root
+
+> Docker runs with super-user privileges (aka “root”), and spins off new containers as its sub-process. The issue with that is, a vulnerability in a container, or poor containment can give an attacker root level access to the whole server. CVE-2014-9357 was one such vulnerability.
+Sure, Docker always recommended running containers within SELinux or AppArmor, but many server owners consider it too complicated, and skip the step.
+Rkt came up with a better solution where new containers are never created from a root privileged process. In this way, even if a container break-out happens, the attacker cannot get root privileges.
+> https://bobcares.com/blog/docker-vs-rkt-rocket/
