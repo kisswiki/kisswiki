@@ -1,6 +1,7 @@
 - build a statically-linked binary with musl https://blog.rust-lang.org/2016/05/13/rustup.html
 - Deploying a Rust application https://www.clever-cloud.com/doc/docker/docker/
 - https://www.distelli.com/docs/tutorials/build-and-deploy-rust-application
+- http://www.arewewebyet.org/topics/deploy/
 
 ## Use docker or install compiler on production machine?
 
