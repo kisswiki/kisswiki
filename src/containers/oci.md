@@ -78,3 +78,8 @@ can be run by runC or rkt
 
 > "Creating and maintaining formal specifications ("OCI Specifications") for container image formats and runtime, which will allow a compliant container to be portable across all major, compliant operating systems and platforms without artificial technical barriers." – OCI Charter
 > https://www.opencontainers.org/charter/
+
+<br>
+
+> A container is simply a file system in a folder that gets booted and works on any underlying Linux filesystem so I am not sure about how conceptually a 'container format' fits there? That's one of the great things about containers. You do not need to think about storage. Simply zip the container folder and move across servers. Containers are completely portable across any Linux system today. But if you are going to use aufs or overlayfs layers to build single apps containers with constrained container OS templates then perhaps there is a need for a format.
+> https://news.ycombinator.com/item?id=9762049
