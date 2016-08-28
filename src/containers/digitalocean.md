@@ -17,4 +17,5 @@
 > https://www.digitalocean.com/community/tutorials/how-to-use-block-storage-on-digitalocean
 
 > To date, the top feature request from our community has been to have the ability to add additional disk space to their Droplets.
+> FRA1 is next in line and will be available in the coming weeks. We’re working quickly to expand to other regions.
 > https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/
