@@ -20,6 +20,7 @@
 > https://jaxenter.com/docker-1-11-ties-its-fate-to-open-container-initiative-125603.html
 
 - Official Repositories on Docker Hub https://docs.docker.com/docker-hub/official_repos/
+  - https://hub.docker.com/explore/
 
 ## Windows
 
