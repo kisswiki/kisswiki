@@ -70,3 +70,8 @@ You now have generic interfaces (Dockerfile, docker-compose, Kubernetes/Rancher 
 > In my humble case, Docker solves the problems I have to manage the systems on which my application runs (and that's mainly it). A single dockerfile of 20-30 lines describes a whole system (operating system, versions, packages, libraries, etc), and cherry on the cake, I can version it in my git repository.
 > This is not revolutionary in itself, but having the creation and deployment of a server being 100% replicable (+ fast and easy!) on dev, preproduction, and production environments, plus it's managed with my usual versionning tool, that is something I appreciate very much.
 > https://news.ycombinator.com/item?id=12305967
+
+<br>
+
+> The problem of ensuring that upstream dependencies can be reproducibly installed and/or built is, of course, left as an exercise for the reader.
+> https://news.ycombinator.com/item?id=12309162
