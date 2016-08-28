@@ -23,3 +23,6 @@
 - our brand new volumes API https://developers.digitalocean.com/documentation/v2/#block-storage
 - or doctl, the official DigitalOcean command-line client https://www.digitalocean.com/community/tutorials/how-to-use-doctl-the-official-digitalocean-command-line-client
 > https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/
+
+> The transfer limits are for external traffic, so you should be alright when moving data internally between your block and your servers.
+> https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/#comment-2781665958
