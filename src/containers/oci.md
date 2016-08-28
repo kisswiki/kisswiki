@@ -66,3 +66,13 @@ can be run by runC or rkt
 
 > "Creating and maintaining formal specifications ("OCI Specifications") for container image formats and runtime, which will allow a compliant container to be portable across all major, compliant operating systems and platforms without artificial technical barriers." – OCI Charter
 > https://www.opencontainers.org/charter/
+
+<br>
+
+> This means, for example, a user can build a container using docker build, and then run it in rkt, Amazon EC2 Container Service (ECS), Kubernetes, or Mesos, all without needing to repackage.
+> OCI and appc Intersections
+> - Container Image - no
+> - Image distribution - no
+> - Runtime - yes
+> - On-disk Image Format - yes
+> https://coreos.com/blog/making-sense-of-standards/
