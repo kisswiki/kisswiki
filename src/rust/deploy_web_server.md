@@ -80,6 +80,7 @@ You now have generic interfaces (Dockerfile, docker-compose, Kubernetes/Rancher 
 
 <br>
 
+>> The Linux solution is called cgroups, which allows you to associate process trees with groups, which children cannot escape from. So you use cgroups, and write state management code to clean up an app's processes.
 >> Isolation is a strong argument. You don't want one process to starve another. You can get isolation via one-host-per-service or you can get it using cgroups. Docker sort of gives you both, without the waste of one-per-host and with a manageable set of tooling around cgroups.
 > systemd runs services in their own cgroup by default and gives you control over the resources alloted to those cgroups.
 > https://news.ycombinator.com/item?id=12305790
