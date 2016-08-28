@@ -2,7 +2,7 @@
 - Lowest cost https://www.cosmotown.com
 - http://www.wykop.pl/link/1167087/serwis-aftermarket-pl-dropped-pl-sprzedaje-domeny-swoich-uzytkownikow/
 - http://dropped.pl (http://afermarket.pl)
-- http://zlapane.pl (http://ppd.pl)
+- https://premium.pl/
 - http://MapaDomen.pl
 - http://ParkDomen.pl
 - http://exDomeny.pl
