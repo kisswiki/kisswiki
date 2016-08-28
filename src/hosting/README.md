@@ -9,4 +9,4 @@
 - for startups 6 months https://www.ovh.ie/dlp/
 - http://lowendstock.com/
 - €2.232/month http://iwstack.com/price-calculator.php
-- "The Lowest Price for Storage"
+- "The Lowest Price for Storage" https://www.backblaze.com/b2/cloud-storage.html
