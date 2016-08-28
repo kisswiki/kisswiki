@@ -12,6 +12,11 @@
 > users can expect increased innovation and interoperability between container registries, build tools, and runtimes
 > an open specification for a container image, the build artifact that contains everything needed to run a piece of software.
 > As the Docker image format has evolved to include many features from the appc spec in the last 16 months, the OCI project is starting with the Docker v2.2 image format as its base.
+> OCI Image Specification features:
+> - Federated namespace
+> - Content-addressable
+> - Signable
+> - Delegatable DNS namespace
 > https://coreos.com/blog/oci-image-specification.html
 
 can be run by runC or rkt
