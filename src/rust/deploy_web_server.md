@@ -79,6 +79,16 @@ You now have generic interfaces (Dockerfile, docker-compose, Kubernetes/Rancher 
 > https://news.ycombinator.com/item?id=12309162
 
 <br>
+
 >> Isolation is a strong argument. You don't want one process to starve another. You can get isolation via one-host-per-service or you can get it using cgroups. Docker sort of gives you both, without the waste of one-per-host and with a manageable set of tooling around cgroups.
 > systemd runs services in their own cgroup by default and gives you control over the resources alloted to those cgroups.
 > https://news.ycombinator.com/item?id=12305790
+
+<br>
+
+> Namespaced FS as in chroot.
+> Your program don't see what else is running on the system. Also means that it removes possible conflicts for shared libraries and other system-wide dependencies.
+> This kind of isolation is not only good for app bundling as a developer, but even more important as an operator in a multi-tenant scenario. You throw in containers and they don't step on each other toes. Plus, system stay clean and it's easy to move things around.
+> Each container has it's own IP stack.
+> Containers provide proper abstractions so you can then assemble all of this, pretty much like you use pipes on a unix shell.
+> https://news.ycombinator.com/item?id=12305540
