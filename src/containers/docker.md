@@ -48,6 +48,7 @@
 
 ## Registry
 
+- Store images on Docker Hub https://docs.docker.com/engine/tutorials/dockerrepos/
 - http://stackoverflow.com/questions/26710153/remote-access-to-a-private-docker-registry
 - https://blog.codecentric.de/en/2014/02/docker-registry-run-private-docker-image-repository/
 
