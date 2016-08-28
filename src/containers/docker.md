@@ -49,6 +49,7 @@
 ## Registry
 
 - http://stackoverflow.com/questions/26710153/remote-access-to-a-private-docker-registry
+- https://blog.codecentric.de/en/2014/02/docker-registry-run-private-docker-image-repository/
 
 > Docker.com hosts its own index to a central registry which contains a large number of repositories. Having said that, the central docker registry does not do a good job of verifying images and should be avoided if you're worried about security.
 > https://github.com/wsargent/docker-cheat-sheet#registry--repository
