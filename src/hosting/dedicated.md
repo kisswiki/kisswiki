@@ -19,3 +19,4 @@
   - €12.99/month https://servdiscount.com/en.html
   - €8.99/month https://www.online.net/en/dedicated-server
   - €14/month http://www.finalhosting.cz/
+  - €19.99/month https://express.ikoula.com/en/dedicated-server#promo
