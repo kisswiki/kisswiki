@@ -3,3 +3,5 @@
 > https://blog.docker.com/2016/04/docker-engine-1-11-runc/
 
 oci is an container image format which can bu run by runC or rkt
+
+https://github.com/opencontainers/image-spec
