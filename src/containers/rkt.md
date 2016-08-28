@@ -28,6 +28,11 @@
 > HTTPS is just one way to distribute ACI files. Using rkt torrent pull command, images can be downloaded over torrents.
 > https://bobcares.com/blog/docker-vs-rkt-rocket/2/
 
+<br>
+
+> rkt includes the same functionality as runC but does not expect a user to understand low-level details of the operating system to use, and can be invoked as simply as rkt run coreos.com/etcd,version=v2.2.0. It can download both “Docker Images” and “App Container Images”. As rkt does not have a centralized daemon it can also be easily integrated with init systems such as upstart and systemd.
+> https://coreos.com/rkt/docs/latest/rkt-vs-other-projects.html
+
 ## root
 
 > Docker runs with super-user privileges (aka “root”), and spins off new containers as its sub-process. The issue with that is, a vulnerability in a container, or poor containment can give an attacker root level access to the whole server. CVE-2014-9357 was one such vulnerability.
