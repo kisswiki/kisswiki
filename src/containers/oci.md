@@ -13,6 +13,10 @@ oci is an container image format which can bu run by runC or rkt
 > - Signatures that are based on signing image content address (optional layer)
 > - Naming that is federated based on DNS and can be delegated (optional layer)
 > The OCI Image Format partner project is the OCI Runtime Spec project. The Runtime Specification outlines how to run a "filesystem bundle" that is unpacked on disk. At a high-level an OCI implementation would download an OCI Image then unpack that image into an OCI Runtime filesystem bundle. At this point the OCI Runtime Bundle would be run by an OCI Runtime.
+>
+> Q: Why doesn't this project mention distribution?
+> A: Distribution, for example using HTTP as both Docker v2.2 and AppC do today, is currently out of scope on the OCI Scope Table. There has been some discussion on the TOB mailing list to make distribution an optional layer but this topic is a work in progress.
+>
 > Q: What happens to AppC or Docker Image Formats?
 > A: Existing formats can continue to be a proving ground for technologies, as needed. The OCI Image Format project strives to provide a dependable open specification that can be shared between different tools and be evolved for years or decades of compatibility; as the deb and rpm format have.
 > https://github.com/opencontainers/image-spec
