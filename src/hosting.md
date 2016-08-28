@@ -1,5 +1,6 @@
 - https://lowendbox.com/
 - https://www.arubacloud.pl/
+  - http://kb.arubacloud.pl/pl/computing/dostep-do-serwerow-cloud/polaczenie-do-serwera-cloud-poprzez-ssh.aspx
 
 ## serverbear.com
 
