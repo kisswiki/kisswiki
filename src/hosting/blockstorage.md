@@ -1,2 +1,1 @@
 - 10GB for 1 USD/month https://www.vultr.com/pricing/blockstorage/
-- 10GB for 1 USD/month https://www.vultr.com/pricing/blockstorage/
