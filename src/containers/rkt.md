@@ -1,3 +1,6 @@
+- https://github.com/coreos/rkt
+- https://coreos.com/rkt/docs/latest/rkt-vs-other-projects.html
+
 ## pull/fetch images
 
 - https://coreos.com/rkt/docs/latest/subcommands/fetch.html
