@@ -48,3 +48,4 @@
 
 - https://vstoike.ru/en/
 - https://www.online.net/en/dedicated-server#perso
+- https://homecloud.pl/uslugi/serwery-dedykowane/
