@@ -41,6 +41,11 @@ https://lifthrasiir.github.io/rustlog/why-is-a-rust-executable-large.html#takeaw
 > It's not really about the kernel ABI being compatible (programs built on older kernels run on newer ones quite nicely). It's about newer features from newer kernels still being supported (or their absence detected and their features emulated) on older kernels. That's a property of musl, not of the kernel.
 > https://news.ycombinator.com/item?id=11691980
 
+<br>
+
+> Build a static variant on your dev system. You can build a musl version of Rust and then emit static binaries of your project. That's awesome, easy and works very very well. Be careful with processor-specific optimizations or you get illegal instruction errors.
+> https://www.reddit.com/r/rust/comments/46z75s/deploying_a_web_server_written_in_rust/d098l3o
+
 ## Dockerfile
 
 ```
