@@ -32,7 +32,7 @@ Value: /home/roman/vbshare/
 Useful
 
 ```bash
-$ sudo  VBoxControl  sharedfolder  list
+$ sudo VBoxControl sharedfolder list
 Oracle VM VirtualBox Guest Additions Command Line Management Interface Version 5.0.24_Ubuntu
 (C) 2008-2016 Oracle Corporation
 All rights reserved.
