@@ -24,7 +24,13 @@
 
 https://lifthrasiir.github.io/rustlog/why-is-a-rust-executable-large.html#takeaway
 
-## Musl and stack overflow
+## Musl
 
 > It's probably stack overflow. Unfortunately musl libc has small stack (80kib) but rust usually relies on large stack (order of megabytes). I could not find easy way to change the stack size previously.
 > https://github.com/tailhook/vagga/issues/116#issuecomment-154092087
+
+<br>
+
+> musl has some kernel ABI version requirements
+> https://www.musl-libc.org/faq.html Says 2.6 officially, due to some threading stuff on earlier versions. Should work on anything later though.
+> https://news.ycombinator.com/item?id=11691980
