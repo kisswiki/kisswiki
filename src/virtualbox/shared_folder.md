@@ -16,7 +16,7 @@ Maybe needed to
 
 ### Group
 
-no results when running `cat /etc/passwd | grep vbox`, but
+There is result when running `grep vbox /etc/group`
 
 > if the vboxsf group did not exist in the guest, the shared folder wouldn't have shown up in /media
 > https://forums.virtualbox.org/viewtopic.php?f=7&t=61327#p285737
