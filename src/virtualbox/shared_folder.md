@@ -49,7 +49,9 @@ $ apt-cache depends virtualbox-guest-utils
  |Recommends: virtualbox-guest-dkms
   Recommends: virtualbox-guest-x11
 $ apt-cache depends virtualbox-guest-dkms
-    Depends: virtualbox-guest-utils
+  Depends: virtualbox-guest-utils
+$ apt-cache depends virtualbox-guest-x11
+  Depends: virtualbox-guest-utils
 ```
 
 ### Group
