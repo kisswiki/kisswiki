@@ -31,6 +31,8 @@ Value: /home/roman/vbshare/
 
 `sudo usermod -aG vboxsf $(whoami)`
 
+`mount | grep vboxsf`
+
 Useful
 
 ```bash
