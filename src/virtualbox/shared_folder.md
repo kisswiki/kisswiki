@@ -42,6 +42,15 @@ Shared Folder mappings (1):
 01 - frolow
 ```
 
+### Packages
+
+```bash
+$ apt-cache depends virtualbox-guest-utils
+ |Recommends: virtualbox-guest-dkms
+  Recommends: virtualbox-guest-x11
+$
+```
+
 ### Group
 
 There is result when running `grep vbox /etc/group`
