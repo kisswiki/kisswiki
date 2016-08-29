@@ -46,4 +46,5 @@ apt-get install git
 
 ## ssh server
 
-https://help.ubuntu.com/lts/serverguide/openssh-server.html
+- https://help.ubuntu.com/lts/serverguide/openssh-server.html
+- https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
