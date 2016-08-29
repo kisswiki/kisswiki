@@ -9,3 +9,14 @@ sudo apt-get install build-essential linux-headers-$(uname -r) virtualbox-guest-
 ```
 
 - http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm/34871#34871
+
+No need to manually mount like `sudo mount -t vboxsf wd ~/vbshare/`
+
+Maybe needed to
+
+### Group
+
+no results when running `cat /etc/passwd | grep vbox`, but
+
+> if the vboxsf group did not exist in the guest, the shared folder wouldn't have shown up in /media
+> https://forums.virtualbox.org/viewtopic.php?f=7&t=61327#p285737
