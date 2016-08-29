@@ -13,5 +13,5 @@ compgen -u
 compgen -g
 ```
 
-- http://askubuntu.com/questions/515103/how-to-display-all-user-and-groups-by-command
+- http://askubuntu.com/questions/515103/how-to-display-all-user-and-groups-by-command 
 - https://ubuntuforums.org/showthread.php?t=1583028
