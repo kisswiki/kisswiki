@@ -210,7 +210,7 @@ http://stackoverflow.com/questions/5009096/files-showing-as-modified-directly-af
 
 https://news.ycombinator.com/item?id=11388131
 
-## git push -u origin head
+## git push -u origin HEAD
 
 You don't need to specify branch name or using aliases like :
 
