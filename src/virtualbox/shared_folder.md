@@ -12,7 +12,9 @@ sudo apt-get install build-essential linux-headers-$(uname -r) virtualbox-guest-
 
 No need to manually mount like `sudo mount -t vboxsf wd ~/vbshare/`
 
-Maybe needed to
+Maybe needed to rerun
+
+`sudo /media/roman/VBOXADDITIONS_5.1.0_108711/VBoxLinuxAdditions.run`
 
 ### Group
 
