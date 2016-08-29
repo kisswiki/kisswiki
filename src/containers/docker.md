@@ -46,6 +46,11 @@
 - https://docs.docker.com/docker-for-windows/
 - http://stackoverflow.com/questions/33532138/docker-pull-push-not-working-with-insecure-registry
 
+## Windows but on Ubuntu
+
+> Can't. Kernel must be 3.10 at minimum to run docker on Ubuntu. When we run uname -r the output is 3.4.0+
+> https://stapp.space/how-to-setup-bash-on-windows/
+
 ## Registry
 
 - Store images on Docker Hub https://docs.docker.com/engine/tutorials/dockerrepos/
