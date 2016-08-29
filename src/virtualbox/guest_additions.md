@@ -1,5 +1,7 @@
 # Guest Additions
 
+- http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm
+
 ## Ubuntu guest
 
 There was problem with mounting iso installed with exe. I've downloaded iso manually and then mounted it. Maybe version mismatch between virtualbox 5.0.20 and guest additinos 5.0.18.
