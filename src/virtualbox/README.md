@@ -21,3 +21,7 @@ I had to unattach it from `Ubuntu VM > Settings > Storage > Controller: SATA`, t
 
 - http://superuser.com/questions/424083/virtualbox-host-ssh-to-guest/424115#424115
 - http://stackoverflow.com/questions/5906441/how-to-ssh-to-a-virtualbox-guest-externally-through-a-host/27152153#27152153
+
+## Menu
+
+`Host+Home`, so if your `Host` key is `Ctrl`, then `Ctrl+Home`.
