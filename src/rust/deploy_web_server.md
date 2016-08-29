@@ -19,3 +19,12 @@
 
 > While you are strongly encouraged to repackage a smaller Docker image with your compiled app for production use, it may be useful to run your app in development
 > https://github.com/fnichol/docker-rust
+
+## Binary size
+
+https://lifthrasiir.github.io/rustlog/why-is-a-rust-executable-large.html#takeaway
+
+## Musl and stack overflow
+
+> It's probably stack overflow. Unfortunately musl libc has small stack (80kib) but rust usually relies on large stack (order of megabytes). I could not find easy way to change the stack size previously.
+> https://github.com/tailhook/vagga/issues/116#issuecomment-154092087
