@@ -40,3 +40,19 @@ https://lifthrasiir.github.io/rustlog/why-is-a-rust-executable-large.html#takeaw
 > But without seeing documentation from musl that this is guaranteed for everything that could be added in later kernels (I'm not even sure everything added could be emulated easily, but perhaps it could be), then I'd still be skeptical making the claim that musl and Rust could be statically linked on any version of Linux after 2.6 and run on any other version of Linux after 2.6.
 > It's not really about the kernel ABI being compatible (programs built on older kernels run on newer ones quite nicely). It's about newer features from newer kernels still being supported (or their absence detected and their features emulated) on older kernels. That's a property of musl, not of the kernel.
 > https://news.ycombinator.com/item?id=11691980
+
+## Dockerfile
+
+```
+FROM geal/archlinux-rust
+MAINTAINER Geoffroy Couprie, contact@geoffroycouprie.com
+
+ADD . /source
+WORKDIR /source
+
+EXPOSE 8080
+RUN rustc -V
+
+RUN cargo build --release
+CMD cargo run --release
+```
