@@ -56,3 +56,5 @@ RUN rustc -V
 RUN cargo build --release
 CMD cargo run --release
 ```
+
+https://github.com/CleverCloud/demo-rust
