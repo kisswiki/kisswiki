@@ -57,4 +57,5 @@ RUN cargo build --release
 CMD cargo run --release
 ```
 
-https://github.com/CleverCloud/demo-rust
+- https://github.com/CleverCloud/demo-rust
+- https://www.reddit.com/r/rust/comments/46z75s/deploying_a_web_server_written_in_rust/d0953jq
