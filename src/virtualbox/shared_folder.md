@@ -16,6 +16,17 @@ Maybe needed to rerun
 
 `sudo /media/roman/VBOXADDITIONS_5.1.0_108711/VBoxLinuxAdditions.run`
 
+And this
+
+```bash
+$ sudo VBoxControl guestproperty get /VirtualBox/GuestAdd/SharedFolders/MountDir
+Oracle VM VirtualBox Guest Additions Command Line Management Interface Version 5.0.24_Ubuntu
+(C) 2008-2016 Oracle Corporation
+All rights reserved.
+
+Value: /home/roman/vbshare/
+```
+
 ### Group
 
 There is result when running `grep vbox /etc/group`
