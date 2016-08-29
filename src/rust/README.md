@@ -18,6 +18,11 @@
 > a robust type system similar to Haskells and an emphasis on immutability, but has unrestricted side effects and mutability as well
 > https://www.quora.com/What-do-functional-programmers-think-of-the-Rust-language
 
+<br>
+
+> static compile-time management of object lifetimes
+> https://news.ycombinator.com/item?id=9331286
+
 ## Syntax
 
 > Rust requires the braces but not the parens, while C is the contrary
