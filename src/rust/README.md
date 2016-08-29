@@ -20,7 +20,7 @@
 
 <br>
 
-> static compile-time management of object lifetimes
+> get similarly excited about the prospect of static object lifetime management, but ask themselves whether it's really possible to completely hand lifetime management over to the compiler. And of course it isn't - sometimes you still need to concern yourself with the vulgar details of managing object destruction, and Rust's syntax for that is kind of ugly.
 > https://news.ycombinator.com/item?id=9331286
 
 ## Syntax
