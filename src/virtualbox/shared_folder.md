@@ -29,6 +29,8 @@ All rights reserved.
 Value: /home/roman/vbshare/
 ```
 
+`sudo usermod -aG vboxsf $(whoami)`
+
 Useful
 
 ```bash
