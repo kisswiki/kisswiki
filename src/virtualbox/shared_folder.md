@@ -28,6 +28,10 @@ All rights reserved.
 Value: /home/roman/vbshare/
 ```
 
+Useful
+
+`sudo  VBoxControl  sharedfolder  list`
+
 ### Group
 
 There is result when running `grep vbox /etc/group`
