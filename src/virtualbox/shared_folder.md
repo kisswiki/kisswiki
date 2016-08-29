@@ -48,7 +48,8 @@ Shared Folder mappings (1):
 $ apt-cache depends virtualbox-guest-utils
  |Recommends: virtualbox-guest-dkms
   Recommends: virtualbox-guest-x11
-$
+$ apt-cache depends virtualbox-guest-dkms
+    Depends: virtualbox-guest-utils
 ```
 
 ### Group
