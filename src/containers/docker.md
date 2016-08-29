@@ -76,7 +76,3 @@ docker build https://github.com/docker/rootfs.git#container:docker
 
 - https://docs.docker.com/engine/reference/commandline/build/
 - http://stackoverflow.com/questions/26753030/how-to-build-docker-image-from-github-repository
-
-## Menu
-
-`Host+Home`, so if your `Host` key is `Ctrl`, then `Ctrl+Home`.
