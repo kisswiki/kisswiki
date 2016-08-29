@@ -41,3 +41,4 @@ https://github.com/junegunn/vim-plug/issues/472
 ## Config
 
 - https://github.com/kristijanhusak/neovim-config/blob/master/init.vim
+- https://github.com/ladislas/nvim/blob/master/vimrc
