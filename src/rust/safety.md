@@ -14,3 +14,8 @@
 
 > Rust is a tool to defend against memory safety vulnerabilities. It's also a tool to make systems programming more accessible to programmers who aren't long-time C++ experts and to make concurrent and parallel programming in large-scale systems more robust.
 > https://news.ycombinator.com/item?id=9223341
+
+<br>
+
+> Rust's type system ensures that you don't get the kind of memory errors which are common in C++ - memory leaks, accessing un- initialised memory, dangling pointers - all are impossible in Rust.
+> https://aminb.gitbooks.io/rust-for-c/content/why_rust/index.html
