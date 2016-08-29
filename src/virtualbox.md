@@ -36,4 +36,9 @@ Click Host key (ctrl default) and than press alt+tab or windows key.
 
 ## Can't use existing vdi
 
-I had to unattach it from `Ubuntu VM > Settings > Storage > Controller: SATA`, then delete in `VirtualBox > File > Virtual Media Manager` 
+I had to unattach it from `Ubuntu VM > Settings > Storage > Controller: SATA`, then delete in `VirtualBox > File > Virtual Media Manager`
+
+## Host-only networking
+
+- http://superuser.com/questions/424083/virtualbox-host-ssh-to-guest/424115#424115
+- http://stackoverflow.com/questions/5906441/how-to-ssh-to-a-virtualbox-guest-externally-through-a-host/27152153#27152153
