@@ -46,6 +46,8 @@ Shared Folder mappings (1):
 01 - frolow
 ```
 
+> NOT automounting it or permanent mounting from Virtualbox. Otherwise the host dir is mounted by root
+
 ### Packages
 
 ```bash
