@@ -37,3 +37,7 @@ https://github.com/junegunn/vim-plug/issues/472
 - https://github.com/Shougo/deoplete.nvim/issues/169#issuecomment-183765517
 - https://www.reddit.com/r/neovim/comments/3x3vdy/can_make_work_deoplete/
 - http://stackoverflow.com/questions/37034969/cant-get-deoplete-to-start-in-neovim
+
+## Config
+
+- https://github.com/kristijanhusak/neovim-config/blob/master/init.vim
