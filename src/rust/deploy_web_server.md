@@ -32,5 +32,11 @@ https://lifthrasiir.github.io/rustlog/why-is-a-rust-executable-large.html#takeaw
 <br>
 
 > musl has some kernel ABI version requirements
+>
 > https://www.musl-libc.org/faq.html Says 2.6 officially, due to some threading stuff on earlier versions. Should work on anything later though.
+>
+> Where I was skeptical was around new features added to the kernel. I do not know how careful musl is when it is built on a kernel which includes a new feature (say something like F_DUPFD_CLOEXEC, added in 2.6.24), but is then copied and run on an older kernel (2.6.10) which would return -EINVAL from that system call.
+> A quick glance at the musl sources shows that in this particular case musl is careful to notice the -EINVAL and emulate it (via F_DUPFD and F_SETFD FD_CLOEXEC).
+> But without seeing documentation from musl that this is guaranteed for everything that could be added in later kernels (I'm not even sure everything added could be emulated easily, but perhaps it could be), then I'd still be skeptical making the claim that musl and Rust could be statically linked on any version of Linux after 2.6 and run on any other version of Linux after 2.6.
+> It's not really about the kernel ABI being compatible (programs built on older kernels run on newer ones quite nicely). It's about newer features from newer kernels still being supported (or their absence detected and their features emulated) on older kernels. That's a property of musl, not of the kernel.
 > https://news.ycombinator.com/item?id=11691980
