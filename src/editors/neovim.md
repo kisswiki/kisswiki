@@ -1,5 +1,14 @@
-- https://github.com/neovim/neovim/wiki/Installing-Neovim
+
 - https://github.com/neovim/neovim/wiki/FAQ
+
+## Install on Ubunut
+
+```bash
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
+```
+https://github.com/neovim/neovim/wiki/Installing-Neovim
 
 ## vim-plug
 
