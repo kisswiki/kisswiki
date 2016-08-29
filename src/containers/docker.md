@@ -51,6 +51,11 @@
 > Can't. Kernel must be 3.10 at minimum to run docker on Ubuntu. When we run uname -r the output is 3.4.0+
 > https://stapp.space/how-to-setup-bash-on-windows/
 
+<br>
+
+> Docker requires a 64-bit installation regardless of your Ubuntu version. Additionally, your kernel must be 3.10 at minimum.
+> https://docs.docker.com/engine/installation/linux/ubuntulinux/
+
 ## Registry
 
 - Store images on Docker Hub https://docs.docker.com/engine/tutorials/dockerrepos/
