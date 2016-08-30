@@ -52,3 +52,16 @@ https://github.com/junegunn/vim-plug/issues/472
 
 - https://github.com/kristijanhusak/neovim-config/blob/master/init.vim
 - https://github.com/ladislas/nvim/blob/master/vimrc
+
+## auto set paste
+
+in config:
+
+`Plug 'ConradIrwin/vim-bracketed-paste'`
+
+- https://github.com/ConradIrwin/vim-bracketed-paste
+- http://stackoverflow.com/questions/2514445/turning-off-auto-indent-when-pasting-text-into-vim/36512548#36512548
+- http://superuser.com/questions/437730/always-use-set-paste-is-it-a-good-idea
+- https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
+- http://stackoverflow.com/questions/2555559/pasting-from-clipboard-and-automatically-toggling-set-paste
+- http://vim.wikia.com/wiki/Toggle_auto-indenting_for_code_paste
