@@ -26,6 +26,8 @@ In to order automount and access those folders as normal user, specific steps ar
 
 Optional: get list of shared folders: `sudo VBoxControl sharedfolder list`.
 
+### Links
+
 - http://askubuntu.com/questions/52328/mount-virtualbox-sharedfolder-in-ubuntu-vm-on-boot/818483#818483
 - https://help.ubuntu.com/community/VirtualBox/SharedFolders
 - https://wiki.archlinux.org/index.php/VirtualBox#Enable_shared_folders
