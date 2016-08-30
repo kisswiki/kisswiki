@@ -3,7 +3,7 @@
 - http://www.2ality.com/2015/04/webpack-es6.html
 - http://www.zsoltnagy.eu/using-es6-modules-with-webpack/
 - https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
-- https://medium.com/webpack/webpack-http-2-7083ec3f3ce6#.ubovetdbx
+- https://medium.com/webpack/webpack-http-2-7083ec3f3ce6
 
 ## speed https://www.facebook.com/groups/217169631654737/permalink/1006902786014747/
 
