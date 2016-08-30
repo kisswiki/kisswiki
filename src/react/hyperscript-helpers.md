@@ -4,6 +4,10 @@
 
 ## Using tagget template literals
 
+> hyperscript-helpers vs templates (including JSX)
+> - You get errors if you misspell a tag name, because they are function names
+> https://github.com/ohanhi/hyperscript-helpers
+
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_template_literals
 - https://github.com/substack/hyperx
   - https://www.reddit.com/r/javascript/comments/3z54oj/hyperx_jsx_style_inline_templates_with_no/
