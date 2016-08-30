@@ -43,7 +43,7 @@ Run
 
 `npm i -D rollup-plugin-babel`
 
-Note: rollup-plugin-babel depends on babel-preset-es2015-rollup, so no need to think about the latter.
+Note: rollup-plugin-babel devDepends on babel-preset-es2015-rollup, so we still need to install it.
 
 ## format
 
