@@ -38,7 +38,7 @@ In order to automount and access those folders as normal user, specific steps ar
     sudo mount -t vboxsf newfolder ~/vbshare/newfolder
     ```
 
-### Links
+## Links
 
 - http://askubuntu.com/questions/52328/mount-virtualbox-sharedfolder-in-ubuntu-vm-on-boot/818483#818483
 - https://help.ubuntu.com/community/VirtualBox/SharedFolders
@@ -59,7 +59,7 @@ In order to automount and access those folders as normal user, specific steps ar
 - http://stackoverflow.com/questions/33822107/how-to-access-a-shared-folder-with-ubuntu-on-virtualbox
 - http://serverfault.com/questions/674974/how-to-mount-a-virtualbox-shared-folder/674976#674976
 
-### Packages
+## Packages
 
 ```bash
 $ apt-cache depends virtualbox-guest-utils
@@ -71,7 +71,7 @@ $ apt-cache depends virtualbox-guest-x11
   Depends: virtualbox-guest-utils
 ```
 
-### Group
+## Group
 
 There is result when running `grep vbox /etc/group`
 
