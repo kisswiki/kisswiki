@@ -10,3 +10,5 @@ Then add binaries to your $PATH:
 echo . \$HOME/.cargo/env >> ~/.bashrc
 . ~/.bashrc
 ```
+
+- Taking Rust everywhere with rustup https://blog.rust-lang.org/2016/05/13/rustup.html
