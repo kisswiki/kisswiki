@@ -10,6 +10,8 @@ This means that Rollup turns multiple modules into what you would have written i
 > I'm using rollup for libs, webpack for apps
 > https://www.reddit.com/r/javascript/comments/4yprc5/how_to_bundle_javascript_with_rollup_stepbystep/
 
+- http://javascriptplayground.com/blog/2016/02/better-bundles-rollup/
+
 ## quick start
 
 `rollup src/main.js --output bundle.js # or rollup main.js -o bundle.js`
