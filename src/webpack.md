@@ -3,12 +3,15 @@
 - http://www.2ality.com/2015/04/webpack-es6.html
 - http://www.zsoltnagy.eu/using-es6-modules-with-webpack/
 - https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
-- speed https://www.facebook.com/groups/217169631654737/permalink/1006902786014747/
-  - sprawdź czy w babelu masz cacheDirectory: true
-  - excluduj/includuj tylko potrzebne foldery. Czyli co najmniej miej exclude: /(node_modules|bower)/
-  - bez sensu aby webpack niepotrzebnie parsował niezbudowane node'owe biblioteki. Uzyj 'noParse' (aby webpack nie szukał np. 'require' w kodzie biblioteki) w kombinacji z 'resolve' (aby wskazać na już dystrybucyjny plik a nie tez z package.json -> main
-  - użyj szybszych source-map przy developemencie - devtool: 'cheap-module-inline-source-map'
-  - używaj watch w webpacku
+- https://medium.com/webpack/webpack-http-2-7083ec3f3ce6#.ubovetdbx
+
+## speed https://www.facebook.com/groups/217169631654737/permalink/1006902786014747/
+
+- sprawdź czy w babelu masz cacheDirectory: true
+- excluduj/includuj tylko potrzebne foldery. Czyli co najmniej miej exclude: /(node_modules|bower)/
+- bez sensu aby webpack niepotrzebnie parsował niezbudowane node'owe biblioteki. Uzyj 'noParse' (aby webpack nie szukał np. 'require' w kodzie biblioteki) w kombinacji z 'resolve' (aby wskazać na już dystrybucyjny plik a nie tez z package.json -> main
+- użyj szybszych source-map przy developemencie - devtool: 'cheap-module-inline-source-map'
+- używaj watch w webpacku
 
 ## HTML Webpack Plugin
 
