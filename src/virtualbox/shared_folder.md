@@ -16,10 +16,17 @@ Maybe needed to rerun
 
 `sudo /media/roman/VBOXADDITIONS_5.1.0_108711/VBoxLinuxAdditions.run`
 
-And this
 
 ```bash
 $ sudo VBoxControl guestproperty get /VirtualBox/GuestAdd/SharedFolders/MountDir
+```
+
+If this is already set, you need to change owner to you:
+
+```bash
+$ chown user:user ~/vbshare
+```
+
 $ mkdir ~/vbshare
 $ sudo VBoxControl guestproperty set /VirtualBox/GuestAdd/SharedFolders/MountDir ~/vbshare
 Oracle VM VirtualBox Guest Additions Command Line Management Interface Version 5.0.24_Ubuntu
