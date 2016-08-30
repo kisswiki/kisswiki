@@ -55,15 +55,12 @@ https://github.com/junegunn/vim-plug/issues/472
 
 ## auto set paste
 
-in config:
+Testing in Ubuntu on Windows 10
 
-`Plug 'ConradIrwin/vim-bracketed-paste'`
-
-But it doesn' work.
-
-- https://github.com/ConradIrwin/vim-bracketed-paste
+- doesn't work https://github.com/ConradIrwin/vim-bracketed-paste
 - http://stackoverflow.com/questions/2514445/turning-off-auto-indent-when-pasting-text-into-vim/36512548#36512548
+  - doesn't work `set clipboard=unnamed `
 - http://superuser.com/questions/437730/always-use-set-paste-is-it-a-good-idea
-- https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
+- doesn't work  https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
 - http://stackoverflow.com/questions/2555559/pasting-from-clipboard-and-automatically-toggling-set-paste
 - http://vim.wikia.com/wiki/Toggle_auto-indenting_for_code_paste
