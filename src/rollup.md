@@ -58,3 +58,4 @@ https://github.com/yamafaktory/babel-react-rollup-starter
 ## react
 
 - https://github.com/rollup/rollup/issues/437
+- https://github.com/systemjs/builder/pull/205
