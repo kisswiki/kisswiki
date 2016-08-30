@@ -20,6 +20,7 @@ And this
 
 ```bash
 $ mkdir ~/vbshare
+$ sudo VBoxControl guestproperty get /VirtualBox/GuestAdd/SharedFolders/MountDir
 $ sudo VBoxControl guestproperty set /VirtualBox/GuestAdd/SharedFolders/MountDir ~/vbshare
 $ sudo VBoxControl guestproperty get /VirtualBox/GuestAdd/SharedFolders/MountDir
 Oracle VM VirtualBox Guest Additions Command Line Management Interface Version 5.0.24_Ubuntu
