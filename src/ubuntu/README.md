@@ -52,7 +52,7 @@ apt-get install git
 sudo apt install openssh-server
 ```
 
-/etc/ssh/sshd_config
+sudo nano -w /etc/ssh/sshd_config
 
 ```
   PasswordAuthentication yes
