@@ -55,6 +55,7 @@ Note: rollup-plugin-babel devDepends on babel-preset-es2015-rollup, so we still 
 
 - Couldn't make it work https://github.com/yamafaktory/babel-react-rollup-starter
 - https://github.com/duske/rollup-quickstart
+- https://github.com/lazamar/Rollup.js-Quick-Start-Kit
 
 ## react
 
