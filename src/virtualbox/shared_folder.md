@@ -31,7 +31,7 @@ In order to automount and access those folders as normal user, specific steps ar
 
     `sudo VBoxControl sharedfolder list`
 
-3. Create directory and mount
+3. If so, create directory and mount
 
     ```bash
     mkdir ~/vbshare/newfolder
