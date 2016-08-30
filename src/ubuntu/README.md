@@ -49,7 +49,7 @@ apt-get install git
 ### On server
 
 ```bash
-sudo apt install openssh-server
+sudo apt-get install -y openssh-server
 ```
 
 sudo nano -w /etc/ssh/sshd_config
