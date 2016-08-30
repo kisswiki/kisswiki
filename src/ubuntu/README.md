@@ -46,5 +46,16 @@ apt-get install git
 
 ## ssh server
 
+```bash
+sudo apt install openssh-server
+```
+
+/etc/ssh/sshd_config
+
+```
+  PasswordAuthentication yes
+  PubkeyAuthentication yes
+```
+
 - https://help.ubuntu.com/lts/serverguide/openssh-server.html
 - https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
