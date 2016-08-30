@@ -29,6 +29,8 @@
 
 ## Update npm
 
+Is `npm@latest` needed?
+
 `sudo npm install npm -g`
 
 (`npm cache clean -f` may be needed)
