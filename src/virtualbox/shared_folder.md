@@ -24,7 +24,19 @@ In order to automount and access those folders as normal user, specific steps ar
     sudo chown $(whoami):$(whoami) ~/vbshare
     ```
 
-Optional: get list of shared folders: `sudo VBoxControl sharedfolder list`.
+## Add new shared folders without restarting VM
+
+1. Add shared folder.
+2. Check if you can find it listed by this command:
+
+    `sudo VBoxControl sharedfolder list`
+
+3. Create directory and mount
+
+    ```bash
+    mkdir ~/vbshare/newfolder
+    sudo mount -t vboxsf newfolder ~/vbshare/newfolder
+    ```
 
 ### Links
 
