@@ -1,3 +1,5 @@
+- http://askubuntu.com/questions/69221/adding-user-to-a-group-why-had-to-reboot
+
 ## show all users and groups
 
 
