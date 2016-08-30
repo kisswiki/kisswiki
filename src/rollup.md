@@ -46,3 +46,13 @@ Note: rollup-plugin-babel depends on babel-preset-es2015-rollup, so no need to t
 
 > iife – A self-executing function, suitable for inclusion as a <script> tag
 > https://github.com/rollup/rollup/wiki/JavaScript-API
+
+## starer kit
+
+Couldn't make it work.
+
+https://github.com/yamafaktory/babel-react-rollup-starter
+
+## react
+
+- https://github.com/rollup/rollup/issues/437
