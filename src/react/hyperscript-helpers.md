@@ -1,0 +1,4 @@
+- https://github.com/jador/react-hyperscript-helpers
+- https://github.com/ohanhi/hyperscript-helpers
+- https://github.com/mlmorg/react-hyperscript
+- https://github.com/substack/hyperx
