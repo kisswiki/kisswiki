@@ -2,7 +2,7 @@
 
 ## Ubuntu 16.04 guest and shared folders automounting accessible by normal user
 
-In order automount and access those folders as normal user, specific steps are required.
+In to order automount and access those folders as normal user, specific steps are required.
 
 1. Don't use official guest additions. Instead install `virtualbox-guest-dkms`.
 
