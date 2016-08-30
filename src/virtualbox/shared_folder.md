@@ -10,14 +10,16 @@ sudo usermod -aG vboxsf $(whoami)
 sudo VBoxControl guestproperty set /VirtualBox/GuestAdd/SharedFolders/MountDir ~/vbshare
 ```
 
-Restart
+Add some shared folders with `Auto-mount` and `Permanent` checked.
+
+`sudo shutdown -h now`
 
 - http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm/34871#34871
 
 
 ```bash
 $ ls -ld ~/vbshare
-$ sudo chown user:user ~/vbshare
+$ sudo chown $(whoami):$(whoami) ~/vbshare
 ```
 
 
