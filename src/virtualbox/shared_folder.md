@@ -1,6 +1,6 @@
 - Install guest additions on guest
 
-## Ubuntu guest
+## Ubuntu guest and shared folders automounting
 
 You need to install:
 
