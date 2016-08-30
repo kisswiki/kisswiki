@@ -2,7 +2,9 @@
 
 ## Ubuntu guest and shared folders automounting
 
-You need to install:
+In order automount and access those folders as normal user, specific steps are required.
+
+Don't use official guest additions. Instead install `virtualbox-guest-dkms`.
 
 ```bash
 sudo apt-get install -y virtualbox-guest-dkms
@@ -12,23 +14,19 @@ sudo VBoxControl guestproperty set /VirtualBox/GuestAdd/SharedFolders/MountDir ~
 
 Add some shared folders with `Auto-mount` and `Permanent` checked.
 
-`sudo shutdown -h now`
+Restart vm.
 
-- http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm/34871#34871
+After that check if you have any vb folders mounted:
 
+`mount | grep vboxsf`
 
-```bash
-$ ls -ld ~/vbshare
-$ sudo chown $(whoami):$(whoami) ~/vbshare
-```
-
-
-Useful
+If so, you need to change ownership of `~/vbshare` to yourself.
 
 ```bash
-sudo VBoxControl sharedfolder list
-mount | grep vboxsf
+sudo chown $(whoami):$(whoami) ~/vbshare
 ```
+
+Get list of shared folders: `sudo VBoxControl sharedfolder list`.
 
 > NOT automounting it or permanent mounting from Virtualbox. Otherwise the host dir is mounted by root
 
