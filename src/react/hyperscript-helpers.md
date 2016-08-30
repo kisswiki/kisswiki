@@ -10,3 +10,4 @@
   - http://stackoverflow.com/questions/36439765/how-to-wire-up-virtual-hyperscript-hyperscript-helpers-and-main-loop
   - https://twitter.com/andrestaltz/status/690420855055187968
 - https://github.com/trueadm/t7
+- https://github.com/maxogden/yo-yo
