@@ -32,8 +32,6 @@ Value: /home/roman/vbshare/
 
 in vbox file:
 
-        <GuestProperty name="/VirtualBox/GuestAdd/SharedFolders/MountDir" value="/home/roman/vbshare" timestamp="1472509313887167500" flags=""/>
-
 
 ```bash
 $ ls -ld ~/vbshare
