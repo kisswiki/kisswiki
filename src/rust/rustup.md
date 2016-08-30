@@ -4,4 +4,9 @@ Use this instead from https://github.com/rust-lang-nursery/rustup.rs
 
 `curl https://sh.rustup.rs -sSf | sh`
 
-echo source \$HOME/.cargo/env >> ~/.bashrc
+Then add binaries to your $PATH:
+
+```
+echo . \$HOME/.cargo/env >> ~/.bashrc
+. ~/.bashrc
+```
