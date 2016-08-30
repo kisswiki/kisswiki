@@ -9,3 +9,10 @@ This means that Rollup turns multiple modules into what you would have written i
 > These are good reads. I think issues like these will be resolved soon (it looks like fixes for most of the issues are already underway), but that's absolutely worth considering right now.
 > I'm using rollup for libs, webpack for apps
 > https://www.reddit.com/r/javascript/comments/4yprc5/how_to_bundle_javascript_with_rollup_stepbystep/
+
+## quick start
+
+`rollup src/main.js --output bundle.js # or rollup main.js -o bundle.js`
+
+> You could also do rollup src/main.js > bundle.js, but as we'll see later, this is less flexible if you're generating sourcemaps.
+> http://rollupjs.org/guide/
