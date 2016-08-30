@@ -6,7 +6,7 @@
 ```bash
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
-sudo apt-get install neovim
+sudo apt-get install -y neovim
 ```
 https://github.com/neovim/neovim/wiki/Installing-Neovim
 
