@@ -12,6 +12,7 @@ This means that Rollup turns multiple modules into what you would have written i
 
 - http://rollupjs.org/guide/
 - http://javascriptplayground.com/blog/2016/02/better-bundles-rollup/
+- https://github.com/eventualbuddha/babelrc-rollup
 
 ## quick start
 
