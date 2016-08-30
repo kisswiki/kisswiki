@@ -39,3 +39,5 @@ Run
 ## babel
 
 `npm i -D rollup-plugin-babel`
+
+Note: rollup-plugin-babel depends on babel-preset-es2015-rollup, so no need to think about the latter.
