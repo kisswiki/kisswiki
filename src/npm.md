@@ -29,13 +29,13 @@
 
 ## Update npm
 
-`npm install npm@latest -g`
+`sudo npm install npm -g`
 
 (`npm cache clean -f` may be needed)
 
-http://stackoverflow.com/questions/6237295/how-can-i-update-node-js-and-npm-to-the-next-versions/29023180#29023180
-
-https://docs.npmjs.com/getting-started/installing-node
+- http://stackoverflow.com/questions/23393707/how-to-update-npm/24760147#24760147
+- http://stackoverflow.com/questions/6237295/how-can-i-update-node-js-and-npm-to-the-next-versions/29023180#29023180
+- https://docs.npmjs.com/getting-started/installing-node
 
 Then verify version with `npm -v`. If it still shows old version, you probably use mingw (git bash etc.). In that case you need to set `%USERPROFILE%\AppData\Roaming\npm` to be at the beggining of `%PATH%`. Then verify it:
 
