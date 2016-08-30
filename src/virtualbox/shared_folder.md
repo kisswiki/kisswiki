@@ -58,6 +58,7 @@ In order automount and access those folders as normal user, specific steps are r
 - http://serverfault.com/questions/674974/how-to-mount-a-virtualbox-shared-folder/674978
 - http://askubuntu.com/questions/252853/how-to-mount-a-virtualbox-shared-folder-at-startup
 - http://askubuntu.com/questions/30396/error-mounting-virtualbox-shared-folders-in-an-ubuntu-guest
+- http://superuser.com/questions/640027/why-cant-i-chown-a-virtualbox-shared-folder
 
 ### Packages
 
