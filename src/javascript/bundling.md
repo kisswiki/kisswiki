@@ -1,0 +1,1 @@
+- http://stackoverflow.com/questions/31593694/do-i-need-require-js-when-i-use-babel
