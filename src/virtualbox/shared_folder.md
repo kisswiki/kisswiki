@@ -65,6 +65,7 @@ In order automount and access those folders as normal user, specific steps are r
 - http://askubuntu.com/questions/337531/admin-no-longer-has-access-to-shared-folder
 - http://superuser.com/questions/307853/permission-denied-when-accessing-virtualbox-shared-folder-when-member-of-the-vbo
 - http://stackoverflow.com/questions/26740113/virtualbox-shared-folder-permissions
+- http://askubuntu.com/questions/456400/why-cant-i-access-a-shared-folder-from-within-my-virtualbox-machine
 
 ### Packages
 
