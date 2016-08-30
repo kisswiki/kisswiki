@@ -36,4 +36,6 @@ Run
 > A config file is written in JavaScript and is more flexible than the raw CLI.
 > http://rollupjs.org/guide/
 
+## babel
+
 `npm i -D rollup-plugin-babel`
