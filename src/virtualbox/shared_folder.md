@@ -67,6 +67,7 @@ In order automount and access those folders as normal user, specific steps are r
 - http://stackoverflow.com/questions/26740113/virtualbox-shared-folder-permissions
 - http://askubuntu.com/questions/456400/why-cant-i-access-a-shared-folder-from-within-my-virtualbox-machine
 - http://stackoverflow.com/questions/37038958/auto-mount-virtualbox-shared-folder-in-fstab-on-ubuntu-server-16-04
+- http://stackoverflow.com/questions/33822107/how-to-access-a-shared-folder-with-ubuntu-on-virtualbox
 
 ### Packages
 
