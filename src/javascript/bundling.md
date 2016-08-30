@@ -1,1 +1,2 @@
 - http://stackoverflow.com/questions/31593694/do-i-need-require-js-when-i-use-babel
+- https://medium.com/webpack/webpack-http-2-7083ec3f3ce6
