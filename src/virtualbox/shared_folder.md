@@ -1,32 +1,6 @@
-- Install guest additions on guest
+- http://unix.stackexchange.com/questions/259147/sharing-a-harddisk-partition-with-a-linux-vm-on-virtualbox
 
-## Ubuntu guest and shared folders automounting
-
-In order automount and access those folders as normal user, specific steps are required.
-
-Don't use official guest additions. Instead install `virtualbox-guest-dkms`.
-
-```bash
-sudo apt-get install -y virtualbox-guest-dkms
-sudo usermod -aG vboxsf $(whoami)
-sudo VBoxControl guestproperty set /VirtualBox/GuestAdd/SharedFolders/MountDir ~/vbshare
-```
-
-Add some shared folders with `Auto-mount` and `Permanent` checked.
-
-Restart vm.
-
-After that check if you have any vb folders mounted:
-
-`mount | grep vboxsf`
-
-If so, you need to change ownership of `~/vbshare` to yourself.
-
-```bash
-sudo chown $(whoami):$(whoami) ~/vbshare
-```
-
-# Ubuntu 16.04 guest and shared folders automounting accessible by normal user
+## Ubuntu 16.04 guest and shared folders automounting accessible by normal user
 
 In order automount and access those folders as normal user, specific steps are required.
 
