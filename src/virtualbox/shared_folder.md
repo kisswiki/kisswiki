@@ -26,9 +26,32 @@ If so, you need to change ownership of `~/vbshare` to yourself.
 sudo chown $(whoami):$(whoami) ~/vbshare
 ```
 
-Get list of shared folders: `sudo VBoxControl sharedfolder list`.
+# Ubuntu 16.04 guest and shared folders automounting accessible by normal user
 
-> NOT automounting it or permanent mounting from Virtualbox. Otherwise the host dir is mounted by root
+In order automount and access those folders as normal user, specific steps are required.
+
+1. Don't use official guest additions. Instead install `virtualbox-guest-dkms`.
+
+    ```bash
+    sudo apt-get install -y virtualbox-guest-dkms
+    sudo usermod -aG vboxsf $(whoami)
+    sudo VBoxControl guestproperty set /VirtualBox/GuestAdd/SharedFolders/MountDir ~/vbshare
+    ```
+
+2. Add some shared folders with `Auto-mount` and `Permanent` checked.
+3. Restart vm.
+4. Check if you have any vb folders mounted:
+
+    `mount | grep vboxsf`
+
+5. If so, change ownership of `~/vbshare` to yourself.
+
+    ```bash
+    sudo chown $(whoami):$(whoami) ~/vbshare
+    ```
+6. Get list of shared folders: `sudo VBoxControl sharedfolder list`.
+
+
 
 ### Packages
 
