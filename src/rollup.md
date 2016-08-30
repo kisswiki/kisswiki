@@ -17,3 +17,5 @@ This means that Rollup turns multiple modules into what you would have written i
 > You could also do rollup src/main.js > bundle.js, but as we'll see later, this is less flexible if you're generating sourcemaps.
 > A config file is written in JavaScript and is more flexible than the raw CLI.
 > http://rollupjs.org/guide/
+
+`npm i -D rollup-plugin-babel`
