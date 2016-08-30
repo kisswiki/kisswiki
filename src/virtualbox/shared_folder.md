@@ -62,6 +62,7 @@ In order automount and access those folders as normal user, specific steps are r
 - http://superuser.com/questions/640027/why-cant-i-chown-a-virtualbox-shared-folder
 - http://askubuntu.com/questions/481559/how-to-automatically-mount-a-folder-and-change-ownership-from-root-in-virtualbox
 - http://askubuntu.com/questions/747974/virtualbox-shared-folders-are-owned-by-root-in-lubuntu-guest
+- http://askubuntu.com/questions/337531/admin-no-longer-has-access-to-shared-folder
 
 ### Packages
 
