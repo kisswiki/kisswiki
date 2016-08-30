@@ -57,5 +57,10 @@ sudo apt install openssh-server
   PubkeyAuthentication yes
 ```
 
+```bash
+sudo systemctl restart sshd.service
+```
+
+
 - https://help.ubuntu.com/lts/serverguide/openssh-server.html
 - https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
