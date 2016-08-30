@@ -20,21 +20,12 @@ $ ls -ld ~/vbshare
 $ sudo chown user:user ~/vbshare
 ```
 
-`sudo usermod -aG vboxsf $(whoami)`
-
-`mount | grep vboxsf`
 
 Useful
 
 ```bash
-$ sudo VBoxControl sharedfolder list
-Oracle VM VirtualBox Guest Additions Command Line Management Interface Version 5.0.24_Ubuntu
-(C) 2008-2016 Oracle Corporation
-All rights reserved.
-
-Shared Folder mappings (1):
-
-01 - frolow
+sudo VBoxControl sharedfolder list
+mount | grep vboxsf
 ```
 
 > NOT automounting it or permanent mounting from Virtualbox. Otherwise the host dir is mounted by root
