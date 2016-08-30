@@ -27,6 +27,7 @@ If this is already set, you need to change owner to you:
 $ chown user:user ~/vbshare
 ```
 
+```
 $ mkdir ~/vbshare
 $ sudo VBoxControl guestproperty set /VirtualBox/GuestAdd/SharedFolders/MountDir ~/vbshare
 Oracle VM VirtualBox Guest Additions Command Line Management Interface Version 5.0.24_Ubuntu
