@@ -41,3 +41,8 @@ Run
 `npm i -D rollup-plugin-babel`
 
 Note: rollup-plugin-babel depends on babel-preset-es2015-rollup, so no need to think about the latter.
+
+## format
+
+> iife – A self-executing function, suitable for inclusion as a <script> tag
+> https://github.com/rollup/rollup/wiki/JavaScript-API
