@@ -49,9 +49,15 @@ In order automount and access those folders as normal user, specific steps are r
     ```bash
     sudo chown $(whoami):$(whoami) ~/vbshare
     ```
+
 6. Get list of shared folders: `sudo VBoxControl sharedfolder list`.
 
-
+- http://askubuntu.com/questions/52328/mount-virtualbox-sharedfolder-in-ubuntu-vm-on-boot/818483#818483
+- http://askubuntu.com/questions/161759/how-to-access-a-shared-folder-in-virtualbox
+- http://unix.stackexchange.com/questions/52667/file-permission-issues-with-shared-folders-under-virtual-box-ubuntu-guest-wind
+- http://serverfault.com/questions/674974/how-to-mount-a-virtualbox-shared-folder/674978
+- http://askubuntu.com/questions/252853/how-to-mount-a-virtualbox-shared-folder-at-startup
+- http://askubuntu.com/questions/30396/error-mounting-virtualbox-shared-folders-in-an-ubuntu-guest
 
 ### Packages
 
