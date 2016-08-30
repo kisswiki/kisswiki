@@ -1,3 +1,4 @@
+- https://github.com/petehunt/webpack-howto
 - [From Require.js & Grunt to Webpack. Heres how](https://blog.serverdensity.com/the-journey-to-webpack/)
 - http://www.2ality.com/2015/12/webpack-tree-shaking.html
 - http://www.2ality.com/2015/04/webpack-es6.html
