@@ -2,19 +2,16 @@
 
 ## Ubuntu guest
 
-Probably you need to install:
+You need to install:
 
 ```bash
 sudo apt-get install -y virtualbox-guest-dkms
+sudo usermod -aG vboxsf $(whoami)
 ```
 
+Restart
+
 - http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm/34871#34871
-
-No need to manually mount like `sudo mount -t vboxsf wd ~/vbshare/`
-
-Maybe needed to rerun
-
-`sudo /media/roman/VBOXADDITIONS_5.1.0_108711/VBoxLinuxAdditions.run`
 
 
 ```bash
@@ -23,10 +20,6 @@ $ sudo VBoxControl guestproperty get /VirtualBox/GuestAdd/SharedFolders/MountDir
 
 If this is already set, you need to change owner to you:
 
-```bash
-$ sudo chown user:user ~/vbshare
-$ ls -ld ~/vbshare
-```
 
 ```
 $ sudo VBoxControl guestproperty set /VirtualBox/GuestAdd/SharedFolders/MountDir ~/vbshare
@@ -35,6 +28,12 @@ Oracle VM VirtualBox Guest Additions Command Line Management Interface Version 5
 All rights reserved.
 
 Value: /home/roman/vbshare/
+```
+
+
+```bash
+$ ls -ld ~/vbshare
+$ sudo chown user:user ~/vbshare
 ```
 
 `sudo usermod -aG vboxsf $(whoami)`
