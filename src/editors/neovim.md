@@ -62,6 +62,7 @@ Testing in Ubuntu on Windows 10
   - doesn't work `set clipboard=unnamed`
   - doesn't work `:r !cat`
   - doesn't work, inserts 'Q' `set pastetoggle=<F2>`
+  - works http://stackoverflow.com/questions/2514445/turning-off-auto-indent-when-pasting-text-into-vim/31998340#31998340
 - http://superuser.com/questions/437730/always-use-set-paste-is-it-a-good-idea
 - doesn't work  https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
 - http://stackoverflow.com/questions/2555559/pasting-from-clipboard-and-automatically-toggling-set-paste
