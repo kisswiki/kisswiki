@@ -24,7 +24,7 @@ $ sudo VBoxControl guestproperty get /VirtualBox/GuestAdd/SharedFolders/MountDir
 If this is already set, you need to change owner to you:
 
 ```bash
-$ chown user:user ~/vbshare
+$ sudo chown user:user ~/vbshare
 ```
 
 ```
