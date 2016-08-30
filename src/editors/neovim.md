@@ -59,6 +59,8 @@ in config:
 
 `Plug 'ConradIrwin/vim-bracketed-paste'`
 
+But it doesn' work.
+
 - https://github.com/ConradIrwin/vim-bracketed-paste
 - http://stackoverflow.com/questions/2514445/turning-off-auto-indent-when-pasting-text-into-vim/36512548#36512548
 - http://superuser.com/questions/437730/always-use-set-paste-is-it-a-good-idea
