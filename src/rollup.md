@@ -15,6 +15,24 @@ This means that Rollup turns multiple modules into what you would have written i
 `rollup src/main.js --output bundle.js # or rollup main.js -o bundle.js`
 
 > You could also do rollup src/main.js > bundle.js, but as we'll see later, this is less flexible if you're generating sourcemaps.
+> http://rollupjs.org/guide/
+
+## config
+
+rollup.config.js
+
+```
+export default {
+  entry: 'src/main.js',
+  format: 'cjs',
+  dest: 'bundle.js' // equivalent to --output
+};
+```
+
+Run
+
+`rollup -c # or rollup -c rollup.config.js`
+
 > A config file is written in JavaScript and is more flexible than the raw CLI.
 > http://rollupjs.org/guide/
 
