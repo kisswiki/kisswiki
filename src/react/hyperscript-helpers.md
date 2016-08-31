@@ -4,6 +4,7 @@
 - https://github.com/Matt-Esch/virtual-dom/tree/master/virtual-hyperscript
 - https://github.com/rickmed/inferno-helpers
   - https://github.com/trueadm/inferno/issues/113
+- https://github.com/terinjokes/inferno-hyperscript
 - http://www.pincer.io/node/keywords/hyperscript/best
 
 ## Using tagget template literals
