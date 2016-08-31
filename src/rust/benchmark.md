@@ -8,6 +8,8 @@
 > reverse-complement why? SIMD
 > N-Body why? Oh you guessed it SIMD
 > All 5 of these tests boil down to raw FLOPS. Which C/C++ having access to SIMD instructions wins at.
+> Where exactly are the floating-point operations in fannkuch-redux Rust \#2 program ?
+Where exactly are the floating-point operations in reverse-complement ?
 > Rust is also slower in binarytrees, regexdna and fasta. SSE is not one "barely used corner case" because huge amounts of performance critical code takes advantage of it.
 > https://news.ycombinator.com/item?id=11878881
 
