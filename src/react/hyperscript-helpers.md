@@ -3,7 +3,8 @@
 - https://github.com/mlmorg/react-hyperscript
 - https://github.com/Matt-Esch/virtual-dom/tree/master/virtual-hyperscript
 - https://github.com/rickmed/inferno-helpers
-  - https://github.com/trueadm/inferno/issues/113
+- https://github.com/trueadm/inferno/issues/113
+  - https://gist.github.com/Keats/4064b28989d1fa9a8721c7202cd97c74
 - https://github.com/terinjokes/inferno-hyperscript
 - http://www.pincer.io/node/keywords/hyperscript/best
 
