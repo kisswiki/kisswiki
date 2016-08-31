@@ -7,6 +7,7 @@
 > spectral-norm why? SIMD
 > reverse-complement why? SIMD
 > N-Body why? Oh you guessed it SIMD
+> All 5 of these tests boil down to raw FLOPS. Which C/C++ having access to SIMD instructions wins at.
 > https://news.ycombinator.com/item?id=11878881
 
 - https://users.rust-lang.org/t/a-good-performance-comparision-c-and-rust/5901/8
