@@ -1,0 +1,1 @@
+- https://www.reddit.com/r/rust/comments/4dgh0e/your_opinions_on_using_rust_in_programming/
