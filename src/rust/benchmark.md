@@ -2,6 +2,11 @@
 
 > On non-SIMD tasks Rust/C are neck and neck
 > In 5 of 10 benchmarks, C is twice as fast as Rust
+> fannkuch-redux why? SIMD
+> fasta-redux why? SIMD
+> spectral-norm why? SIMD
+> reverse-complement why? SIMD
+> N-Body why? Oh you guessed it SIMD
 > https://news.ycombinator.com/item?id=11878881
 
 - https://users.rust-lang.org/t/a-good-performance-comparision-c-and-rust/5901/8
