@@ -1,1 +1,2 @@
-- Advantages of Monolithic Version Control https://news.ycombinator.com/item?id=9563544
+- http://danluu.com/monorepo/
+  - https://news.ycombinator.com/item?id=9563544
