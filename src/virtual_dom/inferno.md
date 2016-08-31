@@ -1,4 +1,5 @@
 - https://github.com/trueadm/babel-plugin-inferno
+- - Inferno 0.8 will support proper subtree patching via a clean API https://github.com/trueadm/inferno/issues/29#issuecomment-227594017
 
 ## Pros/Cons
 
