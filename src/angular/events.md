@@ -55,3 +55,5 @@ app.controller('ParentCtrl',
 
 });
 ```
+
+https://toddmotto.com/all-about-angulars-emit-broadcast-on-publish-subscribing/
