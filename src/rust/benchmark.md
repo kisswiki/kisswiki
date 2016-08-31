@@ -11,6 +11,7 @@
 > Where exactly are the floating-point operations in fannkuch-redux Rust \#2 program ?
 Where exactly are the floating-point operations in reverse-complement ?
 > Rust is also slower in binarytrees, regexdna and fasta. SSE is not one "barely used corner case" because huge amounts of performance critical code takes advantage of it.
+> The inherent 2x slow down just works out to `__m128` vs `f64`. C can double Rust's FLOP thought-put.
 > https://news.ycombinator.com/item?id=11878881
 
 - https://users.rust-lang.org/t/a-good-performance-comparision-c-and-rust/5901/8
