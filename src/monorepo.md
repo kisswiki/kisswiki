@@ -3,3 +3,4 @@
 - https://buckbuild.com/about/overview.html
 - https://www.reddit.com/r/programming/comments/41od1s/dangers_of_monorepo_projects/
 - https://github.com/babel/babel/blob/master/doc/design/monorepo.md
+- https://github.com/lerna/lerna
