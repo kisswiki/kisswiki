@@ -1,5 +1,6 @@
 - https://github.com/gajus/react-css-modules
 - https://github.com/chibicode/react-functional-css-protips
+- https://www.reddit.com/r/javascript/comments/4x1frv/should_we_load_css_in_our_javascript/
 
 ## Aphrodite
 
