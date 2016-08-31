@@ -1,2 +1,2 @@
 - vs C https://benchmarksgame.alioth.debian.org/u64q/rust.html
-- vs C++ g++ https://benchmarksgame.alioth.debian.org/u64q/compare.php?lang=gpp&lang2=rust
+- vs C++ g++ https://benchmarksgame.alioth.debian.org/u64q/compare.php?lang=gpp&lang2=rust http://benchmarksgame.alioth.debian.org/u64q/compare.php?lang=rust&lang2=gpp
