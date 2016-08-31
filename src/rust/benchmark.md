@@ -1,5 +1,9 @@
 - http://benchmarksgame.alioth.debian.org/u64q/rust.html
-  - On non-SIMD tasks Rust/C are neck and neck https://news.ycombinator.com/item?id=11878881
+
+> On non-SIMD tasks Rust/C are neck and neck
+> In 5 of 10 benchmarks, C is twice as fast as Rust
+> https://news.ycombinator.com/item?id=11878881
+
 - https://users.rust-lang.org/t/a-good-performance-comparision-c-and-rust/5901/8
 - https://users.rust-lang.org/t/why-is-rust-n-body-benchmark-slower-than-c/5951/2
 
