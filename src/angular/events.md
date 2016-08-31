@@ -32,9 +32,11 @@ function secondCtrl($scope) {
 }
 ```
 
- would additionally suggest a 4th option:
+I would additionally suggest a 4th option:
 
  Use $rootScope.$emit rather than $rootScope.$broadcast regardless of the relationship between trasmitting and receiving controller. That way, the event remains within the set of $rootScope.$$listeners whereas with $rootScope.$broadcast the event propagates to all children scopes, most of which will probably not be listeners of that event anyway.
+
+ http://stackoverflow.com/questions/14502006/working-with-scope-emit-and-on
 
  ## Unsubscribe
 
