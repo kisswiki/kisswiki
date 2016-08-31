@@ -3,4 +3,4 @@
 - https://buckbuild.com/about/overview.html
 - https://www.reddit.com/r/programming/comments/41od1s/dangers_of_monorepo_projects/
 - https://github.com/babel/babel/blob/master/doc/design/monorepo.md
-- https://github.com/lerna/lerna
+- Lerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm https://github.com/lerna/lerna
