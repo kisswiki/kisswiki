@@ -1,6 +1,7 @@
 - https://github.com/jador/react-hyperscript-helpers
 - https://github.com/ohanhi/hyperscript-helpers
 - https://github.com/mlmorg/react-hyperscript
+- https://github.com/Matt-Esch/virtual-dom/tree/master/virtual-hyperscript
 
 ## Using tagget template literals
 
