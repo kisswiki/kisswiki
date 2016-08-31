@@ -40,3 +40,18 @@ function secondCtrl($scope) {
 
 > The obvious downside to this is that the $rootScope-bound event listener will not automatically unbind itself when the directive scope is destroyed. Therefore, if your directive is ever destroyed, you have to be sure to explicitly unbind the event handler; otherwise, it will just stick around forever, causing a memory leak at best and unexpected behavior at worst.
 > http://www.bennadel.com/blog/2807-using-rootscope-emit-as-a-performance-optimization-in-angularjs.htm
+
+```
+app.controller('ParentCtrl',
+  function ParentCtrl ($scope) {
+
+  // $rootScope $on
+  var myListener = $rootScope.$on('child', function (event, data) {
+    //
+  });
+
+  // $scope $destroy
+  $scope.$on('$destroy', myListener);
+
+});
+```
