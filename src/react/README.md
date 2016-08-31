@@ -194,8 +194,3 @@ https://jsfiddle.net/rofrol/4pLjm8hu/1/
 - https://webpack.github.io/docs/stylesheets.html
 - Use 'Local scope' in isomorphics code https://github.com/webpack/css-loader/issues/59
 - https://github.com/kriasoft/isomorphic-style-loader
-
-## Stateless functional components
-
-- Props http://buildwithreact.com/article/stateless-functional-components
-- example http://jsbin.com/xowixu/edit?js,console
