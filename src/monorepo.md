@@ -2,3 +2,4 @@
   - https://news.ycombinator.com/item?id=9563544
 - https://buckbuild.com/about/overview.html
 - https://www.reddit.com/r/programming/comments/41od1s/dangers_of_monorepo_projects/
+- https://github.com/babel/babel/blob/master/doc/design/monorepo.md
