@@ -16,3 +16,10 @@
 - https://github.com/trueadm/t7
 - https://github.com/shama/bel
   - https://github.com/maxogden/yo-yo
+
+## React.createFactory
+
+> If you can't or don't want to use JSX, then please insert some hints for us. Add a React.createFactory call around your imported class when you require it:
+> https://facebook.github.io/react/blog/2014/10/14/introducing-react-elements.html
+
+http://ludovf.net/reactbook/blog/reactjs-without-jsx-part2.html
