@@ -1,3 +1,4 @@
 - https://github.com/search?l=JavaScript&q=autocomplete&type=Repositories&utf8=%E2%9C%93
 - https://github.com/mmurph211/Autocomplete
 - https://github.com/matthewmueller/autocomplete
+- https://lhncbc.github.io/autocomplete-lhc/
