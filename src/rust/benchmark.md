@@ -1,0 +1,1 @@
+- vs C https://benchmarksgame.alioth.debian.org/u64q/rust.html
