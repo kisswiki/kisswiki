@@ -1,3 +1,4 @@
 - http://danluu.com/monorepo/
   - https://news.ycombinator.com/item?id=9563544
 - https://buckbuild.com/about/overview.html
+- https://www.reddit.com/r/programming/comments/41od1s/dangers_of_monorepo_projects/
