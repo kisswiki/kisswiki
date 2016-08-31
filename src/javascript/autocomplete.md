@@ -2,4 +2,5 @@
 - https://github.com/mmurph211/Autocomplete
 - https://github.com/matthewmueller/autocomplete
 - https://github.com/lhncbc/autocomplete-lhc
+- https://github.com/Pixabay/JavaScript-autoComplete
 - http://jsfiddle.net/karthic2914/wsLre0f7/
