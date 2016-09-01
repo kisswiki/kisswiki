@@ -3,3 +3,4 @@
 - http://www.sulmet.com.pl/pl/aktualnosci/2014/1032
 - http://siadamy.pl/sklep/5-biurka
 - http://10tysiecy.pl/krzesla-biurowe-sa-passe-zobacz-na-czym-sie-siedzi-pracy/
+- https://www.standdesk.co/products/build-your-standing-desk
