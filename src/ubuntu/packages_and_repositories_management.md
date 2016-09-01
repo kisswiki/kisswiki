@@ -27,3 +27,11 @@ http://askubuntu.com/questions/38021/how-to-add-a-ppa-on-a-server/38029#38029
 `debfoster -d $PACKAGE`
 
 - http://unix.stackexchange.com/questions/29653/list-recursive-dependencies-of-the-installed-packages-in-apt
+
+## install updates
+
+```bash
+sudo apt-get update        # Fetches the list of available updates
+sudo apt-get upgrade       # Strictly upgrades the current packages
+sudo apt-get dist-upgrade  # Installs updates (new ones)
+```
