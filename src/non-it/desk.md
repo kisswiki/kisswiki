@@ -8,6 +8,7 @@
 - http://meblem4.pl/biurka-proste,c4.html
 - https://www.bodzio.pl/produkt/biurko-100-cm-jablon-1350
 - http://mebline.pl/4280-biurka-komputerowe/eu21-tanie-biurko-euforia-do-biura
+- http://olx.pl/oferta/biurko-proste-9080-orzech-jm48-CID628-IDgpnAX.html
 
 ## Stand/sit regulated
 
