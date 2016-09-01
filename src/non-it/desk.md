@@ -5,6 +5,7 @@
 ## Non-regulated
 
 - http://meblem4.pl/biurka-proste,c4.html
+- https://www.bodzio.pl/produkt/biurko-100-cm-jablon-1350
 
 ## Stand/sit regulated
 
