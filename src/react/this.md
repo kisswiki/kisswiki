@@ -1,0 +1,1 @@
+- https://www.sitepoint.com/bind-javascripts-this-keyword-react/
