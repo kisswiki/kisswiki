@@ -7,6 +7,7 @@
 - http://allegro.pl/biurko-euforia-biuro-pokoj-mlodziezowy-meble-i5966175738.html
 - http://meblem4.pl/biurka-proste,c4.html
 - https://www.bodzio.pl/produkt/biurko-100-cm-jablon-1350
+- http://mebline.pl/4280-biurka-komputerowe/eu21-tanie-biurko-euforia-do-biura
 
 ## Stand/sit regulated
 
