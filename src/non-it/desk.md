@@ -2,3 +2,4 @@
   -  http://www.ajprodukty.pl/stoly/biurka/biurko-z-blatem-prostokatnym-napedem-elektrycznym/6210995-1179043.wf
 - http://www.sulmet.com.pl/pl/aktualnosci/2014/1032
 - http://siadamy.pl/sklep/5-biurka
+- http://10tysiecy.pl/krzesla-biurowe-sa-passe-zobacz-na-czym-sie-siedzi-pracy/
