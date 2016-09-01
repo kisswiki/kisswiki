@@ -9,6 +9,7 @@
 ## Stand/sit regulated
 
 - http://seoninja.pl/457/to-juz-prawie-rok-czasu-jak-pracuje-na-stojaco.html
+- http://www.spidersweb.pl/2016/05/biurko-pracy-stojacej-siedzacej-fotel-ergonomiczny.html
 - 1595 PLN, Szerokość: 800 mmm, Wysokość:	660-1180 mm, Obciążenie: 100, Długość: 1000 mm
   -  http://www.ajprodukty.pl/stoly/biurka/biurko-z-blatem-prostokatnym-napedem-elektrycznym/6210995-1179043.wf
 - http://www.sulmet.com.pl/pl/aktualnosci/2014/1032
