@@ -15,15 +15,6 @@
   - http://npm1k.org/
   - https://spdx.org/licenses/
   - https://spdx.org/licenses/licenses.json
-- defaults http://iamsim.me/set-your-npm-init-defaults/
-
-  ```
-  $ npm config set init.author.name "Simon Ljungberg"
-  $ npm config set init.author.email hi@iamsim.me
-  $ npm config set init.author.url http://iamsim.me/
-  $ npm config set init.license Apache-2.0
-  $ npm config set save-exact true # http://stackoverflow.com/questions/30656189/make-npm-install-save-add-a-strict-version-to-package-json
-  ```
 - npm3 dependencies https://docs.npmjs.com/how-npm-works/npm3
 - show package versions: `npm show <pkg> versions; npm show <pkg> dist-tags; npm show <pkg> version; npm show <pkg> versions --json;`
 
