@@ -24,7 +24,7 @@ http://askubuntu.com/questions/38021/how-to-add-a-ppa-on-a-server/38029#38029
 - http://serverfault.com/questions/577942/install-only-dependencies-of-a-given-package-in-debian-or-ubuntu-apt
 - http://unix.stackexchange.com/questions/11939/how-to-get-only-the-unique-results-without-having-to-sort-data
 
-`debfoster -d $PACKAGE`
+`debfoster -d $PACKAGE` 
 
 - http://unix.stackexchange.com/questions/29653/list-recursive-dependencies-of-the-installed-packages-in-apt
 
