@@ -1,1 +1,2 @@
 - https://www.sitepoint.com/bind-javascripts-this-keyword-react/
+- https://www.reddit.com/r/reactjs/comments/2zgmiq/props_being_passed_as_undefined_instead_of_their/cpips3g
