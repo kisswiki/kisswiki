@@ -35,3 +35,8 @@ sudo apt-get update        # Fetches the list of available updates
 sudo apt-get upgrade       # Strictly upgrades the current packages
 sudo apt-get dist-upgrade  # Installs updates (new ones)
 ```
+
+## updagre release
+
+- http://askubuntu.com/questions/110477/how-do-i-upgrade-to-a-newer-version-of-ubuntu
+- http://askubuntu.com/questions/5763/upgrading-from-the-command-line
