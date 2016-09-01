@@ -1,6 +1,9 @@
 ## Install packages in home dir
 
 ```bash
+NPM_PACKAGES="$HOME/.npm-packages"
+mkdir -p "$NPM_PACKAGES"
+
 # NPM packages in homedir
 NPM_PACKAGES="$HOME/.npm-packages"
 
