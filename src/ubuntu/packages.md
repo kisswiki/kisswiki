@@ -20,3 +20,4 @@ sudo apt-get install -y nodejs
 - https://github.com/tj/n
 - http://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
 - http://stackoverflow.com/questions/34974535/install-latest-nodejs-version-in-ubuntu-14-04
+- http://askubuntu.com/questions/672994/how-to-install-nodejs-4-using-apt
