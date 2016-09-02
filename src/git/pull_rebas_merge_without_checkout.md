@@ -41,5 +41,5 @@ $ git fetch origin master:master
 $ git fetch . HEAD:master
 From .
 5fdd090..2fd282c             -> master
-PS C:\projects\xbg-adminbox\xbg-ab-pa-web> git push origin master
+$ git push origin master
 ```
