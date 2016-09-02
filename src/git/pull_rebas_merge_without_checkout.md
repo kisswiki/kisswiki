@@ -34,7 +34,7 @@ From https://webapp-entw.mlp.de/fisheye/git/xbg-pa-adminbox
 $ git fetch . origin/master:master
 From .
 ! [rejected]        origin/master -> master  (non-fast-forward)
-PS C:\projects\xbg-adminbox\xbg-ab-pa-web> git fetch -f . origin/master:master
+$ git fetch -f . origin/master:master
 From .
 + 2fd282c...5fdd090 origin/master -> master  (forced update)
 $ git fetch origin master:master
