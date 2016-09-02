@@ -1,0 +1,3 @@
+- http://downdetector.pl/status/upc/piaseczno
+- UPC, bez zobowiązań, do 120 Mb/s, 29 kanałów (3 HD) tv, 69 zł/mc, 59 zł opłata instalacyjna, możliwy NIP na fakturze https://promocje.upc.pl/pakiety-na-start/#bez-zobowiazania
+- Orange, do 80 Mb/s, 39.90 zł/mc
