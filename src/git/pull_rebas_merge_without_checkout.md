@@ -37,8 +37,8 @@ From .
 PS C:\projects\xbg-adminbox\xbg-ab-pa-web> git fetch -f . origin/master:master
 From .
 + 2fd282c...5fdd090 origin/master -> master  (forced update)
-PS C:\projects\xbg-adminbox\xbg-ab-pa-web> git fetch origin master:master
-PS C:\projects\xbg-adminbox\xbg-ab-pa-web> git fetch . HEAD:master
+$ git fetch origin master:master
+$ git fetch . HEAD:master
 From .
 5fdd090..2fd282c             -> master
 PS C:\projects\xbg-adminbox\xbg-ab-pa-web> git push origin master
