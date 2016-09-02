@@ -29,7 +29,7 @@ hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 $ git fetch origin master:master
-From https://webapp-entw.mlp.de/fisheye/git/xbg-pa-adminbox
+From <repo>
 ! [rejected]        master     -> master  (non-fast-forward)
 $ git fetch . origin/master:master
 From .
