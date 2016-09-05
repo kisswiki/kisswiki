@@ -18,7 +18,7 @@ I had to unattach it from `Ubuntu VM > Settings > Storage > Controller: SATA`, t
 
 > Keeping the NAT adapter and adding a second host-only adapter works amazing, and is crucial for laptops (where the external network always changes).
 > http://stackoverflow.com/questions/5906441/how-to-ssh-to-a-virtualbox-guest-externally-through-a-host/10410527#10410527
-
+npm
 - http://superuser.com/questions/424083/virtualbox-host-ssh-to-guest/424115#424115
 - http://stackoverflow.com/questions/5906441/how-to-ssh-to-a-virtualbox-guest-externally-through-a-host/27152153#27152153
 
