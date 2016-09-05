@@ -16,3 +16,5 @@ static domain_name_servers=192.168.56.1 8.8.8.8
 systemctl start dhcpd
 systemctl enable dhcpd
 ```
+
+- https://wiki.archlinux.org/index.php/Dhcpcd#Static_profile
