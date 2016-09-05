@@ -1,3 +1,12 @@
+## On guest
+
+```
+systemctl enable sshd
+systemctl start sshd
+```
+
+## On host
+
 ```
 ssh-keygen -t rsa
 ssh-copy-id username@remotehost
