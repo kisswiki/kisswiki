@@ -3,6 +3,7 @@
 - http://antyweb.pl/oferty-na-abonament-internet-mobilny/
 - http://salony-orange.wp.pl
 - http://www.spidersweb.pl/2016/08/no-limit-na-karte.html
+- http://www.wykop.pl/link/3341793/orange-ogranicza-predkosc-internetu-lte-bez-limitu-do-5mbit-s/
 
 ## Internet
 
