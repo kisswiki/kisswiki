@@ -4,6 +4,7 @@
 - http://www.arewewebyet.org/topics/deploy/
 - https://github.com/fnichol/docker-rust
 - https://github.com/Scorpil/docker-rust
+- https://github.com/emk/heroku-rust-cargo-hello
 
 ## Use docker or install compiler on production machine?
 
