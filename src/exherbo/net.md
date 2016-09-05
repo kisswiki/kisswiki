@@ -18,3 +18,4 @@ systemctl enable dhcpd
 ```
 
 - https://wiki.archlinux.org/index.php/Dhcpcd#Static_profile
+- https://wiki.gentoo.org/wiki/Static_Routing
