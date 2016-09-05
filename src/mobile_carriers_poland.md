@@ -3,7 +3,9 @@
 - http://antyweb.pl/oferty-na-abonament-internet-mobilny/
 - http://salony-orange.wp.pl
 - http://www.spidersweb.pl/2016/08/no-limit-na-karte.html
-- http://www.wykop.pl/link/3341793/orange-ogranicza-predkosc-internetu-lte-bez-limitu-do-5mbit-s/
+
+> W którym miejscu jest napisane "po 20 minutach użytkowania internetu pełną prędkością zmniejszamy prędkość do 5mb/s", bo nie mogę znaleźć?
+> http://www.wykop.pl/link/3341793/orange-ogranicza-predkosc-internetu-lte-bez-limitu-do-5mbit-s/
 
 ## Internet
 
