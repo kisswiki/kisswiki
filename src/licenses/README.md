@@ -61,6 +61,11 @@ Use Apache. Why be concerned about license length? Include the license once and 
 > Software can become “Incompatible With Secondary Licenses” in one of two ways: the original author marks it as such by adding the file header in Exhibit B, or the original author published the software under MPL 1.1 and did not dual- or tri-license the code with the (L)GPL.
 > https://www.mozilla.org/en-US/MPL/2.0/FAQ/
 
+<br>
+
+> If the initial MPLv2.0 copyright holder explicitly states that the code is "Incompatible with Secondary Licenses", then they are opting out of the compatibility scheme, and the license is GPL-incompatible.
+> https://fedoraproject.org/wiki/Licensing/MPLv2.0
+
 ## MIT
 
 > It’s no secret many individuals and also companies use the MIT license, because it is one of the most permissive free software licenses. With MIT you can do whatever you like, you only need to make sure you’re following this one rule: add a copy of the original MIT license and copyright notice to it.
