@@ -24,3 +24,8 @@ Use Apache. Why be concerned about license length? Include the license once and 
 ## MPLv2
 
 - weak copyleft
+
+## MIT
+
+> It’s no secret many individuals and also companies use the MIT license, because it is one of the most permissive free software licenses. With MIT you can do whatever you like, you only need to make sure you’re following this one rule: add a copy of the original MIT license and copyright notice to it.
+> https://www.quora.com/Whats-the-different-between-Apache-v2-0-and-MIT-license/answer/Sivan-Michaeli-Roimi
