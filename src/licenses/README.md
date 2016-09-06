@@ -51,6 +51,15 @@ Use Apache. Why be concerned about license length? Include the license once and 
 - https://www.mozilla.org/en-US/MPL/2.0/FAQ/
 - https://en.wikipedia.org/wiki/Mozilla_Public_License
 
+> By allowing proprietary modules in derived projects while requiring core files to remain open source, the MPL is designed to motivate both businesses and the open-source community to help develop core software.
+> The one exception to covered source files remaining under the MPL occurs when code under version 2.0 or later is are combined with separate code files under the GNU GPL, GNU Lesser GPL (LGPL), or GNU Affero GPL (AGPL). In this case, the program as a whole will be under the chosen GNU license, but the MPL-covered files will be dual-licensed, so that recipients can choose to distribute them under that GNU License or the MPL. The initial author of MPL code may choose to opt out of this GPL-compatibility by adding a notice to their source files.
+> https://en.wikipedia.org/wiki/Mozilla_Public_License
+
+<br>
+
+> Software can become “Incompatible With Secondary Licenses” in one of two ways: the original author marks it as such by adding the file header in Exhibit B, or the original author published the software under MPL 1.1 and did not dual- or tri-license the code with the (L)GPL.
+> https://www.mozilla.org/en-US/MPL/2.0/FAQ/
+
 ## MIT
 
 > It’s no secret many individuals and also companies use the MIT license, because it is one of the most permissive free software licenses. With MIT you can do whatever you like, you only need to make sure you’re following this one rule: add a copy of the original MIT license and copyright notice to it.
