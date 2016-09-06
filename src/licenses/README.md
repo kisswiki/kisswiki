@@ -11,7 +11,8 @@
 
 ## Apache
 
-http://www.apache.org/licenses/GPL-compatibility.html
+- http://www.apache.org/licenses/GPL-compatibility.html
+- http://www.apache.org/legal/3party.html
 
 ## MPLv2
 
