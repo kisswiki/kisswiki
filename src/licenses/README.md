@@ -12,7 +12,7 @@
 ## Apache
 
 - http://www.apache.org/licenses/GPL-compatibility.html
-- http://www.apache.org/legal/3party.html
+- http://www.apache.org/legal/resolved.html#required-third-party-notices
 
 ## MPLv2
 
