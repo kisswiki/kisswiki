@@ -3,3 +3,7 @@
 ## Apache
 
 http://www.apache.org/licenses/GPL-compatibility.html
+
+## MPLv2
+
+- weak copyleft
