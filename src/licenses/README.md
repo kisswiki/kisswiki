@@ -15,6 +15,10 @@
 - http://www.apache.org/legal/resolved.html#required-third-party-notices
 - https://www.quora.com/Is-the-trademark-portion-of-Apache-2-0-license-unnecessary
 
+> MIT has a killer failing: it was developed prior to the onset of software patents, and so has no patent release. This dooms it to being appropriate for only trivial projects. It doesn't matter if you think there's nothing patentable in your code: others don't know that. If you want people to use your code in this day and age, a patent release is critically important.
+Use Apache. Why be concerned about license length? Include the license once and then refer to it in your source copies. No big deal.
+> https://news.ycombinator.com/item?id=3402450
+
 ## MPLv2
 
 - weak copyleft
