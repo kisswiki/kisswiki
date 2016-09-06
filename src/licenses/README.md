@@ -13,6 +13,7 @@
 
 - http://www.apache.org/licenses/GPL-compatibility.html
 - http://www.apache.org/legal/resolved.html#required-third-party-notices
+- https://www.quora.com/Is-the-trademark-portion-of-Apache-2-0-license-unnecessary
 
 ## MPLv2
 
