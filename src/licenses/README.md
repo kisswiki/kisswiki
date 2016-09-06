@@ -16,6 +16,7 @@
 > The Apache License doesn’t have any such requirements. It’s a permissive license.
 > It permits you to release the modified parts of the code under any license of your choice.
 > However, you are required to release all the unmodified parts of the software under the same license (the Apache License).
+> Additionally, every licensed file must contain any original copyright, patent, trademark, and attribution notices in its redistributed code. Each modified file must also contain a notice about all the changes made to the original file.
 > http://www.whitesourcesoftware.com/whitesource-blog/top-10-apache-license-questions-answered/
 
 ## Apache
