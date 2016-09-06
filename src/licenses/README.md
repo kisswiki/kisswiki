@@ -7,6 +7,7 @@
 - http://stackoverflow.com/questions/2982364/how-does-apache-2-0-license-differ-from-gpl
 - https://www.amazon.com/Intellectual-Property-Open-Source-Protecting/dp/0596517963
 - https://www.gnu.org/licenses/license-list.en.html
+- http://opensource.stackexchange.com/questions/1255/how-is-selling-floss-packages-for-monetary-compensation-a-viable-strategy
 
 > Open-source licenses require different degrees of reciprocity from a licensee
 > http://zgp.org/~dmarti/qanda/what-are-the-differences-between-open-source-licenses/
