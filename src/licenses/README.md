@@ -49,6 +49,7 @@ Use Apache. Why be concerned about license length? Include the license once and 
 
 - weak copyleft https://julien.ponge.org/blog/mozilla-public-license-v2-a-good-middleground/
 - https://www.mozilla.org/en-US/MPL/2.0/FAQ/
+- https://en.wikipedia.org/wiki/Mozilla_Public_License
 
 ## MIT
 
