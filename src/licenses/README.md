@@ -3,6 +3,7 @@
   - http://choosealicense.com/licenses/
 - https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
 - https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)
+- https://tldrlegal.com/license/mozilla-public-license-2.0-(mpl-2)
 
 ## Apache
 
