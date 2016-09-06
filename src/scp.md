@@ -8,7 +8,7 @@ Instead provide a file name for the destination:
 
 `scp user@host:/path/to/file file`
 
-or path, for current directory it will be $PWD:
+or path. For current directory:
 
 `scp user@host:/path/to/file $PWD`
 
