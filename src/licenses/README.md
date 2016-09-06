@@ -1,6 +1,8 @@
 - https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses
 - http://choosealicense.com/
   - http://choosealicense.com/licenses/
+- https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
+- https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)
 
 ## Apache
 
