@@ -58,6 +58,8 @@ Use Apache. Why be concerned about license length? Include the license once and 
 
 ### Compatibility
 
+- http://opensource.stackexchange.com/questions/4056/what-is-required-of-a-party-who-receives-a-larger-work-under-the-mozilla-public
+
 > Q14: May I combine MPL-licensed code and (L)GPL-licensed code in the same executable program?
 > Software can become “Incompatible With Secondary Licenses” in one of two ways: the original author marks it as such by adding the file header in Exhibit B, or the original author published the software under MPL 1.1 and did not dual- or tri-license the code with the (L)GPL.
 > https://www.mozilla.org/en-US/MPL/2.0/FAQ/
