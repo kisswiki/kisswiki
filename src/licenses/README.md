@@ -9,7 +9,6 @@
 - https://www.amazon.com/Intellectual-Property-Open-Source-Protecting/dp/0596517963
 - https://www.gnu.org/licenses/license-list.en.html
 - http://opensource.stackexchange.com/questions/1255/how-is-selling-floss-packages-for-monetary-compensation-a-viable-strategy
-- http://opensource.stackexchange.com/questions/1675/why-arent-creative-commons-licenses-appropriate-for-data
 - Analiza porównawcza modeli licencjonowania oprogramowania http://prawo.vagla.pl/node/8314
 
 > Open-source licenses require different degrees of reciprocity from a licensee
@@ -24,6 +23,18 @@
 
 > polskie prawo pozwala na odwołanie dowolnej licencji (really?)
 > http://prawo.vagla.pl/node/8314#comment-24579
+
+## Copyrightable
+
+> The applicability of CC licenses to data depends on whether data can be copyrighted. If data cannot be copyrighted, then there is no point to putting a CC license on them because those licenses waive rights that the data creators do not have.
+>
+> So what kinds of works are protected by copyright? Though laws vary across jurisdictions (and thus make this question difficult to answer), two important principles are the "Idea-Expression divide" and "the threshold of originality". In the former, only expressions of ideas can be copyrighted, while ideas themselves cannot be. In the latter, among expressions, only those that are original are protected (thus reproductions of works do not earn copyright protection de novo).
+>
+> Thus data only have copyright protection if they are an expression of an idea rather than idea itself and if they are not simply "facts" (i.e., they are something sufficiently original).
+>
+> - In the United States, this almost universally means that data cannot be copyrighted. A classic legal case here is Feist Publications, Inc., v. Rural Telephone Service Co., which ruled that telephone number listings in a phonebook are not protected by copyright. Importantly, nothing produced by the federal government has copyright protection (all federal government works are in the public domain, but this does not necessarily apply to other levels of government).
+> - In Europe, however, databases do have copyright-like protection. Not all databases are protected; protection comes from "qualitatively and/or quantitatively a substantial investment in either the obtaining, verification or presentation of the contents". Such rights extend for 15 years.
+> http://opensource.stackexchange.com/questions/1675/why-arent-creative-commons-licenses-appropriate-for-data
 
 ## copyleft vs permissive
 
