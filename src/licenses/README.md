@@ -57,6 +57,13 @@ Reusable without rewording: Apache License 2.0 can be easily used by other proje
 Use Apache. Why be concerned about license length? Include the license once and then refer to it in your source copies. No big deal.
 > https://news.ycombinator.com/item?id=3402450
 
+<br>
+
+> Upvote for Apache, because:
+> - with MPL one would have to include the full original script in case of redistribution with modifications. Feels a bit awkward in case of a shell-script.
+> - with Apache you can redistribute and reuse with modifications but must state  the changes, which seems more  appropriate for a community-project.
+> https://github.com/srvrco/getssl/issues/24#issuecomment-185555332
+
 ## MPLv2
 
 - weak copyleft https://julien.ponge.org/blog/mozilla-public-license-v2-a-good-middleground/
