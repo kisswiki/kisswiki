@@ -4,6 +4,7 @@
 - https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
 - https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)
 - https://tldrlegal.com/license/mozilla-public-license-2.0-(mpl-2)
+- http://stackoverflow.com/questions/2982364/how-does-apache-2-0-license-differ-from-gpl
 
 ## Apache
 
