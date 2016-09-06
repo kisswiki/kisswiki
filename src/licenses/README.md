@@ -59,6 +59,9 @@ Use Apache. Why be concerned about license length? Include the license once and 
 
 <br>
 
+> Apache 2.0 - Like MIT/X11/BSD, but with patent protection
+MPLv2 - Like GPL, but only protects itself. A second file that's combined "in-memory" is not required to be GPL. It's OK to combine in-memory with files of differing licenses.
+>
 > Upvote for Apache, because:
 > - with MPL one would have to include the full original script in case of redistribution with modifications. Feels a bit awkward in case of a shell-script.
 > - with Apache you can redistribute and reuse with modifications but must state  the changes, which seems more  appropriate for a community-project.
