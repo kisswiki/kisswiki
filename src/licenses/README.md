@@ -17,6 +17,9 @@
 > It permits you to release the modified parts of the code under any license of your choice.
 > However, you are required to release all the unmodified parts of the software under the same license (the Apache License).
 > Additionally, every licensed file must contain any original copyright, patent, trademark, and attribution notices in its redistributed code. Each modified file must also contain a notice about all the changes made to the original file.
+>
+> The Apache License is also a permissive license. However, it has stringent terms when it comes to modifications. It requires you to explicitly list out all the modifications that you’ve done in the original software, i.e., you’re required to preserve modification notices. The Apache License also states clearly that you can’t name your product in any way that hints at the product being endorsed by Apache. So you can call your product “SuperWonderServer powered by Apache” but not “Apache SuperWonderServer”. The MIT license doesn’t impose any such terms.
+The MIT license is also gaining popularity with developers due to its short and clear license agreement, in contrast to the Apache license agreement. Although the Apache License is nearly identical in terms of what you can and can't do, it is much more heavily "lawyered" and is significantly more verbose. Heck, the appendix alone, which explains how to apply the license, is longer than the entire MIT license.
 > http://www.whitesourcesoftware.com/whitesource-blog/top-10-apache-license-questions-answered/
 
 ## Apache
