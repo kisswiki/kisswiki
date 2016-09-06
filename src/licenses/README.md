@@ -113,3 +113,8 @@ Use Apache. Why be concerned about license length? Include the license once and 
 
 > It’s no secret many individuals and also companies use the MIT license, because it is one of the most permissive free software licenses. With MIT you can do whatever you like, you only need to make sure you’re following this one rule: add a copy of the original MIT license and copyright notice to it.
 > https://www.quora.com/Whats-the-different-between-Apache-v2-0-and-MIT-license/answer/Sivan-Michaeli-Roimi
+
+## Creative Commons
+
+> you can take something that's CC, and something that's GPL, mix the two, and legally license the result as GPL
+> https://www.reddit.com/r/linux/comments/3nz78a/cc_bysa_40_now_oneway_compatible_with_gplv3/
