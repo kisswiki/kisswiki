@@ -1,0 +1,2 @@
+- https://en.wikipedia.org/wiki/HTTP_compression
+- http://stackoverflow.com/questions/388595/why-use-deflate-instead-of-gzip-for-text-files-served-by-apache
