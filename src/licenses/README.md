@@ -13,7 +13,7 @@
 ## copyleft
 
 > Copyleft licenses require the derivative works or modified versions of existing software to be released under the same license.
->  The Apache License doesn’t have any such requirements. It’s a permissive license.
+> The Apache License doesn’t have any such requirements. It’s a permissive license.
 > It permits you to release the modified parts of the code under any license of your choice.
 > However, you are required to release all the unmodified parts of the software under the same license (the Apache License).
 > http://www.whitesourcesoftware.com/whitesource-blog/top-10-apache-license-questions-answered/
