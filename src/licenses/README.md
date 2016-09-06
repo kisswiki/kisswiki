@@ -51,6 +51,7 @@ Reusable without rewording: Apache License 2.0 can be easily used by other proje
 - Overview http://oss-watch.ac.uk/resources/apache2
 - http://www.whitesourcesoftware.com/whitesource-blog/top-10-apache-license-questions-answered/
 - http://opensource.stackexchange.com/questions/1453/copyfree-open-innovation-license-compatibility
+- http://computerlaw.pl/2014/02/licencja-apache-2-0-po-polsku-wersja-dla-programisty/
 
 > MIT has a killer failing: it was developed prior to the onset of software patents, and so has no patent release. This dooms it to being appropriate for only trivial projects. It doesn't matter if you think there's nothing patentable in your code: others don't know that. If you want people to use your code in this day and age, a patent release is critically important.
 Use Apache. Why be concerned about license length? Include the license once and then refer to it in your source copies. No big deal.
