@@ -10,6 +10,7 @@
 - https://www.gnu.org/licenses/license-list.en.html
 - http://opensource.stackexchange.com/questions/1255/how-is-selling-floss-packages-for-monetary-compensation-a-viable-strategy
 - http://opensource.stackexchange.com/questions/1675/why-arent-creative-commons-licenses-appropriate-for-data
+- Analiza porównawcza modeli licencjonowania oprogramowania http://prawo.vagla.pl/node/8314
 
 > Open-source licenses require different degrees of reciprocity from a licensee
 > http://zgp.org/~dmarti/qanda/what-are-the-differences-between-open-source-licenses/
