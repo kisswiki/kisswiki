@@ -25,4 +25,5 @@ Command Output (stderr):
 ^
 ```
 
-https://bugs.gentoo.org/show_bug.cgi?id=583284
+- https://bugs.gentoo.org/show_bug.cgi?id=583284
+  - http://gentoobrowse.randomdan.homeip.net/package/sys-devel/llvm
