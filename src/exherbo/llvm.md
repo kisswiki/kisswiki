@@ -22,3 +22,5 @@ Command Output (stderr):
 ??:0:0
 ^
 ```
+
+https://bugs.gentoo.org/show_bug.cgi?id=583284
