@@ -11,3 +11,4 @@ Instead provide a file name for the destination:
 - http://askubuntu.com/questions/66492/scp-copy-over-ssh-doesnt-work-permission-denied-error-please
 - http://unix.stackexchange.com/questions/47909/transfer-files-using-scp-permission-denied
 - http://superuser.com/questions/944235/cant-scp-file-from-local-to-remote-host-permission-denied
+- http://stackoverflow.com/questions/19777357/getting-permission-denied-for-scp-over-ssh-server-to-local
