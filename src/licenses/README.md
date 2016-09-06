@@ -20,6 +20,12 @@
 >
 > The Apache License is also a permissive license. However, it has stringent terms when it comes to modifications. It requires you to explicitly list out all the modifications that you’ve done in the original software, i.e., you’re required to preserve modification notices. The Apache License also states clearly that you can’t name your product in any way that hints at the product being endorsed by Apache. So you can call your product “SuperWonderServer powered by Apache” but not “Apache SuperWonderServer”. The MIT license doesn’t impose any such terms.
 The MIT license is also gaining popularity with developers due to its short and clear license agreement, in contrast to the Apache license agreement. Although the Apache License is nearly identical in terms of what you can and can't do, it is much more heavily "lawyered" and is significantly more verbose. Heck, the appendix alone, which explains how to apply the license, is longer than the entire MIT license.
+>
+> 7. What is the difference between Apache License 2.0 and BSD?
+> The key differences between the two licenses are:
+Explicit grant of patent rights: Apache License 2.0 explicitly lays down the grant of patent rights while using, modifying or distributing Apache licensed software; it also lists the circumstances when such grant gets withdrawn.
+Clear definitions of the used concepts: Apache License 2.0 explicitly defines all the terms and concepts that it uses. This leaves little scope for ambiguity.
+Reusable without rewording: Apache License 2.0 can be easily used by other projects without any rewording in the license document itself.
 > http://www.whitesourcesoftware.com/whitesource-blog/top-10-apache-license-questions-answered/
 
 ## Apache
