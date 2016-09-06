@@ -1,4 +1,4 @@
-```
+```bash
 > 16
 LLVM :: tools/llvm-symbolizer/print_context.c
 ^MFAIL: LLVM :: tools/llvm-symbolizer/print_context.c (14192 of 15616)
