@@ -20,6 +20,11 @@
 > Both BSD and Apache licenses are permissive. You can use code licensed under either license to create code licensed under a different one (or one of the above, or even both).
 > https://www.quora.com/We-are-developing-a-tool-with-Apache-license-2-0-Can-I-use-this-dependency-with-BSD-license-http-mvnrepository-com-artifac
 
+<br>
+
+> polskie prawo pozwala na odwołanie dowolnej licencji (really?)
+> http://prawo.vagla.pl/node/8314#comment-24579
+
 ## copyleft vs permissive
 
 > Copyleft licenses require the derivative works or modified versions of existing software to be released under the same license.
