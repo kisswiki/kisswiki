@@ -1,3 +1,5 @@
+`cave resolve rust -x`
+
 ```bash
 > 16
 LLVM :: tools/llvm-symbolizer/print_context.c
