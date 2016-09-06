@@ -55,7 +55,7 @@ Use Apache. Why be concerned about license length? Include the license once and 
 > The one exception to covered source files remaining under the MPL occurs when code under version 2.0 or later is are combined with separate code files under the GNU GPL, GNU Lesser GPL (LGPL), or GNU Affero GPL (AGPL). In this case, the program as a whole will be under the chosen GNU license, but the MPL-covered files will be dual-licensed, so that recipients can choose to distribute them under that GNU License or the MPL. The initial author of MPL code may choose to opt out of this GPL-compatibility by adding a notice to their source files.
 > https://en.wikipedia.org/wiki/Mozilla_Public_License
 
-<br>
+### Compatibility
 
 > Q14: May I combine MPL-licensed code and (L)GPL-licensed code in the same executable program?
 > Software can become “Incompatible With Secondary Licenses” in one of two ways: the original author marks it as such by adding the file header in Exhibit B, or the original author published the software under MPL 1.1 and did not dual- or tri-license the code with the (L)GPL.
@@ -65,6 +65,14 @@ Use Apache. Why be concerned about license length? Include the license once and 
 
 > If the initial MPLv2.0 copyright holder explicitly states that the code is "Incompatible with Secondary Licenses", then they are opting out of the compatibility scheme, and the license is GPL-incompatible.
 > https://fedoraproject.org/wiki/Licensing/MPLv2.0
+
+<br>
+
+> 1.5. “Incompatible With Secondary Licenses”
+> means
+> that the initial Contributor has attached the notice described in Exhibit B to the Covered Software; or
+> that the Covered Software was made available under the terms of version 1.1 or earlier of the License, but not also under the terms of a Secondary License.
+> https://www.mozilla.org/en-US/MPL/2.0/
 
 ## MIT
 
