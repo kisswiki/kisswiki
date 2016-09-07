@@ -65,3 +65,10 @@
 ` - [ ] I understand that GitHub issues are not for tech support, but for questions specific to this generator, bug reports, and feature requests.`
 
 https://github.com/angular-fullstack/generator-angular-fullstack/issues/new
+
+
+## List of branches a commit appears on
+
+`https://api.github.com/repos/:user/:repo/compare/:branch...:sha_of_commit`
+
+http://stackoverflow.com/questions/23899329/list-of-branches-a-commit-appears-on/23970412#23970412
