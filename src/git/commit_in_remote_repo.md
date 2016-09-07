@@ -1,0 +1,1 @@
+- http://stackoverflow.com/questions/5549479/git-check-if-commit-xyz-in-remote-repo
