@@ -19,6 +19,6 @@ Only read:
 
 ## Without phone
 
-https://accounts.google.com/SignUp
+Just go to https://accounts.google.com/SignUp
 
 https://www.quora.com/What-is-a-way-to-create-many-Gmail-accounts-without-mobile-number-verification
