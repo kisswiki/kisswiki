@@ -29,3 +29,12 @@
 > 2. https://github.com/ottypes/rich-text
 > 3. https://github.com/ericeslinger/delta-transform-html
 > https://news.ycombinator.com/item?id=12437829
+
+<br>
+
+> I'd love to see some work on doing OT with Quill deltas.
+A simple Quill + Meteor/Firebase bridge could be a pretty great, easy to spin-up, real-time collaborative document editing tool.
+>
+> Quill's OT type is compatible with ShareDB, which provides a simple to use backend that takes care of all this coordination. Here is a simple example of using the two together:
+> https://github.com/share/sharedb/tree/master/examples/rich-text
+> https://news.ycombinator.com/item?id=12438606
