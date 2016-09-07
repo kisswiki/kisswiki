@@ -38,3 +38,11 @@ A simple Quill + Meteor/Firebase bridge could be a pretty great, easy to spin-up
 > Quill's OT type is compatible with ShareDB, which provides a simple to use backend that takes care of all this coordination. Here is a simple example of using the two together:
 > https://github.com/share/sharedb/tree/master/examples/rich-text
 > https://news.ycombinator.com/item?id=12438606
+
+<br>
+
+> I noticed how adding an image doesn't actually upload it to the server, but rather encodes it - which becomes a very large text. What implication does that have? What if I have a very large text with many images?
+I've been using CKEditor, which has been somewhat of a go-to text editor for many and it's been around for many years. Its image uploading seems to work relatively well.
+> jhchen gave a nice simple example of how to just insert a URL in this issue - https://github.com/quilljs/quill/issues/863
+In theory it should be possible to integrate file upload and CDN APIs such as Filestack/Filepicker or others.
+> https://news.ycombinator.com/item?id=12439777
