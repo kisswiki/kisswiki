@@ -1,0 +1,2 @@
+- http://www.techlicious.com/guide/best-photo-sharing-sites/
+- https://www.flickr.com/
