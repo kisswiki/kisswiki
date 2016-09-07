@@ -10,6 +10,4 @@
 
 Za sam przyjazd serwisu 120 zł. Gwarancja 5 lat.
 
-## Kupiłem
-
-- 470 zł z dostawą http://allegro.pl/grohe-grohtherm-800-bateria-wannowa-termostat-chro-i6457320271.html
+- 2016-09-07 Kupiłem za 470 zł z dostawą http://allegro.pl/grohe-grohtherm-800-bateria-wannowa-termostat-chro-i6457320271.html
