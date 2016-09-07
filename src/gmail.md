@@ -16,3 +16,9 @@ Only read:
 - http://webapps.stackexchange.com/questions/1168/can-i-see-only-mail-i-have-archived-in-gmail
 - https://productforums.google.com/forum/#!topic/gmail/NeIZDlhRaVA
 - Search operators you can use with Gmail https://support.google.com/mail/answer/7190?hl=en
+
+## Without phone
+
+https://accounts.google.com/SignUp
+
+https://www.quora.com/What-is-a-way-to-create-many-Gmail-accounts-without-mobile-number-verification
