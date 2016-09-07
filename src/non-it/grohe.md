@@ -10,8 +10,15 @@
 
 Za sam przyjazd serwisu 120 zł. Gwarancja 5 lat.
 
-- 2016-09-07 Kupiłem za 470 zł z dostawą http://allegro.pl/grohe-grohtherm-800-bateria-wannowa-termostat-chro-i6457320271.html
+## Grohe Grohterm 800 bateria wannowa
 
-## Grohe 1000
+2016-09-07 Kupiłem za 470 zł z dostawą http://allegro.pl/grohe-grohtherm-800-bateria-wannowa-termostat-chro-i6457320271.html
+
+Uwaga żeby kupić Nr ref. 34567000, który ma przłącze gorącej po lewej stronie, a nie jak Nr ref. 34564000
+
+- http://www.grohe.com/pl/32088/grohe/lazienki/termostaty-prysznicowe/grohtherm-800/product-details/?product=34567-G414&color=000&material=34567000
+- http://www.grohe.com/pl/32088/grohe/lazienki/termostaty-prysznicowe/grohtherm-800/product-details/?product=34564-G414&color=000&material=34564000
+
+## Grohe Grohterm 1000 bateria wannowa
 
 - Nowa wersja ma metalowe pokrętła i nie parzy obudowa
