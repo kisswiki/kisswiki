@@ -6,4 +6,10 @@
 ## serwis
 
 - Sebastian Nader 601 228 290
-- Artur Dybek 602 492 828 
+- Artur Dybek 602 492 828
+
+Za sam przyjazd serwisu 120 zł. Gwarancja 5 lat.
+
+## Kupiłem
+
+- 470 zł z dostawą http://allegro.pl/grohe-grohtherm-800-bateria-wannowa-termostat-chro-i6457320271.html
