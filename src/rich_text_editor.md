@@ -63,3 +63,11 @@ In theory it should be possible to integrate file upload and CDN APIs such as Fi
 > One main idea I'd like to highlight is this: Text is no longer written to be printed. It is written to be rendered on the web—a much richer canvas than paper. Quill 1.0 was designed and built to support this next generation canvas.
 > [1] https://github.com/basecamp/trix#different-by-design [2] http://quilljs.com/docs/modules/
 > https://news.ycombinator.com/item?id=12438719
+
+<br>
+
+> I noticed that Trix allows me to paste images directly (with Google Chrome). Can I do that with Quill?
+reply
+>
+> If it is copied as HTML containing the image, yes. Usually works if copying (via highlight) from a page. Otherwise: https://github.com/quilljs/quill/pull/821
+> https://news.ycombinator.com/item?id=12439388
