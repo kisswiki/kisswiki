@@ -1,0 +1,1 @@
+- `git rev-list -n 1 $TAG` http://stackoverflow.com/questions/1862423/how-to-tell-which-commit-a-tag-points-to-in-git
