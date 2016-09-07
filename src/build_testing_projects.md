@@ -1,0 +1,3 @@
+> TC: I love the project. Why did you do it?
+> Jeroen: The intro to the article basically states that already: I had a Raspberry Pi and I wanted to get familiar to how it works. It’s a great tool to have in your toolbox: need a powerful controller running a standard OS for your robot / Internet-controlled doorbell / Twitter-based death ray? Just get one of these for a few quid. Knowing how they work means I can put them to work much faster the next time, which may come in handy if I actually try to make something useful.
+> https://techcrunch.com/2012/11/28/an-interview-with-jeroen-sprite_tm-domburg-creator-of-the-tiny-mame-arcade-cabinet/
