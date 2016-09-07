@@ -14,4 +14,7 @@
 > Once you get past Dunbar's number, subgroups form. It's better to make them explicit. Otherwise you tend to get cliques, which are probably worse than hierarchy
 > http://www.wired.com/2013/07/wireduk-valve-jeri-ellsworth/
 >
+> I've worked at a place that had a 'flat' organization, it was a mess. Hidden power structures, informal and outside of office 'meetings' where decisions were made and arbitrary decisions made at a whim.
+> When looking for a job, be careful when leadership says their organization is flat. You will probably find people at the top (C level) who hate being told what to do and hate management. That will poison the structure and coordination of the company. People need some sort of structure so they know where to turn to for help, responsibilities are assigned and there is accountability.
+> I'm not advocating having rigid, strong management and structure at a company, just that if you don't have an official structure, an unofficial and hidden power structure will emerge. And that is far, far worse.
 > https://news.ycombinator.com/item?id=12439580
