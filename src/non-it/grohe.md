@@ -14,4 +14,4 @@ Za sam przyjazd serwisu 120 zł. Gwarancja 5 lat.
 
 ## Grohe 1000
 
-- Nowa wersja ma metalowe pokrętła i nie parzy
+- Nowa wersja ma metalowe pokrętła i nie parzy obudowa
