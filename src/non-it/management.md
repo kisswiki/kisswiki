@@ -9,4 +9,8 @@
 > There is no such thing as a structureless group. Any group of people of whatever nature that comes together for any length of time for any purpose will inevitably structure itself in some fashion. --Jo Freeman, "The Tyranny of Structurelessness"
 >
 > in practice, there are real disputes, and someone needs to be in a position to resolve those disputes and keep things organized. When the structure is informal, even with great technical people (and often this occurs more often with great technical people), effort will often be spent on duplicate tasks, and the differing implementations will compete for mindshare internally. While that's not always a problem, there are times when the structure needs to be directed so that more important corporate goals can be achieved. If the employees can't operate with unity, they may find the whole company unified with them on the unemployment line in the not-too-distant future.
+>
+> Once you get past Dunbar's number, subgroups form. It's better to make them explicit. Otherwise you tend to get cliques, which are probably worse than hierarchy
+> http://www.wired.com/2013/07/wireduk-valve-jeri-ellsworth/
+>
 > https://news.ycombinator.com/item?id=12439580
