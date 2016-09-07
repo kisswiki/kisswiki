@@ -14,6 +14,7 @@
 - https://github.com/danielearwicker/carota Simple, flexible rich text rendering/editing on HTML Canvas
 - https://github.com/facebook/draft-js A React framework for building text editors
 - https://trix-editor.org/
+- comparison https://github.com/ianstormtaylor/slate
 
 ## Android keyboard problems
 
