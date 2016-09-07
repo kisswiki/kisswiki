@@ -5,4 +5,6 @@
 > "flatland" corporate structures don't really seem to scale. You eventually get to a point where the cost of coordination everyone needs to do is greater than the cost of having a bureaucracy. Also, I'm guessing that these structures are only effective in firms like Valve: a small number of experienced employees, no hard deadlines, and lots of specialists who know how to best allocate their time.
 >
 > In my limited experience working on teams that were flat what happened every time is a sort of unofficial structure formed. Experts, and senior staff, just sort of became the go-to people. As new folks were hired they'd see that certain people simply had more institutional knowledge or were already friendly with other parts of the org and would drift towards following their lead without being told to. Obviously there are exceptions but I've noticed this on a few teams now.
+>
+> There is no such thing as a structureless group. Any group of people of whatever nature that comes together for any length of time for any purpose will inevitably structure itself in some fashion. --Jo Freeman, "The Tyranny of Structurelessness"
 > https://news.ycombinator.com/item?id=12439580
