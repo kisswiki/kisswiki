@@ -1,3 +1,3 @@
 - http://www.sirlocal.pl/fachowiec/3310/9/
 - Andrzej Walicki 605 346 856 http://hydraulik-piaseczno.info/
-- https://www.google.com/maps/search/hydraulik+piaseczno/@52.0764458,20.7337945,10z/data=!3m1!4b1?hl=pl
+- https://www.google.com/maps/search/hydraulik+piaseczno/
