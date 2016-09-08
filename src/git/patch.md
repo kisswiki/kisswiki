@@ -1,0 +1,2 @@
+- http://stackoverflow.com/questions/7885075/format-patch-for-a-single-file
+- http://stackoverflow.com/questions/6658313/generate-a-git-patch-for-a-specific-commit
