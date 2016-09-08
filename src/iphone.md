@@ -116,3 +116,7 @@
     Much of the company's digital revenue growth was driven by strong growth in China, as well as healthy development in Japan and the U.S. Overall, those three countries contributed to nearly 90 percent of the Apple App Store's revenue growth over 2014. But the main underwriter of the App Store's standout expansion in 2015 was China.  
     http://www.latinpost.com/articles/110519/20160121/ios-vs-android-market-share-revenue-one-win-for-each-app-store-in-2015.htm
 - open youtube in safari, lock screen, show welcome screen, slide up bottom panel, touch play http://wiedzoholik.pl/jak-sprawic-aby-muzyka-z-youtube-wciaz-grala-na-telefonie-kiedy-go-wygasisz/
+
+## Don't buy any iphone less then 6s/6s plus
+
+- Bendgate 2.0 https://news.ycombinator.com/item?id=12434350 http://ifixit.org/blog/8309/iphone-6-plus-gray-flicker-touch-death/
