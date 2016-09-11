@@ -1,1 +1,4 @@
 - http://testujemyjedzenie.pl/
+
+>  obecnie jakieś 90% produkcji szklarniowej to nowoczesne obiekty, hydroponika, zamgławianie, obiekty zamknięte, dezynfekcja przy wejściu itp. Chemii tam sie praktycznie nie stosuje. Znam wielu szklarniarzy i nawet tych największych w Polsce i tam ochrona jest biologiczna, ewentualnie odkażanie po sezonie, chemia stosowana jest tylko w sytuacjach kryzysowych max 2-3 razy w sezonie albo wcale. Obecnie zdrowsze są pomidory ze szklarni( polskich) niż te z gruntu czy tuneli otwartych gdzie pryskać trzeba i to dużo. To czy te szklarniowe mają smak to inna sprawa bo większość produkuje pod markety gdzie ma być twarda skórka i wytrzymałość a nie smak czy jakość.
+> -- http://www.wykop.pl/link/3347065/szwedzi-wycofuja-ze-sklepow-19-ton-jablek-z-polski/#comment-39276603
