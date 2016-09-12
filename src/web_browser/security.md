@@ -1,0 +1,1 @@
+- https://www.smashingmagazine.com/2016/09/content-security-policy-your-future-best-friend/
