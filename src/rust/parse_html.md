@@ -1,0 +1,13 @@
+- https://github.com/programble/scraper
+  - https://cmcenroe.me/scraper/scraper/
+- https://github.com/notriddle/ammonia
+- https://github.com/KiChjang/dissolve
+- https://github.com/SimonSapin/kuchiki
+  - "recommend using Kuchiki instead. It has more features (for tree traversal, CSS Selector matching, …) including optional Hyper support." http://stackoverflow.com/questions/35654525/parsing-html-page-content-in-a-stream-with-hyper-and-html5ever
+  - https://www.reddit.com/r/rust/comments/3iyj3q/i_made_a_dead_simple_urban_dictionary_client_with/
+    - (feat) select over kuchiki https://github.com/sunng87/urdict/commit/fdcc9913c14a4336a5c72e24ffcaa4f4fcb09edd
+- https://github.com/servo/html5ever
+  - https://medium.com/@arpith/parsing-html-in-rust-5f2fe0efcd5a
+  -
+- https://github.com/utkarshkukreti/select.rs
+  - http://stackoverflow.com/questions/35376961/html-parsing-in-rust
