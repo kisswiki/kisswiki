@@ -1,0 +1,1 @@
+- https://www.reddit.com/r/rust/comments/52or2h/is_it_feasible_to_use_diesel_without_automatic/
