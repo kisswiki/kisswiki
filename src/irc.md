@@ -6,3 +6,4 @@
 
 - https://en.wikipedia.org/wiki/BNC_(software)
 - https://en.wikipedia.org/wiki/ZNC
+- https://www.digitalocean.com/community/tutorials/how-to-install-znc-an-irc-bouncer-on-an-ubuntu-vps
