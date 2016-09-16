@@ -6,3 +6,4 @@
 > -- http://stackoverflow.com/questions/36065185/react-proptypes-vs-flow
 
 - https://github.com/facebook/flow/issues/277
+- https://medium.com/@chenglou/react-proptypes-flow-types-cheat-sheet-ed80f8e1383d
