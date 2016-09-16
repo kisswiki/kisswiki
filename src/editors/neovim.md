@@ -80,3 +80,39 @@ in ~/.config/nvim/init.vim
 let g:EditorConfig_exec_path = '/usr/bin/editorconfig'
 let g:EditorConfig_core_mode = 'external_command'
 ```
+
+## paste
+
+```
+" paste {{{
+" https://raw.githubusercontent.com/tpope/vim-unimpaired/master/plugin/unimpaired.vim
+" http://stackoverflow.com/questions/2514445/turning-off-auto-indent-when-pasting-text-into-vim/31998340#31998340
+" need to set noai, even though paste should disable ai.
+function! s:setup_paste() abort
+  let s:paste = &paste
+  let s:mouse = &mouse
+  let s:ai = &ai
+  set paste
+  set mouse=
+  set noai
+  augroup unimpaired_paste
+    autocmd!
+    autocmd InsertLeave *
+          \ if exists('s:paste') |
+          \   let &paste = s:paste |
+          \   let &mouse = s:mouse |
+          \   let &ai = s:ai |
+          \   unlet s:paste |
+          \   unlet s:mouse |
+          \   unlet s:ai |
+          \ endif |
+          \ autocmd! unimpaired_paste
+  augroup END
+endfunction
+
+nnoremap <silent> <Plug>unimpairedPaste :call <SID>setup_paste()<CR>
+
+nnoremap <silent> yo  :call <SID>setup_paste()<CR>o
+nnoremap <silent> yO  :call <SID>setup_paste()<CR>O
+" }}}
+```
