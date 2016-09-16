@@ -8,7 +8,7 @@
 <br>
 
 > we've had many requests to strip out PropTypes from production code since they add significant start up time and file weight for no little use since type checks are disabled.
-> stripping PropTypes in production, there's https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types
+> stripping PropTypes in production https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types
 > -- Replace React.PropTypes with Flow types https://github.com/facebook/flow/issues/277
 
 - https://medium.com/@chenglou/react-proptypes-flow-types-cheat-sheet-ed80f8e1383d
