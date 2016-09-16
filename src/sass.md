@@ -7,3 +7,4 @@ sass will include file content when you provide extension `scss` or no extension
 
 - http://stackoverflow.com/questions/7111610/import-regular-css-file-in-scss-file
 - https://varvy.com/pagespeed/render-blocking-css.html
+- https://www.stevesouders.com/blog/2009/04/09/dont-use-import/
