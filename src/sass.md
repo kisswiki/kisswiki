@@ -5,4 +5,5 @@
 
 sass will include file content when you provide extension `scss` or no extension. If you use `css` extension, the file will be external.
 
-http://stackoverflow.com/questions/7111610/import-regular-css-file-in-scss-file
+- http://stackoverflow.com/questions/7111610/import-regular-css-file-in-scss-file
+- https://varvy.com/pagespeed/render-blocking-css.html
