@@ -76,3 +76,7 @@
     - Deep Reinforcement Learning
 - http://www.learndatasci.com/best-data-science-online-courses/
 - https://ask.slashdot.org/story/15/12/28/1745237/ask-slashdot-how-to-get-into-machine-learning
+
+## Bot, chat
+
+- http://2040.io/
