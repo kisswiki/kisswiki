@@ -67,3 +67,16 @@ Testing in Ubuntu on Windows 10
 - doesn't work  https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
 - http://stackoverflow.com/questions/2555559/pasting-from-clipboard-and-automatically-toggling-set-paste
 - http://vim.wikia.com/wiki/Toggle_auto-indenting_for_code_paste
+
+## editorconfig
+
+```
+apt-get install editorconfig
+```
+
+in ~/.config/nvim/init.vim
+
+```
+let g:EditorConfig_exec_path = '/usr/local/bin/editorconfig'
+let g:EditorConfig_core_mode = 'external_command'
+```
