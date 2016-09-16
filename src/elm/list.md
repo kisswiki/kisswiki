@@ -1,3 +1,4 @@
+- https://github.com/izdi/elm-cheat-sheet#lists
 - http://package.elm-lang.org/packages/elm-lang/core/latest/List
 - http://package.elm-lang.org/packages/circuithub/elm-list-extra/latest/List-Extra
 - http://stackoverflow.com/questions/23199398/how-do-i-get-a-list-item-by-index-in-elm
