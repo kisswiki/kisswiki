@@ -1,4 +1,18 @@
-- https://github.com/izdi/elm-cheat-sheet#lists
+```elm
+cities =
+    [ "Warsaw"
+    , "Piaseczno"
+    ]
+```
+
+display:
+
+```elm
+ul []
+        map (\l -> li [] [ text l ]) lst
+```
+
+- http://stackoverflow.com/questions/24004569/elm-how-do-i-display-a-list-of-strings-in-an-html-list
 - http://package.elm-lang.org/packages/elm-lang/core/latest/List
 - http://package.elm-lang.org/packages/circuithub/elm-list-extra/latest/List-Extra
 - http://stackoverflow.com/questions/23199398/how-do-i-get-a-list-item-by-index-in-elm
