@@ -5,5 +5,5 @@
 > Flow let's you cover more of your codebase, whereas you are limited to props when using PropTypes
 > -- http://stackoverflow.com/questions/36065185/react-proptypes-vs-flow
 
-- https://github.com/facebook/flow/issues/277
+- Replace React.PropTypes with Flow types https://github.com/facebook/flow/issues/277
 - https://medium.com/@chenglou/react-proptypes-flow-types-cheat-sheet-ed80f8e1383d
