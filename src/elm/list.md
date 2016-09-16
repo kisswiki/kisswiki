@@ -9,7 +9,7 @@ display:
 
 ```elm
 ul []
-        map (\l -> li [] [ text l ]) lst
+    map (\l -> li [] [ text l ]) lst
 ```
 
 - http://stackoverflow.com/questions/24004569/elm-how-do-i-display-a-list-of-strings-in-an-html-list
