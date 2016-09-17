@@ -1,0 +1,3 @@
+- https://groups.google.com/forum/#!topic/elm-discuss/0tyo4vc5RjY
+- https://github.com/farmio/elm-demo-google-maps
+- https://github.com/vilterp/elm-gmaps-experiment
