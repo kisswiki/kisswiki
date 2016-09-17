@@ -31,7 +31,6 @@
 ## courses
 
 - [Elm: Building Reactive Web Apps](https://pragmaticstudio.com/elm)
-- [Elm: Signals, Mailboxes & Ports](https://pragmaticstudio.com/elm-signals)
   - https://www.reddit.com/r/elm/comments/3wgxxh/trying_to_understand_the_execution_order/
 
 ## books
