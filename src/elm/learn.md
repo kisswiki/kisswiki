@@ -33,6 +33,8 @@
 - [Elm: Building Reactive Web Apps](https://pragmaticstudio.com/elm)
   - https://www.reddit.com/r/elm/comments/3wgxxh/trying_to_understand_the_execution_order/
 - https://egghead.io/technologies/elm#all-lesson-list
+- http://courses.knowthen.com/p/elm-for-beginners
+- http://courses.knowthen.com/p/elm-beyond-the-basics
 
 ## books
 
