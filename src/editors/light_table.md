@@ -1,2 +1,3 @@
 - https://github.com/rundis/LightTable-settings
 - https://github.com/rundis/lt-user-plugin
+- Got error on first run, no error on subsequent https://github.com/LightTable/LightTable/issues/2150
