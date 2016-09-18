@@ -1,2 +1,3 @@
 - https://github.com/rundis/LightTable-settings
 - https://github.com/rundis/lt-user-plugin
+- https://rundis.gitbooks.io/elm-light-guide/content/reference.html
