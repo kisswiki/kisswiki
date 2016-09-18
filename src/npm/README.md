@@ -46,7 +46,8 @@ It works in `cmd.exe` without setting path.
 
 Install with `npm install npm@latest -g` and change `%PATH%`
 
-https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows
+- https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows
+- http://stackoverflow.com/questions/18412129/how-do-i-update-node-and-npm-on-windows
 
 ## Speed
 
