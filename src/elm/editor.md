@@ -2,3 +2,4 @@
   - https://vimeo.com/132107269
 - https://github.com/hoelzro/vim-elm-help
 - https://github.com/ElmCast/.vim
+- https://github.com/lambdatoast/elm.vim
