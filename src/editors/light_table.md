@@ -5,6 +5,7 @@
 - http://stackoverflow.com/questions/tagged/lighttable?sort=votes
 - http://stackoverflow.com/questions/21056982/how-do-i-set-vim-mode-in-light-table
 - http://stackoverflow.com/questions/22168195/i-cant-find-a-light-table-cheat-sheet
+- http://stackoverflow.com/questions/25534216/lighttable-set-font-size
 
 ## Errors
 
