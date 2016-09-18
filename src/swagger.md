@@ -12,6 +12,7 @@
 ## quick start
 
 ```
+$ npm install -g swagger
 $ swagger project create hello-world
 $ cd hello-world
 $ swagger project edit
