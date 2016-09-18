@@ -8,6 +8,7 @@
 - http://bfanger.github.io/swagger-explained/
 - http://stackoverflow.com/questions/32502026/create-complex-types-definitions-in-swagger
 - http://stackoverflow.com/questions/30655552/swagger-specification-for-anything-other-than-http-get
+- https://github.com/apigee-127/swagger-tools
 
 ## quick start
 
@@ -70,4 +71,3 @@ https://github.com/swagger-api/swagger-node/blob/master/docs/quick-start.md
 - Any tools to validate requests against a swagger doc? https://groups.google.com/forum/#!topic/swagger-swaggersocket/dU1--hVw6BI
 - New to the swagger inflector project is request/response validation https://github.com/swagger-api/swagger-inflector/blob/master/README.md#payload-validation
 - https://github.com/wonderlic/swagger-validation
-- https://github.com/apigee-127/swagger-tools
