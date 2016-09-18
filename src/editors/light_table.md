@@ -18,6 +18,7 @@ How can I automate it?
 rundis: The "simplest" way to automate that would be to add a command to your user plugin (ref http://docs.lighttable.com/#user-plugin). We are currently in the process of revamping the docs, so currently it might be as easy as one would like. Especially if you are new to ClojureScript and/or Light Table.
 
 - https://github.com/priyatam/lighttable-plugin-guide
+- http://codewader.blogspot.com/2014/02/getting-my-feet-wet-with-clojure-using.html
 
 ## Elm
 
