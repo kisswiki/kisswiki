@@ -42,6 +42,12 @@ It works in `cmd.exe` without setting path.
 - https://github.com/Alexpux/MSYS2-packages/issues/360#issuecomment-146185954
 - https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows
 
+### Windows
+
+Install with `npm install npm@latest -g` and change `%PATH%`
+
+https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows
+
 ## Speed
 
 This may speed up installation:
