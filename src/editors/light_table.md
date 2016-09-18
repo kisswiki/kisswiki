@@ -1,1 +1,2 @@
 - https://github.com/rundis/LightTable-settings
+- https://github.com/rundis/lt-user-plugin
