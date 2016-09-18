@@ -13,6 +13,8 @@
 - https://rundis.gitbooks.io/elm-light-guide/content/reference.html
 - Elm Light V0.4 https://youtu.be/pmMhCRvU9R0
 
+### Autoconnect AST for elm-light
+
 `ctrl+space` > user keymap
 
 ```clojure
@@ -20,5 +22,17 @@
  ;; ...
  [:editor.elm "ctrl-s" :save :elm-format :elm.lint]
  [:app "ctrl-shift-b" :add-browser-tab]
+]
+```
+
+### Autoadd brackets for elm-light so that AST doesn't have errors
+
+`ctrl+space` > user keymap
+
+```clojure
+[
+  ;;...
+  ;; Auto-close characters e.g. '{[("'
+  [:editor :lt.objs.editor/autoclose-brackets]
 ]
 ```
