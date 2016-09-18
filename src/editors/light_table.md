@@ -7,6 +7,7 @@
 - http://stackoverflow.com/questions/22168195/i-cant-find-a-light-table-cheat-sheet
 - http://stackoverflow.com/questions/27818505/light-table-parentheses-are-not-auto-closing
 - http://stackoverflow.com/questions/25534216/lighttable-set-font-size
+- http://stackoverflow.com/questions/28483220/how-to-enable-tag-auto-closing-in-lighttable
 
 ## Errors
 
