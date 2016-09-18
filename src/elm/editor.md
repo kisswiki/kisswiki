@@ -11,3 +11,4 @@
 ## Light Table
 
 - https://rundis.gitbooks.io/elm-light-guide/content/reference.html
+- https://www.youtube.com/watch?v=pmMhCRvU9R0
