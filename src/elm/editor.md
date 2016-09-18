@@ -27,7 +27,7 @@
 
 ### Autoadd brackets for elm-light so that AST doesn't have errors
 
-`ctrl+space` > user keymap
+`ctrl+space` > user behaviors
 
 ```clojure
 [
