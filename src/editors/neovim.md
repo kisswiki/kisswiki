@@ -116,3 +116,9 @@ nnoremap <silent> yo  :call <SID>setup_paste()<CR>o
 nnoremap <silent> yO  :call <SID>setup_paste()<CR>O
 " }}}
 ```
+
+## mapleader
+
+`:echo mapleader`
+
+http://stackoverflow.com/questions/10389205/show-current-leader-key-setting
