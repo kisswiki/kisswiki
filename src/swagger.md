@@ -61,3 +61,10 @@ npm install swagger-tools
 Now, when you run swagger project start your project should start successfully.
 
 https://github.com/swagger-api/swagger-node/blob/master/docs/quick-start.md
+
+## validate/assert requests
+
+- http://apigee.com/about/blog/developer/swagger-test-templates-test-your-apis
+- https://github.com/earldouglas/swagger-test
+- https://github.com/Maks3w/SwaggerAssertions
+- Any tools to validate requests against a swagger doc? https://groups.google.com/forum/#!topic/swagger-swaggersocket/dU1--hVw6BI
