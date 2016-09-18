@@ -69,3 +69,5 @@ https://github.com/swagger-api/swagger-node/blob/master/docs/quick-start.md
 - https://github.com/Maks3w/SwaggerAssertions
 - Any tools to validate requests against a swagger doc? https://groups.google.com/forum/#!topic/swagger-swaggersocket/dU1--hVw6BI
 - New to the swagger inflector project is request/response validation https://github.com/swagger-api/swagger-inflector/blob/master/README.md#payload-validation
+- https://github.com/wonderlic/swagger-validation
+- https://github.com/apigee-127/swagger-tools
