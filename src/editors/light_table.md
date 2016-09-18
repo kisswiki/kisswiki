@@ -4,6 +4,7 @@
 - https://github.com/rundis/lt-user-plugin
 - http://stackoverflow.com/questions/tagged/lighttable?sort=votes
 - http://stackoverflow.com/questions/21056982/how-do-i-set-vim-mode-in-light-table
+- http://stackoverflow.com/questions/22168195/i-cant-find-a-light-table-cheat-sheet
 
 ## Errors
 
