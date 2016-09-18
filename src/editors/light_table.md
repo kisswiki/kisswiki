@@ -1,7 +1,21 @@
 - https://gitter.im/LightTable/LightTable
+- https://github.com/LightTable/LightTable/wiki/FAQ
 - https://github.com/rundis/LightTable-settings
 - https://github.com/rundis/lt-user-plugin
 - Got error `ENOENT: no such file or directory,  LightTable\ltcache\default.clj` on first run, no error on subsequent https://github.com/LightTable/LightTable/issues/2150
+
+## Automate
+
+My workflow is this:
+
+1. elm-live
+2. add new tabset
+3. open browser in new set
+4. open http://localhost:8000
+
+How can I automate it?
+
+The "simplest" way to automate that would be to add a command to your user plugin (ref http://docs.lighttable.com/#user-plugin). We are currently in the process of revamping the docs, so currently it might be as easy as one would like. Especially if you are new to ClojureScript and/or Light Table.
 
 
 ## Elm
