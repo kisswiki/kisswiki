@@ -1,3 +1,3 @@
 - https://github.com/rundis/LightTable-settings
 - https://github.com/rundis/lt-user-plugin
-- Got error on first run, no error on subsequent https://github.com/LightTable/LightTable/issues/2150
+- Got error `ENOENT: no such file or directory,  LightTable\ltcache\default.clj` on first run, no error on subsequent https://github.com/LightTable/LightTable/issues/2150
