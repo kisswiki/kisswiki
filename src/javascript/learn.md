@@ -5,13 +5,4 @@
 - https://github.com/loverajoel/jstips
 - https://github.com/ericelliott/essential-javascript-links
 - http://www.w3resource.com/javascript-exercises/
--
-## learn
-
-- https://leanpub.com/javascriptallongesix/read
-- http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X
-- https://www.reddit.com/r/learnjavascript
-- http://eloquentjavascript.net/
-- https://github.com/loverajoel/jstips
-- https://github.com/ericelliott/essential-javascript-links
-- http://www.w3resource.com/javascript-exercises/
+- https://www.facebook.com/groups/js.pierwsze.kroki/permalink/657498047749633/
