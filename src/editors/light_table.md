@@ -3,6 +3,7 @@
 - https://github.com/rundis/LightTable-settings
 - https://github.com/rundis/lt-user-plugin
 - http://stackoverflow.com/questions/tagged/lighttable?sort=votes
+- http://stackoverflow.com/questions/21056982/how-do-i-set-vim-mode-in-light-table
 
 ## Errors
 
