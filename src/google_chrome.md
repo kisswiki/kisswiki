@@ -38,3 +38,8 @@ https://support.google.com/chrome/answer/95426?co=GENIE.Platform%3DDesktop&hl=en
 
 - https://chrome.google.com/webstore/detail/one-window/papnlnnbddhckngcblfljaelgceffobn
 - https://chrome.google.com/webstore/detail/merge-windows/mmpokgfcmbkfdeibafoafkiijdbfblfg
+
+## Black screen when switch fullscreen for videos
+
+> It only happens when the external monitor is marked as the "main display" in Windows's display settings. Making the laptop's screen the main display and "extending" onto the external monitor made full-screen on the external monitor work.
+> -- http://superuser.com/questions/1098204/chrome-html5-videos-in-fullscreen-are-black-when-intel-graphics-are-enabled-or-h
