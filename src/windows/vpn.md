@@ -7,3 +7,4 @@ Oczywiście wcześniej rezygnujesz z bramy VPN jako domyślnej (ustawienia poł�
 - http://superuser.com/questions/991646/client-to-client-route-on-windows-vpn
 - http://superuser.com/questions/457020/openvpn-only-route-a-specific-ip-addresses-through-vpn
 - http://superuser.com/questions/12022/how-can-i-make-the-windows-vpn-route-selective-traffic-by-destination-network
+- http://serverfault.com/questions/195838/route-traffic-to-from-specific-hosts-over-vpn-on-windows-7-client
