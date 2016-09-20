@@ -1,1 +1,1 @@
-- https://npm-stat.com/charts.html?package=babel-core&package=typescript&package=flow-bin&from=2013-09-19&to=2016-09-19
+- babel-core, typescript, flow-bin https://npm-stat.com/charts.html?package=babel-core&package=typescript&package=flow-bin&from=2013-09-19&to=2016-09-19
