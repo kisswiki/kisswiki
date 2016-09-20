@@ -11,3 +11,4 @@
 > -- https://www.reddit.com/r/explainlikeimfive/comments/yy7tv/eli5_probability_density_function/
 
 - https://www.reddit.com/r/explainlikeimfive/comments/33up9z/eli5_what_is_the_difference_between_probability/
+- PDF and CDF Explanations https://youtu.be/ce3kUWkY9IY
