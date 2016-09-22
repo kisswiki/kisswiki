@@ -1,0 +1,1 @@
+- https://sookocheff.com/post/opinion/the-five-stages-of-nosql/

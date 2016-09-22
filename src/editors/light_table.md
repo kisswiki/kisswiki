@@ -33,6 +33,7 @@ rundis: The "simplest" way to automate that would be to add a command to your us
 
 - https://rundis.gitbooks.io/elm-light-guide/content/reference.html
 - Elm Light V0.4 https://youtu.be/pmMhCRvU9R0
+- http://stackoverflow.com/questions/39588328/how-can-i-install-elm-light-on-windows/39626600#39626600
 
 ### Autoconnect AST for elm-light
 
@@ -57,3 +58,48 @@ rundis: The "simplest" way to automate that would be to add a command to your us
   [:editor :lt.objs.editor/autoclose-brackets]
 ]
 ```
+
+## Disable welcome tab
+
+user.behaviors
+
+```clojure
+[:app :-lt.objs.intro/show-intro]
+```
+
+## Open workscpae on startup
+
+user.behaviors
+
+```clojure
+[:app :lt.objs.sidebar.workspace/workspace.open-on-start]
+```
+
+https://groups.google.com/forum/#!topic/light-table-discussion/5yGZmGpV1i4
+
+## Font
+
+user.behaviors
+
+```clojure
+[:app :lt.objs.style/font-settings "Roboto Mono Light" "14"]
+[:app :lt.objs.style/font-settings "Consolas" "14"]
+[:app :lt.objs.style/font-settings "SF Mono" "14"]
+```
+
+## Font antialiasing
+
+> This used to be possible through the -webkit-font-smoothing: none or antialiased properties in CSS, but this property was last I heard removed by chrome upstream. There was an effort to standardize a font-smooth property in CSS3, but it was removed from the draft. Unfortunately, I don't believe there's an answer that LT can provide you at this point in time.
+> -- https://github.com/LightTable/LightTable/issues/1084#issuecomment-36193623
+
+## Open terminal in current dir
+
+user.keymap
+
+```clojure
+[:app "ctrl-`" :lt.plugins.opener/open-terminal-in-active-dir]
+```
+
+## Themes
+
+http://worldofgnome.org/changing-themes-in-light-table/

@@ -2,3 +2,4 @@
 - [ ] Faster than a calculator | Arthur Benjamin | TEDxOxford https://www.youtube.com/watch?v=e4PTvXtz4GM
 - [ ] 420math: The Real Number Set, Part 1 of 2 (The Language of Mathematics #3) https://www.youtube.com/watch?v=o6VsuARrT1c&index=2&list=PL6F0B29871A5D81D6
 - [ ] for kids in polish language http://naszelementarz.men.gov.pl/
+- [ ] https://www.amazon.com/G-Googol-Math-Alphabet-Book/dp/1883672589
