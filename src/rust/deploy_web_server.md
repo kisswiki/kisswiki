@@ -65,3 +65,10 @@ CMD cargo run --release
 
 - https://github.com/CleverCloud/demo-rust
 - https://www.reddit.com/r/rust/comments/46z75s/deploying_a_web_server_written_in_rust/d0953jq
+
+## more
+
+> For your deployment issues, what I do is build the executable for musl using a docker container on the build machine, eg. https://github.com/clux/muslrust
+This binary can then easily be copied to the production server, and as an added bonus you avoid the OpenSSL issues.
+> I'm also a huge fan of japaric's rust-everywhere https://github.com/japaric/rust-everywhere project. It has all the pieces you need to setup CI that produces static executables using musl and Github releases.
+> -- https://www.reddit.com/r/rust/comments/53yoxz/
