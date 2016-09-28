@@ -1,0 +1,5 @@
+- https://www.t-nation.com/training/best-damn-push-ups-article-period
+- Master Your One Arm Pushup https://youtu.be/75LWvxsorKI
+- https://www.youtube.com/user/RedDeltaproject/videos?flow=grid&view=0&sort=p
+- https://www.amazon.com/Grenade-Grips-Explosive-Increased-Grappling/dp/B01KKWUSY0/
+- 7 Mistakes I Made When I Started Calisthenics https://youtu.be/_PCvn6IyyUc

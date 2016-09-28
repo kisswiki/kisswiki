@@ -44,7 +44,6 @@
 - https://github.com/Fresheyeball/elm-node
 - https://github.com/mgold/elm-date-format
 - https://github.com/eeue56/elm-query
-- http://zkessin.github.io/elm-examples-blog//examples/2016/01/11/parsing-json.html
 - http://elm-lang.org/examples/resize-yogi
 - Google Maps https://github.com/vilterp/elm-gmaps-experiment
 - effects like HTTP and animation https://github.com/evancz/elm-effects
@@ -230,10 +229,6 @@
 
 - UNIT TEST AND CI INTEGRATION http://www.gizra.com/content/elm-hedley-overview/
 - https://github.com/deadfoxygrandpa/elm-test
-
-## json
-
-- https://github.com/lambdatoast/elm-json
 
 ## number of spaces to indent https://groups.google.com/forum/#!topic/elm-dev/1fWxZPcQVqI
 
