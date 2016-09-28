@@ -10,3 +10,8 @@
 
 > "functional components" first. Stateless second. In the future "functional components" will include state.
 > https://twitter.com/sebmarkbage/status/658713924607606784
+
+<br>
+
+> Jordan became convinced that functional APIs — which discouraged mutation — offered a better, more scalable way to build user interfaces.
+> -- https://facebook.github.io/react/blog/2016/09/28/our-first-50000-stars.html
