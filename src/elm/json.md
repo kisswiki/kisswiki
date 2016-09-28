@@ -1,3 +1,4 @@
 - https://github.com/lambdatoast/elm-json
 - https://guide.elm-lang.org/interop/json.html
 - http://zkessin.github.io/elm-examples-blog//examples/2016/01/11/parsing-json.html
+- https://elmseeds.thaterikperson.com/json-decode-extra
