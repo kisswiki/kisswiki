@@ -80,3 +80,17 @@
 ## Bot, chat
 
 - http://2040.io/
+
+## Google translate
+
+AI sobie działa a google nawet nie do końca rozumie jak:
+
+Google rolled out a new translation system that uses massive amounts of data and increased processing power to build more accurate translations. The new system, a deep learning model known as neural machine translation, effectively trains itself
+
+The new method, reported today on the preprint server arXiv, uses a total of 16 processors to first transform words into a value known as a vector. What is a vector? 'We don't know exactly,' [Quoc Le, a Google research scientist in Mountain View, California, says.]
+
+https://news.slashdot.org/story/16/09/27/2026202/googles-new-translation-software-powered-by-brainlike-artificial-intelligence
+
+O ile tłumaczenia zaproponowane przez ludzi oceniono na średnio 5.55, tak system zbliżył się „wykręcając” wynik 5.43. Czyli zbliżył się do tego, co osiągali ludzcy tłumacze.
+
+http://antyweb.pl/nowy-tlumacz-google/
