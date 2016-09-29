@@ -5,6 +5,7 @@
 - local Node/Browser development with Chrome DevTools https://github.com/Jam3/hihat
 - cheatsheet https://gist.github.com/LeCoupa/985b82968d8285987dc3
 - http://stackoverflow.com/questions/28094192/difference-between-response-setheader-and-response-writehead
+- debug in google chrome https://blog.hospodarets.com/nodejs-debugging-in-chrome-devtools
 
 ## ES6
 
