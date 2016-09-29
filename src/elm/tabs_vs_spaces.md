@@ -2,4 +2,4 @@
 > Hence the risks and issues with mixing tabs and spaces in their source code as the visual aspect of the tabs may have no relationship with how the parser handles them. Rejecting hard tabs altogether conveniently fixes the issue entirely, and provides the same visual experience no matter where elm code is viewed as
 >> An advantage of tabs over spaces is that you can configure those to be as wide as you wish visually on your editor
 > in your editor yes, in most other contexts (terminals, web pages, …) no. Spaces provides consistent visual style across most display substrates. That's especially important given Elm's compiler has a strong tendency to echo your code back with decoration in error messages, mandating and enforcing spaces means a much easier time doing that.
-> -- 
+> -- https://www.reddit.com/r/elm/comments/5476yt/no_tabs_seriously/d86pzoh
