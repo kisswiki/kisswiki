@@ -23,3 +23,4 @@
 - Firmą trzeba zarządzać jak armią, ale tak jakby znajdowała się w stanie wojny http://mamstartup.pl/sukces/9164/majac-40-lat-otworzyl-firme-z-siedziba-w-akademiku-dzis-comarch-osiaga-miliard-zlotych-przychodu
 - Learn how developers are writing their own paychecks https://www.indiehackers.com
 - https://en.wikipedia.org/wiki/Nick_D%27Aloisio
+- http://mamstartup.pl/startupowa-11/9719/naucz-sie-dostosowywac-do-kazdej-sytuacji-karol-zielinski-paylane
