@@ -5,4 +5,4 @@
 > they asked the participants to write imaginative short stories to describe five pictures, which showed an architect, trapeze artists, women in a laboratory, a boxer, and a nightclub scene. Each story was analyzed by trained coders, who looked for sentences about positive personal relations between persons (thus expressing the affiliation motive) or about persons having impact or influence on others (expressing the power motive). Participants who used many such sentences in their story received a higher score for the corresponding implicit motive.
 >
 > an employee with a strong affiliation motive might handle her duties in a more collaborative way and try to find ways to do more teamwork
-> https://www.sciencedaily.com/releases/2016/08/160811171643.htm
+> -- https://www.sciencedaily.com/releases/2016/08/160811171643.htm
