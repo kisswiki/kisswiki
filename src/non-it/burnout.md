@@ -6,3 +6,21 @@
 >
 > an employee with a strong affiliation motive might handle her duties in a more collaborative way and try to find ways to do more teamwork
 > -- https://www.sciencedaily.com/releases/2016/08/160811171643.htm
+
+<br>
+
+Badania pokazują, że wysokość pensji nie ma wpływu na motywację. Nie da się kupić czyjegoś zaangażowania, za to bardzo łatwo można to zaangażowanie zburzyć niesprawiedliwą pensją.
+
+Jedyną motywacją, która ma znaczenie dla efektywności pracy, a jednocześnie dla naszej satysfakcji z życia, jest motywacja wewnętrzna. Nic nie może zastąpić wiary, że to co robimy ma sens.
+
+Tylko balans presji wyników i kreatywnej wolności, może wytworzyć odpowiednio silną motywację. Bez presji nigdy nie osiągniemy odpowiedniego tempa, a dobre tempo jest niezbędne na drodze do sukcesów. Bez kreatywnej wolności z pracowników zrobimy niewolników, którzy nie będą w stanie realizować siebie i osiągać wyników firmy, które powinny być wspólnym sukcesem wszystkich zaangażowanych w rozwój biznesu.
+
+podobnie jak z negatywną motywacją finansową, niefunkcjonalne i niewygodne biuro może bardzo mocno przeszkadzać w pracy.
+
+Rozmawialiśmy o motywacji pracowników. A co motywuje szefa?
+
+Dążenie do zmiany. Biznes jest nieustannym dążeniem do osiągnięcia zamierzonej zmiany w świecie. Dla przedsiębiorcy samo dążenie musi stać się źródłem motywacji. Chcemy dostarczyć zamierzoną wartość klientom, inwestorom, pracownikom i oczywiście naszym rodzinom.
+
+Pracownicy dołączają do nowej firmy oczekując rozwoju zawodowego i finansowej zmiany w życiu prywatnym. Rodzina przedsiębiorcy przez lata cierpi najbardziej, czekając na finał podróży, który zwróci przedsiębiorcę tym, którzy go kochają. Wszystkie strony tego przedsiębiorczego równania oczekują pewnych zmian w swoim życiu. Dążenie do osiągnięcia tych zmian jest źródłem nieustającej motywacji, a wręcz obsesji przedsiębiorcy. Tylko Ci którzy są w stanie pokochać tę podróż, mogą osiągnąć sukces i spełnić oczekiwania.
+
+http://mamstartup.pl/przestrzen/9678/dla-efektywnosci-pracy-i-satysfakcji-z-zycia-potrzebna-jest-motywacja-wewnetrzna-marcin-treder-uxpin
