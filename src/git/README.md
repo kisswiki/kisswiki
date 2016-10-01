@@ -37,6 +37,7 @@
   - https://help.github.com/articles/splitting-a-subfolder-out-into-a-new-repository/
 - To make script executable under windows (--add when it's a new file) `git update-index --add --chmod=+x <file>` http://stackoverflow.com/questions/6476513/git-file-permissions-on-windows
 - https://wildlyinaccurate.com/a-hackers-guide-to-git/
+- gitless https://www.reddit.com/r/programming/comments/558utp/purposes_concepts_misfits_and_a_redesign_of_git/
 
 ## rewriting history
 
