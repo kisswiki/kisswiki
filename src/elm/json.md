@@ -7,3 +7,9 @@
 
 > In other languages often there is a way to convert a Json string into an untyped Map/dictionary however, Elm does not support untyped values.
 As far as why is there no way for Elm to automatically provide typed decoders for custom types like you get with say Gson in Java that is probably because there is no reflection mechanism in Elm at the moment. All value creation for custom types must be done by functions that you provide (and that is where Decoders come in).
+> -- https://www.reddit.com/r/elm/comments/4nsany/stupid_question_why_is_it_not_possible_to/
+
+<br>
+
+> son decoding can result in runtime errors, for example when you forget to use a Maybe to decode nullable json.
+> -- https://www.reddit.com/r/elm/comments/54fk9k/easiest_json_decode/
