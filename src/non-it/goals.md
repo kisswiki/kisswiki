@@ -1,0 +1,2 @@
+> Można oprzeć się pokusie podzielenia się swoimi celami z innymi. Można opóźnić odczuwanie satysfakcji i spełnienia, jakie niesie ze sobą społeczne uznanie i pochwała. Należy zrozumieć, że nasz mózg niejako myli słowa z czynami. Jeśli jednak musicie dzielić się swoimi planami, zróbcie to w sposób, który nie daje wam satysfakcji, np. "Chcę wziąć udział w tym wyścigu, więc będę musiał ciężko trenować przez 5 dni w tygodniu rezygnując z wielu przyjemności".
+> 
