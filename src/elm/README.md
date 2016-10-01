@@ -11,6 +11,11 @@
 Also interesting is how Elm's immutability allows it to use requestAnimationFrame by default, which plain vanilla JS libs can't use by default.
 > -- https://news.ycombinator.com/item?id=12392114
 
+<br>
+
+> Elm's goal of figuring out how to simplify and distill the Haskell and ML world's abstractions is an admirable one
+> -- https://news.ycombinator.com/item?id=10838239
+
 - One thing that has really driven the attention and the adoption of Elm is that it emphasizes simplicity and ease of use in a way that rocks the boat a bit within the existing functional programming community. I’m consistently looking for ways to reduce the learning curve. - Evan Czaplicki https://www.seas.harvard.edu/blog/2015/10/alumni-profile-evan-czaplicki-ab-12
 - What differentiate Elm? You may thought its: Haskell syntax, FRP, running in Browser. But these can have any language. Elm differentiates:
   - All mutable state is in the signal graph (foldp)
