@@ -5,3 +5,8 @@
 > I haven't yet worked with Vue (might give 2.0 a try), but from what I've read, you can use JSX with Vue: https://vuejs.org/2016/04/27/announcing-2.0/#Templates-JSX-or-Hyperscript
 edit: So you can go both ways. .jsx files with css modules and JSX or vue files with templates and css for your single file components
 > -- https://www.reddit.com/r/javascript/comments/557h8w/thoughts_on_vue_20/
+
+<br>
+
+> templates are limited to the DSL while the programmatic nature of JSX/hyperscript provides the full expressive power of a turing-complete language.
+> -- https://vuejs.org/2016/04/27/announcing-2.0/#Templates-JSX-or-Hyperscript
