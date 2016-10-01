@@ -5,6 +5,8 @@
 > I haven't yet worked with Vue (might give 2.0 a try), but from what I've read, you can use JSX with Vue: https://vuejs.org/2016/04/27/announcing-2.0/#Templates-JSX-or-Hyperscript
 edit: So you can go both ways. .jsx files with css modules and JSX or vue files with templates and css for your single file components
 >
+> If your app is getting even slightly more complex you're probably using Redux or any other state handler. They handle it for you. Even if you use local or global state, shouldComponentUpdate makes sense in the rarest of cases, for instance when your data is very abstruse. I have never used it, most people wouldn't, it is an escape hatch for grave case.
+>
 > The odd thing is that Vues reactivity system can be a mess. It climbs through your data, wildly mutating it, transforming everything into an "observable." Javascript can't observe objects yet, so you run into natural edge cases like not being able to replace or add objects in your data. Then you sprinkle $sets and $deletes over your codebase. Vue even transforms objects that you don't want to be reactive, you hardly have control over what it does. Once behind-the-scene magic has burnt your app to a crisp, you are going to VueX, at which point you are using Redux almost the same way everyone else is using it.
 > -- https://www.reddit.com/r/javascript/comments/557h8w/thoughts_on_vue_20/
 
