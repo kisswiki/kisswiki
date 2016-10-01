@@ -1,3 +1,4 @@
+> zdradzając swoje cele innym, zostaniemy za nie pochwaleni, psychologowie nazwali to rzeczywistością społeczną. Nasz mózg został niejako oszukany - twierdzimy że cel został już osiągnięty. Odczuwając satysfakcję z rzekomego sukcesu jesteśmy coraz mniej zmotywowani do podejmowania niezbędnego wysiłku.
 > Osoby, które zachowały swój cel dla siebie pracowały średnio przez pełne 45 minut, ponadto, po zakończeniu testu twierdziły, że czeka ich jeszcze dużo pracy, aby osiągnąć zamierzony cel. Natomiast osoby, które zdradziły swoje cele, zrezygnowały z jego realizacji średnio po 33 minutach, a po zakończeniu testu twierdziły, że czuły się bliższe w osiąganiu zamierzonego celu.
 > Można oprzeć się pokusie podzielenia się swoimi celami z innymi. Można opóźnić odczuwanie satysfakcji i spełnienia, jakie niesie ze sobą społeczne uznanie i pochwała. Należy zrozumieć, że nasz mózg niejako myli słowa z czynami. Jeśli jednak musicie dzielić się swoimi planami, zróbcie to w sposób, który nie daje wam satysfakcji, np. "Chcę wziąć udział w tym wyścigu, więc będę musiał ciężko trenować przez 5 dni w tygodniu rezygnując z wielu przyjemności".
->
+> -- 
