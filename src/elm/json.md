@@ -3,6 +3,7 @@
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Encode
 - https://guide.elm-lang.org/interop/json.html
+- https://robots.thoughtbot.com/decoding-json-structures-with-elm
 - http://zkessin.github.io/elm-examples-blog//examples/2016/01/11/parsing-json.html
 - https://elmseeds.thaterikperson.com/json-decode-extra
 - http://package.elm-lang.org/packages/elm-community/json-extra/latest/Json-Decode-Extra
