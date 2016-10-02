@@ -1,6 +1,7 @@
 - https://egghead.io/lessons/elm-decode-a-list-of-numbers-from-a-json-string-in-elm
 - https://www.brianthicks.com/post/2016/08/22/decoding-large-json-objects-a-summary/
-- http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode 
+- http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode
+- http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Encode
 - https://guide.elm-lang.org/interop/json.html
 - http://zkessin.github.io/elm-examples-blog//examples/2016/01/11/parsing-json.html
 - https://elmseeds.thaterikperson.com/json-decode-extra
