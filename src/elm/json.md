@@ -11,5 +11,5 @@ As far as why is there no way for Elm to automatically provide typed decoders fo
 
 <br>
 
-> son decoding can result in runtime errors, for example when you forget to use a Maybe to decode nullable json.
+> so decoding can result in runtime errors, for example when you forget to use a Maybe to decode nullable json.
 > -- https://www.reddit.com/r/elm/comments/54fk9k/easiest_json_decode/
