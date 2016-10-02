@@ -201,10 +201,6 @@ Also interesting is how Elm's immutability allows it to use requestAnimationFram
 
 ## Evan Czaplicki joined noredink http://elm-lang.org/blog/new-adventures-for-elm http://tech.noredink.com/post/136615783598/welcome-evan
 
-## jobs
-
-- https://www.noredink.com/jobs?gh_jid=123590
-
 ## companies using elm
 
 - the companies using Elm (5+ now) are not sharing their stuff on there, but I'm going to be working on a series showcasing them! https://twitter.com/czaplic/status/677035150773903361
