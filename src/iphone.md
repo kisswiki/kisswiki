@@ -120,3 +120,7 @@
 ## Don't buy any iphone less then 6s/6s plus
 
 - Bendgate 2.0 https://news.ycombinator.com/item?id=12434350 http://ifixit.org/blog/8309/iphone-6-plus-gray-flicker-touch-death/
+
+## Camera
+
+http://www.spidersweb.pl/2016/09/iphone-7-dxo.html
