@@ -1,0 +1,11 @@
+- http://www.checkerschest.com/checkers/strategy6.htm
+- https://en.wikipedia.org/wiki/Draughts
+- http://www.kurnik.pl/warcaby/zasady.phtml
+- Checkers opening moves and the best counter moves https://youtu.be/46UMLF_DYFc
+- THE SECRET OF WINNING IN CHECKERS https://youtu.be/-O2MiBpoFNc
+- https://www.amazon.com/Win-at-Checkers-Millard-Hopper-ebook/dp/B00A3YNOHY/
+- https://www.amazon.com/Play-Winning-Checkers-registered-trademark-ebook/dp/B002Y26YU2/
+- https://www.amazon.com/Chess-Children-Murray-Chandler-ebook/dp/B00BUT8FT8/
+- https://www.amazon.com/Chess-Kids-Michael-Basman/dp/075661807X/
+- https://www.amazon.com/Chess-Checkers-Mastership-Dodo-Press/dp/1406536458
+- http://download.komputerswiat.pl/gry-i-rozrywka/gry-logiczne/warcaboweabc
