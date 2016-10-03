@@ -8,3 +8,10 @@
 - https://brain.fm/
 - http://www.rainymood.com/
 - http://asoftmurmur.com/
+- https://github.audio/
+
+## Motivation
+
+- Motivation Music- Motivational Background Music- Music for Motivation Study and Learning https://youtu.be/vNMhtXjR2qs
+- Music for Studying, Homework Concentration - Homework Music Long- Soft Homework Music https://youtu.be/lRQV30GV63o
+- STUDY MUSIC: Studying Music for the Brain and Focus, Relaxing Study Motivation Music https://youtu.be/qLRLJUiwJL8
