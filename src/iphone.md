@@ -124,3 +124,5 @@
 ## Camera
 
 http://www.spidersweb.pl/2016/09/iphone-7-dxo.html
+
+## Battery
