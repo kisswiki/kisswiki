@@ -1,5 +1,5 @@
 - http://www.globalnerdy.com/2016/06/26/demonstrating-map-filter-and-reduce-in-swift-using-food-emoji/
-- 
+
 ## For composing
 
 ```javascript
