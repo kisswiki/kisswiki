@@ -126,3 +126,6 @@
 http://www.spidersweb.pl/2016/09/iphone-7-dxo.html
 
 ## Battery
+
+- http://www.phonearena.com/phones/benchmarks
+  - http://antyweb.pl/iphone-7-bateria-zestawienie/#comment-2931599790
