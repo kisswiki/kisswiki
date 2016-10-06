@@ -57,4 +57,12 @@ main =
         ]
 ```
 
+Add type annotation like this:
+
+```
+decodeLocationRecordBad : Decoder LocationRecordBad
+decodeLocationRecordBad =
+    object2 LocationRecordBad ("name" := string) ("latlon" := string)
+
+
 https://www.reddit.com/r/elm/comments/55nozn/decode_json_to_record_got_ok_function/
