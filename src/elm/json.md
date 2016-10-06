@@ -28,6 +28,9 @@ As far as why is there no way for Elm to automatically provide typed decoders fo
 ## Use type annotations
 
 ```
+import Html exposing (text, div)
+import Json.Decode exposing (..)
+
 type alias LocationRecordBad =
     { name : String
     , latlon : String
@@ -44,9 +47,14 @@ type alias LocationRecord =
 
 decodeLocationRecord =
     object2 LocationRecord ("name" := string) ("latlon" := string)
-    
-decodeString decodeLocationRecordBad """{ "name": "Name1", "latlon": "12341234" }""" ]
-decodeString decodeLocationRecord """{ "name": "Name1", "latlon": "12341234" }""" ]
+
+main =
+    div []
+        -- Ok <function>
+        [ div [] [ text <| toString <| decodeString decodeLocationRecordBad """{ "name": "Name1", "latlon": "12341234" }""" ]
+        -- Ok { name = "Name1", latlon = "12341234" }
+        , div [] [ text <| toString <| decodeString decodeLocationRecord """{ "name": "Name1", "latlon": "12341234" }""" ]
+        ]
 ```
 
 https://www.reddit.com/r/elm/comments/55nozn/decode_json_to_record_got_ok_function/
