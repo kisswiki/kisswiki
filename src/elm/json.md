@@ -37,6 +37,8 @@ type alias LocationRecordBad =
     , watchers_count : Int
     }
 
+-- Uncomment below type annotation
+-- decodeLocationRecordBad : Decoder LocationRecordBad
 decodeLocationRecordBad =
     object2 LocationRecordBad ("name" := string) ("latlon" := string)
 
@@ -56,13 +58,5 @@ main =
         , div [] [ text <| toString <| decodeString decodeLocationRecord """{ "name": "Name1", "latlon": "12341234" }""" ]
         ]
 ```
-
-Add type annotation like this:
-
-```
-decodeLocationRecordBad : Decoder LocationRecordBad
-decodeLocationRecordBad =
-    object2 LocationRecordBad ("name" := string) ("latlon" := string)
-
 
 https://www.reddit.com/r/elm/comments/55nozn/decode_json_to_record_got_ok_function/
