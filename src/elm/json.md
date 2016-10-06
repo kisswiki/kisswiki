@@ -28,7 +28,23 @@ As far as why is there no way for Elm to automatically provide typed decoders fo
 ## Use type annotations
 
 ```
+type alias LocationRecordBad =
+    { name : String
+    , latlon : String
+    , watchers_count : Int
+    }
 
+decodeLocationRecordBad =
+    object2 LocationRecordBad ("name" := string) ("latlon" := string)
+
+type alias LocationRecord =
+    { name : String
+    , latlon : String
+    }
+
+decodeLocationRecord =
+    object2 LocationRecord ("name" := string) ("latlon" := string)
+    
 decodeString decodeLocationRecordBad """{ "name": "Name1", "latlon": "12341234" }""" ]
 decodeString decodeLocationRecord """{ "name": "Name1", "latlon": "12341234" }""" ]
 ```
