@@ -1,6 +1,5 @@
 - https://egghead.io/lessons/elm-decode-a-list-of-numbers-from-a-json-string-in-elm
 - https://www.brianthicks.com/post/2016/08/22/decoding-large-json-objects-a-summary/
-- Importance of type annotations when decoding json https://www.reddit.com/r/elm/comments/55nozn/decode_json_to_record_got_ok_function/
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Encode
 - https://guide.elm-lang.org/interop/json.html
@@ -29,6 +28,7 @@ As far as why is there no way for Elm to automatically provide typed decoders fo
 ## Use type annotations
 
 ```
+
 decodeString decodeLocationRecordBad """{ "name": "Name1", "latlon": "12341234" }""" ]
 decodeString decodeLocationRecord """{ "name": "Name1", "latlon": "12341234" }""" ]
 ```
