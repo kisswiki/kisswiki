@@ -27,3 +27,6 @@ As far as why is there no way for Elm to automatically provide typed decoders fo
 > -- https://www.reddit.com/r/elm/comments/54fk9k/easiest_json_decode/
 
 ## Use type annotations
+
+```
+decodeString decodeLocationRecordBad """{ "name": "Name1", "latlon": "12341234" }""" ]
