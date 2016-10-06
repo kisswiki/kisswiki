@@ -10,3 +10,8 @@
 
 > If multiple queries require the same piece of data, Relay will efficiently batch and aggregate these queries together for you. This has the potential for huge wins, compared to typical REST-style applications. For example, if you were pulling information for an endpoint in multiple locations on your site, you will often be sending a GET request for each place you need this data. You could instead attempt to aggregate these yourself, but this will make the application substantially more difficult to reason about. In comparison, the Relay approach allows us to have the simple conceptual model of declaring our data needs in each place we need it, but have the performance benefits of placing all the queries in one location. It’s a pretty big win-win.
 > -- http://thenewstack.io/facebooks-relay-javascript-framework-building-react-applications/
+
+<br>
+
+> OData is basically LINQ-over-REST, advantage over GraphQL is that it's better for aggregations (as they are hard to describe in GraphQL). GraphQL however performs nicer when it comes to joins, frontend-oriented data, documentation and tooling. Plus also it's easier to make it loosely coupled to you database schema than in OData.
+> -- 
