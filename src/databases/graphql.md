@@ -4,3 +4,9 @@
   - https://voice.kadira.io/introducing-lokka-a-simple-javascript-client-for-graphql-e0802695648c
   - https://forums.meteor.com/t/lokka-a-javascript-client-for-graphql/14922
 - https://medium.com/@matt.krick/how-to-build-a-graphql-client-cache-part-i-25e698acd8af
+- https://dev.to/reactiveconf/why-i-believe-graphql-will-come-to-replace-rest
+- caching, continuous scrolling made easy etc. http://red-badger.com/blog/2015/08/28/give-it-5-days-facebook-relay-and-graphql/
+- https://0x2a.sh/from-rest-to-graphql-b4e95e94c26b
+
+> If multiple queries require the same piece of data, Relay will efficiently batch and aggregate these queries together for you. This has the potential for huge wins, compared to typical REST-style applications. For example, if you were pulling information for an endpoint in multiple locations on your site, you will often be sending a GET request for each place you need this data. You could instead attempt to aggregate these yourself, but this will make the application substantially more difficult to reason about. In comparison, the Relay approach allows us to have the simple conceptual model of declaring our data needs in each place we need it, but have the performance benefits of placing all the queries in one location. It’s a pretty big win-win.
+> -- http://thenewstack.io/facebooks-relay-javascript-framework-building-react-applications/
