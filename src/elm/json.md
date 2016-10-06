@@ -32,3 +32,5 @@ As far as why is there no way for Elm to automatically provide typed decoders fo
 decodeString decodeLocationRecordBad """{ "name": "Name1", "latlon": "12341234" }""" ]
 decodeString decodeLocationRecord """{ "name": "Name1", "latlon": "12341234" }""" ]
 ```
+
+https://www.reddit.com/r/elm/comments/55nozn/decode_json_to_record_got_ok_function/
