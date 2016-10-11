@@ -1,2 +1,3 @@
 - https://franciskim.co/2016/08/24/dont-need-no-stinking-api-web-scraping-2016-beyond/
   - https://news.ycombinator.com/item?id=12345693
+- https://github.com/BruceDone/awesome-crawler
