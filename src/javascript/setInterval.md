@@ -1,0 +1,1 @@
+- http://stackoverflow.com/questions/7749090/how-to-use-setinterval-function-within-for-loop
