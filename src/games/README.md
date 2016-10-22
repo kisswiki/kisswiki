@@ -31,6 +31,7 @@
 - http://www.gamerankings.com/
 - http://www.metacritic.com/game
   - http://www.metacritic.com/browse/games/score/userscore/year/pc?sort=desc&year_selected=2016
+  - http://www.metacritic.com/browse/games/score/metascore/year/pc?sort=desc&year_selected=2016
   - http://www.metacritic.com/game/pc/inside
 - https://en.wikipedia.org/wiki/Golden_Joystick_Award
 - https://en.wikipedia.org/wiki/The_Game_Awards
