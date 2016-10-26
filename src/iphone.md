@@ -129,3 +129,9 @@ http://www.spidersweb.pl/2016/09/iphone-7-dxo.html
 
 - http://www.phonearena.com/phones/benchmarks
   - http://antyweb.pl/iphone-7-bateria-zestawienie/#comment-2931599790
+
+## Storage
+
+> Może się równać z iPhone co do wielkości pamięci, ale nie co do szybkości. Pamięć XiaomiMi Mix to UFS 2.0 - uniwersalna szybka pamięć NAND, typowa pamięć w małych niskonapięciowych urządzeniach. iPhone używa za to pamięci połączonej z płytą przez interfejs PCI z kontrolerem NVM - to rodzaj pamięci podobny do tych używanych przez najnowsze dyski SSD. To jeden z powodów dla którego pamięć iPhona jest znacznie (1.5x-5x razy) od rozwiązań opartych o UFS. Jeden z testów (to test dla iPhone 6s i galaxy S7 ale pokazuje różnice):
+http://bgr.com/2016/08/18/iphone-vs-galaxy-note-storage-speed/
+> -- http://www.wykop.pl/link/3417679/mi-mix-xiaomi-zawstydza-konkurentow-bezramkowym-smartfonem/#comment-40391903
