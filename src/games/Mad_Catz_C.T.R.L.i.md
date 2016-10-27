@@ -71,3 +71,4 @@ Cannot downgrade easily:
 - The game fully Supports MFi Game controllers and plays absolutely wonderful with them over touch screen http://moga-games.com/wordpress/2016/10/07/dan-the-man/
 - http://moga-games.com/wordpress/game-reviews/
 - Transistor https://itunes.apple.com/app/id948857526
+- Dust: An Elysian Tail - 
