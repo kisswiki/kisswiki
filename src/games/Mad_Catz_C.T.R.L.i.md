@@ -72,4 +72,5 @@ Cannot downgrade easily:
 - http://moga-games.com/wordpress/game-reviews/
 - Transistor https://itunes.apple.com/app/id948857526
 - Dust: An Elysian Tail - Humble Hearts LLC added MFi support on its April 27th update https://afterpad.com/forums/viewtopic.php?id=281
-- Minecraft Pocket Edition: https://afterpad.com/forums/viewtopic.php?id=113
+- Minecraft Pocket Edition: The camera turns terribly slow
+and when I turn the camera while moving, it even lags or doesn't even respond https://afterpad.com/forums/viewtopic.php?id=113
