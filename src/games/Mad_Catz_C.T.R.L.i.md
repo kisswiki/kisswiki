@@ -6,7 +6,7 @@
 
 ## ios10 disconnects game controllers and other bluetooth devices
 
-- probably no problems with SteelSeries Nimbus. Workaround: take off batteries in controller, turn off bluetooth in ios, turn on bluetooth, put batteries back.
+- probably no problems with SteelSeries Nimbus. Workaround: take off batteries (or usb cable) in controller, turn off bluetooth in ios, turn on bluetooth, put batteries back.
 - https://afterpad.com/ios-10-potentially-causing-issues-mfi-controllers/
 - https://forums.developer.apple.com/community/graphics-and-games/game-controller
 
