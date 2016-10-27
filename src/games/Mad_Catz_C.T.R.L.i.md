@@ -3,7 +3,7 @@
 - https://afterpad.com/mficontrollers/moga_acepower
 - http://www.applecenter.pl/temat/kontrolery-do-gier/
 - https://www.reddit.com/r/jailbreak/comments/4a9ajh/tutorialconnect_ps3ps4_controller_to_iphone/
-- ios10 disconnects game controllers and other bluetooth devices, probably no problems with SteelSeries Nimbus
+- ios10 disconnects game controllers and other bluetooth devices, probably no problems with SteelSeries Nimbus. Workaround: 
   - https://afterpad.com/ios-10-potentially-causing-issues-mfi-controllers/
   - https://forums.developer.apple.com/community/graphics-and-games/game-controller
 
