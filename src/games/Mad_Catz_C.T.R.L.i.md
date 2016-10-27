@@ -3,9 +3,18 @@
 - https://afterpad.com/mficontrollers/moga_acepower
 - http://www.applecenter.pl/temat/kontrolery-do-gier/
 - https://www.reddit.com/r/jailbreak/comments/4a9ajh/tutorialconnect_ps3ps4_controller_to_iphone/
-- ios10 disconnects game controllers and other bluetooth devices, probably no problems with SteelSeries Nimbus. Workaround: take off batteries in controller, turn off bluetooth in ios, turn on bluetooth, put batteries back
-  - https://afterpad.com/ios-10-potentially-causing-issues-mfi-controllers/
-  - https://forums.developer.apple.com/community/graphics-and-games/game-controller
+
+## ios10 disconnects game controllers and other bluetooth devices
+
+- probably no problems with SteelSeries Nimbus. Workaround: take off batteries in controller, turn off bluetooth in ios, turn on bluetooth, put batteries back.
+- https://afterpad.com/ios-10-potentially-causing-issues-mfi-controllers/
+- https://forums.developer.apple.com/community/graphics-and-games/game-controller
+
+Cannot downgrade easily:
+
+> 21 October 2016: Unfortunately, Apple has stopped signing versions under iOS 10, meaning you won't be able to downgrade using the methods listed below.
+> -- http://www.macworld.co.uk/how-to/iosapps/how-downgrade-ios-10-how-go-back-ios-9-reinstall-ios-9-3522302/
+
 
 ## Games
 
