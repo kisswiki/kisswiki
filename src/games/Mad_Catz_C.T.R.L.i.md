@@ -9,6 +9,8 @@
 - probably no problems with SteelSeries Nimbus. Workaround: take off batteries (or usb cable) in controller, turn off bluetooth in ios, turn on bluetooth, put batteries back.
 - https://afterpad.com/ios-10-potentially-causing-issues-mfi-controllers/
 - https://forums.developer.apple.com/community/graphics-and-games/game-controller
+- https://9to5mac.com/2016/09/29/iphone-7-ios-10-bluetooth-connectivity-issues/
+- https://en.wikipedia.org/wiki/IOS_version_history#iOS_10
 
 Cannot downgrade easily:
 
