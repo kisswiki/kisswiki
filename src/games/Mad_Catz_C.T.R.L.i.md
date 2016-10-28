@@ -27,6 +27,7 @@ Cannot downgrade easily:
 
 ## Games
 
+- http://madcatz.com/compatibility/ctrli/
 - gameplay on some games https://youtu.be/IUt4sKQEsRA
 - http://mfigames.com/category/games/?filter_by=popular
 - https://www.reddit.com/r/iosgaming/comments/4vkcro/best_ios_games_with_controller_support/
