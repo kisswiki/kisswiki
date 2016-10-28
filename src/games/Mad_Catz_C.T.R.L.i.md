@@ -23,6 +23,7 @@ Cannot downgrade easily:
 - http://www.phonearena.com/news/How-to-connect-an-iPhone-or-iPad-to-a-TV-or-a-computer-monitor_id63033
 - http://apple.stackexchange.com/questions/115523/what-are-the-compression-resolution-bandwidth-limitations-of-airplay-mirroring
 - https://www.youtube.com/watch?v=dxlHEvq4daI
+- http://apple.stackexchange.com/questions/174971/ios-screen-mirroring-via-usb-onto-pc
 
 ## Games
 
