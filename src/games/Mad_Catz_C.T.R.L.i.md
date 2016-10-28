@@ -18,6 +18,10 @@ Cannot downgrade easily:
 > 21 October 2016: Unfortunately, Apple has stopped signing versions under iOS 10, meaning you won't be able to downgrade using the methods listed below.
 > -- http://www.macworld.co.uk/how-to/iosapps/how-downgrade-ios-10-how-go-back-ios-9-reinstall-ios-9-3522302/
 
+## Mirror on PC
+
+- http://www.phonearena.com/news/How-to-connect-an-iPhone-or-iPad-to-a-TV-or-a-computer-monitor_id63033
+- http://apple.stackexchange.com/questions/115523/what-are-the-compression-resolution-bandwidth-limitations-of-airplay-mirroring
 
 ## Games
 
