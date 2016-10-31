@@ -2,6 +2,8 @@
 > teraz nie ma czegoś takiego, jak cisza nocna. Obowiązuje coś takiego, jak zakaz zakłócania spokoju, który obowiązuje CAŁĄ dobę.@KonserwatywnyThomas Dobrze, że masz nagranie, idź od razu na Policję z filmikiem i zgłoś sprawę.
 > Powoluj sie na art 51 kodeksu wykroczen, ta 22:00 i cisza nocna to mit, masz prawo żądać spokoju caly dzien ni chyba ze spoldzielnia ma wpisane w regulaminie te 22.
 > bohaterowie domu (wiecznie remontujący)
+> Nie baw w żadne siłowe podchody z patusami. Oni są bardziej kreatywni i zapalczywi niż Ty. Pochleją się standardowo i wpadną na pomysł, że trzeba Ci odpłacić (albo zrobią z tego rytuał) i już w ogóle będziesz miał przerąbane. No chyba, że możesz ich załatwić na cacy i będziesz miał alibi. :D
+> 
 > -- http://www.wykop.pl/link/3425745/patologia-na-bloku/
 
 http://www.wykop.pl/link/3411445/szaleniec-utrudnia-zycie-sasiadom/
