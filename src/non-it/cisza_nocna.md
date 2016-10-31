@@ -3,3 +3,5 @@
 > Powoluj sie na art 51 kodeksu wykroczen, ta 22:00 i cisza nocna to mit, masz prawo żądać spokoju caly dzien ni chyba ze spoldzielnia ma wpisane w regulaminie te 22.
 > bohaterowie domu (wiecznie remontujący)
 > -- http://www.wykop.pl/link/3425745/patologia-na-bloku/
+
+http://www.wykop.pl/link/3411445/szaleniec-utrudnia-zycie-sasiadom/
