@@ -3,7 +3,7 @@
 > Powoluj sie na art 51 kodeksu wykroczen, ta 22:00 i cisza nocna to mit, masz prawo żądać spokoju caly dzien ni chyba ze spoldzielnia ma wpisane w regulaminie te 22.
 > bohaterowie domu (wiecznie remontujący)
 > Nie baw w żadne siłowe podchody z patusami. Oni są bardziej kreatywni i zapalczywi niż Ty. Pochleją się standardowo i wpadną na pomysł, że trzeba Ci odpłacić (albo zrobią z tego rytuał) i już w ogóle będziesz miał przerąbane. No chyba, że możesz ich załatwić na cacy i będziesz miał alibi. :D
-> 
+> I jak zwykle w takich przypadkach najbardziej sytuację zaognia upojona alkoholowo Karyna,szefowa stada.Uważaj bo takie są o wiele groźniejsze niż napakowane sebixy po wyrokach dlatego że ona będzie podpuszczać przeciwko tobie tych typów i zrobi Ci prowokację taką że sama sie walnie o ścianę na klatce a następnie pobiegnie do gacha z krzykiem że jej najebałeś na klatce przed chwilą.Mówię to z prywatnego doświadczenia z elementem kryminalnym w bloku.
 > -- http://www.wykop.pl/link/3425745/patologia-na-bloku/
 
 http://www.wykop.pl/link/3411445/szaleniec-utrudnia-zycie-sasiadom/
