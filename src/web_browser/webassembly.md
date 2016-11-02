@@ -28,6 +28,7 @@ Compile-to-JS, NaCL, and asm.js culminated in a realistic blueprint for how to b
 On the plus side, holy shit we can do (almost) anything! WASM will also mean outside money pumped into improving the browser runtime, such as Ethereum's migration to WASM.
 Some of the parent comment is tongue-in-cheek, but you can already see one downside: fragmentation. Any good API gets screwed up in committee, so we end up with the most bare-bones and verbose implementation possible (WebComponents, IndexedDB, etc). Since they are so painful to use we end up importing 3rd party libraries which entails incompatibility. The content itself also becomes more opaque, as we can't just parse HTML to figure out the contents of the page.
 That being said, holy-shit we can do anything!
+> The original vision for the browser was as a vehicle for browsing through interlinked documents. Web apps were an afterthought.
 > -- https://news.ycombinator.com/item?id=12843224
 
 - http://www.2ality.com/2015/06/web-assembly.html
