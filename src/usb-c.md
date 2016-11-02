@@ -1,0 +1,1 @@
+- http://blog.fosketts.net/2016/10/29/total-nightmare-usb-c-thunderbolt-3/
