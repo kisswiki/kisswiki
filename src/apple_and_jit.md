@@ -1,2 +1,2 @@
 > It's perfectly permissible under App Store rules to use an interpreter which is functionally equivalent to a JIT in its ability to obfuscate code, or invoke or manipulate private APIs (e.g. can read/write arbitrary addresses, run dlsym, whatever). You aren't allowed to download bytecode for that interpreter from the internet, but again, that's a policy restriction, not a technical one.
-> -- https://news.ycombinator.com/item?id=12839704
+> -- https://news.ycombinator.com/item?id=12840134
