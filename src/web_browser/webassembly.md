@@ -44,4 +44,4 @@ That being said, holy-shit we can do anything!
 > I'm currently working on a large-ish code based designed primarily to run via Emscripten. Current optimized .js size is 3MB. While the WASM size is noticeably smaller <2MB, startup time is actually worse due to browsers compiling everything ahead of time.
 > with WASM browsers can potentially save a snapshot of the compiled code to speed up re-runs.
 > True, and I've seen great results with Firefox's asm.js AOT mode, but the app I'm working on has a lot of non cached users.
-> -- 
+> -- https://news.ycombinator.com/item?id=12840000
