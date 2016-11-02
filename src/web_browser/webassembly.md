@@ -22,6 +22,14 @@
 > ... especially since pthreads (Mozilla pthreads, Chromium pthreads) and SIMD (simd.js, Chromium SIMD, simd.js in asm.js) are coming to JavaScript.
 > https://github.com/WebAssembly/design/blob/master/FAQ.md
 
+> The original vision of the browser was a cross-platform vehicle for delivering applications over the network. It's not just an idea, it was always the explicit goal and WASM is the last piece of the puzzle.
+Java was supposed to be key to that goal, but it didn't match the capabilities of the network and processing speed of the time. As painful as HTML, CSS, and JavaScript are to use, they actually worked.
+Compile-to-JS, NaCL, and asm.js culminated in a realistic blueprint for how to build a low-level network-oriented runtime. Combined with increases to network speed (the average webpage is the size of the original DOOM) WASM is finally doable.
+On the plus side, holy shit we can do (almost) anything! WASM will also mean outside money pumped into improving the browser runtime, such as Ethereum's migration to WASM.
+Some of the parent comment is tongue-in-cheek, but you can already see one downside: fragmentation. Any good API gets screwed up in committee, so we end up with the most bare-bones and verbose implementation possible (WebComponents, IndexedDB, etc). Since they are so painful to use we end up importing 3rd party libraries which entails incompatibility. The content itself also becomes more opaque, as we can't just parse HTML to figure out the contents of the page.
+That being said, holy-shit we can do anything!
+> -- https://news.ycombinator.com/item?id=12843224
+
 - http://www.2ality.com/2015/06/web-assembly.html
 - https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723
 
