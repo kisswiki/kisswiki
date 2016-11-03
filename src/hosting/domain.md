@@ -1,4 +1,5 @@
 - https://tld-list.com/tld/net
+- https://www.domcomp.com/tld/net
 - http://www.webhostingtalk.pl/topic/42242-calpl-problem-z-uzyskaniem-kodw-authinfo/
 - Lowest cost https://www.cosmotown.com
 - http://www.wykop.pl/link/1167087/serwis-aftermarket-pl-dropped-pl-sprzedaje-domeny-swoich-uzytkownikow/
