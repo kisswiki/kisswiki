@@ -2,6 +2,7 @@
 - https://www.domcomp.com/tld/net
 - https://www.quora.com/Where-could-I-register-a-net-domain-at-the-cheapest-rates
 - https://www.quora.com/Which-service-offers-cheapest-domain-name-renewals
+- https://www.namepros.com/threads/godaddy-discount-codes.577802/page-899
 - http://www.webhostingtalk.pl/topic/42242-calpl-problem-z-uzyskaniem-kodw-authinfo/
 - Lowest cost https://www.cosmotown.com
 - http://www.wykop.pl/link/1167087/serwis-aftermarket-pl-dropped-pl-sprzedaje-domeny-swoich-uzytkownikow/
