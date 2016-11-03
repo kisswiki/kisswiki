@@ -46,7 +46,15 @@ That being said, holy-shit we can do anything!
 > True, and I've seen great results with Firefox's asm.js AOT mode, but the app I'm working on has a lot of non cached users.
 > -- https://news.ycombinator.com/item?id=12840000
 
+<br>
+
 > WebAssembly doesn't permit unstructured branching. That is, the bytecode doesn't support "goto". All conditionals and loops use structured mechanisms. Reconstituting branches and loops is the hardest part of decompiling, which means WebAssembly decompilers will have the hardest part already solved for them. It doesn't matter what binary or text formats the WebAssembly team chooses, they'll all be equally easy to parse, and even generate, in this regard.
 > The downside is that translating goto constructs in languages like C can be tricky and sometimes computationally very expensive. Even supporting multi-level "break" can be tricky. And constructs like "computed goto", which are often used in C, Fortran, etc to improve the readability (easier to read state machines) or performance (faster state machines for bytecode interpreters) cannot be supported by WebAssembly directly, which means instead of always being faster they'll always be slower.
 > But the downside is mostly irrelevant for people concerned by decompiling WebAssembly to readable source code.
 > -- https://news.ycombinator.com/item?id=12842923
+
+## Other languages
+
+> Libraries like libgc can't be directly ported over to Emscripten since they depend on platform specific behavior to inspect the execution stack and registers.
+In asm.js/WASM the execution stack is not inspectable from code.
+> -- https://news.ycombinator.com/item?id=12845918
