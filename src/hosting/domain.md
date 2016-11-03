@@ -1,4 +1,5 @@
 - https://tld-list.com/tld/net
+- https://tld-list.com/tld/jobs
 - https://www.domcomp.com/tld/net
 - https://www.quora.com/Where-could-I-register-a-net-domain-at-the-cheapest-rates
 - https://www.quora.com/Which-service-offers-cheapest-domain-name-renewals
