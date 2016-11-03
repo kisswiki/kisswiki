@@ -65,3 +65,10 @@ That being said, holy-shit we can do anything!
 > Libraries like libgc can't be directly ported over to Emscripten since they depend on platform specific behavior to inspect the execution stack and registers.
 In asm.js/WASM the execution stack is not inspectable from code.
 > -- https://news.ycombinator.com/item?id=12845918
+
+## Decompilation
+
+> dccoolgai: And so ended the Age of Javascript. Many will say, "good riddance" but I wonder what we lose by making the Web less shareable and copyable...
+> labrador: From what I've read, the architects of WebAssembly are committed to still be able to show source.
+> wahern: WebAssembly doesn't permit unstructured branching. That is, the bytecode doesn't support "goto". All conditionals and loops use structured mechanisms. Reconstituting branches and loops is the hardest part of decompiling, which means WebAssembly decompilers will have the hardest part already solved for them. It doesn't matter what binary or text formats the WebAssembly team chooses, they'll all be equally easy to parse, and even generate, in this regard.
+> -- https://news.ycombinator.com/item?id=12841344
