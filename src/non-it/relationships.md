@@ -9,3 +9,4 @@
 - http://themodernsavage.com/2010/03/16/attraction-triangle-game-theory/
   - http://themodernsavage.com/2010/03/25/preferred-signs-of-attraction-in-men-and-women/
 - https://markmanson.net/psycho
+- http://www.ted.com/talks/hannah_fry_the_mathematics_of_love/transcript?language=pl
