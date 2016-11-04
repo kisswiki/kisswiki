@@ -1,1 +1,2 @@
 - http://innpoland.pl/126929,crowdfunding-nie-jest-rewolucja-w-finansowaniu-wywiad-z-feargusem-urqhuartem-legendarnym-producentem-gier
+- https://software.intel.com/en-us/gamedev/journey/ideate
