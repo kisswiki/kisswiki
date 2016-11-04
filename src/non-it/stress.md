@@ -1,0 +1,2 @@
+> When stress feels overwhelming try 4-7-8 breaths Inhale for a count of four, hold the breath for 7, exhale for 8. Physiologically, when you exhale for that longer period you body automatically relaxes. For overall anxiety try to MBSR 8 week course (Mindfulness Based Stress Reduction) Research proven to be successful
+> -- https://www.facebook.com/TED/videos/10157705631880652/?comment_id=10157705670450652&reply_comment_id=10157705871860652&comment_tracking=%7B%22tn%22%3A%22R9%22%7D
