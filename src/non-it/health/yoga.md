@@ -11,5 +11,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 
 ## Ultimate Yogi
 
+- https://www.amazon.com/Ultimate-Yogi-Travis-Eliot/dp/B007OYK32K
+
 > Ultimate Yogi kind of assumes one already knows what upward facing dog etc is
 > -- https://www.reddit.com/r/XboxFitness/comments/4u8o89/the_ultimate_yogi_vs_yo30_first_impression/
