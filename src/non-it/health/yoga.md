@@ -15,5 +15,5 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 - https://www.amazon.com/Yoga-Foundations-Travis-Eliot/dp/B00Y4S7H4Q/
 - https://www.amazon.com/Ultimate-Yogi-Travis-Eliot/dp/B007OYK32K
 
-> Ultimate Yogi kind of assumes one already knows what upward facing dog etc is
+> Ultimate Yogi kind of assumes one already knows what upward facing dog etc is. Yo:30 offers easier modifications and one of the people on screen demos them, while Ultimate Yogi sometimes mentions modifications briefly, everyone on screen seems to be doing full poses
 > -- https://www.reddit.com/r/XboxFitness/comments/4u8o89/the_ultimate_yogi_vs_yo30_first_impression/
