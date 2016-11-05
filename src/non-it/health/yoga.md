@@ -7,6 +7,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 - http://www.joga-joga.pl/pl160/gallery31/joga_dla_poczatkujacych_start_wiktor_morgulec_cz_i
 - Nigdy się nie poddawaj - inspirująca zmiana Artura https://youtu.be/sSOFz0bPiRI
 - https://www.reddit.com/r/yoga/comments/2s8hg5/download_30_days_of_yoga_with_adriene_for/
+  - 30 Days of Yoga - Start Here https://youtu.be/TXU591OYOHA
   - Day 1 - Ease Into It - 30 Days of Yoga https://youtu.be/oBu-pQG6sTY
 
 ## Travis Elliot
