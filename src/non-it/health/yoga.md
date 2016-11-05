@@ -9,7 +9,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 - https://www.reddit.com/r/yoga/comments/2s8hg5/download_30_days_of_yoga_with_adriene_for/
   - Day 1 - Ease Into It - 30 Days of Yoga https://youtu.be/oBu-pQG6sTY
 
-## Ultimate Yogi
+## Travis Elliot
 
 - https://www.amazon.com/Ultimate-Yogi-Travis-Eliot/dp/B007OYK32K
 
