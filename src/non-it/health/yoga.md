@@ -16,6 +16,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
   - https://www.amazon.com/Yoga-Beginners-Strength-Flexibility-Relaxation/dp/B0043LKPOI/
 - https://www.reddit.com/r/yoga/
 - https://www.doyogawithme.com/
+- The 30 Days of Yoga Challenge on DOYOUYOGA https://www.youtube.com/playlist?list=PLcjgXQkHWH453km2BpJqYHzmkUkkjH5IB
 
 ## Travis Elliot
 
