@@ -11,6 +11,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
   - Day 1 - Ease Into It - 30 Days of Yoga https://youtu.be/oBu-pQG6sTY
 - Yoga for Complete Beginners - Yoga Class 20 Minutes https://youtu.be/0o0kNeOyH98
 - https://www.youtube.com/user/YogaVidyaEnglish/playlists
+- https://www.youtube.com/user/InnerSplendorYoga/videos
 
 ## Travis Elliot
 
