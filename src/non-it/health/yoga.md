@@ -8,6 +8,8 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 - Nigdy się nie poddawaj - inspirująca zmiana Artura https://youtu.be/sSOFz0bPiRI
 - https://www.reddit.com/r/yoga/comments/2s8hg5/download_30_days_of_yoga_with_adriene_for/
   - 30 Days of Yoga - Start Here https://www.youtube.com/watch?v=TXU591OYOHA&list=PLui6Eyny-UzwxbWCWDbTzEwsZnnROBTIL
+  - https://yogawithadriene.vhx.tv/
+  - https://www.reddit.com/r/yoga/comments/3esvd7/my_favorite_youtube_yogi_yoga_with_adriene/
 - Yoga for Complete Beginners - Yoga Class 20 Minutes https://youtu.be/0o0kNeOyH98
 - https://www.youtube.com/user/YogaVidyaEnglish/playlists
 - Kanta Barrios
@@ -18,7 +20,6 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 - The 30 Days of Yoga Challenge on DOYOUYOGA https://www.youtube.com/playlist?list=PLcjgXQkHWH453km2BpJqYHzmkUkkjH5IB
 - http://www.youtube.com/user/yogatic
 - 15 Minute Yoga For Beginners 30 Day Challenge Day 1 With Lesley Fightmaster
-- https://www.reddit.com/r/yoga/comments/3esvd7/my_favorite_youtube_yogi_yoga_with_adriene/
 
 ## Travis Elliot
 
