@@ -11,6 +11,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 
 ## Travis Elliot
 
+- https://www.amazon.com/Yoga-Foundations-Travis-Eliot/dp/B00Y4S7H4Q/r
 - https://www.amazon.com/Ultimate-Yogi-Travis-Eliot/dp/B007OYK32K
 
 > Ultimate Yogi kind of assumes one already knows what upward facing dog etc is
