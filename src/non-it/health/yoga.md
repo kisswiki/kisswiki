@@ -14,6 +14,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 - Kanta Barrios
   - https://www.youtube.com/user/InnerSplendorYoga/videos
   - https://www.amazon.com/Yoga-Beginners-Strength-Flexibility-Relaxation/dp/B0043LKPOI/
+- https://www.reddit.com/r/yoga/
 
 ## Travis Elliot
 
