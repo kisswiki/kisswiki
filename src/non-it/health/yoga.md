@@ -6,3 +6,4 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 - http://morgulec.com/nauka-jogi/darmowy-kurs-jogi/
 - http://www.joga-joga.pl/pl160/gallery31/joga_dla_poczatkujacych_start_wiktor_morgulec_cz_i
 - Nigdy się nie poddawaj - inspirująca zmiana Artura https://youtu.be/sSOFz0bPiRI
+- https://www.reddit.com/r/yoga/comments/2s8hg5/download_30_days_of_yoga_with_adriene_for/
