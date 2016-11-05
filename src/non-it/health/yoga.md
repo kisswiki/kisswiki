@@ -8,3 +8,8 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 - Nigdy się nie poddawaj - inspirująca zmiana Artura https://youtu.be/sSOFz0bPiRI
 - https://www.reddit.com/r/yoga/comments/2s8hg5/download_30_days_of_yoga_with_adriene_for/
   - Day 1 - Ease Into It - 30 Days of Yoga https://youtu.be/oBu-pQG6sTY
+
+## Ultimate Yogi
+
+> Ultimate Yogi kind of assumes one already knows what upward facing dog etc is
+> -- https://www.reddit.com/r/XboxFitness/comments/4u8o89/the_ultimate_yogi_vs_yo30_first_impression/
