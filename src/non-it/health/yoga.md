@@ -17,6 +17,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 - https://www.reddit.com/r/yoga/
 - https://www.doyogawithme.com/
 - The 30 Days of Yoga Challenge on DOYOUYOGA https://www.youtube.com/playlist?list=PLcjgXQkHWH453km2BpJqYHzmkUkkjH5IB
+- http://www.youtube.com/user/yogatic
 
 ## Travis Elliot
 
