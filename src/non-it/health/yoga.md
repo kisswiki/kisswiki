@@ -9,6 +9,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 - https://www.reddit.com/r/yoga/comments/2s8hg5/download_30_days_of_yoga_with_adriene_for/
   - 30 Days of Yoga - Start Here https://youtu.be/TXU591OYOHA
   - Day 1 - Ease Into It - 30 Days of Yoga https://youtu.be/oBu-pQG6sTY
+- Yoga for Complete Beginners - Yoga Class 20 Minutes https://youtu.be/0o0kNeOyH98
 
 ## Travis Elliot
 
