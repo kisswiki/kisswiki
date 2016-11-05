@@ -18,7 +18,8 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
   - https://www.youtube.com/user/InnerSplendorYoga/videos
   - https://www.amazon.com/Yoga-Beginners-Strength-Flexibility-Relaxation/dp/B0043LKPOI/
 - https://www.reddit.com/r/yoga/
-- https://www.doyogawithme.com/
+- https://www.doyogawithme.com
+  - https://www.doyogawithme.com/14-day-yoga-challenge
 - The 30 Days of Yoga Challenge on DOYOUYOGA https://www.youtube.com/playlist?list=PLcjgXQkHWH453km2BpJqYHzmkUkkjH5IB
 - http://www.youtube.com/user/yogatic
 - 15 Minute Yoga For Beginners 30 Day Challenge Day 1 With Lesley Fightmaster
