@@ -3,3 +3,5 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 > -- http://www.joga-joga.pl/pl147/teksty439/recenzja_8222biblii_joginow8221_8222swiatlo_jogi82
 
 - http://bosonamacie.pl/polscy-jogini-sie-policzyli
+- http://morgulec.com/nauka-jogi/darmowy-kurs-jogi/
+- http://www.joga-joga.pl/pl160/gallery31/joga_dla_poczatkujacych_start_wiktor_morgulec_cz_i
