@@ -10,6 +10,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
   - 30 Days of Yoga - Start Here https://www.youtube.com/watch?v=TXU591OYOHA&list=PLui6Eyny-UzwxbWCWDbTzEwsZnnROBTIL
   - https://yogawithadriene.vhx.tv/
   - https://www.reddit.com/r/yoga/comments/3esvd7/my_favorite_youtube_yogi_yoga_with_adriene/
+  - https://www.reddit.com/r/dataisbeautiful/comments/4r7lhe/54_million_yoga_fails_in_one_graph_oc/
 - Yoga for Complete Beginners - Yoga Class 20 Minutes https://youtu.be/0o0kNeOyH98
 - https://www.youtube.com/user/YogaVidyaEnglish/playlists
 - Kanta Barrios
