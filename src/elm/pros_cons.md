@@ -23,3 +23,42 @@
 
 > my biggest complaint about Elm which is that it will throw a runtime exception for function comparison — an operation that would be safe in just about any other language, particularly JavaScript. The defense of this is that value equality for functions is undecidable but then there really ought to be an equatable typeclass that would go along with comparable — more compiler smells and won't we be surprised when lots of things turn out not to be equatable. Personally, I prefer the compromise of just saying that functions that can't readily be proven equal are considered unequal.)
 > -- https://groups.google.com/forum/#!msg/elm-discuss/NKFxMyPHBoY/FtMfD2Z5AwAJ
+
+
+## Select
+
+> help define an agreed-upon way to do select boxes
+> or the record, I do code generation to make sure I am not forgetting anything in lists of options, and this sucks
+> there is no built-in/good way to write a select box
+you can add a new element to the sum type, and forget to add it to timeRangeOptions
+> I'm curious what alternative solutions people are suggesting to having to manually create a list of options.
+Reflection seems like a bad solution because you suddenly couple the arbitrary order of constructors in a union type to the order they are presented in a view. It is also brittle because it falls apart the moment you want to exclude one or more options. Also, how do we handle a type which has constructors of different types?
+Are there alternate solutions out there which address these problems?
+>> All those things are trivially handled in a system with reflection
+> How is this trivially handled? The order of the items in the view shouldn't be coupled with some order that makes sense in the source file. How do you decouple these things without declaring the arbitrary order of elements like making a list?
+> -- https://www.reddit.com/r/elm/comments/5c3yx2/a_reaction_to_the_article_a_small_dive_into_and/
+
+<br>
+
+> Just add a way to get to the data the compiler has when it tells you a case isn't exhaustive?
+> -- https://www.reddit.com/r/elm/comments/5bt8f4/elm_is_wrong_reasonably_polymorphic_xpost_from/d9ssj83/
+
+<br>
+
+> PureScript doesn't support tuples out of the box. Instead, they just use records, which is a far superior way of using product types and avoids complecting the fields.
+> https://www.youtube.com/watch?v=rI8tNMsozo0&t=24m10s
+> -- https://www.reddit.com/r/programming/comments/5bsanc/elm_is_wrong_reasonably_polymorphic/d9r5lji/
+
+<br>
+
+> In an imparative language you would probably just use a list right? That would work in Elm too. The id could be generated using List.indexedMap and you could even ensure that every element is unique by converting it to a Set.
+http://elm-ui.info/reference/chooser https://github.com/gdotdesign/elm-ui/blob/master/source/Ui/Chooser.elm
+> Sure. But if I can’t use type safe features, what’s the point of elm?
+> When you update your union type you don’t get a runtime error because you’re forced to handle the *unknown* cases in the parser, what you *not* get is a compile error so you would have to run your app to test it right? That’s not desired but it’s better than an unexpected error at runtime imo.
+> https://hackernoon.com/a-small-dive-into-and-rejection-of-elm-8217fd5da235
+
+## Dictionary
+
+> you can’t use any custom data-types as the key of a dictionary in Elm.
+> Did you hear that? That was the sound of type-safety dying.
+> -- http://reasonablypolymorphic.com/blog/elm-is-wrong
