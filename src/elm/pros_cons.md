@@ -62,3 +62,8 @@ http://elm-ui.info/reference/chooser https://github.com/gdotdesign/elm-ui/blob/m
 > you can’t use any custom data-types as the key of a dictionary in Elm.
 > Did you hear that? That was the sound of type-safety dying.
 > -- http://reasonablypolymorphic.com/blog/elm-is-wrong
+
+## Map
+
+> Elm gets around all of this complexity by ignoring it and making us do everything the hard way. There is no map function, but there are List.map, Dict.map, Array.map among others, and none of them are related to one another. This is not only annoying, but also breaks the abstract data-type guarantee: our call-sites are now tightly coupled to our implementation details. If I decide to change from a List a to an Array a for efficiency reasons, my whole codebase needs to know about it.
+> -- http://reasonablypolymorphic.com/blog/elm-is-wrong
