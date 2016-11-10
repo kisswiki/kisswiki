@@ -19,6 +19,7 @@ Also interesting is how Elm's immutability allows it to use requestAnimationFram
 <br>
 
 > Elm is an exploration of how much power you can get with how small a subset of Haskell and the answer seems to be quite a lot.
+> Elm beginners can create good code accidentally
 > -- https://groups.google.com/forum/#!msg/elm-discuss/NKFxMyPHBoY/FtMfD2Z5AwAJ
 
 - One thing that has really driven the attention and the adoption of Elm is that it emphasizes simplicity and ease of use in a way that rocks the boat a bit within the existing functional programming community. I’m consistently looking for ways to reduce the learning curve. - Evan Czaplicki https://www.seas.harvard.edu/blog/2015/10/alumni-profile-evan-czaplicki-ab-12
