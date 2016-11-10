@@ -1,0 +1,1 @@
+- https://medium.com/@skidding/fighting-for-component-independence-2a762ee53272
