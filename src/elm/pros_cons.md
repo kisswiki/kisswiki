@@ -57,6 +57,11 @@ http://elm-ui.info/reference/chooser https://github.com/gdotdesign/elm-ui/blob/m
 > When you update your union type you don’t get a runtime error because you’re forced to handle the *unknown* cases in the parser, what you *not* get is a compile error so you would have to run your app to test it right? That’s not desired but it’s better than an unexpected error at runtime imo.
 > https://hackernoon.com/a-small-dive-into-and-rejection-of-elm-8217fd5da235
 
+<br>
+
+> maybe the attraction to use tuples instead of records sometimes has to do with the fact that tuples are comparable while records are not. And then, of course, after 6-tuples that stops to be true, because even tuples are not comparable anymore from 7 onwards.
+> -- https://groups.google.com/forum/#!msg/elm-discuss/NKFxMyPHBoY/FtMfD2Z5AwAJ
+
 ## Dictionary
 
 > you can’t use any custom data-types as the key of a dictionary in Elm.
