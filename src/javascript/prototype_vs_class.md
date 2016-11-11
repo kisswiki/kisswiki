@@ -12,3 +12,4 @@ function MyObject(name, message) {
     return this.message;
   };
 }).call(MyObject.prototype);
+```
