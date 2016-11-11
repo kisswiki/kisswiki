@@ -16,5 +16,7 @@ function MyObject(name, message) {
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 ```javascript
-
+function Person(name) {
+  this.name = name;
+}
 ```
