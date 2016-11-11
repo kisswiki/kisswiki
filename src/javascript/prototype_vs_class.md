@@ -1,5 +1,4 @@
 ```javascript
-
 function MyObject(name, message) {
   this.name = name.toString();
   this.message = message.toString();
