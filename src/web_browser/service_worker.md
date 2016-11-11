@@ -1,1 +1,1 @@
-- service worker
+- https://serviceworke.rs/
