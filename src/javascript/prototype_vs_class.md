@@ -14,3 +14,7 @@ function MyObject(name, message) {
 ```
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
+```javasript
+
+```
