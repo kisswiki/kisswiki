@@ -72,3 +72,20 @@ http://elm-ui.info/reference/chooser https://github.com/gdotdesign/elm-ui/blob/m
 
 > Elm gets around all of this complexity by ignoring it and making us do everything the hard way. There is no map function, but there are List.map, Dict.map, Array.map among others, and none of them are related to one another. This is not only annoying, but also breaks the abstract data-type guarantee: our call-sites are now tightly coupled to our implementation details. If I decide to change from a List a to an Array a for efficiency reasons, my whole codebase needs to know about it.
 > -- http://reasonablypolymorphic.com/blog/elm-is-wrong
+
+## vtable
+
+> An aside, where he mentions 'If you don’t want to read the essay, SYTC essentially says “hey, why don’t we pass around an object that describes the implementation of the contract that we care about, rather than having the compiler infer it for us?”. If you’re familiar with Scala, this is how they implement typeclasses in terms of implicit parameters. If you’re not, SYTC is equivalent to passing around a vtable whenever you want to invoke code on a dynamic target.', that is just what OCaml is doing in a soon-coming version with its implicit modules.
+> -- https://news.ycombinator.com/item?id=12915227
+
+<br>
+
+> In an OOP language, objects have a hidden field: a struct containing function pointers for each member function the object's type hierarchy defines.
+Another way of doing things is to pass the array of function references along with your data structures. This is done in C, such as with the GObject type system -- the first member of any GObject is its "virtual function table" (vtable). And since humans have to reference the functions by name, they use structs with named fields instead of arrays, but it's the same thing.
+In Elm and Haskell, you can duplicate that pattern.
+But what if there are two different sets of functionality that this type has? Like if in C# you wanted to implement a custom comparison, that's using the vtable from IComparable, and if you also wanted to implement IDisposable, that's a different vtable. That gets cumbersome when you have to pass vtables around explicitly.
+Haskell has an interesting feature, though. You can make one vtable struct containing everything related to your type, and the complier can ensure that it matches both the vtable for IDisposable and the one for IComparable.
+Elm doesn't have it, but they still recommend this vtable struct pattern.
+The other way of working is type classes, which are kind of like Go's interfaces. A thing implements an interface if it happens to implement the right functions. In Haskell, though type classes exist, many people recommend using the vtable pattern instead.
+In Elm, there are no type classes. This is because Haskell people recommend against using them. But in Haskell, they could only work with vtables in place of typeclasses effectively because of a feature that Haskell has and Elm lacks.
+> -- https://www.reddit.com/r/programming/comments/5bsanc/elm_is_wrong_reasonably_polymorphic/
