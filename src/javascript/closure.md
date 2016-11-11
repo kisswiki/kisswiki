@@ -9,6 +9,13 @@
 
 <br>
 
+> it is possible to emulate private methods using closures
+> Prior to the introduction of the let keyword in ECMAScript 6, a common problem with closures occurred when they were created inside a loop.
+> By the time the onfocus callbacks are executed, the loop has run its course and the item variable (shared by all three closures) has been left pointing to the last entry in the helpText list.
+> -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
+<br>
+
 > Two one sentence summaries:
 > - a closure is one way of supporting first-class functions; it is an expression that can reference variables within its scope (when it was first declared), assigned to a variable, passed as an argument to a function, or returned as a function result. Or
 > - closure is a stack frame which is allocated when a function starts its execution, and not freed after the function returns (as if a 'stack frame' were allocated on the heap rather than the stack!).
