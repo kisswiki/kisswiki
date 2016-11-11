@@ -12,6 +12,8 @@
 > it is possible to emulate private methods using closures
 > Prior to the introduction of the let keyword in ECMAScript 6, a common problem with closures occurred when they were created inside a loop.
 > By the time the onfocus callbacks are executed, the loop has run its course and the item variable (shared by all three closures) has been left pointing to the last entry in the helpText list.
+> It is unwise to unnecessarily create functions within other functions if closures are not needed for a particular task, as it will negatively affect script performance both in terms of processing speed and memory consumption.
+> For instance, when creating a new object/class, methods should normally be associated to the object's prototype rather than defined into the object constructor. The reason is that whenever the constructor is called, the methods would get reassigned (that is, for every object creation).
 > -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 <br>
