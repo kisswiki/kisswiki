@@ -12,3 +12,5 @@ function MyObject(name, message) {
   };
 }).call(MyObject.prototype);
 ```
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
