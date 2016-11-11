@@ -1,2 +1,2 @@
 - http://gdotdesign.github.io/elm-ui/
-- what to do https://github.com/debois/elm-mdl/issues/147
+- what to do, links about other material design css/javascript widgets libraries https://github.com/debois/elm-mdl/issues/147
