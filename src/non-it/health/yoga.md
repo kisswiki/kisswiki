@@ -94,6 +94,6 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 
 <br>
 
-> Those with osteoporosis could fracture their spines by bending forward, and those with herniated disks may suffer pain from these stretches, said Dr. Loren Fishman, a New York City physician who is also a yoga instructor. 
+> Those with osteoporosis could fracture their spines by bending forward, and those with herniated disks may suffer pain from these stretches, said Dr. Loren Fishman, a New York City physician who is also a yoga instructor.
 > Fishman recommends that those with MS do Iyengar yoga instead, as it focuses on alignment and is gentler on the body.
 > -- http://www.livescience.com/18059-yoga-safe-tips-avoid-injuries.html
