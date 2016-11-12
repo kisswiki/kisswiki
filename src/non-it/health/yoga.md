@@ -79,3 +79,8 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 > too much flexibility without strength can be a liability in asana practice
 > for now, I'm going to continue to practice certain asanas with the support of props like blankets and modifications like bent knees
 > -- http://adkyogimomma.blogspot.com/2014/05/yogalign-anti-yoga.html
+
+<br>
+
+> When you overstretch ligaments, there’s a good chance they will not bounce back to their former length.
+> -- http://www.elephantjournal.com/2013/09/yogis-be-careful-with-your-joints-charlotte-bell/
