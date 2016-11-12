@@ -58,3 +58,5 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 > 2. It should not restrict the ability to do deep, rib-cage breathing.
 > 3. It should have a real-life correlation to functional joint movement.
 > -- http://www.huffingtonpost.com/michaelle-edwards/yoga-poses_b_3943130.html
+
+https://www.youtube.com/user/YogalignKauai/videos
