@@ -60,4 +60,6 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 > -- http://www.huffingtonpost.com/michaelle-edwards/yoga-poses_b_3943130.html
 
 - https://www.youtube.com/user/YogalignKauai/videos
-- https://www.amazon.com/YogAlign-Pain-free-Yoga-Your-Inner/dp/0615544754
+
+>  purchased this DVD from the Yogalign website. I came upon the Yogalign method after taking yoga classes at a local studio and researching if some of the poses were safe for me to do (fish pose, plow pose, shoulder stand, camel, etc). Something just didn't feel right in my body while practicing those questionable poses and I did some online research which confirmed my suspicions that if you are are not naturally super flexible then contorting yourself into uncomfortable poses might be of no benefit and may cause injury. After about a month of Yogalign practice two or three times a week this yoga method helped to relieve an upper backache I couldn't seem to get rid of. The poses are not difficult nor uncomfortable since they honor the natural curves of the human body. I do feel taller and lighter after the practice. It's a good long practice and there is the option to select segments to practice if you can't do the whole workout. The voice over instructions are clear and the beach setting is beautiful along with some funny characters in the background!. As a woman about to celebrate her 50th birthday I plan to continue Yogalign to improve my posture and stay flexible.
+> -- https://www.amazon.com/YogAlign-Pain-free-Yoga-Your-Inner/dp/0615544754
