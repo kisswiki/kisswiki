@@ -52,6 +52,5 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 > Any back doctor will tell you to always bend your knees when leaning over. Why does yoga get a hall pass to ignore this basic anatomical rule to bend the knees?
 > Protect your spine and lower back curves in yoga: Keep your knees deeply bent in all seated and standing forward bends, and stay out of all yoga poses that create a C shape in the spinal column.
 > In order for yoga to evolve and be safe for all, we must use critical thinking, discernment, awareness and simple bio-mechanical common sense.
-
-I always remind my students to practice naturally aligned posture as the most important asana. If an asana does not support your spine in good posture, it is quite possibly working to pull your body out of alignment, and what is the benefit of doing it?
+> I always remind my students to practice naturally aligned posture as the most important asana. If an asana does not support your spine in good posture, it is quite possibly working to pull your body out of alignment, and what is the benefit of doing it?
 > -- http://www.huffingtonpost.com/michaelle-edwards/yoga-poses_b_3943130.html
