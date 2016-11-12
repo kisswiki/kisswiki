@@ -1,3 +1,7 @@
+- http://fundersandfounders.com/how-elon-musk-started/
+
+## Jim Cantrell
+
 Jim Cantrell, On SpaceX founding team with Elon Musk
 785.4k Views • Featured in Forbes • Upvoted by Jason McFarlane, Founder @ TMG and Luca Monk, Student Entrepreneur
 Most Viewed Writer in Elon Musk with 7 endorsements
