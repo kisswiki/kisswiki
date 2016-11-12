@@ -35,4 +35,5 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 
 ## Knee pain
 
-- http://greatist.com/move/yoga-for-knee-pain-relief
+> It's unwise to lock the knees in any pose unless told otherwise
+> -- http://greatist.com/move/yoga-for-knee-pain-relief
