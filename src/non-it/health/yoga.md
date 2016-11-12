@@ -45,3 +45,8 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 > Yes, yoga is known for its healing powers and ability to transform your body and mind into a lean — yet much less mean — you.
 > However, it’s also a physical exercise and often a vigorous one. As such, if done incorrectly, it can also cause pain and even major injury. One MD friend told me recently he’s never seen this many muscular and joint issues stemming from yoga. And by “issues,” he means ruptures, pulls, tears, and herniated discs. All of which could — and do — halt yoga practitioners in their tracks every day.
 > -- http://www.gaiam.com/discover/571/article/4-yoga-mistakes-can-cause-knee-pain/
+
+<br>
+
+> years of practicing body positions that do not simulate real life function can lead to misalignment, chronic pain, and even surgical replacements.
+> -- http://www.huffingtonpost.com/michaelle-edwards/yoga-poses_b_3943130.html
