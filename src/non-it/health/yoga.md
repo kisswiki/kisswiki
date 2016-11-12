@@ -49,4 +49,5 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 <br>
 
 > years of practicing body positions that do not simulate real life function can lead to misalignment, chronic pain, and even surgical replacements.
+> Any back doctor will tell you to always bend your knees when leaning over. Why does yoga get a hall pass to ignore this basic anatomical rule to bend the knees?
 > -- http://www.huffingtonpost.com/michaelle-edwards/yoga-poses_b_3943130.html
