@@ -35,6 +35,8 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 
 ## Knee pain
 
+- 5 yoga poses for Knee Pain https://youtu.be/LJ22NekVvS8
+
 > It's unwise to lock the knees in any pose unless told otherwise
 > -- http://greatist.com/move/yoga-for-knee-pain-relief
 
