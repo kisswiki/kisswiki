@@ -66,6 +66,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 
 <br>
 
+> I read through her website in the week before she came to the studio, and noticed that she uses William Broad's notorious book, The Science of Yoga, as an example of how "dangerous" yoga is.
 > I've learned that a huge part of asana is meant to bring your awareness into your own body. How many years have we all spent rushing through life in this body without giving any thought to how it feels or what it wants? It's probably the hardest part of asana practice for many of us: learning how to tune in to our bodies and what they really want after all these years, and learning how to treat ourselves gently. That doesn't necessarily make the practice of asana dangerous - it just means that we have to pay attention to how and what we're practicing.
 > too much flexibility without strength can be a liability in asana practice
 > for now, I'm going to continue to practice certain asanas with the support of props like blankets and modifications like bent knees
