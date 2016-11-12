@@ -56,6 +56,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 - http://www.prevention.com/fitness/6-yoga-poses-that-can-make-your-back-pain-worse
 - http://www.totalbeauty.com/content/gallery/yoga-poses-back
 - http://www.livescience.com/18059-yoga-safe-tips-avoid-injuries.html
+- https://nccih.nih.gov/health/yoga/introduction.htm
 
 > years of practicing body positions that do not simulate real life function can lead to misalignment, chronic pain, and even surgical replacements.
 > Any back doctor will tell you to always bend your knees when leaning over. Why does yoga get a hall pass to ignore this basic anatomical rule to bend the knees?
