@@ -46,7 +46,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 > However, it’s also a physical exercise and often a vigorous one. As such, if done incorrectly, it can also cause pain and even major injury. One MD friend told me recently he’s never seen this many muscular and joint issues stemming from yoga. And by “issues,” he means ruptures, pulls, tears, and herniated discs. All of which could — and do — halt yoga practitioners in their tracks every day.
 > -- http://www.gaiam.com/discover/571/article/4-yoga-mistakes-can-cause-knee-pain/
 
-<br>
+## YogAlign
 
 > years of practicing body positions that do not simulate real life function can lead to misalignment, chronic pain, and even surgical replacements.
 > Any back doctor will tell you to always bend your knees when leaning over. Why does yoga get a hall pass to ignore this basic anatomical rule to bend the knees?
@@ -59,4 +59,5 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 > 3. It should have a real-life correlation to functional joint movement.
 > -- http://www.huffingtonpost.com/michaelle-edwards/yoga-poses_b_3943130.html
 
-https://www.youtube.com/user/YogalignKauai/videos
+- https://www.youtube.com/user/YogalignKauai/videos
+- https://www.amazon.com/YogAlign-Pain-free-Yoga-Your-Inner/dp/0615544754
