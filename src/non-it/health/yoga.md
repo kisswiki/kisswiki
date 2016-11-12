@@ -85,3 +85,8 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 > When you overstretch ligaments, there’s a good chance they will not bounce back to their former length.
 > If ligaments are meant to protect joints by limiting their movement, continually overstretching joints can lead to joint instability over time. I know a number of serious practitioners who are now in their 50s—including myself—who regret having overstretched our joints back in the day. All too many longtime practitioners now own artificial joints to replace the ones they overused.
 > -- http://www.elephantjournal.com/2013/09/yogis-be-careful-with-your-joints-charlotte-bell/
+
+<br>
+
+> Like any exercise, though, yoga can have risks. People with herniated disks or osteoporosis, for example, should avoid deep forward bends, and anyone with neck problems should steer clear of headstands, Loren Fishman, a New York City physician who is also a yoga instructor, told LiveScience in 2012. Talking to a doctor about specific issues before starting a practice is recommended, as is letting your yoga teacher know of any limitations.
+> -- http://www.livescience.com/42204-what-is-yoga.html
