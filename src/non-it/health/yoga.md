@@ -88,5 +88,5 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 
 <br>
 
-> Like any exercise, though, yoga can have risks. People with herniated disks or osteoporosis, for example, should avoid deep forward bends, and anyone with neck problems should steer clear of headstands, Loren Fishman, a New York City physician who is also a yoga instructor, told LiveScience in 2012. Talking to a doctor about specific issues before starting a practice is recommended, as is letting your yoga teacher know of any limitations.
+> Like any exercise, though, yoga can have risks. People with herniated disks or osteoporosis, for example, should avoid deep forward bends, and anyone with neck problems http://www.livescience.com/18059-yoga-safe-tips-avoid-injuries.html should steer clear of headstands, Loren Fishman, a New York City physician who is also a yoga instructor, told LiveScience in 2012. Talking to a doctor about specific issues before starting a practice is recommended, as is letting your yoga teacher know of any limitations.
 > -- http://www.livescience.com/42204-what-is-yoga.html
