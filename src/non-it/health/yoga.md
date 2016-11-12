@@ -52,6 +52,7 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
   - http://www.yogajournal.com/article/teach/protect-the-neck-in-shoulderstand/
   - http://greatist.com/move/whats-ideal-warm-up
 - https://yogainternational.com/article/view/the-problem-of-pain-in-yoga
+  - https://yogainternational.com/article/view/5-benefits-of-developing-a-yoga-nidra-practice
 
 > years of practicing body positions that do not simulate real life function can lead to misalignment, chronic pain, and even surgical replacements.
 > Any back doctor will tell you to always bend your knees when leaning over. Why does yoga get a hall pass to ignore this basic anatomical rule to bend the knees?
