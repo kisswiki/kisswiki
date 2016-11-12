@@ -1,2 +1,3 @@
 - self massage for neck pain https://youtu.be/HwfyRPzIySE
+- Neck Pain Stretches & Exercises - Ask Doctor Jo https://youtu.be/2NOsE-VPpkE
 - Get Rid of Neck Pain https://youtu.be/l3HXyoYCkhs
