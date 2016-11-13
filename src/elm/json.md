@@ -28,6 +28,11 @@ As far as why is there no way for Elm to automatically provide typed decoders fo
 > so decoding can result in runtime errors, for example when you forget to use a Maybe to decode nullable json.
 > -- https://www.reddit.com/r/elm/comments/54fk9k/easiest_json_decode/
 
+<br>
+
+> decoding will fail silently if you accidentally spell one of the property names incorrectly. (Silent failures are especially bad in Elm, because you never expect them to happen.) I disagree that elm-decode-pipeline makes it any better - it just makes it less worse.
+> -- https://www.reddit.com/r/elm/comments/5cmrsz/decoding_json_in_elm/d9yg0cm/
+
 ## Use type annotations
 
 ```
