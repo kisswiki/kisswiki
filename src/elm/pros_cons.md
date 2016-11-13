@@ -1,5 +1,6 @@
 - https://www.quora.com/What-do-you-think-is-the-future-of-the-Elm-programming-language
 - https://news.ycombinator.com/item?id=10081955
+- Elm's strengths and limitations vs Purescript https://groups.google.com/forum/#!topic/elm-discuss/oyrODCgYmQI
 - cons
   - Regardless of the technical merits of any alternative solution offers, and we are not just talking about Clojurescript, Elm offers a similar set of advantages, the herding effect is powerful. Your investment in Javascript is far more likely to pay off that putting time into one of the alternatives, none of which have momentum. http://rrees.me/2014/01/16/clojurescript-is-it-any-better-yet/
   - it's hard to interface with JavaScript, making libraries such as three.js and pixi.js unavailable https://www.reddit.com/r/elm/comments/3vxxyt/is_elm_lacking_an_assetgame_framework/cxrrier
