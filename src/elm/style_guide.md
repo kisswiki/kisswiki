@@ -1,3 +1,4 @@
+- http://elm-lang.org/docs/style-guide
 - https://github.com/NoRedInk/elm-style-guide
 - https://gist.github.com/laszlopandy/c3bf56b6f87f71303c9f
 - https://github.com/ohanhi/elm-style-guide
