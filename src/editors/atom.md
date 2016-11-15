@@ -95,7 +95,10 @@
 - OUTDATED! https://github.com/jeremyramin/terminal-plus/issues/255
   - https://atom.io/packages/terminal-plus second most popular and installs without problems
   - git bash: `Shell Override: C:\Program Files\Git\bin\bash.exe`, `Shell Arguments: -l -i` http://superuser.com/questions/856979/can-we-open-gitbash-from-atom-text-editor/1054082#1054082
-- https://atom.io/packages/platformio-ide-terminal
+- doesn't open panel https://atom.io/packages/platformio-ide-terminal
+- open panel but it remains empty https://atom.io/packages/tokamak-terminal
+  - Fix https://github.com/vertexclique/tokamak-terminal/issues/10#issuecomment-259943572
+- Command: `start /D "%cd%" bash.exe` https://atom.io/packages/open-terminal-here
 
 ## focus
 
