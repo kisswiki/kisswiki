@@ -7,3 +7,8 @@
 - https://github.com/hoelzro/vim-elm-help
 - https://github.com/ElmCast/.vim
 - https://github.com/lambdatoast/elm.vim
+
+## atom.io
+
+- https://groups.google.com/forum/#!topic/elm-discuss/DFymqONIFjc
+- elm-linter has problem on Windows when elm is installed from npm https://github.com/mybuddymichael/linter-elm-make/issues/100

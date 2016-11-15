@@ -284,10 +284,6 @@ Also interesting is how Elm's immutability allows it to use requestAnimationFram
 
 - https://github.com/ohanhi/elm-style-guide
 
-## atom.io
-
-- https://groups.google.com/forum/#!topic/elm-discuss/DFymqONIFjc
-
 ## jsx
 
 - https://github.com/pzavolinsky/elmx
