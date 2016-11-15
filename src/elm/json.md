@@ -17,6 +17,8 @@
 
 - https://egghead.io/lessons/elm-decode-a-list-of-numbers-from-a-json-string-in-elm
 - https://www.brianthicks.com/post/2016/08/22/decoding-large-json-objects-a-summary/
+- https://www.brianthicks.com/post/2016/10/17/composing-decoders-like-lego/
+- https://www.brianthicks.com/post/2016/10/10/debugging-json/
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode
 - https://guide.elm-lang.org/interop/json.html
 - https://robots.thoughtbot.com/decoding-json-structures-with-elm
@@ -35,7 +37,6 @@
 - port Maybe field behavior https://groups.google.com/forum/#!msg/elm-discuss/vu2A3vHWUxM/RHScpLHLAwAJ
 - To deal with the a) null values and b) missing values, I resorted to passing the Json through the port, and decode in Elm https://groups.google.com/forum/#!msg/elm-discuss/vu2A3vHWUxM/RHScpLHLAwAJ
 - http://www.troikatech.com/blog/2015/08/17/decoding-larger-json-objects-in-elm
-- https://www.brianthicks.com/post/2016/10/17/composing-decoders-like-lego/
 
 > In other languages often there is a way to convert a Json string into an untyped Map/dictionary however, Elm does not support untyped values.
 As far as why is there no way for Elm to automatically provide typed decoders for custom types like you get with say Gson in Java that is probably because there is no reflection mechanism in Elm at the moment. All value creation for custom types must be done by functions that you provide (and that is where Decoders come in).
