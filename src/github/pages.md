@@ -4,3 +4,4 @@
 - You no longer need a gh-pages branch. GitHub now allows pages to be published from the master  branch, or from a docs folder in master.
   - http://stackoverflow.com/questions/35978862/github-pages-why-do-i-need-a-gh-pages/39024307#39024307
   - https://help.github.com/articles/user-organization-and-project-pages/
+- Theme https://github.com/orderedlist/minimal
