@@ -1,3 +1,8 @@
+Evan recommends I recommends https://github.com/NoRedInk/elm-decode-pipeline:
+
+> checking out this project. That is a nice approach for when things get big.
+> -- https://www.reddit.com/r/elm/comments/4ulle5/needing_to_decode_large_json_structures/
+
 - https://egghead.io/lessons/elm-decode-a-list-of-numbers-from-a-json-string-in-elm
 - https://www.brianthicks.com/post/2016/08/22/decoding-large-json-objects-a-summary/
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode
