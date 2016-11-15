@@ -1,7 +1,16 @@
+##
+
 Evan recommends I recommends https://github.com/NoRedInk/elm-decode-pipeline:
 
 > checking out this project. That is a nice approach for when things get big.
 > -- https://www.reddit.com/r/elm/comments/4ulle5/needing_to_decode_large_json_structures/
+
+<br>
+
+> Always use Json.Decode.Pipeline instead of objectN
+> -- https://github.com/NoRedInk/elm-style-guide
+
+## Other
 
 - https://egghead.io/lessons/elm-decode-a-list-of-numbers-from-a-json-string-in-elm
 - https://www.brianthicks.com/post/2016/08/22/decoding-large-json-objects-a-summary/
