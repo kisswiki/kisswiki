@@ -1,14 +1,17 @@
-##
+## elm-decode-pipeline
 
-Evan recommends I recommends https://github.com/NoRedInk/elm-decode-pipeline:
-
-> checking out this project. That is a nice approach for when things get big.
+> Evan: checking out this project https://github.com/NoRedInk/elm-decode-pipeline. That is a nice approach for when things get big.
 > -- https://www.reddit.com/r/elm/comments/4ulle5/needing_to_decode_large_json_structures/
 
 <br>
 
 > Always use Json.Decode.Pipeline instead of objectN
 > -- https://github.com/NoRedInk/elm-style-guide
+
+<br>
+
+> Normally we would prefer the pipeline style but here objectN makes a lot of sense!
+> -- https://www.brianthicks.com/post/2016/10/31/json-schema-changes-a-halloween-horror-story/
 
 ## Other
 
