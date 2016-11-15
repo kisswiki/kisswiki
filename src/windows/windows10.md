@@ -30,3 +30,7 @@ http://www.howtogeek.com/236711/how-to-turn-off-recent-items-and-frequent-places
 ## Restart in recovery mode
 
 `Shift-click` on `Power > Restart`
+
+## Privacy
+
+https://modzero.github.io/fix-windows-privacy/
