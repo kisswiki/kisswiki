@@ -8,6 +8,11 @@
 
 - https://speakerdeck.com/jose_zap/stepping-out-of-the-chaos-with-elm
 
+> I really wish I would have invented Elm - André Staltz
+> -- https://github.com/staltz/ama/issues/3
+
+<br>  
+
 > - Optimizing Elm only touches view code, unlike everyone else.
 > - Optimizing Elm cannot introduce sneaky bugs, unlike everyone else.
 > - These results should generalize to apps of any size.
