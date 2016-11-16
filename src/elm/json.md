@@ -24,7 +24,7 @@
 <br>
 
 > If you run out of map functions, take a look at elm-decode-pipeline which makes it easier to handle large objects, but produces lower quality type errors
-> -- http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode
+> -- http://package.elm-lang.org/packages/elm-lang/core/5.0.0/Json-Decode
 
 ## Other
 
