@@ -2,3 +2,4 @@
 - https://github.com/wuct/elm-charts
 - https://github.com/camjc/elm-chart
 - https://github.com/simonh1000/elm-charts
+- https://github.com/yogsototh/elm-highchart
