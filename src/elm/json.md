@@ -21,6 +21,11 @@
 > The decoder maps the JSON names and types into the Elm record type we are decoding into.
 > -- https://becoming-functional.com/testing-json-decoders-in-elm-39f613a98895
 
+<br>
+
+> If you run out of map functions, take a look at elm-decode-pipeline which makes it easier to handle large objects, but produces lower quality type errors
+> -- http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode
+
 ## Other
 
 - https://egghead.io/lessons/elm-decode-a-list-of-numbers-from-a-json-string-in-elm
