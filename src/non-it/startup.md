@@ -25,3 +25,4 @@
 - https://en.wikipedia.org/wiki/Nick_D%27Aloisio
 - http://mamstartup.pl/startupowa-11/9719/naucz-sie-dostosowywac-do-kazdej-sytuacji-karol-zielinski-paylane
 - http://innpoland.pl/130155,wlasnie-wycofuje-sie-z-projektow-ktore-oklamuja-inwestorow-bartosz-mankowski-szczerze-o-polskim-swiatku-startupow
+- http://mamstartup.pl/inside/10057/12-bledow-ktore-popelnilismy-przez-dwa-lata-rozwijania-startupu
