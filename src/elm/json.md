@@ -13,6 +13,11 @@
 > Normally we would prefer the pipeline style but here objectN makes a lot of sense!
 > -- https://www.brianthicks.com/post/2016/10/31/json-schema-changes-a-halloween-horror-story/
 
+<br>
+
+> The decoder maps the JSON names and types into the Elm record type we are decoding into.
+> -- https://becoming-functional.com/testing-json-decoders-in-elm-39f613a98895
+
 ## Other
 
 - https://egghead.io/lessons/elm-decode-a-list-of-numbers-from-a-json-string-in-elm
