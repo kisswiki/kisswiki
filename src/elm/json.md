@@ -1,5 +1,8 @@
 ## elm-decode-pipeline
 
+- https://becoming-functional.com/testing-json-decoders-in-elm-39f613a98895
+- https://medium.com/@zenitram.oiram/a-beginners-guide-to-json-and-elm-c4a0c7e20002
+
 > Evan: checking out this project https://github.com/NoRedInk/elm-decode-pipeline. That is a nice approach for when things get big.
 > -- https://www.reddit.com/r/elm/comments/4ulle5/needing_to_decode_large_json_structures/
 
@@ -21,8 +24,6 @@
 ## Other
 
 - https://egghead.io/lessons/elm-decode-a-list-of-numbers-from-a-json-string-in-elm
-- https://becoming-functional.com/testing-json-decoders-in-elm-39f613a98895
-- https://medium.com/@zenitram.oiram/a-beginners-guide-to-json-and-elm-c4a0c7e20002
 - https://www.brianthicks.com/post/2016/08/22/decoding-large-json-objects-a-summary/
 - https://www.brianthicks.com/post/2016/10/17/composing-decoders-like-lego/
 - https://www.brianthicks.com/post/2016/10/10/debugging-json/
