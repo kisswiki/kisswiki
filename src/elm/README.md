@@ -8,8 +8,16 @@
 
 - https://speakerdeck.com/jose_zap/stepping-out-of-the-chaos-with-elm
 
-> I really wish I would have invented Elm - André Staltz
-> -- https://github.com/staltz/ama/issues/3
+> I really wish I would have invented Elm
+>
+> Here are some things that I really wish wouldn't have happened in Elm:
+>
+- Signals only first-order
+- Signals removed
+- Update function returns tuple of Model and Cmd (it mixes concerns)
+- Type classes not yet supported
+- Comma-first convention (I prefer something like Coffeescript or Python)
+> -- André Staltz https://github.com/staltz/ama/issues/3
 
 <br>  
 
