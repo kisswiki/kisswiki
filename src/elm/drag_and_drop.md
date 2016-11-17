@@ -1,5 +1,5 @@
-- My Tangram program is built with Elm 0.17 and shows drag-and-drop with SVG shape http://fredcy.github.io/
 - http://elm-lang.org/examples/drag
+- My Tangram program is built with Elm 0.17 and shows drag-and-drop with SVG shape http://fredcy.github.io/
 - https://github.com/bevacqua/dragula
 - https://github.com/ir4y/elm-dnd
 - https://www.reddit.com/r/elm/comments/5d00mp/drag_and_drop_in_elm/
