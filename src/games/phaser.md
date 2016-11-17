@@ -1,1 +1,4 @@
 - https://www.udemy.com/phaser-game-development
+- https://gamedevacademy.org/tag/phaser-course/
+- https://academy.zenva.com/product/the-complete-mobile-game-development-course-platinum-edition/
+- https://phaser.io/shop/courses/zenva
