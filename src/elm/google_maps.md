@@ -13,3 +13,4 @@ And, as I hope, there is nothing what prevents from making a Polymer or other we
 - elm-0.16 https://github.com/simonh1000/elm-google-maps
   - https://simonh1000.github.io/2015/10/elm-google-maps/
 - elm-0.18 https://github.com/simonh1000/elm-google-maps-2
+- https://github.com/rtfeldman/elm-google-maps
