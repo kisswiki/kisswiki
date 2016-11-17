@@ -17,3 +17,7 @@
 
 - https://support.google.com/maps/answer/18539
 - http://stackoverflow.com/questions/8004527/how-can-i-enter-latitude-and-longitude-in-google-maps
+
+## API key
+
+- https://developers.google.com/maps/documentation/javascript/get-api-key
