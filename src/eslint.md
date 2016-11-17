@@ -4,6 +4,7 @@
 
 - https://github.com/airbnb/javascript/blob/master/linters/.eslintrc
 - https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
+- https://sqren.github.io/eslint-compare/
 
 Shareable configs are simply npm packages that export a configuration object. To start, create a Node.js module like you normally would. Make sure the module name begins with eslint-config-, such as eslint-config-myconfig. Create a new index.js file and export an object containing your settings.
 
