@@ -2,6 +2,8 @@
 
 ## extensions
 
+- https://chrome.google.com/webstore/detail/disable-html5-autoplay/efdhoaajjjgckpbkoglidkeendpkolai
+
 ### facebook
 
 - https://chrome.google.com/webstore/detail/best-simple-facebook-noti/meofonckdkomjeigbnlkgbfmcjfoboem
