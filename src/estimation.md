@@ -1,0 +1,1 @@
+- http://softwareengineering.stackexchange.com/questions/648/how-to-respond-when-you-are-asked-for-an-estimate
