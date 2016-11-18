@@ -1,1 +1,4 @@
 - https://blog.chromium.org/2016/11/chrome-dev-summit-2016-mobile-web-moves.html
+- https://developers.google.com/web/showcase/
+- https://developers.google.com/web/tools/lighthouse/
+- https://developers.google.com/web/progressive-web-apps/
