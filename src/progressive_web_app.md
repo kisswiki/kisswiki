@@ -5,6 +5,7 @@
 - https://www.udacity.com/course/intro-to-progressive-web-apps--ud811
 - http://labs.ft.com/2012/08/basic-offline-html5-web-app/
   - https://github.com/matthew-andrews/workshop-making-it-work-offline
+- https://github.com/hemanth/awesome-pwa
 
 > YES! We don’t need to look much further back than the desktop/laptop platform to see what happens… web apps and the cloud take over. Almost nobody installs applications anymore, and even the stubborn creative suites and word processing programs have moved off of our hard drives.
 It won’t be long before this same thing happens with mobile devices as they get more capable with web views.
