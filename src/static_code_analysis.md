@@ -9,4 +9,4 @@
  - It takes no arguments.
  - This function contains only one statement.
  - Cyclomatic complexity number for this function is 1.
-> -- - https://github.com/mre/awesome-static-analysis
+> -- https://github.com/mre/awesome-static-analysis
