@@ -13,3 +13,4 @@
 
 - http://stackoverflow.com/questions/49716/what-is-static-code-analysis
 - https://en.wikipedia.org/wiki/Static_program_analysis
+- http://softwareengineering.stackexchange.com/questions/141485/what-is-the-difference-between-static-code-analysis-and-code-review
