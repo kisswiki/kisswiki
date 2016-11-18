@@ -1,1 +1,2 @@
 - https://github.com/samyk/poisontap
+- https://github.com/Hack-with-Github/Awesome-Hacking
