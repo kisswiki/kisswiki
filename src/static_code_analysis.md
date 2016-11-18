@@ -10,3 +10,5 @@
  - This function contains only one statement.
  - Cyclomatic complexity number for this function is 1.
 > -- https://github.com/mre/awesome-static-analysis
+
+- http://stackoverflow.com/questions/49716/what-is-static-code-analysis
