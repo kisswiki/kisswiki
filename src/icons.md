@@ -36,6 +36,7 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 - create custom font from many sets http://fontello.com/
 - social svg icons https://alexpeattie.com/projects/justvector-icons
 - https://icomoon.io/
+  - https://github.com/Keyamoon/IcoMoon-Free
 - https://materialdesignicons.com/
 - http://zurb.com/playground/foundation-icon-fonts-3
 - http://ionicons.com/
