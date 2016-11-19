@@ -1,5 +1,7 @@
 ## SVG
 
+- https://github.com/blog/2112-delivering-octicons-with-svg
+
 >I'm not sure why an icon font would be easier to use than SVGs. Yes, you only have to reference a file once (the font file), but that actually makes it more difficult to use, because now you have to remember two things: how to reference the file, and how to reference the icon.
 With SVG, it's simpler, because everything is usually contained in one CSS rule. Yes, it has a reference to a file, but does that matter from the viewpoint of simplicity? I.e., make another icon? Then just copy a CSS rule and edit it.
 Also, using an icon font makes it difficult to substitute a single icon by another icon. Suddenly, you have to start rearranging your CSS. With SVGs not so: just edit the referenced url.
@@ -33,7 +35,6 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 ## Sets
 
 - https://www.reddit.com/r/webdev/comments/564btf/open_source_material_design_iconic_font/
-- create custom font from many sets http://fontello.com/
 - social svg icons https://alexpeattie.com/projects/justvector-icons
 - https://icomoon.io/
   - https://github.com/Keyamoon/IcoMoon-Free
@@ -47,20 +48,11 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 - http://iconmonstr.com/
 - social icons https://github.com/larsenwork/web.svg.min
 
-## Fontawesome
-
-- http://fontawesome.io/
-- commercial monthly payment https://fortawesome.com
-- many not resolved requests for free version https://github.com/FortAwesome/Font-Awesome/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc
-- >I don't use FA's hosting anymore since they switched to that annoying javascript loading crap. https://www.reddit.com/r/web_design/comments/58c9wg/font_awesome_5_kickstarter/d9blrlz/
-
->I just wonder how licensing for the pro version works in regards to open source projects? If I buy the license, can I use it for my open source project?
->
->I'd say just don't put the commercial version in a public code repo where other folks could easily use it
->
->-- https://news.ycombinator.com/item?id=12780271
 
 ### Creating set
+
+- http://fontello.com/
+- http://fontastic.me/
 
 >Don't include all the icons then. I parse my CSS file (I embed content:"\f..." strings instead of fa-... classes) to see what I'm actually using and then hack up the font file to only include those characters. The how is a little technical but I've gone through it here: http://askubuntu.com/q/557980/449
 >
@@ -78,6 +70,18 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 >
 >-- https://news.ycombinator.com/item?id=12780510
 
+## Fontawesome
+
+- http://fontawesome.io/
+- commercial monthly payment https://fortawesome.com
+- many not resolved requests for free version https://github.com/FortAwesome/Font-Awesome/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc
+- >I don't use FA's hosting anymore since they switched to that annoying javascript loading crap. https://www.reddit.com/r/web_design/comments/58c9wg/font_awesome_5_kickstarter/d9blrlz/
+
+>I just wonder how licensing for the pro version works in regards to open source projects? If I buy the license, can I use it for my open source project?
+>
+>I'd say just don't put the commercial version in a public code repo where other folks could easily use it
+>
+>-- https://news.ycombinator.com/item?id=12780271
 
 ### kickstarter campaign
 
