@@ -44,3 +44,11 @@
 >Having no pauses at will demotivate you over time which will break down the flow you are trying to achieve.
 >
 > -- http://productivity.stackexchange.com/questions/811/doesnt-the-pomodoro-technique-break-the-flow
+
+<br>
+
+>When you follow the procedure - switching between concentration and relaxation breaks, you can keep being productive for long enough. When you start working longer - you can get exausted more quickly and that will bite you at the end of the day, when you attention starts to wander and you cannot really concentrate.
+>
+>Many people say they don't want to pause when they are coding or debugging. Maybe that's true for them. For me, I've found out that I can easily recall the context after 5 minutes break. Also, sometimes this break and switching attention brings to a sudden insight on where the bug is.
+>
+>-- http://productivity.stackexchange.com/questions/13711/when-the-pomodoro-is-finished-what-if-i-want-to-keep-on-working
