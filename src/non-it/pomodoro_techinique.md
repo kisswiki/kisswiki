@@ -25,6 +25,8 @@
   - https://chrome.google.com/webstore/detail/kanbanflow/hhhlbmjihokflibmbfmldajolmkaemhi
   - remember to whitelist if you use to get sounds working https://chrome.google.com/webstore/detail/disable-html5-autoplay/efdhoaajjjgckpbkoglidkeendpkolai
   - I use a tool called Kanbanflow to plan out my week based on Pomodoros https://youtu.be/W9k0OhJkjQ0
+  - http://lifehacker.com/5905301/kanbanflow-is-a-fast-free-to-do-manager-with-a-built-in-pomodoro-timer
+  - http://www.personalkanban.com/pk/
 - https://trellodoro.apphb.com/home/about
   - no sounds
   - adds pomodoros as icons
