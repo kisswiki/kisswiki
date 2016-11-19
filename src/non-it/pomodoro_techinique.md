@@ -58,3 +58,9 @@
 >break up my tasks into half-hour-ISH chunks, then take a break for a few minutes. Then back to work. If I find myself distracted during one of the half-hour-ish chunks, distracted to the point that I know I won't be effective, I'll take a break or a twenty-minute power nap.
 >
 >-- http://productivity.stackexchange.com/questions/8107/not-enough-progress-studying-with-pomodoro-technique/8111#8111
+
+<br>
+
+>In various work groups which experimented with the Pomodoro Technique in mentoring activities, each team was allowed to choose the length of their own Pomodoro on the condition that this choice had to be based on observations regarding effectiveness. Generally, the teams started off with hour-long Pomodoros (25 minutes seemed too short at first), then moved to 2 hours, then down to 45 minutes, then 10, till they finally settled on 30 minutes.
+>
+>-- http://productivity.stackexchange.com/questions/4422/scientific-studies-on-the-default-duration-of-a-pomodoro/4443#4443
