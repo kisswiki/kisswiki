@@ -94,3 +94,12 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 >16px grid system is the biggest reason. Currently, FA is at 14px. To do it pixel-sub-perfect, we'll need to do it all from scratch.
 Oh, and the icons aren't that consistent. It happens over time as you do 40-ish icons per release. It wanders a bit and you lose consistency.
 >
+>-- https://news.ycombinator.com/item?id=12780543
+
+#### vertical centering
+
+>the grid system in 4 is quite inconsistent, especially with vertical centering.
+>
+>Really happy that this will be addressed.
+>
+>-- https://news.ycombinator.com/item?id=12780683
