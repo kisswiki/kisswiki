@@ -34,3 +34,12 @@
 >Techniques such as the Pomodoro technique are similar to using supportive belts to lift weights, or running with special shoes that make you faster: They might make the task at hand a bit easier, but ultimately they are only an aid, no replacement for your own capacity.
 >
 > -- http://productivity.stackexchange.com/questions/2055/how-do-you-start-working/2066#2066
+
+<br>
+
+>1. The pauses are supposed to keep you energized, so that you don't burn out from your work. These are useful to take a drink, free your mind from small things that came up during your work. Examples are putting tasks you came up with in your inbox of your GTD list or making a phone call with your wife, doing these small things in the 5 minutes will keep you energized and free from focus distractions.
+>2. You achieve involvement by committing to the work you are planning to do in your Pomodoro.
+>3. The Pomodoro Technique is supposed to help you towards success, by managing the flow of time.
+>
+>Having no pauses at will demotivate you over time which will break down the flow you are trying to achieve.
+> -- http://productivity.stackexchange.com/questions/811/doesnt-the-pomodoro-technique-break-the-flow
