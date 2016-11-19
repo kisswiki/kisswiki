@@ -42,4 +42,5 @@
 >3. The Pomodoro Technique is supposed to help you towards success, by managing the flow of time.
 >
 >Having no pauses at will demotivate you over time which will break down the flow you are trying to achieve.
+>
 > -- http://productivity.stackexchange.com/questions/811/doesnt-the-pomodoro-technique-break-the-flow
