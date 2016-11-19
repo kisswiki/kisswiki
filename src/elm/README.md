@@ -50,6 +50,14 @@ Also interesting is how Elm's immutability allows it to use requestAnimationFram
   http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
 - https://www.reddit.com/r/haskell/comments/rkyoa/my_thesis_is_finally_complete_elm_concurrent_frp/
 
+>Do you require an industry standard platform, extensive libraries with strong security guarantees, a great selection of developers highly-experienced in it, competetive paid consultency firms, and many examples of enterprise adoption? You get none of that from Elm.
+>
+>More generally, there are quite a few things which are difficult to do in Elm, such as DOM querying. There are plenty of serious holes in the community libraries which may leave certain teams or projects unsatisfied.
+>
+>Elm is a work in progress, but it is still extremely capable at making a wide variety of things, just not everything for everybody.
+>
+>-- https://www.reddit.com/r/elm/comments/5dox3b/reddit_uses_elm_for_internal_apps/da6cyu9/
+
 ## errors
 
 - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
