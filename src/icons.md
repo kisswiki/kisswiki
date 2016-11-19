@@ -34,6 +34,12 @@
 - commercial monthly payment https://fortawesome.com
 - many not resolved requests for free version https://github.com/FortAwesome/Font-Awesome/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc
 
+>I just wonder how licensing for the pro version works in regards to open source projects? If I buy the license, can I use it for my open source project?
+>
+>I'd say just don't put the commercial version in a public code repo where other folks could easily use it
+>
+>-- https://news.ycombinator.com/item?id=12780271
+
 ### kickstarter campaign
 
 - https://www.kickstarter.com/projects/232193852/font-awesome-5
