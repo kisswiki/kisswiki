@@ -18,10 +18,12 @@
   - https://chrome.google.com/webstore/detail/kanbanflow/hhhlbmjihokflibmbfmldajolmkaemhi
   - sounds should work but doesn't
 - https://trellodoro.apphb.com/home/about
+  - no sounds
   - https://github.com/Dillie-O/trellodoro
   - http://stackoverflow.com/cv/dillieo
   - https://www.linkedin.com/in/dillieo
   - https://trello.com/b/1UhfdPHs/trellodoro
+- https://www.timecamp.com/en/time-managment-tools/
 
 ## About
 
