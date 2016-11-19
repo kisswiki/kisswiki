@@ -57,6 +57,12 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 >
 >-- https://news.ycombinator.com/item?id=12780271
 
+### Creating set
+
+>Don't include all the icons then. I parse my CSS file (I embed content:"\f..." strings instead of fa-... classes) to see what I'm actually using and then hack up the font file to only include those characters. The how is a little technical but I've gone through it here: http://askubuntu.com/q/557980/449
+>
+>-- https://news.ycombinator.com/item?id=12787048
+
 ### kickstarter campaign
 
 - https://www.kickstarter.com/projects/232193852/font-awesome-5
