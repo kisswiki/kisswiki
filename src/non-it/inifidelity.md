@@ -4,4 +4,5 @@
 >
 >Heather lub oszukani partnerzy muszą zrobić coś, co przywróci poczucie własnej wartości, otoczyć się miłością, przyjaciółmi i zajęciami, które przywrócą radość, sens i tożsamość. Ale co ważniejsze, które okiełznają chęć grzebania w plugawych szczegółach. Gdzie byliście? Gdzie to robiliście? Jak często? Czy jest lepsza w łóżku? Pytania, które tylko zadają większy ból i nie pozwalają zasnąć. Lepiej przerzucić się na pytania, które nazywam śledczymi, pytania, które wydobywają znaczenie i motywy. Co ten romans dla ciebie znaczył? Co pozwolił ci wyrazić lub czego doświadczyć, czego nie mogłeś już robić ze mną? Jak się czułeś po powrocie do domu? Co takiego cenisz w nas? Czy jesteś zadowolony, że tamto się skończyło?
 >
+>Zdrada w związku ma wiele postaci. Zdradzamy partnera na wiele sposobów, pogardą, zaniedbaniem, obojętnością, przemocą. Zdrada seksualna to tylko jeden sposób zranienia partnera. Innymi słowy, ofiara zdrady nie zawsze jest ofiarą małżeństwa.
 > http://www.ted.com/talks/esther_perel_rethinking_infidelity_a_talk_for_anyone_who_has_ever_loved/transcript?language=pl
