@@ -1,1 +1,2 @@
 - https://userstyles.org/styles/126027/trello-digital-dark
+- delete card: click > Share and more (Udostępnij i więcej...) http://help.trello.com/article/795-archiving-and-deleting-cards
