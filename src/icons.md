@@ -1,3 +1,23 @@
+## Litgature icons
+
+>ligatures is a better way to load icons as it gives contextual meaning to search engines. https://css-tricks.com/ligature-icons/
+>
+>-- https://www.reddit.com/r/web_design/comments/58c9wg/font_awesome_5_kickstarter/d90fmyc/
+
+<br>
+
+>This example uses a typographic feature called ligatures, which allows rendering of an icon glyph simply by using its textual name. The replacement is done automatically by the web browser and provides more readable code than the equivalent numeric character reference.
+>
+>-- http://google.github.io/material-design-icons/
+
+<br>
+
+>Pseudo elements (i.e. ::before and ::after) have been a big help to me when creating sites, so I came up with an approach for using them alongside ligature icons to create more readable and maintainable code.
+>
+>-- https://css-tricks.com/ligature-icons/
+
+## Sets
+
 - https://www.reddit.com/r/webdev/comments/564btf/open_source_material_design_iconic_font/
 - create custom font from many sets http://fontello.com/
 - social svg icons https://alexpeattie.com/projects/justvector-icons
