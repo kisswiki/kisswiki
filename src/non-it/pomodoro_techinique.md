@@ -52,3 +52,9 @@
 >Many people say they don't want to pause when they are coding or debugging. Maybe that's true for them. For me, I've found out that I can easily recall the context after 5 minutes break. Also, sometimes this break and switching attention brings to a sudden insight on where the bug is.
 >
 >-- http://productivity.stackexchange.com/questions/13711/when-the-pomodoro-is-finished-what-if-i-want-to-keep-on-working
+
+<br>
+
+>break up my tasks into half-hour-ISH chunks, then take a break for a few minutes. Then back to work. If I find myself distracted during one of the half-hour-ish chunks, distracted to the point that I know I won't be effective, I'll take a break or a twenty-minute power nap.
+>
+>-- http://productivity.stackexchange.com/questions/8107/not-enough-progress-studying-with-pomodoro-technique/8111#8111
