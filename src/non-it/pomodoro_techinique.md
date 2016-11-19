@@ -23,7 +23,8 @@
   - https://toggl.com/trello-time-tracking
 - https://kanbanflow.com
   - https://chrome.google.com/webstore/detail/kanbanflow/hhhlbmjihokflibmbfmldajolmkaemhi
-  - sounds should work but doesn't
+  - remember to whitelist if you use to get sounds working https://chrome.google.com/webstore/detail/disable-html5-autoplay/efdhoaajjjgckpbkoglidkeendpkolai
+  - I use a tool called Kanbanflow to plan out my week based on Pomodoros https://youtu.be/W9k0OhJkjQ0
 - https://trellodoro.apphb.com/home/about
   - no sounds
   - adds pomodoros as icons
