@@ -15,6 +15,7 @@
   - https://toggl.com/trello-time-tracking
 - https://kanbanflow.com
   - https://chrome.google.com/webstore/detail/kanbanflow/hhhlbmjihokflibmbfmldajolmkaemhi
+  - sounds should work but doesn't
 
 ## About
 
