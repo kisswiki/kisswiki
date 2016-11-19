@@ -2,6 +2,7 @@
 - create custom font from many sets http://fontello.com/
 - social svg icons https://alexpeattie.com/projects/justvector-icons
 - https://icomoon.io/
+- https://materialdesignicons.com/
 
 ## Fontawesome
 
