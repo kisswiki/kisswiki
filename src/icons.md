@@ -2,6 +2,7 @@
 
 ## Fontawesome
 
+- http://fontawesome.io/
 - commercial monthly payment https://fortawesome.com
 
 ### kickstarter campaign https://www.kickstarter.com/projects/232193852/font-awesome-5
