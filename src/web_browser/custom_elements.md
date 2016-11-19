@@ -1,1 +1,2 @@
 - http://caniuse.com/#search=custom%20elements
+- https://webkit.org/blog/7027/introducing-custom-elements/
