@@ -13,6 +13,7 @@
 - https://toggl.com
   - https://toggl.com/pomodoro-timer-toggl
   - https://toggl.com/trello-time-tracking
+- https://kanbanflow.com
 
 ## About
 
