@@ -6,6 +6,8 @@
 >
 >-- https://css-tricks.com/svg-use-external-source/
 
+<br>
+
 >we’ve landed on directly injecting the SVGs directly in our page markup. This allows us the flexibility to change the color of the icons with CSS using the fill: declaration on the fly.
 >
 >External .svg — We first attempted to serve a single external “svgstore”. We’d include individual sprites using the <use> element. With our current cross-domain security policy and asset pipeline, we found it difficult to serve the SVG sprites externally.
