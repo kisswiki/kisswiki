@@ -14,6 +14,12 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 
 <br>
 
+>Fonts also have special characters called ligatures—subtle, often hardly noticeable, tweaks to the letterforms that are used to aid reading. Take, for instance, two consecutive “f” characters. A good font will convert that “ff” into a single ligature where the fs connect smoothly. There are several standard ligatures, including ff, fl, and fi. But there is no reason you can’t also define your own. In a font file, it is a simple substitution; all the ligature is looking for is the right sequence of letters. When they’re typed, they are replaced with another glyph. This means you can have a string like “A List Apart” and convert it into a single symbol icon of the logo.
+>
+>-- http://alistapart.com/article/the-era-of-symbol-fonts
+
+<br>
+
 >This example uses a typographic feature called ligatures, which allows rendering of an icon glyph simply by using its textual name. The replacement is done automatically by the web browser and provides more readable code than the equivalent numeric character reference.
 >
 >-- http://google.github.io/material-design-icons/
