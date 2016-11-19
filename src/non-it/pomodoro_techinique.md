@@ -32,4 +32,5 @@
 >Mental effort, willpower and mental endurance are not unrelated to your body, but are directly related to physical parameters such as cerebral blood flow and neurotransmitter levels. Train your cardiovascular system and you'll find it easier to start working on whatever you want. I recommend high-intensity interval training (HIIT) at least 3 times a week, details are beyond the scope of this answer but can be found easily. Long-term exercise will physically strenghten your heart, allowing your body to pump more blood through your body, including your brain, which means you'll be more awake, more energetic, more determined, and feel less challenged by complex or boring mental tasks.
 >
 >Techniques such as the Pomodoro technique are similar to using supportive belts to lift weights, or running with special shoes that make you faster: They might make the task at hand a bit easier, but ultimately they are only an aid, no replacement for your own capacity.
+>
 > -- http://productivity.stackexchange.com/questions/2055/how-do-you-start-working/2066#2066
