@@ -63,6 +63,19 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 >
 >-- https://news.ycombinator.com/item?id=12787048
 
+<br>
+
+
+>You should be able to extract the SVG really easily from the fontawesome-webfont.svg file, and colorize those with simple css e.g. fill: #ff0; The svg font file contains SVG path elements as glyph elements.
+>
+>We're doing a lot more than just SVG support. Our goal is to make them as easy to use as icon fonts. That means you can auto-inherit color, size, drop-shadow, etc. And more.
+(And the SVG font file format automatically flips the icons. So you'd need to invert. TOTALLY doable, if with a good bit of effort.)
+>
+>But how often do people share attributes between fonts and icons? And how often do you need to inherit attributes that way?
+>
+>-- https://news.ycombinator.com/item?id=12780510
+
+
 ### kickstarter campaign
 
 - https://www.kickstarter.com/projects/232193852/font-awesome-5
@@ -74,10 +87,10 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 - https://www.reddit.com/r/web_design/comments/58c9wg/font_awesome_5_kickstarter/
 - https://news.ycombinator.com/item?id=12780271
 
->You should be able to extract the SVG really easily from the fontawesome-webfont.svg file, and colorize those with simple css e.g. fill: #ff0; The svg font file contains SVG path elements as glyph elements.
+#### 16px
+
+>why it's necessary to redesign the set though.
 >
->We're doing a lot more than just SVG support. Our goal is to make them as easy to use as icon fonts. That means you can auto-inherit color, size, drop-shadow, etc. And more.
-(And the SVG font file format automatically flips the icons. So you'd need to invert. TOTALLY doable, if with a good bit of effort.)
->
->But how often do people share attributes between fonts and icons? And how often do you need to inherit attributes that way?
+>16px grid system is the biggest reason. Currently, FA is at 14px. To do it pixel-sub-perfect, we'll need to do it all from scratch.
+Oh, and the icons aren't that consistent. It happens over time as you do 40-ish icons per release. It wanders a bit and you lose consistency.
 >
