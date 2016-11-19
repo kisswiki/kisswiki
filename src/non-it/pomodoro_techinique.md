@@ -17,6 +17,7 @@
 - https://kanbanflow.com
   - https://chrome.google.com/webstore/detail/kanbanflow/hhhlbmjihokflibmbfmldajolmkaemhi
   - sounds should work but doesn't
+- https://trellodoro.apphb.com/home/about
 
 ## About
 
