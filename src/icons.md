@@ -4,6 +4,8 @@
 >
 >SVG for Everybody https://github.com/jonathantneal/svg4everybody. The idea is this: just use <use> as if it works, and the script will handle it in IE 9, 10, 11. A polyfill, except just for this scenario (it doesn't make this work anywhere that doesn't already support inline SVG use).
 >
+> example https://css-tricks.com/examples/svg-for-everybody/
+>
 >-- https://css-tricks.com/svg-use-external-source/
 
 <br>
