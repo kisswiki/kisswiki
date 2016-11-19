@@ -6,7 +6,7 @@
 
 ## Apps
 
-- https://pomotodo.com/ - good integrations with google calendar, trello, easy to mark completed, different timers easy available, ios app
+- https://pomotodo.com/ - good integrations with google calendar but not with google tasks - needs to use zaper or sth, trello, easy to mark completed, different timers easy available, ios app
 - http://www.pomelloapp.com/ - great integration with trello: saves time spent, adds pomelo icon to card title with how many spent, no ios app
 - https://pomotodo.com/ simple, apps on many platforms, no integrations
 
