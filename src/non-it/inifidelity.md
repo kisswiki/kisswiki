@@ -1,0 +1,1 @@
+- http://www.ted.com/talks/esther_perel_rethinking_infidelity_a_talk_for_anyone_who_has_ever_loved/transcript?language=pl
