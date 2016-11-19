@@ -18,3 +18,18 @@
 >
 > However, I'm truncating some of the lists of "actions" that I used to put into my GTD software. I'm looking to the GTD software as more "big picture" planning from 10,000 to 50,000 feet and for goal work.
 > -- http://productivity.stackexchange.com/questions/186/how-do-i-properly-integrate-the-pomodoro-technique-with-gtd
+
+<br>
+
+> Productivity, at the basic level of working vs. not working, is not something you can best elicit through clever tricks and techniques; it depends on your physical capacity more than anything else.
+>
+> The reason many of us like to procrastinate is because we want to move from activities requiring lots of mental effort to activities requiring less mental effort. Ask yourself this: When you think about starting to work, do you (a) feel you could easily do it, but you decide to do something else instead, or do you (b) feel that you find it hard to bring up the mental strength to start working, so you spend time with less demanding activities instead.
+>
+>Most people pretend that the answer is (a), but usually the answer is (b), otherwise you wouldn't have much of a problem.
+>
+>If you don't feel like working because you "lack the mental strength", the problem is very similar to not being willing to run five miles, or not being willing to lift a large barbell: Mental work requires you to shift blood to your brain, while physical work requires you to shift blood to your muscles. In both cases your cardiovascular fitness determines, more than anything else, how hard it feels for you to do it.
+>
+>Mental effort, willpower and mental endurance are not unrelated to your body, but are directly related to physical parameters such as cerebral blood flow and neurotransmitter levels. Train your cardiovascular system and you'll find it easier to start working on whatever you want. I recommend high-intensity interval training (HIIT) at least 3 times a week, details are beyond the scope of this answer but can be found easily. Long-term exercise will physically strenghten your heart, allowing your body to pump more blood through your body, including your brain, which means you'll be more awake, more energetic, more determined, and feel less challenged by complex or boring mental tasks.
+>
+>Techniques such as the Pomodoro technique are similar to using supportive belts to lift weights, or running with special shoes that make you faster: They might make the task at hand a bit easier, but ultimately they are only an aid, no replacement for your own capacity.
+> -- http://productivity.stackexchange.com/questions/2055/how-do-you-start-working/2066#2066
