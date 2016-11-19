@@ -19,6 +19,7 @@
   - sounds should work but doesn't
 - https://trellodoro.apphb.com/home/about
   - no sounds
+  - adds pomodoros as icons
   - https://github.com/Dillie-O/trellodoro
   - http://stackoverflow.com/cv/dillieo
   - https://www.linkedin.com/in/dillieo
