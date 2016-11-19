@@ -3,6 +3,7 @@
 - social svg icons https://alexpeattie.com/projects/justvector-icons
 - https://icomoon.io/
 - https://materialdesignicons.com/
+- http://zurb.com/playground/foundation-icon-fonts-3
 
 ## Fontawesome
 
