@@ -4,6 +4,13 @@
 - http://www.chriswinfield.com/40-pomodoro-workweek/
 - http://productivity.stackexchange.com/questions/tagged/pomodoro-technique?sort=votes&pageSize=15
 
+## Apps
+
+- https://pomotodo.com/ - good integrations with google calendar, trello, easy to mark completed, different timers easy available
+- http://www.pomelloapp.com/ - great integration with trello: saves time spent, adds pomelo icon to card title with how many spent
+
+## About
+
 > The 5 minute break is there if you want it, I pride myself on most of the time have a quick 30sec-1 minute break and then getting back to it to smash out another pomodoro with undivided attention.
 >
 > I would not advocate switching to another task for the next pomodoro unless you have completed what you set out to achieve.
