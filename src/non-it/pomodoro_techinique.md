@@ -21,6 +21,7 @@
   - https://github.com/Dillie-O/trellodoro
   - http://stackoverflow.com/cv/dillieo
   - https://www.linkedin.com/in/dillieo
+  - https://trello.com/b/1UhfdPHs/trellodoro
 
 ## About
 
