@@ -14,6 +14,7 @@
   - https://toggl.com/pomodoro-timer-toggl
   - https://toggl.com/trello-time-tracking
 - https://kanbanflow.com
+  - https://chrome.google.com/webstore/detail/kanbanflow/hhhlbmjihokflibmbfmldajolmkaemhi
 
 ## About
 
