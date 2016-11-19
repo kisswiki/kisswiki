@@ -4,6 +4,9 @@
 - https://icomoon.io/
 - https://materialdesignicons.com/
 - http://zurb.com/playground/foundation-icon-fonts-3
+- http://ionicons.com/
+- https://octicons.github.com/
+- http://glyphsearch.com/
 
 ## Fontawesome
 
