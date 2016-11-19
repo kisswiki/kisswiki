@@ -7,4 +7,5 @@
 > I would not advocate switching to another task for the next pomodoro unless you have completed what you set out to achieve.
 >
 > Also be specific with the task, specific enough that you can actually complete it’s scope within 4 pomodoros. That way you create flow and keep pushing forward hard.
+>
 > -- https://productivityist.com/the-problem-with-the-pomodoro-technique/
