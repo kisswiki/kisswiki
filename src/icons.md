@@ -1,5 +1,11 @@
 ## SVG
 
+>Inline SVG is an awesome way to use SVG because, among other reasons, the individual shapes that make up the graphic can be scripted and styled. The shapes are right in the DOM. But does that mean we have to define those shapes right in the HTML on every page? Nope, we can <use> to reference them from elsewhere. Ideally, that "elsewhere" is an external file, because that means that file can be cached by the browser, efficiency!
+>
+>SVG for Everybody https://github.com/jonathantneal/svg4everybody. The idea is this: just use <use> as if it works, and the script will handle it in IE 9, 10, 11. A polyfill, except just for this scenario (it doesn't make this work anywhere that doesn't already support inline SVG use).
+>
+>-- https://css-tricks.com/svg-use-external-source/
+
 >we’ve landed on directly injecting the SVGs directly in our page markup. This allows us the flexibility to change the color of the icons with CSS using the fill: declaration on the fly.
 >
 >External .svg — We first attempted to serve a single external “svgstore”. We’d include individual sprites using the <use> element. With our current cross-domain security policy and asset pipeline, we found it difficult to serve the SVG sprites externally.
