@@ -43,6 +43,7 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 - http://fontawesome.io/
 - commercial monthly payment https://fortawesome.com
 - many not resolved requests for free version https://github.com/FortAwesome/Font-Awesome/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc
+- >I don't use FA's hosting anymore since they switched to that annoying javascript loading crap. https://www.reddit.com/r/web_design/comments/58c9wg/font_awesome_5_kickstarter/d9blrlz/
 
 >I just wonder how licensing for the pro version works in regards to open source projects? If I buy the license, can I use it for my open source project?
 >
