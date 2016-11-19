@@ -1,6 +1,12 @@
 ## SVG
 
-- https://github.com/blog/2112-delivering-octicons-with-svg
+>we’ve landed on directly injecting the SVGs directly in our page markup. This allows us the flexibility to change the color of the icons with CSS using the fill: declaration on the fly.
+>
+>External .svg — We first attempted to serve a single external “svgstore”. We’d include individual sprites using the <use> element. With our current cross-domain security policy and asset pipeline, we found it difficult to serve the SVG sprites externally.
+>
+>-- https://github.com/blog/2112-delivering-octicons-with-svg
+
+<br>
 
 >I'm not sure why an icon font would be easier to use than SVGs. Yes, you only have to reference a file once (the font file), but that actually makes it more difficult to use, because now you have to remember two things: how to reference the file, and how to reference the icon.
 With SVG, it's simpler, because everything is usually contained in one CSS rule. Yes, it has a reference to a file, but does that matter from the viewpoint of simplicity? I.e., make another icon? Then just copy a CSS rule and edit it.
