@@ -1,6 +1,7 @@
 - https://www.reddit.com/r/webdev/comments/564btf/open_source_material_design_iconic_font/
 - create custom font from many sets http://fontello.com/
 - social svg icons https://alexpeattie.com/projects/justvector-icons
+- https://icomoon.io/
 
 ## Fontawesome
 
@@ -8,8 +9,13 @@
 - commercial monthly payment https://fortawesome.com
 - many not resolved requests for free version https://github.com/FortAwesome/Font-Awesome/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc
 
-### kickstarter campaign https://www.kickstarter.com/projects/232193852/font-awesome-5
-  - 20 USD (early bird) for fontawesome pro - personal/small business - cannot have both for business and personal
-  - more icon sets
-  - svg framework - in open source license only basic svg
-  - voting
+### kickstarter campaign
+
+- https://www.kickstarter.com/projects/232193852/font-awesome-5
+- 20 USD (early bird) for fontawesome pro - personal/small business - cannot have both for business and personal
+- more icon sets
+- svg framework - in open source license only basic svg
+- voting
+- https://www.reddit.com/r/webdev/comments/595n9i/if_nothing_else_font_awesome_5_deserves_to_be/
+- https://www.reddit.com/r/web_design/comments/58c9wg/font_awesome_5_kickstarter/
+- https://news.ycombinator.com/item?id=12780271
