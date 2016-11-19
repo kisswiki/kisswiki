@@ -12,7 +12,7 @@
     - saves time spent as comments to in card
     - adds pomelo icon to card title with how many spent
   - no ios app
-  - can move to other column after pomodoro ends
+  - can move to other list after pomodoro ends
   - need to click "continue after break" to start break https://www.pomelloapp.com/help#timer-interface
   - keyboard shortcuts
 - https://pomotodo.com/ simple, apps on many platforms, no integrations
