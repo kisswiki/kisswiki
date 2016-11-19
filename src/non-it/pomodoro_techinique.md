@@ -10,6 +10,9 @@
 - http://www.pomelloapp.com/ - great integration with trello: saves time spent as comments to in card, adds pomelo icon to card title with how many spent, no ios app
 - https://pomotodo.com/ simple, apps on many platforms, no integrations
 - http://help.trello.com/article/941-time-tracking
+- https://toggl.com
+  - https://toggl.com/pomodoro-timer-toggl
+  - https://toggl.com/trello-time-tracking
 
 ## About
 
