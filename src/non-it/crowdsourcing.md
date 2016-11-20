@@ -1,0 +1,2 @@
+- https://snowdrift.coop/p/snowdrift/w/en/othercrowdfunding
+  - https://www.reddit.com/r/Crowdfunding/comments/3z8vm8/alternative_to_patreon/
