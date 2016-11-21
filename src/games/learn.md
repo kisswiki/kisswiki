@@ -7,6 +7,7 @@
 - https://forum.gamedev.pl/c/szkolka
 - https://forum.gamedev.pl/t/wiec-chcesz-zostac-developerem/1702
 - http://warsztat.gd/wiki/Strona%20g%C5%82%C3%B3wna
+- https://akademiaf2p.pl/
 
 >Jeśli chodzi o książki mogę polecić:
 >- Unity. Przewodnik projektanta gier - Mike Gaig
