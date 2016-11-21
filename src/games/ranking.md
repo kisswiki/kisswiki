@@ -1,0 +1,1 @@
+- http://www.ppe.pl/encyklopedia/ranking.html

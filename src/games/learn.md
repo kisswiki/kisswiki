@@ -1,4 +1,5 @@
 - http://gamedevschool.pl/
+- http://www.akademiagier.pl/szkolenia
 - http://digitalfrontier.pl/info/
 - http://www.szkolafilmowa.pl/pl/kierunki/rezyseria-i-produkcja-gier-wideo/
 - http://fenix.club/ warsztaty co wtorek
@@ -8,6 +9,8 @@
 - https://forum.gamedev.pl/t/wiec-chcesz-zostac-developerem/1702
 - http://warsztat.gd/wiki/Strona%20g%C5%82%C3%B3wna
 - https://akademiaf2p.pl/
+- http://www.gamedevfest.pl/
+- http://gamedevhouse.pl/szkolenia/unity-3d
 
 >Jeśli chodzi o książki mogę polecić:
 >- Unity. Przewodnik projektanta gier - Mike Gaig

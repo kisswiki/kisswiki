@@ -1,3 +1,4 @@
 - https://snowdrift.coop/p/snowdrift/w/en/othercrowdfunding
   - https://www.reddit.com/r/Crowdfunding/comments/3z8vm8/alternative_to_patreon/
 - https://www.quora.com/What-are-the-best-alternatives-to-Patreon-youd-recommend
+- https://patronite.pl/
