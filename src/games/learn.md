@@ -16,6 +16,7 @@
   - http://videopoint.pl/kurs/unity-dla-dzieci-zabawa-w-programowanie-gier-kurs-video-poziom-pierwszy-arkadiusz-brzegowy,vunidz.htm
 - http://www.szkolenia.itmedia.pl/szkolenia/tworzenie-gier/
 - http://wiki.unity3d.pl/doku.php
+- http://unity3ddev.net/
 
 >Jeśli chodzi o książki mogę polecić:
 >- Unity. Przewodnik projektanta gier - Mike Gaig
