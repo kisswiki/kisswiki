@@ -12,6 +12,7 @@
 - http://www.gamedevfest.pl/
 - http://gamedevhouse.pl/szkolenia/unity-3d
 - http://www.szkolenia.itmedia.pl/szkolenia/tworzenie-gier/
+- http://www.dev4play.com/public/szkolenie_unity_program
 
 ## Video
 
