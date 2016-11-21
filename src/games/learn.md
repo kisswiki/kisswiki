@@ -4,6 +4,7 @@
 - http://mwin.pl/unity3d-tutorial-0-podstawy-podstaw-niezbednik-uzytkowania-unity/
 - http://www.gamedev.pl/skills/
 - https://forum.gamedev.pl/c/szkolka
+- https://forum.gamedev.pl/t/wiec-chcesz-zostac-developerem/1702
 
 >Jeśli chodzi o książki mogę polecić:
 >- Unity. Przewodnik projektanta gier - Mike Gaig
