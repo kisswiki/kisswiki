@@ -1,0 +1,2 @@
+- http://gamedev.stackexchange.com/questions/8/where-can-i-find-free-sounds-for-my-game
+- http://www.freesound.org/
