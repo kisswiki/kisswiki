@@ -1,1 +1,2 @@
 - http://www.gamezilla.pl/
+- https://www.rockpapershotgun.com
