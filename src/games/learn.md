@@ -18,6 +18,7 @@
 - http://videopoint.pl/kategorie/programowanie/unity3d
   - http://videopoint.pl/kurs/unity-kurs-video-poziom-pierwszy-tworzenie-gier-komputerowych-3d-arkadiusz-brzegowy,uni3dp.htm
   - http://videopoint.pl/kurs/unity-dla-dzieci-zabawa-w-programowanie-gier-kurs-video-poziom-pierwszy-arkadiusz-brzegowy,vunidz.htm
+- https://www.rockpapershotgun.com/2016/10/03/can-video-games-teach-you-programming/
 
 ## Text
 
