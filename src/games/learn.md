@@ -12,6 +12,7 @@
 - http://www.gamedevfest.pl/
 - http://gamedevhouse.pl/szkolenia/unity-3d
 - http://videopoint.pl/kurs/unity-kurs-video-poziom-pierwszy-tworzenie-gier-komputerowych-3d-arkadiusz-brzegowy,uni3dp.htm
+- http://videopoint.pl/kurs/unity-dla-dzieci-zabawa-w-programowanie-gier-kurs-video-poziom-pierwszy-arkadiusz-brzegowy,vunidz.htm
 - http://www.szkolenia.itmedia.pl/szkolenia/tworzenie-gier/
 
 >Jeśli chodzi o książki mogę polecić:
