@@ -7,3 +7,9 @@
 - https://www.udemy.com/unity3d-concepts/
 - https://www.udemy.com/2d-game-art-for-non-artists/
 - https://www.udemy.com/unity-2d-bouncing-and-sliding-with-physics/
+
+## Paid
+
+- https://www.udemy.com/gamephysics/
+- https://www.udemy.com/unitycert/
+- https://www.udemy.com/software-engineer-interview-unleashed/
