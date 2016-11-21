@@ -3,6 +3,7 @@
   - https://forum.gamedev.pl/c/ogloszenia/oferty-pracy-jobs
 - http://www.skillshot.pl/
 - http://www.pracuj.pl/praca/programista%20gier;kw
+- https://www.freelancer.com/jobs/unity-3d/1/
 
 ## Studios
 
