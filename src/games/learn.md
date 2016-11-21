@@ -13,6 +13,7 @@
 - http://gamedevhouse.pl/szkolenia/unity-3d
 - http://www.szkolenia.itmedia.pl/szkolenia/tworzenie-gier/
 - http://www.dev4play.com/public/szkolenie_unity_program
+- http://www.altkomikum.pl/tworzenie-gier-w-srodowisku-unity.php
 
 ## Video
 
