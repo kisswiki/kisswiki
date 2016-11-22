@@ -1,2 +1,3 @@
 - http://www.bay12games.com/dwarves/
 - Let's Play: Path of Exile - Summoner Witch - Part 1 [v2.4 Essence League] https://youtu.be/PnB0lDFi13k
+- The PATH of EXILE SURVIVAL GUIDE 2.0 - The Ultimate Beginner's Walkthrough - Chapter 1 https://youtu.be/_by-r2rX5WY
