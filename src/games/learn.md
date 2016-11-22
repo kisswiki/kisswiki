@@ -1,5 +1,6 @@
 - http://www.gamedev.pl/skills/
 - https://forum.gamedev.pl/t/wiec-chcesz-zostac-developerem/1702
+- http://www.animationarena.com/how-to-become-a-video-game-designer.html
 
 ## Workshops
 
