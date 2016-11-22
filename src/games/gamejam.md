@@ -10,6 +10,7 @@
 - http://www.indiegamejams.com/
 - https://itch.io/jams
 - https://challengerocket.com/pl/lista,polska,hackathons,poland.html
+- http://www.epicgamejam.com/
 
 >taki weekendowy eksperyment doskonale pokazuje jak wygląda codzienność game developerów. Mordercze deadline’y, wyżyłowane optymalizacje, mozolne debugowanie, nieustanna iteracja, a do tego jeszcze brutalne zasady rynku i czychającej konkurencji to norma w branży
 >
