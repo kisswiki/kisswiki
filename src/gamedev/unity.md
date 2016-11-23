@@ -23,3 +23,8 @@
 - http://ageofcavemen.pl/
 - http://ageofcavemen.com/
 - Wywiad z Fuero Games specjalnie dla Gramowiczów http://ja.gram.pl/blog_wpis.asp?id=341833&n=473
+
+## git
+
+- https://github.com/github/gitignore/blob/master/Unity.gitignore
+- https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
