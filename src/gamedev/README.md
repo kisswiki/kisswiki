@@ -1,3 +1,8 @@
+- http://innpoland.pl/126929,crowdfunding-nie-jest-rewolucja-w-finansowaniu-wywiad-z-feargusem-urqhuartem-legendarnym-producentem-gier
+- https://software.intel.com/en-us/gamedev/journey/ideate
+
+## Old
+
 - http://www.babylonjs.com/
   - http://doc.babylonjs.com/
     - http://doc.babylonjs.com/tutorials
@@ -25,13 +30,3 @@
 - https://academy.zenva.com/product/the-complete-mobile-game-development-course-platinum-edition/
 - http://phaser.io/news/2015/09/interphase-is-released
 - http://phaser.io/games
-
-## Rankings
-
-- http://www.gamerankings.com/
-- http://www.metacritic.com/game
-  - http://www.metacritic.com/browse/games/score/userscore/year/pc?sort=desc&year_selected=2016
-  - http://www.metacritic.com/browse/games/score/metascore/year/pc?sort=desc&year_selected=2016
-  - http://www.metacritic.com/game/pc/inside
-- https://en.wikipedia.org/wiki/Golden_Joystick_Award
-- https://en.wikipedia.org/wiki/The_Game_Awards

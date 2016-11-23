@@ -1,3 +1,5 @@
+## Todo
+
 Unlike Ingress, where there is
 - [ ] a continuing story line influenced by how well the two factions are doing
 - [ ] a global score that every player can influence
