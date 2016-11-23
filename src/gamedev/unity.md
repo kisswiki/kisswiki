@@ -28,3 +28,4 @@
 
 - https://github.com/github/gitignore/blob/master/Unity.gitignore
 - https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+- http://stackoverflow.com/questions/21573405/how-to-prepare-a-unity-project-for-git
