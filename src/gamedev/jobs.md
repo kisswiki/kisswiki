@@ -16,6 +16,7 @@
 - 2015 staz http://graczem-od-dziecka.blogspot.com/2015/06/praca-w-branzy-gier-projekt-staz.html
 - https://connect.unity.com/
   - https://blogs.unity3d.com/2016/11/07/unity-connect-open-beta-join-the-first-talent-marketplace-dedicated-to-unity-creators/
+- https://www.fiverr.com/search/gigs?query=unity
 
 ## Studios
 
