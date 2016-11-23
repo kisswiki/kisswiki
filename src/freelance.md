@@ -1,5 +1,6 @@
 - https://www.fiverr.com/
   - http://www.cypriankajetan.pl/jak-zarabiac-pieniadze-online-fiverr/
+  - https://www.fiverr.com/gigblast/design-highly-unique-conceptual-logo
 - https://www.upwork.com/
   - https://hackernoon.com/why-you-should-never-use-upwork-ever-5c62848bdf46
 - https://www.freelancer.com/job/
