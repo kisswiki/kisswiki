@@ -10,7 +10,7 @@
 - http://digitalfrontier.pl/info/
 - http://www.szkolafilmowa.pl/pl/kierunki/rezyseria-i-produkcja-gier-wideo/
 - http://fenix.club/ warsztaty co wtorek
-- https://akademiaf2p.pl/
+- 2015 https://akademiaf2p.pl/
 - http://www.gamedevfest.pl/
 - http://gamedevhouse.pl/szkolenia/unity-3d
 - http://www.szkolenia.itmedia.pl/szkolenia/tworzenie-gier/
