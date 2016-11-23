@@ -1,4 +1,5 @@
 - https://www.fiverr.com/
+  - http://www.cypriankajetan.pl/jak-zarabiac-pieniadze-online-fiverr/
 - https://www.upwork.com/
 - https://www.freelancer.com/job/
 
