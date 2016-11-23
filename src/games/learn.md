@@ -33,6 +33,10 @@
 - http://warsztat.gd/wiki/Strona%20g%C5%82%C3%B3wna
 - http://wiki.unity3d.pl/doku.php
 - http://unity3ddev.net/blog/Unity%20Game%20Engine/index_c-14.html
+- http://inzynieria-gier.wonderland-engineering.eu/
+- http://www.gamasutra.com/blogs/JoshCaba/20160512/272525/14_Elements_of_Great_of_Game_Design.php
+- http://kotaku.com/designing-a-video-game-as-illustrated-by-doors-1774319142
+- http://www.gamasutra.com/blogs/DanielBishop/20160513/272629/Why_is_it_important_to_have_a_vision_for_your_project.php
 
 >Jeśli chodzi o książki mogę polecić:
 >- Unity. Przewodnik projektanta gier - Mike Gaig

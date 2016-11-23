@@ -7,6 +7,9 @@
 - https://www.freelancer.com/jobs/unity-3d/1/
 - http://warsztat.gd/praca
 - http://unity3ddev.net/viewforum.php?f=17
+- http://wonderland-engineering.eu/dolacz-do-nas/
+  - https://www.facebook.com/photo.php?fbid=718103851704287&set=a.475856452595696.1073741827.100005140366024&type=3&theater
+  - https://www.facebook.com/jzwesolowski
 
 ## Studios
 
