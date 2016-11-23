@@ -7,3 +7,4 @@
 - https://en.wikipedia.org/wiki/The_Game_Awards
 - http://www.ppe.pl/encyklopedia/ranking.html
 - http://store.steampowered.com/stats/?l=polish
+- http://www.thetoptens.com/video-game-genres/
