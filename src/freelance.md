@@ -1,3 +1,7 @@
+- https://www.fiverr.com/
+- https://www.upwork.com/
+- https://www.freelancer.com/job/
+
 >To, że trzeba zainwestować pieniądze na start aby jakoś zostać zauważonym to bzdury. Czasami to nawet strata pieniędzy, bo można inwestować w nieskończoność i popełniać błędy. Jakby miał się tam reklamowac jakiś programista, to to że znajdzie się na pierwszym miejscu w liście freelancerów to aktualnie chyba rzecz niemożliwa. Albo po zainwestowaniu 10 000$ :)
 >
 >Z własnego doświadczenia wiem, że:
