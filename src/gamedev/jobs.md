@@ -12,6 +12,7 @@
 - http://forum.unity3d.pl/viewforum.php?f=40
 - http://www.careerjet.pl/szukaj/oferty_pracy?s=unity&l=Warszawa%2C+mazowieckie
 - https://4programmers.net/Praca/Szukaj?q=unity&city=Warszawa
+- http://www.pracuj.pl/praca/unity;kw/Warszawa;wp
 
 ## Studios
 
