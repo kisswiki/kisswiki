@@ -19,6 +19,7 @@
 - https://www.fiverr.com/search/gigs?query=unity
 - https://www.upwork.com/hire/unity-3d-freelancers/
 - https://www.upwork.com/o/profiles/browse/?q=unity
+- https://www.upwork.com/o/jobs/browse/c/web-mobile-software-dev/sc/game-development/
 
 ## Studios
 
