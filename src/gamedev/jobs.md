@@ -17,6 +17,7 @@
 - https://connect.unity.com/
   - https://blogs.unity3d.com/2016/11/07/unity-connect-open-beta-join-the-first-talent-marketplace-dedicated-to-unity-creators/
 - https://www.fiverr.com/search/gigs?query=unity
+- https://www.upwork.com/hire/unity-3d-freelancers/
 
 ## Studios
 
