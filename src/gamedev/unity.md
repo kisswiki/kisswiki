@@ -29,3 +29,4 @@
 - https://github.com/github/gitignore/blob/master/Unity.gitignore
 - https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 - http://stackoverflow.com/questions/21573405/how-to-prepare-a-unity-project-for-git
+- http://answers.unity3d.com/questions/222281/asset-serialization-mixed-vs-force-text.html
