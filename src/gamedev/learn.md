@@ -11,12 +11,15 @@
 - http://www.szkolafilmowa.pl/pl/kierunki/rezyseria-i-produkcja-gier-wideo/
 - http://fenix.club/ warsztaty co wtorek
 - 2015 https://akademiaf2p.pl/
-- http://www.gamedevfest.pl/
 - http://gamedevhouse.pl/szkolenia/unity-3d
 - http://www.szkolenia.itmedia.pl/szkolenia/tworzenie-gier/
 - http://www.dev4play.com/public/szkolenie_unity_program
 - http://www.altkomikum.pl/tworzenie-gier-w-srodowisku-unity.php
 - http://szkoleniabezplatne.pl/
+
+## Prelections
+
+- http://www.gamedevfest.pl/
 
 ## Video
 
