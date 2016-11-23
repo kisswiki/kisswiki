@@ -13,6 +13,7 @@
 - http://forum.unity3d.pl/viewforum.php?f=40
 - http://www.careerjet.pl/szukaj/oferty_pracy?s=unity&l=Warszawa%2C+mazowieckie
 - https://4programmers.net/Praca/Szukaj?q=unity&city=Warszawa
+- 2015 staz http://graczem-od-dziecka.blogspot.com/2015/06/praca-w-branzy-gier-projekt-staz.html
 
 ## Studios
 
