@@ -6,3 +6,4 @@
 - https://en.wikipedia.org/wiki/Golden_Joystick_Award
 - https://en.wikipedia.org/wiki/The_Game_Awards
 - http://www.ppe.pl/encyklopedia/ranking.html
+- http://store.steampowered.com/stats/?l=polish
