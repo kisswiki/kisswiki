@@ -8,3 +8,4 @@
 - http://www.ppe.pl/encyklopedia/ranking.html
 - http://store.steampowered.com/stats/?l=polish
 - http://www.thetoptens.com/video-game-genres/
+- https://www.greenmangaming.com/blog/golden-joystick-awards-2016-winners-announced/
