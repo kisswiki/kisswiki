@@ -1,0 +1,1 @@
+- http://stackoverflow.com/questions/618535/difference-between-decimal-float-and-double-in-net
