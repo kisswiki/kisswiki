@@ -30,6 +30,7 @@
 - https://www.rockpapershotgun.com/2016/10/03/can-video-games-teach-you-programming/
 - https://www.coursera.org/specializations/game-development
 - https://www.coursera.org/courses?query=unity%203d
+- https://www.coursera.org/specializations/game-design
 
 ## Text
 
