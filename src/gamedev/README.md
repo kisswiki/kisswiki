@@ -1,6 +1,18 @@
 - http://innpoland.pl/126929,crowdfunding-nie-jest-rewolucja-w-finansowaniu-wywiad-z-feargusem-urqhuartem-legendarnym-producentem-gier
 - https://software.intel.com/en-us/gamedev/journey/ideate
 
+## About
+
+>Jak rozmawiam z szefami studiów deweloperskich, to często przyznają, że mają około 70% obłożenia, które docelowo chcieliby mieć. Oczywiście przekłada się to na pieniądze, ale nie tylko. W branży jest po prostu wysoka bariera wejścia. A że sam miałem okazję uczestniczyć w podobnym kursie, uznałem że chcę spróbować zapełnić tę lukę.
+>
+>Jaka dokładnie bariera?
+>
+>Zatrudnienie tych 30% więcej, to dla studiów często problem, bo dobrych specjalistów jest ciągle za mało. Transfery pomiędzy studiami są w tej branży rzeczą naturalną, oczywistą, powszechną i częstą. Problemem jest bariera wejścia w gamdev, który jest szalenie skomplikowany. Projekty IT mają pewien porządek. Kiedy tworzysz projekt aplikacji, bazy danych, czy jakiegokolwiek systemu, masz pewne założenie i wiesz, do czego dążysz. Natomiast w gamedevie jest tak, że to co jest na początku na papierze, raczej rzadko trafia w niezmienionej formie. Ponoć jeszcze nie zdarzyła się taka gra, która wyglądałaby tak, jak ją projektowano, gdy powstawał pierwotny koncept. Kiedy pracuje się nad grą, trzeba sprawdzić czy to, co się wymyśliło, po prostu działa. Przez to, że jest taka iteracyjność – to cofanie się, o 2 kroki, o 3, czasami wyrzucanie do kosza rzeczy, nad którymi pracowało się miesiącami – cały czas trzeba zastanawiać się jak zrobić to lepiej. I przez to ten proces jest nieprzewidywalny. Finansowo, czasowo. Jest po prostu trudny i trzeba go przećwiczyć na własnej skórze.
+>
+>Programiści, niskopoziomowi, od C++, są najbardziej pożądani.
+>
+>-- http://polygamia.pl/twoje-weekendy-nie-wygladaja-inaczej-niz-napieprzanie-gier-wywiad-z-zalozycielem-gamedev-school/
+
 ## Old
 
 - http://www.babylonjs.com/

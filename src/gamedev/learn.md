@@ -6,6 +6,7 @@
 ## Workshops
 
 - http://gamedevschool.pl/
+  - http://polygamia.pl/twoje-weekendy-nie-wygladaja-inaczej-niz-napieprzanie-gier-wywiad-z-zalozycielem-gamedev-school/
 - http://www.akademiagier.pl/szkolenia
 - http://digitalfrontier.pl/info/
 - http://www.szkolafilmowa.pl/pl/kierunki/rezyseria-i-produkcja-gier-wideo/
@@ -27,6 +28,8 @@
   - http://videopoint.pl/kurs/unity-kurs-video-poziom-pierwszy-tworzenie-gier-komputerowych-3d-arkadiusz-brzegowy,uni3dp.htm
   - http://videopoint.pl/kurs/unity-dla-dzieci-zabawa-w-programowanie-gier-kurs-video-poziom-pierwszy-arkadiusz-brzegowy,vunidz.htm
 - https://www.rockpapershotgun.com/2016/10/03/can-video-games-teach-you-programming/
+- https://www.coursera.org/specializations/game-development
+- https://www.coursera.org/courses?query=unity%203d
 
 ## Text
 
