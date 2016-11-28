@@ -1,3 +1,13 @@
 - http://www.bay12games.com/dwarves/
 - Let's Play: Path of Exile - Summoner Witch - Part 1 [v2.4 Essence League] https://youtu.be/PnB0lDFi13k
 - The PATH of EXILE SURVIVAL GUIDE 2.0 - The Ultimate Beginner's Walkthrough - Chapter 1 https://youtu.be/_by-r2rX5WY
+- http://moonlighterthegame.com/
+  - https://madewith.unity.com/stories/dreaming-of-moonlighter
+- Hyper Light Drifter 11.99 EUR https://www.g2a.com/hyper-light-drifter-steam-cd-key-global.html
+- Enter The Gungeon
+  - 5.99 USD http://www.wingamestore.com/product/5404/Enter-The-Gungeon/
+  - https://twitter.com/DodgeRollGames/status/593625936131653632
+  - https://www.reddit.com/r/gamedev/comments/4naeae/are_games_like_enter_the_gungeon_neurovoider/
+- Crawl http://store.steampowered.com/app/293780/
+  - https://www.reddit.com/r/gamedev/comments/4naeae/are_games_like_enter_the_gungeon_neurovoider/
+- Hero Siege Complete 10.59 EUR http://store.steampowered.com/bundle/476/
