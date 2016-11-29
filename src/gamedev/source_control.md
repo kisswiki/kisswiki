@@ -1,1 +1,3 @@
 - https://www.atlassian.com/git/tutorials/perforce-git/
+- https://www.quora.com/Why-isnt-Git-used-by-more-video-game-developers/answer/Tim-Mensch
+- https://www.quora.com/Why-isnt-Git-used-by-more-video-game-developers/answer/Silard-Toth
