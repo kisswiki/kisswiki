@@ -8,6 +8,7 @@
   - 5.99 USD http://www.wingamestore.com/product/5404/Enter-The-Gungeon/
   - https://twitter.com/DodgeRollGames/status/593625936131653632
   - https://www.reddit.com/r/gamedev/comments/4naeae/are_games_like_enter_the_gungeon_neurovoider/
+  - Camera perspective: ortographic
 - Crawl http://store.steampowered.com/app/293780/
   - https://www.reddit.com/r/gamedev/comments/4naeae/are_games_like_enter_the_gungeon_neurovoider/
 - Hero Siege Complete 10.59 EUR http://store.steampowered.com/bundle/476/
