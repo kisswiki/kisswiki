@@ -27,3 +27,4 @@
 - http://innpoland.pl/130155,wlasnie-wycofuje-sie-z-projektow-ktore-oklamuja-inwestorow-bartosz-mankowski-szczerze-o-polskim-swiatku-startupow
 - http://mamstartup.pl/inside/10057/12-bledow-ktore-popelnilismy-przez-dwa-lata-rozwijania-startupu
 - https://www.quora.com/What-are-the-best-technology-accelerators-and-incubators-in-Poland
+- Corporate accelerators are evil and shouldn't exist https://www.facebook.com/lech.wilczynski/posts/10211450173793524
