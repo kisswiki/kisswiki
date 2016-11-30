@@ -11,3 +11,4 @@
 >-- http://www.payscale.com/research/US/Job=Video_Game_Programmer/Salary
 
 - http://www.gameindustrycareerguide.com/video-game-programmer-salary/
+- http://www.gamasutra.com/view/news/221533/Game_Developer_Salary_Survey_2014_The_results_are_in.php
