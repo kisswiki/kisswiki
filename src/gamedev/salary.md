@@ -4,4 +4,8 @@
 >
 >-- https://www.quora.com/Why-do-game-programmers-have-lower-salaries-than-regular-software-engineers
 
-- http://www.payscale.com/research/US/Job=Video_Game_Programmer/Salary
+<br>
+
+>The average (median) salary for a Video Game Programmer is $62,330 per year. People in this job generally don't have more than 10 years' experience. Skills that are associated with high pay for this job are Games, C++ Programming Language, and C++.
+>
+>-- http://www.payscale.com/research/US/Job=Video_Game_Programmer/Salary
