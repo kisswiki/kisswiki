@@ -2,6 +2,7 @@
 - https://unity3d.com/unity/roadmap
 - https://madewith.unity.com/
 - https://unity3d.com/learn/
+- https://unity3d.com/learn/live-training
 
 ## Tower Defense
 
