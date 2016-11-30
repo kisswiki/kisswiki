@@ -12,3 +12,4 @@
 
 - http://www.gameindustrycareerguide.com/video-game-programmer-salary/
 - http://www.gamasutra.com/view/news/221533/Game_Developer_Salary_Survey_2014_The_results_are_in.php
+- http://www.develop-online.net/analysis/develop-salary-survey-average-dev-wage-rises-to-33-800/0216034
