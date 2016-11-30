@@ -3,6 +3,7 @@
 - http://www.develop-online.net/analysis/develop-salary-survey-average-dev-wage-rises-to-33-800/0216034
 - http://www.gamedesigning.org/career/job-market/
 - http://www.bigfishgames.com/blog/video-gaming-industry-numbers-by-region/
+- https://www.reddit.com/r/gamedev/comments/44subl/orca_search_5000_game_industry_salaries/
 
 >You also need to note that the gaming industry is highly volatile. There are very few programmers with more than ten years of experience who are still working in games. Job stability seems to be much worse in general. It's really easy to get applicants for game developer jobs, and retention doesn't seem highly valued. It's somewhat telling that the upper category for experience on the survey is a paltry six years.
 >
