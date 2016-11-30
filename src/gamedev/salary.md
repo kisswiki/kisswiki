@@ -3,3 +3,5 @@
 > Why do sport stars make more money than doctors ? You are only worth what value you can bring to the table. Games exist purely for enjoyment and caters only to limited market whereas “regular” software can be applied to wide variety of settings with potential to increase profits hundred-fold( think a brick and mortar store going online to sell stuff). So, while game development and game programming is actually lot harder than “regular” software development( generally speaking), application development brings in more money and presumably higher pay and job stability to developers because the work of these developers bring more value to end users.
 >
 >-- https://www.quora.com/Why-do-game-programmers-have-lower-salaries-than-regular-software-engineers
+
+- http://www.payscale.com/research/US/Job=Video_Game_Programmer/Salary
