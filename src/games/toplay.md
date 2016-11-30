@@ -14,5 +14,6 @@
 - Hero Siege Complete 10.59 EUR http://store.steampowered.com/bundle/476/
 - Darkest Dungeon 13.79 EUR http://store.steampowered.com/app/262060
 - Grim Dawn 14.99 EUR http://store.steampowered.com/app/219990
-- Transistor http://store.steampowered.com/app/237930/
-  - https://www.reddit.com/r/hyperlightdrifter/comments/5f8reu/similar_games/
+- https://www.reddit.com/r/hyperlightdrifter/comments/5f8reu/similar_games/
+  - Transistor http://store.steampowered.com/app/237930/
+  - CrossCode http://store.steampowered.com/app/368340/
