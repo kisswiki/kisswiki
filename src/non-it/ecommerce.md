@@ -1,1 +1,2 @@
 - http://www.elevenbyte.com/blog/marketing/10-przykazan-sklepu-internetowego/
+- http://performance360.pl/dlaczego-twoj-e-sklep-upadnie/
