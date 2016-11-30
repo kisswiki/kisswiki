@@ -20,3 +20,11 @@
 >As computing and graphics power increased, so too did the size of development teams, as larger staffs were needed to address the ever-increasing technical and design complexities. The larger teams consist of programmers, artists, game designers, and producers. Their salaries can range anywhere from $50,000 to $120,000 generating large labor costs for firms producing videogames[39] which can often take between one and three years to develop. Now budgets typically reach millions of dollars despite the growing popularity of middleware and pre-built game engines. In addition to growing development costs, marketing budgets have grown dramatically, sometimes consisting of two to three times of the cost of development.
 >
 >-- https://en.wikipedia.org/wiki/Video_game_industry#Economics
+
+<br>
+
+>Game developers typically make a middle-class income.  Those trying to break into the industry, especially indie developers, make hardly any money at all.  Those who are very experienced or very lucky can earn a six-figure salary, including bonuses and/or stock options; however, studios go out of business and developers get laid off so often that the high income can turn into a weekly unemployment check.
+>
+>About the only way to make a lot of money in the game industry is to have an ownership position in a company that is later purchased by another company or goes public.
+>
+>-- https://www.quora.com/Are-game-developers-highly-paid
