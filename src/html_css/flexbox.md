@@ -32,3 +32,25 @@
 - Aligning Text Smartly in CSS, with flexbox http://codepen.io/MoOx/pen/XdVjpK
 - http://www.flexboxpatterns.com/
 - bulma: a modern CSS framework http://bulma.io/
+
+## vertically align and stretch
+
+```css
+.menu {
+  display: flex;
+  align-items: stretch;
+}
+
+.menu > * {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+```
+
+- http://stackoverflow.com/questions/19063770/how-to-vertically-align-and-stretch-content-using-css-flexbox
+- http://stackoverflow.com/questions/19072610/flexbox-vertically-center-and-match-size
