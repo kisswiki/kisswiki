@@ -1,1 +1,2 @@
 - CSS-Only Animated <label> Placeholders https://codepen.io/sivan/pen/alKwf
+- http://stackoverflow.com/questions/7545302/how-to-change-the-size-of-the-input-text-box
