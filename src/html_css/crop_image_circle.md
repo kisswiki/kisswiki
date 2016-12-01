@@ -1,0 +1,1 @@
+- http://stackoverflow.com/questions/26421274/css-circular-cropping-of-rectangle-image
