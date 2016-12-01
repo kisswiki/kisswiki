@@ -31,6 +31,14 @@
 >
 >-- https://www.quora.com/Are-game-developers-highly-paid
 
+<br>
+
 >the proliferation of crunch, chronic layoffs, and publishers shutting studios to save a few bucks is all the proof I need that artists, programmers, designers, and sound engineers need union protection of some form
 >
 >-- http://www.gamasutra.com/view/news/286408/Opinion_Now_is_the_time_to_unionize_the_game_industry.php
+
+<br>
+
+>Trying to make a living in indie dev now is like trying to be a musician. Difficult
+>
+>-- https://mobile.twitter.com/spiderwebsoft/status/804092447433236480
