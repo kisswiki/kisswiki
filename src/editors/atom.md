@@ -149,22 +149,16 @@
 
 ## polish accents with right alt
 
-- https://atom.io/packages/keyboard-localization
-- https://github.com/atom/atom-keymap/issues/35#issuecomment-110439831  
-  ~/.atom/keymap.cson
+>So your solution is to either unset these keybindings in Atom 1.12 or to run Atom beta. To unset the keybindings add the following to your keymap.cson which you can reach from the file menu. File -> Keymap...
+>https://github.com/atom/atom-keymap/issues/169#issuecomment-262166288
 
-  ```
-  'body':
-    'ctrl-alt-o': 'unset!'
+```
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-alt-z': 'unset!'
 
-  'atom-workspace atom-text-editor:not([mini])':
-    'ctrl-alt-z': 'unset!'
-    'ctrl-alt-c': 'unset!'
-
-  '.platform-win32 atom-workspace':
-    'ctrl-alt-c': 'unset!'
-  ```
-
+'body':
+  'ctrl-alt-o': 'unset!'
+```
 
 ## line endings `\r\n`
 
