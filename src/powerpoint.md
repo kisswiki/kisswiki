@@ -1,0 +1,1 @@
+- http://superuser.com/questions/488240/is-there-a-way-to-hide-the-notes-pane-in-powerpoint-2007s-normal-view
