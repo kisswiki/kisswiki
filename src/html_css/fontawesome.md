@@ -1,1 +1,3 @@
 - http://stackoverflow.com/questions/27969485/space-between-link-and-icon-fontawesome
+- http://stackoverflow.com/questions/19502835/is-it-possible-to-change-between-two-fontawesome-icons-on-hover
+  - http://stackoverflow.com/questions/27669271/change-font-awesome-icon-on-hover
