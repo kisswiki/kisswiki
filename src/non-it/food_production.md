@@ -1,0 +1,1 @@
+- http://m.torun.wyborcza.pl/torun/1,106521,20905718,do-sklepu-chodze-tylko-po-sol-zdrowa-zywnosc-kontra-chemia.html?disableRedirects=true
