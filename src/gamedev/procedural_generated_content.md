@@ -35,5 +35,5 @@ Morph3D
 
 Prosta sprawa ale kluczowa.
 
-- Liczby pseudolosowe
+- Liczby pseudolosowe - ciąg liczb który wygląda jakby był losowy
 - Ziarno losowania
