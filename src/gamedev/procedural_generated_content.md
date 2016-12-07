@@ -39,3 +39,5 @@ Prosta sprawa ale kluczowa.
 - Ziarno losowania
 
 Za ziarno zwykle bierze się czas.
+
+## Funkcje elementarne
