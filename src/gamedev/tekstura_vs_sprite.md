@@ -2,7 +2,7 @@
 
 Polygon
 
-"Kostka"
+Kostka + Melchior - Jak przygotować assety 2d do gry
 
 Nazywanie warstw w Photoshop - można wygenerować obrazki o konkretnym rozmiarze itp.
 
@@ -33,5 +33,10 @@ W atlasie w Unity obrazki mogą być różnych rozmiarów.
 
 - Niewykorzystana głębia koloru zostanie niewykorzystana
 - Puste pixele obecne w teksturach są puste i są obecne - sporo miejsca jest marnowane
-- 
+-
 - Obiekty rysowanie z zasadmi Z-buffera będą rysowane w kolejności zgodnej z zasadami Z-buffera
+
+
+Ile tekstur na mobilnych?
+
+Trzeba się dowiedzieć
