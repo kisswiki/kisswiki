@@ -13,4 +13,8 @@ Cecha tekstur aby pojawiły się w świecie gry - potrzebują mesha.
 ## Wymiary Grafik
 
 - Niektóre urządzenia mają wspomaganie kompresji przez hadware
-- Dobry nawyk - optymalizacja operacji na potęgach. 
+- Dobry nawyk - optymalizacja operacji na potęgach.
+
+## Batching
+
+Głównym problemem w operacjach graficznych jest niedbalstwo w zarządzaniu zasobami.
