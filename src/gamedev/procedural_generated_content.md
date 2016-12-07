@@ -4,4 +4,4 @@ Polygon - Rysowanie jest dla lamusów czyli o proceduralnie generowanym content-
 
 ## OpenAI
 
-Universe - agent AI, który sam ma grać w grę.
+https://universe.openai.com - agent AI, który sam ma grać w grę. Dostaje pixele na input, na output klawiatura, myszka.
