@@ -30,3 +30,7 @@ Animacje szkieletowe to też generowanie proceduralne - kolejne meshe i grafiki 
 ## Meshe
 
 Morph3D
+
+## Losowość
+
+Prosta sprawa ale kluczowa.
