@@ -46,6 +46,8 @@ Za ziarno zwykle bierze się czas.
 
 ## Noise functions
 
+Mają wygenerować jakiś szum.
+
 - Value Noise
 - Gradient Noise
 - Perlin Noise
