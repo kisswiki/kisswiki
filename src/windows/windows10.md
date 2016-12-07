@@ -34,3 +34,9 @@ http://www.howtogeek.com/236711/how-to-turn-off-recent-items-and-frequent-places
 ## Privacy
 
 https://modzero.github.io/fix-windows-privacy/
+
+## Disable Fast Boot
+
+`Control Panel > Hardware and Sound > Power Options > Choose what the power buttons does >  Change settings that are currently unavailable > Turn on fast startup`
+
+http://www.windows10update.com/2015/05/windows-10-tutorials-66-how-to-enable-or-disable-fast-startup/
