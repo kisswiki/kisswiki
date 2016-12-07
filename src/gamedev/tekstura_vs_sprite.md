@@ -24,3 +24,5 @@ Cecha tekstur aby pojawiły się w świecie gry - potrzebują mesha.
 ## Batching
 
 Głównym problemem w operacjach graficznych jest niedbalstwo w zarządzaniu zasobami. Np. animacja poklatkowa i wypychamy klatkę po jednej.
+
+Unity - Podczas importowania spriteu uzupełnić wartość batching. Tagować to Unity załaduje razem.
