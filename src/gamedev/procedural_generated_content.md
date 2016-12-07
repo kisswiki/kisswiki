@@ -5,3 +5,7 @@ Polygon - Rysowanie jest dla lamusów czyli o proceduralnie generowanym content-
 ## OpenAI
 
 https://universe.openai.com - agent AI, który sam ma grać w grę. Dostaje pixele na input, na output klawiatura, myszka.
+
+Wojtek Zaremba - jeden z głównych naukowców w OpenAI.
+
+## Wykład
