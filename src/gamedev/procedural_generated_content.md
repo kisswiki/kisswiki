@@ -10,6 +10,8 @@ Wojtek Zaremba - jeden z głównych naukowców w OpenAI.
 
 ## Wykład
 
+Proceduralne - generowanie przez algorytm.
+
 Co możemy generować:
 
 - Poziomy
@@ -20,3 +22,5 @@ Co możemy generować:
 - Muzykę
 - SFX
 - Fabułę
+
+Animacje szkieletowe to też generowanie proceduralne.
