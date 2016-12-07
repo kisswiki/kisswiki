@@ -41,3 +41,11 @@ Prosta sprawa ale kluczowa.
 Za ziarno zwykle bierze się czas.
 
 ## Funkcje elementarne
+
+Łącząc dwie, trzy funkcje elementarne uzyskamy ciekawy wykres które może określać np. kolor tekstury.
+
+## Noise functions
+
+- Value Noise
+- Gradient Noise
+- Perlin Noise
