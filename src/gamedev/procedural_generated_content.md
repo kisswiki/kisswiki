@@ -23,4 +23,4 @@ Co możemy generować:
 - SFX
 - Fabułę
 
-Animacje szkieletowe to też generowanie proceduralne.
+Animacje szkieletowe to też generowanie proceduralne - kolejne meshe i grafiki są generowane.
