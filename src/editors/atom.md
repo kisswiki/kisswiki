@@ -182,9 +182,7 @@ Update atom-linter
 - Normalize slashes to backslashes on Windows https://github.com/atom/find-and-replace/issues/295
 - https://atom.io/packages/fold-search-results
 
-## Troubleshooting
-
-### Unable to find remote helper for 'https'
+## Unable to find remote helper for 'https'
 
 - Add `C:\Program Files\Git\mingw64\libexec\git-core` to the `PATH`.
 - git is on the PATH
@@ -200,7 +198,7 @@ Maybe this:
 http://stackoverflow.com/questions/27178363/install-autocomplete-plus-package-in-windows/27186255#27186255
 
 
-### Single-click to open file in tree-view
+## Single-click to open file in tree-view
 
 Still not merged https://github.com/atom/tree-view/pull/804
 
@@ -223,3 +221,9 @@ Probably problem with privilieges and antivirus. Should be fixed already https:/
 ### Failed to `apm stars --install`: EINVAL, invalid argument
 
 Run it in cmd.exe, not in git bash.
+
+## apm stars --install: Requesting packages failed: Requires authentication
+
+`apm login`
+
+https://github.com/atom/apm/issues/318
