@@ -46,8 +46,8 @@ Za ziarno zwykle bierze się czas.
 
 ## Noise functions
 
-Mają wygenerować jakiś szum.
+Mają wygenerować jakiś szum - coś się nierównomiernie dzieje.
 
-- Value Noise
-- Gradient Noise
+- Value Noise - losujemy kilka punktów na płaszczyźnie, 3d itp. i interpolujemy liniowo.
+- Gradient Noise - potrafi wygląd jak Value Noise. Losujemy nie punkty ale gradienty.
 - Perlin Noise
