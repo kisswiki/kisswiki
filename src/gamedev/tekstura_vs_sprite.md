@@ -1,8 +1,6 @@
 # 2016-12-07
 
-Polygon
-
-Kostka + Melchior - Jak przygotować assety 2d do gry
+Polygon - Kostka + Melchior - Jak przygotować assety 2d do gry
 
 Nazywanie warstw w Photoshop - można wygenerować obrazki o konkretnym rozmiarze itp.
 
