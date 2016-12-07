@@ -37,3 +37,5 @@ Prosta sprawa ale kluczowa.
 
 - Liczby pseudolosowe - ciąg liczb który wygląda jakby był losowy
 - Ziarno losowania
+
+Za ziarno zwykle bierze się czas.
