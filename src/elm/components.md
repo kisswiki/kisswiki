@@ -22,3 +22,10 @@ Putting the extra info in the model at the highest level on purpose. So my struc
 > By now, my app is getting pretty big. But it remains very managable.
 I use the DatePicker now in several different places, and the flat structure still works for me
 > -- https://groups.google.com/forum/#!topic/elm-discuss/Avuj3zLTVwk
+
+<br>
+
+>The pure version is indeed more aligned with the current recommendations but it is almost as bad from a library user point of view.
+In the 5 months since this pattern emerged I have not seen an explosion of "not-a-component" libraries that follow it.
+>
+>-- https://groups.google.com/forum/#!msg/elm-discuss/y1CVQpQpRcc/r6PTWmEGCwAJ

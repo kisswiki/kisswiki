@@ -9,6 +9,7 @@
   - not-expressive-enough static type systems, because it means that polymorphic code that we're used to easily express in JS, becomes a type error in Elm, due to lack of e.g. rank-2 types http://stackoverflow.com/questions/15490053/what-are-the-advantages-and-disadvantages-of-angular-js-vs-elm/15531171#15531171
   - Elm architecture is nice and clean, but it gets complicated when you add effects https://github.com/mgold/elm-sandbox/tree/master/src/Change
   - https://news.ycombinator.com/item?id=10837278
+  - https://www.reddit.com/r/elm/comments/5g3540/the_elm_alienation/
 - pros
   - https://prezi.com/qaklogolc1qz/why-prezi-is-investing-in-frp-elm/
   - http://forwardjs.com/university/why-prezi-is-betting-on-frp
