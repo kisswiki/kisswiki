@@ -3,3 +3,13 @@ For every smart, capable, well reasoned developer there are a thousand blindly c
 > https://www.reddit.com/r/swift/comments/4zouci/my_least_favorite_thing_about_swift/
 
 - http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/
+
+>“But even the hacker who works alone,” said Master Foo, “collaborates with others, and must constantly communicate clearly to them, lest his work become confused and lost.”
+>
+>“Of what others do you speak?” the Prodigy demanded.
+>
+>Master Foo said: “All your future selves.”
+>
+>Upon hearing this, the Prodigy was enlightened.
+>
+>-- http://catb.org/esr/writings/unix-koans/prodigy.html
