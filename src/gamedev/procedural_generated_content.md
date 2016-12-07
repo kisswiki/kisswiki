@@ -9,3 +9,14 @@ https://universe.openai.com - agent AI, który sam ma grać w grę. Dostaje pixe
 Wojtek Zaremba - jeden z głównych naukowców w OpenAI.
 
 ## Wykład
+
+Co możemy generować:
+
+- Poziomy
+- Grafiki 2D
+- Obiekty 3D
+- Animacje
+- Tekstury
+- Muzykę
+- SFX
+- Fabułę
