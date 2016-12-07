@@ -34,3 +34,6 @@ Morph3D
 ## Losowość
 
 Prosta sprawa ale kluczowa.
+
+- Liczby pseudolosowe
+- Ziarno losowania
