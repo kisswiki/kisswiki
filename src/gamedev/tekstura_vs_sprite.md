@@ -2,6 +2,12 @@
 
 Polygon
 
+"Kostka"
+
+Nazywanie warstw w Photoshop - można wygenerować obrazki o konkretnym rozmiarze itp.
+
+Program do podglądu jak grafika będzie wyglądała po kompresji.
+
 Melchior Mozor
 
 sprite kiedyś to był obrazek załadowany do pamięci. Teraz jest to emulwoane.
