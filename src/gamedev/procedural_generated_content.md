@@ -24,3 +24,9 @@ Co możemy generować:
 - Fabułę
 
 Animacje szkieletowe to też generowanie proceduralne - kolejne meshe i grafiki są generowane.
+
+## Textury
+
+## Meshe
+
+Morph3D
