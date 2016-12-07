@@ -28,3 +28,9 @@ Głównym problemem w operacjach graficznych jest niedbalstwo w zarządzaniu zas
 Unity - Podczas importowania spriteu uzupełnić wartość batching. Używać Packing Tag to Unity załaduje razem.
 
 W atlasie w Unity obrazki mogą być różnych rozmiarów.
+
+## Oczywiste oczywistości
+
+- Niewykorzystana głębia koloru zostanie niewykorzystana
+- Puste pixele obecne w teksturach są puste i są obecne - sporo miejsca jest marnowane
+-
