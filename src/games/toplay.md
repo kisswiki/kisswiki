@@ -18,4 +18,6 @@
   - Transistor http://store.steampowered.com/app/237930/
   - CrossCode http://store.steampowered.com/app/368340/
 - Path of Exile http://store.steampowered.com/app/238960
-- The Last Guardian https://youtu.be/FMmFCVFeYvs
+- The Last Guardian
+  - https://youtu.be/FMmFCVFeYvs
+  - https://gaming.youtube.com/watch?v=i0zjhZ-W-34
