@@ -1,0 +1,1 @@
+- 8 lekcji, które Dark Souls może dać grom https://gaming.youtube.com/watch?v=3lVg-bWQWS0
