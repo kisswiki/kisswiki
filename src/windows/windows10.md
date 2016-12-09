@@ -1,3 +1,5 @@
+- http://superuser.com/questions/1113094/windows-old-folder-appeared-after-windows-10-anniversary-update
+
 ## How to stop middle mouse button from bringing up cortana
 
 I just went to the buttons section on dell touchpad driver and changed the "both buttons" option to something other than " middle button click " , saved the changes , then change it back to " middle button click " ...hoorraaay that bitch is gone
