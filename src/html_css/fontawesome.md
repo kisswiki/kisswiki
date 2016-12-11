@@ -11,3 +11,5 @@ This can be solved easily with methods in script tags.
 Icon fonts do not play well with custom fonts used by people with dyslexia. The best practices for accessibility is to use SVG instead. Also, SVG can have multiple colors and can be animated https://speakerdeck.com/ninjanails/death-to-icon-fonts
 
 use e.g. IcoMoon to build your IconPack and deploy only the icons the user really need.
+
+84 SVG icons in 2KB Gzipped http://danklammer.com/bytesize-icons/
