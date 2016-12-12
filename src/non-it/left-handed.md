@@ -1,0 +1,1 @@
+- http://ed.ted.com/lessons/why-are-some-people-left-handed-daniel-m-abrams
