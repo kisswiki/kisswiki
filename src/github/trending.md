@@ -1,4 +1,4 @@
-- only daily works atm https://github.com/trending
+- only daily works atm https://github.com/trendinghttp://store.steampowered.com/app/418240
 - https://gist.github.com/jasonrudolph/6065289
 - http://www.gitlogs.com/
 - https://libraries.io/github/trending
