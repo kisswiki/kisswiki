@@ -189,6 +189,8 @@ msg2 = """
 
 ## handle arbitrary json
 
+>Coming from other languages, even back-end languages, decoding JSON just isn't a thing. Even on the back-end, I will setup a reflection-based deserializer with general error handling (e.g. Newtonsoft for .NET) and I'm done. The ongoing work is just maintaining the data types, which I must do anyway. The back-end deserializer does take some initial testing to work out the kinks, but that work has an end after which there is no ongoing maintenance.
+>
 >I first started using Elm's recommended codec-ing scheme. I found that if I needed to round-trip an entity to an API, I needed 4 representations of the same entity. One on the client and one on server is given. But then 1 encoder representation and 1 decoder representation... both of which spell out the same information in the type alias. So in order to change the entity, I have 4 places that need maintenance. No thanks.
 >
 >Abusing ports, I arrived at a similar solution to what I explained previously in this thread for decoding. But since encoding is also monkey work, I wanted to abuse ports to launder that too. However, the process to do that was herky-jerky. A port/sub round trip for encoding, then an Elm HTTP call, then a port/sub round trip for decoding. Instead, I abandoned the Elm HTTP library altogether. I added in a fetch polyfill (whatwg-fetch) and run the HTTP call in JS.
@@ -197,4 +199,4 @@ msg2 = """
 >
 >I did precisely the same style in https://github.com/OvermindDL1/elm-jsphoenix too, to minimize the duplication of work (which also increased by elm removing the ability to extend record types into a new type, and lacking the ability to move Dict's across, so those two things still add some, but it still saved a ton of work but (ab)using ports for the end-user).
 >
->-- https://groups.google.com/d/msg/elm-discuss/XW-SRfbzQ94/BFEMyF-SAQAJ
+>-- Is a decoder the right level of abstraction for parsing JSON? https://groups.google.com/forum/#!topic/elm-discuss/XW-SRfbzQ94/discussion
