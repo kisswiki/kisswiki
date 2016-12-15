@@ -1,0 +1,1 @@
+- pull vs push https://github.com/yelouafi/redux-saga/issues/105#issuecomment-182831804
