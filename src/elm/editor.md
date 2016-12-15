@@ -11,4 +11,4 @@
 ## atom.io
 
 - https://groups.google.com/forum/#!topic/elm-discuss/DFymqONIFjc
-- elm-linter has problem on Windows when elm is installed from npm https://github.com/mybuddymichael/linter-elm-make/issues/100
+- 'Error: Cannot find module 'C:\projects\elm\elm\binwrappers\elm-make' - elm-linter has problem on Windows when elm is installed from npm https://github.com/mybuddymichael/linter-elm-make/issues/100
