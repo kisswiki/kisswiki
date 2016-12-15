@@ -27,6 +27,7 @@ Cannot downgrade easily:
 
 ## Games
 
+- http://toucharcade.com/hot-games
 - http://www.mfi4gamerz.com/topic8.html
   - http://mfigames.com/category/games/
   - https://twitter.com/MFi4Gamerz
