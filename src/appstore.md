@@ -1,2 +1,3 @@
 - 95% of the estimated value in the app economy is captured by just 10 countries, and 69% of the value is captured by just the top three countries. Excluding China, the 19 countries considered low- or lower-income accounted for only 1% of total worldwide value. http://boingboing.net/2016/02/15/app-stores-winner-take-all-ma.html
 - reund https://reportaproblem.apple.com/
+  - Get help with an item purchased from the iTunes Store, App Store, Mac App Store, or iBooks Store https://support.apple.com/en-us/HT204084
