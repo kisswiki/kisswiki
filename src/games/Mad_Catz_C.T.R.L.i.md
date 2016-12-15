@@ -27,6 +27,7 @@ Cannot downgrade easily:
 
 ## Games
 
+- http://www.mfi4gamerz.com/topic8.html
 - http://madcatz.com/compatibility/ctrli/
 - gameplay on some games https://youtu.be/IUt4sKQEsRA
 - http://mfigames.com/category/games/?filter_by=popular
