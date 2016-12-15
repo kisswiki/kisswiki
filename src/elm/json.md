@@ -187,7 +187,7 @@ msg2 = """
 """
 ```
 
-## Ports
+## handle arbitrary json
 
 >I first started using Elm's recommended codec-ing scheme. I found that if I needed to round-trip an entity to an API, I needed 4 representations of the same entity. One on the client and one on server is given. But then 1 encoder representation and 1 decoder representation... both of which spell out the same information in the type alias. So in order to change the entity, I have 4 places that need maintenance. No thanks.
 >
