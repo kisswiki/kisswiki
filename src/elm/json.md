@@ -102,3 +102,19 @@ main =
 ```
 
 https://www.reddit.com/r/elm/comments/55nozn/decode_json_to_record_got_ok_function/
+
+## andThen
+
+http://stackoverflow.com/questions/35240365/elm-complex-custom-json-decoder
+
+>Helpful when one field will determine the shape of a bunch of other fields.
+>-- http://package.elm-lang.org/packages/elm-lang/core/3.0.0/Json-Decode#andThen
+
+<br>
+
+>Create decoders that depend on previous results
+>-- http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode#andThen
+
+```elm
+andThen : (a -> Decoder b) -> Decoder a -> Decoder b
+```

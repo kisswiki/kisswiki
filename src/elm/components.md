@@ -29,3 +29,10 @@ I use the DatePicker now in several different places, and the flat structure sti
 In the 5 months since this pattern emerged I have not seen an explosion of "not-a-component" libraries that follow it.
 >
 >-- https://groups.google.com/forum/#!msg/elm-discuss/y1CVQpQpRcc/r6PTWmEGCwAJ
+
+<br>
+
+>I would want to move all of the view code to a new module, exposing only the view function itself. In order to do that, you'll have to move the definition of Model and Msg to a module imported by both Main and View. You can call this module Common. I think the initial model belongs next to its definition, in Common. I wish there was a way to keep Msg near update but View needs it too.
+If you have many helper functions that called from update directly, those can live in Main. If you have many helpers that are only called from other helpers, try to find the small interface update needs, expose that, and hide the rest.
+>
+>-- https://groups.google.com/d/msg/elm-discuss/cf_Gx9q3aJU/qgKq7Ut5CgAJ
