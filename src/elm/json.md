@@ -105,8 +105,6 @@ https://www.reddit.com/r/elm/comments/55nozn/decode_json_to_record_got_ok_functi
 
 ## andThen
 
-http://stackoverflow.com/questions/35240365/elm-complex-custom-json-decoder
-
 >Helpful when one field will determine the shape of a bunch of other fields.
 >-- http://package.elm-lang.org/packages/elm-lang/core/3.0.0/Json-Decode#andThen
 
@@ -117,4 +115,74 @@ http://stackoverflow.com/questions/35240365/elm-complex-custom-json-decoder
 
 ```elm
 andThen : (a -> Decoder b) -> Decoder a -> Decoder b
+```
+
+http://stackoverflow.com/questions/35240365/elm-complex-custom-json-decoder
+
+```elm
+import Html as H
+import Json.Decode exposing (..)
+
+type User = Anonymous | LoggedIn String
+
+type alias Id = Int
+
+type alias AccessToken = String
+
+type alias Model =
+  { email_id : User
+  , id : Id
+  , status : Int
+  , message : String
+  , accessToken : AccessToken
+  }
+
+modelDecoder : Decoder Model
+modelDecoder =
+  (field "status" int) |> andThen modelDecoderByStatus
+
+modelDecoderByStatus : Int -> Decoder Model
+modelDecoderByStatus status =
+  case status of
+    0 ->
+      map5
+        Model
+        (succeed Anonymous)
+        (succeed 0)
+        (succeed status)
+        (field "message" string)
+        (succeed "")
+    1 ->
+      map5
+        Model
+        (map LoggedIn (field "email_id" string))
+        (field "id" int)
+        (succeed status)
+        (succeed "")
+        (field "token"string)
+    _ ->
+      fail <| "Unknown status: " ++ (toString status)
+
+main = H.div []
+  [ H.div [] [ decodeString modelDecoder msg1 |> Result.toMaybe |> Maybe.withDefault emptyModel |> toString |> H.text ]
+  , H.div [] [ decodeString modelDecoder msg2 |> Result.toMaybe |> Maybe.withDefault emptyModel |> toString |> H.text ]
+  ]
+
+emptyModel = Model Anonymous 0 0 "" ""
+
+msg1 = """
+{
+  "status": 0,
+  "message": "Error message explaining what happened in server"
+}
+"""
+
+msg2 = """
+{
+  "status": 1,
+  "email_id": "asdfa@asdfa.com"
+  "token": "asdfaz.adfasggwegwegwe.g4514514ferf"
+  "id": 234
+}
+"""
 ```
