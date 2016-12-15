@@ -186,3 +186,13 @@ msg2 = """
 }
 """
 ```
+
+## Ports
+
+>I first started using Elm's recommended codec-ing scheme. I found that if I needed to round-trip an entity to an API, I needed 4 representations of the same entity. One on the client and one on server is given. But then 1 encoder representation and 1 decoder representation... both of which spell out the same information in the type alias. So in order to change the entity, I have 4 places that need maintenance. No thanks.
+>
+>Abusing ports, I arrived at a similar solution to what I explained previously in this thread for decoding. But since encoding is also monkey work, I wanted to abuse ports to launder that too. However, the process to do that was herky-jerky. A port/sub round trip for encoding, then an Elm HTTP call, then a port/sub round trip for decoding. Instead, I abandoned the Elm HTTP library altogether. I added in a fetch polyfill (whatwg-fetch) and run the HTTP call in JS.
+>
+>Here is a gist. https://gist.github.com/kspeakman/3653ae489c62c4d60c9ba9a9c19fd30b
+>
+>-- https://groups.google.com/d/msg/elm-discuss/XW-SRfbzQ94/BFEMyF-SAQAJ
