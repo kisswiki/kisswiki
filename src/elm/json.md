@@ -195,4 +195,6 @@ msg2 = """
 >
 >Here is a gist. https://gist.github.com/kspeakman/3653ae489c62c4d60c9ba9a9c19fd30b
 >
+>I did precisely the same style in https://github.com/OvermindDL1/elm-jsphoenix too, to minimize the duplication of work (which also increased by elm removing the ability to extend record types into a new type, and lacking the ability to move Dict's across, so those two things still add some, but it still saved a ton of work but (ab)using ports for the end-user).
+>
 >-- https://groups.google.com/d/msg/elm-discuss/XW-SRfbzQ94/BFEMyF-SAQAJ
