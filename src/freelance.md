@@ -26,4 +26,10 @@ Przede wszystkim ludzie na takich portalach szukają najtaniej, a nie najlepiej.
 Tak samo jak w gastro, po otwarciu musisz liczyć 2 lata na to żeby biznes zaczął zarabiać na siebie, tak samo wprowadzając nowy produkt na rynek, zawsze liczy się 1,5 - 2 lata zanim dojdzie do świadomości klienta, że coś takiego istnieje na rynku.
 Tutaj też nie ma żadnej recepty na sukces, czas i praca - wszystko wyjdzie z czasem. Każdy kto ma firmę Ci to powie, że początki są mega trudne.
 >
+>Słyszałam dobre rzeczy o UPWORK. Pracując dla klienta za granicą mogę nawet dać niżsżą stawkę, a cena będzie atrakcyjna zarówno dla klienta, jak i dla mnie.
+>
+>Znam osobiście dziewczyne (obróbka zdjęć plus tłum.) która sobie Upwork chwali.
+>
+>Na Upwork da się zarobić. Trafia się sporo ludzi, którzy szukają wykonawcy solidnego, a niekoniecznie taniego. Najtrudniej jest o 2-3 pierwsze zlecenia, później już z górki. Co do budżetów zleceniodawców: cóż, często mi się zdarza dostać robotę, pomimo nawet znacznie przekroczonego budżetu. Często ludzie nie wiedzą, ile coś powinno kosztować.
+>
 >-- https://www.facebook.com/groups/282850401780600/permalink/1239209832811314/
