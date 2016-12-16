@@ -200,3 +200,36 @@ msg2 = """
 >I did precisely the same style in https://github.com/OvermindDL1/elm-jsphoenix too, to minimize the duplication of work (which also increased by elm removing the ability to extend record types into a new type, and lacking the ability to move Dict's across, so those two things still add some, but it still saved a ton of work but (ab)using ports for the end-user).
 >
 >-- Is a decoder the right level of abstraction for parsing JSON? https://groups.google.com/forum/#!topic/elm-discuss/XW-SRfbzQ94/discussion
+
+## map2
+
+```elm
+import Html exposing (..)
+import Json.Decode exposing (..)
+
+serverResponse =
+    """{"tag": "input", "default": "test"}"""
+
+
+type alias Response =
+    { tag : String, default : String }
+
+
+decodeResponse : Decoder Response
+decodeResponse =
+    (field "tag" string)
+        |> andThen
+            (\tag ->
+                (field "default" string)
+                    |> andThen
+                        (\default ->
+                            succeed (Response tag default)
+                        )
+            )
+
+
+main =
+    decodeString decodeResponse serverResponse
+        |> toString
+        |> text
+```
