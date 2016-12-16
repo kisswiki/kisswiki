@@ -1,0 +1,3 @@
+- http://www.gizra.com/content/faithful-elm-amazing-router/
+- https://gist.github.com/jesperp/ecbcfd77bf729cef800d1df2a6d11438
+- https://medium.com/@whatcomesafter/navigation-in-elm-0-17-with-elm-route-url-a921f393f052#.g3i6aooc1
