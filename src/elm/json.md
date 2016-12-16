@@ -230,6 +230,11 @@ decodeResponse =
                         )
             )
 
+decodeResponse2 : Decoder Response
+decodeResponse2 =
+    map2 Response
+        (field "tag" string)
+        (field "default" string)
 
 main =
     decodeString decodeResponse serverResponse
