@@ -1,0 +1,5 @@
+- http://stackoverflow.com/questions/35329962/file-upload-in-elm
+- https://www.paramander.com/blog/using-ports-to-deal-with-files-in-elm-0-17
+- https://github.com/elm-lang/html/issues/20
+  - https://github.com/lovasoa/elm-fileinput
+- https://www.reddit.com/r/elm/comments/4926am/uploading_files_through_elmhttp/
