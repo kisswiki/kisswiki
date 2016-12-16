@@ -207,6 +207,7 @@ msg2 = """
 import Html exposing (..)
 import Json.Decode exposing (..)
 
+
 serverResponse =
     """{"tag": "input", "default": "test"}"""
 
