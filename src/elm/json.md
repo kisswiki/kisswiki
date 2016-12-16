@@ -203,6 +203,8 @@ msg2 = """
 
 ## map2
 
+http://folkertdev.nl/blog/elm-json-object-parsing/
+
 ```elm
 import Html exposing (..)
 import Json.Decode exposing (..)
