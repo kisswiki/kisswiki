@@ -16,3 +16,11 @@
 >Warto jednak kupić jakiś abonament, chociażby możliwość wysłania 100 ofert (to jest ten abonament za 25 zł chyba miesięcznie). I te oferty wykorzystać na maksa! Trzeba potraktować te oferty jako "być albo nie być".
 >
 >-- https://www.facebook.com/groups/startupy/permalink/1248329015210595/?comment_id=1248424721867691&comment_tracking=%7B%22tn%22%3A%22R2%22%7D
+
+<br>
+
+>Z doświadczenia wiem, że baza klientów z czasem sama urośnie. Jak robisz to co lubisz, wkładasz w to energię wysiłek i pokazujesz efekty to ludzie Cię znajdą, polecą dalej.
+Tak samo jak w gastro, po otwarciu musisz liczyć 2 lata na to żeby biznes zaczął zarabiać na siebie, tak samo wprowadzając nowy produkt na rynek, zawsze liczy się 1,5 - 2 lata zanim dojdzie do świadomości klienta, że coś takiego istnieje na rynku.
+Tutaj też nie ma żadnej recepty na sukces, czas i praca - wszystko wyjdzie z czasem. Każdy kto ma firmę Ci to powie, że początki są mega trudne.
+>
+>-- https://www.facebook.com/groups/282850401780600/permalink/1239209832811314/?comment_id=1239553422776955&comment_tracking=%7B%22tn%22%3A%22R5%22%7D
