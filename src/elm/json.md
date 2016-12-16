@@ -241,3 +241,8 @@ main =
         |> toString
         |> text
 ```
+
+## json from ports
+
+- https://github.com/pinksalmon/elm-online-store/blob/master/api/api.js
+  - https://www.reddit.com/r/elm/comments/4ougvs/online_store_example_is_this_a_better_way_to/
