@@ -19,8 +19,11 @@
 
 <br>
 
+>Ja korzystałem z freelancer / useme / peopleperhour / oferia i zdecydowanie odradzam jakąkolwiek z wyżej wymienionych. Nie warto, szkoda czasu i energii.
+Przede wszystkim ludzie na takich portalach szukają najtaniej, a nie najlepiej. Wyścig o najniższą cenę.
+>
 >Z doświadczenia wiem, że baza klientów z czasem sama urośnie. Jak robisz to co lubisz, wkładasz w to energię wysiłek i pokazujesz efekty to ludzie Cię znajdą, polecą dalej.
 Tak samo jak w gastro, po otwarciu musisz liczyć 2 lata na to żeby biznes zaczął zarabiać na siebie, tak samo wprowadzając nowy produkt na rynek, zawsze liczy się 1,5 - 2 lata zanim dojdzie do świadomości klienta, że coś takiego istnieje na rynku.
 Tutaj też nie ma żadnej recepty na sukces, czas i praca - wszystko wyjdzie z czasem. Każdy kto ma firmę Ci to powie, że początki są mega trudne.
 >
->-- https://www.facebook.com/groups/282850401780600/permalink/1239209832811314/?comment_id=1239553422776955&comment_tracking=%7B%22tn%22%3A%22R5%22%7D
+>-- https://www.facebook.com/groups/282850401780600/permalink/1239209832811314/
