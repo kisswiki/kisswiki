@@ -32,4 +32,4 @@
 
 >VC money lets you buy new sneakers but if you're looking to lose weight, a tiger chasing you is a much stronger motivation
 >
->-- https://news.ycombinator.com/item?id=13189524
+>-- https://news.ycombinator.com/item?id=13189524npm
