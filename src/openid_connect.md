@@ -1,0 +1,2 @@
+- https://en.wikipedia.org/wiki/List_of_single_sign-on_implementations
+- SiteMinder Installation and How To Integrate in CA SSO Cookbook https://www.ca.com/us/services-support/ca-support/ca-support-online/knowledge-base-articles.tec479627.html
