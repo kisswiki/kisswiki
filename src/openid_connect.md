@@ -10,6 +10,7 @@
 - OpenID Connect explained http://connect2id.com/learn/openid-connect
 - http://stackoverflow.com/questions/27194838/facebook-login-and-openid-connect
 - http://security.stackexchange.com/questions/94995/oauth-2-vs-openid-connect-to-secure-api
+- https://www.quora.com/Why-are-Facebook-Twitter-and-Google-using-OAuth-for-their-external-authentication-services-instead-of-OpenID-or-SAML-What-are-the-differences
 
 ## Other
 
