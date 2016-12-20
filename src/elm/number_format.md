@@ -1,0 +1,4 @@
+- https://github.com/BlockScope/elm-intl-number-format
+- https://github.com/cuducos/elm-format-number
+  - https://www.reddit.com/r/elm/comments/5jcz59/just_wrote_an_elm_package_to_format_numbers/
+- https://www.reddit.com/r/elm/comments/4qliwl/how_would_you_format_credit_card_numbers/
