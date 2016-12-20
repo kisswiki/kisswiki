@@ -1,0 +1,2 @@
+- https://github.com/etaque/elm-response
+- https://elmtown.github.io/2016/12/19/Remote-Data-Ep-7.html
