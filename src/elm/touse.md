@@ -1,3 +1,4 @@
 - krisajenkins/remotedata
 - arturopala/elm-monocle
 - etaque/elm-response
+- lukewestby/elm-http-builder
