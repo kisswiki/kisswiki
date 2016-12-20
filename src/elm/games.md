@@ -1,2 +1,3 @@
 - https://github.com/Zinggi/elm-2d-game
 - https://ohanhi.github.io/base-for-game-elm-017.html
+- https://github.com/martimatix/sweet-sweet-friction/
