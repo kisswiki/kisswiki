@@ -1,1 +1,2 @@
 - https://medium.com/@wintvelt/a-reusable-dropdown-in-elm-part-1-d7ac2d106f13
+- https://medium.com/@wintvelt/a-reusable-dropdown-in-elm-part-2-9659ef988441
