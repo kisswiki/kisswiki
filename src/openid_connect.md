@@ -8,6 +8,7 @@
 - https://en.wikipedia.org/wiki/OpenID#OpenID_vs._pseudo-authentication_using_OAuth
 - https://github.com/mspnp/multitenant-saas-guidance/blob/master/docs/appendixes/about-oauth2-oidc.md
 - OpenID Connect explained http://connect2id.com/learn/openid-connect
+- http://stackoverflow.com/questions/27194838/facebook-login-and-openid-connect
 
 ## Other
 
