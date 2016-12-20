@@ -1,0 +1,2 @@
+- https://github.com/krisajenkins/remotedata
+- http://blog.jenkster.com/2016/06/how-elm-slays-a-ui-antipattern.html
