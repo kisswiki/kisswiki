@@ -25,3 +25,4 @@
   - http://store.steampowered.com/app/210970
   - https://gaming.youtube.com/watch?v=FuzKKUDHYy4
 - Shadow Tactics http://store.steampowered.com/app/418240
+- Super Rad Raygun http://phoronix.com/scan.php?page=news_item&px=Super-Rad-Raygun-Linux
