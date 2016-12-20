@@ -13,6 +13,7 @@
 - https://www.quora.com/Why-are-Facebook-Twitter-and-Google-using-OAuth-for-their-external-authentication-services-instead-of-OpenID-or-SAML-What-are-the-differences
 - http://stackoverflow.com/questions/1827997/is-facebook-an-openid-provider
 - https://developers.facebook.com/docs/facebook-login/web
+
 ## Other
 
 - https://en.wikipedia.org/wiki/List_of_single_sign-on_implementations
