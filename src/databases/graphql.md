@@ -16,3 +16,9 @@
 
 > OData is basically LINQ-over-REST, advantage over GraphQL is that it's better for aggregations (as they are hard to describe in GraphQL). GraphQL however performs nicer when it comes to joins, frontend-oriented data, documentation and tooling. Plus also it's easier to make it loosely coupled to you database schema than in OData.
 > -- https://www.reddit.com/r/programming/comments/560f7d/why_i_believe_graphql_will_come_to_replace_rest/d8g785j
+
+## Cons
+
+>As a veteran MDE practitioner, I can assure you that you are infinitely better off writing code than metadata, be it as a template or a complex query language like GraphQL.
+>
+>-- https://www.infoq.com/articles/no-more-mvc-frameworks
