@@ -1,0 +1,3 @@
+- Doing the letter fall thing in Elm http://bl.ocks.org/jmarca/90393db9433ee8e91fd65e8836a6a3d3
+- https://github.com/terezka/elm-plot
+- https://github.com/Fresheyeball/elm-chartjs
