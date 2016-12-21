@@ -14,3 +14,4 @@ And, as I hope, there is nothing what prevents from making a Polymer or other we
   - https://simonh1000.github.io/2015/10/elm-google-maps/
 - elm-0.18 https://github.com/simonh1000/elm-google-maps-2
 - https://github.com/rtfeldman/elm-google-maps
+- https://www.reddit.com/r/elm/comments/5iju89/help_with_native_virtual_dom_modules/
