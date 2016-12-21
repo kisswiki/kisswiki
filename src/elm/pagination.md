@@ -1,0 +1,1 @@
+- https://www.romanzolotarev.com/pagination/elm/
