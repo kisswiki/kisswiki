@@ -1,2 +1,3 @@
 - http://blog.jenkster.com/2015/09/geocoding-with-elm-and-arcgis-part-1.html
 - https://github.com/krisajenkins/beeline-demo
+  - https://github.com/krisajenkins/beeline-geodev
