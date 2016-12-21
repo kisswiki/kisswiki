@@ -15,7 +15,7 @@
 ## remote data
 
 - krisajenkins/remotedata
-- "Beyond Hello World and Todo Lists" by Ossi Hanhinen https://www.youtube.com/watch?v=vpc80c5iC6k&index=2&list=PLglJM3BYAMPH2zuz1nbKHQyeawE4SN0Cd
+- "Beyond Hello World and Todo Lists" by Ossi Hanhinen https://youtu.be/vpc80c5iC6k?list=PLglJM3BYAMPH2zuz1nbKHQyeawE4SN0Cd&t=969
 - http://www.mechanicaldruid.com/update-to-input-tracking-in-elm/
 
 ## Read
