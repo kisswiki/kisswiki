@@ -70,3 +70,4 @@
 - https://github.com/cabaret/elm-supercrypt
 - https://github.com/krisajenkins/wireworld
 - https://github.com/krisajenkins/the-prize
+- https://github.com/krisajenkins/infinite-runner
