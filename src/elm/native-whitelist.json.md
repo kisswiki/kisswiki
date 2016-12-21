@@ -1,1 +1,0 @@
-- https://github.com/elm-lang/package.elm-lang.org/blob/master/native-whitelist.json
