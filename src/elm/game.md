@@ -64,3 +64,9 @@
   - https://github.com/yupferris/elmsteroids
 - http://ohanhi.github.io/base-for-game-elm-017.html
 - https://github.com/krisajenkins/transcodegame
+- https://github.com/Zinggi/elm-2d-game
+- https://ohanhi.github.io/base-for-game-elm-017.html
+- https://github.com/martimatix/sweet-sweet-friction/
+- https://github.com/cabaret/elm-supercrypt
+- https://github.com/krisajenkins/wireworld
+- https://github.com/krisajenkins/the-prize
