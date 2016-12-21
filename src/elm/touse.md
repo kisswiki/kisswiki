@@ -4,3 +4,6 @@
 - lukewestby/elm-http-builder
 - krisajenkins/formatting
 - rtfeldman/elm-css
+- https://medium.com/@wintvelt/how-to-make-impossible-states-impossible-c12a07e907b5
+- Fresheyeball/elm-return
+  - http://mutanatum.com/posts/2016-09-18-Return.html
