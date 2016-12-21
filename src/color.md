@@ -2,3 +2,4 @@
 - https://github.com/alecortega/palettable
 - https://css-tricks.com/nerds-guide-color-web/
 - http://colorsafe.co/
+- https://coolors.co
