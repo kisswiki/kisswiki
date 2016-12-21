@@ -3,3 +3,4 @@
 - https://css-tricks.com/nerds-guide-color-web/
 - http://colorsafe.co/
 - https://coolors.co
+- https://coolors.co/browser/best/1
