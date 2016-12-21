@@ -1,3 +1,5 @@
+## Use
+
 - krisajenkins/remotedata
 - arturopala/elm-monocle
 - etaque/elm-response
@@ -7,7 +9,8 @@
 - Fresheyeball/elm-return
   - http://mutanatum.com/posts/2016-09-18-Return.html
 
-## To Read
+## Read
 
-- - https://medium.com/@wintvelt/how-to-make-impossible-states-impossible-c12a07e907b5
+- https://medium.com/@wintvelt/how-to-make-impossible-states-impossible-c12a07e907b5
 - http://blog.jenkster.com/2016/11/type-bombs-in-elm.html
+- http://blog.jenkster.com/
