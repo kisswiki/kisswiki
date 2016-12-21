@@ -5,3 +5,4 @@
 - https://coolors.co
   - https://coolors.co/browser/best/1
 - https://github.com/SlexAxton/css-colorguard
+- https://github.com/mrmrs/colors
