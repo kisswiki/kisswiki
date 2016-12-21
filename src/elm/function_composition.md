@@ -1,3 +1,5 @@
+- http://stackoverflow.com/questions/27441648/what-does-the-operator-mean-in-elm
+
 ```elm
 f >> g = f(g) = g << f
 ```
