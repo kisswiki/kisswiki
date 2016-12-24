@@ -17,6 +17,8 @@
 >
 >-- https://css-tricks.com/svg-use-with-external-reference-take-2/
 
+or not? https://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/
+
 <br>
 
 >`symbol` elements define new viewports whenever they are instanced by a `use` element.
