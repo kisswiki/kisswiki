@@ -10,3 +10,4 @@
 - http://stackoverflow.com/questions/456250/recommended-website-resolution-width-and-height
 - http://stackoverflow.com/questions/7415758/why-width-960px
 - https://www.smashingmagazine.com/2016/01/responsive-image-breakpoints-generation/
+  - http://www.responsivebreakpoints.com/
