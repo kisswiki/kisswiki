@@ -29,6 +29,10 @@ Some remarks:
 
 - svgo
 - http://stackoverflow.com/questions/9009305/what-are-some-options-for-optimizing-svg
+- https://github.com/codedread/scour http://wiki.inkscape.org/wiki/index.php/Save_Cleaned_SVG
+- remove meatada, rdf etc.
+- remove `standalone` http://stackoverflow.com/questions/5578645/what-does-the-standalone-directive-mean-in-xml
+- remove `version` http://stackoverflow.com/questions/18467982/are-svg-parameters-such-as-xmlns-and-version-needed
 
 ## SVG color
 
