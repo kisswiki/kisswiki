@@ -1,3 +1,4 @@
 - https://medium.com/re-write/designing-a-responsive-grid-in-2016-58e4db6db786
 - https://material.io/guidelines/layout/responsive-ui.html
 - https://www.uxpin.com/community/tutorials/adaptive-breakpoints/
+- http://stackoverflow.com/questions/32408912/bootstrap-4-media-queries-approach
