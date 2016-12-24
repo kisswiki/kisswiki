@@ -26,6 +26,8 @@ So wrapping with div. To scale svg to div, viewport must be added.
 >
 >-- https://css-tricks.com/svg-use-external-source/
 
+- https://css-tricks.com/using-svg/
+
 <br>
 
 >SVG references this way has it's own separate DOM. It goes beyond the regular Shadow DOM boundary that all <use> is subject to.
