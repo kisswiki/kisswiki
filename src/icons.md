@@ -63,6 +63,7 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
   - >The noun project is multiple ind invidual images by different authors in different styles. Many are not open source / public domain. Many are CCA and need attribution on your site which could get extensive after using many of them. https://www.reddit.com/r/web_design/comments/58c9wg/font_awesome_5_kickstarter/d8znp2g/
 - http://iconmonstr.com/
 - social icons https://github.com/larsenwork/web.svg.min
+- Each icon is hand-coded along a 32x32 grid, and uses SVG stroke allowing for maximum style flexibility; meaning you can adjust the weight, color, size, and if you want the edges to be round or square. https://github.com/danklammer/bytesize-icons
 
 
 ### Creating set
