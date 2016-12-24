@@ -3,6 +3,7 @@
 - https://www.uxpin.com/community/tutorials/adaptive-breakpoints/
 - http://stackoverflow.com/questions/32408912/bootstrap-4-media-queries-approach
 - http://stackoverflow.com/questions/32545506/bootstrap-4-how-to-use-media-query-mixing
+- https://v4-alpha.getbootstrap.com/layout/overview/
 
 ## Resolution
 
