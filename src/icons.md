@@ -1,4 +1,9 @@
-## SVG Scale
+## SVG clean
+
+- svgo
+- http://stackoverflow.com/questions/9009305/what-are-some-options-for-optimizing-svg
+
+## SVG scale
 
 Cannot set stroke inside yet set and want to have the same width and height for two shapes no mater if there is stroke on one.
 
