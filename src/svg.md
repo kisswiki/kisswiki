@@ -7,3 +7,5 @@
 - M Moveto
 - C Curveto
 - z close path
+
+http://www.slideshare.net/davidcorbacho/next-generation-graphics-svg
