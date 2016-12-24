@@ -1,11 +1,6 @@
 
 ## SVG USE
 
-- viewport is important
-- if icon not centered use svgo https://github.com/svg/svgo or center somehow with options
-- filter works https://developer.mozilla.org/en-US/docs/Web/CSS/filter
-- enable shadow dom in google chrome inspector
-
 >Inline SVG is an awesome way to use SVG because, among other reasons, the individual shapes that make up the graphic can be scripted and styled. The shapes are right in the DOM. But does that mean we have to define those shapes right in the HTML on every page? Nope, we can <use> to reference them from elsewhere. Ideally, that "elsewhere" is an external file, because that means that file can be cached by the browser, efficiency!
 >
 >SVG for Everybody https://github.com/jonathantneal/svg4everybody. The idea is this: just use <use> as if it works, and the script will handle it in IE 9, 10, 11. A polyfill, except just for this scenario (it doesn't make this work anywhere that doesn't already support inline SVG use).
@@ -14,8 +9,6 @@
 >
 >-- https://css-tricks.com/svg-use-external-source/
 
-- https://css-tricks.com/using-svg/
-
 <br>
 
 >SVG references this way has it's own separate DOM. It goes beyond the regular Shadow DOM boundary that all <use> is subject to.
@@ -23,6 +16,12 @@
 >you can't style individual shapes like you could before
 >
 >-- https://css-tricks.com/svg-use-with-external-reference-take-2/
+
+- viewport is important
+- if icon not centered use svgo https://github.com/svg/svgo or center somehow with options
+- filter works https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+- enable shadow dom in google chrome inspector
+- https://css-tricks.com/using-svg/
 
 ## SVG clean
 
