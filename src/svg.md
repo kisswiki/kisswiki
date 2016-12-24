@@ -22,3 +22,9 @@
 ```svg
 <svg style="background: light-blue;" height="500" width="500"> <circle cx="250" cy="250" r="250" stroke="black" stroke-width="10" stroke-alignment="inner" fill="none" /> </svg>
 ```
+
+## Scale
+
+To scale svg to enclosing element, there must be viewport attribute in svg.
+
+https://css-tricks.com/scale-svg/
