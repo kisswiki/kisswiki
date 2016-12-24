@@ -1,0 +1,1 @@
+- https://articles.fortawesome.com/how-font-awesome-5-became-kickstarters-most-funded-software-project-4a63c035e84
