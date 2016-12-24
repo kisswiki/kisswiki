@@ -17,6 +17,8 @@
 >
 >-- https://css-tricks.com/svg-use-with-external-reference-take-2/
 
+Some remarks:
+
 - viewport is important
 - if icon not centered use svgo https://github.com/svg/svgo or center somehow with options
 - filter works https://developer.mozilla.org/en-US/docs/Web/CSS/filter
