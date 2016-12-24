@@ -18,3 +18,7 @@
 >http://stackoverflow.com/questions/7241393/can-you-control-how-an-svgs-stroke-width-is-drawn
 
 - https://github.com/Fyrd/caniuse/issues/1772
+
+```svg
+<svg style="background: light-blue;" height="500" width="500"> <circle cx="250" cy="250" r="250" stroke="black" stroke-width="10" stroke-alignment="inner" fill="none" /> </svg>
+```
