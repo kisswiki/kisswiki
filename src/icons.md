@@ -42,6 +42,10 @@ http://stackoverflow.com/questions/7241393/can-you-control-how-an-svgs-stroke-wi
 
 So wrapping with div. To scale svg to div, viewport must be added.
 
+To scale svg to enclosing element, there must be viewport attribute in svg.
+
+https://css-tricks.com/scale-svg/
+
 ## SVG
 
 >we’ve landed on directly injecting the SVGs directly in our page markup. This allows us the flexibility to change the color of the icons with CSS using the fill: declaration on the fly.
