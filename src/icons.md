@@ -8,7 +8,8 @@ So wrapping with div. To scale svg to div, viewport must be added.
 
 ## SVG USE
 
-viewport is important.
+- viewport is important
+- if icon not centered use svgo or center somehow with options
 
 >Inline SVG is an awesome way to use SVG because, among other reasons, the individual shapes that make up the graphic can be scripted and styled. The shapes are right in the DOM. But does that mean we have to define those shapes right in the HTML on every page? Nope, we can <use> to reference them from elsewhere. Ideally, that "elsewhere" is an external file, because that means that file can be cached by the browser, efficiency!
 >
