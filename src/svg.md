@@ -15,7 +15,7 @@
 >No browser support this property, or, as far as I know, any of the new SVG 2 features.
 >There seems to be some issues as to how to the property should behave on open paths as well as loops. These issues will, most probably, prolong implementations across browsers.
 >
->http://stackoverflow.com/questions/7241393/can-you-control-how-an-svgs-stroke-width-is-drawn
+>http://stackoverflow.com/questions/7241393/can-you-control-how-an-svgs-stroke-width-is-drawn/28787545#28787545
 
 - https://github.com/Fyrd/caniuse/issues/1772
 
