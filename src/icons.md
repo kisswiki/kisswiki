@@ -90,7 +90,8 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 - http://iconmonstr.com/
 - social icons https://github.com/larsenwork/web.svg.min
 - Each icon is hand-coded along a 32x32 grid, and uses SVG stroke allowing for maximum style flexibility; meaning you can adjust the weight, color, size, and if you want the edges to be round or square. https://github.com/danklammer/bytesize-icons
-
+- https://github.com/iconic/open-iconic
+  - https://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web
 
 ### Creating set
 
