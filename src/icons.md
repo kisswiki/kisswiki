@@ -32,6 +32,8 @@ Some remarks:
 
 ## SVG color
 
+- https://css-tricks.com/cascading-svg-fill-color/
+
 ## SVG scale
 
 Cannot set stroke inside yet set and want to have the same width and height for two shapes no mater if there is stroke on one.
