@@ -8,3 +8,4 @@
 
 - Screen Resolution Statistics http://www.w3schools.com/browsers/browsers_display.asp
 - http://stackoverflow.com/questions/456250/recommended-website-resolution-width-and-height
+- http://stackoverflow.com/questions/7415758/why-width-960px
