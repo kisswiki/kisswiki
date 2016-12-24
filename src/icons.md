@@ -71,6 +71,10 @@ https://css-tricks.com/scale-svg/
 <svg style="background: light-blue;" height="500" width="500"> <circle cx="250" cy="250" r="250" stroke="black" stroke-width="10" stroke-alignment="inner" fill="none" /> </svg>
 ```
 
+## SVG coordinates
+
+- https://sarasoueidan.com/blog/svg-coordinate-systems/
+
 ## SVG
 
 >we’ve landed on directly injecting the SVGs directly in our page markup. This allows us the flexibility to change the color of the icons with CSS using the fill: declaration on the fly.
