@@ -1,5 +1,14 @@
+## SVG Scale
+
+Cannot set stroke inside yet set and want to have the same width and height for two shapes no mater if there is stroke on one.
+
+http://stackoverflow.com/questions/7241393/can-you-control-how-an-svgs-stroke-width-is-drawn/28787545#28787545
+
+So wrapping with div. To scale svg to div, viewport must be added.
+
 ## SVG USE
 
+viewport is important.
 
 >Inline SVG is an awesome way to use SVG because, among other reasons, the individual shapes that make up the graphic can be scripted and styled. The shapes are right in the DOM. But does that mean we have to define those shapes right in the HTML on every page? Nope, we can <use> to reference them from elsewhere. Ideally, that "elsewhere" is an external file, because that means that file can be cached by the browser, efficiency!
 >
