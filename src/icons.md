@@ -21,6 +21,7 @@ Some remarks:
 
 - viewport is important
 - if icon not centered use svgo https://github.com/svg/svgo or center somehow with options
+- styling https://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/
 - filter works https://developer.mozilla.org/en-US/docs/Web/CSS/filter
 - enable shadow dom in google chrome inspector
 - https://css-tricks.com/using-svg/
