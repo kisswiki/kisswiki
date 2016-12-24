@@ -1,15 +1,3 @@
-## SVG clean
-
-- svgo
-- http://stackoverflow.com/questions/9009305/what-are-some-options-for-optimizing-svg
-
-## SVG scale
-
-Cannot set stroke inside yet set and want to have the same width and height for two shapes no mater if there is stroke on one.
-
-http://stackoverflow.com/questions/7241393/can-you-control-how-an-svgs-stroke-width-is-drawn/28787545#28787545
-
-So wrapping with div. To scale svg to div, viewport must be added.
 
 ## SVG USE
 
@@ -35,6 +23,21 @@ So wrapping with div. To scale svg to div, viewport must be added.
 >you can't style individual shapes like you could before
 >
 >-- https://css-tricks.com/svg-use-with-external-reference-take-2/
+
+## SVG clean
+
+- svgo
+- http://stackoverflow.com/questions/9009305/what-are-some-options-for-optimizing-svg
+
+## SVG color
+
+## SVG scale
+
+Cannot set stroke inside yet set and want to have the same width and height for two shapes no mater if there is stroke on one.
+
+http://stackoverflow.com/questions/7241393/can-you-control-how-an-svgs-stroke-width-is-drawn/28787545#28787545
+
+So wrapping with div. To scale svg to div, viewport must be added.
 
 ## SVG
 
