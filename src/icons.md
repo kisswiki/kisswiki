@@ -13,6 +13,8 @@
 
 >SVG references this way has it's own separate DOM. It goes beyond the regular Shadow DOM boundary that all <use> is subject to.
 >
+>you can't style individual shapes like you could before
+>
 >-- https://css-tricks.com/svg-use-with-external-reference-take-2/
 
 ## SVG
