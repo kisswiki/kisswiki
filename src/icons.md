@@ -17,6 +17,12 @@
 >
 >-- https://css-tricks.com/svg-use-with-external-reference-take-2/
 
+<br>
+
+>`symbol` elements define new viewports whenever they are instanced by a `use` element.
+>
+>-- https://sarasoueidan.com/blog/structuring-grouping-referencing-in-svg/
+
 Some remarks:
 
 - viewport is important
