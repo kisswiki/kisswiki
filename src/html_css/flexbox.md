@@ -1,6 +1,8 @@
 - Use flexbox while supporting older Internet Explorers https://github.com/10up/flexibility
 - Flexbox playgroung http://codepen.io/enxaneta/full/adLPwv/
 - http://www.thedotpost.com/2015/12/rachel-andrew-the-new-css-layout
+- http://www.flexboxdefense.com/
+
 - adviced settings http://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/
 
   ```css
