@@ -1,3 +1,3 @@
 - http://caniuse.com/#feat=css-grid
-- http://gridbyexample.com/
+- Example: Placing elements into Grid Areas on the 16 column grid http://gridbyexample.com/examples/page-layout/
 - enable in chrome with chrome://flags/#enable-experimental-web-platform-features
