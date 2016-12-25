@@ -1,1 +1,3 @@
+- http://caniuse.com/#feat=css-grid
 - http://gridbyexample.com/
+- enable in chrome with chrome://flags/#enable-experimental-web-platform-features
