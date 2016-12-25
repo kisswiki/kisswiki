@@ -11,6 +11,7 @@
 
 - http://stackoverflow.com/questions/7415758/why-width-960px
 - https://1200px.com/
+- https://codecanyon.net/item/responsive-html5-css-grid/
 
 ## Resolution
 
