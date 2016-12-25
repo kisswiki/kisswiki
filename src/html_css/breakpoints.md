@@ -7,10 +7,15 @@
 - https://v4-alpha.getbootstrap.com/layout/grid/
 - https://v4-alpha.getbootstrap.com/layout/responsive-utilities/
 
+## Grids
+
+- http://stackoverflow.com/questions/7415758/why-width-960px
+- https://1200px.com/
+
 ## Resolution
 
 - Screen Resolution Statistics http://www.w3schools.com/browsers/browsers_display.asp
 - http://stackoverflow.com/questions/456250/recommended-website-resolution-width-and-height
-- http://stackoverflow.com/questions/7415758/why-width-960px
+
 - https://www.smashingmagazine.com/2016/01/responsive-image-breakpoints-generation/
   - http://www.responsivebreakpoints.com/
