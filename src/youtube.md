@@ -18,6 +18,7 @@ console.log(title);
 
 ## Download
 
-- https://greasyfork.org/pl/scripts/search?q=youtube
+- https://github.com/gantt/downloadyoutube
+  - https://greasyfork.org/pl/scripts/search?q=youtube
   - http://tampermonkey.net/
 - http://keepvid.com/
