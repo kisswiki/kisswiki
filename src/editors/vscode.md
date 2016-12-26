@@ -5,6 +5,7 @@
 - https://code.visualstudio.com/docs/editor/codebasics
 - https://github.com/Microsoft/vscode-tips-and-tricks
 - https://code.visualstudio.com/Docs/languages/markdown
+- https://code.visualstudio.com/docs/customization/keybindings
 
 ## Config
 
@@ -12,7 +13,7 @@
 - http://www.hongkiat.com/blog/customizing-visual-studio-code/
 - https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 
-## Extenions
+## Extensions
 
 ```
 code --list-extensions
