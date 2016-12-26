@@ -9,6 +9,14 @@
 >
 >-- https://github.com/tapio/live-server/issues/100#issuecomment-198150493
 
+<br>
+
+>The most important reason people chose Browsersync is:
+>
+>It is not constrained to a single device, it works across desktop and mobile devices at the same time. It will update code changes, synchronize scroll positions and form inputs automatically across all browsers and devices.
+>
+>-- https://www.slant.co/versus/5065/5066/~livereload_vs_browsersync
+
 
 ## reload
 
