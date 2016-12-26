@@ -8,6 +8,7 @@
 ## Config
 
 - https://code.visualstudio.com/docs/customization/userandworkspace#_settings-file-locations
+- http://www.hongkiat.com/blog/customizing-visual-studio-code/
 
 ## Extenions
 
