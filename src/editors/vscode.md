@@ -1,3 +1,4 @@
+- https://github.com/viatsko/awesome-vscode
 - `ctrl+shift+n` http://stackoverflow.com/questions/29964825/how-does-one-open-multiple-instances-of-visual-studio-code
 - http://stackoverflow.com/questions/30234146/open-multiple-folders-in-visual-studio-code
 - `code --list-extensions` http://superuser.com/questions/1080682/how-do-i-back-up-my-vs-code-settings-and-list-of-installed-extensions
