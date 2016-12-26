@@ -19,7 +19,7 @@ if(process.env.NODE_ENV == 'development') {
   ':35729/livereload.js?snipver=1"></' + 'script>')
 </script>
 `
-
+  // before static!!!
   app.use(function (req, res, next) {
     var write = res.write;
     res.write = function (chunk) {
