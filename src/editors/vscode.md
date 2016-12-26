@@ -4,6 +4,7 @@
 - https://code.visualstudio.com/Docs/customization/userandworkspace
 - https://code.visualstudio.com/docs/editor/codebasics
 - https://github.com/Microsoft/vscode-tips-and-tricks
+- https://code.visualstudio.com/Docs/languages/markdown
 
 ## Config
 
