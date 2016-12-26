@@ -1,4 +1,6 @@
 
+- https://scotch.io/tutorials/how-to-use-browsersync-for-faster-development
+
 ## About
 
 >It's different than browsersync in that it isn't ridiculously huge. browser-sync has about 252 dependencies in its tree, and requires you to compile fsevents, bufferutil, and utf-8-validate.
