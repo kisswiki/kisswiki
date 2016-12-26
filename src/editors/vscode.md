@@ -14,4 +14,3 @@ code --uninstall-extension ms-vscode.csharp
 ```
 
 - https://code.visualstudio.com/Docs/editor/extension-gallery
-- 
