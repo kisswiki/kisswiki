@@ -36,11 +36,3 @@ if(process.env.NODE_ENV == 'development') {
 ```
 
 http://stackoverflow.com/questions/9896628/connect-or-express-middleware-to-modify-the-response-body/33881887#33881887
-
-## browser-sync
-
->It's different than browsersync in that it isn't ridiculously huge. browser-sync has about 252 dependencies in its tree, and requires you to compile fsevents, bufferutil, and utf-8-validate.
->
->It is different from live-reload in that for live-reload you need to add a browser extension or a snippet of code to your html pages, which you don't need to in live-server.
->
->-- https://github.com/tapio/live-server/issues/100#issuecomment-198150493
