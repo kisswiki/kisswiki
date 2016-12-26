@@ -9,6 +9,7 @@
 
 - https://code.visualstudio.com/docs/customization/userandworkspace#_settings-file-locations
 - http://www.hongkiat.com/blog/customizing-visual-studio-code/
+- https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 
 ## Extenions
 
