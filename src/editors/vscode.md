@@ -16,3 +16,4 @@ code --uninstall-extension ms-vscode.csharp
 - https://code.visualstudio.com/Docs/editor/extension-gallery
 - http://superuser.com/questions/1080682/how-do-i-back-up-my-vs-code-settings-and-list-of-installed-extensions
 - should be possible to pass list of extensions https://github.com/Microsoft/vscode/commit/93eb84884605ee8d54d2f6ed892a4d55af80263f
+- http://stackoverflow.com/questions/37071388/how-to-install-vscode-extensions-offline
