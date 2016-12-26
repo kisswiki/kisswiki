@@ -3,6 +3,20 @@
 - https://github.com/mgechev/angular-seed/wiki/Add-a-Proxy-to-browsersync
 - http://stackoverflow.com/questions/39459731/express-with-browser-sync
 
+## No 'Access-Control-Allow-Origin' header is present on the requested resource - CORS
+
+If You want to resolve Cross Origin for all URL containing /api, first you should forward your Angular requests to your BrowserSync Server
+
+So
+
+`$http.get('http://food2fork.com/api/search?key='+key+'&page=1')`
+
+Should become
+
+`$http.get('/api/search?key='+key+'&page=1')`
+
+The BrowserSync will receive the call
+
 ## About
 
 >It's different than browsersync in that it isn't ridiculously huge. browser-sync has about 252 dependencies in its tree, and requires you to compile fsevents, bufferutil, and utf-8-validate.
