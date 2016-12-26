@@ -20,6 +20,7 @@ if(process.env.NODE_ENV == 'development') {
 </script>
 `
   // before express.static!!!
+  // http://stackoverflow.com/questions/9896628/connect-or-express-middleware-to-modify-the-response-body/33881887#33881887
   app.use(function (req, res, next) {
     var write = res.write;
     res.write = function (chunk) {
@@ -34,5 +35,3 @@ if(process.env.NODE_ENV == 'development') {
   });
 }
 ```
-
-http://stackoverflow.com/questions/9896628/connect-or-express-middleware-to-modify-the-response-body/33881887#33881887
