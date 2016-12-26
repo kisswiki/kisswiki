@@ -5,6 +5,10 @@
 - https://code.visualstudio.com/docs/editor/codebasics
 - https://github.com/Microsoft/vscode-tips-and-tricks
 
+## Config
+
+- https://code.visualstudio.com/docs/customization/userandworkspace#_settings-file-locations
+
 ## Extenions
 
 ```
