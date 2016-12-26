@@ -6,6 +6,7 @@
 - https://github.com/Microsoft/vscode-tips-and-tricks
 - https://code.visualstudio.com/Docs/languages/markdown
 - https://code.visualstudio.com/docs/customization/keybindings
+- duplicate line: `Shift+Alt+Down and `Shift+Alt+Up` http://stackoverflow.com/questions/30203752/how-do-i-duplicate-a-line-or-selection-within-visual-studio-code
 
 ## Config
 
