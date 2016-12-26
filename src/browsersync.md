@@ -1,5 +1,6 @@
 
 - https://scotch.io/tutorials/how-to-use-browsersync-for-faster-development
+- https://github.com/mgechev/angular-seed/wiki/Add-a-Proxy-to-browsersync
 
 ## About
 
