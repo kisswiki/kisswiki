@@ -4,6 +4,10 @@
 - http://stackoverflow.com/questions/39459731/express-with-browser-sync
 - https://www.sitepoint.com/improve-workflow-browsersync-2-0/
 
+## Doesn't work on Windows when there is no network connection
+
+- maybe related https://github.com/BrowserSync/browser-sync/issues/1088
+
 ## No 'Access-Control-Allow-Origin' header is present on the requested resource - CORS
 
 If You want to resolve Cross Origin for all URL containing /api, first you should forward your Angular requests to your BrowserSync Server
