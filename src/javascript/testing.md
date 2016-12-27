@@ -1,0 +1,1 @@
+- http://blog.ertrzyiks.me/i-do-not-write-tests/
