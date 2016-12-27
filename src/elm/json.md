@@ -1,3 +1,5 @@
+- pretty print with `Json.Encode.encode 4` https://groups.google.com/d/msg/elm-discuss/LmtlxeNqsRw/G-WT9h4yDz8J
+
 ## elm-decode-pipeline
 
 - https://becoming-functional.com/testing-json-decoders-in-elm-39f613a98895
