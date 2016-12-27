@@ -2,6 +2,7 @@
 - https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6
 - example https://github.com/graphql/swapi-graphql
   - `npm rm -D babel; npm i -D babel-cli` https://www.npmjs.com/package/babel-node
+- https://dev-blog.apollodata.com/tutorial-building-a-graphql-server-cddaa023c035
 - https://github.com/chentsulin/awesome-graphql
  - https://github.com/kadirahq/lokka
   - https://porter.io/github.com/chentsulin/awesome-graphql
