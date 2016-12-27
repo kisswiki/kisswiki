@@ -4,6 +4,7 @@
   - `npm rm -D babel; npm i -D babel-cli` https://www.npmjs.com/package/babel-node
   - http://stackoverflow.com/questions/33604470/unexpected-token-import-in-nodejs5-and-babel
   - 'Unexpected token import babel-register', 'Babel 6 uses .babelrc' https://github.com/cucumber/cucumber-js/issues/480
+  - 'The recommended usage is babel-register since that is the module where the code actually lives, and babel-core/register' http://stackoverflow.com/questions/37780952/babel-core-register-vs-babel-register
 - https://dev-blog.apollodata.com/tutorial-building-a-graphql-server-cddaa023c035
 - https://github.com/chentsulin/awesome-graphql
  - https://github.com/kadirahq/lokka
