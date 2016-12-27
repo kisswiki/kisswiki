@@ -24,3 +24,7 @@
 >As a veteran MDE practitioner, I can assure you that you are infinitely better off writing code than metadata, be it as a template or a complex query language like GraphQL.
 >
 >-- https://www.infoq.com/articles/no-more-mvc-frameworks
+
+## Introspection
+
+- http://graphql.org/learn/introspection/
