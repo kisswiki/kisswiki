@@ -1,1 +1,2 @@
 - Still not updated to elm-0.18 https://github.com/jahewson/elm-graphql
+  - https://github.com/jahewson/elm-graphql/wiki/How-elm-graphql-works
