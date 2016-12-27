@@ -15,6 +15,8 @@
 - https://0x2a.sh/from-rest-to-graphql-b4e95e94c26b
 - https://vinayaksb.wordpress.com/2016/03/15/why-need-to-choose-graphql-over-restodata-in-a-web-api-application-development-2/
 - Parse GraphQL query into the standard GraphQL AST https://github.com/apollostack/graphql-tag
+- https://learngraphql.com/
+  - https://github.com/kadirahq/graphql-blog-schema
 
 > If multiple queries require the same piece of data, Relay will efficiently batch and aggregate these queries together for you. This has the potential for huge wins, compared to typical REST-style applications. For example, if you were pulling information for an endpoint in multiple locations on your site, you will often be sending a GET request for each place you need this data. You could instead attempt to aggregate these yourself, but this will make the application substantially more difficult to reason about. In comparison, the Relay approach allows us to have the simple conceptual model of declaring our data needs in each place we need it, but have the performance benefits of placing all the queries in one location. It’s a pretty big win-win.
 > -- http://thenewstack.io/facebooks-relay-javascript-framework-building-react-applications/
