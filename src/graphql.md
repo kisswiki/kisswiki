@@ -38,4 +38,4 @@
 
 - https://github.com/WaldoJeffers/graphql-to-json
 
-Needs to return http://graphql.org/graphql-js/type/#graphqlschema
+schema.js needs to export http://graphql.org/graphql-js/type/#graphqlschema
