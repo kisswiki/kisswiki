@@ -3,6 +3,7 @@
 - https://github.com/mgechev/angular-seed/wiki/Add-a-Proxy-to-browsersync
 - http://stackoverflow.com/questions/39459731/express-with-browser-sync
 - https://www.sitepoint.com/improve-workflow-browsersync-2-0/
+- https://scotch.io/tutorials/how-to-use-browsersync-for-faster-development
 - http://stackoverflow.com/questions/30233218/browser-sync-is-blocked-by-chrome-csp
 
 ## Doesn't work on Windows when there is no network connection
