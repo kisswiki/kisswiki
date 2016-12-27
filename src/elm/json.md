@@ -1,4 +1,7 @@
-- pretty print with `Json.Encode.encode 4` https://groups.google.com/d/msg/elm-discuss/LmtlxeNqsRw/G-WT9h4yDz8J
+## pretty print 
+
+- `Json.Encode.encode 4` https://groups.google.com/d/msg/elm-discuss/LmtlxeNqsRw/G-WT9h4yDz8J
+- http://stackoverflow.com/questions/40517852/elm-how-to-pretty-print-the-model-in-the-browser
 
 ## elm-decode-pipeline
 
