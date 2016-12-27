@@ -33,3 +33,7 @@
 ## Schema
 
 - http://graphql.org/learn/schema/
+
+## schema.js to scheam.json
+
+- https://github.com/WaldoJeffers/graphql-to-json
