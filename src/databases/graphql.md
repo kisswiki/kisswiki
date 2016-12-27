@@ -1,4 +1,5 @@
 - https://medium.com/the-graphqlhub/your-first-graphql-server-3c766ab4f0a2
+- https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6
 - https://github.com/chentsulin/awesome-graphql
  - https://github.com/kadirahq/lokka
   - https://porter.io/github.com/chentsulin/awesome-graphql
