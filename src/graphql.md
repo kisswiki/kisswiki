@@ -37,3 +37,5 @@
 ## schema.js to scheam.json
 
 - https://github.com/WaldoJeffers/graphql-to-json
+
+Needs to return http://graphql.org/graphql-js/type/#graphqlschema
