@@ -29,3 +29,7 @@
 
 - http://graphql.org/learn/introspection/
 - https://www.graphqlhub.com/
+
+## Schema
+
+- http://graphql.org/learn/schema/
