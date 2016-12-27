@@ -2,6 +2,7 @@
 - https://scotch.io/tutorials/how-to-use-browsersync-for-faster-development
 - https://github.com/mgechev/angular-seed/wiki/Add-a-Proxy-to-browsersync
 - http://stackoverflow.com/questions/39459731/express-with-browser-sync
+- https://www.sitepoint.com/improve-workflow-browsersync-2-0/
 
 ## No 'Access-Control-Allow-Origin' header is present on the requested resource - CORS
 
