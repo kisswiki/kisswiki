@@ -1,3 +1,5 @@
+- translation between JSON and Elm types https://github.com/lambdatoast/elm-json
+
 ## pretty print 
 
 - `Json.Encode.encode 4` https://groups.google.com/d/msg/elm-discuss/LmtlxeNqsRw/G-WT9h4yDz8J
