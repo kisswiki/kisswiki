@@ -1,0 +1,2 @@
+- http://stackoverflow.com/questions/28110810/using-local-packages
+- add directory to "source-directories" in elm-package.json
