@@ -3,6 +3,7 @@
 ## extensions
 
 - https://chrome.google.com/webstore/detail/disable-html5-autoplay/efdhoaajjjgckpbkoglidkeendpkolai
+- https://chrome.google.com/webstore/detail/tab-counter/feeoiklfggbaibpdhkkngbpkppdmcjal
 
 ### facebook
 
