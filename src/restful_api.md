@@ -1,0 +1,1 @@
+- https://blog.philipphauer.de/restful-api-design-best-practices/#Provide_Pagination
