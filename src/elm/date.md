@@ -1,4 +1,5 @@
 - https://groups.google.com/forum/#!msg/elm-discuss/MbOeQ_xenTw/xErVC8ArEgAJ
+- http://stackoverflow.com/questions/34163401/how-to-create-a-date-variable-in-elm
 
 ```elm
 import Date
