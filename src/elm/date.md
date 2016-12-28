@@ -4,5 +4,4 @@
 import Date
 import Html
 main = text <| Date.fromString "2015-10-05"
-
 ```
