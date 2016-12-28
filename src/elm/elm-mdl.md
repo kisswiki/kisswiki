@@ -19,3 +19,5 @@ MDC is successor of MDL
 >Material Components for the web is the successor to Material Design Lite
 >
 >-- https://github.com/material-components/material-components-web
+
+- Is MDC v2 of MDL? https://github.com/google/material-design-lite/issues/4984
