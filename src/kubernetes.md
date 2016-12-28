@@ -22,3 +22,17 @@
 
 > Kubernetes is a system for managing containerized applications across a cluster of machines.
 > https://rocket.readthedocs.io/en/stable/Documentation/using-rkt-with-kubernetes/
+
+<br>
+
+>My advice for container orchestration: pick Kubernetes and don't look back (or at least give it a solid try). It falls at the right layer of abstraction and gets so much right. You get automatic container scaling (by CPU usage for now), container composability, service discovery, configuration and (kind of) secret management, portability, it's open source, and really a whole lot more. It's spearheaded by Google, RedHat, CoreOS, and other organizations, so it's fairly safe to say that it won't completely disappear a la Google reader if it's abandoned.
+>
+>I recently migrated a whole microservice stack of a half dozen services to OpenID connect and Kubernetes in two weeks. This is with about a year of casual familiarity and playing with Kubernetes, and the same migration to OpenID connect would have easily taken me 5 or 6 weeks to do in Amazon ECS, which is what we currently use in production.
+>
+>Not to mention I can run a cluster on my three computers at home at no extra charge beyond electricity and play around for free. (See, dear, I'm not a hoarder!)
+>
+>Setting up a cluster is even simpler now with tools like kops and kubeadm. Or just get one provisioned for you by Google or Red Hat with GKE or OpenShift.
+>
+>I would highly recommend at the very least making it one of the solutions you try.
+>
+>-- https://news.ycombinator.com/item?id=13256568
