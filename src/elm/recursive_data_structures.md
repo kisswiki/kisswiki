@@ -2,3 +2,4 @@
   - https://groups.google.com/d/msg/elm-discuss/6IiESi_sOUE/tQxNqepV4dAJ
 - https://github.com/elm-lang/elm-compiler/blob/master/hints/recursive-alias.md
 - http://stackoverflow.com/questions/39500105/elm-recursive-type-definition/39500291
+- http://stackoverflow.com/questions/36791460/define-a-nested-or-recursive-list-structure-in-elm
