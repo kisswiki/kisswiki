@@ -1,1 +1,2 @@
 - https://www.npmjs.com/package/elm-upgrade
+- https://github.com/elm-lang/elm-platform/tree/master/upgrade-docs
