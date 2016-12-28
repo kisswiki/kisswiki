@@ -32,3 +32,9 @@ code --uninstall-extension ms-vscode.csharp
 
 - https://github.com/kumarharsh/graphql-for-vscod
   - Add details about the .gqlconfig file in readme https://github.com/Mayank1791989/gql/issues/1
+
+## Soft wrap
+
+`"editor.wrappingColumn": 0`
+
+http://stackoverflow.com/questions/31025502/how-to-switch-word-wrap-on-and-off-in-vscode/34404903#34404903
