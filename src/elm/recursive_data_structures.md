@@ -1,2 +1,3 @@
 - decode json https://github.com/avh4/outlin/blob/7d4bc2adf39761f54a6e25e6e1c503a1453e15e9/Outline/Entry.elm#L323-L335
   - https://groups.google.com/d/msg/elm-discuss/6IiESi_sOUE/tQxNqepV4dAJ
+- https://github.com/elm-lang/elm-compiler/blob/master/hints/recursive-alias.md
