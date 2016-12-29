@@ -54,7 +54,7 @@ rundis: The "simplest" way to automate that would be to add a command to your us
 ```clojure
 [
  ;; ...
- [:app "ctrl-e" :editor.linter.details]
+ [:editor "ctrl-e" :editor.linter.details]
 ]
 ```
 
