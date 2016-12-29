@@ -26,3 +26,4 @@
   - https://gaming.youtube.com/watch?v=FuzKKUDHYy4
 - Shadow Tactics http://store.steampowered.com/app/418240
 - Super Rad Raygun http://phoronix.com/scan.php?page=news_item&px=Super-Rad-Raygun-Linux
+- Starbound https://www.youtube.com/watch?v=1jXCJEr7WIQ
