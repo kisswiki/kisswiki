@@ -6,7 +6,7 @@
 type Msg
     = GetTime
     | NewTime Time
--- ...
+-- in update
 Task.perform NewTime Time.now
 ```
 
