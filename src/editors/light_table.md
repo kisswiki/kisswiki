@@ -47,7 +47,8 @@ rundis: The "simplest" way to automate that would be to add a command to your us
  ;; Other keymaps
  [:editor "ctrl-e" :editor.linter.details]
  [:editor "ctrl-down" :editor.sublime.duplicateLine]
- [:app "ctrl-shift-b" :add-browser-tab]
+ ;; web browser in light table is not reliable
+ ;;[:app "ctrl-shift-b" :add-browser-tab]
 ]
 ```
 
