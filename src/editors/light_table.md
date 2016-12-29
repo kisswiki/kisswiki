@@ -35,25 +35,17 @@ rundis: The "simplest" way to automate that would be to add a command to your us
 - Elm Light V0.4 https://youtu.be/pmMhCRvU9R0
 - http://stackoverflow.com/questions/39588328/how-can-i-install-elm-light-on-windows/39626600#39626600
 
-### Autoconnect AST for elm-light
+### Keymaps
 
 `ctrl+space` > user keymap
 
 ```clojure
 [
  ;; ...
+ ;; Autoconnect AST for elm-light
  [:editor.elm "ctrl-s" :save :elm-format :elm.lint]
  [:app "ctrl-shift-b" :add-browser-tab]
-]
-```
-
-### Other keymaps
-
-`ctrl+space` > user keymap
-
-```clojure
-[
- ;; ...
+ ;; Other keymaps
  [:editor "ctrl-e" :editor.linter.details]
  [:editor "ctrl-down" :editor.sublime.duplicateLine]
 ]
