@@ -6,6 +6,7 @@
 3. https://github.com/mpdairy/elm-frontier
 4. https://github.com/pinksalmon/elm-online-store/blob/master/api/api.js
   - https://www.reddit.com/r/elm/comments/4ougvs/online_store_example_is_this_a_better_way_to/
+5. http://package.elm-lang.org/packages/elm-community/json-extra/latest
 
 ## Translate
 
