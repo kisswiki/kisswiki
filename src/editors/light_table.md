@@ -47,6 +47,15 @@ rundis: The "simplest" way to automate that would be to add a command to your us
 ]
 ```
 
+### Linter details
+
+```clojure
+[
+ ;; ...
+ [:app "ctrl-e" :editor.linter.details]
+]
+```
+
 ### Autoadd brackets for elm-light so that AST doesn't have errors
 
 `ctrl+space` > user behaviors
