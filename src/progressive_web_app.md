@@ -6,6 +6,7 @@
   - https://github.com/matthew-andrews/workshop-making-it-work-offline
 - https://github.com/hemanth/awesome-pwa
 - https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-i-introduction-50679aef2b12
+- https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-2-page-load-performance-33b932d97cf2
 
 ## About
 
