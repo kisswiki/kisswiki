@@ -1,3 +1,4 @@
+- http://simonh1000.github.io/2016/12/elm-s3-uploads/
 - http://stackoverflow.com/questions/35329962/file-upload-in-elm
 - https://www.paramander.com/blog/using-ports-to-deal-with-files-in-elm-0-17
 - Add support for <input type="file" /> https://github.com/elm-lang/html/issues/20
