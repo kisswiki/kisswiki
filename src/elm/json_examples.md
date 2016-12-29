@@ -21,3 +21,4 @@ user =
 ```
 
 - from dailydrip email
+- http://package.elm-lang.org/packages/NoRedInk/elm-decode-pipeline/latest
