@@ -2,3 +2,4 @@
 - https://becoming-functional.com
 - https://medium.com/@wintvelt
 - http://tech.noredink.com
+- https://medium.com/@dailydrip
