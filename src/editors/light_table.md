@@ -49,6 +49,8 @@ rundis: The "simplest" way to automate that would be to add a command to your us
 
 ### Linter details
 
+`ctrl+space` > user keymap
+
 ```clojure
 [
  ;; ...
