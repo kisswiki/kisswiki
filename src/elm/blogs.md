@@ -1,0 +1,2 @@
+- https://www.brianthicks.com/
+- https://becoming-functional.com
