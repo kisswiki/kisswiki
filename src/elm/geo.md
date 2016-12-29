@@ -2,3 +2,4 @@
 - https://github.com/krisajenkins/beeline-demo
   - https://github.com/krisajenkins/beeline-geodev
 - https://github.com/mgold/elm-geojson
+- https://github.com/elm-lang/geolocation
