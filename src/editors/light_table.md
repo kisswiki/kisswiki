@@ -47,7 +47,7 @@ rundis: The "simplest" way to automate that would be to add a command to your us
 ]
 ```
 
-### Linter details
+### Other keymaps
 
 `ctrl+space` > user keymap
 
@@ -55,6 +55,7 @@ rundis: The "simplest" way to automate that would be to add a command to your us
 [
  ;; ...
  [:editor "ctrl-e" :editor.linter.details]
+ [:editor "ctrl-down" :editor.sublime.duplicateLine]
 ]
 ```
 
