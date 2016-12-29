@@ -7,6 +7,9 @@
 - https://github.com/hemanth/awesome-pwa
 - https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-i-introduction-50679aef2b12
 - https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-2-page-load-performance-33b932d97cf2
+- https://medium.com/javascript-scene/native-apps-are-doomed-ac397148a2c0
+- https://medium.com/javascript-scene/why-native-apps-really-are-doomed-native-apps-are-doomed-pt-2-e035b43170e9
+- https://medium.com/javascript-scene/10-must-see-web-apps-games-36ab9ca60754
 
 ## About
 
