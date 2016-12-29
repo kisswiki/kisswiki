@@ -1,0 +1,1 @@
+- https://becoming-functional.com/publishing-your-first-elm-package-13d984a1200a
