@@ -44,10 +44,10 @@ rundis: The "simplest" way to automate that would be to add a command to your us
  ;; ...
  ;; Autoconnect AST for elm-light
  [:editor.elm "ctrl-s" :save :elm-format :elm.lint]
- [:app "ctrl-shift-b" :add-browser-tab]
  ;; Other keymaps
  [:editor "ctrl-e" :editor.linter.details]
  [:editor "ctrl-down" :editor.sublime.duplicateLine]
+ [:app "ctrl-shift-b" :add-browser-tab]
 ]
 ```
 
