@@ -1,3 +1,14 @@
+## Options
+
+1. http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode
+  - With apply, you can chain as many decoders as you like and build objectN http://www.troikatech.com/blog/2015/08/17/decoding-larger-json-objects-in-elm
+2. https://github.com/NoRedInk/elm-decode-pipeline
+3. https://github.com/mpdairy/elm-frontier
+4. https://github.com/pinksalmon/elm-online-store/blob/master/api/api.js
+  - https://www.reddit.com/r/elm/comments/4ougvs/online_store_example_is_this_a_better_way_to/
+
+## Translate
+
 - translation between JSON and Elm types https://github.com/lambdatoast/elm-json
 
 ## pretty print 
@@ -53,7 +64,6 @@
 - http://faq.elm-community.org/#how-can-i-parse-json-into-elm-data
 - http://simonh1000.github.io/decoder/
 - Elm Json.Decode tutorial and cheatsheet - some parts only for Elm-0.16 https://gist.github.com/yang-wei/0a1cea1194a244aa9be6
-- With apply, you can chain as many decoders as you like and build objectN http://www.troikatech.com/blog/2015/08/17/decoding-larger-json-objects-in-elm
 - https://www.brianthicks.com/post/2016/10/31/json-schema-changes-a-halloween-horror-story/
 - port Maybe field behavior https://groups.google.com/forum/#!msg/elm-discuss/vu2A3vHWUxM/RHScpLHLAwAJ
 - To deal with the a) null values and b) missing values, I resorted to passing the Json through the port, and decode in Elm https://groups.google.com/forum/#!msg/elm-discuss/vu2A3vHWUxM/RHScpLHLAwAJ
@@ -249,7 +259,3 @@ main =
         |> text
 ```
 
-## json from ports
-
-- https://github.com/pinksalmon/elm-online-store/blob/master/api/api.js
-  - https://www.reddit.com/r/elm/comments/4ougvs/online_store_example_is_this_a_better_way_to/
