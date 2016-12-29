@@ -1,0 +1,8 @@
+- http://arstechnica.com/gaming/2016/12/game-on-the-best-board-games-of-2016/
+  - https://news.ycombinator.com/item?id=13264079
+- https://boardgamegeek.com/boardgame/169786/scythe
+- http://stonemaiergames.com/games/scythe/
+- http://stonemaiergames.com/games/scythe/buy-scythe/
+- http://www.phalanxgames.pl/blog/portfolio-items/scythe/
+- http://www.phalanxgames.pl/blog/portfolio-items/scythe-najezdzcy-z-dalekich-krain/
+- https://www.youtube.com/watch?v=ffMLIL5qGQg
