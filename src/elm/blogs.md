@@ -5,3 +5,4 @@
 - http://tech.noredink.com
 - https://medium.com/@dailydrip
 - http://sgillis.github.io/
+- http://simonh1000.github.io/blog/
