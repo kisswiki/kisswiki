@@ -35,3 +35,8 @@ One great example of an app done this way is The Financial Times https://ft.com,
 - tizen
 - chrome web store
 - chome on adroid tabs were like applications
+
+## Turning points
+
+- webassembly http://webassembly.org/ with GC https://github.com/WebAssembly/design/blob/master/GC.md
+- Payment Request API https://developers.google.com/web/fundamentals/discovery-and-monetization/payment-request/
