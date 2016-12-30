@@ -26,3 +26,12 @@ One great example of an app done this way is The Financial Times https://ft.com,
 >The Weather Channel. Since launching a PWA they achieved an 80% reduction in load time and within three months, saw almost 1 million users opt in to receive web push notifications.
 >
 >-- https://blog.chromium.org/2016/11/chrome-dev-summit-2016-mobile-web-moves.html
+
+## Failed attempts
+
+- html5 only apps on ios at the beginning
+- html5 only apps on facebook at the beginning
+- webos
+- tizen
+- chrome web store
+- chome on adroid tabs were like applications
