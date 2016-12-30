@@ -1,6 +1,7 @@
 - http://stackoverflow.com/questions/5103083/ssh-in-git-behind-proxy-on-windows-7
 - https://www.privacytools.io/
 - https://thatoneprivacysite.net/vpn-comparison-chart/
+- XX-Net is a free desktop application that delivers fast, reliable and secure access to the open Internet for users in censored regions. It uses google app engine (GAE) as a proxy server through the firewall. https://github.com/XX-net/XX-Net
 
 ## Opera VPN
 
