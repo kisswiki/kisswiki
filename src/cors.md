@@ -1,0 +1,1 @@
+- https://www.pokeinthe.io/2016/11/29/understanding-cors/
