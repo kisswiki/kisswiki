@@ -1,0 +1,1 @@
+- https://hacks.mozilla.org
