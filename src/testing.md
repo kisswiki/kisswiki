@@ -1,1 +1,1 @@
-- https://github.com/appium/appium
+- testing apps and webapps on mobile devices https://github.com/appium/appium
