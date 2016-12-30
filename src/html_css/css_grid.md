@@ -3,3 +3,4 @@
 - http://caniuse.com/#feat=css-grid
 - Example: Placing elements into Grid Areas on the 16 column grid http://gridbyexample.com/examples/page-layout/
 - enable in browsers https://igalia.github.io/css-grid-layout/enable.html
+- https://hacks.mozilla.org/2016/12/css-grid-and-grid-highlighter-now-in-firefox-developer-edition/
