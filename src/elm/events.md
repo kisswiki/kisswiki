@@ -1,1 +1,3 @@
-- example of onLoadSrc http://stackoverflow.com/questions/40876099/show-a-loading-placeholder-in-elm-while-it-is-rendering-dom-elements
+- example of onLoadSrc:
+  - http://stackoverflow.com/questions/40876099/show-a-loading-placeholder-in-elm-while-it-is-rendering-dom-elements
+  - https://github.com/rofrol/elm-image-slider
