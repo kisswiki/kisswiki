@@ -1,0 +1,3 @@
+- https://www.smashingmagazine.com/2016/03/houdini-maybe-the-most-exciting-development-in-css-youve-never-heard-of/
+- https://developers.google.com/web/updates/2016/05/houdini
+- https://philipwalton.com/articles/the-dark-side-of-polyfilling-css/
