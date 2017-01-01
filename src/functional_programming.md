@@ -30,6 +30,10 @@ https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070
 - http://code.tutsplus.com/tutorials/as3-101-oop-additional-concepts--active-7412#step_the_ultimate_mnemonic_device
 - http://imgur.com/Q0vFcHd
 
+>The problem with object-oriented languages is they’ve got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle. --  Joe Armstrong, the creator of Erlang
+>
+>-- https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53
+
 ## pros/cons
 
 - Ask HN: Is functional programming really worth it? https://news.ycombinator.com/item?id=1191167
