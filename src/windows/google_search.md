@@ -1,0 +1,2 @@
+- https://www.stephanboyer.com/post/122/does-google-execute-javascript
+  - https://news.ycombinator.com/item?id=13294779
