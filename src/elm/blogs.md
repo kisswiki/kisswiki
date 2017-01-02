@@ -11,3 +11,4 @@
 - https://medium.com/@cscalfani
 - https://medium.com/digital-times/using-elm-in-the-newsroom-d16fbf636a8e
 - https://blog.codecentric.de/en/tag/elm/
+- http://rundis.github.io/blog/
