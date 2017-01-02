@@ -108,3 +108,7 @@ user.keymap
 ## Themes
 
 http://worldofgnome.org/changing-themes-in-light-table/
+
+## Fira Code doesn't have ligatures displayed
+
+- it doesn't work https://github.com/tonsky/FiraCode/wiki/LightTable-instructions
