@@ -138,7 +138,7 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 - https://github.com/iconic/open-iconic
   - https://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web
 - http://glyphicons.com/
-
+  - https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.svg
 ### Creating set
 
 - http://fontello.com/
