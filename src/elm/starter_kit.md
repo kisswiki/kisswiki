@@ -1,0 +1,4 @@
+- https://github.com/halfzebra/create-elm-app
+    - https://medium.com/@eduardkyvenko/how-to-create-elm-app-cf052629a11a
+- https://dimiterpetrov.com/blog/elm-single-page-application-setup/
+- https://github.com/victorborja/elm-base
