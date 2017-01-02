@@ -1,8 +1,9 @@
 - screen resolutin shortcut http://superuser.com/questions/268162/shortcut-to-windows-7-screen-resolution-setting-other-than-by-right-click-on-the/1086359#1086359
 - wifi password
   - https://github.com/RReverser/WiFi-Password
-- color picker http://charliecm.github.io/ColorPicker/
-- ruler http://sliver.com/dotnet/Ruler/
+- color picker https://charliecm.github.io/ColorPicker/
+- ruler https://ruler.codeplex.com/
+- https://www.facebook.com/groups/257881290932879/permalink/1203730953014570/
 - disable search indexing
   - `services.msc > Windows Search > Right-click > Properties > Startup Type: Disabled` http://www.addictivetips.com/windows-tips/how-to-permanently-disable-search-indexing-in-windows-8/
   - run in cmd.exe as Administrator: `sc config WSearch start= disabled` http://superuser.com/questions/73204/correct-way-to-disable-indexing-in-windows-7/349802#349802
