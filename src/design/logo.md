@@ -1,0 +1,1 @@
+- http://www.fastcodesign.com/1672938/the-anatomy-of-a-successful-logo-redesign
