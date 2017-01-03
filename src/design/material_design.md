@@ -13,3 +13,7 @@
 - https://getmdl.io/showcase/index.html
 - https://github.com/google/material-design-lite/wiki/Community-showcase
 - https://www.sitepoint.com/practical-introduction-material-design-lite-google/
+
+## Icons
+
+- Self hosting http://google.github.io/material-design-icons/
