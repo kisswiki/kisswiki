@@ -21,6 +21,8 @@
   - https://getmdl.io/components/index.html#layout-section/grid
 - https://material.io/guidelines/layout/responsive-ui.html
 - http://flexboxgrid.com/
+- http://gridulator.com/
+- http://gridcalculator.dk/
 
 ## Resolution
 
