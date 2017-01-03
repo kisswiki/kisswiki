@@ -7,3 +7,4 @@
   - very tiny example of how to use polymer element in Elm https://github.com/edvail/double-event-issue
   - https://github.com/kevinlebrun/elm-polymer
   - https://github.com/pdamoc/polymer-exploration
+  - https://github.com/rupertlssmith/polymer-elm-listbox 
