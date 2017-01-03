@@ -1,3 +1,9 @@
+# Web components
+
+- https://www.reddit.com/r/elm/comments/5ls1jd/discussion_web_components_in_elm/
+
+## Polymer
+
 - https://github.com/edvail/elm-polymer
 - https://github.com/ohanhi/polymer-in-elm
 - https://github.com/quephird/polymer-with-elm
