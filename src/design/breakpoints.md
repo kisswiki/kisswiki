@@ -18,6 +18,7 @@
 - https://debois.github.io/elm-mdl/#grid
 - Crafting Twelve-Column Layouts with Flexbox https://davidwalsh.name/flexbox-layouts
   - https://chriswrightdesign.com/experiments/flexbox-adventures/
+  - https://getmdl.io/components/index.html#layout-section/grid
 
 ## Resolution
 
