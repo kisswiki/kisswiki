@@ -1,0 +1,1 @@
+- http://petapixel.com/2016/10/24/golden-ratio-better-rule-thirds/
