@@ -4,4 +4,8 @@
 - http://tutorialzine.com/2015/07/comparing-bootstrap-with-mdl/
 - https://getmdl.io/customize/
 - https://github.com/material-components/material-components-web
+
+## Layout examples
+
 - https://getmdl.io/templates/portfolio/index.html
+- https://getmdl.io/templates/android-dot-com/index.html
