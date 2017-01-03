@@ -12,3 +12,4 @@
   - https://customelements.io/
   - https://github.com/rupertlssmith/elm-polymer
   - a first pass at making a listbox component https://github.com/rupertlssmith/wood-polymer
+  - https://github.com/rtfeldman/elm-google-maps
