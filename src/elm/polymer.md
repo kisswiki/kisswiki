@@ -10,3 +10,4 @@
   - https://github.com/rupertlssmith/polymer-elm-listbox 
   - "My view is that we don't need Polymer, just the web components standards."
   - https://customelements.io/
+  - https://github.com/rupertlssmith/elm-polymer
