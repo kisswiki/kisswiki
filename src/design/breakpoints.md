@@ -23,6 +23,7 @@
 - http://flexboxgrid.com/
 - http://gridulator.com/
 - http://gridcalculator.dk/
+- http://flexible.gs/
 
 ## Resolution
 
