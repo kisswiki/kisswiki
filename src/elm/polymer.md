@@ -1,4 +1,6 @@
 - https://github.com/edvail/elm-polymer
+- https://github.com/ohanhi/polymer-in-elm
+- https://github.com/quephird/polymer-with-elm
 - https://groups.google.com/forum/#!topic/elm-discuss/8Q2xwRh6UYc
   - https://github.com/Polymer/vulcanize
   - https://gist.github.com/pdamoc/48c6f7dd2f7fec44bdd3262f269f635c
