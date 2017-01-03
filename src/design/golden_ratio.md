@@ -1,3 +1,4 @@
 - "The Fibonacci Sequence is similar to the Golden Ratio, but not exactly so." https://webdesign.tutsplus.com/articles/making-your-web-designs-more-effective-with-the-golden-ratio--cms-23459
 - http://petapixel.com/2016/10/24/golden-ratio-better-rule-thirds/
 - http://www.creativebloq.com/design/designers-guide-golden-ratio-12121546/2
+- https://github.com/phildionne/golden-bootstrap
