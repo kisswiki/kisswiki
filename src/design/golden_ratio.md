@@ -1,1 +1,2 @@
 - http://petapixel.com/2016/10/24/golden-ratio-better-rule-thirds/
+- http://www.creativebloq.com/design/designers-guide-golden-ratio-12121546/2
