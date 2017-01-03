@@ -3,6 +3,7 @@
 - http://www.thedotpost.com/2015/12/rachel-andrew-the-new-css-layout
 - play game to learn http://www.flexboxdefense.com/
 - examples http://www.flexboxpatterns.com/
+- https://davidwalsh.name/flexbox-layouts
 
 - adviced settings http://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/
 
