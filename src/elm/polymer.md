@@ -13,3 +13,17 @@
   - https://github.com/rupertlssmith/elm-polymer
   - a first pass at making a listbox component https://github.com/rupertlssmith/wood-polymer
   - https://github.com/rtfeldman/elm-google-maps
+
+>I needed to add some global config to polymer like this:
+
+```javascripot
+<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+<script>
+    window.Polymer = {
+        dom: 'shadow',
+        lazyRegister: true
+    };
+</script> 
+```
+
+As described here https://www.polymer-project.org/1.0/docs/devguide/settings
