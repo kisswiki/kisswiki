@@ -2,3 +2,4 @@
 - http://petapixel.com/2016/10/24/golden-ratio-better-rule-thirds/
 - http://www.creativebloq.com/design/designers-guide-golden-ratio-12121546/2
 - https://github.com/phildionne/golden-bootstrap
+- https://www.fastcodesign.com/3044877/the-golden-ratio-designs-biggest-myth
