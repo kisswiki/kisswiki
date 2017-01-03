@@ -19,6 +19,7 @@
 - Crafting Twelve-Column Layouts with Flexbox https://davidwalsh.name/flexbox-layouts
   - https://chriswrightdesign.com/experiments/flexbox-adventures/
   - https://getmdl.io/components/index.html#layout-section/grid
+- https://material.io/guidelines/layout/responsive-ui.html
 
 ## Resolution
 
