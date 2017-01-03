@@ -7,5 +7,7 @@
 
 ## Layout examples
 
-- https://getmdl.io/templates/portfolio/index.html
-- https://getmdl.io/templates/android-dot-com/index.html
+- https://getmdl.io/templates/
+    - https://getmdl.io/templates/portfolio/index.html
+    - https://getmdl.io/templates/android-dot-com/index.html
+- https://getmdl.io/showcase/index.html
