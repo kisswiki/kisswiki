@@ -2,3 +2,5 @@
   - https://github.com/Polymer/vulcanize
   - https://gist.github.com/pdamoc/48c6f7dd2f7fec44bdd3262f269f635c
   - https://github.com/fredcy/elm-polymer-calendar
+  - https://beta.webcomponents.org/element/PolymerElements/paper-listbox
+  - https://aerotwist.com/blog/polymer-for-the-performance-obsessed/
