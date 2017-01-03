@@ -1,2 +1,4 @@
 - https://medium.com/@iamtomnewton/a-guide-to-creating-grid-systems-that-are-built-around-your-content-a29e243e7388
 - https://medium.com/figma-design/grid-systems-for-screen-design-46d86ea9fd48
+- http://www.thegridsystem.org/pdf/grids_are_good.pdf
+- http://markboulton.co.uk/journal/five-simple-steps-to-designing-grid-systems-part-1
