@@ -8,6 +8,7 @@
 ## Missing
 
 - dropdown https://github.com/debois/elm-mdl/issues/79
+- autocomplete https://github.com/debois/elm-mdl/issues/31
 
 ## Nesting
 
