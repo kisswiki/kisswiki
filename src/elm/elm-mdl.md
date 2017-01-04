@@ -5,6 +5,10 @@
 
 - https://github.com/debois/elm-mdl/issues/221
 
+## Missing
+
+- dropdown https://github.com/debois/elm-mdl/issues/79
+
 ## Nesting
 
 > Evan moved away from recommending the nesting architecture and advised against putting functions in Model & Msg. This put the implementation of elm-mdl at odds with the official recommendation. 
