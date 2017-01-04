@@ -1,0 +1,2 @@
+- still not supported by webpack https://github.com/JonDum/polymer-loader/issues/1
+- Webpack loader https://github.com/webcomponents/webcomponentsjs/issues/651
