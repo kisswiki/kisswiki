@@ -38,3 +38,9 @@
 ```
 
 As described here https://www.polymer-project.org/1.0/docs/devguide/settings
+
+
+## Browser support
+
+- https://github.com/WebComponents/webcomponentsjs#browser-support
+- document.importNode bug on firefox https://github.com/webcomponents/webcomponentsjs/issues/436
