@@ -14,3 +14,4 @@ regex:\r(\n)==>$1               # Replace Windows newlines with Unix newlines
 
 - http://stackoverflow.com/questions/4110652/how-to-substitute-text-from-files-in-git-history/15730571#15730571
 - https://rtyley.github.io/bfg-repo-cleaner/
+- https://github.com/rtyley/bfg-repo-cleaner/issues/150
