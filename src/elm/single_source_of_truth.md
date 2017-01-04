@@ -1,0 +1,1 @@
+- https://github.com/evancz/elm-sortable-table/#single-source-of-truth
