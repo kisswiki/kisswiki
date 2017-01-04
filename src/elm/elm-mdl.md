@@ -1,5 +1,9 @@
 - https://www.dailydrip.com/blog/elm-018-2-elm-mdl-introduction
 
+## Performance
+
+- https://github.com/debois/elm-mdl/issues/221
+
 ## Nesting
 
 > Evan moved away from recommending the nesting architecture and advised against putting functions in Model & Msg. This put the implementation of elm-mdl at odds with the official recommendation. 
