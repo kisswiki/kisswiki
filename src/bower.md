@@ -1,6 +1,6 @@
 ## init fails in git bash
 
-run in `cmd.exe` or `cmd.exe /C "C:\Program Files\Git\bin\bash.exe" --login -i` or install git bash differently
+run in `cmd.exe` or `cmd.exe /C "C:\Program Files\Git\bin\bash.exe" --login -i`
 
 - https://github.com/bower/bower/issues/802#issuecomment-170383131
 - http://stackoverflow.com/questions/38683378/bower-init-command-error-gitbash-in-windows
