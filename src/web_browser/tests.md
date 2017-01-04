@@ -1,0 +1,2 @@
+- https://github.com/w3c/web-platform-tests/
+- https://github.com/w3c/csswg-test/
