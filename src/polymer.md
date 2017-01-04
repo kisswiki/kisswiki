@@ -1,0 +1,1 @@
+- http://stackoverflow.com/questions/31503725/polymerelements-paper-icon-button-to-be-specific-not-showing-up-as-expected/41471759#41471759
