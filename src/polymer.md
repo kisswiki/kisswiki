@@ -1,3 +1,4 @@
 - http://stackoverflow.com/questions/31503725/polymerelements-paper-icon-button-to-be-specific-not-showing-up-as-expected/41471759#41471759
 - http://stackoverflow.com/questions/35423053/i-would-like-to-put-paper-icon-button-on-the-right-of-toolbar-what-should-i-do
 - http://stackoverflow.com/questions/35423053/i-would-like-to-put-paper-icon-button-on-the-right-of-toolbar-what-should-i-do/41472204#41472204
+- (not availabe in beta site) https://elements.polymer-project.org/guides/flex-layout
