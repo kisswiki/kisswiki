@@ -5,6 +5,9 @@
 - http://stackoverflow.com/questions/32414997/polymer-layout-place-space-between-cards-and-responsiveness
 - https://medium.com/code-kings/polymer-1-how-to-install-using-bower-how-to-download-the-polymer-elements-in-one-shot-473427ca9225#.748smvcll
 - https://github.com/PolymerElements/iron-flex-layout
+- http://stackoverflow.com/questions/32986016/polymer-paper-tab-select-first-tab-programmatically
+- http://stackoverflow.com/questions/24724642/best-way-to-deal-with-polymer-element-inheritance
+- http://stackoverflow.com/questions/31441401/polymer-1-0-is-there-a-way-to-pass-an-argument-to-a-polymer-function-from-an-at
 
 ## Examples
 
