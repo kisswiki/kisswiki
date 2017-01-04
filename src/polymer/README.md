@@ -10,3 +10,8 @@
 
 - http://polymerelements.github.io/app-layout/templates/shrine/
 - https://beta.webcomponents.org/element/PolymerElements/paper-tabs/demo/demo/index.html
+
+## quickstart
+
+- - http://stackoverflow.com/questions/31503725/polymerelements-paper-icon-button-to-be-specific-not-showing-up-as-expected/41471759#41471759
+- https://www.polymer-project.org/1.0/start/
