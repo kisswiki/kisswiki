@@ -2,3 +2,4 @@
 - http://stackoverflow.com/questions/35423053/i-would-like-to-put-paper-icon-button-on-the-right-of-toolbar-what-should-i-do
 - http://stackoverflow.com/questions/35423053/i-would-like-to-put-paper-icon-button-on-the-right-of-toolbar-what-should-i-do/41472204#41472204
 - (not availabe in beta site) https://elements.polymer-project.org/guides/flex-layout
+- http://stackoverflow.com/questions/32414997/polymer-layout-place-space-between-cards-and-responsiveness
