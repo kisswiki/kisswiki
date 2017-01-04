@@ -9,3 +9,4 @@
 ## Examples
 
 - http://polymerelements.github.io/app-layout/templates/shrine/
+- https://beta.webcomponents.org/element/PolymerElements/paper-tabs/demo/demo/index.html
