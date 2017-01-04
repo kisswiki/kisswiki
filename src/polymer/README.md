@@ -4,3 +4,4 @@
 - (not availabe in beta site) https://elements.polymer-project.org/guides/flex-layout
 - http://stackoverflow.com/questions/32414997/polymer-layout-place-space-between-cards-and-responsiveness
 - https://medium.com/code-kings/polymer-1-how-to-install-using-bower-how-to-download-the-polymer-elements-in-one-shot-473427ca9225#.748smvcll
+- https://github.com/PolymerElements/iron-flex-layout
