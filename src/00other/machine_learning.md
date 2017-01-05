@@ -82,6 +82,7 @@
 ## Bot, chat
 
 - http://2040.io/
+- https://news.ycombinator.com/item?id=13309116
 
 ## Google translate
 
