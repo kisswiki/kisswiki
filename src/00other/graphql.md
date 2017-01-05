@@ -1,7 +1,7 @@
 ## Quick start
 
 - https://medium.com/the-graphqlhub/your-first-graphql-server-3c766ab4f0a2
-  - instructions https://medium.com/@ferologics/for-anyone-doing-the-tutorial-now-bb24eae6022e?source=responses---------0-31---------
+  - instructions in the comments
 - https://github.com/cucumber/cucumber-js/issues/480
 - http://stackoverflow.com/questions/37780952/babel-core-register-vs-babel-register
 
