@@ -1,6 +1,8 @@
 # Machine learning
 
 - http://stackoverflow.com/documentation/tensorflow/topics
+- http://kevinhughes.ca/blog/tensor-kart
+  - https://news.ycombinator.com/item?id=13317902
 
 ## Generally about AI
 
