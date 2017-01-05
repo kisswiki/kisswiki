@@ -1,4 +1,10 @@
+## Quick start
+
 - https://medium.com/the-graphqlhub/your-first-graphql-server-3c766ab4f0a2
+- https://github.com/cucumber/cucumber-js/issues/480
+
+## Links
+
 - https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6
 - example https://github.com/graphql/swapi-graphql
   - https://github.com/graphql/swapi-graphql/pull/27
