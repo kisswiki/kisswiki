@@ -27,6 +27,9 @@
 - https://learngraphql.com/
   - https://github.com/kadirahq/graphql-blog-schema
 - GraphiQL http://stackoverflow.com/questions/37528382/how-to-connect-graphiql-to-another-implementation-other-than-javascript
+
+## Backends
+
 - Production-ready GraphQL backend in 5 minutes. Stop wasting time writing error-prone database migrations and monitoring log files. Graphcool handles all of that so you can focus on what matters: Building your app. https://www.graph.cool/
 - https://www.reindex.io/
 
