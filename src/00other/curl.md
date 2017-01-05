@@ -10,3 +10,10 @@
 ## Specify file name
 
 `curl -o mygettext.html http://www.gnu.org/software/gettext/manual/gettext.html`
+
+## data file
+
+`curl --data "@/path/to/filename" http://...`
+
+- http://stackoverflow.com/questions/15912924/how-to-send-file-contents-as-body-entity-using-curl
+- http://stackoverflow.com/questions/6408904/send-post-request-with-data-specified-in-file-via-curl
