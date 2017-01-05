@@ -26,7 +26,10 @@
 - Parse GraphQL query into the standard GraphQL AST https://github.com/apollostack/graphql-tag
 - https://learngraphql.com/
   - https://github.com/kadirahq/graphql-blog-schema
-- GraphiQL http://stackoverflow.com/questions/37528382/how-to-connect-graphiql-to-another-implementation-other-than-javascript
+
+## Gui
+
+- GraphiQL expects particular HTTP endpoint shape by default. You can find the actual HTTP request here http://stackoverflow.com/questions/37528382/how-to-connect-graphiql-to-another-implementation-other-than-javascript
 
 ## Backends
 
