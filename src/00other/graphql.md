@@ -27,6 +27,10 @@
 - https://learngraphql.com/
   - https://github.com/kadirahq/graphql-blog-schema
 
+## Java
+
+- https://github.com/nfl/graphql-rxjava
+
 ## Gui
 
 - GraphiQL expects particular HTTP endpoint shape by default. You can find the actual HTTP request here http://stackoverflow.com/questions/37528382/how-to-connect-graphiql-to-another-implementation-other-than-javascript
