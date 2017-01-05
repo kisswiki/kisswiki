@@ -10,6 +10,16 @@
 - http://stackoverflow.com/questions/30655552/swagger-specification-for-anything-other-than-http-get
 - https://github.com/apigee-127/swagger-tools
 
+## Full of bugs
+
+I can't open do `swagger project edit` because it fails to open browser on Windows. If I do `swagger project edit -s` I can't go to `/#/edit`.
+
+- https://github.com/swagger-api/swagger-node/issues/315
+- http://stackoverflow.com/questions/35448203/swagger-project-create-command-line-error
+- https://github.com/swagger-api/swagger-node/issues/457
+- https://github.com/swagger-api/swagger-node/issues/351
+- https://github.com/swagger-api/swagger-editor/issues/407
+
 ## quick start
 
 ```

@@ -1,2 +1,11 @@
-- https://medium.com/@wintvelt/a-reusable-dropdown-in-elm-part-1-d7ac2d106f13
-- https://medium.com/@wintvelt/a-reusable-dropdown-in-elm-part-2-9659ef988441
+- https://github.com/wintvelt/elm-dropdown/
+  - https://medium.com/@wintvelt/a-reusable-dropdown-in-elm-part-1-d7ac2d106f13
+  - https://medium.com/@wintvelt/a-reusable-dropdown-in-elm-part-2-9659ef988441
+- https://github.com/r31gN/elm-dropdown
+- http://elm-ui.info/reference/dropdown-menu
+- https://gist.github.com/bensu/8dcb79cf698b3fafb950
+- http://stackoverflow.com/questions/39371105/how-to-use-select-dropdown-tag-in-elm-lang
+- http://stackoverflow.com/questions/36737882/bootstrap-dropdown-in-elm
+- http://stackoverflow.com/questions/32426042/how-to-print-index-of-selected-option-in-elm
+- old mail thread https://groups.google.com/forum/#!topic/elm-discuss/539mEAk3CtQ
+  - https://gist.github.com/paparga/dfe7eaf981884f6af1bc
