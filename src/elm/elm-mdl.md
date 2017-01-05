@@ -1,5 +1,6 @@
 - https://www.dailydrip.com/blog/elm-018-2-elm-mdl-introduction
   - https://medium.com/@dailydrip/introduction-to-using-material-design-in-elm-dc2320087410
+- elm-0.17, pagination https://github.com/knewter/time-tracker
 
 ## Performance
 

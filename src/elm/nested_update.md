@@ -1,0 +1,1 @@
+- http://stackoverflow.com/questions/38545127/how-to-make-a-generic-update-function-for-a-nested-record-in-elm#/

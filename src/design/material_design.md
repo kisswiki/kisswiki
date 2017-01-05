@@ -7,6 +7,7 @@
 - https://github.com/material-components/material-components-web
 - breakpoints https://material.io/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints
 - https://design-nation.icons8.com/tips-for-animations-in-material-design-6c538bd105e1
+- http://stackoverflow.com/questions/39927482/mdl-textfield-inside-mdl-menu-material-design-lite
 
 ## Layout examples
 

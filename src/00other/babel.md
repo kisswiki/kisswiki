@@ -8,4 +8,4 @@
 
 - http://stackoverflow.com/questions/33604470/unexpected-token-import-in-nodejs5-and-babel
 - 'Babel 6 uses .babelrc' https://github.com/cucumber/cucumber-js/issues/480
-- 'The recommended usage is babel-register since that is the module where the code actually lives, and babel-core/register' http://stackoverflow.com/questions/37780952/babel-core-register-vs-babel-register
+- 'The recommended usage is babel-register since that is the module where the code actually lives, and babel-core/register will be deprecated or removed someday' http://stackoverflow.com/questions/37780952/babel-core-register-vs-babel-register
