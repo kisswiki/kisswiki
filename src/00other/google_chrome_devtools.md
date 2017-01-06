@@ -1,3 +1,4 @@
 - http://discover-devtools.codeschool.com/
 - http://tutorialzine.com/2015/03/15-must-know-chrome-devtools-tips-tricks/
 - https://developer.chrome.com/devtools/docs/commandline-api
+- https://sethlopez.me/article/useful-browser-console-tips/
