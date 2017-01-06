@@ -72,6 +72,8 @@
 - https://atom.io/themes/material-ui (uses background color from syntax theme)
 - https://atom.io/themes/yoceanic-next-syntax
 - https://atom.io/packages/file-icons
+- http://stackoverflow.com/questions/23963733/syntax-highlighting-guide-for-atom
+- http://flight-manual.atom.io/hacking-atom/sections/creating-a-theme/
 
 ## html
 
