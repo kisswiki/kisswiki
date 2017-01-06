@@ -1,3 +1,8 @@
+## Aggregators
+
+- http://elm-news.com/
+- http://www.elmweekly.nl/
+
 ## Blogs
 
 - http://blog.jenkster.com/
