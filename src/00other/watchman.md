@@ -1,5 +1,5 @@
 - https://facebook.github.io/watchman/
-- https://facebook.github.io/watchman/docs/cli-options.html#server-options
+- https://facebook.github.io/watchman/docs/cli-options.html
 
 ## quick start
 
