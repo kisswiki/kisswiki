@@ -9,3 +9,4 @@
 - http://stackoverflow.com/questions/32426042/how-to-print-index-of-selected-option-in-elm
 - old mail thread https://groups.google.com/forum/#!topic/elm-discuss/539mEAk3CtQ
   - https://gist.github.com/paparga/dfe7eaf981884f6af1bc
+- https://github.com/sporto/elm-dropdown

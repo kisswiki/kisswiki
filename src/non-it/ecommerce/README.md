@@ -1,3 +1,4 @@
 - http://www.elevenbyte.com/blog/marketing/10-przykazan-sklepu-internetowego/
 - http://performance360.pl/dlaczego-twoj-e-sklep-upadnie/
 - http://forsal.pl/artykuly/997014,sklepy-internetowe-tona-w-dlugach-najwieksze-problemy-maja-firmy-z-allegro.html
+- click on image to buy http://pleenq.com/
