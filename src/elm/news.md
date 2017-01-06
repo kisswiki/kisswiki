@@ -1,3 +1,5 @@
+## Blogs
+
 - http://blog.jenkster.com/
 - https://medium.com/tag/elm
 - https://www.brianthicks.com/
@@ -12,3 +14,7 @@
 - https://medium.com/digital-times/using-elm-in-the-newsroom-d16fbf636a8e
 - https://blog.codecentric.de/en/tag/elm/
 - http://rundis.github.io/blog/
+
+## Podcasts
+
+- https://elmtown.github.io
