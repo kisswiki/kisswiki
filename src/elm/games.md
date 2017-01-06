@@ -76,3 +76,9 @@
 - https://github.com/krisajenkins/cardmatch
 - game of life https://github.com/eniac314/elmGol
 - https://github.com/maxsnew/Scramble
+
+## Tutorials
+
+- https://alpacaaa.net/blog/post/elm-rock-paper-scissors-beginner/
+- https://alpacaaa.net/blog/post/elm-memory-game-from-scratch/
+- https://alpacaaa.net/blog/post/elm-mastermind-game/
