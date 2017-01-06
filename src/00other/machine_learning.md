@@ -3,6 +3,8 @@
 - http://stackoverflow.com/documentation/tensorflow/topics
 - http://kevinhughes.ca/blog/tensor-kart
   - https://news.ycombinator.com/item?id=13317902
+- https://github.com/ZuzooVn/machine-learning-for-software-engineers
+- https://github.com/humphd/have-fun-with-machine-learning
 
 ## Generally about AI
 
