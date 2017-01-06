@@ -12,8 +12,6 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR && elm-make src/Main.elm --output=elm.js --debug && mv elm.js dist/elm.js
 ```
 
-Watchman will start service if it's not started yet.
-
 ```shell
 watchman watch `pwd`/src
 watchman trigger `pwd`/src elm-make '*.elm' -- sh `pwd`/elm-make.sh
@@ -26,3 +24,6 @@ watchman trigger-del `pwd`/src elm-make
 watchman shutdown-server
 ```
 
+Note: Watchman will start service if it's not started yet.
+
+Note: triggers persist after shutdown.
