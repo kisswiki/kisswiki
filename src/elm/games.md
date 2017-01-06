@@ -76,6 +76,7 @@
 - https://github.com/krisajenkins/cardmatch
 - game of life https://github.com/eniac314/elmGol
 - https://github.com/maxsnew/Scramble
+- https://github.com/nwjlyons/snake
 
 ## Tutorials
 
