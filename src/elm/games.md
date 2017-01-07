@@ -35,7 +35,7 @@
 - 404 Elm Street
   - https://github.com/zalando/elm-street-404
   - https://tech.zalando.de/blog/using-elm-to-create-a-fun-game-in-just-five-days
-  - http://unsoundscapes.com/slides/2016-04-06-creating-a-fun-game-with-elm
+  - http://unsoundscapes.com/slides/2016-10-13-creating-a-fun-game-with-elm
 - flatris
   - https://github.com/w0rm/elm-flatris
   - http://unsoundscapes.com/elm-flatris.html
