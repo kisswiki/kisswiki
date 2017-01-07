@@ -1,0 +1,2 @@
+- https://github.com/w0rm/elm-slice-show
+  - https://github.com/w0rm/creating-a-fun-game-with-elm
