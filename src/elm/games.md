@@ -79,6 +79,7 @@
   - http://stackoverflow.com/questions/39955312/elm-game-of-life-program-becomes-unresponsive-is-there-a-way-to-fail-gracefull
 - https://github.com/maxsnew/Scramble
 - https://github.com/nwjlyons/snake
+- https://github.com/w0rm/elm-mogee
 
 ## Tutorials
 
