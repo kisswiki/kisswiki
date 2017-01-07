@@ -9,3 +9,4 @@
 - https://github.com/evancz/elm-html/pull/81#issuecomment-145676200
   - http://krisajenkins.github.io/elm-signup-form/
 - "you do not add a value property on the input. Just let it do its own thing and track it internally. This means you cannot modify the field with value, but it should fix this issue" https://github.com/elm-lang/html/issues/62#issuecomment-234597348
+- Fix race condition in textfields https://github.com/debois/elm-mdl/issues/161
