@@ -1,11 +1,33 @@
 - [Make the introduction more streamlined](https://github.com/elm-lang/elm-lang.org/issues/509#issuecomment-171261155)
 - https://github.com/elm-community/elm-faq/blob/gh-pages/index.md
-- https://www.dailydrip.com/topics/elm
-- http://www.elmweekly.nl/
-- https://twitter.com/search?q=elmlang
 - https://learnxinyminutes.com/docs/elm/
 - http://exercism.io/languages/elm
   - https://github.com/exercism/xelm
+
+## Aggregators
+
+- https://twitter.com/search?q=elmlang
+- https://twitter.com/elmlang
+- http://elm-news.com/
+- http://www.elmweekly.nl/
+- https://www.dailydrip.com/topics/elm
+
+## Blogs
+
+- http://blog.jenkster.com/
+- https://medium.com/tag/elm
+- https://www.brianthicks.com/
+- https://becoming-functional.com
+- https://medium.com/@wintvelt
+- http://tech.noredink.com
+- https://medium.com/@dailydrip
+- http://sgillis.github.io/
+- http://simonh1000.github.io/blog/
+- https://medium.com/@ckoster22
+- https://medium.com/@cscalfani
+- https://medium.com/digital-times/using-elm-in-the-newsroom-d16fbf636a8e
+- https://blog.codecentric.de/en/tag/elm/
+- http://rundis.github.io/blog/
 
 ## videos
 
