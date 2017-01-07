@@ -1,0 +1,1 @@
+- Allow end-of-line comments https://github.com/avh4/elm-format/issues/162
