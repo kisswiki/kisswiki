@@ -4,5 +4,6 @@
 4. `(Model, Cmd Msg) = update (Msg Model)`
 5. `goto 2.`
 
+<br>
 
 - https://guide.elm-lang.org/architecture/effects/
