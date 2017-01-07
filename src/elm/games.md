@@ -75,6 +75,8 @@
 - https://github.com/krisajenkins/lunarlander/
 - https://github.com/krisajenkins/cardmatch
 - game of life https://github.com/eniac314/elmGol
+  - http://www.uminokirin.com/
+  - http://stackoverflow.com/questions/39955312/elm-game-of-life-program-becomes-unresponsive-is-there-a-way-to-fail-gracefull
 - https://github.com/maxsnew/Scramble
 - https://github.com/nwjlyons/snake
 
