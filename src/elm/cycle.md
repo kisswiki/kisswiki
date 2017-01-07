@@ -12,7 +12,6 @@ Msg = runtime Cmd Msg
 Html Msg = view Model
 Msg = runtime Cmd Msg
 (Model, Cmd Msg) = update Msg Model
-
 ```
 
 - https://guide.elm-lang.org/architecture/effects/
