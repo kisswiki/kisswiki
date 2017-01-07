@@ -82,6 +82,7 @@
 - https://github.com/nwjlyons/snake
 - https://github.com/w0rm/elm-mogee
   - http://unsoundscapes.com/slides/2016-05-10-mogee-or-how-i-fit-elm-in-a-64x64-grid/
+- https://github.com/w0rm/elm-nim
 
 ## Tutorials
 
