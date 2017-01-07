@@ -1,0 +1,4 @@
+- https://atom.io/packages/last-cursor-position
+- https://atom.io/packages/cursor-history
+- https://atom.io/packages/goto-last-edit
+- https://discuss.atom.io/t/jump-to-last-edit-location-does-atom-support-this/10289/7
