@@ -9,6 +9,7 @@
 
 ## videos
 
+- Codevember 2016 https://www.youtube.com/playlist?list=PLDA4wlOlLJvXAEsJDje4hdLazsihZiQNf
 - [Evan Czaplicki - Let's be mainstream! User focused design in Elm](https://youtu.be/oYk8CKH7OhE)
 - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64191291)
 - ["Controlling Time and Space: understanding the many formulations of FRP" by Evan Czaplicki](https://youtu.be/Agu6jipKfYw)
