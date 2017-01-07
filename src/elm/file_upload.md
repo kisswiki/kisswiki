@@ -10,3 +10,4 @@
 - https://www.reddit.com/r/elm/comments/4926am/uploading_files_through_elmhttp/
 - http://elm-ui.info/documentation/guides/handling-files
 - http://stackoverflow.com/questions/41332186/how-to-trigger-click-event-in-elm
+- http://stackoverflow.com/questions/41511711/how-to-make-a-form-able-to-upload-files-in-elm
