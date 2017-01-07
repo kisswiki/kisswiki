@@ -22,7 +22,7 @@
 - https://becoming-functional.com/testing-json-decoders-in-elm-39f613a98895
 - https://medium.com/@zenitram.oiram/a-beginners-guide-to-json-and-elm-c4a0c7e20002
 - https://medium.com/@kkruups/elm-insights-c74047637206
-- http://stackoverflow.com/questions/41465430/is-it-possible-to-conditionally-decode-certain-fields-using-elm-decode-pipeline
+- decode an API response in which one of the fields value (category) would determine how to decode another field (configuration) using different sub-decoders http://stackoverflow.com/questions/41465430/is-it-possible-to-conditionally-decode-certain-fields-using-elm-decode-pipeline
 
 > Evan: checking out this project https://github.com/NoRedInk/elm-decode-pipeline. That is a nice approach for when things get big.
 > -- https://www.reddit.com/r/elm/comments/4ulle5/needing_to_decode_large_json_structures/
