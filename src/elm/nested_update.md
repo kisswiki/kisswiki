@@ -1,1 +1,5 @@
 - http://stackoverflow.com/questions/38545127/how-to-make-a-generic-update-function-for-a-nested-record-in-elm#/
+
+>nested record updates are not allowed
+>
+>-- https://github.com/elm-lang/error-message-catalog/issues/159
