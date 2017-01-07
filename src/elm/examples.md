@@ -7,3 +7,4 @@
   - is there a reason you decided to return a 3-tuple with Maybe Date, instead of providing a way to query the date picker for the currently selected date? https://www.reddit.com/r/elm/comments/4m0iby/ann_elmdatepicker_a_reusable_date_picker_component/
 - An interactive web UI for Open API (2.0) specs https://github.com/vorce/lagun
 - A small app that fetches Github users and renders them to a page. Exercise in AJAX with Elm. https://github.com/splodingsocks/elm-example-ajax
+- https://github.com/danyx23/elm-movie-domino
