@@ -34,7 +34,7 @@
   - http://www.playtacks.com/
 - 404 Elm Street
   - https://github.com/zalando/elm-street-404
-  - https://tech.zalando.de/blog/using-elm-to-create-a-fun-game-in-just-five-days/
+  - https://tech.zalando.de/blog/using-elm-to-create-a-fun-game-in-just-five-days
   - http://unsoundscapes.com/slides/2016-04-06-creating-a-fun-game-with-elm
 - flatris
   - https://github.com/w0rm/elm-flatris
