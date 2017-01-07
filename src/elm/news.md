@@ -1,5 +1,6 @@
 ## Aggregators
 
+- https://twitter.com/elmlang
 - http://elm-news.com/
 - http://www.elmweekly.nl/
 
