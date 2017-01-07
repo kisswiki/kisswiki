@@ -15,3 +15,4 @@
 - for linter to work with src directory:
   1. Without `Always Compile Main`: set `Work Directory` to `.`
   2. With `Always Compile Main`: `Ctrl+Shift+P -> Linter Elm Make: Set Main Paths: src/Main.elm`. It will create new file `linter-elm-make.json`.
+- https://github.com/rofrol/linter-elm-make-tools
