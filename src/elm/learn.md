@@ -36,6 +36,7 @@
 - https://egghead.io/technologies/elm#all-lesson-list
 - build a portion of a Realtime Basketball Scorekeeping App http://courses.knowthen.com/p/elm-for-beginners
 - build a cool realtime Race Leaderboard app to keep track of runners in racing events like Marathons and 10K's - 20 USD http://courses.knowthen.com/p/elm-beyond-the-basics
+  - https://github.com/knowthen/elm-beyond-basics
 
 ## books
 
