@@ -2,7 +2,8 @@
 2. `Html Msg = view Model`
 3. `Msg = runtime (Cmd Msg)`
 4. `(Model, Cmd Msg) = update Msg Model`
-5. `go to 2.`
+5. `Sub Msg = subscriptions Model`
+6. `go to 2.`
 
 <br>
 
