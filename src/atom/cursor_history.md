@@ -2,4 +2,5 @@
 - https://atom.io/packages/cursor-history
 - https://atom.io/packages/navigation-history
 - https://atom.io/packages/goto-last-edit
+- https://atom.io/packages/history-tracker
 - https://discuss.atom.io/t/jump-to-last-edit-location-does-atom-support-this/10289/7
