@@ -7,3 +7,4 @@
 <br>
 
 - https://guide.elm-lang.org/architecture/effects/
+- https://github.com/w0rm/creating-a-fun-game-with-elm/blob/master/assets/the-elm-architecture3.jpg
