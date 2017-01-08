@@ -2,3 +2,4 @@
 - https://github.com/eeue56/elm-server-side-renderer
 - https://github.com/eeue56/elm-static-html
 - https://github.com/CaronaBoard/caronaboard/pull/18
+  - Implemented with https://www.npmjs.com/package/elm-static-html
