@@ -114,10 +114,13 @@
 
 ## podcasts
 
+
 - https://devchat.tv/ruby-rogues/212-rr-elm-with-richard-feldman-and-evan-czaplicki
+- https://soundcloud.com/elixirfountain/elixir-fountain-evan-czaplicki-2016-07-11
 
 ## workshops
 
+- https://elmtown.github.io/
 - https://github.com/rtfeldman/lambdaconf-2015-elm-workshop
   - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64191291)
 - https://github.com/ohanhi/hacksess-elm
