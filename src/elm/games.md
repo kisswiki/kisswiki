@@ -84,7 +84,7 @@
   - http://unsoundscapes.com/slides/2016-05-10-mogee-or-how-i-fit-elm-in-a-64x64-grid/
 - https://github.com/w0rm/elm-nim
 - https://github.com/mxgrn/pairs.one
-- https://github.com/abadi199/elman
+- pacman WIP https://github.com/abadi199/elman
 
 ## Tutorials
 
