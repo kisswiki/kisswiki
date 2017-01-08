@@ -14,3 +14,4 @@
 - https://github.com/prikhi/bodyweight-client
 - https://github.com/eskimoblood/elm-wallpaper-editor
 - https://github.com/CaronaBoard/caronaboard
+- ElmPeerTweet relies on BitTorrent's DHT network, a vastly used distributed network, to send tweets to anyone listening https://github.com/rogeriochaves/elm-peer-tweet
