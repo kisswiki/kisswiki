@@ -1,3 +1,4 @@
+- http://package.elm-lang.org/packages/abadi199/elm-input-extra/latest/Dropdown
 - https://github.com/wintvelt/elm-dropdown/
   - https://medium.com/@wintvelt/a-reusable-dropdown-in-elm-part-1-d7ac2d106f13
   - https://medium.com/@wintvelt/a-reusable-dropdown-in-elm-part-2-9659ef988441
