@@ -4,6 +4,7 @@
 
 ## Updating input fields without losing the cursor position
 
+- Expanding the Dom API https://groups.google.com/forum/#!msg/elm-dev/ThkWudq7SF0/yU3431UmCwAJ
 - https://groups.google.com/forum/#!topic/elm-discuss/I2JleY8bD7c
 - http://stackoverflow.com/questions/14508707/updating-an-inputs-value-without-losing-cursor-position/14508837#14508837
 - https://github.com/evancz/elm-html/pull/81#issuecomment-145676200
