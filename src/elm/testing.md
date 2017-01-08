@@ -2,3 +2,4 @@
 - Elm test runner https://github.com/benansell/lobo
 - https://github.com/rogeriochaves/elm-test-bdd-style
 - https://github.com/avh4/elm-testable
+- https://github.com/rtfeldman/node-test-runner
