@@ -3,3 +3,4 @@
 - https://github.com/szubtsovskiy/elm-infinite-scroll
 - https://github.com/abrykajlo/elm-scroll
 - https://github.com/justinwoo/elm-scroll-table
+- https://github.com/chrisbuttery/elm-scroll-progress
