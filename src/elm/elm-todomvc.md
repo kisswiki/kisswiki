@@ -2,3 +2,4 @@
 - use union for visibility
   - https://github.com/evancz/elm-todomvc/issues/55#issuecomment-260190725
   - https://github.com/mez/elm-todo/blob/master/Todo.elm#L198-L207
+- https://github.com/toburger/elm-todomvc
