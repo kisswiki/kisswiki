@@ -1,2 +1,3 @@
 - idiomatic use of elm-svg https://github.com/etaque/tacks/tree/v2/client/src/Game/Render
 - My Tangram program is built with Elm 0.17 and shows drag-and-drop with SVG shapes http://fredcy.github.io/
+- http://package.elm-lang.org/packages/elm-community/svg-extra
