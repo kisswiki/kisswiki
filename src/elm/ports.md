@@ -1,6 +1,6 @@
 - http://stackoverflow.com/documentation/elm/2200/ports-js-interop
 - http://stackoverflow.com/questions/37999504/how-to-pass-union-types-through-elm-ports
-- example http://stackoverflow.com/a/41511220/588759
+- example http://stackoverflow.com/questions/40929154/cmd-to-simply-go-to-a-new-webpage-in-elm/41511220#41511220
 
 ## About
 
