@@ -214,6 +214,7 @@ msg2 = """
 ## handle arbitrary json
 
 - general purpose decoder http://stackoverflow.com/questions/40825493/elm-decoding-unknown-json-structure
+  - https://www.reddit.com/r/elm/comments/5mswys/how_can_a_turn_json_of_unknown_structure_into_a/
 
 >Coming from other languages, even back-end languages, decoding JSON just isn't a thing. Even on the back-end, I will setup a reflection-based deserializer with general error handling (e.g. Newtonsoft for .NET) and I'm done. The ongoing work is just maintaining the data types, which I must do anyway. The back-end deserializer does take some initial testing to work out the kinks, but that work has an end after which there is no ongoing maintenance.
 >
