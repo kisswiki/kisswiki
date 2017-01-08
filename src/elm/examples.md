@@ -10,3 +10,5 @@
 - https://github.com/danyx23/elm-movie-domino- https://github.com/rtfeldman/dreamwriter
 - https://github.com/matthieu-beteille/gipher
 - https://github.com/Gizra/elm-hedley
+- https://github.com/prikhi/RSSonate
+- https://github.com/prikhi/bodyweight-client
