@@ -12,3 +12,9 @@
 - Fix race condition in textfields https://github.com/debois/elm-mdl/issues/161
 - https://gist.github.com/rtfeldman/5f015adbdfbba541c7e7e1409b6efeef#gistcomment-1831492
 - https://gist.github.com/rtfeldman/5f015adbdfbba541c7e7e1409b6efeef#gistcomment-1832260
+
+>Our production experience with value has been that it's irreparably broken. It has such nasty and unfixable race condition problems, our best practice has become to never use it and instead only to ever use defaultValue.
+>
+>I later talked about it with a bunch of people and concluded that defaultValue was the least bad alternative that actually solved the problem
+>
+>-- https://gist.github.com/rtfeldman/5f015adbdfbba541c7e7e1409b6efeef
