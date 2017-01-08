@@ -1,3 +1,4 @@
+- http://faq.elm-community.org/#how-can-i-write-debugging-information-to-the-console
 - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
 - it improves the time traveling debugger created by Laszlo Pandy and Evan Czaplicki, turning it into a practical development tool [source](http://elm-lang.org/blog/time-travel-made-easy)
 - [yt > Bret Victor style reactive debugging ‒ Laszlo Pandy](https://youtu.be/lK0vph1zR8s)
