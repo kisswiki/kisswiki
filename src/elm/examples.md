@@ -12,3 +12,4 @@
 - https://github.com/Gizra/elm-hedley
 - https://github.com/prikhi/RSSonate
 - https://github.com/prikhi/bodyweight-client
+- https://github.com/eskimoblood/elm-wallpaper-editor
