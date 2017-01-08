@@ -5,7 +5,7 @@
   - https://news.ycombinator.com/item?id=13317902
 - https://github.com/ZuzooVn/machine-learning-for-software-engineers
 - https://github.com/humphd/have-fun-with-machine-learning
-- https://github.com/brilee/MuGo
+- Replicating AlphaGo's architecture in a readable manner https://github.com/brilee/MuGo
 
 ## Generally about AI
 
