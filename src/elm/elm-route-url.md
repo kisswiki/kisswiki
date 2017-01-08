@@ -3,3 +3,4 @@
 - https://medium.com/@whatcomesafter/navigation-in-elm-0-17-with-elm-route-url-a921f393f052
 - https://github.com/rofrol/elm-route-url/tree/simplify/examples/elm-architecture-tutorial
 - http://www.gizra.com/content/thinking-choosing-elm/#url-change-is-not-routing
+- https://github.com/pzingg/elm-navigation-extra
