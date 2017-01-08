@@ -157,6 +157,8 @@ type alias Model =
   , accessToken : AccessToken
   }
 
+-- andThen : (a -> Decoder b) -> Decoder a -> Decoder b
+
 modelDecoder : Decoder Model
 modelDecoder =
   (field "status" int) |> andThen modelDecoderByStatus
