@@ -1,4 +1,5 @@
 - http://stackoverflow.com/documentation/elm/2200/ports-js-interop
+- http://stackoverflow.com/questions/37999504/how-to-pass-union-types-through-elm-ports
 
 ## About
 
