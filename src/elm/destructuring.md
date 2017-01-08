@@ -1,2 +1,3 @@
 - https://gist.github.com/yang-wei/4f563fbf81ff843e8b1e
 - Deconstruct union `(Person p1Record) = p1` http://stackoverflow.com/questions/31358764/how-to-access-fields-of-a-union-in-elm
+- http://stackoverflow.com/questions/41528657/function-argument-with-a-record-destruct-which-is-a-single-value-union-type-and
