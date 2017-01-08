@@ -38,6 +38,7 @@
 - Find your primal posture and sit without back pain: Esther Gokhale at TEDxStanford https://youtu.be/k1luKAS_Xcg
 - http://www.frazpc.pl/b/126129
 - http://tallonzektimes.org/bb/index.php?topic=48836.0
+- better than standing desk https://twitter.com/mxgrn/status/791239714292596736
 
 ## Klęcznik
 
