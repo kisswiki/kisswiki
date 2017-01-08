@@ -18,4 +18,13 @@
 >I later talked about it with a bunch of people and concluded that defaultValue was the least bad alternative that actually solved the problem
 >
 >In my experience (limited to the single browser engine) issue is not actually related to the race conditions and specifically blamed animation frames. But rather issue is related to imperfect modeling of the state and than unintentional mutation of DOM state. More specifically most of the code I've seen dealing with input fields does not model selection range and by consequence cursor position. It may not be apparent but when you do not model selection what you end up doing is actually modeling selection as being empty at the end of the input.value. So every time input.value is set selection state get's mutated and in a way that messes up input. In my experience tracking selection and modeling it in the state and then updating selection along with value resolved all the issues that seemed like race conditions. Better yet unlike react we kept animation frame based render loop which is not the issue. If your model state matches actual DOM state then later delayed DOM patches are NoOp and there for don't interfere with input value changes at all. I am happy to share more details in a different thread if there is an interest.
+>
 >-- https://gist.github.com/rtfeldman/5f015adbdfbba541c7e7e1409b6efeef
+
+<br>
+
+>I believe the problem observed in the examples is with a selection instead as when you modify the input.value it changes input.selectionStart and input.selectionEnd to the end of the value. So what you you observe is when you change cursor position your model and actual DOM state gets out of sync as a side effect of actually not keeping track of selection ranges.
+>
+>In the project I work we resolved similar issues with input.value by starting to model selection in the input along with value. That way when you update a value you also update cursor position back to it's original and there for avoid getting out of sync with actual DOM. Please note that there are many crucial details on when to update selection and not to update it when it already matches the selection in the input to avoid other races, but given the interest I'm happy to share more details.
+>
+>-- https://github.com/evancz/elm-html/pull/81#issuecomment-236994878
