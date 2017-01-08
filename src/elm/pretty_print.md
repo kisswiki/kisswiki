@@ -1,1 +1,2 @@
 - https://gist.github.com/Fresheyeball/94e25fcefc517a74382e55283eec9093
+- http://stackoverflow.com/questions/40517852/elm-how-to-pretty-print-the-model-in-the-browser
