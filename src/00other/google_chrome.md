@@ -1,3 +1,4 @@
+- https://developers.google.com/web/updates/2016/
 - http://superuser.com/questions/184815/show-tabs-in-chrome-full-screen-mode/1047671#1047671
 
 ## extensions
