@@ -1,3 +1,4 @@
 - validation
   - http://tech.noredink.com/post/129641182738/building-a-live-validated-signup-form-in-elm
+  - https://github.com/rtfeldman/elm-validate
 - https://github.com/etaque/elm-simple-form
