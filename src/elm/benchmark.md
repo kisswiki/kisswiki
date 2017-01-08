@@ -1,1 +1,2 @@
 - https://github.com/fredcy/elm-benchmark
+  - https://github.com/bestiejs/benchmark.js
