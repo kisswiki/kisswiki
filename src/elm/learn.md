@@ -33,6 +33,7 @@
 
 - https://github.com/exercism/xelm
 - https://github.com/Janjuks/AoC2016
+  - https://adventofcode.com/2016/day/1
 
 ## videos
 
