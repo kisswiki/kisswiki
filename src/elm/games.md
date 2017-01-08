@@ -85,6 +85,7 @@
 - https://github.com/w0rm/elm-nim
 - https://github.com/mxgrn/pairs.one
 - pacman WIP https://github.com/abadi199/elman
+- https://github.com/TheSeamau5/elm-checkerboardgrid-tutorial
 
 ## Tutorials
 
