@@ -1,0 +1,2 @@
+- http://package.elm-lang.org/help/design-guidelines
+- https://www.reddit.com/r/elm/comments/5hk8i9/keep_tags_and_record_constructors_secret/
