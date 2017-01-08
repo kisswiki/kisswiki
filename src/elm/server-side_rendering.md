@@ -1,3 +1,4 @@
 - https://github.com/rupertlssmith/elm-java
 - https://github.com/eeue56/elm-server-side-renderer
 - https://github.com/eeue56/elm-static-html
+- https://github.com/CaronaBoard/caronaboard/pull/18
