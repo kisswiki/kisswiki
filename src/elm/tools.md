@@ -1,1 +1,2 @@
 - https://github.com/NoRedInk/elm-ops-tooling
+- https://github.com/fredcy/elm-tools
