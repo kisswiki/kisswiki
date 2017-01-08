@@ -6,3 +6,9 @@
 >values which aren't dependant on another value in the same scope get processed bottom-up. When a value relies on another value within the same scope, it is handled separately and put at the bottom.
 >
 >-- http://stackoverflow.com/questions/33476943/why-debug-log-prints-out-in-reversed-order-in-elm
+
+## Pretty print
+
+- https://gist.github.com/Fresheyeball/94e25fcefc517a74382e55283eec9093
+  - How to use native code http://stackoverflow.com/questions/40929154/cmd-to-simply-go-to-a-new-webpage-in-elm/41308553#41308553
+- http://stackoverflow.com/questions/40517852/elm-how-to-pretty-print-the-model-in-the-browser
