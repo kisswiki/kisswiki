@@ -29,6 +29,11 @@
 - https://blog.codecentric.de/en/tag/elm/
 - http://rundis.github.io/blog/
 
+## Exercises
+
+- https://github.com/exercism/xelm
+- https://github.com/Janjuks/AoC2016
+
 ## videos
 
 - Codevember 2016 https://www.youtube.com/playlist?list=PLDA4wlOlLJvXAEsJDje4hdLazsihZiQNf
@@ -103,7 +108,6 @@
 - how to get started with Elm by integrating it with your exisiting Javascript framework http://tech.noredink.com/post/126978281075/walkthrough-introducing-elm-to-a-js-web-app
 - https://github.com/madsflensted/connect-four
 - https://github.com/madsflensted/elm-cph-signals
-- https://github.com/exercism/xelm
 - http://blog.jessitron.com/2015/11/getting-off-ground-in-elm-project-setup.html
 - http://elm-lang.org/guide/interop
 - https://github.com/grzegorzbalcerek/elm-by-example
