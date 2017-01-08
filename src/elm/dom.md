@@ -1,4 +1,6 @@
 
+- Event onWithOptions doesn't allow selective behaviour on events https://github.com/elm-lang/virtual-dom/issues/18
+
 ## Updating input fields without losing the cursor position
 
 - "Virtual DOM is a great foundation, but some DOM interactions - for example, setting and clearing focus - don't play well with Virtual DOM" https://groups.google.com/forum/#!msg/elm-dev/ThkWudq7SF0/yU3431UmCwAJ
