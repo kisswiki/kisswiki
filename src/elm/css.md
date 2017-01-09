@@ -1,5 +1,6 @@
 - State of CSS in Elm https://groups.google.com/forum/#!topic/elm-discuss/AC6cqdeKDOs
 - learn https://flukeout.github.io/
+- https://github.com/rtfeldman/elm-css-helpers
 
 ## External CSS
 
