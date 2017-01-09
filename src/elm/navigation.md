@@ -1,2 +1,3 @@
 - https://github.com/sporto/hop
 - https://chriswellswood.github.io/#blog/elm-static-site-p1
+- https://groups.google.com/forum/#!topic/elm-discuss/yYYNzUao9aw
