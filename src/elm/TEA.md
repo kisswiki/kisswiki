@@ -10,3 +10,7 @@
 - https://guide.elm-lang.org/architecture/effects/
 - https://github.com/w0rm/creating-a-fun-game-with-elm/blob/master/assets/the-elm-architecture1.jpg
 - https://github.com/w0rm/creating-a-fun-game-with-elm/blob/master/assets/the-elm-architecture3.jpg
+
+>Nowadays I think more of branches more in terms of what happens in the outside world. “User clicks add or clicks delete, so that’s (only) 2 branches in my update. In both cases I need to reset the same stuff in my model, so maybe I should extract that bit into a separate function”.
+>
+>-- https://medium.com/@wintvelt/mental-inefficiency-is-a-great-term-to-describe-the-extra-run-time-cycle-16c60a6b2ccf
