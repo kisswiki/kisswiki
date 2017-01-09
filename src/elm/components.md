@@ -4,7 +4,7 @@
 - https://github.com/panosoft/elm-parent-child-update
 
 >In Elm, thinking in terms of "components" is a common and totally understandable mistake. :)
-Elm intentionally does not have a component system, because that idea is counterproductive in Elm. The official guide makes this explicit, and talks about what to do instead of thinking in terms of components:
+Elm intentionally does not have a component system, because that idea is counterproductive in Elm. The official guide makes this explicit, and talks about what to do instead of thinking in terms of components: https://guide.elm-lang.org/reuse/
 >
 >You mentioned earlier that your definition of "component" in Elm is something that has its own Model, Msg, and update.
 >
@@ -13,8 +13,6 @@ Elm intentionally does not have a component system, because that idea is counter
 >Maybe I needed a separate Msg type...and maybe I didn't. My code would have been simpler if I didn't impose that communication overhead on myself, and maybe I didn't need to. Maybe I needed a separate update function and maybe I didn't. Maybe I didn't even need a separate model; maybe a view function would have sufficed in this case.
 >
 >Adopting the mindset that it's fine to introduce the maximum amount of complexity possible, whenever I want to logically separate parts of my UI, is counterproductive. It's better to do the opposite: to introduce the minimum amount of complexity necessary when I want to logically separate parts of my UI. :)
->
->https://guide.elm-lang.org/reuse/
 >
 >-- https://www.reddit.com/r/elm/comments/5jd2xn/how_to_structure_elm_with_multiple_models/dbkgs2h/
 
