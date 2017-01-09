@@ -3,21 +3,6 @@
 - How to do components https://www.youtube.com/watch?v=KSuCYUqY058
 - https://github.com/panosoft/elm-parent-child-update
 
->In Elm, thinking in terms of "components" is a common and totally understandable mistake. :)
-Elm intentionally does not have a component system, because that idea is counterproductive in Elm. The official guide makes this explicit, and talks about what to do instead of thinking in terms of components: https://guide.elm-lang.org/reuse/
->
->You mentioned earlier that your definition of "component" in Elm is something that has its own Model, Msg, and update.
->
->If I think "here is a part of my UI that is logically separate from other parts, so I'll give it its own Model, Msg, and update" then I am either (worst case) making my code more complex than it needs to be, or (best case) making it exactly as complex as I would have if I'd never been thinking in terms of "components." There's no scenario where I come out ahead.
->
->Maybe I needed a separate Msg type...and maybe I didn't. My code would have been simpler if I didn't impose that communication overhead on myself, and maybe I didn't need to. Maybe I needed a separate update function and maybe I didn't. Maybe I didn't even need a separate model; maybe a view function would have sufficed in this case.
->
->Adopting the mindset that it's fine to introduce the maximum amount of complexity possible, whenever I want to logically separate parts of my UI, is counterproductive. It's better to do the opposite: to introduce the minimum amount of complexity necessary when I want to logically separate parts of my UI. :)
->
->-- https://www.reddit.com/r/elm/comments/5jd2xn/how_to_structure_elm_with_multiple_models/dbkgs2h/
-
-<br>
-
 > elm community is moving away from "components" structure (each with its own Model. update, view) like in Brian Hick's blog post). Instead, the common practice is to have a "flat" structure. It is explained well here in the official guide https://guide.elm-lang.org/reuse/. My favorite (bigger) example is the time tracker SPA https://github.com/knewter/time-tracker, which also includes routing (but not HOP)
 > -- http://stackoverflow.com/questions/40343959/route-to-another-page-from-a-sub-page#comment67966169_40356258
 
