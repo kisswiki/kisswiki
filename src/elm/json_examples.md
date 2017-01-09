@@ -22,3 +22,39 @@ user =
 
 - from dailydrip email
 - http://package.elm-lang.org/packages/NoRedInk/elm-decode-pipeline/latest
+
+## mutually recursive decoders
+
+```elm
+type Question
+    = Question Int (Maybe Answer)
+
+
+type Answer
+    = Answer Int (Maybe Question)
+
+
+test =
+    """{"value":4,"nested":{"value":3,"nested":null}}"""
+
+
+andMap : Decoder a -> Decoder (a -> b) -> Decoder b
+andMap =
+    flip (Decode.map2 (<|))
+
+
+question : Decoder Question
+question =
+    Decode.succeed Question
+        |> andMap (field "value" int)
+        |> andMap (field "nested" (nullable (lazy (\_ -> answer))))
+
+
+answer : Decoder Answer
+answer =
+    Decode.succeed Answer
+        |> andMap (field "value" int)
+        |> andMap (field "nested" (nullable (lazy (\_ -> question))))
+```
+
+from https://elmlang.slack.com/archives/general/p1483975350012245
