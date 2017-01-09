@@ -3,6 +3,15 @@
 - How to do components https://www.youtube.com/watch?v=KSuCYUqY058
 - https://github.com/panosoft/elm-parent-child-update
 
+>In Elm, thinking in terms of "components" is a common and totally understandable mistake. :)
+Elm intentionally does not have a component system, because that idea is counterproductive in Elm. The official guide makes this explicit, and talks about what to do instead of thinking in terms of components:
+>
+>https://guide.elm-lang.org/reuse/
+>
+>-- https://www.reddit.com/r/elm/comments/5jd2xn/how_to_structure_elm_with_multiple_models/dbkgs2h/
+
+<br>
+
 > elm community is moving away from "components" structure (each with its own Model. update, view) like in Brian Hick's blog post). Instead, the common practice is to have a "flat" structure. It is explained well here in the official guide https://guide.elm-lang.org/reuse/. My favorite (bigger) example is the time tracker SPA https://github.com/knewter/time-tracker, which also includes routing (but not HOP)
 > -- http://stackoverflow.com/questions/40343959/route-to-another-page-from-a-sub-page#comment67966169_40356258
 
