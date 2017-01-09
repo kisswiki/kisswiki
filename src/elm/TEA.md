@@ -14,3 +14,22 @@
 >Nowadays I think more of branches more in terms of what happens in the outside world. “User clicks add or clicks delete, so that’s (only) 2 branches in my update. In both cases I need to reset the same stuff in my model, so maybe I should extract that bit into a separate function”.
 >
 >-- https://medium.com/@wintvelt/mental-inefficiency-is-a-great-term-to-describe-the-extra-run-time-cycle-16c60a6b2ccf
+
+<br>
+
+```
+addCmds : List (Cmd msg) -> Model -> ( Model, Cmd msg )
+addCmds cmds model =
+    ( model, Cmd.batch cmds )
+    
+request : Model -> ContactsFilterState -> ( Model, Cmd Msg )
+request model contactsFilterState =
+    model
+        |> setContactElements []
+        |> setContactCount 0
+        |> setContactStartIndex 1
+        |> setContactFilterState contactsFilterState
+        |> addCmds [ getContacts contactsFilterState ]
+```
+
+This makes my code really clean and consistent and gets rid of the “bang” operator completely.
