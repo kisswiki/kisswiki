@@ -1,0 +1,2 @@
+- https://news.ycombinator.com/item?id=9280058
+- http://blog.arkency.com/2016/02/how-and-why-should-you-use-json-api-in-your-rails-api/
