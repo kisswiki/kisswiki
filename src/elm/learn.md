@@ -38,6 +38,7 @@
 - https://github.com/Janjuks/AoC2016
   - https://adventofcode.com/2016/day/1
 - https://github.com/gustavoguichard/elm-cycle-challenge
+- https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/
 
 ## videos
 
