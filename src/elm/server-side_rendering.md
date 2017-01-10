@@ -24,3 +24,5 @@ The login button is in elm
 it's loaded in the way I suggested
 
 jenmei: We've benchmarked the time … it does matter unfortunately.
+
+listrophy: you could preload the data with flags. that would remove a secondary request/response on load
