@@ -8,6 +8,10 @@
 >
 >-- http://stackoverflow.com/questions/33476943/why-debug-log-prints-out-in-reversed-order-in-elm
 
+## Google Chrome DevTool
+
+- https://github.com/jinjor/elm-devtool
+
 ## Resize message panel
 
 http://stackoverflow.com/questions/41555736/elm-debugger-sidebar-is-too-small-how-to-extend-it/41572246#41572246
