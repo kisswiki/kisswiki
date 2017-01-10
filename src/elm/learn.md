@@ -35,6 +35,7 @@
 ## Exercises
 
 - https://github.com/exercism/xelm
+  - leap year https://twitter.com/gabrielelana/status/814887972327800833
 - https://github.com/Janjuks/AoC2016
   - https://adventofcode.com/2016/day/1
 - https://github.com/gustavoguichard/elm-cycle-challenge
