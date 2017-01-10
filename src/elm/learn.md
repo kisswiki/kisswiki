@@ -11,6 +11,8 @@
 - http://elm-news.com/
 - http://www.elmweekly.nl/
 - https://www.dailydrip.com/topics/elm
+- https://groups.google.com/forum/#!forum/elm-dev
+  - Read more about that before posting! https://groups.google.com/forum/#!msg/elm-dev/oZ3xW_nMPNo/0y8j-N8HCQAJ
 
 ## Blogs
 
