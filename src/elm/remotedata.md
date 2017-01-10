@@ -19,3 +19,5 @@ authResponse =
         , authStateChanged (maybe NotAsked Success)
         ]
 ```
+
+https://elmlang.slack.com/archives/general/p1484067654012705
