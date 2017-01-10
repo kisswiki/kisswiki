@@ -22,3 +22,5 @@ check out this: http://noredink.com/
 The login button is in elm
 
 it's loaded in the way I suggested
+
+jenmei: We've benchmarked the time … it does matter unfortunately.
