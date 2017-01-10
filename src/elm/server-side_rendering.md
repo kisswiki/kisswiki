@@ -7,6 +7,8 @@
 
 ## Update
 
+https://elmlang.slack.com/archives/general/p1484077838012826
+
 jenmei: I see that server  side rendering doesn't seem to be an issue. What's at issue is rendering server side in such a way as to compatible w/ virtual dom updates. E.g. render something on the server that can be updated (instead of replaced) by the Elm app that runs on the browser.
 
 eeue56: when elm is bootstrapped, just have it render into `elm-host` and swap the real dom out for the virtual one
@@ -26,3 +28,11 @@ it's loaded in the way I suggested
 jenmei: We've benchmarked the time … it does matter unfortunately.
 
 listrophy: you could preload the data with flags. that would remove a secondary request/response on load
+
+```javascript
+// in index.html
+var data = <%= render_data_from_server %>;
+Elm.MyApp.fullscreen(data);
+```
+
+it'd still need the Elm-generated JS to do a bunch of work, but you wouldn't have to perform an XHR after page load
