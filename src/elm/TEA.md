@@ -34,6 +34,8 @@ request model contactsFilterState =
 
 This makes my code really clean and consistent and gets rid of the “bang” operator completely.
 
+- https://medium.com/@billperegoy/i-also-added-another-function-ad59fa2e3ad3#.y4jji4rk8
+
 ## toList
 
 Might be helpful:
