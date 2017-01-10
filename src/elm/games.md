@@ -20,7 +20,6 @@
 - https://github.com/grzegorzbalcerek/chess-elm
 - https://github.com/Lopi/HackMan
 - https://github.com/bamboo/take-the-blue-pills
-
 - snake
   - http://elm-by-example.org/chapter14snakerevisited.html
   - http://www.elmfiddle.io/view/ciohidiwb0000ittvijce7hy5
@@ -86,9 +85,11 @@
 - https://github.com/mxgrn/pairs.one
 - pacman WIP https://github.com/abadi199/elman
 - https://github.com/TheSeamau5/elm-checkerboardgrid-tutorial
+- https://github.com/jamonholmgren/rocket-elm
 
 ## Tutorials
 
 - https://alpacaaa.net/blog/post/elm-rock-paper-scissors-beginner/
 - https://alpacaaa.net/blog/post/elm-memory-game-from-scratch/
 - https://alpacaaa.net/blog/post/elm-mastermind-game/
+- Elm pathfinding demo https://github.com/jamonholmgren/path 
