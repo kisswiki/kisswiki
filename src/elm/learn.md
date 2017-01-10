@@ -39,6 +39,7 @@
   - https://adventofcode.com/2016/day/1
 - https://github.com/gustavoguichard/elm-cycle-challenge
 - https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/
+  - https://github.com/mukeshsoni/elm-99-problems-for-frolic
 
 ## videos
 
