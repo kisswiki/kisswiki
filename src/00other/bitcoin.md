@@ -6,4 +6,8 @@
 
 >The blockchain is a big spreadsheet in the cloud that anyone can use to keep track of who owns what. Bitcoins are simply an instrument for which you can record a transaction.
 >
+>For money to be effective it needs to be counterfeit-proof and it should be fungible. In the age of the internet, it should be secure, and you should be able to transact with it instantly.
+>
+>Bitcoin — which is the most popular digital money — has all of these properties and more. In fact, by using the blockchain as its core technology, Bitcoin has fundamentally altered our relationship to value.
+>
 >-- https://toa.life/forget-self-driving-cars-make-way-for-self-paying-cars-d41858734cf
