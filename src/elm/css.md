@@ -1,6 +1,8 @@
 - State of CSS in Elm https://groups.google.com/forum/#!topic/elm-discuss/AC6cqdeKDOs
 - learn https://flukeout.github.io/
 - https://github.com/rtfeldman/elm-css
+  - define custome property in elm-css http://package.elm-lang.org/packages/rtfeldman/elm-css/latest/Css#property
+
 - https://github.com/rtfeldman/elm-css-helpers
 
 ## Example
