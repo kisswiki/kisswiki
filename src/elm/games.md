@@ -7,6 +7,7 @@
 - Elm pathfinding demo https://github.com/jamonholmgren/path 
 - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_cl one_in_elm/
 - https://www.reddit.com/r/elm/comments/401448/using_elm_to_create_a_fun_game_in_just_five_days/
+- http://ohanhi.github.io/base-for-game-elm-017.html
 
 ## Games
 - https://github.com/avh4/elm-mario
@@ -72,10 +73,8 @@
 - elmsteroids
   - http://yupferris.github.io/elmsteroids/
   - https://github.com/yupferris/elmsteroids
-- http://ohanhi.github.io/base-for-game-elm-017.html
 - https://github.com/krisajenkins/transcodegame
 - https://github.com/Zinggi/elm-2d-game
-- https://ohanhi.github.io/base-for-game-elm-017.html
 - https://github.com/martimatix/sweet-sweet-friction/
 - https://github.com/cabaret/elm-supercrypt
 - https://github.com/krisajenkins/wireworld
