@@ -42,6 +42,17 @@
 - https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/
   - https://github.com/mukeshsoni/elm-99-problems-for-frolic
 
+## workshops
+
+- https://github.com/rtfeldman/lambdaconf-2015-elm-workshop
+  - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64191291)
+- https://github.com/ohanhi/hacksess-elm
+- https://github.com/Fresheyeball/lambdaconf-2016-elm-workshop
+
+## koans
+
+- https://github.com/robertjlooby/elm-koans
+
 ## videos
 
 - Codevember 2016 https://www.youtube.com/playlist?list=PLDA4wlOlLJvXAEsJDje4hdLazsihZiQNf
@@ -129,16 +140,6 @@
 - https://elmtown.github.io/
 - https://devchat.tv/ruby-rogues/212-rr-elm-with-richard-feldman-and-evan-czaplicki
 - https://soundcloud.com/elixirfountain/elixir-fountain-evan-czaplicki-2016-07-11
-
-## workshops
-
-- https://github.com/rtfeldman/lambdaconf-2015-elm-workshop
-  - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64191291)
-- https://github.com/ohanhi/hacksess-elm
-
-## koans
-
-- https://github.com/robertjlooby/elm-koans
 
 ## cheatsheets
 
