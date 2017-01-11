@@ -31,8 +31,10 @@
 - https://github.com/Lopi/HackMan
 - https://github.com/bamboo/take-the-blue-pills
 - snake
-  - http://elm-by-example.org/chapter14snakerevisited.html
+  - Dead link http://elm-by-example.org/chapter14snakerevisited.html
   - http://www.elmfiddle.io/view/ciohidiwb0000ittvijce7hy5
+  - https://github.com/nwjlyons/snake
+  - https://github.com/ktonon/word-snake
 - elm rocket lander
   - https://blog.wearewizards.io/rocket-lander-in-elm-extra/ship.html
   - https://github.com/WeAreWizards/elm-rocket-lander
@@ -86,7 +88,7 @@
   - http://www.uminokirin.com/
   - http://stackoverflow.com/questions/39955312/elm-game-of-life-program-becomes-unresponsive-is-there-a-way-to-fail-gracefull
 - https://github.com/maxsnew/Scramble
-- https://github.com/nwjlyons/snake
+
 - https://github.com/w0rm/elm-mogee
   - http://unsoundscapes.com/slides/2016-05-10-mogee-or-how-i-fit-elm-in-a-64x64-grid/
 - https://github.com/w0rm/elm-nim
@@ -94,4 +96,3 @@
 - pacman WIP https://github.com/abadi199/elman
 - https://github.com/TheSeamau5/elm-checkerboardgrid-tutorial
 - https://github.com/jamonholmgren/rocket-elm
-- https://github.com/ktonon/word-snake
