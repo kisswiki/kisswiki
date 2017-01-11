@@ -16,6 +16,7 @@
   - http://futurice.com/blog/elm-in-the-real-world
   - https://pragmaticstudio.com/blog/2015/10/22/is-learning-elm-worth-your-time
   - https://gist.github.com/justgage/7de5a2f9e639aec9436aad882fc90446
+  - http://ohanhi.github.io/why-and-when-of-choosing-elm.html
 
 > Every problem I ever had with it was decoding malformed data coming from the API, and learning how to manage complexity in a functional way instead of OOP, and the unfortunate lack of complicated "widgets" in Elm, such as a datepicker (there is one now that is pretty good, but it will never be as configurable as simply dropping in the jQuery one).
 > The neat thing about Elm for enterprise is you don't have to build the entire app in it (and I would recommend that you do not), instead you can implement small portions of the app that can really benefit from the safety and runtime guarantees. If you don't like the view layer (and I wouldn't blame you atm; it is good enough for my purposes, but there are some rough edges), you can probably implement it in React and just use Elm to mutate the state.
