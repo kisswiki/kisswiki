@@ -7,3 +7,4 @@
 - https://www.reddit.com/r/elm/comments/3gwis0/canvas_drawing_app_with_elm/
   - https://github.com/eeue56/drawea
   - http://eeue56.github.io/index.html
+- https://github.com/jinjor/elm-canvas
