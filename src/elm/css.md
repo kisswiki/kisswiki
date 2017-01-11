@@ -3,6 +3,20 @@
 - https://github.com/rtfeldman/elm-css
 - https://github.com/rtfeldman/elm-css-helpers
 
+## Example
+
+sabine:
+
+```elm
+styles =
+    Css.asPairs >> Html.Attributes.style
+
+button [ styles [ position absolute, left (px 5) ] ]
+    [ text "Whee!" ]
+```
+
+https://elmlang.slack.com/archives/general/p1484139837013133
+
 ## External CSS
 
 - https://github.com/tomekwi/elm-live
