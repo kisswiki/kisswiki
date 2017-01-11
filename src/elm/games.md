@@ -86,6 +86,7 @@
 - pacman WIP https://github.com/abadi199/elman
 - https://github.com/TheSeamau5/elm-checkerboardgrid-tutorial
 - https://github.com/jamonholmgren/rocket-elm
+- https://github.com/ktonon/word-snake
 
 ## Tutorials
 
