@@ -10,6 +10,16 @@
   - https://www.reddit.com/r/elm/comments/4ougvs/online_store_example_is_this_a_better_way_to/
 5. http://package.elm-lang.org/packages/elm-community/json-extra/latest
 
+## Debug
+
+zgotsch: https://elmlang.slack.com/archives/general/p1484178081013518
+
+>I need to create a decoder for this, but I'm not sure what I'm decoding so it's hard to know what the shape of my decoder should be
+
+```elm
+(Json.map (Debug.log "value") Json.value |> Json.andThen (\x -> Json.succeed None))
+```
+
 ## Translate
 
 - translation between JSON and Elm types https://github.com/lambdatoast/elm-json
