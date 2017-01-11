@@ -88,7 +88,6 @@
   - http://www.uminokirin.com/
   - http://stackoverflow.com/questions/39955312/elm-game-of-life-program-becomes-unresponsive-is-there-a-way-to-fail-gracefull
 - https://github.com/maxsnew/Scramble
-
 - https://github.com/w0rm/elm-mogee
   - http://unsoundscapes.com/slides/2016-05-10-mogee-or-how-i-fit-elm-in-a-64x64-grid/
 - https://github.com/w0rm/elm-nim
@@ -96,3 +95,4 @@
 - pacman WIP https://github.com/abadi199/elman
 - https://github.com/TheSeamau5/elm-checkerboardgrid-tutorial
 - https://github.com/jamonholmgren/rocket-elm
+- https://github.com/jinjor/elm-reversi
