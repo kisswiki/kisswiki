@@ -11,3 +11,4 @@
 - old mail thread https://groups.google.com/forum/#!topic/elm-discuss/539mEAk3CtQ
   - https://gist.github.com/paparga/dfe7eaf981884f6af1bc
 - https://github.com/sporto/elm-dropdown
+- https://github.com/jinjor/elm-dropdown
