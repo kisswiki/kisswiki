@@ -1,5 +1,14 @@
+
+## Tutorials
+
+- https://alpacaaa.net/blog/post/elm-rock-paper-scissors-beginner/
+- https://alpacaaa.net/blog/post/elm-memory-game-from-scratch/
+- https://alpacaaa.net/blog/post/elm-mastermind-game/
+- Elm pathfinding demo https://github.com/jamonholmgren/path 
 - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_cl one_in_elm/
 - https://www.reddit.com/r/elm/comments/401448/using_elm_to_create_a_fun_game_in_just_five_days/
+
+## Games
 - https://github.com/avh4/elm-mario
 - https://github.com/liubko/elm-snake
   - http://www.slideshare.net/theburningmonk/my-adventure-with-elm
@@ -87,10 +96,3 @@
 - https://github.com/TheSeamau5/elm-checkerboardgrid-tutorial
 - https://github.com/jamonholmgren/rocket-elm
 - https://github.com/ktonon/word-snake
-
-## Tutorials
-
-- https://alpacaaa.net/blog/post/elm-rock-paper-scissors-beginner/
-- https://alpacaaa.net/blog/post/elm-memory-game-from-scratch/
-- https://alpacaaa.net/blog/post/elm-mastermind-game/
-- Elm pathfinding demo https://github.com/jamonholmgren/path 
