@@ -18,7 +18,7 @@ Examples of functions way:
 - input , dropdown, multi select http://package.elm-lang.org/packages/abadi199/elm-input-extra/latest
 - Why not components? https://groups.google.com/forum/#!msg/elm-discuss/y1CVQpQpRcc/r6PTWmEGCwAJ
 
-This might be helpful:
+## might be helpful
 
 - Making Impossible States Impossible" by Richard Feldman https://www.youtube.com/watch?v=IcgmSRJHu_8
 - viewModel https://medium.com/@ckoster22/upgrade-your-elm-views-with-selectors-1d8c8308b336
