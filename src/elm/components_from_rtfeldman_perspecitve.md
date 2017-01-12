@@ -1,3 +1,6 @@
+https://www.reddit.com/r/elm/comments/5jd2xn/how_to_structure_elm_with_multiple_models/dbkgs2h/
+
+
 In Elm, thinking in terms of "components" is a common and totally understandable mistake. :)
 Elm intentionally does not have a component system, because that idea is counterproductive in Elm. The official guide makes this explicit, and talks about what to do instead of thinking in terms of components:
 
@@ -42,5 +45,3 @@ If what you're dealing with is not a desire to split up something big, but rathe
 I've worked on Elm code bases that embraced the philosophy you're advocating, as well as on Elm code bases that rejected it. The code bases that rejected it were way nicer to work with.
 What you're saying sounds reasonable on paper, but my experience has been the opposite. I've heard the same thing from multiple people who have tried it both ways on different code bases: the "component" mindset leads to worse Elm code. It's overcomplicated, bloated with unnecessary wiring, and more time-consuming to work with.
 You are of course free to believe whatever you like, but I'm going to follow what my experience and the experience of others has told me leads to the best code. That includes trying to steer people away from cliffs so they don't have the same bad experiences I did when I naively embraced the notion of "Elm components" in the past.
-
-https://www.reddit.com/r/elm/comments/5jd2xn/how_to_structure_elm_with_multiple_models/dbkgs2h/
