@@ -23,7 +23,29 @@ This might be helpful:
 
 Use his https://medium.com/@billperegoy/i-also-added-another-function-ad59fa2e3ad3#.y4jji4rk8
 
+Though I've slightly modfied it. So I have to functions:
+
+```elm
+addCmd : (a -> Cmd msg) -> a -> ( a, Cmd msg )
+addCmd fn model =
+    ( model, fn model )
+
+addCmdSimple : Cmd msg -> a -> ( a, Cmd msg )
+addCmdSimple cmd model =
+    ( model, cmd )
 ```
+
+And then I've small helper functions for update:
+
+```elm
+getData : Config.Model -> String -> Cmd Msg
+getData config url =
+    Http.send CategoriesHttp (Http.get (Config.getApiUrl config url) decodeData)
+```
+
+And I'm using it like this:
+
+```elm
 CategoriesHttp (Ok categories) ->
     model
         |> updateCurrentCategory
