@@ -77,7 +77,7 @@ CategoriesHttp (Ok categories) ->
  
 And for functions that doesn't take arguments I use addCmdSimple:
 
-```        
+```elm 
 CategoriesListHttp (Ok categoriesListContent) ->
     model
         |> updateCategoriesListContent categoriesListContent
