@@ -2,6 +2,8 @@ There is also one thing about structuring your application. Components vs functi
 
 aka "reusable views instead of nested component" https://guide.elm-lang.org/reuse/more.html
 
+@jessta: "It's really functions with a common set of types vs functions with different types for each module so you need to do a lot of conversions." https://elmlang.slack.com/archives/general/p1484225699013668
+
 A very good explanation of why from @rtfeldman https://www.reddit.com/r/elm/comments/5jd2xn/how_to_structure_elm_with_multiple_models/dbkgs2h/
 
 How to tell if someone is using components? They use Html.map for nesting.
