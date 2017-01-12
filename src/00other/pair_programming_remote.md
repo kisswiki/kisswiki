@@ -1,0 +1,3 @@
+- atom only https://blog.pusher.com/atom-pair/
+- console only https://tmate.io/
+- windows only, you got it if pay for slack https://screenhero.com/
