@@ -33,17 +33,6 @@ Examples of functions way:
 - http://blog.jenkster.com/2016/06/how-elm-slays-a-ui-antipattern.html
   - https://github.com/rofrol/elm-taco-browsersync/
 
-## avoiding primitives?
-
-https://www.reddit.com/r/elm/comments/5n8omi/lessons_learned_avoiding_primitives_in_elm/dcaptf9/
-
->The author prefers `Dollar -> Dollar -> Dollar to Int -> Int -> Int`. If I'm reading the code for the first time, this actually introduces an extra layer of complexity: what is Dollar? A Float? An Int? A record type? A union type? I have to go look at its definition and carry that around in my head every time I'm looking at code that uses it. Hopefully someone has not made a duplicate Dollar type in another module, or I'll get really confused.
-While I think type signatures are helpful for understanding code requirements, descriptive argument and function names are where meaning should be conveyed.
->
->It probably does make things harder to read - and you have to implement your own arithmetic functions in order to do 'dollar math', to boot. Its a pain, but the win is that you can't pass non-dollar quantities into functions by accident, because to do so creates a compile time error. If you rely only on variable naming, the compiler can't help verify your code, and you're vulnerable to passing quantities into your function that takes dollars, or kilometers into your miles function.
->
->Yeah, points on both sides. I was doing this for a while, but in my case, I just found my thought process to be clearer using primitives. A matter of taste. It's certainly nice to have the option for further compiler-enforced safety.
-
 
 ## piping
 
@@ -99,3 +88,14 @@ CategoriesListHttp (Ok categoriesListContent) ->
 It really helped me with catching many bugs in my code
 
 Because with this pipe technique, it's hard to forget to not pass some updated data etc.
+
+## avoiding primitives?
+
+https://www.reddit.com/r/elm/comments/5n8omi/lessons_learned_avoiding_primitives_in_elm/dcaptf9/
+
+>The author prefers `Dollar -> Dollar -> Dollar to Int -> Int -> Int`. If I'm reading the code for the first time, this actually introduces an extra layer of complexity: what is Dollar? A Float? An Int? A record type? A union type? I have to go look at its definition and carry that around in my head every time I'm looking at code that uses it. Hopefully someone has not made a duplicate Dollar type in another module, or I'll get really confused.
+While I think type signatures are helpful for understanding code requirements, descriptive argument and function names are where meaning should be conveyed.
+>
+>It probably does make things harder to read - and you have to implement your own arithmetic functions in order to do 'dollar math', to boot. Its a pain, but the win is that you can't pass non-dollar quantities into functions by accident, because to do so creates a compile time error. If you rely only on variable naming, the compiler can't help verify your code, and you're vulnerable to passing quantities into your function that takes dollars, or kilometers into your miles function.
+>
+>Yeah, points on both sides. I was doing this for a while, but in my case, I just found my thought process to be clearer using primitives. A matter of taste. It's certainly nice to have the option for further compiler-enforced safety.
