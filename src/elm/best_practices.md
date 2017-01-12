@@ -1,6 +1,8 @@
+## reusable views instead of nested components
+
 There is also one thing about structuring your application. Components vs functions. I suggest going functions way. 
 
-aka "reusable views instead of nested component" https://guide.elm-lang.org/reuse/more.html
+aka "reusable views instead of nested components" https://guide.elm-lang.org/reuse/more.html
 
 @jessta: "It's really functions with a common set of types vs functions with different types for each module so you need to do a lot of conversions." https://elmlang.slack.com/archives/general/p1484225699013668
 
