@@ -12,3 +12,4 @@ Examples of functions way:
 - https://github.com/evancz/elm-todomvc
 - https://github.com/rogeriochaves/structured-elm-todomvc
 - input and dropdown http://package.elm-lang.org/packages/abadi199/elm-input-extra/latest
+- Why not components? https://groups.google.com/forum/#!msg/elm-discuss/y1CVQpQpRcc/r6PTWmEGCwAJ
