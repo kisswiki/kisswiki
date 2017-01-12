@@ -21,7 +21,7 @@ This might be helpful:
 
 ## piping
 
-and use like this https://medium.com/@billperegoy/i-also-added-another-function-ad59fa2e3ad3#.y4jji4rk8
+Use like this https://medium.com/@billperegoy/i-also-added-another-function-ad59fa2e3ad3#.y4jji4rk8
 
 ```
 CategoriesHttp (Ok categories) ->
