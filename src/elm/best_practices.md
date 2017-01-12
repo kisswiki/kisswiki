@@ -29,6 +29,7 @@ Examples of functions way:
 ## might be helpful
 
 - Making Impossible States Impossible" by Richard Feldman https://www.youtube.com/watch?v=IcgmSRJHu_8
+  - https://robots.thoughtbot.com/lessons-learned-avoiding-primitives-in-elm
 - viewModel https://medium.com/@ckoster22/upgrade-your-elm-views-with-selectors-1d8c8308b336
 - http://blog.jenkster.com/2016/06/how-elm-slays-a-ui-antipattern.html
   - https://github.com/rofrol/elm-taco-browsersync/
