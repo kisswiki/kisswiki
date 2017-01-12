@@ -5,7 +5,7 @@
 - https://github.com/rtfeldman/node-test-runner
 - Idea: Wrap up Expect.* functions to make parentheses in elm-test omittable https://groups.google.com/forum/#!topic/elm-discuss/g5eqSiOJhZ4
 
-## (Access is denied.)
+## Access is denied
 
 I get this error: `elm-package.exe: mgold-elm-random-pcg-bc3f173: MoveFileEx "mgold-elm-random-pcg-bc3f173" "mgold\\elm-random-pcg\\4.0.2": permission denied (Access is denied.)`
 
