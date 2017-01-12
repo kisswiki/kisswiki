@@ -33,7 +33,7 @@ Examples of functions way:
 - http://blog.jenkster.com/2016/06/how-elm-slays-a-ui-antipattern.html
   - https://github.com/rofrol/elm-taco-browsersync/
 
-## avoiding primitives
+## avoiding primitives?
 
 https://www.reddit.com/r/elm/comments/5n8omi/lessons_learned_avoiding_primitives_in_elm/dcaptf9/
 
