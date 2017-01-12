@@ -8,6 +8,7 @@
 - https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_cl one_in_elm/
 - https://www.reddit.com/r/elm/comments/401448/using_elm_to_create_a_fun_game_in_just_five_days/
 - http://ohanhi.github.io/base-for-game-elm-017.html
+- Elm - Coding the A* Pathfinding Algorithm with Jamon Holmgren and Chris Krycho https://youtu.be/s8dH7k0Zggo
 
 ## Games
 - https://github.com/avh4/elm-mario

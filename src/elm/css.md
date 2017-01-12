@@ -5,7 +5,9 @@
 
 - https://github.com/rtfeldman/elm-css-helpers
 
-## Example
+## css-elm
+
+### Example
 
 sabine:
 
@@ -18,6 +20,14 @@ button [ styles [ position absolute, left (px 5) ] ]
 ```
 
 https://elmlang.slack.com/archives/general/p1484139837013133
+
+## hover
+
+https://elmlang.slack.com/archives/general/p1484185181013557
+
+montanonic: what is the Elm solution to something like on-hover effects? Should we stick to CSS hover or handle that animation within the update loop?
+
+rtfeldman: personally I just use CSS if I can; it's generally the highest-performance way to do it, and I haven't really found any maintainability downsides
 
 ## External CSS
 
