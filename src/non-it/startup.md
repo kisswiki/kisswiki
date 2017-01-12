@@ -34,3 +34,9 @@
 >VC money lets you buy new sneakers but if you're looking to lose weight, a tiger chasing you is a much stronger motivation
 >
 >-- https://news.ycombinator.com/item?id=13189524npm
+
+<br>
+
+>jednym z kluczowych czynników bogacenia się jest po prostu charakter, osobowość. Przede wszystkim decyduje o tym sumienność, na którą składają się: staranność, wytrwałość i zdyscyplinowanie.
+>
+>-- http://www.wykop.pl/link/3548959/#comment-42348651
