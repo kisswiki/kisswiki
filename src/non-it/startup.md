@@ -40,3 +40,35 @@
 >jednym z kluczowych czynników bogacenia się jest po prostu charakter, osobowość. Przede wszystkim decyduje o tym sumienność, na którą składają się: staranność, wytrwałość i zdyscyplinowanie.
 >
 >-- http://www.wykop.pl/link/3548959/#comment-42348651
+
+<br>
+
+Ja w wiekszosci swoich firm kasy nie pozyskalem tylko krok po kroku sie jej dorobilem. 
+Dla porownania jestem beneficjentem 3 programow POIG 8.1 na w sumie prawie 2 miliony zlotych. Dzialalnosc mam od ponad 10 lat . Aktualnie mam 3 firmy, a przez ten czas mialem ich (i udzialow w spolkach) sporo wiecej. Wiec:
+
+- z prawdopodobienstwem graniczacym z pewnoscia mam wieksze doswiadczenie od Ciebie
+- mam porownanie jak sie wydaje swoja kase a jak kase z dotacji
+
+I drugi punkt to jest prawdziwy rak. Ale po kolei odniose sie do Twoich uwag. Kasa oczywiscie jest potrzebna, ale w 9 przypdkach na 10 nie tyle ile sie wydaje i nie od razu. Trzymajmy sie branzy informatycznej. Dajmy na to tzw. agencje interaktywne, czyli firmy robiace strony. O Startupach pozniej. .
+
+Mam taka osobista teorie,ze jak ktos nie jest w stanie odlozyc sobie z pensji albo jakis malych deal'i oszczednosci jakis drobnych to nie jest przedsiebiorczy i nie nadaje do prowadzenia wlasnej firmy. 
+I teraz jak ktos chce otworzyc taka agencje to powinien najpierw skupic na klientach. Zaczac bez rozmachu. Wynajac jakis maly pokoj najpierw, niekoniecznie najdrozszego kompa. Jednego pracownika na poczatek a nie 10. Zatroszczyc sie o klientow i jakosc uslug a nie wyglad. W 8 na 10 przypadkach (szczegolnie za nieswoje pieniadze) tworzenie takiej firmy wyglada tak,ze szukamy prestizowej lokalizacji (bo wiadomo). Designersko urzadzamy. Musi byc drogi apple albo inny XPS i przynajmniej 5 osob, zeby wygldalo powaznie. I taki wlasciciel po wydaniu spoorej gory gotowki. Siedzi w lokalu za ktory musi slono placic i ktorego nie potrzbeuje z ludzmi dla ktorych nie ma roboty i glowi sie co zrobil zle. 
+
+A jak ktos wydaje swoje pieniadze to 10x zastanowi sie czy mu ten XPS jest potrzebny czy do robienia ofert i wodrpresow nie starczy stare lenovo. Rozwoj krok po kroku z zysku ktory sie wypracuje a nie dotacji , ktora sie dostalo. 
+I ta zasada dziala w miazdzacej wiekszosci pomyslow na biznes. Tylko panuje przekonanie ze jak zaczynac to szeroko albo wcale. 
+I to przeinwestowanie i przerost formy nad trescia z perspektywy czasu to najwiekszy blad przedsiebiorcow. I winny tego stanu rzeczy jest miedzy innymi latwy do pozyskania i tani kapital. 
+
+Wszelki startupy o ktorych wspomniales to dopiero wydmuszki. Bez jakichkolwiek perspektyw biznesowych, a tylko tabelki pasujace do unijnych wnioskow. Dotacje unijne sa bajecznie latwe do pozyskania. Sa firmy jak ECDF, ktore pracuja za success fee i placi sie w przypadku pozyskania dotacji , a 9/10 wniskow ja dostaje, bo oni napisza to tak,ze bedzie gralo. Wydatkowane bedzie bezsensownie. Ale to co? Nie moja kasa. 
+
+Sa anioly biznesu, inwestorzy, kredyty. Apropos tych ostatnich rzecz w tym,zeby brac tyle ile trzeba a nie tyle ile daja. 
+I skupienie sie na PR i efektownej siedzibie zamiast na zrodlach przychodu w firmie. 
+
+Piszesz o wiekszym projekcie i jego finansowaniu. Najpierw sie trzeba nauczyc jak prowadzic maly tak,zeby byl rentown. Bo jak tego nie umiesz to z duzym sobie tez nie poradzisz. 
+
+Tak samo dotacje z urzedu pracy. Dramat. Gosc bez doswiadczenia chce zostac fotografem, dostaje 15k (czy tam ile daja) i za 9k kupuje lustro, ktorego nawet nie umie uzywac. Za reszte obiektyw i koniecznie markowa torbe na sprzet za 1,5 ( #truestory ). Ale strone kupuje 300 zeta, domene darmowa <nazwisko> photography. 
+
+Ludzie przez fejsy, insta i ogolnodostepny i nachalny marketing skupiaja sie na tym jak firma wyglada a nie na tym co ma robic i jak ma robic. A najwazniejsze w prowadzeniu firmy jest to,zeby sie slupki zgadzaly. Bo jak sie nie zgadzaja to nie ma mowy o zadnym samorealizowaniu, satysfakcji itd..
+
+Mam nadzieje, ze ktos wezmie sobie te slowa do serca.
+
+http://www.wykop.pl/link/3548959/#comment-42364205
