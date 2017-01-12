@@ -13,3 +13,41 @@ Examples of functions way:
 - https://github.com/rogeriochaves/structured-elm-todomvc
 - input , dropdown, multi select http://package.elm-lang.org/packages/abadi199/elm-input-extra/latest
 - Why not components? https://groups.google.com/forum/#!msg/elm-discuss/y1CVQpQpRcc/r6PTWmEGCwAJ
+
+This might be helpful:
+
+- Making Impossible States Impossible" by Richard Feldman https://www.youtube.com/watch?v=IcgmSRJHu_8
+- viewModel https://medium.com/@ckoster22/upgrade-your-elm-views-with-selectors-1d8c8308b336
+
+## piping
+
+and use like this https://medium.com/@billperegoy/i-also-added-another-function-ad59fa2e3ad3#.y4jji4rk8
+
+```
+CategoriesHttp (Ok categories) ->
+    model
+        |> updateCurrentCategory
+            (case findCategoryByRoute categories model.currentCategory.route of
+                Just category ->
+                    category
+
+                Nothing ->
+                    firstOrEmptyCategory categories
+            )
+        |> updateCategories categories
+        |> addCmd getCategoriesListData
+```
+
+ 
+And for functions that doesn't take arguments I use addCmdSimple:
+
+```        
+CategoriesListHttp (Ok categoriesListContent) ->
+    model
+        |> updateCategoriesListContent categoriesListContent
+        |> addCmdSimple Cmd.none
+```
+
+It really helped me with catching many bugs in my code
+
+Because with this pipe technique, it's hard to forget to not pass some updated data etc.
