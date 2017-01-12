@@ -3,3 +3,4 @@
 - https://github.com/rogeriochaves/elm-test-bdd-style
 - https://github.com/avh4/elm-testable
 - https://github.com/rtfeldman/node-test-runner
+- Idea: Wrap up Expect.* functions to make parentheses in elm-test omittable https://groups.google.com/forum/#!topic/elm-discuss/g5eqSiOJhZ4
