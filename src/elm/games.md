@@ -100,3 +100,4 @@
 - https://github.com/TheSeamau5/elm-checkerboardgrid-tutorial
 - https://github.com/jamonholmgren/rocket-elm
 - https://github.com/jinjor/elm-reversi
+- https://github.com/ZeusTheTrueGod/elm-tictactoe
