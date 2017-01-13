@@ -58,3 +58,15 @@ answer =
 ```
 
 from https://elmlang.slack.com/archives/general/p1483975350012245
+
+
+## map Nothing
+
+Json.Decode.succeed can be used to wrap a constant value in a decoder:
+
+```elm
+map2 Header (field "header" string)
+    (succeed Nothing)
+```
+
+http://stackoverflow.com/questions/41623843/how-to-map-nothing-to-elm-json-decoder
