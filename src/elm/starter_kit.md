@@ -3,3 +3,4 @@
 - https://dimiterpetrov.com/blog/elm-single-page-application-setup/
 - https://github.com/victorborja/elm-base
 - https://github.com/rpeszek/crud-ex-frontend-elm
+- elm-0.17 https://github.com/splodingsocks/elm-starter
