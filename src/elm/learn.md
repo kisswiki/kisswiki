@@ -16,6 +16,7 @@
 
 ## Blogs
 
+- http://elmseeds.thaterikperson.com/
 - http://blog.jenkster.com/
 - https://medium.com/tag/elm
 - https://www.brianthicks.com/
