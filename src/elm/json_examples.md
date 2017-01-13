@@ -65,6 +65,11 @@ from https://elmlang.slack.com/archives/general/p1483975350012245
 Json.Decode.succeed can be used to wrap a constant value in a decoder:
 
 ```elm
+type alias Header =
+    { value : String
+    , term : Maybe String
+    }
+    
 map2 Header (field "header" string)
     (succeed Nothing)
 ```
