@@ -2,5 +2,6 @@
 
 ## elmchat
 
+- https://github.com/bendyworks/elmchat
 - http://postgrest.com/install/server/
 - http://stackoverflow.com/questions/20412084/postgresql-error-the-program-cant-start-because-libpq-dll-is-missing-from-your
