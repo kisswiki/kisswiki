@@ -1,4 +1,5 @@
 - http://stackoverflow.com/questions/tagged/elm+json?sort=votes
+- http://package.elm-lang.org/packages/elm-community/json-extra/latest/Json-Decode-Extra#andMap
 
 ## Options
 
