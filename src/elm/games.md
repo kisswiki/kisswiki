@@ -19,7 +19,9 @@
 - https://github.com/avh4/wire-game
 - https://github.com/BlackBrane/destroid
 - https://github.com/slawrence/vessel
-- https://github.com/jcollard/elmtris
+- testris
+  - https://github.com/jcollard/elmtris
+  - https://github.com/hoelzro/elm-tetris
 - An intro to games in Elm http://elm-lang.org/blog/making-pong
 - https://github.com/etaque/tacks
 - https://github.com/mgold/Sequence-Maze
