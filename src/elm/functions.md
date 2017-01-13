@@ -21,3 +21,7 @@ type alias Validation customError output =
 so actually the type is `field : String -> Validation customError output -> Field -> Result (Error customError) output`
  
 which indeed has three arguments
+
+it would be more clear if `Validation` were a type instead of a type alias
+
+which is recommended for libraries
