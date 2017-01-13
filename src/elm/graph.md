@@ -2,3 +2,4 @@
 - https://github.com/terezka/elm-plot
 - https://github.com/Fresheyeball/elm-chartjs
 - it is almost a straight port of parts of the D3 library https://github.com/gampleman/elm-visualization 
+- https://github.com/seliopou/elm-d3
