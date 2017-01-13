@@ -21,3 +21,8 @@ authResponse =
 ```
 
 https://elmlang.slack.com/archives/general/p1484067654012705
+
+
+## Is elm-web-data in any way related to https://github.com/krisajenkins/remotedata?
+
+ohanhi: Mine is much more opinionated though, and comes with a Http module, whereas Kris' has lots more helpers for transforming the type
