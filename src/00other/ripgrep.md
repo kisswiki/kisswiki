@@ -9,3 +9,7 @@
 3. In `~/.bash_profile`: `source ~/rg.bash-completion`
 
 https://github.com/BurntSushi/ripgrep/issues/262#issuecomment-264364685
+
+## search `--`
+
+`rg -- --`
