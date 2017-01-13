@@ -8,3 +8,4 @@
   - https://github.com/eeue56/drawea
   - http://eeue56.github.io/index.html
 - https://github.com/jinjor/elm-canvas
+- https://github.com/elm-community/canvas
