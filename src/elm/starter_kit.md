@@ -4,3 +4,4 @@
 - https://github.com/victorborja/elm-base
 - https://github.com/rpeszek/crud-ex-frontend-elm
 - elm-0.17 https://github.com/splodingsocks/elm-starter
+- https://github.com/splodingsocks/the-cheese-palette
