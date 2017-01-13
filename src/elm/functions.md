@@ -25,3 +25,9 @@ which indeed has three arguments
 it would be more clear if `Validation` were a type instead of a type alias
 
 which is recommended for libraries
+
+@chalmagean:
+
+then ther's this, which has an argument in the declaration but not in the signature
+```string : Validation e String
+string v =```
