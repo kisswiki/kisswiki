@@ -5,12 +5,12 @@
 ## elm-lang/navigation
 
 - https://www.elm-tutorial.org/en/07-routing/cover.html
+- http://elmseeds.thaterikperson.com/navigation
 
 >There are now 2 different update functions, one that deals with regular messages and one that deals with "Navigation" messages, there is a worry if at some point this might cause duplication in functionality.
 >
 >-- https://groups.google.com/d/msg/elm-discuss/GqYFPIv-Quc/nZzA-bolAAAJ
 
-- http://elmseeds.thaterikperson.com/navigation
 
 ## evancz/url-parser
 
