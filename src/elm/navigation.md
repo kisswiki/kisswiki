@@ -9,4 +9,25 @@
 >-- https://groups.google.com/d/msg/elm-discuss/GqYFPIv-Quc/nZzA-bolAAAJ
 
 - http://elmseeds.thaterikperson.com/navigation
+
+## evancz/url-parser
+
 - http://elmseeds.thaterikperson.com/url-parser
+
+```elm
+matchers : Parser (Route -> a) a
+matchers =
+    oneOf
+        [ map PlayersRoute top
+        , map PlayerRoute (s "players" </> string)
+        , map PlayersRoute (s "players")
+        ]
+```
+
+- One for the top route which will resolve to PlayersRoute
+- One for /players which will resolve to PlayersRoute as well
+- And one for /players/id which will resolve to PlayerRoute id
+
+Note that the order is important!
+
+https://www.elm-tutorial.org/en/07-routing/02-routing.html
