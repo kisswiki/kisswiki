@@ -1,0 +1,1 @@
+- https://hoelz.ro/blog/git-pisect
