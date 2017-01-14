@@ -1,1 +1,2 @@
 - https://github.com/fredcy/elm-polymer-calendar
+- https://github.com/thebritican/elm-calendar
