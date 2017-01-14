@@ -4,6 +4,8 @@
 
 ## elm-lang/navigation
 
+- https://github.com/rofrol/elm-navigation-example
+- https://github.com/sircharleswatson/elm-navigation-example
 - https://www.elm-tutorial.org/en/07-routing/cover.html
 - http://elmseeds.thaterikperson.com/navigation
 
