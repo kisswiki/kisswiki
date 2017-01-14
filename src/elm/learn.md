@@ -38,8 +38,10 @@
 
 - https://github.com/exercism/xelm
   - leap year https://twitter.com/gabrielelana/status/814887972327800833
-- https://github.com/Janjuks/AoC2016
-  - https://adventofcode.com/2016/day/1
+- advent of code
+  - https://github.com/Janjuks/AoC2016
+    - https://adventofcode.com/2016/day/1
+  - https://github.com/kaiyote/advent-elm
 - https://github.com/gustavoguichard/elm-cycle-challenge
 - https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/
   - https://github.com/mukeshsoni/elm-99-problems-for-frolic
