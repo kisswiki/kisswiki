@@ -20,6 +20,7 @@
 - https://github.com/danneu/melted-synapse
 - https://github.com/danneu/elm-tile-editor
 - https://github.com/danneu/elm-space-arena
+- https://github.com/danneu/elm-hex-grid
 - https://github.com/avh4/elm-mario
 - https://github.com/liubko/elm-snake
   - http://www.slideshare.net/theburningmonk/my-adventure-with-elm
