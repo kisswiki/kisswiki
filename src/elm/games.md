@@ -16,6 +16,9 @@
 - Elm - Coding the A* Pathfinding Algorithm with Jamon Holmgren and Chris Krycho https://youtu.be/s8dH7k0Zggo
 
 ## Games
+
+- https://github.com/danneu/melted-synapse
+- https://github.com/danneu/elm-tile-editor
 - https://github.com/avh4/elm-mario
 - https://github.com/liubko/elm-snake
   - http://www.slideshare.net/theburningmonk/my-adventure-with-elm
