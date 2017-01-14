@@ -4,5 +4,6 @@
   - http://stackoverflow.com/questions/24955157/how-to-use-markdown-in-elm-is-it-markdown-or-markdown
   - http://stackoverflow.com/questions/20312061/is-it-possible-to-have-formatted-markdown-in-elm
   - http://stackoverflow.com/questions/24955157/how-to-use-markdown-in-elm-is-it-markdown-or-markdown
+  - http://stackoverflow.com/questions/17159504/elm-markdown-block-highlighting
 - http://package.elm-lang.org/packages/pablohirafuji/elm-markdown/latest
   - https://groups.google.com/forum/#!topic/elm-dev/lwov7jRMcS8
