@@ -1,0 +1,3 @@
+- http://package.elm-lang.org/packages/evancz/elm-markdown/latest
+- http://package.elm-lang.org/packages/pablohirafuji/elm-markdown/latest
+  - https://groups.google.com/forum/#!topic/elm-dev/lwov7jRMcS8
