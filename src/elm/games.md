@@ -101,3 +101,4 @@
 - https://github.com/jamonholmgren/rocket-elm
 - https://github.com/jinjor/elm-reversi
 - https://github.com/ZeusTheTrueGod/elm-tictactoe
+- https://github.com/nwjlyons/retrorace
