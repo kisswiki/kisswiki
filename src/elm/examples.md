@@ -18,3 +18,4 @@
 - relies on BitTorrent's DHT network, send tweets to anyone listening https://github.com/rogeriochaves/elm-peer-tweet
 - https://github.com/rundis/albums
 - http://lpil.uk/elm-hearts/
+- https://github.com/hoelzro/elm-typing-tutor
