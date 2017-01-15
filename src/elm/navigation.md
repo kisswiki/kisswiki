@@ -40,3 +40,21 @@ https://www.elm-tutorial.org/en/07-routing/02-routing.html
 
 - http://package.elm-lang.org/packages/evancz/url-parser/latest/UrlParser#<?>
 - http://package.elm-lang.org/packages/Bogdanp/elm-querystring
+
+## check if something is a specific route, but now one of routes has a param, and the syntax `_` is not allowed
+
+https://elmlang.slack.com/archives/general/p1484514187014883
+
+@amilner42:
+
+I wanna check if something is a specific route, but now one of my routes has a param, and the syntax `_` is not allowed
+
+And you can't group `cases` together in a `case of` so if I switch it to a `case of` which it seems I havee to do then I get very repetitive branches.
+
+@megapctr:
+
+what if you first checked the static routes via `List.member`
+
+@amilner42:
+
+Oh I can nest the `List.member` in the `_ ->`
