@@ -49,6 +49,15 @@ https://elmlang.slack.com/archives/general/p1484514187014883
 
 I wanna check if something is a specific route, but now one of my routes has a param, and the syntax `_` is not allowed
 
+```elm
+    List.member shared.route
+        [ Route.HomeComponentCreate
+        , Route.HomeComponentCreateBasicName
+        , Route.HomeComponentCreateBasicDescription
+        , Route.HomeComponentCreateBasicTidbitFrame _
+        ]
+```
+
 And you can't group `cases` together in a `case of` so if I switch it to a `case of` which it seems I havee to do then I get very repetitive branches.
 
 @megapctr:
