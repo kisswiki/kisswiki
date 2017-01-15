@@ -90,7 +90,7 @@
 - build a cool realtime Race Leaderboard app to keep track of runners in racing events like Marathons and 10K's - 20 USD http://courses.knowthen.com/p/elm-beyond-the-basics
   - https://github.com/knowthen/elm-beyond-basics
 
-## books
+## Articles
 
 - http://www.amazon.com/Seven-More-Languages-Weeks-Shaping-ebook/dp/B00RW8XFUK/
 - http://package.elm-lang.org/packages/elm-lang/core/latest - for offline clone https://github.com/elm-lang/core
