@@ -1,4 +1,17 @@
-you can't match on dynamic data, use if expressions https://elmlang.slack.com/archives/general/p1483989240012353
+## destructure field
+
+https://elmlang.slack.com/archives/general/p1484421168014491
+
+@tolgapaksoy:
+
+```elm
+yourFn ({field} as aRecWithUnionTypeField) =
+    case field of
+```
+
+##you can't match on dynamic data
+
+use if expressions https://elmlang.slack.com/archives/general/p1483989240012353
 
 https://elmlang.slack.com/archives/general/p1484504146014761
 
