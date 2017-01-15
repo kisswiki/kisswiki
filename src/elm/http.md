@@ -48,3 +48,24 @@ expectCsv url =
 
 https://github.com/simonh1000/elm-jwt/blob/2.0.0/Jwt.elm#L127
 
+```elm
+{-| send is a replacement for Http.send that includes a Jwt token
+-}
+send : String -> Token -> Json.Decoder a -> String -> Http.Body -> Task Http.Error a
+send verb token dec url body =
+    let
+        sendtask =
+            Http.send Http.defaultSettings
+                { verb = verb
+                , headers =
+                    [ ("Content-type", "application/json")
+                    , ("Authorization", "Bearer " ++ token)
+                    ]
+                , url = url
+                , body = body
+                }
+            |> Http.fromJson dec
+    in
+    sendtask
+```
+
