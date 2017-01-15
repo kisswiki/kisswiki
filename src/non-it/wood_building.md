@@ -1,0 +1,1 @@
+- http://www.wykop.pl/link/3548941/gify-pokazujace-jak-japonczycy-radzili-sobie-bez-gwozdzi-i-kleju/
