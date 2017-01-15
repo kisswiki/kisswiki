@@ -6,6 +6,7 @@
 - cheatsheet https://gist.github.com/LeCoupa/985b82968d8285987dc3
 - http://stackoverflow.com/questions/28094192/difference-between-response-setheader-and-response-writehead
 - debug in google chrome https://blog.hospodarets.com/nodejs-debugging-in-chrome-devtools
+- fastimage - No need to download an entire image or depend on an image processing library just to determine an image's type, width, and height. https://github.com/danneu/node-fastimage
 
 ## ES6
 
