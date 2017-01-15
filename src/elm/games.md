@@ -1,19 +1,7 @@
 
-## Tools
+## Game Development
 
-- https://github.com/thebritican/rpg-framework
-  - https://www.youtube.com/watch?v=rLSrQjYFVoU&list=PL8wLtAjUdVWCX45d2dWbM3KDADYJgImet
-
-## Tutorials
-
-- https://alpacaaa.net/blog/post/elm-rock-paper-scissors-beginner/
-- https://alpacaaa.net/blog/post/elm-memory-game-from-scratch/
-- https://alpacaaa.net/blog/post/elm-mastermind-game/
-- Elm pathfinding demo https://github.com/jamonholmgren/path 
-- https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_cl one_in_elm/
-- https://www.reddit.com/r/elm/comments/401448/using_elm_to_create_a_fun_game_in_just_five_days/
-- http://ohanhi.github.io/base-for-game-elm-017.html
-- Elm - Coding the A* Pathfinding Algorithm with Jamon Holmgren and Chris Krycho https://youtu.be/s8dH7k0Zggo
+- https://github.com/rofrol/awesom-elm-gamedev
 
 ## Games
 
