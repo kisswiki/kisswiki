@@ -78,3 +78,17 @@ case _ ->
         , Route.HomeComponentCreateBasicDescription
         ]
 ```
+
+@winvelt:
+
+```elm
+if List.member sharedRoute [ .. staticroutes ] then
+    doStuff
+else
+    case sharedRoute of
+        Route.SomeRoute parameter ->
+              doStuff
+
+        _ ->
+             otherStuff
+```
