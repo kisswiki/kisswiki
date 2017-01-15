@@ -5,7 +5,7 @@
 
 - https://github.com/rtfeldman/elm-css-helpers
 
-## css-elm
+## elm-css
 
 ### Example
 
@@ -21,6 +21,46 @@ button [ styles [ position absolute, left (px 5) ] ]
 
 https://elmlang.slack.com/archives/general/p1484139837013133
 
+##
+
+https://elmlang.slack.com/archives/general/p1484308450013948
+
+@folkertdev:
+
+is there a standard name/constructor for a "has a default"  (if not, any suggestions?)
+
+something like `type HasDefault a = UseDefault | Use a`  (where the default is known/calculated later)
+
+i'm working on some svg stuff, where not specifying an attribute will use the (svg spec's) default
+
+@ohanhi:
+
+So @folkertdev, what are you trying to communicate with "has a default"? How does it differ from `Maybe.withDefault` in semantics?
+
+@folkertdev:
+ 
+so I want to communicate "you can set this value, but if you dont the default will be used"
+
+well with how elm-css and elm-html's style work, omitting a value will use the browser default
+
+but I'm working on svg filter helpers, where I have a record of attributes specific to a filter for safety
+
+and the default is a function of another argument, not just a value
+
+for instance, https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/targetX  depends on the `order` attribute, which in turn should depend (but doesn't in svg) on the `kernelMatrix` attribute
+
+strictly for cases where the default is not a value, but some function of the arguments
+
+the alternate option is to actually put the default, as a function, into my records
+
+@sabine:
+
+using functions as part of your `Model` is usually not a good idea, so sounds like what you're doing is good.
+
+@folkertdev:
+
+yea that's my motivation here (even though svg filters should live in the view, not in the model)
+
 ## hover
 
 https://elmlang.slack.com/archives/general/p1484185181013557
@@ -33,3 +73,24 @@ rtfeldman: personally I just use CSS if I can; it's generally the highest-perfor
 
 - https://github.com/tomekwi/elm-live
 - https://github.com/elm-lang/elm-reactor/issues/138#issuecomment-240940888
+
+## flex-flow shorthand doesn't work
+
+https://elmlang.slack.com/archives/general/p1484250961013787
+
+@chet.harrison:
+
+How do you do multiple attr values in an Elm style function ie ...
+
+```elm
+style
+            [ ( "display", "flex" )
+            , ( "flex-flow", "row wrap" )
+            ]
+```
+
+the "row wrap" does not appear to be effective
+
+@ohanhi:
+
+I think you need to say `flex-direction: row` and `flex-wrap: wrap` separately,no?
