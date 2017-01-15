@@ -25,7 +25,7 @@ so basically create a `getCsv : String -> Csv.Decoder a -> Request a` function?
 
 @krisajenkins:
 
-You’ll have to drop down to using `Http.send` and a `Request` with a custom `expect`. (edited)
+You’ll have to drop down to using `Http.send` and a `Request` with a custom `expect`.
 
 I’d look at http://package.elm-lang.org/packages/elm-lang/http/1.0.0/Http#expectStringResponse
 
