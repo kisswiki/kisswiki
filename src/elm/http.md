@@ -30,3 +30,16 @@ You’ll have to drop down to using `Http.send` and a `Request` with a custom `e
 I’d look at http://package.elm-lang.org/packages/elm-lang/http/1.0.0/Http#expectStringResponse
 
 Create a function `expectCsv: Response String -> Result String a` and you’ll be on your way.
+
+```elm
+Http.send FetchDepartures <| expectCsv departuresUrl
+
+expectCsv : ResponseString -> ResultString a
+expectCsv url =
+    { method = "GET"
+    , headers = []
+    , url = url
+    , body = Http.emptyBody
+    , expect = expectStringResponse (\_ -> Ok ())
+    }
+```
