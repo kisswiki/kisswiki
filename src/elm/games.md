@@ -94,3 +94,4 @@
 - https://github.com/ZeusTheTrueGod/elm-tictactoe
 - https://github.com/nwjlyons/retrorace
 - https://github.com/sonnym/scorched
+- https://github.com/sonnym/petrov
