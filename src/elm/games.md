@@ -46,9 +46,7 @@
   - https://github.com/etaque/tacks
   - http://www.playtacks.com/
 - https://github.com/zalando/elm-street-404
-- flatris
-  - https://github.com/w0rm/elm-flatris
-  - http://unsoundscapes.com/elm-flatris.html
+- https://github.com/w0rm/elm-flatris
 - breakout
   - http://daiw.de/games/breakout/
   - https://github.com/Dobiasd/Breakout
