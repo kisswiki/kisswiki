@@ -1,0 +1,1 @@
+- http://www.wykop.pl/link/3548959/dlaczego-nie-kazdy-inteligentny-czlowiek-jest-bogaty/
