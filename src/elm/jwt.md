@@ -9,4 +9,6 @@ I would use a request builder https://github.com/lukewestby/elm-http-builder  bu
 
 @rofrol:
 
-Once the token is available, you can use it with the GET replacement function provided in the library, Jwt.get, which creates a custom GET request that attaches the token to the Http headers before sending http://simonh1000.github.io/2016/05/phoenix-elm-json-web-tokens/
+>Once the token is available, you can use it with the GET replacement function provided in the library, Jwt.get, which creates a custom GET request that attaches the token to the Http headers before sending
+
+http://simonh1000.github.io/2016/05/phoenix-elm-json-web-tokens/
