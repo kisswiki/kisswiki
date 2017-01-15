@@ -32,6 +32,7 @@ zgotsch: https://elmlang.slack.com/archives/general/p1484178081013518
 
 ## elm-decode-pipeline
 
+- Can't decode JSON inside a JSON object https://github.com/NoRedInk/elm-decode-pipeline/issues/24
 - https://becoming-functional.com/testing-json-decoders-in-elm-39f613a98895
 - https://medium.com/@zenitram.oiram/a-beginners-guide-to-json-and-elm-c4a0c7e20002
 - https://medium.com/@kkruups/elm-insights-c74047637206
