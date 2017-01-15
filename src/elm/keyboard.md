@@ -12,4 +12,4 @@ this includes events such as filling in a form
 
 @opsb:
 
-there’s http://package.elm-lang.org/packages/scottcorgan/keyboard-combo/latest  and https://github.com/ohanhi/keyboard-extra  which might fit your needs
+there’s http://package.elm-lang.org/packages/scottcorgan/keyboard-combo/latest and https://github.com/ohanhi/keyboard-extra  which might fit your needs
