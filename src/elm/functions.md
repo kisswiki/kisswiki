@@ -31,3 +31,12 @@ which is recommended for libraries
 then ther's this, which has an argument in the declaration but not in the signature
 ```string : Validation e String
 string v =```
+
+
+## Function with no arguments and returning nothing
+
+```elm
+\() -> ()
+```
+
+`()` means empty tuple
