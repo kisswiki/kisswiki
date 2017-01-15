@@ -19,3 +19,4 @@
 - https://github.com/rundis/albums
 - http://lpil.uk/elm-hearts/
 - https://github.com/hoelzro/elm-typing-tutor
+- https://github.com/danneu/elm-speed-reader
