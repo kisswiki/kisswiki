@@ -38,4 +38,5 @@ https://www.elm-tutorial.org/en/07-routing/02-routing.html
 
 ## query string
 
+- http://package.elm-lang.org/packages/evancz/url-parser/latest/UrlParser#<?>
 - http://package.elm-lang.org/packages/Bogdanp/elm-querystring
