@@ -1,0 +1,1 @@
+- http://callingbullshit.org/syllabus.html
