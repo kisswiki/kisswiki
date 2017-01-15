@@ -79,6 +79,7 @@
 - Richard Feldman - Introduction to Elm (March 22, 2016) https://www.youtube.com/watch?v=zBHB9i8e3Kc
 - React.js Conf 2016 - Jamison Dance - Rethinking All Practices: Building Applications in Elm https://youtu.be/txxKx_I39a8
 - https://egghead.io/courses/start-using-elm-to-build-web-applications
+- https://www.elm-conf.us/speaker/
 
 ## courses
 
