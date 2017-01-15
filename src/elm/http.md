@@ -43,3 +43,8 @@ expectCsv url =
     , expect = expectStringResponse (\_ -> Ok ())
     }
 ```
+
+## append a header
+
+https://github.com/simonh1000/elm-jwt/blob/2.0.0/Jwt.elm#L127
+
