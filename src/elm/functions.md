@@ -36,7 +36,10 @@ string v =```
 ## Function with no arguments and returning nothing
 
 ```elm
-\() -> ()
+-- define
+a = \() -> ()
+-- call
+a ()
 ```
 
 `()` means empty tuple
