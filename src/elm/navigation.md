@@ -58,3 +58,14 @@ what if you first checked the static routes via `List.member`
 @amilner42:
 
 Oh I can nest the `List.member` in the `_ ->`
+
+```elm
+case route of
+    Route.HomeComponentCreateBasicTidbitFrame _ -> ...
+case _ ->
+    List.member shared.route
+        [ Route.HomeComponentCreate
+        , Route.HomeComponentCreateBasicName
+        , Route.HomeComponentCreateBasicDescription
+        ]
+```
