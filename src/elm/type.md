@@ -68,3 +68,6 @@ h2 q =
         W2 "forty" "-two" -> "the answer"
         W2 _ _ -> "something else"
 ```
+
+>A phantom type is a parametrised type whose parameters do not all appear on the right-hand side of its definitions
+>--https://wiki.haskell.org/Phantom_type
