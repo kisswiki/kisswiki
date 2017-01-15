@@ -60,6 +60,12 @@ zgotsch: https://elmlang.slack.com/archives/general/p1484178081013518
 > If you run out of map functions, take a look at elm-decode-pipeline which makes it easier to handle large objects, but produces lower quality type errors
 > -- http://package.elm-lang.org/packages/elm-lang/core/5.0.0/Json-Decode
 
+<br>
+
+>elm-decode-pipeline which is not inherently bad, but hides the underlying concept from users with a DSL.
+>
+>-- https://toast.al/posts/2016-08-12-elm-applicatives-and-json-decoders.html
+
 ## Other
 
 - https://egghead.io/lessons/elm-decode-a-list-of-numbers-from-a-json-string-in-elm
