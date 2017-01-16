@@ -16,3 +16,7 @@ portable_config/input.conf
 MOUSE_BTN3 seek 2 exact
 MOUSE_BTN4 seek -2 exact
 ```
+
+## DVD
+
+http://unix.stackexchange.com/questions/265874/using-mpv-to-play-dvd-movies
