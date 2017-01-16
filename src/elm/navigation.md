@@ -92,3 +92,9 @@ else
         _ ->
              otherStuff
 ```
+
+## With Electron
+
+If you're writing an Electron application you will very likely be writing a Single Page App. Our first intuition was to bring in a push state router with and . This was a mistake.
+
+https://www.reddit.com/r/elm/comments/5o5p63/experiences_with_elm_on_a_small_production/
