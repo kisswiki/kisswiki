@@ -5,3 +5,6 @@
 - https://github.com/GabiGrin/elm-codemirror
 - http://vincent.jousse.org/en/tech/interacting-with-dom-element-using-elm-audio-video/
 - https://github.com/isagalaev/highlight.js/blob/master/src/languages/r.js
+- http://stackoverflow.com/questions/40113213/how-to-handle-enter-key-press-in-input-field
+- http://stackoverflow.com/questions/25712988/textarea-in-elm
+- https://campus.datacamp.com
