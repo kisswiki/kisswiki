@@ -17,7 +17,7 @@ Now it works. It's some wired interactionss between the 2 elm-stuff folders i th
 
 "I found out that functions imported in elm-test are not kept in sync with the ones present in the src modules. This example reproduces the issue." https://github.com/AIon-Gbbe/reproduce-elm-test-compiler-bug
 
-## autoadd tests to runner
+## no autoadd tests to runner
 
 As primarily Javascript developers we are used to JS testing frameworks that automatically pick up new tests written in a spec file. With elm-test we had to remember to add newly created tests to a test suite.
 
