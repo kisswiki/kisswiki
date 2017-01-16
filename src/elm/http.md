@@ -79,3 +79,25 @@ now a duplicate header that some servers, such as json-server, are unable to han
 Duplicate headers should be an "impossible state". It'd be nice if the Elm runtime conditionally added the content-type header only if it's not already present, if not a more elegant solution.
 
 https://www.reddit.com/r/elm/comments/5o5p63/experiences_with_elm_on_a_small_production/
+
+## cache
+
+https://elmlang.slack.com/archives/general/p1484574815015170
+
+@sky:
+
+the data I'm request _can_  change, although probably not often enough to retrieve it from the server every time
+
+@szabba
+
+You'd have functions with signatures like `HttpCache.Config -> HttpCache.State a -> Request a -> Cmd a` or something close to that
+
+You'll store the state in the "cache object".
+
+With `Task.succeed` + `Task.perform` you'll be able to construct `Cmd`s that don't actually perform the requests.
+
+The cache will have to keep track of time passing, you'll use subscriptions for that.
+
+You will need to decide whether to look a response up or make the request.
+
+You can either write it specialized to your use case (with the decision and response type hardcoded) or generalized (so you'd provide a config value telling when to use the cache).
