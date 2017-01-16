@@ -75,3 +75,17 @@ map2 Header (field "header" string)
 ```
 
 http://stackoverflow.com/questions/41623843/how-to-map-nothing-to-elm-json-decoder
+
+## deeply nested
+
+```elm
+redditJsonResponseDecoder : Decoder (List PostContent)
+redditJsonResponseDecoder =
+    at [ "data", "children" ] <|
+        list <|
+            at [ "data" ] <|
+                object2
+                    PostContent
+                    ("title" := string)
+                    ("permalink" := string)
+```
