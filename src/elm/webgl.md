@@ -1,2 +1,3 @@
 - https://github.com/toburger/elm-3d
 - https://github.com/zinggi/randomDemos
+- https://github.com/eskimoblood/elm-parametric-surface
