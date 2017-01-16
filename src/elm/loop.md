@@ -1,3 +1,13 @@
+https://gist.github.com/bobzhang/9f27a5a0bd730e8d3503bf5d058a58a7
+
+```elm
+loop i =
+    if i >= lmt then i else
+    loop (i + 1) in loop n
+```
+
+## About
+
 Usually, people use loops for three things namely
 
 - You have a collection of things and you'll like to filter out a subset of them based on a predicate
