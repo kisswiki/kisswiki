@@ -16,3 +16,12 @@ i deleted the main `elm-stuff` folder, i deleted the holde` tests `folder. I ran
 Now it works. It's some wired interactionss between the 2 elm-stuff folders i think (the one in `tests/elm-stuff` and the `projectFolder/elm-stuff`). It's not the first time i see this error.
 
 "I found out that functions imported in elm-test are not kept in sync with the ones present in the src modules. This example reproduces the issue." https://github.com/AIon-Gbbe/reproduce-elm-test-compiler-bug
+
+## autoadd tests to runner
+
+As primarily Javascript developers we are used to JS testing frameworks that automatically pick up new tests written in a spec file. With
+elm-test we had to remember to add newly created tests to a test suite.
+The manual part of this lesson learned is more understandable. Nonetheless, we're used to an ecosystem where newly added unit tests are
+automatically picked up by a test runner.
+
+https://www.reddit.com/r/elm/comments/5o5p63/experiences_with_elm_on_a_small_production/
