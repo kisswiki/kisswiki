@@ -1,6 +1,7 @@
 - https://github.com/search?q=chat+language%3AElm&s=stars&type=Repositories
 - https://github.com/Natim/kinto-elm-chat
   - https://github.com/Kinto/elm-kinto
+    - https://github.com/Kinto/kinto
 - https://pusher.com/
 
 ## elmchat
