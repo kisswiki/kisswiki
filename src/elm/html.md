@@ -35,3 +35,13 @@ view model =
     in
         a attributes [ text "Home" ]
 ```
+
+## in Html you can have only 1 listener per event per element
+
+https://elmlang.slack.com/archives/general/p1484565907015111
+
+@wintvelt:
+
+AFAIK in elm and in Html you can have only 1 listener per event per element, so 1 for mousedown, 1 for touchstart etc.
+
+What I do to make elm play nice with touch, is to use the same Msg constructor, like `MoveStart`, to have both events handled in the same branch of my update tree.
