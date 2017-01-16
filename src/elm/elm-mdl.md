@@ -10,7 +10,7 @@ https://elmlang.slack.com/team/marknijhof
 
 Can a view emit `Html (List Msg)`?
 
-I am using MDL that has it\s own `onClick` behavior and I need something myself as well
+I am using MDL that has it's own `onClick` behavior and I need something myself as well
 
 
 ## Performance
