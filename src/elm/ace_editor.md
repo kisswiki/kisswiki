@@ -1,6 +1,7 @@
 - web component https://github.com/Juicy/juicy-ace-editor
 - https://www.reddit.com/r/elm/comments/5fv3ra/q_how_should_i_embed_javascript_components_that/
   - https://github.com/lukewestby/elm-codegen-preview/blob/master/src/Main.elm#L118-L126
+- https://www.reddit.com/r/elm/comments/3vw55w/code_editor_like_ace/
 - https://github.com/GabiGrin/elm-codemirror
 - http://vincent.jousse.org/en/tech/interacting-with-dom-element-using-elm-audio-video/
 - https://github.com/isagalaev/highlight.js/blob/master/src/languages/r.js
