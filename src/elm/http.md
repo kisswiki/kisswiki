@@ -69,3 +69,13 @@ send verb token dec url body =
     sendtask
 ```
 
+
+## duplicate header
+
+Using automatically puts on the request header. If you also manually set that header there is Http.jsonBody Content-type: application/json.
+
+now a duplicate header that some servers, such as json-server, are unable to handle.
+
+Duplicate headers should be an "impossible state". It'd be nice if the Elm runtime conditionally added the content-type header only if it's not already present, if not a more elegant solution.
+
+https://www.reddit.com/r/elm/comments/5o5p63/experiences_with_elm_on_a_small_production/
