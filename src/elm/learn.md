@@ -80,6 +80,7 @@
 - React.js Conf 2016 - Jamison Dance - Rethinking All Practices: Building Applications in Elm https://youtu.be/txxKx_I39a8
 - https://egghead.io/courses/start-using-elm-to-build-web-applications
 - https://www.elm-conf.us/speaker/
+- Elm and Web Components - Richard Feldman https://youtu.be/ar3TakwE8o0
 
 ## courses
 
