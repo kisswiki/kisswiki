@@ -1,2 +1,4 @@
 - less request to db as cpu can validate request https://news.ycombinator.com/item?id=11895440
 - http://softwareengineering.stackexchange.com/questions/298973/rest-api-security-stored-token-vs-jwt-vs-oauth
+- https://float-middle.com/json-web-tokens-jwt-vs-sessions/
+- http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/
