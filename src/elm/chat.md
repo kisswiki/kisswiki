@@ -2,6 +2,7 @@
 - https://github.com/Natim/kinto-elm-chat
   - https://github.com/Kinto/elm-kinto
     - https://github.com/Kinto/kinto
+    - https://www.kinto-storage.org/
 - https://pusher.com/
 
 ## elmchat
