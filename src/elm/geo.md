@@ -3,3 +3,4 @@
   - https://github.com/krisajenkins/beeline-geodev
 - https://github.com/mgold/elm-geojson
 - https://github.com/elm-lang/geolocation
+- https://www.reddit.com/r/elm/comments/5o5g7i/how_do_i_use_tasks_specifically_geolocationnow/
