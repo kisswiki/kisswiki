@@ -2,6 +2,17 @@
   - https://medium.com/@dailydrip/introduction-to-using-material-design-in-elm-dc2320087410
 - elm-0.17, pagination https://github.com/knewter/time-tracker
 
+## Events
+
+https://elmlang.slack.com/team/marknijhof
+
+@marknijhof:
+
+Can a view emit `Html (List Msg)`?
+
+I am using MDL that has it\s own `onClick` behavior and I need something myself as well
+
+
 ## Performance
 
 - https://github.com/debois/elm-mdl/issues/221
