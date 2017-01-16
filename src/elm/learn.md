@@ -4,6 +4,11 @@
 - http://exercism.io/languages/elm
   - https://github.com/exercism/xelm
 
+## FAQ
+
+- http://faq.elm-community.org/
+- https://pragmaticstudio.com/blog/2015/7/23/what-is-elm-qa
+
 ## Aggregators
 
 - https://twitter.com/search?q=elmlang
