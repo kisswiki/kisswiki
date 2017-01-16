@@ -3,3 +3,4 @@
   - https://github.com/lukewestby/elm-codegen-preview/blob/master/src/Main.elm#L118-L126
 - https://github.com/GabiGrin/elm-codemirror
 - http://vincent.jousse.org/en/tech/interacting-with-dom-element-using-elm-audio-video/
+- https://github.com/isagalaev/highlight.js/blob/master/src/languages/r.js
