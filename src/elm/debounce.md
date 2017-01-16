@@ -1,1 +1,2 @@
 - https://github.com/fredcy/example-elm-debounce
+- for example display message if one stops typing in the input https://github.com/mpizenberg/elm-debounce
