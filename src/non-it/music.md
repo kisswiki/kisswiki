@@ -1,0 +1,2 @@
+- https://github.com/ciconia/awesome-music
+- https://github.com/Apress/digital-audio-editing-fundamentals
