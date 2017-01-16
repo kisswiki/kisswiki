@@ -1,2 +1,3 @@
 - testing apps and webapps on mobile devices https://github.com/appium/appium
 - https://github.com/minimaxir/big-list-of-naughty-strings
+- https://github.com/mirrorer/afl/tree/master/dictionaries
