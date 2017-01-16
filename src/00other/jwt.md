@@ -3,3 +3,4 @@
 - https://float-middle.com/json-web-tokens-jwt-vs-sessions/
 - http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/
 - https://ponyfoo.com/articles/json-web-tokens-vs-session-cookies
+- https://news.ycombinator.com/item?id=11929267
