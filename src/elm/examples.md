@@ -21,3 +21,4 @@
 - https://github.com/hoelzro/elm-typing-tutor
 - https://github.com/danneu/elm-speed-reader
 - editable, timer https://github.com/mpdairy/elm-component-updater/tree/master/examples/src/Component
+- https://github.com/openirc/openirc
