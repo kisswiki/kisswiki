@@ -1,2 +1,2 @@
-- https://news.ycombinator.com/item?id=11895440
+- less request to db as cpu can validate request https://news.ycombinator.com/item?id=11895440
 - http://softwareengineering.stackexchange.com/questions/298973/rest-api-security-stored-token-vs-jwt-vs-oauth
