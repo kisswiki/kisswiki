@@ -30,6 +30,10 @@
 - Corporate accelerators are evil and shouldn't exist https://www.facebook.com/lech.wilczynski/posts/10211450173793524
 - http://innpoland.pl/131343,stawka-jest-milion-nowych-miejsc-pracy-start-upy-uciekaja-z-polski-unia-chce-je-zatrzymac-i-sypnela-kasa
 - https://www.cbinsights.com/blog/startup-unicorns-us-map/
+- https://github.com/softvar/awesome-startups
+- https://github.com/KrishMunot/awesome-startup
+
+## About
 
 >VC money lets you buy new sneakers but if you're looking to lose weight, a tiger chasing you is a much stronger motivation
 >
