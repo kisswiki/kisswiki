@@ -2,3 +2,4 @@
 - http://softwareengineering.stackexchange.com/questions/298973/rest-api-security-stored-token-vs-jwt-vs-oauth
 - https://float-middle.com/json-web-tokens-jwt-vs-sessions/
 - http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/
+- https://ponyfoo.com/articles/json-web-tokens-vs-session-cookies
