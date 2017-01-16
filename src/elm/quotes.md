@@ -13,3 +13,11 @@ The emerging human drone economy: humans getting paid to do what the intelligent
 ‏@cameronp:
 
 Another example... me using the @elmlang compiler.
+
+<br>
+
+https://twitter.com/marick/status/815336457493770240
+
+@marick:
+
+To avoid circular dependencies, I find myself putting @elmlang type declarations in one file, code in another. Takes me back to my C days.
