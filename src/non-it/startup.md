@@ -32,6 +32,8 @@
 - https://www.cbinsights.com/blog/startup-unicorns-us-map/
 - https://github.com/softvar/awesome-startups
 - https://github.com/KrishMunot/awesome-startup
+- https://sivers.org/multiply
+- https://github.com/xiaolai/how-to-start-a-startup
 
 ## About
 
