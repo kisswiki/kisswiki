@@ -46,6 +46,7 @@
 - https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/
   - https://github.com/mukeshsoni/elm-99-problems-for-frolic
 - firewall, parse ip https://github.com/fbonetti/code-challenge-10-2016/
+- Codevember 2016 https://www.youtube.com/playlist?list=PLDA4wlOlLJvXAEsJDje4hdLazsihZiQNf
 
 ## workshops
 
