@@ -23,3 +23,4 @@
 - editable, timer https://github.com/mpdairy/elm-component-updater/tree/master/examples/src/Component
 - https://github.com/openirc/openirc
 - https://github.com/fbonetti/arduino_radar
+- https://github.com/fbonetti/elm-calculator
