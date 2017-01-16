@@ -11,3 +11,27 @@ it is possible to unregister an event in elm? we register one with onClick for e
 @opsb:
 
 You would just change the output of your view function to not include the onClick. The vdom will take care of unregistering it.
+
+## conditional attributes
+
+https://elmlang.slack.com/archives/general/p1484556438015075
+
+@opsb:
+
+```elm
+conditionalAttributes : List ( Attribute msg, Bool ) -> List (Attribute msg)
+conditionalAttributes =
+    List.filter Tuple.second >> List.map Tuple.first
+
+
+view model =
+    let
+        attributes =
+            conditionalAttributes
+                [ ( onClick GoHome, model.flag )
+                , ( onMouseOver HoverHome, True )
+                , ( onMouseOut UnHoverHome, True )
+                ]
+    in
+        a attributes [ text "Home" ]
+```
