@@ -19,9 +19,8 @@ Now it works. It's some wired interactionss between the 2 elm-stuff folders i th
 
 ## autoadd tests to runner
 
-As primarily Javascript developers we are used to JS testing frameworks that automatically pick up new tests written in a spec file. With
-elm-test we had to remember to add newly created tests to a test suite.
-The manual part of this lesson learned is more understandable. Nonetheless, we're used to an ecosystem where newly added unit tests are
-automatically picked up by a test runner.
+As primarily Javascript developers we are used to JS testing frameworks that automatically pick up new tests written in a spec file. With elm-test we had to remember to add newly created tests to a test suite.
+
+The manual part of this lesson learned is more understandable. Nonetheless, we're used to an ecosystem where newly added unit tests are automatically picked up by a test runner.
 
 https://www.reddit.com/r/elm/comments/5o5p63/experiences_with_elm_on_a_small_production/
