@@ -1,1 +1,2 @@
 - https://github.com/mpizenberg/elm-image-annotation
+- https://github.com/mpizenberg/elm-image-collection
