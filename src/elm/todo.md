@@ -35,6 +35,30 @@
     - https://github.com/slopyjoe/elm-build-monitor/blob/master/src/Main.elm
   - when update has model defined https://github.com/toastal/mpdeedle/blob/develop/src/Update.elm
 
+minimal example https://github.com/toastal/elm-unconf-stuff/blob/master/src/Main.elm
+
+```elm
+module Main exposing (main)
+
+import Html exposing (..)
+import Html.Attributes as Attr exposing (..)
+import Return exposing (Return)
+
+
+type alias Model =
+    ()
+
+
+main : Program Never Model msg
+main =
+    Html.program
+        { init = Return.singleton ()
+        , update = always Return.singleton
+        , view = always <| text "¡Hola, mundo!"
+        , subscriptions = always Sub.none
+        }
+```
+
 ## optics
 
 http://package.elm-lang.org/packages/toastal/return-optics/latest
