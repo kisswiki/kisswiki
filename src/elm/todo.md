@@ -26,7 +26,8 @@
 
 ## return
 
-http://package.elm-lang.org/packages/Fresheyeball/elm-return
+- http://mutanatum.com/posts/2016-09-18-Return.html
+- http://package.elm-lang.org/packages/Fresheyeball/elm-return
 
 ## optics
 
