@@ -6,6 +6,7 @@
 - https://github.com/ZuzooVn/machine-learning-for-software-engineers
 - https://github.com/humphd/have-fun-with-machine-learning
 - Replicating AlphaGo's architecture in a readable manner https://github.com/brilee/MuGo
+- Game Theory Reveals the Future of Deep Learning https://news.ycombinator.com/item?id=13405380
 
 ## Generally about AI
 
