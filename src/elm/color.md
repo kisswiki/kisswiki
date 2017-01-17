@@ -1,1 +1,2 @@
 - http://package.elm-lang.org/packages/eskimoblood/elm-color-extra
+- https://github.com/mdgriffith/elm-color-mixing
