@@ -4,6 +4,8 @@
 - https://wiki.gentoo.org/wiki/Mpv#Player_settings
 - https://mpv.io/manual/master/#files
 - https://mpv.io/manual/master/#files-on-windows
+- https://github.com/mpv-player/mpv/blob/master/DOCS/man/options.rst
+- https://github.com/mpv-player/mpv/blob/master/etc/mplayer-input.conf
 
 If a directory named portable_config next to the mpv.exe exists, all config will be loaded from this directory only.
 
