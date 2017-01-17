@@ -1,1 +1,2 @@
 - http://blog.skarpetkowo.pl/2010/09/14/skarpetki-100-bawelna/
+- http://stackoverflow.com/questions/14415881/how-to-pair-socks-from-a-pile-efficiently
