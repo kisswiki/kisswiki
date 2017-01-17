@@ -3,3 +3,4 @@
 - http://package.elm-lang.org/packages/elm-community/svg-extra
 - https://github.com/dailydrip/elm-svg-editor
 - xml to elm https://gist.github.com/eeue56/d0ab060828bf3b64922ac9172ee430c3
+- getting mouse position relative to an SVG element https://github.com/fredcy/elm-svg-mouse-offset
