@@ -1,3 +1,5 @@
+- https://github.com/mdgriffith/elm-style-animation
+
 >This file shows how multiple animations can be run through one Animate Msg:
 https://github.com/mdgriffith/elm-style-animation/blob/master/examples/Gears.elm
 >
