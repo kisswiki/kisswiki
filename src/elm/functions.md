@@ -1,3 +1,9 @@
+## More args in the signature than in method
+
+https://www.elm-tutorial.org/en/tips-tricks/point-free-style.html
+
+## More args in the method than in it's signature
+
 https://elmlang.slack.com/archives/general/p1484313034014000
 
 @chalmagean:
