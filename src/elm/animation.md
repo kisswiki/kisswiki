@@ -7,6 +7,6 @@ https://github.com/mdgriffith/elm-style-animation/blob/master/examples/Gears.elm
 
 <br>
 
->Just wanted to express my delight with mdgriffith/elm-style-animation. I haven't done much with animating HTML before, but half a day in and I already feel like its a breeze. I see there is elm-community/easing-functions too.
+>Just wanted to express my delight with mdgriffith/elm-style-animation. I haven't done much with animating HTML before, but half a day in and I already feel like its a breeze. I see there is https://github.com/elm-community/easing-functions too.
 >
 >-- https://groups.google.com/forum/#!msg/elm-discuss/D7mu7NqHPuA/n4p_ohaJAwAJ
