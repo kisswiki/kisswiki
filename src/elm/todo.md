@@ -28,6 +28,7 @@
 
 - http://mutanatum.com/posts/2016-09-18-Return.html
 - http://package.elm-lang.org/packages/Fresheyeball/elm-return
+- https://toast.al/posts/2016-10-20-optical-swordplay-with-components.html
 
 ## optics
 
