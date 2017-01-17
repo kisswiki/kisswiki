@@ -2,3 +2,4 @@
 - My Tangram program is built with Elm 0.17 and shows drag-and-drop with SVG shapes http://fredcy.github.io/
 - http://package.elm-lang.org/packages/elm-community/svg-extra
 - https://github.com/dailydrip/elm-svg-editor
+- xml to elm https://gist.github.com/eeue56/d0ab060828bf3b64922ac9172ee430c3
