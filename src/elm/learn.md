@@ -4,6 +4,11 @@
 - http://exercism.io/languages/elm
   - https://github.com/exercism/xelm
 
+## instant communication
+
+- https://elmlang.slack.com
+- http://elmlang.slackarchive.io
+
 ## FAQ
 
 - http://faq.elm-community.org/
