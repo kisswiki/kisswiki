@@ -26,6 +26,8 @@
 
 ## optics
 
+http://package.elm-lang.org/packages/toastal/return-optics/latest
+
 jadams:
 
 about to try playing with Return.Optics
