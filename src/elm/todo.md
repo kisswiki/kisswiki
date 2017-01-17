@@ -24,6 +24,10 @@
 - http://blog.jenkster.com/
 - https://github.com/krisajenkins?tab=repositories
 
+## return
+
+http://package.elm-lang.org/packages/Fresheyeball/elm-return
+
 ## optics
 
 http://package.elm-lang.org/packages/toastal/return-optics/latest
