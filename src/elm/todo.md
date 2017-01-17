@@ -33,6 +33,7 @@
   - when update defined as `update msg =` init application with `init = Return.singleton initModel` or `init = initModel >> Return.singleton`
     - https://github.com/toastal/favicon-swapper/blob/master/src/popup/Ui.elm
     - https://github.com/slopyjoe/elm-build-monitor/blob/master/src/Main.elm
+  - when update has model defined https://github.com/toastal/mpdeedle/blob/develop/src/Update.elm
 
 ## optics
 
