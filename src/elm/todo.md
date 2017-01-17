@@ -23,3 +23,21 @@
 - http://blog.jenkster.com/2016/11/type-bombs-in-elm.html
 - http://blog.jenkster.com/
 - https://github.com/krisajenkins?tab=repositories
+
+## optics
+
+jadams:
+
+about to try playing with Return.Optics
+
+@toastal:
+
+have you been using `Return`? It’s like the one library I need for sanity’s sake
+
+@jadams:
+
+I haven't. I should perhaps gradually ratchet my way up to `Return.Optics`
+
+@toastal:
+
+The author made a post about it http://mutanatum.com/posts/2016-09-18-Return.html
