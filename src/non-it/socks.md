@@ -1,0 +1,1 @@
+- http://blog.skarpetkowo.pl/2010/09/14/skarpetki-100-bawelna/
