@@ -101,3 +101,21 @@ The cache will have to keep track of time passing, you'll use subscriptions for 
 You will need to decide whether to look a response up or make the request.
 
 You can either write it specialized to your use case (with the decision and response type hardcoded) or generalized (so you'd provide a config value telling when to use the cache).
+
+## getString - helpfull source
+
+https://github.com/elm-lang/http/blob/master/src/Http.elm#L132
+
+```elm
+getString : String -> Request String
+getString url =
+  request
+    { method = "GET"
+    , headers = []
+    , url = url
+    , body = emptyBody
+    , expect = expectString
+    , timeout = Nothing
+    , withCredentials = False
+    }
+```
