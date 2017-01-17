@@ -2,8 +2,9 @@
 - learn https://flukeout.github.io/
 - https://github.com/rtfeldman/elm-css
   - define custome property in elm-css http://package.elm-lang.org/packages/rtfeldman/elm-css/latest/Css#property
-
 - https://github.com/rtfeldman/elm-css-helpers
+- http://package.elm-lang.org/packages/mdgriffith/style-elements/ has pretty much "solved" CSS, in the same way that Elm solved JavaScript.
+  - https://groups.google.com/forum/#!msg/elm-discuss/D7mu7NqHPuA/n4p_ohaJAwAJ
 
 ## elm-css
 
