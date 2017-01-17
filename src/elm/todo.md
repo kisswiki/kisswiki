@@ -30,6 +30,9 @@
   - https://www.reddit.com/r/elm/comments/5b88n3/the_return_monad/
 - http://package.elm-lang.org/packages/Fresheyeball/elm-return
 - https://toast.al/posts/2016-10-20-optical-swordplay-with-components.html
+  - when update defined as `update msg =` init application with `init = Return.singleton initModel` or `init = initModel >> Return.singleton`
+    - https://github.com/toastal/favicon-swapper/blob/master/src/popup/Ui.elm
+    - https://github.com/slopyjoe/elm-build-monitor/blob/master/src/Main.elm
 
 ## optics
 
