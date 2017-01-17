@@ -86,3 +86,7 @@ I've used return optics everywhere in my app. I totally dig it but I'm not looki
 ## prisms
 
 https://toast.al/posts/2017-01-13-playing-with-prisms-for-the-not-so-isomorphic.html
+
+## css
+
+- http://package.elm-lang.org/packages/mdgriffith/style-elements
