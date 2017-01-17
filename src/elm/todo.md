@@ -41,3 +41,7 @@ I haven't. I should perhaps gradually ratchet my way up to `Return.Optics`
 @toastal:
 
 The author made a post about it http://mutanatum.com/posts/2016-09-18-Return.html
+
+@jadams:
+
+I've used return optics everywhere in my app. I totally dig it but I'm not looking forward to explaining it to some juniors
