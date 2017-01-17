@@ -19,6 +19,7 @@
 - https://twitter.com/search?q=elmlang
 - https://twitter.com/elmlang
 - http://elm-news.com/
+  - https://github.com/oakesja/elm-news
 - http://www.elmweekly.nl/
 - https://www.dailydrip.com/topics/elm
 - https://groups.google.com/forum/#!forum/elm-dev
