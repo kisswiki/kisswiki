@@ -21,7 +21,7 @@ button [ styles [ position absolute, left (px 5) ] ]
 
 https://elmlang.slack.com/archives/general/p1484139837013133
 
-##
+## default attribute
 
 https://elmlang.slack.com/archives/general/p1484308450013948
 
@@ -94,3 +94,15 @@ the "row wrap" does not appear to be effective
 @ohanhi:
 
 I think you need to say `flex-direction: row` and `flex-wrap: wrap` separately,no?
+
+## classes
+
+https://elmlang.slack.com/archives/general/p1484595150015300
+
+coreyhaines:
+
+```elm
+classes : List String -> Html.Attribute msg
+classes =
+    String.join " " >> Html.Attributes.class
+```
