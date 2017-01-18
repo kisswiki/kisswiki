@@ -2,6 +2,7 @@
 - http://stackoverflow.com/questions/34163401/how-to-create-a-date-variable-in-elm
 - https://github.com/rluiten/elm-date-extra/tree/master/examples
 - https://github.com/mgold/elm-date-format
+- https://github.com/alpacaaa/elm-date-distance
 
 ```elm
 import Date
