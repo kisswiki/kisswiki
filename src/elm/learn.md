@@ -44,6 +44,7 @@
 - http://rundis.github.io/blog/
 - http://jaketrent.com/blog/categories/elm/
 - https://ohanhi.github.io/
+- https://alpacaaa.net/blog/
 
 ## Exercises
 
