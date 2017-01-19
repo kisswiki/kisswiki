@@ -1,0 +1,1 @@
+- possible antipattern? https://gist.github.com/evancz/78293dc6a4ac2547676c
