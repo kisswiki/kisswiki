@@ -9,7 +9,7 @@ Możemy mówić, że to przez to, że w Chinach nie ma internetu tylko jest intr
 
 - Facebook: messenger i boty, facebook marketplace, facebook pages
 - Google: Assistant, AMP, przez google maps zamówisz ubera
-- Amazon Echo: voice interaction, music playback, making to-do lists, setting alarms, streaming podcasts, playing audiobooks, and providing weather, traffic and other real time information. It can also control several smart devices using itself as a home automation hub.
+- Amazon: Echo: voice interaction, music playback, making to-do lists, setting alarms, streaming podcasts, playing audiobooks, and providing weather, traffic and other real time information. It can also control several smart devices using itself as a home automation hub. Amazon Go
 - Apple: Siri, imessage i boty, imessage i płatności
 
 Czy podoba wam się taka przyszłość?
