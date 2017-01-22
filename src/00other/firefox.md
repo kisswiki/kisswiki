@@ -22,3 +22,7 @@ https://support.mozilla.org/en-US/questions/963855
 
 - https://addons.mozilla.org/pl/firefox/addon/dark-background-light-text
 - https://addons.mozilla.org/pl/firefox/addon/simple-night-mode
+
+## Autohide address bar
+
+https://addons.mozilla.org/pl/firefox/addon/aniverto/
