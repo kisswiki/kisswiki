@@ -17,3 +17,8 @@ https://support.mozilla.org/en-US/questions/963855
   - https://addons.mozilla.org/en-US/firefox/addon/better-reader/
   - http://www.ghacks.net/2015/11/07/better-reader-improves-firefoxs-reader-mode/
 - https://userstyles.org/styles/114669/firefox-reader-custom-width-multi-column
+
+## Dark mode
+
+- https://addons.mozilla.org/pl/firefox/addon/dark-background-light-text
+- https://addons.mozilla.org/pl/firefox/addon/simple-night-mode
