@@ -1,0 +1,1 @@
+- obama hope effect http://registry.gimp.org/node/14291
