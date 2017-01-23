@@ -58,3 +58,11 @@
 
 - http://stackoverflow.com/questions/19063770/how-to-vertically-align-and-stretch-content-using-css-flexbox
 - http://stackoverflow.com/questions/19072610/flexbox-vertically-center-and-match-size
+
+## children equal size
+
+>Each flex item has a flex-basis which is sort of like its initial size. Then from there, any remaining free space is distributed proportionally (based on flex-grow) among the items. With auto, that basis is the contents size (or defined size with width, etc.). As a result, items with bigger text within are being given more space overall in your example.
+>
+>If you want your elements to be completely even, you can set flex-basis: 0. This will set the flex basis to 0 and then any remaining space (which will be all space since all basises are 0) will be proportionally distributed based on flex-grow.
+>
+>-- http://stackoverflow.com/questions/25066214/flexbox-not-giving-equal-width-to-elements/25066844#25066844
