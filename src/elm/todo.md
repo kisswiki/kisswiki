@@ -15,6 +15,7 @@
 ## remote data
 
 - krisajenkins/remotedata
+  - https://www.reddit.com/r/elm/comments/5j7qgx/remote_data_in_elm_town_episode_7/
 - "Beyond Hello World and Todo Lists" by Ossi Hanhinen https://youtu.be/vpc80c5iC6k?list=PLglJM3BYAMPH2zuz1nbKHQyeawE4SN0Cd&t=969
 - http://www.mechanicaldruid.com/update-to-input-tracking-in-elm/
 
