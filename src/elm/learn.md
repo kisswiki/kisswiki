@@ -156,6 +156,7 @@
 - https://yobriefca.se/blog/2015/08/02/deconstructing-your-first-elm-app/
 - http://learnyouanelm.github.io/
 - A tutorial on developing single page web applications (SPAs) with Elm http://www.elm-tutorial.org/en/
+- http://elmprogramming.com/
 
 ## podcasts
 
