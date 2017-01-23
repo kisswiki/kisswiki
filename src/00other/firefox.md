@@ -26,3 +26,8 @@ https://support.mozilla.org/en-US/questions/963855
 ## Autohide address bar
 
 https://addons.mozilla.org/pl/firefox/addon/aniverto/
+
+## Container Tabs
+
+- https://wiki.mozilla.org/Security/Contextual_Identity_Project/Containers
+- https://news.ycombinator.com/item?id=13450143
