@@ -55,3 +55,8 @@ a ()
 >The function String -> a is called eval, and it's not coming to Elm because it would break all kinds of type guarantees. You can implement functions from String to a specific concrete type, although that type will have to have some notion of failure or emptiness if it's not wrapped in a Maybe or a Result.
 >
 >-- https://groups.google.com/forum/#!msg/elm-discuss/pGKdod7KaEc/KSQPC_5RAwAJ
+
+
+## Default arguments
+
+https://www.reddit.com/r/elm/comments/48v48j/default_values_for_function_arguments/
