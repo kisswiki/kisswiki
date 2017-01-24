@@ -102,7 +102,7 @@ https://dev.to/rtfeldman/i-am-the-author-of-elm-in-action-ask-me-anything/commen
 
 The pain point that leaps immediately into my mind is build tools. I'm not gonna sugarcoat it: Webpack has been slow and crashy and I can't wait for us to stop using it.
 
-However, I'm assuming you meant "pain point specifically with Elm the language." For me it's definitely that union types are not comparable yet. I really want to be able to use them as keys in a Dict for things like form validation. Unfortunately this is a ways off because the implementation requires modifying how Elm generates JS code to include a bit more information at runtime.
+However, I'm assuming you meant "pain point specifically with Elm the language." For me it's definitely that union types are not `comparable` yet. I really want to be able to use them as keys in a `Dict` for things like form validation. Unfortunately this is a ways off because the implementation requires modifying how Elm generates JS code to include a bit more information at runtime.
 
 My #2 pain point is how much of the Web platform still requires interop to access. For example, if I could use an Elm library with a nice API that let me work with IndexedDB, I'd probably be up until 2am upgrading Dreamwriter.
 
