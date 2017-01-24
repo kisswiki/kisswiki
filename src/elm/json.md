@@ -1,5 +1,6 @@
 - http://stackoverflow.com/questions/tagged/elm+json?sort=votes
 - http://package.elm-lang.org/packages/elm-community/json-extra/latest/Json-Decode-Extra#andMap
+- decode date https://www.brianthicks.com/post/2017/01/13/create-custom-json-decoders-in-elm-018/
 
 ## Options
 
