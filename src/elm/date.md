@@ -13,3 +13,9 @@ main = text <| Date.fromString "2015-10-05"
 ```elm
 Date.fromString "2011/1/1" |> Result.withDefault (Date.fromTime 0)
 ```
+
+## Decoder and Date
+
+>If you're using a third-party JS custom element (e.g. <google-maps/>) and it fires custom events which contain dates, there is no way to decode those events using on and a decoder.
+>
+>-- https://groups.google.com/forum/#!msg/elm-dev/SrXIgHft3mM/BkFXIuVCBgAJ
