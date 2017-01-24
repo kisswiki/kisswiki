@@ -3,7 +3,9 @@
 - https://github.com/rluiten/elm-date-extra/tree/master/examples
 - https://github.com/mgold/elm-date-format
 - https://github.com/alpacaaa/elm-date-distance
-- json decode https://www.brianthicks.com/post/2017/01/13/create-custom-json-decoders-in-elm-018/
+- json decode
+  - https://www.brianthicks.com/post/2017/01/13/create-custom-json-decoders-in-elm-018/
+  - http://stackoverflow.com/questions/37146233/elm-json-decoder-timestamp-to-date
 
 ```elm
 import Date
