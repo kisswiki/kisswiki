@@ -1,6 +1,6 @@
 https://dev.to/rtfeldman/i-am-the-author-of-elm-in-action-ask-me-anything/comments
 
-Webpack has been slow and crashy and I can't wait for us to stop using it
+Webpack has been slow and crashy and I can't wait for us to stop using it.
 
 To expand on the Webpack issues:
 
