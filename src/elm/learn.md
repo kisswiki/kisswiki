@@ -157,6 +157,7 @@
 - http://learnyouanelm.github.io/
 - A tutorial on developing single page web applications (SPAs) with Elm http://www.elm-tutorial.org/en/
 - http://elmprogramming.com/
+- https://github.com/elm-guides/elm-for-js
 
 ## podcasts
 
