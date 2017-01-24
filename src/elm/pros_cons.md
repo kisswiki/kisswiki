@@ -94,3 +94,16 @@ Elm doesn't have it, but they still recommend this vtable struct pattern.
 The other way of working is type classes, which are kind of like Go's interfaces. A thing implements an interface if it happens to implement the right functions. In Haskell, though type classes exist, many people recommend using the vtable pattern instead.
 In Elm, there are no type classes. This is because Haskell people recommend against using them. But in Haskell, they could only work with vtables in place of typeclasses effectively because of a feature that Haskell has and Elm lacks.
 > -- https://www.reddit.com/r/programming/comments/5bsanc/elm_is_wrong_reasonably_polymorphic/
+
+
+## rtfeldman
+
+https://dev.to/rtfeldman/i-am-the-author-of-elm-in-action-ask-me-anything/comments
+
+The pain point that leaps immediately into my mind is build tools. I'm not gonna sugarcoat it: Webpack has been slow and crashy and I can't wait for us to stop using it.
+
+However, I'm assuming you meant "pain point specifically with Elm the language." For me it's definitely that union types are not comparable yet. I really want to be able to use them as keys in a Dict for things like form validation. Unfortunately this is a ways off because the implementation requires modifying how Elm generates JS code to include a bit more information at runtime.
+
+My #2 pain point is how much of the Web platform still requires interop to access. For example, if I could use an Elm library with a nice API that let me work with IndexedDB, I'd probably be up until 2am upgrading Dreamwriter.
+
+Oh, and there's that value doesn't Just Work the way it does in React. This is kind of inside baseball, but it can Just Work in React because setState updates synchronously, whereas Elm does requestAnimationFrame batching to improve performance. The alternative of defaultValue works fine for most use cases, but when it doesn't it's a big pain. I can conceive of a way to make value Just Work, but it would be a pretty invasive change for elm-lang/virtual-dom.
