@@ -83,6 +83,7 @@ In asm.js/WASM the execution stack is not inspectable from code.
 ## Dynamic languages
 
 - https://github.com/WebAssembly/design/blob/master/GC.md
+- https://github.com/AndrewScheidecker/WAVM
 
 >wasm needs time to evolve GC, JIT support, and other dynamic language features, to be a first-class target for JS. Even when it does evolve these things, I have doubts that JS/wasm engines will drop their JS syntax and built-ins in favor of downloaded JS-in-wasm VMs. We shall see!
 >
@@ -93,3 +94,13 @@ In asm.js/WASM the execution stack is not inspectable from code.
 >Even before GC support is added to WebAssembly, it is possible to compile a language's VM to WebAssembly (assuming it's written in portable C/C++) and this has already been demonstrated (1, 2, 3). However, "compile the VM" strategies increase the size of distributed code, lose browser devtools integration, can have cross-language cycle-collection problems and miss optimizations that require integration with the browser.
 >
 >-- https://github.com/WebAssembly/design/blob/master/FAQ.md#is-webassembly-only-for-cc-programmers
+
+<br>
+
+>Garbage collection is not magic. It's a fairly simple (but byzantine) matter of tracking references, and allocating and freeing memory.
+>
+>From what I've seen of WebAsm, you can request pages of memory using grow_memory. Upon this, you could implement a memory pool system to handle malloc and free. Using this, it is trivial to port existing GC's.
+>
+>I don't understand why people moan about GC in WebAsm. WebAsm is a compiler target for lower level languages, not the JVM.
+>
+>-- https://news.ycombinator.com/item?id=11846330
