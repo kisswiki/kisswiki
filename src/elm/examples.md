@@ -25,3 +25,4 @@
 - https://github.com/fbonetti/arduino_radar
 - https://github.com/fbonetti/elm-calculator
 - https://github.com/oakesja/elm-news
+- https://github.com/plentiful/shop
