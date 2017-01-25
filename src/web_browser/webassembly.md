@@ -82,6 +82,8 @@ In asm.js/WASM the execution stack is not inspectable from code.
 
 ## Dynamic languages
 
+- https://github.com/WebAssembly/design/blob/master/GC.md
+
 >wasm needs time to evolve GC, JIT support, and other dynamic language features, to be a first-class target for JS. Even when it does evolve these things, I have doubts that JS/wasm engines will drop their JS syntax and built-ins in favor of downloaded JS-in-wasm VMs. We shall see!
 >
 >-- https://github.com/WebAssembly/design/issues/219#issuecomment-114681277
