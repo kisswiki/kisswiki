@@ -72,3 +72,10 @@ In asm.js/WASM the execution stack is not inspectable from code.
 > labrador: From what I've read, the architects of WebAssembly are committed to still be able to show source.
 > wahern: WebAssembly doesn't permit unstructured branching. That is, the bytecode doesn't support "goto". All conditionals and loops use structured mechanisms. Reconstituting branches and loops is the hardest part of decompiling, which means WebAssembly decompilers will have the hardest part already solved for them. It doesn't matter what binary or text formats the WebAssembly team chooses, they'll all be equally easy to parse, and even generate, in this regard.
 > -- https://news.ycombinator.com/item?id=12841344
+
+
+<br>
+
+>Wasm has as a design principle to support a familiar text format. Notably it has a structured control flow design for quick analysis, and is optimized for single use definitions used in stack order so optimized for readable expressions. Thus it is not a 'code obfuscation' target, but developers can emit their own 'code obfuscation' on top of this but should understand that this is expected to have a cost in terms of decreased encoding efficiency and decreased performance.
+>
+>-- https://github.com/WebAssembly/design/issues/219
