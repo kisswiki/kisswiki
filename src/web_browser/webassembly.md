@@ -85,3 +85,9 @@ In asm.js/WASM the execution stack is not inspectable from code.
 >wasm needs time to evolve GC, JIT support, and other dynamic language features, to be a first-class target for JS. Even when it does evolve these things, I have doubts that JS/wasm engines will drop their JS syntax and built-ins in favor of downloaded JS-in-wasm VMs. We shall see!
 >
 >-- https://github.com/WebAssembly/design/issues/219#issuecomment-114681277
+
+<br>
+
+>Even before GC support is added to WebAssembly, it is possible to compile a language's VM to WebAssembly (assuming it's written in portable C/C++) and this has already been demonstrated (1, 2, 3). However, "compile the VM" strategies increase the size of distributed code, lose browser devtools integration, can have cross-language cycle-collection problems and miss optimizations that require integration with the browser.
+>
+>-- https://github.com/WebAssembly/design/blob/master/FAQ.md#is-webassembly-only-for-cc-programmers
