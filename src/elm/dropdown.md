@@ -4,6 +4,7 @@
   - https://medium.com/@wintvelt/a-reusable-dropdown-in-elm-part-2-9659ef988441
 - https://github.com/r31gN/elm-dropdown
 - http://elm-ui.info/reference/dropdown-menu
+- http://elm-ui.info/reference/chooser
 - https://gist.github.com/bensu/8dcb79cf698b3fafb950
 - http://stackoverflow.com/questions/39371105/how-to-use-select-dropdown-tag-in-elm-lang
 - http://stackoverflow.com/questions/36737882/bootstrap-dropdown-in-elm
