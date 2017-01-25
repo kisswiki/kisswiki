@@ -79,3 +79,9 @@ In asm.js/WASM the execution stack is not inspectable from code.
 >Wasm has as a design principle to support a familiar text format. Notably it has a structured control flow design for quick analysis, and is optimized for single use definitions used in stack order so optimized for readable expressions. Thus it is not a 'code obfuscation' target, but developers can emit their own 'code obfuscation' on top of this but should understand that this is expected to have a cost in terms of decreased encoding efficiency and decreased performance.
 >
 >-- https://github.com/WebAssembly/design/issues/219
+
+## Dynamic languages
+
+>wasm needs time to evolve GC, JIT support, and other dynamic language features, to be a first-class target for JS. Even when it does evolve these things, I have doubts that JS/wasm engines will drop their JS syntax and built-ins in favor of downloaded JS-in-wasm VMs. We shall see!
+>
+>-- https://github.com/WebAssembly/design/issues/219#issuecomment-114681277
