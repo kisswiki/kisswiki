@@ -33,6 +33,7 @@ portable_config/mpv.conf
 
 ```
 sub-auto=fuzzy
+subcp=cp1250
 ```
 
 ## Remember position
