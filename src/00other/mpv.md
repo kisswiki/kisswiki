@@ -43,3 +43,14 @@ portable_config/mpv.conf
 ```
 save-position-on-quit=yes
 ```
+
+## Voices muted
+
+portable_config/mpv.conf
+
+```
+audio-channels=2
+```
+
+- https://bbs.archlinux.org/viewtopic.php?pid=1516946#p1516946
+- http://askubuntu.com/questions/163843/why-can-i-hear-only-a-few-audio-channels-when-playing-video-files
