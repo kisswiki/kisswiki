@@ -3,6 +3,7 @@
 - decode date
   - https://www.brianthicks.com/post/2017/01/13/create-custom-json-decoders-in-elm-018/
   - http://stackoverflow.com/questions/37146233/elm-json-decoder-timestamp-to-date
+- http://package.elm-lang.org/packages/bartavelle/json-helpers
 
 ## Options
 

@@ -67,6 +67,7 @@
   - [Richard Feldman - Growing the Oasis: Elm in Production](http://www.ustream.tv/recorded/64191291)
 - https://github.com/ohanhi/hacksess-elm
 - https://github.com/Fresheyeball/lambdaconf-2016-elm-workshop
+- https://github.com/elmbridge
 
 ## koans
 
