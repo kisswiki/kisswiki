@@ -1,0 +1,10 @@
+- Facebook switched on desktop to html5 video, 2015-12-18, but you probably need h264 codec https://code.facebook.com/posts/159906447698921/why-we-chose-to-move-to-html5-video/
+- Chromium with proprietary codecs https://chromium.woolyss.com/
+- http://superuser.com/questions/655605/how-do-i-add-mp3-mp4-and-h-264-support-to-chromium-on-windows
+- http://stackoverflow.com/questions/34182394/mp4-codec-support-in-chromium
+- test support https://www.youtube.com/html5
+- https://www.chromium.org/audio-video
+- https://groups.google.com/a/chromium.org/forum/#!topic/chromium-dev/9EqnUb2fDvg
+- https://www.reddit.com/r/Chromium/comments/2kv7l7/chrome_supports_h264_chromium_doesnt_why/
+- flash for chromium https://helpx.adobe.com/flash-player/kb/flash-player-chromium.html
+- testing facebook video https://www.facebook.com/latinomagazine/videos/10152484650042694/
