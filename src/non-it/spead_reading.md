@@ -1,0 +1,2 @@
+- https://itunes.apple.com/us/app/sprint-spritz-powered-speed/id865582500?mt=8
+- http://www.wykop.pl/link/3582029/mozna-przeczytac-opasle-ksiazki-w-mniej-niz-3-godziny-mozna-test-apek-z-rsvp/
