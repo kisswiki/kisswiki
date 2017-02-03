@@ -128,3 +128,17 @@ postgres=# \l
  template1 | postgres | UTF8     | en-US   | en-US | =c/postgres          +
            |          |          |         |       | postgres=CTc/postgres
 ```
+
+### Get locale on Windows
+
+In cmd.exe https://www.windows-commandline.com/find-system-locale-systeminfo-command/
+
+`systeminfo | findstr /B /C:"System Locale"`
+
+In powershell http://serverfault.com/questions/173630/how-to-get-system-locale-in-windows-7-cmd/173689#173689
+
+`Get-UICulture`
+
+or
+
+`Get-UICulture`
