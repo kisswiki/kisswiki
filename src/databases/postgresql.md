@@ -7,6 +7,7 @@
   - without system tables `select * from pg_catalog.pg_tables where schemaname != 'pg_catalog' and schemaname != 'information_schema'` https://stackoverflow.com/questions/769683/show-tables-in-postgresql
 - show databases `\l`
 - show users (for particular db) `\du` https://stackoverflow.com/questions/8926389/postgresql-user-listing
+  - user mappings `\deu+` http://unix.stackexchange.com/questions/201666/command-to-list-postgresql-user-accounts/201670#201670
 - describe table `\d+ tablename` https://stackoverflow.com/questions/109325/postgresql-describe-table
 - create user http://stackoverflow.com/questions/10861260/how-to-create-user-for-a-db-in-postgresql
 - creat user and table http://stackoverflow.com/questions/1471571/how-to-configure-postgresql-for-the-first-time/1471678#1471678
