@@ -127,5 +127,4 @@ postgres=# \l
            |          |          |         |       | postgres=CTc/postgres
  template1 | postgres | UTF8     | en-US   | en-US | =c/postgres          +
            |          |          |         |       | postgres=CTc/postgres
-
 ```
