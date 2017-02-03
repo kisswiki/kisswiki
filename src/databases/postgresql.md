@@ -137,7 +137,7 @@ postgres=# \q
 $ pg_ctl -D pgdata stop    
 ```
 
-`pg_ctl ... start` on Windows starts as different user then current.
+`pg_ctl ... start` on Windows starts as different user than current.
 
 ### Get locale on Windows
 
