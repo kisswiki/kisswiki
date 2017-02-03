@@ -112,3 +112,20 @@ The simplest way is to always store time stamps without time zone and in UTC.
 Using CURRENT_TIMESTAMP will get the timestamp from the server at the time of execution.
 
 http://stackoverflow.com/questions/32033114/javascript-postgres-timezone-and-timestamp-usage
+
+## Windows and locale when installing from zip
+
+```
+$ initdb -D pgdata -U postgres -A trust -E UTF8 --locale=en-US
+$ psql -U postgres
+postgres=# \l
+                             List of databases
+   Name    |  Owner   | Encoding | Collate | Ctype |   Access privileges
+-----------+----------+----------+---------+-------+-----------------------
+ postgres  | postgres | UTF8     | en-US   | en-US |
+ template0 | postgres | UTF8     | en-US   | en-US | =c/postgres          +
+           |          |          |         |       | postgres=CTc/postgres
+ template1 | postgres | UTF8     | en-US   | en-US | =c/postgres          +
+           |          |          |         |       | postgres=CTc/postgres
+
+```
