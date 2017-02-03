@@ -122,6 +122,7 @@ http://stackoverflow.com/questions/32033114/javascript-postgres-timezone-and-tim
 
 ```
 $ initdb -D pgdata -U postgres -A trust -E UTF8 --locale=en-US
+$ pg_ctl -D pgdata -l pg.log start
 $ psql -U postgres
 postgres=# \l
                              List of databases
@@ -132,7 +133,11 @@ postgres=# \l
            |          |          |         |       | postgres=CTc/postgres
  template1 | postgres | UTF8     | en-US   | en-US | =c/postgres          +
            |          |          |         |       | postgres=CTc/postgres
+postgres=# \q
+$ pg_ctl -D pgdata stop    
 ```
+
+`pg_ctl ... start` on Windows starts as different user then current.
 
 ### Get locale on Windows
 
