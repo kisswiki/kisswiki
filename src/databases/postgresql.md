@@ -115,6 +115,10 @@ http://stackoverflow.com/questions/32033114/javascript-postgres-timezone-and-tim
 
 ## Windows and locale when installing from zip
 
+>On Windows, however, UTF-8 encoding can be used with any locale
+>
+>-- http://stackoverflow.com/questions/19864246/postgres-creating-english-united-states-1252-collation?noredirect=1&lq=1#comment29549802_19864246
+
 ```
 $ initdb -D pgdata -U postgres -A trust -E UTF8 --locale=en-US
 $ psql -U postgres
@@ -142,3 +146,6 @@ In powershell http://serverfault.com/questions/173630/how-to-get-system-locale-i
 or
 
 `Get-UICulture`
+
+- http://stackoverflow.com/questions/1610337/how-can-i-find-the-current-windows-language-from-cmd
+- http://stackoverflow.com/questions/5152866/list-of-locales-in-windows
