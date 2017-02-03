@@ -149,3 +149,4 @@ or
 
 - http://stackoverflow.com/questions/1610337/how-can-i-find-the-current-windows-language-from-cmd
 - http://stackoverflow.com/questions/5152866/list-of-locales-in-windows
+- "initdb: cannot be run as root" http://dba.stackexchange.com/questions/22016/what-is-going-wrong-with-postgresql-initdb-why-is-the-utf-8-encoding-not-gett
