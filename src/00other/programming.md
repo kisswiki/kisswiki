@@ -13,3 +13,9 @@ For every smart, capable, well reasoned developer there are a thousand blindly c
 >Upon hearing this, the Prodigy was enlightened.
 >
 >-- http://catb.org/esr/writings/unix-koans/prodigy.html
+
+
+## Learn
+
+- A curated list of games that can teach you how to learn a programming language https://github.com/michelpereira/gamesofcoding
+  - https://news.ycombinator.com/item?id=13566247
