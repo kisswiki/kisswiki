@@ -10,7 +10,7 @@
   - http://web.archive.org/web/20120113071412/http://zatoka-zen.com/2011/12/13/mity-i-fakty-medytacji-cz-1
   - https://web.archive.org/web/20120204052634/http://www.proaktywnie.pl/2011/12/mity-i-fakty-medytacji-cz-2/
 - http://wiadomosci.gazeta.pl/wiadomosci/7,156046,20752967,w-tej-szkole-dzieci-za-kare-medytuja-efekty-przerosly-oczekiwania.html
-
+  - http://hlfinc.org/
 ## Hardware
 
 http://www.choosemuse.com/how-does-muse-work/
