@@ -1,0 +1,2 @@
+- http://lubimyczytac.pl/autor/8455/adele-faber
+- https://www.amazon.com/How-Talk-Kids-Will-Listen/dp/1451663889/
