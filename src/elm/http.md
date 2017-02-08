@@ -119,3 +119,10 @@ getString url =
     , withCredentials = False
     }
 ```
+
+## readAsBinaryString
+
+HTTP.getString resolves to javascript readAsText whereas what you need is something that resolves to readAsBinaryString.  This got lost when elm-lang/http replaced evancz/elm-http.
+
+- https://github.com/elm-lang/http/issues/11 
+- https://groups.google.com/forum/#!msg/elm-discuss/6F6IzGyzHmo/mn0ZQc1wBgAJ
