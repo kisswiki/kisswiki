@@ -4,6 +4,7 @@
 - https://github.com/CaronaBoard/caronaboard/pull/18
   - Implemented with https://www.npmjs.com/package/elm-static-html
 - https://github.com/noredink/take-home#support-summary
+- Using Elm on the server (full stack Elm webapps ) https://groups.google.com/forum/#!msg/elm-discuss/GtAHuYzV72I/Sgg2IxVJBgAJ
 
 ## Update
 
