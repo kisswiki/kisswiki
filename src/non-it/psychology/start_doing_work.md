@@ -27,3 +27,7 @@ What would be your first step anyway, that is laughably small?
 
 Also - consider finding a place that you know you'll work at. When I had to write essays for classes, or design something for projects, I had to get away from the computer. I still do. I get so distracted, everything takes 50 times longer than it should. If I grab some paper and a pen, and go sit at a "work area" I am much more focused, and I get things done so much faster.
 You need to mentally associate a place with "work" and do nothing but work in that place. My personal computer is not a good place for me to work at, because it is where I play games, and waste time. But I can work fine with a computer at college or at the library. If you need a computer for your project, consider spending a lot more time in the library.
+
+## I can't start doing work
+
+https://www.reddit.com/r/NonZeroDay/comments/4maei7/i_cant_start_doing_work/
