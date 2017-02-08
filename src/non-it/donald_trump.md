@@ -1,0 +1,3 @@
+- This Video Will Get Donald Trump Elected https://youtu.be/9TzXvR9chng
+  - http://www.wykop.pl/link/3595233/trump-oficjalnie-zrezygnowal-z-wynagrodzenia-bedzie-pobieral-symbolicznego-1/
+- his video turned me into a die-hard Donald Trump supporter | The Trump Brigade https://youtu.be/zbUx65tFTDY
