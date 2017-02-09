@@ -35,6 +35,10 @@ That being said, holy-shit we can do anything!
 - http://www.2ality.com/2015/06/web-assembly.html
 - https://medium.com/javascript-scene/why-we-need-webassembly-an-interview-with-brendan-eich-7fb2a60b0723
 
+WebAssembly is not a virtual machine byte code (and neither is LLVM, despite the name). As the name "WebAssembly" suggests, it is like an assembly language level target for "the web" (more precisely, for JavaScript interpreters found in web browsers).
+
+https://news.ycombinator.com/item?id=13607535
+
 ## Examples
 
 - https://webassembly.github.io/demo/
