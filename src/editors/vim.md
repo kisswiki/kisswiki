@@ -1,4 +1,5 @@
 - http://vi.stackexchange.com/
+- http://vimawesome.com/
 
 ## convert file to utf-8
 
