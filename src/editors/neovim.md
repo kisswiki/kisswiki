@@ -53,6 +53,7 @@ https://github.com/junegunn/vim-plug/issues/472
 - https://github.com/kristijanhusak/neovim-config/blob/master/init.vim
 - https://github.com/ladislas/nvim/blob/master/vimrc
 - [Discussion/Tracking] Defaults https://github.com/neovim/neovim/issues/2676
+- https://github.com/spf13/spf13-vim/blob/master/.vimrc
 
 ## auto set paste
 
