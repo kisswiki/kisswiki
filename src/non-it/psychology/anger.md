@@ -1,0 +1,1 @@
+- Don’t let your anger persist https://news.ycombinator.com/item?id=12730566
