@@ -9,3 +9,4 @@
 - http://store.steampowered.com/stats/?l=polish
 - http://www.thetoptens.com/video-game-genres/
 - https://www.greenmangaming.com/blog/golden-joystick-awards-2016-winners-announced/
+- http://www.wykop.pl/link/3594219/najlepsze-i-najgorsze-gry-rpg-z-lat-2012-2016-wg-rpg-codex/
