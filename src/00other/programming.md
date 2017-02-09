@@ -19,4 +19,4 @@ For every smart, capable, well reasoned developer there are a thousand blindly c
 
 - A curated list of games that can teach you how to learn a programming language https://github.com/michelpereira/gamesofcoding
   - https://news.ycombinator.com/item?id=13566247
-- https://medium.com/@ipestov/collection-of-coders-games-to-improve-your-skills-9ea02906d73#.g2x2a11fh
+- https://medium.com/@ipestov/collection-of-coders-games-to-improve-your-skills-9ea02906d73
