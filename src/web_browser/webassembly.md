@@ -53,6 +53,12 @@ That being said, holy-shit we can do anything!
 > But the downside is mostly irrelevant for people concerned by decompiling WebAssembly to readable source code.
 > -- https://news.ycombinator.com/item?id=12842923
 
+<br>
+
+asm.js supports vector instructions and wasm doesn't
+
+https://news.ycombinator.com/item?id=13606397
+
 ## Other languages
 
 > WebAssembly doesn't permit unstructured branching. That is, the bytecode doesn't support "goto". All conditionals and loops use structured mechanisms. Reconstituting branches and loops is the hardest part of decompiling, which means WebAssembly decompilers will have the hardest part already solved for them. It doesn't matter what binary or text formats the WebAssembly team chooses, they'll all be equally easy to parse, and even generate, in this regard.
