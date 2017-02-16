@@ -17,6 +17,7 @@
 - http://www.wykop.pl/link/3029083/dlaczego-kobiety-lubia-lobuzow-dlaczego-niszcza-spoleczenstwa-i-cywilizacje/
 - http://www.wykop.pl/link/3369139/brak-seksu-w-zwiazku-to-najczestsza-przyczyna-rozpaczy-milionow-ludzi-w-polsce/
 - http://www.wykop.pl/link/3032555/14-sygnalow-ostrzegawczych-od-niewlasciwych-dziewczyn/#comment-34767101
+- http://www.wykop.pl/link/3274591/szesc-subtelnych-sygnalow-zdradzajacych-osobowosc-borderline/#comment-38057719
 - http://www.wykop.pl/link/379630/dlaczego-kobiety-nie-wybieraja-milych-i-inteligentnych-facetow/#comment-2410641
   - http://demotywatory.pl/2223323/Dlaczego-kobiety-nie-wybieraja-tych-milych
 - http://www.wykop.pl/link/3144371/dlaczego-kobiety-wola-dupkow/
