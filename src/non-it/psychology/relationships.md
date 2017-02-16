@@ -14,6 +14,7 @@
 - http://www.wykop.pl/link/3145265/wife-zone-chart/
 - http://www.wykop.pl/link/3112543/marian-dziedziel-mowi-cala-prawde-o-kobietach/
 - http://www.wykop.pl/link/1678634/co-zrobic-gdy-podrywana-przez-ciebie-dziewczyna-okazuje-sie-miec-chlopaka/
+- http://www.wykop.pl/link/3029083/dlaczego-kobiety-lubia-lobuzow-dlaczego-niszcza-spoleczenstwa-i-cywilizacje/
 
 ## Spada Pożądanie
 
