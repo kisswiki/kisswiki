@@ -1,0 +1,1 @@
+- https://code.facebook.com/posts/557147474482256/this-browser-tweak-saved-60-of-requests-to-facebook
