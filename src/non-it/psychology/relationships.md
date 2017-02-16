@@ -22,6 +22,7 @@
   - http://demotywatory.pl/2223323/Dlaczego-kobiety-nie-wybieraja-tych-milych
 - http://www.wykop.pl/link/3144371/dlaczego-kobiety-wola-dupkow/
 - http://www.wykop.pl/link/3341419/dlaczego-kobiety-zdradzaja/
+- http://www.wykop.pl/link/3558881/facet-zaczyna-sie-od-180-cm-czyli-czego-pragna-kobiety-z-tindera/
 
 ## Dlaczego kobiety lubią „niegrzecznych chłopców”?
 
