@@ -13,4 +13,5 @@
 
 <br>
 
-http://www.wykop.pl/link/3341419/dlaczego-kobiety-zdradzaja/
+- http://www.wykop.pl/link/3341419/dlaczego-kobiety-zdradzaja/
+- Eckhart Tolle (PL) - Czego możemy nauczyć się dzięki zdradzie https://youtu.be/XgLXqoIdTLg
