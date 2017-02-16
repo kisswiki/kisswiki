@@ -10,3 +10,7 @@
 >
 >Patrzę na zdradę z podwójnej perspektywy: krzywdy i zdrady z jednej strony, wzrostu i samoodkrywania z drugiej, co uczyniła tobie, a co znaczyła dla mnie. Kiedy przychodzi do mnie para po świeżo ujawnionej zdradzie, często mówię: dzisiaj w zachodnim świecie większość z nas będzie miała dwa albo trzy związki lub małżeństwa, niektórzy z tą samą osobą. Wasze pierwsze małżeństwo jest skończone. Czy chcielibyście stworzyć razem drugie?
 > http://www.ted.com/talks/esther_perel_rethinking_infidelity_a_talk_for_anyone_who_has_ever_loved/transcript?language=pl
+
+<br>
+
+http://www.wykop.pl/link/3341419/dlaczego-kobiety-zdradzaja/
