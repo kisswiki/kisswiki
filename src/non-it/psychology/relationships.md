@@ -20,6 +20,12 @@
 - http://www.wykop.pl/link/379630/dlaczego-kobiety-nie-wybieraja-milych-i-inteligentnych-facetow/#comment-2410641
   - http://demotywatory.pl/2223323/Dlaczego-kobiety-nie-wybieraja-tych-milych
 
+## Dlaczego kobiety lubią „niegrzecznych chłopców”?
+
+Seksowny wygląd bierze się z symetrii ciała. Brak deformacji ciała jest silnym predyktorem jakości genetycznej partnera. Symetria twarzy i pięknie zbudowane ciało mówią więcej o zdrowych genach aniżeli sympatyczna osobowość. Mimo iż wygląd często kontrastuje z cechami, których kobiety pożądają dla ojców swoich dzieci, kobiety w owulacji wybierają geny, które gwarantują zdrowie potomstwa. Tego rodzaju mechanizm ewolucyjny nie jest zbyt wygodny dla kobiet ale jest przystosowawczy dla naszego gatunku. Ewolucja promuje zdrowie puli genetycznej, nawet jeśli w efekcie potomstwo będzie wychowywane przez samotną matkę i otrzyma mniej długoterminowej opieki ze strony ojca.
+
+http://badania.net/dlaczego-kobiety-lubia-niegrzecznych-chlopcow/
+
 ## Spada Pożądanie
 
 Na początek takie dwa stwierdzenia:
