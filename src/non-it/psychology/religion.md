@@ -1,0 +1,1 @@
+- https://jarek-kefir.org/2016/11/14/czy-religie-sa-potrzebne-szokujace-fakty-i-punkty-wspolne-ich-wszystkich/
