@@ -1,0 +1,2 @@
+- http://stackoverflow.com/questions/19087073/stackoverflow-dark-theme-and-show-user-logo
+  - http://stackoverflow.com/users/flair/588759.png?theme=dark
