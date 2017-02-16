@@ -8,3 +8,4 @@
 - http://stackoverflow.com/questions/40113213/how-to-handle-enter-key-press-in-input-field
 - http://stackoverflow.com/questions/25712988/textarea-in-elm
 - https://campus.datacamp.com
+- Builds already exists: https://www.npmjs.com/package/ace-builds https://github.com/ajaxorg/ace/issues/2295#issuecomment-170568611
