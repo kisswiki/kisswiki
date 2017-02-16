@@ -1,1 +1,2 @@
 - http://www.wykop.pl/link/3582287/#comment-42884387
+- http://www.wykop.pl/link/3029083/dlaczego-kobiety-lubia-lobuzow-dlaczego-niszcza-spoleczenstwa-i-cywilizacje/
