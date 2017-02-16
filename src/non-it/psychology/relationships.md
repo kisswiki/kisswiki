@@ -31,6 +31,25 @@ Seksowny wygląd bierze się z symetrii ciała. Brak deformacji ciała jest siln
 
 http://badania.net/dlaczego-kobiety-lubia-niegrzecznych-chlopcow/
 
+## kobiety szukają majętnych facetów
+
+Otóż kobiety szukają majętnych facetów, bo ich kutasy im lepiej smakują. Natomiast faceci szukają ładnych i pięknych kobiet, bo ich cipki im lepiej smakują.
+
+Więc najlepszy algorytm to ocenie atrakcyjności kobiety po parametrach takich jak waga, twarz (tu ocenia się głównie symetrie, ale AI potrafi też w miarę ocenić "ładność"), rozmiar piersi, stosunek bioder to tali, wiek.
+Faceta natomiast ocenia się po tym ile zarabia, lub jak bardzo jego zawód jest szanowany (ludzie szanuj zawody w których są duże zarobki). Ten parametr najlepiej ocenić po wyciągach z konta/karty płatniczej.
+
+Czyli należy posortować ludzi po atrakcyjności i kobiety mniej atrakcyjne muszą się zadowolić facetami którzy mają mało forsy. Faceci z małą ilością forsy muszą się zadowolić brzydkimi kobietami, o ile nie chcą być samotni. Nic lepszego się nie wymyśli i nie ma prawa by powstało. Oczywiście można modyfikować algorytm o zboczenia, czyli informacje czy facet zgadza się na minetkę, a kobieta na anal.
+
+>Rozbawienie kogoś podczas rozmowy, skutkujące reakcjami typu „LOL” czy „haha” – to wzrost szans na spotkanie z tą osobą o 255 proc.
+
+Tylko rozbawienie kobiety.
+Kobiety lubią facetów z poczuciem humoru. To działa tak samo jak pawi jego ogon. Samice pawia wybierały samców z dużym ogonem. Natomiast samice człowieka, nie wybierały samców z dużymi penisami, tylko samców z poczuciem humoru. By mieć poczucie humoru trzeba być inteligentnym. Dlatego, przez pomyłkę ewolucji ludzki gatunek jest w miarę inteligenty, a pawie mają długie ogony. *
+Testowałem moje poczucie humoru i pisałem zabawne rzeczy w wiadomościach prywatnych kobietom. Niestety kobiety błędnie reagowały, twierdziły, że się z nich nabijam, trolluje je i zarzutkuje. No i mnie banowały. Natomiast te same żarty na grupach uchodziły za bardzo zabawne. 
+Natomiast poczucie humoru u kobiet jest bez znaczenia dla mężczyzn. Zastanówcie się, czy znacie jakąś grubaskę która nie jest zabawna? Grube kobiety chcą nadrobić brak atrakcyjności właśnie poczuciem humoru. To oczywiście nie działa. 
+Problem jest w tym, że mężczyzna traktuję kobietę tak jakby sam chciał być traktowany, a kobieta mężczyznę tak jak sama by chciała być traktowana. Przez co związki się rozpadają, bo potrzeby płci są zupełnie inne.
+
+http://antyweb.pl/walentynki-big-data/#comment-3153988181
+
 ## Spada Pożądanie
 
 Na początek takie dwa stwierdzenia:
