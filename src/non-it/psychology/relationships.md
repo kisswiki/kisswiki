@@ -11,6 +11,7 @@
 - https://markmanson.net/psycho
 - http://www.ted.com/talks/hannah_fry_the_mathematics_of_love/transcript?language=pl
 - http://www.wykop.pl/ramka/3032307/mezczyzna-bez-kregoslupa-przypowiesc-dla-mezczyzn-w-typie-nice-guy/
+- http://www.wykop.pl/link/3145265/wife-zone-chart/
 
 ## Spada Pożądanie
 
