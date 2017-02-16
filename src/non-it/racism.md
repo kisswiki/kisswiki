@@ -1,1 +1,2 @@
 - IQ | RACISM and the CONSERVATIVE https://youtu.be/ODZ-RUufHgI
+- Black Lives Matter: The Rise of the "DINDU" https://youtu.be/dm_Vv3Q24uQ
