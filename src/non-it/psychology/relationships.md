@@ -15,6 +15,7 @@
 - http://www.wykop.pl/link/3112543/marian-dziedziel-mowi-cala-prawde-o-kobietach/
 - http://www.wykop.pl/link/1678634/co-zrobic-gdy-podrywana-przez-ciebie-dziewczyna-okazuje-sie-miec-chlopaka/
 - http://www.wykop.pl/link/3029083/dlaczego-kobiety-lubia-lobuzow-dlaczego-niszcza-spoleczenstwa-i-cywilizacje/
+- http://www.wykop.pl/link/3369139/brak-seksu-w-zwiazku-to-najczestsza-przyczyna-rozpaczy-milionow-ludzi-w-polsce/
 
 ## Spada Pożądanie
 
