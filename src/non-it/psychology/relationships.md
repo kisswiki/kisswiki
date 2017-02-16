@@ -24,6 +24,7 @@
 - http://www.wykop.pl/link/3341419/dlaczego-kobiety-zdradzaja/
 - http://www.wykop.pl/link/3558881/facet-zaczyna-sie-od-180-cm-czyli-czego-pragna-kobiety-z-tindera/
 - http://www.ted.com/talks/amy_webb_how_i_hacked_online_dating
+- http://samczeruno.pl/mis-byles-za-dobry-nie-wiem-co-czuje-zostanmy-przyjaciolmi-braciasamcy-pl/
 
 ## Dlaczego kobiety lubią „niegrzecznych chłopców”?
 
