@@ -5,6 +5,7 @@
 
 - https://chrome.google.com/webstore/detail/disable-html5-autoplay/efdhoaajjjgckpbkoglidkeendpkolai
 - https://chrome.google.com/webstore/detail/tab-counter/feeoiklfggbaibpdhkkngbpkppdmcjal
+- https://chrome.google.com/webstore/detail/reddit-hide-sidebar/kmhljmlnmkpkfidhceknegheeplgmngg
 
 ### facebook
 
