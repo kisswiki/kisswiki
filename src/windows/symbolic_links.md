@@ -1,0 +1,1 @@
+- https://github.com/git-for-windows/git/wiki/Symbolic-Links
