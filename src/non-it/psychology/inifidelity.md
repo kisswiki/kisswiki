@@ -15,3 +15,4 @@
 
 - http://www.wykop.pl/link/3341419/dlaczego-kobiety-zdradzaja/
 - Eckhart Tolle (PL) - Czego możemy nauczyć się dzięki zdradzie https://youtu.be/XgLXqoIdTLg
+  - https://jarek-kefir.org/2017/02/05/czego-mozna-nauczyc-sie-dzieki-zdradzie-18-zupelnie-nowe-spojrzenie-na-sprawe/
