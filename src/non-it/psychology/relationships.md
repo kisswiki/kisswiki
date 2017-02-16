@@ -13,6 +13,7 @@
 - http://www.wykop.pl/ramka/3032307/mezczyzna-bez-kregoslupa-przypowiesc-dla-mezczyzn-w-typie-nice-guy/
 - http://www.wykop.pl/link/3145265/wife-zone-chart/
 - http://www.wykop.pl/link/3112543/marian-dziedziel-mowi-cala-prawde-o-kobietach/
+- http://www.wykop.pl/link/1678634/co-zrobic-gdy-podrywana-przez-ciebie-dziewczyna-okazuje-sie-miec-chlopaka/
 
 ## Spada Pożądanie
 
