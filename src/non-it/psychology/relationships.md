@@ -30,6 +30,7 @@
 - http://samczeruno.pl/mis-byles-za-dobry-nie-wiem-co-czuje-zostanmy-przyjaciolmi-braciasamcy-pl/
 - http://samczeruno.pl/kobiety-slabych-nie-szanuja/
 - http://samczeruno.pl/sklep/downloads/stosunkowo-dobry/
+- http://www.logo24.pl/Logo24/1,125389,18316516,andrzej-saramonowicz-wojna-plci-my-z-kobietami-nie-walczymy.html
 
 ## Dlaczego kobiety lubią „niegrzecznych chłopców”?
 
