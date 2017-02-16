@@ -4,3 +4,4 @@
 - http://quephird.github.io/
 - http://leebyron.com/
 - do not push - game http://jeffschomay.com/
+- https://medium.freecodecamp.com/how-to-write-a-good-resume-in-2017-b8ea9dfdd3b9
