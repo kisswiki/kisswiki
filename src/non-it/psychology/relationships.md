@@ -20,6 +20,7 @@
 - http://www.wykop.pl/link/379630/dlaczego-kobiety-nie-wybieraja-milych-i-inteligentnych-facetow/#comment-2410641
   - http://demotywatory.pl/2223323/Dlaczego-kobiety-nie-wybieraja-tych-milych
 - http://www.wykop.pl/link/3144371/dlaczego-kobiety-wola-dupkow/
+- http://www.wykop.pl/link/3341419/dlaczego-kobiety-zdradzaja/
 
 ## Dlaczego kobiety lubią „niegrzecznych chłopców”?
 
