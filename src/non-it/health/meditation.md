@@ -1,4 +1,5 @@
 # Meditation
+
 - Thich Nhat Hanh
   - Anger https://github.com/nzakas/ama/issues/9
   - http://lubimyczytac.pl/autor/10724/thich-nh-t-h-nh
@@ -11,6 +12,14 @@
   - https://web.archive.org/web/20120204052634/http://www.proaktywnie.pl/2011/12/mity-i-fakty-medytacji-cz-2/
 - http://wiadomosci.gazeta.pl/wiadomosci/7,156046,20752967,w-tej-szkole-dzieci-za-kare-medytuja-efekty-przerosly-oczekiwania.html
   - http://hlfinc.org/
+
 ## Hardware
 
 http://www.choosemuse.com/how-does-muse-work/
+
+## iphone ios
+
+## Meditation
+
+- https://itunes.apple.com/app/tiny-calm/id1039698577?mt=8
+  - https://www.reddit.com/r/Meditation/comments/3o3i2v/i_couldnt_find_a_good_free_meditation_iphone_app/
