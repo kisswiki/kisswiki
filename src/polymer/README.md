@@ -19,3 +19,8 @@
 - http://stackoverflow.com/questions/31503725/polymerelements-paper-icon-button-to-be-specific-not-showing-up-as-expected/41471759#41471759
 - https://www.polymer-project.org/1.0/start/
   - https://github.com/PolymerElements/polymer-starter-kit
+
+## Yarn
+
+- switch from bower to npm? https://github.com/Polymer/polymer/issues/2578
+- #AskPolymer: Rob answers all the questions ever -- Polycasts #27 https://www.youtube.com/watch?v=D7ZSMw_qm8Q&feature=youtu.be&t=3m15s
