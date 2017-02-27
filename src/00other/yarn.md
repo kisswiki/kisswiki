@@ -7,3 +7,9 @@
 
 - `yarn global add <package>@latest` will upgrade a specific package http://stackoverflow.com/questions/40005233/how-can-i-update-global-packages-in-yarn/40394244#40394244
 - upgrade all packages: `yarn upgrade-interactive` and then press `a` and `Enter` https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc
+
+## upgrade yarn
+
+`yarn self-update`
+
+https://yarnpkg.com/en/docs/cli/self-update
