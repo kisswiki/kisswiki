@@ -9,3 +9,10 @@
 - http://stackoverflow.com/questions/25712988/textarea-in-elm
 - https://campus.datacamp.com
 - Builds already exists: https://www.npmjs.com/package/ace-builds https://github.com/ajaxorg/ace/issues/2295#issuecomment-170568611
+- https://github.com/DenisKolodin/elm-ace
+- https://github.com/ajaxorg/ace/wiki/How-to-enable-Autocomplete-in-the-Ace-editor
+- webcomponent with autocomplete!!! https://github.com/lostinbrittany/ace-widget
+
+## Misspelled Ace Editor Options
+
+http://stackoverflow.com/questions/24651222/misspelled-ace-editor-options
