@@ -12,4 +12,5 @@
 
 `yarn self-update`
 
-https://yarnpkg.com/en/docs/cli/self-update
+- https://yarnpkg.com/en/docs/cli/self-update
+- https://github.com/yarnpkg/yarn/issues/1139
