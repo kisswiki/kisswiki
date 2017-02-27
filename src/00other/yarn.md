@@ -14,3 +14,7 @@
 
 - https://yarnpkg.com/en/docs/cli/self-update
 - https://github.com/yarnpkg/yarn/issues/1139
+
+## Global install path
+
+- http://stackoverflow.com/questions/40330759/yarn-global-installs-to-current-directory/40524116#40524116
