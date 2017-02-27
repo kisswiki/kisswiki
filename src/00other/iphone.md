@@ -139,3 +139,8 @@ http://bgr.com/2016/08/18/iphone-vs-galaxy-note-storage-speed/
 ## Plus GSM
 
 - http://bok.plusgsm.pl/Scripts/rightnow.cfg/php.exe/enduser/std_adp.php?p_faqid=4734
+
+## Meditation
+
+- https://itunes.apple.com/app/tiny-calm/id1039698577?mt=8
+  - https://www.reddit.com/r/Meditation/comments/3o3i2v/i_couldnt_find_a_good_free_meditation_iphone_app/
