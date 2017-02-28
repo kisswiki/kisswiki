@@ -114,3 +114,8 @@ In a markdown file use
 `ctrl-p` then type `?` shows all of the types of global and editor commands you can run.
 
 https://johnpapa.net/getting-started-with-visual-studio-code/
+
+## eslint
+
+- VSCode doesn't work with eslint installed with yarn, use npm https://github.com/Microsoft/vscode-eslint/issues/187
+- You need to have both eslint and babel eslint installed either globally or locally https://github.com/Microsoft/vscode/issues/7113#issuecomment-223513710

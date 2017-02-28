@@ -1,3 +1,11 @@
+- Id Software Programming Principles https://news.ycombinator.com/item?id=13731741
+  - http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to
+  - https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
+  - Greg Young - The art of destroying software https://vimeo.com/108441214
+  - prefer duplication over the wrong abstraction https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction
+
+## About
+
 > I tend to read things like this as "Trust me, I know what I'm doing". As I step back having dealt with a lot of developers code, I'm more and more coming down on the mindset of I'd rather most developers NOT have the ability to be clever or too smart. I'm not smart enough to keep up.
 For every smart, capable, well reasoned developer there are a thousand blindly copy/pasting and pulling together an application until "there it works!". Which then ships and down the line someone ends up maintaining. The more Swift can protect me from that future being a painful mess, the better.
 > https://www.reddit.com/r/swift/comments/4zouci/my_least_favorite_thing_about_swift/
