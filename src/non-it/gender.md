@@ -10,4 +10,14 @@
 
 ## Wspólne toalety
 
-Ponieważ transnastolatek z penisem czuje się dziewczyną, to mają być wspólne toalety i ma chodzić do takiej razem z moją córką.
+Logika lewaków: Ponieważ transnastolatek z penisem czuje się dziewczyną, to mają być wspólne toalety i ma chodzić do takiej razem z moją córką.
+
+@artpop:
+
+Dlatego w niektórych toaletach unisex są pisuary zamykane - problem rozwiązany.
+
+@supermoc:
+
+Nie. Problem wy stworzyliście. Problemu nie było. Znalezienie rozwiązania na problem który samemu się stworzyło nie jest żadnym sukcesem. Wychodzi się na 0 (ZERO). A nie tak jak wam się zdaje, że rozwiązaliście dwa problemy, nie rozwiązaliście żadnego. A tworzenie kabiny na pisuary we wspólnym kiblu nie tylko niczego nie rozwiązuje, ale też jest samozaoraniem pomysłu wspólnych kibli które trzeba jednak dzielić. To ja mam taki pomysł. Postawmy znak "kibel dla wszystkich płci" na korytarzu, a w korytarzu będą drzwi do męskiego i damksiego ( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°) Hehehe To są jaja na co przez was ludzkość musi tracić czas. Zamiast budować rakiety i latające samochodu trzeba z lewactwem o sraniu dyskutować. Żałosne.
+
+http://www.wykop.pl/link/3618479/trump-uniewaznil-zalecenia-obamy-dotyczace-transseksualistow/
