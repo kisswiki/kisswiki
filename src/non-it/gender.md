@@ -20,4 +20,16 @@ Dlatego w niektórych toaletach unisex są pisuary zamykane - problem rozwiązan
 
 Nie. Problem wy stworzyliście. Problemu nie było. Znalezienie rozwiązania na problem który samemu się stworzyło nie jest żadnym sukcesem. Wychodzi się na 0 (ZERO). A nie tak jak wam się zdaje, że rozwiązaliście dwa problemy, nie rozwiązaliście żadnego. A tworzenie kabiny na pisuary we wspólnym kiblu nie tylko niczego nie rozwiązuje, ale też jest samozaoraniem pomysłu wspólnych kibli które trzeba jednak dzielić. To ja mam taki pomysł. Postawmy znak "kibel dla wszystkich płci" na korytarzu, a w korytarzu będą drzwi do męskiego i damksiego ( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°) Hehehe To są jaja na co przez was ludzkość musi tracić czas. Zamiast budować rakiety i latające samochodu trzeba z lewactwem o sraniu dyskutować. Żałosne.
 
+@artpop:
+
+Problem był - szkoły nie respektowały swoich transpłciowych uczniów.
+
+@supermoc:
+
+Nie respektowały też onanistów, a ich jest więcej niż transów. Dlaczego nie ma budek do walenia konia?
+
+@Thael32:
+
+Jaki ostracyzm? Powstały toalety dla mężczyzn niech korzystają z nich biologiczni mężczyźni identyfikujący się jako mężczyzna, to samo z kobiecymi toaletami. Jak transgendery chcą to niech se zrobią swoje toalety. Czemu ja mam akceptować ich obecność w "swojej" toalecie skoro ich obecność jest dla mnie krępująca i uniemożliwia mi załatwienie swoich spraw. Moje prawa i wolność się nie liczy w tej kwestii?
+
 http://www.wykop.pl/link/3618479/trump-uniewaznil-zalecenia-obamy-dotyczace-transseksualistow/
