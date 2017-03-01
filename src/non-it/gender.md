@@ -7,3 +7,7 @@
 
 > Being a different gender from what some specific parts of your biology might presume it to be is a phenomenon that has existed since sexual reproduction first evolved. There are in fact many people born who are "intersex," having chromosomes or body parts or hormone combinations that make it hard for science to declare a clear gender for them.
 > -- https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/898083-libreboot-leaves-the-gnu-the-free-software-foundation-denounced?p=898116#post898116
+
+## Wspólne toalety
+
+Ponieważ transnastolatek z penisem czuje się dziewczyną, to mają być wspólne toalety i ma chodzić do takiej razem z moją córką.
