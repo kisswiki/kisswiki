@@ -33,3 +33,8 @@ Nie respektowały też onanistów, a ich jest więcej niż transów. Dlaczego ni
 Jaki ostracyzm? Powstały toalety dla mężczyzn niech korzystają z nich biologiczni mężczyźni identyfikujący się jako mężczyzna, to samo z kobiecymi toaletami. Jak transgendery chcą to niech se zrobią swoje toalety. Czemu ja mam akceptować ich obecność w "swojej" toalecie skoro ich obecność jest dla mnie krępująca i uniemożliwia mi załatwienie swoich spraw. Moje prawa i wolność się nie liczy w tej kwestii?
 
 http://www.wykop.pl/link/3618479/trump-uniewaznil-zalecenia-obamy-dotyczace-transseksualistow/
+
+Oburzenie władz stanowych wywołał okólnik wydany przez federalne resorty sprawiedliwości i edukacji 13 maja, w którym nakazano dyrekcjom szkół zezwolenie transseksualnym uczniom na swobodę wyboru toalety.
+Zgodnie z zaleceniami szkoły miały brać pod uwagę zmienioną tożsamość płciową ucznia od momentu zawiadomienia o tym fakcie przez rodziców bądź opiekunów. Miało to być bezwzględnie przestrzegane, nawet jeśli powodowało zakłopotanie innych osób.
+
+http://fakty.interia.pl/swiat/news-trump-uniewaznil-zalecenia-obamy-dot-transseksualistow,nId,2357327
