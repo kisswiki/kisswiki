@@ -31,3 +31,13 @@ https://addons.mozilla.org/pl/firefox/addon/aniverto/
 
 - https://wiki.mozilla.org/Security/Contextual_Identity_Project/Containers
 - https://news.ycombinator.com/item?id=13450143
+
+## min tab width
+
+```
+about:config
+browser.tabs.tabMinWidth
+```
+
+http://kb.mozillazine.org/Browser.tabs.tabMinWidth
+
