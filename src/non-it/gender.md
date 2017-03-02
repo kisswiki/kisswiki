@@ -35,6 +35,10 @@ Jaki ostracyzm? Powstały toalety dla mężczyzn niech korzystają z nich biolog
 http://www.wykop.pl/link/3618479/trump-uniewaznil-zalecenia-obamy-dotyczace-transseksualistow/
 
 Oburzenie władz stanowych wywołał okólnik wydany przez federalne resorty sprawiedliwości i edukacji 13 maja, w którym nakazano dyrekcjom szkół zezwolenie transseksualnym uczniom na swobodę wyboru toalety.
+
 Zgodnie z zaleceniami szkoły miały brać pod uwagę zmienioną tożsamość płciową ucznia od momentu zawiadomienia o tym fakcie przez rodziców bądź opiekunów. Miało to być bezwzględnie przestrzegane, nawet jeśli powodowało zakłopotanie innych osób.
+
+Okólnik był reakcją na decyzję stanu Karolina Północna, w którym zobowiązano ludzi do korzystania z toalet zgodnie z płcią zapisaną w akcie urodzenia. Rząd federalny podważył tę decyzję w sądzie.
+rump-uniewaznil-zalecenia-obamy-dot-transseksualistow,nId,2357327#utm_source=paste&utm_medium=paste&utm_campaign=chrome
 
 http://fakty.interia.pl/swiat/news-trump-uniewaznil-zalecenia-obamy-dot-transseksualistow,nId,2357327
