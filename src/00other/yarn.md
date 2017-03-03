@@ -17,5 +17,10 @@
 
 ## Global install path
 
+```
+mkdir ~/yarn-global
+yarn config set prefix ~/yarn-global
+```
+
 - http://stackoverflow.com/questions/40330759/yarn-global-installs-to-current-directory/40524116#40524116
 - http://stackoverflow.com/questions/40258322/where-does-yarn-add-global-binaries-on-windows/42486420#42486420
