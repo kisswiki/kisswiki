@@ -1,7 +1,7 @@
 - validation
   - http://tech.noredink.com/post/129641182738/building-a-live-validated-signup-form-in-elm
   - https://github.com/rtfeldman/elm-validate
-- https://github.com/etaque/elm-simple-form
+  - https://github.com/etaque/elm-form
 - http://package.elm-lang.org/packages/ericgj/elm-validation/latest
   - https://www.reddit.com/r/elm/comments/5sms0u/elmvalidation_feedback_wanted/
 - http://stackoverflow.com/questions/40095094/elm-clear-form-on-submit
