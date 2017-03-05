@@ -7,6 +7,7 @@
 - http://stackoverflow.com/questions/40095094/elm-clear-form-on-submit
 - http://stackoverflow.com/documentation/elm/8087/backend-integration
 - https://api.stackexchange.com/docs
+- https://auth0.com/blog/creating-your-first-elm-app-part-2/
 
 ## prevent submit redirect
 
