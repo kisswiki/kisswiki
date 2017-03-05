@@ -5,6 +5,7 @@
 - http://package.elm-lang.org/packages/ericgj/elm-validation/latest
   - https://www.reddit.com/r/elm/comments/5sms0u/elmvalidation_feedback_wanted/
 - http://stackoverflow.com/questions/40095094/elm-clear-form-on-submit
+- http://stackoverflow.com/documentation/elm/8087/backend-integration
 
 ## prevent submit redirect
 
