@@ -10,8 +10,6 @@
 - https://auth0.com/blog/creating-your-first-elm-app-part-2/
 - http://stackoverflow.com/questions/38238062/how-to-consume-http-post-in-elm-with-header-and-body
 - POST Http.request in Elm 0.18 https://groups.google.com/forum/#!topic/elm-discuss/Kxq8q5n-E68
-- http://stackoverflow.com/questions/39392469/how-to-perform-multiple-http-requests-tasks-in-bulk-in-elm-lang
-- https://spin.atomicobject.com/2016/10/11/elm-chain-http-requests/
 
 ## prevent submit redirect
 
