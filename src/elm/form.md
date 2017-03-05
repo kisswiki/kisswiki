@@ -11,7 +11,9 @@
 ```elm
 view = form
     [ onSubmit submitMsg, action "javascript:void(0);" ]
-    [ button [ type_ "submit" ] [ text "Add Comment" ] ]
+    [ textarea [ style [ value newComment, onInput <| toNewCommentMsg ] []
+    , button [ type_ "submit" ] [ text "Add Comment" ]
+    ]
 ```
 
 - https://groups.google.com/d/msg/elm-discuss/W3X_m1mE70w/_HhJvKFnBQAJ
