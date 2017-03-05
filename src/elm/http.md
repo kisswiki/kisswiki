@@ -1,5 +1,7 @@
 - http://stackoverflow.com/questions/39967330/elm-http-request-on-init
 - http://package.elm-lang.org/packages/lukewestby/elm-http-builder
+- http://stackoverflow.com/questions/39392469/how-to-perform-multiple-http-requests-tasks-in-bulk-in-elm-lang
+- https://spin.atomicobject.com/2016/10/11/elm-chain-http-requests/
 
 ## can Http.get utilize a CSV decoder
 
@@ -18,7 +20,7 @@ The type signature of `Http.get` is
 ```elm
 get : String -> Json.Decode.Decoder a -> Request a
 ```
- 
+
 looks like it has to be a JSON decoder
 
 so basically create a `getCsv : String -> Csv.Decoder a -> Request a` function?
@@ -124,5 +126,5 @@ getString url =
 
 HTTP.getString resolves to javascript readAsText whereas what you need is something that resolves to readAsBinaryString.  This got lost when elm-lang/http replaced evancz/elm-http.
 
-- https://github.com/elm-lang/http/issues/11 
+- https://github.com/elm-lang/http/issues/11
 - https://groups.google.com/forum/#!msg/elm-discuss/6F6IzGyzHmo/mn0ZQc1wBgAJ
