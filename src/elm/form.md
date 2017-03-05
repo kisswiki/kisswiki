@@ -9,6 +9,7 @@
 - https://api.stackexchange.com/docs
 - https://auth0.com/blog/creating-your-first-elm-app-part-2/
 - http://stackoverflow.com/questions/38238062/how-to-consume-http-post-in-elm-with-header-and-body
+- POST Http.request in Elm 0.18 https://groups.google.com/forum/#!topic/elm-discuss/Kxq8q5n-E68
 
 ## prevent submit redirect
 
