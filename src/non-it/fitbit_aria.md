@@ -1,0 +1,1 @@
+- I've made changes to my network. How do I reconnect my scale? https://help.fitbit.com/articles/en_US/Help_article/1158
