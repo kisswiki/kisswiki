@@ -8,6 +8,7 @@
 - http://stackoverflow.com/documentation/elm/8087/backend-integration
 - https://api.stackexchange.com/docs
 - https://auth0.com/blog/creating-your-first-elm-app-part-2/
+- http://stackoverflow.com/questions/38238062/how-to-consume-http-post-in-elm-with-header-and-body
 
 ## prevent submit redirect
 
