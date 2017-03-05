@@ -25,5 +25,6 @@ view = form
     ]
 ```
 
+- http://stackoverflow.com/questions/36387409/how-to-submit-a-form-in-elm/42612811#42612811
 - https://groups.google.com/d/msg/elm-discuss/W3X_m1mE70w/_HhJvKFnBQAJ
 - https://github.com/Gizra/elm-hedley/blob/de31e8fe5c9b4b2f670519b298ff6ba92bc67eee/src/elm/Pages/Login/View.elm#L48
