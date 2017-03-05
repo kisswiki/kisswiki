@@ -9,6 +9,15 @@
 ## prevent submit redirect
 
 ```elm
+
+type alias Model =
+  { newComment: String
+  }
+
+type Msg
+    = AddComment
+    | UpdateComment String
+
 view = form
     [ onSubmit submitMsg, action "javascript:void(0);" ]
     [ textarea [ style [ value newComment, onInput <| toNewCommentMsg ] []
