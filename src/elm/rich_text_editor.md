@@ -1,0 +1,1 @@
+- http://stackoverflow.com/questions/42390708/elm-conditional-preventdefault-with-contenteditable
