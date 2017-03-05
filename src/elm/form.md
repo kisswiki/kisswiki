@@ -4,3 +4,14 @@
 - https://github.com/etaque/elm-simple-form
 - http://package.elm-lang.org/packages/ericgj/elm-validation/latest
   - https://www.reddit.com/r/elm/comments/5sms0u/elmvalidation_feedback_wanted/
+
+## prevent submit redirect
+
+```elm
+view = form
+    [ onSubmit submitMsg, action "javascript:void(0);" ]
+    [ button [ type_ "submit" ] [ text "Add Comment" ] ]
+```
+
+- https://groups.google.com/d/msg/elm-discuss/W3X_m1mE70w/_HhJvKFnBQAJ
+- https://github.com/Gizra/elm-hedley/blob/de31e8fe5c9b4b2f670519b298ff6ba92bc67eee/src/elm/Pages/Login/View.elm#L48
