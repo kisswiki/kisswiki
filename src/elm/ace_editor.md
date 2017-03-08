@@ -1,3 +1,5 @@
+- https://www.reddit.com/r/elm/comments/5y7s81/embeddable_code_editor_with_live_autocomplete_for/
+- I have deleted this because of downvote http://stackoverflow.com/questions/42671917/embedadable-code-editor-with-live-autocomplete-for-elm-like-code-mirror-ace-e
 - web component https://github.com/Juicy/juicy-ace-editor
 - https://www.reddit.com/r/elm/comments/5fv3ra/q_how_should_i_embed_javascript_components_that/
   - https://github.com/lukewestby/elm-codegen-preview/blob/master/src/Main.elm#L118-L126
