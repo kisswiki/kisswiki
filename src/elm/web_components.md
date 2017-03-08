@@ -1,5 +1,6 @@
 # Web components
 
+- http://stackoverflow.com/questions/42671917/embedadable-code-editor-with-live-autocomplete-for-elm-like-code-mirror-ace-e
 - https://www.reddit.com/r/elm/comments/5ls1jd/discussion_web_components_in_elm/
 
 ## Polymer
@@ -18,7 +19,7 @@
   - very tiny example of how to use polymer element in Elm https://github.com/edvail/double-event-issue
   - https://github.com/kevinlebrun/elm-polymer
   - https://github.com/pdamoc/polymer-exploration
-  - https://github.com/rupertlssmith/polymer-elm-listbox 
+  - https://github.com/rupertlssmith/polymer-elm-listbox
   - "My view is that we don't need Polymer, just the web components standards."
   - https://customelements.io/
   - https://github.com/rupertlssmith/elm-polymer
@@ -34,7 +35,7 @@
         dom: 'shadow',
         lazyRegister: true
     };
-</script> 
+</script>
 ```
 
 As described here https://www.polymer-project.org/1.0/docs/devguide/settings
