@@ -7,3 +7,4 @@
 - https://www.reddit.com/r/elm/comments/4iu08j/on_0170_is_it_possible_to_detect_where_elements/
 - https://github.com/hoelzro/elm-drag
 - https://github.com/robertjlooby/elm-html5-drag-and-drop
+- https://github.com/norpan/elm-html5-drag-drop

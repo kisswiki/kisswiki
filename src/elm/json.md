@@ -4,6 +4,28 @@
   - https://www.brianthicks.com/post/2017/01/13/create-custom-json-decoders-in-elm-018/
   - http://stackoverflow.com/questions/37146233/elm-json-decoder-timestamp-to-date
 - http://package.elm-lang.org/packages/bartavelle/json-helpers
+- https://www.brianthicks.com/post/2017/03/06/how-do-i-get-json-out-of-a-port/
+- Dynamic types https://groups.google.com/forum/#!topic/elm-dev/sGG0GLMIMwU
+  - https://github.com/norpan/elm-dynamic-types
+- https://medium.com/@eeue56/how-i-implemented-json-to-elm-b61081587c3a
+- An alternative to core's JSON decoder https://medium.com/@eeue56/json-decoding-in-elm-is-still-difficult-cad2d1fb39ae
+  - https://github.com/eeue56/elm-alternative-json
+
+## Internals
+
+The important thing to realise about JSON decoders is that internally, all they do is check the type of a JS object. For example, the implementation of Json.Decode.int is essentially the following:
+
+```javascript
+var decodeInt = function(possibleNumber){
+  if (typeof possibleNumber === "number"&& !isFloat(possibleNumber))  
+  {
+    return Ok(possibleNumber);
+  }
+  return Err("Not an int!");
+};
+```
+
+https://medium.com/@eeue56/how-i-implemented-json-to-elm-b61081587c3a
 
 ## Options
 
@@ -29,7 +51,7 @@ zgotsch: https://elmlang.slack.com/archives/general/p1484178081013518
 
 - translation between JSON and Elm types https://github.com/lambdatoast/elm-json
 
-## pretty print 
+## pretty print
 
 - `Json.Encode.encode 4` https://groups.google.com/d/msg/elm-discuss/LmtlxeNqsRw/G-WT9h4yDz8J
 - http://stackoverflow.com/questions/40517852/elm-how-to-pretty-print-the-model-in-the-browser
@@ -297,7 +319,7 @@ main =
 >
 >-- https://groups.google.com/forum/#!msg/elm-discuss/wmLZloipaIE/P4H0_VzpEgAJ
 
-## fromResult 
+## fromResult
 
 janiczek:
 
