@@ -17,6 +17,7 @@
 - https://github.com/1000ch/syntax-highlight
 - https://github.com/LasaleFamine/ace-editor
 - https://github.com/ajaxorg/ace
+- Fix behavior themes in Google Chrome https://github.com/PolymerLabs/ace-element/pull/2
 
 ## Misspelled Ace Editor Options
 
