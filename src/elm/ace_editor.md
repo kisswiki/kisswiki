@@ -15,6 +15,7 @@
 - https://github.com/ajaxorg/ace/wiki/How-to-enable-Autocomplete-in-the-Ace-editor
 - webcomponent with autocomplete!!! https://github.com/lostinbrittany/ace-widget
 - https://github.com/1000ch/syntax-highlight
+- https://github.com/LasaleFamine/ace-editor
 
 ## Misspelled Ace Editor Options
 
