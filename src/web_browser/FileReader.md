@@ -187,6 +187,7 @@ app.post('/upload', upload.single('simtest'), function (req, res, next) {
   console.log(req.body);
   fs.writeFile("uploads/" + req.file.originalname, req.file.buffer, function (err) {
     console.log("Writing file " + req.file.originalname);
+    // res.redirect("back");
   });
   res.send({"message": "received"});
 })
