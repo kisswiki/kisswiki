@@ -1,8 +1,8 @@
 - https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_forms_through_JavaScript
 - https://developer.mozilla.org/en-US/docs/Web/API/FileReader
 - http://stackoverflow.com/questions/37582810/file-upload-using-multipart-fails-in-nodejs
-- https://github.com/simonh1000/file-reader/blob/master/examples/server/index.js
 - The basic idea is to use the FormData http://stackoverflow.com/questions/35192841/fetch-post-with-multipart-form-data
+- http://stackoverflow.com/questions/5587973/javascript-upload-file
 
 ## RFC
 
