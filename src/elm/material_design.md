@@ -19,4 +19,5 @@
 - web components https://www.muicss.com/docs/v1/webcomponents/forms
 - https://groups.google.com/forum/#!msg/elm-discuss/8Q2xwRh6UYc/tGem48QjAQAJ
   - https://www.polymer-project.org/2.0/docs/devguide/settings
+  - https://groups.google.com/d/msg/elm-discuss/8Q2xwRh6UYc/VCSJo7gpCwAJ
 - https://github.com/edvail/elm-polymer
