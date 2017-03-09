@@ -145,7 +145,9 @@ http://stackoverflow.com/questions/3508338/what-is-the-boundary-in-multipart-for
 
 ## Server
 
-Based on https://github.com/simonh1000/file-reader/blob/master/examples/server/index.js
+Based on
+- https://github.com/simonh1000/file-reader/blob/master/examples/server/index.js
+- http://stackoverflow.com/questions/23691194/node-express-file-upload
 
 package.json
 
