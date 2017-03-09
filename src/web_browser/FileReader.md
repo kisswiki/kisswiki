@@ -145,10 +145,6 @@ http://stackoverflow.com/questions/3508338/what-is-the-boundary-in-multipart-for
 
 ## Server
 
-Based on
-- https://github.com/simonh1000/file-reader/blob/master/examples/server/index.js
-- http://stackoverflow.com/questions/23691194/node-express-file-upload
-
 package.json
 
 ```json
@@ -198,3 +194,8 @@ app.listen(5000, function () {
   console.log('Example app listening on port 5000!')
 });
 ```
+
+Based on
+- https://github.com/simonh1000/file-reader/blob/master/examples/server/index.js
+- http://stackoverflow.com/questions/23691194/node-express-file-upload
+- http://stackoverflow.com/questions/36070886/integrating-multipart-middlware-to-express-application
