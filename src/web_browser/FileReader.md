@@ -68,6 +68,13 @@ use multipart/form-data when your form includes any <input type="file"> elements
 
 http://stackoverflow.com/questions/4526273/what-does-enctype-multipart-form-data-mean
 
+
+The downsides of base64-encoding:
+- your server needs to base64-decode the files it receives which increases server load a little, and
+- base64-encoding increases the amount of bytes that will go over the wire (compared to a file/blob).
+
+http://stackoverflow.com/questions/35329962/file-upload-in-elm/41767189#41767189
+
 ## Inspect
 
 http://stackoverflow.com/questions/4238809/example-of-multipart-form-data
