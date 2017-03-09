@@ -16,6 +16,7 @@
 - webcomponent with autocomplete!!! https://github.com/lostinbrittany/ace-widget
 - https://github.com/1000ch/syntax-highlight
 - https://github.com/LasaleFamine/ace-editor
+- https://github.com/ajaxorg/ace
 
 ## Misspelled Ace Editor Options
 
