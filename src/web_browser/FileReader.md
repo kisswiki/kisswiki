@@ -3,7 +3,16 @@
 - https://developer.mozilla.org/en-US/docs/Web/API/FileReader
 - http://stackoverflow.com/questions/37582810/file-upload-using-multipart-fails-in-nodejs
 - The basic idea is to use the FormData http://stackoverflow.com/questions/35192841/fetch-post-with-multipart-form-data
-- http://stackoverflow.com/questions/5587973/javascript-upload-file
+
+## Form example
+
+```html
+<form enctype="multipart/form-data" action="/upload/image" method="post">
+    <input id="image-file" type="file" />
+</form>
+```
+
+http://stackoverflow.com/questions/5587973/javascript-upload-file/5587986#5587986
 
 ## RFC
 
