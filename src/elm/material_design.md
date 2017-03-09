@@ -15,8 +15,12 @@
 
 ## Web components
 
-- https://www.dailydrip.com/topics/elm/drips/web-components-introduction
 - web components https://www.muicss.com/docs/v1/webcomponents/forms
+
+## Polymer
+
+- https://www.webcomponents.org/collection/PolymerElements/paper-elements
+- https://www.dailydrip.com/topics/elm/drips/web-components-introduction
 - https://groups.google.com/forum/#!msg/elm-discuss/8Q2xwRh6UYc/tGem48QjAQAJ
   - https://www.polymer-project.org/2.0/docs/devguide/settings
   - https://groups.google.com/d/msg/elm-discuss/8Q2xwRh6UYc/VCSJo7gpCwAJ
