@@ -3,6 +3,11 @@
 - http://stackoverflow.com/questions/39392469/how-to-perform-multiple-http-requests-tasks-in-bulk-in-elm-lang
 - https://spin.atomicobject.com/2016/10/11/elm-chain-http-requests/
 
+## Post
+
+- https://auth0.com/blog/creating-your-first-elm-app-part-2/
+- https://github.com/simonh1000/file-reader/blob/master/examples/Ex4-filepart.elm#L151
+
 ## can Http.get utilize a CSV decoder
 
 https://elmlang.slack.com/archives/general/p1484330643014143
