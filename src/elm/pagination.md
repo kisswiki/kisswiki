@@ -1,4 +1,5 @@
 - https://www.romanzolotarev.com/pagination/elm/
+- https://github.com/jschomay/elm-paginate
 
 ## Examples
 
