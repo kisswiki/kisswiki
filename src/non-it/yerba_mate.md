@@ -48,6 +48,7 @@ https://dobreziele.pl/poczytaj-o-yerba-mate/curado
 - Yerba Mate dla początkujących: parzenie, wybór matero, co zrobić po zakupie. Czajnikowy.pl https://youtu.be/7_qOTOGc0QE
 - Jak filtrować yerba mate? Pylasta mate: jak pozbyć się pyłu? Czajnikowy.pl https://youtu.be/MCMaoeHy5ns
 - Czy można mieszać bombillą w Yerba Mate, jak wkładać bombillę do Yerba Mate. Czajnikowy.pl https://youtu.be/-cmO0Xe21Uc
+- https://yerbamate.com.pl/content/10-sposoby-przyrzadzania-yerba-mate
 
 ## Czy zdrowa
 
