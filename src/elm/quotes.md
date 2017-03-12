@@ -27,3 +27,8 @@ To avoid circular dependencies, I find myself putting @elmlang type declarations
 So, let's see. @elmlang replaces React/Flux/Immutable.js/Browserify-Webpack/Flow-Typescript and a few more. Easy sell to any team...
 
 https://twitter.com/antouanK/status/830056206907691009
+
+##
+
+I think #redux has been secretly teaching me @elmlang and I love it!
+https://twitter.com/je92rivas
