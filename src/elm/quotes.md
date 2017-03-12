@@ -21,3 +21,9 @@ https://twitter.com/marick/status/815336457493770240
 @marick:
 
 To avoid circular dependencies, I find myself putting @elmlang type declarations in one file, code in another. Takes me back to my C days.
+
+##
+
+So, let's see. @elmlang replaces React/Flux/Immutable.js/Browserify-Webpack/Flow-Typescript and a few more. Easy sell to any team...
+
+https://twitter.com/antouanK/status/830056206907691009
