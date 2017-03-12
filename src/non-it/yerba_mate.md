@@ -30,6 +30,7 @@ https://dobreziele.pl/poczytaj-o-yerba-mate/curado
 
 - http://www.yerbaherba.pl/naczynia-i-bombille-dlaczego-takie-nie-inne/352-palo-santo-czy-warto.html
 - http://yerbamateinfo.com/calabash-yerba-mate-gourds.html
+- https://chatkazyerbamate.pl/jakie-naczynie-wybrac-do-picia-yerby/
 
 ## Termometr
 
