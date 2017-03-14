@@ -8,3 +8,9 @@
 - https://github.com/hoelzro/elm-drag
 - https://github.com/robertjlooby/elm-html5-drag-and-drop
 - https://github.com/norpan/elm-html5-drag-drop
+
+## Firefox
+
+@justgage I’m using Dragula.js with elm for drag and drop - I wrote a native wrapper for it. I find Dragula super easy to use. As far as I know there is no cross browser support for html drag and drop in Elm - given that Firefox works by way of the data transfer object which is not accessible in Elm currently
+
+http://elmlang.slackarchive.io/general/page-100/ts-1489475715334327
