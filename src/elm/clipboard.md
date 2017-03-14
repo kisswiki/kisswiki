@@ -1,3 +1,1 @@
-- elm-clipboard
-  - https://www.reddit.com/r/elm/comments/4ltxdn/clipboard_operations_with_elm/
-  - https://groups.google.com/forum/#!topic/elm-discuss/0bxzoNRwPPk
+- http://claytonflesher.github.io/2016/11/01/copy-to-clipboard.html
