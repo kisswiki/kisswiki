@@ -8,6 +8,7 @@
 - Replicating AlphaGo's architecture in a readable manner https://github.com/brilee/MuGo
 - Game Theory Reveals the Future of Deep Learning https://news.ycombinator.com/item?id=13405380
 - 27 https://youtu.be/dLRLYPiaAoA
+- https://www.kaggle.com
 
 ## Generally about AI
 
