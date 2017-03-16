@@ -1,1 +1,3 @@
 - http://webcomponents.org/articles/why-web-components/
+- https://dmitriid.com/blog/2017/03/the-broken-promise-of-web-components/
+  - https://www.reddit.com/r/programming/comments/5zlos3/the_broken_promise_of_web_components/
