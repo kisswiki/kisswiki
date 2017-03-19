@@ -10,6 +10,7 @@
 - https://euroislam.pl/umiarkowani-islamisci-twardoglowi-szwedzi-i-islamistyczna-islamofobia/
 - https://euroislam.pl/swiat-islamu-jest-opetany-fanatyzmem/
 - https://euroislam.pl/za-kilka-lat-to-bedzie-nasz-kraj/
+- https://wiadomosci.tvp.pl/29165592/zamieszki-w-szwecji
 
 ##
 
