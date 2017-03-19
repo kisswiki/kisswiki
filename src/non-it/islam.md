@@ -5,6 +5,7 @@
 - https://euroislam.pl/szwedzcy-demokraci-trump-ma-racje/
 - https://euroislam.pl/trylogia-warnera-po-polsku/
 - Deportować tam skąd przybyli - Max Kolonko Mówi Jak Jest https://youtu.be/RKi3SfYmSdg
+- SZOKUJĄCE: Policjantki o islamskich imigrantach w Niemczech (od Jolanta Walczak) https://youtu.be/rloyyUyPlBc
 
 ##
 
