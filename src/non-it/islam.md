@@ -7,3 +7,10 @@
 Moi libańscy przyjaciele, ex-muzułmanie, twierdzą, że nie ma możliwości ugłaskania wyznawców islamu, ponieważ Koran, święta księga, na to nie zezwala. Ich zdaniem cała Europa musi zakazać praktykowania islamu, zamknąć wszystkie meczety i szkoły koraniczne, a buntowników odsyłać na plaże Półwyspu Arabskiego. Celem islamu jest podbój całego świata i zmiecenie z powierzchni Ziemi naszej cywilizacji. Mamy do wyboru: albo my, albo oni.
 
 http://euroislam.pl/przeciwnicy-wildersa-z-wizyta-w-meczecie/?fb_comment_id=1217205701732048_1217341955051756
+
+##
+
+Islam już jest najliczniejszą grupą religijną. 2/3 katolików nie zna Credo. Inni chrześcijanie bywają w świątyni przy okazji urodzenia i pogrzebu, bo już nawet żenią się poza wiarą.
+Islam już zwyciężył jako religia a za kilka lat wygra wybory: najpierw w Europie, potem w Amerykach. Nic nie powstrzyma Wiary Proroka.
+
+http://www.wykop.pl/link/3653193/#comment-43964143
