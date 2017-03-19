@@ -12,6 +12,7 @@
 - https://euroislam.pl/za-kilka-lat-to-bedzie-nasz-kraj/
 - https://wiadomosci.tvp.pl/29165592/zamieszki-w-szwecji
 - https://euroislam.pl/brak-nam-uczciwej-dyskusji-o-islamie/
+- Robert Spencer: Basics of Islam video 1 Polish subtitles https://youtu.be/te8ii3AGj3w
 
 ##
 
