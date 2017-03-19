@@ -1,3 +1,9 @@
 - http://www.wykop.pl/link/3582287/#comment-42884387
 - http://www.wykop.pl/link/3029083/dlaczego-kobiety-lubia-lobuzow-dlaczego-niszcza-spoleczenstwa-i-cywilizacje/
 - Japan | No Country for Islam - Here's Why https://youtu.be/zKY5bFe_b-o
+
+##
+
+Moi libańscy przyjaciele, ex-muzułmanie, twierdzą, że nie ma możliwości ugłaskania wyznawców islamu, ponieważ Koran, święta księga, na to nie zezwala. Ich zdaniem cała Europa musi zakazać praktykowania islamu, zamknąć wszystkie meczety i szkoły koraniczne, a buntowników odsyłać na plaże Półwyspu Arabskiego. Celem islamu jest podbój całego świata i zmiecenie z powierzchni Ziemi naszej cywilizacji. Mamy do wyboru: albo my, albo oni.
+
+http://euroislam.pl/przeciwnicy-wildersa-z-wizyta-w-meczecie/?fb_comment_id=1217205701732048_1217341955051756
