@@ -9,6 +9,7 @@
 - https://euroislam.pl/hidzab-to-nie-kapelusz/
 - https://euroislam.pl/umiarkowani-islamisci-twardoglowi-szwedzi-i-islamistyczna-islamofobia/
 - https://euroislam.pl/swiat-islamu-jest-opetany-fanatyzmem/
+- https://euroislam.pl/za-kilka-lat-to-bedzie-nasz-kraj/
 
 ##
 
