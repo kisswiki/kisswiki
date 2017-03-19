@@ -3,6 +3,7 @@
 - Japan | No Country for Islam - Here's Why https://youtu.be/zKY5bFe_b-o
 - http://pikio.pl/francja-to-juz-pewne-ruszyl-nowy-projekt-na-miejscu-zburzonych-kosciolow-stana-tysiace-meczetow/
 - https://euroislam.pl/szwedzcy-demokraci-trump-ma-racje/
+- https://euroislam.pl/trylogia-warnera-po-polsku/
 - Deportować tam skąd przybyli - Max Kolonko Mówi Jak Jest https://youtu.be/RKi3SfYmSdg
 
 ##
