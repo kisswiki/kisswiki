@@ -2,6 +2,7 @@
 - http://www.wykop.pl/link/3029083/dlaczego-kobiety-lubia-lobuzow-dlaczego-niszcza-spoleczenstwa-i-cywilizacje/
 - Japan | No Country for Islam - Here's Why https://youtu.be/zKY5bFe_b-o
 - http://pikio.pl/francja-to-juz-pewne-ruszyl-nowy-projekt-na-miejscu-zburzonych-kosciolow-stana-tysiace-meczetow/
+- https://euroislam.pl/szwedzcy-demokraci-trump-ma-racje/
 
 ##
 
