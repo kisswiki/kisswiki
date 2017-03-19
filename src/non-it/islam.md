@@ -11,6 +11,7 @@
 - https://euroislam.pl/swiat-islamu-jest-opetany-fanatyzmem/
 - https://euroislam.pl/za-kilka-lat-to-bedzie-nasz-kraj/
 - https://wiadomosci.tvp.pl/29165592/zamieszki-w-szwecji
+- https://euroislam.pl/brak-nam-uczciwej-dyskusji-o-islamie/
 
 ##
 
