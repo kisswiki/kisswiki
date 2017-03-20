@@ -13,6 +13,9 @@
 - https://wiadomosci.tvp.pl/29165592/zamieszki-w-szwecji
 - https://euroislam.pl/brak-nam-uczciwej-dyskusji-o-islamie/
 - Robert Spencer: Basics of Islam video 1 Polish subtitles https://youtu.be/te8ii3AGj3w
+- Rozmowy niedokończone: Polityczne i społeczne skutki obecności islamu w Europie cz.I https://youtu.be/e4EGb8975-A
+  - http://www.radiownet.pl/publikacje/niemcy-likwiduja-sie-same-thilo-sarrazin-kontra-angela-merkel
+  - ONZ oficjalnie okrzyknęła Sarrazina… rasistą http://www.autonom.pl/?p=5393
 
 ##
 
