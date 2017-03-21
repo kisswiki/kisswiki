@@ -1,0 +1,1 @@
+- You needs to put in `class="content"` or you will see `h1` etc. reseted https://github.com/jgthms/bulma/issues/433#issuecomment-269688303
