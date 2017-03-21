@@ -15,3 +15,11 @@
 ## jamesmacaulay/elm-graphql
 
 - https://github.com/jamesmacaulay/elm-graphql
+
+I've talked to the author of https://github.com/jamesmacaulay/elm-graphql
+about level of graphql support in his library and he said:
+
+>it can do almost everything in the GraphQL spec
+>the only missing things I can think of are directives on fragment and operation definitions
+>if you look at this test file, you can see almost everything in use https://github.com/jamesmacaulay/elm-graphql/blob/master/tests/GraphQL/Request/BuilderTests.elm
+>one issue you might encounter is flexibility in decoding to arbitrary types, which is somewhat limited right now https://github.com/jamesmacaulay/elm-graphql/issues/3
