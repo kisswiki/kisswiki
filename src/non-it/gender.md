@@ -1,3 +1,5 @@
+- http://www.sadistic.pl/rownouprawnienie-vt444220.htm
+
 > Being transgender is no longer considered a mental illness in most Western countries. The term in the DSM-V is "gender dysphoria", which exists primarily for insurance compensation purposes and only applies to transgender people who are uncomfortable with regard to some physical or mental aspect of the fact that they are transgender.
 > Outside of cultures dominated by the Abrahamic faiths (Judaism, Christianity, Islam); many recognize a third, or more, gender. These include the Two-Spirits of many Native American tribes and the Hijra community in India.
 > There is plenty of evidence that gender identity, the internal feelings of gender, exists along a spectrum the same way as sexual orientation.
