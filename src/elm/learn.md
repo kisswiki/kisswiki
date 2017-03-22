@@ -162,6 +162,7 @@
 - https://github.com/elm-guides/elm-for-js
 - https://auth0.com/blog/creating-your-first-elm-app-part-1
 - https://auth0.com/blog/creating-your-first-elm-app-part-2
+- https://dev.to/dnimmo/i-was-wrong-to-dismiss-elm-and-i-think-you-probably-aretoo
 
 ## podcasts
 
