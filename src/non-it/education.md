@@ -1,0 +1,1 @@
+- http://innpoland.pl/133779,dla-mnie-szkola-to-zart-nowa-gwiazda-wsrod-najbogatszych-polakow-szczerze-o-swoim-sukcesie
