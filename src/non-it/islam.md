@@ -29,3 +29,9 @@ Islam już jest najliczniejszą grupą religijną. 2/3 katolików nie zna Credo.
 Islam już zwyciężył jako religia a za kilka lat wygra wybory: najpierw w Europie, potem w Amerykach. Nic nie powstrzyma Wiary Proroka.
 
 http://www.wykop.pl/link/3653193/#comment-43964143
+
+## Nielegalne przekraczanie granicy
+
+21 wiek, niech określą za pomocą satelitów i samolotów szpiegiwskich skąd wypłynął statek. Jak nie to water boarding i pięknie każdy wyśpiewa skąd go przyniosło.
+
+http://www.wykop.pl/link/3658919/#comment-44072193
