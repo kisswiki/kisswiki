@@ -10,7 +10,7 @@ copy to clipboard
 
 `clip < ~/.ssh/github_rsa.pub`
 
-the add it to https://github.com/settings/keys.
+then add it to https://github.com/settings/keys.
 
 ## ssh config
 
