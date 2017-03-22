@@ -160,6 +160,8 @@
 - A tutorial on developing single page web applications (SPAs) with Elm http://www.elm-tutorial.org/en/
 - http://elmprogramming.com/
 - https://github.com/elm-guides/elm-for-js
+- https://auth0.com/blog/creating-your-first-elm-app-part-1
+- https://auth0.com/blog/creating-your-first-elm-app-part-2
 
 ## podcasts
 
