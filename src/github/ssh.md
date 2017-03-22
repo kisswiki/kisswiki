@@ -2,7 +2,7 @@
 
 ### Generate
 
-Set the HOME environment variable pointing to `%USERPROFILE%` for ssh to pick it up. This usually seems to be the [problem](http://stackoverflow.com/questions/9513712/git-ssh-client-for-windows-and-wrong-path-for-ssh-config-file/21451748#21451748) for many unix solutions that run on windows. Then:
+For Windows: Set the HOME environment variable pointing to `%USERPROFILE%` for ssh to pick it up. This usually seems to be the [problem](http://stackoverflow.com/questions/9513712/git-ssh-client-for-windows-and-wrong-path-for-ssh-config-file/21451748#21451748) for many unix solutions that run on windows.
 
 `ssh-keygen -t rsa -C "your_email@example.com" -f ~/.ssh/github_rsa`
 
