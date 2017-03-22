@@ -10,7 +10,7 @@ For Windows: [Set the HOME environment variable](http://stackoverflow.com/questi
 
 ## Add key to github
 
-copy to clipboard
+Copy to clipboard
 
 `clip < ~/.ssh/github_rsa.pub`
 
