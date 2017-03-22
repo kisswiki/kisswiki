@@ -1,6 +1,4 @@
-## keygen
-
-### Generate
+## Generate key
 
 For Windows: [Set the HOME environment variable](http://stackoverflow.com/questions/9513712/git-ssh-client-for-windows-and-wrong-path-for-ssh-config-file/21451748#21451748) pointing to `%USERPROFILE%` for ssh to pick it up.
 
@@ -10,7 +8,7 @@ copy to clipboard
 
 `clip < ~/.ssh/github_rsa.pub`
 
-### ssh config
+## ssh config
 
 Add entry in file `~/.ssh/config` (`~` means home directory)
 
@@ -21,14 +19,14 @@ Host *.github.com github.com
 
 http://unix.stackexchange.com/questions/61655/multiple-similar-entries-in-ssh-config
 
-### Test
+## Test
 
 ```
 ssh -T git@github.com
 ssh -T git@gist.github.com
 ```
 
-### Links
+## Links
 
 - https://help.github.com/articles/generating-an-ssh-key/
 - http://www.cloudvps.com/community/knowledge-base/regenerating-ssh-host-keys/
