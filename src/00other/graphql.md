@@ -62,6 +62,7 @@
 - http://graphql.org/learn/introspection/
 - https://www.graphqlhub.com/
 - https://github.com/relayjs/relay-starter-kit/issues/17#issuecomment-13430962
+  - https://github.com/graphql/graphql-js/blob/master/src/utilities/introspectionQuery.js
 
 ## Schema
 
