@@ -9,6 +9,7 @@
 - Game Theory Reveals the Future of Deep Learning https://news.ycombinator.com/item?id=13405380
 - 27 https://youtu.be/dLRLYPiaAoA
 - https://www.kaggle.com
+- http://www.campaignlive.co.uk/article/why-cosabella-replaced-its-agency-ai-will-go-back-humans/1427323
 
 ## Generally about AI
 
