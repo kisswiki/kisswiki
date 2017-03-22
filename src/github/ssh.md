@@ -4,9 +4,13 @@ For Windows: [Set the HOME environment variable](http://stackoverflow.com/questi
 
 `ssh-keygen -t rsa -C "your_email@example.com" -f ~/.ssh/github_rsa`
 
+## Add key to github
+
 copy to clipboard
 
 `clip < ~/.ssh/github_rsa.pub`
+
+the add it to https://github.com/settings/keys.
 
 ## ssh config
 
