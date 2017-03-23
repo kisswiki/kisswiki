@@ -6,3 +6,4 @@
 - https://www.reddit.com/r/elm/comments/5o5g7i/how_do_i_use_tasks_specifically_geolocationnow/
 - https://github.com/fbonetti/elm-geodesy
 - http://odoe.net/blog/using-elm-arcgis-api-javascript/
+- https://jpvillaisaza.github.io/2017/03/22/where-am-i-geolocation-in-elm/
