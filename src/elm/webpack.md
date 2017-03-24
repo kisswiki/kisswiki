@@ -1,6 +1,14 @@
 https://dev.to/rtfeldman/i-am-the-author-of-elm-in-action-ask-me-anything/comments
 
+@rtfeldman:
+
+even after migrating a bunch of stuff to Webpack we're still dissatisfied with our build process overall—and not just with the Elm parts.
+
 Webpack has been slow and crashy and I can't wait for us to stop using it.
+
+The pain point that leaps immediately into my mind is build tools. I'm not gonna sugarcoat it: Webpack has been slow and crashy and I can't wait for us to stop using it.
+
+@eeue56:
 
 To expand on the Webpack issues:
 
