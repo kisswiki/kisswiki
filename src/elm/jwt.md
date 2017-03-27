@@ -1,5 +1,13 @@
 - https://github.com/mpizenberg/elm_api_test
 
+## About
+
+JWT (https://auth0.com/learn/json-web-tokens/) is just a token format, it defines a compact and self-contained mechanism for transmitting data between parties in a way that can be verified and trusted because it is digitally signed. Additionally, the encoding rules of a JWT also make these tokens very easy to use within the context of HTTP.
+
+http://stackoverflow.com/questions/39909419/jwt-vs-oauth-authentication/39914013#39914013
+
+http://stackoverflow.com/questions/31730794/jwt-json-web-token-vs-custom-token
+
 ## headers
 
 https://elmlang.slack.com/archives/general/p1484372683014355
