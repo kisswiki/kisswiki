@@ -23,3 +23,14 @@ http://www.choosemuse.com/how-does-muse-work/
 
 - https://itunes.apple.com/app/tiny-calm/id1039698577?mt=8
   - https://www.reddit.com/r/Meditation/comments/3o3i2v/i_couldnt_find_a_good_free_meditation_iphone_app/
+
+## Meditation at work
+
+- http://tinybuddha.com/blog/how-to-meditate-at-any-time-without-meditating/
+- http://www.thedailymind.com/how-to/how-to-use-your-work-as-a-meditation-tool-to-change-your-life/
+- http://www.huffingtonpost.com/gina-soleil-/how-to-meditate-at-work_1_b_8372390.html
+- https://www.quora.com/How-can-you-do-meditation-while-working
+
+## Budda statue
+
+- https://www.enthusiasticbuddhist.com/four-things-consider-buying-a-buddha-statue/
