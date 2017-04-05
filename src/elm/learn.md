@@ -48,18 +48,24 @@
 
 ## Exercises
 
-- https://github.com/exercism/xelm
+- http://exercism.io/languages/elm
+  - https://github.com/exercism/xelm
   - leap year https://twitter.com/gabrielelana/status/814887972327800833
 - advent of code
   - https://github.com/Janjuks/AoC2016
     - https://adventofcode.com/2016/day/1
   - https://github.com/kaiyote/advent-elm
 - https://github.com/gustavoguichard/elm-cycle-challenge
-- https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/
+- 99 problems
+  - https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/
   - https://github.com/mukeshsoni/elm-99-problems-for-frolic
+  - https://en.wikibooks.org/wiki/99_Elm_Problems
+  - https://github.com/search?q=99+problems+language%3AElm
 - firewall, parse ip https://github.com/fbonetti/code-challenge-10-2016/
 - Codevember 2016 https://www.youtube.com/playlist?list=PLDA4wlOlLJvXAEsJDje4hdLazsihZiQNf
 - https://github.com/GlobalWebIndex/challenge-elm
+- https://github.com/naymspace/elm-gilded-rose-kata
+- https://github.com/robertjlooby/elm-koans
 
 ## workshops
 
