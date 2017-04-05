@@ -10,6 +10,7 @@
 - 27 https://youtu.be/dLRLYPiaAoA
 - https://www.kaggle.com
 - http://www.campaignlive.co.uk/article/why-cosabella-replaced-its-agency-ai-will-go-back-humans/1427323
+- https://www.edx.org/course/machine-learning-columbiax-csmm-102x
 
 ## Generally about AI
 
