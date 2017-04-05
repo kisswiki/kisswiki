@@ -34,4 +34,9 @@ Gdy wynagrodzenie wpłynie na rachunek bankowy, przedsiębiorca jest zobowiązan
 
 Różnica pomiędzy kursem zastosowanym przy wpływie na rachunek a kursem zastosowanym na potrzeby przeliczenia przychodu stanowi różnicę kursową. Jeśli wynik jest ujemny, przedsiębiorca księguje to jako koszt. Jeśli dodatni – przedsiębiorca ujmuje różnicę kursową w przychodach.
 
+
+Artykuł opisuje tylko sytuację, w której zleceniodawcą jest inny przedsiębiorca. Może Pan się odwołać do I części artykułu. W związku z tym artykuł nie opisuje sytuacji, gdy usługa jest świadczona na rzecz osoby fizycznej. Rzeczywiście, w takim wypadku usługa powinna być opodatkowana w Polsce krajową stawką VAT.
+
+Nie ma natomiast znaczenia, czy kontrahent w drugim kraju, potocznie mówiąc, płaci VAT czy też nie. Wszyscy przedsiębiorcy w UE są podatnikami VAT. Osobną kwestią jest to, czy są w swoim kraju czynnymi podatnikami VAT (doliczają VAT do sprzedaży) czy też są zwolnieni (nie doliczają VAT-u). Gdy Polski przedsiębiorca nabywa usługę z zagranicy i jest VAT-owcem, to nalicza podatek VAT, ale ma prawo jego odliczenia. Jeśli nie jest VAT-owcem, musi taki podatek VAT naliczyć w Polsce i odprowadzić go do urzędu skarbowego. Tak samo działa to w drugą stronę tzn. gdy przedsiębiorca z UE nabywa usługę od przedsiębiorcy w Polsce. Jest to zasada, która funkcjonuje we wszystkich krajach UE, gdyż założenia podatku VAT są wspólne dla wszystkich krajów UE i znajdują się w obowiązującej Dyrektywie w sprawie wspólnego systemu podatku od wartości dodanej.
+
 - http://antyweb.pl/jak-rozliczyc-zagraniczne-przychody-freelancera-cz-2/
