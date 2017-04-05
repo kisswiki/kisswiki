@@ -12,6 +12,7 @@
 - https://github.com/etaque/elm-form
 - http://package.elm-lang.org/packages/ericgj/elm-validation/latest
   - https://www.reddit.com/r/elm/comments/5sms0u/elmvalidation_feedback_wanted/
+- https://becoming-functional.com/a-form-validation-library-for-elm-82ef8c7c39d9
 
 ## prevent submit redirect
 
