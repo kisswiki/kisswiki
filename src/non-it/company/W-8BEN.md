@@ -21,5 +21,9 @@ Natknąłem się na ciekawy (choć kilkuletni) artykuł, który potwierdzałby w
 
 WAŻNE uzupełnienie. Dla skuteczności przeniesienia autorskich praw majątkowych (także w umowie o dzieło) NIEZBĘDNE jest ZACHOWANIE FORMY PISEMNEJ POD RYGOREM NIEWAŻNOŚCI. Z tego też względu zawieranie umów o dzieło wraz z przeniesieniem autorskim praw majątkowych jedynie za pośrednictwem e-maila (albo inaczej drogą elektroniczną) nie będzie z punktu widzenia prawa autorskiego (cywilnego) ważne i skuteczne..
 
+
+skoro zapłatę za umowę o dzieło z przeniesieniem praw autorskich dostaję w dolarach lub euro to po jakim kursie mam ją przeliczyć na złotówki?
+rozliczenie powinno być liczone na podstawie średniego kursu NBP z dnia poprzedzającego wpłatę.
+
 - http://antyweb.pl/jak-rozliczyc-zagraniczne-przychody-freelancera-cz-1/
 - http://antyweb.pl/jak-rozliczyc-zagraniczne-przychody-freelancera-cz-2/
