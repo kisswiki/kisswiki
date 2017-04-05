@@ -26,4 +26,12 @@ skoro zapłatę za umowę o dzieło z przeniesieniem praw autorskich dostaję w 
 rozliczenie powinno być liczone na podstawie średniego kursu NBP z dnia poprzedzającego wpłatę.
 
 - http://antyweb.pl/jak-rozliczyc-zagraniczne-przychody-freelancera-cz-1/
+
+
+Przychód u przedsiębiorcy powstaje w momencie wykonania usługi, a nie faktycznego otrzymania wynagrodzenia. Po zakończeniu zlecenia, przedsiębiorca powinien przeliczyć przysługujące mu wynagrodzenie na złotówki wg średniego kursu z ostatniego dnia roboczego poprzedzającego osiągnięcie przychodu.
+
+Gdy wynagrodzenie wpłynie na rachunek bankowy, przedsiębiorca jest zobowiązany do rozliczenia różnic kursowych. W dniu otrzymania zapłaty, przedsiębiorca powinien przeliczyć kwotę wynagrodzenia w walucie obcej jeszcze raz, ale tym razem wg kursu z dnia poprzedzającego wpływ na konto.
+
+Różnica pomiędzy kursem zastosowanym przy wpływie na rachunek a kursem zastosowanym na potrzeby przeliczenia przychodu stanowi różnicę kursową. Jeśli wynik jest ujemny, przedsiębiorca księguje to jako koszt. Jeśli dodatni – przedsiębiorca ujmuje różnicę kursową w przychodach.
+
 - http://antyweb.pl/jak-rozliczyc-zagraniczne-przychody-freelancera-cz-2/
