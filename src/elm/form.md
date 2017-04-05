@@ -1,15 +1,17 @@
-- validation
-  - http://tech.noredink.com/post/129641182738/building-a-live-validated-signup-form-in-elm
-  - https://github.com/rtfeldman/elm-validate
-  - https://github.com/etaque/elm-form
-- http://package.elm-lang.org/packages/ericgj/elm-validation/latest
-  - https://www.reddit.com/r/elm/comments/5sms0u/elmvalidation_feedback_wanted/
 - http://stackoverflow.com/questions/40095094/elm-clear-form-on-submit
 - http://stackoverflow.com/documentation/elm/8087/backend-integration
 - https://api.stackexchange.com/docs
 - https://auth0.com/blog/creating-your-first-elm-app-part-2/
 - http://stackoverflow.com/questions/38238062/how-to-consume-http-post-in-elm-with-header-and-body
 - POST Http.request in Elm 0.18 https://groups.google.com/forum/#!topic/elm-discuss/Kxq8q5n-E68
+
+## validation
+
+- http://tech.noredink.com/post/129641182738/building-a-live-validated-signup-form-in-elm
+- https://github.com/rtfeldman/elm-validate
+- https://github.com/etaque/elm-form
+- http://package.elm-lang.org/packages/ericgj/elm-validation/latest
+  - https://www.reddit.com/r/elm/comments/5sms0u/elmvalidation_feedback_wanted/
 
 ## prevent submit redirect
 
