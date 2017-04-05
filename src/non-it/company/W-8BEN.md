@@ -1,4 +1,5 @@
 - W-8BEN, czy W-8BEN-E? Właściwy formularz to W-8BEN. http://www.goldenline.pl/grupy/Gielda_i_inwestycje/rachunkowosc-dla-praktykow/w-8ben-czy-w-8ben-e,3473805/
 - http://latweinwestycje.pl/jak_wypelnic_w8ben.php
 - Polskie tłumaczenie http://latweinwestycje.pl/downloads/w8ben.pdf
+- http://antyweb.pl/jak-rozliczyc-zagraniczne-przychody-freelancera-cz-1/
 - http://antyweb.pl/jak-rozliczyc-zagraniczne-przychody-freelancera-cz-2/
