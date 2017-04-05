@@ -8,5 +8,14 @@ Wystarczy, że kupisz drogi samochód, nieruchomość lub inną rzecz, a nie bę
 
 Jeżeli ze względu na trudności praktyczne firma zagraniczna zdecyduje się nie rejestrować jako płatnik w Polsce, taki obowiązek ma zleceniobiorca. Obowiązek płacenia składek od umów zlecenia, jeżeli są one jedynym źródłem dochodów, wynika jasno z ustawy. To co Państwo piszecie wprowadza osoby w błąd. Trochę nie rozumiem po co? Jeżeli zleceniobiorca wie dokładnie jakie są obciążenia, ustala stawkę ze zleceniodawcą tak, aby kwota netto była "satysfakcjonująca". A tak, trudno im będzie później tłumaczyć, że muszą podnieść stawkę, bo nie wzięli pod uwagę składek ZUS. Ciekawa też jestem, jak w oczach zleceniodawcy wygląda taki "nieprzejrzysty" freelancer, którego nie interesuje, że firma zagraniczna miała taki obowiązek, ale o tym nie wiedziała. Chyba nie warto. Pozdrawiam.
 
+
+Artykuł bardzo fajny, aczkolwiek w Urzędzie Skarbowym przekonywali mnie, że nie do końca zgodny z prawdą.
+
+Poinformowano mnie, że załącznik PIT/ZG składa się wyłącznie gdy w grę wchodzą przepisy o podwójnym opodatkowaniu (w praktyce - jeśli wykonywałbym te prace będąc fizycznie za granicą, to wtedy musiałbym dostarczyć PIT/ZG; w sytuacji, gdy zlecenia wykonywałem z terenu Polski, wrzucam dochody normalnie jak w Polsce - czyli sumuję np. przychody, koszty i zaliczki nieważne czy polskie czy zagraniczne).
+
+Druga rozbieżność dotyczy odprowadzania zaliczki - wg Urzędu Skarbowego taki obowiązek istnieje co miesiąc.
+
+Natknąłem się na ciekawy (choć kilkuletni) artykuł, który potwierdzałby wersję Urzędu Skarbowego http://www.podatki.biz/sn_autoryzacja/logowanie.php5/artykuly/12_115.htm?idDzialu=12&idArtykulu=115
+
 - http://antyweb.pl/jak-rozliczyc-zagraniczne-przychody-freelancera-cz-1/
 - http://antyweb.pl/jak-rozliczyc-zagraniczne-przychody-freelancera-cz-2/
