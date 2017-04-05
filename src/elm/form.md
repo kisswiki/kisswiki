@@ -11,7 +11,7 @@
 - https://github.com/rtfeldman/elm-validate
 - https://github.com/etaque/elm-form
 - https://github.com/ericgj/elm-validation
-  - http://package.elm-lang.org/packages/ericgj/elm-validation
+  - http://package.elm-lang.org/packages/ericgj/elm-validation/latest/Validation
   - https://www.reddit.com/r/elm/comments/5sms0u/elmvalidation_feedback_wanted/
 - https://becoming-functional.com/a-form-validation-library-for-elm-82ef8c7c39d9
 
