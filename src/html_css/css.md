@@ -1,2 +1,2 @@
 - https://github.com/addyosmani/critical
-- http://cssgridgarden.com/
+- write CSS code to grow your carrot garden http://cssgridgarden.com/
