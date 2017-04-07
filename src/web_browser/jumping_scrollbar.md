@@ -1,5 +1,8 @@
 # Jumping scrollbar
 
+- https://developers.google.com/web/updates/2017/03/custom-scrollbar
+- http://stackoverflow.com/questions/1417934/how-to-prevent-scrollbar-from-repositioning-web-page/39289453#39289453
+
 ## Calc
 
 ```css
@@ -17,6 +20,7 @@
   }
 }
 ```
+
 
 ## Style scrollbar
 
