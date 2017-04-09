@@ -1,3 +1,16 @@
+## Free
+
+- https://www.facebook.com/groups/1485218891734165/permalink/1873414756247908/
+  - http://www.flaticon.com/
+  - http://www.flaticon.com/packs
+  - http://fontawesome.io/icons/
+  - http://www.webdesignerdepot.com/category/freebies/
+  - https://freebiesbug.com/illustrator-freebies/
+  - https://www.iconfinder.com/
+  - http://freepik.com/
+  - https://icomoon.io/
+  - https://iconmonstr.com/
+
 
 ## SVG USE
 

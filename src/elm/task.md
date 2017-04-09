@@ -1,1 +1,2 @@
 - https://becoming-functional.com/tasks-in-elm-0-18-2b64a35fd82e
+- https://www.reddit.com/r/elm/comments/643bux/is_there_a_way_to_ignore_the_result_of_a_task/
