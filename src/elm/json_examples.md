@@ -69,7 +69,7 @@ type alias Header =
     { value : String
     , term : Maybe String
     }
-    
+
 map2 Header (field "header" string)
     (succeed Nothing)
 ```
@@ -91,3 +91,23 @@ redditJsonResponseDecoder =
 ```
 
 https://www.reddit.com/r/elm/comments/5o5p63/experiences_with_elm_on_a_small_production/
+
+## create a Decoder which only matches a specific string value, and fails with all others
+
+```elm
+import Json.Decode.Decoder as Decode exposing (Decoder)
+
+onlyMatchesHello : Decoder ()
+onlyMatchesHello =
+    let
+        checkHello value =
+            if value == "hello" then
+                Decode.succeed ()
+            else
+                Decode.fail "Expected \"hello\""
+    in
+        Decode.string
+            |> Decode.andThen checkHello
+```
+
+https://groups.google.com/forum/#!msg/elm-discuss/p3lCDdmeAXM/liXIdzzlCwAJ
