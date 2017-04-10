@@ -1,2 +1,3 @@
 - CSS-Only Animated <label> Placeholders https://codepen.io/sivan/pen/alKwf
 - http://stackoverflow.com/questions/7545302/how-to-change-the-size-of-the-input-text-box
+- Pure CSS inline input label with dynamic width https://codepen.io/ksundmyhr/pen/KwpxBd
