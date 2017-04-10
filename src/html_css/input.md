@@ -2,3 +2,4 @@
 - http://stackoverflow.com/questions/7545302/how-to-change-the-size-of-the-input-text-box
 - Pure CSS inline input label with dynamic width https://codepen.io/ksundmyhr/pen/KwpxBd
 - Auto expand input width based on text length https://codepen.io/Momciloo/pen/bpyMbB
+- http://kenkeiter.com/2013/07/21/redesigning-credit-card-inputs/
