@@ -1,1 +1,1 @@
-- Looking for a reasonable way to conditionally handle an element and all of its childern losing focus https://groups.google.com/forum/#!msg/elm-discuss/eUP4U6ysA44/S8gzMicwCwAJ
+- conditionally handle an element and all of its children when losing focus https://groups.google.com/forum/#!msg/elm-discuss/eUP4U6ysA44/S8gzMicwCwAJ
