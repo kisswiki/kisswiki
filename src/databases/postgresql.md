@@ -1,3 +1,22 @@
+## Quick start
+
+- https://www.packtpub.com/books/content/how-setup-postgresql-nodejs
+  - https://github.com/acucciniello/setup-postgres
+
+## Create user and table
+
+- create user http://stackoverflow.com/questions/10861260/how-to-create-user-for-a-db-in-postgresql
+- creat user and table http://stackoverflow.com/questions/1471571/how-to-configure-postgresql-for-the-first-time/1471678#1471678
+
+```shell
+$ psql -U postgres
+postgres=# CREATE ROLE myuser LOGIN password 'secret';
+postgres=# CREATE DATABASE mydatabase ENCODING 'UTF8' OWNER myuser;
+postgres=# DROP ROLE myuser;
+```
+
+## Other
+
 - connection string `anything://user:password@host:port/database` https://github.com/brianc/node-postgres/wiki/pg
 - `SELECT current_database()` http://stackoverflow.com/questions/3949876/how-to-switch-databases-in-psql
 - change database `\c[onnect] database`
@@ -9,15 +28,7 @@
 - show users (for particular db) `\du` https://stackoverflow.com/questions/8926389/postgresql-user-listing
   - user mappings `\deu+` http://unix.stackexchange.com/questions/201666/command-to-list-postgresql-user-accounts/201670#201670
 - describe table `\d+ tablename` https://stackoverflow.com/questions/109325/postgresql-describe-table
-- create user http://stackoverflow.com/questions/10861260/how-to-create-user-for-a-db-in-postgresql
-- creat user and table http://stackoverflow.com/questions/1471571/how-to-configure-postgresql-for-the-first-time/1471678#1471678
 
-  ```
-  $ psql -U postgres
-  postgres=# CREATE ROLE myuser LOGIN password 'secret';
-  postgres=# CREATE DATABASE mydatabase ENCODING 'UTF8' OWNER myuser;
-  postgres=# DROP ROLE myuser;
-  ```
 - node.js
   - https://github.com/brianc/node-postgres
   - http://stackoverflow.com/questions/6466833/node-js-postgres-connection-problem
@@ -163,3 +174,8 @@ or
 `\q`
 
 or `^Z` and `Enter`
+
+
+## Forgot/change password
+
+`ALTER USER my_user_name with password 'my_secure_password';`
