@@ -184,7 +184,7 @@ or `^Z` and `Enter`
 
 Key words and unquoted identifiers are case insensitive. Therefore:
 
-```
+```sql
 UPDATE MY_TABLE SET A = 5;
 can equivalently be written as:
 
