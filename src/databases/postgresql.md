@@ -86,7 +86,7 @@ http://stackoverflow.com/questions/6663765/postgres-default-timezone/32009497#32
 
 
 Correct only if referring to the process of inserting/retrieving values.
-timestamp with time zone and timestamp without time zone, in Postgres do *not actually store time zone information.
+timestamp with time zone and timestamp without time zone, in Postgres do not actually store time zone information.
 "without tz" means "ignore offset when inserting data" and "with tz" means "use offset to adjust to UTC"
 
 an offset is a time zone plus rules for DST. You cannot discover the time zone given an offset, but you can discover the offset given the time zone and DST rules.
@@ -157,3 +157,9 @@ or
 - http://stackoverflow.com/questions/5152866/list-of-locales-in-windows
 - "initdb: cannot be run as root" http://dba.stackexchange.com/questions/22016/what-is-going-wrong-with-postgresql-initdb-why-is-the-utf-8-encoding-not-gett
 - https://www.g-loaded.eu/2011/02/27/locale-windows/
+
+## Exit from psql
+
+`\q`
+
+or `^Z` and `Enter`
