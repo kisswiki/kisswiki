@@ -179,3 +179,19 @@ or `^Z` and `Enter`
 ## Forgot/change password
 
 `ALTER USER my_user_name with password 'my_secure_password';`
+
+## Key words and unquoted identifiers are case insensitive
+
+Key words and unquoted identifiers are case insensitive. Therefore:
+
+```
+UPDATE MY_TABLE SET A = 5;
+can equivalently be written as:
+
+uPDaTE my_TabLE SeT a = 5;
+Quoting an identifier makes it case-sensitive, whereas unquoted names are always folded to lower case:
+
+UPDATE "my_table" SET "a" = 5;  // equivalent to the above examples
+```
+
+http://stackoverflow.com/questions/20878932/are-postgresql-column-names-case-sensitive/29900110#29900110
