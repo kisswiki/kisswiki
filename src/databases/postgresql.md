@@ -195,3 +195,9 @@ UPDATE "my_table" SET "a" = 5;  // equivalent to the above examples
 ```
 
 http://stackoverflow.com/questions/20878932/are-postgresql-column-names-case-sensitive/29900110#29900110
+
+## psql execute script
+
+`\i somedir/script2.sql`
+
+http://stackoverflow.com/questions/129445/postgresql-psql-i-how-to-execute-script-in-a-given-path
