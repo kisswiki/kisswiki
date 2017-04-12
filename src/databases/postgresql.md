@@ -180,7 +180,8 @@ or `^Z` and `Enter`
 
 `ALTER USER my_user_name with password 'my_secure_password';`
 
-http://dba.stackexchange.com/questions/19643/how-do-i-reset-the-postgres-password-for-postgresql-on-windows
+- http://dba.stackexchange.com/questions/19643/how-do-i-reset-the-postgres-password-for-postgresql-on-windows
+- http://stackoverflow.com/questions/12720967/how-to-change-postgresql-user-password
 
 ## Key words and unquoted identifiers are case insensitive
 
