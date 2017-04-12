@@ -183,6 +183,10 @@ or `^Z` and `Enter`
 - http://dba.stackexchange.com/questions/19643/how-do-i-reset-the-postgres-password-for-postgresql-on-windows
 - http://stackoverflow.com/questions/12720967/how-to-change-postgresql-user-password
 
+## Foreign Key
+
+http://stackoverflow.com/questions/28558920/postgresql-foreign-key-syntax
+
 ## Key words and unquoted identifiers are case insensitive
 
 Key words and unquoted identifiers are case insensitive. Therefore:
@@ -199,6 +203,12 @@ UPDATE "my_table" SET "a" = 5;  // equivalent to the above examples
 
 http://stackoverflow.com/questions/20878932/are-postgresql-column-names-case-sensitive/29900110#29900110
 
+All identifiers (including column names) that are not double-quoted are folded to lower case in PostgreSQL. Column names that were created with double-quotes and thereby retained upper-case letters (and/or other syntax violations) have to be double-quoted for the rest of their life. So, yes, PostgreSQL column names are case-sensitive:
+
+`SELECT * FROM persons as p join places_visited a v on p."first_Name" = v.name;`
+
+http://stackoverflow.com/questions/20878932/are-postgresql-column-names-case-sensitive/20880247#20880247
+
 ## psql execute script
 
 `\i somedir/script2.sql`
@@ -212,11 +222,3 @@ You can do this (start position 15, length 1 example):
 `SELECT SUBSTRING(lngvarchar,15,1) FROM tblvarchar;`
 
 http://stackoverflow.com/questions/24907845/substring-function-in-postgresql
-
-## column names case-sensitive
-
-All identifiers (including column names) that are not double-quoted are folded to lower case in PostgreSQL. Column names that were created with double-quotes and thereby retained upper-case letters (and/or other syntax violations) have to be double-quoted for the rest of their life. So, yes, PostgreSQL column names are case-sensitive:
-
-`SELECT * FROM persons as p join places_visited a v on p."first_Name" = v.name;`
-
-http://stackoverflow.com/questions/20878932/are-postgresql-column-names-case-sensitive/20880247#20880247
