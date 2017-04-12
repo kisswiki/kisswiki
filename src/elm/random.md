@@ -1,3 +1,8 @@
+- http://tech.noredink.com/post/147949678708/functional-randomization
+- https://www.packtpub.com/books/content/random-value-generators-elm
+
+
+
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Random
 - http://guide.elm-lang.org/architecture/effects/random.html
 - https://github.com/jcollard/random-examples
