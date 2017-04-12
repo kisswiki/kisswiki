@@ -204,3 +204,19 @@ http://stackoverflow.com/questions/20878932/are-postgresql-column-names-case-sen
 `\i somedir/script2.sql`
 
 http://stackoverflow.com/questions/129445/postgresql-psql-i-how-to-execute-script-in-a-given-path
+
+## first n characters
+
+You can do this (start position 15, length 1 example):
+
+`SELECT SUBSTRING(lngvarchar,15,1) FROM tblvarchar;`
+
+http://stackoverflow.com/questions/24907845/substring-function-in-postgresql
+
+## column names case-sensitive
+
+All identifiers (including column names) that are not double-quoted are folded to lower case in PostgreSQL. Column names that were created with double-quotes and thereby retained upper-case letters (and/or other syntax violations) have to be double-quoted for the rest of their life. So, yes, PostgreSQL column names are case-sensitive:
+
+`SELECT * FROM persons as p join places_visited a v on p."first_Name" = v.name;`
+
+http://stackoverflow.com/questions/20878932/are-postgresql-column-names-case-sensitive/20880247#20880247
