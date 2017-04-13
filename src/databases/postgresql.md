@@ -222,3 +222,22 @@ You can do this (start position 15, length 1 example):
 `SELECT SUBSTRING(lngvarchar,15,1) FROM tblvarchar;`
 
 http://stackoverflow.com/questions/24907845/substring-function-in-postgresql
+
+
+## Insert
+
+```
+INSERT INTO table
+VALUES
+ (value1, value2, …);
+```
+
+or
+
+```
+INSERT INTO table(column1, column2, …)
+VALUES
+ (value1, value2, …);
+ ```
+
+ http://www.postgresqltutorial.com/postgresql-insert/
