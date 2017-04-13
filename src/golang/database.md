@@ -8,4 +8,6 @@ stmt, err := db.Prepare("SELECT * FROM awesome_table WHERE id=$1 AND other_field
 rows, err := stmt.Query(10,"this","that")
 ```
 
-http://stackoverflow.com/questions/20271123/how-to-execute-an-in-lookup-in-sql-using-golang
+- http://stackoverflow.com/questions/20271123/how-to-execute-an-in-lookup-in-sql-using-golang
+- http://go-database-sql.org/prepared.html
+- http://stackoverflow.com/questions/40076596/raw-sql-transactions-with-golang-prepared-statements
