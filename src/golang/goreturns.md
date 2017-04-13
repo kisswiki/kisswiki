@@ -10,3 +10,4 @@ go get .
 
 - https://github.com/sqs/goreturns/issues/19
 - https://github.com/sqs/goreturns/issues/23
+- https://github.com/Microsoft/vscode-go/issues/493
