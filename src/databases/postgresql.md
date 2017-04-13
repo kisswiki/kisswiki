@@ -241,3 +241,9 @@ VALUES
  ```
 
  http://www.postgresqltutorial.com/postgresql-insert/
+
+## Not null or empty check
+
+`ads character varying(60) NOT NULL CHECK (ads <> '')`
+
+http://stackoverflow.com/questions/7951120/sql-not-empty-instead-of-not-null
