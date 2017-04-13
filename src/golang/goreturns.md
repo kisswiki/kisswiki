@@ -2,11 +2,7 @@
 
 Disable any vpn and:
 
-```shell
-git clone https://github.com/sqs/goreturns ~/go/src/sqs/goreturns
-cd ~/go/src/sqs/goreturns
-go get .
-```
+`go get -v github.com/sqs/goreturns`
 
 - https://github.com/sqs/goreturns/issues/19
 - https://github.com/sqs/goreturns/issues/23
