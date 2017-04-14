@@ -9,4 +9,21 @@ Everything else is an expression.
 
 use semicolons to separate expressions from each other
 
+
+declaration statement:
+
+let mut y = 5;
+
+good:
+
+fn add_one(x: i32) -> i32 {
+    x + 1
+}
+
+bad:
+
+fn add_one(x: i32) -> i32 {
+    x + 1;
+}
+
 https://doc.rust-lang.org/book/functions.html
