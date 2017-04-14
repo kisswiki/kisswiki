@@ -1,0 +1,2 @@
+- https://doc.rust-lang.org/std/vec/struct.Vec.html
+- https://doc.rust-lang.org/book/vectors.html
