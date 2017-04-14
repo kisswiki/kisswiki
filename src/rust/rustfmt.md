@@ -1,6 +1,11 @@
 ## format whole project
 
+in rustfmt.toml:
+
+`write_mode = "overwrite"`
+
 `cargo fmt`
+
 
 http://asquera.de/blog/2017-03-03/setting-up-a-rust-devenv/
 
