@@ -1,5 +1,7 @@
 `cargo fmt`
 
+http://asquera.de/blog/2017-03-03/setting-up-a-rust-devenv/
+
 ## line exceeded maximum length
 
 in rustfmt.toml:
