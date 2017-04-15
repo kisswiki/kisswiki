@@ -3,3 +3,4 @@
   - http://rust-lang.github.io/book/second-edition/index.html
   - https://github.com/brson/rust-cookbook
 - http://stackoverflow.com/documentation/rust/topics
+- http://rustbyexample.com/
