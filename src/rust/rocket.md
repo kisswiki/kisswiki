@@ -43,3 +43,4 @@ fn upload2(data: Data) -> io::Result<Plain<String>> {
 - https://github.com/SergioBenitez/Rocket/tree/master/examples/static_files
 - https://github.com/SergioBenitez/Rocket/tree/v0.2/examples/static_files
 - https://github.com/SergioBenitez/Rocket/issues/239
+- Missing documentation for a static https://github.com/SergioBenitez/Rocket/issues/258
