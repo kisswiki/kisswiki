@@ -14,4 +14,8 @@ And you hardly ever have to specify lifetimes
 There's almost always another way 
 But references are usually faster, but then you also have to prove that your reference stays valid for the entire time 
 
+##
+
+the whole point of lifetimes in Rust is to ensure that you don't access objects beyond their actual lifetime
+
 - http://stackoverflow.com/questions/42637911/how-can-this-instance-seemingly-outlive-its-own-parameter-lifetime
