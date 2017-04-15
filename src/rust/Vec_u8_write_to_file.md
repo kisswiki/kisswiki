@@ -9,3 +9,4 @@ f.write_all(&*upload.file).expect("Unable to write data");
 - https://doc.rust-lang.org/std/io/trait.Write.html#method.write_all
 - https://doc.rust-lang.org/std/io/struct.BufWriter.html
 - https://doc.rust-lang.org/std/vec/struct.Vec.html
+- https://www.reddit.com/r/rust/comments/4ml1fw/want_to_use_stdioreadwrite_for_my_vecu8/
