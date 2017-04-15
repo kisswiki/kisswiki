@@ -18,7 +18,7 @@ You should be able to adapt the https://github.com/abonander/multipart pretty ea
 
 ## Form
 
-Match any enctype == "text/plain"
+Match any `enctype == "text/plain"`
 
 ```rust
 #[post("/upload", format = "text/plain", data = "<data>")]
@@ -29,7 +29,7 @@ fn upload(data: Data) -> io::Result<Plain<String>> {
 ```
 
 
-Match any enctype
+Match any `enctype`
 
 ```rust
 #[post("/upload2", data = "<data>")]
