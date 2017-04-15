@@ -1,0 +1,2 @@
+- https://blog.rust-lang.org/2017/03/02/lang-ergonomics.html
+- https://github.com/rust-lang/rust-roadmap/issues/17
