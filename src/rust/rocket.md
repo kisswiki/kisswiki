@@ -28,7 +28,6 @@ fn upload(data: Data) -> io::Result<Plain<String>> {
 }
 ```
 
-
 Match any `enctype`
 
 ```rust
