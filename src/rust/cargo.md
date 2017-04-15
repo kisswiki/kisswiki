@@ -74,3 +74,7 @@ cargo run --bin server
 Runing single `cargo run` won't work if specified `[[bin]]`.
 
 https://www.reddit.com/r/rust/comments/2bhr28/cargo_how_to_use_srcbin_effectively/cj5gdq5
+
+## Errors caused by linking to multiple versions of a crate
+
+https://github.com/rust-lang/rust-roadmap/issues/3#issuecomment-278506850
