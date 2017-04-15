@@ -13,3 +13,5 @@ And sometimes that assumption is wrong and you want to correct it
 And you hardly ever have to specify lifetimes 
 There's almost always another way 
 But references are usually faster, but then you also have to prove that your reference stays valid for the entire time 
+
+- http://stackoverflow.com/questions/42637911/how-can-this-instance-seemingly-outlive-its-own-parameter-lifetime
