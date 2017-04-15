@@ -37,3 +37,7 @@ fn upload2(data: Data) -> io::Result<Plain<String>> {
         .map(|n| Plain(n.to_string()))
 }
 ```
+
+## Static files
+
+- Static file serving
