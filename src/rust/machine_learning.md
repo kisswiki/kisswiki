@@ -1,0 +1,4 @@
+- https://medium.com/@mjhirn/tensorflow-wins-89b78b29aafb
+- https://medium.com/@autumn_eng/about-rust-s-machine-learning-community-4cda5ec8a790
+- https://weld-project.github.io/
+- https://www.reddit.com/r/rust/comments/4m9x1f/is_rust_suitable_for_machine_learning/

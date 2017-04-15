@@ -9,3 +9,7 @@ Things will become interesting once plugins become stable, which is why I includ
 
 If you're using a fixed data set with structs, diesel can provide some functionality 
 If you want to just generate raw queries, you probably don't need diesel
+
+## comparting to rust-postgres
+
+https://hackernoon.com/comparing-diesel-and-rust-postgres-97fd8c656fdd

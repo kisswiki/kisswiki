@@ -247,3 +247,9 @@ VALUES
 `ads character varying(60) NOT NULL CHECK (ads <> '')`
 
 http://stackoverflow.com/questions/7951120/sql-not-empty-instead-of-not-null
+
+## column names when using row.get
+
+query returns an iterable object holding the rows returned from the database. The fields in a row can be accessed either by their indices or their column names, though access by index is more efficient. Unlike statement parameters, result columns are zero-indexed.
+
+https://www.reddit.com/r/rust/comments/5hmya5/diesel_is_30_faster_than_rustpostgres_in/

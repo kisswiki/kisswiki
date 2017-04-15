@@ -12,3 +12,15 @@ echo . \$HOME/.cargo/env >> ~/.bashrc
 ```
 
 - Taking Rust everywhere with rustup https://blog.rust-lang.org/2016/05/13/rustup.html
+
+## Tab completion
+
+```
+rustup completions bash > ~/rustup.bash-completion
+echo "source ~/rustup.bash-completion" >> ~/.bash_profile
+source ~/.bash_profile
+```
+
+Doesn't work with `rustup.exe`, use `rustup <TAB>`.
+
+https://github.com/rust-lang-nursery/rustfmt

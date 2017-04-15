@@ -123,3 +123,10 @@ https://johnpapa.net/getting-started-with-visual-studio-code/
 ## goreturns
 
 look at `golang/goreturns.md`
+
+## Version mismatch! global tsc (2.1.6) != VS Code's language service (2.2.2)
+
+```
+npm update -g typescript@2.2.2
+tsc -v
+```
