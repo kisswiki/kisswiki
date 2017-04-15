@@ -38,6 +38,6 @@ fn upload2(data: Data) -> io::Result<Plain<String>> {
 }
 ```
 
-## Static files
+## Static file serving
 
-- Static file serving
+- https://github.com/SergioBenitez/Rocket/issues/239
