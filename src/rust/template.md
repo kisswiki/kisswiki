@@ -16,6 +16,7 @@ Include file `templates/body-static.html.hbs`
 
 `{{> body-static}}`
 
+- https://github.com/sunng87/handlebars-rust/tree/master/examples/partials
 - https://futurestud.io/tutorials/how-to-create-and-use-handlebars-partial-views-with-hapi
 - http://sunng87.github.io/handlebars-rust/handlebars/index.html
 - http://handlebarsjs.com/
