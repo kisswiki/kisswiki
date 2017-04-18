@@ -84,3 +84,13 @@ https://github.com/rust-lang/rust-roadmap/issues/3#issuecomment-278506850
 `--manifest-path path/to/Cargo.toml`
 
 http://stackoverflow.com/questions/35112929/how-to-specify-the-path-to-a-cargo-toml
+
+You also may need to add to specify bin path:
+
+```toml
+[[bin]]
+name = "test"
+path = "src/test.rs"
+```
+
+http://stackoverflow.com/questions/37491436/failed-to-parse-manifest-no-targets-specified
