@@ -56,3 +56,9 @@ workers = 64
 ```
 
 https://rocket.rs/guide/overview/#configuration
+
+## Error: expected &str, found enum `std::option::Option`
+
+Don't use names `__v`, `__k`, `__e` for struct field names.
+
+https://github.com/SergioBenitez/Rocket/issues/265
