@@ -4,5 +4,6 @@
   - My recommendation at this point is to pin to nightly-2017-03-04 https://github.com/lfairy/maud/issues/80#issuecomment-287301838
 - https://github.com/sunng87/handlebars-rust
 - https://github.com/nickel-org/rust-mustache
-- https://api.rocket.rs/rocket_contrib/struct.Template.html
+- https://rocket.rs/guide/responses/#templates
+    - https://api.rocket.rs/rocket_contrib/struct.Template.html
 - https://github.com/Keats/tera
