@@ -4,3 +4,4 @@
 - https://github.com/sunng87/handlebars-rust
 - https://github.com/nickel-org/rust-mustache
 - https://api.rocket.rs/rocket_contrib/struct.Template.html
+- https://github.com/Keats/tera
