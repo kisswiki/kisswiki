@@ -5,3 +5,4 @@
 - http://stackoverflow.com/questions/36791460/define-a-nested-or-recursive-list-structure-in-elm
 - https://github.com/richardhaven/elm-example-recursive-type
 - "To avoid circular dependencies, I find myself putting type declarations in one file" https://groups.google.com/forum/#!msg/elm-discuss/QYw7yR2iVu0/1oSUMTJ2EwAJ
+- http://stackoverflow.com/questions/39857251/does-elm-allow-circular-references
