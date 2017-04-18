@@ -13,4 +13,4 @@
 
 Include file `templates/body-static.html.hbs`
 
-`{{> body-static}}
+`{{> body-static}}`
