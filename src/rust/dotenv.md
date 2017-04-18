@@ -1,3 +1,6 @@
+- can't have empty keys like this in `.env`: `host=`
+- `.env` will be searched for up
+
 deps:
 
 ```toml
