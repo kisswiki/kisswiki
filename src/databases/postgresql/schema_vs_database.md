@@ -20,3 +20,7 @@ http://stackoverflow.com/questions/28951786/postgresql-multiple-database-vs-mult
 2. User and database names, being global objects, are visible in all databases. It is impossible to query across databases, except via an external database session, e.g. dblink. Schema permissions allow data access control, but pg_class still shows all tables defined in the database.
 
 https://www.enterprisedb.com/blog/when-use-multiple-clusters-databases-or-schemas
+
+In a postgres-context I recommend to use one db with multiple schemas, as you can (e.g.) UNION ALL across schemas but not across databases. For that reason, a database is really completely insulated from another database whilst schemas are not insulated from other schemas within the same database. If you -for some reason- have to consolidate data across schemas in the future, it will be easy to do this over multiple schemas. With multiple databases you would need multiple db-connections and collect and merge the data from each database "manually" by application logic.
+
+http://stackoverflow.com/questions/1152405/postgresql-is-it-better-using-multiple-databases-with-1-schema-each-or-1-datab/38773994#38773994
