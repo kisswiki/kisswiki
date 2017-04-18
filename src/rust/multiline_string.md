@@ -1,1 +1,2 @@
-http://stackoverflow.com/questions/15265198/how-do-i-write-a-multi-line-string-in-rust
+- http://stackoverflow.com/questions/15265198/how-do-i-write-a-multi-line-string-in-rust
+- http://stackoverflow.com/questions/29483365/what-is-the-syntax-for-a-multiline-string-literal
