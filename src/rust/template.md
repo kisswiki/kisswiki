@@ -5,5 +5,5 @@
 - https://github.com/sunng87/handlebars-rust
 - https://github.com/nickel-org/rust-mustache
 - https://rocket.rs/guide/responses/#templates
-    - https://api.rocket.rs/rocket_contrib/struct.Template.html
+  - https://api.rocket.rs/rocket_contrib/struct.Template.html
 - https://github.com/Keats/tera
