@@ -1,5 +1,6 @@
 - http://www.arewewebyet.org/topics/templating/
 - https://crates.io/search?q=template&sort=downloads
+- https://github.com/kud1ing/awesome-rust#template-engine
 - https://github.com/lfairy/maud
   - My recommendation at this point is to pin to nightly-2017-03-04 https://github.com/lfairy/maud/issues/80#issuecomment-287301838
 - https://github.com/sunng87/handlebars-rust
