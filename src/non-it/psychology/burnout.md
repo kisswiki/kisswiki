@@ -24,3 +24,9 @@ Dążenie do zmiany. Biznes jest nieustannym dążeniem do osiągnięcia zamierz
 Pracownicy dołączają do nowej firmy oczekując rozwoju zawodowego i finansowej zmiany w życiu prywatnym. Rodzina przedsiębiorcy przez lata cierpi najbardziej, czekając na finał podróży, który zwróci przedsiębiorcę tym, którzy go kochają. Wszystkie strony tego przedsiębiorczego równania oczekują pewnych zmian w swoim życiu. Dążenie do osiągnięcia tych zmian jest źródłem nieustającej motywacji, a wręcz obsesji przedsiębiorcy. Tylko Ci którzy są w stanie pokochać tę podróż, mogą osiągnąć sukces i spełnić oczekiwania.
 
 http://mamstartup.pl/przestrzen/9678/dla-efektywnosci-pracy-i-satysfakcji-z-zycia-potrzebna-jest-motywacja-wewnetrzna-marcin-treder-uxpin
+
+##
+
+Detoks informacyjny na 1-2 dni (tylko z notes papierowy i długopis), jogging, no i na codzień zero opiatoidów (czyli zero glutenu i produktów mlecznych)
+
+https://www.facebook.com/groups/startupy/permalink/1439017882808373/
