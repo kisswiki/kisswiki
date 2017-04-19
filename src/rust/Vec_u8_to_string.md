@@ -12,4 +12,13 @@ http://stackoverflow.com/questions/28123923/how-do-i-print-a-vector-of-u8-as-a-s
 
 Sometimes you may need to use the into_owned() method since it's clone on write.
 
+```rust
+let mut contents: Vec<u8> = Vec::new();
+// Returns amount of bytes read and append the result to the buffer
+let result = file.read_to_end(&mut contents).unwrap();
+println!("Read {} bytes", result);
+let s = String::from_utf8_lossy(&*contents);
+let s2 = s.into_owned();
+```
+
 http://stackoverflow.com/a/34709020/588759
