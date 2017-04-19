@@ -21,3 +21,10 @@ Include file `templates/body-static.html.hbs`
 - https://futurestud.io/tutorials/how-to-create-and-use-handlebars-partial-views-with-hapi
 - http://sunng87.github.io/handlebars-rust/handlebars/index.html
 - http://handlebarsjs.com/
+
+
+No escape:
+
+`{{{ content }}}`
+
+https://github.com/SergioBenitez/Rocket/issues/51#issuecomment-269108429
