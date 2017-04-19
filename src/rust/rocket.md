@@ -11,6 +11,8 @@ You should be able to adapt the https://github.com/abonander/multipart pretty ea
 - https://github.com/SergioBenitez/Rocket/issues/106
 - http://stackoverflow.com/questions/43424982/how-to-use-rocket-and-abonander-multipart-in-rust-language
 - https://www.reddit.com/r/rust/comments/65ikab/help_with_rocket_abonandermultipart/
+- https://github.com/abonander/multipart/issues/57
+- https://github.com/abonander/multipart/issues/59
 
 ## RawStr
 
@@ -69,3 +71,24 @@ https://github.com/SergioBenitez/Rocket/issues/265
 `{{{ content }}}`
 
 https://github.com/SergioBenitez/Rocket/issues/51#issuecomment-269108429
+
+## CORS
+
+No easy way at the moment.
+You need to wrap each response individually.
+
+- https://github.com/SergioBenitez/Rocket/issues/25#issuecomment-271065434
+
+## How can I have different error for /* and for /api/*
+
+A: you should just return a Result<T, E>
+
+Q: For clients accesing /api I would like to return error with json
+
+You can return Result<T, JSON<E>>
+
+Or what have you.
+
+You can return a custom status code and catch that
+
+Result<Option, E>

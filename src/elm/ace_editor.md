@@ -18,6 +18,7 @@
 - https://github.com/LasaleFamine/ace-editor
 - https://github.com/ajaxorg/ace
 - Fix behavior themes in Google Chrome https://github.com/PolymerLabs/ace-element/pull/2
+- highlights.js https://www.reddit.com/r/elm/comments/65y7lo/stripestyle_api_documentation_in_elm_code_and/
 
 ## Misspelled Ace Editor Options
 
