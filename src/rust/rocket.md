@@ -62,3 +62,9 @@ https://rocket.rs/guide/overview/#configuration
 Don't use names `__v`, `__k`, `__e` for struct field names.
 
 https://github.com/SergioBenitez/Rocket/issues/265
+
+## Handlebars no_escape
+
+`{{{ content }}}`
+
+https://github.com/SergioBenitez/Rocket/issues/51#issuecomment-269108429
