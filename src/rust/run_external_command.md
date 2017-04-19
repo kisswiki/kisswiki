@@ -1,5 +1,6 @@
 ```rust
 let cmd = Command::new("ls")
+        .current_dir(&Path::new("../client"))
         .arg("-l")
         .arg("-a")
         .output()
