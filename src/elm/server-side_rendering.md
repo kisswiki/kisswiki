@@ -1,3 +1,4 @@
+- WIP: server-side rendering https://github.com/elm-lang/virtual-dom/issues/29
 - https://github.com/rupertlssmith/elm-java
 - https://github.com/eeue56/elm-server-side-renderer
 - https://github.com/eeue56/elm-static-html
