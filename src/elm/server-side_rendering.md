@@ -1,6 +1,9 @@
 - https://github.com/rupertlssmith/elm-java
 - https://github.com/eeue56/elm-server-side-renderer
 - https://github.com/eeue56/elm-static-html
+  - http://pietrograndi.com/server-side-rendering-with-elm/
+  - http://pietrograndi.com/replacing-the-static-content-in-elm/
+  - https://github.com/MaltaJS/website
 - https://github.com/CaronaBoard/caronaboard/pull/18
   - Implemented with https://www.npmjs.com/package/elm-static-html
 - https://github.com/noredink/take-home#support-summary
