@@ -27,4 +27,5 @@ No escape:
 
 `{{{ content }}}`
 
-https://github.com/SergioBenitez/Rocket/issues/51#issuecomment-269108429
+- https://github.com/SergioBenitez/Rocket/issues/51#issuecomment-269108429
+- https://github.com/jryans/cargo/blob/47221e98189daa34e47934d44223db12db84c7b9/src/cargo/ops/cargo_new.rs#L11
