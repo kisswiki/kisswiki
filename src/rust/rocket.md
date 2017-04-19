@@ -1,5 +1,6 @@
 - minimum rustc version https://github.com/SergioBenitez/Rocket/pull/256
 - If you install rocket 0.2, use examples from https://github.com/SergioBenitez/Rocket/blob/v0.2/examples
+- https://matthias-endler.de/2017/rust-url-shortener/
 
 ## Multipart form
 
