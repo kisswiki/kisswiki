@@ -43,3 +43,7 @@ This will return true if a variable is unset or set to the empty string ("").
 `if [ -z "$VAR" ];`
 
 http://serverfault.com/questions/7503/how-to-determine-if-a-bash-variable-is-empty
+
+## Iterate fast
+
+http://stackoverflow.com/questions/169511/how-do-i-iterate-over-a-range-of-numbers-defined-by-variables-in-bash/169602#169602
