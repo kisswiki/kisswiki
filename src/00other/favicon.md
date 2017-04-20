@@ -1,1 +1,2 @@
 - http://stackoverflow.com/questions/21359342/is-putting-your-favicon-ico-file-in-a-non-root-path-a-bad-idea
+- http://www.favicon.cc
