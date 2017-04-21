@@ -1,3 +1,5 @@
+- hide left panel `ctrl+b`
+
 ## Join lines
 
 ```json
