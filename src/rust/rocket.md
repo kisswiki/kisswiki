@@ -1,6 +1,8 @@
 - minimum rustc version https://github.com/SergioBenitez/Rocket/pull/256
 - If you install rocket 0.2, use examples from https://github.com/SergioBenitez/Rocket/blob/v0.2/examples
 - https://matthias-endler.de/2017/rust-url-shortener/
+- http://neikos.me/Using_Stainless_with_Rocket.html
+- https://www.todobackend.com/
 
 ## Multipart form
 
@@ -92,3 +94,9 @@ Or what have you.
 You can return a custom status code and catch that
 
 Result<Option, E>
+
+## Codegen
+
+`ROCKET_CODEGEN_DEBUG=1 cargo build`
+
+https://api.rocket.rs/rocket_codegen/index.html

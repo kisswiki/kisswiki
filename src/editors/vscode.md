@@ -15,6 +15,10 @@
 - http://www.hongkiat.com/blog/customizing-visual-studio-code/
 - https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 
+```
+"window.openFoldersInNewWindow": "on"
+```
+
 ## Extensions
 
 ```
@@ -126,7 +130,18 @@ look at `golang/goreturns.md`
 
 ## Version mismatch! global tsc (2.1.6) != VS Code's language service (2.2.2)
 
+`npm update -g typescript@2.2.2` didn't work.
+
 ```
-npm update -g typescript@2.2.2
+npm rm -g typescript
+npm rm -i typescript@2.2.2
 tsc -v
 ```
+
+## Search and replace
+
+`Ctrl+H`
+
+`Json<(\*)>`
+
+`CORS<Json<$1>>`

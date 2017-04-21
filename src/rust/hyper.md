@@ -1,0 +1,9 @@
+- https://mgattozzi.com/hyper-async
+- https://blog.guillaume-gomez.fr/articles/2017-02-22+Rust+asynchronous+HTTP+server+with+tokio+and+hyper
+- http://www.arewewebyet.org/
+- https://gsquire.github.io/static/post/rest-in-rust/
+  - https://github.com/gsquire/reroute
+    - https://www.reddit.com/r/rust/comments/4btgi0/regexset_router_for_hyper/
+    - https://github.com/rust-lang/regex#usage-match-multiple-regular-expressions-simultaneously
+  - Similar to and inspired by reroute, but potentially faster (no unnecessary string allocations, no hashmaps, and method-first-matching). https://github.com/kardeiz/rs-router
+  - https://github.com/marad/hyper-router
