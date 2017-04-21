@@ -1,0 +1,1 @@
+- http://stackoverflow.com/questions/35213147/difference-between-text-content-vs-inner-text
