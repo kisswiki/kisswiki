@@ -1,3 +1,5 @@
+- https://www.reddit.com/r/rust/comments/66ro0b/popular_crates/
+
 ## proxy
 
 ~/.cargo/config
