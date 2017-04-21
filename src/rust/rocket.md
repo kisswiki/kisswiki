@@ -100,3 +100,15 @@ Result<Option, E>
 `ROCKET_CODEGEN_DEBUG=1 cargo build`
 
 https://api.rocket.rs/rocket_codegen/index.html
+
+## Deploy/Hosting
+
+Documentation on deploying Rocket 🚀 to Heroku (and other similar ☁️ environments) https://github.com/SergioBenitez/Rocket/issues/171
+
+## Websockets and philosophy
+
+18:22	lakin	There are more than just technical roadblocks though. Websockets don't have anything like HTTP for parameters or paths, etc. It's just string messages in, string messages out. In order to get what I want with type-safe dispatch to defined methods - I'll have to add that on top of websockets.
+18:22	lakin	Not sure that Rocket wants to make decisions like that for the user.
+18:23	Sergio	We don't make many decisions at all. We use provide a framework for decisions. 
+18:23	Sergio	For instance, we don't know what data the HTTP body will contain. 
+18:23	Sergio	So we provide a trait to parse and validate it, and some common implementations of that trait. We could trivially do the same for websockets. 
