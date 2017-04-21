@@ -18,3 +18,7 @@ https://github.com/sfackler/rust-postgres
 
 - http://stackoverflow.com/questions/19942824/how-to-concatenate-columns-in-a-postgres-select
 - http://stackoverflow.com/questions/43870/how-to-concatenate-strings-of-a-string-field-in-a-postgresql-group-by-query
+
+## describe
+
+- table `\d+ tablename`
