@@ -61,3 +61,18 @@ audio-channels=2
 L cycle-values loop-file "inf" "no"
 
 https://github.com/mpv-player/mpv/blob/master/etc/input.conf
+
+## Lua
+
+Scripts passed to the --script option, or found in the scripts subdirectory of the mpv configuration directory (usually ~/.config/mpv/scripts/) will be loaded on program start.
+
+- https://github.com/mpv-player/mpv/blob/master/DOCS/man/lua.rst
+- https://wiki.archlinux.org/index.php/mpv#Improving_mpv_as_a_music_player_with_Lua_scripts
+- https://github.com/mpv-player/mpv/wiki/User-Scripts
+
+
+## play directory
+
+Save https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua to `portable_config\scripts`
+
+Next/prev with arrows.
