@@ -22,3 +22,7 @@ https://github.com/sfackler/rust-postgres
 ## describe
 
 - table `\d+ tablename`
+
+## order by limit slow
+
+http://stackoverflow.com/questions/6037843/extremely-slow-postgresql-query-with-order-and-limit-clauses
