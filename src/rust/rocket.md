@@ -112,3 +112,7 @@ Documentation on deploying Rocket 🚀 to Heroku (and other similar ☁️ envir
 18:23	Sergio	We don't make many decisions at all. We use provide a framework for decisions. 
 18:23	Sergio	For instance, we don't know what data the HTTP body will contain. 
 18:23	Sergio	So we provide a trait to parse and validate it, and some common implementations of that trait. We could trivially do the same for websockets. 
+
+## multi-valued select elements
+
+https://github.com/SergioBenitez/Rocket/issues/205
