@@ -34,7 +34,8 @@ fast_git_ps1 ()
     git -C . rev-parse 2>/dev/null && echo " (${rev})"
 }
 
-# you need \] at the end for colors. Maybe you also need \[ at the beginning
+# you need \] at the end for colors
+# Don't set \[ at the beginning or ctrl+up for history will work strangely
 PS1='\[${GREEN}\u@\h ${YELLOW}\w${CYAN}$(fast_git_ps1)${RESET}\] $ '
 ```
 
