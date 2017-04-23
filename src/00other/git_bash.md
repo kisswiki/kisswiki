@@ -30,7 +30,6 @@ RESET="$(echo -e "\e[0m")"
 # http://stackoverflow.com/questions/39518124/check-if-directory-is-git-repository-without-having-to-cd-into-it/39518382#39518382
 fast_git_ps1 ()
 {
-
     git -C . rev-parse 2>/dev/null && echo " ($((git symbolic-ref --short -q HEAD || git rev-parse -q --short HEAD) 2> /dev/null))"
 }
 
