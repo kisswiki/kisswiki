@@ -18,6 +18,7 @@ git config --global gc.auto 256
 ```bash
 # https://unix.stackexchange.com/questions/140610/using-variables-to-store-terminal-color-codes-for-ps1/140618#140618
 # https://unix.stackexchange.com/questions/124407/what-color-codes-can-i-use-in-my-ps1-prompt
+# \033 is the same as \e
 # 0;32 is the same as 32
 CYAN="$(echo -e "\e[1;36m")"
 GREEN="$(echo -e "\e[32m")"
