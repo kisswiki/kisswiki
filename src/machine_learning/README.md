@@ -13,6 +13,10 @@
 - Asaf https://www.edx.org/course/machine-learning-columbiax-csmm-102x
 - https://github.com/showcases/machine-learning
 
+## Examples
+
+- https://github.com/luanfujun/deep-photo-styletransfer
+
 ## Generally about AI
 
 - https://medium.com/@cdixon/what-s-next-in-computing-e54b870b80cc
