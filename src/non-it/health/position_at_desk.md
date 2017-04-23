@@ -39,6 +39,7 @@
 - http://www.frazpc.pl/b/126129
 - http://tallonzektimes.org/bb/index.php?topic=48836.0
 - better than standing desk https://twitter.com/mxgrn/status/791239714292596736
+- Jak zdrowo siedzieć w pracy biurowej i przy komputerze? Krzesła Zdrowotne SpinaliS https://youtu.be/OKzTr2F9K10
 
 ## Klęcznik
 
