@@ -27,7 +27,6 @@ RESET="$(echo -e "\e[0m")"
 
 # http://stackoverflow.com/questions/4485059/git-bash-is-extremely-slow-in-windows-7-x64/19500237#19500237
 # http://stackoverflow.com/questions/4485059/git-bash-is-extremely-slow-in-windows-7-x64/13476961#13476961
-# you need \] at the end for colors. Maybe you also need \[ at the beginning
 fast_git_ps1 ()
 {
     rev="$((git symbolic-ref --short -q HEAD || git rev-parse -q --short HEAD) 2> /dev/null)"
@@ -35,6 +34,7 @@ fast_git_ps1 ()
     git -C . rev-parse 2>/dev/null && echo " (${rev})"
 }
 
+# you need \] at the end for colors. Maybe you also need \[ at the beginning
 PS1='\[${GREEN}\u@\h ${YELLOW}\w${CYAN}$(fast_git_ps1)${RESET}\] $ '
 ```
 
