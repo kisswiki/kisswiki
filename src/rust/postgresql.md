@@ -45,3 +45,11 @@ GROUP BY A.id
 ```
 
 http://stackoverflow.com/questions/4535782/select-count-of-rows-in-another-table-in-a-postgres-select-statement
+
+## Conversion(WrongType(Int8))
+
+Use i64
+
+The "8" in Int8 refers to a byte count, not a bit count
+
+https://github.com/sfackler/rust-postgres/issues/198#issuecomment-241345919
