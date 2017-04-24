@@ -145,3 +145,9 @@ tsc -v
 `Json<(\*)>`
 
 `CORS<Json<$1>>`
+
+## open window maximized
+
+`"window.newWindowDimensions": "maximized"`
+
+https://github.com/Microsoft/vscode-docs/blob/vnext/release-notes/v1_9.md#control-the-dimensions-of-new-windows
