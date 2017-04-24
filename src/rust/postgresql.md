@@ -26,3 +26,7 @@ https://github.com/sfackler/rust-postgres
 ## order by limit slow
 
 http://stackoverflow.com/questions/6037843/extremely-slow-postgresql-query-with-order-and-limit-clauses
+
+## count
+
+http://stackoverflow.com/questions/4535782/select-count-of-rows-in-another-table-in-a-postgres-select-statement
