@@ -29,4 +29,19 @@ http://stackoverflow.com/questions/6037843/extremely-slow-postgresql-query-with-
 
 ## count
 
+```sql
+SELECT A.id, QTY.quantity FROM A
+LEFT JOIN
+    (SELECT COUNT(B.a_id) AS quantity, B.a_id FROM B GROUP BY B.a_id) AS QTY
+ON A.id = QTY.a_id
+```
+
+Another variant:
+
+```sql
+SELECT A.id, COUNT(B.a_id) AS quantity FROM A
+LEFT JOIN B ON B.a_id = A.id
+GROUP BY A.id
+```
+
 http://stackoverflow.com/questions/4535782/select-count-of-rows-in-another-table-in-a-postgres-select-statement
