@@ -1,4 +1,5 @@
 - http://stackoverflow.com/questions/2103322/varchar-as-foreign-key-primary-key-in-database-good-or-bad
+- http://stackoverflow.com/questions/24877728/postgresql-column-unique-and-not-null
 
 ##
 
