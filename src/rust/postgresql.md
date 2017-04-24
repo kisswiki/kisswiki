@@ -53,3 +53,9 @@ Use i64
 The "8" in Int8 refers to a byte count, not a bit count
 
 https://github.com/sfackler/rust-postgres/issues/198#issuecomment-241345919
+
+## last inserted ID
+
+`INSERT INTO persons (lastname,firstname) VALUES ('Smith', 'John') RETURNING id;`
+
+http://stackoverflow.com/questions/2944297/postgresql-function-for-last-inserted-id/2944481#2944481
