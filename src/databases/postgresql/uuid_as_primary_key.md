@@ -1,3 +1,7 @@
+- http://stackoverflow.com/questions/2103322/varchar-as-foreign-key-primary-key-in-database-good-or-bad
+
+##
+
 I am, however, against using sequences (or serial integers in Postgres) for
 reasons of scaling and replication across multiple copies of a database
 running on different servers.
