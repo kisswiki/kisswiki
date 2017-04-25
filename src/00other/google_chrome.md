@@ -32,6 +32,7 @@
 
 ## dark
 
+- https://chrome.google.com/webstore/detail/night-time-in-new-york-ci/jnimonidkipnhnpgkhgliocfnnpgkhek
 - https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
 - https://chrome.google.com/webstore/detail/slinky-elegant/bmanlajnpdncmhfkiccmbgeocgbncfln
 
