@@ -1,6 +1,7 @@
 - https://www.postgresql.org/docs/current/static/datatype-datetime.html
 - http://phili.pe/posts/timestamps-and-time-zones-in-postgresql/
 - https://serverfault.com/questions/554359/postgresql-timezone-does-not-match-system-timezone
+- http://www.postgresqltutorial.com/postgresql-timestamp/
 
 ## default
 
