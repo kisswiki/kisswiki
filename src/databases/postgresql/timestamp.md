@@ -50,14 +50,14 @@ http://stackoverflow.com/questions/27027112/timestamp-resolution
 ## insert timestamp with microseconds
 
 ```
-algo2go=# SELECT extract (MICROSECONDS  from TO_TIMESTAMP(1401432881230::double precision / 1000));
+mydb=# SELECT extract (MICROSECONDS  from TO_TIMESTAMP(1401432881230::double precision / 1000));
  date_part
 -----------
   41230000
 (1 row)
 
 
-algo2go=# SELECT extract (MICROSECONDS  from TO_TIMESTAMP(1401432881230 / 1000));
+mydb=# SELECT extract (MICROSECONDS  from TO_TIMESTAMP(1401432881230 / 1000));
  date_part
 -----------
   41000000
@@ -66,3 +66,19 @@ algo2go=# SELECT extract (MICROSECONDS  from TO_TIMESTAMP(1401432881230 / 1000))
 
 - http://stackoverflow.com/questions/23950025/how-to-write-bigint-timestamp-in-milliseconds-value-as-timestamp-in-postgresql
 - http://stackoverflow.com/questions/27027112/timestamp-resolution
+
+
+```                                                             ^
+mydb=# SELECT EXTRACT(EPOCH FROM now() AT TIME ZONE 'UTC');
+    date_part
+------------------
+ 1493325786.78076
+(1 row)
+
+
+mydb=# SELECT EXTRACT(EPOCH FROM now() AT TIME ZONE 'UTC') * 1000;
+     ?column?
+------------------
+ 1493325801406.16
+(1 row)
+```
