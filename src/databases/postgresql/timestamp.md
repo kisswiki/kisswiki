@@ -82,3 +82,5 @@ mydb=# SELECT EXTRACT(EPOCH FROM now() AT TIME ZONE 'UTC') * 1000;
  1493325801406.16
 (1 row)
 ```
+
+https://dba.stackexchange.com/questions/2758/how-to-get-the-timestamp-column-in-only-milliseconds-from-postgresql
