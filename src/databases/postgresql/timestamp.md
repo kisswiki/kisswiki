@@ -50,14 +50,14 @@ http://stackoverflow.com/questions/27027112/timestamp-resolution
 ## insert timestamp with microseconds
 
 ```
-mydb=# SELECT extract (MICROSECONDS  from TO_TIMESTAMP(1401432881230::double precision / 1000));
+mydb=# SELECT extract (MICROSECONDS from TO_TIMESTAMP(1401432881230::double precision / 1000));
  date_part
 -----------
   41230000
 (1 row)
 
 
-mydb=# SELECT extract (MICROSECONDS  from TO_TIMESTAMP(1401432881230 / 1000));
+mydb=# SELECT extract (MICROSECONDS from TO_TIMESTAMP(1401432881230 / 1000));
  date_part
 -----------
   41000000
