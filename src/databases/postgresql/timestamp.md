@@ -20,6 +20,7 @@ select CURRENT_TIMESTAMP;
 select LOCALTIMESTAMP;
 select CURRENT_TIMESTAMP AT TIME ZONE 'UTC';
 SELECT now() AT TIME ZONE current_setting('TimeZone');
+SELECT now()::timestamp;
 ```
 
 http://stackoverflow.com/questions/1380460/how-do-i-use-gmt-times-in-postgresql/1380507#1380507
