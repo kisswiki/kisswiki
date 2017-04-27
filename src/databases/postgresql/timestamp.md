@@ -3,6 +3,7 @@ SELECT to_char (now()::timestamp at time zone 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS:MS
 ```
 
 outputs
+
 ```
          to_char
 --------------------------
