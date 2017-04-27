@@ -2,6 +2,7 @@
 - http://phili.pe/posts/timestamps-and-time-zones-in-postgresql/
 - https://serverfault.com/questions/554359/postgresql-timezone-does-not-match-system-timezone
 - http://stackoverflow.com/questions/20877117/table-column-of-type-timestamp-without-milliseconds?rq=1
+- http://stackoverflow.com/questions/10213190/discard-millisecond-part-from-timestamp?noredirect=1&lq=1
 
 ##
 
