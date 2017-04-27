@@ -46,3 +46,23 @@ select extract( timezone from now() );
 ## resolution
 
 http://stackoverflow.com/questions/27027112/timestamp-resolution
+
+## insert timestamp with microseconds
+
+```
+algo2go=# SELECT extract (MICROSECONDS  from TO_TIMESTAMP(1401432881230::double precision / 1000));
+ date_part
+-----------
+  41230000
+(1 row)
+
+
+algo2go=# SELECT extract (MICROSECONDS  from TO_TIMESTAMP(1401432881230 / 1000));
+ date_part
+-----------
+  41000000
+(1 row)
+```
+
+- http://stackoverflow.com/questions/23950025/how-to-write-bigint-timestamp-in-milliseconds-value-as-timestamp-in-postgresql
+- http://stackoverflow.com/questions/27027112/timestamp-resolution
