@@ -51,14 +51,14 @@ http://stackoverflow.com/questions/27027112/timestamp-resolution
 ## insert timestamp with microseconds
 
 ```
-mydb=# SELECT extract (MICROSECONDS from TO_TIMESTAMP(1401432881230::double precision / 1000));
+# SELECT extract (MICROSECONDS from TO_TIMESTAMP(1401432881230::double precision / 1000));
  date_part
 -----------
   41230000
 (1 row)
 
 
-mydb=# SELECT extract (MICROSECONDS from TO_TIMESTAMP(1401432881230 / 1000));
+# SELECT extract (MICROSECONDS from TO_TIMESTAMP(1401432881230 / 1000));
  date_part
 -----------
   41000000
@@ -70,14 +70,14 @@ mydb=# SELECT extract (MICROSECONDS from TO_TIMESTAMP(1401432881230 / 1000));
 
 
 ```                                                             ^
-mydb=# SELECT EXTRACT(EPOCH FROM now() AT TIME ZONE 'UTC');
+# SELECT EXTRACT(EPOCH FROM now() AT TIME ZONE 'UTC');
     date_part
 ------------------
  1493325786.78076
 (1 row)
 
 
-mydb=# SELECT EXTRACT(EPOCH FROM now() AT TIME ZONE 'UTC') * 1000;
+# SELECT EXTRACT(EPOCH FROM now() AT TIME ZONE 'UTC') * 1000;
      ?column?
 ------------------
  1493325801406.16
@@ -92,7 +92,7 @@ http://stackoverflow.com/questions/21401221/make-postgresql-timestamps-display-m
 
 
 ```
-mydb=# SELECT TIMESTAMP '2016-08-12 10:22:31.949271-07', TIMESTAMP WITH TIME ZONE '2016-08-12 10:22:31.949271-07';
+# SELECT TIMESTAMP '2016-08-12 10:22:31.949271-07', TIMESTAMP WITH TIME ZONE '2016-08-12 10:22:31.949271-07';
          timestamp          |          timestamptz
 ----------------------------+-------------------------------
  2016-08-12 10:22:31.949271 | 2016-08-12 19:22:31.949271+02
