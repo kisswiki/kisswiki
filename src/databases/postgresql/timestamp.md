@@ -13,3 +13,10 @@ outputs
 
 - https://lluad.com/blog/2013/08/27/postgresql-and-iso-8601-timestamps/
 - http://stackoverflow.com/questions/38834022/turn-postgres-date-representation-into-iso-8601-string/38834311#38834311
+
+
+```sql
+select CURRENT_TIMESTAMP;
+select LOCALTIMESTAMP;
+select CURRENT_TIMESTAMP AT TIME ZONE 'UTC';
+```
