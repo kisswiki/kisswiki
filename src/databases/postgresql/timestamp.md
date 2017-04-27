@@ -18,12 +18,40 @@ WHERE
 
 - http://www.postgresqltutorial.com/postgresql-timestamp/
 
-## default
+## THIS WORKS!!!
 
 ```sql
 create table blocks (
   release_date timestamptz DEFAULT NOW()
 ```
+
+```
+CREATE OR REPLACE FUNCTION date_display_tz(param_dt timestamp with time zone)
+ RETURNS text AS
+$$
+DECLARE var_result varchar;
+BEGIN
+PERFORM set_config('timezone', 'UTC', true);
+var_result := to_char(param_dt , 'YYYY-MM-DD"T"HH24:MI:SS:MS"Z"');
+RETURN var_result;
+END;
+$$ language plpgsql VOLATILE;
+```
+
+```
+# SELECT
+a#   localtimestamp, current_timestamp,
+#   to_char(localtimestamp, 'YYYY-MM-DD"T"HH24:MI:SS:MS"Z"'),
+#   to_char(current_timestamp, 'YYYY-MM-DD"T"HH24:MI:SS:MS"Z"'),
+#   date_display_tz(localtimestamp), date_display_tz(current_timestamp);
+         timestamp          |              now              |         to_char          |         to_char          |     date_display_tz      |     date_display_tz
+----------------------------+-------------------------------+--------------------------+--------------------------+--------------------------+--------------------------
+ 2017-04-27 23:48:03.802764 | 2017-04-27 21:48:03.802764+00 | 2017-04-27T23:48:03:802Z | 2017-04-27T23:48:03:802Z | 2017-04-27T21:48:03:802Z | 2017-04-27T21:48:03:802Z
+(1 row)
+
+
+```
+
 
 ##
 
