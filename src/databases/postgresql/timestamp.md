@@ -25,3 +25,9 @@ SELECT now()::timestamp;
 
 - http://stackoverflow.com/questions/1380460/how-do-i-use-gmt-times-in-postgresql/1380507#1380507
 - http://stackoverflow.com/questions/20812091/now-without-timezone
+
+```sql
+SELECT current_setting('TIMEZONE')
+```
+
+http://stackoverflow.com/questions/2110216/local-time-zone-offset-in-postgresql
