@@ -34,7 +34,7 @@ $$
 DECLARE var_result varchar;
 BEGIN
 PERFORM set_config('timezone', 'UTC', true);
-var_result := to_char(param_dt , 'YYYY-MM-DD"T"HH24:MI:SS:MS"Z"');
+var_result := to_char(param_dt , 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"');
 RETURN var_result;
 END;
 $$ language plpgsql VOLATILE;
