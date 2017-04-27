@@ -1,3 +1,4 @@
+- http://stackoverflow.com/questions/38834022/turn-postgres-date-representation-into-iso-8601-string/43668527#43668527
 - https://www.postgresql.org/docs/current/static/datatype-datetime.html
 - http://phili.pe/posts/timestamps-and-time-zones-in-postgresql/
 - https://serverfault.com/questions/554359/postgresql-timezone-does-not-match-system-timezone
