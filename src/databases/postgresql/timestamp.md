@@ -1,5 +1,6 @@
 - https://www.postgresql.org/docs/current/static/datatype-datetime.html
 - http://phili.pe/posts/timestamps-and-time-zones-in-postgresql/
+- https://serverfault.com/questions/554359/postgresql-timezone-does-not-match-system-timezone
 
 ```sql
 SELECT to_char (now()::timestamp at time zone 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS:MS"Z"');
