@@ -104,6 +104,15 @@ http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.ht
 
 ##
 
+It's also worth noting at this point that Postgres will let you apply AT TIME ZONE conversions to date fields. I think this is nuts and Postgres should at least throw up a warning, as it's very weird to request a date at a specific timezone and get a totally different date. Thursday August 18th is Thursday August 18th in every time zone; but instead Postgres will sneakily cast it to a datetime, assume midnight, do the TZ conversion, and return a datetime. Check it out:
+
+```
+#=> SELECT ('July 1, 2015'::date AT TIME ZONE 'America/Los_Angeles')::date;
+  timezone
+------------
+ 2015-06-30
+ ```
+
 Another issue to keep in mind is that in POSIX time zone names, positive offsets are used for locations west of Greenwich. Everywhere else, PostgreSQL follows the ISO-8601 convention that positive timezone offsets are east of Greenwich.
 
 http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html
