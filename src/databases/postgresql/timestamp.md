@@ -84,3 +84,7 @@ mydb=# SELECT EXTRACT(EPOCH FROM now() AT TIME ZONE 'UTC') * 1000;
 ```
 
 https://dba.stackexchange.com/questions/2758/how-to-get-the-timestamp-column-in-only-milliseconds-from-postgresql
+
+`SELECT to_char(TIMESTAMP '2013-01-01 12:13:14.001', 'YYYY-MM-DD HH:MI:SS:MS');`
+
+http://stackoverflow.com/questions/21401221/make-postgresql-timestamps-display-milliseconds-even-if-zero
