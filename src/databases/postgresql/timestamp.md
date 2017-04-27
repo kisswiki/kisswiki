@@ -89,3 +89,14 @@ https://dba.stackexchange.com/questions/2758/how-to-get-the-timestamp-column-in-
 `SELECT to_char(TIMESTAMP '2013-01-01 12:13:14.001', 'YYYY-MM-DD HH:MI:SS:MS');`
 
 http://stackoverflow.com/questions/21401221/make-postgresql-timestamps-display-milliseconds-even-if-zero
+
+
+```
+mydb=# SELECT TIMESTAMP '2016-08-12 10:22:31.949271-07', TIMESTAMP WITH TIME ZONE '2016-08-12 10:22:31.949271-07';
+         timestamp          |          timestamptz
+----------------------------+-------------------------------
+ 2016-08-12 10:22:31.949271 | 2016-08-12 19:22:31.949271+02
+(1 row)
+```
+
+http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html
