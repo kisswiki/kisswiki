@@ -31,3 +31,10 @@ SELECT current_setting('TIMEZONE')
 ```
 
 http://stackoverflow.com/questions/2110216/local-time-zone-offset-in-postgresql
+
+
+To get # of seconds difference as an integer:
+
+```sql
+select extract( timezone from now() );
+```
