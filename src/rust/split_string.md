@@ -2,6 +2,8 @@
 
 ## Remove duplicates
 
+@dtolnay:
+
 ```rust
 use std::collections::BTreeSet;
 let tags = "one two three".split_whitespace().collect::<BTreeSet<_>>();
