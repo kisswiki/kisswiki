@@ -41,3 +41,8 @@ To get # of seconds difference as an integer:
 ```sql
 select extract( timezone from now() );
 ```
+
+
+## resolution
+
+http://stackoverflow.com/questions/27027112/timestamp-resolution
