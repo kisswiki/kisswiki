@@ -169,3 +169,9 @@ It's also worth noting at this point that Postgres will let you apply AT TIME ZO
 Another issue to keep in mind is that in POSIX time zone names, positive offsets are used for locations west of Greenwich. Everywhere else, PostgreSQL follows the ISO-8601 convention that positive timezone offsets are east of Greenwich.
 
 http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html
+
+##
+
+`select to_timestamp(20120822193532::text, 'YYYYMMDDHH24MISS')`
+
+http://stackoverflow.com/questions/5485502/how-to-format-bigint-field-into-a-date-in-postgresql/12080268#12080268
