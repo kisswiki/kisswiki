@@ -100,3 +100,10 @@ mydb=# SELECT TIMESTAMP '2016-08-12 10:22:31.949271-07', TIMESTAMP WITH TIME ZON
 ```
 
 http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html
+
+
+##
+
+Another issue to keep in mind is that in POSIX time zone names, positive offsets are used for locations west of Greenwich. Everywhere else, PostgreSQL follows the ISO-8601 convention that positive timezone offsets are east of Greenwich.
+
+http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html
