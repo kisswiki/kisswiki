@@ -1,1 +1,2 @@
 - http://lifehacker.com/board-games-that-are-super-fun-to-play-solo-1770363470
+- http://antyweb.pl/gry-planszowe/
