@@ -1,3 +1,7 @@
+## ps
+
+
+
 list names of running containers
 
 `docker ps`
@@ -6,11 +10,13 @@ list names of all containers
 
 `docker ps -a`
 
-http://stackoverflow.com/questions/16840409/how-do-you-list-containers-in-docker-io
 
 list ids of running containers
 
 `docker ps -q`
+
+- https://docs.docker.com/engine/reference/commandline/ps/
+- http://stackoverflow.com/questions/16840409/how-do-you-list-containers-in-docker-io
 
 ## remove containers that exited
 
