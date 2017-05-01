@@ -6,4 +6,4 @@
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ```
 
-- https://docs.docker.com/docker-for-windows/
+and install tab-completion as described on https://docs.docker.com/docker-for-windows/
