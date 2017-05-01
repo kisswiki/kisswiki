@@ -1,6 +1,6 @@
 - https://docs.docker.com/docker-for-windows
 
-## PowerShell
+## tab-completion
 
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
