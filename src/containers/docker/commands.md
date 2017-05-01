@@ -31,3 +31,10 @@ docker rm @(docker ps -q -f status=exited)
 ```
 
 http://stackoverflow.com/questions/17236796/how-to-remove-old-docker-containers
+
+## get shell in running container
+
+`docker exec -it <containerIdOrName> bash`
+
+- https://askubuntu.com/questions/505506/how-to-get-bash-or-ssh-into-a-running-container-in-background-mode
+- https://docs.docker.com/engine/reference/commandline/exec/
