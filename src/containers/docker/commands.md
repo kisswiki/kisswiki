@@ -1,12 +1,12 @@
-list running containers names
+list names of running containers
 
 `docker ps`
 
-list all containers names
+list names of all containers
 
 `docker ps -a`
 
-list running containers ids
+list ids of running containers
 
 `docker ps -q`
 
