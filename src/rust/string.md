@@ -11,10 +11,3 @@ let person = Person::new(name.as_ref());
 ```
 
 http://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-or-str.html
-
-## Concatenate &str
-
-```rust
-let first_name = "Herman";
-let last_name = first_name.to_owned() + " Gonzalez";
-```
