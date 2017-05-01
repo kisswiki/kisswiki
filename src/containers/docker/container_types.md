@@ -1,15 +1,3 @@
-- https://docs.docker.com/docker-for-windows/install
-- https://docs.docker.com/docker-for-windows
-
-## tab-completion
-
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-```
-
-and install tab-completion
-
-https://docs.docker.com/docker-for-windows/#set-up-tab-completion-in-powershell
 
 ## Linux containers
 
@@ -22,6 +10,8 @@ Docker containers use host's kernel and since you cannot run linux processes on 
 
 When you click "Switch to Windows containers" you should be able to run Windows containers.
 
+Hyper-V container with Windows will be a host to other Windows containers.
+
 There are some networking problems with connecting to docker after switching to "Windows containers".
 
 Solution might be to remove MobyLinux container from Hyper-V.
@@ -32,8 +22,6 @@ To allow windows and linux containers communicate, use swarm.
 
 ## Window Server Containers
 
-Hyper-V containers are avialable on Windows Server and Windows 10 Pro.
-
-We could also use Windows Server Containers available on Windows Server instead of Hyper-V containers. That way we don't use Hyper-V virtual machine with another Windows installed in container, but share Windows Server kernel with Docker Windows containers.
+To get rid of virtualization in the form of Hyper-V and run Windows containers on bare-metal Windows kernel, you can use Windows Server Containers available on Windows Server.
 
 https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/
