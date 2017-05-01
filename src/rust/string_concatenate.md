@@ -34,6 +34,8 @@ The new edition of the book uses String/&str to teach ownership and borrowing, a
 
 ## join
 
+https://doc.rust-lang.org/std/slice/trait.SliceConcatExt.html#tymethod.join
+
 The nicest I have seen is using the join method on an array:
 
 ```rust
