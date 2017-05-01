@@ -23,3 +23,5 @@ powershell:
 ```powershell
 docker rm @(docker ps -q -f status=exited)
 ```
+
+http://stackoverflow.com/questions/17236796/how-to-remove-old-docker-containers
