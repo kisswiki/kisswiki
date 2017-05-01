@@ -23,8 +23,17 @@ list ids of running containers
 
 `docker ps -q`
 
+ list all docker containers created after container named cocky_jang
+
+`docker ps --since="cocky_jang"`
+
+list docker containers created before a specific container
+
+`docker ps --before="mycentos"`
+
 - https://docs.docker.com/engine/reference/commandline/ps/
 - http://stackoverflow.com/questions/16840409/how-do-you-list-containers-in-docker-io
+- https://linuxconfig.org/how-to-list-available-docker-containers-using-ps-command-on-linux
 
 ## remove containers that exited
 
