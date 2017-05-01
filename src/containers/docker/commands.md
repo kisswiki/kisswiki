@@ -1,7 +1,5 @@
 ## ps
 
-
-
 list names of running containers
 
 `docker ps`
