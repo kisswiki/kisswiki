@@ -6,6 +6,8 @@ list names of all containers
 
 `docker ps -a`
 
+http://stackoverflow.com/questions/16840409/how-do-you-list-containers-in-docker-io
+
 list ids of running containers
 
 `docker ps -q`
