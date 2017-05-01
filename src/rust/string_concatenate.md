@@ -54,7 +54,7 @@ http://stackoverflow.com/questions/30154541/how-do-i-concatenate-strings/4168836
 
 It also has the advantage over `format!()` that concat computes the exact size needed beforehand, so it allocates an exact sized string and does copying very efficiently.
 
-The only problem is the type inference issue. You may have to force the operands to be &str.
+The only problem is the type inference issue. You may have to force the operands to be `&str`.
 
 concat is to `format!()` what String::from is to `.to_string()`, in a way :)
 
