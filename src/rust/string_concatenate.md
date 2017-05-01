@@ -50,6 +50,8 @@ http://stackoverflow.com/questions/30154541/how-do-i-concatenate-strings/4168836
 
 ## concat
 
+- https://doc.rust-lang.org/std/slice/trait.SliceConcatExt.html#tymethod.concat
+
 `[a, b].concat()` is stable, and it generalizes to multiple strings: `[a, b, c, d].concat()`.
 
 It also has the advantage over `format!()` that concat computes the exact size needed beforehand, so it allocates an exact sized string and does copying very efficiently.
