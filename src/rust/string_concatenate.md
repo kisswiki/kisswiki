@@ -47,3 +47,17 @@ fn main() {
 ```
 
 http://stackoverflow.com/questions/30154541/how-do-i-concatenate-strings/41688369#41688369
+
+## concat
+
+`[a, b].concat()` is stable, and it generalizes to multiple strings: `[a, b, c, d].concat()`.
+
+It also has the advantage over `format!()` that concat computes the exact size needed beforehand, so it allocates an exact sized string and does copying very efficiently.
+
+The only problem is the type inference issue. You may have to force the operands to be &str.
+
+concat is to `format!()` what String::from is to `.to_string()`, in a way :)
+
+See also concat's sibling `.join(separator: &str)`.
+
+https://users.rust-lang.org/t/what-is-right-ways-to-concat-strings/3780/14
