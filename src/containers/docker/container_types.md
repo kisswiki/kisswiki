@@ -43,3 +43,4 @@ To get rid of virtualization in the form of Hyper-V and run Windows containers o
 
 - https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/
 - http://windowsitpro.com/windows-server-2016/differences-between-windows-containers-and-hyper-v-containers-windows-server-201
+- https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10
