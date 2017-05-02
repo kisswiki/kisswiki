@@ -4,6 +4,7 @@
 docker run hello-world
 docker run -it ubuntu bash
 docker run -d -p 80:80 --name webserver nginx
+docker ps -a
 ```
 
 - https://docs.docker.com/engine/reference/run
