@@ -41,4 +41,5 @@ https://github.com/docker/for-win/issues/6#issuecomment-247826691
 
 To get rid of virtualization in the form of Hyper-V and run Windows containers on bare-metal Windows kernel, you can use Windows Server Containers available on Windows Server.
 
-https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/
+- https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/
+- http://windowsitpro.com/windows-server-2016/differences-between-windows-containers-and-hyper-v-containers-windows-server-201
