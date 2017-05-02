@@ -1,8 +1,9 @@
-
-## Linux containers
+## About Docker isolation
 
 > Docker uses the resource isolation features of the [..] kernel [..] to allow independent "containers" to run within a single [kernel] instance, avoiding the overhead of starting and maintaining virtual machines.
 > -- https://en.wikipedia.org/wiki/Docker_%28software%29
+
+## Linux containers
 
 Docker containers use host's kernel and since you cannot run linux processes on Windows kernel, Docker installs MobyLinux in Hyper-V container. MobyLinux is then a host to Docker Linux containers which share linux kernel from MobyLinux.
 
@@ -21,6 +22,12 @@ To run Windows containers and Linux continers in the same time you probably need
 To allow windows and linux containers communicate, use swarm.
 
 ## Window Server Containers
+
+Windows Server Containers (shared kernel) and Windows Hyper-V containers (lightweight Hyper-V VM per container) images are interchangeable, i.e. the same Windows Container image can be run in either mode.
+
+Docker Hub can store, and already has, both Linux and Windows container images.
+
+https://github.com/docker/for-win/issues/6#issuecomment-247826691
 
 To get rid of virtualization in the form of Hyper-V and run Windows containers on bare-metal Windows kernel, you can use Windows Server Containers available on Windows Server.
 
