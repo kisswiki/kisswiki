@@ -57,3 +57,11 @@ http://stackoverflow.com/questions/17236796/how-to-remove-old-docker-containers
 
 - https://askubuntu.com/questions/505506/how-to-get-bash-or-ssh-into-a-running-container-in-background-mode
 - https://docs.docker.com/engine/reference/commandline/exec/
+
+## inspect
+
+```shell
+docker inspect -f "{{ .NetworkSettings.Networks }}" musicstore_web_1
+docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" musicstore_web_1
+docker inspect -f "{{ .NetworkSettings.Networks.bridge.IPAddress }}" musicstore_web_1
+```
