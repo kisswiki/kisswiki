@@ -7,6 +7,10 @@
 
 Docker containers use host's kernel and since you cannot run linux processes on Windows kernel, Docker installs MobyLinux in Hyper-V container. MobyLinux is then a host to Docker Linux containers which share linux kernel from MobyLinux.
 
+Docker for Windows is set to Linux containers by default. It is just starting up a Linux VM using HyperV, running the Docker daemon in that VM, and handling any of the hoops you'd normally have to jump through in order to connect your local Docker client to that daemon and not one VM per container.
+
+https://github.com/docker/for-win/issues/6#issuecomment-247836101
+
 ## Windows containers
 
 When you click "Switch to Windows containers" you should be able to run Windows containers.
