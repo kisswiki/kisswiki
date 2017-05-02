@@ -1,4 +1,4 @@
-## quickstart
+## run
 
 ```
 docker run hello-world
@@ -6,7 +6,12 @@ docker run -it ubuntu bash
 docker run -d -p 80:80 --name webserver nginx
 ```
 
+- https://docs.docker.com/engine/reference/run
 - https://docs.docker.com/docker-for-windows
+
+## run and remove container after exiting
+
+`docker run --rm hello-world`
 
 ## ps
 
