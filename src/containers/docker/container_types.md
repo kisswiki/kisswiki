@@ -3,6 +3,12 @@
 > Docker uses the resource isolation features of the [..] kernel [..] to allow independent "containers" to run within a single [kernel] instance, avoiding the overhead of starting and maintaining virtual machines.
 > -- https://en.wikipedia.org/wiki/Docker_%28software%29
 
+## 
+
+Windows container images can be run on two different types of Container engines, either as native Windows Server containers (where they run on the same kernel as the host, shared kernel) or as Windows Hyper-V containers, which utilises a lightweight windows VM on top of Hyper-V to execute the container. Note, the latter VM is a different VM to the Linux VM, Docker for Windows uses to run Linux container.
+
+https://github.com/docker/for-win/issues/6#issuecomment-247837186
+
 ## Linux containers
 
 Docker containers use host's kernel and since you cannot run linux processes on Windows kernel, Docker installs MobyLinux in Hyper-V container. MobyLinux is then a host to Docker Linux containers which share linux kernel from MobyLinux.
