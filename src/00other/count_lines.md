@@ -1,0 +1,2 @@
+- much faster than cloc, written in Rust https://github.com/Aaronepower/tokei
+- https://github.com/AlDanial/cloc
