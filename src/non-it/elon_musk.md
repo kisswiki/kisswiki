@@ -1,5 +1,6 @@
 - http://fundersandfounders.com/how-elon-musk-started/
 - Elon Musk Interview 2017 | TEDTalk https://youtu.be/hpDHwfXbpfg
+- http://forsal.pl/biznes/aktualnosci/artykuly/1038856,na-czym-polega-fenomen-muska-jak-wyjasnic-geniusz-muska.html
 
 ## Jim Cantrell
 
