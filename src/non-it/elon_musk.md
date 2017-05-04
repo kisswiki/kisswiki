@@ -1,4 +1,5 @@
 - http://fundersandfounders.com/how-elon-musk-started/
+- Elon Musk Interview 2017 | TEDTalk https://youtu.be/hpDHwfXbpfg
 
 ## Jim Cantrell
 
