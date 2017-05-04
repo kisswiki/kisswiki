@@ -1,3 +1,4 @@
+- http://www.menshealth.pl/seks/25-zasad-podrywu-w-klubie,3839,3
 - http://www.businessinsider.com/mathematical-secret-to-lasting-relationships-2015-6
 - http://www.businessinsider.com/formula-predicts-success-of-marriages-2012-12
 - http://repozytorium.ceon.pl/bitstream/handle/123456789/2674/Dlaczego%20Ciebie%20lubi%C4%99%20Bo%20si%C4%99%20koordynujemy.pdf
