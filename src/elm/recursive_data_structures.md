@@ -6,3 +6,19 @@
 - https://github.com/richardhaven/elm-example-recursive-type
 - "To avoid circular dependencies, I find myself putting type declarations in one file" https://groups.google.com/forum/#!msg/elm-discuss/QYw7yR2iVu0/1oSUMTJ2EwAJ
 - http://stackoverflow.com/questions/39857251/does-elm-allow-circular-references
+
+##
+
+Representing cyclic graphs in @elmlang
+
+```elm
+type alias Graph a =
+  Dict Int (Node a)
+
+type alias Node a =
+  { edges : List Int
+  , info : a
+  }
+```
+
+https://twitter.com/czaplic/status/859835338981687296
