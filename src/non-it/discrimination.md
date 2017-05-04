@@ -1,3 +1,4 @@
 - http://jpetazzo.github.io/2015/09/15/i-am-a-feminist-but/
 - http://jpetazzo.github.io/2017/01/15/yes-all-men/
   - https://newrepublic.com/article/119239/transgender-people-can-explain-why-women-dont-advance-work
+  - https://www.toptal.com/open-source/is-open-source-open-to-women
