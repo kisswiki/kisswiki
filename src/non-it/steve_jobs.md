@@ -1,0 +1,1 @@
+- Steve Jobs Insult Response https://youtu.be/FF-tKLISfPE
