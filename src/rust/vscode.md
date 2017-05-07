@@ -27,3 +27,9 @@ http://asquera.de/blog/2017-03-03/setting-up-a-rust-devenv/
 ## Rust Language Server (rls)
 
 read `rls.md`
+
+## Run cargo build
+
+>I will wait until the switch is final to provide support for whenActive
+
+https://github.com/Microsoft/vscode/issues/6578#issuecomment-274607108
