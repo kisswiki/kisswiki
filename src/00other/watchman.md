@@ -1,5 +1,6 @@
 - https://facebook.github.io/watchman/
 - https://facebook.github.io/watchman/docs/cli-options.html
+- http://stackoverflow.com/questions/38451764/how-to-install-watchman-on-windows-win10
 
 ## quick start
 
