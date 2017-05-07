@@ -1,4 +1,4 @@
-follow the instructions on https://github.com/rust-lang-nursery/rls
+- follow the instructions on https://github.com/rust-lang-nursery/rls
 
 ## vscode setting window.openFoldersInNewWindow can't be on
 
