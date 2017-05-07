@@ -1,3 +1,3 @@
 - https://doc.rust-lang.org/std/vec/struct.Vec.html
 - https://doc.rust-lang.org/book/vectors.html
-- http://stackoverflow.com/questions/30026893/using-map-with-vectors
+- Rust likes to be more general than that; mapping is done over iterators, rather than over solely vectors or slices. http://stackoverflow.com/questions/30026893/using-map-with-vectors
