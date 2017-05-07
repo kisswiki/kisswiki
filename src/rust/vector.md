@@ -1,2 +1,3 @@
 - https://doc.rust-lang.org/std/vec/struct.Vec.html
 - https://doc.rust-lang.org/book/vectors.html
+- http://stackoverflow.com/questions/30026893/using-map-with-vectors
