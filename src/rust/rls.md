@@ -2,6 +2,12 @@ Follow the instructions on https://github.com/rust-lang-nursery/rls
 
 If it works you can install the extension permanently to vscode so you don't have to start vscode in debug mode https://github.com/jonathandturner/rls_vscode
 
+Instead of using vsce to build package you can symlink it:
+
+`ln -s ${HOME}/git/rust/rls_vscode/ ${HOME}/.vscode/extensions/rls_vscode`
+
+http://asquera.de/blog/2017-03-03/setting-up-a-rust-devenv/
+
 ## vscode setting window.openFoldersInNewWindow can't be on
 
 https://github.com/rust-lang-nursery/rls/pull/296
