@@ -14,3 +14,11 @@ https://www.reddit.com/r/rust/comments/66ijih/announcing_serde_100_zerocopy_dese
 
 13:20	oli_obk_	rofrol: you can't. The rename is parsed as part of the `derive(Serialize)`
 13:20	oli_obk_	so it needs to be within the enum/struct
+
+## decode json
+
+```rust
+serde_json::from_str(data)?;
+```
+
+https://github.com/serde-rs/json
