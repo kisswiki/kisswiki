@@ -1,0 +1,1 @@
+- vscode setting window.openFoldersInNewWindow can't be on https://github.com/rust-lang-nursery/rls/pull/296
