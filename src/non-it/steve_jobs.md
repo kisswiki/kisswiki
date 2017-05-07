@@ -1,1 +1,2 @@
 - Steve Jobs Insult Response https://youtu.be/FF-tKLISfPE
+- Steve Jobs How to Start a Business https://youtu.be/toVTP-vcsk8
