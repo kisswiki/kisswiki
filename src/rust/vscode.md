@@ -19,3 +19,7 @@ After installing that click at the bottom of vscode "Additional...". It will run
 "editor.formatOnSave": true,
 
 https://github.com/editor-rs/vscode-rust/blob/master/doc/legacy_mode/rustfmt_configuration.md
+
+## Debug
+
+http://asquera.de/blog/2017-03-03/setting-up-a-rust-devenv/
