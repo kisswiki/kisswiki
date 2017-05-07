@@ -24,6 +24,6 @@ https://github.com/editor-rs/vscode-rust/blob/master/doc/legacy_mode/rustfmt_con
 
 http://asquera.de/blog/2017-03-03/setting-up-a-rust-devenv/
 
-## Rls
+## Rust Language Server (rls)
 
 read `rls.md`
