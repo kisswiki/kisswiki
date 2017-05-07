@@ -11,3 +11,7 @@ let person = Person::new(name.as_ref());
 ```
 
 http://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-or-str.html
+
+##
+
+http://stackoverflow.com/questions/26536871/convert-a-string-of-numbers-to-an-array-vector-of-ints-in-rust
