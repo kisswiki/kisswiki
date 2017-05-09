@@ -1,0 +1,1 @@
+- Mechanika kwantowa i upadek starej fizyki | Andrzej Dragan | TEDxPoznan https://youtu.be/QpLdw1IC-Q0
