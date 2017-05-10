@@ -111,3 +111,18 @@ onlyMatchesHello =
 ```
 
 https://groups.google.com/forum/#!msg/elm-discuss/p3lCDdmeAXM/liXIdzzlCwAJ
+
+## maybe list to empty list
+
+I have this:
+
+`maybe (field "users" (list Share.Model.decodeUser))`
+ 
+in my decoder
+
+@ilias:
+
+you have a couple of options:
+- json.decode.pipeline has `optionalField`, but if you're not using pipeline, it might be overkill to pull that in
+- you could `map (Maybe.withDefault []) <| maybe (field "users" (list Share.Model.decodeUser))`
+- you could `oneOf [field "users" (list Share.Model.decodeUser), succeed []]` to say "either successfully run that decoder, or succeed with an empty list"
