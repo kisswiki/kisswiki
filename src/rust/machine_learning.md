@@ -10,3 +10,5 @@ We’ve just launched a new course on Tensorflow: Creative Applications of Deep 
 Unlike other courses, this is an application-led course, teaching you fundamentals of Tensorflow as well as state-of-the-art algorithms by encouraging exploration through the development of creative thinking and creative applications of deep neural networks.
 
 https://www.quora.com/Are-there-video-tutorials-to-learn-Tensorflow/answer/Parag-K-Mital
+
+https://github.com/pkmital/cadl
