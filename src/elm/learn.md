@@ -169,6 +169,7 @@
 - https://auth0.com/blog/creating-your-first-elm-app-part-2
 - https://dev.to/dnimmo/i-was-wrong-to-dismiss-elm-and-i-think-you-probably-aretoo
 - https://www.amazon.com/Programming-Language-Explorations-Ray-Toal/dp/149873846X
+  - https://github.com/rtoal/ple/tree/master/elm
 
 ## podcasts
 
