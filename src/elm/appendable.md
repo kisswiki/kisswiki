@@ -1,1 +1,2 @@
-go to ad-hoc_polymorphism_or_typeclasses.md
+- http://package.elm-lang.org/packages/elm-lang/core/5.1.1/Basics#++
+- go to ad-hoc_polymorphism_or_typeclasses.md
