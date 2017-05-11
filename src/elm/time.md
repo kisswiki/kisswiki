@@ -1,4 +1,6 @@
 - http://elm-lang.org/examples/time
+- simple example I've created https://ellie-app.com/39kwkcNPF49a1/0
+- http://stackoverflow.com/questions/40599512/how-to-achieve-behavior-of-settimeout-in-elm
 
 ## Current time
 
