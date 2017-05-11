@@ -15,6 +15,7 @@ https://www.reddit.com/r/MachineLearning/comments/4qk4mu/working_with_a_new_fram
 - https://github.com/soumith/convnet-benchmarks
 - https://github.com/deeplearning4j/dl4j-benchmark
 - https://deeplearning4j.org/compare-dl4j-torch7-pylearn.html
+- https://github.com/glample/rnn-benchmarks
 - https://github.com/jasonbaldridge/try-tf
 
 ## Video Course
