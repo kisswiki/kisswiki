@@ -12,6 +12,11 @@ Deep mind transitioned from torch to tensorflow. I was hesitant when I found out
 
 https://www.reddit.com/r/MachineLearning/comments/4qk4mu/working_with_a_new_framework_torch_or_tensorflow/
 
+- https://github.com/soumith/convnet-benchmarks
+- https://github.com/deeplearning4j/dl4j-benchmark
+- https://deeplearning4j.org/compare-dl4j-torch7-pylearn.html
+- https://github.com/jasonbaldridge/try-tf
+
 ## Video Course
 
 We’ve just launched a new course on Tensorflow: Creative Applications of Deep Learning with TensorFlow | Kadenze https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info
