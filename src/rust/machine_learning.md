@@ -3,6 +3,15 @@
 - https://weld-project.github.io/
 - https://www.reddit.com/r/rust/comments/4m9x1f/is_rust_suitable_for_machine_learning/
 
+## Tensorflow vs Torch
+
+I'd go tensorflow for the following reasons:
+You don't have to learn a language just for this use case.
+Python is being used by many others, like OpenAI. You can use OpenAI Gym with python/tensorflow - not sure what the torch interoperability is like.
+Deep mind transitioned from torch to tensorflow. I was hesitant when I found out they were using torch after the release of tf, but they've since begun migration. I don't have time to do a thorough analysis of every framework, so going with frameworks used by people who do do the thorough analysis is much easier. I'm obviously not in exactly the same boat as the peeps from deep mind (and likely neither are you) but I think it's worth considering none-the-less.
+
+https://www.reddit.com/r/MachineLearning/comments/4qk4mu/working_with_a_new_framework_torch_or_tensorflow/
+
 ## Video Course
 
 We’ve just launched a new course on Tensorflow: Creative Applications of Deep Learning with TensorFlow | Kadenze https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info
