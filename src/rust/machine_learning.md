@@ -12,6 +12,10 @@ Deep mind transitioned from torch to tensorflow. I was hesitant when I found out
 
 https://www.reddit.com/r/MachineLearning/comments/4qk4mu/working_with_a_new_framework_torch_or_tensorflow/
 
+As far I understood it, Facebook put lots of research into optimizing a certain type of neural network (CNN), while everyone else is using another type called RNN. Up until now, CNN was faster but less accurate. However FB has progressed CNN to the point where it can compete in accuracy, particularly in speech recognition. And most importantly, they are releasing the source code and papers. Does that sound right?
+
+https://news.ycombinator.com/item?id=14302583
+
 - The Unreasonable Popularity of TensorFlow http://deliprao.com/archives/168
 - https://github.com/soumith/convnet-benchmarks
 - https://github.com/deeplearning4j/dl4j-benchmark
