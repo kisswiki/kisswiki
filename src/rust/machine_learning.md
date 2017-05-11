@@ -12,6 +12,7 @@ Deep mind transitioned from torch to tensorflow. I was hesitant when I found out
 
 https://www.reddit.com/r/MachineLearning/comments/4qk4mu/working_with_a_new_framework_torch_or_tensorflow/
 
+- The Unreasonable Popularity of TensorFlow http://deliprao.com/archives/168
 - https://github.com/soumith/convnet-benchmarks
 - https://github.com/deeplearning4j/dl4j-benchmark
 - https://deeplearning4j.org/compare-dl4j-torch7-pylearn.html
