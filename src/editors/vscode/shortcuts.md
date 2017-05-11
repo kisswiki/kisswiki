@@ -1,4 +1,5 @@
 - hide left panel `ctrl+b`
+- zen mode `ctrk+k z`
 
 ## Join lines
 
