@@ -17,6 +17,11 @@
 - https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji
 - https://chrome.google.com/webstore/detail/wastenotime/enebomhlllfaccbelnjhfgblnalofhch
 
+
+Morphine is my favorite and the one that worked best for me.  Rather than blocking all access to websites when your time runs out for the day, you get minutes added to your allowance every X minutes and you can even save them up for later if you want (I give myself 3 minutes of time on distracting websites every 10 minutes).
+
+https://www.quora.com/Is-there-a-LeechBlock-equivalent-I-can-use-on-Chrome
+
 ## Turn off internet on Mac/Unix
 
 - https://github.com/evancz/airplane-mode
