@@ -25,7 +25,8 @@
 
 The basic issue of procrastination is viewed in the article as a formula:
 
-Motivation = (Expectancy x Value) / (Impulsiveness x Delay)
+`Motivation = (Expectancy x Value) / (Impulsiveness x Delay)`
+
 Thus, one has four methods of attack for procrastination (increase the two in the numerator, decrease the two in the denominator):
 
 - Increase the expectancy that you will succeed. Many procrastinate because they don't think, they will achieve success as an outcome.
@@ -33,4 +34,5 @@ Thus, one has four methods of attack for procrastination (increase the two in th
 - Reduce impulsiveness. Making plans, putting things like StayFocused or LeechBlock into place, having accountability confidants, etc., will help.
 - Reduce delay. The longer you put off something you should do, the easier it becomes to keep putting it off.
 
-http://lesswrong.com/lw/3w3/how_to_beat_procrastination/
+- https://productivity.stackexchange.com/questions/20/what-can-i-do-to-fight-procrastination/47#47
+- http://lesswrong.com/lw/3w3/how_to_beat_procrastination/
