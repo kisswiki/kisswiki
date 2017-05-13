@@ -66,6 +66,26 @@ Thus, one has four methods of attack for procrastination (increase the two in th
 - make sure tasks are connected to something you care about for its own sake,22 at least through a chain: you read the book so you can pass the test so you can get the grade so you can get the job you want and have a fulfilling career. Breaking the chain leaves a task feeling meaningless.
 
 
+#### Energy
+
+Most people have the most energy during a period starting a few hours after they wake up and lasting 4 hours.25 Also, make sure to get enough sleep and exercise regularly.
+
+Other things that have worked for many people are:
+
+- Drink lots of water.
+- Stop eating anything that contains wheat and other grains.
+- Use drugs (especially modafinil) as necessary.
+- Do short but intense exercise once a week.
+- When tired, splash cold water on your face or take a shower or do jumping jacks or go running.
+- Listen to music that picks up your mood.
+- De-clutter your life, because clutter is cognitively exhausting for your brain to process all day long.
+
+#### Rewards
+
+One obvious way to inject more value into a task is to reward yourself for completing it.27
+
+Also, mix bitter medicine with sweet honey. Pair a long-term interest with a short-term pleasure.28 Find a workout partner whose company you enjoy. Treat yourself to a specialty coffee when doing your taxes. I bribe myself with Pinkberry frozen yogurt to do things I hate doing.
+
 - https://productivity.stackexchange.com/questions/20/what-can-i-do-to-fight-procrastination/47#47
 - http://lesswrong.com/lw/3w3/how_to_beat_procrastination/
 - http://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703613
