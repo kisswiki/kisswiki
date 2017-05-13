@@ -53,6 +53,15 @@ Thus, one has four methods of attack for procrastination (increase the two in th
 - Reduce impulsiveness. Making plans, putting things like StayFocused or LeechBlock into place, having accountability confidants, etc., will help.
 - Reduce delay. The longer you put off something you should do, the easier it becomes to keep putting it off.
 
+### Increasing Expectancy
+
+- have process or learning goals rather than product or outcome goals. That is, the goals are acquiring or refining new skills or steps (the process) rather than winning or getting the highest score (the product)
+- community groups that are great for fostering positivity, watching inspirational movies, reading inspirational biographies, and listening to motivational speakers
+- regularly and vividly imagining what you want to achieve and then mentally contrast that with where you are now. This presents your current situation as an obstacle to be overcome to achieve your dreams, and jumpstarts planning and effort.
+- too much optimism about how long a task will take may cause you to put it off until the last minute
+
+### Increasing Value
+
 - https://productivity.stackexchange.com/questions/20/what-can-i-do-to-fight-procrastination/47#47
 - http://lesswrong.com/lw/3w3/how_to_beat_procrastination/
 - http://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703613
