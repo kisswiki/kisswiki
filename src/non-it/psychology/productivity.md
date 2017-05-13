@@ -62,6 +62,10 @@ Thus, one has four methods of attack for procrastination (increase the two in th
 
 ### Increasing Value
 
+- If the task you're avoiding is boring, try to make it more difficult, right up to the point where the difficulty level matches your current skill, and you achieve "flow."21 This is what the state troopers of Super Troopers did: they devised strange games and challenges to make their boring job passable.
+- make sure tasks are connected to something you care about for its own sake,22 at least through a chain: you read the book so you can pass the test so you can get the grade so you can get the job you want and have a fulfilling career. Breaking the chain leaves a task feeling meaningless.
+
+
 - https://productivity.stackexchange.com/questions/20/what-can-i-do-to-fight-procrastination/47#47
 - http://lesswrong.com/lw/3w3/how_to_beat_procrastination/
 - http://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703613
