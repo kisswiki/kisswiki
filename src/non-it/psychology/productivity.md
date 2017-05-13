@@ -55,3 +55,4 @@ Thus, one has four methods of attack for procrastination (increase the two in th
 
 - https://productivity.stackexchange.com/questions/20/what-can-i-do-to-fight-procrastination/47#47
 - http://lesswrong.com/lw/3w3/how_to_beat_procrastination/
+- http://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703613
