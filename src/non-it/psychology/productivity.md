@@ -21,7 +21,7 @@ and put this line
 
 `. C:\installed\Internet-Connection.ps1`
 
-Restart Powershell
+Restart shell.
 
 - powershell script http://stackoverflow.com/questions/37146639/reliably-disabling-internet-access-on-windows-7-and-up/43942464#43942464
 - https://gist.github.com/akaleeroy/5f7f2024b03e85e0f27a063357ada711
