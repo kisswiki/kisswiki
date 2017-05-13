@@ -9,8 +9,22 @@
 
 - http://crystalrich.com/internetoff/
 - http://www.focalfilter.com/
+
+
+## Powershell to turn off internet on Windows (doesn't work)
+
+In powershell:
+
+`notepad $profile`
+
+and put this line
+
+`. C:\installed\Internet-Connection.ps1`
+
+Restart Powershell
+
 - powershell script http://stackoverflow.com/questions/37146639/reliably-disabling-internet-access-on-windows-7-and-up/43942464#43942464
-  - https://gist.github.com/akaleeroy/5f7f2024b03e85e0f27a063357ada711
+- https://gist.github.com/akaleeroy/5f7f2024b03e85e0f27a063357ada711
 
 ## Turn off internet on Chrome
 
