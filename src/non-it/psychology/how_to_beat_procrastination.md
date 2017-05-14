@@ -1,17 +1,18 @@
 http://lesswrong.com/lw/3w3/how_to_beat_procrastination/
 
-How to Beat Procrastination
+# How to Beat Procrastination
 
 156 lukeprog 05 February 2011 06:49PM
-Part of the sequence: The Science of Winning at Life
 
- 
+Part of the sequence: [The Science of Winning at Life](http://wiki.lesswrong.com/wiki/The_Science_of_Winning_at_Life)
 
-My own behavior baffles me. I find myself doing what I hate, and not doing what I really want to do!
 
-- Saint Paul (Romans 7:15)
+> My own behavior baffles me. I find myself doing what I hate, and not doing what I really want to do!
+>
+>- Saint Paul (Romans 7:15)
 
-Once you're trained in BayesCraft, it may be tempting to tackle classic problems "from scratch" with your new Rationality Powers. But often, it's more effective to do a bit of scholarship first and at least start from the state of our scientific knowledge on the subject.
+
+Once you're trained in [BayesCraft](http://commonsenseatheism.com/?p=12147), it may be tempting to tackle classic problems "from scratch" with your new Rationality Powers. But often, it's more effective to [do a bit of scholarship](http://lesswrong.com/lw/3m3/the_neglected_virtue_of_scholarship/) first and at least start from [the state of our scientific knowledge](http://lesswrong.com/lw/3nn/scientific_selfhelp_the_state_of_our_knowledge/) on the subject.
 
 Today, I want to tackle procrastination by summarizing what we know about it, and how to overcome it.
 
@@ -25,21 +26,20 @@ In the next apartment down, Tom is ahead of the game. He got his visa, bought hi
 
 Eddie, Valerie, and Tom are all procrastinators, but in different ways.1
 
-Eddie's problem is low expectancy. By now, he expects only failure. Eddie has low expectancy of success from making his next round of cold calls. Results from 39 procrastination studies show that low expectancy is a major cause of procrastination.2 You doubt your ability to follow through with the diet. You don't expect to get the job. You really should be going out and meeting girls and learning to flirt better, but you expect only rejection now, so you procrastinate. You have learned to be helpless.
+Eddie's problem is low expectancy. By now, he expects only failure. Eddie has low expectancy of success from making his next round of cold calls. Results from 39 procrastination studies show that low expectancy is a major cause of procrastination.2 You doubt your ability to follow through with the diet. You don't expect to get the job. You really should be going out and meeting girls and learning to flirt better, but you expect only rejection now, so you procrastinate. You have [learned to be helpless](http://en.wikipedia.org/wiki/Learned_helplessness).
 
 Valerie's problem is that her task has low value for her. We all put off what we dislike.3 It's easy to meet up with your friends for drinks or start playing a videogame; not so easy to start doing your taxes. This point may be obvious, but it's nice to see it confirmed in over a dozen scientific studies. We put off things we don't like to do.
 
 But the strongest predictor of procrastination is Tom's problem: impulsiveness. It would have been easy for Tom to book the hotel in advance, but he kept getting distracted by more urgent or interesting things, and didn't remember to book the hotel until the last minute, which left him with a poor selection of rooms. Dozens of studies have shown that procrastination is closely tied to impulsiveness.4
 
-Impulsiveness fits into a broader component of procrastination: time. An event's impact on our decisions decreases as its temporal distance from us increases.5 We are less motivated by delayed rewards than by immediate rewards, and the more impulsive you are, the more your motivation is affected by such delays.
+Impulsiveness fits into a broader component of procrastination: time. An event's impact on our decisions decreases as its temporal distance from us increases.5 We are less motivated by [delayed rewards](http://lesswrong.com/lw/6c/akrasia_hyperbolic_discounting_and_picoeconomics/) than by immediate rewards, and the more impulsive you are, the more your motivation is affected by such delays.
 
 Expectancy, value, delay, and impulsiveness are the four major components of procrastination. Piers Steel, a leading researcher on procrastination, explains:
 
-Decrease the certainty or the size of a task's reward - its expectancy or its value - and you are unlikely to pursue its completion with any vigor. Increase the delay for the task's reward and our susceptibility to delay - impulsiveness - and motivation also dips.
+>Decrease the certainty or the size of a task's reward - its expectancy or its value - and you are unlikely to pursue its completion with any vigor. Increase the delay for the task's reward and our susceptibility to delay - impulsiveness - and motivation also dips.
 
- 
 
-The Procrastination Equation
+## The Procrastination Equation
 
 This leaves us with "the procrastination equation":
 
@@ -55,38 +55,35 @@ You might have noticed that this part of the equation is one of the basic equati
 
 Hence the denominator, which covers the effect of time on our motivation to do a task. The longer the delay before we reap a task's reward, the less motivated we are to do it. And the negative effect of this delay on our motivation is amplified by our level of impulsiveness. For highly impulsive people, delays do even greater damage to their motivation.
 
- 
 
-The Procrastination Equation in Action
+## The Procrastination Equation in Action
 
 As an example, consider the college student who must write a term paper.7 Unfortunately for her, colleges have created a perfect storm of procrastination components. First, though the value of the paper for her grades may be high, the more immediate value is very low, assuming she dreads writing papers as much as most college students do.8 Moreover, her expectancy is probably low. Measuring performance is hard, and any essay re-marked by another professor may get a very different grade: a B+ essay will get an A+ if she's lucky, or a C+ if she's unlucky.9 There is also a large delay, since the paper is due at the end of the semester. If our college student has an impulsive personality, the negative effect of this delay on her motivation to write the paper is greatly amplified. Writing a term paper is grueling (low value), the results are uncertain (low expectancy), and the deadline is far away (high delay).
 
 But there's more. College dorms, and college campuses in general, might be the most distracting places on earth. There are always pleasures to be had (campus clubs, parties, relationships, games, events, alcohol) that are reliable, immediate, and intense. No wonder that the task of writing a term paper can't compete. These potent distractions amplify the negative effect of the delay in the task's reward and the negative effect of the student's level of impulsiveness. 
 
  
-
-How to Beat Procrastination
+## How to Beat Procrastination
 
 Although much is known about the neurobiology behind procrastination, I won't cover that subject here.10 Instead, let's jump right to the solutions to our procrastination problem.
 
 Once you know the procrastination equation, our general strategy is obvious. Since there is usually little you can do about the delay of a task's reward, we'll focus on the three terms of the procrastination equation over which we have some control. To beat procrastination, we need to:
 
-Increase your expectancy of success.
-Increase the task's value (make it more pleasant and rewarding).
-Decrease your impulsiveness.
+1. Increase your expectancy of success.
+2. Increase the task's value (make it more pleasant and rewarding).
+3. Decrease your impulsiveness.
+
 You might think these things are out of your control, but researchers have found several useful methods for achieving each of them.
 
-Most of the advice below is taken from the best book on procrastination available, Piers Steel's The Procrastination Equation, which explains these methods and others in more detail.
+Most of the advice below is taken from the best book on procrastination available, Piers Steel's [The Procrastination Equation](http://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703613/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0131103628&linkCode=as2&tag=lesswrong-20), which explains these methods and others in more detail.
 
- 
 
-Optimizing Optimism
+## Optimizing Optimism
 
 If you don't think you can succeed, you'll have little motivation to do the task that needs doing. You've probably heard the advice to "Be positive!" But how? So far, researchers have identified three major techniques for increasing optimism: Success Spirals, Vicarious Victory, and Mental Contrasting.
 
- 
 
-Success Spirals
+### Success Spirals
 
 One way to build your optimism for success is to make use of success spirals.11 When you achieve one challenging goal after another, your obviously gain confidence in your ability to succeed. So: give yourself a series of meaningful, challenging but achievable goals, and then achieve them! Set yourself up for success by doing things you know you can succeed at, again and again, to keep your confidence high.
 
@@ -94,59 +91,44 @@ Steel recommends that for starters, "it is often best to have process or learnin
 
 Wilderness classes and adventure education (rafting, rock-climbing, camping, etc.) are excellent for this kind of thing.13 Learn a new skill, be it cooking or karate. Volunteer for more responsibilities at work or in your community. Push a favorite hobby to the next level. The key is to achieve one goal after another and pay attention to your successes.14 Your brain will reward you with increased expectancy for success, and therefore a better ability to beat procrastination.
 
- 
 
-Vicarious Victory
+### Vicarious Victory
 
 Pessimism and optimism are both contagious.15 Wherever you are, you probably have access to community groups that are great for fostering positivity: Toastmasters, Rotary, Elks, Shriners, and other local groups. I recommend you visit 5-10 such groups in your area and join the best one.
 
 You can also boost your optimism by watching inspirational movies, reading inspirational biographies, and listening to motivational speakers.
 
- 
 
-Mental Contrasting
+### Mental Contrasting
 
 Many popular self-help books encourage creative visualization, the practice of regularly and vividly imagining what you want to achieve: a car, a career, an achievement. Surprisingly, research shows this method can actually drain your motivation.16
 
 Unless, that is, you add a second crucial step: mental contrasting. After imagining what you want to achieve, mentally contrast that with where you are now. Visualize your old, rusty car and your small paycheck. This presents your current situation as an obstacle to be overcome to achieve your dreams, and jumpstarts planning and effort.17
 
- 
 
-Guarding Against Too Much Optimism
+### Guarding Against Too Much Optimism
 
 Finally, I should note that too much optimism can also be a problem,18 though this is less common. For example, too much optimism about how long a task will take may cause you to put it off until the last minute, which turns out to be too late. Something like Rhonda Byrne's The Secret may be too optimistic.
 
 How can you guard against too much optimism? Plan for the worst but hope for the best.19 Pay attention to how you procrastinate, make backup plans for failure, but then use the methods in this article to succeed as much as possible.
 
  
-
- 
-
-Increasing Value
-
- 
+## Increasing Value
 
 It's hard to be motivated to do something that doesn't have much value to us - or worse, is downright unpleasant. The good news is that value is to some degree constructed and relative. The malleability of value is a well-studied area called psychophysics,20 and researchers have some advice for how we can inject value into necessary tasks.
 
- 
 
- 
-
- 
-
-Flow
+### Flow
 
 If the task you're avoiding is boring, try to make it more difficult, right up to the point where the difficulty level matches your current skill, and you achieve "flow."21 This is what the state troopers of Super Troopers did: they devised strange games and challenges to make their boring job passable. Myrtle Young made her boring job at a potato chip factory more interesting and challenging by looking for potato chips that resembled celebrities and pulling them off the conveyor belts.
 
- 
 
-Meaning
+### Meaning
 
 It also helps to make sure tasks are connected to something you care about for its own sake,22 at least through a chain: you read the book so you can pass the test so you can get the grade so you can get the job you want and have a fulfilling career. Breaking the chain leaves a task feeling meaningless.
 
- 
 
-Energy
+### Energy
 
 Obviously, tasks are harder when you don't have much energy.23 Tackle tasks when you are most alert. This depends on your circadian rhythm,24 but most people have the most energy during a period starting a few hours after they wake up and lasting 4 hours.25 Also, make sure to get enough sleep and exercise regularly.26
 
@@ -161,28 +143,24 @@ Listen to music that picks up your mood.
 De-clutter your life, because clutter is cognitively exhausting for your brain to process all day long.
  
 
-Rewards
+### Rewards
 
 One obvious way to inject more value into a task is to reward yourself for completing it.27
 
 Also, mix bitter medicine with sweet honey. Pair a long-term interest with a short-term pleasure.28 Find a workout partner whose company you enjoy. Treat yourself to a specialty coffee when doing your taxes. I bribe myself with Pinkberry frozen yogurt to do things I hate doing.
 
- 
 
-Passion
+### Passion
 
 Of course, the most powerful way to increase the value of a task is to focus on doing what you love wherever possible. It doesn't take much extra motivation for me to research meta-ethics or write summaries of scientific self-help: that is what I love to do. Some people who love playing video games have made careers out of it. To figure out which career might be full of tasks that you love to do, taking a RIASEC personality test might help. In the USA, O*NET can help you find jobs that are in-demand and fit your personality.
 
- 
 
-
-Handling Impulsiveness
+## Handling Impulsiveness
 
 Impulsiveness is, on average, the biggest factor in procrastination. Here are two of Steel's (2010a) methods for dealing with impulsiveness.
 
- 
 
-Commit Now
+### Commit Now
 
 Ulysses did not make it past the beautiful singing Sirens with willpower. Rather, he knew his weaknesses and so he committed in advance to sail past them: he literally tied himself to his ship's mast. Several forms of precommitment are useful in handling impulsiveness.29
 
@@ -190,9 +168,8 @@ One method is to "throw away the key": Close off tempting alternatives. Many peo
 
 Another method is to make failure really painful. The website stickK lets you set aside money you will lose if you don't meet your goal, and ensures that you have an outside referee to decide whether your met your goal or not. To "up the ante," set things up so that your money will go to an organization you hate if you fail. And have your chosen referee agree to post the details of your donation to Facebook if you don't meet your goal.
 
- 
 
-Set Goals
+### Set Goals
 
 Hundreds of books stress SMART goals: goals that are Specific, Measurable, Attainable, Realistic, and Time-Anchored.30 Is this recommendation backed by good research? Not quite. First, notice that Attainable is redundant with Realistic, and Specific is Redundant with Measurable and Time-Anchored. Second, important concepts are missing. Above, we emphasized the importance of goals that are challenging (and thus, lead to "flow") and meaningful (connected to things you desire for their own sake).
 
@@ -202,9 +179,8 @@ Also: Are your goals measuring inputs or outputs? Is your goal to spend 30 minut
 
 Because we are creatures of habit, it helps to get into a routine.32 For example: Exercise at the same time, every day.
 
- 
 
-Conclusion
+## Conclusion
 
 So there you have it. To beat procrastination, you need to increase your motivation to do each task on which you are tempted to procrastinate. To do that, you can (1) optimize your optimism for success on the task, (2) make the task more pleasant, and (3) take steps to overcome your impulsiveness. And to do each of those things, use the specific methods explained above (set goals, pre-commit, make use of success spirals, etc.).
 
