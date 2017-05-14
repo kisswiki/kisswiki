@@ -34,7 +34,7 @@ But the strongest predictor of procrastination is Tom's problem: impulsiveness. 
 
 Impulsiveness fits into a broader component of procrastination: time. An event's impact on our decisions decreases as its temporal distance from us increases.5 We are less motivated by [delayed rewards](http://lesswrong.com/lw/6c/akrasia_hyperbolic_discounting_and_picoeconomics/) than by immediate rewards, and the more impulsive you are, the more your motivation is affected by such delays.
 
-Expectancy, value, delay, and impulsiveness are the four major components of procrastination. Piers Steel, a leading researcher on procrastination, explains:
+Expectancy, value, delay, and impulsiveness are the four major components of procrastination. [Piers Steel](http://haskayne.ucalgary.ca/profiles/piers-steel), a leading researcher on procrastination, [explains](http://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703613/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0131103628&linkCode=as2&tag=lesswrong-20):
 
 >Decrease the certainty or the size of a task's reward - its expectancy or its value - and you are unlikely to pursue its completion with any vigor. Increase the delay for the task's reward and our susceptibility to delay - impulsiveness - and motivation also dips.
 
@@ -47,11 +47,11 @@ This leaves us with "the procrastination equation":
 
 the procrastination equation
 
-Though we are always learning more, the procrastination equation accounts for every major finding on procrastination, and draws upon our best current theories of motivation.6
+Though [we are always learning more](http://http-server.carleton.ca/~tpychyl/prg/research/research_complete_biblio.html), the procrastination equation accounts for every major finding on procrastination, and draws upon our best current theories of motivation.6
 
 Increase the size of a task's reward (including both the pleasantness of doing the task and the value of its after-effects), and your motivation goes up. Increase the perceived odds of getting the reward, and your motivation also goes up.
 
-You might have noticed that this part of the equation is one of the basic equations of the expected utility theory at the heart of economics. But one of the major criticisms of standard economic theory was that it did not account for time. For example, in 1991 George Akerlof pointed out that we irrationally find present costs more salient than future costs. This led to the flowering of behavioral economics, which integrates time (among other things).
+You might have noticed that this part of the equation is one of the basic equations of the [expected utility theory](http://en.wikipedia.org/wiki/Expected_utility_hypothesis) at the heart of economics. But one of the major criticisms of standard economic theory was that it did not account for time. For example, in 1991 George Akerlof [pointed out](http://commonsenseatheism.com/wp-content/uploads/2011/01/Akerlof-Procrastination-and-Obedience.pdf) that we irrationally find present costs more salient than future costs. This led to the flowering of [behavioral economics](http://en.wikipedia.org/wiki/Behavioral_economics), which integrates time (among other things).
 
 Hence the denominator, which covers the effect of time on our motivation to do a task. The longer the delay before we reap a task's reward, the less motivated we are to do it. And the negative effect of this delay on our motivation is amplified by our level of impulsiveness. For highly impulsive people, delays do even greater damage to their motivation.
 
@@ -94,9 +94,9 @@ Wilderness classes and adventure education (rafting, rock-climbing, camping, etc
 
 ### Vicarious Victory
 
-Pessimism and optimism are both contagious.15 Wherever you are, you probably have access to community groups that are great for fostering positivity: Toastmasters, Rotary, Elks, Shriners, and other local groups. I recommend you visit 5-10 such groups in your area and join the best one.
+Pessimism and optimism are both contagious.15 Wherever you are, you probably have access to community groups that are great for fostering positivity: [Toastmasters](http://www.toastmasters.org/), [Rotary](http://www.rotary.org/), [Elks](http://www.elks.org/), [Shriners](http://www.beashrinernow.com/), and other local groups. I recommend you visit 5-10 such groups in your area and join the best one.
 
-You can also boost your optimism by watching inspirational movies, reading inspirational biographies, and listening to motivational speakers.
+You can also boost your optimism by [watching inspirational movies](http://rogerebert.suntimes.com/apps/pbcs.dll/article?AID=/20060616/COMMENTARY/60616003), [reading inspirational biographies](http://www.biographyonline.net/people/inspirational/index.html), and [listening to motivational speakers](http://www.motivational-well-being.com/motivational-speakers.html).
 
 
 ### Mental Contrasting
@@ -108,7 +108,7 @@ Unless, that is, you add a second crucial step: mental contrasting. After imagin
 
 ### Guarding Against Too Much Optimism
 
-Finally, I should note that too much optimism can also be a problem,18 though this is less common. For example, too much optimism about how long a task will take may cause you to put it off until the last minute, which turns out to be too late. Something like Rhonda Byrne's The Secret may be too optimistic.
+Finally, I should note that too much optimism can also be a problem,18 though this is less common. For example, too much optimism about [how long a task will take](http://lesswrong.com/lw/jg/planning_fallacy/) may cause you to put it off until the last minute, which turns out to be too late. Something like Rhonda Byrne's [The Secret](http://www.amazon.com/Secret-Rhonda-Byrne/dp/1582701709/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0131103628&linkCode=as2&tag=lesswrong-20) may be too optimistic.
 
 How can you guard against too much optimism? Plan for the worst but hope for the best.19 Pay attention to how you procrastinate, make backup plans for failure, but then use the methods in this article to succeed as much as possible.
 
@@ -120,7 +120,7 @@ It's hard to be motivated to do something that doesn't have much value to us - o
 
 ### Flow
 
-If the task you're avoiding is boring, try to make it more difficult, right up to the point where the difficulty level matches your current skill, and you achieve "flow."21 This is what the state troopers of Super Troopers did: they devised strange games and challenges to make their boring job passable. Myrtle Young made her boring job at a potato chip factory more interesting and challenging by looking for potato chips that resembled celebrities and pulling them off the conveyor belts.
+If the task you're avoiding is boring, try to make it more difficult, right up to the point where the difficulty level matches your current skill, and you achieve "flow."21 This is what the state troopers of Super Troopers did: they devised strange games and challenges to make their boring job passable. [Myrtle Young](http://www.youtube.com/watch?v=EY3Lw_-bj5U) made her boring job at a potato chip factory more interesting and challenging by looking for potato chips that resembled celebrities and pulling them off the conveyor belts.
 
 
 ### Meaning
@@ -134,25 +134,25 @@ Obviously, tasks are harder when you don't have much energy.23 Tackle tasks when
 
 Other things that have worked for many people are:
 
-Drink lots of water.
-Stop eating anything that contains wheat and other grains.
-Use drugs (especially modafinil) as necessary.
-Do short but intense exercise once a week.
-When tired, splash cold water on your face or take a shower or do jumping jacks or go running.
-Listen to music that picks up your mood.
-De-clutter your life, because clutter is cognitively exhausting for your brain to process all day long.
+- Drink lots of water.
+- Stop eating anything that contains wheat and other grains.
+- Use drugs (especially [modafinil](http://www.gwern.net/Modafinil)) as necessary.
+- Do short but intense exercise once a week.
+- When tired, splash cold water on your face or take a shower or do jumping jacks or go running.
+- Listen to music that picks up your mood.
+- De-clutter your life, because clutter is cognitively exhausting for your brain to process all day long.
  
 
 ### Rewards
 
 One obvious way to inject more value into a task is to reward yourself for completing it.27
 
-Also, mix bitter medicine with sweet honey. Pair a long-term interest with a short-term pleasure.28 Find a workout partner whose company you enjoy. Treat yourself to a specialty coffee when doing your taxes. I bribe myself with Pinkberry frozen yogurt to do things I hate doing.
+Also, mix bitter medicine with sweet honey. Pair a long-term interest with a short-term pleasure.28 Find a workout partner whose company you enjoy. Treat yourself to a specialty coffee when doing your taxes. I bribe myself with [Pinkberry frozen yogurt](http://www.pinkberry.com/) to do things I hate doing.
 
 
 ### Passion
 
-Of course, the most powerful way to increase the value of a task is to focus on doing what you love wherever possible. It doesn't take much extra motivation for me to research meta-ethics or write summaries of scientific self-help: that is what I love to do. Some people who love playing video games have made careers out of it. To figure out which career might be full of tasks that you love to do, taking a RIASEC personality test might help. In the USA, O*NET can help you find jobs that are in-demand and fit your personality.
+Of course, the most powerful way to increase the value of a task is to focus on doing what you love wherever possible. It doesn't take much extra motivation for me to [research meta-ethics](http://lesswrong.com/lw/43v/the_urgent_metaethics_of_friendly_artificial/) or write [summaries of scientific self-help](http://lesswrong.com/lw/3nn/scientific_selfhelp_the_state_of_our_knowledge/): that is what I love to do. Some people who love playing video games have made [careers](http://en.wikipedia.org/wiki/Gold_farming) out of it. To figure out which career might be full of tasks that you love to do, taking a [RIASEC](http://www.bigjobportal.com/riasec/) personality test might help. In the USA, [O*NET](http://www.onetonline.org/) can help you find jobs that are in-demand and fit your personality.
 
 
 ## Handling Impulsiveness
@@ -162,11 +162,11 @@ Impulsiveness is, on average, the biggest factor in procrastination. Here are tw
 
 ### Commit Now
 
-Ulysses did not make it past the beautiful singing Sirens with willpower. Rather, he knew his weaknesses and so he committed in advance to sail past them: he literally tied himself to his ship's mast. Several forms of precommitment are useful in handling impulsiveness.29
+[Ulysses](http://en.wikipedia.org/wiki/Odysseus) did not make it past the beautiful singing [Sirens](http://en.wikipedia.org/wiki/Sirens) with willpower. Rather, he knew his weaknesses and so he committed in advance to sail past them: he literally tied himself to his ship's mast. Several forms of precommitment are useful in handling impulsiveness.29
 
-One method is to "throw away the key": Close off tempting alternatives. Many people see a productivity boost when they decide not to allow a TV in their home; I haven't owned one in years. But now, TV and more is available on the internet. To block that, you might need a tool like RescueTime. Or, unplug your router when you've got work to do.
+One method is to "throw away the key": Close off tempting alternatives. Many people see a productivity boost when they decide not to allow a TV in their home; I haven't owned one in years. But now, TV and more is available on the internet. To block that, you might need a tool like [RescueTime](http://www.rescuetime.com/). Or, unplug your router when you've got work to do.
 
-Another method is to make failure really painful. The website stickK lets you set aside money you will lose if you don't meet your goal, and ensures that you have an outside referee to decide whether your met your goal or not. To "up the ante," set things up so that your money will go to an organization you hate if you fail. And have your chosen referee agree to post the details of your donation to Facebook if you don't meet your goal.
+Another method is to make failure really painful. The website [stickK](http://www.stickk.com/) lets you set aside money you will lose if you don't meet your goal, and ensures that you have an outside referee to decide whether your met your goal or not. To "up the ante," set things up so that your money will go to an organization you hate if you fail. And have your chosen referee agree to post the details of your donation to Facebook if you don't meet your goal.
 
 
 ### Set Goals
@@ -186,15 +186,15 @@ So there you have it. To beat procrastination, you need to increase your motivat
 
 A warning: Don't try to be perfect. Don't try to completely eliminate procrastination. Be real. Overregulation will make you unhappy. You'll have to find a balance.
 
-But now you have the tools you need. Identify which parts of the procrastination equation need the most work in your situation, and figure out which methods for dealing with that part of the problem work best for you. Then, go out there and make yourself stronger, score that job, and help save the world!
+But now you have the tools you need. Identify which parts of the procrastination equation need the most work in your situation, and figure out which methods for dealing with that part of the problem work best for you. Then, go out there and [make yourself stronger](http://lesswrong.com/lw/h8/tsuyoku_naritai_i_want_to_become_stronger/), [score that job](http://lesswrong.com/lw/43m/optimal_employment/), and [help save the world](http://lesswrong.com/lw/373/how_to_save_the_world/)!
 
-(And, read The Procrastination Equation if you want more detail than I included here.)
+(And, read [The Procrastination Equation](http://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703613/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0131103628&linkCode=as2&tag=lesswrong-20) if you want more detail than I included here.)
 
  
 
-Next post: My Algorithm for Beating Procrastination
+Next post: [My Algorithm for Beating Procrastination](http://lesswrong.com/lw/9wr/my_algorithm_for_beating_procrastination/)
 
-Previous post: Scientific Self-Help: The State of Our Knowledge
+Previous post: [Scientific Self-Help: The State of Our Knowledge](http://lesswrong.com/lw/3nn/scientific_selfhelp_the_state_of_our_knowledge/)
 
  
 
