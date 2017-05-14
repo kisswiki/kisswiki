@@ -5,6 +5,36 @@
 - https://www.sitepoint.com/how-information-overload-is-ruining-your-work-life/
 - https://www.nytimes.com/2015/01/11/opinion/sunday/stop-checking-email-so-often.html
 
+## Morhpine Chrome Extension
+
+Domains
+
+```
+facebook.com
+phoronix.com
+reddit.com
+ycombinator.com
+wykop.pl
+thepiratebay.se
+thepiratebay.org
+electrek.co
+liveuamap.com
+messenger.com
+medium.com
+```
+
+To block tld:
+
+```
+com
+net
+io
+pl
+```
+
+- No way to block all except whitelisted? https://github.com/tkazec/morphine/issues/9
+- When you have many tabs open and you allow, it can hang your browser.
+
 ## Turn off internet on Windows
 
 - http://crystalrich.com/internetoff/
