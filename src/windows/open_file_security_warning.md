@@ -1,5 +1,5 @@
 ```cmd.exe
-move oldName.exe > newName
+move oldName.exe newName
 type newName > oldName.exe
 ```
 
