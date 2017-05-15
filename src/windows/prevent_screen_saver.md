@@ -1,0 +1,3 @@
+- https://superuser.com/questions/329758/how-can-i-prevent-a-policy-enforced-screen-lock-in-windows-7/932127#932127
+  - http://www.zhornsoftware.co.uk/caffeine/
+    - Create shortcut to `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
