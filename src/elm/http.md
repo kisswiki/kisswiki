@@ -133,3 +133,11 @@ HTTP.getString resolves to javascript readAsText whereas what you need is someth
 
 - https://github.com/elm-lang/http/issues/11
 - https://groups.google.com/forum/#!msg/elm-discuss/6F6IzGyzHmo/mn0ZQc1wBgAJ
+
+## Send x-www-form-urlencoded post
+
+```elm
+Http.post someDecoder "http://whatever" (Exts.Http.formBody [ ("foo", "bar") ])
+```
+
+http://package.elm-lang.org/packages/krisajenkins/elm-exts/latest/Exts-Http#formBody
