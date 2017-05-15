@@ -4,6 +4,7 @@
   - https://news.ycombinator.com/item?id=12320188
 - https://www.sitepoint.com/how-information-overload-is-ruining-your-work-life/
 - https://www.nytimes.com/2015/01/11/opinion/sunday/stop-checking-email-so-often.html
+- https://en.wikipedia.org/wiki/Commitment_device
 
 ## Morhpine Chrome Extension
 
