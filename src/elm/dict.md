@@ -44,4 +44,9 @@ thanks
 
 ilias [9:49 PM]
 
-note of interest: `Dict.insert key value dict = Dict.update key (always value) dict` :slightly_smiling_face:
+`Dict.insert key value dict = Dict.update key (\_ -> Just value) dict` :slightly_smiling_face: (edited)
+
+
+new messages
+[9:50] 
+(and it's actually implemented that way, iirc)
