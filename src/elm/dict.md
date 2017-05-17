@@ -10,6 +10,8 @@ https://groups.google.com/forum/#!msg/elm-discuss/Oq0yMxbpbdg/gUWmFea5AQAJ
 
 ## update
 
+https://elmlang.slackarchive.io/beginners/page-100/ts-1495049991573640
+
 nwjlyons [9:39 PM]
 
 Hi, I'm confused about
@@ -43,5 +45,3 @@ thanks
 ilias [9:49 PM]
 
 note of interest: `Dict.insert key value dict = Dict.update key (always value) dict` :slightly_smiling_face:
-
-https://elmlang.slackarchive.io/beginners/page-100/ts-1495049991573640
