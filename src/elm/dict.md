@@ -7,3 +7,41 @@
 `case Dict.get id model.displayables |> Maybe.map .view of`
 
 https://groups.google.com/forum/#!msg/elm-discuss/Oq0yMxbpbdg/gUWmFea5AQAJ
+
+## update
+
+nwjlyons [9:39 PM]
+
+Hi, I'm confused about
+
+```Dict.update
+    :  comparable
+    -> (Maybe v -> Maybe v)
+    -> Dict comparable v
+    -> Dict comparable v```
+
+Why is the second argument a function?
+
+joelq [9:42 PM]
+
+So you get access to the old value
+
+[9:42]
+
+if you just want to replace the old value, you can use `Dict.insert`
+
+nwjlyons
+
+[9:43 PM]
+
+ah ha. starting to make sense
+
+[9:43]
+
+thanks
+
+ilias [9:49 PM]
+
+note of interest: `Dict.insert key value dict = Dict.update key (always value) dict` :slightly_smiling_face:
+
+https://elmlang.slackarchive.io/beginners/page-100/ts-1495049991573640
