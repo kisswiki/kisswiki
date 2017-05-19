@@ -26,3 +26,4 @@
 - https://github.com/fbonetti/elm-calculator
 - https://github.com/oakesja/elm-news
 - https://github.com/plentiful/shop
+- https://github.com/peterszerzo/elm-cms
