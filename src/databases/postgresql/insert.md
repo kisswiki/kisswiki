@@ -27,3 +27,16 @@ SELECT * FROM foobar;
 ```
 
 http://stackoverflow.com/questions/18807709/create-a-postgres-rule-or-trigger-to-automatically-convert-a-column-to-lowercase/18939742#18939742
+
+## insert on conflict do update
+
+
+```sql
+INSERT INTO the_table (id, column_1, column_2) 
+VALUES (1, 'A', 'X'), (2, 'B', 'Y'), (3, 'C', 'Z')
+ON CONFLICT (id) DO UPDATE 
+  SET column_1 = excluded.column_1, 
+      column_2 = excluded.column_2;
+```
+
+http://stackoverflow.com/questions/1109061/insert-on-duplicate-update-in-postgresql
