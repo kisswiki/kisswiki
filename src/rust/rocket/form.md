@@ -10,3 +10,6 @@
 13:11	rofrol	thanks
 13:11	Sergio	There's a closed issue on GitHub about this by the way. In case you want to read more. 
 13:14	Sergio	https://github.com/SergioBenitez/Rocket/issues/217
+
+
+you can create a custom FormForm implementation https://github.com/SergioBenitez/Rocket/issues/217#issuecomment-284110015
