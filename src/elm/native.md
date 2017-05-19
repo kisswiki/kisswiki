@@ -17,3 +17,10 @@
 >I would not recommend trying to defeat Elm's intentional safety features. They are there to help, especially as projects become successful and grow. In my opinion, saving a tiny bit of wiring is not worth the potentially massive increased debugging cost you will be liable to pay later!
 >
 >-- https://www.reddit.com/r/elm/comments/5iju89/help_with_native_virtual_dom_modules/db8wfsm/
+
+## Links from 2017-05-19
+
+- https://hackernoon.com/creating-an-elm-native-module-for-currency-formatting-c9800e57a908
+- https://github.com/eeue56/take-home/wiki/Writing-Native
+- https://github.com/gdotdesign/elm-github-install
+- https://github.com/NoRedInk/elm-ops-tooling/blob/master/elm_self_publish.py
