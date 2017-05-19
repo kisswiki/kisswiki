@@ -12,3 +12,4 @@
 - http://stackoverflow.com/questions/41332186/how-to-trigger-click-event-in-elm
 - http://stackoverflow.com/questions/41511711/how-to-make-a-form-able-to-upload-files-in-elm
 - progress https://github.com/gdotdesign/elm-ui-examples/tree/master/file-upload-progress
+  - is using this https://github.com/gdotdesign/elm-ui/blob/development/source/Native/FileManager.js
