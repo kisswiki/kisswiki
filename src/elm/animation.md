@@ -1,4 +1,5 @@
 - https://github.com/mdgriffith/elm-style-animation
+- articles how to use mdgriffith/elm-style-animation https://voyageintech.wordpress.com/tag/elm/
 
 >This file shows how multiple animations can be run through one Animate Msg:
 https://github.com/mdgriffith/elm-style-animation/blob/master/examples/Gears.elm
