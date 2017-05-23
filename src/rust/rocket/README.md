@@ -3,6 +3,8 @@
 - https://matthias-endler.de/2017/rust-url-shortener/
 - http://neikos.me/Using_Stainless_with_Rocket.html
 - https://www.todobackend.com/
+- https://medium.com/@aergonaut/writing-a-github-webhook-with-rust-part-1-rocket-4426dd06d45d
+- https://matthias-endler.de/2017/rust-url-shortener/
 
 ## Multipart form
 
