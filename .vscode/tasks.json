@@ -9,7 +9,9 @@
     "tasks": [
         {
             "taskName": "start",
-            "args": []
+            "args": [
+                "start"
+            ]
         }
     ]
 }
