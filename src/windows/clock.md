@@ -1,5 +1,5 @@
 ```
-HH:nn:ss     \nyyyy-mm-dd ddd
+HH:nn:ss ddd\nyyyy-mm-dd
 ```
 
 `U+2007	FIGURE SPACE` used to left align.
