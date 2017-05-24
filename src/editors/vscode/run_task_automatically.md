@@ -12,6 +12,7 @@ tasks.json
     "tasks": [
         {
             "taskName": "start",
+            "isBuildCommand": true,
             "args": [
                 "start"
             ]
