@@ -15,3 +15,7 @@ I edit it in atom.io
 - searching in atom.io
   - first level: regex `^- something`
 - internal links: `[javascript](../javascript/javascript.md)` http://stackoverflow.com/questions/6474045/linking-to-other-wiki-pages-on-github
+
+## vscode
+
+`run_task_automatically.md`
