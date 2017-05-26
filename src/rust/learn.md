@@ -5,6 +5,6 @@
 - http://stackoverflow.com/documentation/rust/topics
 - http://rustbyexample.com/
 
-## Videos
+## Video courses
 
 - http://intorust.com/
