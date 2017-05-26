@@ -3,6 +3,7 @@
   - https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
   - Greg Young - The art of destroying software https://vimeo.com/108441214
   - prefer duplication over the wrong abstraction https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction
+- http://natureofcode.com/book/introduction/
 
 ## About
 
