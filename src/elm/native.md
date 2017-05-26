@@ -24,3 +24,7 @@
 - https://github.com/eeue56/take-home/wiki/Writing-Native
 - https://github.com/gdotdesign/elm-github-install
 - https://github.com/NoRedInk/elm-ops-tooling/blob/master/elm_self_publish.py
+
+## Links from 2017-05-26
+
+- https://www.reddit.com/r/elm/comments/6cxxx8/calling_elm_functions_synchronously_from/
