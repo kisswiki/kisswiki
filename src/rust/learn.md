@@ -4,3 +4,7 @@
   - https://github.com/brson/rust-cookbook
 - http://stackoverflow.com/documentation/rust/topics
 - http://rustbyexample.com/
+
+## Videos
+
+- http://intorust.com/
