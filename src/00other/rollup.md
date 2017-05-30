@@ -61,3 +61,33 @@ Note: rollup-plugin-babel devDepends on babel-preset-es2015-rollup, so we still 
 
 - https://github.com/rollup/rollup/issues/437
 - https://github.com/systemjs/builder/pull/205
+
+## 2017-05-30
+
+rollup.config.js
+
+```
+// https://stackoverflow.com/questions/43567972/how-to-set-up-ramda-in-rollup-with-babel-to-use-es6-import
+import commonjs from 'rollup-plugin-commonjs';
+import resolve from 'rollup-plugin-node-resolve';
+
+export default {
+    entry: 'index.js',
+    dest: 'bundle.js',
+    format: 'iife',
+    sourceMap: 'inline',
+    external: ['react', 'react-dom'],
+    plugins: [
+        resolve({
+            jsnext: true,
+            browser: true,
+            main: true,
+            preferBuiltins: false
+        }),
+        commonjs({
+            include: 'node_modules/**'
+        })
+    ]
+
+};
+```
