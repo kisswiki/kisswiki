@@ -78,7 +78,7 @@ export default {
     entry: 'index.js',
     dest: 'bundle.js',
     format: 'iife',
-    sourceMap: 'inline',
+    sourceMap: 'external',
     external: ['react', 'react-dom'],
     globals: {
         'react': 'React',
@@ -95,5 +95,6 @@ export default {
             include: 'node_modules/**'
         })
     ]
+
 };
 ```
