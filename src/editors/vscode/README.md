@@ -135,7 +135,7 @@ npm i -g typescript@2.2.2
 tsc -v
 ```
 
-if `npm update -g typescript@2.2.2` didn't work, run first `npm rm -g typescript`
+If `npm update -g typescript@2.2.2` didn't work, run first `npm rm -g typescript`.
 
 ## Search and replace
 
