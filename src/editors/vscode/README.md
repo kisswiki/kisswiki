@@ -133,7 +133,7 @@ look at `golang/goreturns.md`
 `npm update -g typescript@2.2.2` didn't work.
 
 ```
-npm rm -g typescript
+#npm rm -g typescript
 npm i -g typescript@2.2.2
 tsc -v
 ```
