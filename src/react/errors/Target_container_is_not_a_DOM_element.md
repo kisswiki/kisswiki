@@ -1,0 +1,1 @@
+put your script at the very bottom of the body and render root component to a div before it https://stackoverflow.com/questions/26566317/invariant-violation-registercomponent-target-container-is-not-a-dom-elem
