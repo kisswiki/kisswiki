@@ -130,13 +130,12 @@ look at `golang/goreturns.md`
 
 ## Version mismatch! global tsc (2.1.6) != VS Code's language service (2.2.2)
 
-`npm update -g typescript@2.2.2` didn't work.
-
 ```
-#npm rm -g typescript
 npm i -g typescript@2.2.2
 tsc -v
 ```
+
+if `npm update -g typescript@2.2.2` didn't work, run first `npm rm -g typescript`
 
 ## Search and replace
 
