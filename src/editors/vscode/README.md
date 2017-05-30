@@ -134,7 +134,7 @@ look at `golang/goreturns.md`
 
 ```
 npm rm -g typescript
-npm rm -i typescript@2.2.2
+npm i -g typescript@2.2.2
 tsc -v
 ```
 
