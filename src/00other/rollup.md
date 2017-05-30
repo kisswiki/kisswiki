@@ -68,6 +68,9 @@ rollup.config.js
 
 ```
 // https://stackoverflow.com/questions/43567972/how-to-set-up-ramda-in-rollup-with-babel-to-use-es6-import
+// options.globals:
+// https://github.com/rollup/rollup/issues/1299#issuecomment-278377990
+// https://github.com/rollup/rollup/wiki/JavaScript-API#globals
 import commonjs from 'rollup-plugin-commonjs';
 import resolve from 'rollup-plugin-node-resolve';
 
@@ -77,6 +80,10 @@ export default {
     format: 'iife',
     sourceMap: 'inline',
     external: ['react', 'react-dom'],
+    globals: {
+        'react': 'React',
+        'react-dom': 'ReactDOM'
+    },
     plugins: [
         resolve({
             jsnext: true,
@@ -88,6 +95,5 @@ export default {
             include: 'node_modules/**'
         })
     ]
-
 };
 ```
