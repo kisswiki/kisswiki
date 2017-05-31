@@ -1,0 +1,2 @@
+- https://stackoverflow.com/questions/43502674/bundling-typescript-with-rollup-couldnt-process-compiler-options
+  - https://github.com/ezolenko/rollup-plugin-typescript2
