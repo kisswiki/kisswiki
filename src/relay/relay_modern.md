@@ -1,0 +1,2 @@
+- https://code.facebook.com/posts/1362748677097871/relay-modern-simpler-faster-more-extensible/
+- https://dev-blog.apollodata.com/exploring-relay-modern-276f5965f827
