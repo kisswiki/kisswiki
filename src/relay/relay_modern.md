@@ -2,6 +2,10 @@
 - https://dev-blog.apollodata.com/exploring-relay-modern-276f5965f827
   - https://github.com/apollographql/relay-modern-hello-world
 
+  ## offline
+
+  We're still iterating on how offline mode would work in Relay Modern https://github.com/facebook/relay/issues/676#issuecomment-290476329
+
   ## integrate Modern Relay with a router
 
   https://github.com/facebook/relay/issues/1628#issuecomment-295144933
