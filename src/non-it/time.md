@@ -1,1 +1,1 @@
-- timestripe.com
+- https://timestripe.com
