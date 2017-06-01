@@ -1,2 +1,4 @@
 - https://formidable.com/blog/2016/07/11/let-the-url-do-the-talking-part-1-the-pain-of-react-router-in-redux/
 - https://cellog.github.io/ion-router/
+- https://github.com/thewei/react-native-navigator
+- A simple middleware-style router that can be used in both client-side (e.g. React, Vue.js) and server-side applications (e.g. Node.js/Express, Koa). https://github.com/kriasoft/universal-router
