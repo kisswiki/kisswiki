@@ -6,5 +6,12 @@
     "window.reopenFolders": "all",
     "workbench.activityBar.visible": false,
     "explorer.openEditors.visible": 0,
-    "workbench.colorTheme": "Oceanic Next No Italics"
+    "workbench.colorTheme": "Oceanic Next No Italics",
+    "workbench.colorCustomizations": {
+        "editor.background": "#1B2B34",
+        "sideBar.background": "#1B2B34",
+        "statusBar.background": "#1B2B34",
+        "tab.inactiveBackground": "#111C22",
+        "editorGroupHeader.tabsBackground": "#1B2B34"
+    }
 }
