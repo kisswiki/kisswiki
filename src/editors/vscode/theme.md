@@ -1,0 +1,2 @@
+- https://code.visualstudio.com/updates/v1_12#_workbench-theming
+  - https://github.com/Microsoft/vscode/issues/3112
