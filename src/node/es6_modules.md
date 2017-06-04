@@ -1,0 +1,1 @@
+- counter-proposal that present an alternative approach of declaring all files with ES6 modules in package.json https://github.com/dherman/defense-of-dot-js/blob/master/proposal.md
