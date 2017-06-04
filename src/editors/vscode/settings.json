@@ -1,0 +1,6 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "window.openFoldersInNewWindow": "on",
+    "window.newWindowDimensions": "maximized",
+    "workbench.editor.enablePreview": false
+}
