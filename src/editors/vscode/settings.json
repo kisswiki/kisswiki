@@ -3,5 +3,6 @@
     "window.openFoldersInNewWindow": "on",
     "window.newWindowDimensions": "maximized",
     "workbench.editor.enablePreview": false,
-    "window.reopenFolders": "all"
+    "window.reopenFolders": "all",
+    "workbench.activityBar.visible": false
 }
