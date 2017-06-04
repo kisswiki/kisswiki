@@ -1,3 +1,13 @@
+## Errors and Warnings
+
+`ctrl+shift+m`
+
+Quickly jump to errors and warnings in the project.
+
+Cycle through errors with `f8` or `shift+f8`
+
+https://github.com/Microsoft/vscode-tips-and-tricks
+
 ## Side by side editing
 
 create or switch:
