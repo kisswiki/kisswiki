@@ -3,3 +3,4 @@
 - https://github.com/babel/example-node-server
   - https://stackoverflow.com/questions/39436322/node-js-syntaxerror-unexpected-token-import
 - https://medium.com/the-node-js-collection/an-update-on-es6-modules-in-node-js-42c958b890c
+  - https://stackoverflow.com/questions/37132031/nodejs-plans-to-support-import-export-es6-es2015-modules
