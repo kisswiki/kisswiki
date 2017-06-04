@@ -4,3 +4,5 @@
   - https://stackoverflow.com/questions/39436322/node-js-syntaxerror-unexpected-token-import
 - https://medium.com/the-node-js-collection/an-update-on-es6-modules-in-node-js-42c958b890c
   - https://stackoverflow.com/questions/37132031/nodejs-plans-to-support-import-export-es6-es2015-modules
+- https://medium.com/dev-channel/es6-modules-in-chrome-canary-m60-ba588dfb8ab7
+- http://2ality.com/2017/05/es-module-specifiers.html
