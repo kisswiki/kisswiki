@@ -1,1 +1,4 @@
 - counter-proposal that present an alternative approach of declaring all files with ES6 modules in package.json https://github.com/dherman/defense-of-dot-js/blob/master/proposal.md
+  - https://stackoverflow.com/questions/36901147/es2015-import-not-working-in-node-v6-0-0-with-with-harmony-modules-option/36925525#36925525
+- https://github.com/babel/example-node-server
+  - https://stackoverflow.com/questions/39436322/node-js-syntaxerror-unexpected-token-import
