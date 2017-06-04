@@ -2,5 +2,6 @@
 {
     "window.openFoldersInNewWindow": "on",
     "window.newWindowDimensions": "maximized",
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "window.reopenFolders": "all"
 }
