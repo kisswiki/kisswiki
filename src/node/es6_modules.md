@@ -2,3 +2,4 @@
   - https://stackoverflow.com/questions/36901147/es2015-import-not-working-in-node-v6-0-0-with-with-harmony-modules-option/36925525#36925525
 - https://github.com/babel/example-node-server
   - https://stackoverflow.com/questions/39436322/node-js-syntaxerror-unexpected-token-import
+- https://medium.com/the-node-js-collection/an-update-on-es6-modules-in-node-js-42c958b890c
