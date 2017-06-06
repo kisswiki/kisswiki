@@ -1,6 +1,13 @@
 - https://docs.docker.com/docker-for-windows/install
 - https://docs.docker.com/docker-for-windows
 
+##
+
+Note that if you are using docker toolbox (meaning docker through a VirtualBox VM), only /c/users/mylogin is available by default.
+You need to declare other mount locations if your path does not include c:\Users\myLogin
+
+https://stackoverflow.com/questions/40921097/how-to-mount-localhost-volume-to-a-docker-container-using-docker-compose
+
 ## tab-completion
 
 ```powershell
