@@ -15,4 +15,5 @@
 Install npcap
 
 - https://wiki.wireshark.org/CaptureSetup/Loopback
+  - https://nmap.org/npcap/
 - https://ask.wireshark.org/questions/29211/how-can-wireshark-capture-local-host-traffic-on-windows
