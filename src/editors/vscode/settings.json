@@ -13,5 +13,6 @@
         "statusBar.background": "#1B2B34",
         "tab.inactiveBackground": "#111C22",
         "editorGroupHeader.tabsBackground": "#1B2B34"
-    }
+    },
+    "editor.wordWrap": "on"
 }
