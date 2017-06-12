@@ -70,3 +70,17 @@ docker inspect -f "{{ .NetworkSettings.Networks }}" musicstore_web_1
 docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" musicstore_web_1
 docker inspect -f "{{ .NetworkSettings.Networks.bridge.IPAddress }}" musicstore_web_1
 ```
+
+## Restart exited container
+
+show all
+
+`docker ps -a`
+
+restart
+
+`docker restart <container_name_or_hash>`
+
+If name is `sth/sth2` then name to restart is `sth2`.
+
+https://www.reddit.com/r/docker/comments/4axndi/newbie_what_is_the_command_to_rerun_docker/d14oxbo/
