@@ -41,6 +41,7 @@
 - better than standing desk https://twitter.com/mxgrn/status/791239714292596736
 - Jak zdrowo siedzieć w pracy biurowej i przy komputerze? Krzesła Zdrowotne SpinaliS https://youtu.be/OKzTr2F9K10
 - Why sitting is bad for you - Murat Dalkilinç https://youtu.be/wUEl8KrMz14
+- Why Sitting Down Destroys You | Roger Frampton https://youtu.be/jOJLx4Du3vU
 
 ## Klęcznik
 
