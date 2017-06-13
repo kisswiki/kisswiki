@@ -14,5 +14,7 @@
         "tab.inactiveBackground": "#111C22",
         "editorGroupHeader.tabsBackground": "#1B2B34"
     },
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.minimap.enabled": false
 }
