@@ -8,9 +8,9 @@ import Json.Decode exposing (Decoder, string, int, andThen, map, map2, succeed, 
 main : Html a
 main =
     div []
-        [ div [] [ msg1 |> decodeString decoder |> toString |> text ]
-        , div [] [ msg2 |> decodeString decoder |> toString |> text ]
-        , div [] [ msg3 |> decodeString decoder |> toString |> text ]
+        [ div [] [ msg1 |> decodeString decodeContent |> toString |> text ]
+        , div [] [ msg2 |> decodeString decodeContent |> toString |> text ]
+        , div [] [ msg3 |> decodeString decodeContent |> toString |> text ]
         ]
 
 
@@ -54,14 +54,14 @@ decodeContentError =
         |> andMap (field "errorLabel" string)
 
 
-decoder : Decoder ProfileOrError
-decoder =
+decodeContent : Decoder ProfileOrError
+decodeContent =
     field "tag" string
-        |> andThen tagDec
+        |> andThen decodeResponseTag
 
 
-tagDec : String -> Decoder ProfileOrError
-tagDec tag =
+decodeResponseTag : String -> Decoder ProfileOrError
+decodeResponseTag tag =
     case tag of
         "OK" ->
             field "contents" (map ProfileValue decodeProfile)
@@ -112,5 +112,5 @@ msg3 =
 """
 ```
 
-- https://ellie-app.com/3tjTqkXg8D2a1/3
+- https://ellie-app.com/3tjTqkXg8D2a1/4
 - https://stackoverflow.com/questions/41465430/is-it-possible-to-conditionally-decode-certain-fields-using-elm-decode-pipeline
