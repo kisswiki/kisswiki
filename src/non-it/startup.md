@@ -54,6 +54,7 @@ Ja w wiekszosci swoich firm kasy nie pozyskalem tylko krok po kroku sie jej doro
 Dla porownania jestem beneficjentem 3 programow POIG 8.1 na w sumie prawie 2 miliony zlotych. Dzialalnosc mam od ponad 10 lat . Aktualnie mam 3 firmy, a przez ten czas mialem ich (i udzialow w spolkach) sporo wiecej. Wiec:
 
 - z prawdopodobienstwem graniczacym z pewnoscia mam wieksze doswiadczenie od Ciebie
+
 - mam porownanie jak sie wydaje swoja kase a jak kase z dotacji
 
 I drugi punkt to jest prawdziwy rak. Ale po kolei odniose sie do Twoich uwag. Kasa oczywiscie jest potrzebna, ale w 9 przypdkach na 10 nie tyle ile sie wydaje i nie od razu. Trzymajmy sie branzy informatycznej. Dajmy na to tzw. agencje interaktywne, czyli firmy robiace strony. O Startupach pozniej. .
@@ -82,4 +83,8 @@ http://www.wykop.pl/link/3548959/#comment-42364205
 
 ## rady
 
+Rafał Winnicki
+
 Pierwsza zasada to "przetrwać do osiągnięcia BEP" Książkowo jeżeli biznes nie spina się gotówkowo po 1,5 roku to już się nie zepnie. Musisz mieć zasoby na utrzymanie siebie i rodziny na ten czas i dokładania do biznesu. Jeżeli prawnicy, to dobrzy a przynajmniej ambitni ;) Ale raczej zabawa droga nie dla początkujących. Biuro rachunkowe zgoda, podatków nikt sam nie ogarnie w tym kraju, ale równolegle w ecelu własna księgowość i własne analizy. Widzę jak bankrutują nawet spore firmy bo NIGDY nie przeprowadziły dobrej analizy opłacalności tego co robią. Jeśli nie masz pieniędzy na start na pracowników i musisz dobrać wspólników to: wybieraj wspólników w podobnej sytuacji rodzinnej i materialnej. Inaczej kiedy jeden wspólnik będzie walczył o przetrwanie, drugi będzie się martwił czy pojedzie w tym roku na wakacje do USA czy do Peru.... Rodzina zawsze wygra z biznesem, wspólnicy jeżeli muszą osobiście pracować - muszą mieć takie same wartości. Kiedy biznes nie idzie trzeba jak najszybciej go zamknąć, długa agonia zabiera pieniądze siły i życie. Jeżeli zaczyna iść - od razu trzeba delegować uprawnienia, 80% pada po 5 latach w wyniku SUKCESU którego właściciel nie potrafi ogarnąć i oddać władzy pracownikom najemnym. Dbaj o ludzi nie zapominając o własnym interesie. Bądź skąpy.... każdą złotówę oglądaj przed wydaniem 2x obecne zyski to jedynie środki na przyszłe wydatki. Ostrożnie z kredytami - kiedy firma nie potrzebuje wszystkie banki będą chciały ci pożyczyć pieniądze, kiedy zaczniesz potrzebować pieniędzy zacisną ci sznur na szyi. Zadłużaj się w jednym banku. Kiedy będzie gorzej z jednym jakoś się dogadasz, kiedy będzie ich więcej rozszarpią cię - każdy będzie chciał swoją kasę przed innymi.
+
+https://m.facebook.com/?_rdr#!/home.php?feed_ufi=comments
