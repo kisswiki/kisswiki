@@ -1,0 +1,2 @@
+- http://www.qubit.com/sites/default/files/pdf/qubit_meta_analysis.pdf
+  - https://news.ycombinator.com/item?id=14602595
