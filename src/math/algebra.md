@@ -1,3 +1,8 @@
+The Arabic Hegemony" p. 229) "It is not certain just what the terms al-jabr and muqabalah mean, but the usual interpretation is similar to that implied in the translation above. The word al-jabr presumably meant something like "restoration" or "completion" and seems to refer to the transposition of subtracted terms to the other side of an equation; the word muqabalah is said to refer to "reduction" or "balancing" – that is, the cancellation of like terms on opposite sides of the equation."
+
+https://en.wikipedia.org/wiki/Algebra#cite_note-Boyer-229-17
+
+
 The term "algebra" is derived from the name of one of the basic operations with equations (al-jabr, meaning "restoration", referring to adding a number to both sides of the equation to consolidate or cancel terms) described in this book.https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi
 
 Algebra (from Arabic "al-jabr" meaning "reunion of broken parts"[1])
