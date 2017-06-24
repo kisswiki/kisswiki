@@ -15,3 +15,7 @@ Two men are attributed to the invention of algebra, Newton and Gottfried develop
 Calculus as we know it was NOT invented by Newton, but by Leibniz.
 
 https://www.khanacademy.org/math/algebra/introduction-to-algebra/overview-hist-alg/v/origins-of-algebra?qa_expand_key=kaencrypted_6e0f368a1e7727e0914893a1e9c17274_d2187ab22e8c281566c39385e75ba0c1be1358703ee33fb2d36a6bad720b94a50b703def01f0c2a88a10ba93f71704c766c6c30f3e1df4494b31949cbc5e25e7fceec12be74e626f4a94fc20968453d5289e2f041c19b5ef8569c2a32fe5812a
+
+## learn
+
+https://pl.khanacademy.org/math/differential-calculus/limit-basics-dc/limits-introduction-dc/v/newton-leibniz-and-usain-bolt
