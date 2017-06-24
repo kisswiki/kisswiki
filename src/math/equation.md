@@ -10,7 +10,6 @@ has two members: `Ax^2+Bx+C` and `y`. The left member has three terms and the ri
 
 An equation is analogous to a scale into which weights are placed. When equal weights of something (grain for example) are place into the two pans, the two weights cause the scale to be in balance and are said to be equal. If a quantity of grain is removed from one pan of the balance, an equal amount of grain must be removed from the other pan to keep the scale in balance. Likewise, to keep an equation in balance, the same operations of addition, subtraction, multiplication and division must be performed on both sides of an equation for it to remain an equality.
 
-
 In geometry, equations are used to describe geometric figures. As equations that are considered, such as implicit equations or parametric equations have infinitely many solutions, the objective is now different: instead of given the solutions explicitly or counting them, which is impossible, one uses equations for studying properties of figures. This is the starting idea of algebraic geometry, an important area of mathematics.
 
 Algebra studies two main families of equations: polynomial equations and, among them the special case of linear equations. Polynomial equations have the form P(x) = 0, where P is a polynomial. Linear equations have the form ax + b = 0, where a and b are parameters.
