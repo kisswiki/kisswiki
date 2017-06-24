@@ -2,3 +2,4 @@
 - https://www.amazon.com/Trachtenberg-Speed-System-Basic-Mathematics/dp/4871877094
 - https://www.amazon.com/How-Calculate-Quickly-Arithmetic-Mathematics/dp/048620295X
 - https://www.amazon.com/Magic-Math-Solving-Figuring-Out/dp/0465096212
+- https://www.amazon.com/How-Calculate-Quickly-Arithmetic-Mathematics/dp/048620295X
