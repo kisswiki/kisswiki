@@ -8,6 +8,8 @@ Each side of an equation is called a member of the equation.[citation needed] Ea
 
 has two members: `Ax^2+Bx+C` and `y`. The left member has three terms and the right member one term. The variables are `x` and `y` and the parameters are `A`, `B`, and `C`.
 
+An equation is analogous to a scale into which weights are placed. When equal weights of something (grain for example) are place into the two pans, the two weights cause the scale to be in balance and are said to be equal. If a quantity of grain is removed from one pan of the balance, an equal amount of grain must be removed from the other pan to keep the scale in balance. Likewise, to keep an equation in balance, the same operations of addition, subtraction, multiplication and division must be performed on both sides of an equation for it to remain an equality.
+
 https://en.wikipedia.org/wiki/Equation
 
 While individual equations present a kind of puzzle and have been considered throughout history, the formulation of general theories of Diophantine equations (beyond the theory of quadratic forms) was an achievement of the twentieth century.
