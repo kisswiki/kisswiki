@@ -37,6 +37,10 @@ and it look like this ( ال ) or ( الــ )
 
 https://www.khanacademy.org/questions/what-does-al-mean/kafb_6900463
 
+The word "algebra" is derived from the Arabic word Al-Jabr, and this comes from the treatise written in 820 by the medieval Persian mathematician, Muhammad ibn Mūsā al-Khwārizmī, entitled, in Arabic Kitāb al-muḫtaṣar fī ḥisāb al-ğabr wa-l-muqābala, which can be translated as The Compendious Book on Calculation by Completion and Balancing. The treatise provided for the systematic solution of linear and quadratic equations. Although the exact meaning of the word al-jabr is still unknown, most historians agree that the word meant something like "restoration", "completion"
+
+https://www.khanacademy.org/math/algebra/introduction-to-algebra/overview-hist-alg/v/origins-of-algebra?qa_expand_key=kaencrypted_6cf38b2494123b40c935adae922632e7_8a9d6f8a3bff2bd4a45518be35ca1926c13346ee3891bdd534f47d3d7aff4da6abf12c5d5d09656f5fab7fbbfe3170742621936122f169c799c272b2f6b86eeea693af4989b11b00f8172d6577c93d12b7bcb47143e666a7155f93b6a8c32620
+
 ## Sample Question
 
 If a number is divided by 4, then 3 is subtracted, the result is 0. What is the number?
