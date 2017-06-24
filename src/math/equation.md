@@ -20,6 +20,12 @@ The "=" symbol, which appears in every equation, was invented in 1557 by Robert 
 - https://en.wikipedia.org/wiki/File:Equation_illustration_colour.svg
 - Area of a circle, how to get the formula https://www.youtube.com/watch?v=YokKp3pwVFc
 
+## Equal etymology
+
+ from Latin aequalis "uniform, identical, equal," from aequus "level, even, flat; as tall as, on a level with; friendly, kind, just, fair, equitable, impartial; proportionate; calm, tranquil," which is of unknown origin.
+
+ http://www.etymonline.com/index.php?term=equal
+
 ## Circle equation
 
 An equation involving x and y as unknowns and the parameter R might be:
@@ -38,7 +44,7 @@ And then use Pythagoras `x^2 + y^2 = 5^2`.
 
 There are an infinite number of those points.
 
-In all cases a point on the circle follows the rule x2 + y2 = radius2
+In all cases a point on the circle follows the rule `x^2 + y^2 = radius^2`.
 
 https://www.mathsisfun.com/algebra/circle-equations.html
 
