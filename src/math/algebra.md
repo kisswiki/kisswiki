@@ -41,6 +41,12 @@ The word "algebra" is derived from the Arabic word Al-Jabr, and this comes from 
 
 https://www.khanacademy.org/math/algebra/introduction-to-algebra/overview-hist-alg/v/origins-of-algebra?qa_expand_key=kaencrypted_6cf38b2494123b40c935adae922632e7_8a9d6f8a3bff2bd4a45518be35ca1926c13346ee3891bdd534f47d3d7aff4da6abf12c5d5d09656f5fab7fbbfe3170742621936122f169c799c272b2f6b86eeea693af4989b11b00f8172d6577c93d12b7bcb47143e666a7155f93b6a8c32620
 
+## Roots
+
+The roots of algebra can be traced to the ancient Babylonians,[8] who developed an advanced arithmetical system with which they were able to do calculations in an algorithmic fashion. The Babylonians developed formulas to calculate solutions for problems typically solved today by using linear equations, quadratic equations, and indeterminate linear equations. By contrast, most Egyptians of this era, as well as Greek and Chinese mathematics in the 1st millennium BC, usually solved such equations by geometric methods, such as those described in the Rhind Mathematical Papyrus, Euclid's Elements, and The Nine Chapters on the Mathematical Art. The geometric work of the Greeks, typified in the Elements, provided the framework for generalizing formulae beyond the solution of particular problems into more general systems of stating and solving equations, although this would not be realized until mathematics developed in medieval Islam.[9]
+
+https://en.wikipedia.org/wiki/Algebra
+
 ## Sample Question
 
 If a number is divided by 4, then 3 is subtracted, the result is 0. What is the number?
