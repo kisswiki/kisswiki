@@ -16,7 +16,8 @@ Algebra studies two main families of equations: polynomial equations and, among 
 
 The "=" symbol, which appears in every equation, was invented in 1557 by Robert Recorde, who considered that nothing could be more equal than parallel straight lines with the same length.
 
-https://en.wikipedia.org/wiki/Equation
+- https://en.wikipedia.org/wiki/Equation
+- https://en.wikipedia.org/wiki/File:Equation_illustration_colour.svg
 
 While individual equations present a kind of puzzle and have been considered throughout history, the formulation of general theories of Diophantine equations (beyond the theory of quadratic forms) was an achievement of the twentieth century.
 
