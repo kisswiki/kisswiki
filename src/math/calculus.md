@@ -4,4 +4,6 @@ Newton was describing the orbits of planets around the sun, and mentioned that h
 
 And Newton shut himself up for two three days trying to come up with a mathematical proof for his theory. He had to invent calculus to do so. Which he did :)
 
-https://www.khanacademy.org/video/origins-of-algebra?qa_expand_key=kaencrypted_6e0f368a1e7727e0914893a1e9c17274_d2187ab22e8c281566c39385e75ba0c1be1358703ee33fb2d36a6bad720b94a50b703def01f0c2a88a10ba93f71704c766c6c30f3e1df4494b31949cbc5e25e7fceec12be74e626f4a94fc20968453d5289e2f041c19b5ef8569c2a32fe5812a
+A little fun fact, calculus is the latin word for stones. I think it was because stones were used to physically express growth in the place of graphs with gradients.
+
+https://www.khanacademy.org/math/algebra/introduction-to-algebra/overview-hist-alg/v/origins-of-algebra?qa_expand_key=kaencrypted_6e0f368a1e7727e0914893a1e9c17274_d2187ab22e8c281566c39385e75ba0c1be1358703ee33fb2d36a6bad720b94a50b703def01f0c2a88a10ba93f71704c766c6c30f3e1df4494b31949cbc5e25e7fceec12be74e626f4a94fc20968453d5289e2f041c19b5ef8569c2a32fe5812a
