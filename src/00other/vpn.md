@@ -8,5 +8,8 @@ With BeyondCorp, we no longer have a binary access model, where you are either i
 
 While BeyondCorp makes applications easily accessible from anywhere, it also improves security in other ways. Over the course of the migration we’ve discovered services that we thought were long dead, because this change required taking a detailed look at our traffic, our dependencies and our employee usage patterns. It’s also allowed us to scale globally while reducing our attack surface, and increased our ability to provide access when appropriate.
 
-- https://www.blog.google/topics/google-cloud/how-use-beyondcorp-ditch-your-vpn-improve-security-and-go-cloud/
-- https://news.ycombinator.com/item?id=14596613
+https://www.blog.google/topics/google-cloud/how-use-beyondcorp-ditch-your-vpn-improve-security-and-go-cloud/
+
+The most common feedback I get is that it seems like too much of a stretch for companies that don’t operate at Google scale. That may be true if looking at the system as a whole, but the principles behind the architecture should attract anyone’s attention - remove trust from the network by authenticating and authorizing every request based on what’s known about the user and connecting device at the time of the request.
+
+https://news.ycombinator.com/item?id=14596613
