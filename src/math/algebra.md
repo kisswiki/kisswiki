@@ -45,6 +45,10 @@ https://www.khanacademy.org/math/algebra/introduction-to-algebra/overview-hist-a
 
 The roots of algebra can be traced to the ancient Babylonians,[8] who developed an advanced arithmetical system with which they were able to do calculations in an algorithmic fashion. The Babylonians developed formulas to calculate solutions for problems typically solved today by using linear equations, quadratic equations, and indeterminate linear equations. By contrast, most Egyptians of this era, as well as Greek and Chinese mathematics in the 1st millennium BC, usually solved such equations by geometric methods, such as those described in the Rhind Mathematical Papyrus, Euclid's Elements, and The Nine Chapters on the Mathematical Art. The geometric work of the Greeks, typified in the Elements, provided the framework for generalizing formulae beyond the solution of particular problems into more general systems of stating and solving equations, although this would not be realized until mathematics developed in medieval Islam.[9]
 
+By the time of Plato, Greek mathematics had undergone a drastic change. The Greeks created a geometric algebra where terms were represented by sides of geometric objects, usually lines, that had letters associated with them.[4] Diophantus (3rd century AD) was an Alexandrian Greek mathematician and the author of a series of books called Arithmetica. These texts deal with solving algebraic equations,[10] and have led, in number theory to the modern notion of Diophantine equation.
+
+Earlier traditions discussed above had a direct influence on the Persian Muḥammad ibn Mūsā al-Khwārizmī (c. 780–850). He later wrote The Compendious Book on Calculation by Completion and Balancing, which established algebra as a mathematical discipline that is independent of geometry and arithmetic.[11]
+
 https://en.wikipedia.org/wiki/Algebra
 
 ## Sample Question
