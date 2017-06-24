@@ -1,4 +1,4 @@
-"Algebra" is derived from al-jabr, one of the two operations he used to solve quadratic equations https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi
+The term "algebra" is derived from the name of one of the basic operations with equations (al-jabr, meaning "restoration", referring to adding a number to both sides of the equation to consolidate or cancel terms) described in this book.https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi
 
 Algebra (from Arabic "al-jabr" meaning "reunion of broken parts"[1])
 
