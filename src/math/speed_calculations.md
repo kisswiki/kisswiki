@@ -4,3 +4,4 @@
 - https://www.amazon.com/How-Calculate-Quickly-Arithmetic-Mathematics/dp/048620295X
 - https://www.amazon.com/Magic-Math-Solving-Figuring-Out/dp/0465096212
 - https://www.amazon.com/How-Calculate-Quickly-Arithmetic-Mathematics/dp/048620295X
+- http://www.asiteaboutnothing.net/p_speed-arithmetic.html
