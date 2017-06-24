@@ -18,6 +18,7 @@ The "=" symbol, which appears in every equation, was invented in 1557 by Robert 
 
 - https://en.wikipedia.org/wiki/Equation
 - https://en.wikipedia.org/wiki/File:Equation_illustration_colour.svg
+- Area of a circle, how to get the formula https://www.youtube.com/watch?v=YokKp3pwVFc
 
 While individual equations present a kind of puzzle and have been considered throughout history, the formulation of general theories of Diophantine equations (beyond the theory of quadratic forms) was an achievement of the twentieth century.
 
