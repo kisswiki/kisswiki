@@ -16,3 +16,9 @@ https://en.wikipedia.org/wiki/Elementary_algebra
 
 Al-jabr is the process of removing negative units, roots and squares from the equation by adding the same quantity to each side. For example, x2 = 40x − 4x2 is reduced to 5x2 = 40x. Al-muqābala is the process of bringing quantities of the same type to the same side of the equation. For example, x2 + 14 = x + 5 is reduced to x2 + 9 = x.
 https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi
+
+## Sample Question
+
+If a number is divided by 4, then 3 is subtracted, the result is 0. What is the number?
+
+https://www.monroecc.edu/depts/testingservices/preparing-for-your-test/elementary-algebra-sample-questions/
