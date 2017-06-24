@@ -28,8 +28,19 @@ An equation involving x and y as unknowns and the parameter R might be:
 
 When R is chosen to have the value of two (R = 2), this equation would be recognized, when sketched in Cartesian coordinates, as the equation for a particular circle with a radius of two. Hence, the equation with R unspecified is the general equation for the circle.
 
-- https://en.wikipedia.org/wiki/Equation
-- https://www.mathsisfun.com/algebra/circle-equations.html
+https://en.wikipedia.org/wiki/Equation
+
+let's work out exactly where all the points are.
+
+We make a right-angled triangle.
+
+And then use Pythagoras `x^2 + y^2 = 5^2`.
+
+There are an infinite number of those points.
+
+In all cases a point on the circle follows the rule x2 + y2 = radius2
+
+https://www.mathsisfun.com/algebra/circle-equations.html
 
 ## Diophantine equation
 
