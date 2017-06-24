@@ -22,7 +22,11 @@ https://en.wikipedia.org/wiki/Elementary_algebra
 Al-jabr is the process of removing negative units, roots and squares from the equation by adding the same quantity to each side. For example, x2 = 40x − 4x2 is reduced to 5x2 = 40x. Al-muqābala is the process of bringing quantities of the same type to the same side of the equation. For example, x2 + 14 = x + 5 is reduced to x2 + 9 = x.
 https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi
 
-The abstract problems itself, not trying to do one off problems here or there
+The abstract problems itself, not trying to do one off problems here or there.
+
+It's debatable whether it's Diophantus or al-Khwarizmi who started using these terms of balancing equations and talking about math in purer way, while Diphantus was more focused on particular problems.
+
+One of the fathers of Algebra, because he really started to think about algebra in the abstract sense, devoid of some specific problems.
 
 https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/alg-overview-of-algebra/v/origins-of-algebra
 
