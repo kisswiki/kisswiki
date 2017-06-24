@@ -2,6 +2,8 @@ The term "algebra" is derived from the name of one of the basic operations with 
 
 Algebra (from Arabic "al-jabr" meaning "reunion of broken parts"[1])
 
+it includes everything from elementary equation solving to the study of abstractions such as groups, rings, and fields. The more basic parts of algebra are called elementary algebra; the more abstract parts are called abstract algebra or modern algebra
+
 Elementary algebra differs from arithmetic in the use of abstractions, such as using letters to stand for numbers that are either unknown or allowed to take on many values.
 
 In its most general form, algebra is the study of mathematical symbols and the rules for manipulating these symbols
