@@ -18,7 +18,6 @@ The "=" symbol, which appears in every equation, was invented in 1557 by Robert 
 
 - https://en.wikipedia.org/wiki/Equation
 - https://en.wikipedia.org/wiki/File:Equation_illustration_colour.svg
-- Area of a circle, how to get the formula https://www.youtube.com/watch?v=YokKp3pwVFc
 
 ## Equal etymology
 
