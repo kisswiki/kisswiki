@@ -1,0 +1,3 @@
+- https://www.amazon.com/Short-Cut-Math-Gerard-W-Kelly/dp/0486246116
+- https://www.amazon.com/Trachtenberg-Speed-System-Basic-Mathematics/dp/4871877094
+- https://www.amazon.com/How-Calculate-Quickly-Arithmetic-Mathematics/dp/048620295X
