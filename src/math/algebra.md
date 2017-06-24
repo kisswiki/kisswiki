@@ -10,5 +10,9 @@ In its most general form, algebra is the study of mathematical symbols and the r
 
 https://en.wikipedia.org/wiki/Algebra
 
+Whereas arithmetic deals with specified numbers,[1] algebra introduces quantities without fixed values, known as variables.[2] This use of variables entails a use of algebraic notation and an understanding of the general rules of the operators introduced in arithmetic. Unlike abstract algebra, elementary algebra is not concerned with algebraic structures outside the realm of real and complex numbers.
+
+https://en.wikipedia.org/wiki/Elementary_algebra
+
 Al-jabr is the process of removing negative units, roots and squares from the equation by adding the same quantity to each side. For example, x2 = 40x − 4x2 is reduced to 5x2 = 40x. Al-muqābala is the process of bringing quantities of the same type to the same side of the equation. For example, x2 + 14 = x + 5 is reduced to x2 + 9 = x.
 https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi
