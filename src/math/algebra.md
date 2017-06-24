@@ -30,6 +30,13 @@ One of the fathers of Algebra, because he really started to think about algebra 
 
 https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/alg-overview-of-algebra/v/origins-of-algebra
 
+(al-) is the Arabic Definite article like (the) in English , but unlike English we don't have Indefinite articles ... we just remove (al-) from the word 
+and it look like this ( ال ) or ( الــ )
+كتاب ... book or a book
+الكتاب ... the book
+
+https://www.khanacademy.org/questions/what-does-al-mean/kafb_6900463
+
 ## Sample Question
 
 If a number is divided by 4, then 3 is subtracted, the result is 0. What is the number?
