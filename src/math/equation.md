@@ -20,6 +20,19 @@ The "=" symbol, which appears in every equation, was invented in 1557 by Robert 
 - https://en.wikipedia.org/wiki/File:Equation_illustration_colour.svg
 - Area of a circle, how to get the formula https://www.youtube.com/watch?v=YokKp3pwVFc
 
+## Circle equation
+
+An equation involving x and y as unknowns and the parameter R might be:
+
+`x^2+y^2=R^2`
+
+When R is chosen to have the value of two (R = 2), this equation would be recognized, when sketched in Cartesian coordinates, as the equation for a particular circle with a radius of two. Hence, the equation with R unspecified is the general equation for the circle.
+
+- https://en.wikipedia.org/wiki/Equation
+- https://www.mathsisfun.com/algebra/circle-equations.html
+
+## Diophantine equation
+
 While individual equations present a kind of puzzle and have been considered throughout history, the formulation of general theories of Diophantine equations (beyond the theory of quadratic forms) was an achievement of the twentieth century.
 
 https://en.wikipedia.org/wiki/Diophantine_equation
