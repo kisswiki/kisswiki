@@ -1,1 +1,3 @@
 - https://www.gsdfaster.com/
+- Things 3
+- Geno: To Do Task List and Calendar Manager
