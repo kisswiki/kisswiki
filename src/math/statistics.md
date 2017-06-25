@@ -1,0 +1,2 @@
+- http://www.newyorker.com/tech/elements/how-to-call-bullshit-on-big-data-a-practical-guide
+    - https://news.ycombinator.com/item?id=14622006
