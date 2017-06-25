@@ -59,4 +59,12 @@ The mental math is also fairly minimal. It just requires two digit arithmetic fo
 
 A great book along these lines is called "The Halo Effect". More focused on business books than anything, but it's along the same lines.
 
+With two new chapters and a new preface, the award-winning book The Halo Effect continues to unmask the delusions found in the corporate world and provides a sharp understanding of what drives business success and failure.
+
+Too many of today’s most prominent management gurus make steel-clad guarantees based on claims of irrefutable research, promising to reveal the secrets of why one company fails and another succeeds, and how you can become the latter. Combining equal measures of solemn-faced hype and a wide range of popular business delusions, statistical and otherwise, these self-styled experts cloud our ability to think critically about the nature of success. 
+
+Central among these delusions is the Halo Effect—the tendency to focus on the high financial performance of a successful company and then spread its golden glow to all its attributes—clear strategy, strong values, brilliant leadership, and outstanding execution. But should the same company’s sales head south, the very same attributes are universally derided—suddenly the strategy was wrong, the culture was complacent, and the leader became arrogant. 
+
+The Halo Effect not only identifies these delusions that keep us from understanding business performance, but also suggests a more accurate way to think about leading a company. This approach—focusing on strategic choice and execution, while recognizing the inherent riskiness of both—clarifies the priorities that managers face.
+
 https://www.amazon.com/Halo-Effect-Business-Delusions-Managers/dp/1476784035
