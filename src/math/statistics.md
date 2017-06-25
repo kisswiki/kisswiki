@@ -40,3 +40,17 @@ The better quote, which can be broadly applied to anything data-related, is: "Al
 Usually, I look at data as presenting only one side of the story. And models as hopefully useful, if used with caution. The proof is always in the pudding: do actions derived from our understanding of the data yield results? If "yes" then our understanding of the data contains some difficult to quantify level of truth. Do our classification, clustering, and prediction techniques work? If "yes" than our models reflect some of the truth (never all of it).
 In my six years since college, and going on three as a data scientist, I've become convinced that intentionally (or not) a great deal of analysis and modeling (including machine learning models) is fundamentally wrong. Sometimes because the practitioner, with the best of intentions, screwed up (all too easy to do), and often because the practitioner used the data to tell whatever story they wanted to. You can usually manipulate any given data set into giving the answer you, or your boss, or your boss's boss, thinks is the "right" answer. And even if you come to the data with the purest intentions you'll often find "the truth"--only to have application and time prove it wrong.
 My assessment: data is slippery, and often like wrestling snakes. Or, it's the modern version of panning for gold. We can make ourselves, or the business, much richer when we find those rare nuggets within the data which prove, with application and time, to reflect some measure of truth. The proof is always in the pudding.
+
+### How many piano tuners are there in Chicago?
+
+Any resources for learning the Fermi estimation techniques listed there? Seems like a collection of complementary skills, each of which could be improved:
+memorizing useful facts, selecting facts that lead to a meaningful estimate, the mental math to compute the final result
+https://en.wikipedia.org/wiki/Fermi_problem
+
+I teach a Quantitative Methods course and in it, I have students read through the Guesstimation book by Weinstein and Adams (listed on that wiki page). There is also a second volume.
+They do 11 blog entries each on modifying a question from each chapter and then computing it out.
+I also have them watch TED talks and come up with guesstimation critiques of the talks, also in the form of 11 blog entries.
+These are highly effective exercises. I recommend doing something similar. If you can, find some others who are interested in doing the same. Reading each other's questions and answers is very valuable in detecting mistakes and comparing your own technique to theirs.
+Fundamentally, you just have to do it.
+The mental facts needed to memorize are surprisingly minimal. The Guesstimation book lists some good suggested ones. Often you will find you already have some sense of a number. By taking reasonable boundaries on either end of the plausible range and then taking the geometric mean, you can get a decent approximation.
+The mental math is also fairly minimal. It just requires two digit arithmetic for the most part along with being comfortable with powers of 10. There are books on mental math, but I think practice is sufficient for two digits: http://arithmetic.zetamac.com
