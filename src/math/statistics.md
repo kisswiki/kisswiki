@@ -5,6 +5,10 @@
 
 ###
 
+Mind the Bullshit Asymmetry Principle, articulated by the Italian software developer Alberto Brandolini in 2013: the amount of energy needed to refute bullshit is an order of magnitude bigger than that needed to produce it. Or, as Jonathan Swift put it in 1710, “Falsehood flies, and truth comes limping after it.”
+
+###
+
 It is correct that you don't need a math degree to detect data b.s.
 However, the suggested "red flag" method is only part of the solution. You learn to detect the red flags and you understand, if red flags accumulate, to start worrying about the truthness of what you are presented...
 and then you hit a bullshitter or lyier who, through skill or pure luck, starts validating things that you know are probably wrong but really really hope to be true. And suddenly you yourself start to support the b.s. thesis because you really want it to be true. Then, what do red flags help you? You will actively try to invalidate them. They may stay objectively true, but in our poorly structured, limited way of thinking, they won't.
