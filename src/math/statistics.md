@@ -54,3 +54,9 @@ These are highly effective exercises. I recommend doing something similar. If yo
 Fundamentally, you just have to do it.
 The mental facts needed to memorize are surprisingly minimal. The Guesstimation book lists some good suggested ones. Often you will find you already have some sense of a number. By taking reasonable boundaries on either end of the plausible range and then taking the geometric mean, you can get a decent approximation.
 The mental math is also fairly minimal. It just requires two digit arithmetic for the most part along with being comfortable with powers of 10. There are books on mental math, but I think practice is sufficient for two digits: http://arithmetic.zetamac.com
+
+###
+
+A great book along these lines is called "The Halo Effect". More focused on business books than anything, but it's along the same lines.
+
+https://www.amazon.com/Halo-Effect-Business-Delusions-Managers/dp/1476784035
