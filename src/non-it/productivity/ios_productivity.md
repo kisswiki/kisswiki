@@ -9,3 +9,5 @@
 - Chronoplan - Timers
 - Calendars by Readdle
 - https://itunes.apple.com/us/app/focus-productivity-timer/id975017240
+- https://itunes.apple.com/us/app/tyme-2/id1063998403
+- https://itunes.apple.com/us/app/timelines-time-tracking/id1112433234
