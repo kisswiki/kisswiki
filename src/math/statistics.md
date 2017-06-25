@@ -30,3 +30,7 @@ Videos at http://callingbullshit.org/videos.html and at the course link on youtu
 Calling BS on big data is really important, but this article is weak. The New Yorker should be doing better. Try Weapons of Math Destruction by Cathy O'Neill for a much more informed critique.
 
 https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815
+
+###
+
+In God we trust, all others must bring data.
