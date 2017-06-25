@@ -33,4 +33,10 @@ https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/05534188
 
 ###
 
-In God we trust, all others must bring data.
+There's a famous saying, I forget who said it: "In God we trust, all others must bring data."
+This suggests "data," as a thing, is infallible. Or that data holds _The Truth_.
+Problem is, as a data scientist, I've become very skeptical that either is true. Not that data is useless, but mostly that if there's unequivocal truth in data it will remain unfound because those searching for it operate under such profound bias that they will be incapable of either a) finding the truth, or b) recognizing it.
+The better quote, which can be broadly applied to anything data-related, is: "All models are wrong, but some are still useful."
+Usually, I look at data as presenting only one side of the story. And models as hopefully useful, if used with caution. The proof is always in the pudding: do actions derived from our understanding of the data yield results? If "yes" then our understanding of the data contains some difficult to quantify level of truth. Do our classification, clustering, and prediction techniques work? If "yes" than our models reflect some of the truth (never all of it).
+In my six years since college, and going on three as a data scientist, I've become convinced that intentionally (or not) a great deal of analysis and modeling (including machine learning models) is fundamentally wrong. Sometimes because the practitioner, with the best of intentions, screwed up (all too easy to do), and often because the practitioner used the data to tell whatever story they wanted to. You can usually manipulate any given data set into giving the answer you, or your boss, or your boss's boss, thinks is the "right" answer. And even if you come to the data with the purest intentions you'll often find "the truth"--only to have application and time prove it wrong.
+My assessment: data is slippery, and often like wrestling snakes. Or, it's the modern version of panning for gold. We can make ourselves, or the business, much richer when we find those rare nuggets within the data which prove, with application and time, to reflect some measure of truth. The proof is always in the pudding.
