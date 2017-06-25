@@ -1,1 +1,2 @@
-inaczej pewnik
+- inaczej pewnik
+- zdanie przyjmowane z góry jako prawdziwe
