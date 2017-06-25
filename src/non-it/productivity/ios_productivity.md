@@ -3,3 +3,4 @@
 - Geno: To Do Task List and Calendar Manager
 - Timepage - Calendar by Moleskine
 - OmniFocus 2
+- Superday
