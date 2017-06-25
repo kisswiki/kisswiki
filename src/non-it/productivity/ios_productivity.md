@@ -6,3 +6,4 @@
 - Superday
 - Time – Beat Procrastination with AI
 - Timelogger: Time Tracking for Freelance & Routines
+- Chronoplan - Timers
