@@ -5,6 +5,10 @@
 
 ###
 
+Once you understand Simpson's Paradox and Anscombe's Quartet, you will simply never believe any statistics that anyone shows you ever. Infact you will probably never even believe your own calculations, and that's a good thing if it keeps you on your toes.
+
+###
+
 The UW class, Calling Bullshit in the Age of Big Data
 http://callingbullshit.org/syllabus.html
 
