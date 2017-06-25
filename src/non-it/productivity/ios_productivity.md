@@ -5,3 +5,4 @@
 - OmniFocus 2
 - Superday
 - Time – Beat Procrastination with AI
+- Timelogger: Time Tracking for Freelance & Routines
