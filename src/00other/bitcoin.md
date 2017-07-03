@@ -11,3 +11,5 @@
 >Bitcoin — which is the most popular digital money — has all of these properties and more. In fact, by using the blockchain as its core technology, Bitcoin has fundamentally altered our relationship to value.
 >
 >-- https://toa.life/forget-self-driving-cars-make-way-for-self-paying-cars-d41858734cf
+
+- analyzing cryptocurrencies with postgresql https://news.ycombinator.com/item?id=14655382
