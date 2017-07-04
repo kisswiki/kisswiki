@@ -16,5 +16,6 @@
     },
     "editor.wordWrap": "on",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true
 }
