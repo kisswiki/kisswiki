@@ -14,3 +14,4 @@ server.route({
 
 - https://futurestud.io/tutorials/hapi-how-to-serve-static-files-images-js-etc
 - https://hapijs.com/tutorials/serving-files
+- https://github.com/hapijs/inert
