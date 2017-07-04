@@ -41,3 +41,9 @@ and not this
   }
 }
 ```
+
+## babelify before envify/localenvify
+
+>inverting envify and babelify order it works
+
+https://github.com/babel/babelify/issues/185#issuecomment-189695102
