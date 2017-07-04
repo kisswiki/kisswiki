@@ -1,5 +1,6 @@
 ## Static
 
+```javascript
 server.route({  
   method: 'GET',
   path: '/js/{file*}',
@@ -9,5 +10,6 @@ server.route({
     }
   }
 })
+```
 
 https://futurestud.io/tutorials/hapi-how-to-serve-static-files-images-js-etc
