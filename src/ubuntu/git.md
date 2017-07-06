@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/9717137/displaying-git-branch-name-in-prompt-does-not-work-in-screen/16252145#16252145
