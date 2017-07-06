@@ -1,3 +1,2 @@
 - https://webpack.js.org/plugins/define-plugin
-- 
-- 
+- https://stackoverflow.com/questions/30835213/react-from-npm-cannot-be-used-on-the-client-because-development-is-not-defined
