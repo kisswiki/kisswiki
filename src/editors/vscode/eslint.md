@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/41150726/vs-code-space-before-function-parentheses
