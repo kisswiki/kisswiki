@@ -20,3 +20,7 @@ So I have gotten around this issue a little bit by turning on:
 `"eslint.autoFixOnSave": true`
 
 https://github.com/Microsoft/TypeScript/issues/12234#issuecomment-266077638
+
+## overwrite rules
+
+https://stackoverflow.com/questions/35737094/how-to-configure-the-eslint-extension-in-vscode
