@@ -1,3 +1,17 @@
+## format on save and eslint with prettier
+
+https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+```
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true
+```
+
+https://hackernoon.com/configure-eslint-prettier-and-flow-in-vs-code-for-react-development-c9d95db07213
+
+
+## without prettier
+
 - https://stackoverflow.com/questions/41150726/vs-code-space-before-function-parentheses
 
 So I have gotten around this issue a little bit by turning on:
