@@ -7,6 +7,8 @@ https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
   "prettier.eslintIntegration": true
 ```
 
+>prettier-eslint-code is: Please use the following package: prettier-vscode (ext install prettier-vscode). This package is deprecated and won't be maintained anymore.
+
 https://hackernoon.com/configure-eslint-prettier-and-flow-in-vs-code-for-react-development-c9d95db07213
 
 
