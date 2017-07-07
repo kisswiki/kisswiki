@@ -42,6 +42,14 @@ changes to
       </div>
 ```
 
+### Problem 2
+
+- usuwa nawiasy z jednoargumentowych arrow functions https://github.com/prettier/prettier/issues/812
+
+### Problem 3
+
+- usuwa nawiasy z jsx https://github.com/prettier/prettier/pull/2398
+
 ### Editor needs it's own formatter
 
 >WebStorm has code style options that are applied when generating the code, autocompleting it or on typing. I understand that you can reformat all this new code later with Prettier (in the IDE or outside of it), but it seems that it would be better if the IDE produces the code that is valid or almost valid in the first place. Unlike an editor, WebStorm has a rather wide set of code style options, including many options for wrapping the code.
