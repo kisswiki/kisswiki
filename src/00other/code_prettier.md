@@ -1,6 +1,8 @@
 ## Prettier
 
-https://github.com/prettier/prettier
+- https://github.com/prettier/prettier
+- http://jlongster.com/A-Prettier-Formatter
+- https://news.ycombinator.com/item?id=13365470
 
 ### Problem 1
 
