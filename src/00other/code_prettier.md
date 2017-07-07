@@ -46,6 +46,12 @@ changes to
 
 - usuwa nawiasy z jednoargumentowych arrow functions https://github.com/prettier/prettier/issues/812
 
+Consistent with airbnb style guide https://github.com/airbnb/javascript#arrows--one-arg-parens
+
+.eslintrc
+
+`    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],`
+
 ### Problem 3
 
 - usuwa nawiasy z jsx https://github.com/prettier/prettier/pull/2398
