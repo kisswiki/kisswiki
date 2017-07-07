@@ -3,6 +3,7 @@
 - https://github.com/prettier/prettier
 - http://jlongster.com/A-Prettier-Formatter
 - https://news.ycombinator.com/item?id=13365470
+- https://github.com/prettier/prettier-eslint-cli
 
 ### Problem 1
 
