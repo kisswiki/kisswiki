@@ -6,7 +6,7 @@
 
 ## prettier-eslint-cli
 
---list-different
+`--list-different`
 
 Instead of printing the formatted version of the files to the terminal, prettier-eslint will log the name of the files that are different from the expected formatting. This can be usefull when using prettier-eslint in a version control system hook to inform the committer which files need to be formatted.
 
