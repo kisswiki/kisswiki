@@ -1,0 +1,48 @@
+## Prettier
+
+https://github.com/prettier/prettier
+
+### Problem 1
+
+this
+
+```
+      <div className="navigation">
+        { !account && (
+          <img
+            src={SignInImage}
+            alt="Sign in"
+            onClick={openSignInModal}
+            className="navigation__sign-in"
+          />
+        )}
+        { account && (
+          <div>
+            <span>Welcome {account.firstName} {account.lastName}</span>
+            <button onClick={signOut}>Log out</button>
+          </div>
+        )}
+      </div>
+```
+
+changes to
+
+```
+      <div className="navigation">
+        {!account && <img src={SignInImage} alt="Sign in" onClick={openSignInModal} className="navigation__sign-in" />}
+        {account &&
+          <div>
+            <span>
+              Welcome {account.firstName} {account.lastName}
+            </span>
+            <button onClick={signOut}>Log out</button>
+          </div>}
+      </div>
+```
+
+### Editor needs it's own formatter
+
+>WebStorm has code style options that are applied when generating the code, autocompleting it or on typing. I understand that you can reformat all this new code later with Prettier (in the IDE or outside of it), but it seems that it would be better if the IDE produces the code that is valid or almost valid in the first place. Unlike an editor, WebStorm has a rather wide set of code style options, including many options for wrapping the code.
+This is the approach WebStorm is following with the tools like ESLint and Standard: the IDE matches the rules defined by the linters to its own code style settings, all the other errors are fixed by the tool itself (if fixable) or manually.
+
+https://github.com/prettier/prettier/issues/2380#issuecomment-312741247
