@@ -1,0 +1,3 @@
+- https://askubuntu.com/questions/30334/what-application-indicators-are-available/40019#40019
+  - https://askubuntu.com/questions/29757/what-can-replace-system-monitoring-in-the-top-gnome-panel-in-unity/35733#35733
+    - https://askubuntu.com/questions/77882/adding-a-cpu-monitor-widget-in-the-top-corner-like-in-gnome2/77885#77885
