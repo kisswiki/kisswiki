@@ -18,3 +18,7 @@ export function signIn (data) {
 takeEvery(SIGN_IN, authentication.authenticate, apiService),
 
 ```
+
+## takeEvery has been cancelled, uncaught
+
+When some action can throw js error, has to be wrapped with `try .. catch`.
