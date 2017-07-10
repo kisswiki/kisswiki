@@ -27,3 +27,9 @@ No need to reload postgres on Windows (?). On Linux:
 - connecting user must be the same as os user: peer
 
 https://dba.stackexchange.com/questions/83164/remove-password-requirement-for-user-postgres/83233#83233
+
+## check if user has LOGIN priviliege
+
+`postgres=# \du`
+
+https://unix.stackexchange.com/questions/201666/command-to-list-postgresql-user-accounts
