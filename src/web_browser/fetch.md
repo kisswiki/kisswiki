@@ -1,3 +1,4 @@
+- https://medium.com/@shahata/why-i-wont-be-using-fetch-api-in-my-apps-6900e6c6fe78
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Basic_concepts
 - http://seanamarasinghe.com/developer/fetch-api/
