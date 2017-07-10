@@ -30,6 +30,12 @@ https://dba.stackexchange.com/questions/83164/remove-password-requirement-for-us
 
 ## check if user has LOGIN priviliege
 
-`postgres=# \du`
+If not, add it.
 
-https://unix.stackexchange.com/questions/201666/command-to-list-postgresql-user-accounts
+```psql
+postgres=# \du
+postgres=# alter role someuser login;
+```
+
+- https://unix.stackexchange.com/questions/201666/command-to-list-postgresql-user-accounts
+- https://stackoverflow.com/questions/23641823/check-if-a-role-in-postgresql-has-a-password-set
