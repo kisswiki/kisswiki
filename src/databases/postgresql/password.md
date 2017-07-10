@@ -14,9 +14,12 @@ https://stackoverflow.com/questions/12720967/how-to-change-postgresql-user-passw
 
 change to `trust` in `pg_hba.conf` for ipv4 and ipv6.
 
-No need to reload postgres.
+No need to reload postgres on Windows (?). On Linux:
 
-https://dba.stackexchange.com/questions/83164/remove-password-requirement-for-user-postgres
+`sudo service postgresql restart`
+
+- https://dba.stackexchange.com/questions/83164/remove-password-requirement-for-user-postgres
+- https://stackoverflow.com/questions/12720967/how-to-change-postgresql-user-password
 
 ## password types
 
