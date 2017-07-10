@@ -25,3 +25,5 @@ No need to reload postgres on Windows (?). On Linux:
 
 - password managed by postgresql: md5
 - connecting user must be the same as os user: peer
+
+https://dba.stackexchange.com/questions/83164/remove-password-requirement-for-user-postgres/83233#83233
