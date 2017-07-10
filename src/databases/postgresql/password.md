@@ -8,6 +8,11 @@ https://askubuntu.com/questions/256534/how-do-i-find-the-path-to-pg-hba-conf-fro
 
 ## set password for postgres
 
+```
+sudo -u postgres psql postgres
+\password
+```
+
 https://stackoverflow.com/questions/12720967/how-to-change-postgresql-user-password
 
 ## no password checking
