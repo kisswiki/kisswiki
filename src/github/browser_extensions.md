@@ -1,0 +1,1 @@
+- https://github.com/stefanbuck/awesome-browser-extensions-for-github
