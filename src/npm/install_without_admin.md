@@ -1,6 +1,6 @@
 ```bash
 npm config set prefix '~/.npm-packages'
-echo export PATH=\$PATH:\~/.npm-packages/bin >> ~/.bashrc
+echo export PATH=\~/.npm-packages/bin:\$PATH >> ~/.bashrc
 . ~/.bashrc
 ```
 
