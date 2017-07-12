@@ -13,4 +13,6 @@
 }
 ```
 
-https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+- https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+- https://code.visualstudio.com/docs/languages/javascript#_debugging
+
