@@ -8,6 +8,7 @@
 - https://chrome.google.com/webstore/detail/tab-counter/feeoiklfggbaibpdhkkngbpkppdmcjal
 - https://chrome.google.com/webstore/detail/reddit-hide-sidebar/kmhljmlnmkpkfidhceknegheeplgmngg
 - remove google redirection https://chrome.google.com/webstore/detail/remove-redirects/bckcmceomgfhebkfbogignipjenidnmp/related
+- full page screenshot with keyboard shortcut: Take Webpage Screenshots Entirely - FireShot https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg
 
 ### facebook
 
