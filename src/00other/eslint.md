@@ -90,6 +90,8 @@ https://github.com/killercup/cycle-webpack-starter/blob/master/.eslintrc
 
 ## git hook
 
+`git-hooks/pre-commit`:
+
 ```bash
 #!/usr/bin/env bash
 frontendFiles=$(git diff --cached --name-only | grep 'frontend/src/.*\.js')
