@@ -83,3 +83,8 @@ http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-
 ```
 
 https://github.com/killercup/cycle-webpack-starter/blob/master/.eslintrc
+
+## const must be uppercase for some cases
+
+- https://github.com/k03mad/eslint-plugin-const-case
+
