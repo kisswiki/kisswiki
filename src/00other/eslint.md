@@ -88,3 +88,39 @@ https://github.com/killercup/cycle-webpack-starter/blob/master/.eslintrc
 
 - https://github.com/k03mad/eslint-plugin-const-case
 
+## git hook
+
+```bash
+#!/usr/bin/env bash
+frontendFiles=$(git diff --cached --name-only | grep 'frontend/src/.*\.js')
+backendFiles=$(git diff --cached --name-only | grep 'backend/app/.*\.js')
+
+if [[ $frontendFiles = "" && $backendFiles = "" ]] ; then
+ exit 0
+fi
+
+echo "Running eslint..."
+
+result=0
+
+for file in ${frontendFiles}; do
+ out=`./frontend/node_modules/.bin/eslint $file`
+ if [[ $out != "" ]] ; then
+ result=1
+ echo "$out"
+ fi
+done;
+
+for file in ${backendFiles}; do
+ out=`./backend/node_modules/.bin/eslint $file`
+ if [[ $out != "" ]] ; then
+ result=1
+ echo "$out"
+ fi
+done;
+
+if [[ $result != 0 ]] ; then
+ echo "ESLint check failed, commit denied"
+ exit $result
+fi
+```
