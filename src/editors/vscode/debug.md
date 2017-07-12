@@ -1,5 +1,6 @@
 ## launch with npm
 
+```
 {
     "name": "Launch via NPM",
     "type": "node",
@@ -10,3 +11,6 @@
         "run-script", "start:dev"
     ]
 }
+```
+
+https://code.visualstudio.com/docs/nodejs/nodejs-debugging
