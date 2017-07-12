@@ -36,7 +36,7 @@ sudo apt-get upgrade       # Strictly upgrades the current packages
 sudo apt-get dist-upgrade  # Installs updates (new ones)
 ```
 
-## updagre release
+## upgrade release
 
 - http://askubuntu.com/questions/110477/how-do-i-upgrade-to-a-newer-version-of-ubuntu
 - http://askubuntu.com/questions/5763/upgrading-from-the-command-line
@@ -47,3 +47,9 @@ sudo apt-get dist-upgrade  # Installs updates (new ones)
 sudo apt-get --purge autoremove
 sudo apt-get clean all
 ```
+
+## update single package
+
+`apt-get install --only-upgrade <packagename>`
+
+https://askubuntu.com/questions/44122/how-to-upgrade-a-single-package-using-apt-get
