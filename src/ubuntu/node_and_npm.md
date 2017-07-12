@@ -1,1 +1,2 @@
 - https://github.com/nodesource/distributions#deb
+- manually add key and server https://askubuntu.com/questions/594656/how-to-install-the-latest-versions-of-nodejs-and-npm-for-ubuntu-14-04-lts/711976#711976
