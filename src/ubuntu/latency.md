@@ -1,0 +1,6 @@
+- http://www.hecticgeek.com/2014/10/change-disk-i-0-scheduler-cfq-ubuntu-14-10/
+- https://askubuntu.com/questions/78682/how-do-i-change-to-the-noop-scheduler
+- https://serverfault.com/questions/122697/check-history-of-cpu-memory-usage-in-ubuntu
+- https://askubuntu.com/questions/345444/high-cpu-usage-even-when-no-application-is-runningdesktop
+- https://serverfault.com/questions/387268/linux-cpu-usage-and-process-execution-history
+- https://askubuntu.com/questions/22021/how-to-log-cpu-load
