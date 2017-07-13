@@ -10,4 +10,5 @@ create a [jsconfig.json file](https://code.visualstudio.com/Docs/languages/javas
 }
 ```
 
-https://github.com/Microsoft/vscode/issues/28097
+- https://github.com/Microsoft/vscode/issues/28097
+- https://stackoverflow.com/questions/29953293/is-there-a-way-to-turn-on-es6-es7-syntax-support-in-vscode
