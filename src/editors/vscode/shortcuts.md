@@ -84,3 +84,11 @@ https://johnpapa.net/getting-started-with-visual-studio-code/
     }
 ]
 ```
+
+## don't close window with ctrl+w when no files open
+
+`{ "key": "ctrl+w", "command": "-workbench.action.closeWindow", "when": "!editorIsOpen" }`
+
+close window with `ctrl+shift+w`.
+
+https://github.com/Microsoft/vscode/issues/1764#issuecomment-230674122
