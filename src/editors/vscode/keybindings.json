@@ -1,0 +1,13 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "editor.action.joinLines"
+    },
+    { "key": "cmd+w", "command": "-workbench.action.closeWindow", "when": "!editorIsOpen" }
+]
