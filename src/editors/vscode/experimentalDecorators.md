@@ -6,7 +6,10 @@ create a [jsconfig.json file](https://code.visualstudio.com/Docs/languages/javas
 {
   "compilerOptions": {
       "experimentalDecorators": true
-  }
+  },
+  "exclude": [
+      "node_modules"
+  ]
 }
 ```
 
