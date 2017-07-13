@@ -54,4 +54,6 @@ sudo apt-get clean all
 
 https://askubuntu.com/questions/44122/how-to-upgrade-a-single-package-using-apt-get
 
-## 
+## list installed packages
+
+`apt list --installed | grep postg`
