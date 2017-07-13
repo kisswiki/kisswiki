@@ -34,3 +34,15 @@ Once the correct hash is found, the transaction and the hash are permanently sto
 Thus, "bitcoin mining" is actually a slight misnomer. Its other equally important purpose is "bitcoin transaction securing."
 
 https://www.reddit.com/r/explainlikeimfive/comments/1b689q/eli5_this_bitcoin_mining_thing_again/
+
+##
+
+For a decentralized currency we need to reach consensus between unkown and probably adverse distributed systems. Bitcoin mining is a brilliant solution to the Byzantine Generals' Problem:
+The Byzantine Generals' Problem roughly goes as follows: N Generals have their armies camped outside a city they want to invade. They know their numbers are strong enough that if at least 1/2 of them attack at the same time they'll be victorious. But if they don't coordinate the time of attack, they'll be spread too thin and all die. They also suspect that some of the Generals might be disloyal and send fake messages. Since they can only communicate by messenger, they have no means to verify the authenticity of a message. How can such a large group reach consensus on the time of attack without trust or a central authority, especially when faced with adversaries intent on confusing them?
+Bitcoin's solution is this: All of the Generals start working on a mathematical problem that statistically should take 10 minutes to solve if all of them worked on it. Once one of them finds the solution, she broadcasts that solution to all the other Generals. Everyone then proceeds to extending that solution - which again should take another ten minutes. Every General always starts working on extending the longest solution he's seen. After a solution has been extended 12 times, every General can be certain that no attacker controlling less than half the computational resources could have created another chain of similar length. The existence of the 12-block chain is proof that a majority of them has participated in its creation. We call this a proof-of-work scheme.
+
+- http://paulbohm.com/articles/bitcoins-value-is-decentralization/
+- http://en.wikipedia.org/wiki/Byzantine_fault_tolerance
+
+https://www.reddit.com/r/explainlikeimfive/comments/1b689q/eli5_this_bitcoin_mining_thing_again/
+
