@@ -1,0 +1,19 @@
+## What is `getComponent` in react-router?
+
+>In React Router v2 and v3, we can use the getComponent method on routes to load split-out code bundles in parallel. There is no API for displaying feedback during this. After the code bundles have been loaded, we can use the Router middleware API to fetch data for all the routes in parallel. At this point, we can display loading state. https://medium.com/@taion/react-routing-and-data-fetching-ec519428135c
+
+>react-router lets us asynchronously specify components of <Route>s with a prop called getComponent. It takes a function with a location and a callback argument. react-router will only render ourComponent when we run callback(null, ourComponent). http://mxstbr.blog/2016/01/react-apps-with-pages/
+
+```javascript
+export default store => ({
+  path: '/booking/tour-dates/:tourId',
+  getComponent (...args) {
+    const cb = args[1];
+    require.ensure([], (require) => {
+      const Container = require('./containers').default;
+
+      cb(null, Container);
+    }, 'tour-dates');
+  },
+});
+```
