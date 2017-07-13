@@ -7,3 +7,4 @@ sudo apt install postgresql
 
 - https://www.postgresql.org/download/linux/ubuntu/
 - https://askubuntu.com/questions/831292/how-to-install-postgresql-9-6-on-any-ubuntu-version
+- older version https://help.ubuntu.com/community/PostgreSQL
