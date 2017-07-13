@@ -18,3 +18,19 @@ To get a chance at winning the lottery, you need an expensive graphics card. Or 
 By the way, if a lot of people buy expensive graphics cards and participate in the lottery, it gets harder for a single person to win. Also, the lottery decreases. Currently you get 50 coins if you win the lottery. After four years, the winner gets only 25. Four years later, only 12½, then 6¼, and so on. In total there will ever be only 21 million coins. This is makes a Bitcoin 'better' than a dollar: in 100 years, a dollar will be worth very little because the government keeps printing more and more money, and your dollar will be less and less special. In 100 years, there will still be only 21 million bitcoins.
 
 https://www.reddit.com/r/explainlikeimfive/comments/j8la9/eli5_how_do_bitcoins_work/
+
+##
+
+It looks like there's still a bit of misinformation here, so I'll try to clear it up.
+The Big Picture
+Mining increases the bitcoin network's security and fights fraud by calculating what's effectively a checksum for transactions. By contributing their computing power to the bitcoin network for mining, individuals are rewarded with newly minted bitcoins by the community. This also provides a way to distribute new bitcoins in a fair manner.
+The Details
+Hash functions are at the heart of mining. A hash function is basically a complicated math formula that takes in some arbitrary input and gives a reproducible output. However, changing the input even slightly will completely alter the output. For example, using the SHA-256 hash function:
+SHA-256 of "Test" always outputs a hash of "532eaabd9574880dbf76b9b8cc00832c20a6ec113d682299550d7a6e0f345e25"
+SHA-256 of "test" (lowercase t) is "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
+Now, let's say Alice decides to pay Bob 10BTC. The bitcoin network basically records that in the public ledger of transactions as "Alice -> 10 -> Bob". However, right now someone could change that 10 to a 20 without consequence. The network has to have some way of checking if the recorded transaction is valid or fraudulent. That's where mining comes in.
+When Alice pays Bob those 10BTC, miners in the bitcoin network will try to hash the transaction "Alice -> 10 -> Bob", resulting in "aa314e08a642f5be3857276ecb4a4085a33b916f84aebef32a077df9c29949b3". However, mining has a requirement that the resulting hash must start with a certain number of 0's (depending on the network's hash speed). Thus, miners will slightly alter the transaction by adding a random number to the end like so: "Alice -> 10 -> Bob 12345". The miners will then hash it again and see if it has the required number of 0's. If not, it'll change the random number and hash it again. This is repeated until an acceptable hash is found.
+Once the correct hash is found, the transaction and the hash are permanently stored in the public ledger of transactions, and if anyone tries to change the transaction (i.e. changing the 10 to a 20), the hash will naturally mismatch and the network will know that that transaction is fake and will reject it. The miner who calculated the correct hash is rewarded a certain number of newly minted bitcoins and transaction fees for his contributions to the security of the network.
+Thus, "bitcoin mining" is actually a slight misnomer. Its other equally important purpose is "bitcoin transaction securing."
+
+https://www.reddit.com/r/explainlikeimfive/comments/1b689q/eli5_this_bitcoin_mining_thing_again/
