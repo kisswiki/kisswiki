@@ -8,10 +8,12 @@ create a [jsconfig.json file](https://code.visualstudio.com/Docs/languages/javas
       "experimentalDecorators": true
   },
   "exclude": [
-      "node_modules"
+      "backend/node_modules",
+      "frontend/node_modules"
   ]
 }
 ```
 
 - https://github.com/Microsoft/vscode/issues/28097
 - https://stackoverflow.com/questions/29953293/is-there-a-way-to-turn-on-es6-es7-syntax-support-in-vscode
+- To enable project-wide JavaScript/TypeScript language features, exclude large folders with source files that you do not work on. https://github.com/Microsoft/vscode/issues/9594
