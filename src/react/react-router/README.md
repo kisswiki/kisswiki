@@ -38,4 +38,6 @@ Note: The third argument of require.ensure is the name of the module. This is op
 
 The require.ensure function accepts an additional 3rd parameter. This must be a string. If two split point pass the same string they use the same chunk.
 
-https://webpack.github.io/docs/code-splitting.html
+- https://webpack.github.io/docs/code-splitting.html
+- https://stackoverflow.com/questions/36311506/named-chunk-on-asynchronous-module-loading
+- https://survivejs.com/webpack/building/bundle-splitting/
