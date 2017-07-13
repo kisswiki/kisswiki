@@ -41,3 +41,4 @@ The require.ensure function accepts an additional 3rd parameter. This must be a 
 - https://webpack.github.io/docs/code-splitting.html
 - https://stackoverflow.com/questions/36311506/named-chunk-on-asynchronous-module-loading
 - https://survivejs.com/webpack/building/bundle-splitting/
+- https://formidable.com/open-source/playbook/docs/frontend/webpack-code-splitting/
