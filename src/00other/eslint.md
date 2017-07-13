@@ -86,6 +86,31 @@ https://github.com/killercup/cycle-webpack-starter/blob/master/.eslintrc
 
 ## const must be uppercase for some cases
 
+Usages (top 4 have to uppercase):
+
+```
+const FOO = 'bar';
+const FOO = 42;
+const FOO = ['bar', 42];
+const FOO = {bar: 42, baz: 'qux'};
+
+const foo = `42 ${bar}`;
+const foo = bar();
+const foo = bar ? baz : 42;
+const foo = bar.baz();
+const foo = bar => baz;
+const foo = {bar: baz};
+const foo = [bar, baz, 42];
+```
+
+Also this errors:
+
+`const WEEK_IN_MS = 1000 * 60 * 60 * 24 * 7;`
+
+so can be changed to:
+
+`const WEEK_IN_MS = 1000 * 60 * 60 * 24 * 7; // eslint-disable-line`
+
 - https://github.com/k03mad/eslint-plugin-const-case
 
 ## git hook
