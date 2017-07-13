@@ -29,6 +29,7 @@
 ```
 
 - https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+- https://github.com/Microsoft/vscode-node-debug/blob/master/.vscode/launch.json#L29
 
 ## debug javascript
 
