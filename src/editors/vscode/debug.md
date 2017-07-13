@@ -1,5 +1,7 @@
 ## launch with npm
 
+npm way doesn't work, only direct script running.
+
 ```
 {
     // Use IntelliSense to learn about possible Node.js debug attributes.
