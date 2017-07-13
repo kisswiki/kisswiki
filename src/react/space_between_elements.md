@@ -15,3 +15,5 @@ If you want whitespace between elements which appear on different lines, you can
   <span>1</span> <span>2</span> <span>3</span>
 </div>
 ```
+
+https://stackoverflow.com/questions/32686728/how-to-avoid-jsx-component-from-condensing-when-react-js-rendering-it
