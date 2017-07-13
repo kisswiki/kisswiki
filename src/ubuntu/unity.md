@@ -6,3 +6,5 @@
 `CompizConfig > Application Switcher > Zoom (Powiększnie): 0`
 
 `CompizConfig > Application Switcher > Brightness (Jasność): 100`
+
+- https://askubuntu.com/questions/370752/how-to-disable-unity-window-open-close-animation-no-third-party-software
