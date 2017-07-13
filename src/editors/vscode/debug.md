@@ -8,6 +8,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}/backend/index.js",
+            "cwd": "${workspaceRoot}/backend",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "Launch via NPM",
             "type": "node",
             "request": "launch",
@@ -16,14 +24,8 @@
             "runtimeArgs": [
                 "run-script", "start:dev"
             ]
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceRoot}/backend/index.js",
-            "cwd": "${workspaceRoot}/backend"
         }
+
     ]
 }
 ```
