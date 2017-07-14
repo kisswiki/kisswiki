@@ -19,4 +19,5 @@ class appTemplate extends React.Component {
 }
 ```
 
-https://stackoverflow.com/questions/40054774/how-can-i-pass-props-to-children-of-react-router
+- https://stackoverflow.com/questions/40054774/how-can-i-pass-props-to-children-of-react-router
+- https://stackoverflow.com/questions/35835670/react-router-and-this-props-children-how-to-pass-state-to-this-props-children
