@@ -20,4 +20,7 @@ class appTemplate extends React.Component {
 ```
 
 - https://stackoverflow.com/questions/40054774/how-can-i-pass-props-to-children-of-react-router
-- https://stackoverflow.com/questions/35835670/react-router-and-this-props-children-how-to-pass-state-to-this-props-children
+- https://stackoverflow.com/questions/35835670/react-router-and-this-props-children-how-to-pass-state-to-this-props-children    
+
+>Children.map [...]. This is needed, typically because children can be an object or an array, and in the latter case, you clone each element.
+https://stackoverflow.com/questions/35835670/react-router-and-this-props-children-how-to-pass-state-to-this-props-children#comment59338544_35835837
