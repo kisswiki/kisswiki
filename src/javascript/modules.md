@@ -10,6 +10,7 @@ const React = require( 'react' );
 
 `import { ... }` imports specific named exports from the namespace, roughly like destructuring.
 
+
 ```
 import { createElement } from 'react';
 
@@ -31,3 +32,30 @@ const React = require( 'react' ).default;
 ```
 
 https://github.com/rollup/rollup/issues/437#issuecomment-172785461
+
+## ex1
+
+file1.js
+
+```javascript
+const setBookingStepEnhancer = step => compose(
+  withState('step', 'setStep', step),
+  lifecycle({
+    componentDidMount () {
+      this.props.setBookingStep(this.props.step);
+    },
+  }),
+);
+
+export default {
+  asdasd: 'asdasd',
+  setBookingStepEnhancer,
+};
+```
+
+```javascript
+import * as file1 from 'file1';
+console.log(file1); // Object {asdasd: "asdasd", setBookingStepEnhancer: function}
+```
+
+##
