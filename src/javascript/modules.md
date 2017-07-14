@@ -59,3 +59,26 @@ console.log(file1); // Object {asdasd: "asdasd", setBookingStepEnhancer: functio
 ```
 
 ## ex2
+
+file1.js
+
+```javascript
+const setBookingStepEnhancer = step => compose(
+  withState('step', 'setStep', step),
+  lifecycle({
+    componentDidMount () {
+      this.props.setBookingStep(this.props.step);
+    },
+  }),
+);
+
+export default {
+  asdasd: 'asdasd',
+  setBookingStepEnhancer,
+};
+```
+
+```javascript
+import { setBookingStepEnhancer } from 'file1';
+console.log(setBookingStepEnhancer); // undefined
+```
