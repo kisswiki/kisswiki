@@ -85,7 +85,8 @@ console.log(setBookingStepEnhancer); // undefined
 
 >The reason you can't destructure directly in the import statement is because of the static syntax for named imports, such as import {foo} from "bar";. That is determined at compile time, and the linking itself is done at compile time.
 
-https://esdiscuss.org/topic/import-statements-destructuring
+- https://esdiscuss.org/topic/import-statements-destructuring
+- https://mail.mozilla.org/pipermail/es-discuss/2015-October/044437.html
 
 >the {} syntax in imports is for "named" imports and is not destructuring even though it looks like it or seems similar. You can always destructure in another statement though afterwards.
 
