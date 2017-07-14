@@ -2,7 +2,7 @@
 
 `import * as ...` imports the entire namespace. These are roughly equivalent.
 
-```
+```javascript
 import * as React from 'react';
 
 const React = require( 'react' );
