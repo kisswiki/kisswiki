@@ -82,3 +82,7 @@ export default {
 import { setBookingStepEnhancer } from 'file1';
 console.log(setBookingStepEnhancer); // undefined
 ```
+
+>The reason you can't destructure directly in the import statement is because of the static syntax for named imports, such as import {foo} from "bar";. That is determined at compile time, and the linking itself is done at compile time.
+
+https://esdiscuss.org/topic/import-statements-destructuring
