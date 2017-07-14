@@ -58,4 +58,4 @@ import * as file1 from 'file1';
 console.log(file1); // Object {asdasd: "asdasd", setBookingStepEnhancer: function}
 ```
 
-##
+## ex2
