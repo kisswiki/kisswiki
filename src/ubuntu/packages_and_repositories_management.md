@@ -63,3 +63,9 @@ https://askubuntu.com/questions/44122/how-to-upgrade-a-single-package-using-apt-
 `apt-get remove --auto-remove packagename`
 
 https://askubuntu.com/questions/443/how-to-remove-an-uninstalled-packages-dependencies
+
+## Discover what package a file belongs to
+
+`dpkg -S`
+
+https://superuser.com/questions/10997/find-what-package-a-file-belongs-to-in-ubuntu-debian/11003#11003
