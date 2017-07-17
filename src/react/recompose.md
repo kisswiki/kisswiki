@@ -1,3 +1,5 @@
+- https://pusher.com/sessions/meetup/react-vienna/recompose-to-simplicity-and-beyond
+
 ##
 
 ```javascript
@@ -23,3 +25,8 @@ const enhance = compose(
 ```
 
 https://stackoverflow.com/questions/41651283/how-do-i-setstate-within-reacts-recomposes-lifecycle-method
+
+## alternatives
+
+- https://github.com/neoziro/recompact
+- https://github.com/wikiwi/reassemble
