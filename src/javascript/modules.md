@@ -116,3 +116,9 @@ export { D as default };
 ```
 
 http://2ality.com/2014/09/es6-modules-final.html
+
+##
+
+`export {fetchUtil as fetch, post, put, get}`
+
+https://stackoverflow.com/questions/40086681/named-export-and-default-export-as-the-same-time
