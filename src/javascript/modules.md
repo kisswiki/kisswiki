@@ -93,3 +93,26 @@ console.log(setBookingStepEnhancer); // undefined
 >the {} syntax in imports is for "named" imports and is not destructuring even though it looks like it or seems similar. You can always destructure in another statement though afterwards.
 
 https://github.com/babel/babel/issues/4996#issuecomment-267024616
+
+
+The default export is just another named export  
+
+The default export is actually just a named export with the special name default. That is, the following two statements are equivalent:
+
+```javascript
+import { default as foo } from 'lib';
+import foo from 'lib';
+```
+
+Similarly, the following two modules have the same default export:
+
+```javascript
+//------ module1.js ------
+export default 123;
+
+//------ module2.js ------
+const D = 123;
+export { D as default };
+```
+
+http://2ality.com/2014/09/es6-modules-final.html
