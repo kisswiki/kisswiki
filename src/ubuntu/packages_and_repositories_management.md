@@ -57,3 +57,9 @@ https://askubuntu.com/questions/44122/how-to-upgrade-a-single-package-using-apt-
 ## list installed packages
 
 `apt list --installed | grep postg`
+
+## remove package with dependencies
+
+`apt-get remove --auto-remove packagename`
+
+https://askubuntu.com/questions/443/how-to-remove-an-uninstalled-packages-dependencies
