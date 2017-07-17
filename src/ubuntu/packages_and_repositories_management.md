@@ -66,6 +66,6 @@ https://askubuntu.com/questions/443/how-to-remove-an-uninstalled-packages-depend
 
 ## Discover what package a file belongs to
 
-`dpkg -S`
+`dpkg -S /usr/bin/ls`
 
 https://superuser.com/questions/10997/find-what-package-a-file-belongs-to-in-ubuntu-debian/11003#11003
