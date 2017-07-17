@@ -1,4 +1,5 @@
 - https://pusher.com/sessions/meetup/react-vienna/recompose-to-simplicity-and-beyond
+- http://blog.krawaller.se/posts/5-reasons-not-to-use-es6-classes-in-react/
 
 ##
 
