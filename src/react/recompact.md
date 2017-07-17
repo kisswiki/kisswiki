@@ -1,4 +1,4 @@
-withState updater doesn't invoke a state changing callback
+## withState updater doesn't invoke a state changing callback
 
 In the meantime, you may want to use Recompose's setState (Recompose and Recompact are able to work alongside each other).
 
