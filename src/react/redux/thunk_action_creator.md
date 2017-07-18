@@ -32,7 +32,7 @@ https://github.com/voronianski/flux-comparison/tree/master/redux
 <Todo key={todo.id} {...todo} onClick={() => onTodoClick(todo.id)} />
 
 cosnt onTodoClick = id => {
-      dispatch(toggleTodo(id))
+  dispatch(toggleTodo(id))
 }
 ```
 
