@@ -1,0 +1,2 @@
+- hoc explained https://medium.freecodecamp.org/understanding-higher-order-components-6ce359d761b
+- Write a Higher Order Component from Scratch https://github.com/acdlite/recompose/wiki/Recipes#write-a-higher-order-component-from-scratch
