@@ -27,7 +27,6 @@ export function addToCart(productId) {
 ```
 
 ```javascript
-
 <Todo key={todo.id} {...todo} onClick={() => onTodoClick(todo.id)} />
 
 cosnt onTodoClick = id => {
