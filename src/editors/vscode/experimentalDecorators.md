@@ -5,7 +5,8 @@ create a [jsconfig.json file](https://code.visualstudio.com/Docs/languages/javas
 ```json
 {
   "compilerOptions": {
-      "experimentalDecorators": true
+      "experimentalDecorators": true,
+      "baseUrl": "frontend/src"
   },
   "exclude": [
       "backend/node_modules",
