@@ -164,3 +164,15 @@ http://tips.tutorialhorizon.com/2017/05/04/how-to-run-eslint-recursively-on-all-
 
 https://github.com/eslint/eslint/issues/1663#issuecomment-240066799
 
+## disable partial in jsx
+
+```jsx
+    {/* eslint-disable camelcase */}
+    <input type="text" placeholder="ADDRESS OF RESIDENCE" name="address_line1" value={address_line1} onChange={onChange} />
+    <input type="text" placeholder="ADDRESS LINE 2" name="address_line2" value={address_line2} onChange={onChange} />
+    <input type="text" placeholder="CITY" name="address_city" value={address_city} onChange={onChange} />
+    <input type="text" placeholder="STATE" name="address_state" value={address_state} onChange={onChange} />
+    {/* eslint-enable camelcase */}
+```
+
+https://github.com/eslint/eslint/issues/7030
