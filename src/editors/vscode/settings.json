@@ -1,21 +1,27 @@
-// Place your settings in this file to overwrite the default settings
 {
-    "window.openFoldersInNewWindow": "on",
-    "window.newWindowDimensions": "maximized",
-    "workbench.editor.enablePreview": false,
-    "window.reopenFolders": "all",
-    "workbench.activityBar.visible": false,
-    "explorer.openEditors.visible": 0,
-    "workbench.colorTheme": "Oceanic Next No Italics",
-    "workbench.colorCustomizations": {
-        "editor.background": "#1B2B34",
-        "sideBar.background": "#1B2B34",
-        "statusBar.background": "#1B2B34",
-        "tab.inactiveBackground": "#111C22",
-        "editorGroupHeader.tabsBackground": "#1B2B34"
-    },
-    "editor.wordWrap": "on",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "editor.minimap.enabled": false,
-    "editor.formatOnSave": true
+  "workbench.welcome.enabled": false,
+  "window.openFoldersInNewWindow": "on",
+  "window.newWindowDimensions": "maximized",
+  "workbench.editor.enablePreview": false,
+  "window.reopenFolders": "all",
+  "workbench.activityBar.visible": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.colorTheme": "Oceanic Next No Italics",
+  "workbench.colorCustomizations": {
+    "editor.background": "#1B2B34",
+    "sideBar.background": "#1B2B34",
+    "statusBar.background": "#1B2B34",
+    "tab.inactiveBackground": "#111C22",
+    "editorGroupHeader.tabsBackground": "#1B2B34"
+  },
+  "editor.wordWrap": "on",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": false,
+  "eslint.autoFixOnSave": true,
+  "prettier.eslintIntegration": true,
+  "prettier.printWidth": 120,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true
 }
