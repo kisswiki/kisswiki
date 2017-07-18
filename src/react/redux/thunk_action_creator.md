@@ -26,6 +26,8 @@ export function addToCart(productId) {
 }
 ```
 
+https://github.com/voronianski/flux-comparison/tree/master/redux
+
 ```javascript
 <Todo key={todo.id} {...todo} onClick={() => onTodoClick(todo.id)} />
 
@@ -34,4 +36,5 @@ cosnt onTodoClick = id => {
 }
 ```
 
+https://github.com/reactjs/redux/blob/master/docs/basics/ExampleTodoList.md
 
