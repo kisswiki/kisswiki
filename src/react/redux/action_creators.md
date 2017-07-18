@@ -10,3 +10,5 @@ function addTodo(text) {
   }
 }
 ```
+
+http://redux.js.org/docs/basics/Actions.html
