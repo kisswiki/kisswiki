@@ -11,4 +11,5 @@ function addTodo(text) {
 }
 ```
 
-http://redux.js.org/docs/basics/Actions.html
+- http://redux.js.org/docs/basics/Actions.html
+- http://blog.isquaredsoftware.com/2016/10/idiomatic-redux-why-use-action-creators/
