@@ -1,3 +1,5 @@
+##
+
 functions that create actions
 
 In Redux action creators simply return an action:
@@ -11,7 +13,37 @@ function addTodo(text) {
 }
 ```
 
+In traditional Flux, action creators often trigger a dispatch when invoked, like so:
+
+```javascript
+function addTodoWithDispatch(text) {
+  const action = {
+    type: ADD_TODO,
+    text
+  }
+  dispatch(action)
+}
+```
+
+In Redux this is not the case.
+
+Instead, to actually initiate a dispatch, pass the result to the dispatch() function:
+
+```javascript
+dispatch(addTodo(text))
+dispatch(completeTodo(index))
+```
+
+Alternatively, you can create a bound action creator that automatically dispatches:
+
+```javascript
+const boundAddTodo = text => dispatch(addTodo(text))
+const boundCompleteTodo = index => dispatch(completeTodo(index))
+```
+
 - http://redux.js.org/docs/basics/Actions.html
+
+##
 
 - An action is a plain simple object, like {type : "ADD_TODO", text : "Buy milk"}.
 - An action type is the value for the type field in an action. Per the Redux FAQ, this field should be a string, although Redux only enforces that a type field exists in the action.
