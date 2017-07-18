@@ -13,3 +13,26 @@ function makeAjaxCall(someValue) {
 ```
 
 - http://blog.isquaredsoftware.com/2016/10/idiomatic-redux-why-use-action-creators/
+
+##
+
+```javascript
+export function addToCart(productId) {
+    return (dispatch, getState) => {
+        if (getState().products.byId[productId].inventory > 0) {
+            dispatch(addToCartUnsafe(productId));
+        }
+    };
+}
+```
+
+```javascript
+
+<Todo key={todo.id} {...todo} onClick={() => onTodoClick(todo.id)} />
+
+cosnt onTodoClick = id => {
+      dispatch(toggleTodo(id))
+}
+```
+
+
