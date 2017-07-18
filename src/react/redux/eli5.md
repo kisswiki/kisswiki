@@ -1,1 +1,1 @@
-- https://egghead.io/lessons/javascript-redux-store-methods-getstate-dispatch-and-subscribe
+- https://egghead.io/lessons/javascript-redux-store-methods-getstate-dispatch-and-subscribe 
