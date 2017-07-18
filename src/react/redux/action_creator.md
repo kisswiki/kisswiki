@@ -1,3 +1,8 @@
+- action
+- action creator
+- bound action creator
+- thunk action creator
+
 ##
 
 functions that create actions
