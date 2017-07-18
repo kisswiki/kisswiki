@@ -156,7 +156,11 @@ fi
 
 `eslint . --ext .js --ext .jsx`
 
-`eslint ./**/*.js`
+`eslint './**/*.js'`
 
 http://tips.tutorialhorizon.com/2017/05/04/how-to-run-eslint-recursively-on-all-the-files-in-root-directory-without-glob-patterns/
+
+`eslint './src/**/*.js' './specs/**/*.js'`
+
+https://github.com/eslint/eslint/issues/1663#issuecomment-240066799
 
