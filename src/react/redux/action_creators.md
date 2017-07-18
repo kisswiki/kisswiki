@@ -41,6 +41,8 @@ const boundAddTodo = text => dispatch(addTodo(text))
 const boundCompleteTodo = index => dispatch(completeTodo(index))
 ```
 
+The `dispatch()` function can be accessed directly from the store as `store.dispatch()`, but more likely you'll access it using a helper like react-redux's `connect()`. You can use `bindActionCreators()` to automatically bind many action creators to a `dispatch()` function.
+
 - http://redux.js.org/docs/basics/Actions.html
 
 ##
