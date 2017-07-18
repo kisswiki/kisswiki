@@ -2,3 +2,4 @@
 - The secret key combination with the panels in Oneiric is Alt+Super + Right Click https://askubuntu.com/questions/118953/how-to-delete-a-panel-in-the-classic-desktop
 - alt+middle click to move task bar by empty block on the left
 - `gsettings set org.gnome.desktop.wm.preferences button-layout ':maximize,minimize,close'` https://askubuntu.com/questions/377512/how-do-i-move-window-buttons-from-left-to-right-using-command-line-or-by-editing
+- https://askubuntu.com/questions/519651/add-workspaces-with-gnome-classic-and-ubuntu-14-04
