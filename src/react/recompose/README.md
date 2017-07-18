@@ -1,6 +1,7 @@
 - Pros and Cons https://pusher.com/sessions/meetup/react-vienna/recompose-to-simplicity-and-beyond
 - http://blog.krawaller.se/posts/5-reasons-not-to-use-es6-classes-in-react/
 - https://medium.com/javascript-inside/why-the-hipsters-recompose-everything-23ac08748198
+- https://github.com/acdlite/recompose/blob/master/docs/API.md
 
 ## decorators vs HOCs
 
