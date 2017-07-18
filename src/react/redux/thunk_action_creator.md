@@ -16,6 +16,20 @@ function makeAjaxCall(someValue) {
 
 ##
 
+without redux-thunk, `dispatch` will be called imediately after click.
+
+```javascript
+<Todo key={todo.id} {...todo} onClick={() => onTodoClick(todo.id)} />
+
+cosnt onTodoClick = id => {
+  dispatch(toggleTodo(id))
+}
+```
+
+https://github.com/reactjs/redux/blob/master/docs/basics/ExampleTodoList.md
+
+With redux-thunk, we can decide if we want to dispatch dependent of state of async operation.
+
 ```javascript
 export function addToCart(productId) {
     return (dispatch, getState) => {
@@ -28,13 +42,4 @@ export function addToCart(productId) {
 
 https://github.com/voronianski/flux-comparison/tree/master/redux
 
-```javascript
-<Todo key={todo.id} {...todo} onClick={() => onTodoClick(todo.id)} />
-
-cosnt onTodoClick = id => {
-  dispatch(toggleTodo(id))
-}
-```
-
-https://github.com/reactjs/redux/blob/master/docs/basics/ExampleTodoList.md
 
