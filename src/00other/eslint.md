@@ -151,3 +151,12 @@ if [[ $result != 0 ]] ; then
  exit $result
 fi
 ```
+
+## run recursively
+
+`eslint . --ext .js --ext .jsx`
+
+`eslint ./**/*.js`
+
+http://tips.tutorialhorizon.com/2017/05/04/how-to-run-eslint-recursively-on-all-the-files-in-root-directory-without-glob-patterns/
+
