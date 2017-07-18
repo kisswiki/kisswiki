@@ -13,7 +13,6 @@ This is an appealing pattern at first glance, but it has some drawbacks:
 - The only place you can add a decorator is at the component declaration. We can’t import and then decorate.
 - Having the composition happen at the end of the file feels better to me, though YMMV.
 
-
 ##
 
 ```javascript
