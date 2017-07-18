@@ -1,7 +1,7 @@
-- action
-- action creator
-- bound action creator
-- thunk action creator
+- action - object with field `type`
+- action creator - function which returns action
+- bound action creator - action creator wrapped with dispatch
+- thunk action creator - function which takes parameters and returns function which takes dispatch and getState - dispatch can be run conditionally
 
 ##
 
