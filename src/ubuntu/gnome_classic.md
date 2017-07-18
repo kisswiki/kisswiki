@@ -6,6 +6,9 @@
 
 ## shortcuts
 
-Press the Shift+Ctrl+Alt+RightArrow keys to move the window one workspace to the right. Similarly, press the Shift+Ctrl+Alt+LeftArrow keys to move one workspace to the left.
+- `Shift+Ctrl+Alt+RightArrow` - move the window one workspace to the right
+- `Shift+Ctrl+Alt+LeftArrow` - move one workspace to the left
+- `Ctrl+Alt+RightArrow` - switch to the workspace on the right of the current workspace
+- `Ctrl+Alt+LeftArrow` - switch to the workspace on the left
 
 http://linuxcommando.blogspot.com/2014/08/tips-on-gnome-workspaces.html
