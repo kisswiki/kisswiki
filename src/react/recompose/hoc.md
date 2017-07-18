@@ -1,0 +1,1 @@
+- - Write a Higher Order Component from Scratch https://github.com/acdlite/recompose/wiki/Recipes#write-a-higher-order-component-from-scratch
