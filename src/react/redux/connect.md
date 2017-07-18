@@ -1,0 +1,1 @@
+- http://www.avitzurel.com/blog/2016/08/03/connected-higher-order-components-with-react-and-redux/
