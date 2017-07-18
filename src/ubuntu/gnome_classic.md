@@ -1,1 +1,2 @@
 - https://askubuntu.com/questions/795301/gnome-classic-on-ubuntu-16-04/825685#825685
+- The secret key combination with the panels in Oneiric is Alt+Super + Right Click https://askubuntu.com/questions/118953/how-to-delete-a-panel-in-the-classic-desktop
