@@ -85,5 +85,5 @@ http://stackoverflow.com/questions/33260148/intellij-cant-find-generated-sources
 
 ## webpack resolve
 
-- https://stackoverflow.com/questions/34943631/path-aliases-for-imports-in-webstorm
+- should work without resources, unless you have subfolders with webpack config files https://stackoverflow.com/questions/34943631/path-aliases-for-imports-in-webstorm
 - https://blog.jetbrains.com/webstorm/2017/06/webstorm-2017-2-eap-172-2827/
