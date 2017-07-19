@@ -23,6 +23,13 @@ Turns out that there is a bug in PhantomJS v2.1 that makes syntax errors fail si
 
 https://medium.com/@gajus/react-application-seen-as-a-blank-page-via-fetch-as-google-afb11dff8562
 
+## onError
+
+- https://blog.codaxy.com/debugging-googlebot-crawl-errors-for-javascript-applications-5d9134c06ee7
+- https://tomat.blog/a-simple-trick-to-make-the-google-crawler-tell-you-about-javascript-errors-2fd5d9d2e064
+  - https://gist.github.com/tomat/547c5140462a948311160297735f7483
+- http://openmymind.net/2012/4/4/You-Really-Should-Log-Client-Side-Error/
+
 ## babel-preset-env
 
 your example is using a class property and these are currently a stage-2 feature. babel-preset-env includes only plugins that are part of babel-preset-latest. It won't include any stage-x plugins. You need to include these yourself.
