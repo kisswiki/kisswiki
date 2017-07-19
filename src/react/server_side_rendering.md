@@ -40,7 +40,7 @@ A way to apply babel-preset-env for polyfills (via "babel-polyfill").
 NOTE: This does not currently polyfill experimental/stage-x built-ins like the regular "babel-polyfill" does. This will only work with npm >= 3 (which should be used with Babel 6 anyway)
 
 - https://github.com/babel/babel-preset-env
-- https://github.com/babel/babel-preset-env/issues/141
+- useBuiltIns: What's the best way to do feature detection before dynamically loading polyfills #141 https://github.com/babel/babel-preset-env/issues/141
 
 ## PhantomJS and use babel-preset-env
 
