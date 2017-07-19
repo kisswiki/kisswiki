@@ -29,6 +29,18 @@ import 'babel-polyfill'
 
 https://medium.com/@andrewzey/google-seo-with-create-react-app-fixing-the-hidden-gotcha-c164063106d
 
+
+## useBuiltIns
+
+boolean, defaults to false.
+
+A way to apply babel-preset-env for polyfills (via "babel-polyfill").
+
+NOTE: This does not currently polyfill experimental/stage-x built-ins like the regular "babel-polyfill" does. This will only work with npm >= 3 (which should be used with Babel 6 anyway)
+
+- https://github.com/babel/babel-preset-env
+- https://github.com/babel/babel-preset-env/issues/141
+
 ## PhantomJS
 
 Without quoting any sources, I will say that there is a rumour that “Fetch as Google” is using PhantomJS v2.1 to render pages.
