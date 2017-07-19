@@ -15,7 +15,6 @@
 
 ## PhantomJS
 
-
 Without quoting any sources, I will say that there is a rumour that “Fetch as Google” is using PhantomJS v2.1 to render pages.
 
 I have tested rendering of my page using PhantomJS v2.1.1 and got the same result: a blank page. However, even more worrying was that PhantomJS produced no errors either. No syntax error, no warning, no missing resource, etc.
