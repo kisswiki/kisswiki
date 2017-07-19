@@ -1,0 +1,1 @@
+- Probot: Stale - a GitHub Integration built with Probot that closes abandoned issues after a period of inactivity. https://github.com/apps/probot-stale
