@@ -50,7 +50,7 @@ sudo apt-get clean all
 
 ## update single package
 
-`apt-get install --only-upgrade <packagename>`
+`apt install --only-upgrade <packagename>`
 
 https://askubuntu.com/questions/44122/how-to-upgrade-a-single-package-using-apt-get
 
