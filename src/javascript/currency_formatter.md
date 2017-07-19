@@ -1,8 +1,6 @@
 ```javascript
 // usage: formatCurrency(undefined, { currency: 'GBP' })(TEST_AMOUNT)
-export function formatCurrency (locale = 'en-US', config = {}, options = {
-  locale = 'en-us',
-}) {
+export function formatCurrency (locale = 'en-US', config = {}, options = {}) {
   return number => number.toLocaleString(
     locale,
     Object.assign({ style: 'currency', currency: 'USD', minimumFractionDigits: 0 }, config),
