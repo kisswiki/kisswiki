@@ -85,5 +85,10 @@ http://stackoverflow.com/questions/33260148/intellij-cant-find-generated-sources
 
 ## webpack resolve
 
-- should work without resources, unless you have subfolders with webpack config files https://stackoverflow.com/questions/34943631/path-aliases-for-imports-in-webstorm
-- https://blog.jetbrains.com/webstorm/2017/06/webstorm-2017-2-eap-172-2827/
+should work without resources, unless you have subfolders with webpack config files https://stackoverflow.com/questions/34943631/path-aliases-for-imports-in-webstorm
+
+Because:
+
+>By default WebStorm will analyse the webpack configuration file in the root of the project, but you can select another file in Preferences | Languages & Frameworks | JavaScript | Webpack.
+
+https://blog.jetbrains.com/webstorm/2017/06/webstorm-2017-2-eap-172-2827/
