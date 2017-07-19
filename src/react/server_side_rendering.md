@@ -1,12 +1,12 @@
 - https://www.google.com/webmasters/tools/googlebot-fetch
 - https://www.reddit.com/r/reactjs/comments/4gf6ma/will_a_reactrouter_spa_be_crawled_by_google/
-
 - https://medium.com/@gajus/react-application-seen-as-a-blank-page-via-fetch-as-google-afb11dff8562
 - https://github.com/davezuko/react-redux-starter-kit/issues/819
 - https://blog.codaxy.com/debugging-googlebot-crawl-errors-for-javascript-applications-5d9134c06ee7
 - https://github.com/jhabdas/lumpenradio-com/blob/master/tools/webpack.config.js
 - http://chrisarasin.com/react-seo/
   - https://github.com/ChrisArasin/ReactSEOTest
+  - https://github.com/rofrol/ReactSEOTest
 - https://github.com/jaredpalmer/razzle
 - https://github.com/davezuko/react-redux-starter-kit
 
