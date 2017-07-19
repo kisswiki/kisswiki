@@ -13,6 +13,22 @@
 - https://github.com/jaredpalmer/razzle
 - https://github.com/davezuko/react-redux-starter-kit
 
+## babel-polyfill
+
+It turns out that the Google Bot uses a different version of V8 from the latest Chrome, and apparently doesn’t support the same EcmaScript feature set.
+
+It turns out that the Google Bot uses a different version of V8 from the latest Chrome, and apparently doesn’t support the same EcmaScript feature set.
+Adding babel-polyfill to my project, and importing it at the top of my entry file solved the problem, and resulted in a successful render!
+
+```
+// From command line in project root 
+$ npm install --save babel-polyfill 
+// in App.jsx (my project entry file) 
+import 'babel-polyfill'
+```
+
+https://medium.com/@andrewzey/google-seo-with-create-react-app-fixing-the-hidden-gotcha-c164063106d
+
 ## PhantomJS
 
 Without quoting any sources, I will say that there is a rumour that “Fetch as Google” is using PhantomJS v2.1 to render pages.
