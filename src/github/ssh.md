@@ -34,6 +34,14 @@ ssh -T git@github.com
 ssh -T git@gist.github.com
 ```
 
+## ssh-copy-id
+
+```
+ssh-copy-id -f ~/ssh/file.pub id@server
+```
+
+- https://serverfault.com/questions/241588/how-to-automate-ssh-login-with-password
+
 ## Links
 
 - https://help.github.com/articles/generating-an-ssh-key/
