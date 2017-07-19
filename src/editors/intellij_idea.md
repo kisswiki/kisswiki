@@ -82,3 +82,8 @@ http://stackoverflow.com/questions/11763996/output-window-of-intellij-idea-cuts-
 - Preferences > Editor > File Types -> Ignored files and folders
 
 http://stackoverflow.com/questions/33260148/intellij-cant-find-generated-sources-when-used-in-same-module
+
+## webpack resolve
+
+- https://stackoverflow.com/questions/34943631/path-aliases-for-imports-in-webstorm
+- https://blog.jetbrains.com/webstorm/2017/06/webstorm-2017-2-eap-172-2827/
