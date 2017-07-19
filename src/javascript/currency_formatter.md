@@ -1,5 +1,5 @@
 ```javascript
-// formatCurrency(undefined, { currency: 'GBP' })(TEST_AMOUNT)
+// usage: formatCurrency(undefined, { currency: 'GBP' })(TEST_AMOUNT)
 export function formatCurrency (locale = 'en-US', config = {}) {
   return number => number.toLocaleString(
     locale,
