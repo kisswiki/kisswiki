@@ -53,7 +53,6 @@ PhantomJS and “Fetch as Google” produced non-equivalent looking screenshots.
 
 https://medium.com/@gajus/react-application-seen-as-a-blank-page-via-fetch-as-google-afb11dff8562
 
-
 ## onError
 
 - https://blog.codaxy.com/debugging-googlebot-crawl-errors-for-javascript-applications-5d9134c06ee7
