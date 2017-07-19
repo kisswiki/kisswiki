@@ -1,1 +1,2 @@
 - Probot: Stale - a GitHub Integration built with Probot that closes abandoned issues after a period of inactivity. https://github.com/apps/probot-stale
+- A merge bot for GitHub Pull Requests https://github.com/bors-ng/bors-ng
