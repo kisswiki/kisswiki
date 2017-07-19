@@ -3,7 +3,6 @@
   - https://github.com/mapbox/mapbox-gl-js/issues/3422
   - https://github.com/babel/babel/issues/4125
 - https://medium.com/@gajus/react-application-seen-as-a-blank-page-via-fetch-as-google-afb11dff8562
-- https://medium.com/@andrewzey/google-seo-with-create-react-app-fixing-the-hidden-gotcha-c164063106d
 - https://github.com/davezuko/react-redux-starter-kit/issues/819
 - https://blog.codaxy.com/debugging-googlebot-crawl-errors-for-javascript-applications-5d9134c06ee7
 - https://github.com/jhabdas/lumpenradio-com/blob/master/tools/webpack.config.js
