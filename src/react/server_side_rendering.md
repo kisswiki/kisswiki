@@ -49,6 +49,8 @@ I have tested rendering of my page using PhantomJS v2.1.1 and got the same resul
 
 Turns out that there is a bug in PhantomJS v2.1 that makes syntax errors fail silently https://github.com/ariya/phantomjs/issues/13281.
 
+My guess is that one of the project dependencies is not properly transpiled.
+
 PhantomJS and “Fetch as Google” produced non-equivalent looking screenshots.
 
 https://medium.com/@gajus/react-application-seen-as-a-blank-page-via-fetch-as-google-afb11dff8562
