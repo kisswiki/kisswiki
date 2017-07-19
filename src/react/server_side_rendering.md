@@ -4,7 +4,6 @@
   - https://github.com/babel/babel/issues/4125
 - https://medium.com/@gajus/react-application-seen-as-a-blank-page-via-fetch-as-google-afb11dff8562
 - https://medium.com/@andrewzey/google-seo-with-create-react-app-fixing-the-hidden-gotcha-c164063106d
-- https://medium.freecodecamp.org/using-fetch-as-google-for-seo-experiments-with-react-driven-websites-914e0fc3ab1
 - https://github.com/davezuko/react-redux-starter-kit/issues/819
 - https://blog.codaxy.com/debugging-googlebot-crawl-errors-for-javascript-applications-5d9134c06ee7
 - https://github.com/jhabdas/lumpenradio-com/blob/master/tools/webpack.config.js
@@ -12,6 +11,10 @@
   - https://github.com/ChrisArasin/ReactSEOTest
 - https://github.com/jaredpalmer/razzle
 - https://github.com/davezuko/react-redux-starter-kit
+
+## Deploying to GitHub Pages
+
+- Deploying to GitHub Pages https://medium.freecodecamp.org/using-fetch-as-google-for-seo-experiments-with-react-driven-websites-914e0fc3ab1
 
 ## babel-polyfill
 
