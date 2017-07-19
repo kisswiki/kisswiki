@@ -1,7 +1,6 @@
 - https://www.google.com/webmasters/tools/googlebot-fetch
 - https://www.reddit.com/r/reactjs/comments/4gf6ma/will_a_reactrouter_spa_be_crawled_by_google/
-  - https://github.com/mapbox/mapbox-gl-js/issues/3422
-  - https://github.com/babel/babel/issues/4125
+
 - https://medium.com/@gajus/react-application-seen-as-a-blank-page-via-fetch-as-google-afb11dff8562
 - https://github.com/davezuko/react-redux-starter-kit/issues/819
 - https://blog.codaxy.com/debugging-googlebot-crawl-errors-for-javascript-applications-5d9134c06ee7
@@ -43,7 +42,7 @@ NOTE: This does not currently polyfill experimental/stage-x built-ins like the r
 - https://github.com/babel/babel-preset-env
 - https://github.com/babel/babel-preset-env/issues/141
 
-## PhantomJS
+## PhantomJS and use babel-preset-env
 
 Without quoting any sources, I will say that there is a rumour that “Fetch as Google” is using PhantomJS v2.1 to render pages.
 
@@ -55,7 +54,9 @@ My guess is that one of the project dependencies is not properly transpiled.
 
 PhantomJS and “Fetch as Google” produced non-equivalent looking screenshots.
 
-https://medium.com/@gajus/react-application-seen-as-a-blank-page-via-fetch-as-google-afb11dff8562
+- https://medium.com/@gajus/react-application-seen-as-a-blank-page-via-fetch-as-google-afb11dff8562
+  - https://github.com/mapbox/mapbox-gl-js/issues/3422
+  - https://github.com/babel/babel/issues/4125
 
 ## onError
 
