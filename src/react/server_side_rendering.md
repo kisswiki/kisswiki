@@ -13,6 +13,7 @@
 ## Deploying to GitHub Pages
 
 - Deploying to GitHub Pages https://medium.freecodecamp.org/using-fetch-as-google-for-seo-experiments-with-react-driven-websites-914e0fc3ab1
+  - react-router version https://github.com/pahund/seo-sandbox/blob/react-router/src/App.js
 
 ## babel-polyfill
 
