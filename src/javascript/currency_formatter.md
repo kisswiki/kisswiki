@@ -1,9 +1,11 @@
 ```javascript
-function currencyUSD(number) {
-  return number.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0 });
+// formatCurrency(undefined, { currency: 'GBP' })(TEST_AMOUNT)
+export function formatCurrency (locale = 'en-US', config = {}) {
+  return number => number.toLocaleString(
+    locale,
+    Object.assign({ style: 'currency', currency: 'USD', minimumFractionDigits: 0 }, config),
+  );
 }
-currencyUSD(123456); // "$123,456"
-currencyUSD(123456.234); // "$123,456.23"
 ```
 
 - https://stackoverflow.com/questions/149055/how-can-i-format-numbers-as-dollars-currency-string-in-javascript/149107#149107
