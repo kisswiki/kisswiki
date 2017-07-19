@@ -13,6 +13,17 @@
 - https://github.com/jaredpalmer/razzle
 - https://github.com/davezuko/react-redux-starter-kit
 
+## PhantomJS
+
+
+Without quoting any sources, I will say that there is a rumour that “Fetch as Google” is using PhantomJS v2.1 to render pages.
+
+I have tested rendering of my page using PhantomJS v2.1.1 and got the same result: a blank page. However, even more worrying was that PhantomJS produced no errors either. No syntax error, no warning, no missing resource, etc.
+
+Turns out that there is a bug in PhantomJS v2.1 that makes syntax errors fail silently https://github.com/ariya/phantomjs/issues/13281.
+
+https://medium.com/@gajus/react-application-seen-as-a-blank-page-via-fetch-as-google-afb11dff8562
+
 ## babel-preset-env
 
 your example is using a class property and these are currently a stage-2 feature. babel-preset-env includes only plugins that are part of babel-preset-latest. It won't include any stage-x plugins. You need to include these yourself.
