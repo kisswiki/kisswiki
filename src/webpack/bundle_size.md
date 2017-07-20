@@ -11,7 +11,7 @@ npx webpack-bundle-analyzer --help
 - What is the best way to include babel polyfill using multiple entry points #122 https://github.com/babel/babel-loader/issues/122
 - 'useBuiltIns' option force to import 'regenerator-runtime' #221 https://github.com/babel/babel-preset-env/issues/221
 
-## transform-runtime
+## babel-preset-env
 
 webpack.config.js
 
