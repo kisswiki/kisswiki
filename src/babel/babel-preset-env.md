@@ -90,3 +90,11 @@ that). https://github.com/babel/babel/tree/master/packages/babel-plugin-transfor
 ## deps
 
 Nope. Some libraries have hard polyfills dependencies, for example, Promise. But almost all already compiled to ES5. Running babel on dependencies is a bad practice and most likely it will break something, makes sense only static analysis for getting a list of required polyfills.
+
+## useBuiltIns
+
+new idea:
+
+Make this the default behavior in 2.0 (useBuiltIns: true) which is "aggressive" in removing polyfills that aren't used in the files. Another option would be the current useBuiltIns which only removes polyfills already available in the environment. And lastly useBuiltIns: false which doesn't do anything.
+
+https://github.com/babel/babel-preset-env/pull/241#issuecomment-291582622
