@@ -96,3 +96,5 @@ webpack.config.js
 
 - Instance methods such as "foobar".includes("foo") will not work since that would require modification of existing built-ins (Use babel-polyfill for 
 that). https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-runtime
+
+- Discussion: useBuiltIns (usage only, not "entry" point method) #284 https://github.com/babel/babel-preset-env/issues/284
