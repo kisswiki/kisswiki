@@ -91,7 +91,7 @@ webpack.config.js
       }
 ```
 
-https://github.com/babel/babel-preset-env/issues/84#issuecomment-283679677
+- useBuiltIns: figure out how to remove polyfills that aren't actually used in the codebase #84 https://github.com/babel/babel-preset-env/issues/84#issuecomment-283679677
 
 - Instance methods such as "foobar".includes("foo") will not work since that would require modification of existing built-ins (Use babel-polyfill for 
 that). https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-runtime
