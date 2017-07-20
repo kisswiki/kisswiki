@@ -13,7 +13,7 @@ fp don't use assignment (mutation is reserved for specific sections) - no concur
 
 http://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
 
-###
+### Elm encourages a strict separation of data and logic, and the ability to say this is primarily used to break this separation. This is a systemic problem in Object Oriented languages that Elm is purposely avoiding.
 
 "this" is associated with mutation. Elm is an immutable language.  
 
@@ -26,7 +26,7 @@ Of course one can write immutable objects using "this" but in OO languages you c
 
 https://groups.google.com/forum/#!msg/elm-discuss/NKCbXMLNkBA/_DhP5wHwAgAJ
 
-###
+### Clean Architecture for Functional Programming
 
 The vehemence with which some folks claim that FP and OO are antithetical is amusing.  A message is a function call.  A function call is a message.  The two are isomorphic.   
 
