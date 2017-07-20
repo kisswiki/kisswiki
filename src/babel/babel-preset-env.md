@@ -85,4 +85,8 @@ that). https://github.com/babel/babel/tree/master/packages/babel-plugin-transfor
 - Discussion: useBuiltIns (usage only, not "entry" point method) #284 https://github.com/babel/babel-preset-env/issues/284
 - https://github.com/babel/babel-preset-env#targetsuglify
 - What is the best way to include babel polyfill using multiple entry points #122 https://github.com/babel/babel-loader/issues/122
-- 'useBuiltIns' option force to import 'regenerator-runtime' #221 https://github.com/babel/babel-preset-env/issues/221
+- ['useBuiltIns' option force to import 'regenerator-runtime' #221[(https://github.com/babel/babel-preset-env/issues/221)
+
+## deps
+
+Nope. Some libraries have hard polyfills dependencies, for example, Promise. But almost all already compiled to ES5. Running babel on dependencies is a bad practice and most likely it will break something, makes sense only static analysis for getting a list of required polyfills.
