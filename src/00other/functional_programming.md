@@ -13,6 +13,19 @@ fp don't use assignment (mutation is reserved for specific sections) - no concur
 
 http://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
 
+###
+
+"this" is associated with mutation. Elm is an immutable language.  
+
+In theory, one could have immutable objects where data and logic are grouped together. 
+The best expression I've seen so far is the FauxO system in Gary Bernhardt's Boundaries talk.
+
+I'm not saying that "this" implies mutation only that it is associated with mutating the current object. 
+
+Of course one can write immutable objects using "this" but in OO languages you can also use it to mutate the state of the object. 
+
+https://groups.google.com/forum/#!msg/elm-discuss/NKCbXMLNkBA/_DhP5wHwAgAJ
+
 ## The semantic problem with hierarchies
 
 The idea of building software on top of a tree-shaped ontology would be broken even if our knowledge fit neatly into a tree. Ontologies are not used to build the real world, they are used to describe it from observation. As we learn more, we are constantly updating our ontology, sometimes moving everything around.
