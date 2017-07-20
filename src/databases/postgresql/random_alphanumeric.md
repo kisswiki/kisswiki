@@ -63,3 +63,5 @@ BEGIN
 END;
 $$ language 'plpgsql';
 ```
+
+- https://stackoverflow.com/questions/16527806/cannot-create-extension-without-superuser-role/39732714#39732714
