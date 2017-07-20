@@ -95,6 +95,8 @@ Nope. Some libraries have hard polyfills dependencies, for example, Promise. But
 
 Need to account for 3rd party modules that require a polyfill if Babel doesn't run over them, and type info would help with instance methods
 
+Would also be cool if it could check it was already loaded by another script. Currently errors on IE. Was testing 2 scripts loading on the same page and it errors. Need to keep them separate so a runtime check would help
+
 https://twitter.com/left_pad/status/847911365645938690
 
 new idea:
