@@ -93,6 +93,10 @@ Nope. Some libraries have hard polyfills dependencies, for example, Promise. But
 
 ## useBuiltIns
 
+Need to account for 3rd party modules that require a polyfill if Babel doesn't run over them, and type info would help with instance methods
+
+https://twitter.com/left_pad/status/847911365645938690
+
 new idea:
 
 Make this the default behavior in 2.0 (useBuiltIns: true) which is "aggressive" in removing polyfills that aren't used in the files. Another option would be the current useBuiltIns which only removes polyfills already available in the environment. And lastly useBuiltIns: false which doesn't do anything.
