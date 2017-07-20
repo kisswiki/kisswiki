@@ -93,7 +93,6 @@ webpack.config.js
 
 - useBuiltIns: figure out how to remove polyfills that aren't actually used in the codebase #84 https://github.com/babel/babel-preset-env/issues/84#issuecomment-283679677
 - transform-runtime is a separate Babel plugin. It transforms ES6/7/next calls to babel-polyfill libraries. You can disable some of this features using it's own configuration. https://github.com/babel/babel-preset-env/issues/84#issuecomment-285121863
-
 - Instance methods such as "foobar".includes("foo") will not work since that would require modification of existing built-ins (Use babel-polyfill for 
 that). https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-runtime
 
