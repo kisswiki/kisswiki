@@ -26,6 +26,29 @@ Of course one can write immutable objects using "this" but in OO languages you c
 
 https://groups.google.com/forum/#!msg/elm-discuss/NKCbXMLNkBA/_DhP5wHwAgAJ
 
+###
+
+The vehemence with which some folks claim that FP and OO are antithetical is amusing.  A message is a function call.  A function call is a message.  The two are isomorphic.   
+
+- In smalltalk you might say: obj msg arg.   
+- In java you might say obj.msg(arg);.   
+- In C you might say msg(obj, arg);   
+- In Erlang you might say obj ! {msg, arg}. 
+
+These are not fundamentally different concepts.  There are some technical differences: The C statement isn’t polymorphic, and the Erlang statement crosses a thread boundary.  But those are details. 
+
+Over the last few decades we’ve gotten all bolluxed up with the idea that there is something special about OO that makes it fundamentally different from Structured Programming, or Functional Programming.  This isn’t quite true.  Programming is programming.   It’s all about functions and data.   
+
+What we’ve learned over the last five decades is what _not_ to do; not so much what _to_ do.   
+
+Structured Programming is programming without goto.  (Discipline imposed upon direct transfer of control). 
+OO Programming is programming without pointers to functions. (Discipline imposed upon indirect transfer of control). 
+Functional Programming is programming without assignment statements.  (Discipline imposed upon state). 
+
+The fact that these three paradigms are _subtractive_ rather than additive means that they are all mutually compatible.  If you want to be structured, OO, and Functional, then don’t use goto, pointers to functions, and assignment. 
+
+https://groups.google.com/forum/#!topic/clean-code-discussion/S2NQ65OZ0b8
+
 ## The semantic problem with hierarchies
 
 The idea of building software on top of a tree-shaped ontology would be broken even if our knowledge fit neatly into a tree. Ontologies are not used to build the real world, they are used to describe it from observation. As we learn more, we are constantly updating our ontology, sometimes moving everything around.
