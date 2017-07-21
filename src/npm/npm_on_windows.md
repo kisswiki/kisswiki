@@ -4,7 +4,7 @@ install all node-gyp dependencies with single command (NOTE: Run As Admin in Win
 
 `$ npm install --global --production windows-build-tools`
 
-and then install the package
+and then install the package (Nie było potrzbne zdaje się)
 
 `$ npm install --global node-gyp`
 
