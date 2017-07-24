@@ -2,3 +2,4 @@
 - https://github.com/icefoxen/arewestdlibyet
 - the goal is basically feature parity with Love2D http://ggez.rs/
   - https://love2d.org/
+- https://github.com/amethyst/amethyst/wiki/Other-Game-Engines-in-Rust
