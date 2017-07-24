@@ -6,4 +6,5 @@
 
 `heroku pg:info --app your_app`
 
+`heroku pg:psql postgresql-graceful-35355 --app your_app`
 
