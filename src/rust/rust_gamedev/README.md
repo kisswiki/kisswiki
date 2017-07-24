@@ -3,3 +3,4 @@
 - the goal is basically feature parity with Love2D http://ggez.rs/
   - https://love2d.org/
 - https://github.com/amethyst/amethyst/wiki/Other-Game-Engines-in-Rust
+- http://www.shadercat.com/overview-of-open-source-game-engines-in-rust/
