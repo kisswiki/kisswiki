@@ -19,4 +19,11 @@ http://www.shadercat.com/overview-of-open-source-game-engines-in-rust/
 
 https://github.com/amethyst/amethyst/wiki/ECS-Design-Crossroads
 
+## misuse
+
+Component Systems Misuse
+Component-based entity systems are very common these days but are also frequently misused. This is probably due to the similarity of components and previous entity systems or maybe just the simple desire to save time during development.
+
+Components should act as a blueprint with only a description for the system implementing it. The biggest mistake developers make is putting all the functionality inside the components, such as update and draw.
+
 https://shaneenishry.com/blog/2014/12/27/misconceptions-of-component-based-entity-systems/
