@@ -23,3 +23,11 @@ This is not the first time that glium's "SRGB" by default has caused problems fo
 
 https://www.reddit.com/r/rust_gamedev/comments/6f6oix/why_is_glium_so_much_slower_for_a_trivial_frame/
 
+I think the problem was that the system didn't have sRGB capable framebuffers, so GL_FRAMEBUFFER_SRGB didn't do anything. I ended up having to do the conversion myself in the shaders, with code like
+
+`out_color = pow(color, vec4(1.0/2.2,1.0/2.2,1.0/2.2,1.0));`
+
+https://github.com/glium/glium/issues/805
+
+
+
