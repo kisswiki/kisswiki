@@ -18,3 +18,5 @@ The discussion on implementing a thread safe ECS that ended up becoming specs IM
 http://www.shadercat.com/overview-of-open-source-game-engines-in-rust/
 
 https://github.com/amethyst/amethyst/wiki/ECS-Design-Crossroads
+
+https://shaneenishry.com/blog/2014/12/27/misconceptions-of-component-based-entity-systems/
