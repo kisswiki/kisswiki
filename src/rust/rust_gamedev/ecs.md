@@ -8,3 +8,13 @@ Ok, supposing the entity does know its components. And we decided that each syst
 
 - https://github.com/kvark/froggy
 - https://www.reddit.com/r/rust_gamedev/comments/6b9q6g/froggy_03_release/
+
+## specs
+
+a parallel ECS
+
+The discussion on implementing a thread safe ECS that ended up becoming specs IMO was really interesting and still worth taking a look at.
+
+http://www.shadercat.com/overview-of-open-source-game-engines-in-rust/
+
+https://github.com/amethyst/amethyst/wiki/ECS-Design-Crossroads
