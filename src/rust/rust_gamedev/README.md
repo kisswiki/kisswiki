@@ -1,3 +1,3 @@
 - http://arewegameyet.com
 - https://github.com/icefoxen/arewestdlibyet
-- http://ggez.rs/
+- the goal is basically feature parity with Love2D. http://ggez.rs/
