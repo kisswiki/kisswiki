@@ -4,3 +4,4 @@
   - https://love2d.org/
 - https://github.com/amethyst/amethyst/wiki/Other-Game-Engines-in-Rust
 - http://www.shadercat.com/overview-of-open-source-game-engines-in-rust/
+- vulkano https://users.rust-lang.org/t/presentation-of-the-vulkano-library/5642
