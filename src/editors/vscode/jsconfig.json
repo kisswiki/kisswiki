@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+      "experimentalDecorators": true,
+      "baseUrl": "frontend/src"
+  },
+  "exclude": [
+      "backend/node_modules",
+      "frontend/node_modules"
+  ]
+}
