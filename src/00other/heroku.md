@@ -8,6 +8,8 @@
 
 `heroku pg:psql DATABASE_URL --app your_app`
 
+`update salesforce.contact set email = 'test@example.com' where id = 1;`
+
 ## psql command line tips
 
 Establish a connection to your database
