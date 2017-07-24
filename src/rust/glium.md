@@ -14,3 +14,12 @@ It's nice to talk about overhead without benchmarks backing it, amiright? Glium 
 This is misleading. GL is still the main backend for gfx-rs. We support GL starting from 2.1 as well as GLES 2 for mobile.
 
 https://www.reddit.com/r/rust_gamedev/comments/6dtnlc/ggez_03_released/
+
+## sRGB
+
+Turns out that glium by default sets the default framebuffer with with glEnable (GL_FRAMEBUFFER_SRGB) at the beginning of the program. If I enable this option on the other test programs the performance is comparable to glium. I'm not sure exactly why this affects performance as all it's doing each frame is clearing the framebuffer, not going through any shader programs.
+
+This is not the first time that glium's "SRGB" by default has caused problems for me (shader programs need to set outputs_srgb to prevent color values from being converted).
+
+https://www.reddit.com/r/rust_gamedev/comments/6f6oix/why_is_glium_so_much_slower_for_a_trivial_frame/
+
