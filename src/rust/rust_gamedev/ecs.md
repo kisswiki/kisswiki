@@ -43,3 +43,9 @@ There is a great talk at GDC this year about how Overwatch's tech does ECS calle
 Currently this is behind the gdcvault paywall, but it was popular. So it might be pushed to youtube soon. Keep an eye out:)
 
 https://www.reddit.com/r/rust_gamedev/comments/6i7was/entity_component_systems_and_rust/
+
+## What is ECS anyway?
+
+00:06:50
+
+https://air.mozilla.org/rust-toronto-meetup-2017-04-11/
