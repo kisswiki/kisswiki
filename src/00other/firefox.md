@@ -41,3 +41,15 @@ browser.tabs.tabMinWidth
 
 http://kb.mozillazine.org/Browser.tabs.tabMinWidth
 
+## fullscreen video
+
+`about:config`:
+
+```
+full-screen-api.transition-duration.enter: 0 0
+full-screen-api.transition-duration.leave: 0 0
+full-screen-api.warning.timeout: 0
+```
+
+- https://support.mozilla.org/pl/questions/1092730
+- https://support.mozilla.org/pl/questions/1100620
