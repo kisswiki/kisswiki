@@ -1,1 +1,4 @@
 - https://github.com/lschmierer/ecs_bench
+- https://github.com/kvark/froggy
+ - https://github.com/kvark/froggy/wiki/Component-Graph-System
+ - https://www.reddit.com/r/rust_gamedev/comments/6b9q6g/froggy_03_release/
