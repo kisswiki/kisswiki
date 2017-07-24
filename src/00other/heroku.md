@@ -6,5 +6,28 @@
 
 `heroku pg:info --app your_app`
 
-`heroku pg:psql postgresql-graceful-35355 --app your_app`
+`heroku pg:psql DATABASE_URL --app your_app`
 
+## psql command line tips
+
+Establish a connection to your database
+
+`$ heroku pg:psql DATABASE_URL --app graylangur-backend`
+
+List tables in the connect schema:
+
+`# \dt salesforce.*;`
+
+Query from a table:
+
+`# select * from salesforce.account;`
+
+Set the search path:
+
+`# set search_path=salesforce, public;`
+
+Show the list of all schemas
+
+`# \dn`
+
+https://connect.heroku.com/sync/6ebf2ab9-5777-4dbe-93dc-0aaf4fb315a1/settings/database
