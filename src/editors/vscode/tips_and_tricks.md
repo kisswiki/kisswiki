@@ -1,0 +1,2 @@
+- https://github.com/Microsoft/vscode-tips-and-tricks
+- https://stormpath.com/blog/5-must-have-vs-code-extensions
