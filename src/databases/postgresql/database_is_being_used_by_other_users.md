@@ -1,3 +1,6 @@
-`SELECT * FROM pg_stat_activity WHERE datname='YourDatabase';`
+```
+SELECT * FROM pg_stat_activity WHERE datname='YourDatabase';
+SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname='YourDatabase';
+```
 
-`select pg_terminate_backend(pid) from pg_stat_activity where datname='YourDatabase';`
+https://stackoverflow.com/questions/7073773/drop-postgresql-database-through-command-line
