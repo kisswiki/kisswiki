@@ -1,3 +1,7 @@
+- https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
+- https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+- https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+
 ## Errors and Warnings
 
 `ctrl+shift+m`
@@ -94,3 +98,23 @@ in `keybindings.json`
 close window with `ctrl+shift+w`.
 
 https://github.com/Microsoft/vscode/issues/1764#issuecomment-230674122
+
+## Navigate back to the last cursor position
+
+On Windows:
+
+`Alt+Left` .. navigate back
+
+`Alt+Right` .. navigate forward
+
+On Mac:
+
+`Control+-` .. navigate back
+
+On Ubuntu Linux:
+
+`Ctrl+Alt+-` .. navigate back
+
+`Ctrl+Shift+-` .. navigate forward
+
+https://stackoverflow.com/questions/35424367/how-to-navigate-back-to-the-last-cursor-position-in-visual-studio-code
