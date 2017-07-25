@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export $(cat .env | grep -v ^# | xargs)
+
 no_psql_in_path=true
 which psql && no_psql_in_path=false
 echo "no_psql_in_path: $no_psql_in_path"
