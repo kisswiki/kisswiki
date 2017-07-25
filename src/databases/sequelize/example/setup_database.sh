@@ -36,8 +36,9 @@ case "${unameOut}" in
 esac
 echo ${cmd}
 
-dropdb $DBNAME;
 eval "$cmd" << EOF
+SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname='$DBNAME';
+DROP DATABASE IF EXISTS $DBNAME;
 CREATE DATABASE $DBNAME;
 DROP ROLE IF EXISTS $DBROLE;
 CREATE ROLE $DBROLE LOGIN PASSWORD '$DBPASS';
