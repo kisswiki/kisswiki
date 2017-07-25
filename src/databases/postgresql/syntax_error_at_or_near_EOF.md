@@ -1,0 +1,29 @@
+remove space after `EOF`
+
+for example this is wrong:
+
+```bash
+#!/bin/bash
+psql $DBNAME $DBROLE << EOF
+SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname='$DBNAME';
+DROP DATABASE IF EXISTS $DBNAME;
+CREATE DATABASE $DBNAME;
+DROP ROLE IF EXISTS $DBROLE;
+CREATE ROLE $DBROLE LOGIN PASSWORD '$DBPASS';
+ALTER DATABASE $DBNAME OWNER TO $DBROLE;
+EOF 
+```
+
+this is good:
+
+```bash
+#!/bin/bash
+psql $DBNAME $DBROLE << EOF
+SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname='$DBNAME';
+DROP DATABASE IF EXISTS $DBNAME;
+CREATE DATABASE $DBNAME;
+DROP ROLE IF EXISTS $DBROLE;
+CREATE ROLE $DBROLE LOGIN PASSWORD '$DBPASS';
+ALTER DATABASE $DBNAME OWNER TO $DBROLE;
+EOF
+```
