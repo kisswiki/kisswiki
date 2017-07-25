@@ -19,6 +19,7 @@
   "homepage": "https://github.com/rofrol/mindmap#readme",
   "dependencies": {
     "chokidar": "^1.4.2",
+    "sequelize": "^4.4.2",
     "shelljs": "^0.5.3"
   }
 }
