@@ -1,6 +1,6 @@
 You can run the dropdb command from the command line:
 
-`dropdb 'database name'`
+`dropdb 'YourDatabase'`
 Note that you have to be a superuser or the database owner to be able to drop it.
 
 ```
