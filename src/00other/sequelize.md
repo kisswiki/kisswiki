@@ -24,7 +24,4 @@ sequelize.sync()
 ```
 
 - http://docs.sequelizejs.com/
-
-
-
 - http://docs.sequelizejs.com/manual/installation/getting-started
