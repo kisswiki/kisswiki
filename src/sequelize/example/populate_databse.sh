@@ -18,9 +18,5 @@ esac
 echo ${cmd}
 
 eval "$cmd" << EOF
-DROP DATABASE IF EXISTS $DBNAME;
-CREATE DATABASE $DBNAME;
-DROP ROLE IF EXISTS $DBROLE;
-CREATE ROLE $DBROLE LOGIN PASSWORD '$DBPASS';
-ALTER DATABASE $DBNAME OWNER TO $DBROLE;
+create table posts ( id serial primary key, title integer, content varchar, visible bool default false);
 EOF
