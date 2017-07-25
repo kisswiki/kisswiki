@@ -1,7 +1,7 @@
 - https://code.visualstudio.com/docs/getstarted/keybindings
-    - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
-    - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
-    - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+  - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
+  - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+  - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
 ## Errors and Warnings
 
