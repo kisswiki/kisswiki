@@ -4,7 +4,7 @@
 const Sequelize = require('sequelize');
 const sequelize = new Sequelize('database', 'username', 'password');
 // Or you can simply use a connection uri
-<!-- const sequelize = new Sequelize('postgres://user:pass@example.com:5432/dbname'); -->
+// const sequelize = new Sequelize('postgres://user:pass@example.com:5432/dbname');
 
 const User = sequelize.define('user', {
   username: Sequelize.STRING,
