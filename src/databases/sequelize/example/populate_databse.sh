@@ -1,8 +1,6 @@
 #!/bin/bash
 
-DBNAME="$1"
-DBROLE="$2"
-DBPASS="$3"
+eval $(cat .env)
 
 # https://stackoverflow.com/questions/3466166/how-to-check-if-running-in-cygwin-mac-or-linux
 unameOut="$(uname -s)"
@@ -21,4 +19,4 @@ eval "$cmd" << EOF
 create table posts ( id serial primary key, title integer, content varchar, visible bool default false);
 insert into posts (title, content, visible) values (1, 'content2', true);
 insert into posts (title, content, visible) values (2, 'content2', true);
-EOF
+EOF 
