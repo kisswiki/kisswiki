@@ -1,9 +1,5 @@
 #!/bin/bash
 
-DBNAME="$1"
-DBROLE="$2"
-DBPASS="$3"
-
 no_psql_in_path=true
 which psql && no_psql_in_path=false
 echo "no_psql_in_path: $no_psql_in_path"
