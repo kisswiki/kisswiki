@@ -1,6 +1,7 @@
 #!/bin/bash
 
 export $(cat .env | grep -v ^# | xargs)
+echo "DBNAME: $DBNAME"
 
 # https://stackoverflow.com/questions/3466166/how-to-check-if-running-in-cygwin-mac-or-linux
 unameOut="$(uname -s)"
