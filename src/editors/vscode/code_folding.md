@@ -1,1 +1,2 @@
 - https://github.com/Microsoft/vscode/issues/3347
+  - https://github.com/Microsoft/vscode/issues/3422
