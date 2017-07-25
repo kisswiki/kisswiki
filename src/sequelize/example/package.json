@@ -1,0 +1,11 @@
+{
+  "name": "sequelize-example",
+  "version": "1.0.0",
+  "description": "Example from https://egghead.io/lessons/node-js-sequelize-querying-basics-using-findall",
+  "main": "find.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0"
+}
