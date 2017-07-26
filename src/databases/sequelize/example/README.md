@@ -1,5 +1,7 @@
 Example from https://egghead.io/lessons/node-js-sequelize-querying-basics-using-findall
 
+Maybe useful https://github.com/sequelize/express-example
+
 ## Run
 
 `cp .env.example .env`
