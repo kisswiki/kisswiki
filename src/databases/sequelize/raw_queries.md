@@ -1,0 +1,1 @@
+- http://docs.sequelizejs.com/manual/tutorial/raw-queries.html
