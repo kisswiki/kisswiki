@@ -2,6 +2,7 @@
 
 ```
 (initramfs) fsck /dev/mapper/ubuntu--vg-root
+(initramfs) reboot
 ```
 
 https://askubuntu.com/questions/137655/boot-drops-to-a-initramfs-prompts-busybox
