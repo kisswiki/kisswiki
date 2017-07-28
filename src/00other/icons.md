@@ -49,7 +49,7 @@ Some remarks:
 
 ## SVG clean
 
-- svgo
+- svgo: `npm i -g svgo`
 - http://stackoverflow.com/questions/9009305/what-are-some-options-for-optimizing-svg
 - https://github.com/codedread/scour http://wiki.inkscape.org/wiki/index.php/Save_Cleaned_SVG
 - remove meatada, rdf etc.
