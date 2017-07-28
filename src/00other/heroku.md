@@ -35,3 +35,18 @@ Show the list of all schemas
 `# \dn`
 
 https://connect.heroku.com/sync/6ebf2ab9-5777-4dbe-93dc-0aaf4fb315a1/settings/database
+
+## ssh
+
+locally:
+
+```
+heroku config:set STRIPE_KEY=sk_test_123123
+```
+
+on website:
+
+```
+More -> Login ssh
+echo $STRIPE_KEY
+```
