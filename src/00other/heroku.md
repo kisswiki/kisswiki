@@ -36,7 +36,7 @@ Show the list of all schemas
 
 https://connect.heroku.com/sync/6ebf2ab9-5777-4dbe-93dc-0aaf4fb315a1/settings/database
 
-## ssh
+## change env
 
 locally:
 
@@ -54,3 +54,7 @@ echo $STRIPE_KEY
 
 - https://devcenter.heroku.com/articles/config-vars
 - https://stackoverflow.com/questions/14612695/how-to-restart-a-rails-server-on-heroku
+
+## login ssh
+
+- ? https://devcenter.heroku.com/changelog-items/1112
