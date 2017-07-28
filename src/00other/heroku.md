@@ -61,4 +61,4 @@ echo $STRIPE_KEY
 
 ## deploy with git
 
-https://dashboard.heroku.com/apps/graylangur/deploy/heroku-git
+https://dashboard.heroku.com/apps/<app_name>/deploy/heroku-git
