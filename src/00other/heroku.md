@@ -41,7 +41,8 @@ https://connect.heroku.com/sync/6ebf2ab9-5777-4dbe-93dc-0aaf4fb315a1/settings/da
 locally:
 
 ```
-heroku config:set STRIPE_KEY=sk_test_123123
+heroku config:set STRIPE_KEY=sk_test_123123 --app app_name
+heroku restart --app app_name
 ```
 
 on website:
