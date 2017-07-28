@@ -51,3 +51,5 @@ on website:
 More -> Login ssh
 echo $STRIPE_KEY
 ```
+
+https://stackoverflow.com/questions/14612695/how-to-restart-a-rails-server-on-heroku
