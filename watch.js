@@ -5,7 +5,7 @@ var shell = require("shelljs");
 
 shell.exec('git add -A');
 shell.exec('git commit -a -m "" --allow-empty-message');
-shell.exec('ggit pull origin master --rebase');
+shell.exec('git pull origin master --rebase');
 shell.exec('git push');
 
 var watcher = chokidar.watch('.', {
