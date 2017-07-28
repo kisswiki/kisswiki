@@ -52,4 +52,5 @@ More -> Login ssh
 echo $STRIPE_KEY
 ```
 
-https://stackoverflow.com/questions/14612695/how-to-restart-a-rails-server-on-heroku
+- https://devcenter.heroku.com/articles/config-vars
+- https://stackoverflow.com/questions/14612695/how-to-restart-a-rails-server-on-heroku
