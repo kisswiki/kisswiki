@@ -58,3 +58,7 @@ echo $STRIPE_KEY
 ## login ssh
 
 - ? https://devcenter.heroku.com/changelog-items/1112
+
+## deploy with git
+
+https://dashboard.heroku.com/apps/graylangur/deploy/heroku-git
