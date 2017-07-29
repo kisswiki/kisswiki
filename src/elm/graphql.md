@@ -2,6 +2,11 @@
 - https://alpacaaa.net/blog/post/elm-graphql-client/
 - https://www.reddit.com/r/elm/comments/5zpz9h/hacker_news_clone_in_elm_elmnavigation_graphql/
 
+## ghivert/elm-graphql
+
+- https://github.com/ghivert/elm-graphql
+- https://www.reddit.com/r/elm/comments/6pwf5g/elm_graphql_graphql_made_easy_in_elm/
+
 ## jahewson/elm-graphql
 
 - https://github.com/jahewson/elm-graphql
