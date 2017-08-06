@@ -1,1 +1,2 @@
-https://github.com/ron-rs/ron
+- Rusty Object Notation https://github.com/ron-rs/ron
+- You should use RON instead of JSON, especially given that you are using Serde, which RON is designed around. https://www.reddit.com/r/rust/comments/6ruzmy/announcing_mvdbrs_atomic_easy_to_use_file_backed/
