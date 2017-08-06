@@ -9,3 +9,9 @@
 - https://medium.com/@carllerche/announcing-tokio-df6bb4ddb34
 - http://asquera.de/blog/2017-03-01/the-future-with-futures/
 - https://lukesteensen.com/2016/12/getting-started-with-tokio/ 
+
+## cancer
+
+Unless you use Tokio, which I believe is cancer and the Rust community is shooting itself in the foot with.
+
+https://www.reddit.com/r/rust/comments/6rq8ig/thank_you_rust/dl763oh/
