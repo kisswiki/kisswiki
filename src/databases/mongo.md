@@ -5,12 +5,13 @@ mongo
 > show dbs
 > use myDB
 > show collections
-> 
+> db.collectionName.find()
 ```
 
 - https://docs.mongodb.com/getting-started/shell/client/
 - https://docs.mongodb.com/manual/reference/mongo-shell/
 - https://docs.mongodb.com/manual/tutorial/access-mongo-shell-help/
+- https://stackoverflow.com/questions/24985684/mongodb-show-all-contents-from-all-collections/29778560#29778560
 
 ## client
 
