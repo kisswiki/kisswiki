@@ -29,6 +29,14 @@ click `Heroku Connect`
 
 click `Create Mapping`
 
+## checkboxes true
+
+```javascript
+for(input of document.querySelectorAll('td:first-child input[type="checkbox"]')) {
+	input.checked = true;
+}
+```
+
 ## Errors when creating mapping for Contact object
 
 When enabling Streaming API:
@@ -45,14 +53,6 @@ Warning:Fields needed for insertion to Salesforce need to be mapped: LastName
 ```
 
 https://devcenter.heroku.com/articles/heroku-connect#mapping-objects
-
-## checkboxes true
-
-```javascript
-for(input of document.querySelectorAll('td:first-child input[type="checkbox"]')) {
-	input.checked = true;
-}
-```
 
 ## Error: sObject type 'PushTopic' is not supported
 
