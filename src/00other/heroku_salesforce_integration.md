@@ -56,7 +56,6 @@ https://devcenter.heroku.com/articles/heroku-connect#mapping-objects
 
 ## Error: sObject type 'PushTopic' is not supported
 
-
 the problem might be with Professional Plan:
 
 >Only the following editions support BigObject: Enterprise, Performance, Unlimited, and Developer. If you are using an edition other than these (such as Professional) you won't be able to use FieldHistoryArchive.
