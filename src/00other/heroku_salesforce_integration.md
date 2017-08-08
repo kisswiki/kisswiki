@@ -73,7 +73,7 @@ the problem might be with Professional Plan:
 
 - https://salesforce.stackexchange.com/questions/187588/where-can-i-find-detailed-comparison-of-plans
 - https://www.sfdcstatic.com/assets/pdf/datasheets/DS_SalesCloud_EdCompare.pdf
-- https://success.salesforce.com/answers?id=90630000000DL7mAAG
+- What are the primary differences between the professional version of Salesforce and the enterprise version of Salesforce? https://success.salesforce.com/answers?id=90630000000DL7mAAG
   - https://help.salesforce.com/articleView?id=limits_general.htm&language=en_US&type=0
   - https://www.shellblack.com/administration/differences-between-professional-edition-and-enterprise-edition/
   - http://agilidi.com/how-to-choose-the-right-salesforce-com-edition-professional-vs-enterprise-vs-unlimited
