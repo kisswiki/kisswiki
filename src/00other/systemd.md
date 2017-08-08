@@ -14,8 +14,8 @@ http://serverfault.com/questions/700862/do-systemd-unit-files-have-to-be-reloade
 
 ## start service
 
-`sudo systemctl start mongodb`
+`sudo systemctl start mongod`
 
 ## load during startup
 
-`sudo systemctl enable mongodb`
+`sudo systemctl enable mongod`
