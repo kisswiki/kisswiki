@@ -3,6 +3,7 @@ run client
 ```
 mongo
 > show dbs
+> use myDB
 > show collections
 > 
 ```
