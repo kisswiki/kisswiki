@@ -75,4 +75,5 @@ the problem might be with Professional Plan:
 - https://success.salesforce.com/answers?id=90630000000DL7mAAG
 - https://help.salesforce.com/articleView?id=limits_general.htm&language=en_US&type=0
 - https://www.shellblack.com/administration/differences-between-professional-edition-and-enterprise-edition/
+- http://agilidi.com/how-to-choose-the-right-salesforce-com-edition-professional-vs-enterprise-vs-unlimited
 - https://stackoverflow.com/search?q=%5Bsalesforce%5D+professional
