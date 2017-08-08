@@ -19,3 +19,7 @@ http://serverfault.com/questions/700862/do-systemd-unit-files-have-to-be-reloade
 ## load during startup
 
 `sudo systemctl enable mongod`
+
+## status
+
+`sudo systemctl status mongod`
