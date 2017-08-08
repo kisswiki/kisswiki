@@ -29,6 +29,23 @@ click `Heroku Connect`
 
 click `Create Mapping`
 
+## Errors when creating mapping for Contact object
+
+When enabling Streaming API:
+
+```
+Unable to create mapping Contact in connection #6ebf2ab9-5777-4dbe-93dc-0aaf4fb315a1. {"code":"badconfig","message":"PushTopic check failed: Server raised fault: 'INVALID_TYPE: \n FROM PushTopic\n ^\nERROR at Row:2:Column:22\nsObject type 'PushTopic' is not supported. If you are attempting to use a custom object, be sure to append the '__c' after the entity name. Please reference your WSDL or the describe call for the appropriate names.'"}. Status code: 400 (HTTPError: error)
+```
+
+When enabling Write to Salesforce:
+
+```
+Error:Read-write mappings require an upsert field for syncing. Upsert fields must be defined as unique External ID fields in Salesforce.More Info...
+Warning:Fields needed for insertion to Salesforce need to be mapped: LastName
+```
+
+https://devcenter.heroku.com/articles/heroku-connect#mapping-objects
+
 ## checkboxes true
 
 ```javascript
