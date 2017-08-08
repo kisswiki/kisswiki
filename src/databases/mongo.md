@@ -1,7 +1,7 @@
 run client
 
 ```
-mongo
+$ mongo
 > show dbs
 > use myDB
 > show collections
