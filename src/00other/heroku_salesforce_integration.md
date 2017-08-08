@@ -78,3 +78,4 @@ the problem might be with Professional Plan:
   - https://www.shellblack.com/administration/differences-between-professional-edition-and-enterprise-edition/
   - http://agilidi.com/how-to-choose-the-right-salesforce-com-edition-professional-vs-enterprise-vs-unlimited
 - https://stackoverflow.com/search?q=%5Bsalesforce%5D+professional
+- https://stackoverflow.com/questions/12401859/salesforce-api-supports-all-sales-cloud-editions
