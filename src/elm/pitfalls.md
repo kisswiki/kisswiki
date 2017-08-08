@@ -1,0 +1,1 @@
+- https://www.reddit.com/r/elm/comments/6scicd/what_are_elm_pitfalls/
