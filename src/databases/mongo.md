@@ -19,3 +19,4 @@ $ mongo
 - https://askubuntu.com/questions/196136/what-is-a-good-mongodb-gui-client
 - https://askubuntu.com/questions/739297/how-to-install-robomongo-on-ubuntu/781793
 - https://stackoverflow.com/questions/17106315/failed-to-load-platform-plugin-xcb-while-launching-qt5-app-on-linux-without
+- https://github.com/mrvautin/adminMongo
