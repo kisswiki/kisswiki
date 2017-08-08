@@ -64,4 +64,5 @@ the problem might be with Professional Plan:
 
 >Heroku Connect allows you to specify a unique external ID via the Upsert Field setting of the mapping configuration
 
-https://devcenter.heroku.com/articles/heroku-connect#mapping-objects
+- https://devcenter.heroku.com/articles/heroku-connect#upsert-field
+- https://devcenter.heroku.com/articles/heroku-connect#mapping-objects
