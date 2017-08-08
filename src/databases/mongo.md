@@ -7,6 +7,8 @@ mongo
 > 
 ```
 
+- https://docs.mongodb.com/manual/reference/mongo-shell/
+
 ## client
 
 - https://stackoverflow.com/questions/6835042/is-there-a-mongodb-gui-desktop-application-for-linux
