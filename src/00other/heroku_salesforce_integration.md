@@ -1,4 +1,5 @@
 - https://trailhead.salesforce.com/en/modules/salesforce_heroku_integration/units/getting_started_with_integration
+- https://stackoverflow.com/questions/tagged/salesforce
 
 - https://devcenter.heroku.com/articles/reading-data-from-salesforce-with-heroku-connect
 
@@ -70,6 +71,8 @@ the problem might be with Professional Plan:
 
 ## Comparision of Salesforce plans
 
-https://salesforce.stackexchange.com/questions/187588/where-can-i-find-detailed-comparison-of-plans
-
-https://stackoverflow.com/questions/tagged/salesforce
+- https://salesforce.stackexchange.com/questions/187588/where-can-i-find-detailed-comparison-of-plans
+- https://success.salesforce.com/answers?id=90630000000DL7mAAG
+- https://help.salesforce.com/articleView?id=limits_general.htm&language=en_US&type=0
+- https://www.shellblack.com/administration/differences-between-professional-edition-and-enterprise-edition/
+- https://stackoverflow.com/search?q=%5Bsalesforce%5D+professional
