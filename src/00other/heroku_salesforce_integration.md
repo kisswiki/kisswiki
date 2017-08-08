@@ -54,11 +54,14 @@ Warning:Fields needed for insertion to Salesforce need to be mapped: LastName
 
 https://devcenter.heroku.com/articles/heroku-connect#mapping-objects
 
-## Error: sObject type 'PushTopic' is not supported
-
 the problem might be with Professional Plan:
 
 >Only the following editions support BigObject: Enterprise, Performance, Unlimited, and Developer. If you are using an edition other than these (such as Professional) you won't be able to use FieldHistoryArchive.
 
 - https://salesforce.stackexchange.com/questions/179656/sobject-type-fieldhistoryarchive-is-not-supported
 - https://salesforce.stackexchange.com/questions/187477/sobject-type-pushtopic-is-not-supported-when-creating-object-mapping-in-hero
+
+
+>Heroku Connect allows you to specify a unique external ID via the Upsert Field setting of the mapping configuration
+
+https://devcenter.heroku.com/articles/heroku-connect#mapping-objects
