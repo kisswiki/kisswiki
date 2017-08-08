@@ -69,3 +69,9 @@ https://askubuntu.com/questions/443/how-to-remove-an-uninstalled-packages-depend
 `dpkg -S /usr/bin/ls`
 
 https://superuser.com/questions/10997/find-what-package-a-file-belongs-to-in-ubuntu-debian/11003#11003
+
+## What files are installed with package
+
+`dpkg -L <package>`
+
+https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package/32510#32510
