@@ -7,6 +7,7 @@ mongo
 > 
 ```
 
+- https://docs.mongodb.com/getting-started/shell/client/
 - https://docs.mongodb.com/manual/reference/mongo-shell/
 
 ## client
