@@ -1,4 +1,4 @@
--https://trailhead.salesforce.com/en/modules/salesforce_heroku_integration/units/getting_started_with_integration
+- https://trailhead.salesforce.com/en/modules/salesforce_heroku_integration/units/getting_started_with_integration
 
 - https://devcenter.heroku.com/articles/reading-data-from-salesforce-with-heroku-connect
 
@@ -9,6 +9,17 @@ Table of Contents
 - Streaming API
 - API call usage
 - Resolving read errors
+
+## General suggestions for integrations:
+
+- To replicate data between Salesforce and Heroku, use Heroku Connect.
+- To expose a Heroku Postgres database to Salesforce, use Heroku Connect External Object.
+- To proxy OData, SOAP, XML, or JSON data sources into Salesforce, use Salesforce Connect.
+- If Heroku Connect doesn’t fit the bill, like when you have a custom UI on Heroku where users log in via Salesforce, use the Salesforce REST APIs.
+- To offload or extend the processing of Salesforce data events, use callouts from Salesforce to Heroku.
+- To embed a custom UI from Heroku (or other external web app) into Salesforce, use Canvas.
+
+https://trailhead.salesforce.com/en/modules/salesforce_heroku_integration/units/getting_started_with_integration
 
 ## Mapping
 
