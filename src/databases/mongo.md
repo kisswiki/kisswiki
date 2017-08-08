@@ -9,6 +9,7 @@ mongo
 
 - https://docs.mongodb.com/getting-started/shell/client/
 - https://docs.mongodb.com/manual/reference/mongo-shell/
+- https://docs.mongodb.com/manual/tutorial/access-mongo-shell-help/
 
 ## client
 
