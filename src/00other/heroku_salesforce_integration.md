@@ -66,3 +66,8 @@ the problem might be with Professional Plan:
 
 - https://devcenter.heroku.com/articles/heroku-connect#upsert-field
 - https://devcenter.heroku.com/articles/heroku-connect#mapping-objects
+
+
+## Comparision of Salesforce plans
+
+https://salesforce.stackexchange.com/questions/187588/where-can-i-find-detailed-comparison-of-plans
