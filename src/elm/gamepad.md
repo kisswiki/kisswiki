@@ -1,0 +1,3 @@
+- https://github.com/xarvh/elm-gamepad
+- http://package.elm-lang.org/packages/xarvh/elm-gamepad/latest
+- https://groups.google.com/forum/#!msg/elm-discuss/2nXaL8VAYHY/xKBixsiqAQAJ
