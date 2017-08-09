@@ -5,4 +5,4 @@ dataToPrint.deadline = moment(_.get(data, 'date'), dateFormatString)
   .format(dateFormatString);
 ```
 
-https://stackoverflow.com/questions/7937233/how-do-i-calculate-the-date-in-javascript-three-months-prior-to-today
+https://stackoverflow.com/questions/7937233/how-do-i-calculate-the-date-in-javascript-three-months-prior-to-today/34762141#34762141
