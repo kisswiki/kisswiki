@@ -72,6 +72,7 @@ the problem might be with Professional Plan:
 ## Comparision of Salesforce plans
 
 - https://salesforce.stackexchange.com/questions/187588/where-can-i-find-detailed-comparison-of-plans
+- https://stackoverflow.com/questions/45585563/upsert-fields-must-be-defined-as-unique-external-id-fields-in-salesforce-herok
 - https://www.sfdcstatic.com/assets/pdf/datasheets/DS_SalesCloud_EdCompare.pdf
 - What are the primary differences between the professional version of Salesforce and the enterprise version of Salesforce? https://success.salesforce.com/answers?id=90630000000DL7mAAG
   - https://help.salesforce.com/articleView?id=limits_general.htm&language=en_US&type=0
