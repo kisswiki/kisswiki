@@ -55,6 +55,7 @@ the problem might be with Professional Plan:
 - https://salesforce.stackexchange.com/questions/179656/sobject-type-fieldhistoryarchive-is-not-supported
 - https://salesforce.stackexchange.com/questions/187477/sobject-type-pushtopic-is-not-supported-when-creating-object-mapping-in-hero
 - My ticket https://help.heroku.com/tickets/500813
+- My question: heroku connect - cannot create mapping for Contact object with enabled "Write to Salesforce any updates to your database" https://developer.salesforce.com/forums#!/feedtype=SINGLE_QUESTION_DETAIL&dc=Developer_Forums&criteria=OPENQUESTIONS&id=9060G000000BhZzQAK
 - Maybe relevant https://devcenter.heroku.com/articles/heroku-connect-faq#why-isn-t-connect-allowing-me-to-map-an-object-or-field
 
 
