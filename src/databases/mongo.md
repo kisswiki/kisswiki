@@ -17,6 +17,10 @@ $ mongo
 
 `mongo somewhere.mongolayer.com:10011/my_database -u username -p password`
 
+or with connection string:
+
+`mongo mongodb://username:password@somewhere.mongolayer.com:10011/my_database`
+
 https://stackoverflow.com/questions/26813912/how-can-i-connect-to-a-remote-mongo-server-from-mac-os-terminal
 
 ## client
