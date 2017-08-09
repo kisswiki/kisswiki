@@ -30,3 +30,9 @@ https://stackoverflow.com/questions/26813912/how-can-i-connect-to-a-remote-mongo
 - https://askubuntu.com/questions/739297/how-to-install-robomongo-on-ubuntu/781793
 - https://stackoverflow.com/questions/17106315/failed-to-load-platform-plugin-xcb-while-launching-qt5-app-on-linux-without
 - https://github.com/mrvautin/adminMongo
+
+## fields of collection
+
+`Object.keys(db.messages.findOne())`
+
+https://stackoverflow.com/questions/5900792/how-to-view-document-fields-in-mongo-shell/26063468#26063468
