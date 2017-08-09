@@ -7,7 +7,7 @@ body {
   background-color: white;
 }
 
-#wrapper {
+.toggle-button {
   display: flex;
 }
 
@@ -46,7 +46,7 @@ input[type="radio"].toggle-right + label {
 }
 </style>
 
-<div id="wrapper">
+<div class="toggle-button">
   <input id="toggle-on" class="toggle toggle-left" name="toggle" value="false" type="radio" checked>
   <label for="toggle-on" class="btn">On</label>
   <input id="toggle-off" class="toggle toggle-right" name="toggle" value="true" type="radio">
