@@ -13,6 +13,12 @@ $ mongo
 - https://docs.mongodb.com/manual/tutorial/access-mongo-shell-help/
 - https://stackoverflow.com/questions/24985684/mongodb-show-all-contents-from-all-collections/29778560#29778560
 
+## connect to remote
+
+`mongo somewhere.mongolayer.com:10011/my_database -u username -p password`
+
+https://stackoverflow.com/questions/26813912/how-can-i-connect-to-a-remote-mongo-server-from-mac-os-terminal
+
 ## client
 
 - https://stackoverflow.com/questions/6835042/is-there-a-mongodb-gui-desktop-application-for-linux
