@@ -40,17 +40,10 @@ for(input of document.querySelectorAll('td:first-child input[type="checkbox"]'))
 
 ## Errors when creating mapping for Contact object
 
-When enabling Streaming API:
+### When enabling Streaming API
 
 ```
 Unable to create mapping Contact in connection #6ebf2ab9-5777-4dbe-93dc-0aaf4fb315a1. {"code":"badconfig","message":"PushTopic check failed: Server raised fault: 'INVALID_TYPE: \n FROM PushTopic\n ^\nERROR at Row:2:Column:22\nsObject type 'PushTopic' is not supported. If you are attempting to use a custom object, be sure to append the '__c' after the entity name. Please reference your WSDL or the describe call for the appropriate names.'"}. Status code: 400 (HTTPError: error)
-```
-
-When enabling Write to Salesforce:
-
-```
-Error:Read-write mappings require an upsert field for syncing. Upsert fields must be defined as unique External ID fields in Salesforce.More Info...
-Warning:Fields needed for insertion to Salesforce need to be mapped: LastName
 ```
 
 https://devcenter.heroku.com/articles/heroku-connect#mapping-objects
@@ -63,6 +56,16 @@ the problem might be with Professional Plan:
 - https://salesforce.stackexchange.com/questions/187477/sobject-type-pushtopic-is-not-supported-when-creating-object-mapping-in-hero
 
 
+### When enabling Write to Salesforce
+
+```
+Error:Read-write mappings require an upsert field for syncing. Upsert fields must be defined as unique External ID fields in Salesforce.More Info...
+Warning:Fields needed for insertion to Salesforce need to be mapped: LastName
+```
+
+- https://stackoverflow.com/questions/45585563/upsert-fields-must-be-defined-as-unique-external-id-fields-in-salesforce-herok
+
+
 >Heroku Connect allows you to specify a unique external ID via the Upsert Field setting of the mapping configuration
 
 - https://devcenter.heroku.com/articles/heroku-connect#upsert-field
@@ -72,7 +75,6 @@ the problem might be with Professional Plan:
 ## Comparision of Salesforce plans
 
 - https://salesforce.stackexchange.com/questions/187588/where-can-i-find-detailed-comparison-of-plans
-- https://stackoverflow.com/questions/45585563/upsert-fields-must-be-defined-as-unique-external-id-fields-in-salesforce-herok
 - https://www.sfdcstatic.com/assets/pdf/datasheets/DS_SalesCloud_EdCompare.pdf
 - What are the primary differences between the professional version of Salesforce and the enterprise version of Salesforce? https://success.salesforce.com/answers?id=90630000000DL7mAAG
   - https://help.salesforce.com/articleView?id=limits_general.htm&language=en_US&type=0
