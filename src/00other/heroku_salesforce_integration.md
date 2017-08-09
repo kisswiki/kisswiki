@@ -54,6 +54,7 @@ the problem might be with Professional Plan:
 
 - https://salesforce.stackexchange.com/questions/179656/sobject-type-fieldhistoryarchive-is-not-supported
 - https://salesforce.stackexchange.com/questions/187477/sobject-type-pushtopic-is-not-supported-when-creating-object-mapping-in-hero
+- My ticket https://help.heroku.com/tickets/500813
 
 
 ### When enabling Write to Salesforce
