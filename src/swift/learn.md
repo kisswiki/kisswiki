@@ -10,4 +10,6 @@ https://www.raywenderlich.com
 
 Another pay site that is be useful if you want to come up to speed quickly is http://nsscreencast.com
 
+also a number free iOS app examples and resources on this youtube channel (Lets Build That App) as well https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI92mA
+
 https://news.ycombinator.com/item?id=14973333
