@@ -44,8 +44,8 @@ sudo apt dist-upgrade  # Installs updates (new ones)
 ## clean
 
 ```bash
-sudo apt-get --purge autoremove
-sudo apt-get clean all
+sudo apt --purge autoremove
+sudo apt clean all
 ```
 
 ## update single package
@@ -60,7 +60,7 @@ https://askubuntu.com/questions/44122/how-to-upgrade-a-single-package-using-apt-
 
 ## remove package with dependencies
 
-`apt-get remove --auto-remove packagename`
+`apt remove --auto-remove packagename`
 
 https://askubuntu.com/questions/443/how-to-remove-an-uninstalled-packages-dependencies
 
