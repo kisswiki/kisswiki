@@ -1,7 +1,7 @@
 ## signature failed, cleansigned file isn't valid got 'NODATA'
 
 ```bash
-apt-get clean
+apt clean
 mv /var/lib/apt/lists /tmp
 mkdir -p /var/lib/apt/lists/partial
 apt clean
