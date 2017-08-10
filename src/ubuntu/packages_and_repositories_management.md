@@ -31,9 +31,9 @@ http://askubuntu.com/questions/38021/how-to-add-a-ppa-on-a-server/38029#38029
 ## install updates
 
 ```bash
-sudo apt-get update        # Fetches the list of available updates
-sudo apt-get upgrade       # Strictly upgrades the current packages
-sudo apt-get dist-upgrade  # Installs updates (new ones)
+sudo apt update        # Fetches the list of available updates
+sudo apt upgrade       # Strictly upgrades the current packages
+sudo apt dist-upgrade  # Installs updates (new ones)
 ```
 
 ## upgrade release
