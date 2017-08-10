@@ -12,4 +12,7 @@ Also, the single threaded model of JS just does not scale. The larger the app ge
 
 And that’s before mentioning things like accessibility, large type support, basic iOS concepts such as margins and layout guides, etc. that are sorely missing from RN.
 
-https://news.ycombinator.com/item?id=14973985
+
+I think it is best to write the "core" of your application using a language that can run on all of your target platforms -- which typically means you'll have to use C/C++/Rust or something similar that can be compiled to native code and supports somewhat sane FFI. The UI for each platform should be done using the Native UI toolkit for the platform. That way, you can avoid most of the code duplication.
+
+https://news.ycombinator.com/item?id=14972637
