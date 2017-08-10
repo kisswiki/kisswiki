@@ -12,6 +12,7 @@ So I've looked at each Swift release through the lens of "Can we add Linux suppo
 4. Nothing works at first. It's not straightforward to just unpack a dev release and get basic things working: importing libraries into the REPL, debug on Linux using lldb. Those things do work but you will have to visit the Swift JIRA tracker and to learn the magic collection of permission changes, command-line flags, and environment variables that make it all possible.
 5. If Swift had a good answer for interprocess communication it would be awesome as a kind of scripting language. However, it does not. It has this terrible API based on the old Mac NSTask class, and you will probably end up abandoning that and trying to write an interface to popen(), write 100 lines of error-handling code just to launch some UNIX tool and get its result, rub your eyes, sigh, close the editor, delete the file, and write it in ruby or python.
 However, there is also some really awesome stuff:
+
     a) Swift itself is awesome to program in, and except where explicitly unimplemented, it is stable and fast on Linux.
     b) Swift Package Manager is now robust and a pleasure to work with.
     c) The build system works great on Linux, aside from the slowness of a young compiler (which is not specific to Linux).
