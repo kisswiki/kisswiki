@@ -1,1 +1,2 @@
-No way to auto save files on search and replace https://github.com/Microsoft/vscode/issues/20707#issuecomment-321515207
+- No way to auto save files on search and replace https://github.com/Microsoft/vscode/issues/20707#issuecomment-321515207
+- https://stackoverflow.com/questions/37346481/how-do-i-find-and-replace-all-occurrences-in-all-files-in-visual-studio-code
