@@ -12,4 +12,6 @@ Another pay site that is be useful if you want to come up to speed quickly is ht
 
 also a number free iOS app examples and resources on this youtube channel (Lets Build That App) as well https://www.youtube.com/channel/UCuP2vJ6kRutQBfRmdcI92mA
 
-https://news.ycombinator.com/item?id=14973333
+Stanford courses are the best you can find online for free. https://youtu.be/HitSIzPM_6E
+
+https://news.ycombinator.com/item?id=14972637
