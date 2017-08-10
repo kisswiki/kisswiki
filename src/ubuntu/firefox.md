@@ -9,7 +9,7 @@ sudo apt install firefox-trunk install firefox-trunk-locale-pl
 later:
 
 ```
-sudo apt install --only-upgrade firefox-trunk firefox-trunk-locale-pl
+sudo apt install --only-upgrade firefox-trunk   firefox-trunk-locale-pl
 ```
 
 http://www.ubuntu-pomoc.org/instalacja-firefox-nightly-z-repozytorium/
