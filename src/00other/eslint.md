@@ -176,3 +176,19 @@ https://github.com/eslint/eslint/issues/1663#issuecomment-240066799
 ```
 
 https://github.com/eslint/eslint/issues/7030
+
+## document is not defined
+
+in `.eslintrc`:
+
+```
+{
+  "globals": {
+    "document": true,
+    "foo": true,
+    "window": true
+  }
+}
+```
+
+https://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-allow-global-variables-in-package-json/39331966#39331966
