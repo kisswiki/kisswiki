@@ -9,5 +9,6 @@
         "key": "ctrl+j",
         "command": "editor.action.joinLines"
     },
-    { "key": "ctrl+w", "command": "-workbench.action.closeWindow", "when": "!editorIsOpen" }
+    { "key": "ctrl+w", "command": "-workbench.action.closeWindow", "when": "!editorIsOpen" },
+    { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" }
 ]
