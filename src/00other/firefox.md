@@ -23,6 +23,20 @@ https://support.mozilla.org/en-US/questions/963855
 - https://addons.mozilla.org/pl/firefox/addon/dark-background-light-text
 - https://addons.mozilla.org/pl/firefox/addon/simple-night-mode
 
+### Dark about:blank
+
+Install Stylish. Create new style:
+
+```
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url("about:newtab") {
+  *{background-color:#000000;}
+}
+```
+
+https://superuser.com/questions/603218/how-to-make-the-aboutblank-page-black-or-any-other-color-in-firefox
+
 ## Autohide address bar
 
 https://addons.mozilla.org/pl/firefox/addon/aniverto/
