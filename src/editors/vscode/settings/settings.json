@@ -25,5 +25,6 @@
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "extensions.ignoreRecommendations": false,
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.dragAndDrop": false
 }
