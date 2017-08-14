@@ -1,3 +1,7 @@
+## Latest stable
+
+https://askubuntu.com/questions/945244/when-will-firefox-55-be-in-the-repos
+
 ## Nigthly
 
 ```shell
