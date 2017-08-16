@@ -37,6 +37,15 @@ https://stackoverflow.com/questions/26813912/how-can-i-connect-to-a-remote-mongo
 
 https://stackoverflow.com/questions/5900792/how-to-view-document-fields-in-mongo-shell/26063468#26063468
 
+## install
+
+```
+mkdir -p /c/data/{db,log}
+mongod
+```
+
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+
 ## copy database
 
 ```
