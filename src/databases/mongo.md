@@ -36,3 +36,12 @@ https://stackoverflow.com/questions/26813912/how-can-i-connect-to-a-remote-mongo
 `Object.keys(db.messages.findOne())`
 
 https://stackoverflow.com/questions/5900792/how-to-view-document-fields-in-mongo-shell/26063468#26063468
+
+## copy database
+
+```
+$ mongo
+use csampledb1
+db.csamplecol1.save({id:1, name:"sample name"})
+db.copyDatabase(<from_db>, <to_db>, <from_hostname>:<port>, <username>, <password>);
+```
