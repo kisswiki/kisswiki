@@ -86,3 +86,19 @@ Warning:Fields needed for insertion to Salesforce need to be mapped: LastName
 - https://stackoverflow.com/search?q=%5Bsalesforce%5D+professional
 - https://stackoverflow.com/questions/12401859/salesforce-api-supports-all-sales-cloud-editions
 - https://stackoverflow.com/questions/16665661/salesforce-professional-edition-api-doesnt-support-all-fields-of-salesforce-con
+
+## default schema in postgresql
+
+You can also choose the Postgres schema to be used for the tables created by Heroku Connect. The default is salesforce however you can choose to put your tables in an existing schema, including public, as long as no tables exist in the schema.
+
+https://devcenter.heroku.com/articles/heroku-connect
+
+## change schema
+
+`SET search_path TO myschema;`
+
+or
+
+`select * from myschema.mytable;`
+
+https://stackoverflow.com/questions/34098326/how-to-select-a-schema-in-postgres-when-using-psql
