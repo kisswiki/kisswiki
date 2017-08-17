@@ -133,6 +133,8 @@ https://devcenter.heroku.com/articles/heroku-connect-api
 
 ## doc
 
+- https://www.heroku.com/connect
+- https://connect.heroku.com/
 - https://devcenter.heroku.com/articles/heroku-external-objects-salesforce
 - https://devcenter.heroku.com/articles/heroku-connect
 - https://developer.salesforce.com/platform/heroku
