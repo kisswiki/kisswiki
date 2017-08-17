@@ -97,11 +97,11 @@ https://devcenter.heroku.com/articles/heroku-connect
 
 `show search_path;`
 
-`SET search_path TO myschema;`
+`set search_path to myschema;`
 
 or
 
-`SET search_path=myschema;`
+`set search_path=myschema;`
 
 https://stackoverflow.com/questions/34098326/how-to-select-a-schema-in-postgres-when-using-psql
 
