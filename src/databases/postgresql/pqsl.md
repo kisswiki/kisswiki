@@ -41,9 +41,25 @@ https://www.postgresql.org/message-id/4C127289.9040903%40gmail.com
 But that runs a shell command, how's that supposed to get the search_path?  I've been trying to think up a solution to that and can't come up with one.
 https://www.postgresql.org/message-id/AANLkTik4iTJU3U6ybkMvDMmKEZWKeV_clItFGBZ0--r_@mail.gmail.com
 
+Yeah, and you do *not* want the prompt mechanism trying to send SQL commands...
+https://www.postgresql.org/message-id/12197.1276287500%40sss.pgh.pa.us
+
 - https://www.postgresql.org/docs/current/static/functions-info.html
 - https://www.postgresql.org/docs/current/static/app-psql.html#APP-PSQL-PROMPTING
 
 There are lots of things you can put into a prompt, but that doesn't appear to be one of them. Seems like a reasonable feature request.
 
 https://www.postgresql.org/message-id/AANLkTinasGLjHCy4r2fUUPIrul_VDL4nA9QAc2RLMOoe%40mail.gmail.com
+
+### Workarounds
+
+```
+\set shsh 'SHOW search_path;' 
+:shsh
+\set setsh 'SET search_path TO'
+:setsh salesforce
+```
+
+You may add it to `~/.psqlrc`.
+
+http://www.postgresql-archive.org/How-to-show-the-current-schema-or-search-path-in-the-psql-PROMP-td1925956.html
