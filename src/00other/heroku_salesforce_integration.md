@@ -113,3 +113,10 @@ https://stackoverflow.com/questions/34098326/how-to-select-a-schema-in-postgres-
 
 https://stackoverflow.com/questions/45730141/how-to-change-default-postgresql-schema-with-heroku-connect
 
+## doc
+
+- https://devcenter.heroku.com/articles/heroku-external-objects-salesforce
+- https://devcenter.heroku.com/articles/heroku-connect
+- https://developer.salesforce.com/platform/heroku
+- https://devcenter.heroku.com/articles/heroku-external-objects
+- https://blog.heroku.com/heroku-external-objects
