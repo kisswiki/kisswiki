@@ -119,6 +119,18 @@ https://stackoverflow.com/questions/45730141/how-to-change-default-postgresql-sc
 
 https://devcenter.heroku.com/articles/heroku-connect-database-tables#salesforce-schema-changes
 
+## restart connection
+
+You can restart a connection at any time, which will clear system errors and attempt to sync data again.
+
+https://devcenter.heroku.com/articles/heroku-connect-api
+
+## reload mapping
+
+If a table in your PostgreSQL database gets out of sync with Salesforce for any reason, you can use the API to clear out the Postgres table and pull fresh data from Salesforce. 
+
+https://devcenter.heroku.com/articles/heroku-connect-api
+
 ## doc
 
 - https://devcenter.heroku.com/articles/heroku-external-objects-salesforce
@@ -129,4 +141,4 @@ https://devcenter.heroku.com/articles/heroku-connect-database-tables#salesforce-
 - https://developer.salesforce.com/blogs/developer-relations/2016/11/integrating-relational-data-salesforce-heroku-external-objects-heroku-postgres.html
 - https://devcenter.heroku.com/articles/heroku-connect-database-tables#salesforce-schema-changes
 - https://devcenter.heroku.com/articles/heroku-connect-api#step-2-create-the-heroku-connect-add-on
-- https://devcenter.heroku.com/articles/heroku-connect-api#step-2-create-the-heroku-connect-add-on
+
