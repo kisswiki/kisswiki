@@ -25,3 +25,9 @@ https://stackoverflow.com/questions/15644152/list-tables-in-a-postgresql-schema
 `\pset pager off`
 
 https://stackoverflow.com/questions/11180179/postgresql-disable-more-output/11183473#11183473
+
+## show schema in prompt
+
+There are lots of things you can put into a prompt, but that doesn't appear to be one of them. Seems like a reasonable feature request.
+
+https://www.postgresql.org/message-id/AANLkTinasGLjHCy4r2fUUPIrul_VDL4nA9QAc2RLMOoe%40mail.gmail.com
