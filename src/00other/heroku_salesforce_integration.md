@@ -95,10 +95,18 @@ https://devcenter.heroku.com/articles/heroku-connect
 
 ## change schema
 
+`show search_path;`
+
 `SET search_path TO myschema;`
 
 or
 
-`select * from myschema.mytable;`
+`SET search_path=myschema;`
 
 https://stackoverflow.com/questions/34098326/how-to-select-a-schema-in-postgres-when-using-psql
+
+## Select from different search path:
+
+`select * from myschema.mytable;`
+
+
