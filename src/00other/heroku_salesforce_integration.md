@@ -113,6 +113,12 @@ https://stackoverflow.com/questions/34098326/how-to-select-a-schema-in-postgres-
 
 https://stackoverflow.com/questions/45730141/how-to-change-default-postgresql-schema-with-heroku-connect
 
+## Don't create tables with ORM
+
+>You should avoid creating mapped tables yourself. Heroku Connect will not replace an existing table when creating a new mapping and therefore, if the table is not created correctly, you will experience errors when syncing data. If you are using an ORM framework to model your mappings you should ensure that the framework does not attempt to create the underlying tables in the database.
+
+https://devcenter.heroku.com/articles/heroku-connect-database-tables#salesforce-schema-changes
+
 ## doc
 
 - https://devcenter.heroku.com/articles/heroku-external-objects-salesforce
@@ -120,3 +126,6 @@ https://stackoverflow.com/questions/45730141/how-to-change-default-postgresql-sc
 - https://developer.salesforce.com/platform/heroku
 - https://devcenter.heroku.com/articles/heroku-external-objects
 - https://blog.heroku.com/heroku-external-objects
+- https://developer.salesforce.com/blogs/developer-relations/2016/11/integrating-relational-data-salesforce-heroku-external-objects-heroku-postgres.html
+- https://devcenter.heroku.com/articles/heroku-connect-database-tables#salesforce-schema-changes
+- 
