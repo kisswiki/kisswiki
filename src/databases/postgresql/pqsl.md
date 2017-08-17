@@ -38,6 +38,7 @@ Maybe combined with
 
 - https://www.postgresql.org/message-id/4C127289.9040903%40gmail.com
 - https://www.postgresql.org/docs/current/static/functions-info.html
+- https://www.postgresql.org/docs/current/static/app-psql.html#APP-PSQL-PROMPTING
 
 There are lots of things you can put into a prompt, but that doesn't appear to be one of them. Seems like a reasonable feature request.
 
