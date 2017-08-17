@@ -72,3 +72,14 @@ http://www.postgresql-archive.org/How-to-show-the-current-schema-or-search-path-
 ## cheatsheet
 
 https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
+
+## display procedure code
+
+`SELECT prosrc FROM pg_proc WHERE proname = <function name>;`
+
+https://www.postgresql.org/message-id/1332941597167-5600485.post@n5.nabble.com
+
+`\df+ <function_name>`
+
+https://stackoverflow.com/questions/3524859/how-to-display-full-stored-procedure-code
+
