@@ -28,6 +28,19 @@ https://stackoverflow.com/questions/11180179/postgresql-disable-more-output/1118
 
 ## show schema in prompt
 
+`current_schema[()]`
+
+Maybe combined with
+
+```
+%`command`
+```
+
+- https://www.postgresql.org/message-id/4C127289.9040903%40gmail.com
+- https://www.postgresql.org/docs/current/static/functions-info.html
+
 There are lots of things you can put into a prompt, but that doesn't appear to be one of them. Seems like a reasonable feature request.
 
 https://www.postgresql.org/message-id/AANLkTinasGLjHCy4r2fUUPIrul_VDL4nA9QAc2RLMOoe%40mail.gmail.com
+
+
