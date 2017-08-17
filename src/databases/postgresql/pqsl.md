@@ -66,4 +66,5 @@ http://www.postgresql-archive.org/How-to-show-the-current-schema-or-search-path-
 
 ## .psqlrc
 
-https://gist.github.com/tkalfigo/5695657
+- https://gist.github.com/tkalfigo/5695657
+- https://gist.github.com/rofrol/ddf639243acff2e7dd0b50cb2e8cc7d8
