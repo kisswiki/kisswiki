@@ -109,4 +109,7 @@ https://stackoverflow.com/questions/34098326/how-to-select-a-schema-in-postgres-
 
 `select * from myschema.mytable;`
 
+## change default postgresql schema
+
+https://stackoverflow.com/questions/45730141/how-to-change-default-postgresql-schema-with-heroku-connect
 
