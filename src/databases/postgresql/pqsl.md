@@ -63,3 +63,7 @@ https://www.postgresql.org/message-id/AANLkTinasGLjHCy4r2fUUPIrul_VDL4nA9QAc2RLM
 You may add it to `~/.psqlrc`.
 
 http://www.postgresql-archive.org/How-to-show-the-current-schema-or-search-path-in-the-psql-PROMP-td1925956.html
+
+## .psqlrc
+
+https://gist.github.com/tkalfigo/5695657
