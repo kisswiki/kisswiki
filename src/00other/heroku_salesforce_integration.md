@@ -144,4 +144,4 @@ https://devcenter.heroku.com/articles/heroku-connect-api
 - https://developer.salesforce.com/blogs/developer-relations/2016/11/integrating-relational-data-salesforce-heroku-external-objects-heroku-postgres.html
 - https://devcenter.heroku.com/articles/heroku-connect-database-tables#salesforce-schema-changes
 - https://devcenter.heroku.com/articles/heroku-connect-api#step-2-create-the-heroku-connect-add-on
-
+- https://trailhead.salesforce.com/en/trails/heroku_enterprise/modules/salesforce_heroku_integration
