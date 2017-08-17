@@ -19,3 +19,9 @@ https://dba.stackexchange.com/questions/40045/how-do-i-list-all-schemas-in-postg
 `\dt public.*`
 
 https://stackoverflow.com/questions/15644152/list-tables-in-a-postgresql-schema
+
+## disable pager
+
+`\pset pager off`
+
+https://stackoverflow.com/questions/11180179/postgresql-disable-more-output/11183473#11183473
