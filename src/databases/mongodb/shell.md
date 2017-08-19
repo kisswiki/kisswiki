@@ -19,3 +19,19 @@ prompt = function() {
 ```
 
 https://docs.mongodb.com/manual/tutorial/configure-mongo-shell/
+
+## show current database
+
+`db`
+
+## list databases
+
+`show dbs`
+
+## use database
+
+`use dbName`
+
+## drop current database
+
+`db.dropDatabase()`
