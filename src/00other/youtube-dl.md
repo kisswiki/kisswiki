@@ -14,6 +14,8 @@ https://askubuntu.com/questions/178481/how-to-download-an-mp3-track-from-a-youtu
 
 >be careful with -f bestaudio as best audio could be .webm and not .m4a Use -f m4a if you want best m4a quality audio. https://askubuntu.com/questions/423508/can-i-directly-download-audio-using-youtube-dl#comment1130351_423510
 
+>The real problem is that bestaudio will select only the best of the dedicated audio formats, even if there is a better audio available in combined format. https://askubuntu.com/questions/688713/how-to-get-best-quality-audio-using-youtube-dl#comment1409840_688731
+
 ## list available formats
 
 `youtube-dl -F "http://www.youtube.com/watch?v=P9pzm5b6FFY"`
