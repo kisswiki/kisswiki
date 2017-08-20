@@ -85,7 +85,7 @@ that). https://github.com/babel/babel/tree/master/packages/babel-plugin-transfor
 - Discussion: useBuiltIns (usage only, not "entry" point method) #284 https://github.com/babel/babel-preset-env/issues/284
 - https://github.com/babel/babel-preset-env#targetsuglify
 - What is the best way to include babel polyfill using multiple entry points #122 https://github.com/babel/babel-loader/issues/122
-- ['useBuiltIns' option force to import 'regenerator-runtime' #221[(https://github.com/babel/babel-preset-env/issues/221)
+- ['useBuiltIns' option force to import 'regenerator-runtime' #221](https://github.com/babel/babel-preset-env/issues/221)
 
 ## deps
 
