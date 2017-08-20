@@ -1,0 +1,1 @@
+- https://medium.com/@firasd/quick-start-tutorial-using-redux-in-react-apps-89b142d6c5c1
