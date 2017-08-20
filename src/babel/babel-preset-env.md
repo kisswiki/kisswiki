@@ -104,3 +104,27 @@ new idea:
 Make this the default behavior in 2.0 (useBuiltIns: true) which is "aggressive" in removing polyfills that aren't used in the files. Another option would be the current useBuiltIns which only removes polyfills already available in the environment. And lastly useBuiltIns: false which doesn't do anything.
 
 https://github.com/babel/babel-preset-env/pull/241#issuecomment-291582622
+
+## spread
+
+>So in the other issue we decided not to include any stage features by default and leave that up to the stage-x presets. It's not a part of ecmascript yet so was thinking it should be opt in I'd that makes sense. https://github.com/babel/babel-preset-env/issues/49#issuecomment-261796431
+
+```
+        query: {
+          presets: [
+            ['env', {
+              targets: {
+                browsers: ['last 2 versions']
+              }
+            }],
+            'react',
+          ],
+          plugins: [
+            ['transform-object-rest-spread',
+              {
+                useBuiltIns: true
+              }
+            ],
+          ]
+        }
+```
