@@ -128,3 +128,8 @@ https://github.com/babel/babel-preset-env/pull/241#issuecomment-291582622
           ]
         }
 ```
+
+### useBuiltIns
+
+>if you are using env preset with browsers: { ie >= 11 }
+it will not work with ["transform-object-rest-spread", { "useBuiltIns": true }] because useBuitins: true cause it to generate Object.assign() calls which are not supported in IE 11. https://github.com/babel/babel-preset-env/issues/49#issuecomment-312822493
