@@ -47,3 +47,30 @@ and not this
 >inverting envify and babelify order it works
 
 https://github.com/babel/babelify/issues/185#issuecomment-189695102
+
+## babel-preset-env and webpack
+
+>So in the other issue we decided not to include any stage features by default and leave that up to the stage-x presets. It's not a part of ecmascript yet so was thinking it should be opt in I'd that makes sense. https://github.com/babel/babel-preset-env/issues/49#issuecomment-261796431
+
+```
+        query: {
+          presets: [
+            ['env', {
+              targets: {
+                browsers: ['last 2 versions']
+              }
+            }],
+            'react',
+          ],
+          plugins: [
+            ['transform-object-rest-spread',
+              {
+                useBuiltIns: true
+              }
+            ],
+          ]
+        }
+```
+
+
+
