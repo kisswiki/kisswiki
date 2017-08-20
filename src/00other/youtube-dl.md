@@ -1,3 +1,9 @@
+## download mp3
+
+`youtube-dl --extract-audio --audio-format mp3 -f bestaudio <Video-URL>`
+
+https://askubuntu.com/questions/634584/how-to-download-youtube-videos-as-a-best-quality-audio-mp3-using-youtube-dl/634622#634622
+
 ## list available formats
 
 `youtube-dl -F "http://www.youtube.com/watch?v=P9pzm5b6FFY"`
