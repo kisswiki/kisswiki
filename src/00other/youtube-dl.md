@@ -4,6 +4,16 @@
 
 https://askubuntu.com/questions/634584/how-to-download-youtube-videos-as-a-best-quality-audio-mp3-using-youtube-dl/634622#634622
 
+or
+
+`youtube-dl --output "%(title)s.%(ext)s" --extract-audio --audio-format mp3 -f bestaudio <Video-URL>`
+
+https://askubuntu.com/questions/178481/how-to-download-an-mp3-track-from-a-youtube-video#comment1403556_178991
+
+## `-f bestaudio` different than `--audio-quality 0`
+
+>be careful with -f bestaudio as best audio could be .webm and not .m4a Use -f m4a if you want best m4a quality audio. https://askubuntu.com/questions/423508/can-i-directly-download-audio-using-youtube-dl#comment1130351_423510
+
 ## list available formats
 
 `youtube-dl -F "http://www.youtube.com/watch?v=P9pzm5b6FFY"`
