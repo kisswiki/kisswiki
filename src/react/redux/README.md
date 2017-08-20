@@ -1,4 +1,5 @@
 - https://github.com/reactjs/react-redux/blob/master/docs/api.md    
+- https://medium.com/@firasd/quick-start-tutorial-using-redux-in-react-apps-89b142d6c5c1
 
 Old:
 
