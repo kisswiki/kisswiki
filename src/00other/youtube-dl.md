@@ -10,6 +10,14 @@ or
 
 https://askubuntu.com/questions/178481/how-to-download-an-mp3-track-from-a-youtube-video#comment1403556_178991
 
+## audio-quality?
+
+>The --audio-quality does not affect the audio quality of the source. It's a post processing option and will re-encode the audio.
+>
+>Since any kind of (lossy) re-encoding will actually deteriorate the quality of the stream—or at least make it unnecessarily larger in size—I would recommend not to post-process the audio at all.
+
+https://superuser.com/questions/846842/how-to-get-best-quality-audio-using-youtube-dl
+
 ## `-f bestaudio` different than `--audio-quality 0`
 
 bestaudio is best audio-only format not best overall audio https://github.com/rg3/youtube-dl/issues/9302
