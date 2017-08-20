@@ -52,6 +52,8 @@ https://github.com/babel/babelify/issues/185#issuecomment-189695102
 
 >So in the other issue we decided not to include any stage features by default and leave that up to the stage-x presets. It's not a part of ecmascript yet so was thinking it should be opt in I'd that makes sense. https://github.com/babel/babel-preset-env/issues/49#issuecomment-261796431
 
+`npm install --save-dev babel-plugin-transform-object-rest-spread`
+
 ```
         query: {
           presets: [
