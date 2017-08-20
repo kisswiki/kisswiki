@@ -10,7 +10,7 @@ or
 
 https://askubuntu.com/questions/178481/how-to-download-an-mp3-track-from-a-youtube-video#comment1403556_178991
 
-## audio-quality?
+## audio-quality not for source but post processing?
 
 >The --audio-quality does not affect the audio quality of the source. It's a post processing option and will re-encode the audio.
 >
