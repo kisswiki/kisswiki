@@ -12,7 +12,7 @@ jsconfig.json
 
 https://github.com/Microsoft/TypeScript/issues/9667#issuecomment-232496336
 
-## or with tilde to avoid amiguity
+## or with tilde to avoid amibiguity
 
 ```javascript
 import {prevStep, nextStep} from '~/js/actions/index.js';
