@@ -44,6 +44,7 @@ import {prevStep, nextStep} from '~/js/actions/index.js';
   },
 ```
 
+For eslint look at `eslint the keyword import is reserved.md`.
 
 >So using the prefix ~ at the start of the path tells the Webpack loader to resolve the import "like a module". https://stackoverflow.com/questions/39535760/what-does-a-tilde-in-a-css-url-do
 
