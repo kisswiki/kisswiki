@@ -35,11 +35,13 @@ import {prevStep, nextStep} from '~/js/actions/index.js';
 }
 ```
 
-`webpack.config.js`:
+for webpack >=2, in `webpack.config.js` (look at `resolve_relative.md`):
 
 ```javascript
   resolve: {
-    root: path.resolve(__dirname, './src'),
+    alias:{
+      '~': path.resolve( __dirname, 'src' )
+    },
     extensions: ['', '.js', '.jsx', '.json']
   },
 ```
