@@ -46,3 +46,4 @@ import {prevStep, nextStep} from '~/js/actions/index.js';
 
 - https://github.com/Microsoft/vscode/issues/14907#issuecomment-266879216
 - https://github.com/Microsoft/TypeScript/issues/9667
+- Webstorm should support https://youtrack.jetbrains.com/issue/WEB-25321
