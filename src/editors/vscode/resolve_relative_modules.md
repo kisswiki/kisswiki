@@ -14,11 +14,13 @@ https://github.com/Microsoft/TypeScript/issues/9667#issuecomment-232496336
 
 ## or with tilde to avoid amiguity
 
-`import {prevStep, nextStep} from '~/js/actions/index.js';`
+```javascript
+import {prevStep, nextStep} from '~/js/actions/index.js';
+```
 
 `jsonfig.json`:
 
-```
+```json
 {
   "compilerOptions": {
     "experimentalDecorators": true,
@@ -35,7 +37,7 @@ https://github.com/Microsoft/TypeScript/issues/9667#issuecomment-232496336
 
 `webpack.config.js`:
 
-```
+```javascript
   resolve: {
     root: path.resolve('src'),
     extensions: ['', '.js', '.jsx', '.json']
