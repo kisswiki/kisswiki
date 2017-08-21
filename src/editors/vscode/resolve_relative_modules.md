@@ -39,7 +39,7 @@ import {prevStep, nextStep} from '~/js/actions/index.js';
 
 ```javascript
   resolve: {
-    root: path.resolve('src'),
+    root: path.resolve(__dirname, './src'),
     extensions: ['', '.js', '.jsx', '.json']
   },
 ```
