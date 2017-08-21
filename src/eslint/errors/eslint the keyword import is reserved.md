@@ -11,7 +11,16 @@
 }
 ```
 
-No need for 
+No need for:
+
+```json
+"parserOptions": {
+"ecmaVersion": 6,
+"sourceType": "module",
+"ecmaFeatures": {
+    "jsx": true
+}
+```
 
 - https://github.com/yannickcr/eslint-plugin-react/issues/447#issuecomment-317688181
 - https://stackoverflow.com/questions/36002226/parsin-error-the-keyword-import-is-reserved-sublimelinter-contrib-eslint/41190209#41190209
