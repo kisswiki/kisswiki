@@ -1,3 +1,6 @@
+- https://github.com/dformoso/machine-learning-mindmap
+- https://github.com/vahidk/EffectiveTensorflow
+
 ## Video courses
 
 - https://www.coursera.org/learn/machine-learning
