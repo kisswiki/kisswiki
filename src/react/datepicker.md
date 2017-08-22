@@ -1,0 +1,13 @@
+- https://github.com/search?o=desc&q=react+datepicker&s=stars&type=Repositories
+- https://github.com/Hacker0x01/react-datepicker
+  - more contributors than gpbl/react-day-picker
+  - more example in docs folder or here https://hacker0x01.github.io/react-datepicker/
+  - calendar size has to beed done throud `html { font-size: 13px }` :(
+- https://github.com/gpbl/react-day-picker
+  - working demo (link on main github page) https://codesandbox.io/s/XDAE3x0W8
+  - styling also with rem https://github.com/gpbl/react-day-picker/blob/master/src/style.css
+- https://github.com/airbnb/react-dates
+  - complicated installation
+  - There is single montht. Go to http://airbnb.io/react-dates > DayPicker > singlemonth
+- scrolling with mouse https://github.com/clauderic/react-infinite-calendar
+- https://github.com/react-component/m-date-picker  
