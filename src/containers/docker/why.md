@@ -95,3 +95,17 @@ You now have generic interfaces (Dockerfile, docker-compose, Kubernetes/Rancher 
 
 > The application container, a method of software packaging that bundles application code with the dependencies it needs to run properly, is the first point where designing for the hybrid scenario helps control complexity. The container image, a file or file system package, serves as the objective application artifact for distribution. When executed, the container is isolated in a manner that reflects its self-sufficiency, both protected and barred from access to or from the operating system layer and other containers executing on the same node. Decoupling the application layer from the operating system and libraries below it allows both sides of the container isolation wall to be updated more frequently, without worrying about breaking interconnections between the two.
 > https://www.infoq.com/articles/hybrid-cloud-complexity
+
+<br>
+
+Others have discussed how docker uses a layered approach, and how two containers that share a base system will share most of the filesystem and memory.
+The real power of containers comes with container orchestration (i.e. Kubernetes, Mesosphere, and OpenShift). By leveraging containers, container orchestration systems can provide high availability, scalability, and zero-downtime rollouts and rollbacks, among many other things. These things were hard before containers & container orchestration. By allowing containers to be moved between nodes in a cluster, one generally achieve higher hardware utilization than with VMs alone (which is in itself a big improvement upon software on bare-metal hardware). All of this also leads to easier/better continuous deployment, as well. This, in turn, leads to easier testing, and greatly simplifies provisioning of hardware for new projects.
+So, the benefits are:
+  - Cheaper than VMs (through better hardware utilization)
+  - More reliable, through HA load balancers
+  - More scalable, through scalability load balancers
+  - Better testing, through CI/CD enabled by containers
+  - Faster application delivery by simplifying provisioning
+
+https://news.ycombinator.com/item?id=15049081
+

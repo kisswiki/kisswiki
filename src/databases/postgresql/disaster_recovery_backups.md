@@ -1,0 +1,2 @@
+- https://www.citusdata.com/blog/2017/08/18/introducing-wal-g-faster-restores-for-postgres/
+  - https://news.ycombinator.com/item?id=15048203

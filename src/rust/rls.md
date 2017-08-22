@@ -21,3 +21,31 @@ rustup component add rust-src --toolchain nightly-2017-04-16-x86_64-pc-windows-m
 and then I got ~/.rustup/toolchains/nightly-2017-04-16-x86_64-pc-windows-msvc/lib/rustlib/src sources.
 
 https://github.com/saviorisdead/RustyCode/issues/204#issuecomment-299710562
+
+## problems
+
+https://news.ycombinator.com/item?id=15048424
+
+## type inference
+
+> This is more of a missing feature, but type inference is a huge part of Rust, and it's often difficult to know what type the type inference engine has chosen for parts of your code. There's no way to find out using RLS in VSCode that I've seen, or go to the definition of inferred types, etc.
+
+VS Code has a 'code lens' feature that allows extensions to display annotations above each lines of code - you can see it in action if you install e.g. the Git Blame extension.
+Some language plugins use that feature to display inferred types; the Rust plugin could do the same.
+
+https://news.ycombinator.com/item?id=15050464
+
+
+## problem with vector completions
+
+I can't get any dot-completions
+
+It's not an issue with vec! - the same problem occurs if I use Vector::new and push. It seems to be a problem with the vector itself, or perhaps indexing.
+
+I suspect this is an issue with Racer, the tool that provides the completion information.
+
+https://news.ycombinator.com/item?id=15050762
+
+I'm not sure when you last tried, but IntelliJ Rust handles completing methods on a variable initialized with vec![] for me just fine.
+
+https://news.ycombinator.com/item?id=15054268
