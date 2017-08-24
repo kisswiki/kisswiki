@@ -24,5 +24,5 @@ const parsed = queryString.parse(window.location.search);
 parsed.userId = data._id;
 window.history.replaceState(null, null, window.location.pathname + '?' + queryString.stringify(parsed));
 ```
-
-https://stackoverflow.com/questions/32828160/appending-parameter-to-url-without-refresh
+- https://stackoverflow.com/questions/32828160/appending-parameter-to-url-without-refresh
+- https://github.com/sindresorhus/query-string
