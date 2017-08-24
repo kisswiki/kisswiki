@@ -60,3 +60,8 @@ to this:
 
 - https://github.com/webpack/webpack/issues/3645#issuecomment-269765612
 - https://stackoverflow.com/questions/41393146/error-options-query-provided-without-loader-webpack-2-2-0-rc-3
+
+## recommended to use options instead of query
+
+- https://medium.com/@u_glow/things-i-learned-while-upgrading-to-webpack-2-418b99965cbf
+- https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/353
