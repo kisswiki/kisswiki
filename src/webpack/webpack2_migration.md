@@ -65,3 +65,46 @@ to this:
 
 - https://medium.com/@u_glow/things-i-learned-while-upgrading-to-webpack-2-418b99965cbf
 - https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/353
+
+## Stop Babel from compiling ES2015 modules
+
+```
+// before
+"presets": ["es2015"]
+
+// after
+"presets": [
+  ["es2015", { "modules": false }]
+]
+```
+
+For babel-preset-env:
+
+```
+      {
+        test: /.jsx?$/,
+        exclude: /node_modules/,
+        use: [{
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              ['env', {
+                targets: {
+                  browsers: ['last 2 Chrome versions']
+                },
+                "modules": false,
+              }],
+              'react',
+            ],
+            plugins: [
+              ['transform-object-rest-spread',
+                {
+                  useBuiltIns: true
+                }
+              ],
+              'react-html-attrs',
+            ]
+          }
+        }],
+      },
+```
