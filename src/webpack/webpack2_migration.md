@@ -12,11 +12,21 @@ https://stackoverflow.com/questions/16073603/how-do-i-update-each-dependency-in-
 
 Look at `Unexpected token, acorn, async await.md`;
 
+## configuration.resolve.extensions[0] should not be empty
+
+Change this:
+
+`extensions: ['', 'js', 'ts']`
+
+to this:
+
+`extensions: ['*', 'js', 'ts']`
+
+- https://github.com/webpack/webpack/issues/3043#issuecomment-249314455
+- https://stackoverflow.com/questions/42068939/webpack-2-cannot-resolve-empty-extensions
+
 ## options/query provided without loader (use loader + options)
 
-
-down vote
-accepted
 You need to edit your config because Webpack 2 has changed its schema for declaring loaders.
 
 Refactor this part:
