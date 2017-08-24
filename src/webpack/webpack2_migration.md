@@ -48,4 +48,5 @@ to this:
 },
 ```
 
-https://stackoverflow.com/questions/41393146/error-options-query-provided-without-loader-webpack-2-2-0-rc-3
+- https://github.com/webpack/webpack/issues/3645#issuecomment-269765612
+- https://stackoverflow.com/questions/41393146/error-options-query-provided-without-loader-webpack-2-2-0-rc-3
