@@ -33,4 +33,35 @@ function normalizeObjForValidation(object) {
 }
 ```
 
+Or better this to have greater control:
+
+```javascript
+function normalizeObjForValidation(object) {
+  Object.keys(object).map(key => {
+    let value = object[key];
+    if (value === null) {
+      object[key] = null;
+    }
+    else if (typeof value === 'string' && value.trim() === '') {
+      object[key] = null;
+    }
+    else if (value.constructor === Array && value.length === 1 && (value[0] === '' || value[0] === null)) {
+      object[key] = [];
+    }
+    else if (typeof value === 'string' &&
+      /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}Z$/.test(value)) {
+      object[key] =  `${moment(value).format('DD/MM/YYYY')}`;
+    }
+    else if(Object.keys(value).length > 0 && value.constructor === Object) {
+      normalizeObjForValidation(value);
+    }
+    else {
+      object[key] = value;
+    }
+  });
+}
+let dealData = JSON.parse(JSON.stringify(state));
+normalizeObjForValidation(dealData);
+```
+
 https://stackoverflow.com/questions/25569255/find-and-modify-deeply-nested-object-in-javascript-array/25569720#25569720
