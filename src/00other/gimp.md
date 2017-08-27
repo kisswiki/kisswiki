@@ -1,1 +1,2 @@
 - obama hope effect http://registry.gimp.org/node/14291
+- http://shallowsky.com/blog/gimp/saver.html
