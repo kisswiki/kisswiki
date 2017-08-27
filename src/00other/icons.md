@@ -112,6 +112,12 @@ Also, using an icon font makes it difficult to substitute a single icon by anoth
 >
 >-- https://news.ycombinator.com/item?id=12780271
 
+## svg pixel-perfect
+
+Pixel-perfect is hard to do in SVG (at least in my experience). You have to be careful to align path geometry to half-pixel values so that whole-number stroke widths end up falling on a pixel boundary. And once you start scaling the SVG to fit a particular view box, that careful placement usually gets trashed.
+
+https://news.ycombinator.com/item?id=15090764
+
 ## Litgature icons
 
 >ligatures is a better way to load icons as it gives contextual meaning to search engines. https://css-tricks.com/ligature-icons/
