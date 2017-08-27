@@ -10,7 +10,10 @@
   - http://freepik.com/
   - https://icomoon.io/
   - https://iconmonstr.com/
-
+- https://vmware.github.io/clarity/icons/icon-sets
+  - https://news.ycombinator.com/item?id=15095078
+- https://feathericons.com/
+  - https://news.ycombinator.com/item?id=15089916
 
 ## SVG USE
 
