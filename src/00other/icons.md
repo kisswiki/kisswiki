@@ -162,6 +162,7 @@ https://news.ycombinator.com/item?id=15090764
   - https://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web
 - http://glyphicons.com/
   - https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.svg
+- https://tagliala.github.io/vectoriconsroundup/
 
 ### Creating set
 
