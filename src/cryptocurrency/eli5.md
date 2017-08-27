@@ -46,3 +46,10 @@ Bitcoin's solution is this: All of the Generals start working on a mathematical 
 
 https://www.reddit.com/r/explainlikeimfive/comments/1b689q/eli5_this_bitcoin_mining_thing_again/
 
+##
+
+Satoshi Nakamoto's paper, "Bitcoin: A Peer-to-Peer Electronic Cash System" deserves a mention here, because it proposed the first-known solution to the double-spending problem in a masterless peer-to-peer network, with Byzantine fault tolerance (i.e., in a manner resistant to fraudulent nodes attempting to game the rules), via a clever application of proof-of-work:
+
+https://bitcoin.org/bitcoin.pdf
+
+https://news.ycombinator.com/item?id=15091397
