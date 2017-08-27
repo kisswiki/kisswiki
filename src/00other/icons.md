@@ -14,6 +14,7 @@
   - https://news.ycombinator.com/item?id=15095078
 - https://feathericons.com/
   - https://news.ycombinator.com/item?id=15089916
+- https://quickdraw.withgoogle.com/data
 
 ## SVG USE
 
