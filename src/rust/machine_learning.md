@@ -4,6 +4,10 @@
 - https://www.reddit.com/r/rust/comments/4m9x1f/is_rust_suitable_for_machine_learning/
 - Hacker's guide to Neural Networks http://karpathy.github.io/neuralnets/
 
+## What math needed
+
+https://news.ycombinator.com/item?id=15116379
+
 ## Tensorflow vs Torch
 
 I'd go tensorflow for the following reasons:
