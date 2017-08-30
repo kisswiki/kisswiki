@@ -1,0 +1,2 @@
+- my ticket: `when` does not work with number https://github.com/jquense/yup/issues/120
+  - https://stackoverflow.com/questions/45941265/cannot-read-property-length-of-undefined-using-when-with-number-in-yup
