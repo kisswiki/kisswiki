@@ -8,3 +8,7 @@
 - https://stackoverflow.com/questions/42908916/ajv-conditional-schema-validation-based-on-data
 - https://stackoverflow.com/questions/tagged/ajv
 - https://survivejs.com/blog/ajv-interview/
+
+## beware of misspelled keywords
+
+For example `minLenght` won't trigger validation. Should be `minLength`.
