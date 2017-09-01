@@ -1,0 +1,5 @@
+- https://github.com/git-tfs/git-tfs
+  - https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/migrate_tfs_to_git.md
+- https://superuser.com/questions/1153799/how-to-connect-to-tfs-on-visual-studio-for-mac-release-preview
+- https://github.com/Microsoft/vsts-vscode/blob/master/TFVC_README.md
+- https://www.visualstudio.com/en-us/docs/git/overview
