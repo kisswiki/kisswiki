@@ -1,3 +1,7 @@
+- http://idiotwu.github.io/smooth-scrollbar/
+- https://github.com/baptistebriel/smooth-scrolling
+- http://conditionizr.com/
+
 ## smotth scroll bottom
 
 ```javascript
