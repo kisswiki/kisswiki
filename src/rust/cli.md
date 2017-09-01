@@ -1,0 +1,1 @@
+- https://www.reddit.com/r/rust/comments/6x82mw/5_tips_for_writing_small_cli_tools_in_rust/
