@@ -73,6 +73,20 @@ Scripts passed to the --script option, or found in the scripts subdirectory of t
 
 ## play directory
 
-Save https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua to `portable_config\scripts`
+https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua
+
+Ubuntu
+
+`$ cd ~/.config/mpv/scripts`
+
+Windows
+
+`$ cd /c/installed/mpv/portable_config/scripts`
+
+Then
+
+`wget https://github.com/mpv-player/mpv/raw/master/TOOLS/lua/autoload.lua`
 
 Next/prev with arrows.
+
+- https://github.com/mpv-player/mpv/wiki/FAQ#how-do-i-automatically-play-the-next-file-in-the-folder

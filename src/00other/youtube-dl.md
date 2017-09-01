@@ -61,3 +61,7 @@ If you encounter an error during the muxing process, instead try the following:
 notice that youtube-dl has labeled the last option 1280x720 as the 'best' quality and that's what it will download by default, but that the line starting with 137 is actually higher quality 1920x1080. Youtube has separated the video and audio streams for the lines labeled DASH so we also need to pick the highest quality audio which in this case is the line starting with 141. Then we run youtube-dl again this time specifying the audio and video:
 
 `youtube-dl -f 137+141 https://www.youtube.com/watch\?v\=-pxRXP3w-sQ`
+
+## Please sign in to view this video - cookies
+
+https://github.com/rg3/youtube-dl/blob/master/README.md#how-do-i-pass-cookies-to-youtube-dl
