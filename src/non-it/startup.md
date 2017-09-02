@@ -35,6 +35,9 @@
 - https://sivers.org/multiply
 - https://github.com/xiaolai/how-to-start-a-startup
 - https://github.com/255kb/stack-on-a-budget
+- http://fortune.com/2014/09/25/why-startups-fail-according-to-their-founders/
+  - https://blog.codinghorror.com/we-hire-the-best-just-like-everyone-else/
+    - https://www.reddit.com/r/programming/comments/6szlt3/we_hire_the_best_just_like_everyone_else/
 
 ## About
 
