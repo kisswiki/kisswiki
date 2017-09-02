@@ -49,3 +49,9 @@ https://news.ycombinator.com/item?id=15050762
 I'm not sure when you last tried, but IntelliJ Rust handles completing methods on a variable initialized with vec![] for me just fine.
 
 https://news.ycombinator.com/item?id=15054268
+
+## vs racer
+
+Unfortunately Cargo check + Racer will still be way more productive than RLS for quite a while. RLS can only do 1 thing at a time, so while it's doing typechecking, you get no completions or auto formatting and vice versa. With any larger project RLS is about 10x slower than pure racer + cargo check. Racer immediately has the auto completions, while RLS takes about 2-3 seconds for them to show up. Cargo check takes about 1-2 seconds to check your code while RLS takes more than 10 seconds, which then get super unproductive as no auto formatting or auto completions are available during that time. And all that is for a 15k LOC project, which isn't even all too large, and yet RLS is super unusable.
+
+https://www.reddit.com/r/programming/comments/6sviwf/what_the_rust_language_server_can_do/dlgxa7m/
