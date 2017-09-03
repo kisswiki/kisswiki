@@ -7,3 +7,7 @@
 - http://www.csgoproconfig.com/virtus-pro.html
 - ELEAGUE S1 Finals - Fnatic vs Virtus.pro Full Match https://youtu.be/lZBokIAY8HA
 - http://wiki.teamliquid.net/counterstrike/Statistics/2016
+
+## acceleration
+
+- https://mouseaccel.blogspot.com/p/blog-table-of-contents.html
