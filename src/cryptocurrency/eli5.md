@@ -53,3 +53,7 @@ Satoshi Nakamoto's paper, "Bitcoin: A Peer-to-Peer Electronic Cash System" deser
 https://bitcoin.org/bitcoin.pdf
 
 https://news.ycombinator.com/item?id=15091397
+
+##
+
+https://www.reddit.com/r/programming/comments/6wjw70/mining_bitcoin_with_pencil_and_paper/
