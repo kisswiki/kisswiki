@@ -2,6 +2,7 @@
 
 - https://github.com/hemanth/functional-programming-jargon
 - What makes functional programming so viable for problem modeling? https://github.com/staltz/ama/issues/4
+- https://github.com/evancz/functional-programming-in-elm/blob/master/SUMMARY.md
 
 ## FP vs OO
 
