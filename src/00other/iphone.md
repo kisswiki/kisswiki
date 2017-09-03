@@ -148,3 +148,10 @@ http://bgr.com/2016/08/18/iphone-vs-galaxy-note-storage-speed/
 ## Cancel/refund buying app
 
 - http://reportaproblem.apple.com/
+
+## play youtube in the background
+
+- http://antyweb.pl/youtube-w-tle-na-androidzie/
+  - https://itunes.apple.com/us/app/musi-unlimited-music-for-youtube/id591560124
+  -  odpalić youtube.com w przeglądarce w telefonie (wersja komputerowa, kliknąć w 3kropki i wybrać "wersja na komputer) i działa pięknie na zablokowanym ekranie.
+Zarówno na iOS w Safari (w Chrome tak samo, whatever). jak zablokujesz ekran, to musisz wybudzić ekran bez odblokowania. i wtedy na widgecie do kontroli muzyki naciskasz play. Ale pauza nie działa wtedy.
