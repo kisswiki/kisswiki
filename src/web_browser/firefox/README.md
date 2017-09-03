@@ -70,4 +70,4 @@ full-screen-api.warning.timeout: 0
 
 ##
 
-https://addons.mozilla.org/pl/firefox/addon/dont-touch-my-tabs/?src=search
+https://addons.mozilla.org/pl/firefox/addon/dont-touch-my-tabs
