@@ -4,6 +4,8 @@
   - Greg Young - The art of destroying software https://vimeo.com/108441214
   - prefer duplication over the wrong abstraction https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction
 - http://natureofcode.com/book/introduction/
+- Fundamental Concepts in Programming Languages - CHRISTOPHER STRACHEY  https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf
+  -  It is a beautiful paper and everybody can read and understand it. So, please do so. You will be much enlightened. https://stackoverflow.com/questions/210835/what-is-referential-transparency
 
 ## About
 
