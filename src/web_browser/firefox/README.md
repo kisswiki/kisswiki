@@ -25,6 +25,8 @@ https://support.mozilla.org/en-US/questions/963855
 
 ### Dark about:blank
 
+Install https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/ and then
+
 Install Stylish. Create new style:
 
 ```
