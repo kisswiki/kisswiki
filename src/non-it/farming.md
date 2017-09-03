@@ -1,0 +1,2 @@
+- http://www.nationalgeographic.com/magazine/2017/09/holland-agriculture-sustainable-farming/
+  - https://news.ycombinator.com/item?id=15162126
