@@ -210,3 +210,7 @@ https://devcenter.heroku.com/articles/nodejs-support#specifying-a-node-js-versio
 ## free plan - SLEEPS AFTER 30 MINS OF INACTIVITY
 
 https://www.heroku.com/pricing
+
+## metrics
+
+https://devcenter.heroku.com/articles/metrics
