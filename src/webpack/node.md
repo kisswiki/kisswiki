@@ -89,3 +89,17 @@ if (PROD) {
   );
 }
 ```
+
+### Webpack bundled express app fails to lookup view
+
+I believe the answer lies in how webpack handles the special __dirname global variable. Webpack's default behavior is to replace __dirname with the "mock" value /. This can be seen in the error you get from express where it's looking for a file at the root of /views, not ./views.
+
+The solution is to add the following section to your webpack configuration:
+
+```javascript
+node: {
+  __dirname: true
+}
+```
+
+https://stackoverflow.com/questions/36186696/webpack-bundled-express-app-fails-to-lookup-view
