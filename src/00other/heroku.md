@@ -190,3 +190,8 @@ in `package.json`:
 or `current` instead of `8.4.0`.
 
 https://devcenter.heroku.com/articles/nodejs-support#specifying-a-node-js-version
+
+
+## local development
+
+- https://devcenter.heroku.com/articles/heroku-local
