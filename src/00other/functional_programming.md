@@ -6,6 +6,8 @@
 
 ## About
 
+The core of Functional Programming is thinking about data-flow rather than control-flow
+
 Functional programming means, that your program is composed out of functions. A function only depends on its input parameters and the effect of applying a function is the returned function result. By this definition, functions don't have side effects.
 
 Why do functions and functional programming matter?
