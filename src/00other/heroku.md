@@ -175,3 +175,17 @@ https://stackoverflow.com/questions/22618930/heroku-failing-to-start-my-node-app
 `heroku config:set SESSION_SECRET=YourSessionSecretgoeshere -a app-name`
 
 https://stackoverflow.com/questions/18617091/secret-option-required-for-app-useexpress-cookiesession
+
+## specify node version
+
+in `package.json`:
+
+```
+  "engines": {
+    "node": "8.4.0"
+  },
+```
+
+or `current` instead of `8.4.0`.
+
+https://devcenter.heroku.com/articles/nodejs-support#specifying-a-node-js-version
