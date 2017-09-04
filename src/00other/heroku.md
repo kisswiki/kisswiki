@@ -144,6 +144,7 @@ web: node --optimize_for_size --max_old_space_size=460 --gc_interval=100 app.bun
      "postinstall": "webpack && webpack --config webpack.config.backend.js"
 ```
 
+- free has 512 MB RAM https://devcenter.heroku.com/articles/dyno-types#available-dyno-types
 - https://devcenter.heroku.com/articles/ruby-memory-use
 - https://serverfault.com/questions/714534/heroku-error-r14-memory-quota-exceeded-using-node-js
 - https://stackoverflow.com/questions/43146940/error-r14-memory-quota-exceeded-heroku-node
