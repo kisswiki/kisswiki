@@ -27,3 +27,4 @@
 - Shadow Tactics http://store.steampowered.com/app/418240
 - Super Rad Raygun http://phoronix.com/scan.php?page=news_item&px=Super-Rad-Raygun-Linux
 - Starbound https://youtu.be/1jXCJEr7WIQ
+- Star Wars: Empire at War, które jest nadal naprawdę świetnie ocenianym tytułem. Dość powiedzieć, że aż 93 procent opinii na Steam to recenzje pozytywne. Gra jest ponadto najpopularniejszą i najlepiej sprzedającą się na Steam produkcją z uniwersum Gwiezdnych Wojen. Jak podaje producent, do tej pory tytuł znalazł aż 6,7 mln nabywców, co jak na RTS-a jest wynikiem naprawdę bardzo dobrym. http://m.pclab.pl/news75370.html
