@@ -6,7 +6,13 @@
 
 ## About
 
-The core of Functional Programming is thinking about data-flow rather than control-flow.
+> The core of Functional Programming is thinking about data-flow rather than control-flow
+
+I've spent a small amount of time trying to convince people that FP is a byproduct of immutability and not much else. But I like this description better than that. I like that it captures the idea of dependencies. Data flow, and FP, are about explicitly passing all the required dependencies into any step in the process, and getting back all the results - as opposed to having any implicit inputs or output. Making all dependencies explicit will force you into writing immutable code, and likewise writing exclusively with immutable data and functions that dont have side-effects will automatically make you spit out code with explicit dependencies as a byproduct. These are two sides of the data-flow coin.
+
+I also like that the focus on data-flow makes it clear you can do FP in any language. Some languages definitely help you, but you absolutely can practice data-flow over control-flow in C and assembly almost as easily as python. It's just tempting not to when you don't have to, being more strict about FP takes more self control.
+
+---------
 
 Functional programming means, that your program is composed out of functions. A function only depends on its input parameters and the effect of applying a function is the returned function result. By this definition, functions don't have side effects.
 
