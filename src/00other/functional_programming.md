@@ -4,6 +4,27 @@
 - What makes functional programming so viable for problem modeling? https://github.com/staltz/ama/issues/4
 - https://github.com/evancz/functional-programming-in-elm/blob/master/SUMMARY.md
 
+## About
+
+Functional programming means, that your program is composed out of functions. A function only depends on its input parameters and the effect of applying a function is the returned function result. By this definition, functions don't have side effects.
+
+Why do functions and functional programming matter?
+
+- Functions are a very nice abstraction. Looking at the input and output values gives you the complete information about the data flow. This makes functions very easy to reason about.
+- With the absence of side effects, you also have no unintended side effects, which plague all code which modifies state.
+- Functions are easily testable, they do not depend on an environment but just the function parameters.
+- For the same input a function necessarily always returns the same result, this also makes reasoning about a programs behavior easier.
+- As a consequence that they only depend on their inputs, functions usually are very composeable.
+
+While for certain tasks, modifying a global state can be the most efficient way of performing a computation, functional programming does not have to be slow, and in many cases the resulting program might even be faster. There are several reasons for this:
+
+- With the lack of side-effects, functional programs can be relatively easy parallelized.
+- With only local state involved, compilers can optimize the code inside functions more aggressively.
+
+There are pure functional languages, but most modern languages allow you to write your program in a functional style. So it is possible to mix functional with object oriented programming.
+
+https://news.ycombinator.com/item?id=15141549
+
 ## FP vs OO
 
 fp don't use assignment (mutation is reserved for specific sections) - no concurrent update problems
