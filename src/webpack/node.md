@@ -57,6 +57,8 @@ const webpackConfig = {
 module.exports = webpackConfig;
 ```
 
+## Problems
+
 I had problem with uglifyjs on heroku:
 
 ```
