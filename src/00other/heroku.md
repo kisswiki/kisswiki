@@ -177,6 +177,10 @@ https://stackoverflow.com/questions/22618930/heroku-failing-to-start-my-node-app
 
 https://stackoverflow.com/questions/18617091/secret-option-required-for-app-useexpress-cookiesession
 
+## deploying node
+
+- https://devcenter.heroku.com/articles/deploying-nodejs
+
 ## specify node version
 
 in `package.json`:
