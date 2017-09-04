@@ -1,2 +1,3 @@
 - https://github.com/webpack/docs/wiki/configuration
 - https://stackoverflow.com/questions/28846814/what-does-publicpath-in-webpack-do
+- https://stackoverflow.com/questions/31675025/how-to-exclude-nested-node-module-folders-from-a-loader-in-webpack
