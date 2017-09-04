@@ -2,3 +2,4 @@
   - https://github.com/babel/babel-preset-env
   - Promises, Fetch, and Symbol minify/gzip down to 8KB... Unless you have some very specific circumstances. I don't see the point of this. https://www.reddit.com/r/javascript/comments/54x67y/loading_polyfills_only_when_needed/
 - https://philipwalton.com/articles/the-dark-side-of-polyfilling-css/
+- https://github.com/financial-times/polyfill-service
