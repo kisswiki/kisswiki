@@ -82,6 +82,10 @@ https://stackoverflow.com/questions/14612695/how-to-restart-a-rails-server-on-he
 
 `heroku logs -a app-name`
 
+more lines:
+
+`heroku logs -n 500 -a app-name`
+
 - https://devcenter.heroku.com/articles/logging#log-retrieval
 
 ## NODE_ENV isn't set by default for my app
