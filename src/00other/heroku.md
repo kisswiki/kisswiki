@@ -82,3 +82,69 @@ https://stackoverflow.com/questions/14612695/how-to-restart-a-rails-server-on-he
 `heroku logs -a app-name`
 
 - https://devcenter.heroku.com/articles/logging#log-retrieval
+
+## NODE_ENV isn't set by default for my app
+
+- https://stackoverflow.com/questions/21831945/heroku-node-env-environment-variable
+- https://stackoverflow.com/questions/22954782/install-devdependencies-on-heroku
+
+## set env in batch from .env
+
+```
+heroku config:set NODE_ENV=production -a app-name
+heroku config:set NPM_CONFIG_PRODUCTION=true -a app-name
+for i in `cat .env`; do echo $i; heroku config:set $i -a app-name; done
+```
+
+- programatic access https://devcenter.heroku.com/articles/heroku-local#copy-heroku-config-vars-to-your-local-env-file
+- https://devcenter.heroku.com/articles/config-vars#programmatic-access
+- https://devcenter.heroku.com/articles/platform-api-reference#config-vars
+
+## Error R14 (Memory quota exceeded) heroku node
+
+changed to newer node, maybe this helped
+
+## npm's devDependencies aren't installed when NPM_CONFIG_PRODUCTION=true
+
+https://devcenter.heroku.com/articles/nodejs-support#devdependencies
+
+## deploy with git
+
+`git push heroku`
+
+https://devcenter.heroku.com/articles/git
+
+## heroku Error: secret option required for sessions
+
+probably setting
+
+`heroku config:set SESSION_SECRET=YourSessionSecretgoeshere -a app-name`
+
+fixed this
+
+https://stackoverflow.com/questions/18617091/secret-option-required-for-app-useexpress-cookiesession
+
+## mutliple environments
+
+https://devcenter.heroku.com/articles/multiple-environments
+
+## procfile
+
+use a Procfile to declare various process types, such as multiple types of workers, a singleton process like a clock, or a consumer of the Twitter streaming API
+
+- https://devcenter.heroku.com/articles/procfile
+- https://devcenter.heroku.com/articles/heroku-local#copy-heroku-config-vars-to-your-local-env-file
+
+
+## postinstall
+
+https://devcenter.heroku.com/articles/nodejs-support#heroku-specific-build-steps
+
+## babel-exec not found
+
+move babel-cli to dependencies
+
+Setting `NPM_CONFIG_PRODUCTION=false` didn't work somehow.
+
+- https://stackoverflow.com/questions/36781542/package-json-start-script-babel-node-not-found-on-heroku-deploy
+- https://medium.com/@Cuadraman/how-to-use-babel-for-production-5b95e7323c2f
