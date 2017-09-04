@@ -1,1 +1,2 @@
 - https://github.com/webpack/docs/wiki/configuration
+- https://stackoverflow.com/questions/28846814/what-does-publicpath-in-webpack-do
