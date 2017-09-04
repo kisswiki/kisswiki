@@ -103,3 +103,15 @@ node: {
 ```
 
 https://stackoverflow.com/questions/36186696/webpack-bundled-express-app-fails-to-lookup-view
+
+
+## Got some errors on heroku regarding node_modules
+
+When bundling with Webpack for the backend - you usually don't want to bundle its node_modules dependencies. This library creates an externals function that ignores node_modules when bundling in Webpack.
+
+```
+externals: [nodeExternals()],
+```
+
+- https://github.com/liady/webpack-node-externals
+- https://github.com/tahnik/react-express-webpack-babel/blob/master/webpack.config.js
