@@ -115,3 +115,12 @@ externals: [nodeExternals()],
 
 - https://github.com/liady/webpack-node-externals
 - https://github.com/tahnik/react-express-webpack-babel/blob/master/webpack.config.js
+- https://github.com/webpack/webpack/issues/603
+
+## target node
+
+I've also added this, but don't know if it's needed:
+
+```
+  target: 'node',
+```
