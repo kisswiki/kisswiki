@@ -128,6 +128,21 @@ https://stackoverflow.com/questions/18617091/secret-option-required-for-app-usee
 
 https://devcenter.heroku.com/articles/multiple-environments
 
+## not enough memory
+
+- use `Procfile`:
+
+```
+web: node --optimize_for_size --max_old_space_size=460 --gc_interval=100 app.bundle.js
+
+```
+
+ and `postinstall` to compile:
+
+```
+     "postinstall": "webpack && webpack --config webpack.config.backend.js"
+```
+
 ## procfile
 
 use a Procfile to declare various process types, such as multiple types of workers, a singleton process like a clock, or a consumer of the Twitter streaming API
@@ -135,10 +150,10 @@ use a Procfile to declare various process types, such as multiple types of worke
 - https://devcenter.heroku.com/articles/procfile
 - https://devcenter.heroku.com/articles/heroku-local#copy-heroku-config-vars-to-your-local-env-file
 
-
 ## postinstall
 
-https://devcenter.heroku.com/articles/nodejs-support#heroku-specific-build-steps
+- https://devcenter.heroku.com/articles/nodejs-support#heroku-specific-build-steps
+- https://stackoverflow.com/questions/35939678/getting-an-error-when-deploying-to-heroku-faliled-to-load-resource-404-bundle
 
 ## babel-exec not found
 
@@ -154,3 +169,9 @@ Setting `NPM_CONFIG_PRODUCTION=false` didn't work somehow.
 >This is assuming you don't really need nodemon
 
 https://stackoverflow.com/questions/22618930/heroku-failing-to-start-my-node-app-because-its-trying-to-do-it-with-nodemon/22619372#22619372
+
+## “secret” option required
+
+`heroku config:set SESSION_SECRET=YourSessionSecretgoeshere -a app-name`
+
+https://stackoverflow.com/questions/18617091/secret-option-required-for-app-useexpress-cookiesession
