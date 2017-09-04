@@ -68,6 +68,8 @@ https://dashboard.heroku.com/apps/<app_name>/deploy/heroku-git
 
 `heroku run -a <app_name> bash`
 
+When doing deploy, it will on new dyno, so you will have different files. You need to relogin to bash.
+
 https://twitter.com/kevinMrr/status/558675159700103169
 
 ## restart app
@@ -205,7 +207,6 @@ in `package.json`:
 or `current` instead of `8.4.0`.
 
 https://devcenter.heroku.com/articles/nodejs-support#specifying-a-node-js-version
-
 
 ## local development
 
