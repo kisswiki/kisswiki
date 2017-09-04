@@ -3,7 +3,7 @@ This won't work, won't change `import` to `require`:
 
 `npx babel file.js --presets es2015,stage-2 --out-file transpiled.js`
 
-This is a little bit better:
+This is a little bit better https://stackoverflow.com/questions/33235986/babel-multiple-directores-into-single-output-directory:
 
 `npx babel file.js dir1 --presets es2015,stage-2 --out-file transpiled.js`
 
