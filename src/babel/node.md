@@ -7,6 +7,6 @@ This is a little bit better:
 
 `npx babel file.js dir1 --presets es2015,stage-2 --out-file transpiled.js`
 
-Just use webpack https://stackoverflow.com/questions/35219231/babel-compiled-js-fails-to-import-relative-paths/35237163#35237163
+Just use webpack https://stackoverflow.com/questions/35219231/babel-compiled-js-fails-to-import-relative-paths/35237163#35237163 or maybe rollup https://github.com/orlade/es2015-babel-rollup-demo
 
 Look at `webpack/node.md`
