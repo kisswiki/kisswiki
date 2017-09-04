@@ -62,3 +62,23 @@ echo $STRIPE_KEY
 ## deploy with git
 
 https://dashboard.heroku.com/apps/<app_name>/deploy/heroku-git
+
+## bash
+
+`heroku run -a <app_name> bash`
+
+https://twitter.com/kevinMrr/status/558675159700103169
+
+## restart app
+
+`heroku restart -a app_name`
+
+https://stackoverflow.com/questions/14612695/how-to-restart-a-rails-server-on-heroku
+
+## logs
+
+- https://dashboard.heroku.com/apps/app_name/logs
+
+`heroku logs -a app-name`
+
+- https://devcenter.heroku.com/articles/logging#log-retrieval
