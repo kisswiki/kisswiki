@@ -50,7 +50,7 @@ sudo apt clean all
 
 ## update single package
 
-`apt install --only-upgrade <packagename>`
+`sudo apt install --only-upgrade <packagename>`
 
 https://askubuntu.com/questions/44122/how-to-upgrade-a-single-package-using-apt-get
 
@@ -60,7 +60,7 @@ https://askubuntu.com/questions/44122/how-to-upgrade-a-single-package-using-apt-
 
 ## remove package with dependencies
 
-`apt remove --auto-remove packagename`
+`sudo apt remove --auto-remove packagename`
 
 https://askubuntu.com/questions/443/how-to-remove-an-uninstalled-packages-dependencies
 
