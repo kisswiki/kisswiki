@@ -129,7 +129,7 @@ https://stackoverflow.com/questions/18617091/secret-option-required-for-app-usee
 
 https://devcenter.heroku.com/articles/multiple-environments
 
-## not enough memory
+## Memory quota exceeded
 
 - use `Procfile`:
 
@@ -143,6 +143,10 @@ web: node --optimize_for_size --max_old_space_size=460 --gc_interval=100 app.bun
 ```
      "postinstall": "webpack && webpack --config webpack.config.backend.js"
 ```
+
+- https://devcenter.heroku.com/articles/ruby-memory-use
+- https://serverfault.com/questions/714534/heroku-error-r14-memory-quota-exceeded-using-node-js
+- https://stackoverflow.com/questions/43146940/error-r14-memory-quota-exceeded-heroku-node
 
 ## procfile
 
@@ -180,6 +184,8 @@ https://stackoverflow.com/questions/18617091/secret-option-required-for-app-usee
 ## deploying node
 
 - https://devcenter.heroku.com/articles/deploying-nodejs
+- https://devcenter.heroku.com/articles/node-best-practices
+- https://devcenter.heroku.com/articles/nodejs-support
 
 ## specify node version
 
