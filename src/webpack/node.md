@@ -59,7 +59,7 @@ module.exports = webpackConfig;
 
 ## Problems
 
-I had problem with uglifyjs on heroku:
+### I had problem with uglifyjs on heroku:
 
 ```
 remote:        ERROR in app.bundle.js from UglifyJs
