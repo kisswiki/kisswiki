@@ -3,6 +3,7 @@
 - https://devcenter.heroku.com/articles/heroku-cli
 - https://dashboard.heroku.com/apps/your_application/resources
 - https://data.heroku.com
+- http://vitomd.com/blog/coding/deploy-a-javascript-node-app-to-heroku-in-20-minutes/
 
 `heroku pg:info --app your_app`
 
