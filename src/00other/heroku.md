@@ -148,3 +148,9 @@ Setting `NPM_CONFIG_PRODUCTION=false` didn't work somehow.
 
 - https://stackoverflow.com/questions/36781542/package-json-start-script-babel-node-not-found-on-heroku-deploy
 - https://medium.com/@Cuadraman/how-to-use-babel-for-production-5b95e7323c2f
+
+## nodemon
+
+>This is assuming you don't really need nodemon
+
+https://stackoverflow.com/questions/22618930/heroku-failing-to-start-my-node-app-because-its-trying-to-do-it-with-nodemon/22619372#22619372
