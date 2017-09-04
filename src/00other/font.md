@@ -1,1 +1,2 @@
 - Machine Learning software that helps designers choose the best font combinations. Mix and match different fonts for the perfect pairing https://github.com/Jack000/fontjoy
+- https://en.wikipedia.org/wiki/PT_Fonts
