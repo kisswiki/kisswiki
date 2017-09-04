@@ -62,6 +62,11 @@ echo $STRIPE_KEY
 
 ## deploy with git
 
+```
+git remote add heroku https://git.heroku.com/app-name.git
+git push heroku
+```
+
 https://dashboard.heroku.com/apps/<app_name>/deploy/heroku-git
 
 ## bash
