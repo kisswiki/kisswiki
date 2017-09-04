@@ -206,3 +206,7 @@ https://devcenter.heroku.com/articles/nodejs-support#specifying-a-node-js-versio
 ## local development
 
 - https://devcenter.heroku.com/articles/heroku-local
+
+## free plan - SLEEPS AFTER 30 MINS OF INACTIVITY
+
+https://www.heroku.com/pricing
