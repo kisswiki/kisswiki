@@ -26,3 +26,11 @@ https://www.quora.com/What-is-a-way-to-create-many-Gmail-accounts-without-mobile
 ## Backup
 
 - https://github.com/gaubert/gmvault
+
+## permanent url to specific account
+
+https://mail.google.com/mail/u/?authuser=test@example.com
+
+https://inbox.google.com/u/?authuser=test@example.com 
+
+https://webapps.stackexchange.com/questions/45229/permalink-to-specific-gmail-inbox
