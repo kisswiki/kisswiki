@@ -1,5 +1,7 @@
 - https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/
   - https://news.ycombinator.com/item?id=15164769
+    - https://www.nngroup.com/articles/heatmap-visualizations-signifiers/
+    - http://uxcritique.tumblr.com/
 
 The experiment was not 'flat' vs 'not-flat'.
 
