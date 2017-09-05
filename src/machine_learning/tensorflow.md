@@ -1,0 +1,2 @@
+- https://github.com/hwalsuklee/tensorflow-generative-model-collections
+- https://github.com/aymericdamien/TensorFlow-Examples
