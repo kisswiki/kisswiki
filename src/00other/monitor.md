@@ -1,3 +1,6 @@
+- https://www.productchart.com/monitors/
+- https://pcpartpicker.com/products/monitor/
+
 ## latency
 
 1 vs 4ms is negligeble. Your keyboard and mouse inputs have a higher latency than that.
