@@ -12,3 +12,15 @@
 ## beware of misspelled keywords
 
 For example `minLenght` won't trigger validation. Should be `minLength`.
+
+## string as a number
+
+```javascript
+const contrahentDetailsCapital = {
+  type: 'string',
+  minLength: 1,
+  pattern: '^\\d+$'
+};
+```
+
+https://stackoverflow.com/questions/9011524/javascript-regexp-number-only-check/9011537#9011537
