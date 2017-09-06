@@ -1,1 +1,5 @@
 - search in your twitter favourites http://favourites.io/ https://www.quora.com/What-are-the-best-ways-to-search-my-Twitter-favorites
+- larger graphic
+  - https://pbs.twimg.com/media/DDf7ef1XkAMh3Gp.jpg:large
+  - https://pbs.twimg.com/media/DDf7ef1XkAMh3Gp.jpg:orig
+  - https://github.com/mike-modoru/twitter-large-images/blob/master/background.js
