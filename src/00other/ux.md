@@ -6,3 +6,4 @@
 - https://medium.com/@Mockplus/top-12-design-communities-for-ux-ui-designers-and-developers-5bce00d54d65
 - Little UI Details https://twitter.com/i/moments/880688233641848832
   - https://news.ycombinator.com/item?id=15177898
+  - http://littlebigdetails.com/
