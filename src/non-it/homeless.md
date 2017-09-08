@@ -1,0 +1,1 @@
+- https://www.ted.com/talks/richard_j_berry_a_practical_way_to_help_the_homeless_find_work_and_safety
