@@ -1,3 +1,4 @@
 - https://www.udemy.com/practical-deep-learning-with-pytorch/
 - Andrej Karpathy: Very nice tutorial from Justin on PyTorch from scratch https://github.com/jcjohnson/pytorch-examples, stumbled on from "Practical PyTorch" - https://twitter.com/karpathy/status/829422139459526656
 - https://github.com/spro/practical-pytorch
+- http://pytorch.org/tutorials/
