@@ -4,3 +4,4 @@
   In your tutorial, it is conditioned on the decoder's previous hidden state. Does it make a difference?https://www.reddit.com/r/MachineLearning/comments/5sru5u/p_practical_pytorch_translation_with_a_sequence/
 - https://github.com/spro/practical-pytorch
 - http://pytorch.org/tutorials/
+- https://github.com/yunjey/pytorch-tutorial
