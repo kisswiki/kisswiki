@@ -37,3 +37,9 @@ https://news.ycombinator.com/item?id=15193054
 The next fast.ai courses will be based nearly entirely on a new framework we have developed, built on Pytorch. Pytorch is a different kind of deep learning library (dynamic, rather than static), which has been adopted by many (if not most) of the researchers that we most respect, and in a recent Kaggle competition was used by nearly all of the top 10 finishers.
 
 http://www.fast.ai/2017/09/08/introducing-pytorch-for-fastai/
+
+##
+
+The barrier to entry for PyTorch is so low that I don't even consider Tensorflow anymore for research. It takes me less than an hour to implement something in PyTorch that took me several hours in TensorFlow.
+
+https://www.reddit.com/r/pytorch/comments/6jqzgg/tensorflow_vs_pytorch_what_do_you_think/dji13e1/
