@@ -1,0 +1,2 @@
+- handlebars & horrorshow for templating https://www.reddit.com/r/rust/comments/6ymrn5/why_i_use_rust_as_a_webdeveloper/dmovbe7/
+  - https://github.com/Stebalien/horrorshow-rs
