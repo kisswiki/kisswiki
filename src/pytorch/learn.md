@@ -5,3 +5,4 @@
 - https://github.com/spro/practical-pytorch
 - http://pytorch.org/tutorials/
 - https://github.com/yunjey/pytorch-tutorial
+- https://github.com/ritchieng/the-incredible-pytorch
