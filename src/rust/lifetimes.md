@@ -20,3 +20,9 @@ the whole point of lifetimes in Rust is to ensure that you don't access objects 
 
 - http://stackoverflow.com/questions/42637911/how-can-this-instance-seemingly-outlive-its-own-parameter-lifetime
 - http://stackoverflow.com/questions/31609137/why-are-explicit-lifetimes-needed-in-rust
+
+##
+
+If you don't care about performance too much, you could just put everything behind Arc<T>
+
+https://www.reddit.com/r/rust/comments/6ymrn5/why_i_use_rust_as_a_webdeveloper/dmpcygo/
