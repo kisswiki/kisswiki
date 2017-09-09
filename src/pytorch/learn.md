@@ -6,3 +6,4 @@
 - http://pytorch.org/tutorials/
 - https://github.com/yunjey/pytorch-tutorial
 - https://github.com/ritchieng/the-incredible-pytorch
+- https://github.com/Tgaaly/pytorch-cheatsheet/blob/master/README.md
