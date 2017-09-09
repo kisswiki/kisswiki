@@ -31,3 +31,9 @@ It is useful, of course. But it's rare for contemporary models to not use dynami
 Great move by Facebook to look beyond Caffe's legacy prototext file format which has become somewhat standard in computer vision, and unite Pytorch and Caffe2. Unfortunately there are limitations to the neural network logic that can be represented in configuration files, especially when dealing with dynamic networks. Most networks used in vision are static so that's where I expect this will add the most value. My only wish is that Caffe2 followed Pytorch's interface. After spending 5 minutes with Pytorch it's pretty clear that they got the interface design right.
 
 https://news.ycombinator.com/item?id=15193054
+
+##
+
+The next fast.ai courses will be based nearly entirely on a new framework we have developed, built on Pytorch. Pytorch is a different kind of deep learning library (dynamic, rather than static), which has been adopted by many (if not most) of the researchers that we most respect, and in a recent Kaggle competition was used by nearly all of the top 10 finishers.
+
+http://www.fast.ai/2017/09/08/introducing-pytorch-for-fastai/
