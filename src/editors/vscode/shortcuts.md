@@ -119,3 +119,5 @@ On Ubuntu Linux:
 `Ctrl+Shift+-` .. navigate forward
 
 https://stackoverflow.com/questions/35424367/how-to-navigate-back-to-the-last-cursor-position-in-visual-studio-code
+
+## alt+click to collapse folders recursively >= 1.16
