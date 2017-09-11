@@ -1,3 +1,4 @@
+- http://course.fast.ai/
 - https://www.udemy.com/practical-deep-learning-with-pytorch/
 - Andrej Karpathy: Very nice tutorial from Justin on PyTorch from scratch https://github.com/jcjohnson/pytorch-examples, stumbled on from "Practical PyTorch" - https://twitter.com/karpathy/status/829422139459526656
   - applying NNs to NLP. Next up is adding some recursion to the seq2seq setup to do intent parsing and slot filling 
