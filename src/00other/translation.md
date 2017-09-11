@@ -1,0 +1,1 @@
+- https://transifex.com used by vscode https://github.com/Microsoft/Localization/wiki/Visual-Studio-Code-Community-Localization-Project
