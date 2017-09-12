@@ -40,6 +40,7 @@ webpack.config.js
         ]),
       }
 ```
+```
       {
         cacheDirectory: env.isDev,
         presets: [
