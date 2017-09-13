@@ -39,6 +39,9 @@ And indeed this package has it: https://packages.ubuntu.com/xenial/amd64/python-
 
 `sudo apt install -y python-gi-dev`
 
+- https://askubuntu.com/questions/419945/how-does-one-install-pygobject-from-the-official-repository
+- https://stackoverflow.com/questions/12861914/no-package-pygobject-3-0-found
+
 ### Ok, piper build, let's run it
 
 ```
