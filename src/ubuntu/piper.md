@@ -1,3 +1,4 @@
+- https://github.com/libratbag/piper/wiki/FAQ
 - supported devices http://libratbag.github.io/device-notes/
 
 ## Ubuntu 16.04 can't install becauase required gtk>=3.22
