@@ -53,7 +53,18 @@ sudo add-apt-repository ppa:gnome3-team/gnome3-staging
 sudo add-apt-repository ppa:gnome3-team/gnome3
 sudo apt update
 sudo apt dist-upgrade
-sudo apt install gnome gnome-shell
+sudo apt install gnome gnome-shell#!/bin/bash
+
+xset m 0 0
+
+mouse_id=$1
+speed=$2
+
+xinput set-prop $mouse_id "Coordinate Transformation Matrix" $speed, 0, 0, 0, $speed, 0, 0, 0, 1
+
+# https://askubuntu.com/questions/773171/im-missing-mouse-pointer-speed-option-in-ubuntu-16-04/942445#942445
+# https://www.reddit.com/r/linux_gaming/comments/1ew39a/mouse_sensitivity_and_linux_gaming/
+
 ```
 
 But that gave only gtk-3.20:
