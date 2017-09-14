@@ -69,6 +69,12 @@ git push heroku
 
 https://dashboard.heroku.com/apps/<app_name>/deploy/heroku-git
 
+## force redeploy
+
+`npm version patch && git push heroku master`
+
+https://coderwall.com/p/_x2ang/force-redeploy-of-node-js-project-on-heroku
+
 ## bash
 
 `heroku run -a <app_name> bash`
