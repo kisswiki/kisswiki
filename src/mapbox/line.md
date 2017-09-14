@@ -1,1 +1,3 @@
 - https://www.mapbox.com/help/define-layout-paint-property/
+- https://www.mapbox.com/mapbox-gl-js/example/geojson-line/ 
+- https://joashxu.com/curve-route-on-mapbox/
