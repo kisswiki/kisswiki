@@ -24,3 +24,13 @@ https://github.com/Microsoft/TypeScript/issues/12234#issuecomment-266077638
 ## overwrite rules
 
 https://stackoverflow.com/questions/35737094/how-to-configure-the-eslint-extension-in-vscode
+
+## jsx
+
+```jsx
+<a href='https://flexport.com'
+  // eslint-disable-next-line react/jsx-no-target-blank
+  target='_blank'>foo</a>
+```
+
+https://github.com/eslint/eslint/issues/7030#issuecomment-243973102
