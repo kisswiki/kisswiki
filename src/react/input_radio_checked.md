@@ -1,6 +1,7 @@
 Beware of setting like this `checked={!withChildren}` because value may not be convertible to false.
 
 - https://codepen.io/rofrol/pen/Ewjjvo?editors=0010
+- https://stackoverflow.com/questions/40407218/true-and-false-radio-buttons-in-react
 
 ```jsx
 <label>
