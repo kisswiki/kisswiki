@@ -1,3 +1,4 @@
 - https://www.mapbox.com/help/define-layout-paint-property/
 - https://www.mapbox.com/mapbox-gl-js/example/geojson-line/ 
 - https://joashxu.com/curve-route-on-mapbox/
+- https://stackoverflow.com/questions/38107898/mapbox-gl-draw-lines-and-bezier
