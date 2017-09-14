@@ -1,0 +1,2 @@
+- http://blog.mecheye.net/2017/09/i-dont-know-who-the-web-audio-api-is-designed-for/
+  - https://news.ycombinator.com/item?id=15240762
