@@ -20,6 +20,7 @@ https://support.mozilla.org/en-US/questions/963855
 
 ## Dark mode
 
+- https://addons.mozilla.org/en-US/firefox/addon/nightreader
 - https://addons.mozilla.org/pl/firefox/addon/dark-background-light-text
 - https://addons.mozilla.org/pl/firefox/addon/simple-night-mode
 
