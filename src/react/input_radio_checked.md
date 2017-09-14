@@ -1,5 +1,7 @@
 Beware of setting like this `checked={!withChildren}` because value may not be convertible to false.
 
+- https://codepen.io/rofrol/pen/Ewjjvo?editors=0010
+
 ```jsx
 <label>
     <input
