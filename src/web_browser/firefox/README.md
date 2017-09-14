@@ -73,3 +73,7 @@ full-screen-api.warning.timeout: 0
 ##
 
 https://addons.mozilla.org/pl/firefox/addon/dont-touch-my-tabs
+
+## max tabs and counter
+
+https://addons.mozilla.org/en-US/firefox/addon/max-tabs-web-ext
