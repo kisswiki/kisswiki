@@ -12,3 +12,5 @@ https://github.com/davidkpiano/react-redux-form/issues/265#issuecomment-22459073
 >If you wanted to strictly enforce use of controlled components, you would never use defaultValue or defaultChecked
 
 https://github.com/yannickcr/eslint-plugin-react/issues/990
+
+- https://stackoverflow.com/questions/32174317/how-to-set-default-checked-in-checkbox-react-js
