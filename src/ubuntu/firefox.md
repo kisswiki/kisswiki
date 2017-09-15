@@ -13,6 +13,7 @@ sudo apt install firefox-trunk install firefox-trunk-locale-pl
 later:
 
 ```
+sudo apt update
 sudo apt install --only-upgrade firefox-trunk firefox-trunk-locale-pl
 ```
 
