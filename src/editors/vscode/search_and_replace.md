@@ -8,3 +8,9 @@ add shortcut in `keybindings.json` to save all (overrides save as)
 ```
 
 https://stackoverflow.com/questions/37014171/how-can-we-save-all-files-in-vscode-like-we-do-in-visual-studio
+
+## search/replace in selection
+
+'Find in selection' button in the find widget
+
+https://github.com/Microsoft/vscode/issues/8787#issuecomment-230761140
