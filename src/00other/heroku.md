@@ -64,7 +64,7 @@ echo $STRIPE_KEY
 
 `heroku git:remote -a app_name`
 
-https://devcenter.heroku.com/articles/git#for-an-existing-heroku-app
+
 
 ## deploy with git
 
@@ -80,6 +80,18 @@ https://dashboard.heroku.com/apps/<app_name>/deploy/heroku-git
 `npm version patch && git push heroku master`
 
 https://coderwall.com/p/_x2ang/force-redeploy-of-node-js-project-on-heroku
+
+## deploy subdirectory
+
+`git subtree push --prefix output heroku master`
+
+https://stackoverflow.com/questions/7539382/how-can-i-deploy-push-only-a-subdirectory-of-my-git-repo-to-heroku
+
+## subtree  push with force
+
+`git push heroku `git subtree split --prefix backend master`:master --force`
+
+https://stackoverflow.com/questions/33172857/how-do-i-force-a-subtree-push-to-overwrite-remote-changes
 
 ## bash
 
