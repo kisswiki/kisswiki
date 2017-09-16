@@ -60,6 +60,12 @@ echo $STRIPE_KEY
 
 - ? https://devcenter.heroku.com/changelog-items/1112
 
+## add remote for existing app
+
+`heroku git:remote -a app_name`
+
+https://devcenter.heroku.com/articles/git#for-an-existing-heroku-app
+
 ## deploy with git
 
 ```
