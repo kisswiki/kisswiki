@@ -160,3 +160,21 @@ install `babel-plugin-transform-export-extensions ` and
 add `transform-export-extensions ` to your plugins
 
 https://stackoverflow.com/questions/35665759/es6-how-can-you-export-an-imported-module-in-a-single-line
+
+## "export 'default' (imported as 'turf') was not found in '@turf/turf'
+
+change import turf from '@turf/turf';`
+
+to `import * as turf from '@turf/turf';`
+
+or install just specific functions:
+
+`yarn add @turf/midpoint @turf/bezier`
+
+and import them
+
+```javascript
+import midpoint from `@turf/midpoint`;
+```
+
+- https://github.com/Microsoft/TypeScript/issues/3337#issuecomment-107971371
