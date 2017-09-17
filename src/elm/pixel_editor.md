@@ -1,0 +1,1 @@
+- https://speakerdeck.com/shuhei/building-a-pixel-art-editor-with-elm
