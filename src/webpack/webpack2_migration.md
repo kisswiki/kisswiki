@@ -48,6 +48,16 @@ change to
 
 No need to use css-loader when there is postcss-loader?
 
+## relative paths to fonts in sass/scss
+
+I fixed this by adding two more loader before sass-loader:
+
+`'css-loader', 'resolve-url-loader', 'sass-loader'`
+
+- https://github.com/webpack-contrib/sass-loader/issues/409#issuecomment-287114705
+- https://github.com/webpack-contrib/sass-loader#problems-with-url
+- https://github.com/webpack-contrib/url-loader/issues/61#issuecomment-330098540
+
 ## Update npm package
 
 Change every `webpack*` in `package.json` to `*`. Then:
