@@ -15,6 +15,10 @@ like:
 - `loader: 'babel'` -> `'babel-loader'`,
 - `loader: 'url?limit=10000'` -> `loader: 'url-loader', options: { limit: 10000 }`
 
+## url-loader
+
+`name` option isn't in documentation, because probably it will be passed to `file-loader`.
+
 ## Can't resolve
 
 add `'node_modules'` to `resolve`:
