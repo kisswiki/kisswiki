@@ -26,21 +26,25 @@ https://support.mozilla.org/en-US/questions/963855
 
 ### Dark about:blank
 
-Install https://addons.mozilla.org/en-US/firefox/addon/new-tab-override
+1. Open `about:profiles` in Firefox.
+2. Open you profile directory.
+3. Create `chrome/userContent.css` with content:
 
-Install Stylish. Create new style:
-
-```
-@namespace url(http://www.w3.org/1999/xhtml);
-
+```css
 @-moz-document url("about:newtab") {
-  *{background-color:#000000;}
+    body {
+        background-color: #000000 !important;
+        background-image: url("image.png") !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
 }
 ```
 
-https://superuser.com/questions/603218/how-to-make-the-aboutblank-page-black-or-any-other-color-in-firefox
+4. Restart Firefox.
 
-Or install https://addons.mozilla.org/en-US/firefox/addon/new-tab-tweaker.
+- https://www.reddit.com/r/firefox/comments/693t7t/how_to_change_newtab_backgrounds_color/dh3uk8s/
+- https://superuser.com/questions/603218/how-to-make-the-aboutblank-page-black-or-any-other-color-in-firefox
 
 ## Autohide address bar
 
