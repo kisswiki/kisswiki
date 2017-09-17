@@ -12,7 +12,7 @@ If you have device listed twice, use first id instead of name:
 
 ```
 xset m 0 0
-mouse_id=10; speed=1; xinput set-prop $mouse_id "Coordinate Transformation Matrix" $speed, 0, 0, 0, $speed, 0, 0, 0, 1
+mouse_id=10; speed=0.5; xinput set-prop $mouse_id "Coordinate Transformation Matrix" $speed, 0, 0, 0, $speed, 0, 0, 0, 1
 ```
 
 check settings:
