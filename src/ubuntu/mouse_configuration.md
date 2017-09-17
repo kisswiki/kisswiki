@@ -56,3 +56,30 @@ create file
 - https://askubuntu.com/questions/135122/reduce-the-mouse-sensitivity
 - https://stackoverflow.com/questions/18755967/how-to-make-a-program-that-finds-ids-of-xinput-devices-and-sets-xinput-some-set/39804831#39804831
 - https://askubuntu.com/questions/794185/how-to-disable-mouse-acceleration-in-ubuntu-16-04
+
+## Disable the Forward/Back buttons
+
+`xev`
+
+press buttons on xev window. You you will see something like:
+
+```
+ButtonRelease event, serial 40, synthetic NO, window 0x5600001,
+    root 0xdc, subw 0x0, time 89228289, (126,126), root:(127,179),
+    state 0x10, button 9, same_screen YES
+
+```
+
+`ctrl+c`.
+
+To disable 8 and 9 buttons, add file `~/.Xmodmap` with content:
+
+```
+! Disable buttons 8 and 9
+pointer = 1 2 3 4 5 6 7 0 0
+```
+
+Test it with the command `xmodmap ~/.Xmodmap`.
+
+
+https://unix.stackexchange.com/questions/20550/how-to-disable-the-forward-back-buttons-on-my-mouse
