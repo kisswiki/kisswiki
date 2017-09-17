@@ -1,6 +1,20 @@
 - https://webpack.js.org/guides/migrating/
 - https://medium.com/@u_glow/things-i-learned-while-upgrading-to-webpack-2-418b99965cbf
 
+## yarn
+
+`yarn upgrade-interactive`
+
+and select `webpack` and all `*-loader`. Might not present everything. In that case upgrade one-by-one:
+
+`yarn upgrade url-loader`
+
+## add -loader
+
+like:
+- `loader: 'babel'` -> `'babel-loader'`,
+- `loader: 'url?limit=10000'` -> `loader: 'url-loader', options: { limit: 10000 }`
+
 ## Update npm package
 
 Change every `webpack*` in `package.json` to `*`. Then:
