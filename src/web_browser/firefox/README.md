@@ -26,9 +26,23 @@ https://support.mozilla.org/en-US/questions/963855
 
 ### Dark about:blank
 
-Install https://addons.mozilla.org/en-US/firefox/addon/new-tab-override and then in extension settings choose `backgroun color`
+Install https://addons.mozilla.org/en-US/firefox/addon/new-tab-override
+
+Install Stylish. Create new style:
+
+```
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url("about:newtab") {
+  *{background-color:#000000;}
+}
+```
 
 https://superuser.com/questions/603218/how-to-make-the-aboutblank-page-black-or-any-other-color-in-firefox
+
+Or in extension settings choose `backgroun color`.
+
+In firefox > 56 there maybe option to clear address bar.
 
 ## Autohide address bar
 
