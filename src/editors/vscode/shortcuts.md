@@ -120,4 +120,10 @@ On Ubuntu Linux:
 
 https://stackoverflow.com/questions/35424367/how-to-navigate-back-to-the-last-cursor-position-in-visual-studio-code
 
-## alt+click to collapse folders recursively >= 1.16
+## collapse folders recursively
+
+from vscode>=1.16
+
+`alt+click` on Windows
+
+`ctrl+alt+click` on Ubuntu
