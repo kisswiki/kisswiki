@@ -1,0 +1,2 @@
+- https://github.com/mapbox/mapbox-gl-js/issues/1740#issuecomment-278520433
+  - http://jsbin.com/mihiqihaxi/edit?html,output
