@@ -36,6 +36,18 @@ add `'node_modules'` to `resolve`:
 
 `exclude should be one of these ...`
 
+## options.includePaths.push is not a function
+
+`includePaths: project.paths.client('styles'),`
+
+change to
+
+`includePaths: [project.paths.client('styles')],`
+
+## PostCSS Loader Previous source map found, but options.sourceMap isn't set
+
+No need to use css-loader when there is postcss-loader?
+
 ## Update npm package
 
 Change every `webpack*` in `package.json` to `*`. Then:
