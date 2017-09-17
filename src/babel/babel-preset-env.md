@@ -152,3 +152,11 @@ install `babel-plugin-transform-class-properties` and
 add `transform-class-properties` to your plugins
 
 https://github.com/babel/babel-preset-env/issues/218#issuecomment-287607022
+
+## es6 modules export from, export SyntaxError: Unexpected token {
+
+install `babel-plugin-transform-export-extensions ` and
+
+add `transform-export-extensions ` to your plugins
+
+https://stackoverflow.com/questions/35665759/es6-how-can-you-export-an-imported-module-in-a-single-line
