@@ -15,6 +15,17 @@ like:
 - `loader: 'babel'` -> `'babel-loader'`,
 - `loader: 'url?limit=10000'` -> `loader: 'url-loader', options: { limit: 10000 }`
 
+## Can't resolve
+
+add `'node_modules'` to `resolve`:
+
+```
+  resolve: {
+    modules: [project.paths.client(), 'node_modules'],
+    extensions: ['*', '.js', '.jsx', '.json'],
+  },
+```
+
 ## Update npm package
 
 Change every `webpack*` in `package.json` to `*`. Then:
