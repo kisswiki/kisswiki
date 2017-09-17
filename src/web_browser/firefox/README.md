@@ -40,9 +40,7 @@ Install Stylish. Create new style:
 
 https://superuser.com/questions/603218/how-to-make-the-aboutblank-page-black-or-any-other-color-in-firefox
 
-Or in extension settings choose `backgroun color`.
-
-In firefox > 56 there maybe option to clear address bar.
+Or install https://addons.mozilla.org/en-US/firefox/addon/new-tab-tweaker.
 
 ## Autohide address bar
 
