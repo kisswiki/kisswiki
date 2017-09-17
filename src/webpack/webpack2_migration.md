@@ -28,6 +28,10 @@ add `'node_modules'` to `resolve`:
 
 - https://github.com/webpack/webpack/issues/3397#issuecomment-330082803
 
+## exclue can't be null
+
+`exclude should be one of these ...`
+
 ## Update npm package
 
 Change every `webpack*` in `package.json` to `*`. Then:
