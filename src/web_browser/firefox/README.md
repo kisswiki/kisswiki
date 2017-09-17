@@ -26,17 +26,7 @@ https://support.mozilla.org/en-US/questions/963855
 
 ### Dark about:blank
 
-Install https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/ and then
-
-Install Stylish. Create new style:
-
-```
-@namespace url(http://www.w3.org/1999/xhtml);
-
-@-moz-document url("about:newtab") {
-  *{background-color:#000000;}
-}
-```
+Install https://addons.mozilla.org/en-US/firefox/addon/new-tab-override and then in extension settings choose `backgroun color`
 
 https://superuser.com/questions/603218/how-to-make-the-aboutblank-page-black-or-any-other-color-in-firefox
 
