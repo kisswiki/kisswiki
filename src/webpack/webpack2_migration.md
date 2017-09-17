@@ -26,6 +26,8 @@ add `'node_modules'` to `resolve`:
   },
 ```
 
+- https://github.com/webpack/webpack/issues/3397#issuecomment-330082803
+
 ## Update npm package
 
 Change every `webpack*` in `package.json` to `*`. Then:
