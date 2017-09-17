@@ -1,4 +1,5 @@
-https://webpack.js.org/guides/migrating/
+- https://webpack.js.org/guides/migrating/
+- https://medium.com/@u_glow/things-i-learned-while-upgrading-to-webpack-2-418b99965cbf
 
 ## Update npm package
 
