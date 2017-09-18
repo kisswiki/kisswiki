@@ -6,6 +6,11 @@
 
 ## center map with offset and padding
 
+>a LngLatBounds object or LngLatBoundsLike is "south west", "north east". LngLat is long then lat, so the full bounds like object will be [[west, south], [east, north]].
+https://github.com/mapbox/mapbox-gl-js/issues/4281#issuecomment-280212578
+
+- https://stackoverflow.com/questions/35586360/mapbox-gl-js-getbounds-fitbounds/35715102#35715102
+
 ```jsx
     let boundsArray = BHUTAN_BOUNDS;
     let fitBoundsOptions = { offset: [sidebarWidth / 2, 0] }; // eslint-disable-line no-magic-numbers
