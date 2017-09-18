@@ -8,6 +8,10 @@ get info about mouse:
 
 `xinput list`
 
+get info about xset settings:
+
+`xset q | grep -A 1 Pointer`
+
 If you have device listed twice, use first id instead of name:
 
 ```
