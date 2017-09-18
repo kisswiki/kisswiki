@@ -127,3 +127,9 @@ from vscode>=1.16
 `alt+click` on Windows
 
 `ctrl+alt+click` on Ubuntu
+
+## reopen last closed file
+
+`ctrl+shift+t`
+
+https://github.com/Microsoft/vscode/issues/5586
