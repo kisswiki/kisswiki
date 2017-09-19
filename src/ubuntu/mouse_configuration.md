@@ -22,16 +22,6 @@ mouse_id=10; speed=0.5; xinput set-prop $mouse_id "Coordinate Transformation Mat
 check settings:
 
 `xinput list-props 10`
-create file `~/.config/autostart/mouse.desktop`:
-
-```
-[Desktop Entry]
-Name=Set mouse sensitivity
-Exec=sh ~/bin/mouse.sh 10 1
-Type=Application
-Comment[en_US]=Use xset to set mouse params
-Comment=Use xset to set mouse params
-```
 
 ## Autostart
 
