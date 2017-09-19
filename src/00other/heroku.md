@@ -248,3 +248,11 @@ https://www.heroku.com/pricing
 ## metrics
 
 https://devcenter.heroku.com/articles/metrics
+
+## postbuild/heroku-postbuild in package.json scripts
+
+Conditional run?
+
+`"heroku-postbuild": "HEROKU_POSTBUILD && ./node_modules/.bin/sequelize db:migrate"`
+
+https://github.com/heroku/heroku-buildpack-nodejs
