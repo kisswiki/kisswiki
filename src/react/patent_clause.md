@@ -5,3 +5,4 @@
 
 - https://www.reddit.com/r/reactjs/comments/4ybhzw/
 - http://patents.justia.com/company/facebook?list=patents
+- https://github.com/search?q=org%3Afacebook+filename%3APATENTS&type=Code
