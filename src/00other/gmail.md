@@ -34,3 +34,9 @@ https://mail.google.com/mail/u/?authuser=test@example.com
 https://inbox.google.com/u/?authuser=test@example.com 
 
 https://webapps.stackexchange.com/questions/45229/permalink-to-specific-gmail-inbox
+
+## multiple emails in filter
+
+`to:(name1@domain.com | name2@domain.com | name3@domain.com)`
+
+https://webapps.stackexchange.com/questions/686/how-to-specify-or-conditions-for-gmail-filter/42051#42051
