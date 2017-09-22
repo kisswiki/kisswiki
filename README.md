@@ -19,3 +19,9 @@ I edit it in atom.io
 ## vscode
 
 `run_task_automatically.md`
+
+## bash alias
+
+copy alias from `src/.bashrc` to `~/.bashrc` and `source ~/.bashrc`.
+
+Then run `kissw`.
