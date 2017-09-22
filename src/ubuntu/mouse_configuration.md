@@ -31,8 +31,8 @@ in `~/.profile` add:
 
 ```bash
 if [[ -n ${DISPLAY} ]]; then
-  ~/bin/mouse.sh 10 0.3
-  ~/bin/mouse.sh 11 0.3
+  ~/bin/mouse.sh 10 0.5
+  ~/bin/mouse.sh 11 0.5
 fi
 ```
 
