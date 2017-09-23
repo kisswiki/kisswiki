@@ -21,4 +21,12 @@ reply
 
 Aslo called a "weak patent retaliation clause" vs React's (current) strong patent retaliation clause. I found the explanations in [1] to be very helpful to understand patent clauses. https://medium.com/@dwalsh.sdlr/react-facebook-and-the-revokable-patent-license-why-its-a-paper-25c40c50b562
 
+Red Hat holds patents but promises not to enforce them. This means anyone can use the IP without worrying about being sued for infringement. No one else can claim they own the IP because Red Hat already owns it. They also have a clause saying that if Red Hat sells the IP, the buyer needs to uphold the same promise.
+
+I am also not a lawyer. But I don't think a "promise" is a legally enforceable concept.
+
+I'm not a lawyer either, but the estoppel doctrine should make it enforceable.
+
+3rd year law student (among other things!) here. As you've mentioned, the doctrine of promissory estoppel should make this enforceable in law.
+
 https://news.ycombinator.com/item?id=15316175
