@@ -44,4 +44,15 @@ Sure, but you won't loose the patent grant.
 >counterclaim in that lawsuit against that party that is unrelated to the
 >Software, the license granted hereunder will not terminate
 
+
+I'm astounded how everyone things MIT == Apache2. MIT doesn't protect you from patent litigation.
+This is a backwards move. Facebook is very good at PR painting this as a win for users.
+See http://en.swpat.org/wiki/Patent_clauses_in_software_licences#Apache_License_2.0
+an explanation https://opensource.stackexchange.com/a/1890
+
+Which license is PyTorch?
+
+PyTorch itself isnt, But the multi-GPU version requires Gloo which is BSD+PATENTS
+https://github.com/facebookincubator/gloo/blob/master/PATENTS
+
 https://news.ycombinator.com/item?id=15316175
