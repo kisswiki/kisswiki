@@ -58,4 +58,9 @@ https://github.com/facebookincubator/gloo/blob/master/PATENTS
 Facebook's patent clause disarms all their opponents, but leaves them free to attack. It's actually a wildly aggressive, offensive weapon, surprisingly - just like how nuclear missile defense is one of the more provocative technologies out there that possibly makes nuclear conflicts more probably.
 That's why it's totally unpalatable, at least at the big companies.
 
+The only legitimate criticism I've heard of the FB patent grant is that FB could intentionally infringe your patents and the you couldn't sue them for infringement without losing your React patent grant. It's such a narrow case though that I seriously doubt it's a legitimate concern for most of the people complaining about it.
+
+Furthermore, suppose you're some company like, say, IBM which figured out some way to say, safely double the energy density and recharge cycles of Lithium Ion batteries, which you have patented. Let's also assume that you are shipping some critical problem which is dependent on React. Facebook could now freely use your patented idea, and violating it left, right, and center, and if you try to sue them for violating that patent, you're completely f*cked.
+So Facebook's idea works fine if you believe that Patents as a Thing are bad (all patents, not just software patents), and should not be asserted under any circumstances, and it's fine for Facebook to arbitrarily violate any patent of any company who has become dependent on React.
+
 https://news.ycombinator.com/item?id=15316175
