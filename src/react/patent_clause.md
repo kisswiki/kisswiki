@@ -9,9 +9,16 @@
 
 ##
 
+Never heard Facebook answer: why didn't they just follow Red Hat's model and make a "Patent Promise"[1]?
+Then accumulation of software patents would help deter meritless litigation while staying out of the way of FLOSS developers getting their work done.
+https://www.redhat.com/en/about/patent-promise
+
+Or what about Google's Golang PATENTS clause?
+https://golang.org/PATENTS
+
 the one in Go basically says if you sue google for any Go related patents then they revoke the license. that patent retaliation clause is nothing different from the one used in Apache Licence Version 2. the one in react says they revoke your license when you sue facebook for any patent related matter.
 reply
 
 Aslo called a "weak patent retaliation clause" vs React's (current) strong patent retaliation clause. I found the explanations in [1] to be very helpful to understand patent clauses. https://medium.com/@dwalsh.sdlr/react-facebook-and-the-revokable-patent-license-why-its-a-paper-25c40c50b562
 
-https://news.ycombinator.com/item?id=15319490
+https://news.ycombinator.com/item?id=15316175
