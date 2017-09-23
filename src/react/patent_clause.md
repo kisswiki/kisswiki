@@ -29,4 +29,19 @@ I'm not a lawyer either, but the estoppel doctrine should make it enforceable.
 
 3rd year law student (among other things!) here. As you've mentioned, the doctrine of promissory estoppel should make this enforceable in law.
 
+Red Hat: You can use our patents if we can use your software.
+
+Facebook: You can use our software if we can use your patents.
+
+That's my severely over-simplified interpretation. The most significant difference is that Red Hat's promise extends to FOSS in general, though apparently not proprietary software. Facebook's license applies only to specific Facebook FOSS code, but it can be used in proprietary software.
+
+Facebook can sue you first.
+
+Sure, but you won't loose the patent grant.
+
+>if Facebook [...] files a lawsuit alleging patent infringement against you
+>in the first instance, and you respond by filing a patent infringement
+>counterclaim in that lawsuit against that party that is unrelated to the
+>Software, the license granted hereunder will not terminate
+
 https://news.ycombinator.com/item?id=15316175
