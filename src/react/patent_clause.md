@@ -55,4 +55,7 @@ Which license is PyTorch?
 PyTorch itself isnt, But the multi-GPU version requires Gloo which is BSD+PATENTS
 https://github.com/facebookincubator/gloo/blob/master/PATENTS
 
+Facebook's patent clause disarms all their opponents, but leaves them free to attack. It's actually a wildly aggressive, offensive weapon, surprisingly - just like how nuclear missile defense is one of the more provocative technologies out there that possibly makes nuclear conflicts more probably.
+That's why it's totally unpalatable, at least at the big companies.
+
 https://news.ycombinator.com/item?id=15316175
