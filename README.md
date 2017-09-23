@@ -20,7 +20,11 @@ I edit it in atom.io
 
 `run_task_automatically.md`
 
-## bash alias
+## alias
+
+`./kissw.sh`
+
+or
 
 copy alias from `src/.bashrc` to `~/.bashrc` and `source ~/.bashrc`.
 
