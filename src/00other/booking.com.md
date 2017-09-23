@@ -1,0 +1,2 @@
+- https://ro-che.info/articles/2017-09-17-booking-com-manipulation
+  - https://news.ycombinator.com/item?id=15297915
