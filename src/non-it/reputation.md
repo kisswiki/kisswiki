@@ -1,0 +1,3 @@
+- https://www.baumhedlundlaw.com/toxic-tort-law/monsanto-roundup-lawsuit/monsanto-secret-documents/
+- https://theintercept.com/2014/02/24/jtrig-manipulation/
+- https://en.wikipedia.org/wiki/Correct_the_Record
