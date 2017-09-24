@@ -4,12 +4,6 @@
 >
 >-- https://medium.com/front-end-hacking/es2015-vs-elm-vs-typescript-a88dbc5d14d9
 
-## typescript vs flow
+## flow vs typescript
 
-Michał Miszczyszyn:
-
-Poza tym składniowo i koncepcyjnie Flow i TS niczym się nie różnią, poza kilkoma minimalnymi niuansami. Za to TS ma większe community, więcej paczek .d.ts i (moja opinia) lepiej rozwiązane importowanie typów (typy są importowane razem z paczką, a nie dodatkowo – we Flow trzeba mieć dwa importy, a w TS jeden).
-
-Plików definicji nie pisze się ręcznie, poza sytuacjami gdy chcesz stworzyć .d.ts do już istniejącej biblioteki. Jako programista aplikacji (a nie twórca bibliotek) plików definicji nie musisz dotykać
-
-https://www.facebook.com/groups/257881290932879/permalink/1358876237500040/
+flow_vs_typescript.md
