@@ -157,6 +157,17 @@ Our team members submitted a few PRs to the github repo and they took months to 
 
 https://news.ycombinator.com/item?id=15293928
 
+###
+
+You might be interested in this: https://blog.discordapp.com/using-react-native-one-year-late...
+We use it over at Discord.
+
+https://news.ycombinator.com/item?id=15315038
+
+2016-06-07
+
+However, when we started building the iOS app, the performance of the chat’s scroll view wasn’t satisfactory, especially for some active chat groups. We decided to use ComponentKit for chat and write the necessary bridges instead. The Animated library also cannot deliver the animations as smooth as the native while doing heavy duty works on the JS thread, so we keep using PopAnimation for our drawers.
+
 ## typescript
 
 Facebook have decided they won't support it (Flow is their thing, so that makes sense) but Microsoft has stepped up with some pretty serious support, including good docs for the process of converting a new RN project to TypeScript:
