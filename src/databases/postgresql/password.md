@@ -1,7 +1,8 @@
 find `pg_hba.conf`
 
-```sql
-SHOW hba_file;
+```bash
+$ sudo -u postgres psql postgres
+postgres=# SHOW hba_file;
 ```
 
 https://askubuntu.com/questions/256534/how-do-i-find-the-path-to-pg-hba-conf-from-the-shell
