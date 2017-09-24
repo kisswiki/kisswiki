@@ -105,6 +105,50 @@ Based on our outcomes, present me would happily tell past me I'm making a good c
 
 https://news.ycombinator.com/item?id=15293997
 
+###
+
+I'm a native iOS developer who does a lot of React Native consulting. Earlier in the year I gave a talk on the pro's and cons of React Native which you can watch here:
+https://www.youtube.com/watch?v=cZ4zQWgajBg&t=746s
+The main reasons I got into React Native was a combination of frustration with the state of Swift last WWDC and an opportunity to try it out with a client who just had a React Web team.
+I don't regret the decision at all. If you are thinking about using React Native in a project here are some things to consider:
+Maybe we should use React Native:
+- We know JS / React
+- We have lots of web developers but few mobile
+- Our design is brand-focused
+- We're willing to invest in RN
+- We want to get into OSS
+- We want OTA code updates
+Or maybe we shouldn't:
+- We don't know JS / React
+- We already have an iOS team and an Android team
+- Our designs are heavily platform-specific
+- We don't have the time or money for an RN team / OSS
+Pros:
+- Cross-platform
+- Performant, native feel (with some effort)
+- Great developer experience
+- Push updates over-the-air
+- Strong community
+- Backed by Facebook
+Cons:
+- Early
+- Unstable (bugs, APIs)
+- Ecosystem not fully developed
+- Polished apps are high effort
+- You may need native code (so JS + Obj-C + Java)
+If you are a fully native shop, with no JS dev's that use React, it doesn't make all that much sense to rewrite your app using React Native.
+If you have no native team, are familiar with React, then React Native makes a lot of sense.
+If you are are a company with native apps and a web team that knows React then using React Native inside your existing app for growth, etc, makes a lot of sense.
+Going all in on React Native is a big investment and I wouldn't recommend it for many use cases (multimedia, etc). Right now it definitely has some rough edges (navigation, upgrading versions, etc) but it can dramatically increase the productivity of your front end teams.
+
+https://news.ycombinator.com/item?id=15294500
+
+###
+
+RN still has huge blocking bugs like this one: https://github.com/facebook/react-native/issues/14209 that seem to pop up at random times, and not always for the same developers. I thought yarn would solve some of these issues, but they still kill our dev team and halt all work every once in a while. And it's annoying as heck.
+
+https://news.ycombinator.com/item?id=15296289
+
 ## typescript
 
 Facebook have decided they won't support it (Flow is their thing, so that makes sense) but Microsoft has stepped up with some pretty serious support, including good docs for the process of converting a new RN project to TypeScript:
