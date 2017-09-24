@@ -1,0 +1,1 @@
+- camera test https://news.ycombinator.com/item?id=15312132
