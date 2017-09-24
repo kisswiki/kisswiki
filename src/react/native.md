@@ -178,7 +178,6 @@ This transformer: https://github.com/ds300/react-native-typescript-transformer w
 
 https://news.ycombinator.com/item?id=15297534
 
-
 ## Expo
 
 With RN, though, we've only really had problems with it when using Expo. Taking that out of our stack pretty much solved our periodic whole-day-wasting build problems, and excising it and other tightly-coupled libs freed us to upgrade RN from time to time, which is nice. A++++, would aggressively remove RN-specific 3rd party libs again.
