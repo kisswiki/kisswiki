@@ -16,3 +16,9 @@ And that’s before mentioning things like accessibility, large type support, ba
 I think it is best to write the "core" of your application using a language that can run on all of your target platforms -- which typically means you'll have to use C/C++/Rust or something similar that can be compiled to native code and supports somewhat sane FFI. The UI for each platform should be done using the Native UI toolkit for the platform. That way, you can avoid most of the code duplication.
 
 https://news.ycombinator.com/item?id=14972637
+
+## Code sharing between web views and native
+
+Eventually we decided to go a different direction. Most of our display logic is the same or very similar between the mobile web/ios/android with a few exceptions. We found that mixing ReactNative with the webview component gave us the ability to use webviews to share the majority of the code that can be shared. When we need more native functionality we communicate with postMessage and we have access to ReactNative. Once in ReactNative if we need to go down to iOS specific or Android specific code we have the ability to do that too. We found this to be much more powerful than Cordova and the user experience is honestly amazing. This is still a work in progress but we are excited about what we've seen so far.
+
+https://news.ycombinator.com/item?id=15293885
