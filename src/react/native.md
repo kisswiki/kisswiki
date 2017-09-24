@@ -149,6 +149,14 @@ RN still has huge blocking bugs like this one: https://github.com/facebook/react
 
 https://news.ycombinator.com/item?id=15296289
 
+###
+
+There were a lot of bugs or incomplete APIs for our use-cases. Off the top of my head, if I remember correctly - intricacies and bugs around input handling, the JS navigator implementation didn't properly support swipe back/forward and we could crash it with a couple well timed taps, landscape mode was non-existent, same with master/detail view. We were able to make a few screens in a few days, but polishing them to a shippable standard took exponentially longer or was relatively impossible without doing more native work than what would have been necessary to build it natively from scratch. There were also serious perf issues, like around list views.
+
+Our team members submitted a few PRs to the github repo and they took months to get merged, if at all. Back then it felt like nobody was really at the helm. I suspect this has gotten better since then.
+
+https://news.ycombinator.com/item?id=15293928
+
 ## typescript
 
 Facebook have decided they won't support it (Flow is their thing, so that makes sense) but Microsoft has stepped up with some pretty serious support, including good docs for the process of converting a new RN project to TypeScript:
