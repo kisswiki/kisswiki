@@ -19,6 +19,10 @@ https://news.ycombinator.com/item?id=14972637
 
 ## Code sharing between web views and native
 
+So we've tried a lot of things to maximize code sharing. Our initial goal was to share non-visual code like reducers/action-creators/libs/utils etc… This was pretty interesting but it didn't give us the amount of sharing that we wanted. We were still building multiple versions of many things.
+
+The next approach we started on was using https://github.com/necolas/react-native-web. This was very exciting and very fun to work with. However, we found it difficult to optimize the web experience. Most of our traffic is on the website so we are spending a lot of time optimizing the web experience. This might not line up with other's experience but we kind of came to the conclusion that react-native-web works great for apps where the native app is the primary driver and you want to offer a web experience as a secondary experience. This became more clear when we started trying to work with our SEO team. And again when we started trying to build responsive designs with react-native-web. Doable but we ended up spending a ton of time to make the web work the way we wanted to.
+
 Eventually we decided to go a different direction. Most of our display logic is the same or very similar between the mobile web/ios/android with a few exceptions. We found that mixing ReactNative with the webview component gave us the ability to use webviews to share the majority of the code that can be shared. When we need more native functionality we communicate with postMessage and we have access to ReactNative. Once in ReactNative if we need to go down to iOS specific or Android specific code we have the ability to do that too. We found this to be much more powerful than Cordova and the user experience is honestly amazing. This is still a work in progress but we are excited about what we've seen so far.
 
 https://news.ycombinator.com/item?id=15293885
