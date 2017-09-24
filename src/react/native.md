@@ -73,6 +73,38 @@ These add up to a ton of time saved, which manages to overcome:
 
 https://news.ycombinator.com/item?id=15294157
 
+###
+
+Builds are very complicated. It's not as simple as 'JS is your whole app'. The package manager is getting better at injecting native code (react-native link) but has a long way to go.
+
+I spent a lot of time debugging RN. The instant reload feature comes with hangups. Tracebacks don't always appear.
+
+Navigation isn't cross-platform.
+
+Interacting with native APIs is nightmarish. JS wasn't built for java interop.
+
+https://news.ycombinator.com/item?id=15293820
+
+###
+
+No, I don't regret it. We picked it for our startup as we wanted a cross platform solution, that genuinely felt native (without the huge effort it takes to make a webapp feel that smooth), and that still gave us a chance to easily native code for certain features. Big wins:
+- With a little effort, it genuinely feels native.
+- The talent pool is much larger. We didn't hire React Native folk, just good JS people who picked it up quickly.
+- Blending native code with JavaScript is easy.
+- There are methods to perform app updates without going through the app store release processes of either platform (and waiting for end users to actually download the update).
+- It moves quickly, so bugs are squashed pretty quickly, and features arrive at a fast clip.
+There have been challenges:
+- It moves quickly. Backwards compatibility is doesn't seem to be high on the maintainers priority list, so almost every update will break _something_. We instituted policies of never falling far behind the public release (to avoid needing huge changes at once), and using very few external components (which are often not kept up-to-date with RN).
+- If your use cases are outside of the maintainers, there will be problems. The release process seems to be "Does it work for the contributors projects? Ship it". Things like Pod based builds broke for months because they just weren't tested.
+- The JavaScript ecosystem is still insane. Our project has ended up with one of the most complex build processes I've worked with (and I've worked with autotools).
+My key advice would be:
+- Stick with their release cycle, and follow their processes. Don't colour outside the lines, or you will have pain.
+- Don't include third party modules unless you have _no other choice_.
+- Test on both iOS and Android regularly (i.e. continuously). Things that work well on one platform may be broken on the other.
+Based on our outcomes, present me would happily tell past me I'm making a good call, as I'm confident we'd otherwise never have shipped two native-feel applications with 5 developers.
+
+https://news.ycombinator.com/item?id=15293997
+
 ## typescript
 
 Facebook have decided they won't support it (Flow is their thing, so that makes sense) but Microsoft has stepped up with some pretty serious support, including good docs for the process of converting a new RN project to TypeScript:
@@ -82,3 +114,12 @@ Not sure whether that'd play nicely with Expo without a bunch of extra work. It 
 This transformer: https://github.com/ds300/react-native-typescript-transformer worked perfectly for me so far. You don't have to change your code at all but just add a single file to your project and the packager will do all the rest for you.
 
 https://news.ycombinator.com/item?id=15297534
+
+
+## Expo
+
+With RN, though, we've only really had problems with it when using Expo. Taking that out of our stack pretty much solved our periodic whole-day-wasting build problems, and excising it and other tightly-coupled libs freed us to upgrade RN from time to time, which is nice. A++++, would aggressively remove RN-specific 3rd party libs again.
+
+I don't use react native for work, just for my own projects, but what you said about expo is resonating with me. I thought it would be a clear winner but it's much slower to do anything with it, the app is constantly crashing, etc. Feels much less productive.
+
+https://news.ycombinator.com/item?id=15294365
