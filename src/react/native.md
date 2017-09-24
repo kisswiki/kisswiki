@@ -26,3 +26,59 @@ The next approach we started on was using https://github.com/necolas/react-nativ
 Eventually we decided to go a different direction. Most of our display logic is the same or very similar between the mobile web/ios/android with a few exceptions. We found that mixing ReactNative with the webview component gave us the ability to use webviews to share the majority of the code that can be shared. When we need more native functionality we communicate with postMessage and we have access to ReactNative. Once in ReactNative if we need to go down to iOS specific or Android specific code we have the ability to do that too. We found this to be much more powerful than Cordova and the user experience is honestly amazing. This is still a work in progress but we are excited about what we've seen so far.
 
 https://news.ycombinator.com/item?id=15293885
+
+## pros and cons
+
+- Layout: It's the main reason to go all in with RN. You're much faster building these with RN then using native stuff.
+Infinite Scrolling: ListViews and RN are a thing. There's a new List Type since a few Versions - if you're following the book regarding DataStrucure everything should work.
+- REST Client: RN provides basic API so nearly everything which works in Browser works in RN too. I use Redux Sagas and fetch. Working great so far.
+Image Handling: It's built on top of fresco and works great so far.
+- Push: Can't say mush about it, because i don't use it but should work ok.
+- In-App: There's a great Plugin.
+- Animation: Native Animations are around for some time. Should work ok, but depends what you're planning to do.
+
+Basically it's extremely easy to go native if necessary. But at that point you need to implement it on every platform. Even though for usual use cases it shouldn't be necessary. You just need to keep Track of your renderings and make sure you use PureComponents at the right point, so there are no unnecessary rerenders congesting the bridge and slowing everything down. But if you do it right you will achieve performance and an feature level that is on par with every native development in less time. And with 95% Code Share.
+
+Push works great!
+
+https://news.ycombinator.com/item?id=15295691
+
+###
+
+Pros
+- We haven't done performance tuning and haven't had any user complaints about performance (it's a multi-channel chat app)
+- Most of the time, changes "just work" on both platforms
+- Javascript :D
+- Development velocity is great, especially w/ UI changes
+Cons
+- Wish we had better text input control
+- You still need someone who knows about native app development on each platform
+- Upgrading versions can cause breaking issues (this has gotten better)
+- Lesser used 3rd-party packages are often incomplete across platform, so a fair amount of patches
+- Changes on one platform have the potential to break the other platform (so testing can require a lot of back and forth)
+
+https://news.ycombinator.com/item?id=15294338
+
+###
+
+RN's been a good move for our smaller 2-3 person teams (2-3 devs, plus part-time designer, QA, various other roles full or part time—call it 6 personnel) though not without trade-offs. Big wins:
+1. JS devs can contribute quickly and comfortably.
+2. Can still easily write native code if needed (win over other native-but-not-native frameworks)
+3. If you decouple business logic (Redux, even) and, say, REST client code, that stuff's largely portable to an awful lot of platforms. RN's supported platforms (including kind-of supported, like FireTV and Apple TV), plus desktop (well, "desktop"—Electron) and (depending on what you're doing) web.
+4. It actually does look pretty OK on both iOS and Android with few special considerations (conditionally rendered sections, different views) for each. This surprised the hell out of me.
+5. Papers over a lot of stupid, badly-designed, and/or broken crap on Android, and does a decent job of it.
+These add up to a ton of time saved, which manages to overcome:
+1. Immature, kinda poorly managed ecosystem. If you stray from RN+Redux and one or two other core libs, Here Be Dragons. Like, good luck ever upgrading RN if you load up on dependencies like a typical JS project, if those dependencies touch RN itself at all. Part of this is just JS "culture", part of it's the relative youth of the project, and part of it's FB's choices.
+2. It's Javascript. We've fixed this by using Typescript, which is great. Makes Redux actually manageable—way less bouncing around between files, bouncing out to documentation, more just writing code. Fewer red screens due to typos or related dumb mistakes.
+
+https://news.ycombinator.com/item?id=15294157
+
+## typescript
+
+Facebook have decided they won't support it (Flow is their thing, so that makes sense) but Microsoft has stepped up with some pretty serious support, including good docs for the process of converting a new RN project to TypeScript:
+https://github.com/Microsoft/TypeScript-React-Native-Starter
+Not sure whether that'd play nicely with Expo without a bunch of extra work. It is quite a bit harder to convert an existing project than to start a new one with TypeScript.
+
+This transformer: https://github.com/ds300/react-native-typescript-transformer worked perfectly for me so far. You don't have to change your code at all but just add a single file to your project and the packager will do all the rest for you.
+
+https://news.ycombinator.com/item?id=15297534
