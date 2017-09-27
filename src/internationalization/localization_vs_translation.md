@@ -1,0 +1,1 @@
+- https://www.transifex.com/blog/2015/localization-vs-translation/
