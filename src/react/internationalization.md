@@ -1,5 +1,6 @@
 - https://blog.sentry.io/2016/01/07/react-i18n
 - https://react.rocks/tag/Internationalization
+- https://github.com/lingui/js-lingui/wiki/Comparison-of-i18n-libraries
 
 ## packages
 
