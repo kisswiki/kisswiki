@@ -52,7 +52,7 @@ changes to
 
 ### Problem 2
 
-- usuwa nawiasy z jednoargumentowych arrow functions https://github.com/prettier/prettier/issues/812
+- usuwa nawiasy z jednoargumentowych arrow functions https://github.com/prettier/ prettier/issues/812
 
 Consistent with airbnb style guide https://github.com/airbnb/javascript#arrows--one-arg-parens
 
@@ -62,7 +62,15 @@ Consistent with airbnb style guide https://github.com/airbnb/javascript#arrows--
 
 ### Problem 3
 
-- usuwa nawiasy z jsx https://github.com/prettier/prettier/pull/2398
+usuwa nawiasy z jsx:
+
+In order to format your code, prettier parses your code into an AST, then removes everything in the file and reprints it by hand. Unfortunately, parens are not included in the AST, because they don't have semantic significance to the language (as far as the engine is concerned; ASTs are traditionally created so that the engine can understand what you wrote). But that means that when we go through the AST to reprint everything, we have to decide to put parens or not, since that original information isn't there.
+
+We could add in some hacks to look at what the code was like before we parsed it, and then decide to put parens in based on that (which is what we did for deciding if we should print an object on one line or multiple), but that's generally against the philosophy of prettier, because we are trying to normalize format as much as possible; the goal of this tool is to remove wiggle room so that teams who want a consistent format style can get one and stop arguing about stylistic preferences.
+
+Parens kinda don't get as much attention as they deserve because they're harder to work with due to how the AST treats them, which is unfortunate. I think that if parens were in the AST, we would try to preserve what the user wrote; it's an arbitrary distinction.
+
+https://github.com/prettier/prettier/pull/2398#issuecomment-329851723
 
 ### Editor needs it's own formatter
 
