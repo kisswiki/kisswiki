@@ -18,34 +18,6 @@ https://support.mozilla.org/en-US/questions/963855
   - http://www.ghacks.net/2015/11/07/better-reader-improves-firefoxs-reader-mode/
 - https://userstyles.org/styles/114669/firefox-reader-custom-width-multi-column
 
-## Dark mode
-
-- https://addons.mozilla.org/en-US/firefox/addon/nightreader
-- https://addons.mozilla.org/pl/firefox/addon/dark-background-light-text
-- https://addons.mozilla.org/pl/firefox/addon/simple-night-mode
-
-### Dark about:blank
-
-1. Open `about:profiles` in Firefox.
-2. Open you profile directory.
-3. Create `chrome/userContent.css` with content:
-
-```css
-@-moz-document url("about:newtab") {
-    body {
-        background-color: #000000 !important;
-        background-image: url("image.png") !important;
-        background-repeat: no-repeat !important;
-        background-position: center !important;
-    }
-}
-```
-
-4. Restart Firefox.
-
-- https://www.reddit.com/r/firefox/comments/693t7t/how_to_change_newtab_backgrounds_color/dh3uk8s/
-- https://superuser.com/questions/603218/how-to-make-the-aboutblank-page-black-or-any-other-color-in-firefox
-
 ## Autohide address bar
 
 https://addons.mozilla.org/pl/firefox/addon/aniverto/
@@ -90,9 +62,3 @@ https://addons.mozilla.org/en-US/firefox/addon/max-tabs-web-ext
 `about:config`
 
 `browser.fullscreen.autohide: false`
-
-## dark
-
-`Add-ons > Themes > Dark > Enable`
-
-`Extensions > Tree Style Tab > Preferences > Appearance > Plain Dark`
