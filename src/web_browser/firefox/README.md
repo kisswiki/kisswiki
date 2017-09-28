@@ -84,3 +84,15 @@ https://addons.mozilla.org/pl/firefox/addon/dont-touch-my-tabs
 ## max tabs and counter
 
 https://addons.mozilla.org/en-US/firefox/addon/max-tabs-web-ext
+
+## disable fullscreen hiding address bar and tabs
+
+`about:config`
+
+`browser.fullscreen.autohide: false`
+
+## dark
+
+`Add-ons > Themes > Dark > Enable`
+
+`Extensions > Tree Style Tab > Preferences > Appearance > Plain Dark`
