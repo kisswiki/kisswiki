@@ -22,15 +22,3 @@ http://www.ubuntu-pomoc.org/instalacja-firefox-nightly-z-repozytorium/
 ## tabs on title bar
 
 https://addons.mozilla.org/pl/firefox/addon/hide-caption-titlebar-plus-sma/
-
-## disable fullscreen hiding address bar and tabs
-
-`about:config`
-
-`browser.fullscreen.autohide: false`
-
-## dark
-
-`Add-ons > Themes > Dark > Enable`
-
-`Extensions > Tree Style Tab > Preferences > Appearance > Plain Dark`
