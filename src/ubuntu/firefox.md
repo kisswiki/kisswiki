@@ -23,7 +23,7 @@ http://www.ubuntu-pomoc.org/instalacja-firefox-nightly-z-repozytorium/
 
 https://addons.mozilla.org/pl/firefox/addon/hide-caption-titlebar-plus-sma/
 
-## disable fullscreen animation
+## disable fullscreen hiding address bar and tabs
 
 `about:config`
 
