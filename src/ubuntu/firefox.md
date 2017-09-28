@@ -28,3 +28,9 @@ https://addons.mozilla.org/pl/firefox/addon/hide-caption-titlebar-plus-sma/
 `about:config`
 
 `browser.fullscreen.autohide: false`
+
+## dark
+
+`Add-ons > Themes > Dark > Enable`
+
+`Extensions > Tree Style Tab > Preferences > Appearance > Plain Dark`
