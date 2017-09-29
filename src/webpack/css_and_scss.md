@@ -1,6 +1,12 @@
 - https://webpack.js.org/plugins/extract-text-webpack-plugin/
 
-## One css file
+## Without webpack
+
+- https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc
+- https://daveceddia.com/customize-create-react-app-webpack-without-ejecting/
+- https://www.automationfuel.com/sass-react-webpack/
+
+## Extract one css file
 
 There will be one file `dist/style.css`.
 
@@ -81,7 +87,7 @@ http://webpack.github.io/docs/stylesheets.html#separate-css-bundle
   - https://medium.com/faceyspacey/webpacks-import-will-soon-fetch-js-css-here-s-how-you-do-it-today-4eb5b4929852
     - https://medium.com/faceyspacey/announcing-react-universal-component-2-0-babel-plugin-universal-import-5702d59ec1f4
 
-## Output CSS to different directory
+## output CSS to different directory
 
 ```typescript
   plugins: [
