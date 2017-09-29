@@ -1,1 +1,2 @@
 - https://github.com/rokoroku/react-redux-typescript-boilerplate
+- https://github.com/piotrwitek/react-redux-typescript-guide
