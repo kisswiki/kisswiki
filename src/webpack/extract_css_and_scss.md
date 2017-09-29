@@ -1,3 +1,7 @@
+- https://webpack.js.org/plugins/extract-text-webpack-plugin/
+
+## One css file
+
 There will be one file `dist/style.css`.
 
 ```typescript
@@ -66,6 +70,26 @@ With Code Splitting we can use two different modes:
 The first mode is recommended because it’s optimal in regards to initial page loading time. In small apps with multiple entry points the second mode could be better because of HTTP request overheads and caching.
 
 http://webpack.github.io/docs/stylesheets.html#separate-css-bundle
+
+## extract at split points
+
+- https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/455
+- https://stackoverflow.com/questions/42661898/extracting-one-css-file-per-webpack-chunk-require-ensure
+- https://medium.com/@faceyspacey/45cb474cc332
+- https://github.com/faceyspacey/webpack-flush-chunks
+- https://github.com/faceyspacey/extract-css-chunks-webpack-plugin/issues/14#issuecomment-313799664
+  - https://medium.com/faceyspacey/webpacks-import-will-soon-fetch-js-css-here-s-how-you-do-it-today-4eb5b4929852
+    - https://medium.com/faceyspacey/announcing-react-universal-component-2-0-babel-plugin-universal-import-5702d59ec1f4
+
+## Output CSS to different directory
+
+```typescript
+  plugins: [
+    new ExtractTextPlugin('css/bootytwap4.css')
+  ]
+```
+
+https://github.com/webpack/webpack/issues/1022#issuecomment-295988344
 
 ## Errors
 
