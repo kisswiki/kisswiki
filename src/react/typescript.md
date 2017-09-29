@@ -1,2 +1,8 @@
 - https://github.com/rokoroku/react-redux-typescript-boilerplate
 - https://github.com/piotrwitek/react-redux-typescript-guide
+- http://patrickdesjardins.com/blog/typescript-react-and-redux-part-1-the-big-picture
+- https://github.com/3ygun/tutorial-react-with-ts
+- https://rjzaworski.com/2016/08/getting-started-with-redux-and-typescript
+- http://michaellawrie.com/typesafe-redux-in-typescript
+- https://github.com/ServiceStackApps/typescript-redux
+- https://egghead.io/lessons/typescript-bootstrap-a-typescript-react-project
