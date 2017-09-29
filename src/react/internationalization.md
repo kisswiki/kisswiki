@@ -6,6 +6,7 @@
 
 - http://www.npmtrends.com/react-intl-vs-react-intl-redux-vs-react-i18next
 - https://github.com/yahoo/react-intl
+  - THIS --> https://mikebridge.github.io/articles/typescript-i18n-react-intl/
   - https://egghead.io/courses/add-internationalization-i18n-to-a-react-app-using-react-intl
   - https://medium.freecodecamp.org/internationalization-in-react-7264738274a0
   - https://www.abidibo.net/blog/2017/03/17/internationalization-react-redux-starter-kit/
