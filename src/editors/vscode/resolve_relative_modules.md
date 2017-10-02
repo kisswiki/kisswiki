@@ -42,7 +42,7 @@ for webpack >=2, in `webpack.config.js` (look at `resolve_relative.md`):
     alias:{
       '~': path.resolve( __dirname, 'src' )
     },
-    extensions: ['', '.js', '.jsx', '.json']
+    extensions: ['*', '.js', '.jsx', '.json']
   },
 ```
 
