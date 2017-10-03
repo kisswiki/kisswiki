@@ -12,4 +12,5 @@ cat /usr/share/applications/defaults.list | grep Totem >> ~/.local/share/applica
 
 `%s/org.gnome.Totem.desktop/mpv.desktop/gc`
 
-http://libre-software.net/change-the-default-application-linux-mint-ubuntu/
+- http://libre-software.net/change-the-default-application-linux-mint-ubuntu/
+- https://askubuntu.com/questions/824738/cannot-change-default-music-player-16-04/961688#961688
