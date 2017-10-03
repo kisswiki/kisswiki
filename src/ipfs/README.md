@@ -1,0 +1,4 @@
+- https://blog.neocities.org/blog/2015/09/08/its-time-for-the-distributed-web.html
+  - https://news.ycombinator.com/item?id=15375283
+- http://la3.org/~kilburn/blog/catalan-government-bypass-ipfs/
+  - https://news.ycombinator.com/item?id=15367531

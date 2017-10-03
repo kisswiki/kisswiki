@@ -1,0 +1,4 @@
+- https://www.reddit.com/r/ipfs/comments/3m351b/discussion_permanent_content_dmca_and_illegal/
+- https://discuss.ipfs.io/t/avoid-hosting-of-illegal-material/48/23
+  - When A Dark Web Volunteer Gets Raided By The Police https://www.youtube.com/watch?v=8PO6qQHygFo
+- https://news.ycombinator.com/item?id=12776225
