@@ -15,3 +15,7 @@ flow_vs_typescript.md
 the same as in https://www.npmjs.com/package/babel-preset-flow
 
 https://flow.org/en/docs/install/
+
+## types
+
+- https://flow.org/en/docs/types/
