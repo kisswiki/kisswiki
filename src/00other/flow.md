@@ -22,10 +22,11 @@ https://flow.org/en/docs/install/
 
 ## "Required module not found" when requiring a .scss file via Webpack
 
-in .flowconfig
+in .flowconfig (empty line required)
 
 ```
 [options]
+
 module.name_mapper.extension='scss' -> 'empty/object'
 module.name_mapper.extension='css' -> 'empty/object'
 ```
