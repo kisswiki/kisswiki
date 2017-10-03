@@ -8,13 +8,18 @@ function isodate {
 
 xset m 0 0
 
-mouse_id=$1
+DEVICE="$1"
+devlist=$(xinput --list | grep "$DEVICE" | sed -n 's/.*id=\([0-9]\+\).*/\1/p')
 speed=$2
 
-echo "$(isodate) mouse_id: $mouse_id" 2>&1 | tee -a "$DIR/mouse.log"
 echo "$(isodate) speed: $speed" 2>&1 | tee -a "$DIR/mouse.log"
 
-xinput set-prop $mouse_id "Coordinate Transformation Matrix" $speed, 0, 0, 0, $speed, 0, 0, 0, 1
+for dev in $devlist
+do
+  echo "$(isodate) dev: $dev" 2>&1 | tee -a "$DIR/mouse.log"
+  xinput set-prop $dev "Coordinate Transformation Matrix" $speed, 0, 0, 0, $speed, 0, 0, 0, 1
+done
+
 
 echo $(isodate) $(xset q | grep -A 1 Pointer) 2>&1 | tee -a "$DIR/mouse.log"
 echo $(isodate) $(xinput list-props 10 | grep "Coordinate Transformation Matrix") 2>&1 | tee -a "$DIR/mouse.log"
