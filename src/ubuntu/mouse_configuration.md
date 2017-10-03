@@ -31,15 +31,14 @@ in `~/.profile` add:
 
 ```bash
 if [[ -n ${DISPLAY} ]]; then
-  ~/bin/mouse.sh 10 0.5
-  ~/bin/mouse.sh 11 0.5
+  ~/bin/mouse.sh "Logitech G203 Prodigy Gaming Mouse" 0.5
 fi
 ```
 
 - https://askubuntu.com/questions/773171/im-missing-mouse-pointer-speed-option-in-ubuntu-16-04/942445#942445
 - https://www.reddit.com/r/linux_gaming/comments/1ew39a/mouse_sensitivity_and_linux_gaming/
 - https://askubuntu.com/questions/79195/where-do-i-have-to-paste-an-xinput-command-so-that-it-executes-it-when-gnome-i/201825#201825
-- https://stackoverflow.com/questions/18755967/how-to-make-a-program-that-finds-ids-of-xinput-devices-and-sets-xinput-some-set
+- https://stackoverflow.com/questions/18755967/how-to-make-a-program-that-finds-ids-of-xinput-devices-and-sets-xinput-some-set/40771275#40771275
 - https://unix.stackexchange.com/questions/164325/how-to-use-xinput-to-configure-multiple-devices-with-a-script
 - https://wiki.archlinux.org/index.php/Mouse_acceleration
 - https://wiki.archlinux.org/index.php/Mouse_polling_rate
