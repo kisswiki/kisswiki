@@ -8,3 +8,10 @@
 ## flow vs typescript
 
 flow_vs_typescript.md
+
+## install
+
+`create-react-app` has `babel` preset `react-app`, which already includes plugin `transform-flow-strip-types`,
+the same as in https://www.npmjs.com/package/babel-preset-flow
+
+https://flow.org/en/docs/install/
