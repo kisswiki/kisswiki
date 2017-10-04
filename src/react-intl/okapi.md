@@ -6,3 +6,4 @@ https://github.com/Ognian/react-intl-webpack-plugin
 - https://en.wikiversity.org/wiki/Computer-assisted_translation
 - http://okapiframework.org/wiki/index.php?title=Rainbow
   - download https://bintray.com/okapi/Distribution/Okapi_Applications
+- How to translate with 3 free tools https://youtu.be/WShLhs5ZzUw?t=216
