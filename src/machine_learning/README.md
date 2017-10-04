@@ -12,6 +12,9 @@
 - http://www.campaignlive.co.uk/article/why-cosabella-replaced-its-agency-ai-will-go-back-humans/1427323
 - Asaf https://www.edx.org/course/machine-learning-columbiax-csmm-102x
 - https://github.com/showcases/machine-learning
+- https://pair-code.github.io/deeplearnjs/
+  - https://www.blog.google/topics/machine-learning/now-anyone-can-explore-machine-learning-no-coding-required/
+  - https://news.ycombinator.com/item?id=15399132
 
 ## Examples
 
