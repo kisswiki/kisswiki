@@ -1,0 +1,3 @@
+- https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
+  - https://news.ycombinator.com/item?id=15372940
+- build your own blockchain from scratch in 20 lines of javascript https://github.com/openblockchains/awesome-blockchains/blob/master/blockchain.js/blockchain.js
