@@ -6,6 +6,8 @@ https://askubuntu.com/questions/202670/change-google-chrome-language/484302#4843
 
 These answers do not work for changing `navigator.language` https://superuser.com/questions/478565/chrome-extension-for-switching-locale-accept-languages
 
+to change `navigator.languages` in Google Chrome go to `chrome://settings/languages`.
+
 In Google Chrome returns the browser UI language, not the value of the Accept-Language HTTP header.
 
 In IE userLanguage or browserLanguage.
