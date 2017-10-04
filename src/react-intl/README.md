@@ -17,7 +17,7 @@
 
 ## what to choose?
 
-1. const locale = user.locale || navigator.language || 'en';
+1. `const locale = user.locale || navigator.language || 'en';`
 2. Load translations dynamically with webpack and System.import - will that work on IE11?
 3. Translation process
   - Ognian/react-intl-webpack-plugin and memspace or okapi rainbow
