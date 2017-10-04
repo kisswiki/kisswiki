@@ -4,7 +4,7 @@ to change in Google Chrome on Ubuntu, the only option is to start it like:
 
 https://askubuntu.com/questions/202670/change-google-chrome-language/484302#484302
 
-These answers do not work https://superuser.com/questions/478565/chrome-extension-for-switching-locale-accept-languages
+These answers do not work for changing `navigator.language` https://superuser.com/questions/478565/chrome-extension-for-switching-locale-accept-languages
 
 In Google Chrome returns the browser UI language, not the value of the Accept-Language HTTP header.
 
