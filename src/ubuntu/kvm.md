@@ -1,6 +1,6 @@
 - https://help.ubuntu.com/community/KVM/Installation
 - https://www.microsoft.com/pl-pl/software-download/windows10ISO
-- Windows 10 Pro keys https://www.reddit.com/r/Windows10/comments/3det9q/build_10240_now_available_for_windows_insiders_in/ct4hp9p/
+- Windows 10 Pro keys: Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99, Pro: W269N-WFGWX-YVC9B-4J6C9-T83GX https://www.reddit.com/r/Windows10/comments/3det9q/build_10240_now_available_for_windows_insiders_in/ct4hp9p/
 
 ```
 sudo apt install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
