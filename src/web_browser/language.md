@@ -16,7 +16,9 @@ https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language
 
 ###
 
->This change is just the beginning² for changing the behavior of navigator.language since web content has no reason to access the browser UI language given that it does not interact with it. https://plus.google.com/+FrancoisBeaufort/posts/S4aDXS3621R
+>This change is just the beginning for changing the behavior of navigator.language since web content has no reason to access the browser UI language given that it does not interact with it. https://plus.google.com/+FrancoisBeaufort/posts/S4aDXS3621R
+
+Now there is a way to get Accept-Languages in Firefox and Chrome using `navigator.languages`.
 
 >I think the main problem here is that the browser settings don't actually affect the navigator.language property that is obtained via javascript.
 >What they do affect is the HTTP 'Accept-Language' header, but it appears this value is not available through javascript at all.
@@ -38,9 +40,20 @@ https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language
 
 https://stackoverflow.com/questions/1043339/javascript-for-detecting-browser-language-preference/21590840#21590840
 
-###
+### Internet Explorer
 
-Now there is a way to get Accept-Languages in Firefox and Chrome using `navigator.languages`.   
+The following properties exist on the navigator object (which can also be known as clientInformation on IE but there's no reason ever to use that name):
+
+- language (non-IE, browser install language)
+- browserLanguage (IE, browser install language)
+- userLanguage (IE, user-level OS-wide language setting)
+- systemLanguage (IE, OS installation language)
+
+But! You should never use any of these properties! They will be the wrong language in many cases.
+
+None of them reflect the language settings the user actually gets to configure in the browser's ‘preferred languages’ UI, and they are difficult-to-impossible for users to change. You will cause big frustration by using any of these values without an additional easy manual way to switch languages.
+
+https://stackoverflow.com/questions/2678230/how-to-getting-browser-current-locale-preference-using-javascript
 
 ###
 
