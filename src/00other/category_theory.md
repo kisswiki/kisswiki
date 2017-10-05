@@ -1,0 +1,2 @@
+- http://blog.ploeh.dk/2017/10/05/monoids-semigroups-and-friends/
+  - https://news.ycombinator.com/item?id=15399787
