@@ -7,3 +7,4 @@ git config --global credential.helper /usr/share/doc/git/contrib/credential/libs
 
 - https://stackoverflow.com/questions/36585496/error-when-using-git-credential-helper-with-gnome-keyring-as-sudo/40312117#40312117
 - https://stackoverflow.com/questions/5343068/is-there-a-way-to-skip-password-typing-when-using-https-on-github/32470658#32470658
+- https://askubuntu.com/questions/740183/store-git-credentials-permanently-and-encrypted-using-a-keystore-in-ubuntu
