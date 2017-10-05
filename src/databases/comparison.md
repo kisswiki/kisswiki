@@ -4,3 +4,9 @@
 4. Postgres. Lots of nice features and easy to work with but the optimizer will sometimes do something silly. Sometimes you have to cast your bound variable just use an index. (id=? => id=?::NUMBER just because you do a setObject in jdbc)
 
 https://news.ycombinator.com/item?id=15411348
+
+##
+
+Uber certainly presented a valid pain-point with the way indexes are handled compared to the MySQL family, any updates to an indexed field require an update to all indexes on the table (compared to MySQL which uses clustered indexes, as a result only specific indexes need to be updated). If you have a lot of indexes on your tables and update indexed values frequently you're going to see an increase in disk I/O.
+
+https://news.ycombinator.com/item?id=15409881
