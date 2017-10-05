@@ -6,6 +6,12 @@
 
 `Ctrl_Left + Alt_Left` to release the pointer
 
+## exit fullscreen
+
+When in full screen mode, hit Ctrl+Alt to 'unhinge' the mouse and move the mouse to the top-middle of the screen. A little applet drops down to allow you to leave full screen and send key-combinations.
+
+https://askubuntu.com/questions/43861/how-do-i-unmaximize-full-screen-view-in-virt-manager/403635#403635
+
 ## Install
 
 - https://help.ubuntu.com/community/KVM/Installation
