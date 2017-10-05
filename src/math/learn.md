@@ -4,3 +4,5 @@
 - [ ] for kids in polish language http://naszelementarz.men.gov.pl/
 - [ ] https://www.amazon.com/G-Googol-Math-Alphabet-Book/dp/1883672589
 - Mathematical games interesting to both you and a five-year-old child https://news.ycombinator.com/item?id=15407761
+  - https://mathoverflow.net/questions/281447/mathematical-games-interesting-to-both-you-and-a-5-year-old-child
+  - http://ideonexus.github.io/Explorable-Explanations/
