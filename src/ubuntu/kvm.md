@@ -1,6 +1,10 @@
+`Ctrl_Left + Alt_Left` to release the pointer
+
+## Install
+
 - https://help.ubuntu.com/community/KVM/Installation
 - https://www.microsoft.com/pl-pl/software-download/windows10ISO
-- Windows 10 Pro keys: Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99, Pro: W269N-WFGWX-YVC9B-4J6C9-T83GX https://www.reddit.com/r/Windows10/comments/3det9q/build_10240_now_available_for_windows_insiders_in/ct4hp9p/
+- Windows 10 Pro keys: Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99, Pro: W269N-WFGWX-YVC9B-4J6C9-T83GX. However, these won't activate as they are KMS keys https://www.reddit.com/r/Windows10/comments/3det9q/build_10240_now_available_for_windows_insiders_in/ct4hp9p/
 
 ```
 sudo apt install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
@@ -32,3 +36,11 @@ virt-manager > virtual machine > Show virtual hardware details:
 
   - Boot Options > Enable IDE CDROM 1
   - IDE CDROM 1 > Virtual Disk > Source path > Browse
+
+- https://unix.stackexchange.com/questions/15789/qemu-no-boot-device-found
+
+I noticed that for some reason the type of disk image is not detected; it just defaults to “raw”. So if your disk image is e.g. “qcow2”, the virtual machine will not be configured correctly upon import.
+
+The solution is to go into the information tab of VirtManager, under the “advanced options” of the disk item and set the correct storage format.
+
+- https://azitech.wordpress.com/2011/07/23/no-bootable-device-on-kvmqemu/
