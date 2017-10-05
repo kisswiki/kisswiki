@@ -1,0 +1,9 @@
+- https://www.jetbrains.com/datagrip/
+- pgadmin3 (better than pgadmin4)
+- https://github.com/pgmodeler/pgmodeler
+- https://www2.navicat.com/pl/products/navicat-for-postgresql
+- https://github.com/serge-rider/dbeaver
+  - commercial https://dbeaver.com/
+- http://www.teampostgresql.com/
+- unmaintained https://github.com/workflowproducts/postage
+- disscussion https://news.ycombinator.com/item?id=15408800
