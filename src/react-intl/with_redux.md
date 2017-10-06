@@ -1,0 +1,8 @@
+- https://github.com/ratson/react-intl-redux
+- https://github.com/yeojz/redux-intl-connect
+- https://stackoverflow.com/questions/36717880/how-to-use-react-intl-2-with-redux
+- https://github.com/ratson/react-intl-redux/blob/master/examples/initial-locale/src/index.js
+- https://github.com/gpbl/react-locale-hot-switch
+- https://alicoding.com/language-code-url-in-react-intl/
+- https://alicoding.com/localizing-react-app-using-react-router-with-react-intl/
+- https://www.slideshare.net/CatherineZoller1/internationalization-in-a-reactredux-javascript-application

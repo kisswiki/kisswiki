@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/43913832/dynamically-import-language-json-file-for-react-react-intl
