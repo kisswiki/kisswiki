@@ -3,6 +3,9 @@
 - Fortinet is just an IPSEC VPN server - you don't specifically need their client to connect to it https://serverfault.com/questions/152233/connect-to-a-fortinet-vpn-with-ubuntu/154384#154384
 - http://www.ipsec-howto.org/
 - https://www.mantykora.net/tunelvpn
+- https://raymii.org/s/tutorials/IPSEC_vpn_with_Ubuntu_16.04.html
+- https://github.com/libreswan/libreswan
+- https://www.strongswan.org/
 
 ## forticlient
 
