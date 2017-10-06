@@ -1,4 +1,7 @@
 - https://help.localizejs.com/docs/detecting-language-of-a-visitor
+- https://gist.github.com/ksol/62b489572944ca70b4ba
+
+##
 
 to change in Google Chrome on Ubuntu, the only option is to start it like:
 
