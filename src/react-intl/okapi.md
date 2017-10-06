@@ -8,3 +8,7 @@ https://github.com/Ognian/react-intl-webpack-plugin
   - download https://bintray.com/okapi/Distribution/Okapi_Applications
 - How to translate with 3 free tools https://youtu.be/WShLhs5ZzUw?t=216
 - old? http://okapi.sourceforge.net/Release/Shared/Help/tutorial_01.htm
+- https://bitbucket.org/okapiframework/okapi
+- http://okapiframework.org/wiki/index.php?title=Filters
+- http://okapiframework.org/wiki/index.php?title=JSON_Filter
+- http://okapiframework.org/wiki/index.php?title=Okapi_Filters_Plugin_for_OmegaT
