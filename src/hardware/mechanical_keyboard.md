@@ -1,1 +1,2 @@
 - Blue głośniejsze: Thor 300 TKL - Dwie wersje klawiatury Genesis (Red/Blue) porównane! https://youtu.be/O1g_tDvE_YI
+- https://www.spidersweb.pl/2015/03/jaka-klawiatura.html
