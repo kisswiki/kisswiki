@@ -16,6 +16,8 @@
   - is there a way to use react-intl with your service? no, unfortunately, that's not possible right now. https://twitter.com/transifex/status/583663690341289984
 - https://www.ogi-it.com/presentation/react_i18n.pdf
 - https://jsolyk.wordpress.com/2016/08/24/react-redux-react-intl-inject-directly-without-any-element/
+- markdown https://github.com/wrwrwr/react-intl-marked
+- https://github.com/Ognian/reactIntlJson-loader
 
 ## what to choose?
 
