@@ -1,3 +1,5 @@
+- https://help.localizejs.com/docs/detecting-language-of-a-visitor
+
 to change in Google Chrome on Ubuntu, the only option is to start it like:
 
 `LANGUAGE=pl google-chrome`
