@@ -53,7 +53,8 @@ But! You should never use any of these properties! They will be the wrong langua
 
 None of them reflect the language settings the user actually gets to configure in the browser's ‘preferred languages’ UI, and they are difficult-to-impossible for users to change. You will cause big frustration by using any of these values without an additional easy manual way to switch languages.
 
-https://stackoverflow.com/questions/2678230/how-to-getting-browser-current-locale-preference-using-javascript
+- https://stackoverflow.com/questions/2678230/how-to-getting-browser-current-locale-preference-using-javascript
+- Change language > http://windowsitpro.com/windows/how-quickly-change-default-language-internet-explorer
 
 ###
 
