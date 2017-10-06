@@ -1,0 +1,6 @@
+- https://news.ycombinator.com/item?id=15411261
+- https://ethereal.email/
+  - https://github.com/nodemailer/ethereal-www
+- https://mailcatcher.me/
+- https://github.com/ChangemakerStudios/Papercut
+- https://github.com/mailhog/MailHog
