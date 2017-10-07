@@ -2,6 +2,13 @@
 
 https://askubuntu.com/questions/945244/when-will-firefox-55-be-in-the-repos
 
+## Beta
+
+```shell
+sudo add-apt-repository ppa:mozillateam/firefox-next
+sudo apt update
+```
+
 ## Nigthly
 
 ```shell
