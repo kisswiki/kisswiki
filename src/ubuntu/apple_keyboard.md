@@ -16,6 +16,10 @@ sudo bash -c "echo 1 > /sys/module/hid_apple/parameters/swap_opt_cmd"
 
 https://apple.stackexchange.com/questions/29463/where-is-the-insert-key-on-a-macbook-air
 
+## you can't remap Fn key
+
+https://askubuntu.com/questions/370944/remap-fn-key-to-insert-key-on-apple-aluminium-keyboard
+
 ## permanently
 
 ```
