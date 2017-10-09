@@ -4,3 +4,4 @@
 - https://github.com/hyc/cpuminer-multi
 - https://usxmrpool.com
 - https://www.reddit.com/r/Monero/comments/54j54f/questionhow_mining_monero_use_cpu_linux/
+- https://medium.com/@Jayvdb/how-to-start-mining-cryptocurrency-for-fun-and-possibly-profit-71517859ed91
