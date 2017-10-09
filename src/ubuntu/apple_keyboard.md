@@ -10,6 +10,12 @@ sudo bash -c "echo 1 > /sys/module/hid_apple/parameters/swap_opt_cmd"
 
 `sudo bash -c "echo 0 > /sys/module/hid_apple/parameters/iso_layout"`
 
+## insert key
+
+`fn + Enter`
+
+https://apple.stackexchange.com/questions/29463/where-is-the-insert-key-on-a-macbook-air
+
 ## permanently
 
 ```
