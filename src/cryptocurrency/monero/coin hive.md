@@ -1,1 +1,5 @@
 - Extract from the Top 1M Alexa domains (and also from investigations) using coin-hive mining service https://gist.github.com/PaulSec/029d198a1e049acead74c31db0de1466
+- https://blog.malwarebytes.com/threat-analysis/2017/09/drive-by-mining-and-ads-the-wild-wild-west/
+- https://www.ghacks.net/2017/09/19/first-chrome-extension-with-javascript-crypto-miner-detected/
+- https://www.reddit.com/r/Monero/comments/75220i/coinhive_what_it_is_and_how_much_thepiratebay/
+  - https://youtu.be/t512ogNiGmo
