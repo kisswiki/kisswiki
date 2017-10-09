@@ -1,0 +1,1 @@
+- Extract from the Top 1M Alexa domains (and also from investigations) using coin-hive mining service https://gist.github.com/PaulSec/029d198a1e049acead74c31db0de1466
