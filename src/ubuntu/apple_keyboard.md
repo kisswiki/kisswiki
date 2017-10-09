@@ -6,6 +6,10 @@
 
 sudo bash -c "echo 1 > /sys/module/hid_apple/parameters/swap_opt_cmd"
 
+## swap ~ with >
+
+`sudo bash -c "echo 0 > /sys/module/hid_apple/parameters/iso_layout"`
+
 ## permanently
 
 ```
