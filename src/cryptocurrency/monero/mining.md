@@ -3,3 +3,4 @@
 - https://github.com/fireice-uk/xmr-stak-cpu
 - https://github.com/hyc/cpuminer-multi
 - https://usxmrpool.com
+- https://www.reddit.com/r/Monero/comments/54j54f/questionhow_mining_monero_use_cpu_linux/
