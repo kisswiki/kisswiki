@@ -18,6 +18,7 @@
 - https://jsolyk.wordpress.com/2016/08/24/react-redux-react-intl-inject-directly-without-any-element/
 - markdown https://github.com/wrwrwr/react-intl-marked
 - https://github.com/Ognian/reactIntlJson-loader
+- https://github.com/danilobuerger/react-intl-loader
 
 ## what to choose?
 

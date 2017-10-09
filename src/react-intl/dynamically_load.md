@@ -1,2 +1,2 @@
 - https://stackoverflow.com/questions/43913832/dynamically-import-language-json-file-for-react-react-intl
-- https://stackoverflow.com/questions/41282510/how-to-add-locale-data-dynamically-using-react-intl
+- https://stackoverflow.com/questions/41282510/how-to-add-locale-data-dynamically-using-react-intl/41287219#41287219
