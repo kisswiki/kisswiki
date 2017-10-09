@@ -1,0 +1,5 @@
+- https://www.monero.how/tutorial-how-to-mine-monero
+  - https://www.monero.how/tutorial-how-to-create-a-command-line-monero-wallet
+- https://github.com/fireice-uk/xmr-stak-cpu
+- https://github.com/hyc/cpuminer-multi
+- https://usxmrpool.com
