@@ -2,3 +2,4 @@
 - https://monero.stackexchange.com/questions/2868/is-there-any-way-to-construct-a-transaction-manually
 - https://www.monero.how/monero-mining-calculator
 - https://www.monero.how/why-monero-vs-bitcoin
+- https://99bitcoins.com/beginners-guide-to-monero/

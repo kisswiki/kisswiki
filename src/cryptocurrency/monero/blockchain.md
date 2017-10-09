@@ -1,0 +1,2 @@
+- https://monero.stackexchange.com/questions/3570/understanding-monerod-blockchain-sync-status
+- https://www.reddit.com/r/Monero/comments/6av2x8/what_is_faster_syncing_or_importing_the_blockchain/
