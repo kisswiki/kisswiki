@@ -1,2 +1,4 @@
 - https://github.com/hwalsuklee/tensorflow-generative-model-collections
 - https://github.com/aymericdamien/TensorFlow-Examples
+- http://nicodjimenez.github.io/2017/10/08/tensorflow.html
+  - Tensorflow sucks https://news.ycombinator.com/item?id=15429824
