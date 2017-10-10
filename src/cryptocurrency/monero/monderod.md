@@ -4,6 +4,10 @@
 
 `./monerod --limit-rate=1024`
 
+or
+
+`./monerod --limit-rate-up=512 --limit-rate-down=2048`
+
 These values correspond to kB/s, so the above example specifies a one megabyte per second bandwidth limit.
 
 https://www.antanst.com/blog/2015/05/22/setting-up-a-full-monero-node-in-ubuntu-14.04/
