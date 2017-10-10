@@ -32,3 +32,9 @@ yarn config set prefix ~/yarn-global
 `yarn upgrade-interactive` doesn't show all packages in `0.27.5`.
 
 - https://github.com/yarnpkg/yarn/issues/3016#issuecomment-300467981
+
+## why dependency was installed
+
+`yarn why <package>`
+
+https://medium.com/@dave_lunny/check-why-a-specific-dependency-is-installed-with-yarn-a7beea12b65c
