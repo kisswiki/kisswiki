@@ -1,7 +1,6 @@
 ```javascript
-const getPrefixBad = (fileName) => {
+const getPrefix = (fileName) => {
   let match = null;
-  // WTF: always the same result
   match = filename.match(/^.* - (.*)\.csv$/);
   return match[1];
 };
