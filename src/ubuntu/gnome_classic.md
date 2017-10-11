@@ -20,4 +20,5 @@ http://linuxcommando.blogspot.com/2014/08/tips-on-gnome-workspaces.html
 
 `dconf-editor > org > gnome > gnome-panel > layout > top-levels > top-panel > size`
 
-https://askubuntu.com/questions/157321/can-i-set-a-custom-horizontal-width-for-a-gnome-panel
+- https://askubuntu.com/questions/157321/can-i-set-a-custom-horizontal-width-for-a-gnome-panel
+- https://askubuntu.com/questions/22313/what-is-dconf-what-is-its-function-and-how-do-i-use-it
