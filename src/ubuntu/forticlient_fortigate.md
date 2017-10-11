@@ -43,7 +43,13 @@ root@roman:/home/romanfrolow# /opt/forticlient-sslvpn/64bit/forticlientsslvpn
 - https://hadler.me/linux/openfortigui/
 - https://github.com/theinvisible/openfortigui
 
-Adding ppa from https://styrion.at/apt/ doesn't show any openfortigui packages available to install.
+Adding ppa from https://styrion.at/apt/ doesn't show any openfortigui packages available to install:
+
+```bash
+apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 2FAB19E7CCB7F415
+echo "deb http://styrion.at/apt/ ./" > /etc/apt/sources.list.d/styrion.list
+```
+
 
 ## openfortivpn
 
