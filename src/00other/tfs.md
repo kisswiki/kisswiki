@@ -16,3 +16,7 @@ Git-TF has reached its end-of-life.  It will have no further updates and is no l
 ## pull request
 
 https://docs.microsoft.com/en-us/vsts/git/pull-requests
+
+## change default branch to merge to for pull request
+
+`Code > Branches > Click ... for given branch > Set as compare branch`
