@@ -78,3 +78,28 @@ https://superuser.com/questions/10997/find-what-package-a-file-belongs-to-in-ubu
 `dpkg -L <package>`
 
 https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package/32510#32510
+
+## remove repository
+
+`sudo add-apt-repository --remove ppa:whatever/ppa`
+
+Manual:
+
+you can enter:
+
+sudo rm -i /etc/apt/sources.list.d/myppa.list
+
+Take care with rm (hence why I have used the interactive switch so you can confirm your actions. Then run sudo apt-get update afterwards.
+
+This method merely removes the ppa .list file; it does not remove any other files or sort out any other problems caused by the ppa; for that you could use ppa-purge.
+
+Also take into account that if you previously added the key of the repo as trusted you should remove it:
+
+```bash
+# list the trusted keys
+sudo apt-key list
+# remove the key
+sudo apt-key del KEY_ID
+```
+
+https://askubuntu.com/questions/307/how-can-ppas-be-removed
