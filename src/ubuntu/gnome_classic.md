@@ -13,3 +13,11 @@
 - `Ctrl+Alt+LeftArrow` - switch to the workspace on the left
 
 http://linuxcommando.blogspot.com/2014/08/tips-on-gnome-workspaces.html
+
+## gnome-panel
+
+### width
+
+`dconf-editor > org > gnome > gnome-panel > layout > top-levels > top-panel > size`
+
+https://askubuntu.com/questions/157321/can-i-set-a-custom-horizontal-width-for-a-gnome-panel
