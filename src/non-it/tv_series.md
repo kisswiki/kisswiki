@@ -1,0 +1,2 @@
+- http://www.imdb.com/chart/tvmeter?sort=ir,desc&mode=simple&page=1
+- http://graphtv.kevinformatics.com/
