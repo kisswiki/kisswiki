@@ -1,0 +1,5 @@
+- https://wiki.gentoo.org/wiki/Sakaki%27s_EFI_Install_Guide/Disabling_the_Intel_Management_Engine
+  - https://news.ycombinator.com/item?id=15444607
+    - this laptop has ime removed completely http://blogs.fsfe.org/tobias_platen/2015/09/22/why-i-wont-buy-the-libre/
+      - https://minifree.org/product/libreboot-t400/
+    - https://puri.sm/learn/avoiding-intel-amt/
