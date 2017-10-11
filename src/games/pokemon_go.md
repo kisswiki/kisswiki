@@ -20,3 +20,9 @@ Pokemon Go really has very little to offer. On top of that
   - [ ] If you live in a place far away from water, you essentially are locked out of some of the badges and pokemon (unlike ingress where all badges are accessible, even while urban play and rural play present different challenges)
 
 https://games.slashdot.org/comments.pl?sid=9561677&cid=52755955
+
+## cannot login with google account
+
+This happens when the age you chose at the beginning is too young to have a google account. Go into your device's app settings and clear the cache and info of the Pokémon Go app. Then, choose an older age and you'll get your google sign in option back.
+
+https://gaming.stackexchange.com/questions/275839/cant-log-in-to-pokemon-go-with-google-account-on-my-new-phone-not-an-option
