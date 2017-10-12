@@ -1,5 +1,6 @@
 
 - https://whattomine.com/
+- Equihash is most profitable according to: 55.1 % of time, second is NeoScrypt: 20.1 % of time https://www.nicehash.com/profitability-calculator/nvidia-gtx-1070?e=0.1&currency=PLN
 
 ##
 
