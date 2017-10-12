@@ -1,2 +1,3 @@
 - https://github.com/shawnhooper/react-intl-editor
+  - https://www.shawnhooper.ca/2016/02/react-intl-editor/
 - https://bitbucket.org/bflower/react-intl-editor/overview
