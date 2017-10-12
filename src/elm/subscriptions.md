@@ -1,3 +1,7 @@
+- https://becoming-functional.com/dynamically-creating-elm-subscriptions-3b41e2dc0a30
+
+##
+
 > In Elm, using subscriptions is how your application can listen for external input. Some examples are:
 > - Keyboard events
 > - Mouse movements
