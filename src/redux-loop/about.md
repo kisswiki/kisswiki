@@ -1,0 +1,1 @@
+- With redux-loop, the reducer doesn't just decide what happens now due to a particular action, it decides what happens next. https://smallbusinessforum.co/elm-architecture-with-react-redux-redux-loop-645a67070b1a
