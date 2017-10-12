@@ -1,0 +1,2 @@
+- https://github.com/shawnhooper/react-intl-editor
+- https://bitbucket.org/bflower/react-intl-editor/overview

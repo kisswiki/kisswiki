@@ -1,0 +1,1 @@
+- https://github.com/zcash/zcash/wiki/Mining-Guide
