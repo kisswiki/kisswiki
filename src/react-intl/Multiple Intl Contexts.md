@@ -1,0 +1,1 @@
+- https://github.com/yahoo/react-intl/wiki/Components#multiple-intl-contexts
