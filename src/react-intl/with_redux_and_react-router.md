@@ -70,4 +70,5 @@ const App = () => (
 );
 ```
 
-https://stackoverflow.com/questions/35776663/react-intl-multi-language-app-changing-languages-and-translations-storage/40603629#40603629
+- https://stackoverflow.com/questions/35776663/react-intl-multi-language-app-changing-languages-and-translations-storage/40603629#40603629
+- https://github.com/DWboutin/react-webpack-startup
