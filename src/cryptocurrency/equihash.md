@@ -1,0 +1,2 @@
+- https://z.cash/blog/why-equihash.html
+- https://github.com/khovratovich/equihash
