@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/42356553/complex-redux-loop-examples
