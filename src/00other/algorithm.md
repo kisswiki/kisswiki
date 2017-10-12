@@ -9,3 +9,15 @@ http://blog.vishupuri.net/2011/01/23/origin-of-the-word-algorithm/
 ## Examples
 
 - https://github.com/jiayihu/pretty-algorithms
+
+## Visualizationts
+
+- https://news.ycombinator.com/item?id=15423202
+  - https://imgur.com/gallery/RM3wl
+  - https://bost.ocks.org/mike/algorithms/
+  - Insert-sort with Romanian folk dance https://youtu.be/ROalU379l3U
+  - https://visual.ly/blog/rainbow-color-scales/
+  - https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html
+  - 15 Sorting Algorithms in 6 Minutes https://youtu.be/kPRA0W1kECg
+  - 16 Sorts - Disparity Loop https://youtu.be/bcwwM6EoveA
+  - http://greggman.github.io/doodles/sort.html
