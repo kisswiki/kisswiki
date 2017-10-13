@@ -5,7 +5,8 @@
   "workbench.editor.enablePreview": false,
   "window.reopenFolders": "all",
   "workbench.activityBar.visible": false,
-  "explorer.openEditors.visible": 0,
+  "explorer.openEditors.visible": 100,
+  "workbench.editor.showTabs": false,
   "workbench.colorTheme": "Oceanic Next No Italics",
   "workbench.colorCustomizations": {
     "editor.background": "#1B2B34",
@@ -26,5 +27,6 @@
   "editor.fontLigatures": true,
   "extensions.ignoreRecommendations": false,
   "workbench.startupEditor": "newUntitledFile",
-  "editor.dragAndDrop": false
+  "editor.dragAndDrop": false,
+  "editor.fontWeight": "500"
 }

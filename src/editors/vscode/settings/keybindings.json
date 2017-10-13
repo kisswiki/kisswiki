@@ -10,5 +10,6 @@
         "command": "editor.action.joinLines"
     },
     { "key": "ctrl+w", "command": "-workbench.action.closeWindow", "when": "!editorIsOpen" },
-    { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" }
+    { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" },
+    {"key": "ctrl+shift+c", "command": "relative-path-and-line.copyRelativePathAndLine"}
 ]
