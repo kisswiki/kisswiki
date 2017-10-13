@@ -34,3 +34,15 @@ http://www.choosemuse.com/how-does-muse-work/
 ## Budda statue
 
 - https://www.enthusiasticbuddhist.com/four-things-consider-buying-a-buddha-statue/
+
+## Mental problems
+
+As someone who has meditated 20 years, 2-4 hours per day and participated in long retreats 7 days to month, I have always been skeptical about this "mindfulness business". It has it's roots in old meditation traditions, but they were never supposed to bee quick fix, relaxation or therapy.
+
+Many therapy methods work well with the therapist who developed it, but don't give good results when packaged into programs and courses. Kabat-Zinn is experienced meditator and I'm not surprised if his therapy works when he is involved. He has so much personal experience. Meditation traditions transfer their knowledge to the next generation trough training regime that takes decades. It's not (yet) science that can be transferred trough short courses and readings.
+
+I have instructed newcomers in meditation. If they have mental problems I suggest they seek therapy and do little meditation on the side. Meditation can help, but I have also seen meditation induced psychosis several times when people see it as the cure for everything. Many experienced meditator's go to normal therapy to deal with their mental problems and find it useful. Some use medication.
+
+My experience is that people with mental problems benefit more from concentrative meditation that builds one-pointedness and calmness, than pure mindfulness type awareness meditation that brings problems into the consciousness. Build strength before facing your inner dragons.
+
+- https://news.ycombinator.com/item?id=15451833
