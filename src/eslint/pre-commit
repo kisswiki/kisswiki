@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep 'src/.*\.jsx\{0,1\}$')
+
+if [[ $STAGED_FILES = "" ]] ; then
+ exit 0
+fi
+
+echo "Running eslint..."
+
+result=0
+
+for file in ${STAGED_FILES}; do
+ out=`npx eslint $file`
+ if [[ $out != "" ]] ; then
+ result=1
+ echo "$out"
+ fi
+done;
+
+if [[ $result != 0 ]] ; then
+ echo "ESLint check failed, commit denied"
+ exit $result
+fi
+
+# https://gist.github.com/linhmtran168/2286aeafe747e78f53bf
+# https://medium.com/@shettyrahul8june/how-to-run-eslint-using-pre-commit-hook-25984fbce17e
+# https://gist.github.com/broofa/730fab6ceb1686f4a1fa9977b791b1b5
+# https://github.com/jiananshi/pre-commit-eslint/blob/master/pre-commit.sh
