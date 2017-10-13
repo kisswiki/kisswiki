@@ -1,3 +1,5 @@
+- https://code.visualstudio.com/docs/languages/css
+
 ## autocomplete variables
 
 - https://github.com/mrmlnc/vscode-scss
