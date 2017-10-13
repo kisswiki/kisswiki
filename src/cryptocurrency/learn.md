@@ -3,3 +3,4 @@
   - in Rust https://github.com/marioidival/blockchain-example
 - build your own blockchain from scratch in 20 lines of javascript https://github.com/openblockchains/awesome-blockchains/blob/master/blockchain.js/blockchain.js
 - Ask HN: Resources to learn blockchain and smart contracts? https://news.ycombinator.com/item?id=15398550
+- books https://www.humblebundle.com/books/bitcoin-cryptocurrency-books
