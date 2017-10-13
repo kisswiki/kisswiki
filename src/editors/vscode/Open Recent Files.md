@@ -1,1 +1,1 @@
-- only for current workspace https://github.com/wahyd4/vscode-plugin-recent-files.git
+- `ctrl+e`, only for current workspace https://github.com/wahyd4/vscode-plugin-recent-files.git
