@@ -4,3 +4,4 @@
 - https://patronite.pl/
 - https://opencollective.com/
 - https://salt.bountysource.com/
+- https://www.tipeee.com
