@@ -1,0 +1,4 @@
+- https://news.ycombinator.com/item?id=11057421
+  - https://github.com/so-fancy/diff-so-fancy
+  - https://github.com/jeffkaufman/icdiff
+- https://www.araxis.com/merge/index.en
