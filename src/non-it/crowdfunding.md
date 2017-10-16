@@ -3,5 +3,6 @@
 - https://www.quora.com/What-are-the-best-alternatives-to-Patreon-youd-recommend
 - https://patronite.pl/
 - https://opencollective.com/
+- https://www.bountysource.com
 - https://salt.bountysource.com/
 - https://www.tipeee.com
