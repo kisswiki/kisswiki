@@ -7,3 +7,10 @@
 - https://github.com/thewei/react-native-navigator
 - A simple middleware-style router that can be used in both client-side (e.g. React, Vue.js) and server-side applications (e.g. Node.js/Express, Koa). https://github.com/kriasoft/universal-router
 - https://github.com/react-native-simple-router-community/react-native-simple-router
+
+
+## react-router
+
+### Redirect
+
+- https://stackoverflow.com/questions/31079081/programmatically-navigate-using-react-router
