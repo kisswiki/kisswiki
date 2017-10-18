@@ -1,3 +1,7 @@
+- My post https://www.reddit.com/r/elm/comments/6scicd/what_are_elm_pitfalls/
+
+##
+
 >>The logic of every Elm program will break up into three cleanly separated parts: model, update, view
 >
 >That assertion is erroneous. You would be missing a couple of important parts:
