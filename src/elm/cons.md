@@ -11,3 +11,9 @@
 >As a side note, some people like to call "control state" what I call state and they prefer using the word "state" to describe the content of the model. For me a model is just a set of property values with rules that decides whether some values are acceptable or not. The Model does not know anything about actions and state. Above the model, there are the (control) State and the Actions. Below is the usual CRUD to data stores. Above the (control) State and the Actions is/are the State Representation(s) (say in the REST sense, but not from a Resource-Oriented point of view).
 >
 >-- https://www.infoq.com/articles/no-more-mvc-frameworks
+
+##
+
+If you don't require the use of native browser APIs that aren't supported via an official package, it should be a good fit. It can still be well-suited even if you need to drop into ports or write native code, but the former comes at the cost of ergonomics and the latter is not documented at all
+
+https://www.reddit.com/r/elm/comments/770cfp/is_elm_suitable_for_my_project/doi5wkq/
