@@ -21,4 +21,6 @@ https://help.gnome.org/users/seahorse/stable/pgp-export.html.en
 
 ## openfortigui
 
+Download deb, I coludn't install from ppa repo.
+
 - https://hadler.me/linux/openfortigui/
