@@ -32,3 +32,12 @@ https://github.com/react-dropzone/react-dropzone/blob/master/src/index.js
 - https://stackoverflow.com/questions/24415631/reactjs-syntheticevent-stoppropagation-only-works-with-react-events
 - https://stackoverflow.com/questions/37568550/react-prevent-event-trigger-on-parent-from-child
 - https://github.com/rob2d/react-prevent-clickthrough
+
+## abort upload when using superagent
+
+```javascript
+req = superagent.post(url);
+req.abort();
+```
+
+- http://visionmedia.github.io/superagent/#aborting-requests
