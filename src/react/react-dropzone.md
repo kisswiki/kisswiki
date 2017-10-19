@@ -54,3 +54,7 @@ req.abort();
 ## axios - cancel
 
 - https://github.com/axios/axios#cancellation
+
+## xhr progress
+
+- https://stackoverflow.com/questions/76976/how-to-get-progress-from-xmlhttprequest/3694435#3694435
