@@ -44,3 +44,11 @@ req.abort();
 
 - http://visionmedia.github.io/superagent/#aborting-requests
 - https://stackoverflow.com/questions/44119175/reactjs-interrupting-a-post-request-in-superagent
+
+## server
+
+- https://stackoverflow.com/questions/45387650/react-dropzone-and-nodejs-file-upload
+
+## axios - cancel
+
+- https://github.com/axios/axios#cancellation
