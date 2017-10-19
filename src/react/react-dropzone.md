@@ -30,3 +30,5 @@ https://github.com/react-dropzone/react-dropzone/blob/master/src/index.js
 
 - https://stackoverflow.com/questions/38619981/react-prevent-event-bubbling-in-nested-components-on-click
 - https://stackoverflow.com/questions/24415631/reactjs-syntheticevent-stoppropagation-only-works-with-react-events
+- https://stackoverflow.com/questions/37568550/react-prevent-event-trigger-on-parent-from-child
+- https://github.com/rob2d/react-prevent-clickthrough
