@@ -1,6 +1,8 @@
 - https://github.com/react-dropzone/react-dropzone
 - https://github.com/rofrol/react-dropzone-progress-bar
-- ref to dopzone doesn't work? https://stackoverflow.com/questions/44746680/creating-a-list-with-react-dropzone
+- ref https://stackoverflow.com/questions/44746680/creating-a-list-with-react-dropzone
+- https://medium.com/technoetics/handling-file-upload-in-reactjs-b9b95068f6b
+- https://stackoverflow.com/questions/35925243/react-dropzone-getting-stuck-on-upload
 
 ## thumbnail
 
@@ -41,3 +43,4 @@ req.abort();
 ```
 
 - http://visionmedia.github.io/superagent/#aborting-requests
+- https://stackoverflow.com/questions/44119175/reactjs-interrupting-a-post-request-in-superagent
