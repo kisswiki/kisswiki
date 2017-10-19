@@ -28,3 +28,8 @@
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
 - https://jvaneyck.wordpress.com/2014/01/07/cross-domain-requests-in-javascript/
 - https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy#Cross-origin_network_access
+
+## stream with progress
+
+- https://github.com/SitePen/javascript-streams-blog-examples
+  - https://stackoverflow.com/questions/35711724/progress-indicators-for-fetch/35747208#comment80458102_35747208
