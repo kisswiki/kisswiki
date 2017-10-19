@@ -1,0 +1,3 @@
+- https://github.com/mpizenberg/elm-mouse-events
+- https://github.com/mpizenberg/elm-pointer-events
+- https://github.com/mpizenberg/elm-pep
