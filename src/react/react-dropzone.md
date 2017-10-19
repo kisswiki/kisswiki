@@ -3,6 +3,8 @@
 - ref https://stackoverflow.com/questions/44746680/creating-a-list-with-react-dropzone
 - https://medium.com/technoetics/handling-file-upload-in-reactjs-b9b95068f6b
 - https://stackoverflow.com/questions/35925243/react-dropzone-getting-stuck-on-upload
+- https://blog.codeinfuse.com/upload-multiple-files-to-cloudinary-using-react-dropzone-axios-27883c2a5ec6
+- https://bilalbudhani.com/cloudinary-dropzone-react-axios/
 
 ## thumbnail
 
