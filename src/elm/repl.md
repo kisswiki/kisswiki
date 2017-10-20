@@ -20,3 +20,17 @@ I am looking for one of the following things:
 ```
 
 Found isssue: repl simply is restricted https://github.com/elm-lang/elm-repl/issues/110
+
+## backslash \ for multiline
+
+You need next line indented with space!
+
+paste in repl:
+
+```elm
+over9000 powerLevel = \
+ if powerLevel > 9000 then "It's over 9000!!!" else "meh"
+```
+
+https://github.com/elm-lang/elm-repl/issues/147
+
