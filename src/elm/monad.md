@@ -38,4 +38,5 @@ As a concrete example of library designers having a hard time because they did n
 
 I think the big take away is, designing a library and presenting a library are very different things.
 
-https://groups.google.com/forum/#!topic/elm-discuss/1acyOfxvasA
+- https://groups.google.com/forum/#!topic/elm-discuss/1acyOfxvasA
+- https://www.reddit.com/r/haskell/comments/24kvwh/evan_czaplicki_stop_saying_the_monad/
