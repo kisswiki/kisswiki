@@ -30,7 +30,7 @@ Basically I am saying that we should be precise. If you have the urge to talk ab
 
 Talking about algebra for library design:
 
-I find that thinking about applicative vs monad is really helpful for a certain kind of library design. Specifically if you are designing ways to handle effects like FRP or pipes. In this context, it helps you get a nice API and carefully choose how much expressiveness you want. Library design is all about being meticulous about how to minimally express something and algebras are really helpful in this context, so that's fine. When you can't explain what you've done without the algebra you used to design it, then you have more work to do! The fact that something is a group does not mean you are a good teacher for just saying that and walking off.
+I find that thinking about applicative vs monad is really helpful for a certain kind of library design. Specifically if you are designing ways to handle effects like FRP or pipes. In this context, it helps you get a nice API and carefully choose how much expressiveness you . Library design is all about being meticulous about how to minimally express something and algebras are really helpful in this context, so that's fine. When you can't explain what you've done without the algebra you used to design it, then you have more work to do! The fact that something is a group does not mean you are a good teacher for just saying that and walking off.
 
 OXO made it big in kitchenware because they thought hard about their design. They thought about ergonomics and usability. But if they said, you need to understand ergonomics to be able to use our kitchenware, they would fail. The genius of these products is that you don't have to know anything about ergonomics to know that this knife just feels really nice to use.
 
@@ -43,3 +43,12 @@ I think the big take away is, designing a library and presenting a library are v
 The actual argument of the author, deeper down in the thread, is more fine-grained than that. He does not claim that you should hide the fact that say Reader is a monad, but rather than, terminologically-speaking, saying "the Reader monad" is bad because it suggests it is only a monad, and you should rather say "Reader", or "the Reader type", and then mention that it is a monad (in the documentation, or when you start talking about its usage).
 
 - https://www.reddit.com/r/haskell/comments/24kvwh/evan_czaplicki_stop_saying_the_monad/
+
+##
+
+>>= is the function used in Haskell to pass a value in one instance of a monad to a function and generate a new instance of that monad
+
+ a monad is kind of like an OOP interface, it has two ‘methods’ one of which is return and the other is bind. Elm’s andThen is bind. The equivalent of return depends on the data type — for List it has type a -> List a implemented with singleton x = [x] and for Maybe it has type a -> Maybe aimplementation just x = Just x (edited)
+
+ - https://medium.com/@dailydrip/monads-haskell-and-elm-a-socratic-dialogue-c0a1b4f6acb2
+ - http://package.elm-lang.org/packages/elm-lang/core/latest/Maybe#andThen
