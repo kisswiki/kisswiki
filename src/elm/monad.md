@@ -39,4 +39,7 @@ As a concrete example of library designers having a hard time because they did n
 I think the big take away is, designing a library and presenting a library are very different things.
 
 - https://groups.google.com/forum/#!topic/elm-discuss/1acyOfxvasA
+
+The actual argument of the author, deeper down in the thread, is more fine-grained than that. He does not claim that you should hide the fact that say Reader is a monad, but rather than, terminologically-speaking, saying "the Reader monad" is bad because it suggests it is only a monad, and you should rather say "Reader", or "the Reader type", and then mention that it is a monad (in the documentation, or when you start talking about its usage).
+
 - https://www.reddit.com/r/haskell/comments/24kvwh/evan_czaplicki_stop_saying_the_monad/
