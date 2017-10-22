@@ -1,1 +1,7 @@
 - http://www.wykop.pl/link/3548959/dlaczego-nie-kazdy-inteligentny-czlowiek-jest-bogaty/
+- Piotr Konieczny pyta o książkę https://www.facebook.com/photo.php?fbid=10155790710004183&set=a.10155625345354183.1073741832.551874182&type=3&theater
+  - http://blog.krolartur.com/anty-guru-robert-kiyosaki/
+  - http://blog.krolartur.com/recenzja-finansowy-ninja/
+  - https://www.amazon.co.uk/Skin-Game-Nassim-Nicholas-Taleb/dp/0241300657
+  - https://www.gandalf.mobi/e/kapitalizm-historia-krotkiego-trwania/
+  - https://www.amazon.com/Warren-Buffetts-Ground-Rules-Partnership/dp/0062415565
