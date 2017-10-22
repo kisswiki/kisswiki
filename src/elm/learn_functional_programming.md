@@ -1,0 +1,3 @@
+- https://github.com/evancz/functional-programming-in-elm
+- https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/
+- https://en.wikibooks.org/wiki/99_Elm_Problems
