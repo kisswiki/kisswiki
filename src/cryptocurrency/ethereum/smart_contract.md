@@ -11,3 +11,4 @@
 - https://medium.com/@ChrisLundkvist/exploring-simpler-ethereum-multisig-contracts-b71020c19037
 - Zero Dollar Homepage Contract https://marmelab.com/blog/2016/05/20/blockchain-for-web-developers-in-practice.html
 - https://auth0.com/blog/an-introduction-to-ethereum-and-smart-contracts-part-2/
+- Beginner's Guide: Smart Contracts Programming Tutorial in Solidity 1 https://youtu.be/R_CiemcFKis

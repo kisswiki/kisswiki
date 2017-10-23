@@ -1,0 +1,1 @@
+- Blockchain: Massively Simplified | Richie Etwaru | TEDxMorristown https://youtu.be/k53LUZxUF50
