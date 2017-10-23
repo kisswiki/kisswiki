@@ -1,0 +1,2 @@
+- https://github.com/CoinCulture/evm-tools/blob/master/analysis/guide.md
+- https://github.com/pirapira/awesome-ethereum-virtual-machine
