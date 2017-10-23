@@ -1,0 +1,2 @@
+- https://ethereum.org/cli
+- https://learnxinyminutes.com/docs/solidity/
