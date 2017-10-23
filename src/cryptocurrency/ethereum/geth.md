@@ -5,6 +5,10 @@ As of version 1.6.0, the default method used by Geth for syncing the chaindata i
 - https://ethereum.stackexchange.com/questions/15562/why-is-geths-fast-sync-now-the-default-whereas-before-it-wasnt
 - https://ethereum.stackexchange.com/questions/1161/what-is-geths-fast-sync-and-why-is-it-faster
 
+## blockchain location
+
+`%USERPROFILE%\AppData\Roaming\Ethereum\geth\chaindata`
+
 ## create wallet
 
 `geth account new`
