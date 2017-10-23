@@ -24,3 +24,14 @@ http://www.cryptobadger.com/2017/04/build-ethereum-mining-rig-windows/
 Depending on your RAM, you can also try with higher values, like `--cache=2048`.
 
 https://ethereum.stackexchange.com/questions/392/how-can-i-get-a-geth-node-to-download-the-blockchain-quickly/4210
+
+## network time synchronisation
+
+```
+WARN [10-24|01:11:02] System clock seems off by 1m5.254318218s, which can prevent network connectivity
+WARN [10-24|01:11:02] Please enable network time synchronisation in system settings.
+```
+
+`Windows 7 > Date and Time > Internet time > Change settings`
+
+http://mintywhite.com/windows-7/7maintenance/windows-seven-7-sync-system-clock-with-internet-time-how-to/
