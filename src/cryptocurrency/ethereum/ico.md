@@ -1,1 +1,2 @@
 - https://github.com/holographicio/awesome-token-sale
+- http://zeltsinger.com/2017/04/22/ico-simple-simple/
