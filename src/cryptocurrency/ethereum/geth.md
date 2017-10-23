@@ -19,6 +19,8 @@ http://www.cryptobadger.com/2017/04/build-ethereum-mining-rig-windows/
 
 ## faster sync
 
-`geth --cache=2048`
+`geth --cache=1024`
+
+Depending on your RAM, you can also try with higher values, like `--cache=2048`.
 
 https://ethereum.stackexchange.com/questions/392/how-can-i-get-a-geth-node-to-download-the-blockchain-quickly/4210
