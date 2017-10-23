@@ -10,3 +10,15 @@
 - https://www.udemy.com/data-science-and-machine-learning-with-python-hands-on/
 - https://www.lynda.com/Data-Science-tutorials/Machine-Learning-Essential-Training-Value-Estimations/548594-2.html
   - video version of https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
+- But what *is* a Neural Network? | Deep learning, Part 1 https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
+  - 3blue1brown is currently doing a terrific series on how neural networks work, which nicely compliments this blog post.https://news.ycombinator.com/item?id=15506349
+
+## Practice
+
+- http://iamtrask.github.io/2015/07/12/basic-python-network/
+  - https://news.ycombinator.com/item?id=15498341
+
+## Books
+
+- https://www.manning.com/books/grokking-deep-learning
+  - The author is currently writing this book https://news.ycombinator.com/item?id=15504183
