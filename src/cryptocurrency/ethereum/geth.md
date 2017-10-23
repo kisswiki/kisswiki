@@ -32,6 +32,18 @@ WARN [10-24|01:11:02] System clock seems off by 1m5.254318218s, which can preven
 WARN [10-24|01:11:02] Please enable network time synchronisation in system settings.
 ```
 
-`Windows 7 > Date and Time > Internet time > Change settings`
+###
+
+geth finish the sincronization if that alert keep on cmd?
+
+most certainly not. You will have to enable OS's timesync to be accepted by peers.
+
+https://github.com/ethereum/mist/issues/947#issuecomment-234718463
+
+###
+
+Run cmd.exe as Administrator and run `w32tm /resync1` https://www.tenforums.com/tutorials/6410-synchronize-clock-internet-time-server-windows-10-a.html
+
+And then quickly run `geth --rpc` without `--cache`, cause that may cause slowdown.
 
 http://mintywhite.com/windows-7/7maintenance/windows-seven-7-sync-system-clock-with-internet-time-how-to/
