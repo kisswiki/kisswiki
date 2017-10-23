@@ -1,5 +1,6 @@
 - https://solidity.readthedocs.io/en/develop/
 - https://solidity.readthedocs.io/en/latest/solidity-by-example.html
+- http://ethereum.github.io/browser-solidity
 
 ##
 
