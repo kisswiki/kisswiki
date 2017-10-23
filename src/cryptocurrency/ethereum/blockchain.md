@@ -3,6 +3,13 @@
 
 ##
 
+	
+I think I'm not qualified to answer this question, but the Ethereum blockchain is in a really bad shape and a full synchronization takes weeks on commodity hardware. Thus, the full sync mode should only be used by users knowing what they are doing. I agree this should be the default mode for running a full node, but the spam attacks in 2016 make this close to impossible and this creates a usability mess
+
+https://ethereum.stackexchange.com/questions/15562/why-is-geths-fast-sync-now-the-default-whereas-before-it-wasnt#comment21515_15562
+
+##
+
 >Guess distributing a glorified calculator all over the world is taking its toll. Nonetheless ETH is gonna have a future on one datacenter or the other...https://bitcointalk.org/index.php?topic=1467928.msg14812182#msg14812182
 
 The fast sync chain is about 12 Gb. For comparison, the full archive node is currently 140 Gb.
