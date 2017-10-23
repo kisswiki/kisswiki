@@ -1,2 +1,3 @@
 - https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-cryptographic-hash-function
 - https://en.wikipedia.org/wiki/Security_of_cryptographic_hash_functions
+- https://www.johndcook.com/blog/2017/01/10/probability-of-secure-hash-collisions/
