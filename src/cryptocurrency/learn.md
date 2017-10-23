@@ -5,3 +5,4 @@
 - Ask HN: Resources to learn blockchain and smart contracts? https://news.ycombinator.com/item?id=15398550
 - books https://www.humblebundle.com/books/bitcoin-cryptocurrency-books
 - Building a Blockchain in Under 15 Minutes https://youtu.be/baJYhYsHkLM
+- https://github.com/xasos/awesome-decentralized-papers
