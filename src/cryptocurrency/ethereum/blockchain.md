@@ -1,4 +1,7 @@
 - https://theethereum.wiki/w/index.php/Ethereum_Wallet_Syncing_Problems
+- explorer http://testnet.etherscan.io/
+
+##
 
 >Guess distributing a glorified calculator all over the world is taking its toll. Nonetheless ETH is gonna have a future on one datacenter or the other...https://bitcointalk.org/index.php?topic=1467928.msg14812182#msg14812182
 
