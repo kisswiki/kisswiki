@@ -1,1 +1,1 @@
-- https://moneo.io/ethereum
+- Ethworks $63.80 /hr https://moneo.io/ethereum
