@@ -7,6 +7,7 @@
 - A Guide to Building Your First Decentralized Application - voting app - https://youtu.be/gSQXq2_j-mw
   - https://github.com/llSourcell/Your_First_Decentralized_Application
   - https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2
+- https://github.com/uzyn/ethereum-webpack-example-dapp
 
 ## To review
 
