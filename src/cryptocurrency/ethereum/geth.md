@@ -27,6 +27,8 @@ https://ethereum.stackexchange.com/questions/392/how-can-i-get-a-geth-node-to-do
 
 ## network time synchronisation
 
+This happened after I run with `--cache=2048`.
+
 ```
 WARN [10-24|01:11:02] System clock seems off by 1m5.254318218s, which can prevent network connectivity
 WARN [10-24|01:11:02] Please enable network time synchronisation in system settings.
