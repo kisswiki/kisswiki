@@ -1,6 +1,7 @@
 - https://github.com/ethereum/wiki/wiki/Mining
 - https://www.cryptocompare.com/mining/guides/how-to-mine-ethereum/
 - https://ethereum.stackexchange.com/questions/110/how-to-mine-ether-and-use-ethereum-on-windows
+- https://99bitcoins.com/guide-ethereum-mining-how-to-mine-ethereum/
 
 ##
 
