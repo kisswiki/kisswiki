@@ -5,6 +5,12 @@
 - https://whattomine.com/
 - https://99bitcoins.com/advanced-ethereum-mining-calculator/
 
+## Mist
+
+Mining will be accomplished in one of two ways: either on CPU (and possibly the GPU, to be confirmed) with the Mist client or on the GPU though a combination of the Ethereum daemon and sgminer.
+
+https://github.com/ethereum/wiki/wiki/Mining
+
 ##
 
 I talked about my reasons for selecting Claymore’s miner over other alternatives in my Linux guide, but to sum up: it’s currently the fastest, most stable Ethereum miner that’s still under active development. The downside is that it’s not free—about 1% of your mining time will benefit the creator of the software instead of you. However, even after the usage fee, you’ll come out ahead compared to the alternatives.
