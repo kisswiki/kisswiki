@@ -4,6 +4,12 @@
 - https://99bitcoins.com/guide-ethereum-mining-how-to-mine-ethereum/
 - https://whattomine.com/
 - https://99bitcoins.com/advanced-ethereum-mining-calculator/
+- https://ethereum.gitbooks.io/frontier-guide/content/mining_with_geth.html
+
+## Pool
+
+- https://ethermine.org/
+  - https://www.cryptocompare.com/mining/guides/how-to-connect-to-an-ethereum-mining-pool/
 
 ## Mist
 

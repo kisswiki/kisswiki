@@ -74,4 +74,6 @@ https://ethereum.stackexchange.com/questions/3305/what-is-http-localhost8545
 
 ## console
 
+use `geth attache` instead of console to connect to running geth instance.
+
 https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console
