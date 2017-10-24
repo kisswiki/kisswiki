@@ -10,7 +10,38 @@
 
 - https://ethermine.org/
   - https://www.cryptocompare.com/mining/guides/how-to-connect-to-an-ethereum-mining-pool/
+- http://ethpool.org/
+- https://ethereumpool.co
+  - https://ethereumpool.co/how/
 - https://www.reddit.com/r/EtherMining/comments/5x4etf/brainless_ethereum_pool_mining_with_windows_a/
+- https://github.com/sammy007/open-ethereum-pool
+
+###
+
+Just run a full geth node and point your miners to that.
+
+First do a fast sync on your geth node to pull the blockchain in hours rather than days geth --fast
+
+Then on your node (rpcaddr is the node's IP addr)...
+
+`geth geth --rpc --rpcaddr "x.x.x.x" --gasprice 10000000000 --identity "<some node name>" 2>>geth.log`
+
+On your miners...
+
+`ethminer -G -F http://x.x.x.x/ --<other guff>`
+
+You can track your geth log with tail -f geth.log
+
+And track blocks mined with tail -f geth.log | grep Mined
+
+1. Use a miner to act as a geth node
+2. The miner needs larger hdd to store the DAG. Anything 60gb and above should last a good year or more
+3. All other miners point to this node
+4. I believe I should also run Stratum proxy on this pc?
+
+I'm using G series Intel. They basically float at 24%+ usage during mining. When a work package is received from pool, it goes to 100% for a short bit before going back to 20%+ usage.
+
+https://forum.ethereum.org/discussion/5706/how-do-i-create-my-own-pool
 
 ## Mist
 
