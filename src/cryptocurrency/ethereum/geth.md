@@ -19,7 +19,8 @@ Important: The combination of the password you just used to create this address 
 
 encrypted key file is stored in `%USERPROFILE%\AppData\Roaming\Ethereum\keystore`?
 
-http://www.cryptobadger.com/2017/04/build-ethereum-mining-rig-windows/
+- http://www.cryptobadger.com/2017/04/build-ethereum-mining-rig-windows/
+- https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts
 
 ## faster sync
 
@@ -70,3 +71,7 @@ user@Kumquat:~$ geth --help | grep rpc
 ```
 
 https://ethereum.stackexchange.com/questions/3305/what-is-http-localhost8545
+
+## console
+
+https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console
