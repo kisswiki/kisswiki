@@ -1,3 +1,4 @@
+- https://coinmarketcap.com
 - https://www.reddit.com/r/ethtrader/
   - https://etherdelta.com
 
@@ -19,6 +20,8 @@ After verifying, you can fund your account with bitcoins or cash and start tradi
 
 https://www.kraken.com/help/faq
 
-Please keep in mind that it can take several days to process the verification application. 
+Please keep in mind that it can take several days to process the verification application.
+
+You can also check the verification status for each tier by clicking `Dropdown with your account name > Get Verified`d
 
 https://medium.com/maecenas/how-to-buy-eth-with-kraken-64d899e79224
