@@ -1,0 +1,2 @@
+- https://www.reddit.com/r/ethtrader/
+  - https://etherdelta.com
