@@ -1,0 +1,3 @@
+- https://www.myetherwallet.com/ - generate a new address and hit the "Print Paper Wallet" button https://www.reddit.com/r/ethereum/comments/5zr6e2/paper_wallet/df0ef72/
+- https://ethereum.stackexchange.com/questions/103/is-there-a-way-to-generate-ethereum-paper-wallets
+- How to create an Ethereum paper wallet (cryptocurrency cold storage) https://youtu.be/aOmO07fuJlc
