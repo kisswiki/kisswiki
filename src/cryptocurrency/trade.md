@@ -5,6 +5,8 @@
 
 Kraken is the leading Bitcoin exchange for those who demand fast execution, innovative features, exceptional support, and high security. People around the world choose Kraken to buy and sell bitcoins because we always put the client first. As a result, we are consistently rated the top exchange in independent reviews. Kraken is based in San Francisco, USA.
 
+After verifying, you can fund your account with bitcoins or cash and start trading!
+
 https://www.kraken.com/help/faq
 
 - recommended by Marek from Ethworks
