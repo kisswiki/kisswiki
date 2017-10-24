@@ -53,3 +53,20 @@ Run cmd.exe as Administrator and run `w32tm /resync1` https://www.tenforums.com/
 And then quickly run `geth --rpc` without `--cache`, cause that may cause slowdown.
 
 http://mintywhite.com/windows-7/7maintenance/windows-seven-7-sync-system-clock-with-internet-time-how-to/
+
+## Port 8545
+
+http://localhost:8545 is the RPC port of your locally running Ethereum node software.
+
+When running geth, the Go implementation of the Ethereum node software, the command line parameters to create and configure this RPC service follows:
+
+```bash
+user@Kumquat:~$ geth --help | grep rpc
+  --rpc                         Enable the HTTP-RPC server
+  --rpcaddr "127.0.0.1"         HTTP-RPC server listening interface
+  --rpcport "8545"              HTTP-RPC server listening port
+  --rpcapi "db,eth,net,web3"    API's offered over the HTTP-RPC interface
+  --rpccorsdomain               Domains from which to accept
+```
+
+https://ethereum.stackexchange.com/questions/3305/what-is-http-localhost8545
