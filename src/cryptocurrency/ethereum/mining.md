@@ -10,6 +10,7 @@
 
 - https://ethermine.org/
   - https://www.cryptocompare.com/mining/guides/how-to-connect-to-an-ethereum-mining-pool/
+- https://www.reddit.com/r/EtherMining/comments/5x4etf/brainless_ethereum_pool_mining_with_windows_a/
 
 ## Mist
 
