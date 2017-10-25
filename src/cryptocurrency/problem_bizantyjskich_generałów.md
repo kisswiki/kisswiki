@@ -1,0 +1,2 @@
+- http://www.udyomedia.pl/def-Problem_bizantyjskich_genera%C5%82%C3%B3w.html
+- Niezawodne systemy rozproszone http://wazniak.mimuw.edu.pl/images/4/4a/Sr-11-wyk-1.0.pdf
