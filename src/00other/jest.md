@@ -6,4 +6,5 @@ update snapshot
 
 `npx jest path/to/file.test.jsx --update-snapshot`
 
+- https://stackoverflow.com/questions/28725955/how-do-i-test-a-single-file-using-jest
 - Also more granular https://stackoverflow.com/questions/42827054/how-do-i-run-a-single-test-using-jest
