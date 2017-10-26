@@ -1,1 +1,2 @@
-https://github.com/erikras/redux-form/issues/2562#issuecomment-278995298
+- https://github.com/erikras/redux-form/issues/2562#issuecomment-278995298
+- https://stackoverflow.com/questions/45470327/semantic-ui-react-input-with-dropdown-using-redux-form/46955927#46955927
