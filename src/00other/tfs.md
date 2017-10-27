@@ -20,3 +20,7 @@ https://docs.microsoft.com/en-us/vsts/git/pull-requests
 ## change default branch to merge to for pull request
 
 `Code > Branches > Click ... for given branch > Set as compare branch`
+
+## change issue to Active
+
+First change from Draft to New, then to Active.
