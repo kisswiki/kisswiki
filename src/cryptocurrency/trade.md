@@ -25,3 +25,11 @@ Please keep in mind that it can take several days to process the verification ap
 You can also check the verification status for each tier by clicking `Dropdown with your account name > Get Verified`d
 
 https://medium.com/maecenas/how-to-buy-eth-with-kraken-64d899e79224
+
+### https://support.kraken.com/hc/en-us/articles/201648163-How-long-do-deposits-take-
+
+EUR SEPA: 1-5 business days
+
+Please allow a minimum of 5 business days for bank deposits or withdrawals (including SEPA) before assuming something is wrong with the transfer and contacting support.
+
+Please Read! Avoid contacting the receiving bank if you experience deposit or withdrawal issues. Doing so will absolutely result in additional delay in resolving your issue due to confusion being created.
