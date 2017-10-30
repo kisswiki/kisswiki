@@ -26,10 +26,16 @@ You can also check the verification status for each tier by clicking `Dropdown w
 
 https://medium.com/maecenas/how-to-buy-eth-with-kraken-64d899e79224
 
-### https://support.kraken.com/hc/en-us/articles/201648163-How-long-do-deposits-take-
-
+### How long do deposits take?
 EUR SEPA: 1-5 business days
 
 Please allow a minimum of 5 business days for bank deposits or withdrawals (including SEPA) before assuming something is wrong with the transfer and contacting support.
 
 Please Read! Avoid contacting the receiving bank if you experience deposit or withdrawal issues. Doing so will absolutely result in additional delay in resolving your issue due to confusion being created.
+
+- https://support.kraken.com/hc/en-us/articles/201648163-How-long-do-deposits-take-
+
+Fiat deposit are always slow SWIFT needs like a week to clear, SEPA is slightly faster.
+
+- https://www.reddit.com/r/ethtrader/comments/4b4tej/how_bloody_long_does_kraken_take_to_process_a/
+- https://www.reddit.com/r/ethtrader/comments/6ctw1c/how_long_does_deposit_to_kraken_take/
