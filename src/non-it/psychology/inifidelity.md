@@ -16,3 +16,10 @@
 - http://www.wykop.pl/link/3341419/dlaczego-kobiety-zdradzaja/
 - Eckhart Tolle (PL) - Czego możemy nauczyć się dzięki zdradzie https://youtu.be/XgLXqoIdTLg
   - https://jarek-kefir.org/2017/02/05/czego-mozna-nauczyc-sie-dzieki-zdradzie-18-zupelnie-nowe-spojrzenie-na-sprawe/
+
+##
+
+"That's the amazing thing. So many people end up confessing to an affair, which strikes me as the ultimate stupidity. Sure, you may believe you are confessing all to preserve honesty in your marriage, or because he/she deserved the truth, but the reality is that this 'telling' business is all about people not having the backbone to live with their guilt. Telling doesn't right the wrong; it adds to it."
+(The Sex Diaries / Bettina Arndt)
+
+https://news.ycombinator.com/item?id=15559094
