@@ -1,5 +1,5 @@
 - there is no `onFocus` for `Input` https://react.semantic-ui.com/elements/input
-- https://stackoverflow.com/questions/44535840/unable-to-make-the-checkbox-work-with-redux-form-and-react-semantic-ui1
+- `onChange={(e, { checked }) => input.onChange(checked)}` https://stackoverflow.com/questions/44535840/unable-to-make-the-checkbox-work-with-redux-form-and-react-semantic-ui1
 
 ## event.target.value is undefined
 
