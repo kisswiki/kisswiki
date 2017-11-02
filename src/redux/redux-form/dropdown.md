@@ -1,1 +1,2 @@
 - https://stackoverflow.com/questions/40473002/semantic-ui-react-selection-multi-cant-set-defaultvalue
+- https://stackoverflow.com/questions/45577092/semantic-ui-react-default-selected-options-in-dropdown
