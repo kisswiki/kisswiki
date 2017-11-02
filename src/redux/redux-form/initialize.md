@@ -1,0 +1,1 @@
+- But still present in 7.1.1: Validation errors not passed to fields after re-initialize when enableReinitialize is turned on https://github.com/erikras/redux-form/issues/1385
