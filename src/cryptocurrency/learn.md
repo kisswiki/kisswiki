@@ -7,3 +7,4 @@
 - Building a Blockchain in Under 15 Minutes https://youtu.be/baJYhYsHkLM
 - https://github.com/xasos/awesome-decentralized-papers
 - https://ethereumdev.io/
+- http://blog.kurasinski.com/2017/07/czym-jest-do-cholery-blockchain/
