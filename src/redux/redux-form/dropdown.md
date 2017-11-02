@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/40473002/semantic-ui-react-selection-multi-cant-set-defaultvalue
