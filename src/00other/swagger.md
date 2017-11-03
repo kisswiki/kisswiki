@@ -38,7 +38,8 @@ $ curl http://127.0.0.1:10010/hello?name=Scott
 
 ## Cons
 
-https://dzone.com/articles/swagger-great
+- https://dzone.com/articles/swagger-great
+- https://www.reddit.com/r/programming/comments/7880ui/swagger_is_now_the_openapi_specification/
 
 ## YAML
 
