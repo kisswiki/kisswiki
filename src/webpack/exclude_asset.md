@@ -1,1 +1,2 @@
 - https://github.com/jamesjieye/html-webpack-exclude-assets-plugin
+- exclude when imported https://stackoverflow.com/questions/44376589/webpack-exclude-a-specific-file
