@@ -30,6 +30,10 @@ https://help.github.com/articles/caching-your-github-password-in-git/
 
 `git config credential.helper '!github --credentials'`
 
+See saved credentials:
+
+`Search > Credential Manager`
+
 ## unset
 
 ```
