@@ -1,1 +1,2 @@
 - https://stackoverflow.com/questions/37949981/call-child-method-from-parent
+- https://reactjs.org/docs/refs-and-the-dom.html
