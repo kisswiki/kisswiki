@@ -1,0 +1,1 @@
+spotlight cmd+space
