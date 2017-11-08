@@ -23,6 +23,13 @@ mpvs worked https://unix.stackexchange.com/questions/279884/play-subtitles-autom
 
 inna allows select subtitles with the gui https://lhc70000.github.io/iina/ or maybe https://www.smplayer.info/pl/mpv
 
+- https://askubuntu.com/questions/901120/can-i-make-mpv-player-to-pick-up-any-subtitles-available-in-the-folder
+
 ## config
 
 - https://gist.github.com/zanderzhng/c2735bea40eb5b5ced87
+- https://github.com/Argon-/mpv-config/blob/master/mpv.conf
+
+## default app
+
+- https://github.com/mpv-player/mpv/wiki/FAQ#how-can-i-make-mpv-the-default-application-to-open-movie-files-on-osx
