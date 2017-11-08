@@ -17,3 +17,5 @@ export PS1='\w$(__git_ps1 " (%s)")\$ '
 ```
 
 `source ~/.bash_profile`
+
+https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
