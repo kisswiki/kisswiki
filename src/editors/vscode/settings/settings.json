@@ -5,8 +5,7 @@
   "workbench.editor.enablePreview": false,
   "window.reopenFolders": "all",
   "workbench.activityBar.visible": false,
-  "explorer.openEditors.visible": 100,
-  "workbench.editor.showTabs": false,
+  "explorer.openEditors.visible": 0,
   "workbench.colorTheme": "Oceanic Next No Italics",
   "workbench.colorCustomizations": {
     "editor.background": "#1B2B34",
@@ -20,13 +19,14 @@
   "editor.minimap.enabled": false,
   "editor.formatOnSave": false,
   "eslint.autoFixOnSave": true,
-  "prettier.eslintIntegration": true,
-  "prettier.printWidth": 120,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Hæck",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "extensions.ignoreRecommendations": false,
   "workbench.startupEditor": "newUntitledFile",
-  "editor.dragAndDrop": false,
-  "editor.fontWeight": "500"
+  "window.zoomLevel": 0,
+  "editor.autoIndent": false,
+  "editor.fontWeight": "300",
+  "terminal.integrated.fontFamily": "Hæck",
+  "terminal.integrated.fontSize": 14
 }
