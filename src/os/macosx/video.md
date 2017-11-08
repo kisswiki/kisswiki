@@ -3,6 +3,7 @@
 - http://pym.uce.pl/pym-player/
 - https://www.smplayer.info/pl/mpv
 - `brew cask install vlc` https://www.videolan.org/vlc/download-macosx.html
+- https://github.com/mpv-player/mpv/wiki/Applications-using-mpv
 
 ## subtitles
 
