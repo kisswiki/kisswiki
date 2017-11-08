@@ -1,0 +1,1 @@
+- https://apple.stackexchange.com/questions/285607/always-show-function-keys-on-control-strip-when-using-terminal
