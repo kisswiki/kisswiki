@@ -4,6 +4,8 @@ brew install node
 brew install yarn
 ```
 
+- https://nodejs.org/en/download/package-manager/#macos
+
 ## search for packages to install
 
 `brew search <name>`

@@ -1,4 +1,10 @@
-spotlight cmd+space
+spotlight search `cmd+space`
+
+- https://support.apple.com/en-us/HT201236
+
+## lock screen
+
+update to high sierra and then click apple, there should be shortcut.
 
 ## keyboard - swap tilde with pound on international keyboard and polish pro
 
