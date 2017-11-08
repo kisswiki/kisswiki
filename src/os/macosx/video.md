@@ -11,3 +11,5 @@
 - https://subtitlesapp.com/
 - https://itporady.pl/linux/jak-pobrac-dopasowane-napisy-do-filmu-serialu-os-x-windows-linux/
 - OpenSubtitles automatic downloader script for MPV https://github.com/rumkex/osdb-mpv
+- https://github.com/zeynaliAli/MPV-Sub-Configure
+- https://superuser.com/questions/1097227/open-external-subtitles-on-mpv-on-linux-without-terminal
