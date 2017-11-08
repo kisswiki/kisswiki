@@ -19,4 +19,10 @@ sub-auto=fuzzy
 subcp=cp1250
 ```
 
-inna allows select subtitles with the gui https://lhc70000.github.io/iina/
+mpvs worked https://unix.stackexchange.com/questions/279884/play-subtitles-automatically-with-mpv
+
+inna allows select subtitles with the gui https://lhc70000.github.io/iina/ or maybe https://www.smplayer.info/pl/mpv
+
+## config
+
+- https://gist.github.com/zanderzhng/c2735bea40eb5b5ced87
