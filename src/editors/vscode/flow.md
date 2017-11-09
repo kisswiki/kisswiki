@@ -15,3 +15,8 @@ in your workspace make this change:
 ```
 
 http://international.github.io/2017/03/24/17-18-fix_vscode_flow_Type_aliases_can_be_used_only_in_a_.ts_file
+
+## flow - Killed flow server with incorrect version in
+
+disable extension flow-for-vscode, enable vscode-flow-ide
+
