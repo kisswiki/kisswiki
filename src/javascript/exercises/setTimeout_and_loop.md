@@ -35,9 +35,18 @@ let:
 
 ```javascript
 for (let i = 0; i < 5; i++) {
-  setTimeout(function(i){
+  setTimeout(function(){
     console.log(i)
   }, i*100)
+}
+```
+
+```javascript
+for (let i = 0; i < 5; i++) {
+  let j = i;
+  setTimeout(function(){
+    console.log(j)
+  }, j*100)
 }
 ```
 
