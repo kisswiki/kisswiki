@@ -109,3 +109,15 @@ for (let i = 0; i < 5; i++) {
 ```
 
 - https://stackoverflow.com/questions/6425062/passing-functions-to-settimeout-in-a-loop-always-the-last-value
+
+forEach:
+
+callback passed to forEach creates a closure around the values in the list via the declared arguments. For instance:
+
+```javascript
+[0,1,2,3,4].forEach(function(n) {
+  setTimeout(function(){ console.log(n); }, n * 1000);
+});
+```
+
+- http://www.datchley.name/loop-variable-gotcha/
