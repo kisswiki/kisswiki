@@ -18,6 +18,7 @@ This has to do with how scoping and hoisting is being treated in JavaScript.
 
 What happens in your code is that the JS engine modifies your code to this:
 
+```javascript
 var count;
 
 for (count = 0; count < 3; count++) {
@@ -25,7 +26,9 @@ for (count = 0; count < 3; count++) {
         alert("Count = " + count);
     }, 1000 * count);
 }
-And when setTimeout() is being run it will first look in it's own scope after count but it won't find it so then it'll start looking in the functions that closes (this is called closures) over the setTimeout function until it finds the var count statement, which will have the value 3 since loop will have finished before the first timeout function has been executed.
+```
+
+And when `setTimeout()` is being run it will first look in it's own scope after count but it won't find it so then it'll start looking in the functions that closes (this is called closures) over the `setTimeout` function until it finds the var count statement, which will have the value 3 since loop will have finished before the first timeout function has been executed.
 
 - https://stackoverflow.com/questions/19221690/settimeout-with-loop-in-javascript
 
