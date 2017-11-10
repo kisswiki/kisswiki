@@ -16,6 +16,7 @@
   - https://www.blog.google/topics/machine-learning/now-anyone-can-explore-machine-learning-no-coding-required/
   - https://news.ycombinator.com/item?id=15399132
   - https://www.dobreprogramy.pl/Jak-dzialaja-sieci-neuronowe-Google-to-wyjasnia-za-pomoca-Teachable-Machine,News,83515.html
+- https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems
 
 ## Examples
 
