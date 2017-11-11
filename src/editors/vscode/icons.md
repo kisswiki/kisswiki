@@ -1,5 +1,7 @@
 ## Only file icons without folder icons
 
+from vscod-1.18 icon themes can support `hidesExplorerArrows`.
+
 ### Seti
 
 https://github.com/hellopao/vscode-seti-icons
