@@ -24,6 +24,7 @@ Only read:
 - https://productforums.google.com/forum/#!topic/gmail/zzimzlffJls
 - https://webapps.stackexchange.com/questions/11855/filtering-subjects-with-not
 - https://webapps.stackexchange.com/questions/31411/how-to-use-boolean-and-and-not-operators-in-gmail-search
+- https://productforums.google.com/forum/#!topic/gmail/mNR5JXROwww
 
 ### bug?
 
