@@ -17,6 +17,27 @@ Only read:
 - https://productforums.google.com/forum/#!topic/gmail/NeIZDlhRaVA
 - Search operators you can use with Gmail https://support.google.com/mail/answer/7190?hl=en
 
+### subject not having words
+
+-" one two three "
+
+- https://productforums.google.com/forum/#!topic/gmail/zzimzlffJls
+- https://webapps.stackexchange.com/questions/11855/filtering-subjects-with-not
+- https://webapps.stackexchange.com/questions/31411/how-to-use-boolean-and-and-not-operators-in-gmail-search
+
+### bug?
+
+There is a bug in the Gmail filter system. If you try to set up complex Boolean such as
+
+from:user1@me.com -to:user2@me.com -junk_term
+It will work fine on the initial search, but if you use it to create a filter, the terms, especially the NOTs, will be garbled.
+
+The correct syntax, (hat tip to chenghuayang) is to ignore the to's and from's.
+
+user1@me.com -user2@me.com -junk_term
+
+https://stackoverflow.com/questions/32213696/how-to-use-not-in-gmail-filters/32227368#32227368
+
 ## Without phone
 
 Just go to https://accounts.google.com/SignUp
