@@ -1,0 +1,1 @@
+- https://martinfowler.com/articles/collection-pipeline/flat-map.html
