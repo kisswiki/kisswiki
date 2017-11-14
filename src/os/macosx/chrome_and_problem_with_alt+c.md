@@ -1,0 +1,1 @@
+- disable hotkeys in FireShot Chrome extension
