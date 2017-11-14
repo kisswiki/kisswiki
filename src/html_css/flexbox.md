@@ -66,3 +66,19 @@
 >If you want your elements to be completely even, you can set flex-basis: 0. This will set the flex basis to 0 and then any remaining space (which will be all space since all basises are 0) will be proportionally distributed based on flex-grow.
 >
 >-- http://stackoverflow.com/questions/25066214/flexbox-not-giving-equal-width-to-elements/25066844#25066844
+
+## overscroll-y
+
+Actually, let me take a moment to explain what is going on. With this change, an item in a flexbox will not shrink below its intrinsic size. In this case, a flexbox is also a flex item in a parent flexbox, and will not shrink because it has an implicit min-width: (-webkit-)min-content. This is implemented by making the default value of min-width and min-height "auto". So that's why changing it back to zero will do what y'all expect.
+
+For a quick fix, you might try * { min-width: 0; min-height: 0; } in your stylesheets, though that may be bad for performance.
+
+https://bugs.chromium.org/p/chromium/issues/detail?id=506893#c19
+
+## ellipsis
+
+setting `min-width: 0` on the column selector will make it work as expected.
+
+>Basically: flex items will refuse to shrink below their minimum intrinsic width, unless you explicitly specify "min-width" or "width" or "max-width" on them.
+
+https://stackoverflow.com/questions/26465745/ellipsis-in-flexbox-container
