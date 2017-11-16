@@ -1,0 +1,6 @@
+Marcin Skotniczny https://www.facebook.com/mskotniczny:
+
+Jako że byłem w obu firmach, to poczuwam się do posiadania opinii: w Googlu się buduje wszystko w oparciu o własne rozwiązania. To co jest opensource'owane, to efekty zamkniętej kultury pracy, o której się, że "po 10 latach pracy w Google masz 10 lat doświadczenia w pracy w Google" (czyt. technologie, które tam poznasz, są mało przydatne gdziekolwiek indziej, często wbrew pozorom używa się tam dość starych rozwiązań). To, co zostało zopensource'owane to często rzeczy, które ktoś politycznie wypchnął i niekoniecznie jest używane wewnątrz Google'a (np. w Googlu nie używa się Angulara prawie w ogóle). Facebook z kolei w dużym stopniu opiera się o rozwiązania opensource stworzone poza Facebookiem i aktywnie i na bieżąco w ten opensource inwestuje i współpracuje. To buduje kulturę, w której programiści rozumieją się ze światem i są w stanie tworzyć rzeczy, które zostaną docenione przez innych, poza Facebookiem.
+
+
+https://www.facebook.com/groups/257881290932879/?multi_permalinks=1519595501428112&notif_id=1510780014559096&notif_t=group_highlights&ref=notif
