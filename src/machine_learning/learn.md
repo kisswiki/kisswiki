@@ -18,6 +18,9 @@
   - https://www.youtube.com/watch?v=IHZwWFHWa-w
   - https://www.youtube.com/watch?v=Ilg3gGewQ5U
   - https://www.youtube.com/watch?v=tIeHLnjs5U8
+  - a series on linear algebra https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+- simple and good in introducing basic concepts and tools related to ML. https://news.ycombinator.com/item?id=15690544
+  - https://www.youtube.com/user/mathematicalmonk
 
 ## Practice
 
@@ -28,3 +31,5 @@
 
 - https://www.manning.com/books/grokking-deep-learning
   - The author is currently writing this book https://news.ycombinator.com/item?id=15504183
+- http://neuralnetworksanddeeplearning.com/\
+  - Ask HN: Best way to get started with AI? https://news.ycombinator.com/item?id=15689399
