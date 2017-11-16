@@ -1,5 +1,6 @@
 - https://github.com/dformoso/machine-learning-mindmap
 - https://github.com/vahidk/EffectiveTensorflow
+- Ask HN: Best way to get started with AI? https://news.ycombinator.com/item?id=15689399
 
 ## Video courses
 
@@ -12,6 +13,11 @@
   - video version of https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
 - But what *is* a Neural Network? | Deep learning, Part 1 https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
   - 3blue1brown is currently doing a terrific series on how neural networks work, which nicely compliments this blog post.https://news.ycombinator.com/item?id=15506349
+- YouTube Channel 3Blue1Brown which explains math in very accessible way https://news.ycombinator.com/item?id=15689936
+  - https://www.youtube.com/watch?v=aircAruvnKk
+  - https://www.youtube.com/watch?v=IHZwWFHWa-w
+  - https://www.youtube.com/watch?v=Ilg3gGewQ5U
+  - https://www.youtube.com/watch?v=tIeHLnjs5U8
 
 ## Practice
 
