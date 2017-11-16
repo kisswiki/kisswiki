@@ -43,3 +43,9 @@ http://www.fast.ai/2017/09/08/introducing-pytorch-for-fastai/
 The barrier to entry for PyTorch is so low that I don't even consider Tensorflow anymore for research. It takes me less than an hour to implement something in PyTorch that took me several hours in TensorFlow.
 
 https://www.reddit.com/r/pytorch/comments/6jqzgg/tensorflow_vs_pytorch_what_do_you_think/dji13e1/
+
+##
+
+projekt z mega słabym API i wydawany z ordynarnymi błędami, których nie poprawiają (nawet jak dostaną gotowy PR) tygodniami - to TF.
+
+https://www.facebook.com/groups/257881290932879/?multi_permalinks=1519595501428112&notif_id=1510780014559096&notif_t=group_highlights&ref=notif
