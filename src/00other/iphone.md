@@ -139,6 +139,7 @@ http://bgr.com/2016/08/18/iphone-vs-galaxy-note-storage-speed/
 ## Plus GSM
 
 - http://bok.plusgsm.pl/Scripts/rightnow.cfg/php.exe/enduser/std_adp.php?p_faqid=4734
+- mms https://bok.plusgsm.pl/Scripts/rightnow.cfg/php.exe/enduser/popup_adp.php?p_sid=5-y7Qgcn&p_lva=585&p_li=&p_faqid=4687&p_created=1453377608&p_sp=cF9zcmNoPTEmcF9zb3J0X2J5PSZwX2dyaWRzb3J0PSZwX3Jvd19jbnQ9NCZwX3Byb2RzPTAmcF9jYXRzPSZwX3B2PSZwX2N2PSZwX3BhZ2U9MSZwX3NlYXJjaF90ZXh0PURPSw**
 
 ## Meditation
 
