@@ -13,3 +13,7 @@ The Dell one's TN panel is pretty decent for viewing angles, see TomsHardware's 
 IPS does tend to be better for colour accuracy too, but the Dell ain't bad.
 
 For gaming absolute accuracy isn't that important, but you do want decent colour stability with viewing angles, which that Dell does pretty well for a TN panel, but still not as nice as an IPS or VA panel would.
+
+## freesync
+
+- http://www.amd.com/en/products/freesync-monitors
