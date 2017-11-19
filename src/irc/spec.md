@@ -1,0 +1,2 @@
+- https://modern.ircdocs.horse/
+  - https://news.ycombinator.com/item?id=15734587
