@@ -17,8 +17,8 @@ If a directory named portable_config next to the mpv.exe exists, all config will
 portable_config/input.conf
 
 ```
-MOUSE_BTN3 seek 2 exact
-MOUSE_BTN4 seek -2 exact
+MOUSE_BTN3 seek 1 exact
+MOUSE_BTN4 seek -1 exact
 ```
 
 ## DVD
