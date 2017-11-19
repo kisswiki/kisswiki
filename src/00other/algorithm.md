@@ -9,6 +9,7 @@ http://blog.vishupuri.net/2011/01/23/origin-of-the-word-algorithm/
 ## Examples
 
 - https://github.com/jiayihu/pretty-algorithms
+- http://www.cleveralgorithms.com/nature-inspired/index.html
 
 ## Visualizationts
 
