@@ -5,7 +5,7 @@
 - Hacker News in Elm https://github.com/massung/elm-hn
 - elm-datepicker
   - https://github.com/Bogdanp/elm-datepicker/tree/latest
-  - is there a reason you decided to return a 3-tuple with Maybe Date, instead of providing a way to query the date picker for the currently selected date? https://www.reddit.com/r/elm/comments/4m0iby/ann_elmdatepicker_a_reusable_date_picker_component/
+  - is there a reason you decided to return a 3-tuple with Maybe Date, instead of providing a way to query the date picker for the currently selected date? https://www.reddit.com/r/elm/comments/4m0iby/`ann`_elmdatepicker_a_reusable_date_picker_component/
 - An interactive web UI for Open API (2.0) specs https://github.com/vorce/lagun
 - A small app that fetches Github users and renders them to a page. Exercise in AJAX with Elm. https://github.com/splodingsocks/elm-example-ajax
 - https://github.com/danyx23/elm-movie-domino- https://github.com/rtfeldman/dreamwriter
@@ -29,3 +29,4 @@
 - https://github.com/peterszerzo/elm-cms
 - Learning Elm by creating an app to find songs similar to other songs https://github.com/estiens/crate-digger
 - https://github.com/xvw/qian
+- https://github.com/mpizenberg/demo-elm-image-annotation
