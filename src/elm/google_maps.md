@@ -15,3 +15,4 @@ And, as I hope, there is nothing what prevents from making a Polymer or other we
 - elm-0.18 https://github.com/simonh1000/elm-google-maps-2
 - https://github.com/rtfeldman/elm-google-maps
 - https://www.reddit.com/r/elm/comments/5iju89/help_with_native_virtual_dom_modules/
+- A basic elm google maps integration without dependencies and memory leaks - Integrates elm with gmaps using MutationObserver https://github.com/FranzSkuffka/elm-gmaps
