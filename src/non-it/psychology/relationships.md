@@ -11,6 +11,7 @@
   - http://themodernsavage.com/2010/03/25/preferred-signs-of-attraction-in-men-and-women/
 - https://markmanson.net/psycho
 - http://www.ted.com/talks/hannah_fry_the_mathematics_of_love/transcript?language=pl
+- https://kwejk.pl/przegladaj/3083685/0/podstawy-dobrego-zwiazku.html
 
 ## 2017-02-16
 
