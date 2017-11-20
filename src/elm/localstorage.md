@@ -2,3 +2,4 @@
 - https://medium.com/wunder-nerds/storing-and-restoring-the-state-in-elm-0-17-94874429dc1d
 - https://github.com/fredcy/localstorage
 - https://github.com/elm-lang/persistent-cache
+- https://www.reddit.com/r/elm/comments/7d5n7f/how_to_save_data_in_local_storage_or_session/
