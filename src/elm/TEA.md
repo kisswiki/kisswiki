@@ -51,3 +51,7 @@ toList elem =
 >Cmd Msg is an asynchronous request for an update while recursively calling update is synchronous
 >
 >-- https://www.reddit.com/r/elm/comments/5msw0p/did_you_ever_want_to_turn_your_msg_into_a_cmd_msg/
+
+## tea combine
+
+- https://github.com/astynax/tea-combine
