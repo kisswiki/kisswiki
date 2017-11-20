@@ -1,3 +1,4 @@
 - http://lubimyczytac.pl/autor/8455/adele-faber
 - https://www.amazon.com/How-Talk-Kids-Will-Listen/dp/1451663889/
 - https://www.amazon.com/Discipline-Without-Damage-Behave-Messing/dp/1928055109/
+- http://www.wielkalitera.pl/zapowiedzi/id,177/otoczeni-przez-idiotow.html
