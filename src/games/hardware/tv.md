@@ -1,0 +1,1 @@
+- QLED vs OLED: The 12-Hour Image Retention Test https://youtu.be/ld1RqqFMZWo
