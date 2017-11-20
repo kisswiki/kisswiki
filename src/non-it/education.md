@@ -1,1 +1,3 @@
 - http://innpoland.pl/133779,dla-mnie-szkola-to-zart-nowa-gwiazda-wsrod-najbogatszych-polakow-szczerze-o-swoim-sukcesie
+- https://www.wykop.pl/link/4022773/dlaczego-tak-malo-pamietasz-ze-szkoly-tedx/
+- 6 Problems with our School System https://youtu.be/okpg-lVWLbE
