@@ -11,5 +11,15 @@
     },
     { "key": "ctrl+w", "command": "-workbench.action.closeWindow", "when": "!editorIsOpen" },
     { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" },
-    {"key": "ctrl+shift+c", "command": "relative-path-and-line.copyRelativePathAndLine"}
+    {"key": "ctrl+shift+c", "command": "relative-path-and-line.copyRelativePathAndLine"},
+    {
+        "key": "alt+cmd+c",
+        "command": "gitlens.showQuickCommitFileDetails",
+        "when": "editorTextFocus && gitlens:enabled"
+    },
+    {
+        "key": "alt+c",
+        "command": "-gitlens.showQuickCommitFileDetails",
+        "when": "editorTextFocus && gitlens:enabled"
+    }
 ]
