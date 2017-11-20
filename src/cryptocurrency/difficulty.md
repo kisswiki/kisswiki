@@ -1,0 +1,5 @@
+- https://en.bitcoin.it/wiki/Difficulty
+- https://bitcoin.stackexchange.com/questions/43818/why-is-target-stored-in-the-block-at-all
+- https://bitcoin.stackexchange.com/questions/49036/where-is-difficulty-target-inserted
+- https://bitcoin.stackexchange.com/questions/5838/how-is-difficulty-calculated
+- https://bitcoin.stackexchange.com/questions/8806/what-is-difficulty-and-how-it-relates-to-target
