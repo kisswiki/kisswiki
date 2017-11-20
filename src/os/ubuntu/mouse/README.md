@@ -31,7 +31,7 @@ in `~/.profile` add:
 
 ```bash
 if [[ -n ${DISPLAY} ]]; then
-  ~/bin/mouse.sh "Logitech G203 Prodigy Gaming Mouse" 0.5
+  ~/bin/mouse.sh "Logitech G203 Prodigy Gaming Mouse" 0.2
 fi
 ```
 
