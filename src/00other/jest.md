@@ -1,17 +1,49 @@
-## run single test file
+## Run tests with watcher
 
-`npx jest path/to/file.test.jsx`
+`yarn test`
 
-update snapshot
+## Coverage
 
-`npx jest path/to/file.test.jsx --update-snapshot`
+`yarn test -- --noStackTrace --coverage`
 
-- https://stackoverflow.com/questions/28725955/how-do-i-test-a-single-file-using-jest
-- Also more granular https://stackoverflow.com/questions/42827054/how-do-i-run-a-single-test-using-jest
+## Run single test
 
-## run all tests
+`CI=true yarn test -- src/components/CompanyProfile/CompanyProfile.test.jsx`
 
-`CI=true yarn test 2>&1 | grep "FAIL"`
+You can also run jest directly:
 
-- https://github.com/facebook/jest/issues/1788#issuecomment-249356394
-- https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#continuous-integration
+`npx jest --env=jsdom src/components/CompanyProfile/CompanyProfile.test.jsx`
+
+## Run tests without watcher
+
+`CI=true yarn test`
+
+## Get list of failing tests
+
+`CI=true yarn test 2>&1 | grep "FAIL" | sort | uniq`
+
+## Remove test from coverage
+
+Add entry to `package.json` like this:
+
+```json
+  "jest": {
+    "collectCoverageFrom": [
+      "!src/components/core/App/**/*"
+    ]
+  }
+```
+
+## git pre-commit hook
+
+```shell
+jest --bail --findRelatedTests $STAGED_FILES
+if [[ "$?" == 0 ]]; then
+    echo "\t\033[32mJest Tests Passed\033[0m"
+else
+    echo "\t\033[41mJest Tests Failed\033[0m"
+    PASS=false
+fi
+```
+
+https://benmccormick.org/2017/02/26/running-jest-tests-before-each-git-commit/
