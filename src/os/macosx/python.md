@@ -6,4 +6,5 @@ https://stackoverflow.com/questions/17271319/how-do-i-install-pip-on-macos-or-os
 
 `brew doctor && brew install python3`
 
+- http://docs.python-guide.org/en/latest/starting/install3/osx/
 - http://blog.manbolo.com/2013/02/04/how-to-install-python-3-and-pydev-on-osx
