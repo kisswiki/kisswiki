@@ -32,4 +32,19 @@ inna allows select subtitles with the gui https://lhc70000.github.io/iina/ or ma
 
 ## default app
 
+```bash
+$ brew install mpv --with-bundle
+```
+
+If you need alias in Applications/Launchpad, open Finder window at /usr/local/Cellar/mpv/your_mpv_version/. In there the mpv.app bundle was generated. While holding Cmd+Alt drag this .app onto Applications folder.
+
+Use duti to associate files with application:
+
+```bash
+$ brew install duti
+$ duti -s io.mpv avi all
+$ duti -s io.mpv mkv all
+$ duti -s io.mpv mp4 all
+```
+
 - https://github.com/mpv-player/mpv/wiki/FAQ#how-can-i-make-mpv-the-default-application-to-open-movie-files-on-osx
