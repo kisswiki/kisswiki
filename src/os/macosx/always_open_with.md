@@ -1,1 +1,1 @@
-Always open with: `right click + alt`
+Always open with: `right click + alt` - doesn't work, use dutti, look at mpv.md
