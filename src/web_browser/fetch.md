@@ -1,3 +1,22 @@
+
+## POST
+
+```javascript
+fetch('https://httpbin.org/post', {
+  method: 'post',
+  headers: {
+    'Accept': 'application/json, text/plain, */*',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({a: 7, str: 'Some string: &=&'})
+}).then(res=>res.json())
+  .then(res => console.log(res));
+```
+
+https://stackoverflow.com/questions/29775797/fetch-post-json-data/42493030#42493030
+
+## links
+
 - https://medium.com/@shahata/why-i-wont-be-using-fetch-api-in-my-apps-6900e6c6fe78
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Basic_concepts
