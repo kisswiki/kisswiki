@@ -16,3 +16,9 @@ Monomorphic code is much more likely to be incorrect than polymorphic code, beca
 Thus, descriptive variable names are a code smell, indicating your code is overly monomorphic and more likely to be broken.
 
 http://degoes.net/articles/insufficiently-polymorphic
+
+##
+
+I usually use the shortest possible name that is still an English word. Abbreviations are very dangerous and tend to make code less comprehensible for other people or yourself coming in from another context.
+
+https://twitter.com/joeerl/status/934363240011845634
