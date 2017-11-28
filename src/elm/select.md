@@ -5,3 +5,4 @@
 - http://stackoverflow.com/questions/32426042/how-to-print-index-of-selected-option-in-elm
 - https://github.com/pzavolinsky/elm-bootstrap/blob/master/src/Bootstrap/Select.elm
 - https://www.reddit.com/r/elm/comments/3obz2g/advice_for_some_tortured_select_input_logic/
+- https://github.com/toastal/select-prism
