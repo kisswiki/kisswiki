@@ -6,6 +6,7 @@
 - https://github.com/mdgriffith/elm-style-animation
 - articles how to use mdgriffith/elm-style-animation https://voyageintech.wordpress.com/tag/elm/
 - https://www.reddit.com/r/elm/comments/6aynwq/animating_element_enterleave_transitions/
+- https://www.reddit.com/r/elm/comments/7gdrii/achieving_animations_on_insertdeletereordering_of/
 
 >This file shows how multiple animations can be run through one Animate Msg:
 https://github.com/mdgriffith/elm-style-animation/blob/master/examples/Gears.elm
