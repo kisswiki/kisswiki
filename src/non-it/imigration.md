@@ -2,6 +2,7 @@
 - https://en.wikipedia.org/wiki/Richard_von_Coudenhove-Kalergi
 - https://pl.wikipedia.org/wiki/Manifest_z_Ventotene
 - http://demotywatory.pl/4564364/Plan-Coudenhove-%E2%80%93-Kalergi-dlaczego-Merkel-pozwala-na-niszczenie-Europy
+- Grzegorz Braun - Możliwe wojny w Polsce i bankructwo. https://youtu.be/KwgiLkgkfEk
 
 ##
 
