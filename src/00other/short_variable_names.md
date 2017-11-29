@@ -1,3 +1,7 @@
+- http://neverworkintheory.org/2017/11/26/abbreviated-full-names.html
+
+##
+
 Clean Code (which isn't about Functional Programming at all). In the last chapter about smells and heuristics, Robert C. Martin has this to say about scope and naming:
 
 "The length of a name should be related to the length of the scope. You can use very short variable names for tiny scopes, but for big scopes you should use longer names.
