@@ -1,1 +1,3 @@
 - https://github.com/sunng87/rust-todomvc/blob/master/src/main.rs
+- https://www.hellorust.com/news/native-wasm-target.html
+- Rust WebAssembly transform for Browserify https://github.com/browserify/rustify
