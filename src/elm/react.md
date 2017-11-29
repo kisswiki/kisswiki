@@ -1,1 +1,2 @@
 - https://kevgathuku.me/2017/05/24/how-to-introduce-elm-to-a-react-codebase/
+- for react-0.16 https://blog.boon.gl/2017/11/28/react-elm-wrapper.html
