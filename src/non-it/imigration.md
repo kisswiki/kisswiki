@@ -1,0 +1,3 @@
+- #369 - Koniec BIAŁEJ EUROPY - Plan Coudenhove-Kalergi https://youtu.be/ISX_AK3O_OM
+- https://en.wikipedia.org/wiki/Richard_von_Coudenhove-Kalergi
+- https://pl.wikipedia.org/wiki/Manifest_z_Ventotene
