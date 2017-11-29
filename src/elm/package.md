@@ -2,6 +2,7 @@
 - alternative site for discovering Elm packages https://package.frelm.org/
   - https://groups.google.com/forum/#!msg/elm-discuss/ENvWJI4BAWs/nGVLhVZ_AQAJ
   - https://twitter.com/frelmorg
+  - https://package.frelm.org/repo
 - install from git https://github.com/panosoft/elm-grove
 - https://www.reddit.com/r/elm/comments/79qucw/789_packages_for_018_listed_in_packageelmlangorg/
   - http://elm-directory.herokuapp.com/

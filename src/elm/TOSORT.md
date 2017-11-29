@@ -1,0 +1,9 @@
+- https://github.com/toastal/toast.al-blog/blob/master/posts/code/2016-08-20-seer-stones-translations-using-unions-in-elm.md
+- https://becoming-functional.com/making-the-elm-model-modular-7c8a8dcdbf3
+- Elm in Production: 25K Lines Later https://charukiewi.cz/posts/elm/
+- https://dev.to/mttaggart/things-i-learned-writing-my-first-elm-app-27b
+- https://blog.arkency.com/decoding-json-with-unknown-structure-with-elm/
+- https://dev.to/aspittel/how-i-finally-built-an-app-in-elm-a80
+- here is my (a little bit disorganized and not very well thought through) brain-dump of a list of projects I have thought about creating https://gist.github.com/Janiczek/89dc530f3b62179cc3e06d9db082c9c6
+- The middleware pattern allows you to use more *.program behaviours at once (think Navigation.program or TimeTravel.Html.program) https://github.com/Janiczek/middleware
+  - https://gist.github.com/Janiczek/89dc530f3b62179cc3e06d9db082c9c6

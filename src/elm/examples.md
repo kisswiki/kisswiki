@@ -30,3 +30,5 @@
 - Learning Elm by creating an app to find songs similar to other songs https://github.com/estiens/crate-digger
 - https://github.com/xvw/qian
 - https://github.com/mpizenberg/demo-elm-image-annotation
+- https://github.com/AnotherKamila/tasksched
+- https://github.com/RailsEventStore/rails_event_store/blob/0f7ee713a08d9b834c28cbfe25c00d995e3d8b64/rails_event_store-browser/elm/src/Main.elm

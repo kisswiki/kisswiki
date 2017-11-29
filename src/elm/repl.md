@@ -1,3 +1,7 @@
+- https://github.com/shamansir/ielm
+
+##
+
 Trying to recreate `|:` from `Json.Decode.Extra` in `elm repl`:
 
 ```
