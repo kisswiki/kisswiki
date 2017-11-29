@@ -160,13 +160,6 @@ Also interesting is how Elm's immutability allows it to use requestAnimationFram
     - creating a DOM element from elm-html, initializing a widget into that element in JS, then talking to it with ports breaks Elm's semantics pretty badly https://groups.google.com/forum/#!topic/elm-dev/2j1c5HIBqRM
 - Richard Feldman - Workshop: Growing the Oasis: Elm in Production http://www.ustream.tv/recorded/64191291
 
-## animation
-
-- https://www.reddit.com/r/elm/comments/3zg128/writing_a_flappy_bird_clone_in_elm/
-- https://github.com/evancz/elm-effects
-- https://github.com/mgold/elm-animation
-- https://github.com/elm-lang/animation-frame
-
 ## truth
 
 - https://twitter.com/twopoint718/status/686765116285583360
