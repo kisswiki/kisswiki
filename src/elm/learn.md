@@ -3,6 +3,7 @@
 - https://learnxinyminutes.com/docs/elm/
 - http://exercism.io/languages/elm
   - https://github.com/exercism/xelm
+  - http://exercism.io/languages/elm/todo
 
 ## instant communication
 

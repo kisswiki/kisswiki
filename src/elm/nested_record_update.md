@@ -1,3 +1,4 @@
+- focus https://gist.github.com/evancz/78293dc6a4ac2547676c
 - https://github.com/arturopala/elm-monocle
   - https://github.com/toastal/toast.al-blog/blob/master/posts/code/2017-01-13-playing-with-prisms-for-the-not-so-isomorphic.md
   - https://github.com/toastal/select-prism

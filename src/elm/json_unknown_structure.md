@@ -1,0 +1,1 @@
+- https://blog.arkency.com/decoding-json-with-unknown-structure-with-elm/
