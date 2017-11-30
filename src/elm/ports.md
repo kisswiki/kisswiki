@@ -1,6 +1,8 @@
 - http://stackoverflow.com/documentation/elm/2200/ports-js-interop
 - http://stackoverflow.com/questions/37999504/how-to-pass-union-types-through-elm-ports
 - example http://stackoverflow.com/questions/40929154/cmd-to-simply-go-to-a-new-webpage-in-elm/41511220#41511220
+- Request: RPC over ports https://groups.google.com/forum/#!msg/elm-dev/kNKilHjUYqo/3mTObqyGAgAJ
+- https://www.reddit.com/r/elm/comments/7fx856/seeking_problems_with_ports/
 
 ## About
 
