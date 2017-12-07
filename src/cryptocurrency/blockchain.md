@@ -15,3 +15,10 @@ Bullshit. Blockchain does not build distributed consensus, it's a totally differ
 The only thing novel in document timestamping service called blockchain is that it doesn't need trusted third party. That's all. Other than that, we had cryptographic timestamping protocols for some time already.
 
 https://news.ycombinator.com/item?id=15400963
+
+##
+
+Triple-entry accounting, basically. There was an article on here a few months ago that went into depth on the issue.
+Double-entry accounting made it much harder to cook the books (a record of where money is coming from and a record of where it is going). Blockchains store every transaction within the coin itself and are validated by the entire network as valid transactions.
+
+https://news.ycombinator.com/item?id=15867725
