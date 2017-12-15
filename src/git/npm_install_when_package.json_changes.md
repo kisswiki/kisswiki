@@ -1,3 +1,5 @@
+save as post-rewrite
+
 ```bash
 #!/usr/bin/env bash
 
