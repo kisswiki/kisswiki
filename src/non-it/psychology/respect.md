@@ -1,0 +1,1 @@
+- Treat people with decency, but respect has to be earned. Jordan Peterson to Student: "You can't force me to respect you" https://youtu.be/WDLIR71Pe0A
