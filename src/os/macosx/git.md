@@ -1,4 +1,3 @@
-
 `brew install git`
 
 in `~/.bash_profile`
