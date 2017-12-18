@@ -1,0 +1,2 @@
+- https://stackoverflow.com/questions/32553158/detect-click-outside-react-component
+- https://stackoverflow.com/questions/44142273/react-ul-with-onblur-event-is-preventing-onclick-from-firing-on-li
