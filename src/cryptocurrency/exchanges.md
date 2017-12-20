@@ -1,0 +1,1 @@
+- Coinbase/GDAX what used to be called ‘Coinbase Exchange’ is now called GDAX https://medium.com/@joeldg/an-advanced-tutorial-a-new-crypto-currency-trading-bot-boilerplate-framework-e777733607ae
