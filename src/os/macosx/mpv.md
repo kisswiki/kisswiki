@@ -45,6 +45,7 @@ $ brew install duti
 $ duti -s io.mpv avi all
 $ duti -s io.mpv mkv all
 $ duti -s io.mpv mp4 all
+$ duti -s io.mpv webm all
 ```
 
 - https://github.com/mpv-player/mpv/wiki/FAQ#how-can-i-make-mpv-the-default-application-to-open-movie-files-on-osx
