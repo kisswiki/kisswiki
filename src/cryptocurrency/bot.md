@@ -1,0 +1,9 @@
+- https://github.com/coinbase/gdax-tt/
+- https://github.com/askmike/gekko
+- https://github.com/carlos8f/zenbot
+  - Bot trades with loss all the time https://github.com/carlos8f/zenbot/issues/189
+  - https://www.reddit.com/r/Bitcoin/comments/4rym6o/zenbot_an_automated_bitcoin_trading_bot_for_gdax/
+  - https://www.reddit.com/r/Bitcoin/comments/4xqo8q/announcing_zenbot_3_your_new_btcethltc_trading/
+- CryptoBots my invite https://discord.gg/uVEPrJ6
+- COINBASE GDAX BITTREX AUTOMATIC TRADING BOTS https://youtu.be/g4r-FnYSVk0
+- GDAX Manipulation Explained https://youtu.be/gEm9FJ_vH6I
