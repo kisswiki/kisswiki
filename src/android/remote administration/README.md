@@ -1,0 +1,12 @@
+- https://safeguarde.com/
+- http://hisuite.en.lo4d.com/
+- https://github.com/search?p=2&q=Androrat&type=Repositories&utf8=%E2%9C%93
+- https://onhax.me/androrat
+- https://forum.xda-developers.com/android/apps-games
+- https://www.spyshop.pl/dowod-w-sprawie-rozwodowej-szpiegowski-smartphone-huawei-p8-1110.html
+- http://www.ethicalhackingtutorials.com/2017/02/17/download-androrat-full-version/
+- http://hackersonlineclub.com/android-tools/
+- https://null-byte.wonderhowto.com/how-to/hack-android-using-kali-remotely-0160161/
+- https://niebezpiecznik.pl/post/kali-linux-na-androida/
+- https://www.hackersgarage.com/anti-android-phone-network-toolkit.html
+- https://play.google.com/store/apps/details?id=com.google.android.apps.adm
