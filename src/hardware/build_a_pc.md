@@ -1,3 +1,4 @@
 - Ryzen 5 1600/ 1600X vs Core i5 7600K Review: It's an AMD Win! https://youtu.be/4RMbYe4X2LI
 - Intel’s RYZEN-KILLER - Core i7 8700K https://youtu.be/EJOnwF8mgXc
 - https://youtu.be/D_Yt4vSZKVk https://youtu.be/D_Yt4vSZKVk
+- https://www.pcworld.com/article/3200767/gaming/xbox-one-x-pc-build.html
