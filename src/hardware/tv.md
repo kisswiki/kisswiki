@@ -1,4 +1,3 @@
-- QLED vs OLED: The 12-Hour Image Retention Test https://youtu.be/ld1RqqFMZWo
 - best LCD 4k without HDR: Samsung MU6402 http://www.eurogamer.pl/articles/2017-09-05-najlepszy%20telewizor%20do%20grania%20w%204k%20hdr%20-%20edycja%202017
 - http://www.komputerswiat.pl/gamezilla/publicystyka/2017/05/tv-dla-gracza-1
 - https://hdtvpolska.com/przeglad-telewizorow-dla-gracza-2016-jaki-wybrac-wyswietlacz-do-konsoli/
@@ -9,6 +8,7 @@
 
 ## oled burn in
 
+- QLED vs OLED: The 12-Hour Image Retention Test https://youtu.be/ld1RqqFMZWo
 - https://en.wikipedia.org/wiki/Screen_burn-in
 - http://www.avsforum.com/forum/40-oled-technology-flat-panels-general/2804065-master-oled-image-retention-burn-thread-photos.html
 
@@ -55,6 +55,7 @@ http://www.frazpc.pl/aktualnosci/933148,sony-cenzuruje-watki-z-narzekaniem-na-in
 ## size
 
 - http://www.rtings.com/tv/reviews/by-size/size-to-distance-relationship
+- https://www.forbes.com/sites/kevinmurnane/2017/11/01/when-a-4k-tv-looks-just-like-a-1080p-tv/#5192be724db7
 
 ##
 
