@@ -1,0 +1,1 @@
+- https://apple.stackexchange.com/questions/4699/how-to-set-to-open-folder-with-enter-in-finder
