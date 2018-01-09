@@ -11,4 +11,5 @@ git branch -m my_new_branch tmp_branch
 git branch -m tmp_branch My_New_Branch
 ```
 
-https://tosbourn.com/git-branches-seem-to-be-case-insensitive/
+- https://tosbourn.com/git-branches-seem-to-be-case-insensitive/
+- https://stackoverflow.com/questions/26810252/how-to-change-my-local-github-branch-name-to-uppercase
