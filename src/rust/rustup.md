@@ -2,10 +2,14 @@ Don't use this method: `curl -sSf https://static.rust-lang.org/rustup.sh | sh` f
 
 ## quickstart
 
-```
+```bash
 rustup self update
 rustup update
 rustup update stable
+# show toolchain for current directory and list installed toolchains
+rustup show
+# show available targets
+rustup target list
 ```
 
 https://github.com/rust-lang-nursery/rustup.rs/
