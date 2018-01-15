@@ -67,9 +67,16 @@ app.post('/', upload.single('files'), (req, res) => {
 app.listen(3001);
 ```
 
+- https://github.com/rofrol/react-dropzone-progress-bar
 - http://shiya.io/simple-file-upload-with-express-js-and-multer-in-node-js/
 - https://stackoverflow.com/questions/18310394/no-access-control-allow-origin-node-apache-port-issue
 - https://stackoverflow.com/questions/45387650/react-dropzone-and-nodejs-file-upload
+- https://stackoverflow.com/questions/31592726/how-to-store-a-file-with-file-extension-with-multer
+- https://stackoverflow.com/questions/35511348/multer-not-adding-file-extension
+- Files are uploading as 'file' without its extension https://github.com/expressjs/multer/issues/170#issuecomment-123362345
+- https://stackoverflow.com/questions/38652848/filter-files-on-the-basis-of-extension-using-multer-in-express-js
+- https://stackoverflow.com/questions/18130254/randombytes-vs-pseudorandombytes
+- Crypto randomBytes and pseudoRandomBytes https://github.com/nodejs/node-v0.x-archive/issues/6372
 
 ## axios - cancel
 
