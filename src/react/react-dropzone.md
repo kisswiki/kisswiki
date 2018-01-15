@@ -68,6 +68,7 @@ app.listen(3001);
 ```
 
 - http://shiya.io/simple-file-upload-with-express-js-and-multer-in-node-js/
+- https://stackoverflow.com/questions/18310394/no-access-control-allow-origin-node-apache-port-issue
 - https://stackoverflow.com/questions/45387650/react-dropzone-and-nodejs-file-upload
 
 ## axios - cancel
