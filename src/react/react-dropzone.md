@@ -49,6 +49,25 @@ req.abort();
 
 ## server
 
+```js
+const express = require('express');
+const multer = require('multer');
+
+const upload = multer({
+  dest: 'uploads/', // this saves your file into a directory called "uploads"
+});
+
+const app = express();
+
+// It's very crucial that the file name matches the name attribute in your html
+app.post('/', upload.single('files'), (req, res) => {
+  res.redirect('/');
+});
+
+app.listen(3001);
+```
+
+- http://shiya.io/simple-file-upload-with-express-js-and-multer-in-node-js/
 - https://stackoverflow.com/questions/45387650/react-dropzone-and-nodejs-file-upload
 
 ## axios - cancel
