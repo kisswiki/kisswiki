@@ -52,7 +52,7 @@ changes to
 
 ### Problem 2
 
-- usuwa nawiasy z jednoargumentowych arrow functions https://github.com/prettier/ prettier/issues/812
+- usuwa nawiasy z jednoargumentowych arrow functions https://github.com/prettier/prettier/issues/812
 
 Consistent with airbnb style guide https://github.com/airbnb/javascript#arrows--one-arg-parens
 
