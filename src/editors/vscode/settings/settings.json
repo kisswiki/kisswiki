@@ -30,9 +30,7 @@
     "terminal.integrated.fontSize": 14,
     "clock.dateFormat": "hh:MM",
     "git.decorations.enabled": true,
-    "workbench.panel.location": "bottom",
     "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.icons": "none",
     "material-icon-theme.hidesExplorerArrows": true,
     "gitlens.advanced.messages": {
       "suppressCommitHasNoPreviousCommitWarning": false,
@@ -47,6 +45,7 @@
     "elm.formatOnSave": true,
     "files.exclude": {
      "**/.git": false
-    }
+    },
+    "workbench.editor.showTabs": true
   }
   
