@@ -23,5 +23,5 @@ Dopiero jak wykonujemy subscribe, to dwie rzeczy się dzieją:
 
 Oprócz takich operacji jak na tablicy dochodzą nowe typu:
 
-- złączenie strumieni
-- zamiana jednego strumienia w drugi
+- złączenie strumieni,
+- zamiana jednego strumienia w drugi.
