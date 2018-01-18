@@ -1,2 +1,3 @@
 - https://github.com/ReactiveX/rxjs/blob/master/doc/operators.md
 - http://reactivex.io/documentation/operators.html
+- https://www.learnrxjs.io/operators/
