@@ -1,4 +1,7 @@
 - scan: do accumulation and return total to stream, when new value appears in stream, do accumulation and return total to stream.
+
+    > returns all the intermediate accumulators instead of just the last one https://stackoverflow.com/questions/45350806/whats-difference-between-reduce-and-scan#comment77662606_45350806
+
 - reduce: do accumulation and return total on `complete`
 
     > continuing this process until the source Observable emits its final item and completes http://reactivex.io/documentation/operators/reduce.html
