@@ -12,4 +12,16 @@ count2.subscribe(x => {
 });
 ```
 
+Output:
+
+```
+scan shows incremental total 1
+scan shows incremental total 3
+scan shows incremental total 6
+scan shows incremental total 10
+scan shows incremental total 15
+scan shows incremental total 21
+reduce shows only total 21
+```
+
 http://country-code.ghost.io/rxjs-scan-vs-reduce/
