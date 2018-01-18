@@ -10,7 +10,7 @@ Dzięki czemu może takie źródło wystawić pod standardowym interfejsem: `nex
 
 Robi się z tego jakby nieskończona tablica z takimi handlerami w zależności co się dzieje w tej tablicy.
 
-Tak jak mamy zmienną i sewkencję. Jako struktura danych to sobie mogę observable tak wyobrazić jako tablica z eventami, które się odpalają `onNext`, `onError`, `onComplete`.
+Tak jak mamy zmienną i sewkencję. Jako struktura danych to sobie mogę observable tak wyobrazić jako tablica z eventami, które się odpalają na zdarzenia `next`, `error`, `complete`.
 
 Od razu możemy określić różne operacje na tej tablicy chainując je: `scan`, `reduce`, `filter`, `map` itp.
 
