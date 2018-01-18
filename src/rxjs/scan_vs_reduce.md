@@ -1,3 +1,6 @@
+- scan: do accumulation and return total to stream, when new value appears in stream, do accumulation and return total to stream.
+- reduce: do accumulation and return total on `complete`
+
 ```javascript
 var obsScan = Observable.from([1,2,3,4,5,6]);
 var count1 = obsScan.scan((acc, one) => acc + one, 0);
