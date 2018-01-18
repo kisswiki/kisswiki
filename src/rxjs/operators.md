@@ -1,0 +1,1 @@
+- https://github.com/ReactiveX/rxjs/blob/master/doc/operators.md
