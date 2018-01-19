@@ -32,3 +32,7 @@
 - https://github.com/mpizenberg/demo-elm-image-annotation
 - https://github.com/AnotherKamila/tasksched
 - https://github.com/RailsEventStore/rails_event_store/blob/0f7ee713a08d9b834c28cbfe25c00d995e3d8b64/rails_event_store-browser/elm/src/Main.elm
+- https://learningmusic.ableton.com
+  - https://www.reddit.com/r/elm/comments/69z2aa/learning_music_from_ableton_frontend_built_with/
+- https://bholtbholt.github.io/step-sequencer/
+  - https://www.smashingmagazine.com/2018/01/learning-elm-drum-sequencer-part-1/
