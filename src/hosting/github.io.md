@@ -5,6 +5,8 @@
 
 ## deploy
 
+Use this script, change default repository branch to devel on github.com
+
 ```bash
 #!/bin/bash
 set -e # stop on error
