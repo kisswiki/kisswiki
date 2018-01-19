@@ -19,3 +19,20 @@
 > czyli żeby być lepszym trzeba zainwestować około 400 tyś zł
 > Niebawem zmieniają się zasady współpracy z NASK. Wchodzą pre-paidy, aby być partnerem NASK wystarczy już tylko 10 tys. pln.
 > http://www.goldenline.pl/grupy/Komputery_Internet/domeny/jak-zalozyc-serwis-typu-droppedpl-lub-zlapanepl,852438/
+
+## porkbun.com
+
+Don’t register your domains with your hosting provider, keep them separate. Find a company that specializes in domain registrations like NameSilo, Dyn, Hover, Porkbun, etc.
+
+https://www.reddit.com/r/Hosting/comments/7ljxh0/looking_for_a_provider_to_move_all_my_domains/
+
+Good rating on - https://tld-list.com/tld/com
+
+Price 8.84 USD register, 8.84 USD renew
+
+Good features:
+
+- DNS
+- Email Forwarding
+- SSL Certificate
+- 1 year WHOIS Privacy
