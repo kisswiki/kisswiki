@@ -34,3 +34,4 @@ echo All done!
 - https://gist.github.com/cobyism/4730490#gistcomment-1928142
 - https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
 - https://stackoverflow.com/questions/42469817/host-github-pages-from-dist-folder-in-master-branch
+- https://github.com/jimafisk/gh-pages_deploy/blob/master/pre-push
