@@ -1,0 +1,2 @@
+- https://pages.github.com/
+- https://stackoverflow.com/questions/24851824/how-long-does-it-take-for-github-page-to-show-changes-after-changing-index-html
