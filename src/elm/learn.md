@@ -103,6 +103,8 @@
 - https://egghead.io/courses/start-using-elm-to-build-web-applications
 - https://www.elm-conf.us/speaker/
 - Elm and Web Components - Richard Feldman https://youtu.be/ar3TakwE8o0
+- Elm Europe 2017 - Evan Czaplicki - The life of a file https://youtu.be/XpDsk374LDE
+  - https://www.reddit.com/r/elm/comments/7qwgbx/abstraction_in_elm/dssz99n/
 
 ## courses
 
