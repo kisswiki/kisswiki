@@ -1,3 +1,4 @@
 - https://pages.github.com/
 - https://stackoverflow.com/questions/24851824/how-long-does-it-take-for-github-page-to-show-changes-after-changing-index-html
   - https://help.github.com/articles/about-supported-custom-domains/
+- http://kb.porkbun.com/article/64-how-to-connect-your-domain-to-github-pages
