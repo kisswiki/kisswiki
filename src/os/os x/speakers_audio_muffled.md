@@ -1,3 +1,4 @@
 - https://apple.stackexchange.com/questions/293423/sound-from-the-speakers-of-my-mbpro-with-touch-bar-degrading
 - https://discussions.apple.com/thread/8014046
 - http://fortune.com/2017/04/13/macbook-pro-popping-sound/
+- https://bitgapp.com/eqmac/
