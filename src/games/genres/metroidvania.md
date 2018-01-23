@@ -1,3 +1,5 @@
 - https://en.wikipedia.org/wiki/Metroidvania
 - http://store.steampowered.com/tags/en/Metroidvania
 - https://www.reddit.com/r/metroidvania/comments/6iqy31/best_metroidvania_games_on_steam/
+- https://www.slant.co/topics/1331/~metroidvania-games-for-the-pc
+- http://store.steampowered.com/app/588650/Dead_Cells/
