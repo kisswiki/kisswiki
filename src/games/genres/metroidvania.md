@@ -1,0 +1,3 @@
+- https://en.wikipedia.org/wiki/Metroidvania
+- http://store.steampowered.com/tags/en/Metroidvania
+- https://www.reddit.com/r/metroidvania/comments/6iqy31/best_metroidvania_games_on_steam/
