@@ -1,0 +1,1 @@
+- https://www.quantamagazine.org/richard-schwartz-in-praise-of-simple-problems-20180109/
