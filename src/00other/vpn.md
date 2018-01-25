@@ -1,5 +1,9 @@
 ## BeyondCorp
 
+- Beyond Corp: The Access Proxy https://research.google.com/pubs/pub45728.html
+
+###
+
 BeyondCorp is a security approach used by Google that allows employees to work from anywhere, quickly and easily.
 
 This is easier said than done. In 2010, we undertook a massive project to rethink how to provide employees with secure remote access to applications: We moved away from our corporate VPN, and introduced BeyondCorp, a zero-trust network security model.
