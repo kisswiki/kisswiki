@@ -1,0 +1,4 @@
+- https://waitbutwhy.com/2014/05/life-weeks.html
+- http://abstrusegoose.com/51
+- https://year-in-pixels.glitch.me/
+  - https://news.ycombinator.com/item?id=16199871
