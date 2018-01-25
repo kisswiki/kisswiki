@@ -13,3 +13,16 @@ https://www.blog.google/topics/google-cloud/how-use-beyondcorp-ditch-your-vpn-im
 The most common feedback I get is that it seems like too much of a stretch for companies that don’t operate at Google scale. That may be true if looking at the system as a whole, but the principles behind the architecture should attract anyone’s attention - remove trust from the network by authenticating and authorizing every request based on what’s known about the user and connecting device at the time of the request.
 
 https://news.ycombinator.com/item?id=14596613
+
+###
+
+The short and long of BeyondCorp:
+- Instead of a single VPN that will expose your entire squishy corporate LAN to anyone who gets VPN access, each application gets its own protected proxy.
+
+- The protected proxies query a centrally-aggregated auth/authz database, which can work with client-side software to ensure qualities such as private key possession, full disk encryption, software updates, etc. In Google's case, this is combined with a host-rewriting browser extension for usability.
+
+- Access proxies can easily funnel HTTP traffic, but some more clever solutions involving tunnels exist for plain old TCP and UDP.
+
+By giving every application its own authentication and access control proxy, each application is secured on its own, hence "zero-trust.
+
+https://news.ycombinator.com/item?id=16205351
