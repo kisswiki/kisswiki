@@ -29,4 +29,5 @@ The short and long of BeyondCorp:
 
 By giving every application its own authentication and access control proxy, each application is secured on its own, hence "zero-trust.
 
-https://news.ycombinator.com/item?id=16205351
+- https://news.ycombinator.com/item?id=16205351
+- https://thenewstack.io/beyondcorp-google-ditched-virtual-private-networking-internal-applications/?_lrsc=736ef0f1-9e4b-4970-81fc-82957c3e6c0f
