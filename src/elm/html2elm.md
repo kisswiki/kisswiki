@@ -1,0 +1,3 @@
+- https://html2elm.obtuse.io/
+  - https://discourse.elm-lang.org/t/html2elm-obtuse-io-html-to-elm-code-converter-using-the-browsers-native-dom-parser/576
+- https://github.com/mbylstra/html-to-elm
