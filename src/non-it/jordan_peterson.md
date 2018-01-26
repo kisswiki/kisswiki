@@ -1,0 +1,4 @@
+- Jordan Peterson debate on the gender pay gap, campus protests and postmodernism https://youtu.be/aMcjxSThD54
+  - https://www.wykop.pl/link/4118189/jordan-peterson-inteligentnie-rozprawia-sie-z-feministka-ktora-go-atakuje/
+  - How To Avoid Embarrassing Yourself In An Argument - Jordan Peterson https://youtu.be/nS9W-wlJHPA
+  - Jordan Peterson analyzes Cathy newman https://youtu.be/TK2-xYyNpYk
