@@ -11,6 +11,18 @@ courtesy:
 :polite behavior that shows respect for other people
 
 
+For instance, say I enroll in a music class. I might not personally know my new teacher, and he might not have done anything yet to "earn" my respect; but the fact that he's a teacher while I'm a student is enough for me to hold his thoughts and opinions as more valuable than my own (in the field of music, of course) and thus treat him with more respect in regards to that particular field than I'd treat a total stranger of whom I know nothing about.
+
+Similarly, a senior will have more life experience than you, so you can make the case of why his opinions in matters that have to do with life experience should be given more consideration than those of a young person.
+
+In a way, they all "earned" the respect from society at large because of their knowledge or achievements, even if you personally didn't know them before. You might argue that the respect they're given is unwarranted, since you don't see their knowledge or achievements as valuable, but that's a different matter altogether.
+
+
+I think the key is in you saying, "They didn't do anything to earn my respect." You actually don't know if they have or haven't as you don't know them yet. I think by giving respect based on a person's classification (i.e. Veteran, public speaker, senior citizen) is more a sign that you are giving them the benefit of the doubt, at least at first. This in actuality shows an earned respect, not for the individual, but for others who are veterans, for the people whom you respect who respect the person you don't know, and so on.
+
+One can either start from a place of respect where you may choose to lose respect or start from a place of no respect where you can choose to gain respect. It seems more a matter of style than anything else.
+
+
 "respect" in this context means:
 
 Do not offer disrespect to someone unless they earn it.
