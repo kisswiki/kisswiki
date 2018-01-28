@@ -37,3 +37,13 @@ We have a cultural history of paying respect (curtesy) to people who are either 
 A demand for respect (curtesy) is not a demand for admiration, it is a demand for following a social protocol.
 
 https://www.reddit.com/r/changemyview/comments/3hata6/cmv_respect_must_be_earned_courtesy_is_given/
+
+##
+
+Courtesy is given. Respect is earned. Everyone deserves courtesy, general politeness and consideration. Respecting someone...that is something I believe is earned.
+
+Politeness and general kindness is standard, but for me to actually respect someone it does need to be earned.
+
+people who say 'everyone should be treated with respect' mean common courtesy and politeness.
+
+https://www.reddit.com/r/offmychest/comments/2aldpb/respect_is_earned_not_given_bullshit/
