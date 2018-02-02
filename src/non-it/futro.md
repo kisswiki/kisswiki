@@ -1,0 +1,2 @@
+- [ZOBACZ] 2 miesiące na fermie norek - śledztwo Otwartych Klatek https://www.youtube.com/watch?v=PS-JEzYpWCc
+  - https://www.wykop.pl/link/3474373/przez-2-miesiace-pracowal-na-fermie-norek-teraz-ujawnia-drastyczna-prawde/
