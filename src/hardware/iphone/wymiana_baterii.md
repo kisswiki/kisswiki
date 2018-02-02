@@ -5,4 +5,5 @@
 5. Czekać około 5 dni na wymianę.
 6. 129 zł.
 
-http://thinkapple.pl/2018/01/02/wymiana-baterii-iphone-cena-szczegoly/
+- http://thinkapple.pl/2018/01/02/wymiana-baterii-iphone-cena-szczegoly/
+- https://ispot.pl/s,serwis_cennik3
