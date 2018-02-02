@@ -47,3 +47,9 @@ fi
 ```
 
 https://benmccormick.org/2017/02/26/running-jest-tests-before-each-git-commit/
+
+## Error watching file for changes: EMFILE
+
+`brew install watchman`
+
+https://github.com/facebook/react-native/issues/910#issuecomment-335225430
