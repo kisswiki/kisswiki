@@ -1,0 +1,1 @@
+- https://addons.mozilla.org/pl/firefox/addon/1-click-youtube-video-downl/
