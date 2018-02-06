@@ -1,0 +1,1 @@
+- Sockette allows you to reuse instances, avoiding the need to redeclare all event listeners https://github.com/lukeed/sockette
