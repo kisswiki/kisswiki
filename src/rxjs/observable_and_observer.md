@@ -16,10 +16,11 @@ Od razu możemy określić różne operacje na tej tablicy chainując je: `scan`
 
 https://github.com/ReactiveX/rxjs/blob/master/doc/operators.md
 
-Dopiero jak wykonujemy subscribe, to dwie rzeczy się dzieją:
+Dopiero jak wykonujemy subscribe, to trzy rzeczy się dzieją:
 
 - określamy co chcemy robić na te handlery `next`, `error`, `complete`,
 - oraz dane z emitera są wpuszczane w nasz chain operacji.
+- zwraca jest funkcja, którą wykonanie zrobi unsubscribe
 
 Oprócz takich operacji jak na tablicy dochodzą nowe typu:
 
