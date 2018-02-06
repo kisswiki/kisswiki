@@ -1,0 +1,2 @@
+- https://discourse.elm-lang.org/t/implications-of-a-task-the-doesnt-return/625
+  - https://gist.github.com/alpacaaa/13335246234042395813d97af029b10f
