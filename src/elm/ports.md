@@ -15,3 +15,9 @@
 >Using the standard ports system in Elm, calling into JavaScript requires that you generate a Cmd to run the JavaScript function, and then separately subscribe to a response as a Sub. This disconnect between the call and return of a function makes some difficulties. For instance, you can't be sure which port response Sub corresponds to which call you made with the port Cmd unless you pass back some id or the original args. Most limiting of all, you can't chain together external javascript functions as Tasks.
 >
 >-- https://github.com/mpdairy/elm-frontier
+
+##
+
+I have a blog post in the works explaining exactly that - keep ports small and keep the processing of things in the JS side. That's how people who are using Elm for logic (e.g within a larger react application) should be doing things, because they end up frustrated making a million ports - when they should be just making one for data going out, then subscribe to data coming in.
+
+https://gist.github.com/alpacaaa/13335246234042395813d97af029b10f
