@@ -6,3 +6,10 @@
 - https://github.com/pzavolinsky/elm-bootstrap/blob/master/src/Bootstrap/Select.elm
 - https://www.reddit.com/r/elm/comments/3obz2g/advice_for_some_tortured_select_input_logic/
 - https://github.com/toastal/select-prism
+- https://github.com/inkuzmin/elm-multiselect
+- https://github.com/kintail/input-widget
+- https://github.com/lgastako/elm-select
+- https://github.com/sporto/elm-select
+- https://github.com/fedragon/elm-typed-dropdown
+- https://github.com/h0lyalg0rithm/elm-select
+- https://github.com/jschonenberg/elm-dropdown
