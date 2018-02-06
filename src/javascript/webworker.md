@@ -1,0 +1,2 @@
+- Moves a module into a Web Worker, automatically reflecting exported functions as asynchronous proxies https://github.com/developit/workerize
+- Move an async function into its own thread, A simplified single-function version of workerize https://github.com/developit/greenlet
