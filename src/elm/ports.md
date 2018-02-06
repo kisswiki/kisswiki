@@ -20,4 +20,6 @@
 
 I have a blog post in the works explaining exactly that - keep ports small and keep the processing of things in the JS side. That's how people who are using Elm for logic (e.g within a larger react application) should be doing things, because they end up frustrated making a million ports - when they should be just making one for data going out, then subscribe to data coming in.
 
+The idea is that you'd write an "interpreter" in JS and have it communicate with Elm via higher-level structured data (This may require using Json.Encode to make things flexible enough on each side. Not ideal, but probably better than tons of ports!)
+
 https://gist.github.com/alpacaaa/13335246234042395813d97af029b10f
