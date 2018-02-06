@@ -5,6 +5,7 @@
 - https://github.com/rtfeldman/node-test-runner
 - Idea: Wrap up Expect.* functions to make parentheses in elm-test omittable https://groups.google.com/forum/#!topic/elm-discuss/g5eqSiOJhZ4
 - Fuzz Testing: How to write 500 tests in 5 minutes https://youtu.be/rpnmCM9uzzw
+- Verify examples in your docs https://github.com/stoeffel/elm-verify-examples
 
 ## elm-test - Access is denied
 
