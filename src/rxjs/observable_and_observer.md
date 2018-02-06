@@ -26,3 +26,7 @@ Oprócz takich operacji jak na tablicy dochodzą nowe typu:
 
 - złączenie strumieni,
 - zamiana jednego strumienia w drugi.
+
+To do zrozumienia głębszego:
+- https://staltz.com/why-we-need-callbags.html
+- https://github.com/staltz/callbag-basics
