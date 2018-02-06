@@ -1,0 +1,2 @@
+- https://hackernoon.com/elmchemy-write-type-safe-elixir-code-with-elms-syntax-part-1-introduction-8968b76d721d
+- https://github.com/wende/elchemy
