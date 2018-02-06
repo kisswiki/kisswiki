@@ -1,0 +1,3 @@
+ReasonML on the other hand requires that the boundary between itself and existing JavaScript code is explicitly defined. Types can to some extent be inferred, but they must still be determined at compile-time. This makes JavaScript interoperation more laborious, especially if the boundary gradually moves as an existing JavaScript code base is converted. It's also not always obvious how to type some of the weird stuff that goes on In JavaScript, but it's usually possible, and hopefully just temporary until everything has been converted to ReasonML anyway :)
+
+https://stackoverflow.com/questions/46147250/reasonml-vs-typescript/46222952#46222952
