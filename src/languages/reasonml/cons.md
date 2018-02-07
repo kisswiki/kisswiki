@@ -21,3 +21,13 @@ let theChildren = [| <div />, <div /> |];
 
 - https://github.com/reasonml/reason-react/blob/master/docs/jsx.md
 - https://reasonml.github.io/docs/en/jsx.html
+
+##
+
+I'm using `Array.fold_left` because `Array.filter` is not supported yet. However we need to track the `index` ourselves.
+
+https://github.com/reasonml-community/bs-downshift/blob/master/examples/reason_downshift.re
+
+## Resonml does not guarantee `no runtime exception`
+
+ReactiveConf 2016 - Sean Grove: The Age of Reason(ML) https://youtu.be/8LCmLQ1-YqQ
