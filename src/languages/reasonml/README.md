@@ -11,3 +11,4 @@
 - https://github.com/reasonml/reason-react
 - package index https://redex.github.io/
 - Props spreading is a big source of unpredictability and performance regression (think shouldComponentUpdate). Our API prevents this. If you reaaaaally need it for binding to existing ReactJS components, see this section. https://reasonml.github.io/reason-react/docs/en/clone-element.html https://reasonml.github.io/reason-react/docs/en/props-spread.html
+- https://protoship.io/blog/2017/05/10/an-invitation-to-reasonml.html
