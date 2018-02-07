@@ -1,3 +1,7 @@
+ JSX - the syntax for HTML templates inside JavaScript http://2ality.com/2017/11/about-reasonml.html
+
+ ##
+
 - [use without react.js](http://stackoverflow.com/questions/30430982/can-i-use-jsx-without-react-to-inline-html-in-script/34262983)
 - It’s such a tight coupling to the DOM  
   Well, not really, it is just a declarative syntax to describe components in a tree…Virtual? DOM?  
