@@ -10,4 +10,4 @@
 - https://github.com/reasonml-community/bs-react-native/blob/master/STATUS.md
 - https://github.com/reasonml/reason-react
 - package index https://redex.github.io/
-- spreading props is discouraged in ReasonReact! https://reasonml.github.io/reason-react/docs/en/props-spread.html
+- Props spreading is a big source of unpredictability and performance regression (think shouldComponentUpdate). Our API prevents this. If you reaaaaally need it for binding to existing ReactJS components, see this section. https://reasonml.github.io/reason-react/docs/en/clone-element.html https://reasonml.github.io/reason-react/docs/en/props-spread.html
