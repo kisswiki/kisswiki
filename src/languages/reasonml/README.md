@@ -1,2 +1,4 @@
 - https://jaredforsyth.com/posts/when-will-reasonml-be-ready/
 - ReactiveConf 2016 - Sean Grove: The Age of Reason(ML) https://youtu.be/8LCmLQ1-YqQ
+- http://2ality.com/2017/11/about-reasonml.html
+- Cheng Lou - Taming the Meta Language - React Conf 2017 https://youtu.be/_0T5OSSzxms
