@@ -23,3 +23,11 @@ I have a blog post in the works explaining exactly that - keep ports small and k
 The idea is that you'd write an "interpreter" in JS and have it communicate with Elm via higher-level structured data (This may require using Json.Encode to make things flexible enough on each side. Not ideal, but probably better than tons of ports!)
 
 https://gist.github.com/alpacaaa/13335246234042395813d97af029b10f
+
+##
+
+Maybe so but for something like a datetime manipulation library, ports are not a good fit, because they are not executed in the same event loop tick.
+
+Suggesting to use Ports interop for Moment.js is like suggesting wrapping the same library in promises — this is bound to add a ton of accidental complexity.
+
+https://www.reddit.com/r/elm/comments/7vnikt/i_have_a_proble_porting_a_js_library_to_elm/dttu2g8/
