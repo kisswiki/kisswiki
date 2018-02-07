@@ -14,4 +14,9 @@ transforms into
 ReactDOMRe.createElement("div", ~props=ReactDOMRe.props(~foo=bar, ()), [|child1, child2|]);
 ```
 
+```reasonml
+let theChildren = [| <div />, <div /> |];
+<MyReasonComponent> ...theChildren </MyReasonComponent>
+```
+
 https://github.com/reasonml/reason-react/blob/master/docs/jsx.md
