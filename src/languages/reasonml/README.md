@@ -2,3 +2,12 @@
 - ReactiveConf 2016 - Sean Grove: The Age of Reason(ML) https://youtu.be/8LCmLQ1-YqQ
 - http://2ality.com/2017/11/about-reasonml.html
 - Cheng Lou - Taming the Meta Language - React Conf 2017 https://youtu.be/_0T5OSSzxms
+- https://reasonml.github.io/docs/en/quickstart-javascript.html
+- https://reasonml.github.io/reason-react/docs/en/installation.html
+- https://github.com/reasonml-community/reason-scripts
+- https://github.com/FormidableLabs/seattlejsconf-app
+- https://github.com/reasonml-community/bs-react-native
+- https://github.com/reasonml-community/bs-react-native/blob/master/STATUS.md
+- https://github.com/reasonml/reason-react
+- package index https://redex.github.io/
+- spreading props is discouraged in ReasonReact! https://reasonml.github.io/reason-react/docs/en/props-spread.html
