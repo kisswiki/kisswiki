@@ -19,4 +19,5 @@ let theChildren = [| <div />, <div /> |];
 <MyReasonComponent> ...theChildren </MyReasonComponent>
 ```
 
-https://github.com/reasonml/reason-react/blob/master/docs/jsx.md
+- https://github.com/reasonml/reason-react/blob/master/docs/jsx.md
+- https://reasonml.github.io/docs/en/jsx.html
