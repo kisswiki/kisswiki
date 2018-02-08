@@ -1,0 +1,1 @@
+- comparision between similar concepts and operations and their usage between different functional programming languages https://hakonrossebo.github.io/functional-programming-babelfish/
