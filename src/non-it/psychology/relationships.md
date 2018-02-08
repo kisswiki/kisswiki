@@ -12,6 +12,9 @@
 - https://markmanson.net/psycho
 - http://www.ted.com/talks/hannah_fry_the_mathematics_of_love/transcript?language=pl
 - https://kwejk.pl/przegladaj/3083685/0/podstawy-dobrego-zwiazku.html
+- Jak wychować sobie faceta - poradnik (nie) tylko dla bojowniczek! http://joemonster.org/art/35948
+- http://david-durden.pl/dlaczego-kobieta-odchodzi/
+  - https://www.wykop.pl/link/4143461/o-tym-jak-kobieta-zmienia-faceta-a-potem-od-niego-odchodzi/
 
 ## 2017-02-16
 
