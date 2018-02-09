@@ -1,3 +1,5 @@
+## Run example
+
 ```
 $ git clone https://github.com/graphql-rust/juniper
 $ cd https://github.com/graphql-rust/juniper/blob/master/juniper_rocket
@@ -22,3 +24,7 @@ Open http://localhost:8000 and run query:
 
 - Model juniper/src/tests/model.rs
 - Query tests juniper/src/tests/query_tests.rs
+
+## Doc
+
+- http://juniper.graphql.rs/quickstart.html
