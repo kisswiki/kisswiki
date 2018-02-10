@@ -43,3 +43,4 @@ https://blog.linode.com/2018/02/01/announcing-linode-block-storage-volumes/
 ### EU vat tax
 
 - https://forum.linode.com/viewtopic.php?p=75227&sid=cb00ea7e07222f715954c2beedc9de79
+- https://linode.com/docs/platform/billing-and-payments/
