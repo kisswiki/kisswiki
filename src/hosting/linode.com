@@ -10,6 +10,8 @@ The Block Storage service is available now in us-west/Fremont region only. us-ea
 
 https://blog.linode.com/2018/02/01/announcing-linode-block-storage-volumes/
 
+In order to take advantage of the Block Storage service the volume and associated Linode must be in the same datacenter.
+
 Block Storage is currently at capacity in our Newark datacenter. Frankfurt, Newark, and Dallas will be launched in the first quarter of 2018.
 
 London, Tokyo 2, and Singapore will will be available in the second quarter of 2018.
@@ -37,3 +39,7 @@ No. The Backup service only backs up directly attached disks.
 You can create additional Volumes and back up your data on your own between Volumes, or you can clone an existing Volume with one click.
 
 https://blog.linode.com/2018/02/01/announcing-linode-block-storage-volumes/
+
+### EU vat tax
+
+- https://forum.linode.com/viewtopic.php?p=75227&sid=cb00ea7e07222f715954c2beedc9de79
