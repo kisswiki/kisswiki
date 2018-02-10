@@ -1,2 +1,2 @@
 - benchmark.md
-- https://github.com/joedicastro/vps-comparison
+- The prices for DigitalOcean and Vultr do not include taxes (VAT) for European countries. https://github.com/joedicastro/vps-comparison
