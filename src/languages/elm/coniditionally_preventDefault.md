@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/39950910/conditionally-toggle-preventdefault-on-form-submissions-in-elm
