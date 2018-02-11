@@ -1,0 +1,6 @@
+- https://codeburst.io/web-scraping-in-rust-881b534a60f7
+  - https://www.reddit.com/r/rust/comments/7ok8p3/web_scraping_with_rust/
+- https://www.reddit.com/r/rust/comments/655u58/building_a_crawler_in_rust/
+- https://www.reddit.com/r/rust/comments/6kzwso/what_is_a_good_way_to_scrape_websites_with_rust/
+- https://rust-lang-nursery.github.io/rust-cookbook/net.html
+- https://stackoverflow.com/questions/43222429/how-do-you-make-a-get-request-in-rust
