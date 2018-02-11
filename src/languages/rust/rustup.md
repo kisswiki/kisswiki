@@ -10,6 +10,18 @@ rustup update stable
 rustup show
 # show available targets
 rustup target list
+rustup default nightly
+rustup self uninstall
+rustup toolchain uninstall # or rustup toolchain remove
+rustup help toolchain
+```
+
+```bash
+$ rustup install nightly-2018-01-13
+$ rustup run nightly-2018-01-13 rustc --version
+rustc 1.25.0-nightly (51b0b3734 2018-01-12)
+$ rustup override set nightly-2018-01-13
+$ rustup override unset
 ```
 
 https://github.com/rust-lang-nursery/rustup.rs/
