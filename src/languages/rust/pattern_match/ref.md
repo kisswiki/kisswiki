@@ -18,6 +18,29 @@ One is a move, the other one is a borrow.
 
 `ref` annotates pattern bindings to make them borrow rather than move. It is not a part of the pattern as far as matching is concerned.
 
+### Used together
+
+To finish off, let’s untangle the confusing example from the beginning of this post:
+
+```rust
+for &(ref name, ref value) in &query_params {
+    println!("{}={}", name, value);
+}
+```
+
+Since we know `ref` doesn’t affect whether or not the pattern matches, we could just as well have something like `&(a, b)`. And this should be quite a bit easier to read: it clearly denotes we expect a reference to a 2-tuple of simple objects. Not coincidentally, such tuples are items from the vector we’re iterating over.
+
+Problem is, without the `ref`s we will attempt to move those items into the loop scope. But due to the way the vector is iterated over (`&query_params`), we’re only borrowing each item, so this is actually impossible. In fact, it would be a classic attempt to move out of a borrowed context.
+
+It is also wholly unnecessary. The only thing this loop does is printing the items out, so accessing them through references is perfectly fine.
+
+And this is exactly what the `ref` operator gives us. Adding the keyword back, we will switch from moving the values to just borrowing them instead.
+
+### To sum up
+
+- `&` denotes that your pattern expects a reference to an object. Hence `&` is a part of said pattern: `&Foo` matches different objects than `Foo` does.
+- `ref` indicates that you want a reference to an unpacked value. It is not matched against: `Foo(ref foo)` matches the same objects as `Foo(foo)`.
+
 http://xion.io/post/code/rust-patterns-ref.html
 
 ##
