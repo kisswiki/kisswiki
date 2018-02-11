@@ -1,5 +1,6 @@
 ## Quick start
 
+- http://graphql.org/learn/queries/
 - https://medium.com/the-graphqlhub/your-first-graphql-server-3c766ab4f0a2
   - instructions in the comments
 - https://github.com/cucumber/cucumber-js/issues/480
