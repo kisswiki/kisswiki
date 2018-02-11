@@ -3,10 +3,7 @@ view : Model -> Html Msg
 view model =
     Html.form
         [ class "my-form"
-        , onWithOptions
-            "submit"
-            { preventDefault = True, stopPropagation = False }
-            (Json.Decode.succeed SubmitPost)
+        , submit SubmitPost
         ]
         [ button []
             [ text "Submit"
