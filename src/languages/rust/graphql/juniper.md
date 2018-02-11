@@ -7,6 +7,8 @@ $ cd https://github.com/graphql-rust/juniper/blob/master/juniper_rocket
 $ git checkout d9677b38df14796b6c01d42c0e45c69c0739a1d8
 # Minimum required: 1.25.0-nightly (2018-01-12)
 $ rustup install nightly-2018-01-13
+$ rustup run nightly-2018-01-13 rustc --version
+rustc 1.25.0-nightly (51b0b3734 2018-01-12)
 $ rustup override set nightly-2018-01-13
 $ cargo run --example rocket_server
 ```
