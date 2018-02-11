@@ -1,1 +1,3 @@
+- https://doc.rust-lang.org/book/second-edition/ch06-00-enums.html
+- https://doc.rust-lang.org/book/second-edition/ch18-03-pattern-syntax.html
 - http://xion.io/post/code/rust-patterns-ref.html
