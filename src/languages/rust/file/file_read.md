@@ -2,3 +2,9 @@
 - https://stackoverflow.com/questions/31192956/whats-the-de-facto-way-of-reading-and-writing-files-in-rust-1-x
 - https://rustbyexample.com/std_misc/file.html
 - https://rustbyexample.com/std_misc/fs.html
+
+## in a thread poool
+
+I'd recommend using futures-fs to do the file reading in a thread pool. This prevents disk access from blocking the event loop.
+
+https://www.reddit.com/r/rust/comments/71af0h/streaming_body_in_hyper/
