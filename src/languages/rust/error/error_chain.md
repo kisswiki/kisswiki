@@ -1,1 +1,2 @@
 - https://zsiciarz.github.io/24daysofrust/book/vol2/day18.html
+- https://github.com/rust-lang-nursery/error-chain
