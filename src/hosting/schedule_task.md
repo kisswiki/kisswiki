@@ -1,0 +1,2 @@
+- https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-on-a-vps
+- https://wiki.archlinux.org/index.php/Systemd/Timers
