@@ -23,3 +23,4 @@ https://stackoverflow.com/questions/36490526/destructuring-while-iterating-throu
 - non-reference pattern used to match a reference (see issue #42640) https://github.com/rust-lang/rust/issues/42640
 - https://stackoverflow.com/questions/37267060/reference-to-parameters-within-an-enum
 - https://stackoverflow.com/questions/9109872/access-enum-values-in-rust/33723601#33723601
+- https://stackoverflow.com/questions/36590549/matching-on-a-reference-to-an-enum
