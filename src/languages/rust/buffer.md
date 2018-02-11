@@ -1,0 +1,1 @@
+- best practices around creating a buffer, having another function write into it, and then reading back out of it again https://users.rust-lang.org/t/writing-into-a-buffer-and-then-reading-back-out-of-it/8619
