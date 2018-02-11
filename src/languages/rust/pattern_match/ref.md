@@ -1,6 +1,24 @@
 - https://doc.rust-lang.org/book/second-edition/ch06-00-enums.html
 - https://doc.rust-lang.org/book/second-edition/ch18-03-pattern-syntax.html
-- http://xion.io/post/code/rust-patterns-ref.html
+
+##
+
+the ampersand operator is simply part of the pattern that we match against. And just like with `Some` and friends, there is an obvious symmetry here: if `&` was used to create the value, it needs to be used when unpacking it.
+
+Unlike the ampersand, `ref` is not something we match against. It doesn’t affect what values match the pattern it’s in, and what values don’t.
+
+The only thing it changes is how parts of the matched value are captured by the pattern’s bindings:
+
+- by default, without `ref`, they are moved into the `match` arms
+- with `ref`, they are borrowed instead and represented as references
+
+Looking at our example, the `n` binding in `Some(n)` is of type `String`: the actual field type from the matched structure. By contrast, the other `n` in `Some(ref n)` is a `&String` — that is, a reference to the field.
+
+One is a move, the other one is a borrow.
+
+`ref` annotates pattern bindings to make them borrow rather than move. It is not a part of the pattern as far as matching is concerned.
+
+http://xion.io/post/code/rust-patterns-ref.html
 
 ##
 
