@@ -1,0 +1,1 @@
+- https://users.rust-lang.org/t/why-doesnt-vec-u8-implement-std-fmt-write/13200
