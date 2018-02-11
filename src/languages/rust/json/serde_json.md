@@ -7,3 +7,7 @@ https://users.rust-lang.org/t/solved-serde-json-deserialize-unknown-json-structu
 ## untyped JSON values
 
 https://github.com/serde-rs/json#operating-on-untyped-json-values
+
+## full path to the thing that errored out
+
+https://github.com/serde-rs/json/issues/285
