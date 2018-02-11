@@ -25,3 +25,4 @@ https://stackoverflow.com/questions/36490526/destructuring-while-iterating-throu
 - https://stackoverflow.com/questions/37267060/reference-to-parameters-within-an-enum
 - https://stackoverflow.com/questions/9109872/access-enum-values-in-rust/33723601#33723601
 - https://stackoverflow.com/questions/36590549/matching-on-a-reference-to-an-enum
+- https://users.rust-lang.org/t/how-do-i-get-rid-of-this-pattern-of-extracting-a-value-from-an-enum/12555
