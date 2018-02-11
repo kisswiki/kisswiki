@@ -11,3 +11,17 @@ I hit some reliability issues caused by my use of elegant recursion which unfort
 Finally, performance was lackluster. After weeks of work I was able to get the Rust up to par with respect to functional languages but I never managed to make it significantly faster in the general case: sometimes it was 3x faster but other times 3x slower. This problem was that the hashed data structures in Rust’s standard library are designed to be cryptographically secure rather than fast.
 
 https://www.quora.com/What-do-functional-programmers-think-of-the-Rust-language
+
+##
+
+It depends on what you attribute to "functional programming." I would not classify rust as a FP language at all, not even a humble one. To me, for a language to be considered as supporting FP, it makes the following idiomatic, the default, and forces you to go out of your way to avoid them:
+
+immutable data
+pure functions / referential transparency
+functions are first class
+lexical closures
+Note I didn't say anything about pattern matching, destructuring, or monads. Those are tools of convenience, not defining qualities of FP.
+
+Rust actually makes those things difficult to achieve. 1 is made difficult by not allowing final / const to be defined by the struct. The rest are all made difficult to achieve because of the borrow checker being the idiomatic default. FP languages usually include a garbage collector for good reason. Between all the lexical closures and the freedom of passing references around by all data being immutable, it becomes very difficult to reason about how long what resources will be held by what components. A GC alleviates a lot of that complexity and allows the programmer to focus on the logic instead of the resources.
+
+https://www.reddit.com/r/rust/comments/7mvxcs/rust_is_a_humble_functional_programming_language/
