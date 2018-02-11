@@ -6,7 +6,8 @@ https://users.rust-lang.org/t/solved-serde-json-deserialize-unknown-json-structu
 
 ## untyped JSON values
 
-https://github.com/serde-rs/json#operating-on-untyped-json-values
+- https://github.com/serde-rs/json#operating-on-untyped-json-values
+- https://www.packtpub.com/mapt/book/application_development/9781785880254/11/ch11lvl1sec106/parsing-unstructured-json
 
 ## full path to the thing that errored out
 
