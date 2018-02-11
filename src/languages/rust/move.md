@@ -27,3 +27,4 @@ It's just more general. Now, you can lend a certain portion of a `Vec` to the fu
 
 For `String` and `&str` the situation is the same. `String` is for storing string values in the sense that a variable of this type owns that value. `&str` is for borrowing them.
 
+https://stackoverflow.com/questions/28800121/use-of-moved-values
