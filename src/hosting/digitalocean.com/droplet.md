@@ -1,12 +1,10 @@
-## droplet
-
-vps, virtual machine
+Droplet is similar to vps, virtual machine.
 
 More than just virtual machines. Droplets are a scalable compute platform with add-on storage, security, and monitoring capabilities to easily run production applications.
 
 https://www.digitalocean.com/products/droplets/
 
-###
+##
 
 To understand how DigitalOcean works, will require some extensive knowledge, but I will try to explain it as simple as possible.
 DigitalOcean has some really powerful computers, called servers. When running the appropriate software on the server you can create Virtual Private Servers (also known as Droplets or Containers). The VPS is a virtual machine, which utilizes part of the server resources (CPU, RAM, HDD) and runs its own copy of the operating system and provides superuser (root) access to DigitalOcean`s clients. 
@@ -17,9 +15,3 @@ When you create a Droplet, you will have the choice what Operating System should
 What will you do from then on with your Droplet depends on you. Yes, you can run web/mail/database services and host your websites on a Droplet. You can also use it for test purposes like developing code in a specific environment or learning how to manage a specific server configuration. Actually the possibilities are quite large, people use Virtual Servers for game server hosting, private file storage, seedboxes (using the VPS as a torrent seeder), VOIP/chat, VPN, etc...
 
 https://www.digitalocean.com/community/questions/how-does-digital-ocean-work
-
-## docker
-
-Select the Docker 17.09.9-ce on 16.04 (the version numbers might be higher by the time you read this article) option and you’ll create a droplet where all the steps for installing Docker on Ubuntu 13.04 are already complete. It’s a real time-saver and lets you dive right into trying out Docker.
-
-https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-docker-application
