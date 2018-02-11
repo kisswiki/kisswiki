@@ -1,0 +1,2 @@
+- http://exercism.io/exercises/rust/robot-simulator
+  - https://stackoverflow.com/questions/41664099/how-to-prevent-a-value-from-being-moved
