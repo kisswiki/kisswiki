@@ -1,3 +1,7 @@
+- https://www.digitalocean.com/community/tutorials/how-to-create-your-first-digitalocean-droplet
+
+##
+
 Droplet is similar to vps, virtual machine.
 
 More than just virtual machines. Droplets are a scalable compute platform with add-on storage, security, and monitoring capabilities to easily run production applications.
