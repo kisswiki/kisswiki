@@ -1,1 +1,0 @@
-- https://www.rosettacode.org/wiki/Read_entire_file#Rust

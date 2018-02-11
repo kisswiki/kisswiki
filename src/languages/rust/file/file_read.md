@@ -1,0 +1,2 @@
+- https://www.rosettacode.org/wiki/Read_entire_file#Rust
+- https://stackoverflow.com/questions/31192956/whats-the-de-facto-way-of-reading-and-writing-files-in-rust-1-x
