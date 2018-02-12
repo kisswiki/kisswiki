@@ -1,2 +1,3 @@
 - https://zsiciarz.github.io/24daysofrust/book/vol2/day18.html
 - https://github.com/rust-lang-nursery/error-chain
+- https://www.reddit.com/r/rust/comments/7wlwwg/unit_error_in_error_chain/
