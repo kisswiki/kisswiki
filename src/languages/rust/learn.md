@@ -11,6 +11,7 @@
 - exercises http://exercism.io/languages/rust/
 - https://stevedonovan.github.io/rust-gentle-intro
 - http://xion.io/tag/rust.html
+- https://github.com/rust-unofficial/awesome-rust
 
 ## Video courses
 
