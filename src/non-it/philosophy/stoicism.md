@@ -1,0 +1,7 @@
+One of the beautiful things about Stoicism is that the ancient philosophers were very mindful of speaking plainly, and their texts are extremely approachable. Epictetus' Enchiridion is very easy to parse and is packed full of very practical knowledge. It is one hundred percent the place to start. Following that, read Seneca's letters to Lucilius, which are titled either Moral Letters to Lucilius or Letters from a Stoic. These are very straight forward teachings in very direct language.
+
+Beyond that there's a whole canon of writing. The only extant writing from Stoic philosophers are from Epictetus and Seneca. There are fragments from Musonius Rufus, and a small handful from the very ancients like Chrysippus and Zeno. There are writings about Stoicism by Marcus Aurelius, a very famous follower but not a teacher himself, and by Cicero, though he also wrote against the philosophy in other places. Marcus Aurelius' writings are very approachable and often recommended.
+
+There are a few modern academic writings I would suggest to someone who has read the ancient sources, specifically the papers by A.A. Long. If you absolutely must have a modern book about the school, I'll contradict my earlier statement and say that William B. Irvine's A Guide to the Good Life is one exception.
+
+https://news.ycombinator.com/item?id=16350983
