@@ -28,3 +28,11 @@ It's just more general. Now, you can lend a certain portion of a `Vec` to the fu
 For `String` and `&str` the situation is the same. `String` is for storing string values in the sense that a variable of this type owns that value. `&str` is for borrowing them.
 
 https://stackoverflow.com/questions/28800121/use-of-moved-values
+
+##
+
+In Swift, we have value types (Structs/Enums) and reference types (Classes). They are "on the same level" in the sense that, they are both fundamental types.
+
+In Rust, value types are fundamental, and reference types are secondary. They are not on the same level. There is not even any "class" in Rust. If you want a reference type, you must derive it from some underlying value type. We'll see how to do this once we cover the value types.
+
+http://faq.sealedabstract.com/rust/#value-types
