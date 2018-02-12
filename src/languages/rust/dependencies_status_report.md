@@ -1,0 +1,2 @@
+- https://github.com/srijs/deps.rs
+  - https://www.reddit.com/r/rust/comments/7wvus2/announcing_depsrs_dependency_status_reports_and/
