@@ -63,3 +63,4 @@ https://blog.linode.com/2018/02/01/announcing-linode-block-storage-volumes/
 - https://linode.com/docs/applications/containers/docker-container-communication/
 - https://linode.com/docs/applications/containers/how-to-install-docker-and-pull-images-for-container-deployment/
 - https://linode.com/docs/applications/containers/how-to-deploy-an-nginx-container-with-docker/
+- https://linode.com/docs/applications/containers/deploying-microservices-with-docker/
