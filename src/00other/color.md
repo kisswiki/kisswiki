@@ -6,3 +6,13 @@
   - https://coolors.co/browser/best/1
 - https://github.com/SlexAxton/css-colorguard
 - https://github.com/mrmrs/colors
+- http://www.colourlovers.com/
+- https://flatuicolors.com/
+- http://www.color-hex.com/color-palettes/
+- https://www.colorion.co/
+- http://colormind.io/
+- http://khroma.co/train/
+- https://color.adobe.com/create/color-wheel/
+- https://color.adobe.com/explore/?filter=most-popular&time=month
+- http://q8z8p.net/#/color
+- https://yeun.github.io/open-color/
