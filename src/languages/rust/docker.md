@@ -1,1 +1,2 @@
 - https://surfertas.github.io/rust/docker/2017/06/22/rust-docker.html
+  - https://github.com/emk/rust-musl-builder
