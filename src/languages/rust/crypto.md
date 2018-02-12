@@ -1,3 +1,9 @@
+## State of crypto in Rust
+
+- RustConf 2017 - Fast, Safe, Pure-Rust Elliptic Curve Cryptography https://youtu.be/tE57KBK_GW4
+
+###
+
 one important thing in crypto is making sure a function will take the same amount of time regardless of the final result (to prevent timing attacks). Obviously this goes against the whole point of using an optimising compiler, so you'll often write assembly to be certain the machine does exactly what you want.
 
 
