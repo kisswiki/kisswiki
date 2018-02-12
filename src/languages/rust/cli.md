@@ -1,2 +1,3 @@
 - https://www.reddit.com/r/rust/comments/6x82mw/5_tips_for_writing_small_cli_tools_in_rust/
 - https://crates.io/crates/structopt
+- https://www.reddit.com/r/rust/comments/7vbi4i/writing_a_commandline_program_in_rust/
