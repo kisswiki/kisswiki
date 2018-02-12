@@ -1,5 +1,6 @@
 - benchmark.md
 - The prices for DigitalOcean and Vultr do not include taxes (VAT) for European countries. https://github.com/joedicastro/vps-comparison
+- https://www.slant.co/topics/3444/versus/~digitalocean_vs_linode_vs_f-x-data-cloud
 
 ## charging for powered-off
 
