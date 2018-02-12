@@ -2,3 +2,4 @@
 - https://blog.benroux.me/running-multiple-https-domains-from-the-same-server/
 - How to setup Let's Encrypt for Nginx on Ubuntu 16.04 (including IPv6, HTTP/2 and A+ SLL rating) https://gist.github.com/cecilemuller/a26737699a7e70a7093d4dc115915de8
 - https://blog.ssdnodes.com/blog/tutorial-using-docker-and-nginx-to-host-multiple-websites/
+- https://blog.ssdnodes.com/blog/tutorial-extending-docker-nginx-host-multiple-websites-ssl/
