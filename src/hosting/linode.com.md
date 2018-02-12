@@ -57,3 +57,9 @@ https://blog.linode.com/2018/02/01/announcing-linode-block-storage-volumes/
 ## Docker
 
 - https://www.linode.com/docs/applications/containers/
+- https://linode.com/docs/applications/containers/what-is-docker/
+- https://medium.com/linode-cube/embrace-the-docker-revolution-in-3-easy-steps-ccd4ad077091
+- https://linode.com/docs/applications/containers/when-and-why-to-use-docker/#when-not-to-use-docker
+- https://linode.com/docs/applications/containers/docker-container-communication/
+- https://linode.com/docs/applications/containers/how-to-install-docker-and-pull-images-for-container-deployment/
+- https://linode.com/docs/applications/containers/how-to-deploy-an-nginx-container-with-docker/
