@@ -1,9 +1,5 @@
 ## State of crypto in Rust
 
-- RustConf 2017 - Fast, Safe, Pure-Rust Elliptic Curve Cryptography https://youtu.be/tE57KBK_GW4
-
-###
-
 one important thing in crypto is making sure a function will take the same amount of time regardless of the final result (to prevent timing attacks). Obviously this goes against the whole point of using an optimising compiler, so you'll often write assembly to be certain the machine does exactly what you want.
 
 
@@ -34,7 +30,9 @@ I would check out ring and sodiumoxide first; ring is actually quite good but it
 
 Right now I'm working on getting the tomcrypt crate beefed up (bindings to the venerable LibTomCrypt) for this very reason. Maybe in a month it will be a better choice than OpenSSL if you need a wider range of algorithms.
 
-https://www.reddit.com/r/rust/comments/7wqs3r/whats_the_state_of_crypto_in_rust/
+- https://www.reddit.com/r/rust/comments/7wqs3r/whats_the_state_of_crypto_in_rust/
+- 
+- RustConf 2017 - Fast, Safe, Pure-Rust Elliptic Curve Cryptography - constant-time https://www.youtube.com/watch?v=tE57KBK_GW4&feature=youtu.be&t=1251
 
 ## Ring and problem with dependencies
 
