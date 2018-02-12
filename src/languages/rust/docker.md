@@ -2,3 +2,4 @@
   - https://surfertas.github.io/rust/docker/2017/06/22/rust-docker.html
   - https://github.com/emk/rust-musl-builder/issues/27
     - https://github.com/sgrif/pq-sys/pull/18
+- https://github.com/liuchong/docker-rustup
