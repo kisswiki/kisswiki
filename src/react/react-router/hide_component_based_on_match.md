@@ -1,0 +1,3 @@
+- https://stackoverflow.com/questions/47496202/react-router-showing-hiding-a-component-based-on-path-matched
+- https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/matchPath.md
+- https://reacttraining.com/react-router/web/api/matchPath
