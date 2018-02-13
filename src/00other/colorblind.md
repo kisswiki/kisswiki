@@ -1,0 +1,3 @@
+- https://news.ycombinator.com/item?id=16339322
+  - https://www.vis4.net/blog/2018/02/automate-colorblind-checking/
+  - We currently use WebAIM to check our color contrast: https://webaim.org/resources/contrastchecker/
