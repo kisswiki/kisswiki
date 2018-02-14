@@ -9,6 +9,7 @@
     "workbench.colorTheme": "Monokai Pro",
     "workbench.colorCustomizations": {
       "[Monokai Pro]": {
+          "editor.foreground": "#BEC4CB",
           "sideBar.background": "#2D2A2E",
           "sideBar.border": "#2D2A2E",
           "panel.background": "#2D2A2E",
