@@ -11,6 +11,8 @@
       "[Monokai Pro]": {
           "sideBar.background": "#2D2A2E",
           "sideBar.border": "#2D2A2E",
+          "panel.background": "#2D2A2E",
+          "terminal.background": "#2D2A2E",
       }
     },
     "editor.wordWrap": "on",
