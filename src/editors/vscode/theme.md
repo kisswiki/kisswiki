@@ -1,2 +1,5 @@
 - https://code.visualstudio.com/updates/v1_12#_workbench-theming
   - https://github.com/Microsoft/vscode/issues/3112
+- https://code.visualstudio.com/docs/getstarted/theme-color-reference
+- https://code.visualstudio.com/docs/getstarted/themes
+- https://github.com/Monokai/monokai-pro-vscode
