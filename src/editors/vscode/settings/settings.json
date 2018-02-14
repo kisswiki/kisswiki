@@ -13,7 +13,10 @@
           "sideBar.border": "#2D2A2E",
           "panel.background": "#2D2A2E",
           "terminal.background": "#2D2A2E",
-      }
+          "statusBar.background": "#2D2A2E",
+          "statusBar.border": "#2D2A2E",
+          "sideBarSectionHeader.background": "#29262A",
+      },
     },
     "editor.wordWrap": "on",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
