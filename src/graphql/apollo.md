@@ -1,0 +1,1 @@
+- The cache simply ignores that object's fields that a query wants. https://github.com/apollographql/apollo-client/issues/2920#issuecomment-363546863
