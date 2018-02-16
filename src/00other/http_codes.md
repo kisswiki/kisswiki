@@ -102,3 +102,16 @@
 ```
 
 - https://httpstatuses.com/
+
+
+## The most important status codes for SEOs
+
+- HTTP Status Code 200 - OK
+- HTTP Status Code 301 - Permanent Redirect
+- HTTP Status Code 302 - Temporary Redirect - Using 302s will cause search engine crawlers to treat the redirect as temporary, meaning that it may not  pass along the link equity that the magical 301 does.
+- HTTP Status Code 404 - Not Found
+- HTTP Status Code 410 - Gone
+- HTTP Status Code 500 - Internal Server Error
+- HTTP Status Code 503 - Service Unavailable
+
+- https://moz.com/learn/seo/http-status-codes
