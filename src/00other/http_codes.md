@@ -91,3 +91,13 @@
 ```
 
 - https://httpstatuses.com/
+
+```
+1xx: hold on
+2xx: here you go
+3xx: go away
+4xx: you fucked up
+5xx: I fucked up
+```
+
+- https://twitter.com/stevelosh/status/372740571749572610
