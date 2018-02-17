@@ -38,7 +38,15 @@ Because of this bug:
 
 vsce suddenly broke. Error: Cannot find module 'vso-node-api/HttpClient' https://github.com/Microsoft/vscode-vsce/issues/238
 
-Create some simple npm project, add below lines to package.json:
+Create some simple npm project
+
+```bash
+mkdir vsce
+cd vsce
+npm init
+```
+
+, add below lines to package.json:
 
 ```json
     "devDependencies": {
@@ -58,6 +66,16 @@ You can verify it by:
 
 ```bash
 $ cat ~/.vsce
+```
+
+### Publishing
+
+```bash
+../vsce/node_modules/.bin/vsce publish
+```
+
+```bash
+../vsce/node_modules/.bin/vsce unpublish (publisher.extension-name)
 ```
 
 ### Marketplace Presentation Tips
