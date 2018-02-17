@@ -15,7 +15,7 @@ yo code
 ## Publishing Extensions
 
 https://code.visualstudio.com/docs/tools/vscecli#_publishing-extensions
-    
+
 ### Create a Visual Studio Team Services account
 
 First, make sure you have a Visual Studio Team Services account. https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online
@@ -69,6 +69,8 @@ $ cat ~/.vsce
 ```
 
 ### Publishing
+
+https://code.visualstudio.com/docs/extensions/publish-extension
 
 ```bash
 ../vsce/node_modules/.bin/vsce publish
