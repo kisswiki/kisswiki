@@ -15,7 +15,7 @@ yo code
 ## Publishing Extensions
 
 https://code.visualstudio.com/docs/tools/vscecli#_publishing-extensions
-
+    
 ### Create a Visual Studio Team Services account
 
 First, make sure you have a Visual Studio Team Services account. https://www.visualstudio.com/en-us/get-started/setup/sign-up-for-visual-studio-online
@@ -59,3 +59,11 @@ You can verify it by:
 ```bash
 $ cat ~/.vsce
 ```
+
+### Marketplace Presentation Tips
+
+https://code.visualstudio.com/docs/extensionAPI/extension-manifest#_marketplace-presentation-tips
+
+screenshot needs to be in https:
+
+![](https://raw.githubusercontent.com/username/project/master/image-path/image.png)
