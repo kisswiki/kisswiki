@@ -109,3 +109,5 @@ screenshot needs to be in https:
 ```
 ![](https://raw.githubusercontent.com/username/project/master/image-path/image.png)
 ```
+
+- https://marketplace.visualstudio.com/items?itemName=ms-devlabs.extension-manifest-editor
