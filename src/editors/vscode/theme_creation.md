@@ -34,6 +34,14 @@ One easy mistake to make when creating the PAT (Personal Access Token) is to not
 
 ### Create a Publisher
 
+Install with npm - yarn does not work.
+
+`npm i -g vsce`
+
+#### Bug
+
+Update: Fixed in 1.36.3.
+
 Because of this bug:
 
 vsce suddenly broke. Error: Cannot find module 'vso-node-api/HttpClient' https://github.com/Microsoft/vscode-vsce/issues/238
@@ -55,7 +63,13 @@ npm init
     }
 ```
 
-and install with npm - yarn does not work.
+Use like this:
+
+```bash
+../vsce/node_modules/.bin/vsce publish
+```
+
+#### Next
 
 ```bash
 npm i
@@ -73,11 +87,17 @@ $ cat ~/.vsce
 https://code.visualstudio.com/docs/extensions/publish-extension
 
 ```bash
-../vsce/node_modules/.bin/vsce publish
+vsce publish
 ```
 
 ```bash
-../vsce/node_modules/.bin/vsce unpublish (publisher.extension-name)
+vsce unpublish (publisher.extension-name)
+```
+
+Auto-increment https://code.visualstudio.com/docs/extensions/publish-extension#_autoincrementing-the-extension-version
+
+```bash
+vsce publish minor
 ```
 
 ### Marketplace Presentation Tips
