@@ -36,4 +36,5 @@ Right now I'm working on getting the tomcrypt crate beefed up (bindings to the v
 
 ## Ring and problem with dependencies
 
-https://github.com/briansmith/ring/issues/535#issuecomment-309839961
+- https://github.com/briansmith/ring/issues/535#issuecomment-309839961
+- I can not add rustls support at the moment. all packages needs to depend on same ring package https://github.com/actix/actix-web/issues/36#issuecomment-357481316
