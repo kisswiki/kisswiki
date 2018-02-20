@@ -1,0 +1,1 @@
+> I think Gotham is over complicated framework. I don’t think we should use it an example - fafhrd91, author of actix-web https://github.com/actix/actix-web/issues/2#issuecomment-353880500
