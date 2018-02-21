@@ -116,3 +116,5 @@
 - HTTP Status Code 503 - Service Unavailable
 
 - https://moz.com/learn/seo/http-status-codes
+
+- https://http.cat/
