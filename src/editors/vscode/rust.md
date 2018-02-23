@@ -4,3 +4,11 @@
 - Workspaces https://github.com/rust-lang-nursery/rls/pull/409
 - Feature - Specify Project Directory https://github.com/editor-rs/vscode-rust/issues/156
 - workaround - multi-root workspaces https://code.visualstudio.com/docs/editor/multi-root-workspaces
+
+## formatOnSave
+
+```json
+    "[rust]": {
+        "editor.formatOnSave": true,
+    },
+```
