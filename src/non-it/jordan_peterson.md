@@ -3,3 +3,4 @@
   - How To Avoid Embarrassing Yourself In An Argument - Jordan Peterson https://youtu.be/nS9W-wlJHPA
   - Jordan Peterson analyzes Cathy newman https://youtu.be/TK2-xYyNpYk
 - pronounce https://youtu.be/1F0A4rohauQ
+- https://www.reddit.com/r/JordanPeterson/comments/7yk13z/12_rules_for_life_rule_4_compare_yourself_to_who/
