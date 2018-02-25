@@ -16,6 +16,8 @@ Wrapper { s: "s".to_string() }
 Wrapper { s: "s".to_owned() }
 ```
 
+>Not if you mentally read to_string as to_String
+
 ##
 
 `str::to_string()` method is the canonical way of creating a `String` from an `&'static str` (a string literal).
