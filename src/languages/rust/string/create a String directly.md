@@ -1,3 +1,23 @@
+I now strongly prefer `to_owned()` for string literals over either of `to_string()` or `into()`.
+
+What is the difference between `String` and `&str`? An unsatisfactory answer is “one is a string and the other is not a string” because obviously both are strings. Taking something that is a string and converting it to a string using `to_string()` seems like it misses the point of why we are doing this in the first place, and more importantly misses the opportunity to document this to our readers.
+
+The difference between `String` and `&str` is that one is owned and one is not owned. Using `to_owned()` fully captures the reason that a conversion is required at a particular spot in our code.
+
+```rust
+struct Wrapper {
+    s: String
+}
+
+// I have a string and I need a string. Why am I doing this again?
+Wrapper { s: "s".to_string() }
+
+// I have a borrowed string but I need it to be owned.
+Wrapper { s: "s".to_owned() }
+```
+
+##
+
 `str::to_string()` method is the canonical way of creating a `String` from an `&'static str` (a string literal).
 
 Also note that since [Rust gained impl specialization](https://github.com/rust-lang/rfcs/pull/1210), `str::to_string` is no slower than `str::to_owned` or its ilk.
