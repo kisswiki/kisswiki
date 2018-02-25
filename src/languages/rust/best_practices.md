@@ -1,0 +1,2 @@
+- https://rust-lang-nursery.github.io/api-guidelines/
+- https://pascalhertleif.de/artikel/good-practices-for-writing-rust-libraries/
