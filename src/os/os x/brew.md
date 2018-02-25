@@ -1,3 +1,17 @@
+## update
+
+```
+brew update
+brew outdated
+brew upgrade
+brew upgrade <formula>
+```
+
+https://docs.brew.sh/FAQ
+
+
+## node & yarn
+
 ```
 brew install node
 brew install yarn
