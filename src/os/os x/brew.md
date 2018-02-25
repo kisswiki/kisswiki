@@ -5,6 +5,9 @@ brew update
 brew outdated
 brew upgrade
 brew upgrade <formula>
+brew cleanup -n
+brew cleanup
+brew cleanup <formula>
 ```
 
 https://docs.brew.sh/FAQ
