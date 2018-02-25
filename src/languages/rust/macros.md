@@ -1,3 +1,5 @@
+- Show expaned macro https://github.com/dtolnay/cargo-expand
+
 ## What does rocket.rs use that makes it different from serde as far as custom derivations go?
 
 Custom derive:
