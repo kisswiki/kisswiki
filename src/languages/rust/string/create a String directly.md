@@ -6,12 +6,12 @@ As of Rust 1.9, str::to_string, str::to_owned, String::from, str::into all have 
 
 - https://stackoverflow.com/questions/31331356/how-to-create-a-string-directly
 
-- `to_string()`
-- `to_owned()`
-- `String::from()`
-- `String::push_str()`
-- `format!()`
-- `into()`
+- `.to_string()` if you want a simple conversion and show you’re making a `String`
+- `.to_owned()` if you want a simple conversion and to show you’re taking ownership of it.
+- `String::from()` a more explicit way to say what you’re doing
+- `String::push_str()` if you need to append to a `String`
+- `format!()` if you have predefined text that you wanted formatted in a specific way and don’t care about the speed cost
+- `.into()` if you want a simple conversion and don’t care about the ambiguity of it
 
 `.to_string()` or `String::from()` are good choices since they emphasize what they’re doing more so than `.to_owned()` or any of the other methods.
 
