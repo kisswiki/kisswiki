@@ -1,1 +1,1 @@
-use https://kiwiirc.com
+- https://github.com/osa1/tiny
