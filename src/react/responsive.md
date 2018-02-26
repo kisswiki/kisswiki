@@ -9,6 +9,8 @@ class Responsive extends ReactResponsive {
 
   /* eslint-disable no-underscore-dangle */
   updateMatches = () => {
+    // if mediaQuery is 'print' or mediaQuery internal is the same as saved in local state
+    // do not rerender
     if (Responsive.printMql.matches || this._mql.matches === this.state.matches) {
       return;
     }
