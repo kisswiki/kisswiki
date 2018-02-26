@@ -1,0 +1,3 @@
+- https://chaidarun.com/elixir-nodejs
+- https://blog.openbloc.fr/elixir-phoenix-web-development-101-todo-app/
+- Greg Young - The art of destroying software https://vimeo.com/108441214
