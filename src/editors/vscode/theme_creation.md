@@ -98,6 +98,7 @@ Auto-increment https://code.visualstudio.com/docs/extensions/publish-extension#_
 
 ```bash
 vsce publish minor
+vsce publish patch
 ```
 
 ### Marketplace Presentation Tips
