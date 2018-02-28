@@ -1,2 +1,3 @@
 - https://japaric.github.io/discovery/
 - https://forbot.pl/blog/rzut-oka-na-zestaw-stm32f3discovery-id4443
+- https://www.wykop.pl/wpis/6340908/mial-ktos-z-was-doczynienia-z-stm32f3-discovery-z-/
