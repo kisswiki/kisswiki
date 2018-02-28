@@ -1,0 +1,3 @@
+Update dependencies
+
+`cargo update`
