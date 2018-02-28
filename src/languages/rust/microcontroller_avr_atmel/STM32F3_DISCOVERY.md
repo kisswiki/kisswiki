@@ -1,0 +1,2 @@
+- https://japaric.github.io/discovery/
+- https://forbot.pl/blog/rzut-oka-na-zestaw-stm32f3discovery-id4443
