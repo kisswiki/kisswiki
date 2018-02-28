@@ -1,1 +1,0 @@
-- STM32F3DISCOVERY https://japaric.github.io/discovery/
