@@ -4,4 +4,5 @@
 
 - As for the HC07, support seems low so I would recommend sticking with HC05 or HC06
 
-https://arduino.stackexchange.com/questions/6541/what-are-the-fundemental-differences-of-different-bluetooth-modules-for-beginner
+- https://arduino.stackexchange.com/questions/6541/what-are-the-fundemental-differences-of-different-bluetooth-modules-for-beginner
+- http://uczymy.edu.pl/wp/blog/2015/03/11/bluetooth-hc-06-i-arduino/
