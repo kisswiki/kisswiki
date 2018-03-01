@@ -1,4 +1,4 @@
-https://www.electricitymap.org/?page=map&solar=false&remote=true&wind=false
+https://www.electricitymap.org/
 
 niemcy sa odpowiedzialne za 20% emisji CO2 w europie. Ta mapka lekko wprowadza w blad.
 
