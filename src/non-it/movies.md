@@ -7,3 +7,8 @@
   - http://www.vulture.com/2014/10/ask-an-expert-juilliard-professor-whiplash.html
   - BUDDY RICH IMPOSSIBLE DRUM SOLO *HQ* https://youtu.be/9esWG6A6g-k
   - https://www.quora.com/Is-the-song-Whiplash-a-real-song
+
+## To watch
+
+- Neon Genesis Evangelion
+- End of Evangelion
