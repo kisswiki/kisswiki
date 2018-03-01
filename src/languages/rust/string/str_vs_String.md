@@ -32,3 +32,11 @@ const char *description(const Self *self);
 And your question becomes equivalent of “how can I use `malloc()` in description and return it as a pointer that is never `free()`d?”. So the only options are return something that’s already in `self`, or leak memory.
 
 https://users.rust-lang.org/t/solved-how-to-return-str-from-format/12838/3?u=rofrol
+
+##
+
+fn `description(&self) -> &str` returns either a reference that’s tied to the lifetime of `self` or a `'static` reference. So the non-elided signature is `fn description<'a>(&'a self) -> &'a str`. But `'static` is a subtype of `'a` (i.e. a longer lifetime can be substituted for a shorter one), so you can also return `'static` there. Note this subtype relationship is true only for immutable references.
+
+If you had `fn bar() -> &str` then that really is `fn bar() -> &'static str` because there’s no input lifetime to associate with the output one.
+
+https://users.rust-lang.org/t/solved-how-to-return-str-from-format/12838/6?u=rofrol
