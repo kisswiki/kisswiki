@@ -1,1 +1,4 @@
 - https://serviceworke.rs/
+- https://jakearchibald.github.io/isserviceworkerready/
+- http://stackoverflow.com/questions/29895387/service-workers-and-ios
+- chrome://serviceworker-internals/
