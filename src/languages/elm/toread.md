@@ -1,0 +1,1 @@
+- https://notes.eellson.com/2018/02/26/offline-post-requests-with-elm-and-service-worker/
