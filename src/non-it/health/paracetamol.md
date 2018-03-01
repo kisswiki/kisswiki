@@ -1,1 +1,1 @@
-- 4 razy na dobę to znaczy co 6 godzin https://www.wykop.pl/link/4188641/reklama-gripexu-4000-slow-na-minute-przecietny-czlowiek-czyta-250/
+- 4 razy na dobę to znaczy co 6 godzin, 2 gramy na dobę, przestrzegać dawek bo uszkodzenie wątroby, alkohol zwiększa toksyczność, na kacu nie brać paracetamolu https://www.wykop.pl/link/4188641/reklama-gripexu-4000-slow-na-minute-przecietny-czlowiek-czyta-250/
