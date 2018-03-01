@@ -1,0 +1,1 @@
+- 4 razy na dobę to znaczy co 6 godzin https://www.wykop.pl/link/4188641/reklama-gripexu-4000-slow-na-minute-przecietny-czlowiek-czyta-250/
