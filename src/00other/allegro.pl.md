@@ -7,5 +7,6 @@
 - prowizje są bardzo wysokie
 - pełno tam oszustów (sam o mały włos straciłbym ponad 4000 zł)
 - skasowali wieloletni dorobek komentarzy, teraz potencjalnie każdego trzeba traktować jak oszusta, lub ciebie traktują jak oszusta
+- Oni rzeczywiście flagi "Secure" dla ciastek nie dodają
 
 https://www.wykop.pl/link/4189829/nie-korzystaj-z-allegro-bo-ryzykujesz-ze-ktos-przejmie-twoje-konto/
