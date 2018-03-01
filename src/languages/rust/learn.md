@@ -11,6 +11,7 @@
 - https://stevedonovan.github.io/rust-gentle-intro
 - http://xion.io/tag/rust.html
 - https://github.com/rust-unofficial/awesome-rust
+- https://learning-rust.github.io/
 
 ## Video courses
 
