@@ -8,3 +8,5 @@ Ale to na pewno niezgodne z warunkami korzystania z firma.gov.pl
 Czy firma o danym NIP jest aktywnym podatnikiem VAT?
 
 Można bardzo łatwo sprawdzać po NIPie, nawet bez Captcha https://ppuslugi.mf.gov.pl
+
+https://www.facebook.com/groups/257881290932879/permalink/1623505711037090/
