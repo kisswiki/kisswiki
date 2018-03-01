@@ -1,0 +1,1 @@
+- https://doc.rust-lang.org/book/first-edition/casting-between-types.html
