@@ -1,3 +1,5 @@
 - [TOREAD] Okrągłe plecy - co zrobić żeby przestać sie garbic ??? - Marek Purczyński https://youtu.be/ZMR5HRm8AYA
 - [TOREAD] https://www.npr.org/sections/health-shots/2018/02/26/587735283/lost-art-of-bending-over-how-other-cultures-spare-their-spines
   - https://news.ycombinator.com/item?id=16465294
+-  [TOREAD] THE FORGOTTEN ART OF SQUATTING IS A REVELATION FOR BODIES RUINED BY SITTING https://quartzy.qz.com/1121077/to-solve-problems-caused-by-sitting-learn-to-squat/
+  - https://news.ycombinator.com/item?id=16471215
