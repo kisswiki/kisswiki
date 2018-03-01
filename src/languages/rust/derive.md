@@ -1,0 +1,1 @@
+- https://rustbyexample.com/trait/derive.html
