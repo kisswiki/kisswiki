@@ -43,3 +43,8 @@ For every smart, capable, well reasoned developer there are a thousand blindly c
 - https://medium.com/@hoffa/the-top-weekend-languages-according-to-githubs-code-6022ea2e33e8
 - http://www.tiobe.com/tiobe-index/
 - http://statisticstimes.com/tech/top-computer-languages.php
+
+## exercises
+
+- https://leetcode.com
+- https://www.hackerrank.com
