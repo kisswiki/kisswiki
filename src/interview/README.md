@@ -1,0 +1,1 @@
+- questions to ask, etc. https://github.com/yangshun/tech-interview-handbook
