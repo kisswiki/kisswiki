@@ -10,6 +10,13 @@
 
 ## To watch
 
+### Anime
+
 - Neon Genesis Evangelion
 - End of Evangelion
+- http://9gag.com/gag/aYeMgnq https://en.wikipedia.org/wiki/Ajin:_Demi-Human#Film
+- https://shinden.pl/series/12434-hunter-x-hunter-2011/index
+
+### Rest
+
 - HBO: The Wire, Rodzina Soprano, Six Feet Under, Kompania Braci, The Oz, True Detective, Big Little Lies, Młody papież, Olive Kitteridge, Zakazane Imperium, Deadwood, Pacyfik, Generation Kill, True Blood, Silicon Valley, Leftovers, Sex in the city, Treme, Rzym, Veep, The Sopranos, The Young Pope https://www.wykop.pl/link/4188897/netflix-szykuje-700-oryginalnych-produkcji-w-2018-roku-to-nie-zart/
