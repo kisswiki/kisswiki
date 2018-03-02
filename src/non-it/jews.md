@@ -1,0 +1,1 @@
+- https://www.wykop.pl/link/4178855/dlaczego-zydzi-nas-nienawidza-swietny-tekst-ziemkiewicza-sprzed-20-lat/
