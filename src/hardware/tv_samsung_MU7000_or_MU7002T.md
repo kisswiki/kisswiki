@@ -1,0 +1,5 @@
+- https://hdtvpolska.com/forum/topic/39720-samsung-mu7000-mu7002t-test-telewizora-ultra-hd-2017-120hz
+- https://hdtvpolska.com/samsung-mu7000-test-telewizora-ultra-hd-2017-120hz/
+- 6228.56 PLN http://allegro.pl/telewizor-samsung-ue65mu7002txxh-65-cali-led-i7152895210.html
+- 5939 PLN https://www.morele.net/telewizor-samsung-ue65mu7002txxh-1340021/
+- https://www.morele.net/rtv/telewizory/telewizory-412/,,,,,,,sd,1,,,,23155O1048998,23167O893106.975699,23217O761261,30270O985576,23160O55:/1/
