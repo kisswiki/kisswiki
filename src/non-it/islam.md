@@ -16,6 +16,7 @@
 - Rozmowy niedokończone: Polityczne i społeczne skutki obecności islamu w Europie cz.I https://youtu.be/e4EGb8975-A
   - http://www.radiownet.pl/publikacje/niemcy-likwiduja-sie-same-thilo-sarrazin-kontra-angela-merkel
   - ONZ oficjalnie okrzyknęła Sarrazina… rasistą http://www.autonom.pl/?p=5393
+- https://euroislam.pl/wywiad-z-rebecca-sommer-reaktywacja/
 
 ##
 
