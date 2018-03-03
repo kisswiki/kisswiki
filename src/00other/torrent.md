@@ -1,5 +1,10 @@
+- https://www.reddit.com/r/Piracy/comments/7xadu0/best_torrent_ddl_sites/
+- https://torrentfreak.com/top-10-most-popular-torrent-sites-of-2017-170107/
 - https://rutracker.org
   - it's strictly moderated considering they can take down torrents that have a wrong resolution screenshot or some small things in description not conforming to their standards. https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently_has_countless/duwmoh7/
+  - https://torrentfreak.com/rutracker-reveals-innovative-plan-for-users-to-subvert-isp-blocking-180110/
+  - https://torrentfreak.com/russias-largest-torrent-site-celebrates-13-years-online-in-a-chinese-restaurant-170923/
+  - https://torrentfreak.com/rutracker-clocks-a-million-downloads-a-day-despite-being-completely-blocked-170408/
 - https://torrentz2.eu/search, https://torrentz2.eu/search?f=napisy+2017,  https://torrentfreak.com/torrent-links-disappear-from-torrentz2-171223/
 - https://thepiratebay.org
   - TV https://thepiratebay.org/top/205
@@ -8,6 +13,12 @@
   - https://greasyfork.org/en/scripts/21980-hide-fake-torrents-on-the-pirate-bay
 - https://1337x.to/
 - https://rarbg.to
+- http://btdb.to/
+- https://torrents.me/
+- https://zooqle.com/
+- https://eztv.ag/
+- https://psarips.com/
+- https://yts.am/
 
 ## 4k
 
@@ -36,6 +47,7 @@ https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently
 
 - http://rarbg.to
 - http://www.nosteam.ro
+- https://www.reddit.com/r/CrackWatch/
 
 ##
 
@@ -83,3 +95,11 @@ https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently
 
 - https://arstechnica.com/information-technology/2018/03/hackers-exploiting-rtorrent-to-install-unix-coin-miner-have-netted-4k-so-far/
   - https://github.com/rakshasa/rtorrent/wiki/RPC-Setup-XMLRPC
+
+## Transmission
+
+- https://torrentfreak.com/bittorrent-client-transmission-suffers-remote-takeover-vulnerability-180116/
+
+## uTorrent
+
+- https://torrentfreak.com/bittorrent-client-utorrent-suffers-security-vulnerability-180220/
