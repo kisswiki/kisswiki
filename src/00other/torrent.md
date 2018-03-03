@@ -16,3 +16,40 @@ https://www.bankier.pl/wiadomosc/Kto-torrentem-wojuje-od-torrenta-ginie-4030949.
 ## Software
 
 - unofficial search engine plugins for qBittorrent https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins
+
+## Miners
+
+Every Ableton 10 crack is a keygen.exe that contains a monero miner.
+
+ran the keygen on sanboxie to be sure.
+
+Keygen worked fine and sanboxie has a feature to bring files from the sandbox to your actual PC so I could retrieve the Authorize.auz file.
+
+is rutracker reliable? do they moderate their torrents? I'm using QB and i've made an account already and a search plugin but I haven't been downloading anything.
+
+From my experience ? Absolutely. Never had a problem with it. I mainly get games and VSTs from my DAW from rutracker but I also got stuff like Adobe's software, office and such and they always worked just fine.
+
+Russian is my native language and I've been using rutracker for a long time. I'd say it's strictly moderated considering they can take down torrents that have a wrong resolution screenshot or some small things in description not conforming to their standards.
+
+https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently_has_countless
+
+## MS Office
+
+Download the Office Trial directly from Microsoft. Don't go to any dodgy sites. Just get it from MS.
+
+Then, get MSToolkit either from the sticky in this sub or r/MSToolkit
+
+Follow the instructions. You really can't go wrong. The worst thing that'll happen is it won't work. There's an option in MSToolkit to check if the activation has worked or not.
+
+Obviously you won't get access to any of the online stuff like the 1TB of OneDrive storage but frankly you can live without it.
+
+1. Install Office Trial
+2. Use MSToolkit to install AutoKMS
+3. Click EZ Activator.
+
+https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently_has_countless/duwgt5p/
+
+## rtorrent
+
+- https://arstechnica.com/information-technology/2018/03/hackers-exploiting-rtorrent-to-install-unix-coin-miner-have-netted-4k-so-far/
+  - https://github.com/rakshasa/rtorrent/wiki/RPC-Setup-XMLRPC
