@@ -1,1 +1,3 @@
 - questions to ask, etc. https://github.com/yangshun/tech-interview-handbook
+- https://github.com/MaximAbramchuck/awesome-interview-questions
+- https://github.com/topics/interview-questions
