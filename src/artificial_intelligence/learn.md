@@ -2,6 +2,7 @@
 - https://github.com/vahidk/EffectiveTensorflow
 - Ask HN: Best way to get started with AI? https://news.ycombinator.com/item?id=15689399
 - https://www.facebook.com/groups/257881290932879/permalink/1619586851428976/
+-math resources https://news.ycombinator.com/item?id=16508873
 
 ## Video courses
 
