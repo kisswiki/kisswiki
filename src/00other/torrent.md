@@ -1,17 +1,41 @@
 - https://rutracker.org
   - it's strictly moderated considering they can take down torrents that have a wrong resolution screenshot or some small things in description not conforming to their standards. https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently_has_countless/duwmoh7/
 - https://torrentz2.eu/search, https://torrentz2.eu/search?f=napisy+2017,  https://torrentfreak.com/torrent-links-disappear-from-torrentz2-171223/
-- https://1337x.to/
 - https://thepiratebay.org
   - TV https://thepiratebay.org/top/205
   - HD Movies https://thepiratebay.org/top/207
   - https://www.reddit.com/r/Piracy/comments/79bg64/i_made_a_chrome_extension_that_automatically/
   - https://greasyfork.org/en/scripts/21980-hide-fake-torrents-on-the-pirate-bay
+- https://1337x.to/
+- https://rarbg.to
 
 ## 4k
 
 - https://www.reddit.com/r/Piracy/comments/74zt34/list_of_true_4k_bluray_movies_discs/
 - http://realorfake4k.com/
+
+Both nyaa.si and nyaa.pantsu.cat sprung up after nyaa.se went down and are both reputable. nyaa.si was advertised by the largest anime release group, horrible subs (although they upload everywhere including pantsu, animebytes and their own web page / indexer) as the successor to nyaa.se. They both get a fair bit of traffic, but Pantsu is less stable, having lag at peak traffic and often going down for 10-30 seconds due to this. Pantsu has the superior back catalog and did a far better job of exporting the original nyaa.se. either one is fine to use really, they are very similar.
+
+
+I just checked out nyaa.si and was wondering what the difference between all the categories are - mainly raw, english-translated and non-english translated.
+
+Raw is the, raw Blu-ray or TV/stream sourced footage from Japan. No subtitles, no English dub. .mp4s or .mkv files.
+
+English translated means with English sub or dub (green = sub only, purple = dub (generally dub releases are Dual Audio- that is they contain two audio tracks for Japanese and English voices as well as at least one sub track)). Always .mkv, even older uploads.
+
+Non-english is the same thing but with non-english (and non-japanese obviously) subs. Common example is French subtitles, usually marked under this category with the tag VOSTFR in the name.
+
+https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently_has_countless/duw90cg/
+
+## Anime
+
+- https://nyaa.pantsu.cat/
+- https://nyaa.si/
+
+## Games
+
+- http://rarbg.to
+- http://www.nosteam.ro
 
 ##
 
