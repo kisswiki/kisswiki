@@ -1,6 +1,11 @@
 - https://rutracker.org
   - it's strictly moderated considering they can take down torrents that have a wrong resolution screenshot or some small things in description not conforming to their standards. https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently_has_countless/duwmoh7/
 - https://torrentz2.eu/search, https://torrentz2.eu/search?f=napisy+2017,  https://torrentfreak.com/torrent-links-disappear-from-torrentz2-171223/
+- https://1337x.to/
+- https://thepiratebay.org
+  - TV https://thepiratebay.org/top/205
+  - HD Movies https://thepiratebay.org/top/207
+  - https://www.reddit.com/r/Piracy/comments/79bg64/i_made_a_chrome_extension_that_automatically/
 
 ## 4k
 
