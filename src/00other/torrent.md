@@ -19,8 +19,19 @@
 - https://eztv.ag/
 - https://psarips.com/
 - https://yts.am/
-- streaming alternative http://www.alluc.ee/
+
+## streaming
+
+- http://www.alluc.ee/
   - https://www.reddit.com/r/Piracy/comments/7ur9tq/alluc_is_so_incredible_it_feels_like_a_blessing/
+    - I never use their site, just their API key in Kodi. I simply don't trust them. 
+    - If you use Chrome, you can use like vGet or Video download Pro to snag the links and download videos.
+    - Works well with kodi streaming addons configured with real-debrid and an alluc api key
+    - Terarrium TV is easily the best media solution I've ever tried and I've tried most of them over the last 20 years.
+  - http://www.alluc.ee/latest/
+- https://terrariumtvappdownloads.com/
+  - https://torrentfreak.com/terrarium-tv-the-best-android-movie-streaming-app-faces-uncertain-future-171210/
+  - https://www.reddit.com/r/TerrariumTV/
 
 ## 4k
 
@@ -50,6 +61,7 @@ https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently
 - http://rarbg.to
 - http://www.nosteam.ro
 - https://www.reddit.com/r/CrackWatch/
+- http://fitgirl-repacks.site/
 
 ##
 
