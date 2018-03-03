@@ -6,6 +6,7 @@
   - TV https://thepiratebay.org/top/205
   - HD Movies https://thepiratebay.org/top/207
   - https://www.reddit.com/r/Piracy/comments/79bg64/i_made_a_chrome_extension_that_automatically/
+  - https://greasyfork.org/en/scripts/21980-hide-fake-torrents-on-the-pirate-bay
 
 ## 4k
 
