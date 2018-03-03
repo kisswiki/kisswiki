@@ -5,6 +5,7 @@
   - https://github.com/cmdrkotori/mpc-qt
 - https://potplayer.daum.net/
   - https://wiki.mikejung.biz/PotPlayer#Potplayer_Optimal_MadVR_Video_Settings_for_GTX_970_and_GTX_960
+  - Pot player is a hack job that doesn’t respect the licensing agreements and wishes of several open source projects. I know this is the piracy subreddit but I don’t like the idea of supporting software that goes against the intent of good open source software. https://forum.doom9.org/showthread.php?t=165743 https://www.reddit.com/r/Piracy/comments/7wm0xf/vlc_media_player_30_full_hardware_decode_support/du1pxe8/
 - https://www.videolan.org
   - https://github.com/nurupo/vlc-pause-click-plugin
 - https://kiooplayer.com/
@@ -13,6 +14,14 @@
 
 - https://wiki.mikejung.biz/MadVR
 - https://www.reddit.com/r/software/comments/7qdave/explain_to_me_how_is_madvr_a_better_renderer_than/
+
+###
+
+I tested it with the 4k 60FPS HDR Billy Lynn video and it kicked MPC's ass. VLC is BACK!
+
+VLC doesn't handle 4k content very well. Dropped frames and stutters all over the place on several of my systems. MPC+MadVR is great for even high bitrate conent with HDR. Smooth and looks fantastic. Only the interface is a little meh, but it's functional.
+
+https://www.reddit.com/r/Piracy/comments/7wm0xf/vlc_media_player_30_full_hardware_decode_support/
 
 ###
 

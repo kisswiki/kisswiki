@@ -19,6 +19,8 @@
 - https://eztv.ag/
 - https://psarips.com/
 - https://yts.am/
+- streaming alternative http://www.alluc.ee/
+  - https://www.reddit.com/r/Piracy/comments/7ur9tq/alluc_is_so_incredible_it_feels_like_a_blessing/
 
 ## 4k
 
