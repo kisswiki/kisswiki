@@ -1,2 +1,0 @@
-- https://runeksvendsen.github.io/blog/posts/2017-10-08-no-bitcoin-based-protocol-can-handle-more-than-20m-users-per-month.html
-  - https://news.ycombinator.com/item?id=15427662
