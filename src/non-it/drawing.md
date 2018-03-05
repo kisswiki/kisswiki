@@ -1,1 +1,2 @@
 - https://www.youtube.com/playlist?annotation_id=annotation_450927&feature=iv&list=PLhBKkQX9XSgfbMBvIvTDzDl3eHqF5_Fty&src_vid=O7O7-EU4bgg
+- https://9gag.com/gag/a9pAD7o
