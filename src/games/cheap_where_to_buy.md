@@ -1,0 +1,13 @@
+- https://www.humblebundle.com/monthly
+- https://allegro.pl
+- https://www.g2a.com/
+- https://www.kinguin.net/
+- https://lowcygier.pl/platforma/pc/
+- https://lowcygier.pl/darmowe/
+- https://bazar.lowcygier.pl/
+- https://lowcygier.pl/sledzokazje/
+- https://isthereanydeal.com/
+- http://antyweb.pl/tanie-gry-najlepsze-promocje/
+  - https://www.cheapshark.com/
+  - https://www.reddit.com/r/GameDeals/
+  - https://www.reddit.com/r/lowendgaming/
