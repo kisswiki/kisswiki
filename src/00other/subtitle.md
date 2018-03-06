@@ -90,6 +90,7 @@ So what's left is delay:
 - select "All lines"
 - hit "Show earlier" / "Show later" (your call)
 
-https://forum.videohelp.com/threads/383270-How-to-timeshift-a-subtitle-(-mkv-srt)
+- https://forum.videohelp.com/threads/383270-How-to-timeshift-a-subtitle-(-mkv-srt)
+- https://forum.videohelp.com/threads/383270-How-to-timeshift-a-subtitle-(-mkv-srt)
 
 
