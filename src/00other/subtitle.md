@@ -11,6 +11,8 @@ https://wiki.gentoo.org/wiki/Mpv#Subtitles_with_.txt_extension_in_0.24.0
 
 `--sub-file`
 
+- https://unix.stackexchange.com/questions/279884/play-subtitles-automatically-with-mpv
+
 ## mpv key mapping
 
 ```
