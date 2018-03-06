@@ -12,6 +12,7 @@ https://wiki.gentoo.org/wiki/Mpv#Subtitles_with_.txt_extension_in_0.24.0
 `--sub-file`
 
 - https://unix.stackexchange.com/questions/279884/play-subtitles-automatically-with-mpv
+- https://askubuntu.com/questions/901120/can-i-make-mpv-player-to-pick-up-any-subtitles-available-in-the-folder
 
 ## mpv key mapping
 
@@ -23,3 +24,16 @@ r / t Move subtitles up / down
 ```
 
 https://www.cheatography.com/someone/cheat-sheets/mpv-media-player/
+
+## timing
+
+If the sync gets worse (gets more and more ahead or behind) as the playback progresses then you have a timing issue.
+
+https://superuser.com/questions/153143/how-to-perfectly-synchronize-subtitles-with-movie
+
+## edit timing
+
+- https://www.videohelp.com/software/Subtitle-Edit
+- Subtitle Workshop does not support mkv
+- https://superuser.com/questions/153143/how-to-perfectly-synchronize-subtitles-with-movie
+- https://superuser.com/questions/49245/what-subtitle-file-editor-for-srt-files-supports-synchronization
