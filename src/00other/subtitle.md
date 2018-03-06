@@ -71,3 +71,25 @@ Set desired track to `flag-default=1` and other to `0`.
 - https://video.stackexchange.com/questions/19634/mux-mkv-and-dts-file-change-default-audio-stream-and-language
 - https://superuser.com/questions/539640/how-do-i-swap-the-first-and-second-audio-streams-in-an-mkv-in-a-linux-based-syst
 
+## subedit - enable mpv
+
+- `Options > Settings > Video player > Download mpv lib` - needed to click this couple of times for it to download it
+- then `Video engine > mpv`
+
+## fix timing and delay with SubEdit
+
+Open srt file. SubEdit should open corresponding video file.
+
+Looks like SubEdit automaticaly fixes fps.
+
+So what's left is delay:
+
+- run program
+- menu: Synchronization -> Adjust all times...
+- enter time
+- select "All lines"
+- hit "Show earlier" / "Show later" (your call)
+
+https://forum.videohelp.com/threads/383270-How-to-timeshift-a-subtitle-(-mkv-srt)
+
+
