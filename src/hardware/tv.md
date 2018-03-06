@@ -56,6 +56,7 @@ http://www.frazpc.pl/aktualnosci/933148,sony-cenzuruje-watki-z-narzekaniem-na-in
 
 - http://www.rtings.com/tv/reviews/by-size/size-to-distance-relationship
 - https://www.forbes.com/sites/kevinmurnane/2017/11/01/when-a-4k-tv-looks-just-like-a-1080p-tv/#5192be724db7
+- https://stari.co/tv-monitor-viewing-distance-calculator
 
 ##
 
