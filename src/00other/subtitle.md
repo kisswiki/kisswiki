@@ -42,3 +42,9 @@ https://superuser.com/questions/153143/how-to-perfectly-synchronize-subtitles-wi
 - Subtitle Workshop does not support mkv
 - https://superuser.com/questions/153143/how-to-perfectly-synchronize-subtitles-with-movie
 - https://superuser.com/questions/49245/what-subtitle-file-editor-for-srt-files-supports-synchronization
+
+## remuxing
+
+Remuxing, in our context, refers to the process of changing the “container” format used for a given file. For example from MP4 to MKV or from AVI to MKV. It also allows adding or removing of content streams as needed. Remuxing differs from Transcoding in that remuxing a file simply repackages the existing streams while transcoding actually creates new ones from a source.
+
+https://support.plex.tv/articles/201097958-remuxing-files-to-mkv/
