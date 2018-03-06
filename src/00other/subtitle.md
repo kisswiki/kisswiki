@@ -10,3 +10,14 @@ https://wiki.gentoo.org/wiki/Mpv#Subtitles_with_.txt_extension_in_0.24.0
 ## mpv load subtitle
 
 `--sub-file`
+
+## mpv key mapping
+
+```
+v Show / hide subtitles
+j / J Next / previous subtitle
+z / x Increase / decrease subtitle delay
+r / t Move subtitles up / down
+```
+
+https://www.cheatography.com/someone/cheat-sheets/mpv-media-player/
