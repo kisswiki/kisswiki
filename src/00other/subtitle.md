@@ -6,3 +6,7 @@ Since version 0.24.0 subtitles with .txt extension are no longer recognized as s
 If you want to restore the previous behaviour, use the following Lua script: [autoloadtxt.lua](https://wiki.gentoo.org/wiki/Mpv/autoloadtxt.lua).
 
 https://wiki.gentoo.org/wiki/Mpv#Subtitles_with_.txt_extension_in_0.24.0
+
+## mpv load subtitle
+
+`--sub-file`
