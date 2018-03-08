@@ -1,0 +1,3 @@
+The real threat of quantum computers is not the testing of prime numbers, but the factoring of semiprime numbers (numbers that have two distinct prime factors). The difficulty of taking a semiprime number and extracting it’s prime factors is considered an extremely hard problem, and this assumption of difficulty underpins nearly all of our modern cryptographic systems. If it were trivial to factor a large semiprime, one could intercept/hack all credit card transactions. This is the quintessential problem that quantum supremacy raises, and the most publicized; OP was remarking that the journalists likely meant to talk about this threat, but somewhat sloppily wrote prime instead of semiprime.
+
+https://news.ycombinator.com/item?id=16545256
