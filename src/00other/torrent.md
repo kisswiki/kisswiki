@@ -37,6 +37,8 @@
 
 - https://www.reddit.com/r/Piracy/comments/74zt34/list_of_true_4k_bluray_movies_discs/
 - http://realorfake4k.com/
+  - http://realorfake4k.com/my-product_category/real4k/
+  - http://realorfake4k.com/list/
 
 Both nyaa.si and nyaa.pantsu.cat sprung up after nyaa.se went down and are both reputable. nyaa.si was advertised by the largest anime release group, horrible subs (although they upload everywhere including pantsu, animebytes and their own web page / indexer) as the successor to nyaa.se. They both get a fair bit of traffic, but Pantsu is less stable, having lag at peak traffic and often going down for 10-30 seconds due to this. Pantsu has the superior back catalog and did a far better job of exporting the original nyaa.se. either one is fine to use really, they are very similar.
 
