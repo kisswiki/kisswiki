@@ -35,3 +35,5 @@ document.querySelector('form').addEventListener('submit', event => {
 
 - https://jsfiddle.net/rofrol/1rcr59k9/
 - https://stackoverflow.com/questions/21477717/how-to-call-a-js-function-using-onclick-event
+- https://developer.mozilla.org/pl/docs/Web/API/Element/onclick
+- https://developer.mozilla.org/en-US/docs/Web/Events/click
