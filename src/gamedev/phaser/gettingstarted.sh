@@ -1,5 +1,6 @@
 #!/bin/bash
 # https://phaser.io/phaser3/gettingstarted
+# https://github.com/photonstorm/phaser-ce/issues/490
 TEMP="${PWD}/temp"
 PROJ="${PWD}/game1"
 
