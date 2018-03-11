@@ -1,3 +1,7 @@
+- https://github.com/Diaoul/subliminal
+- https://github.com/ajknol/Subliminal-Windows-right-click-menu
+- https://isubtitles.net/the-boy-and-the-beast-subtitles
+
 ## mpv
 
 Subtitles with .txt extension in 0.24.0

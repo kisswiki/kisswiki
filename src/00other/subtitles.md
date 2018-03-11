@@ -1,3 +1,0 @@
-- https://github.com/Diaoul/subliminal
-- https://github.com/ajknol/Subliminal-Windows-right-click-menu
-- https://isubtitles.net/the-boy-and-the-beast-subtitles
