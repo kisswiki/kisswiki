@@ -69,7 +69,7 @@ Set desired track to `flag-default=1` and other to `0`.
 
 `mkvpropedit -v test5.mkv -v --edit track:2 --set flag-default=0 --edit track:4 --set flag-default=1`
 
-Reaorder - may damage the file
+Reaorder - may make the file uplayable, if you reorder video track with audio.
 
 `mkvpropedit -v movie.mkv -v --edit track:2 --set track-number=3 --edit track:3 --set track-number=2`
 
