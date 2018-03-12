@@ -73,6 +73,10 @@ Reaorder - may make the file uplayable, if you reorder video track with audio.
 
 `mkvpropedit -v movie.mkv -v --edit track:2 --set track-number=3 --edit track:3 --set track-number=2`
 
+Remove forced flag and reorder:
+
+`mkvpropedit -v movie.mkv -v --edit track:2 --set track-number=3 --edit track:3 --set track-number=2  --set flag-forced=0`
+
 - list of options `mkvpropedit.exe -l`
 - https://mkvtoolnix.download/doc/mkvpropedit.html
 - https://stackoverflow.com/questions/26956762/ffmpeg-set-subtitles-track-as-default/35235287#35235287
