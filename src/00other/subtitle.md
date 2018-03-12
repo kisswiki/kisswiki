@@ -69,6 +69,10 @@ Set desired track to `flag-default=1` and other to `0`.
 
 `mkvpropedit -v test5.mkv -v --edit track:2 --set flag-default=0 --edit track:4 --set flag-default=1`
 
+Reaorder - may damage the file
+
+`mkvpropedit -v movie.mkv -v --edit track:2 --set track-number=3 --edit track:3 --set track-number=2`
+
 - list of options `mkvpropedit.exe -l`
 - https://mkvtoolnix.download/doc/mkvpropedit.html
 - https://stackoverflow.com/questions/26956762/ffmpeg-set-subtitles-track-as-default/35235287#35235287
