@@ -1,1 +1,3 @@
 - https://stackoverflow.com/questions/137102/whats-the-best-visual-merge-tool-for-git
+- https://stackoverflow.com/questions/11103438/what-is-best-git-client-for-mac-os-with-my-own-server
+- https://git-scm.com/download/gui/mac
