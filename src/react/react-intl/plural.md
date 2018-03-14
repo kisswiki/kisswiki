@@ -26,3 +26,10 @@ https://github.com/yahoo/react-intl/wiki/API#formatplural
 - https://egghead.io/lessons/react-render-content-based-on-a-number-using-react-intl-formattedmessage
 
 - https://stackoverflow.com/questions/37620425/handling-abbreviated-numbers-pluralization-w-react-intl/49277834#49277834
+
+## Rules
+
+- https://formatjs.io/guides/message-syntax/#plural-format
+- http://userguide.icu-project.org/formatparse/messages
+- http://cldr.unicode.org/index/cldr-spec/plural-rules
+- http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html
