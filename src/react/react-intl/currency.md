@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/38360946/react-intl-formattednumber-with-the-currency-symbol-before-not-after
