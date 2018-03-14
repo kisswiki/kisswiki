@@ -27,6 +27,32 @@ https://www.smashingmagazine.com/2017/01/internationalizing-react-apps/
 
 https://stackoverflow.com/questions/41089804/fractional-plural-forms-in-react-intl-or-intl-messageformat-javascript-i18n-pac
 
+## ICU message syntax
+
+This is supported via the ICU Message syntax.
+
+```javascript
+You have {unreadCount, plural,
+  one {{unreadCount, number} unread message}
+  other {{unreadCount, number} unread messages}
+}
+```
+
+By using the number argument types, the value will pass through Intl.NumberFormat which for Arabic will use Arabic's numbering system.
+
+You can also use # shorthand to achieve the same result:
+
+```
+You have {unreadCount, plural,
+  one {# unread message}
+  other {# unread messages}
+}
+```
+
+https://github.com/yahoo/react-intl/issues/366#issuecomment-198747315
+
+##
+
 You should also have this available:
 
 >a plural category string: "zero", "one", "two", "few", "many", or "other"
