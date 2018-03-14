@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/39541312/function-returning-a-closure-not-working-inside-my-filter
