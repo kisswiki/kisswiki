@@ -21,5 +21,7 @@ You should also have this available:
 
 https://github.com/yahoo/react-intl/wiki/API#formatplural
 
+Also look at this test https://github.com/yahoo/react-intl/blob/e749a389313641eb3230954e19a0f1fa42bc6df2/test/unit/components/plural.js
 
-https://stackoverflow.com/questions/37620425/handling-abbreviated-numbers-pluralization-w-react-intl/49277834#49277834
+- https://stackoverflow.com/questions/37620425/handling-abbreviated-numbers-pluralization-w-react-intl/49277834#49277834
+- https://egghead.io/lessons/react-render-content-based-on-a-number-using-react-intl-formattedmessage
