@@ -3,6 +3,7 @@
 - http://stackoverflow.com/documentation/rust/topics
 - exercises http://exercism.io/languages/rust/
 - https://github.com/rust-unofficial/awesome-rust
+- https://slashtutorial.com/rust/
 
 ## Blogs
 
