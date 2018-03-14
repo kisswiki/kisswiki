@@ -4,6 +4,7 @@
 - http://exercism.io/languages/elm
   - https://github.com/exercism/xelm
   - http://exercism.io/languages/elm/todo
+- flash cards ios app https://discourse.elm-lang.org/t/elm-flashcard-app-book-quiz-audio-book/805
 
 ## instant communication
 
