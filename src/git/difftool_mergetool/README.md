@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/137102/whats-the-best-visual-merge-tool-for-git
