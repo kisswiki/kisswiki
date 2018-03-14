@@ -1,0 +1,1 @@
+Tower has no diff/merge tool integrated. https://www.git-tower.com/blog/diff-tools-mac
