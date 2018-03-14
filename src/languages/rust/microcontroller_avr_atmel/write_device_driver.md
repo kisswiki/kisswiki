@@ -1,0 +1,3 @@
+- http://blog.japaric.io/wd-4-enc28j60/
+  - https://www.reddit.com/r/rust/comments/84183w/weekly_driver_4_enc28j60_ethernet_for_your/
+- The weekly driver initiative https://github.com/rust-lang-nursery/embedded-wg/issues/39
