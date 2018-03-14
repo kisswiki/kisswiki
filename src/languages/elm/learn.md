@@ -6,6 +6,11 @@
   - http://exercism.io/languages/elm/todo
 - flash cards ios app https://discourse.elm-lang.org/t/elm-flashcard-app-book-quiz-audio-book/805
 
+## Overview
+
+- https://www.imaginarycloud.com/blog/elm-javascript-reinvented-1-overview/
+- https://www.imaginarycloud.com/blog/elm-javascript-reinvented-2/
+
 ## instant communication
 
 - https://elmlang.slack.com
