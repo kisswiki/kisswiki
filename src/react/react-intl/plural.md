@@ -15,6 +15,18 @@ const messages = defineMessages({
 
 https://www.smashingmagazine.com/2017/01/internationalizing-react-apps/
 
+```javascript
+            <FormattedMessage
+                id="num_emails"
+                defaultMessage="You have 1.{teaspoons, plural, one {# teaspoons} other {# teaspoons}}."
+                values={{
+                    teaspoons: 2,
+                }}
+            />
+```
+
+https://stackoverflow.com/questions/41089804/fractional-plural-forms-in-react-intl-or-intl-messageformat-javascript-i18n-pac
+
 You should also have this available:
 
 >a plural category string: "zero", "one", "two", "few", "many", or "other"
