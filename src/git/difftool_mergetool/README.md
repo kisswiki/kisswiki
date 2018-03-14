@@ -2,3 +2,4 @@
 - https://stackoverflow.com/questions/11103438/what-is-best-git-client-for-mac-os-with-my-own-server
 - https://git-scm.com/download/gui/mac
 - https://stackoverflow.com/questions/585844/merging-with-git-mergetool
+- https://www.slant.co/options/1502/alternatives/~gitx-dev-alternatives
