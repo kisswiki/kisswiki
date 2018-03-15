@@ -4,6 +4,7 @@
 - exercises http://exercism.io/languages/rust/
 - https://github.com/rust-unofficial/awesome-rust
 - https://slashtutorial.com/rust/
+- https://www.reddit.com/r/rust/comments/7wx68g/does_rust_have_a_lot_of_learning_resources_for/du3w82f/
 
 ## Blogs
 
