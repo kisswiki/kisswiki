@@ -1,0 +1,1 @@
+- information about ammunition: press m, then click right mouse button
