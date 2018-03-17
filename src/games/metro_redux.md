@@ -1,2 +1,4 @@
 - to kill with knife in special actions, press e
-- information about ammunition, weapons, tasks/quests: press m, then click right mouse button
+- open inventory with m, hide with m pressed long
+  - information about ammunition, weapons, tasks/quests: click right mouse button
+  - lighter: press m
