@@ -8,6 +8,8 @@
 
 ### Dark about:blank
 
+- https://addons.mozilla.org/en-US/firefox/addon/black-new-tab/
+
 1. Open `about:profiles` in Firefox.
 2. Open you profile directory.
 3. Create `chrome/userContent.css` with content:
