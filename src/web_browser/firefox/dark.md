@@ -2,6 +2,7 @@
 ## Dark mode
 
 - https://addons.mozilla.org/en-US/firefox/addon/owl/?src=search
+- https://addons.mozilla.org/en-US/firefox/addon/darkreader/
 - https://addons.mozilla.org/en-US/firefox/addon/nightreader
 - https://addons.mozilla.org/pl/firefox/addon/dark-background-light-text
 - https://addons.mozilla.org/pl/firefox/addon/simple-night-mode
