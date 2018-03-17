@@ -1,1 +1,2 @@
+- to kill with knife in special actions, press e
 - information about ammunition, weapons, tasks/quests: press m, then click right mouse button
