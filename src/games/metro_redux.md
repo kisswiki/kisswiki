@@ -1,1 +1,1 @@
-- information about ammunition: press m, then click right mouse button
+- information about ammunition, weapons, tasks/quests: press m, then click right mouse button
