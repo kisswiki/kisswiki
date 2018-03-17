@@ -1,0 +1,2 @@
+- https://github.com/wilfredwee/photon-australis/blob/master/userChrome-dark.css
+  - works good with default dark theme
