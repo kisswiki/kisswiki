@@ -1,1 +1,10 @@
 - https://arduino.stackexchange.com/questions?sort=votes
+- https://www.reddit.com/r/rust/comments/81oqvn/rustiot_any_examples/
+- https://www.reddit.com/r/rust/comments/80ipur/microcontrollers_with_bluetooth_or_wifi_that_work/
+- https://github.com/thezoq2/weather
+- Smart meter -> ESP8266 -> InfluxDB code https://github.com/hberntsen/DSMR
+- This script attempts to install the full toolchain needed to write firmware for the ESP8266 using the Arduino library https://github.com/emosenkis/esp-rs
+- https://hackaday.com/2017/01/04/rust-running-on-the-realtek-rtl8710-esp8266-alternative/
+- RTL8710, that is recommended for use in situations where you'd use an ESP32, but want to use Rust https://iot.stackexchange.com/questions/2102/working-with-rust-on-the-esp32
+- https://polyfractal.com/post/rustl8710/
+- https://japaric.github.io/discovery/12-bluetooth-setup/README.html
