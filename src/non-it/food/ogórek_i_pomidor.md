@@ -1,0 +1,3 @@
+Stosunkowo dużo askorbinazy znajduje się w świeżym ogórku. Mieszając go więc z pomidorem, narażamy witaminę C na działanie tego enzymu i na jej utlenienie. Zachodzi to również w przypadku łączenia świeżego ogórka z innymi warzywami zawierającymi wit. C, np. papryką.
+Surówkę z udziałem świeżego ogórka wystarczy bowiem od razu lekko zakwasić np. octem winnym lub sokiem z cytryny i już askorbinaza przestaje być aktywna, a witamina będzie uratowana.
+http://pochodnia.pzn.org.pl/artykul/3134-prawda_to_czy_mit_ogorek_i_pomidor_razem_czy_osobno_laczyc_czy_nie.html
