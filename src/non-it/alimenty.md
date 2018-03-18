@@ -15,3 +15,52 @@ Badania z USA wykazują że:
 http://fatherfigure.ning.com/page/statistics
 
 https://www.poradaprawna.pl/porada/1577/w-jakim-wieku-musi-byc-dziecko-by-moglo-w-sadzie-decydowac-u-ktorego-z
+
+Z podręcznika zaradnej kobiety.
+1. Zabieramy dziecko z domu, jeśli właścicielem jest mężczyzna i melinujemy u mamusi.
+
+Art. 26. § 1. Miejscem zamieszkania dziecka pozostającego pod władzą rodzicielską jest miejsce zamieszkania rodziców albo tego z rodziców, któremu wyłącznie przysługuje władza rodzicielska lub któremu zostało powierzone wykonywanie władzy rodzicielskiej.
+§ 2. Jeżeli władza rodzicielska przysługuje na równi obojgu rodzicom mającym osobne miejsce zamieszkania, miejsce zamieszkania dziecka jest u tego z rodziców, u którego dziecko stale przebywa. Jeżeli dziecko nie przebywa stale u żadnego z rodziców, jego miejsce zamieszkania określa sąd opiekuńczy.
+
+2. Jeśli dom jest nasz to sprawa jest prostsza: - niebieska karta za dręczenie, molestowanie, bicie
+- kodeks karny za to samo
+- eksmisja
+Robimy to też w przypadku pkt 1.
+3. Zakładamy sprawę o alimenty, bo przecież dziecko mieszka "u nas" i mamy wydatki!
+4. Zakładamy sprawę o ogranicznie władzy rodzicielskiej
+
+Art. 107. § 1. Jeżeli władza rodzicielska przysługuje obojgu rodzicom żyjącym w rozłączeniu, sąd opiekuńczy może ze względu na dobro dziecka określić sposób jej wykonywania. 
+§ 2. Sąd może powierzyć wykonywanie władzy rodzicielskiej jednemu z rodziców, ograniczając władzę rodzicielską drugiego do określonych obowiązków i uprawnień w stosunku do osoby dziecka. Sąd może pozostawić władzę rodzicielską obojgu rodzicom, jeżeli przedstawili zgodne z dobrem dziecka porozumienie o sposobie wykonywania władzy rodzicielskiej i utrzymywaniu kontaktów z dzieckiem, i jest zasadne oczekiwanie, że będą współdziałać w sprawach dziecka. Rodzeństwo powinno wychowywać się wspólnie, chyba że dobro dziecka wymaga innego rozstrzygnięcia.
+
+5. Organizujemy regulację kontaktów tak, żeby sąd rodzinny wziął pod uwagę niebieską kartę i mężczyzna ma kontrolowane widzenia raz w miesiącu z obecnością kuratora. itd itp etc
+
+
+A mężczyzna?
+1. ŻADNYCH wspólnych majątków, kredytów itd
+- intercyza
+- własne konta bankowe
+- dokumenty firmowe, prywatne finansowe etc - schowane
+2. KAŻDA istotna cenowo kupiona dziecku rzecz, nawet wydatki na ciążę, jest udokumentowana FAKTURĄ
+To ważne, bo sąd rodzinny nie bierze pod uwagę paragonów. Tylko FV.
+3. Przy pierwszych sygnałach, dziwnych zachowaniach - dyktafon.
+itd itp etc
+
+jeśli na rozprawie wstępnej udokumentujesz stosem faktur, że ponosisz czynny wkład, to możesz spróbować nawet oddalić powództwo w całości. W każdym razie otwierasz sobie drogę do negocjacji wysokości zasądzonych alimentów.
+Brałem udział w sprawach mężczyzn, którzy dawali pieniądze kobietom na takie zakupy i na sprawie dysponowali jedynie zdziwionym ryjem, bo stos leżał po drugiej stronie.
+
+
+ja nie piszę o jednostkowych ogromnych wydatkach, albo sporych w krótkim okresie czasu.
+Chodzi o stałe, konsekwentne dokumentowanie wydatków na piramidę potrzeb dziecka. 
+Łóżeczko, ubranka, szczepienia, żłobek, basen, itd itp 
+Dodajesz, że dążysz do opieki naprzemiennej i wychodzi, że spór jest bezprzedmiotowy. Do tego robisz sobie sztuczne koszty jeśli masz firmę, albo zaniżasz pensję oficjalną na umowie i idziesz gotowy na sprawę.
+Każdy sędzia z radością przyjmie ugodę, albo wspólny plan wychowawczy, bo ma zamkniętą sprawę. Jeśli oczywiście nie czuje solidarności jajnków.
+
+
+mam inne doświadczenia, a uczestniczyłem w kilkudziesięciu sprawach jako członek organizacji ojcowskiej.
+Alimentacja jest oczywiście ważna i wskazana nawet, ale w przypadku cynicznej gry jest to sprawa o czysty dochód kobiety i o tym mowa. Poza tym, akurat wczoraj Ziobro przedstawił mechanizm alimentacji natychmiastowej.
+Opieka naprzemienna oczywiście jest trudna we wskazanym przykładzie, ale możesz ją zamienić na wspólną albo równoważną w Planie Wychowawczym wnoszonym do sądu w ramach ugody.
+
+
+Mężczyzna generalnie szuka w związku/małżeństwie stabilizacji, spokoju, ciszy. Dom ma być miejscem, gdzie można odpocząć po pracy, zjeść obiad, pobawić się z dziećmi. Baby myślą inaczej. One oczekują emocji, atrakcji. Ich oczekiwania co do związków zupełnie nie pokrywają się z oczekiwaniami mężczyzn.
+
+https://www.wykop.pl/link/4203969/powstrzymajmy-alienacje-rodzicielska-jest-spot/najnowsze/
