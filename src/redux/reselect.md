@@ -26,3 +26,5 @@ export const selector = createSelector(
 ```
 
 https://github.com/reactjs/reselect/issues/73#issuecomment-171980131
+
+https://medium.com/@parkerdan/react-reselect-and-redux-b34017f8194c
