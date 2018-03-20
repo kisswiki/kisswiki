@@ -73,6 +73,10 @@ Reaorder - may make the file uplayable, if you reorder video track with audio.
 
 `mkvpropedit -v movie.mkv -v --edit track:2 --set track-number=3 --edit track:3 --set track-number=2`
 
+or specify track type like `a1`:
+
+`mkvpropedit movie.mkv --edit track:a1 --set flag-default=0 --edit track:a2 --set flag-default=1`
+
 Remove forced flag and reorder:
 
 `mkvpropedit -v movie.mkv -v --edit track:2 --set track-number=3 --edit track:3 --set track-number=2  --set flag-forced=0`
