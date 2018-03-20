@@ -34,3 +34,19 @@ https://stackoverflow.com/questions/35737094/how-to-configure-the-eslint-extensi
 ```
 
 https://github.com/eslint/eslint/issues/7030#issuecomment-243973102
+
+## disable line
+
+```json
+{
+    "ESLint Disable Line": {
+        "prefix": "eslignore",
+        "body": [
+            "//eslint-disable-line"
+        ],
+        "description": "Disable ESLint for the given line"
+    }
+}
+```
+
+- https://gist.github.com/adamweeks/9a33b4bdbb0004ad7817#file-javascript-json
