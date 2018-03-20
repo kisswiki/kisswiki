@@ -7,6 +7,9 @@
 - Fundamental Concepts in Programming Languages - CHRISTOPHER STRACHEY  https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf
   -  It is a beautiful paper and everybody can read and understand it. So, please do so. You will be much enlightened. https://stackoverflow.com/questions/210835/what-is-referential-transparency
 - https://github.com/mr-mig/every-programmer-should-know
+- Show me your [code] and conceal your [data structures], and I shall continue to be mystified. Show me your [data structures], and I won't usually need your [code]; it'll be obvious.
+  - https://lwn.net/Articles/193244/
+  - https://softwareengineering.stackexchange.com/questions/163185/torvalds-quote-about-good-programmer
 
 ## About
 
