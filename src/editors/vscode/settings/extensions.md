@@ -1,0 +1,5 @@
+- Disable Ligatures
+- DotEnv
+- Duplicate Action
+- eslint-disable-snippets
+- GitLens
