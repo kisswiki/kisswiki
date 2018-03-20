@@ -14,13 +14,15 @@ Show me your [code] and conceal your [data structures], and I shall continue to 
 
 Bad programmers worry about the code. Good programmers worry about data structures and their relationships.[1][2][3]
 
-[3]
+What he is saying is that good data structures make the code very easy to design and maintain, whereas the best code can't make up for poor data structures.[2]
+
 Rule of Representation: Fold knowledge into data so program logic can be stupid and robust.
 
 I always do it the other way around (when starting software from scratch):
 0. write the simplest mock/pseudo-code I can think of for the business logic that needs to be implemented
 1. extract from this ideal code the data structure that it needs in order to actually be so simple and write real code that implements these ideal data structures
 2. write the real code that actually does the work
+[3]
 
 - [1] https://lwn.net/Articles/193244/
 - [2] https://softwareengineering.stackexchange.com/questions/163185/torvalds-quote-about-good-programmer
