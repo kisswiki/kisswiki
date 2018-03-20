@@ -10,13 +10,21 @@
 
 ## Good data structures simplify code
 
-Show me your [code] and conceal your [data structures], and I shall continue to be mystified. Show me your [data structures], and I won't usually need your [code]; it'll be obvious.
+Show me your [code] and conceal your [data structures], and I shall continue to be mystified. Show me your [data structures], and I won't usually need your [code]; it'll be obvious.[1]
 
-Bad programmers worry about the code. Good programmers worry about data structures and their relationships.
+Bad programmers worry about the code. Good programmers worry about data structures and their relationships.[1][2][3]
 
-- https://lwn.net/Articles/193244/
-- https://softwareengineering.stackexchange.com/questions/163185/torvalds-quote-about-good-programmer
-- https://news.ycombinator.com/item?id=4560334
+[3]
+Rule of Representation: Fold knowledge into data so program logic can be stupid and robust.
+
+I always do it the other way around (when starting software from scratch):
+0. write the simplest mock/pseudo-code I can think of for the business logic that needs to be implemented
+1. extract from this ideal code the data structure that it needs in order to actually be so simple and write real code that implements these ideal data structures
+2. write the real code that actually does the work
+
+- [1] https://lwn.net/Articles/193244/
+- [2] https://softwareengineering.stackexchange.com/questions/163185/torvalds-quote-about-good-programmer
+- [3] https://news.ycombinator.com/item?id=4560334
 
 ## About
 
