@@ -16,6 +16,8 @@
 - https://trix-editor.org/
 - https://github.com/ianstormtaylor/slate
 - comparison https://github.com/ianstormtaylor/slate
+- https://github.com/jaredreich/pell
+  - https://www.reddit.com/r/programming/comments/84d6t8/pelljs_v10_released_the_simplest_and_smallest_1kb/
 
 ## Android keyboard problems
 
