@@ -1,1 +1,3 @@
 - The Rules for Rulers https://youtu.be/rStL7niR7gs
+- 8values jest testem politycznym, który stara się przyporządkować procentowo Twoje poglądy do ośmiu różnych wartości politycznych. http://8values.m4sk.in/
+  - https://www.wykop.pl/link/4221801/comment/53601121/#comment-53601121
