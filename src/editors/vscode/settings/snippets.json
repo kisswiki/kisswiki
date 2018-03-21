@@ -1,9 +1,16 @@
 {
-    "ESLint Disable Line": {
-        "prefix": "eslignore",
-        "body": [
-            "//eslint-disable-line"
-        ],
-        "description": "Disable ESLint for the given line"
-    }
+	"ESLint Disable Line": {
+		"prefix": "eslignore",
+		"body": [
+			"//eslint-disable-line"
+		],
+		"description": "Disable ESLint for the given line"
+	},
+	"console.log eslint-disable line": {
+		"prefix": "cones",
+		"body": [
+			"console.log($0); //eslint-disable-line"
+		],
+		"description": "console.log eslint-disable line"
+	}
 }
