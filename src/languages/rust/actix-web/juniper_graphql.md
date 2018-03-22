@@ -1,0 +1,4 @@
+- https://github.com/graphql-rust/juniper/issues/149
+  - https://github.com/actix/actix-web/tree/master/examples/juniper
+    - Will add the other examples later https://github.com/actix/actix-web/pull/86#issuecomment-369123844
+      - examples/juniper-websocket https://github.com/actix/actix-web/pull/81/files
