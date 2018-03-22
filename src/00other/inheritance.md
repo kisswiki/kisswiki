@@ -1,0 +1,2 @@
+- https://www.sicpers.info/2018/03/why-inheritance-never-made-any-sense/any
+  - https://news.ycombinator.com/item?id=16605831
