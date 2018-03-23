@@ -3,3 +3,5 @@
   - https://github.com/emk/rust-musl-builder/issues/27
     - https://github.com/sgrif/pq-sys/pull/18
 - https://github.com/liuchong/docker-rustup
+- https://www.reddit.com/r/rust/comments/86e5wn/how_to_use_docker_with_rust/
+  - https://readrust.net/devops-and-deployment/
