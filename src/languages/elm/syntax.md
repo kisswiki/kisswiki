@@ -1,0 +1,1 @@
+- https://discourse.elm-lang.org/t/lesser-known-syntax/641/8
