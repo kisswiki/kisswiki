@@ -1,0 +1,1 @@
+`time REACT_APP_DEBUG=true yarn build && echo -en "\007" && serve -s build`
