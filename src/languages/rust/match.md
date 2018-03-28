@@ -30,3 +30,4 @@ KeyDown {
 - https://github.com/ggez/ggez/blob/9ce5c1722bf0552e2af129dca23717e1f12f020a/src/event.rs#L216
 - https://www.reddit.com/r/rust/comments/6jepxy/syntax_related_questions/
 - https://www.reddit.com/r/rust/comments/3tq5au/how_to_match_an_enums_that_are_stored_in_an_array/
+- https://learning-rust.github.io/docs/a10.control_flows.html#match
