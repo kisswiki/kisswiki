@@ -22,7 +22,7 @@ in ~/.bash_profile
 ```
 _git_fe() 
 {
-    __gitcomp_direct "$(__git_heads)"
+    __gitcomp_direct "$(__git_heads "" "$cur" " ")"
 }
 ```
 
