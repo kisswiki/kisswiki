@@ -28,3 +28,4 @@ _git_fe()
 
 - https://cmetcalfe.ca/blog/git-checkout-autocomplete-local-branches-only.html
 - https://github.com/git/git/commit/227307a639c96b3579b7fe60840fdae123d1ee88
+  - https://github.com/git/git/blob/227307a639c96b3579b7fe60840fdae123d1ee88/contrib/completion/git-completion.bash#L1199
