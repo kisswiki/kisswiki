@@ -17,7 +17,7 @@ https://stackoverflow.com/questions/11466991/git-aliases-git command-line-autoco
 
 ## to complete local branches
 
-in ~/.bash_profile
+in ~/.bash_profile (taken from _git_branch)
 
 ```
 _git_fe() 
