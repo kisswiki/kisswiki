@@ -31,3 +31,8 @@ By giving every application its own authentication and access control proxy, eac
 
 - https://news.ycombinator.com/item?id=16205351
 - https://thenewstack.io/beyondcorp-google-ditched-virtual-private-networking-internal-applications/?_lrsc=736ef0f1-9e4b-4970-81fc-82957c3e6c0f
+
+## leak
+
+- https://voidsec.com/vpn-leak/
+  - https://news.ycombinator.com/item?id=16699270
