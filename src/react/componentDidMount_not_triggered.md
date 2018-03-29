@@ -1,0 +1,1 @@
+Maybe use `componentDidUpdate`. Here is it suggested to use `componentWillUpdate` https://github.com/ReactTraining/react-router/issues/49#issuecomment-282562271, but that will be deprecated https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html.
