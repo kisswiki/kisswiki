@@ -9,6 +9,8 @@
 
 ### Dark about:blank
 
+- https://github.com/overdodactyl/ShadowFox
+- https://github.com/Izheil/Firefox-57-full-dark-theme-with-scrollbars
 - https://addons.mozilla.org/en-US/firefox/addon/black-new-tab/
 
 1. Open `about:profiles` in Firefox.
