@@ -24,3 +24,7 @@ https://docs.microsoft.com/en-us/vsts/git/pull-requests
 ## change issue to Active
 
 First change from Draft to New, then to Active.
+
+## beware - merge uses union
+
+- https://stackoverflow.com/questions/12947436/git-union-merge-brings-back-some-deleted-lines
