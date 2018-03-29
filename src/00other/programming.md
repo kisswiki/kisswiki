@@ -7,6 +7,7 @@
 - Fundamental Concepts in Programming Languages - CHRISTOPHER STRACHEY  https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf
   -  It is a beautiful paper and everybody can read and understand it. So, please do so. You will be much enlightened. https://stackoverflow.com/questions/210835/what-is-referential-transparency
 - https://github.com/mr-mig/every-programmer-should-know
+- `Premature Generalization.md`
 
 ## Good data structures simplify code
 
