@@ -22,3 +22,13 @@ Triple-entry accounting, basically. There was an article on here a few months ag
 Double-entry accounting made it much harder to cook the books (a record of where money is coming from and a record of where it is going). Blockchains store every transaction within the coin itself and are validated by the entire network as valid transactions.
 
 https://news.ycombinator.com/item?id=15867725
+
+##
+
+Blockchain is a shit database concept. It's use as a currency is one of its best uses. This idea that blockchains are a good database is an absurd myth. Blockchains are useful specifically for doing distributed consensus, and almost nothing else. Currencies are one of the best applications of distributed adversarial consensus. There are others, but currency is pretty near the top of the list.
+
+https://news.ycombinator.com/item?id=16707956
+
+The Blockchain is a clever combination of two preexisting concepts: distributed merkel trees, and a consensus algorithm. If you remove one of them, you no longer have a Blockchain, you just have one of its preexisting components.
+
+https://news.ycombinator.com/item?id=16708391
