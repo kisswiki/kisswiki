@@ -1,5 +1,5 @@
 - https://stevedonovan.github.io/rust-gentle-intro/2-structs-enums-lifetimes.html#rust-likes-to-move-it-move-it
-- https://rustbyexample.com/scope/move.html
+- https://doc.rust-lang.org/rust-by-example/scope/move.html
 
 ##
 

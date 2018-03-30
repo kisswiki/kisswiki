@@ -1,1 +1,1 @@
-- https://rustbyexample.com/trait/derive.html
+- https://doc.rust-lang.org/rust-by-example/trait/derive.html
