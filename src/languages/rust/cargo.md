@@ -35,7 +35,7 @@ http://doc.crates.io/guide.html#working-on-an-existing-cargo-project
 
 ## new project
 
-`cargo new hello_world --bin`
+`cargo new hello_world`
 
 http://doc.crates.io/guide.html
 
@@ -69,8 +69,8 @@ path = "src/server.rs"
 And then run it like that:
 
 ```
-cargo run --bin main
-cargo run --bin server
+cargo run main
+cargo run server
 ```
 
 Runing single `cargo run` won't work if specified `[[bin]]`.
