@@ -1,0 +1,2 @@
+- We use .graphql internally at Facebook https://github.com/facebook/graphql/issues/203#issuecomment-242140024
+- this uses `*.gql` https://github.com/Mayank1791989/gql
