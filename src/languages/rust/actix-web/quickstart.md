@@ -1,5 +1,5 @@
 ```bash
-$ cargo new --bin actix-web-tryout
+$ cargo new actix-web-tryout
 $ cd actix-web-tryout
 # to have `cargo add` available, run `cargo install cargo-edit`
 $ cargo add actix actix-web
