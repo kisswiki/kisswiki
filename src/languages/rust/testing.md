@@ -2,4 +2,4 @@
 
 `rustc --test unit_test.rs`
 
-http://rustbyexample.com/meta/test.html
+https://doc.rust-lang.org/rust-by-example/testing.html

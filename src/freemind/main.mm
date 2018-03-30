@@ -14605,7 +14605,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1419805123494" LINK="http://rustbyexample.com/enum.html" MODIFIED="1419805123494" TEXT="rustbyexample.com &gt; Enum"/>
+<node CREATED="1419805123494" LINK="https://doc.rust-lang.org/rust-by-example/custom_types/enum.html" MODIFIED="1419805123494" TEXT="https://doc.rust-lang.org/rust-by-example/custom_types/enum.html"/>
 <node CREATED="1419805942489" FOLDED="true" ID="ID_1296345625" LINK="https://stackoverflow.com/questions/26437043/why-does-rust-have-struct-and-enum" MODIFIED="1448266407408" TEXT="enum vs struct">
 <node CREATED="1419805989403" ID="ID_1990888090" MODIFIED="1419806008788" TEXT="Firstly, Rust has a wide array of data types:&#xa;&#xa;Structs with named fields (struct Foo {bar: uint})&#xa;Tuple structs (struct Foo(pub Bar, Baz))&#xa;Structs with no fields (struct Foo;)&#xa;&#xa;Enums, with various types of variants:&#xa;  Variants with no fields (eg None)&#xa;  Tuple variants (eg Some(T))&#xa;  Struct variants (eg Some {pub inner :T}) [These are experimental]"/>
 </node>
@@ -14619,7 +14619,7 @@
 <node CREATED="1418915983008" FOLDED="true" ID="ID_1570048859" MODIFIED="1448266407407" TEXT="pub enum Result&lt;T, E&gt; {&#xa;    Ok(T),&#xa;    Err(E),&#xa;}">
 <node CREATED="1418915973535" ID="ID_987443767" LINK="http://doc.rust-lang.org/std/result/enum.Result.html" MODIFIED="1418915973535" TEXT="doc.rust-lang.org &gt; Std &gt; Result &gt; Enum.Result"/>
 </node>
-<node CREATED="1419797600360" ID="ID_759794325" LINK="http://rustbyexample.com/result.html" MODIFIED="1419797607063" TEXT="We&apos;ve seen that the Option enum can be used as a return value from functions that may fail, where None can be returned to indicate failure. However, sometimes is important to express why an operation failed. To do this we have the Result enum"/>
+<node CREATED="1419797600360" ID="ID_759794325" LINK="https://doc.rust-lang.org/rust-by-example/error/result.html" MODIFIED="1419797607063" TEXT="We&apos;ve seen that the Option enum can be used as a return value from functions that may fail, where None can be returned to indicate failure. However, sometimes is important to express why an operation failed. To do this we have the Result enum"/>
 <node CREATED="1419797734833" LINK="https://stackoverflow.com/questions/22187926/whats-the-benefit-of-using-a-result-in-rust" MODIFIED="1419797734833" TEXT="https://stackoverflow.com/questions/22187926/whats-the-benefit-of-using-a-result-in-rust"/>
 </node>
 <node CREATED="1418914434932" FOLDED="true" ID="ID_288450174" MODIFIED="1448266407407" TEXT="try!">
@@ -14656,7 +14656,7 @@
 </node>
 </node>
 <node CREATED="1415711516651" FOLDED="true" ID="ID_1081036236" MODIFIED="1448266407406" TEXT="examples">
-<node CREATED="1415711518492" LINK="http://rustbyexample.com/" MODIFIED="1415711518492" TEXT="rustbyexample.com"/>
+<node CREATED="1415711518492" LINK="https://doc.rust-lang.org/rust-by-example" MODIFIED="1415711518492" TEXT="https://doc.rust-lang.org/rust-by-example"/>
 <node CREATED="1415711523753" LINK="http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/" MODIFIED="1415711523753" TEXT="jvns.ca &gt; Blog &gt; 2014 &gt; 09 &gt; 18 &gt; You-can-be-a-kernel-hacker"/>
 <node CREATED="1415711813853" ID="ID_1655783630" LINK="https://github.com/Hoverbear/rust-rosetta" MODIFIED="1415711813853" TEXT="https://github.com/Hoverbear/rust-rosetta"/>
 <node CREATED="1415717041965" FOLDED="true" ID="ID_1269849824" MODIFIED="1448266407406" TEXT="is_prime">
@@ -14909,7 +14909,7 @@
 <node CREATED="1415722967574" FOLDED="true" ID="ID_1984825482" MODIFIED="1448266407404" TEXT="fs">
 <node CREATED="1415722990218" ID="ID_1819499573" LINK="http://doc.rust-lang.org/std/io/fs/" MODIFIED="1415722990218" TEXT="doc.rust-lang.org &gt; Std &gt; Io &gt; Fs"/>
 <node CREATED="1415722969172" ID="ID_166278873" LINK="http://doc.rust-lang.org/std/io/fs/fn.readdir.html" MODIFIED="1415722969172" TEXT="doc.rust-lang.org &gt; Std &gt; Io &gt; Fs &gt; Fn.readdir"/>
-<node CREATED="1419802403667" ID="ID_444588435" LINK="http://rustbyexample.com/fs.html" MODIFIED="1419802403667" TEXT="rustbyexample.com &gt; Fs"/>
+<node CREATED="1419802403667" ID="ID_444588435" LINK="https://doc.rust-lang.org/rust-by-example/std_misc/fs.html" MODIFIED="1419802403667" TEXT="https://doc.rust-lang.org/rust-by-example/std_misc/fs.html"/>
 </node>
 <node CREATED="1418912323694" FOLDED="true" ID="ID_973830054" MODIFIED="1448266407404" TEXT="input">
 <node CREATED="1418912326300" ID="ID_7645760" LINK="http://stackoverflow.com/questions/24254874/getting-basic-input-for-ints" MODIFIED="1418912326300" TEXT="stackoverflow.com &gt; Questions &gt; 24254874 &gt; Getting-basic-input-for-ints"/>
@@ -14979,7 +14979,7 @@
 </node>
 </node>
 <node CREATED="1418910341244" FOLDED="true" ID="ID_461085944" MODIFIED="1448266407403" TEXT="vectors">
-<node CREATED="1418910342835" LINK="http://rustbyexample.com/vec.html" MODIFIED="1418910342835" TEXT="rustbyexample.com &gt; Vec"/>
+<node CREATED="1418910342835" LINK="https://doc.rust-lang.org/rust-by-example/std/vec.html" MODIFIED="1418910342835" TEXT="https://doc.rust-lang.org/rust-by-example/std/vec.html"/>
 <node CREATED="1418910351222" LINK="http://doc.rust-lang.org/guide.html#arrays" MODIFIED="1418910351222" TEXT="doc.rust-lang.org &gt; Guide"/>
 <node CREATED="1418916754348" FOLDED="true" ID="ID_678639561" MODIFIED="1448266407403" TEXT="empty">
 <node CREATED="1418916764035" ID="ID_336333548" MODIFIED="1418916764826" TEXT="let mut collected_iterator: Vec&lt;int&gt; = Vec::new();"/>
