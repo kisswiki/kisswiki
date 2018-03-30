@@ -1,0 +1,1 @@
+- cannot change sidebar/workspace font https://github.com/Microsoft/vscode/issues/519
