@@ -27,7 +27,7 @@
 ## Examples
 
 - https://rust-lang-nursery.github.io/rust-cookbook
-- http://rustbyexample.com/
+- https://doc.rust-lang.org/rust-by-example
 - https://learnxinyminutes.com/docs/rust/
 - https://rosettacode.org/wiki/Category:Rust
 - https://zsiciarz.github.io/24daysofrust
