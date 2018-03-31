@@ -2,7 +2,8 @@
 - https://alpacaaa.net/blog/post/elm-graphql-client/
 - https://www.reddit.com/r/elm/comments/5zpz9h/hacker_news_clone_in_elm_elmnavigation_graphql/
 - https://github.com/dillonkearns/graphqelm
-  - https://github.com/dillonkearns/graphqelm/issues/54
+  - GraphQL Error on HTTP 200 and correct json schema wrapped in error https://github.com/dillonkearns/graphqelm/issues/54
+  - https://github.com/dillonkearns/graphqelm/blob/master/examples/src/GithubPagination.elm
 
 ## ghivert/elm-graphql
 
