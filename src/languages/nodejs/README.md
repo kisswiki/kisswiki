@@ -79,11 +79,3 @@ node-cross-spawn
 
 - http://stackoverflow.com/questions/27688804/how-do-i-debug-error-spawn-enoent-on-node-js/35561971#35561971
 - https://github.com/IndigoUnited/node-cross-spawn
-
-## Unexpected token import
-
-In Node 9, it is enabled behind a flag, and uses the .mjs extension.
-
-`node --experimental-modules my-app.mjs`
-
-https://stackoverflow.com/questions/39436322/node-js-syntaxerror-unexpected-token-import
