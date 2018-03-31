@@ -123,7 +123,7 @@ new GraphQLClient(graphqlUrl, {
 
 graphiql variables
 
-```graphql
+```json
 {
   "includeDeprecated": true
 }
