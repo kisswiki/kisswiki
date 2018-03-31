@@ -5,7 +5,7 @@ If we would like to use the variables in GraphiQL just click on the QUERY VARIAB
 
 ```json
 {
-  includeDeprecated: true
+  "includeDeprecated": true
 }
 ```
 
