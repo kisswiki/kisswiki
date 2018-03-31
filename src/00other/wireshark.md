@@ -17,3 +17,8 @@ Install npcap
 - https://wiki.wireshark.org/CaptureSetup/Loopback
   - https://nmap.org/npcap/
 - https://ask.wireshark.org/questions/29211/how-can-wireshark-capture-local-host-traffic-on-windows
+
+## gzip
+
+- https://stackoverflow.com/questions/12925769/wireshark-doesnt-decode-gziped-http-traffic-on-windows
+- https://osqa-ask.wireshark.org/questions/6598/how-to-decompress-gzipped-contents
