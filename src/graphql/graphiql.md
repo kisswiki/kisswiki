@@ -3,9 +3,9 @@
 ## query variables
 If we would like to use the variables in GraphiQL just click on the QUERY VARIABLES panel at the bottom of your screen
 
-```graphql
+```json
 {
-  "includeDeprecated": true
+  includeDeprecated: true
 }
 ```
 
