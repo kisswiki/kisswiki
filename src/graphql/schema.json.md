@@ -1,3 +1,5 @@
+- https://github.com/yoctol/fetch-graphql-schema
+
 >schema.json is nothing but the serialized result of an introspection query onto GraphQL itself https://github.com/denvned/isomorphic-relay-router/issues/28#issuecomment-215653054
 
 ##
