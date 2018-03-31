@@ -27,6 +27,99 @@ new GraphQLClient(graphqlUrl, {
 ```
 
 - https://github.com/dillonkearns/graphqelm/blob/master/src/graphqelm.ts
+
+>graphqelm url --excludeDeprecated # excludes deprecated enums and fields (they are included by default) https://github.com/dillonkearns/graphqelm/blob/master/src/graphqelm.ts#L19
+
+```graphql
+{
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+  }
+}
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+fragment InputValue on __InputValue {
+  name
+  description
+  type { ...TypeRef }
+  defaultValue
+}
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+
 - https://github.com/dillonkearns/graphqelm/blob/master/src/introspection-query.ts
 
 >We designed the type system, so we know what types are available, but if we didn't, we can ask GraphQL, by querying the __schema field, always available on the root type of a Query. 
