@@ -26,4 +26,9 @@ new GraphQLClient(graphqlUrl, {
     .request(introspectionQuery, { includeDeprecated: !excludeDeprecated })
 ```
 
-https://github.com/dillonkearns/graphqelm/blob/master/src/graphqelm.ts
+- https://github.com/dillonkearns/graphqelm/blob/master/src/graphqelm.ts
+- https://github.com/dillonkearns/graphqelm/blob/master/src/introspection-query.ts
+
+>We designed the type system, so we know what types are available, but if we didn't, we can ask GraphQL, by querying the __schema field, always available on the root type of a Query. 
+
+http://graphql.org/learn/introspection/
