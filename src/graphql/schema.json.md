@@ -31,64 +31,61 @@ new GraphQLClient(graphqlUrl, {
 >graphqelm url --excludeDeprecated # excludes deprecated enums and fields (they are included by default) https://github.com/dillonkearns/graphqelm/blob/master/src/graphqelm.ts#L19
 
 ```graphql
-{
-  __schema {
-    queryType {
-      name
-    }
-    mutationType {
-      name
-    }
-    subscriptionType {
-      name
-    }
-    types {
-      ...FullType
+{query IntrospectionQuery($includeDeprecated: Boolean!) {
+    __schema {
+      queryType {
+        name
+      }
+      mutationType {
+        name
+      }
+      subscriptionType {
+        name
+      }
+      types {
+        ...FullType
+      }
     }
   }
-}
-fragment FullType on __Type {
-  kind
-  name
-  description
-  fields(includeDeprecated: true) {
+  fragment FullType on __Type {
+    kind
     name
     description
-    args {
+    fields(includeDeprecated: $includeDeprecated) {
+      name
+      description
+      args {
+        ...InputValue
+      }
+      type {
+        ...TypeRef
+      }
+      isDeprecated
+      deprecationReason
+    }
+    inputFields {
       ...InputValue
     }
-    type {
+    interfaces {
       ...TypeRef
     }
-    isDeprecated
-    deprecationReason
+    enumValues(includeDeprecated: $includeDeprecated) {
+      name
+      description
+      isDeprecated
+      deprecationReason
+    }
+    possibleTypes {
+      ...TypeRef
+    }
   }
-  inputFields {
-    ...InputValue
-  }
-  interfaces {
-    ...TypeRef
-  }
-  enumValues(includeDeprecated: true) {
+  fragment InputValue on __InputValue {
     name
     description
-    isDeprecated
-    deprecationReason
+    type { ...TypeRef }
+    defaultValue
   }
-  possibleTypes {
-    ...TypeRef
-  }
-}
-fragment InputValue on __InputValue {
-  name
-  description
-  type { ...TypeRef }
-  defaultValue
-}
-fragment TypeRef on __Type {
-  kind
-  name
-  ofType {
+  fragment TypeRef on __Type {
     kind
     name
     ofType {
@@ -109,6 +106,10 @@ fragment TypeRef on __Type {
               ofType {
                 kind
                 name
+                ofType {
+                  kind
+                  name
+                }
               }
             }
           }
@@ -116,6 +117,13 @@ fragment TypeRef on __Type {
       }
     }
   }
+```
+
+graphiql variables
+
+```graphql
+{
+  "includeDeprecated": true
 }
 ```
 
