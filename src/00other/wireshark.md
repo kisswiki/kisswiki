@@ -22,3 +22,9 @@ Install npcap
 
 - https://stackoverflow.com/questions/12925769/wireshark-doesnt-decode-gziped-http-traffic-on-windows
 - https://osqa-ask.wireshark.org/questions/6598/how-to-decompress-gzipped-contents
+
+## http/2
+
+- https://react-etc.net/entry/dump-and-debug-http-2-traffic-with-a-reverse-proxy-h2a-or-wireshark
+- https://github.com/summerwind/h2a
+- https://wiki.wireshark.org/HTTP2
