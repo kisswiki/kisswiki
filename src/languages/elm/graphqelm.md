@@ -1,6 +1,24 @@
 - https://github.com/dillonkearns/graphqelm
+  - https://github.com/dillonkearns/graphqelm/blob/master/FAQ.md
   - GraphQL Error on HTTP 200 and correct json schema wrapped in error https://github.com/dillonkearns/graphqelm/issues/54
   - https://github.com/dillonkearns/graphqelm/blob/master/examples/src/GithubPagination.elm
+
+  ## json schema
+
+  You can save json schema to file: `introspection_and_schema.json.md`.
+
+```json
+{
+    "data": {
+        "__schema": {
+            "queryType": {},
+            "mutationType": {},
+            "subscriptionType": null,
+            "types": []
+        }
+    }
+}
+```
 
   ## generate elm from json schema
 
