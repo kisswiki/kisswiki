@@ -1,11 +1,13 @@
 ```javascript
-await fetch('http://127.0.0.1:8080/graphql', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ query: "{ __schema { types { name } } }"}),
-})
-.then(result => result.json())
-.then(json => console.log(JSON.stringify(json, null, 2)));
+(async () => { // this line can and the last can be omitted in web browser dev tools console
+  await fetch('http://127.0.0.1:8080/graphql', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query: "{ __schema { types { name } } }"}),
+  })
+  .then(result => result.json())
+  .then(json => console.log(JSON.stringify(json, null, 2)));
+})()
 ```
 
 - http://graphql.org/learn/introspection/
