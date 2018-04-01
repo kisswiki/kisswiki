@@ -52,7 +52,13 @@ https://dev.to/geoff/import-local-json-in-nodejs-v85-experimental-modules
 
 Also no such test https://github.com/nodejs/node/blob/master/test/es-module/test-esm-import-meta.mjs in 9.10.1.
 
-Use this:
+```javascript
+const __dirname = path.dirname(new url.URL(import.meta.url).pathname)
+```
+
+https://medium.com/@giltayar/native-es-modules-in-nodejs-status-and-future-directions-part-i-ee5ea3001f71
+
+Until it's implemented, use this:
 
 expose.js
 
