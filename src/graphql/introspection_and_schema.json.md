@@ -1,6 +1,7 @@
 - https://facebook.github.io/graphql/#sec-Introspection
 - http://graphql.org/learn/introspection/
 - http://graphql.org/graphql-js/utilities/
+- https://astexplorer.net/#/drYr8X1rnP/1
 - https://github.com/rofrol/fetch-graphql-schema-custom
 
 ```javascript
