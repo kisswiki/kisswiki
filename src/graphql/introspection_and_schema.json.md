@@ -1,3 +1,17 @@
+```javascript
+await fetch('http://127.0.0.1:8080/graphql', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query: "{ __schema { types { name } } }"}),
+})
+.then(result => result.json())
+.then(json => console.log(JSON.stringify(json, null, 2)));
+```
+
+- http://graphql.org/learn/introspection/
+
+##
+
 - https://github.com/yoctol/fetch-graphql-schema
 
 >schema.json is nothing but the serialized result of an introspection query onto GraphQL itself https://github.com/denvned/isomorphic-relay-router/issues/28#issuecomment-215653054
