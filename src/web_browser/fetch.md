@@ -1,6 +1,8 @@
 
 ## error is not catched
 
+also using node-fetch: https://github.com/Yoctol/fetch-graphql-schema/issues/7
+
 error:
 
 ```
