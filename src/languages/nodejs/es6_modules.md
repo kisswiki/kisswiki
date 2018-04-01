@@ -69,3 +69,25 @@ const {__dirname} = expose;
 - https://stackoverflow.com/questions/46745014/alternative-for-dirname-in-node-when-using-the-experimental-modules-flag/46745166#46745166
 - https://esdiscuss.org/topic/nodejss-filename-dirname-in-es6-modules
 - https://blog.risingstack.com/whats-new-in-node-js-8-5/
+
+## The Rules
+
+### The Rules of ES Modules
+
+- A file is ESM if and only if the extension is “mjs”
+- A file is CJS if and only if the extension is “js”
+- Only ESM is allowed to use export/import statements
+- Only CJS is allowed to use import CJS using require
+
+### The Rules of Interoperability
+
+- CJS can import ESM, but only using await import()
+- ESM can import CJS using the import statement, but only a default import
+
+### The Rules of Migration
+
+- require-ing a file with no extension resolves to a .js file.
+- Importing a file with no extension resolves first to a .mjs file, and only if not found, to a .js file.
+- Resolving bare imports is the same in CJS and MJS, except for which extension is used.
+
+https://medium.com/@giltayar/native-es-modules-in-nodejs-status-and-future-directions-part-i-ee5ea3001f71
