@@ -12,17 +12,14 @@ code:
 
 ```javascript
 (async () => { // this line can and the last can be omitted in web browser dev tools console
-  try {
-    const response = await fetch('http://127.0.0.1:8080/graphql2', {
+  await fetch('http://127.0.0.1:8080/graphql2', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query: "{ __schema { types { name } } }"}),
-    })
-    const json = await response.json();
-    console.log(JSON.stringify(json, null, 2));
-  } catch (error) {
-    console.error(error);
-  }
+  })
+  .catch(error => console.error('BAD', error))
+  .then(response => response.json())
+  .then(json => console.log(JSON.stringify(json, null, 2)));
 })()
 ```
 
@@ -31,13 +28,13 @@ solution - use try..catch:
 ```javascript
 (async () => { // this line can and the last can be omitted in web browser dev tools console
   try {
-    await fetch('http://127.0.0.1:8080/graphql', {
+    const response = await fetch('http://127.0.0.1:8080/graphql', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query: "{ __schema { types { name } } }"}),
     })
-    .then(result => result.json())
-    .then(json => console.log(JSON.stringify(json, null, 2)));
+    const json = await response.json();
+    console.log(JSON.stringify(json, null, 2));
   } catch (error) {
     console.error(error);
   }
