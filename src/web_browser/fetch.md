@@ -1,4 +1,51 @@
 
+## error is not catched
+
+error:
+
+```
+VM448:8 Uncaught (in promise) SyntaxError: Unexpected end of JSON input
+    at fetch.catch.then.result (<anonymous>:8:26)
+```
+
+code:
+
+```javascript
+(async () => { // this line can and the last can be omitted in web browser dev tools console
+  try {
+    const response = await fetch('http://127.0.0.1:8080/graphql2', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query: "{ __schema { types { name } } }"}),
+    })
+    const json = await response.json();
+    console.log(JSON.stringify(json, null, 2));
+  } catch (error) {
+    console.error(error);
+  }
+})()
+```
+
+solution - use try..catch:
+
+```javascript
+(async () => { // this line can and the last can be omitted in web browser dev tools console
+  try {
+    await fetch('http://127.0.0.1:8080/graphql', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query: "{ __schema { types { name } } }"}),
+    })
+    .then(result => result.json())
+    .then(json => console.log(JSON.stringify(json, null, 2)));
+  } catch (error) {
+    console.error(error);
+  }
+})()
+```
+
+https://medium.com/@thejasonfile/fetch-vs-axios-js-for-making-http-requests-2b261cdd3af5
+
 ## POST
 
 ```javascript
