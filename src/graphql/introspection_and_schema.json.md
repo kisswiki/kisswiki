@@ -1,3 +1,8 @@
+- https://facebook.github.io/graphql/#sec-Introspection
+- http://graphql.org/learn/introspection/
+- http://graphql.org/graphql-js/utilities/
+- https://github.com/rofrol/fetch-graphql-schema-custom
+
 ```javascript
 (async () => { // this line can and the last can be omitted in web browser dev tools console
   try {
@@ -13,8 +18,6 @@
   }
 })()
 ```
-
-- http://graphql.org/learn/introspection/
 
 ##
 
