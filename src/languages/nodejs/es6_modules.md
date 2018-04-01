@@ -44,3 +44,28 @@ const { version } = require('./package.json');
 ```
 
 https://dev.to/geoff/import-local-json-in-nodejs-v85-experimental-modules
+
+## __dirname
+
+`import.meta` is not supported as of latest node-9.10.1 https://github.com/nodejs/node/blob/v9.10.1/doc/api/esm.md
+
+Also no such test https://github.com/nodejs/node/blob/master/test/es-module/test-esm-import-meta.mjs in 9.10.1.
+
+Use this:
+
+expose.js
+
+```javascript
+module.exports = {__dirname};
+```
+
+use.mjs
+
+```javascript
+import expose from './expose.js';
+const {__dirname} = expose;
+```
+
+- https://stackoverflow.com/questions/46745014/alternative-for-dirname-in-node-when-using-the-experimental-modules-flag/46745166#46745166
+- https://esdiscuss.org/topic/nodejss-filename-dirname-in-es6-modules
+- https://blog.risingstack.com/whats-new-in-node-js-8-5/
