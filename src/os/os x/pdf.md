@@ -1,1 +1,2 @@
 - didn't work https://apple.stackexchange.com/questions/84999/change-background-colour-for-pdf-when-viewing
+- https://stackoverflow.com/questions/29942955/changing-the-text-and-background-color-of-a-pdf-file

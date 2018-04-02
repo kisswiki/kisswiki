@@ -36,3 +36,13 @@ Install npcap
 - http://pcapperf.appspot.com/
   - https://github.com/andrewf/pcap2har
 - https://github.com/jmatj/har2pcap
+
+Line-based text data: application/json
+
+## Line-based text data: application/json
+
+I got this because I stringified already stringified json.
+
+## data and no json
+
+That's because there was no header `content-type: application/json`.
