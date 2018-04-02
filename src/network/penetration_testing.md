@@ -1,0 +1,4 @@
+- https://www.amazon.com/Advanced-Penetration-Testing-Hacking-Networks-ebook/dp/B06XCKTKK8
+- https://www.amazon.com/Kali-Linux-End-end-penetration-ebook/dp/B075V9FZ1G
+- https://www.amazon.com/Blue-Team-Field-Manual-BTFM-ebook/dp/B077WF4WYV
+- https://www.amazon.com/HACKED-Wireless-Ultimate-Penetration-Practical-ebook/dp/B0791WSRNZ
