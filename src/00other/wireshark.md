@@ -28,3 +28,11 @@ Install npcap
 - https://react-etc.net/entry/dump-and-debug-http-2-traffic-with-a-reverse-proxy-h2a-or-wireshark
 - https://github.com/summerwind/h2a
 - https://wiki.wireshark.org/HTTP2
+
+## HAR
+
+- https://osqa-ask.wireshark.org/questions/43731/unable-to-open-or-import-http-archive-files-har-generated-by-chrome
+- https://stackoverflow.com/questions/12330927/easiest-way-to-convert-pcap-to-json
+- http://pcapperf.appspot.com/
+  - https://github.com/andrewf/pcap2har
+- https://github.com/jmatj/har2pcap
