@@ -1,2 +1,3 @@
 - http://graphql.nodaljs.com/
 - https://github.com/apollographql/launchpad
+  - https://dev-blog.apollodata.com/introducing-launchpad-the-graphql-server-demo-platform-cc4e7481fcba
