@@ -1,3 +1,7 @@
+## learn
+
+- https://en.wikiversity.org/wiki/Wireshark/HTTP
+
 ## display filter
 
 - `http and ip.src==127.0.0.1` https://wiki.wireshark.org/DisplayFilters
