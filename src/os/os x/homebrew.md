@@ -79,3 +79,9 @@ Then re-install it:
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+## cask search
+
+- https://caskroom.github.io/search
+
+`brew cask search | rg mono`
