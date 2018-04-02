@@ -11,3 +11,4 @@
 - https://github.com/micmro/PerfCascade
 - Using Fiddler2 instead of the online HAR viewer http://alertfox.com/using-fiddler2-instead-of-the-online-har-viewer/
 - http://stackoverflow.com/questions/12330927/easiest-way-to-convert-pcap-to-json
+- http://www.softwareishard.com/blog/har-12-spec/
