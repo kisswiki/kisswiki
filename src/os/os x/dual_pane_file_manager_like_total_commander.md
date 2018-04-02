@@ -12,7 +12,7 @@
     - run terminal cmd+shift+c
     - can use F1-Fx for commands
   - https://doublecmd.sourceforge.io/
--  Commander One https://mac.eltima.com/file-manager.html
+-  Commander One https://mac.eltima.com/file-manager.html https://itunes.apple.com/us/app/commander-one-dual-pane-file-manager/id1035236694
   - looks good
   - freemium
   - Assign ctrl+space to folder size in preferences
