@@ -1,2 +1,5 @@
 - didn't work https://apple.stackexchange.com/questions/84999/change-background-colour-for-pdf-when-viewing
 - https://stackoverflow.com/questions/29942955/changing-the-text-and-background-color-of-a-pdf-file
+- https://nickhigham.wordpress.com/2013/01/12/black-background-pdf-viewing/
+- kindle can have dark background, but that required mobi or azw3.
+- `npm i -g serve && serve`, open file in chrome from http://localhost:5000, Chrome extension Dark Reader > enable for this domain
