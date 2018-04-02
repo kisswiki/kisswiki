@@ -50,3 +50,5 @@ I got this because I stringified already stringified json.
 ## data and no json
 
 That's because there was no header `content-type: application/json`.
+
+To read it you can `Follow HTTP` or sth.
