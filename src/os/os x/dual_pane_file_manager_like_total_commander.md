@@ -1,0 +1,18 @@
+- https://alternativeto.net/software/total-commander/?platform=mac
+- https://news.ycombinator.com/item?id=16718166
+  - https://marta.yanex.org/
+  - Path Finder https://cocoatech.com
+  - https://fman.io/
+  - https://github.com/mikekazakov/nimble-commander
+  - https://panic.com/transmit/
+  - ForkLift https://binarynights.com/
+    - very fast
+    - dark
+    - clone pane cmd+shift+c
+    - run terminal cmd+shift+c
+    - can use F1-Fx for commands
+  - https://doublecmd.sourceforge.io/
+-  http://onecommander.com/
+  - looks good
+  - freemium
+  - Assign ctrl+space to folder size in preferences
