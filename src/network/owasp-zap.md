@@ -1,1 +1,3 @@
+- https://github.com/zaproxy/zaproxy/wiki
+- https://chrisdecairos.ca/intercepting-traffic-with-zaproxy/
 - https://www.pitsolutions.ch/blog/introduction-security-testing-penetration-testing-tool-zap/
