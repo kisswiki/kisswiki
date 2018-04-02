@@ -12,6 +12,7 @@
     - run terminal cmd+shift+c
     - can use F1-Fx for commands
   - https://doublecmd.sourceforge.io/
+    - https://dexp.in/articles/double-commander/
 -  Commander One https://mac.eltima.com/file-manager.html 
   - app store https://itunes.apple.com/us/app/commander-one-dual-pane-file-manager/id1035236694
   - looks good
