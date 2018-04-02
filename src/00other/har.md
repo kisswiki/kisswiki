@@ -12,3 +12,5 @@
 - Using Fiddler2 instead of the online HAR viewer http://alertfox.com/using-fiddler2-instead-of-the-online-har-viewer/
 - http://stackoverflow.com/questions/12330927/easiest-way-to-convert-pcap-to-json
 - http://www.softwareishard.com/blog/har-12-spec/
+- https://www.igvita.com/2012/08/28/web-performance-power-tool-http-archive-har/
+  - https://code.google.com/archive/p/pcaphar/wikis/CaptureMobileTraffics.wiki
