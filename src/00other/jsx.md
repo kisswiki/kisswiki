@@ -11,3 +11,4 @@
 - JSX is an ugly artefact of legacy PHP and HTML spread into JS because Facebook runs (ran) on PHP https://github.com/jsforum/jsforum/issues/1 https://twitter.com/andrestaltz/status/653960734112673794
 - https://www.facebook.com/notes/facebook-engineering/xhp-a-new-way-to-write-php/294003943919
 - http://jamesknelson.com/wp-content/uploads/2016/05/jsx-cheatsheet.pdf
+- https://github.com/streamich/jsx-plus-plus
