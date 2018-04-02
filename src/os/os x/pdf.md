@@ -1,1 +1,1 @@
-- cannot do this https://apple.stackexchange.com/questions/84999/change-background-colour-for-pdf-when-viewing
+- didn't work https://apple.stackexchange.com/questions/84999/change-background-colour-for-pdf-when-viewing
