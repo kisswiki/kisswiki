@@ -3,6 +3,9 @@
 - http://graphql.org/graphql-js/utilities/
 - https://astexplorer.net/#/drYr8X1rnP/1
 - https://github.com/rofrol/fetch-graphql-schema-custom
+- visualize
+  - https://apis.guru/graphql-voyager/
+  - http://nathanrandal.com/graphql-visualizer/
 
 ```javascript
 (async () => { // this line can and the last can be omitted in web browser dev tools console

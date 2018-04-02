@@ -27,3 +27,14 @@ At work, we use Rust, but we're avoiding using Tokio until these features land.
 
 https://news.ycombinator.com/item?id=15314147
 
+## timer
+
+So, if you set a timeout for exactly 262,144ms (just over 4 minutes), that would fall in level 3 with an offset of 0ms, so the timer should fire off exactly at the beginning of level three. But, if you spread out the work to cascade the timeouts down a level, that timeout might fire at 262,144ms + 4,096ms, i.e. roughly 4 seconds late (worst case).
+
+It might be acceptable to say that if you set a timeout for 4 minutes in the future, the precision is +/- 4 seconds.
+
+So, if you set 1MM timeouts for 17h30, you might end up spreading out the actual timeouts firing over some period (seconds, minutes).
+
+I know that the linux kernel uses a hierarchical hashed timer wheel and this is also a problem in the kernel itself.
+
+https://www.reddit.com/r/rust/comments/88ejab/tokio_now_with_a_brand_new_timer_implementation/dwl82tj/
