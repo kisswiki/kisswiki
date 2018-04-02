@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/46428129/understanding-this-elm-url-parser-parser-type-declaration
