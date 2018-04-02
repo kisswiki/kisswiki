@@ -1,0 +1,2 @@
+- https://docs.rs/actix-web/0.4.10/actix_web/
+  - for example JsonBody is in dev module https://docs.rs/actix-web/0.4.10/actix_web/dev/struct.JsonBody.html or `json` method https://docs.rs/actix-web/0.4.10/actix_web/dev/struct.HttpResponseBuilder.html#method.json
