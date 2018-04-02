@@ -1,0 +1,18 @@
+- TODO: sort https://news.ycombinator.com/item?id=15429390
+  - silver searcher (ag) vs ripgrep (rg) https://news.ycombinator.com/item?id=12567328
+  - fd: like simple `find` or `ls -R | grep -i` https://github.com/sharkdp/fd
+    - https://mike.place/2017/fzf-fd/
+    - https://github.com/junegunn/fzf
+  - tokei https://github.com/Aaronepower/tokei
+  - exa: like super `ls` https://the.exa.website/
+  - xsv: for working with csv https://github.com/BurntSushi/xsv
+  - make alternative https://github.com/casey/just
+  - http://entrproject.org/
+  - http://kmkeen.com/gz-sort/
+  - https://github.com/vrothberg/vgrep
+  - https://github.com/jakubroztocil/httpie
+  - https://stedolan.github.io/jq/
+  - https://github.com/ericchiang/pup
+  - https://joeyh.name/code/moreutils/
+  - facebook's fpp https://asciinema.org/a/19519
+  - like `7z x` or `tar -x` and more https://github.com/jwiegley/una
