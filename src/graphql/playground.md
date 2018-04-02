@@ -1,1 +1,2 @@
 - http://graphql.nodaljs.com/
+- https://github.com/apollographql/launchpad
