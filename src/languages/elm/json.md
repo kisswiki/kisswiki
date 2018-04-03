@@ -135,7 +135,7 @@ As far as why is there no way for Elm to automatically provide typed decoders fo
 
 ## Use type annotations
 
-```
+```elm
 import Html exposing (text, div)
 import Json.Decode exposing (..)
 
