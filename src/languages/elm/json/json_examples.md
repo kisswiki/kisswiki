@@ -148,8 +148,107 @@ https://stackoverflow.com/questions/39552307/elm-parse-nested-json
 
 ## andThen
 
+```elm-repl
+> String.toInt "a"
+Err "could not convert string 'a' to an Int" : Result.Result String Int
+> String.toInt "a" == Err "could not convert string 'a' to an Int"
+True : Bool
+> String.toInt "5"
+Ok 5 : Result.Result String Int
+> String.toInt "5" == Ok 5
+True : Bool
+```
+
 ```elm
-decodeString (succeed (\data info -> { data = data, info = info }) |> andThen (\f -> map f (field "data" int)) |> andThen (\f -> map f (field "info" string)) )  """ { "data": 1, "info": "Nothing" } """
+String.toInt "5" == Ok 5
+```
+
+```elm
+decodeString int "5" == Ok 5
+```
+
+```elm
+decodeString string """ "someId" """ == Ok "someId"
+```
+
+```elm
+decodeString (map (\id -> id) string) """ "someId" """ == Ok "someId"
+```
+
+```elm
+decodeString (map (\id -> "oh " ++ id) string) """ "someId" """ == Ok "oh someId"
+```
+
+```elm
+decodeString (map (\id -> id) int) """ 5 """ == Ok 5
+```
+
+```elm
+decodeString (map (\data -> { data = data }) (field "data" int)) """ { "data": 5 } """
+```
+
+```elm
+decodeString ( andThen (\f -> map f (field "data" int)) (succeed (\data -> { data = data })) )  """ { "data": 1 } """
+```
+
+```elm
+decodeString ( succeed (\data -> { data = data }) |> andThen (\f -> map f (field "data" int)) )  """ { "data": 1 } """
+```
+
+```elm
+decodeString (succeed (\data info -> { data = data, info = info }) |> andThen (\f -> map f (field "data" int)) |> andThen (\f -> map f (field "info" string)) )  """ { "data": 1, "info": "Some info" } """
+```
+
+```elm
+decodeString ( andThen (\f -> map f (field "info" string)) (succeed (\data info -> { data = data, info = info }) |> andThen (\f -> map f (field "data" int))) )  """ { "data": 1, "info": "Some info" } """
+```
+
+We need to change order:
+
+```elm
+decodeString ( andThen (\f -> map f (field "data" int)) (andThen (\f -> map f (field "info" string)) (succeed (\data info -> { data = data, info = info })) ) ) """ { "data": 1, "info": "Some info" } """ == Ok { data = "Some info", info = 1 }
+```
+
+to this:
+
+```elm
+decodeString ( andThen (\f -> map f (field "info" string)) (andThen (\f -> map f (field "data" int)) (succeed (\data info -> { data = data, info = info })) ) ) """ { "data": 1, "info": "Some info" } """ == Ok { data = 1, info = "Some info" }
+```
+
+```elm
+decodeString ( andThen (\f -> map f (field "data" int)) (succeed 5) )  """ { "data": 1 } """
+```
+
+```elm
+decodeString ( andThen (\f -> map f (field "data" int)) (succeed (\data -> data)) )  """ { "data": 1 } """
+```
+
+```elm
+decodeString ( andThen (\f -> map f (field "data" int)) (succeed (\data -> { data = data } )) )  """ { "data": 1 } """
+```
+
+```elm
+decodeString ( andThen (\f -> map f (field "data" int)) (succeed (\data -> 5 )) )  """ { "data": 1 } """
+```
+
+```elm
+decodeString ( andThen (\f -> map f int) (succeed (\data -> 5 )) )  """ 1 """
+```
+
+```elm
+decodeString (succeed 4) """ "something" """ == Ok 5
+```
+
+`decodeString` is like `map`.
+
+```elm-repl
+> decodeString (succeed (\info -> info)) """ "something" """
+Ok <function> : Result.Result String (a -> a)
+```
+
+```elm-repl
+> decodeString (map String.toInt string) """ "5" """
+Ok (Ok 5) : Result.Result String (Result.Result String Int)
 ```
 
 Based on https://github.com/elm-community/json-extra/blob/2.0.0/docs/andMap.md
