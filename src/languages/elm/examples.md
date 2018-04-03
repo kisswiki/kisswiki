@@ -36,3 +36,4 @@
   - https://www.reddit.com/r/elm/comments/69z2aa/learning_music_from_ableton_frontend_built_with/
 - https://bholtbholt.github.io/step-sequencer/
   - https://www.smashingmagazine.com/2018/01/learning-elm-drum-sequencer-part-1/
+- https://www.reddit.com/r/elm/comments/88znt1/examples_of_complex_elm_apps/
