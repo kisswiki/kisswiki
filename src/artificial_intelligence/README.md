@@ -18,6 +18,10 @@
   - https://www.dobreprogramy.pl/Jak-dzialaja-sieci-neuronowe-Google-to-wyjasnia-za-pomoca-Teachable-Machine,News,83515.html
 - https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems
 
+## Neural network
+
+- Clean implementation of feed forward neural networks https://github.com/danijar/layered
+
 ## Examples
 
 - https://github.com/luanfujun/deep-photo-styletransfer
