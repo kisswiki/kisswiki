@@ -29,3 +29,8 @@ or
 copy alias from `src/.bashrc` to `~/.bashrc` and `source ~/.bashrc`.
 
 Then run `kissw`.
+
+
+## osx shortcut
+
+`os x/custom_shortcut.md`
