@@ -10,6 +10,7 @@
 - https://medium.com/@maciejkula/building-an-autodifferentiation-library-9ccf32c7a658
   - https://www.reddit.com/r/MachineLearning/comments/7peglu/p_building_a_statically_compiled_pytorchlike/
 - NeuroEvolution of Augmenting Topologies NEAT in Rust https://github.com/TLmaK0/rustneat
+- https://github.com/VictorKoenders/rust_neural_network
 
 ## What math needed
 

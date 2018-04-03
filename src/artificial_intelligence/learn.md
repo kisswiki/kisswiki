@@ -27,6 +27,9 @@
 - http://cs231n.stanford.edu/
   - recommended by John Carmack https://www.facebook.com/permalink.php?story_fbid=2110408722526967&id=100006735798590
     - https://news.ycombinator.com/item?id=16518726
+- https://en.wikipedia.org/wiki/Types_of_artificial_neural_networks
+- https://en.wikipedia.org/wiki/Automatic_differentiation
+- https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies
 ## Practice
 
 - http://iamtrask.github.io/2015/07/12/basic-python-network/
