@@ -239,6 +239,10 @@ decodeString ( andThen (\f -> map f int) (succeed (\data -> 5 )) )  """ 1 """
 decodeString (succeed 4) """ "something" """ == Ok 5
 ```
 
+```elm
+decodeString (map (\raw -> case String.toInt of Ok n -> succeed n)  ) """ "something" """ == Ok 5
+```
+
 `decodeString` is like `map`.
 
 ```elm-repl
