@@ -126,3 +126,22 @@ you have a couple of options:
 - json.decode.pipeline has `optionalField`, but if you're not using pipeline, it might be overkill to pull that in
 - you could `map (Maybe.withDefault []) <| maybe (field "users" (list Share.Model.decodeUser))`
 - you could `oneOf [field "users" (list Share.Model.decodeUser), succeed []]` to say "either successfully run that decoder, or succeed with an empty list"
+
+## empty string to list decoder
+
+```elm
+emptyStringToListDecoder : Decoder (List a)
+emptyStringToListDecoder =
+    string
+        |> andThen
+            (\s ->
+                case s of
+                    "" ->
+                        succeed []
+
+                    _ ->
+                        fail "Expected an empty string"
+            )
+```
+
+https://stackoverflow.com/questions/39552307/elm-parse-nested-json
