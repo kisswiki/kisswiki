@@ -24,8 +24,9 @@
   - a series on linear algebra https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
 - simple and good in introducing basic concepts and tools related to ML. https://news.ycombinator.com/item?id=15690544
   - https://www.youtube.com/user/mathematicalmonk
-- cs231n: Lecture 1 | Introduction to Convolutional Neural Networks for Visual Recognition
+- http://cs231n.stanford.edu/
   - recommended by John Carmack https://www.facebook.com/permalink.php?story_fbid=2110408722526967&id=100006735798590
+    - https://news.ycombinator.com/item?id=16518726
 ## Practice
 
 - http://iamtrask.github.io/2015/07/12/basic-python-network/
