@@ -3,6 +3,13 @@
 - https://weld-project.github.io/
 - https://www.reddit.com/r/rust/comments/4m9x1f/is_rust_suitable_for_machine_learning/
 - Hacker's guide to Neural Networks http://karpathy.github.io/neuralnets/
+- Autodifferentiation package in Rust https://github.com/maciejkula/wyrm
+- http://www.arewelearningyet.com/neural-networks/
+- Awesome deep learning crate https://github.com/MikhailKravets/NeuroFlow
+- https://www.reddit.com/r/rust/comments/30ie9c/a_neural_network_crate_im_working_on/
+- https://medium.com/@maciejkula/building-an-autodifferentiation-library-9ccf32c7a658
+  - https://www.reddit.com/r/MachineLearning/comments/7peglu/p_building_a_statically_compiled_pytorchlike/
+- NeuroEvolution of Augmenting Topologies NEAT in Rust https://github.com/TLmaK0/rustneat
 
 ## What math needed
 
