@@ -145,3 +145,11 @@ emptyStringToListDecoder =
 ```
 
 https://stackoverflow.com/questions/39552307/elm-parse-nested-json
+
+## andThen
+
+```elm
+decodeString (succeed (\data info -> { data = data, info = info }) |> andThen (\f -> map f (field "data" int)) |> andThen (\f -> map f (field "info" string)) )  """ { "data": 1, "info": "Nothing" } """
+```
+
+Based on https://github.com/elm-community/json-extra/blob/2.0.0/docs/andMap.md
