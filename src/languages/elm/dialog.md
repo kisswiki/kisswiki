@@ -1,1 +1,2 @@
 - https://github.com/krisajenkins/elm-dialog
+- https://discourse.elm-lang.org/t/window-confirm-without-native-code/844/25
