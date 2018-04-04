@@ -1,0 +1,1 @@
+Gdy tylko jednostka zaczyna samodzielnie myśleć, jej uwaga zostaje przeniesiona na głoszenie modlitw lub śpiew. http://zobaczjestem.pl/psychomanipulacja-sektach/
