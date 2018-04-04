@@ -1,0 +1,2 @@
+>wypozyczanie auta bez pelnego ubezpieczenia WYKUPIONEGO U FIRMY WYPOZYCZAJACEJ a nie posrednika typu Ryanair to rosyjska ruletka. im nie oplaca sie wypozyczac za 50zl na dobe wiec dorabiaja tak. walka z tym kosztuje wiecej wysilku niz utracona kasa i na tym bazuja nieuczciwe firemki. dla bezlieczenstwa najlepiej uzywac duzych firm i brac full casco.
+https://www.wykop.pl/link/4246313/#comment-53987265
