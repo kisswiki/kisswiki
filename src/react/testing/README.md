@@ -2,7 +2,7 @@
 
 I’ve looked through ui `*.test.js` and these are the way of testing that I found:
 
-```javascipt
+```jsx
     expect(wrapper).toMatchSnapshot();
     expect(wrapper.find(AppliedFilter).length).toBe(1);
     wrapper.find(AppliedFilter).at(0).find('button').simulate('click');
