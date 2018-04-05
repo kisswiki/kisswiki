@@ -1,0 +1,9 @@
+- https://alternativeto.net/software/adobe-illustrator/?license=free&platform=mac
+- https://inkscape.org
+  - hard to run, needs X.org probably through XQuartz or sth
+- https://krita.org/en/
+  - cannot save as svg https://www.reddit.com/r/krita/comments/4lz05z/exporting_to_svg_file_filter/
+- https://designer.io/
+  - works ok
+- https://wiki.haskell.org/Diagrams
+  - https://github.com/diagrams
