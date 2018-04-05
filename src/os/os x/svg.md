@@ -8,3 +8,5 @@
 - https://wiki.haskell.org/Diagrams
   - https://github.com/diagrams
 - very simple https://github.com/dsward2/macSVG
+- online https://github.com/SVG-Edit/svgedit
+- online https://vectr.com
