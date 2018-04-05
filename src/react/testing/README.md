@@ -66,3 +66,7 @@ And another text about shallow rendering:
 >Shallow rendering renders only component itself without its children. So if you change something in a child component it won’t change shallow output of your component. Or a bug, introduced to a child component, won’t break your component’s test. It also doesn’t require DOM.
 
 https://hackernoon.com/testing-react-components-with-jest-and-enzyme-41d592c174f
+
+This is the correct behaviour. The different to the other render methods from enzyme is, that it does not call any lifecycle methods and that it does not convert to real html, but it will render all its childs and childs of the childs and so on.
+
+https://stackoverflow.com/questions/40725254/enzyme-shallow-render-is-rendering-children-components?rq=1
