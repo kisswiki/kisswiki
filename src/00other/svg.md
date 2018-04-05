@@ -4,6 +4,8 @@
   - https://github.com/sdras/nuxt-type
   - https://www.reddit.com/r/programming/comments/6u9vam/svg_can_do_that/
   - Sarah Drasner - Animating Vue | VueConf 2017 https://youtu.be/gJDyhmL9O_E
+- https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG
+  - https://github.com/SVG-Edit/svgedit
 
 ## SVG Path basics
 
@@ -30,7 +32,7 @@ Worse result:
 
 `raster-retrace -i $FILE.ppm -o $FILE.svg`
 
-- https://stackoverflow.com/questions/1861382/how-to-convert-a-png-image-to-a-svg
+- https://stackoverflow.com/questions/1861382/how-to-convert-a-png-image-to-a-svg#comment86370954_16388237
 - http://potrace.sourceforge.net/
 - https://github.com/ideasman42/raster-retrace
 - https://github.com/autotrace/autotrace
