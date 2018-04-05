@@ -15,6 +15,7 @@
 - https://feathericons.com/
   - https://news.ycombinator.com/item?id=15089916
 - https://quickdraw.withgoogle.com/data
+- !!! https://fvsch.com/code/svg-icons/
 
 ## SVG USE
 
@@ -59,6 +60,7 @@ Some remarks:
 - remove meatada, rdf etc.
   - remove `standalone` http://stackoverflow.com/questions/5578645/what-does-the-standalone-directive-mean-in-xml
   - remove `version` http://stackoverflow.com/questions/18467982/are-svg-parameters-such-as-xmlns-and-version-needed
+- https://jakearchibald.github.io/svgomg/
 
 ## SVG color
 

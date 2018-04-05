@@ -6,6 +6,8 @@
   - Sarah Drasner - Animating Vue | VueConf 2017 https://youtu.be/gJDyhmL9O_E
 - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG
   - https://github.com/SVG-Edit/svgedit
+- !!! https://fvsch.com/code/svg-icons/
+- https://jakearchibald.github.io/svgomg/
 
 ## SVG Path basics
 
