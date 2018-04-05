@@ -7,3 +7,4 @@
   - works ok
 - https://wiki.haskell.org/Diagrams
   - https://github.com/diagrams
+- very simple https://github.com/dsward2/macSVG

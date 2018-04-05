@@ -16,7 +16,9 @@ http://www.slideshare.net/davidcorbacho/next-generation-graphics-svg
 
 ## png to svg
 
-Open in Gimp, `Image > Mode > RGB`, export as `pnm`.
+Open in Gimp, `Image > Mode > RGB`, export as `pnm`. Converting with imagemagick's convert or pngtopnm, gave bad quality with not antialiased edges.
+
+>Gimp can write PNM files, as well as BMP files. Both file formats are understood by Potrace version 1.1 or later. Note that the files have to be bitmaps, i.e., they should only use two colors black and white. All other colors or grey values will be converted to black and white before Potrace begins its processing. http://potrace.sourceforge.net/faq.html#formats
 
 Best result:
   
@@ -28,6 +30,11 @@ Worse result:
 
 `raster-retrace -i $FILE.ppm -o $FILE.svg`
 
+- https://stackoverflow.com/questions/1861382/how-to-convert-a-png-image-to-a-svg
+- http://potrace.sourceforge.net/
+- https://github.com/ideasman42/raster-retrace
+- https://github.com/autotrace/autotrace
+- https://github.com/fablabnbg/inkscape-centerline-trace
 
 ## resize
 
