@@ -13,3 +13,22 @@
 - z close path
 
 http://www.slideshare.net/davidcorbacho/next-generation-graphics-svg
+
+## png to svg
+
+Open in Gimp, `Image > Mode > RGB`, export as `pnm`.
+
+Best result:
+  
+`potrace --svg $FILE.pnm`
+
+>It uses potrace to generate an SVG representation of the figure from a bitmap. potrace rocks. https://github.com/guyc/scadtrace
+
+Worse result:
+
+`raster-retrace -i $FILE.ppm -o $FILE.svg`
+
+
+## resize
+
+- https://graphicdesign.stackexchange.com/questions/6574/in-inkscape-resize-both-the-document-and-its-content-at-the-same-time/6670#6670
