@@ -9,7 +9,7 @@
 
 ### Dark about:blank
 
-- https://github.com/overdodactyl/ShadowFox
+- https://github.com/overdodactyl/ShadowFox and after that paste at the beginning of userChrome.css this file https://github.com/wilfredwee/photon-australis/blob/master/userChrome-dark.css
 - https://github.com/Izheil/Firefox-57-full-dark-theme-with-scrollbars
 - https://addons.mozilla.org/en-US/firefox/addon/black-new-tab/
 
