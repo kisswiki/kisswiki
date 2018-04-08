@@ -1,0 +1,3 @@
+The tools today are a bit of a muddle: Xargo acts as a CLI wrapper around Cargo, while Rustup is a completely separate tool, despite the fact that they handle some similar responsibilities. Moreover, Rustup cannot manage targets set up by Xargo. And there’s long been a desire for toolchain requirements to be expressed directly within Cargo.toml, so that cargo build is all that is ever required to build a Rust package.
+
+http://aturon.github.io/2018/04/06/rustup-xargo/
