@@ -1,13 +1,9 @@
-- No way to auto save files on search and replace https://github.com/Microsoft/vscode/issues/20707#issuecomment-321515207
+- https://stackoverflow.com/questions/37346481/how-do-i-find-and-replace-all-occurrences-in-all-files-in-visual-studio-code
 - https://stackoverflow.com/questions/37346481/how-do-i-find-and-replace-all-occurrences-in-all-files-in-visual-studio-code
 
-add shortcut in `keybindings.json` to save all (overrides save as)
+You no longer need to Save All and Close All when replacing all search results. Replace actions will now replace and save the changes.
 
-```
-{ "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" }
-```
-
-https://stackoverflow.com/questions/37014171/how-can-we-save-all-files-in-vscode-like-we-do-in-visual-studio
+https://code.visualstudio.com/updates/v1_22#_save-automatically-when-search-replace
 
 ## search/replace in selection
 
