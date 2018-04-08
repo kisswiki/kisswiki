@@ -26,6 +26,10 @@ $ rustup override unset
 
 https://github.com/rust-lang-nursery/rustup.rs/
 
+`rustc --print sysroot`
+
+https://stackoverflow.com/questions/47418823/compiling-x64-with-rust-on-windows
+
 ##
 
 Use this instead from https://github.com/rust-lang-nursery/rustup.rs
