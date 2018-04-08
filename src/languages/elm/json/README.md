@@ -10,6 +10,7 @@
 - https://medium.com/@eeue56/how-i-implemented-json-to-elm-b61081587c3a
 - An alternative to core's JSON decoder https://medium.com/@eeue56/json-decoding-in-elm-is-still-difficult-cad2d1fb39ae
   - https://github.com/eeue56/elm-alternative-json
+- !!! https://robots.thoughtbot.com/5-common-json-decoders
 
 ## Internals
 
