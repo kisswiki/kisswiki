@@ -1,0 +1,1 @@
+>If it is repetitive, it is boring: automate. This will save you time to enjoy whatever is not repetitive, like life. - Ernesto Miguez http://asquera.de/about/#ernesto
