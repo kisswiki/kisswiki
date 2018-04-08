@@ -1,0 +1,1 @@
+- https://users.rust-lang.org/t/psa-you-no-longer-need-xargo-to-do-arm-cortex-m-development/16703
