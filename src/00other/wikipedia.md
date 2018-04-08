@@ -1,1 +1,3 @@
 - https://commons.wikimedia.org/wiki/Category:Image_placeholders_in_English
+- https://userstyles.org/styles/105844/wikipedia-dark-st
+- https://chrome.google.com/webstore/detail/m-wiki/ibnmikddaopgfbbngcgcfmanjfgbcopf
