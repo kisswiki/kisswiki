@@ -1,4 +1,3 @@
-- https://stackoverflow.com/questions/37346481/how-do-i-find-and-replace-all-occurrences-in-all-files-in-visual-studio-code
 
 add shortcut in `keybindings.json` to save all (overrides save as)
 
