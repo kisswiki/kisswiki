@@ -22,3 +22,9 @@ serde_json::from_str(data)?;
 ```
 
 https://github.com/serde-rs/json
+
+## cons
+
+- Opaque Error Type https://github.com/serde-rs/json/issues/285
+
+>If the test were written as Error::InvalidValue { unexpected: Float(f64::NAN), expected: "NaN" } it certainly would've. And named arguments would've prevented the mistake in the first place I suppose! As I've expressed previously, I'm just not much of a fan of serde's approach to errors, how they generally just devolve into Message(String). https://github.com/reem/rust-ordered-float/pull/21/files#r110762253
