@@ -37,7 +37,7 @@ type Answer
 test =
     """{"value":4,"nested":{"value":3,"nested":null}}"""
 
--- Why not `andMap = map2 (|>)` from https://github.com/elm-community/json-extra/blob/2.7.0/src/Json/Decode/Extra.elm#L84? 
+
 andMap : Decoder a -> Decoder (a -> b) -> Decoder b
 andMap =
     flip (Decode.map2 (<|))
