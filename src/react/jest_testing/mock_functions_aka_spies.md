@@ -6,3 +6,8 @@ https://facebook.github.io/jest/docs/en/mock-function-api.html
 https://facebook.github.io/jest/docs/en/jest-object.html#jestspyonobject-methodname
 
 >In Jasmine, mocks are referred to as spies. There are two ways to create a spy in Jasmine: spyOn() can only be used when the method already exists on the object, whereas jasmine.createSpy() will return a brand new function https://www.htmlgoodies.com/html5/javascript/spy-on-javascript-methods-using-the-jasmine-testing-framework.html
+
+>Mock functions make it easy to test the links between code by erasing the actual implementation of a function, capturing calls to the function (and the parameters passed in those calls), capturing instances of constructor functions when instantiated with new, and allowing test-time configuration of return values.
+>
+>There are two ways to mock functions: Either by creating a mock function to use in test code, or writing a manual mock to override a module dependency.
+> https://github.com/facebook/jest/blob/v22.1.1/docs/MockFunctions.md
