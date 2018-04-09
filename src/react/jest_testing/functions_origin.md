@@ -94,3 +94,8 @@ Uses spy's `calls`:
 
 - https://github.com/facebook/jest/blob/master/packages/expect/src/spy_matchers.js#L200
 - https://facebook.github.io/jest/docs/en/expect.html#tohavebeencalled
+
+## toBeDefined
+
+- https://facebook.github.io/jest/docs/en/expect.html#tobedefined
+- https://stackoverflow.com/questions/14718841/jasmine-why-tobeundefined-and-not-tobedefined
