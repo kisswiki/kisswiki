@@ -72,3 +72,25 @@ import { configure } from 'enzyme';
 ```
 
 - https://github.com/airbnb/enzyme/blob/master/docs/guides/jest.md
+
+## `.called()` from sinon
+
+`spy.called`
+
+http://sinonjs.org/releases/v4.0.1/spies/
+
+## `.toHaveBeenCalled()` is the same as `.toBeCalled()`
+
+Uses spy's `calls`:
+
+```javascript
+  const count = receivedIsSpy
+    ? received.calls.count()
+    : received.mock.calls.length;
+  const calls = receivedIsSpy
+    ? received.calls.all().map(x => x.args)
+    : received.mock.calls;
+```
+
+- https://github.com/facebook/jest/blob/master/packages/expect/src/spy_matchers.js#L200
+- https://facebook.github.io/jest/docs/en/expect.html#tohavebeencalled
