@@ -17,6 +17,10 @@ Let's first analyze andMap using flip.
 (<|) : (a -> b) -> a -> b
 ```
 
+`flip (map2 (\func val -> func val) funcDecoder valDecoder)`
+
+`valDecoder -> funcDecoder`
+
 http://package.elm-lang.org/packages/elm-lang/core/latest/Basics#%3C
 
 
@@ -43,7 +47,7 @@ in elm-repl:
 So this gives us this function:
 
 ```elm
-map2
+andMapL
     :  Decoder (a -> b)
     -> Decoder a
     -> Decoder b
@@ -72,7 +76,7 @@ map2
 ```
 
 ```elm
-map2
+andMap
     :  Decoder a
     -> Decoder (a -> b)
     -> Decoder b
@@ -112,3 +116,16 @@ It shouldn't matter for decoders
 
 There are cases where it does - for example a parser that consumes part of the input - but decoders don't work that way.
 so I'd go for `map2 (\val func -> func val) valDecoder funcDecoder` - which is the same thing as `map2 (|>)`
+
+
+so this:
+
+```elm
+a -> (a -> b) -> b
+```
+
+instead of
+
+```elm
+a -> (a -> b) -> b
+```
