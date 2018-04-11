@@ -11,6 +11,27 @@ rofrol
 jessta
 @rofrol `keyValuePairs` gives you a `List (String, Json.Decode.Value)` so you can access the field names directly as strings, but need to decode the the values with a decoder, so it works with any type of json values
 
+```elm
+keyValuePairs : Decoder a -> Decoder (List (String, a))
+keyValuePairs =
+  Native.Json.decodeKeyValuePairs
+```
+
+```elm
+decodeString (keyValuePairs int) """{ "alice": 42, "bob": 99 }""" == Ok [("bob",99),("alice",42)]
+```
+
+```elm-repl
+> decodeString (map (\i -> Debug.log "i" i) ( keyValuePairs value )) """{ "alice": "someString", "bob": 99 }"""
+i: [("bob",99),("alice","someString")]
+Ok [("bob",99),("alice","someString")]
+    : Result.Result String (List ( String, Json.Decode.Value ))
+```
+
+This is the answer http://folkertdev.nl/blog/elm-messy-json-value/ ahttps://ellie-app.com/dSzh4QL3fa1/0nd updated to elm-0.18
+
+----
+
 ilias
 http://package.elm-lang.org/packages/zwilias/json-decode-exploration/5.0.0/Json-Decode-Exploration can generate warning for unused information in the json
 and http://package.elm-lang.org/packages/zwilias/json-decode-exploration/5.0.0/Json-Decode-Exploration#strict can be used to make that into a `strict` result - warnings become errors
