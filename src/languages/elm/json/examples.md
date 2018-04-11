@@ -148,6 +148,14 @@ https://stackoverflow.com/questions/39552307/elm-parse-nested-json
 
 ## andThen
 
+```elm
+map : (a -> value) -> Decoder a -> Decoder value
+```
+
+```elm
+andThen : (a -> Decoder b) -> Decoder a -> Decoder b
+```
+
 ```elm-repl
 > String.toInt "a"
 Err "could not convert string 'a' to an Int" : Result.Result String Int
