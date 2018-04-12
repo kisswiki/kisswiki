@@ -1,3 +1,3 @@
 - https://medium.com/@firasd/quick-start-tutorial-using-redux-in-react-apps-89b142d6c5c1
 - from maintainer of redux https://github.com/markerikson/redux-starter-kit
-  - I've put together a small "starter kit" lib that's intended to simplify some of the process around setting up a Redux store [0] . We do include redux-thunk by default there, as well as Immer for simplifying immutable updates in reducers. It's still a personal-scoped package atm, but longer-term we'd like to make it an official Redux-branded addon. https://news.ycombinator.com/item?id=16812346
+  - I've put together a small "starter kit" lib that's intended to simplify some of the process around setting up a Redux store [0]. We do include redux-thunk by default there, as well as Immer for simplifying immutable updates in reducers. It's still a personal-scoped package atm, but longer-term we'd like to make it an official Redux-branded addon. https://news.ycombinator.com/item?id=16812346
