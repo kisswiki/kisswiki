@@ -1,0 +1,4 @@
+To give our artificial agents similar abilities, Uber AI Labs has developed a new method called differentiable plasticity that lets us train the behavior of plastic connections through gradient descent so that they can help previously-trained networks adapt to future conditions. While evolving such plastic neural networks is a longstanding area of research in evolutionary computation, to our knowledge the work introduced here is the first to show it is possible to optimize plasticity itself through gradient descent. Because gradient-based methods underlie many of the recent spectacular breakthroughs in artificial intelligence (including image recognition, machine translation, Atari video games, and Go playing), making plastic networks amenable to gradient descent training may dramatically expand the power of both approaches.
+
+- https://eng.uber.com/differentiable-plasticity/
+- https://news.ycombinator.com/item?id=16802392
