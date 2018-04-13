@@ -18,3 +18,25 @@ This is the first new language I have learned but it seems the key to me is desc
 The state departments says it takes around 400 hours to learn the latin based languages, I believe that seems fairly accurate.
 
 https://news.ycombinator.com/item?id=15508440
+
+## duolingo
+
+firefoxd
+
+I did Duolingo seriously for more than 370 days in a row.
+
+Spanish: I speak french and English so Spanish is relatively easy to complete. After completing the course, I tried having conversations with people (with friends but mostly uber drivers) and I was surprised how many times i learned it all wrong. I had to read a lot or children book to remedy that.
+
+French: As a french speaker, I went through it as a meta course just to see. It was very awkward. The correct answers are always cringe worthy. Some of them even wrong.
+
+Japanese: This is very different from the languages I speak. But after completing the entire suite, I still can't look at a japanese text and read it. I can't form a sentence on my own because it never teaches you how. I can't count to ten because it only gives you numbers randomly. I know a few colors. I know words, but those words make no sense on their own. I also had to follow youtube lessons to make any sense of what I learned.
+
+Duolingo is cool at making it look fun to learn. I don't think you'll learn to speak any languages with it.
+
+crazygringo
+
+Agreed. I speak Portuguese fluently as a second language, and wanted to see what the Duolingo material was like. First warning sign: I couldn't pass the test to study intermediate content, because a significant proportion of the multiple-choice answers were just wrong. Then, looking at the beginner content, a shocking number of answers were wrong as well. It was kind of funny, since each piece of material had user comments associated, you'd see 70+ comments from people all complaining about wrong answers.
+
+That immediately destroyed any trust with them. When you put out educational material, it has to be correct. That has to be the foundation.
+
+- Duolingo Suddenly Has Over Twice as Much Language Learning Material https://news.ycombinator.com/item?id=16822888
