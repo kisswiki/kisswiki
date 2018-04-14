@@ -1,2 +1,3 @@
 - https://sites.google.com/a/chromium.org/dev/audio-video/autoplay
 - chrome://flags/#autoplay-policy
+  - disabled but doesn't work on this site https://www.cnet.com/how-to/best-music-streaming-service/
