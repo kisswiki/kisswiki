@@ -111,7 +111,7 @@ Ok [("bob",99),("alice","someString")]
     : Result.Result String (List ( String, Json.Decode.Value ))
 ```
 
-This is the answer http://folkertdev.nl/blog/elm-messy-json-value/ and https://ellie-app.com/dSzh4QL3fa1/0 updated to elm-0.18
+This is the answer http://folkertdev.nl/blog/elm-messy-json-value/ and https://ellie-app.com/dSzh4QL3fa1/1 updated to elm-0.18
 
 ----
 
