@@ -1,3 +1,86 @@
+## Final code
+
+https://ellie-app.com/mxkGY5DVFa1/0
+
+```elm
+module Main exposing (main)
+
+import Html exposing (Html, text)
+import Json.Decode exposing (..)
+
+
+(|:) : Decoder (a -> b) -> Decoder a -> Decoder b
+(|:) =
+    map2 (<|)
+
+
+serverResponseMy : String
+serverResponseMy =
+    """
+    {
+        "url": "https://elm-lang.org",
+        "amount": 1.2,
+        "somefield": 1
+    }
+"""
+
+
+partialDecodeField : Decoder (List ( String, Value ))
+partialDecodeField =
+    keyValuePairs value
+
+
+fromResultWithWarning : (String -> b -> Decoder b) -> ( String, Value ) -> b -> b
+fromResultWithWarning decoder ( name, value ) record =
+    case decodeValue (decoder name record) value of
+        Ok newRecord ->
+            newRecord
+
+        Err error ->
+            Debug.log ("[Warning]: " ++ error) record
+
+
+feedNameL : (String -> MyRecord -> Decoder MyRecord) -> List ( String, Value ) -> MyRecord
+feedNameL decoder elements =
+    List.foldl (fromResultWithWarning decoder) defaultMyRecord elements
+
+
+decodeList : Decoder MyRecord
+decodeList =
+    map (feedNameL decodeField) partialDecodeField
+
+
+decodeField : String -> MyRecord -> Decoder MyRecord
+decodeField name record =
+    case name of
+        "url" ->
+            succeed (\url -> { record | url = url }) |: string
+
+        "amount" ->
+            succeed (\amount -> { record | amount = amount }) |: float
+
+        _ ->
+            fail <| "Unhandled field " ++ name
+
+
+type alias MyRecord =
+    { url : String
+    , amount : Float
+    }
+
+
+defaultMyRecord : MyRecord
+defaultMyRecord =
+    MyRecord "" 0
+
+main : Html msg
+main =
+    text <| toString <| decodeString decodeList serverResponseMy
+
+```
+
+## Discussion
+
 rofrol
 How can I make json decoder fail, when there is new field in json object that I haven’t handled with `field`?
 
