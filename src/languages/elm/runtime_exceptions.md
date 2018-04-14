@@ -15,3 +15,7 @@ This means Elm will not be able to accept any input or respond in any way. It’
 The way to make your elm code bullet proof again to change the type of the port to a Value instead. This means that you’ll have to write a Json.Decoder for it. This way if JS decides to send you a bad value it will just return an Err instead of throwing an exception.
 
 https://hackernoon.com/how-elm-ports-work-with-a-picture-just-one-25144ba43cdd
+
+##
+
+>No runtime exceptions in practice https://speakerdeck.com/jfairbank/atl-js-intro-to-elm
