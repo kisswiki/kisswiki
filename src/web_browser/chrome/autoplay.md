@@ -1,3 +1,4 @@
 - https://sites.google.com/a/chromium.org/dev/audio-video/autoplay
 - chrome://flags/#autoplay-policy
+  - https://9to5google.com/2018/02/15/how-to-disable-autoplay-videos-chrome/
   - disabled but doesn't work on this site https://www.cnet.com/how-to/best-music-streaming-service/
