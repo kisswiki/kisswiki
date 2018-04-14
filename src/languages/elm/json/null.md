@@ -9,8 +9,12 @@
 
 http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode#nullable
 
-## maybeNull
+## nullable
 
-same as nullable?
+```elm
+nullable bool
+```
 
-http://package.elm-lang.org/packages/circuithub/elm-json-extra/latest/Json-Decode-Extra#maybeNull
+```elm
+oneOf [ null Nothing, map Just bool ]
+```
