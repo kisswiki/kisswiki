@@ -21,4 +21,6 @@ type alias Node a =
   }
 ```
 
-https://twitter.com/czaplic/status/859835338981687296
+- https://twitter.com/czaplic/status/859835338981687296
+- https://en.m.wikipedia.org/wiki/Rose_tree
+  - https://github.com/GlobalWebIndex/challenge-elm/blob/master/FIRST_STEP.md
