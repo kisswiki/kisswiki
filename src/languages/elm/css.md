@@ -107,3 +107,44 @@ classes : List String -> Html.Attribute msg
 classes =
     String.join " " >> Html.Attributes.class
 ```
+
+## classes bool
+
+```elm
+module Main exposing (main)
+
+import Html exposing (Html, text)
+import String exposing (join)
+
+tupleToMaybe : (String, Bool) -> Maybe String
+tupleToMaybe (string, bool) =
+    if bool then
+        Just string
+    else
+        Nothing
+              
+classes : List (String, Bool) -> String
+classes list =
+    list |> List.filterMap tupleToMaybe |> join " "
+                
+                            
+msg = { seen = True }
+mailbox = { selected = Just msg }
+
+viewHeader mailbox msg =
+    classes
+        [ ("mailbox-entry", True)
+        , ("selected", mailbox.selected == Just msg)
+        , ("unseen", msg.seen)
+        ]
+
+
+
+main : Html msg
+main =
+    text <| viewHeader mailbox msg
+```
+
+James Hillyerd
+
+https://ellie-app.com/ccrRxjPd3a1/0
