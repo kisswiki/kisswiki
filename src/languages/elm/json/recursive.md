@@ -21,11 +21,13 @@ background information: Elm compiles this to js variables, not functions, which 
 
 in this case; the problem was here:
 
-```var decodeAction2 = A2(
+```javascript
+var decodeAction2 = A2(
     Json_Decode$andThen,
     decodeBlocklyActions,
     A2(Json_Decode$field, 'action', Json_Decode$string));
-var _decodeBlocklyActions = function (action) { ...}```
+var _decodeBlocklyActions = function (action) { ...}
+```
 
 note that it's hard/impossible to predict the order in which output will happen; so the best option, for now, it so keep your fingers crossed that you don't run in to it
 
@@ -39,7 +41,8 @@ where do I have to add lazy? for all the options in the `decodeBlocklyActions`?
 
 nah, I think this should handle it:
 
-```decodeAction2 : () -> Decoder BlocklyAction
+```elm
+decodeAction2 : () -> Decoder BlocklyAction
 decodeAction2 _ =
     field "action" Decode.string
         |> Decode.andThen (\a -> decodeBlocklyActions a)```
