@@ -110,6 +110,8 @@ classes =
 
 ## classes bool
 
+there is classList http://package.elm-lang.org/packages/rtfeldman/elm-css/13.1.1/Html-Styled-Attributes#classList
+
 ```elm
 module Main exposing (main)
 
