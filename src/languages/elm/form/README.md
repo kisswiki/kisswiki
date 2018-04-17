@@ -1,1 +1,3 @@
 - https://discourse.elm-lang.org/t/a-form-api-idea-proposal/1121
+- https://discourse.elm-lang.org/t/strategies-for-representing-persisted-and-un-persisted-remote-data/1115/8
+  - http://package.elm-lang.org/packages/stoeffel/elm-verify/latest/
