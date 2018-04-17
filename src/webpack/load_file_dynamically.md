@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/49840016/how-to-read-text-files-with-elm-and-webpack/49881400#49881400
