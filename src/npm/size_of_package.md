@@ -1,0 +1,2 @@
+- https://arve0.github.io/npm-download-size/#request
+- https://stackoverflow.com/questions/40642008/how-do-i-view-the-size-of-npm-packages/41774867
