@@ -66,18 +66,6 @@
     "gitlens.keymap": "alternate",
     "workbench.sideBar.location": "right",
     "disableLigatures.mode": "Cursor",
-    "gitlens.advanced.messages": {
-      "suppressCommitHasNoPreviousCommitWarning": false,
-      "suppressCommitNotFoundWarning": false,
-      "suppressFileNotUnderSourceControlWarning": false,
-      "suppressGitVersionWarning": false,
-      "suppressLineUncommittedWarning": false,
-      "suppressNoRepositoryWarning": false,
-      "suppressResultsExplorerNotice": false,
-      "suppressShowKeyBindingsNotice": true
-    },
     "telemetry.enableTelemetry": false,
     "editor.dragAndDrop": false,
-  }
-  
-  
+}
