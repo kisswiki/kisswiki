@@ -2,4 +2,4 @@
 
 >cmd is a bag of tasks - someone on the internet
 
->Cmd in Elm is just IO https://twitter.com/cbzehner/status/983865064762441728
+>Cmd in Elm is just IO - https://twitter.com/cbzehner/status/983865064762441728
