@@ -1,0 +1,1 @@
+- https://blog.appfigures.com/ios-developers-ship-less-apps-for-first-time/
