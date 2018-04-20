@@ -1,0 +1,1 @@
+The big difference is that AMD's GPUs only work on vectors whereas Google's TPUs (and NVidia's latest card) can work on matrices directly for a large increase in throughput. https://news.ycombinator.com/item?id=16875888
