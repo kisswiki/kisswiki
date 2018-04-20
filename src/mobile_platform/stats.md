@@ -2,7 +2,7 @@
 
 Na mobilnych platformach jest odwrót od hybryd.
 
-Jeśli chodzi o hybrydy to Cordova popularna i Unity.
+Jeśli chodzi o hybrydy to Cordova popularna i Unity. W Cordovę bym nie wchodził. Stara technologia.
 
 A jeśli chodzi o pisanie wieloplatformowe to jeszcze jest React Native. Dosyć popularne ostatnio.
 
