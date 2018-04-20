@@ -1,0 +1,4 @@
+- https://en.m.wikipedia.org/wiki/Trust,_but_verify
+- https://www.quora.com/How-does-the-Russian-proverb-Trust-but-verify-make-any-sense
+- https://youtu.be/As6y5eI01XE
+- https://www.psychologytoday.com/us/blog/trust-the-new-workplace-currency/201507/the-problem-trust-verify-approach
