@@ -5,7 +5,11 @@
   - https://torrentfreak.com/rutracker-reveals-innovative-plan-for-users-to-subvert-isp-blocking-180110/
   - https://torrentfreak.com/russias-largest-torrent-site-celebrates-13-years-online-in-a-chinese-restaurant-170923/
   - https://torrentfreak.com/rutracker-clocks-a-million-downloads-a-day-despite-being-completely-blocked-170408/
-- https://torrentz2.eu/search, https://torrentz2.eu/search?f=napisy+2017,  https://torrentfreak.com/torrent-links-disappear-from-torrentz2-171223/
+- https://torrentz2.eu/search, https://torrentz2.eu/search?f=napisy+2017
+  - https://torrentfreak.com/torrent-links-disappear-from-torrentz2-171223/
+    - https://chrome.google.com/webstore/search/torrentz2
+      - https://chrome.google.com/webstore/detail/torrentz2-magnet-links-%2B/ldknhpjddofdohocbhakahagoepainmo
+      - https://chrome.google.com/webstore/detail/magnet-links-for-torrentz/hkobljcmoojndbempmmgagaphocpmkni
 - https://thepiratebay.org
   - TV https://thepiratebay.org/top/205
   - HD Movies https://thepiratebay.org/top/207
