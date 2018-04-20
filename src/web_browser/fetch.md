@@ -38,7 +38,7 @@ solution - use try..catch:
     const json = await response.json();
     console.log(JSON.stringify(json, null, 2));
   } catch (error) {
-    console.error('BAD', error));
+    console.error('BAD', error);
   }
 })()
 ```
