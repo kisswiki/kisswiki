@@ -1,0 +1,1 @@
+https://addons.mozilla.org/en-GB/firefox/addon/multiple-tab-handler/
