@@ -1,5 +1,43 @@
+## sensible support
 
-## error is not catched
+```javascript
+function fetchPost(uri, body) {
+  return new Request(uri, {
+    method: 'POST',
+    mode: 'cors',
+    headers: {
+      'Authorization': 'token 123412341234'
+    },
+    body: JSON.stringify(body)
+  })
+}
+
+function fetchStatus(response) {
+  return response.ok ? Promise.resolve(response)  : Promise.reject(new Error(response.statusText));
+}
+
+fetch('https://httpstat.us/500')
+  .then(fetchStatus)
+  .then(function(result) {
+    console.log(result)
+  })
+  .catch(function(err) {
+    console.log('BAD:', err)
+  });
+```
+
+- https://medium.com/@luminarious/i-was-trying-out-fetch-literally-this-morning-and-i-notice-you-kind-of-skipped-a-simple-solution-62a734c28dfb
+- Why doesn't `fetch` reject if 400 ≤ status < 600? https://github.com/whatwg/fetch/issues/18
+- https://stackoverflow.com/questions/40248231/how-to-handle-http-code-4xx-responses-in-fetch-api
+
+"there's nothing exceptional about 4xx [...] errors on the web."
+Fetching the file failed - that's a failure, no matter whether it's called exception or error
+
+https://github.com/whatwg/fetch/issues/18#issuecomment-108519626
+
+>For operational errors, each function should support exactly one way of signaling errors. For Promise-based functions that means not mixing rejections and exceptions, which is the same as saying that they shouldn’t throw exceptions. http://2ality.com/2016/03/promise-rejections-vs-exceptions.html
+
+## error is not catched when using async/await and promise
 
 also using node-fetch: https://github.com/Yoctol/fetch-graphql-schema/issues/7
 
