@@ -8,6 +8,7 @@
   - https://youtu.be/sGb72XU6qdE
   - https://www.rottentomatoes.com/tv/60_minutes/s46/e27
   - https://www.reddit.com/r/hamiltonmusical/comments/4byxuc/is_there_a_way_to_watch_the_entire_cbs_60_minutes/
+- https://www.khanacademy.org/college-careers-more/entrepreneurship2/interviews-entrepreneurs/copy-of-khan-academy-living-room-chats/v/elon-musk
 
 ## Jim Cantrell
 
