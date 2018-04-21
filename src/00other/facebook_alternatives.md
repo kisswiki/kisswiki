@@ -1,3 +1,6 @@
+## scuttlebutt
+
+- https://www.scuttlebutt.nz
 - https://www.inthemesh.com/archive/secure-scuttlebutt-facebook-alternative/
 
 This is not your usual startup launch, it's a community project by multiple open source hackers. If something is missing, you can make it happen. And there are so many ongoing developments right now (see list below), that it really doesn't make sense, at this point, to point out the current problems with the protocol. It's evolving fast, and can evolve even faster if you choose to make it your own and do something about it.
@@ -32,7 +35,7 @@ It's a moving target
 
 https://news.ycombinator.com/item?id=16879544
 
-##
+## trivial to block several distributed hosts simultaneously
 
 It's trivial to block several distributed hosts simultaneously. An aspiring censor would simply find the most common federated endpoints for a given service and block all of them. Only the users of that software would be affected. There wouldn't be any collateral damage.
 If the censors somehow didn't hit every single worthwhile federated endpoint, users would still be left wondering why they couldn't communicate with most of their friends. Moving between federated hosts would also necessitate an entirely new identifier, so users would need to rebuild their social graph again.
@@ -41,7 +44,7 @@ In addition to being ineffective against censorship, there are several other pro
 
 https://news.ycombinator.com/item?id=16871352
 
-##
+## Identities stored on the blockchain
 
 Identity: stored on the Stellar blockchain as usernames/namespaces.
 
