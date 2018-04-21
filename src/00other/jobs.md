@@ -2,3 +2,4 @@
   - https://www.wykop.pl/tag/justjoinitoferty/
 - https://nofluffjobs.com
 - https://www.pracuj.pl
+- List of places to find remote jobs and freelancing projects (drive.google.com) https://news.ycombinator.com/item?id=16875868
