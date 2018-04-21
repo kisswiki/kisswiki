@@ -4,6 +4,7 @@
   - https://www.ted.com/talks/elon_musk_the_future_we_re_building_and_boring
 - http://forsal.pl/biznes/aktualnosci/artykuly/1038856,na-czym-polega-fenomen-muska-jak-wyjasnic-geniusz-muska.html
 - Elon Musk Anti-Motivational Video https://youtu.be/bF1uoeCDwKs
+- Several minutes interview with Elon Musk in 60 Minutes S46E27 CBS
 
 ## Jim Cantrell
 
