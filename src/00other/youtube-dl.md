@@ -1,3 +1,7 @@
+## ffmpeg
+
+Install ffmpeg or you may get file without audio https://www.ffmpeg.org/download.html
+
 ## download mp3
 
 `youtube-dl --extract-audio --audio-format mp3 -f bestaudio <Video-URL>`
