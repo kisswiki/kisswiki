@@ -6,6 +6,8 @@
 - Elon Musk Anti-Motivational Video https://youtu.be/bF1uoeCDwKs
 - Several minutes interview with Elon Musk - 60 Minutes S46E27 CBS
   - https://youtu.be/sGb72XU6qdE
+  - https://www.rottentomatoes.com/tv/60_minutes/s46/e27
+  - https://www.reddit.com/r/hamiltonmusical/comments/4byxuc/is_there_a_way_to_watch_the_entire_cbs_60_minutes/
 
 ## Jim Cantrell
 
@@ -25,3 +27,11 @@ I recently wrote an op-ed piece for Space News where I also suggest that his rut
 In the end I think that we are seeing a very fundamental shift in the way our world takes on the big challenges facing humanity and Elon's Way as I call it will be considered the tip of the spear. My hat's off to the man.
 
 http://www.wykop.pl/link/3182931/gdzie-lezy-przyczyna-sukcesow-spacex/#comment-36822139
+
+## Company
+
+>when you're trying to create a company, what you really try to do is organize a group of people to do something useful and something useful is as measured by by other people who are the consumers of your products and services but this thing may seem like an obvious thing but often people organize groups into a company that doesn't produce something useful or that other people consider useful so you definitely want to listen to any positive and negative feedback that you get.
+>
+>Which is not to say that you believe it but you need to look at it at any pause negative feedback and say: maybe it's quick, maybe it's not. Weigh it up and just sort of carefully reflect on on all information you receive. But don't be afraid to pull the trigger even in this if you got if you got goods.
+
+10 Questions for Elon Musk https://youtu.be/UwT3Y0lkYaQ
