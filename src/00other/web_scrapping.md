@@ -1,0 +1,4 @@
+- https://tinyendian.com/articles/how-to-scrape-the-web-and-not-get-caught/
+  - https://news.ycombinator.com/item?id=16893637
+    - https://github.com/mattes/rotating-proxy
+    - Right now I use luminati.io datacenter IPs that work ok
