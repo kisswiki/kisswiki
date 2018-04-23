@@ -4,4 +4,4 @@ From the APIs it looks like abstractions could be built that would match the sem
 
 It looks like scalability is a factor of replication. It appears to work in both high-latency and low-latency environments, with support for things like low-latency replicas and disaster recovery options for backups. At work we quickly ran some non-scientific load to see how it performed, and it was impressive. Also, it's -super- easy to install and get started, think one click DB...
 
-https://www.reddit.com/r/rust/comments/8e8m99/foundationdb_rust_client_api_010_announcements/
+https://www.reddit.com/r/rust/comments/8e8m99/foundationdb_rust_client_api_010_announcements/dxtevju/
