@@ -49,3 +49,9 @@ https://news.ycombinator.com/item?id=16871352
 Identity: stored on the Stellar blockchain as usernames/namespaces.
 
 Show HN: Second – solution to decentralize https://news.ycombinator.com/item?id=16684276
+
+## federation
+
+Some programmers see a problem and say "I know, I'll add federation". Now you have 7 problems.
+
+https://news.ycombinator.com/item?id=16876821
