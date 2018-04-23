@@ -25,3 +25,5 @@ ul []
 
 > List is great when you make a lot of changes because you are merely updating linked list pointers, whereas Array is great for speedy lookup but has somewhat poorer performance for modifications
 > - http://stackoverflow.com/questions/37707577/array-vs-list-in-elm/37707812#37707812
+
+>List is very good at a few things, Array is fine for most things. Even Array makes use of List in it’s internal implementation (take a look at how Array.filter is implementated). For most applications, the Array is a better default. So maybe Array shouldn’t outright replace List, but simply be the data type that is constructed when literal syntax is used (like [1, 2, 3]). It might even be a good idea to rename List to Stack to signal what it really is good at. https://dev.to/skinney/de-throning-the-list-part--44dl https://www.reddit.com/r/elm/comments/8e2s00/dethroning_the_list_part_%CF%80/
