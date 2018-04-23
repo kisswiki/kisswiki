@@ -12,3 +12,5 @@
 - editor https://github.com/google/xi-editor
 - ethereum client https://github.com/paritytech/parity
 - find alternative https://github.com/sharkdp/fd
+
+https://www.reddit.com/r/rust/comments/8dzzzx/newb_question_whats_a_good_usecase_for_rust/dxrfljz/
