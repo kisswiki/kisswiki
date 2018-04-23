@@ -1,0 +1,14 @@
+- Games: https://github.com/ggez/ggez
+- Web Apps: https://github.com/actix/actix-web
+- Big Data: https://github.com/datafusion-rs/datafusion
+- Web Frontends: https://github.com/DenisKolodin/yew
+- CLI Apps: https://github.com/BurntSushi/ripgrep
+- System Libraries: https://github.com/ctz/rustls
+- terminal https://github.com/jwilm/alacritty
+- distributed version control system https://pijul.org/
+- operating system https://www.redox-os.org/
+- object-relational mapping http://diesel.rs/
+- graphql server https://github.com/graphql-rust/juniper
+- editor https://github.com/google/xi-editor
+- ethereum client https://github.com/paritytech/parity
+- find alternative https://github.com/sharkdp/fd
