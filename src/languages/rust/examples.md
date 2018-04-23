@@ -15,5 +15,6 @@
 - ls alternative https://the.exa.website/
 - CSV command line toolkit https://github.com/BurntSushi/xsv
 - command runner https://github.com/casey/just
+- Distributed transactional key value database https://github.com/pingcap/tikv
 
 https://www.reddit.com/r/rust/comments/8dzzzx/newb_question_whats_a_good_usecase_for_rust/dxrfljz/
