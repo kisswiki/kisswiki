@@ -1,4 +1,6 @@
-## Midnight Commander
+# Midnight Commander
+
+## OS X
 
 For os x terminal:
 
