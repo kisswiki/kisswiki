@@ -1,0 +1,7 @@
+- https://www.worldnomads.com/create
+- Show HN: A spreadsheet for nomads who can't find someone to travel with https://news.ycombinator.com/item?id=16595501
+  - https://docs.google.com/spreadsheets/d/1Igizd-21b-Syl-kJOxGSFsm-opv94FwFDxuZ2WsBZK8/edit#gid=0
+- https://www.lonelyplanet.com/thorntree/welcome
+- https://www.couchsurfing.com/groups/travel-companions-around-the-world
+- I went full nomad and it almost broke me https://news.ycombinator.com/item?id=16028764
+  - https://hackernoon.com/i-went-full-nomad-and-it-almost-broke-me-2a02c5e8f138?source=rss----3a8144eabfe3---4
