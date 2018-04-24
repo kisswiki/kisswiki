@@ -1,0 +1,5 @@
+Mental and vocal monologues are essential in learning and performing better in life. Researchers have identified that talking to yourself is insanely great for the brain. The better you are at self-talk the better off you will be. When you give yourself mental messages whether out *loud or in the mind*, it enhances your attention span—allowing you to concentrate despite distractions. It helps to regulate your decision-making capabilities, and to control how you respond to your brain’s emotional and cognitive processes. According to researchers, the most beneficial forms of self-talk are with instructional and thought and action. Instructional self-talk is when you tell yourself each step you need to take in order to complete something while in the process, such as driving a car. Thought and action is the act of setting a goal for yourself and a strategy as to how to accomplish the goal before taking action.
+
+- http://bigthink.com/ideafeed/self-talk-is-key-to-learning-and-performing-better
+(edited)
+- https://news.ycombinator.com/item?id=14517515
