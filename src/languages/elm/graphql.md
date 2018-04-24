@@ -1,7 +1,7 @@
 - Thoughts on implementing GraphQL in Elm https://gist.github.com/gyzerok/50c65c48ce375fd3f071
 - https://alpacaaa.net/blog/post/elm-graphql-client/
 - https://www.reddit.com/r/elm/comments/5zpz9h/hacker_news_clone_in_elm_elmnavigation_graphql/
-- `graphqelm.md`
+- `dillonkearns/graphqelm.md`
 
 ## ghivert/elm-graphql
 
