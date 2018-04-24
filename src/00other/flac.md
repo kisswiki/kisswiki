@@ -1,0 +1,9 @@
+How many musicians and audio engineers do you see boasting about the sonic superiority of FLAC audio?
+
+Basically none. Because they know that the difference between FLAC and high-bitrate MP3 or AAC is utterly irrelevant to 99.98% of what you hear in a recording. All of the stuff that matters – the studio, the ungodly-expensive recording equipment, microphones, amplifiers, the engineer on the soundboard, the technique of the recording artist, the headphones the engineer wears when he does the mix – these are immeasurably more important to sound quality than a file format. And then, the remaining 10% or so of what you hear comes down to what you play it through – the decoding equipment or CD player, the amplifier, the speaker or headphones.
+
+The file format only matters in one situation: when it audibly distorts or degrades the recording. General consensus seems to be that this happens at or around 128Kbps when using MP3, but this greatly depends on your ears. Anything above that generally will not provide noticeable improvement for most people using most sound equipment. There are a sizable percentage of persons who may benefit from 192Kbps given their listening equipment or hearing, and an infinitesimal group that might hear a difference at 256Kbps or 320Kbps (though I tend to seriously doubt those people, that or they have extraordinary hearing).
+
+Even if there are people out there who could hear the difference – legitimately – between FLAC and 320Kbps, common sense should tell you that you are almost definitely not one of those people. It should also tell you that the file format of your music is generally not very important unless you’re digitally archiving it, which is an entirely legitimate reason to use FLAC. But when it comes to what you hear?
+
+https://warmleftovers.com/2012/08/05/no-flac-does-not-sound-better-and-you-are-not-an-audiophile-because-you-use-it-heres-what-it-actually-is-and-why-its-important/
