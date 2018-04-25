@@ -7,6 +7,7 @@
 - terminal https://github.com/jwilm/alacritty
 - distributed version control system https://pijul.org/
 - operating system https://www.redox-os.org/
+- operating system with Linux kernel https://github.com/mesalock-linux/mesalink
 - object-relational mapping http://diesel.rs/
 - graphql server https://github.com/graphql-rust/juniper
 - code editor https://github.com/google/xi-editor
