@@ -1,3 +1,4 @@
 - https://www.noredink.com/jobs?gh_jid=123590
 - http://www.elmcast.io/elmquickcast-whos-hiring/
 - pinned items of channel https://elmlang.slack.com/messages/jobs/details/
+- http://blog.noredink.com/post/145260396603/our-engineering-hiring-process
