@@ -12,6 +12,8 @@
 - graphql server https://github.com/graphql-rust/juniper
 - code editor https://github.com/google/xi-editor
 - code editor https://github.com/atom/xray
+- code editor https://github.com/Wilfred/remacs
+- code editor - language server https://github.com/autozimu/LanguageClient-neovim
 - ethereum client https://github.com/paritytech/parity
 - find alternative https://github.com/sharkdp/fd
 - ls alternative https://the.exa.website/
