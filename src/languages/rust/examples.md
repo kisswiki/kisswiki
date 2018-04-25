@@ -9,7 +9,8 @@
 - operating system https://www.redox-os.org/
 - object-relational mapping http://diesel.rs/
 - graphql server https://github.com/graphql-rust/juniper
-- editor https://github.com/google/xi-editor
+- code editor https://github.com/google/xi-editor
+- code editor https://github.com/atom/xray
 - ethereum client https://github.com/paritytech/parity
 - find alternative https://github.com/sharkdp/fd
 - ls alternative https://the.exa.website/
