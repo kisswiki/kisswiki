@@ -1,0 +1,10 @@
+Chanos is a genius
+The planet is dying, by every metric you measure the health of the planet. The only business models that will survive a dying planet are sustainable ones. Capitalism is only popular if resources are abundant and affordable, a dying planet will not support capitalism. We are headed into a new age of decentralized power through blockchain and renewables, the work force will likely turn to coops, because unions have failed to support anyone but the ones at the top, and well connected. The only business model that will be viable will have to be sustainable. 
+Otherwise we repeat history and go to war until enough people get killed off that you can support the population again and the powers that be can keep their corrupt system. I think you know which one is winning, so far.
+
+The planet cannot support NON-REGULATED Capitalism. Capitalism unleashed/unregulated is the trap we are living right now, and to the detriment of everyone. If corporations didn't currently have the entire U.S. Government by the throat, things would be a lot better. But as long as corporations have zero reason to be sustainable and zero reason to be concerned about our dying planet, the future is very grim.
+
+NQNQ -> Chanos is a genius
+Although I agree with much of what you wrote, I would correct it to say: The planet cannot support NON-REGULATED Capitalism. Capitalism unleashed/unregulated is the trap we are living right now, and to the detriment of everyone. If corporations didn't currently have the entire U.S. Government by the throat, things would be a lot better. But as long as corporations have zero reason to be sustainable and zero reason to be concerned about our dying planet, the future is very grim.
+
+https://electrek.co/2018/04/25/youngo-all-electric-socially-responsible-uber-like-service-france/
