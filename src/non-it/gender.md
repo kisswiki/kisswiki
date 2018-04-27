@@ -44,3 +44,14 @@ Okólnik był reakcją na decyzję stanu Karolina Północna, w którym zobowią
 rump-uniewaznil-zalecenia-obamy-dot-transseksualistow,nId,2357327#utm_source=paste&utm_medium=paste&utm_campaign=chrome
 
 http://fakty.interia.pl/swiat/news-trump-uniewaznil-zalecenia-obamy-dot-transseksualistow,nId,2357327
+
+##
+
+Przygotuj się na szok - to nie jest takie proste. ( ͡° ͜ʖ ͡°)
+https://en.wikipedia.org/wiki/Quigley_scale
+
+a tak szerzej to:
+
+https://en.wikipedia.org/wiki/Intersex#Conditions > i rozwiń sobie "List of conditions". Głowa mała.
+
+https://www.wykop.pl/link/4282849/#comment-54555441
