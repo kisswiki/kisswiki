@@ -13,3 +13,31 @@
 https://www.facebook.com/groups/257881290932879/
 
 - https://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes
+
+##
+
+Ok, moje ustawienia:
+
+https://marketplace.visualstudio.com/items?itemName=anoff.theme-monokai-light
+
+      "[Monokai Light]": {
+        "editor.background": "#f6f6ef",
+        "editor.foreground": "#000",
+        "statusBar.background": "#f6f6ef",
+        "editorGroupHeader.tabsBackground": "#f6f6ef",
+        "tab.activeBackground": "#f6f6ef",
+        "editorGutter.background": "#f6f6ef",
+        "panel.background": "#f6f6ef",
+        "terminal.background": "#f6f6ef",
+        "sideBar.background": "#f6f6ef",
+        "activityBar.background": "#f6f6ef",
+        "activityBar.foreground": "#000",
+      },
+
+Monokai bo te proste dresiarskie kolorki jakoś najmniej mnie drażnią :P
+
+bg i fg wzięte z https://news.ycombinator.com/item?id=16936652
+
+Dodatkowo w osx Night Shift i warmer o jeden stopień.
+
+Jasność ekranu ok 60%.
