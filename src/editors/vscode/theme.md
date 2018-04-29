@@ -4,4 +4,5 @@
   - https://github.com/Microsoft/vscode/issues/3112
 - https://code.visualstudio.com/docs/getstarted/theme-color-reference
 - https://code.visualstudio.com/docs/getstarted/themes
+- https://marketplace.visualstudio.com/items?itemName=anoff.theme-monokai-light
 - https://github.com/Monokai/monokai-pro-vscode
