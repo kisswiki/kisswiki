@@ -1,2 +1,3 @@
 - https://qz.com/1247382/online-dating-is-so-awful-that-people-are-paying-virtual-dating-assistants-to-impersonate-them/
   - https://news.ycombinator.com/item?id=16936652
+  - https://www.virtualdatingassistants.com/
