@@ -4,3 +4,5 @@ Dopiero z czasem zaczynamy poznawac prawdziwe mechanizmy nimi rzadzace i wrecz z
 
 - https://www.wykop.pl/link/4283121/dlaczego-mezczyzni-nie-chca-sie-zenic-karen/#comment-54561317
 - https://en.m.wikipedia.org/wiki/Men_Going_Their_Own_Way
+
+- Czy społeczeństwo spisuje mężczyzn na straty? - Karen Straughan https://youtu.be/jpH8LKCPhZE
