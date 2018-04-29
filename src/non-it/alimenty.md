@@ -1,3 +1,8 @@
+- http://e-prawnik.pl/forum/domowy/prawo-rodzinne/wysokosc-alimentow-a-dochody-ojca.html
+- http://www.adwokatjsosnowski.pl/maz-wysokie-dochody-ktore-ukrywa-warto-zatrudnic-detektywa-sprawy-o-alimenty/
+
+##
+
 Otóż wielu mężczyzn i wiele kobiet w Polsce ma jedną przykrą tendencję, która wpływa na wizerunek wszystkich małżeństw (także po rozwodzie). To nie jest sprawiedliwe, ale tak niestety to wygląda: mężczyzna to głowa rodziny, która służy do zarabiania, a kobieta (hihi.. jakby to było zabawne) "kręci tą głową". Bzdury i banały, ale bardzo wpływają na wizerunek. To mężczyzna zarabia kasę, ale to kobieta sprząta, zmywa, kupuje ubrania całej rodzinie (ubiera dzieci fizycznnie, a nie tylko finansowo), dba o ogóle umycie i wygląd wszystkich w domu, dba o obrusy, firanki, pisanki, pierdółki... ogólnie te wszystkie fatałaszki które czynią DOM.
 I teraz przed sądem stajecie WY, mężczyźni-zarabiający i chcecie jakoś przekonać ten sąd, że wasza nowa partnerka będzie stwarzać lepszy dom dla waszych dzieci, niż ich biologiczna matka. Jakim cudem?
 Dlaczego tak piszę? Bo według sądu (i według was samych i całego społeczeństwa) to nie wy będziecie dbać o gotowanie, sprzątanie, kupowanie ubrań, pranie w zmiękczaczach, drapowanie firanek, ustawianie kwiatków .... blablabla, które czynią DOM. Wy będziecie tylko zarabiać, a tym wszystkim, co tworzy DOM zajmie się wasza nowa partnerka. Jeśli jesteście w stanie udowodnić, że to jednak WY tworzycie dom, a oddanie WAM dzieci będzie oddaniem WAM dzieci, a nie oddaniem dzieci waszej nowej partnerce, z która te dzieci nie mają nic wspólnego, to dopiero wtedy macie szanse wygrać.
