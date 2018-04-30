@@ -2,6 +2,7 @@
   - Long Term Depression Permanently Changes the Brain https://news.ycombinator.com/item?id=16491986
 - https://ac.els-cdn.com/S1064748117305110/1-s2.0-S1064748117305110-main.pdf?_tid=55b0e2e0-013c-11e8-b35b-00000aab0f01&acdnat=1516822117_7ded3d2cd7f5c27fedf6a8992e549857
   - Curry spice turmeric boosts memory by nearly 30%, eases depression, study finds https://news.ycombinator.com/item?id=16225531
+- Porada dla ludzi z depresją - Jordan B Peterson https://www.youtube.com/watch?v=FtrWPQ4Pv5g&list=PLRgB5oA_fm4_7IjAWt4LuBf8P-MTqHctk
 
 ## We need new ways of treating depression
 
