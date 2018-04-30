@@ -19,3 +19,7 @@
   - recaptcha tokens https://www.google.com/recaptcha/intro/
   - http://cogdogblog.com/2016/04/slackin/
   - https://medium.com/aspirethemes/create-your-own-public-slack-chat-community-with-slackin-1825c1d3efb2
+
+## Sidebar theme
+
+`#f6f6ef,#f6f6ef,#F2777A,#FFFFFF,#515151,#000000,#99CC99,#66CCCC`
