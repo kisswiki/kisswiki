@@ -38,6 +38,6 @@ Monokai bo te proste dresiarskie kolorki jakoś najmniej mnie drażnią :P
 
 bg i fg wzięte z https://news.ycombinator.com/item?id=16936652
 
-Dodatkowo w osx Night Shift i warmer o jeden stopień.
+Dodatkowo wieczorem w osx Night Shift i warmer o jeden stopień.
 
 Jasność ekranu ok 60%.
