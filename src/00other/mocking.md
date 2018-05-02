@@ -1,0 +1,3 @@
+You should mock everything that has a side effect if you are doing unit tests. Reading input is a side effect(and blocking in this case) so it makes sense to stub it. You should not mock stuff that has no side-effects(except in very specific cases like long running calculations, but those are very rare and they require their own tests).
+
+https://www.reddit.com/r/programming/comments/8cwa4o/dependency_injection_is_a_25dollar_term_for_a/
