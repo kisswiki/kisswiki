@@ -52,6 +52,16 @@ Well, what if we end up with several function in different child objects that re
 "Configurable," hey that sounds like we could make some sort of configuration file. Hey, I bet we could create a system that lets us define exactly what types of common libraries and dependencies we want in our project and swap them in and out at will without breaking our code!
 Now you're starting to realize what a DI Framework is.
 
+
+Pretty remarkable that Fowler mentioned 3 different ways to do Dependency Injection using containers, but failed to mention that you can achieve same result without containers -- simply by writing functions.
+
+How's that?
+
+Partial application
+
+
+DI also helps you write macaroni code. Macaroni code is like spaghetti code except it's chopped into a million little fucking pieces, and when it's all compiled you just pray that the pieces somehow accidentally form into a tube that lets your data through.
+
 https://www.reddit.com/r/programming/comments/8cwa4o/dependency_injection_is_a_25dollar_term_for_a/
 
 ## Mocking
