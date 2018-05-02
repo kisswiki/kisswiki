@@ -35,7 +35,17 @@
 			"editor.selectionHighlightBackground": "#2b3450",
 			"panel.background": "#111316",
 			"terminal.background": "#111316"
-		}
+		},
+		"[Monokai Light]": {
+			"editor.background": "#fff",
+			"editorGroupHeader.tabsBackground": "#fff",
+			"tab.activeBackground": "#fff",
+			"sideBar.background": "#fff",
+			"activityBar.background": "#fff",
+			"editorGutter.background": "#fff",
+			"panel.background": "#fff",
+			"terminal.background": "#fff"
+		},
 	},
 	"editor.wordWrap": "on",
 	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
@@ -68,7 +78,7 @@
 	},
 	"workbench.editor.tabSizing": "shrink",
 	"editor.lineNumbers": "interval",
-	"workbench.colorTheme": "Monokai Ocean",
+	"workbench.colorTheme": "Monokai Light",
 	"workbench.statusBar.visible": false,
 	"zenMode.hideTabs": true,
 	"zenMode.centerLayout": false,
