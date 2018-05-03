@@ -7,3 +7,9 @@ http://mcfunley.com/choose-boring-technology
 ##
 
 http://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast
+
+##
+
+I used a common pattern for me: get first results with hacky code, then write a brand new and clean implementation with the lessons learned, so they both exist and can be cross checked.
+
+https://www.facebook.com/permalink.php?story_fbid=2110408722526967&id=100006735798590
