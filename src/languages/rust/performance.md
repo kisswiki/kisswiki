@@ -19,3 +19,8 @@ Where exactly are the floating-point operations in reverse-complement ?
 
 > most variations of the C++ version run only half as fast as they should on Intel Haswell chips, when built with Gcc or Clang, 5 a consequence of an instruction-sequence choice that makes the main inner loop take two cycles instead of one. (Wrapping “!(word & ~seven)” in __builtin_expect(..., false) helps.) It’s possible that Gcc will learn someday to generate better code for Haswell and newer Skylake chips
 > http://cantrip.org/rust-vs-c++.html
+
+##
+
+- a code size profiler https://github.com/rustwasm/twiggy
+- A sampling CPU profiler for Linux https://github.com/nokia/nperf
