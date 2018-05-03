@@ -1,0 +1,5 @@
+- https://github.com/ggez/game-template
+- It would be nice if everything was pure rust https://github.com/ggez/ggez/issues/29
+  - about winit, glutin, sdl, wasm
+- Road to 1.0 https://github.com/ggez/ggez/issues/235
+- https://github.com/ggez/ggez-goodies
