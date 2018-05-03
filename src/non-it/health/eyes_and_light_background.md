@@ -63,3 +63,14 @@ https://www.apartmenttherapy.com/is-watching-tv-in-the-dark-bad-152622
 - https://www.mayoclinic.org/diseases-conditions/eyestrain/symptoms-causes/syc-20372397
 - https://stackoverflow.com/questions/503103/best-background-color-for-your-editor
   - https://blog.codinghorror.com/is-your-ide-hot-or-not/
+- https://www.quora.com/Should-I-have-a-black-background-with-white-text-when-using-my-PC-or-vice-versa-If-I-read-on-my-PC-but-mostly-just-watch-shows-which-is-better-for-the-eyes
+
+##
+
+"The human eye does not function to its best advantage in the dark or in looking at a fairly well illuminated object when the eye itself is surrounded by darkness," according to Mr. Henry. "There should prevail as high a degree of general illumination as may be consistent with securing clear and easy vision of the picture.
+
+"Too low illumination causes dilation of the pupil to an abnormal degree and provides a coreal area which does not permit of focal accuracy and which tends to distortion of outline. To partially overcome this, segmental action of the ciliary muscle governing the focusing of the eye is induced. Such muscular action can only be attained by great effort.
+
+"There is also strain of the iris muscles resulting from the prolonged dilation of the pupil and another objection is that the varying intensity of the light reflected from the screen requires constant iris action more difficult of accomplishment than under normal dilation.
+
+https://www.thecrimson.com/article/1927/2/17/poor-lighting-in-movie-theatres-causes/
