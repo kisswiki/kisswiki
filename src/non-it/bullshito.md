@@ -1,0 +1,1 @@
+- https://www.wykop.pl/link/4292669/akademia-bullshito/
