@@ -14,9 +14,21 @@ I used a common pattern for me: get first results with hacky code, then write a 
 
 https://www.facebook.com/permalink.php?story_fbid=2110408722526967&id=100006735798590
 
-##
+## Rich Hickey
 
 "Simplicity is hard work. But, there's a huge payoff. The person who has a genuinely simpler system - a system made out of genuinely simple parts, is going to be able to affect the greatest change with the least work. He's going to kick your ass. He's gonna spend more time simplifying things up front and in the long haul he's gonna wipe the plate with you because he'll have that ability to change things when you're struggling to push elephants around." - Rich Hickey
 
 - http://devopsu.com/blog/simplicity-is-key/
 - https://news.ycombinator.com/item?id=6394379
+
+###
+
+- Spec-ulation – Rich Hickey [video] https://news.ycombinator.com/item?id=13085952
+- Rich Hickey: "Simple Made Easy" from Strange Loop 2011 https://news.ycombinator.com/item?id=3135185
+- Ask HN: Thoughts on Rich Hickey's advice on becoming a better developer? https://news.ycombinator.com/item?id=9058437
+- https://medium.com/@katedoesdev/simple-vs-easy-b730317645a9
+- https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md
+- Rails Conf 2012 Keynote: Simplicity Matters by Rich Hickey https://youtu.be/rI8tNMsozo0
+- https://www.infoq.com/presentations/Simple-Made-Easy
+- http://wiki.c2.com/?DoTheSimplestThingThatCouldPossiblyWork
+- http://wiki.c2.com/?ReallyValuablePages
