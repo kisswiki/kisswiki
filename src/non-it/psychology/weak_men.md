@@ -1,0 +1,7 @@
+Przyjmijcie jedno do wiadomości. Kobiety gardzą, tak mają w głębokiej pogardzie męską słabość. Taki mężczyzna, który ją okazuje nie tylko staje się dla nich nietrakcyjny, ale wręcz prowokuje je do ataku na siebie czy to werbalnego - drwiny, cynizm, wbijanie szpili, wyśmiewanie się, podważanie autorytetu, ośmieszanie w towarzystwie, podnoszenie głosu, nawet wyzwiska, a w skrajnych przypadkach ofensywy fizycznej. 
+
+Owszem, gdzieś tam mogą współczuć biedniejszym, pokrzywdzonym, słabszym (w tym mężczyznom) itp. itd. Sytuacja ulega jednak radykalnej zmianie, kiedy w grę wchodzi partner, czyli osoba którą wytypowały i wybrały na swojego faceta/męża. Tutaj taryf ulgowych nie ma. One podświadomie chcą mieć kogoś silnego u swojego boku, bo same są słabe i targane emocjami. Gdy facet taki nie jest, gdy nie potrafi zapewnić im bezpieczeństwa i kiedy trzeba w zasadniczy sposób ustawić do pionu i wziąć za ryj, wtedy wariują, włażą na głowę i całą złość przelewają na chłopa, za jego słabość, za jego brak jaj. Często tego nie rozumiejąc i nie zdając sobie do końca z tego sprawy. Czysta biologia.
+
+Przypatrzcie się na ten przypadek. Tak właśnie tragicznie kończy białe rycerstwo.
+
+https://www.wykop.pl/link/4292999/tak-kobiety-reaguja-na-przemoc-domowa-wobec-mezczyzn/#comment-54722631
