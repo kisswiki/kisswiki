@@ -117,6 +117,7 @@
   - https://github.com/knowthen/elm-beyond-basics
 - https://www.sitepoint.com/premium/courses/elm-a-beginners-guide-to-elm-and-data-2940
 - https://frontendmasters.com/workshops/elm/
+- https://github.com/elm-training/elm-training
 
 ## Documentation, Articles, Books
 
