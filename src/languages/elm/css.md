@@ -5,6 +5,7 @@
 - https://github.com/rtfeldman/elm-css-helpers
 - http://package.elm-lang.org/packages/mdgriffith/style-elements/ has pretty much "solved" CSS, in the same way that Elm solved JavaScript.
   - https://groups.google.com/forum/#!msg/elm-discuss/D7mu7NqHPuA/n4p_ohaJAwAJ
+- https://medium.com/@alexander.s.boring/currying-with-style-in-elm-65820f9d02d6
 
 ## elm-css
 
