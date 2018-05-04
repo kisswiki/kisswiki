@@ -21,7 +21,7 @@ https://www.facebook.com/permalink.php?story_fbid=2110408722526967&id=1000067357
 - http://devopsu.com/blog/simplicity-is-key/
 - https://news.ycombinator.com/item?id=6394379
 
-###
+## Rich Hickey
 
 - Spec-ulation – Rich Hickey [video] https://news.ycombinator.com/item?id=13085952
 - Rich Hickey: "Simple Made Easy" from Strange Loop 2011 https://news.ycombinator.com/item?id=3135185
@@ -30,5 +30,16 @@ https://www.facebook.com/permalink.php?story_fbid=2110408722526967&id=1000067357
 - https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md
 - Rails Conf 2012 Keynote: Simplicity Matters by Rich Hickey https://youtu.be/rI8tNMsozo0
 - https://www.infoq.com/presentations/Simple-Made-Easy
+
+## wiki.c2.com
+
+- http://wiki.c2.com/?StartingPoints
 - http://wiki.c2.com/?DoTheSimplestThingThatCouldPossiblyWork
 - http://wiki.c2.com/?ReallyValuablePages
+- http://wiki.c2.com/?RoadMaps
+- http://wiki.c2.com/?ManualTopTen
+- http://c2.com/cgi-bin/topten?do=all&do=counts&do=wiki
+
+## Codding Horror
+
+- https://blog.codinghorror.com/why-cant-programmers-program/
