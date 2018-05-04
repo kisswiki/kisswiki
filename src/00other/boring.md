@@ -40,6 +40,9 @@ https://www.facebook.com/permalink.php?story_fbid=2110408722526967&id=1000067357
 - http://wiki.c2.com/?ManualTopTen
 - http://c2.com/cgi-bin/topten?do=all&do=counts&do=wiki
 
+If I said "transform-centered design", would you hit me? What I hear you saying is "Write the middle first". After you understand the middle, you know the preconditions and postconditions necessary to support it. -- BetsyHanesPerry
+http://wiki.c2.com/?SpikeSolution
+
 ## Codding Horror
 
 - https://blog.codinghorror.com/why-cant-programmers-program/

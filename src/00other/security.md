@@ -1,1 +1,2 @@
 - https://haveibeenpwned.com/
+- https://www.wired.com/2016/06/demonically-clever-backdoor-hides-inside-computer-chip/
