@@ -1,0 +1,1 @@
+At a pure level, Lambda "integration" is essentially an interface for passing in runtime arguments+environment to your application. https://news.ycombinator.com/item?id=16976238
