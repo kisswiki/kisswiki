@@ -13,3 +13,10 @@ http://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast
 I used a common pattern for me: get first results with hacky code, then write a brand new and clean implementation with the lessons learned, so they both exist and can be cross checked.
 
 https://www.facebook.com/permalink.php?story_fbid=2110408722526967&id=100006735798590
+
+##
+
+"Simplicity is hard work. But, there's a huge payoff. The person who has a genuinely simpler system - a system made out of genuinely simple parts, is going to be able to affect the greatest change with the least work. He's going to kick your ass. He's gonna spend more time simplifying things up front and in the long haul he's gonna wipe the plate with you because he'll have that ability to change things when you're struggling to push elephants around." - Rich Hickey
+
+- http://devopsu.com/blog/simplicity-is-key/
+- https://news.ycombinator.com/item?id=6394379
