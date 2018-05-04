@@ -21,5 +21,10 @@
 - command runner https://github.com/casey/just
 - Distributed transactional key value database https://github.com/pingcap/tikv
 - cat alternative https://github.com/sharkdp/bat
+  - building on Windows - didn't succeed for me
+    - https://github.com/rust-onig/rust-onig/issues/35
+    - https://github.com/dotBunny/CLionSourceCodeAccess/issues/49
+      - https://github.com/dotBunny/CLionSourceCodeAccess/wiki#possible-windows-install-steps
+    - https://stackoverflow.com/questions/6622869/nmake-fatal-error-u1077-return-code-0xc0000135
 
 https://www.reddit.com/r/rust/comments/8dzzzx/newb_question_whats_a_good_usecase_for_rust/dxrfljz/
