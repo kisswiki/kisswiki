@@ -1,2 +1,3 @@
 - https://medium.com/@eeue56/why-type-classes-arent-important-in-elm-yet-dd55be125c81
 - http://reasonablypolymorphic.com/blog/elm-is-wrong/
+- http://blog.jenkster.com/2016/11/type-bombs-in-elm.html
