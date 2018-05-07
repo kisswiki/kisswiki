@@ -11,6 +11,27 @@
 
 ## To watch
 
+### Buddhist
+
+- [x] Spring, Summer, Fall, Winter... and Spring (2003)
+- [ ] Buddha Collapsed Out Of Shame (2007)
+- [ ] Samsara (2001)
+- [ ] Milarepa (2007
+- [ ] Un buda (2005)
+- [ ] Zen - The Life Of Zen Master Dogen (2009)
+
+https://culturacolectiva.com/movies/six-buddhist-movies-that-explore-the-seasons-of-life/
+
+- [ ] Perfect Sense (2011)
+- [ ] The Big Lebowski (1998)
+- [ ] Opening Night (1977)
+- [ ] A Zen Life: D.T. Suzuki (2006)
+- [ ] Groundhog Day (1993)
+- [ ] For the Benefit of All Beings (2011)
+- [ ] Brilliant Moon (2010)
+
+https://www.lionsroar.com/top-ten-buddhist-films/
+
 ### Anime
 
 - Neon Genesis Evangelion
