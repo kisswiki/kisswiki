@@ -4,7 +4,9 @@
 - What makes functional programming so viable for problem modeling? https://github.com/staltz/ama/issues/4
 - https://github.com/evancz/functional-programming-in-elm/blob/master/SUMMARY.md
 
-## functional core, imperative shell.md
+## functional core, imperative shell
+
+https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell
 
 Think about it as the runtime being an imperative shell around a functional core (your program). The functional core will be predictable and have all the advantages of the functional approach. It will also return information for the imperative shell about something that needs to be done. Upon receiving that information, the imperative shell executes what needs to be executed and then feeds the result back into the functional core taking it to the next state.
 
