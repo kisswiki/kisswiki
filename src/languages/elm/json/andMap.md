@@ -10,6 +10,12 @@ Why not `andMap` from https://github.com/elm-community/json-extra/blob/2.7.0/src
 andMap = map2 (|>)
 ```
 
+or better this sorter form
+
+```elm
+(|:) = map2 (<|)
+```
+
 Let's first analyze andMap using flip.
 
 
