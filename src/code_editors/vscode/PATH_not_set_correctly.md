@@ -8,7 +8,7 @@ I had `$PATH` wrongly set in new vscode 1.23.0. To fix this, set in settings (fo
 
 By default it is `-l`.
 
-Starting vscode from terminal sets $PATH correclty.
+Starting vscode from terminal sets `$PATH` correclty.
 
 Introspection: `vscode > Help > Toggle Developers Tools > process.env.PATH`
 
