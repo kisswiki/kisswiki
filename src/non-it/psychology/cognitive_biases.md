@@ -1,0 +1,11 @@
+- Flow chart of cognitive biases (breakdown-notes.com) https://news.ycombinator.com/item?id=16875497
+  - https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18
+  - https://en.wikipedia.org/wiki/List_of_cognitive_biases
+    - https://upload.wikimedia.org/wikipedia/commons/c/ce/Cognitive_Bias_Codex_With_Definitions%2C_an_Extension_of_the_work_of_John_Manoogian_by_Brian_Morrissette.jpg
+  - http://coglode.com/
+  - https://yourbias.is/
+  - https://www.breakdown-notes.com/makemap
+  - http://www.dan.sperber.fr/wp-content/uploads/2009/10/MercierSperberWhydohumansreason.pdf
+  - https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
+  - https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248
+  - https://www.amazon.com/Art-Thinking-Clearly-Rolf-Dobelli/dp/0062219693
