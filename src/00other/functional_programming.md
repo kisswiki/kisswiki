@@ -19,6 +19,14 @@ https://gist.github.com/kbilsted/abdc017858cad68c3e7926b03646554e
 
 `mocking.md`
 
+## Haskell
+
+Some people get into Haskell thinking that functions can't have side effects because Haskell is "pure", but that's not right. Rather, as the parent commenter say, they can have all the side effects they want, and the consistency and purity of the program's execution is preserved through the use of monads.
+
+Haskell is considered a pure functional language where everything is immutable, but that's not true, either. A lot of the GHC standard library uses mutation (e.g. with IORefs) for performance reasons. For example, putStr ends up writing to an internal byte buffer that is modified directly.
+
+https://news.ycombinator.com/item?id=17008928
+
 ## About
 
 > The core of Functional Programming is thinking about data-flow rather than control-flow
