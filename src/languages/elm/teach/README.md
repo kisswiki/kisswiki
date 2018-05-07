@@ -14,3 +14,7 @@ https://ellie-app.com/t7ZB5jTB8a1/0
 ## no default function parameters
 
 ## no varrying number of function parameters
+
+## \ looks similar to λ - lambda
+
+>Functional programming languages implement the lambda calculus. https://en.m.wikipedia.org/wiki/Lambda_calculus
