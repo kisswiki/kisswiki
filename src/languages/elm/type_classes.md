@@ -1,0 +1,2 @@
+- https://medium.com/@eeue56/why-type-classes-arent-important-in-elm-yet-dd55be125c81
+- http://reasonablypolymorphic.com/blog/elm-is-wrong/
