@@ -4,6 +4,11 @@
 - http://exercism.io/languages/elm
   - https://github.com/exercism/xelm
   - http://exercism.io/languages/elm/todo
+  - people with good solutions
+    - http://exercism.io/mrattner
+    - http://exercism.io/toomyem
+    - http://exercism.io/daniula
+    - http://exercism.io/wpiekutowski
 - flash cards ios app https://discourse.elm-lang.org/t/elm-flashcard-app-book-quiz-audio-book/805
 
 ## Overview
