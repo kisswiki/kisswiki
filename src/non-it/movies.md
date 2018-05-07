@@ -1,5 +1,6 @@
 - Favourite movies.md https://gist.github.com/rofrol/3d12293ae7f4165bdde2
-- http://cinesift.com
+- https://flickmetrix.com/
+  - previously http://cinesift.com
 - http://www.rottentomatoes.com/
 - Whiplash (2014)
   - http://williamdickersonfilmmaker.com/why-whiplash-won-an-oscar-for-best-editing/
