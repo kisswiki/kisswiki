@@ -19,4 +19,9 @@ Mock testing essentially tests expected side effects. A more powerful concept is
 Take a look at Gary Bernhardt's talk "Boundaries"[1]. It touches on this very topic and was quite the eye-opener for me (having experienced all the same issues you've described).
 [1]https://www.destroyallsoftware.com/talks/boundaries
 
+
+I'm back and forth on my agreement/disagreement on this one. One of the major purposes of tests is to have confidence in refactoring, but it isn't the _only_ purpose. Beyond that though, I'd say that unit tests probably aren't the right tool for the job when we're talking about refactoring. The purpose of unit tests is to verify that the unit of code is working in isolation. Integration tests are much better suited for verifying correctness when refactoring. Any good test suite should have a healthy balance of unit tests and integration tests. And, when I say integration tests, I mean whatever you want to call them -- tests that check the system as a whole.
+
+I don't necessarily disagree with you though. Mocks aren't perfect, and they have their own host of problems. I've run into a number of passing tests that should have never been that way because of mocks. It happens. The best way to combat this is to use mocks more sparingly, and have feature tests for many of these cases.
+
 https://news.ycombinator.com/item?id=13874824
