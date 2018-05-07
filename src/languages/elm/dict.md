@@ -10,6 +10,23 @@ https://groups.google.com/forum/#!msg/elm-discuss/Oq0yMxbpbdg/gUWmFea5AQAJ
 
 ## update
 
+As an aside, if you don't care about adding or removing values and just want to update ones that are in fact present, you can use Maybe.map to lift a regular function `(v -> v)`:
+
+```
+> increment n = n + 1
+<function> : number -> number
+> d = Dict.singleton "foo" 99
+Dict.fromList [("foo",99)] : Dict.Dict String number
+> d |> Dict.update "foo" (Maybe.map increment)
+Dict.fromList [("foo",100)] : Dict.Dict String number
+> d |> Dict.update "bar" (Maybe.map increment)
+Dict.fromList [("foo",99)] : Dict.Dict String number
+```
+
+https://www.reddit.com/r/elm/comments/6pew9r/dict_update/
+
+###
+
 https://elmlang.slackarchive.io/beginners/page-100/ts-1495049991573640
 
 nwjlyons [9:39 PM]
