@@ -1,12 +1,11 @@
-I had `$PATH` wrongly set in new vscode 1.23.0. To fix this, set in settings (for osx):
+
+I had `$PATH` wrongly set in new vscode 1.23.0. It looks like setting it to `-l` somehow solved the problem.(for osx), even though `-l` is default:
 
 ```
     "terminal.integrated.shellArgs.osx": [
       "-i"
     ],
 ```
-
-By default it is `-l`.
 
 Starting vscode from terminal sets `$PATH` correclty.
 
