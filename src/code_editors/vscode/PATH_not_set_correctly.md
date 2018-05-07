@@ -12,4 +12,5 @@ Starting vscode from terminal sets `$PATH` correclty.
 
 Introspection: `vscode > Help > Toggle Developers Tools > process.env.PATH`
 
-https://github.com/Microsoft/vscode/issues/31800#issuecomment-327149392
+- https://github.com/Microsoft/vscode/issues/31800#issuecomment-327149392
+- https://github.com/Krzysztof-Cieslak/vscode-elm/issues/193
