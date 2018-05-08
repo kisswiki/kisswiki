@@ -1,12 +1,13 @@
+- http://guide.elm-lang.org/architecture/effects/random.html
 - http://elm-lang.org/examples/random
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Random
+- http://elmprogramming.com/commands.html#generating-random-numbers
+- https://hub.packtpub.com/random-value-generators-elm/
 - https://stackoverflow.com/questions/40206791/what-is-the-minimum-code-required-to-produce-random-numbers-in-elm
 - http://blog.noredink.com/post/147949678708/functional-randomization
 - https://www.packtpub.com/books/content/random-value-generators-elm
-
-
-- http://package.elm-lang.org/packages/elm-lang/core/latest/Random
-- http://guide.elm-lang.org/architecture/effects/random.html
+- provides cryptographically secure random number generation via JavaScript's `window.crypto.getRandomValues()` function http://package.elm-lang.org/packages/billstclair/elm-dev-random/latest
+- https://www.reddit.com/r/elm/comments/43yon2/how_to_generate_a_random_int_within_a_range/
 - https://github.com/jcollard/random-examples
 - https://github.com/TheSeamau5/elm-check/wiki/Guide-to-Writing-Your-Own-Random-Generators
 - http://package.elm-lang.org/packages/elm-community/elm-random-extra/latest/Random-Array
@@ -20,6 +21,7 @@
 - http://elm-by-example.org/chapter8circles.html
 - https://github.com/NoRedInk/elm-random-extra
 - https://www.reddit.com/r/elm/comments/3vpau7/randomrange_in_modern_elm/
+- https://stackoverflow.com/questions/35235708/elm-generate-random-number
 
 ## Don't use the current time as seed
 
