@@ -1,6 +1,8 @@
-- http://tech.noredink.com/post/147949678708/functional-randomization
+- http://elm-lang.org/examples/random
+- http://package.elm-lang.org/packages/elm-lang/core/latest/Random
+- https://stackoverflow.com/questions/40206791/what-is-the-minimum-code-required-to-produce-random-numbers-in-elm
+- http://blog.noredink.com/post/147949678708/functional-randomization
 - https://www.packtpub.com/books/content/random-value-generators-elm
-
 
 
 - http://package.elm-lang.org/packages/elm-lang/core/latest/Random
