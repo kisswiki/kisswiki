@@ -1,0 +1,1 @@
+https://www.purepc.pl/felietony/rozdzielczosc_4k_nadchodzi_tylko_czy_jestesmy_juz_gotowi
