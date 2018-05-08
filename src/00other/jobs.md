@@ -3,6 +3,11 @@
 - https://nofluffjobs.com
 - https://www.pracuj.pl
 - List of places to find remote jobs and freelancing projects (drive.google.com) https://news.ycombinator.com/item?id=16875868
+- Remote Job hunt https://docs.google.com/document/d/1wtAmxh9fLVwTtRbBLO7fgvyyM1ZiCv_clWgwUSCYFeQ/edit
+- https://remoteleads.io/blog/proposals-that-win-remote-freelance-clients/
+- https://weworkremotely.com/
+- https://stackoverflow.com/jobs
+- How engineers can stand out from the applicant pool (keyvalues.com) https://news.ycombinator.com/item?id=16877320
 
 ## how to get a job
 
