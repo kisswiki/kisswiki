@@ -44,6 +44,7 @@ https://www.lionsroar.com/top-ten-buddhist-films/
 
 - HBO: The Wire, Rodzina Soprano, Six Feet Under, Kompania Braci, The Oz, True Detective, Big Little Lies, Młody papież, Olive Kitteridge, Zakazane Imperium, Deadwood, Pacyfik, Generation Kill, True Blood, Silicon Valley, Leftovers, Sex in the city, Treme, Rzym, Veep, The Sopranos, The Young Pope https://www.wykop.pl/link/4188897/netflix-szykuje-700-oryginalnych-produkcji-w-2018-roku-to-nie-zart/
 - The Deuce" - nowy serial autora "The Wire" o prostytucji i początkach branży porno w latach '70 w Nowym Jorku. Świetne dialogi i scenografia, ciekawy temat przedstawiony z perspektywy różnych osób i grup społecznych, dużo cycków, jak dla mnie absolutna rewelacja. https://www.wykop.pl/wpis/30726725/serialowe-mirki-obejrzyjcie-the-deuce-nowy-serial-/
+- Silicon Valley (TV Series 2014– )
 
 ### Rest
 
