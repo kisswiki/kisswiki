@@ -1,0 +1,2 @@
+- https://www.wykop.pl/link/4292197/big-brother-spotyka-big-data-totalna-technologia-wladzy-w-historii-ludzkosci/#comment-54708429
+  - http://lubimyczytac.pl/ksiazka/41646/paradyzja
