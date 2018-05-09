@@ -1,1 +1,5 @@
 - https://www.wykop.pl/link/4294171/slodki-narkotyk-jak-sie-odzwyczaic-od-slodyczy/
+- WHY Sugar is as Bad as Alcohol (Fructose, The Liver Toxin) https://youtu.be/f_4Q9Iv7_Ao
+- Sugar: The Bitter Truth https://youtu.be/dBnniua6-oM
+- Cukier gorszy od tłuszczu - DOKUMENT TV / lektor PL https://youtu.be/jOhzL4onqwQ
+- Sugar is Killing Us https://youtu.be/Yda8RtOcVFU
