@@ -1,1 +1,2 @@
 - https://github.com/mapbox/mapbox-gl-js/blob/master/src/ui/map.js
+- How Mapbox Is Winning Over Developers to Challenge Google's Mapping Dominance (forbes.com) https://news.ycombinator.com/item?id=17021205
