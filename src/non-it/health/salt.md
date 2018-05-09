@@ -1,2 +1,4 @@
 - https://www.wykop.pl/link/4294171/slodki-narkotyk-jak-sie-odzwyczaic-od-slodyczy/#comment-54738123
   - Salt: Are you getting Enough? (More Sodium & Health) https://youtu.be/amJ-ev8Ial8 
+  - WHY Low Salt Stresses the Body (Sodium, Hormones & Potassium) https://youtu.be/0bNdhM4vt4I
+  - Low Sodium's link to Fat Gain & Insulin Resistance (Salt vs. Sugar) https://youtu.be/-ygExIZm7Wo
