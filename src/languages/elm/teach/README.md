@@ -25,4 +25,5 @@ https://ellie-app.com/t7ZB5jTB8a1/0
 
 ## http
 
-https://ellie-app.com/mLdvWd5rKa1/0
+- http://elm-lang.org/examples/http
+- https://ellie-app.com/mLdvWd5rKa1/0
