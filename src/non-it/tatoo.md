@@ -1,0 +1,1 @@
+Nie naklejasz naklejek na ferrari https://jbzdy.pl/obr/739945/polecam-takie-tatuaze
