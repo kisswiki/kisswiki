@@ -1,0 +1,1 @@
+- https://userstyles.org/styles/158745/spotify-white
