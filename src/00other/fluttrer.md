@@ -1,7 +1,7 @@
 
 - Show HN: InKino – An open-source movie app made with Flutter https://news.ycombinator.com/item?id=16818170
   - https://github.com/roughike/inKino
-## Some good points of Flutter so far:
+## Pros
 
 - Hot reloading is fast, much easier to iterate on designs and experiments
 - Plugins seem to be easy to make, they made an architecture that focuses on minimal boilerplate
