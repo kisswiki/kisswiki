@@ -20,6 +20,21 @@ Ok, moje ustawienia:
 
 https://marketplace.visualstudio.com/items?itemName=Hyzeta.vscode-theme-github-light
 
+settings:
+
+```json
+{
+  "workbench.colorCustomizations": {
+    "[Github Light]": {
+      "editor.background": "#ffffff",
+      "statusBar.background": "#ffffff",
+      "sideBar.background": "#ffffff",
+      "activityBar.background": "#ffffff",
+    },
+  }
+}
+```
+
 Dodatkowo wieczorem w osx Night Shift i warmer o jeden stopień.
 
 Jasność ekranu ok 60%.
