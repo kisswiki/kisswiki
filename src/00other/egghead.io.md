@@ -1,4 +1,4 @@
-- https://instructor.egghead.io/guide/
+- https://instructor.egghead.io
 
 ## download free materials
 
