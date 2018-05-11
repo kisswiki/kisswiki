@@ -17,3 +17,10 @@ audienceFoldersDecoder : Decoder (List Value)
 audienceFoldersDecoder =
     field "data" (list value) |> andThen (\list -> succeed <| Debug.log "list" list)
 ```
+
+or
+
+```elm
+decodeData =
+    JD.value |> JD.andThen (\value -> JD.succeed <| Debug.log "value" (toString value))
+```
