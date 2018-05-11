@@ -1,0 +1,4 @@
+- https://news.ycombinator.com/item?id=17041357
+  - https://github.com/knsv/mermaid
+  - http://casual-effects.com/markdeep/
+  - https://en.m.wikipedia.org/wiki/DOT_(graph_description_language)
