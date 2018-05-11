@@ -27,4 +27,26 @@ https://ellie-app.com/t7ZB5jTB8a1/0
 
 - http://elm-lang.org/examples/http
 - https://ellie-app.com/mLdvWd5rKa1/0
-- simple request https://ellie-app.com/8TFRD9FVha1/3
+- simple request https://ellie-app.com/8TFRD9FVha1/4
+
+```elm
+module Main exposing (main)
+
+import Html exposing (Html, text)
+import Http
+import Json.Decode as JD
+
+url = "https://jsonplaceholder.typicode.com/posts/1"
+
+main = Html.program
+  { view = \_ -> text <| "Hello, World!"
+  , update = \_ _ -> ((), Cmd.none)
+  , subscriptions = \_ -> Sub.none
+  , init = ((), Http.send NewGif (Http.get url decodeData))
+  }
+ 
+type Msg = NewGif (Result Http.Error JD.Value)
+        
+decodeData =
+    JD.value |> JD.andThen (\value -> JD.succeed <| Debug.log "value" value)
+```
