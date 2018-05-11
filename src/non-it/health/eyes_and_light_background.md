@@ -30,6 +30,7 @@ settings:
       "statusBar.background": "#ffffff",
       "sideBar.background": "#ffffff",
       "activityBar.background": "#ffffff",
+      "editorIndentGuide.activeBackground": "#888",
     },
   }
 }
