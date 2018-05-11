@@ -27,7 +27,7 @@ https://ellie-app.com/t7ZB5jTB8a1/0
 
 - http://elm-lang.org/examples/http
 - https://ellie-app.com/mLdvWd5rKa1/0
-- simple request https://ellie-app.com/8TFRD9FVha1/7
+- simple request https://ellie-app.com/8TFRD9FVha1/8
 
 ```elm
 module Main exposing (main)
@@ -42,7 +42,7 @@ main = Html.program
   { view = \_ -> text <| "Hello, World!"
   , update = \_ _ -> ((), Cmd.none)
   , subscriptions = \_ -> Sub.none
-  , init = ((), Http.send always (Http.get url decodeData))
+  , init = ((), Http.send identity (Http.get url decodeData))
   }
         
 decodeData =
