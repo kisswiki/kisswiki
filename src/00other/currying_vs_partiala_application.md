@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/218025/what-is-the-difference-between-currying-and-partial-application
