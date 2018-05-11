@@ -1,3 +1,7 @@
+- https://instructor.egghead.io/guide/
+
+## download free materials
+
 ```
 brew install youtube-dl
 brew install ffmpeg
