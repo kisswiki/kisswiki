@@ -1,2 +1,2 @@
 - https://discourse.elm-lang.org/t/what-is-constructive-input/977
-- https://www.youtube.com/watch?v=DSjbTC-hvqQ&t=530s
+- "Code is the Easy Part" by Evan Czaplicki https://www.youtube.com/watch?v=DSjbTC-hvqQ&t=530s
