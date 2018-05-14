@@ -1,0 +1,2 @@
+- https://discourse.elm-lang.org/t/what-is-constructive-input/977
+- https://www.youtube.com/watch?v=DSjbTC-hvqQ&t=530s
