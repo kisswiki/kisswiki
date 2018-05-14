@@ -58,3 +58,4 @@ sizeToMsg size =
 - https://ellie-app.com/jVp9wDNWBa1/0
 - https://www.reddit.com/r/elm/comments/4jfo32/getting_the_initial_window_dimensions/d369kw1/
 - https://github.com/elm-lang/window/blob/master/src/Window.elm
+- old https://github.com/lucamug/elm-scroll-resize-events
