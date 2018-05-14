@@ -17,15 +17,20 @@ Well, I think elegant can send styles to JS via a port and then apply them with 
 It’s all done at runtime in plain Elm now - there are no separate stylesheets anymore (or Native for that matter). https://discourse.elm-lang.org/t/how-to-do-css-in-elm/830/7
 ## global style
 
-`$ elm package install rtfeldman/elm-css`
+```bash
+$ elm package install rtfeldman/elm-css
+$ elm package install rtfeldman/elm-css-utils
+```
 
 ```elm
 module Main exposing (main)
 
-import Css exposing (backgroundColor, color, hex)
+import Css exposing (alignItems, auto, backgroundColor, borderBox, borderRadius, boxSizing, center, color, cursor, default, displayFlex, ellipsis, flexEnd, fontFamilies, fontSize, hex, hidden, justifyContent, listStyleType, margin, marginLeft, maxHeight, minHeight, minWidth, none, overflowX, overflowY, padding, padding2, paddingTop, pointer, px, rgba, textOverflow, width, zero)
 import Css.Foreign exposing (body, global)
+import Css.Helpers exposing (toCssIdentifier)
 import Html
-import Html.Styled exposing (Attribute, Html, div, styled, text, toUnstyled)
+import Html.Styled exposing (Html, button, div, fromUnstyled, li, styled, text, toUnstyled, ul)
+import Html.Styled.Attributes exposing (class, classList)
 
 
 bodyStyleNode : Html msg
@@ -34,18 +39,38 @@ bodyStyleNode =
         [ body
             [ backgroundColor (hex "#191e29")
             , color (hex "#b3c4cb")
+            , fontFamilies [ "sans-serif" ]
+            , boxSizing borderBox
+            ]
+        ]
+
+
+type DivClasses
+    = Div1Class
+
+
+divStyleNode : Html msg
+divStyleNode =
+    Css.Foreign.global
+        [ Css.Foreign.class Div1Class
+            [ backgroundColor (hex "#fff")
+            , color (hex "#000")
             ]
         ]
 
 
 main : Html.Html msg
 main =
+    view
+
+
+view : Html.Html msg
+view =
     styled div
         []
         []
         [ bodyStyleNode
-        , div []
-            [ text "Some info." ]
+        , div [ class (toCssIdentifier Div1Class) ] [ divStyleNode, text "Hello world" ]
         ]
         |> toUnstyled
 ```
