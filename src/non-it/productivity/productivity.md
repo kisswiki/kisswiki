@@ -6,6 +6,12 @@
 - https://www.nytimes.com/2015/01/11/opinion/sunday/stop-checking-email-so-often.html
 - Ulysses tying himself to the mast so that he couldn't be lured in by the song of the Sirens https://en.wikipedia.org/wiki/Commitment_device
 - https://medium.com/swlh/what-i-learned-about-deep-productivity-from-a-30-day-digital-declutter-800da2251344
+- http://blog.samaltman.com/productivity
+- https://news.ycombinator.com/item?id=16797089
+- https://news.ycombinator.com/item?id=16985228
+- https://news.ycombinator.com/item?id=16941717
+- https://news.ycombinator.com/item?id=16893581
+- The full name is the "Yerkes-Dodson Law of Social Facilitation." It's this idea that a task requires an optimal amount of nervous system arousal. Too much and you get jittery, too little and you get lethargic. So it looks like an inverted U with the optimal performance at a middle level of arousal https://news.ycombinator.com/item?id=16889646
 
 ## Morhpine Chrome Extension
 
