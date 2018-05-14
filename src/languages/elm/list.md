@@ -37,3 +37,14 @@ lastElem : List a -> Maybe a
 lastElem =
     List.foldl (Just >> always) Nothing
 ```
+
+```elm-repl
+> Just
+<function> : a -> Maybe.Maybe a
+> always
+<function> : a -> b -> a
+> (>>)
+<function> : (a -> b) -> (b -> c) -> a -> c
+```
+
+`always` expects two arguments, so when we supply it with one, we get function.
