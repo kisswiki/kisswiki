@@ -83,3 +83,47 @@ property "box-shadow" "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)"
 ```
 
 Example from https://codepen.io/sdthornton/pen/wBZdXq
+
+## pseudo class
+
+`any-link` and `hover`
+
+```elm
+pseudoClassStylesheet : Stylesheet
+pseudoClassStylesheet =
+    (stylesheet << namespace "pseudoClasses")
+        [ id Page
+            [ color (hex "#fff")
+            , hover
+                [ marginTop (px 10)
+                , focus
+                    [ color (hex "#000") ]
+                ]
+            , first
+                [ fontSize (Css.em 3) ]
+            , disabled
+                [ marginTop (px 20) ]
+            , pseudoClass "any-link"
+                [ color (hex "f00") ]
+            , backgroundColor (hex "#aaa")
+            ]
+        ]
+```
+
+https://github.com/rtfeldman/elm-css/blob/14.0.0/tests/Fixtures.elm
+
+## batch
+
+```elm
+underlineOnHover : Style
+underlineOnHover =
+    batch
+        --~ textDecoration none
+        [ color (rgb 128 127 126)
+        , hover
+            --[ textDecoration underline ]
+            [ color (rgb 23 24 25) ]
+        ]
+```
+
+https://github.com/rtfeldman/elm-css/blob/14.0.0/tests/Fixtures.elm
