@@ -61,11 +61,6 @@ divStyleNode =
 
 main : Html.Html msg
 main =
-    view
-
-
-view : Html.Html msg
-view =
     styled div
         []
         []
