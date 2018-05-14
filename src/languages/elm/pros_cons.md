@@ -107,3 +107,19 @@ However, I'm assuming you meant "pain point specifically with Elm the language."
 My #2 pain point is how much of the Web platform still requires interop to access. For example, if I could use an Elm library with a nice API that let me work with IndexedDB, I'd probably be up until 2am upgrading Dreamwriter.
 
 Oh, and there's that `value` doesn't Just Work the way it does in React. This is kind of inside baseball, but it can Just Work in React because `setState` updates synchronously, whereas Elm does `requestAnimationFrame` batching to improve performance. The alternative of `defaultValue` works fine for most use cases, but when it doesn't it's a big pain. I can conceive of a way to make `value` Just Work, but it would be a pretty invasive change for `elm-lang/virtual-dom`.
+
+##
+
+To summarize, Elm coherently packages the following technologies.
+
+1. Statically typed code like TypeScript or Flow
+2. Functional Programming Like Ramda
+3. Statically typed HTML like JSX
+4. Virtual DOM like React
+5. Elm Architecture like Redux
+6. Modules like JSPM/Require/Webpack
+7. Immutability like Immutable.js
+8. CSS pre-processor like SASS
+9. Unit Testing like Mocha/Jasmine/Jest
+
+https://medium.com/@JFishbein1/angular2-react-elm-912df434826a
