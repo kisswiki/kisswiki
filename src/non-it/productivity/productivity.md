@@ -5,6 +5,7 @@
 - https://www.sitepoint.com/how-information-overload-is-ruining-your-work-life/
 - https://www.nytimes.com/2015/01/11/opinion/sunday/stop-checking-email-so-often.html
 - Ulysses tying himself to the mast so that he couldn't be lured in by the song of the Sirens https://en.wikipedia.org/wiki/Commitment_device
+- https://medium.com/swlh/what-i-learned-about-deep-productivity-from-a-30-day-digital-declutter-800da2251344
 
 ## Morhpine Chrome Extension
 
