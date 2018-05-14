@@ -71,3 +71,15 @@ main =
 ```
 
 - https://github.com/rtfeldman/elm-css/issues/383#issuecomment-377198383
+
+## No way to have multiple box shadows
+
+https://github.com/rtfeldman/elm-css/issues/265
+
+Need to use `property`:
+
+```elm
+property "box-shadow" "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)"
+```
+
+Example from https://codepen.io/sdthornton/pen/wBZdXq
