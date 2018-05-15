@@ -1,6 +1,8 @@
 
 - Show HN: InKino – An open-source movie app made with Flutter https://news.ycombinator.com/item?id=16818170
   - https://github.com/roughike/inKino
+- https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514
+
 ## Pros
 
 - Hot reloading is fast, much easier to iterate on designs and experiments
@@ -55,4 +57,8 @@ https://medium.com/@openGeeksLab/flutter-vs-react-native-what-you-need-to-know-8
 
 But React Native still has the same flaws as Xamarin – trying to create a great app out of widgets from both android and iOS. With React Native your bridging with a custom javascript runtime onto native APIs from 2 different platforms. Your gonna end up with an app that regresses to the lowest common denominator. Anything complex requires you to create custom implementations on the native platforms which defeats the object. With Flutter there are no OEM widgets. Flutter draws it own widgets directly into each platforms blank canvas. THIS is the magic of flutter, and why it’s so much better than react native of xamarin
 
-https://medium.com/@deanchalk/but-react-native-still-has-the-same-flaws-as-xamarin-trying-to-create-a-great-app-out-of-widgets-a7e989cc2d8a
+Kotlin multiplatform has all the same downsides as xamarin or react native – your still bridging into the native APIs and widgets. Flutter does it very differently by drawing its own widgets, which is why it stands out as a significantly better cross platform solution
+
+Dartlang does take a little getting used to. It’s definitely fit for purpose, but my worry is that the general lack of interest in Dartlang as a language might end up being flutter’s undoing. It would have been better is they’ used something like Swift or Kotlin, which have a much higher level of developer interest. I understand why they didn’t use Javascript or Typescript, and I think C# would have been problematic too.
+
+https://deanchalk.com/why-im-giving-up-everything-for-flutter-eea87464599d
