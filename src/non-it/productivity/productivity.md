@@ -12,6 +12,8 @@
 - https://news.ycombinator.com/item?id=16941717
 - https://news.ycombinator.com/item?id=16893581
 - The full name is the "Yerkes-Dodson Law of Social Facilitation." It's this idea that a task requires an optimal amount of nervous system arousal. Too much and you get jittery, too little and you get lethargic. So it looks like an inverted U with the optimal performance at a middle level of arousal https://news.ycombinator.com/item?id=16889646
+- https://dcgross.com/decide-what-to-work-on/
+  - https://news.ycombinator.com/item?id=16825780
 
 ## Morhpine Chrome Extension
 
