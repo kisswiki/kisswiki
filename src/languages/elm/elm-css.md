@@ -127,3 +127,22 @@ underlineOnHover =
 ```
 
 https://github.com/rtfeldman/elm-css/blob/14.0.0/tests/Fixtures.elm
+
+## multiple selectors
+
+```elm
+bodyStyleNode : Html msg
+bodyStyleNode =
+    global
+        [ each
+            [ Css.Foreign.input, Css.Foreign.textarea, Css.Foreign.button ]
+            [ property "-webkit-appearance" "none" --Safari/Chrome
+            , property "-moz-appearance" "none" -- Firefox
+            , property "-ms-appearance" "none" -- IE
+            , property "-o-appearance" "none" -- Opera
+            , property "appearance" "none"
+            , property "-webkit-border-radius" "0"
+            ]
+        ]
+```
+
