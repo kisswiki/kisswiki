@@ -1,3 +1,5 @@
+- http://bradfrost.com/blog/post/float-label-pattern/
+- https://css-tricks.com/float-labels-css/
 - https://aforemny.github.io/elm-mdc/#text-field
 - https://codepen.io/rofrol/pen/KRBpXP
 - https://codepen.io/rofrol/pen/ZoRdvv
@@ -13,3 +15,30 @@
 - https://material-components.github.io/material-components-web-catalog/#/component/text-field
 - https://material.io/design/components/text-fields.html#anatomy
 - https://github.com/material-components/material-components-web/tree/master/packages/mdc-floating-label
+- https://dev.to/peiche/css-only-floating-label-3cp
+- https://github.com/richardvenneman/floatl
+
+##
+
+from https://material-components.github.io/material-components-web-catalog/#/component/text-field
+
+```css
+.TextFieldLabel {
+  bottom: 8px;
+  color: $color-gray;
+  display: block;
+  font-size: 14px;
+  left: 0;
+  line-height: 1.15rem;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: left top;
+  transition: .2s ease all;
+}
+
+TextFieldWrapper__floatAbove {
+  .TextFieldLabel {
+    transform: translateY(-100%) scale(.75);
+  }
+}
+```
