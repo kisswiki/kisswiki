@@ -62,3 +62,14 @@ Kotlin multiplatform has all the same downsides as xamarin or react native – y
 Dartlang does take a little getting used to. It’s definitely fit for purpose, but my worry is that the general lack of interest in Dartlang as a language might end up being flutter’s undoing. It would have been better is they’ used something like Swift or Kotlin, which have a much higher level of developer interest. I understand why they didn’t use Javascript or Typescript, and I think C# would have been problematic too.
 
 https://deanchalk.com/why-im-giving-up-everything-for-flutter-eea87464599d
+
+##
+
+Flutter takes a different approach to avoiding performance problems caused by the need for a JavaScript bridge by using a compiled programming language, namely Dart. Dart is compiled “ahead of time” (AOT) into native code for multiple platforms. This allows Flutter to communicate with the platform without going through a JavaScript bridge that does a context switch. Compiling to native code also improves app startup times.
+
+The fact that Flutter is the only mobile SDK that provides reactive views without requiring a JavaScript bridge should be enough to make Flutter interesting and worth trying, but there is something far more revolutionary about Flutter, and that is how it implements widgets.
+
+
+There is still an interface between the Dart program (in green) and the native platform code (in blue, for either iOS or Android) that does data encoding and decoding, but this can be orders of magnitude faster than a JavaScript bridge.
+
+https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514
