@@ -72,4 +72,7 @@ The fact that Flutter is the only mobile SDK that provides reactive views withou
 
 There is still an interface between the Dart program (in green) and the native platform code (in blue, for either iOS or Android) that does data encoding and decoding, but this can be orders of magnitude faster than a JavaScript bridge.
 
+
+Flutter started as an experiment performed by members of the Chrome browser team at Google. We wanted to see if a faster renderer could be built if we ignored the traditional model of layout.
+
 https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514
