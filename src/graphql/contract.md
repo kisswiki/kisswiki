@@ -1,0 +1,3 @@
+Używam GraphQL'a na codzień w pracy, pracuje się z tym wyśmienicie, testuje się to bardzo łatwo, szczególnie jeśli użyjesz zamockowanych odpowiedzi na podstawie schema (https://www.apollographql.com/.../graphql-tools/mocking.html) i owrapujesz to sobie w ApolloProvider (w testach). To jest największy + moim zdaniem jesli chodzi o GraphQL'a ze front-end moze byc napisany w 100% bez zadnego gotowego endpoint'a z backendu. Wystarczy, ze na poczatku developerzy uzgodnia pomiędzy sobą kontrakt (jak bedzie wygladac schema).
+
+https://www.facebook.com/groups/972937362726271/?multi_permalinks=1970095043010493&notif_id=1526286209626399&notif_t=group_highlights&ref=notif
