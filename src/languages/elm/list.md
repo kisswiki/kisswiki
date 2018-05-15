@@ -30,7 +30,21 @@ ul []
 
 ## last element
 
--- https://www.reddit.com/r/elm/comments/4j2fg6/finding_the_last_list_element/d33g6ae/
+https://www.reddit.com/r/elm/comments/4j2fg6/finding_the_last_list_element
+
+```elm
+lastElem : List a -> Maybe a
+lastElem list =
+    case list of
+        [] ->
+            Nothing
+        [last] ->
+            Just last
+        head :: rest ->
+            lastElem rest
+```
+
+or
 
 ```elm
 lastElem : List a -> Maybe a
