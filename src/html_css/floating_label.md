@@ -11,4 +11,5 @@
 - https://react-md.mlaursen.com/components/text-fields
 - https://github.com/tonystar/float-label-css
 - https://material-components.github.io/material-components-web-catalog/#/component/text-field
+- https://material.io/design/components/text-fields.html#anatomy
 - https://github.com/material-components/material-components-web/tree/master/packages/mdc-floating-label
