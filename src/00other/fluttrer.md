@@ -20,3 +20,39 @@
 - My relatively barebones app is around 33MB on iOS
 
 https://news.ycombinator.com/item?id=16821216
+
+##
+
+teraz cisne fluttera bo mysle ze wyprze react nativa
+
+duzo szybciej sie rozwija
+
+i na kazdym urzadzeniu apka wyglada tak samo bo dziala to na takim dart vm a native przeksztalca to na prawdziwy native w locie
+a to jest duzy plus bo zawsze na jakism samsungu s6 bedzie inaczej niz s9 i masz przez to wiecej pracy
+a performace tego dart jest elegancki bez problemu 60 fps
+no i jednak jest typowania a nie js :slightly_smiling_face:
+a w native czasem pol dnia sie jebiesz bo nowe biblioteki wyjebaly caly projekt i musisz od nowa stawiac
+
+##
+
+On the flip side of Flutter (The Cons):
+
+- A large threshold of occurrence. Due to the fact that Dart is used, with its inheritance, polymorphism and all OOP buns, for those who only study JS, or come from RN, it will be hard.
+
+- There is no JSX to which we all got used to after RN. Look at the Dart file in which there is no division into the template, styling and working with the data, it becomes unpleasant.
+
+- Styling is a pain. Considering the fact that there is no separation into Styles, templates, and controller, there is a problem that when describing a component, we also need to describe the styles at the same time.
+
+- The animation is kind of more difficult. Though it has some good animations, it is more difficult to animate unlike in RN.
+
+- Optimization. In Fluter, there is only the widget inheritance with a changeable (stateful) and non-changeable (stateless) conditions. While in React-Native we can manage the life cycle. Also, a big drawback is the lack of tools to save the state of the application, this problem can, however, be solved by serializing the current state.
+
+Finally, Flutter will have a great future if they can come up with a way to reduce code writing on Dart, replace any functionality class declaration, and JSX or XML as a description of the structure of the widgets.
+
+https://medium.com/@openGeeksLab/flutter-vs-react-native-what-you-need-to-know-89451da3c90b
+
+##
+
+But React Native still has the same flaws as Xamarin – trying to create a great app out of widgets from both android and iOS. With React Native your bridging with a custom javascript runtime onto native APIs from 2 different platforms. Your gonna end up with an app that regresses to the lowest common denominator. Anything complex requires you to create custom implementations on the native platforms which defeats the object. With Flutter there are no OEM widgets. Flutter draws it own widgets directly into each platforms blank canvas. THIS is the magic of flutter, and why it’s so much better than react native of xamarin
+
+https://medium.com/@deanchalk/but-react-native-still-has-the-same-flaws-as-xamarin-trying-to-create-a-great-app-out-of-widgets-a7e989cc2d8a
