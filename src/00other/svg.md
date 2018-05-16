@@ -42,6 +42,11 @@ Worse result:
 
 ## resize
 
+```bash
+$ npm i svg-resizer
+$ ./node_modules/svg-resizer/svg-resizer.js -x 512 -y 512 -o resized file.svg
+```
+
 - https://graphicdesign.stackexchange.com/questions/6574/in-inkscape-resize-both-the-document-and-its-content-at-the-same-time/6670#6670
 
 ## viewBox
