@@ -8,6 +8,7 @@
 - https://github.com/hoelzro/elm-drag
 - https://github.com/robertjlooby/elm-html5-drag-and-drop
 - https://github.com/norpan/elm-html5-drag-drop
+- https://discourse.elm-lang.org/t/drag-and-drop-with-web-components-custom-elements-instead-of-ports/1260
 
 ## problem with fast dragging and dropping
 
