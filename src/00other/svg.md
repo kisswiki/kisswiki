@@ -43,3 +43,7 @@ Worse result:
 ## resize
 
 - https://graphicdesign.stackexchange.com/questions/6574/in-inkscape-resize-both-the-document-and-its-content-at-the-same-time/6670#6670
+
+## viewBox
+
+https://css-tricks.com/scale-svg/#article-header-id-3
