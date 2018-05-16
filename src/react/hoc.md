@@ -19,3 +19,8 @@ HOC factory implementations
 In this section we are going to study the two main ways of implementing HOCs in React: Props Proxy (PP) and Inheritance Inversion (II). Both enable different ways of manipulating the WrappedComponent.
 
 - https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e
+
+## cons
+
+- https://medium.com/react-code-review-excerpts/what-is-going-on-with-higher-order-component-vs-render-prop-react-code-review-excerpts-63617289c7a6
+- Michael Jackson - Never Write Another HoC https://youtu.be/BcVAq3YFiuc
