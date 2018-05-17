@@ -28,3 +28,20 @@ Chcecie mieć więcej kompetentnych programistek? Zachęcajcie do "twórczego" k
 Choć w sumie wątpię że to dużo zmieni, bo okazuje się że w wolnych społeczeństwach, gdy każdy może sobie wybrać drogę życiową, następuje bardzo silna segregacja na zawody męskie i kobiece. Nawet silniejsza niż w reżimach opresyjnych, które sadzały kobiety na traktory czy stawiały przed tokarką
 
 https://www.wykop.pl/link/4308705/#comment-54978975
+
+##
+
+Kobiety i mężczyźni traktowali te studia tak jak wiele innych. Szli nie mając kontaktu z komputerem tak jak nie mieli kontaktu z kombajnem węglowym czy blokiem energetycznym. Nie mieli żadnych kompetencji w tej dziedzinie. I wtedy jakoś nie było stereotypu będącego skutkiem działań katolickiego kleru i mizoginicznych konserwatystów. Problem się zaczął z pojawieniem się komputerów w domach. Teraz wśród studentów i absolwentów IT jest sporo młodzieży, która w poprzednich latach swojego życia interesowała się komputerami, startowała w olimpiadach informatycznych w gimnazjach i liceach. I niestety wśród tej młodzieży jest tylko kilkanaście procent dziewczynek. Bywało że zwycięzcą OIG została dziewczynka np. w 2017 roku, więc nie jest to kwestia zdolności intelektualnych. Ale jest właśnie kwestia liczebności. I ta grupa (ćwiczących tę dziedzinę czasami już od 12-14 roku życia) trafia później po studiach do czołowych firm IT. I jak w warunkach ostrej konkurencji rynkowej z np. załóżmy setki najlepszych absolwentów, w których będzie dajmy na to 15 kobiet, obsadzić stanowiska (bądź co bądź produkcyjne) tak aby było 50/50? Nie da się. Nie da się robić równości na etapie zatrudniania. Nie da się też robić tej równości na etapie przyjmowania na studia, jeśli będzie dobór kompetencyjny (a nie ideologiczny) czyli będą punkty z matury i wyniki z olimpiad. Chcecie równości to zróbcie coś żeby dla dziewczynek w wieku począwszy do np 14 lat bycie nerdem było modne. Niech rywalizują w tym kto napisze szybciej/lepiej działający kod. 
+Oczywiście możesz moje próby wyjaśnienia ponownie odrzucić, ale wtedy oczekiwałbym, że wreszcie wyjaśnisz jak na gruncie teorii o wpływie kościoła i konserwatywnych wielopokoleniowych tradycji wytłumaczyć fakt, ze od lat 80 ubiegłego wieku udział kobiet wśród studentów IT tak dramatycznie spadł.
+
+https://www.wykop.pl/link/4308705/#comment-54981857
+
+##
+
+http://rodzicwie.pl/twoje-dziecko-wybiera-minecrafta-mozesz-sie-cieszyc-i-martwic-zarazem/
+"Minecraft – po tę grę sięgają zazwyczaj chłopcy (74%). Te osoby miały nieznacznie wyższy poziom inteligencji niż reszta badanych. Gorzej radziły sobie z pisaniem, a lepiej z matematyką. Niestety Minecraft ma to do siebie, że pochłania dużo czasu. "
+"Sims – tę grę wybierają dziewczynki (83%). Grające w ten tytuł miały wyższe osiągnięcia szkolne w pisaniu i czytaniu. Miały też lepszą sytuację rodzinną i wyższy poziom inteligencji na tle rówieśników. Ta gra nie pochłania bardzo dużo czasu. "
+"Grand Theft Auto – gra wybierana przez chłopców (87%), którzy dużo słabiej radzili sobie z pisaniem, matematyką i czytaniem. Mieli też niższy poziom inteligencji."
+Chyba jednak GTA to nie jest typowa droga do zostania programistą. A Minecraft nie jest seksistowski. Czemu dziewczynki nie są chętne aby marnować dużo czasu na budowę jakichś światów w Minecrafcie? A chcą zbudować dom w Simsach, mieć męża i dziecko.
+
+https://www.wykop.pl/link/4308705/#comment-54985829
