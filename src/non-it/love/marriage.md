@@ -2,6 +2,7 @@
 - https://jbzdy.pl/obr/737996/a-ty-co-bys-zrobil
 - https://www.reddit.com/r/MGTOW/comments/8gkdhv/i_have_never_heard_a_man_50_tell_me_i_should_get/
 - https://www.wykop.pl/link/2459057/czemu-po-slubie-boli-glowa/
+- Kobieca logika w końcu rozwikłana! [Napisy PL] https://youtu.be/vr93BrWPHcw
 
 ##
 
