@@ -1,0 +1,3 @@
+Cytat z Ziemkiewicza: "Kiedyś podzieliłem się swoim życiowym odkryciem co do kobiet i podtrzymuję - kobieta może mężczyźnie wybaczyć wszystko, poza jednym. Może wybaczyć, że zdradza, że pije, że bije, że ją okradł, że pod każdym względem niedobry. Nie zawsze oczywiście wybaczy, ale - może. Jest tylko jedna jedyna rzecz, jakiej kobieta nie wybaczy facetowi nigdy. Czego? Przepraszam za dosadność: bycia pierdołą."
+
+https://www.wykop.pl/link/2459057/#comment-27139065
