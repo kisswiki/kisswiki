@@ -4,6 +4,7 @@
 - https://www.wykop.pl/link/2459057/czemu-po-slubie-boli-glowa/
 - Kobieca logika w końcu rozwikłana! [Napisy PL] https://youtu.be/vr93BrWPHcw
 - Mózg kobiety a mózg mężczyzny wg Marka Gungora - Rafał Porzeziński https://youtu.be/gpLudxurqow
+- Nie idealizujcie małżeństwa - Adam Szustak OP - Młodość mija, a ja niczyja (4) https://youtu.be/QRM2MNxdfGA
 
 ##
 
