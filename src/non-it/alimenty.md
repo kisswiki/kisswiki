@@ -69,3 +69,13 @@ Opieka naprzemienna oczywiście jest trudna we wskazanym przykładzie, ale może
 Mężczyzna generalnie szuka w związku/małżeństwie stabilizacji, spokoju, ciszy. Dom ma być miejscem, gdzie można odpocząć po pracy, zjeść obiad, pobawić się z dziećmi. Baby myślą inaczej. One oczekują emocji, atrakcji. Ich oczekiwania co do związków zupełnie nie pokrywają się z oczekiwaniami mężczyzn.
 
 https://www.wykop.pl/link/4203969/powstrzymajmy-alienacje-rodzicielska-jest-spot/najnowsze/
+
+##
+
+W przypadku więc, gdy apelację chce złożyć osoba zobowiązana do alimentów, gdyż uważa, że alimenty zostały ustalone na zbyt wysokim poziomie, w pierwszej kolejności należy sprawdzić zestawienie rachunków i wydatków związanych z utrzymaniem dziecka, gdyż tylko w ten sposób możliwe jest oszacowanie miesięcznych kosztów utrzymania małoletniego, co bezpośrednio wpływa na wysokość obowiązku alimentacyjnego. Jeśli więc koszty te zostały zawyżone, należy na tę okoliczność zwrócić uwagę wskazując, że sąd poczynił np. błąd w ustaleniach dając wiarę tylko twierdzeniom rodzica, który o alimenty wnioskował, zaś zupełnie pominął dowody przeciwne i świadczące o tym, że koszty utrzymania dziecka wcale nie są tak wysokie jak twierdzi występujący o alimenty.
+
+Może się również zdarzyć, że miesięczne koszty utrzymania dziecka zostaną poprawnie ustalone, jednakże określając zakres obowiązku alimentacyjnego sąd nie uwzględnił iż rodzic zobowiązany do alimentacji troszczy się o dziecko nie tylko poprzez przekazywanie określonej sumy pieniężnej, lecz także zajmuje się dzieckiem, a więc, że zabiera je np. na wakacje, pokrywa koszty dodatkowych zajęć, kupuje ciuchy, w takiej bowiem sytuacji sąd określając obowiązek alimentacyjny winien wziąć pod uwagę również te okoliczności, gdyż w ten sposób obowiązek alimentacyjny jest częściowo realizowany, a więc zasądzona miesięczna kwota alimentów winna być niższa.
+
+Na wysokość świadczenia alimentacyjnego wpływ mają nie tylko usprawiedliwione potrzeby uprawnionego, lecz także majątkowe i zarobkowe możliwości zobowiązanego, dlatego składając apelację od wyroku sądu I instancji warto zwrócić uwagę, czy sąd dokonał poprawnych ustaleń w tym zakresie, a więc np. czy poprawnie oszacował koszt miesięcznych wydatków, które zobowiązany musi wyłożyć na swoje utrzymanie, bądź czy prawidłowo zostały ustalone możliwości zarobkowe zobowiązanego, gdyż np. na skutek choroby lub kalectwa mogą być one mniejsze.
+
+http://www.szybki-rozwod.info/sad-zasadzil-wysokie-alimenty-kiedy-jest-szansa-na-skuteczna-apelacje/
