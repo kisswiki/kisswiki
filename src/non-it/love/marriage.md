@@ -1,2 +1,3 @@
 - Dlaczego mężczyźni nie chcą się żenić? - Karen Straughan https://youtu.be/UYQSvSzuZXo
 - https://jbzdy.pl/obr/737996/a-ty-co-bys-zrobil
+- https://www.reddit.com/r/MGTOW/comments/8gkdhv/i_have_never_heard_a_man_50_tell_me_i_should_get/
