@@ -2,3 +2,4 @@
 - 8values jest testem politycznym, który stara się przyporządkować procentowo Twoje poglądy do ośmiu różnych wartości politycznych. http://8values.m4sk.in/
   - https://www.wykop.pl/link/4221801/comment/53601121/#comment-53601121
 - “Politics is the art of the possible, the attainable — the art of the next best” ― Otto von Bismarck https://www.goodreads.com/quotes/424187-politics-is-the-art-of-the-possible-the-attainable
+- https://www.idrlabs.com/pl/pogladow-politycznychs/test.php
