@@ -1,0 +1,19 @@
+- http://stackoverflow.com/documentation/tensorflow/topics
+- http://kevinhughes.ca/blog/tensor-kart
+  - https://news.ycombinator.com/item?id=13317902
+- https://github.com/ZuzooVn/machine-learning-for-software-engineers
+- https://github.com/humphd/have-fun-with-machine-learning
+- Replicating AlphaGo's architecture in a readable manner https://github.com/brilee/MuGo
+- Game Theory Reveals the Future of Deep Learning https://news.ycombinator.com/item?id=13405380
+- 27 https://youtu.be/dLRLYPiaAoA
+- https://www.kaggle.com
+- http://www.campaignlive.co.uk/article/why-cosabella-replaced-its-agency-ai-will-go-back-humans/1427323
+- Asaf https://www.edx.org/course/machine-learning-columbiax-csmm-102x
+- https://github.com/showcases/machine-learning
+- https://pair-code.github.io/deeplearnjs/
+  - https://www.blog.google/topics/machine-learning/now-anyone-can-explore-machine-learning-no-coding-required/
+  - https://news.ycombinator.com/item?id=15399132
+  - https://www.dobreprogramy.pl/Jak-dzialaja-sieci-neuronowe-Google-to-wyjasnia-za-pomoca-Teachable-Machine,News,83515.html
+- https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems
+- https://www.wykop.pl/link/4297375/najlepszy-pilkarz-swiata-wg-algorytmu-maszynowego-uczenia-sie/
+
