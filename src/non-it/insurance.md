@@ -1,0 +1,1 @@
+- https://www.wykop.pl/link/4324815/wjechano-we-mnie-na-zielonym-link-4-nie-uznaje-szkody-pomozcie/
