@@ -17,3 +17,7 @@ symulowanie joysticka, czyli jak touchpad z trackballem. Funkcja normalnego joys
 Mówiąc o braku responsywności miałem na myśli to, że trudno wyczuć punkt zerowy "joysticka". W konwencjonalnym analogu przez sprężyny ustawiające nieobciążony drążek czujesz siłę wywieraną przez te sprężyny i wiesz, że drążek jest wychylony. Tutaj, niestety nie. Więc nie jako musisz nauczyć się/odpowiednie ustawić, pozycję w której palec spoczywa na "niewychylonym joyu". Dla mnie, zawsze unikającego używania pada w grach z silnym użyciem prawego analoga to jest mordęga. Przez to uważam ten tryb za użyteczny jedynie w niektórych grach (np. grid do rozglądania się dookoła w widoku TPP)
 
 https://lowcygier.pl/sprzet-akcesoria/steam-controller-za-ok-147-zlotych-z-wysylka-w-game/
+
+## Bluetooth
+
+- Bluetooth Low Energy Firmware FAQ https://support.steampowered.com/kb_article.php?ref=7728-QESJ-4420
