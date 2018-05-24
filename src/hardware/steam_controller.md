@@ -21,3 +21,10 @@ https://lowcygier.pl/sprzet-akcesoria/steam-controller-za-ok-147-zlotych-z-wysyl
 ## Bluetooth
 
 - Bluetooth Low Energy Firmware FAQ https://support.steampowered.com/kb_article.php?ref=7728-QESJ-4420
+
+## Games templates
+
+During game press `steam button > Controller settings`
+
+- Magicka `Community > VinAbqrq V2 - Radial Menu`
+- Far Cry 3: `Community > FarCry - Ghost The Uknown - xbox controller`, in game select `Options > Control > Control type > Gamepad`
