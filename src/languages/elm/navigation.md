@@ -14,6 +14,33 @@
 >-- https://groups.google.com/d/msg/elm-discuss/GqYFPIv-Quc/nZzA-bolAAAJ
 
 
+In order to add one new page, you must modify:
+
+- url-parsing function;
+- url-rendering function;
+- Page type;
+- Route type;
+- main view function;
+- main update function.
+
+https://www.reddit.com/r/elm/comments/8lab1y/what_are_you_working_on_this_week_week_of_20180521/dzio3i8/
+
+
+Try to not think of "routing" as existing outside the flow of every other action you handle. Different term, same thing
+
+There's
+
+`ButtonClick -> Message -> Update -> View`
+
+And
+
+`Navigation -> Message -> Update -> View`
+
+In React/Redux world, routing is a special snowflake. Where route changes aren't actions and route state will be hoarded away in React Router local component state, not redux state. "Routing" is it's own thing. In Elm it's really not. Just de-serializing a url into parameters for a Message. You don't even need url-parser if you don't have route params.
+
+https://www.reddit.com/r/elm/comments/8lab1y/what_are_you_working_on_this_week_week_of_20180521/dzg5fvv/
+
+
 ## evancz/url-parser
 
 - http://elmseeds.thaterikperson.com/url-parser
