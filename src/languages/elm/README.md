@@ -58,6 +58,13 @@ Also interesting is how Elm's immutability allows it to use requestAnimationFram
 >
 >-- https://www.reddit.com/r/elm/comments/5dox3b/reddit_uses_elm_for_internal_apps/da6cyu9/
 
+
+Elm provides type safety, immutable data structures, and state management in a very compact but readable way.
+
+Elm has developed a mature ecosystem in many ways, in a relatively short space of time, and two of the main reasons for that are the purity and the way the JS interop works. It explicitly shields the Elm world from issues in JS.
+
+https://news.ycombinator.com/item?id=17143494
+
 ## errors
 
 - [A set of Elm programs to trigger every possible error message](https://github.com/elm-lang/error-message-catalog)
