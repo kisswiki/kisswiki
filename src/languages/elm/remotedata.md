@@ -1,6 +1,16 @@
 - https://github.com/krisajenkins/remotedata
 - http://blog.jenkster.com/2016/06/how-elm-slays-a-ui-antipattern.html
 
+## example
+
+ChuckDuck22:
+ 
+I gave a talk on union types at a local meetup and came up with this RemoteData example as a demonstration of their value.
+
+Before - without RemoteData https://ellie-app.com/wvpRRNSpJ3a1/2
+
+After - using RemoteData https://ellie-app.com/wvrJJFjWzGa1/0
+
 ## port data
 
 anyone got/seen an example of using krisajenkins/remotedata with port data?
