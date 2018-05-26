@@ -11,6 +11,8 @@ Before - without RemoteData https://ellie-app.com/wvpRRNSpJ3a1/2
 
 After - using RemoteData https://ellie-app.com/wvrJJFjWzGa1/0
 
+https://www.reddit.com/r/elm/comments/66jz2b/where_can_i_find_more_info_regarding_a_zip_list/
+
 ## port data
 
 anyone got/seen an example of using krisajenkins/remotedata with port data?
