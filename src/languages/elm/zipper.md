@@ -1,2 +1,9 @@
 - has `previous` and `next` http://package.elm-lang.org/packages/wernerdegroot/listzipper/latest/List-Zipper
 - https://elmseeds.thaterikperson.com/selectlist-zipper
+  - https://ellie-app.com/kB6g38BVrZa1
+- https://discourse.elm-lang.org/t/avoiding-ids-in-editable-lists-of-things/1292/13
+- https://elmtown.audio/28-elm-paginate
+- https://medium.com/@jschomay/elm-paginate-an-api-design-post-mortem-13bc9b53b2a9
+- A `List` zipper with holes in it http://package.elm-lang.org/packages/zwilias/elm-holey-zipper/latest/List-Holey-Zipper
+- https://learnyouanelm.github.io/pages/14-zippers.html
+- https://www.reddit.com/r/elm/comments/66jz2b/where_can_i_find_more_info_regarding_a_zip_list/
