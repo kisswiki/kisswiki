@@ -148,3 +148,11 @@ bodyStyleNode =
 
 - https://github.com/rtfeldman/elm-css/issues/160#issuecomment-243773088
 - https://stackoverflow.com/questions/17948113/ipad-input-button-styling
+
+## :not
+
+```elm
+ pseudoClass "not(:first-of-type)"
+                [ marginTop (px tileMarginPx) ]
+            ]
+```
