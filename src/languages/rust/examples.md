@@ -8,6 +8,7 @@
 - distributed version control system https://pijul.org/
 - operating system https://www.redox-os.org/
 - operating system with Linux kernel https://github.com/mesalock-linux/mesalink
+- A microkernel that implements a WebAssembly "usermode" that runs in Ring 0 https://github.com/nebulet/nebulet
 - object-relational mapping http://diesel.rs/
 - graphql server https://github.com/graphql-rust/juniper
 - code editor https://github.com/google/xi-editor
