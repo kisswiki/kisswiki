@@ -158,3 +158,20 @@ Need to use `:first-of-type` instead of `:firs-child`, because `elm-css` adds `s
                 [ marginTop (px tileMarginPx) ]
             ]
 ```
+
+## box-sizing: border-box
+
+```elm
+boxSizingBorderBox : Html.Styled.Html msg
+boxSizingBorderBox =
+    Css.Foreign.global
+        [ Css.Foreign.html
+            [ Css.boxSizing Css.borderBox
+            ]
+        , Css.Foreign.selector "*, *:before, *:after"
+            [ Css.boxSizing Css.inherit
+            ]
+        ]
+```
+
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
