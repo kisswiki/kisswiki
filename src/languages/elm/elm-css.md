@@ -151,6 +151,8 @@ bodyStyleNode =
 
 ## :not
 
+Need to use `:first-of-type` instead of `:firs-child`, because `elm-css` adds `style` node.
+
 ```elm
  pseudoClass "not(:first-of-type)"
                 [ marginTop (px tileMarginPx) ]
