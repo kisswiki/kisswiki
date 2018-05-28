@@ -4,6 +4,7 @@
 - play game to learn http://www.flexboxdefense.com/
 - examples http://www.flexboxpatterns.com/
 - https://davidwalsh.name/flexbox-layouts
+- https://css-tricks.com/flex-grow-is-weird/
 
 - adviced settings http://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/
 
