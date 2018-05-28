@@ -1,6 +1,7 @@
 - https://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes
 - https://github.com/hermanjunge/kubernetes-digitalocean-terraform
 - https://stackoverflow.com/questions/34364911/restarting-pods-quickly
+- https://stackoverflow.com/questions/39258098/connection-between-two-pods-located-in-independent-kubernetes-clusters
 
 ## About
 
