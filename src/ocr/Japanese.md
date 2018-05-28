@@ -1,0 +1,6 @@
+- https://convertio.co/pl/ocr/japanese/
+  - worked for 20. https://pettymayo.com/2018/05/23/times-people-posted-new-tattoos-realized-theyd-made-terrible-mistake/
+- https://www.quora.com/What-is-the-most-powerful-and-accurate-OCR-software-for-Japanese-text
+- https://www.kanjitomo.net/
+- http://capture2text.sourceforge.net/
+- https://softwarerecs.stackexchange.com/questions/16866/most-accurate-open-source-ocr-for-japanese
