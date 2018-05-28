@@ -1,0 +1,5 @@
+- https://stackoverflow.com/questions/39258098/connection-between-two-pods-located-in-independent-kubernetes-clusters
+- https://hackernoon.com/nodes-and-pods-and-containers-oh-my-the-fundamentals-of-k8s-logging-6267b7fec50d
+- https://stackoverflow.com/questions/29151042/how-to-docker-attach-to-a-container-google-cloud-platform-kubernetes
+- https://stackoverflow.com/questions/45185015/kubernetes-logs-how-to-get-logs-for-kube-system-pods
+- https://compknowhow.com/blog/kubetail-watch-multiple-pod-logs-the-easy-way
