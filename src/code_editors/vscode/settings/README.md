@@ -1,3 +1,4 @@
 - Using Settings Sync extension. Saving to https://gist.github.com/rofrol/239202db950b376fff4012ababb9d55e
   - generate github token - use it with gist id
+  - `Sync : Advanced Options > Toggle Auto-Upload on Settings Change`
 - font from https://github.com/vikky49/patchedFonts-Ligatures/blob/master/Source%20Code%20Pro.zip
