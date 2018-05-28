@@ -1,1 +1,3 @@
 - http://stackoverflow.com/questions/42390708/elm-conditional-preventdefault-with-contenteditable
+- https://github.com/DavidTobin/elm-editor
+- https://discourse.elm-lang.org/t/is-there-any-plans-for-selection-api/1340
