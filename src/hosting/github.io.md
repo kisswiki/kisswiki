@@ -38,3 +38,15 @@ echo All done!
 - https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
 - https://stackoverflow.com/questions/42469817/host-github-pages-from-dist-folder-in-master-branch
 - https://github.com/jimafisk/gh-pages_deploy/blob/master/pre-push
+
+## Enforce HTTPS - Unavailable for your site because your domain is not properly configured to support HTTPS
+
+Trying to enable it in https://github.com/yolodevs/yolodevs.github.io/settings
+
+- https://help.github.com/articles/securing-your-github-pages-site-with-https/
+- https://github.com/isaacs/github/issues/156
+  - https://crt.sh/
+- https://github.com/commonmark/web/issues/16
+- https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/
+- https://blog.github.com/2018-05-01-github-pages-custom-domains-https/
+
