@@ -15,7 +15,8 @@
 - https://github.com/facebook/draft-js A React framework for building text editors
 - https://trix-editor.org/
 - https://github.com/ianstormtaylor/slate
-- comparison https://github.com/ianstormtaylor/slate
+- https://github.com/ianstormtaylor/slate
+- comparison https://github.com/jaredreich/pell#comparisons
 - https://github.com/jaredreich/pell
   - https://www.reddit.com/r/programming/comments/84d6t8/pelljs_v10_released_the_simplest_and_smallest_1kb/
 
