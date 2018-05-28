@@ -11,6 +11,9 @@
 - remove google redirection https://chrome.google.com/webstore/detail/remove-redirects/bckcmceomgfhebkfbogignipjenidnmp/related
 - full page screenshot with keyboard shortcut: Take Webpage Screenshots Entirely - FireShot https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg
 - Make Medium Readable Again https://github.com/thebaer/MMRA
+- https://github.com/IBM/css-gridish
+  - On Google Chrome uses shortcuts which does not show up in chrome://extensions/shortcuts https://github.com/IBM/css-gridish/issues/44
+  - Uses RAlt + L on Windows instead of LAlt + L only https://github.com/IBM/css-gridish/issues/45
 
 ### facebook
 
