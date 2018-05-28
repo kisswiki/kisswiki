@@ -14,10 +14,10 @@ Properly packaging software means:
 Interestingly enough, when you take the time to document this stuff, you'll find that a lot of volunteers from many communities will start popping up and packaging your software for all sorts of Linux distributions, etc. -- Because, as it turns out, many administrators like having their operating system aware of what precisely has been installed regardless of whether that system is a host, a guest, or a container.
 
 
-I agree with what you say. Though as far as projects i release for free, i spend my time writing code. Make it compatible with Alpine, which in turn makes it compatible with pretty much all distros. The Dockerfile defines the build process, which you can translate to whatever distro you're on.
+I agree with what you say. Though as far as projects i release for free, i spend my time writing code. Make it compatible with [Alpine](https://en.m.wikipedia.org/wiki/Alpine_Linux), which in turn makes it compatible with pretty much all distros. The Dockerfile defines the build process, which you can translate to whatever distro you're on.
 
 It gets much more complicated, when the app depends on several other services. If i'd have to handhold the power users, on how to configure their stack - i would spend less time with code. Compose is a great tool, where i can provide the necessary services - with the configurations the app depends on. For company projects, we have ops people to write configuration documentation.
 
-Just like third party scripts, it's up to you or your company to analyze the software - to make sure it lives up to your audit requirements. A private docker registry is a great first step, review the dockerfiles, customize and push to your registry for production deployments. Portus is what we use internally, and what i use for my pet projects.
+Just like third party scripts, it's up to you or your company to analyze the software - to make sure it lives up to your audit requirements. A private docker registry is a great first step, review the dockerfiles, customize and push to your registry for production deployments. [Portus](http://port.us.org/) is what we use internally, and what i use for my pet projects.
 
 https://www.reddit.com/r/programming/comments/8k2frh/the_sad_state_of_sysadmin_in_the_age_of_containers/dz5974p/

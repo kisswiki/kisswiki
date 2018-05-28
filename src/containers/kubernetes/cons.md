@@ -21,7 +21,7 @@ It's just a fucking piece of shit.
 
 ##
 
-while a minikube environment has a learning curve and is occasionally difficult to debug, I haven't run into any of OP's problems (to which my answers are exec into or kill the pod, kubectl port-forward, use a persistent volume claim
+while a [minikube](https://github.com/kubernetes/minikube) environment has a learning curve and is occasionally difficult to debug, I haven't run into any of OP's problems (to which my answers are exec into or kill the pod, kubectl port-forward, use a persistent volume claim
 
 ##
 
@@ -31,7 +31,7 @@ Kill the pod or exec into the pod running your server. If you mean runtime debug
 
 It should be as simple as something like kubectl port-forward svc/postgres 5432:5432. If it's not, then your DB isn't defined as a service and ops dude fucked up.
 
-That shouldn't happen at all, ensure your database can retain storage across different replicas with a persistent volume claim. Honestly your ops dude should be installing postgres with a helm chart that already has this shit configured.
+That shouldn't happen at all, ensure your database can retain storage across different replicas with a persistent volume claim. Honestly your ops dude should be installing postgres with a [helm chart](https://github.com/kubernetes/charts/tree/master/stable/postgresql) that already has this shit configured.
 
 I haven't run into this bug on minikube, but I would definitely report it upstream.
 
