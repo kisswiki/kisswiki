@@ -1,1 +1,5 @@
 - https://smsprivacy.org/
+- https://browserleaks.com/webrtc
+- http://www.ivanovation.ro/manager/
+- https://www.doileak.com
+- https://github.com/gorhill/uBlock/wiki/Prevent-WebRTC-from-leaking-local-IP-address
