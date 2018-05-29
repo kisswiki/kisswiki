@@ -60,3 +60,7 @@ This article spells out a few reasons why new categories of securities make sens
 https://hackernoon.com/the-security-token-thesis-4c5904761063
 
 > “Do we need a blockchain for this? Couldn’t this be done with a database?” The answer is yes, some of it could be done with a centralized database, but it begs the question “why hasn’t it already been done?” The answer is that the current centralized solutions for electronic value transfer lack compatibility — they don’t talk to each other. I can’t send value from PayPal to Venmo, or from E*Trade to RealtyShares. These layers aren’t interoperable.
+
+##
+
+https://lasindias.com/blockchain-is-a-threat-to-the-distributed-future-of-the-internet
