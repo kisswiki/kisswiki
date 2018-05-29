@@ -1,1 +1,2 @@
 - https://userstyles.org/styles/158745/spotify-white
+- global hotkeys and toast notifications https://aleab.github.io/toastify/
