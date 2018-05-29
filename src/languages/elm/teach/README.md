@@ -50,3 +50,9 @@ main =
             )
         }
 ```
+
+## function argument
+
+If a function takes two arguments, why is its type annotation f: a -> b-> c? Wouldn’t something like f: (a, b) -> c make more sense?
+
+functions in Elm always take exactly one argument and return a result (hence the function type annotation syntax).
