@@ -73,3 +73,18 @@ https://news.ycombinator.com/item?id=17172151
 When state matters federation is a better match such as emails. The real problem with executing decentralize/federate is it runs on the backbones of a centralized design network. IPv6 helps with that problem, but still at the end of the day dealing with all the complexity, headaches, and unknowns it is more simple to build a centralize solution then spend the extra time and effort for a federated/decentralize solution.
 
 https://news.ycombinator.com/item?id=17172288
+
+##
+
+I think you're looking in the right direction - governance.
+The problems of governance are real. There's a libertarian tendency to just try to define them away, but this underestimates the extent to which abuse questions are important and how a few bad actors can overwhelm a distributed system, requiring considerable dedicated central effort to fight. USENET had its cancels ( http://wiki.killfile.org/projects/usenet/faqs/cancel/ , mostly sent by a small group of spam fighters), email had to build centralised DNS blocklists to remain usable.
+
+And as you say, there needs to be a legitimate front organisation to interact with the regulators. Perhaps more than one, to cope with geographically distinct regulations. Or offer people an escape from their local systems of control (until you're blocked at the national level).
+
+To me it seems that the nonprofit/co-operative model is under-explored for this.
+
+A lot of the old Internet that people look back on fondly relied on what I call "Postel decentralisation": people think it was decentralised, but in fact it was managed by hand by John Postel back when he was IANA.
+
+Similarly Linux has "Linus decentralisation": there's an elaborate decentralised version control system, but nonetheless Linus has effective final veto in practice. And Etherum has "Vitalik decentralisation": disasters such as the DAO can be reversed by code changes, because even if the blockchain is immutable the code required to interpret it isn't.
+
+https://news.ycombinator.com/item?id=17172308
