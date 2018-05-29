@@ -2,6 +2,7 @@
 - Snipping Tool
 - `Win+PrtScr` https://softwarerecs.stackexchange.com/questions/506/free-windows-program-to-save-screenshots-immediately-on-a-key-press
 - https://superuser.com/questions/504391/change-default-screenshot-folder-in-windows-8
+- https://softwarerecs.stackexchange.com/questions/163/tool-for-taking-screenshot-and-quickly-editing-it
 
 ## Open Screen Sketch with shortcut
 
