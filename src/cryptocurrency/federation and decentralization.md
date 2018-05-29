@@ -48,3 +48,22 @@ https://forum.intercoin.org/
 Also feel free to email me (greg is the username, intercoin.org is the domain) if you have more questions or want to discuss this topic, I geek out on it. Here is a video I made about decentralizing more than just software:
 
 https://www.youtube.com/watch?v=WzMm7-j7yIY
+
+##
+
+About federation in particular: Moxie wrote about why Signal is unfederated a little while back: https://signal.org/blog/the-ecosystem-is-moving/
+It has some interesting insights into when federation works and when it doesn’t.
+
+“Nothing about any of the protocols we’ve developed requires centralization; it’s entirely possible to build a federated Signal Protocol-based messenger, but I no longer believe that it is possible to build a competitive federated messenger at all.”
+
+It's good to compare this with views on the other side: https://gultsch.de/objection.html
+
+
+https://news.ycombinator.com/item?id=17172203
+
+##
+
+Decentralized infrastructure with federated transactions describes many successful technologies such as email.
+I think federation is just a design tool meant to solve a specific problem, much like decentralization, programming language choice, data structures, etc are more concrete software engineering ones.
+
+https://news.ycombinator.com/item?id=17172151
