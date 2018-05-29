@@ -1,0 +1,3 @@
+- http://www.lekinacodzien.pl/2014/06/28/magnez-lek-suplement/
+- http://www.lekinacodzien.pl/2013/07/29/czym-sa-suplementy-diety-krotka-opowiesc-o-tym-jak-firmy-farmaceutyczne-sprzedaja-zywnosc-w-aptekach/
+- http://pantabletka.pl/magnez-lek/
