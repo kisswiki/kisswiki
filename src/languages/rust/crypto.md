@@ -34,6 +34,18 @@ Right now I'm working on getting the tomcrypt crate beefed up (bindings to the v
 - 
 - RustConf 2017 - Fast, Safe, Pure-Rust Elliptic Curve Cryptography - constant-time https://www.youtube.com/watch?v=tE57KBK_GW4&feature=youtu.be&t=1251
 
+##
+
+I've tried to design the ring API very carefully to limit the potential for things built on top of it to misuse the crypto. For example, the API enforces--statically, at compile time--that an ECDHE key can be used only once. Similarly, it enforces--statically, at compile time--that an AES/ChaCha20 encryption key is never used for decryption, and vice versa. Similarly, it ensures that encryption is always properly authenticated--there's no way to accidentally do "MAC before encrypt" and similar things. We even make sure that you don't use less-safe AES-GCM nonces that aren't exactly 96 bits.
+
+Finally, anything that uses ring get all the advantages that come with Rust automatically, such as Rust's use-after-free protection and data race protection. (ring replaced all the C threading/synchronization stuff using the safer Rust constructs already.)
+
+So, even though there is some C code, and even though there's a lot of assembly language code, things that use ring are still getting lots of Rust's advantages.
+
+There are other alternatives that are "pure" or close to "pure" Rust, such as rust-crypto. But, those libraries are missing important things like RSA and ECDH and ECDSA over the NIST P-256 and P-384 curves. That's all needed for a practical TLS implementation.
+
+https://news.ycombinator.com/item?id=12064816
+
 ## Ring and problem with dependencies
 
 - https://github.com/briansmith/ring/issues/535#issuecomment-309839961
