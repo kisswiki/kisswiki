@@ -1,4 +1,5 @@
 - `Win+PrtScr` https://softwarerecs.stackexchange.com/questions/506/free-windows-program-to-save-screenshots-immediately-on-a-key-press
+- https://superuser.com/questions/504391/change-default-screenshot-folder-in-windows-8
 
 ##
 
