@@ -11,7 +11,7 @@ But you can open Screen Sketch which let you save to file. To open create shortc
 
 https://answers.microsoft.com/en-us/windows/forum/windows_10-touch/where-does-screen-sketch-on-windows-10-save-your/397b4414-5672-4381-a950-aea3625c4abb
 
-##
+## Print Screen key - does not work for me - maybe join insider program?
 
 Press Print Screen. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says “Use the Print Screen key to launch screen snipping”. Opening Settings and searching for “print screen” will take you to the right page.
 
@@ -19,3 +19,7 @@ NOTE: After installing this build, please check the Microsoft Store for [Screen 
 
 - https://blogs.windows.com/windowsexperience/2018/05/03/announcing-windows-10-insider-preview-build-17661/#yieyQAx84HFX3hco.97
 - https://winaero.com/blog/print-screen-screen-snipping-windows-10/
+
+## Screen Sketch ruller
+
+- rotate with scroll
