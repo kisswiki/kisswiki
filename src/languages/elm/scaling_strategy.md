@@ -1,0 +1,4 @@
+- https://github.com/rtfeldman/elm-spa-example
+- https://github.com/terezka/silly-page-app
+- https://dev.to/elmupdate/summarising-elm-scaling-strategy-1bjn
+- https://toast.al/posts/code/2016-08-14-file-structure-for-an-elm-spa.html
