@@ -1,1 +1,2 @@
 - https://www.fastcompany.com/40547840/10-ways-to-use-ai-to-make-everyday-tasks-a-little-easier
+  - https://www.fitgenieapp.com/
