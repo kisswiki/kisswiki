@@ -3,3 +3,5 @@
 Make IPFS better -- Tried this, it's very difficult to get into the massive and poorly-documented codebase.
 
 https://github.com/icefoxen/world_id
+
+- https://news.ycombinator.com/item?id=15375283
