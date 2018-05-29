@@ -1,3 +1,7 @@
+- `Win+PrtScr` https://softwarerecs.stackexchange.com/questions/506/free-windows-program-to-save-screenshots-immediately-on-a-key-press
+
+##
+
 By default Win+Shift+S will let you select rectangle and copy it to clipboard.
 
 But you can open Screen Sketch which let you save to file. To open create shortcut with url ms-penworkspace://Capture and assign it a shorctu. https://superuser.com/questions/1297745/shortcut-or-script-to-open-screen-sketch-on-win10
