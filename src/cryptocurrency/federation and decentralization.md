@@ -67,3 +67,9 @@ Decentralized infrastructure with federated transactions describes many successf
 I think federation is just a design tool meant to solve a specific problem, much like decentralization, programming language choice, data structures, etc are more concrete software engineering ones.
 
 https://news.ycombinator.com/item?id=17172151
+
+##
+
+When state matters federation is a better match such as emails. The real problem with executing decentralize/federate is it runs on the backbones of a centralized design network. IPv6 helps with that problem, but still at the end of the day dealing with all the complexity, headaches, and unknowns it is more simple to build a centralize solution then spend the extra time and effort for a federated/decentralize solution.
+
+https://news.ycombinator.com/item?id=17172288
