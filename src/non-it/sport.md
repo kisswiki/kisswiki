@@ -7,3 +7,4 @@
 - https://www.facebook.com/TheReplayShow/videos/202429560572428/
 FacebookThe Replay
 - https://www.reddit.com/r/Vive/comments/5r5px0/is_it_actually_practical_to_use_vr_as_a_way_to/
+- https://www.vrfitnessinsider.com/can-you-really-lose-weight-in-virtual-reality/
