@@ -1,1 +1,2 @@
 - https://www.wykop.pl/link/4178855/dlaczego-zydzi-nas-nienawidza-swietny-tekst-ziemkiewicza-sprzed-20-lat/
+- https://www.fijor.com/blog/2018/03/28/jordan-b-peterson-odnosnie-tak-zwanej-kwestii-zydowskiej/
