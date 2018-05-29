@@ -24,6 +24,7 @@
 - https://www.fastcompany.com/3022942/the-surprising-science-behind-what-music-does-to-our-brains
 - 6 Hour of The Best Beethoven - Classical Music Piano Studying Concentration https://youtu.be/8ptfyhBjXj8
 - https://rationalwiki.org/wiki/Solfeggio_frequencies
+- Nature Sounds - Live 24/7 | Tropical Waterfall with Rainforest | Water Sound Nature Meditation https://youtu.be/6vb0sPg1ixY
 
 ## Listener fatigue
 
