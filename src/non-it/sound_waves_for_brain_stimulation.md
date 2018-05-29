@@ -70,11 +70,12 @@ https://www.reddit.com/r/ADHD/comments/3s0sq1/have_any_of_you_used_brainfm_its_r
 
 ## Plants
 
+- https://www.researchgate.net/post/Does_music_have_an_effect_on_plant_growth
+- https://www.scientificamerican.com/article/can-plants-hear/
 - https://www.bustle.com/p/ikea-asked-kids-to-bully-plants-for-experiment-it-showed-how-plants-really-do-hear-what-were-saying-9020304
 - http://www.fox26houston.com/news/you-re-clicking-it/was-that-fake-ikea-plant-bullying-experiment
 - Plant acoustics: in the search of a sound mechanism for sound signaling in plants
 - https://www.ted.com/talks/stefano_mancuso_the_roots_of_plant_intelligence
-- https://www.scientificamerican.com/article/can-plants-hear/
 - https://www.washingtonpost.com/national/health-science/can-plants-hear-study-finds-that-vibrations-prompt-some-to-boost-their-defenses/2014/07/06/8b2455ca-02e8-11e4-8fd0-3a663dfa68ac_story.html
 - The Effects of Different Musical Elements on Root Growth and Mitosis in Onion (Allium cepa) Root Apical Meristem (Musical and Biological Experimental Study) https://scialert.net/fulltextmobile/?doi=ajps.2007.369.373
   - Retallack also found that the discordant music of 20th century composers Arnold Schonberg and Anton von Webern also caused plants to atrophy, but not to the degree of the rock music.
