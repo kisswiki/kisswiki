@@ -1,1 +1,3 @@
-Nie naklejasz naklejek na ferrari https://jbzdy.pl/obr/739945/polecam-takie-tatuaze
+- Nie naklejasz naklejek na ferrari https://jbzdy.pl/obr/739945/polecam-takie-tatuaze
+- https://pettymayo.com/2018/05/23/times-people-posted-new-tattoos-realized-theyd-made-terrible-mistake/
+  - 20. https://translate.google.com/?source=osdd#ja/en/%E9%A6%AC%E9%B9%BF%E5%A4%96%E4%BA%BA
