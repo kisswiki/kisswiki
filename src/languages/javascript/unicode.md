@@ -1,0 +1,5 @@
+- https://dmitripavlutin.com/what-every-javascript-developer-should-know-about-unicode/
+- https://mathiasbynens.be/notes/javascript-unicode
+- https://blog.jonnew.com/posts/poo-dot-length-equals-two
+- https://flaviocopes.com/javascript-unicode/
+- http://simonsapin.github.io/wtf-8/
