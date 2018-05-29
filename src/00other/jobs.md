@@ -1,1 +1,2 @@
 - finding_job.md https://gist.github.com/rofrol/530e631265a15bedaa219a1694ce4e6b
+- https://www.gloat.com/
