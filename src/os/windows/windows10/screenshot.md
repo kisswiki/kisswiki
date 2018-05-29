@@ -1,7 +1,9 @@
+- Screen Sketch - new in Windows 10
+- Snipping Tool
 - `Win+PrtScr` https://softwarerecs.stackexchange.com/questions/506/free-windows-program-to-save-screenshots-immediately-on-a-key-press
 - https://superuser.com/questions/504391/change-default-screenshot-folder-in-windows-8
 
-##
+## Open Screen Sketch with shortcut
 
 By default Win+Shift+S will let you select rectangle and copy it to clipboard.
 
