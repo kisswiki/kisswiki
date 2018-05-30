@@ -6,3 +6,4 @@
 - elm-0.17 https://github.com/splodingsocks/elm-starter
 - https://github.com/splodingsocks/the-cheese-palette
 - https://www.reddit.com/r/elm/comments/87tpq1/elm_webpack_4_starter_template/
+- https://github.com/simonewebdesign/elm-new
