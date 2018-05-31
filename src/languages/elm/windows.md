@@ -1,0 +1,1 @@
+- https://discourse.elm-lang.org/t/a-guideline-on-how-to-build-the-elm-platform-0-18-on-windows-10/1355

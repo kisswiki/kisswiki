@@ -1,5 +1,11 @@
 - Treat people with decency, but respect has to be earned. Jordan Peterson to Student: "You can't force me to respect you" https://youtu.be/WDLIR71Pe0A
 
+You need to have respect for the reset of your citizens https://youtu.be/-0Rj7qcLu1A?t=77
+
+vs
+
+you don't just respect everybody randomly https://youtu.be/WDLIR71Pe0A?t=200
+
 ##
 
 respect
