@@ -2,16 +2,7 @@
 - https://www.reddit.com/r/web_design/comments/6k04rc/kill_sticky_headers/
 - https://alisdair.mcdiarmid.org/kill-sticky-headers/
 
-`removeChild`:
-
 ```javascript
 //javascript:
-(function(){(function () {var i, elements = document.querySelectorAll('body *');for (i = 0; i < elements.length; i++) {if (getComputedStyle(elements[i]).position === 'fixed') {elements[i].parentNode.removeChild(elements[i]);}}})()})()
-```
-
-`position: absolute`:
-
-```javascript
-//javascript:
-(function(){(function () {var i, elements = document.querySelectorAll('body *');for (i = 0; i < elements.length; i++) {if (getComputedStyle(elements[i]).position === 'fixed') {elements[i].style.position = 'absolute';}}})()})()
+(function(){(function () {var i, elements = document.querySelectorAll('body *');for (i = 0; i < elements.length; i++) {if (getComputedStyle(elements[i]).position.startsWith('fixed')) {elements[i].style.setProperty("position", "absolute", "important");}}})()})()
 ```
