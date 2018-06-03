@@ -20,3 +20,7 @@ Tickborne illnesses are extremely serious, difficult or impossible to diagnose, 
 Scientists used to believe that it took 24 hours after getting bitten to transmit tickborne illnesses, but this is no longer the case. When in doubt just do the 21 days of doxycycline, although obviously this isn't something you ever want to have to do. (Some tickborne illnesses aren't treatable with doxycycline, but this is a good starting point absent other specific symptoms.)
 
 https://news.ycombinator.com/item?id=16972977
+
+##
+
+- https://www.wykop.pl/link/4329763/kleszcze-atakuja-zadbaj-o-swojego-pupila/
