@@ -5,3 +5,7 @@
 load file `C-x f`
 
 save file `C-x s`
+
+copy `M-w`
+
+paste `C-y` or `Shift+Insert`
