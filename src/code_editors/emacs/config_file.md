@@ -2,7 +2,8 @@
 
 It should be stored in the variable `user-init-file`. Use `C-H v user-init-file RET` to check.
 
-https://stackoverflow.com/questions/189490/where-can-i-find-my-emacs-file-for-emacs-running-on-windows
+- https://stackoverflow.com/questions/189490/where-can-i-find-my-emacs-file-for-emacs-running-on-windows
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html
 
 `sudo strace -o /tmp/emacs.txt -e open emacs`
 
