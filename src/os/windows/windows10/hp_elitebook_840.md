@@ -1,3 +1,0 @@
-- microphone disabled
-  - `Settings > Sound > Recording > Properties of Microphone > Levels > Click speaker button to unmute`
-  - https://support.hp.com/ee-en/document/c03421813
