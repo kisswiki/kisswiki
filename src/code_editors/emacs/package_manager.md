@@ -4,3 +4,8 @@
 
 ## Refresh list of packages
 
+`M-x package-refresh-contents`
+
+## List of packages
+
+`M-x package-list-packages`

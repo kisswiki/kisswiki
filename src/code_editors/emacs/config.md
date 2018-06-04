@@ -1,12 +1,24 @@
 ## Location
 
-It should be stored in the variable `user-init-file`. Use `C-H v user-init-file RET` to check. You can also open it directly by using `M-x eval-expression RET (find-file user-init-file) RET`.
+It should be stored in the variable `user-init-file`. Use `C-H v user-init-file RET` to check.
 
 https://stackoverflow.com/questions/189490/where-can-i-find-my-emacs-file-for-emacs-running-on-windows
 
 `sudo strace -o /tmp/emacs.txt -e open emacs`
 
 https://stackoverflow.com/questions/864892/how-do-i-find-which-emacs-file-has-been-loaded/864939#864939
+
+## Open file
+
+```lisp
+(defun open-user-init-file ()
+  (interactive)
+  (find-file user-init-file))
+```
+
+Open it directly by using `M-x eval-expression RET (find-file user-init-file) RET`.
+
+https://stackoverflow.com/questions/189490/where-can-i-find-my-emacs-file-for-emacs-running-on-windows
 
 ## Reload currently edited config
 
