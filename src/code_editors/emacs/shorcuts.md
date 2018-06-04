@@ -8,6 +8,8 @@
 
 ##
 
+quit a partially entered command `C-g`
+
 load file `C-x f`
 
 save file `C-x s`
