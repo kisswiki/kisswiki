@@ -35,3 +35,13 @@ Define it in your init file and call by` M-x reload-user-init-file`
 ```
 
 https://stackoverflow.com/questions/2580650/how-can-i-reload-emacs-after-changing-it
+
+## .emacs vs .emacs.d/init.el
+
+- https://emacs.stackexchange.com/questions/1/are-there-any-advantages-to-using-emacs-d-init-el-instead-of-emacs
+
+## customize
+
+- http://ergoemacs.org/emacs/emacs_custom_system.html
+- https://www.emacswiki.org/emacs/CustomizingAndSaving
+- https://emacs.stackexchange.com/questions/102/advantages-of-setting-variables-with-setq-instead-of-custom-el
