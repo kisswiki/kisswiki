@@ -45,4 +45,19 @@ https://stackoverflow.com/questions/2580650/how-can-i-reload-emacs-after-changin
 
 - http://ergoemacs.org/emacs/emacs_custom_system.html
 - https://www.emacswiki.org/emacs/CustomizingAndSaving
-- https://emacs.stackexchange.com/questions/102/advantages-of-setting-variables-with-setq-instead-of-custom-el
+
+
+If you use custom-set-variables or customize-set-variable instead of setq, or if you use the Customize user interface (e.g. M-x customize-option), then you are sure that any intended initialization or updating code that is needed for the option value will be automatically triggered and run as needed. If you use setq, this will not be done.
+
+
+https://emacs.stackexchange.com/questions/102/advantages-of-setting-variables-with-setq-instead-of-custom-el
+
+The odds of this working are higher when the options are customized using a custom-set-variables form, but this has to be implemented explicitly for each and every option. And so far we have only talked about major modes and their options...
+
+https://emacs.stackexchange.com/questions/635/whats-the-fastest-way-to-reload-my-emacs-file-when-i-make-changes-so-all-my-af
+
+## Errors
+
+If it seems like your init file is not being read, type ‘C-h e’ to see if there is a chance there was a problem with it loading. See [DebugFileLoading](https://www.emacswiki.org/emacs/DebugFileLoading) for more troubleshooting tips.
+
+https://www.emacswiki.org/emacs/InitFile
