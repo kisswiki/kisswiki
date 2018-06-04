@@ -23,4 +23,4 @@ https://news.ycombinator.com/item?id=16972977
 
 ##
 
-- https://www.wykop.pl/link/4329763/kleszcze-atakuja-zadbaj-o-swojego-pupila/
+- obroża Foresto od Bayeru, ja stosuje dla kota krople Fiprex, na miesiąc mam spokój, jeśli chodzi o obrożę to tylko jeśli kot nie chodzi po jakichś krzakach na których mogłaby się ona zaczepić. https://www.wykop.pl/link/4329763/kleszcze-atakuja-zadbaj-o-swojego-pupila/
