@@ -82,3 +82,7 @@ $ emacs -Q --batch --eval="(princ user-emacs-directory)"
 ```
 
 https://stackoverflow.com/questions/36754044/how-to-get-value-of-user-emacs-directory-from-shell
+
+## add-hook
+
+- http://ergoemacs.org/emacs/emacs_avoid_lambda_in_hook.html
