@@ -69,3 +69,7 @@ https://www.emacswiki.org/emacs/InitFile
 ```
 
 https://emacs.stackexchange.com/questions/21664/how-to-prevent-flycheck-from-treating-my-init-el-as-a-package-file
+
+## Use with-eval-after-load instead of eval-after-load
+
+https://stackoverflow.com/questions/21880139/what-is-with-eval-after-load-in-emacs-lisp
