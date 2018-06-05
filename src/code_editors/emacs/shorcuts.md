@@ -23,3 +23,5 @@ paste `C-y` or `Shift+Insert`
 `M-x kill-buffer-and-window`
 
 kill-whole-line `C-S-Backspace`
+
+goto-line `M-g M-g`
