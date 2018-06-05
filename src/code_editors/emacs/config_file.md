@@ -89,6 +89,24 @@ https://stackoverflow.com/questions/36754044/how-to-get-value-of-user-emacs-dire
 
 ## Modularization
 
+To load the file only if it hasn’t been loaded already, use ‘require’.
+
+```
+(require 'foo)
+```
+
+Using ‘require’ adds a dependency: Not only must a file with the same name (plus “.el” or “.elc” extension) exist, but in that file, Emacs wants to see a statement such as this:
+
+```lisp
+(provide 'foo)
+```
+
+Note that when you start using files in the LoadPath, you may end up having to deal with ConflictingLibraries.
+
+- https://www.emacswiki.org/emacs/LoadingLispFiles
+- http://ergoemacs.org/emacs/elisp_library_system.html
+- https://www.gnu.org/software/emacs/manual/html_node/elisp/Named-Features.html
+- using `load` instead of `require` https://github.com/ramimassoud/emacs-cask/blob/master/init.el
 - https://github.com/tonini/emacs.d
 - https://www.reddit.com/r/emacs/comments/3q50do/best_way_organization_config_files_in_the_emacs/
 - https://lonelycoding.com/how-to-modularize-an-emacs-configuration/
