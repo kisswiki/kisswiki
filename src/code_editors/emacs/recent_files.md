@@ -28,7 +28,10 @@ or better
     (message "Aborting")))
 ```
 
+Available also in `File > Open recent`
+
 - https://www.masteringemacs.org/article/find-files-faster-recent-files-package
+- http://emacsredux.com/blog/2013/04/05/recently-visited-files/
 - https://stackoverflow.com/questions/3527150/open-recent-in-emacs
 - Use the recentf-exclude variable to exclude  https://stackoverflow.com/questions/14915239/in-emacs-is-there-a-command-to-visit-the-most-recently-opened-file/14915463#14915463
 - https://www.emacswiki.org/emacs/RecentFiles
