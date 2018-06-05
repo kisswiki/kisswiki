@@ -25,3 +25,7 @@ paste `C-y` or `Shift+Insert`
 kill-whole-line `C-S-Backspace`
 
 goto-line `M-g M-g`
+
+delete-window `C-x 0`
+
+delete-other-window `C-x 1`
