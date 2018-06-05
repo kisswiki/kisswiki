@@ -16,6 +16,9 @@
 
 - https://www.lambdacat.com/modern-emacs-package-management-with-cask-and-pallet/
 - https://github.com/turboMaCk/Dotfiles/tree/master/emacs.d
+- `cask update` http://blog.journeythatcounts.nl/posts/emacs-config-with-cask.html
+- promote the use of integration and tests to have even better emacs library https://github.com/AdrieanKhisbe/cask-package-toolset.el
+
 
 ## use-package
 
