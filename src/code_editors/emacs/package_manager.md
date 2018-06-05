@@ -12,6 +12,11 @@
 - http://melpa.milkbox.net/#/getting-started
 - http://ergoemacs.org/emacs/emacs_package_system.html
 
+## Cask
+
+- https://www.lambdacat.com/modern-emacs-package-management-with-cask-and-pallet/
+- https://github.com/turboMaCk/Dotfiles/tree/master/emacs.d
+
 ## use-package
 
 - https://emacs.stackexchange.com/questions/16831/using-package-el-to-install-and-update-but-use-package-for-loading-and-configuri
