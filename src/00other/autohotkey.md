@@ -1,0 +1,3 @@
+- https://gaming.stackexchange.com/questions/110349/how-do-i-remap-the-arrow-keys-using-autohotkey
+- https://superuser.com/questions/1150394/autohotkey-remap-a-solid-key
+- https://stackoverflow.com/questions/37169218/autohotkey-remap-keys-to-swich-two-keys-with-each-other
