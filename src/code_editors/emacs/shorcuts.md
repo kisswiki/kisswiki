@@ -29,3 +29,13 @@ goto-line `M-g M-g`
 delete-window `C-x 0`
 
 delete-other-window `C-x 1`
+
+## move lines
+
+```lisp
+;;(drag-stuff-define-keys)
+(global-set-key [M-up] 'drag-stuff-up)
+(global-set-key [M-down] 'drag-stuff-down
+```
+
+https://stackoverflow.com/questions/2423834/move-line-region-up-and-down-in-emacs
