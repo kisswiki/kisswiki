@@ -86,3 +86,9 @@ https://stackoverflow.com/questions/36754044/how-to-get-value-of-user-emacs-dire
 ## add-hook
 
 - http://ergoemacs.org/emacs/emacs_avoid_lambda_in_hook.html
+
+## Modularization
+
+- https://github.com/tonini/emacs.d
+- https://www.reddit.com/r/emacs/comments/3q50do/best_way_organization_config_files_in_the_emacs/
+- https://lonelycoding.com/how-to-modularize-an-emacs-configuration/
