@@ -2,6 +2,8 @@ Install:
 - elm-mode
 - elm-oracle
 - company
+- flycheck
+- flycheck-elm - only on unstable melpa
 
 ```lisp
 (require 'company)

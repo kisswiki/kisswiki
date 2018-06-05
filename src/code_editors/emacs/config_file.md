@@ -61,3 +61,11 @@ https://emacs.stackexchange.com/questions/635/whats-the-fastest-way-to-reload-my
 If it seems like your init file is not being read, type ‘C-h e’ to see if there is a chance there was a problem with it loading. See [DebugFileLoading](https://www.emacswiki.org/emacs/DebugFileLoading) for more troubleshooting tips.
 
 https://www.emacswiki.org/emacs/InitFile
+
+## The first line should be of the form
+
+```lisp
+(setq-default flycheck-disabled-checkers '(emacs-lisp-checkdoc))
+```
+
+https://emacs.stackexchange.com/questions/21664/how-to-prevent-flycheck-from-treating-my-init-el-as-a-package-file
