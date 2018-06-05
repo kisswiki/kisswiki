@@ -92,3 +92,4 @@ https://stackoverflow.com/questions/36754044/how-to-get-value-of-user-emacs-dire
 - https://github.com/tonini/emacs.d
 - https://www.reddit.com/r/emacs/comments/3q50do/best_way_organization_config_files_in_the_emacs/
 - https://lonelycoding.com/how-to-modularize-an-emacs-configuration/
+- https://www.reddit.com/r/emacs/comments/7guxri/i_declare_emacs_bankruptcy_suggestions_for/dqmhrj4/
