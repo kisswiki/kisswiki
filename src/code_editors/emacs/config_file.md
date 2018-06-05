@@ -73,3 +73,12 @@ https://emacs.stackexchange.com/questions/21664/how-to-prevent-flycheck-from-tre
 ## Use with-eval-after-load instead of eval-after-load
 
 https://stackoverflow.com/questions/21880139/what-is-with-eval-after-load-in-emacs-lisp
+
+## user-emacs-directory
+
+```bash
+$ emacs -Q --batch --eval="(princ user-emacs-directory)"                                                                                                                        
+~/.emacs.d/
+```
+
+https://stackoverflow.com/questions/36754044/how-to-get-value-of-user-emacs-directory-from-shell
