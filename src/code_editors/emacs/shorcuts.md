@@ -30,6 +30,8 @@ delete-window `C-x 0`
 
 delete-other-window `C-x 1`
 
+comment `M-;`
+
 ## move lines
 
 ```lisp
