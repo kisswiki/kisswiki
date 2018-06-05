@@ -63,7 +63,7 @@ In a markdown file use
 
 `ctrl+shift+v`
 
-##Side by Side Markdown Edit and Preview
+## Side by Side Markdown Edit and Preview
 
 In a markdown file use
 

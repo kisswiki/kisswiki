@@ -11,3 +11,13 @@
 
 - http://melpa.milkbox.net/#/getting-started
 - http://ergoemacs.org/emacs/emacs_package_system.html
+
+## use-package
+
+- https://emacs.stackexchange.com/questions/16831/using-package-el-to-install-and-update-but-use-package-for-loading-and-configuri
+
+## Melpa stable vs unstable
+
+On stable there are no:
+  - flycheck-elm
+  - dired-sidebar
