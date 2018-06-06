@@ -135,3 +135,5 @@ https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
 
 - https://writequit.org/eos/eos.html
 - https://github.com/raxod502/radian
+- http://spacemacs.org/
+- https://github.com/bbatsov/prelude
