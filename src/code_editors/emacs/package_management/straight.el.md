@@ -38,3 +38,7 @@ https://github.com/raxod502/straight.el#customizing-when-packages-are-built
 
 - https://github.com/raxod502/straight.el/issues/128#issuecomment-325552738
 - https://github.com/raxod502/straight.el/issues/9#issuecomment-337700460
+
+## Lock versions
+
+`M-x straight-freeze-versions` creates `~/.emacs.d/straight/versions/default.el`
