@@ -1,1 +1,2 @@
 - https://github.com/jwiegley/use-package/issues/190#issuecomment-383406112
+- https://www.reddit.com/r/emacs/comments/71iats/problem_loading_packages_with_usepackage_and/

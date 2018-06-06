@@ -117,3 +117,16 @@ Note that when you start using files in the LoadPath, you may end up having to d
 `--debug-init`
 
 https://github.com/jwiegley/use-package/issues/190#issuecomment-348243571
+
+## Profile and benchmark
+
+This is to easily profile your Emacs init file (or any other
+script-like Emacs Lisp file, for that matter).
+
+It will go over all sexp's (balanced expressions) in the file and
+run them through `benchmark-run'.  It will then show the file with
+overlays applied in a way that let you easily find out which sexp's
+take the most time.  Since time is relative, it's not the absolute
+value that counts but the percentage of the total running time.
+
+https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
