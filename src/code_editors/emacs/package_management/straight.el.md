@@ -38,7 +38,7 @@ https://github.com/raxod502/straight.el#customizing-when-packages-are-built
 
 - https://github.com/raxod502/straight.el/issues/128#issuecomment-325552738
 - https://github.com/raxod502/straight.el/issues/9#issuecomment-337700460
-- https://github.com/raxod502/straight.el/issues/128#issuecomment-325240961
+- https://github.com/raxod502/straight.el/issues/128#issuecomment-325264689
 
 `M-x emacs-init-time`
 
