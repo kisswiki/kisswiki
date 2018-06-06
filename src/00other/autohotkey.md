@@ -1,3 +1,6 @@
 - https://gaming.stackexchange.com/questions/110349/how-do-i-remap-the-arrow-keys-using-autohotkey
 - https://superuser.com/questions/1150394/autohotkey-remap-a-solid-key
 - https://stackoverflow.com/questions/37169218/autohotkey-remap-keys-to-swich-two-keys-with-each-other
+- http://xahlee.info/mswin/autohotkey_key_notations.html
+- http://xahlee.info/mswin/autohotkey_swap_capslock.html
+- http://xahlee.info/mswin/autohotkey_examples.html
