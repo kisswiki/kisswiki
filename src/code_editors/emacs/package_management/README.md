@@ -1,5 +1,6 @@
 - https://github.com/skeeto/.emacs.d/blob/master/lisp/gpkg.el
   - usage https://github.com/skeeto/.emacs.d/blob/master/packages.el
+- https://www.emacswiki.org/emacs/LibraryDependencies
 
 ## emacsmirror
 
@@ -13,6 +14,7 @@ https://emacsmirror.net/stats/compare.html
 
 - https://github.com/raxod502/straight.el#tldr-1
 - https://github.com/raxod502/straight.el#comparison-to-other-package-managers
+- https://www.reddit.com/r/emacs/comments/6di4oy/straightel_source_based_package_manager_for_emacs/
 - https://emacs.stackexchange.com/questions/17542/how-to-load-only-a-subset-of-installed-packages/34909#34909
 - https://stackoverflow.com/questions/454259/what-do-you-expect-from-a-package-manager-for-emacs/454449
 
