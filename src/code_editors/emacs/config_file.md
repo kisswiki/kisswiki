@@ -134,3 +134,4 @@ https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
 ## distributions
 
 - https://writequit.org/eos/eos.html
+- https://github.com/raxod502/radian
