@@ -1,9 +1,13 @@
 - https://github.com/skeeto/.emacs.d/blob/master/lisp/gpkg.el
   - usage https://github.com/skeeto/.emacs.d/blob/master/packages.el
 
-## Sources
+## emacsmirror
 
 >Emacsmirror provides that largest available collection of packages https://stackoverflow.com/questions/454259/what-do-you-expect-from-a-package-manager-for-emacs/454449
+
+https://emacsmirror.net/
+
+https://emacsmirror.net/stats/compare.html
 
 ## Comparison
 
