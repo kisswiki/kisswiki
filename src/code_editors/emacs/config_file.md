@@ -130,3 +130,7 @@ take the most time.  Since time is relative, it's not the absolute
 value that counts but the percentage of the total running time.
 
 https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
+
+## distributions
+
+- https://writequit.org/eos/eos.html
