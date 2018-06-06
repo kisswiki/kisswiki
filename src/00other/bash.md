@@ -56,3 +56,7 @@ http://stackoverflow.com/questions/169511/how-do-i-iterate-over-a-range-of-numbe
 ## Always use quotes
 
 https://github.com/anordal/shellharden
+
+## Pitfalls
+
+http://mywiki.wooledge.org/BashPitfalls
