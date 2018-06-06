@@ -40,11 +40,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     return
 }
 
-#LAlt::LCtrl 
-#LCtrl::LAlt
-LAlt::LCtrl 
+
+LAlt::LCtrl
 LWin::LAlt
 LCtrl::LWin
-RAlt::RCtrl
-AppsKey::RAlt
-RCtrl::AppsKey
+; This cause alt sending LWin or RWin, idk
+; RAlt::RCtrl
+; AppsKey::RAlt
+; RCtrl::AppsKey
