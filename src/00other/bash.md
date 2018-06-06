@@ -52,3 +52,7 @@ for ((i=1;i<=END;++i)); do echo $i; done
 ```
 
 http://stackoverflow.com/questions/169511/how-do-i-iterate-over-a-range-of-numbers-defined-by-variables-in-bash/169602#169602
+
+## Always use quotes
+
+https://github.com/anordal/shellharden
