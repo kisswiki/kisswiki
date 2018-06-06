@@ -4,6 +4,11 @@
 - https://openuserjs.org/
 - https://tampermonkey.net/scripts.php
 - https://wiki.greasespot.net/User_Script_Hosting
+- https://en.m.wikipedia.org/wiki/Userscript
+
+## Extensions
+
+- https://github.com/violentmonkey/violentmonkey
 
 ## Tampermonkey not open source now
 
