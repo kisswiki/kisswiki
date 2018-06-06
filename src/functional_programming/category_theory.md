@@ -1,0 +1,2 @@
+- Proofs in Coq https://github.com/jwiegley/category-theory
+  - and blog post http://www.newartisans.com/2017/05/monads-are-monoids/
