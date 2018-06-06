@@ -1,0 +1,1 @@
+- https://www.masteringemacs.org/article/evaluating-elisp-emacs
