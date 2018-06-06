@@ -2,3 +2,13 @@
 
 - https://github.com/raxod502/straight.el#tldr-1
 - https://github.com/raxod502/straight.el#comparison-to-other-package-managers
+- https://emacs.stackexchange.com/questions/17542/how-to-load-only-a-subset-of-installed-packages/34909#34909
+
+
+###
+
+- straight.el clones Git repos and builds packages from source, instead of downloading tarballs from a central server
+- straight.el uses the init-file as a sole source of truth, whereas package.el stores mutable state outside the init-file
+- straight.el focuses on reproducibility and local modification, neither of which are supported in any way by package.el
+
+http://wikemacs.org/wiki/Package.el#Straight.el.2C_an_alternative_package_manager
