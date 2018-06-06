@@ -1,0 +1,2 @@
+- https://github.com/nex3/perspective-el
+- https://emacs.stackexchange.com/questions/36793/rewrite-a-package-config-using-use-package

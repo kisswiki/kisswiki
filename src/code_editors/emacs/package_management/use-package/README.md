@@ -1,2 +1,4 @@
 - use-package to manage your configuration https://www.reddit.com/r/emacs/comments/8buc63/why_arent_packages_just_installed_directly_from/dxacifg/
 - https://emacs.stackexchange.com/questions/16831/using-package-el-to-install-and-update-but-use-package-for-loading-and-configuri
+- https://emacs.stackexchange.com/questions/tagged/use-package
+- author of use-package https://github.com/jwiegley/dot-emacs
