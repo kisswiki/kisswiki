@@ -1,16 +1,21 @@
+## commands
 
 `C-x package-install RET elm-mode RET`
 
-## Refresh list of packages
+Refresh list of packages
 
 `M-x package-refresh-contents`
 
-## List of packages
+List of packages
 
 `M-x package-list-packages`
 
 - http://melpa.milkbox.net/#/getting-started
 - http://ergoemacs.org/emacs/emacs_package_system.html
+
+## Speed
+
+- https://www.reddit.com/r/emacs/comments/87g6yg/new_packagequickstart_feature_in_emacs_27/
 
 ## package-initialize
 
