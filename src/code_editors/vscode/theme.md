@@ -6,3 +6,17 @@
 - https://code.visualstudio.com/docs/getstarted/themes
 - https://marketplace.visualstudio.com/items?itemName=anoff.theme-monokai-light
 - https://github.com/Monokai/monokai-pro-vscode
+
+## Token colors
+
+```json
+{
+  "editor.tokenColorCustomizations": {
+    "[Monokai Light]": {
+      "comments": "#229977"
+    }
+  },
+}
+```
+
+https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme
