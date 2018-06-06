@@ -1,1 +1,0 @@
-use-package to manage your configuration https://www.reddit.com/r/emacs/comments/8buc63/why_arent_packages_just_installed_directly_from/dxacifg/
