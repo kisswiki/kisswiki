@@ -1,5 +1,3 @@
-- [A workshopper module for learning Git and GitHub](https://github.com/jlord/git-it)
-- So you're rebasing and you resolve a conflict wrong? `git checkout --conflict=merge <FILE>` to get it back to its conflicted state https://twitter.com/maybekatz/status/677656507052392448
 - https://xkcd.com/1597/
 - http://think-like-a-git.net/
 - extra commands https://github.com/alebcay/awesome-shell
