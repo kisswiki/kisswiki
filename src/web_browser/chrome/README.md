@@ -60,3 +60,9 @@ https://support.google.com/chrome/answer/95426?co=GENIE.Platform%3DDesktop&hl=en
 > -- http://superuser.com/questions/1098204/chrome-html5-videos-in-fullscreen-are-black-when-intel-graphics-are-enabled-or-h
 
 or disable intel integrated card or turn of windows automatic drivers downloads.
+
+## overlay scrollbars
+
+chrome://flags/#overlay-scrollbars
+
+https://elementaryos.stackexchange.com/questions/145/how-can-i-change-chrome-scrollbars-to-the-thin-scrollbars
