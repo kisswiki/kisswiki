@@ -1,0 +1,2 @@
+- https://www.reddit.com/r/emacs/comments/8jaflq/tip_how_to_use_your_dashboard_properly/
+- https://www.reddit.com/r/emacs/comments/8n6qpp/how_do_you_work_with_emacs_sessions/
