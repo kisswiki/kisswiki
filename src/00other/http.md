@@ -1,1 +1,2 @@
 - https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/
+- https://github.com/for-GET/know-your-http-well
