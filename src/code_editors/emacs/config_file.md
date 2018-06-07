@@ -111,6 +111,7 @@ Note that when you start using files in the LoadPath, you may end up having to d
 - https://www.reddit.com/r/emacs/comments/3q50do/best_way_organization_config_files_in_the_emacs/
 - https://lonelycoding.com/how-to-modularize-an-emacs-configuration/
 - https://www.reddit.com/r/emacs/comments/7guxri/i_declare_emacs_bankruptcy_suggestions_for/dqmhrj4/
+- https://www.emacswiki.org/emacs/DotEmacsStructuring
 
 ## Debug and stack trace
 
@@ -148,3 +149,6 @@ https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
 - http://wikemacs.org/wiki/Starter_Kits
 - generate for different programming languages http://emacs-bootstrap.com/
 - https://www.reddit.com/r/emacs/comments/4zrfin/emacs_for_starters_which_to_use_spacemacs_prelude/
+- https://www.reddit.com/r/emacs/comments/1udtd1/starting_emacs_with_preludestarter_kits_scares_me/
+- https://www.emacswiki.org/emacs/CategoryDotEmacs
+- https://github.com/search?o=desc&q=Emacs&s=stars&type=Repositories

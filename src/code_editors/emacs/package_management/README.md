@@ -1,6 +1,7 @@
 - https://github.com/skeeto/.emacs.d/blob/master/lisp/gpkg.el
   - usage https://github.com/skeeto/.emacs.d/blob/master/packages.el
 - https://www.emacswiki.org/emacs/LibraryDependencies
+- https://github.com/search?o=desc&q=Emacs&s=stars&type=Repositories
 
 ## emacsmirror
 
