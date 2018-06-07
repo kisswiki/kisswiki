@@ -1,3 +1,6 @@
+- https://github.com/justbur/emacs-which-key
+- https://github.com/abo-abo/hydra
+
 ## Legend
 
 `C` means `Ctrl`
