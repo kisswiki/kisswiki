@@ -1,0 +1,6 @@
+- https://www.reddit.com/r/emacs/comments/7x1mgf/starting_in_emacs_26_you_might_not_need_flycheck/
+- https://www.reddit.com/r/emacs/comments/7x1mgf/starting_in_emacs_26_you_might_not_need_flycheck/
+- https://github.com/emacs-tw/awesome-emacs/blob/master/README.org#error-checking
+- https://stackoverflow.com/questions/23165229/should-i-switch-from-flymake-to-flycheck-how-much-will-it-hurt
+- https://github.com/flycheck/flycheck/blob/master/doc/user/flycheck-versus-flymake.rst
+- https://www.reddit.com/r/emacs/comments/4ef3y2/flymake_vs_flycheck/
