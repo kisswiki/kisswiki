@@ -5,3 +5,5 @@
 - https://superuser.com/questions/814012/my-ctrl-and-alt-keys-are-swapped-how-can-i-swap-them-back
 - http://ergoemacs.org/emacs/emacs_pinky.html
 - http://ergoemacs.org/emacs/emacs_kb_shortcuts_pain.html
+- https://ergodox-ez.com
+  - https://www.reddit.com/r/emacs/comments/8jsc51/emacs_theater/
