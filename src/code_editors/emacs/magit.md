@@ -1,1 +1,4 @@
 - https://emacs.stackexchange.com/questions/19440/magit-extremely-slow-in-windows-how-do-i-optimize
+- https://www.youtube.com/watch?v=rzQEIRRJ2T0
+- https://www.youtube.com/watch?v=vQO7F2Q9DwA
+- http://endlessparentheses.com/it-s-magit-and-you-re-the-magician.html
