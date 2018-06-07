@@ -1,5 +1,6 @@
 - https://github.com/justbur/emacs-which-key
 - https://github.com/abo-abo/hydra
+- http://wikemacs.org/wiki/Expand_region
 
 ## Legend
 
