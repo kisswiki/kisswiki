@@ -1,1 +1,2 @@
 - https://www.reddit.com/r/emacs/comments/8kz8dv/tip_how_i_use_orgjournal_to_improve_my/
+- https://www.reddit.com/r/emacs/comments/8i85kt/the_many_uses_of_org_mode/
