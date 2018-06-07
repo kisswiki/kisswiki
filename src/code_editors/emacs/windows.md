@@ -18,3 +18,4 @@ or
 - https://emacs.stackexchange.com/questions/20213/how-to-start-emacs-without-the-cmd-exe-window-on-ms-windows
 - https://www.emacswiki.org/emacs/EmacsMsWindowsIntegration
 - https://www.johndcook.com/blog/emacs_windows/
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Windows-Startup.html
