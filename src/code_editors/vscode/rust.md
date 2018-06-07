@@ -12,3 +12,7 @@
         "editor.formatOnSave": true,
     },
 ```
+
+## failed to read Cargo.toml
+
+Check if in `Cargo.toml` there is no `workspace = "../"`
