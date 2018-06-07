@@ -2,6 +2,7 @@
 - https://github.com/abo-abo/hydra
 - http://wikemacs.org/wiki/Expand_region
 - https://github.com/abo-abo/avy
+- https://github.com/chrisdone/god-mode
 
 ## Legend
 
