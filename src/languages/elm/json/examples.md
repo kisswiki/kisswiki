@@ -268,7 +268,7 @@ Based on https://github.com/elm-community/json-extra/blob/2.0.0/docs/andMap.md
 ##
 
 ```elm
-jsonObject2 =
+objectJson2 =
     """
     { "one": 2
     , "two": "something"
@@ -276,12 +276,78 @@ jsonObject2 =
 """
 
 
-deocodeJsonObject2 =
+deocodeObjectJson2 =
     field "one" int
         |> andThen
             (\one ->
                 map (\b -> toString one ++ b) (field "two" string)
             )
 
-main = Html.text <| toString <| Decode.decodeString deocodeJsonObject2 jsonObject2
+
+objectJson3a =
+    """
+    { "name": "somename"
+    , "one": 2
+    , "two": "something"
+    }
+"""
+
+
+objectJson3b =
+    """
+    { "name": "somename2"
+    }
+"""
+
+
+deocodeObjectJson3 =
+    maybe (field "one" int)
+        |> andThen
+            (\one ->
+                case one of
+                    Just value ->
+                        succeed (Just value)
+
+                    Nothing ->
+                        succeed Nothing
+            )
+
+
+objectJson4a =
+    """
+    { "name": "somename"
+    , "one": 2
+    , "two": "something"
+    }
+"""
+
+
+objectJson4b =
+    """
+    { "name": "somename2"
+    }
+"""
+
+
+deocodeObjectJson4 =
+    maybe (field "one" int)
+        |> andThen
+            (\one ->
+                case one of
+                    Just value ->
+                        map (\v -> Just ( value, v )) (field "two" string)
+
+                    Nothing ->
+                        succeed Nothing
+            )
+
+
+main =
+    Html.div []
+        [ Html.div [] [ Html.text <| toString <| Decode.decodeString deocodeObjectJson2 objectJson2 ]
+        , Html.div [] [ Html.text <| toString <| Decode.decodeString deocodeObjectJson3 objectJson3a ]
+        , Html.div [] [ Html.text <| toString <| Decode.decodeString deocodeObjectJson3 objectJson3b ]
+        , Html.div [] [ Html.text <| toString <| Decode.decodeString deocodeObjectJson4 objectJson4a ]
+        , Html.div [] [ Html.text <| toString <| Decode.decodeString deocodeObjectJson4 objectJson4b ]
+        ]
 ```
