@@ -145,4 +145,5 @@ https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
 - https://www.emacswiki.org/emacs/StarterKits
 - http://ergoemacs.org/misc/list_of_emacs_starter_kits.html
 - http://wikemacs.org/wiki/Starter_Kits
-- http://emacs-bootstrap.com/
+- generate for different programming languages http://emacs-bootstrap.com/
+- https://www.reddit.com/r/emacs/comments/4zrfin/emacs_for_starters_which_to_use_spacemacs_prelude/
