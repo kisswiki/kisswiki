@@ -134,6 +134,7 @@ https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
 
 ## distributions/starter kits
 
+- https://github.com/emacs-tw/awesome-emacs#starter-kit
 - https://writequit.org/eos/eos.html
 - https://github.com/raxod502/radian
 - http://spacemacs.org/

@@ -1,0 +1,1 @@
+- https://github.com/purcell/emacs.d/blob/master/lisp/init-ivy.el
