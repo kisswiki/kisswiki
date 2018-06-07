@@ -138,3 +138,4 @@ https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
 - http://spacemacs.org/
 - https://github.com/bbatsov/prelude
 - author of use-package https://github.com/jwiegley/dot-emacs
+- https://github.com/purcell/emacs.d
