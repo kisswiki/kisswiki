@@ -1,0 +1,4 @@
+- https://www.masteringemacs.org/article/introduction-to-ido-mode
+- https://github.com/defunkt/textmate.el
+- What You Can Learn From ido.el https://vimeo.com/1013263
+- https://stackoverflow.com/questions/11495035/emacs-using-ffap-and-ido-mode-together
