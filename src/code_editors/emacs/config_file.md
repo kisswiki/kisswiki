@@ -142,6 +142,7 @@ https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
 - https://github.com/technomancy/emacs-starter-kit
   - https://github.com/technomancy/better-defaults
 - https://github.com/rdallasgray/graphene
+- https://github.com/magnars/.emacs.d/
 - https://www.emacswiki.org/emacs/StarterKits
 - http://ergoemacs.org/misc/list_of_emacs_starter_kits.html
 - http://wikemacs.org/wiki/Starter_Kits
