@@ -264,3 +264,24 @@ Ok (Ok 5) : Result.Result String (Result.Result String Int)
 ```
 
 Based on https://github.com/elm-community/json-extra/blob/2.0.0/docs/andMap.md
+
+##
+
+```elm
+jsonObject2 =
+    """
+    { "one": 2
+    , "two": "something"
+    }
+"""
+
+
+deocodeJsonObject2 =
+    field "one" int
+        |> andThen
+            (\one ->
+                map (\b -> toString one ++ b) (field "two" string)
+            )
+
+main = Html.text <| toString <| Decode.decodeString deocodeJsonObject2 jsonObject2
+```
