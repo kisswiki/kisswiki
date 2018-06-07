@@ -1,0 +1,10 @@
+- https://www.emacswiki.org/emacs/CategoryProject
+- https://github.com/technomancy/find-file-in-project
+  - https://www.emacswiki.org/emacs/TextMate
+- https://github.com/jrockway/eproject
+- https://github.com/bbatsov/projectile
+  - https://github.com/bbatsov/persp-projectile
+- https://www.reddit.com/r/emacs/comments/54fkqr/how_do_people_manage_projects_in_emacs/
+- https://stackoverflow.com/questions/2375738/emacs-recursive-project-search
+- https://emacs.stackexchange.com/questions/448/what-is-the-easiest-way-to-search-all-useful-files-inside-a-single-project
+- https://emacs.stackexchange.com/questions/7742/what-is-the-easiest-way-to-open-the-folder-containing-the-current-file-by-the-de

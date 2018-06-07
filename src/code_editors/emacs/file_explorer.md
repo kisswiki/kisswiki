@@ -1,2 +1,6 @@
 - https://github.com/Alexander-Miller/treemacs
   - https://github.com/philippe-grenet/exordium
+- https://github.com/ralesi/ranger.el
+  - https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Btools/ranger/README.org
+- https://www.emacswiki.org/emacs/Sunrise_Commander
+- https://stackoverflow.com/questions/64808/how-do-i-see-the-list-of-open-files-within-emacs-or-browse-a-directory-within
