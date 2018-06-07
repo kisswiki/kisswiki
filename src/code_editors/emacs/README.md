@@ -1,1 +1,2 @@
 - Emacs in Rust https://github.com/Wilfred/remacs
+- https://github.com/emacs-tw/awesome-emacs
