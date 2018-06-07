@@ -8,6 +8,7 @@
 - http://coldnew.github.io/coldnew-emacs/#
 - http://ergoemacs.org/emacs/emacs_whats_best_setup_for_xyz.html
 - http://cestlaz.github.io/stories/emacs/
+- https://www.reddit.com/r/emacs/comments/8j15ji/how_has_emacs_ever_really_blown_you_away/
 
 ## Help
 
