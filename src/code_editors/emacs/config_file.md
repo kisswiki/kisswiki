@@ -153,3 +153,8 @@ https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
 - https://www.reddit.com/r/emacs/comments/1udtd1/starting_emacs_with_preludestarter_kits_scares_me/
 - https://www.emacswiki.org/emacs/CategoryDotEmacs
 - https://github.com/search?o=desc&q=Emacs&s=stars&type=Repositories
+
+## org-mode
+
+- https://github.com/vidjuheffex/dotemacs/blob/master/emacs.org
+- for straight.el you need special configuration https://github.com/raxod502/straight.el/issues/9#issuecomment-337700460
