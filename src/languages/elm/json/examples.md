@@ -265,9 +265,17 @@ Ok (Ok 5) : Result.Result String (Result.Result String Int)
 
 Based on https://github.com/elm-community/json-extra/blob/2.0.0/docs/andMap.md
 
-##
+## conditional with maybe
+
+https://ellie-app.com/rMkQ9rg7bya1
 
 ```elm
+module Main exposing (main)
+
+import Html
+import Json.Decode exposing (andThen, decodeString, field, int, map, maybe, string, succeed)
+
+
 objectJson2 =
     """
     { "one": 2
@@ -344,10 +352,10 @@ deocodeObjectJson4 =
 
 main =
     Html.div []
-        [ Html.div [] [ Html.text <| toString <| Decode.decodeString deocodeObjectJson2 objectJson2 ]
-        , Html.div [] [ Html.text <| toString <| Decode.decodeString deocodeObjectJson3 objectJson3a ]
-        , Html.div [] [ Html.text <| toString <| Decode.decodeString deocodeObjectJson3 objectJson3b ]
-        , Html.div [] [ Html.text <| toString <| Decode.decodeString deocodeObjectJson4 objectJson4a ]
-        , Html.div [] [ Html.text <| toString <| Decode.decodeString deocodeObjectJson4 objectJson4b ]
+        [ Html.div [] [ Html.text <| toString <| decodeString deocodeObjectJson2 objectJson2 ]
+        , Html.div [] [ Html.text <| toString <| decodeString deocodeObjectJson3 objectJson3a ]
+        , Html.div [] [ Html.text <| toString <| decodeString deocodeObjectJson3 objectJson3b ]
+        , Html.div [] [ Html.text <| toString <| decodeString deocodeObjectJson4 objectJson4a ]
+        , Html.div [] [ Html.text <| toString <| decodeString deocodeObjectJson4 objectJson4b ]
         ]
 ```
