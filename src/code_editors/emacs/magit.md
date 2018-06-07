@@ -3,3 +3,6 @@
 - https://www.youtube.com/watch?v=vQO7F2Q9DwA
 - http://endlessparentheses.com/it-s-magit-and-you-re-the-magician.html
 - https://github.com/syohex/emacs-git-gutter
+- http://cestlaz.github.io/posts/using-emacs-47-magit/
+- https://emacsair.me/2017/09/01/campaign-articles/
+- https://www.reddit.com/r/emacs/comments/8o54fs/magit_v213_released/

@@ -7,6 +7,7 @@
 - https://github.com/redguardtoo/mastering-emacs-in-one-year-guide
 - http://coldnew.github.io/coldnew-emacs/#
 - http://ergoemacs.org/emacs/emacs_whats_best_setup_for_xyz.html
+- http://cestlaz.github.io/stories/emacs/
 
 ## Help
 

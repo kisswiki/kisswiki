@@ -1,0 +1,7 @@
+- https://peach-melpa.org/
+  - https://www.reddit.com/r/emacs/comments/8l4r02/announcing_peachmelpaorg/
+- https://emacsthemes.com/
+- https://pawelbx.github.io/emacs-theme-gallery/
+- https://github.com/fniessen/emacs-leuven-theme
+- https://emacsthemes.com/themes/base16-monokai-theme.html
+- https://github.com/oneKelvinSmith/monokai-emacs
