@@ -16,3 +16,13 @@ Szerzej można o tym poczytać tutaj http://biznesowypunktwidzenia.pl/pulapki-op
 
 
 Ryczałt 17%. Różnica dwóch punktów procentowych przy 15k miesięcznie w opisanej sytuacji daje ok. 2,5k-3,6k oszczędności rocznie na podatku dochodowym.
+
+##
+
+Lepiej się nie nakręcajcie, bo to nie pierwszy cwaniaczek, który myśli, że oszukał system przenosząc działalność za granicę. Dopóki mieszka w Polsce przez większość roku lub posiada tutaj tak zwany "ośrodek interesów życiowych", a więc najbliższą rodzinę, miejsce zamieszkania, czy jak to sobie US zinterpretuje (przepisy nie precyzują tego pojęcia) i będzie musiał płacić zaległe z odsetkami. 
+Nie zdziwcie się, jak za kilkanaście miesięcy będzie tutaj filmik z płaczem jaka to skarbówka zła i że musiał płacić podatki w obu państwach.
+Jeśli tak bardzo przeszkadza mu ZUS, to przecież mógł założyć spółkę i płacić tylko składkę zdrowotną, a i podatki niższe.
+
+Polska należy do krajów gdzie realne opodatkowanie jest poniżej średniej w Europie. Bodajże 17 miejsce w UE pod względem ciężaru opodatkowania.
+
+https://www.wykop.pl/link/4352665/zamykam-firme-w-polsce-i-przenosze-sie-do-estonii/

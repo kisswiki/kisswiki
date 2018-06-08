@@ -48,3 +48,6 @@ LCtrl::LWin
 ; RAlt::RCtrl
 ; AppsKey::RAlt
 ; RCtrl::AppsKey
+
+; https://autohotkey.com/board/topic/30117-how-do-i-create-hotkey-to-suspend-autohotkey/page-2
+^!F10::Suspend, Toggle
