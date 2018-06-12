@@ -12,4 +12,6 @@ A good general rule is this:
 - If it’s a new object or method, you can probably polyfill it
 - If it’s something clever that the browser does outside of your code, you’re probably SOL
 
+But I’m afraid that my peach table belies some gray areas.
+
 https://hackernoon.com/polyfills-everything-you-ever-wanted-to-know-or-maybe-a-bit-less-7c8de164e423
