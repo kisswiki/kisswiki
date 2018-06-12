@@ -1,0 +1,2 @@
+- https://en.m.wikipedia.org/wiki/Media_type
+- https://www.iana.org/assignments/media-types/media-types.xhtml
