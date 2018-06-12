@@ -1,2 +1,3 @@
 - https://en.m.wikipedia.org/wiki/Media_type
 - https://www.iana.org/assignments/media-types/media-types.xhtml
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types
