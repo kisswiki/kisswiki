@@ -13,7 +13,27 @@ http://johnculviner.com/jquery-file-download-plugin-for-ajax-like-feature-rich-f
 
 The problem is, if you do window.location.href = 'GenerateFile', and there is an error server-side, there is no way to handle the error and not break the SPA. When you generate a temp file, you can return something like { success: true, filepath: '...' } and { success: false, message: '...' }, and it can be handled properly. https://stackoverflow.com/questions/21331880/downloading-files-in-a-spa#comment32681003_21332100
 
+## Misc
+
+- https://stackoverflow.com/questions/1106377/detect-when-browser-receives-file-download#4168965
+- https://stackoverflow.com/questions/1106377/detect-when-browser-receives-file-download/27689600#27689600
+  - https://github.com/witstep/response-monitor.js
+
 ## Without a server
+
+### Filesystem API deprecated
+
+It seems there are 3 specs here:
+
+- File API: widely implemented, 92% support
+- File API (Directories and System): Chrome only, deprecated, 51% support
+- FileSystem API (this repo): Meant to replace deprecated effort, Browser support unclear, spec status unclear, stalled?
+
+https://github.com/w3c/filesystem-api/issues/8#issuecomment-251862459
+
+- https://www.html5rocks.com/en/tutorials/file/filesystem/
+
+The FileSystem API defines functionality on a local sandboxed file system within the same origin of the Web Application that created it. http://w3c.github.io/filesystem-api/
 
 ### a[download]
 
@@ -27,6 +47,9 @@ The problem is, if you do window.location.href = 'GenerateFile', and there is an
 
 - https://stackoverflow.com/questions/20830309/download-file-using-an-ajax-request/42815974#42815974
 - https://github.com/eligrey/FileSaver.js/
+- https://stackoverflow.com/questions/49209756/do-i-always-need-to-call-url-revokeobjecturl-explicitly/49346614#49346614
+
+Right now, to save files to disk in WebTorrent, we stream data into pre-allocated typed arrays, wrap those in a Blob, URL.createObjectUrl, then click that link. This requires the entire data to live in memory until it's ready to be saved. https://github.com/w3c/filesystem-api/issues/8#issuecomment-271120715
 
 #### createObjectURL
 
@@ -52,6 +75,7 @@ We use msSaveOrOpenBlob - found no alternative.
 - https://github.com/johnculviner/jquery.fileDownload
   - http://johnculviner.com/jquery-file-download-plugin-for-ajax-like-feature-rich-file-downloads/
   - https://stackoverflow.com/questions/365777/starting-file-download-with-javascript/11065324#11065324
+  - https://stackoverflow.com/questions/4545311/download-a-file-by-jquery-ajax/9970672#9970672
 
 ### create a ZIP file with the PDF inside
 
