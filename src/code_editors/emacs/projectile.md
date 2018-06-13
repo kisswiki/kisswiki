@@ -25,7 +25,15 @@ Open another file in project:
 
 ## clear cache and exclue files
 
-`C-u C-c p f` or better use rg
+`C-u C-c p f`
+
+https://stackoverflow.com/questions/40623499/how-to-force-emacs-projectile-to-reinitialize-a-project/41003451#41003451
+
+or `M-x projectile-invalidate-cache`
+
+https://emacs.stackexchange.com/questions/12843/how-to-clear-cache-of-projectile-file-in-spacemacs
+
+better use rg
 
 How about deleting ~/.emacs.d/projectile.cache and using either ag(the silver searcher) or rg (ripgrep) to generate the project files ? Check out my [projectile config](https://github.com/CSRaghunandan/.emacs.d/blob/master/setup-files/setup-projectile.el) to get an idea on how you can use rg to generate project files 
 
