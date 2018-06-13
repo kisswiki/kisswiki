@@ -23,7 +23,7 @@ Open another file in project:
 - https://emacs.stackexchange.com/questions/32634/how-can-the-list-of-projects-used-by-projectile-be-manually-updated
 - https://projectile.readthedocs.io/en/latest/usage/
 
-## clear cache
+## clear cache and exclue files
 
 `C-u C-c p f` or better use rg
 
