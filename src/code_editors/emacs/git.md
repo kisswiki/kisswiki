@@ -18,3 +18,5 @@
 - http://blog.binchen.org/posts/enhance-emacs-git-gutter-with-ivy-mode.html
 - http://blog.binchen.org/posts/new-git-timemachine-ui-based-on-ivy-mode.html
 - https://github.com/dgutov/diff-hl
+- https://github.com/syohex/emacs-git-gutter-fringe
+- https://github.com/nonsequitur/git-gutter-fringe-plus
