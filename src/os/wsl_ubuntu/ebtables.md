@@ -4,7 +4,7 @@
 
 https://bugs.launchpad.net/ubuntu/+source/ebtables/+bug/1774120
 
-## Why
+### Why
 
 WSL does not implement all Linux ABI surface. Doesn't even pretend to, per the FAQ. Aspires to, hopefully.
 
@@ -12,10 +12,16 @@ WSL does not implement all Linux ABI surface. Doesn't even pretend to, per the F
 
 https://github.com/Microsoft/WSL/issues/3274#issuecomment-394426061
 
-## Solution
+### Solution
 
 `sudo apt-mark hold ebtables`
 
 https://github.com/Microsoft/WSL/issues/1761#issuecomment-392608892
 
 or this https://github.com/Microsoft/WSL/issues/1761#issuecomment-392578042
+
+## WslRegisterDistribution failed with error: 0x800703fa
+
+`services.msc > LxssManager > stop and start`
+
+https://github.com/Microsoft/WSL/issues/2576#issuecomment-380823857

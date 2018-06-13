@@ -81,6 +81,10 @@ We use msSaveOrOpenBlob - found no alternative.
 
 https://stackoverflow.com/questions/3802510/force-to-open-save-as-popup-open-at-text-link-click-for-pdf-in-html/4161480#4161480
 
+## a[download] + new windows + <body onload="windows.close"> 
+
+https://stackoverflow.com/questions/45121077/javascript-download-file-link-is-closing-popup-window-before-download-popup
+
 ## Using server
 
 - https://stackoverflow.com/questions/3802510/force-to-open-save-as-popup-open-at-text-link-click-for-pdf-in-html
