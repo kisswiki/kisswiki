@@ -1,3 +1,5 @@
+## magit
+
 - https://emacs.stackexchange.com/questions/19440/magit-extremely-slow-in-windows-how-do-i-optimize
 - https://www.youtube.com/watch?v=rzQEIRRJ2T0
 - https://www.youtube.com/watch?v=vQO7F2Q9DwA
@@ -6,3 +8,7 @@
 - http://cestlaz.github.io/posts/using-emacs-47-magit/
 - https://emacsair.me/2017/09/01/campaign-articles/
 - https://www.reddit.com/r/emacs/comments/8o54fs/magit_v213_released/
+
+## git gutter and time machine
+
+- https://www.reddit.com/r/emacs/comments/7yerze/using_emacs_42_git_gutter_and_time_machine/
