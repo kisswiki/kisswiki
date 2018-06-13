@@ -22,6 +22,8 @@ C-h f for function document/source
 
 C-h v for variable document/source
 
+C-h w Display which keystrokes invoke the given command (where-is)
+
 You can use C-h ? to see what else it provided.
 
 https://www.reddit.com/r/emacs/comments/1udtd1/starting_emacs_with_preludestarter_kits_scares_me/
