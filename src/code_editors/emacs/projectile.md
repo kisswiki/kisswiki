@@ -23,9 +23,9 @@ Open another file in project:
 - https://emacs.stackexchange.com/questions/32634/how-can-the-list-of-projects-used-by-projectile-be-manually-updated
 - https://projectile.readthedocs.io/en/latest/usage/
 
-## 
+## clear cache
 
-https://stackoverflow.com/questions/40623499/how-to-force-emacs-projectile-to-reinitialize-a-project
+`C-u C-c p f` or better use rg
 
 How about deleting ~/.emacs.d/projectile.cache and using either ag(the silver searcher) or rg (ripgrep) to generate the project files ? Check out my [projectile config](https://github.com/CSRaghunandan/.emacs.d/blob/master/setup-files/setup-projectile.el) to get an idea on how you can use rg to generate project files 
 
