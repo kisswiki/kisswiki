@@ -27,8 +27,10 @@ Open another file in project:
 
 https://stackoverflow.com/questions/40623499/how-to-force-emacs-projectile-to-reinitialize-a-project
 
+How about deleting ~/.emacs.d/projectile.cache and using either ag(the silver searcher) or rg (ripgrep) to generate the project files ? Check out my [projectile config](https://github.com/CSRaghunandan/.emacs.d/blob/master/setup-files/setup-projectile.el) to get an idea on how you can use rg to generate project files https://stackoverflow.com/questions/40623499/how-to-force-emacs-projectile-to-reinitialize-a-project#comment68597596_40623499
+
 ## Use rg ripgrep
 
 - https://github.com/seagle0128/.emacs.d/blob/master/lisp/init-projectile.el
 - https://github.com/kaushalmodi/.emacs.d/blob/master/setup-files/setup-projectile.el
-- https://emacs.stackexchange.com/questions/16497/how-to-exclude-files-from-projectile
+- https://emacs.stackexchange.com/questions/16497/how-to-exclude-files-from-projectile/29200#29200
