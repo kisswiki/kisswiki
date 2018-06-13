@@ -6,3 +6,10 @@ $ emacs --help
 --fullwidth, -fw                make the first frame wide as the screen
 --maximized, -mm  
 ```
+
+## Windows
+
+`emacsclientw -c -n -a "runemacs -fs"`
+
+- https://www.emacswiki.org/emacs/FullScreen
+- https://www.emacswiki.org/emacs/EmacsClient
