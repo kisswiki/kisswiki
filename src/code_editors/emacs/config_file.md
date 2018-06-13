@@ -158,3 +158,32 @@ https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
 
 - https://github.com/vidjuheffex/dotemacs/blob/master/emacs.org
 - for straight.el you need special configuration https://github.com/raxod502/straight.el/issues/9#issuecomment-337700460
+
+## sharp quote or pound quote `#'`
+
+```lisp
+(eq 'my-add #'my-add)
+```
+
+yields `t`.
+
+Other than trying to support Emacs versions from two decades ago, there's never a reason to sharp quote a lambda.
+
+- https://stackoverflow.com/questions/2701698/emacs-elisp-what-is-the-hash-pound-number-sign-octothorp-symbol-used-for
+- https://emacs.stackexchange.com/questions/3595/when-to-sharp-quote-a-lambda-expression
+
+## quote `'`
+
+https://stackoverflow.com/questions/134887/when-to-use-or-quote-in-lisp
+
+## setq-local
+
+- https://emacs.stackexchange.com/questions/24940/what-does-setq-local-do-and-when-should-i-use-it
+
+## Run hook after some hook
+
+- https://emacs.stackexchange.com/questions/39035/how-to-run-a-prog-mode-hook-after-more-specific-hooks
+
+## progn
+
+- https://www.gnu.org/software/emacs/manual/html_node/eintr/progn.html
