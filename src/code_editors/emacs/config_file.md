@@ -56,6 +56,15 @@ The odds of this working are higher when the options are customized using a cust
 
 https://emacs.stackexchange.com/questions/635/whats-the-fastest-way-to-reload-my-emacs-file-when-i-make-changes-so-all-my-af
 
+### Disable customize
+
+```lisp
+(setq custom-file (concat user-emacs-directory "/dev/null"))
+(load custom-file t)
+```
+
+https://www.reddit.com/r/emacs/comments/5udtw1/usepackageel_about_to_be_moved_to_emacs_core/ddto9mh/
+
 ## Errors
 
 If it seems like your init file is not being read, type ‘C-h e’ to see if there is a chance there was a problem with it loading. See [DebugFileLoading](https://www.emacswiki.org/emacs/DebugFileLoading) for more troubleshooting tips.
