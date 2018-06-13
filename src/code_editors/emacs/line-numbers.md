@@ -19,7 +19,7 @@
 - https://superuser.com/questions/212193/how-do-i-display-line-numbers-in-emacs-not-in-the-mode-line/1328642#1328642
 - https://emacs.stackexchange.com/questions/278/how-do-i-display-line-numbers-in-emacs-not-in-the-mode-line
 
-## With width set
+## static width
 
 ```lisp
 (when (version<= "26.0.50" emacs-version )
