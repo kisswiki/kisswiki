@@ -1,0 +1,1 @@
+>In my opinion, if you are a ivy user, you should use counsel-M-x instead of smex https://github.com/nonsequitur/smex/pull/51#issuecomment-314268972
