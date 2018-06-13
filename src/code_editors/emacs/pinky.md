@@ -10,7 +10,9 @@ And also this autohotkey
 Ctrl & Tab::AltTab
 ```
 
-https://superuser.com/questions/1216591/win-10-autohotkey-how-do-you-remap-window-swapping-from-alt-tab-to-ctrl-tab/1269637#1269637
+- https://superuser.com/questions/1216591/win-10-autohotkey-how-do-you-remap-window-swapping-from-alt-tab-to-ctrl-tab/1269637#1269637
+- https://superuser.com/questions/991809/how-to-remap-tab-shortcut-from-ctrl-to-alt-for-chrome-in-windows
+- https://superuser.com/questions/994800/can-i-swap-alttab-for-altesc-in-windows-10
 
 ## Old
 
