@@ -187,3 +187,7 @@ https://stackoverflow.com/questions/134887/when-to-use-or-quote-in-lisp
 ## progn
 
 - https://www.gnu.org/software/emacs/manual/html_node/eintr/progn.html
+
+## how to check if on windows
+
+https://emacs.stackexchange.com/questions/28772/manage-same-init-file-for-linux-and-windows

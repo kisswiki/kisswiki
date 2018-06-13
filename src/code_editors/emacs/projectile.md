@@ -22,3 +22,13 @@ Open another file in project:
 
 - https://emacs.stackexchange.com/questions/32634/how-can-the-list-of-projects-used-by-projectile-be-manually-updated
 - https://projectile.readthedocs.io/en/latest/usage/
+
+## 
+
+https://stackoverflow.com/questions/40623499/how-to-force-emacs-projectile-to-reinitialize-a-project
+
+## Use rg ripgrep
+
+- https://github.com/seagle0128/.emacs.d/blob/master/lisp/init-projectile.el
+- https://github.com/kaushalmodi/.emacs.d/blob/master/setup-files/setup-projectile.el
+- https://emacs.stackexchange.com/questions/16497/how-to-exclude-files-from-projectile
