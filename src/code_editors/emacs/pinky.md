@@ -1,3 +1,19 @@
+There were problems with `autohotkey.ahk`, in some situation it was not working well. So now I use Sharpkeys to map
+
+- LAlt to LCtrl
+- LWin to LAlt
+- LCtrl to LWin
+
+And also this autohotkey
+
+```
+Ctrl & Tab::AltTab
+```
+
+https://superuser.com/questions/1216591/win-10-autohotkey-how-do-you-remap-window-swapping-from-alt-tab-to-ctrl-tab/1269637#1269637
+
+## Old
+
 - `autohotkey.ahk`
 - Swap RCtrl and RAlt but not for RAlt + Tab https://superuser.com/questions/984343/remap-ctrl-to-alt-and-keep-alttab-and-ctrltab
 - https://superuser.com/questions/1190329/can-i-switch-the-alt-and-ctrl-keys-on-my-keyboard
