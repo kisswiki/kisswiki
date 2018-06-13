@@ -1,4 +1,9 @@
-##Quickstart
+- https://www.emacswiki.org/emacs/Projectile
+- http://cestlaz.github.io/posts/using-emacs-33-projectile-jump/
+- https://projectile.readthedocs.io/en/latest/configuration/
+- https://projectile.readthedocs.io/en/latest/
+
+## Quickstart
 
 In config:
 
@@ -23,7 +28,7 @@ Open another file in project:
 - https://emacs.stackexchange.com/questions/32634/how-can-the-list-of-projects-used-by-projectile-be-manually-updated
 - https://projectile.readthedocs.io/en/latest/usage/
 
-## clear cache and exclue files
+## clear cache and exclude files
 
 `C-u C-c p f`
 
@@ -39,8 +44,12 @@ How about deleting ~/.emacs.d/projectile.cache and using either ag(the silver se
 
 https://stackoverflow.com/questions/40623499/how-to-force-emacs-projectile-to-reinitialize-a-project#comment68597596_40623499
 
+- https://emacs.stackexchange.com/questions/16497/how-to-exclude-files-from-projectile/16499
+- https://github.com/bbatsov/projectile/issues/1075
+
 ## Use rg ripgrep
 
 - https://github.com/seagle0128/.emacs.d/blob/master/lisp/init-projectile.el
 - https://github.com/kaushalmodi/.emacs.d/blob/master/setup-files/setup-projectile.el
+- https://github.com/nlamirault/ripgrep.el
 - https://emacs.stackexchange.com/questions/16497/how-to-exclude-files-from-projectile/29200#29200
