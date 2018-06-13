@@ -8,7 +8,7 @@ In config:
 
 Open file, then:
 
-`C-h v projectile-known-projects`
+`C-h v projectile-known-projects` or `C-C p p`
 
 Reopen emacs
 
