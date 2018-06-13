@@ -1,0 +1,4 @@
+- https://www.emacswiki.org/emacs/WriteRoom
+- https://github.com/joostkremers/writeroom-mode
+  - https://stackoverflow.com/questions/26843082/emacs-set-writeroom-mode-as-default
+- https://github.com/rnkn/olivetti
