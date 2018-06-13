@@ -6,6 +6,8 @@ In config:
 (projectile-mode)
 ```
 
+Note: `projectile-global-mode` is probably not needed.
+
 Open file, then:
 
 `C-h v projectile-known-projects` or `C-C p p`
