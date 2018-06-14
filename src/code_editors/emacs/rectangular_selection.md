@@ -1,2 +1,3 @@
 - https://www.emacswiki.org/emacs/CuaMode
 - https://stackoverflow.com/questions/25065328/how-select-a-rectangle-in-emacs
+- https://stackoverflow.com/questions/761706/in-emacs-edit-multiple-lines-at-once
