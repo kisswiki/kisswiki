@@ -1,0 +1,2 @@
+- https://www.emacswiki.org/emacs/CuaMode
+- https://stackoverflow.com/questions/25065328/how-select-a-rectangle-in-emacs
