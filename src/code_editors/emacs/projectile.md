@@ -2,6 +2,7 @@
 - http://cestlaz.github.io/posts/using-emacs-33-projectile-jump/
 - https://projectile.readthedocs.io/en/latest/configuration/
 - https://projectile.readthedocs.io/en/latest/
+- https://github.com/ericdanan/counsel-projectile
 
 ## Quickstart
 
