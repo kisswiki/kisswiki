@@ -1,0 +1,1 @@
+- https://github.com/magnars/multiple-cursors.el
