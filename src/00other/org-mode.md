@@ -1,1 +1,2 @@
 - Don't use it https://news.ycombinator.com/item?id=15321850
+- https://github.com/jkitchin/org-ref
