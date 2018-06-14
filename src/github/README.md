@@ -47,6 +47,7 @@
   - https://github.com/octo-linker/chrome-extension
   - https://chrome.google.com/webstore/detail/dark-theme-v2/djlgdeklopcjagknhlchbdjekgpgenad
 - https://userstyles.org/styles/70979/github-better-sized-tabs-in-code
+- https://github.com/sindresorhus/refined-github
 
 ## README
 
