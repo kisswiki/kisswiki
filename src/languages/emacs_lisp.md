@@ -1,4 +1,5 @@
 - http://ergoemacs.org/emacs/elisp.html
+- https://github.com/abo-abo/lispy
 
 ## dolist
 
