@@ -1,1 +1,3 @@
 - https://github.com/magnars/multiple-cursors.el
+- http://emacsrocks.com/e13.html
+- https://github.com/victorhge/iedit
