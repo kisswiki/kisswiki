@@ -9,7 +9,7 @@ $ emacs --help
 
 ## Windows
 
-`emacsclientw -c -n -a "runemacs -fs"`
+`emacsclientw -c -n -a 'runemacs -fs --xrm "Emacs.toolBar:0" --xrm "Emacs.menuBar:0"'`
 
 - https://www.emacswiki.org/emacs/FullScreen
 - https://www.emacswiki.org/emacs/EmacsClient
