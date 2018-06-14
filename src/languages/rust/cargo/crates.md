@@ -1,0 +1,2 @@
+- https://crates.io
+- https://crates.rs
