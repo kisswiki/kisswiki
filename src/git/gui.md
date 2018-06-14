@@ -1,0 +1,1 @@
+- https://github.com/git-cola/git-cola

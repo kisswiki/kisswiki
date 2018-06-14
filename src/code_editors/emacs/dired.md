@@ -1,1 +1,2 @@
 - https://oremacs.com/2017/03/18/dired-ediff/
+- https://writequit.org/denver-emacs/presentations/2016-05-24-elpy-and-dired.html
