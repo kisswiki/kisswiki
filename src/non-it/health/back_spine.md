@@ -3,6 +3,7 @@
   - https://news.ycombinator.com/item?id=16465294
 -  [TOREAD] THE FORGOTTEN ART OF SQUATTING IS A REVELATION FOR BODIES RUINED BY SITTING https://quartzy.qz.com/1121077/to-solve-problems-caused-by-sitting-learn-to-squat/
   - https://news.ycombinator.com/item?id=16471215
+- https://www.wykop.pl/link/4356707/garbisz-sie-rob-to-cwiczenie/
 
 ##
 

@@ -15,6 +15,8 @@
 - Jak wychować sobie faceta - poradnik (nie) tylko dla bojowniczek! http://joemonster.org/art/35948
 - http://david-durden.pl/dlaczego-kobieta-odchodzi/
   - https://www.wykop.pl/link/4143461/o-tym-jak-kobieta-zmienia-faceta-a-potem-od-niego-odchodzi/
+- http://www.ocalsiebie.pl/artykuly/co-niszczy-wsp%C3%B3%C5%82czesnego-m%C4%99%C5%BCczyzn%C4%99-r117/
+  - https://www.wykop.pl/link/4355983/co-niszczy-wspolczesnego-mezczyzne/
 
 ## 2017-02-16
 
