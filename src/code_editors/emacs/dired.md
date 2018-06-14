@@ -1,0 +1,1 @@
+- https://oremacs.com/2017/03/18/dired-ediff/
