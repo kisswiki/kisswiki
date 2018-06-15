@@ -34,9 +34,10 @@ import Date.Format
 
 Cons: No ordinals like 2nd June
 
-I could use http://package.elm-lang.org/packages/rluiten/elm-date-extra/9.3.1, but it supports ordinal numbers only for English.
+Ordinals but English only:
 
-Or http://package.elm-lang.org/packages/ryannhg/elm-date-format/2.1.1 only with English support.
+- http://package.elm-lang.org/packages/rluiten/elm-date-extra/9.3.1
+- http://package.elm-lang.org/packages/ryannhg/elm-date-format/2.1.1
 
 Additionally there is
 
