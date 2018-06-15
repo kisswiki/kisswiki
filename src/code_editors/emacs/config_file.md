@@ -1,3 +1,7 @@
+- https://stackoverflow.com/questions/3124844/what-are-your-favorite-global-key-bindings-in-emacs
+- https://www.emacswiki.org/emacs/EmacsNiftyTricks
+- https://www.christopherbiscardi.com/post/emacs-command-frequency-2017/
+
 ## Location
 
 It should be stored in the variable `user-init-file`. Use `C-H v user-init-file RET` to check.
