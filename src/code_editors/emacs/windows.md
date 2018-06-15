@@ -21,3 +21,20 @@ Use runemacs for that.
 - https://www.emacswiki.org/emacs/EmacsMsWindowsIntegration
 - https://www.johndcook.com/blog/emacs_windows/
 - https://www.gnu.org/software/emacs/manual/html_node/emacs/Windows-Startup.html
+
+## Executable
+
+get path of executable
+
+`M-: (executable-find "find")`
+
+https://emacs.stackexchange.com/a/26081/19475
+
+```lisp
+(when (eq system-type 'windows-nt)
+  (add-to-list 'exec-path "C:/Program Files/Git/usr/bin")
+  (setenv "PATH" (mapconcat #'identity exec-path path-separator)))
+
+```
+
+https://emacs.stackexchange.com/questions/27326/gui-emacs-sets-the-exec-path-only-from-windows-environment-variable-but-not-from
