@@ -13,6 +13,20 @@ http://oremacs.com/swiper/
 
 It is for configuring specific modes, like for projectile.
 
+```lisp
+;; Currently available:
+;; - Symbol completion for Elisp, Common Lisp, Python, Clojure, C, C++.
+;; - Describe fuctions for Elisp: function, variable, library, command,
+;;   bindings, theme.
+;; - Navigation functions: imenu, ace-line, semantic, outline.
+;; - Git utilities: git-files, git-grep, git-log, git-stash, git-checkout.
+;; - Grep utitilies: grep, ag, pt, recoll, ack, rg.
+;; - System utilities: process list, rhythmbox, linux-app.
+;; - Many more.
+```
+
+https://github.com/abo-abo/swiper/blob/master/counsel.el
+
 ## ivy-minibuffer-map
 
 Use it to specifiy keyboard mapping for minibuffer.
@@ -78,3 +92,5 @@ other keyboard mapping will be activated, like `("C-x C-f" . counsel-find-file)`
   ;;             ("C-<iso-lefttab>" . ivy-previous-line-or-history)))
               )
 ```
+
+- https://github.com/kaushalmodi/.emacs.d/blob/master/setup-files/setup-ivy.el
