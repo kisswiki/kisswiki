@@ -9,9 +9,13 @@
 
 http://oremacs.com/swiper/
 
+## ivy, swiper and counsel
+
+They are all in swiper repository.
+
 ## Counsel
 
-It is for configuring specific modes, like for projectile.
+It is for configuring specific modes, like for projectile with counsel-projectile.
 
 ```lisp
 ;; Currently available:
@@ -42,7 +46,45 @@ Use it to specifiy keyboard mapping for minibuffer.
 
 Looks like projectile-find-file and counsel-git should work the same.
 
-## Config
+
+I used to work with neovim and fzf before switching to emacs. I tried to implement a global fzf setup throug counsel-rg but I feel like using projectile-switch-project and projectile-find-file just works better. Having to switch projects before finding a file may seem constraining at first but I actually like it better, it makes more sense in terms of context switching imo.
+
+https://www.reddit.com/r/emacs/comments/8grv2q/emacs_and_fuzzy_file_finder_fzf/dyeozb1/
+
+### fzf
+
+Ripgrep || Silver search > Fzf
+
+https://www.reddit.com/r/emacs/comments/8grv2q/emacs_and_fuzzy_file_finder_fzf/dygid3m/
+
+### fiplr
+
+fuzzy match find file, looks through all the parent directories of the file you're editing until it finds a .git, .hg, .bzr or .svn directory
+
+https://github.com/grizzl/fiplr
+
+I wish it fiplr did work as well as ctrlp or fzf, but my first impression was that it took 5-10 minutes to index the database (86k files), and completion was so slow that I gave up when it didn't return any results after ~ 1 minute.
+
+https://www.reddit.com/r/emacs/comments/8grv2q/emacs_and_fuzzy_file_finder_fzf/dyeno3p/
+
+## fuzzy matching
+
+- https://oremacs.com/2016/01/06/ivy-flx/
+
+## Change type of matching
+
+- https://emacs.stackexchange.com/questions/33921/how-to-switch-between-ivy-completion-styles
+- https://emacs.stackexchange.com/questions/36745/enable-ivy-fuzzy-matching-everywhere-except-in-swiper
+
+## Multi-exit with hydra - kill selected buffer withou switching to it
+
+requires ivy-hydra
+
+When you enable ivy-mode, besides doing all your completion, it will also remap switch-to-buffer to ivy-switch-buffer. That command also has a multi-exit: pressing C-o sd instead of C-m will kill the selected buffer instead of switching to it. It's a very minor optimization: instead of C-m C-x k you press C-o sd, however you could e.g. use C-o scjjjj to kill five buffers at once.
+
+https://oremacs.com/2015/07/02/counsel-locate/
+
+## Enable
 
 When `(ivy-mode 1)`, `("M-x" . counsel-M-x)`.
 
@@ -55,6 +97,8 @@ When:
 ```
 
 other keyboard mapping will be activated, like `("C-x C-f" . counsel-find-file)` or `("C-h v" . counsel-describe-variable)`.
+
+## Config
 
 ```lisp
 (use-package ivy
@@ -93,4 +137,6 @@ other keyboard mapping will be activated, like `("C-x C-f" . counsel-find-file)`
               )
 ```
 
+- https://github.com/xendk/dotemacs/blob/master/init.el
 - https://github.com/kaushalmodi/.emacs.d/blob/master/setup-files/setup-ivy.el
+- https://www.reddit.com/r/emacs/comments/5453d4/what_does_your_ivyswiper_configuration_look_like/
