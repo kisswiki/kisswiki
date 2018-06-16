@@ -39,7 +39,6 @@ https://github.com/raxod502/straight.el#the-profile-system
 
 - https://emacs.stackexchange.com/questions/17542/how-to-load-only-a-subset-of-installed-packages/34909#34909
 
-
 ## Speed
 
 ```lisp
@@ -50,6 +49,7 @@ https://github.com/raxod502/straight.el#customizing-when-packages-are-built
 
 ## Profiling org -Q org loading with org-tangle
 
+- straight.el with config in org file https://github.com/lewang/flx#gc-optimization
 - https://github.com/raxod502/straight.el/issues/128#issuecomment-325552738
 - https://github.com/raxod502/straight.el/issues/9#issuecomment-337700460
 - https://github.com/raxod502/straight.el/issues/128#issuecomment-325264689
