@@ -73,6 +73,45 @@ https://www.reddit.com/r/emacs/comments/8grv2q/emacs_and_fuzzy_file_finder_fzf/d
 
 ## Change type of matching
 
+Here's the default setting:
+
+```lisp
+(setq ivy-re-builders-alist
+      '((t . ivy--regex-plus)))
+```
+
+The default matcher will use a .* regex wild card in place of each single space in the input. If you want to use the fuzzy matcher, which instead uses a .* regex wild card between each input letter, write this in your config:
+
+```lisp
+(setq ivy-re-builders-alist
+      '((t . ivy--regex-fuzzy)))
+```
+
+You can also mix the two regex builders, for example:
+
+```lisp
+(setq ivy-re-builders-alist
+      '((ivy-switch-buffer . ivy--regex-plus)
+        (t . ivy--regex-fuzzy)))
+```
+
+The t key is used for all fall-through cases, otherwise the key is the command or collection name.
+
+The fuzzy matcher often results in substantially more matching candidates than the regular one for similar input. That's why some kind of sorting is important to bring the more relevant matching candidates to the start of the list. Luckily, that's already been figured out in flx, so to have it working just make sure that the flx package is installed.
+
+>The sorting algorithm is a balance between word beginnings (abbreviation) and contiguous matches (substring).
+>The longer the substring match, the higher it scores. This maps well to how we think about matching.
+>In general, it's better form queries with only lowercase characters so the sorting algorithm can do something smart.
+>Flx uses a complex matching heuristics which can be slow for large collections
+>Customize flx-ido-threshold to change the collection size above which flx will revert to flex matching.
+>As soon as the collection is narrowed below flx-ido-threshold, flx will kick in again.
+>As a point of reference for a 2.3 GHz quad-core i7 processor, a value of 10000 still provides a reasonable completion experience.
+>flx can benefit significantly from garbage collection tuning
+>(setq gc-cons-threshold 20000000)
+>https://github.com/lewang/flx
+
+https://oremacs.com/2016/01/06/ivy-flx/
+
 - https://emacs.stackexchange.com/questions/33921/how-to-switch-between-ivy-completion-styles
 - https://emacs.stackexchange.com/questions/36745/enable-ivy-fuzzy-matching-everywhere-except-in-swiper
 
@@ -139,4 +178,6 @@ other keyboard mapping will be activated, like `("C-x C-f" . counsel-find-file)`
 
 - https://github.com/xendk/dotemacs/blob/master/init.el
 - https://github.com/kaushalmodi/.emacs.d/blob/master/setup-files/setup-ivy.el
+- https://github.com/jacktasia/beautiful-emacs/blob/master/init.org
+- https://github.com/SkySkimmer/.emacs.d
 - https://www.reddit.com/r/emacs/comments/5453d4/what_does_your_ivyswiper_configuration_look_like/
