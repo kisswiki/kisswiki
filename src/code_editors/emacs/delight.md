@@ -1,0 +1,1 @@
+Enables you to customise the mode names displayed in the mode line. https://elpa.gnu.org/packages/delight.html
