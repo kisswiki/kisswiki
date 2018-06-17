@@ -1,1 +1,2 @@
 - http://antyweb.pl/sen-microsoft-band-bing/
+- https://news.ycombinator.com/item?id=17330736
