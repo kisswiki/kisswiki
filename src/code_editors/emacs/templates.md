@@ -1,0 +1,1 @@
+- https://emacs.stackexchange.com/questions/5722/is-there-a-template-to-create-a-project-of-directories-and-files
