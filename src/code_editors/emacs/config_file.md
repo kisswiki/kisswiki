@@ -2,6 +2,7 @@ Start in safe mode `emacs -Q`
 
 ## Examples
 
+- https://jamiecollinson.com/blog/my-emacs-config/
 - https://stackoverflow.com/questions/3124844/what-are-your-favorite-global-key-bindings-in-emacs
 - https://www.emacswiki.org/emacs/EmacsNiftyTricks
 - https://www.christopherbiscardi.com/post/emacs-command-frequency-2017/
