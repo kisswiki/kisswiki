@@ -1,1 +1,2 @@
 - https://github.com/szermatt/emacs-bash-completion
+- https://github.com/akermu/emacs-libvterm
