@@ -1,0 +1,1 @@
+https://github.com/hagleitn/speed-type
