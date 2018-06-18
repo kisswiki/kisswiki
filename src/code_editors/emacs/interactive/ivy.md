@@ -122,6 +122,7 @@ https://oremacs.com/2016/01/06/ivy-flx/
 - https://emacs.stackexchange.com/questions/33921/how-to-switch-between-ivy-completion-styles
 - https://emacs.stackexchange.com/questions/36745/enable-ivy-fuzzy-matching-everywhere-except-in-swiper
 - https://emacs.stackexchange.com/questions/40830/how-to-toggle-regex-for-helm-ivy-user-input
+- https://www.reddit.com/r/emacs/comments/5ektte/ivy_custom_function_for_ivyrebuildersalist/
 
 ## Multi-exit with hydra - kill selected buffer withou switching to it
 
