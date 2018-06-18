@@ -15,3 +15,6 @@ https://www.reddit.com/r/emacs/comments/8grv2q/emacs_and_fuzzy_file_finder_fzf/d
 Overall I think doing counsel-git in git directories and counsel-fzf in non-git directories seems to be a good solution. I'll keep counsel-locate in mind too. Usually, I don't search in ~!
 
 https://github.com/abo-abo/swiper/issues/1525#issuecomment-379688894
+
+
+- https://emacs.stackexchange.com/questions/33745/how-to-find-file-name-a-few-levels-down-in-directory
