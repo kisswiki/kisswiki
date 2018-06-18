@@ -125,3 +125,9 @@ nnoremap <silent> yO  :call <SID>setup_paste()<CR>O
 `:echo mapleader`
 
 http://stackoverflow.com/questions/10389205/show-current-leader-key-setting
+
+## incsearch for the replace command
+
+`set inccommand=nosplit`
+
+https://vi.stackexchange.com/questions/11221/is-there-an-incsearch-for-the-replace-command
