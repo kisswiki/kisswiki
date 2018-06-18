@@ -21,3 +21,5 @@ https://stackoverflow.com/questions/40618516/where-is-locate-dominating-file-doc
 ```
 
 https://stackoverflow.com/questions/3366972/how-to-check-if-a-variable-is-set-to-what-in-elisp-emacs/20255760#20255760
+
+- http://ergoemacs.org/emacs/elisp_check_defined.html
