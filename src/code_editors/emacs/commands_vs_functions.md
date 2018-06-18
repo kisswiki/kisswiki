@@ -12,4 +12,5 @@ Now that you've defined my-command as interactive, you can immediately access it
 
 all Emacs commands are just functions defined with `(interactive)`. (Actually, there are also some primitive functions from Emacs's C core, but that isn't super important.)
 
-https://stackoverflow.com/questions/12585670/relationship-between-emacs-functions-and-commands
+- https://stackoverflow.com/questions/12585670/relationship-between-emacs-functions-and-commands
+- https://stackoverflow.com/questions/29199807/why-are-some-emacs-functions-not-available-via-m-x
