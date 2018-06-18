@@ -1,3 +1,5 @@
+- https://www.reddit.com/r/emacs/comments/3mxq6v/how_to_keep_organized_in_emacs/
+
 ## Projectile
 
 - https://github.com/nex3/perspective-el
