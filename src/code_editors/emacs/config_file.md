@@ -134,6 +134,8 @@ Note that when you start using files in the LoadPath, you may end up having to d
 - https://lonelycoding.com/how-to-modularize-an-emacs-configuration/
 - https://www.reddit.com/r/emacs/comments/7guxri/i_declare_emacs_bankruptcy_suggestions_for/dqmhrj4/
 - https://www.emacswiki.org/emacs/DotEmacsStructuring
+- https://www.reddit.com/r/emacs/comments/7nn55s/creating_an_organized_emacs_configuration/
+- https://www.reddit.com/r/emacs/comments/6l4xob/managing_your_init_files/
 
 ## Debug and stack trace
 
