@@ -1,2 +1,3 @@
 - https://stackoverflow.com/questions/943760/how-can-i-check-if-a-file-exists-using-emacs-lisp
 - https://emacs.stackexchange.com/questions/34392/how-to-check-if-a-directory-exists-in-elisp
+- http://emacspeak.sourceforge.net/user-guide/working-with-files.html
