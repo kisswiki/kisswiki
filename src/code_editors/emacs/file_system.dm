@@ -2,3 +2,4 @@
 - https://emacs.stackexchange.com/questions/34392/how-to-check-if-a-directory-exists-in-elisp
 - http://emacspeak.sourceforge.net/user-guide/working-with-files.html
 - Modern API for working with files and directories in Emacs https://github.com/rejeep/f.el
+- https://emacs.stackexchange.com/questions/7475/recursively-go-up-to-find-makefile-and-compile
