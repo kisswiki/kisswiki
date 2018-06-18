@@ -22,6 +22,14 @@ The reason it is popular is because of its simpler API and nice interface. The c
 
 https://www.reddit.com/r/emacs/comments/6jsz61/can_someone_explain_ivy_counsel_andor_swiper_to_me/
 
+- Video demo http://cestlaz.github.io/posts/using-emacs-6-swiper/
+- https://writequit.org/denver-emacs/presentations/2017-04-11-ivy.html
+- https://sam217pa.github.io/2016/09/13/from-helm-to-ivy/
+
+## vs helm
+
+- Helm do not use minibuffer and thus maybe better for 4k monitors https://www.reddit.com/r/emacs/comments/52lnad/from_helm_to_ivy_a_user_perspective/d7lypeu/
+
 ## ivy, swiper and counsel
 
 They are all in swiper repository.
