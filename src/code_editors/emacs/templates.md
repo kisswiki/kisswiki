@@ -1,2 +1,3 @@
 - https://emacs.stackexchange.com/questions/5722/is-there-a-template-to-create-a-project-of-directories-and-files
 - https://stackoverflow.com/questions/2139969/load-template-in-emacs-when-creating-new-file
+- https://emacs.stackexchange.com/questions/24790/how-to-create-a-file-from-a-template-if-it-does-not-exist-or-open-existing-copy
