@@ -2,3 +2,4 @@
 - http://ergoemacs.org/emacs/elisp_examples.html
 - https://oremacs.com/2015/07/16/callback-quit/
 - https://www.emacswiki.org/emacs/EvaluatingExpressions
+- http://blog.binchen.org/posts/emacs-is-easy-if-you-read-code.html
