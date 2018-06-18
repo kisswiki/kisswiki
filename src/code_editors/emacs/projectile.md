@@ -3,6 +3,7 @@
 - https://projectile.readthedocs.io/en/latest/configuration/
 - https://projectile.readthedocs.io/en/latest/
 - https://github.com/ericdanan/counsel-projectile
+- https://www.reddit.com/r/emacs/comments/19w642/how_can_i_give_projectile_a_specific_command_for/
 
 ## Quickstart
 
