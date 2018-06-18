@@ -1,3 +1,4 @@
 - http://ergoemacs.org/emacs/elisp_basics.html
 - http://ergoemacs.org/emacs/elisp_examples.html
 - https://oremacs.com/2015/07/16/callback-quit/
+- https://www.emacswiki.org/emacs/EvaluatingExpressions
