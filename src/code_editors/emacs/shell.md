@@ -9,3 +9,4 @@
 - https://emacs.stackexchange.com/questions/22049/git-bash-in-emacs-on-windows/22057
 - https://github.com/purcell/exec-path-from-shell
 - https://stackoverflow.com/questions/8606954/path-and-exec-path-set-but-emacs-does-not-find-executable
+- https://www.reddit.com/r/emacs/comments/6y3q4k/yes_eshell_is_my_main_shell/
