@@ -2,3 +2,10 @@
 - https://github.com/akermu/emacs-libvterm
 - http://ergoemacs.org/emacs/emacs_unix.html
 - https://www.emacswiki.org/emacs/ExecuteExternalCommand
+- https://www.reddit.com/r/emacs/comments/4z8gpe/using_bash_on_windows_for_mx_shell/
+- https://www.masteringemacs.org/article/complete-guide-mastering-eshell
+- http://ergoemacs.org/emacs/eshell.html
+- https://www.emacswiki.org/emacs/CategoryEshell
+- https://emacs.stackexchange.com/questions/22049/git-bash-in-emacs-on-windows/22057
+- https://github.com/purcell/exec-path-from-shell
+- https://stackoverflow.com/questions/8606954/path-and-exec-path-set-but-emacs-does-not-find-executable
