@@ -17,6 +17,11 @@ It should be stored in the variable `user-init-file`. Use `C-H v user-init-file 
 
 https://stackoverflow.com/questions/864892/how-do-i-find-which-emacs-file-has-been-loaded/864939#864939
 
+## multiple config directories
+
+- https://emacs.stackexchange.com/questions/4253/how-to-start-emacs-with-a-custom-user-emacs-directory/4258
+- https://emacs.stackexchange.com/questions/19936/running-spacemacs-alongside-regular-emacs-how-to-keep-a-separate-emacs-d/20508#20508
+
 ## Open file
 
 ```lisp
