@@ -5,3 +5,5 @@
           (while (not (file-directory-p parent-directory))
               (sleep-for 1)))
 ```
+
+https://stackoverflow.com/questions/20746231/sleep-for-within-while-loop-is-ignored
