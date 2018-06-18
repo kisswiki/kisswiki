@@ -9,6 +9,19 @@
 
 http://oremacs.com/swiper/
 
+
+ivy is a generic narrowing framework, like helm, that both swiper and counsel use. So, instead of tabbing your way through options in the default completing-read, you will type to narrow search results, like ido. The difference is that it displays results in a vertical list in the minibuffer and lets you do more actions than ido does. It uses a regexp based search by default but can be made fuzzy if you want it to. It also has a nice API by which you can build your completion commands.
+
+counsel is a bunch of commands like counsel-grep, counsel-M-x, etc. which use ivy as the narrowing framework to select matches. For example, instead of using ido to replace execute-extended-command, you can use counsel-M-x which will use ivy instead of ido. So, ivy is a dependency for counsel.
+
+swiper is a "replacement" for isearch and displays the search results with a nice highlight as a list so you can narrow it down further or traverse the list. Some people, including myself, find it easier than the default isearch option. This also depends on ivy.
+
+The reason you're seeing C-r triggering a different command in swiper is because ivy has its own set of maps in the minibuffer. Some are the same as normal ones (C-a, C-b, etc.), some are adapted to move through ivy's list (C-v, M-v, etc.), and some are mapped to convenient functions (C-c C-o for ivy-occur, C-M-j for ivy-immediate-done, etc.). So, if IIRC C-r triggers the command for previous swiper searches. You can change any of it if you want, of course.
+
+The reason it is popular is because of its simpler API and nice interface. The counsel-* commands also have a lot of functionality in them and it is easy to extend. The reason people typically use all three is to have a consistency across the board. Any operation that requires me to narrow something will use ivy. Hope this helped.
+
+https://www.reddit.com/r/emacs/comments/6jsz61/can_someone_explain_ivy_counsel_andor_swiper_to_me/
+
 ## ivy, swiper and counsel
 
 They are all in swiper repository.
