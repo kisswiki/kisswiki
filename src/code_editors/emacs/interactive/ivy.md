@@ -64,6 +64,16 @@ I wish it fiplr did work as well as ctrlp or fzf, but my first impression was th
 
 https://www.reddit.com/r/emacs/comments/8grv2q/emacs_and_fuzzy_file_finder_fzf/dyeno3p/
 
+## find file
+
+`find_file_down_or_in_workspace.md`
+
+## ommit some directories
+
+`(setq ivy-extra-directories ())`
+
+https://emacs.stackexchange.com/questions/40523/omit-current-and-parent-directories-in-ivy-find-file-completion
+
 ## fuzzy matching
 
 - https://oremacs.com/2016/01/06/ivy-flx/
