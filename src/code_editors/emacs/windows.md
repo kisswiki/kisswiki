@@ -1,4 +1,5 @@
 - http://ergoemacs.org/emacs/emacs_mswin.html
+- http://caiorss.github.io/Emacs-Elisp-Programming/Emacs_On_Windows.html
 
 ## Set font
 
