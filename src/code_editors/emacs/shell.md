@@ -1,3 +1,4 @@
 - https://github.com/szermatt/emacs-bash-completion
 - https://github.com/akermu/emacs-libvterm
 - http://ergoemacs.org/emacs/emacs_unix.html
+- https://www.emacswiki.org/emacs/ExecuteExternalCommand
