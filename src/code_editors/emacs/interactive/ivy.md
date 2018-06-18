@@ -191,3 +191,9 @@ other keyboard mapping will be activated, like `("C-x C-f" . counsel-find-file)`
 - https://github.com/SkySkimmer/.emacs.d
 - https://github.com/purcell/emacs.d/blob/master/lisp/init-ivy.el
 - https://www.reddit.com/r/emacs/comments/5453d4/what_does_your_ivyswiper_configuration_look_like/
+
+## entry not in the completion list
+
+`C-M-j`
+
+https://emacs.stackexchange.com/questions/28982/after-enabling-ivy-mode-dired-create-directory-does-not-allow-me-to-choose-an
