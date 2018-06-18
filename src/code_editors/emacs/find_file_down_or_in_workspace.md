@@ -11,3 +11,7 @@ Looks like projectile-find-file and counsel-git should work the same.
 I used to work with neovim and fzf before switching to emacs. I tried to implement a global fzf setup throug counsel-rg but I feel like using projectile-switch-project and projectile-find-file just works better. Having to switch projects before finding a file may seem constraining at first but I actually like it better, it makes more sense in terms of context switching imo.
 
 https://www.reddit.com/r/emacs/comments/8grv2q/emacs_and_fuzzy_file_finder_fzf/dyeozb1/
+
+Overall I think doing counsel-git in git directories and counsel-fzf in non-git directories seems to be a good solution. I'll keep counsel-locate in mind too. Usually, I don't search in ~!
+
+https://github.com/abo-abo/swiper/issues/1525#issuecomment-379688894
