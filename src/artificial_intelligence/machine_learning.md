@@ -16,4 +16,4 @@
   - https://www.dobreprogramy.pl/Jak-dzialaja-sieci-neuronowe-Google-to-wyjasnia-za-pomoca-Teachable-Machine,News,83515.html
 - https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems
 - https://www.wykop.pl/link/4297375/najlepszy-pilkarz-swiata-wg-algorytmu-maszynowego-uczenia-sie/
-
+- http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
