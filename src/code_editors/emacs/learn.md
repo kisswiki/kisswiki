@@ -10,6 +10,7 @@
 - http://cestlaz.github.io/stories/emacs/
 - https://www.reddit.com/r/emacs/comments/8j15ji/how_has_emacs_ever_really_blown_you_away/
 - http://emacsrocks.com/e13.html
+- https://wiki.archlinux.org/index.php/Emacs
 
 ## Help
 
