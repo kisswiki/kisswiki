@@ -1,2 +1,3 @@
-- https://oremacs.com/2015/07/16/callback-quit/
+- http://ergoemacs.org/emacs/elisp_basics.html
 - http://ergoemacs.org/emacs/elisp_examples.html
+- https://oremacs.com/2015/07/16/callback-quit/
