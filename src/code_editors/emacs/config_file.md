@@ -4,6 +4,8 @@ Start in safe mode `emacs -Q`
 
 - https://github.com/technomancy/better-defaults
 - https://jamiecollinson.com/blog/my-emacs-config/
+- http://danzig.jct.ac.il/unix_class/emacs-vi-Commands.html
+- https://sites.google.com/site/steveyegge2/effective-emacs
 
 ## Examples
 
