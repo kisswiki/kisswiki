@@ -1,2 +1,3 @@
 - https://www.emacswiki.org/emacs/CompileCommand
 - https://stackoverflow.com/questions/9037833/how-to-set-the-default-directory-of-compilation-in-emacs
+- https://emacs.stackexchange.com/questions/15288/binding-shell-commands-to-hotkeys
