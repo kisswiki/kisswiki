@@ -41,6 +41,8 @@ comment `M-;`
 
 select whole buffer `C-x h`
 
+`C-SPC` to toggle mark, then move to select. Or use shift and arrows.
+
 ## move lines
 
 ```lisp
