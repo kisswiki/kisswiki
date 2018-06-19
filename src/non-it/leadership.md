@@ -1,0 +1,2 @@
+- https://www.workaguide.com/blog/2018/6/15/how-to-get-your-teammates-to-follow-your-lead
+  - https://news.ycombinator.com/item?id=17330146
