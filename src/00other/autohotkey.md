@@ -5,3 +5,4 @@
 - http://xahlee.info/mswin/autohotkey_swap_capslock.html
 - http://xahlee.info/mswin/autohotkey_examples.html
 - https://superuser.com/questions/135539/how-do-i-swap-the-windows-and-control-keys-in-windows
+- http://autohotkey.free.fr/docs/commands/Send.htm
