@@ -34,8 +34,30 @@
 - https://emacs.stackexchange.com/questions/19610/how-to-start-term-in-a-separate-window-at-launch
 - https://emacs.stackexchange.com/questions/33525/how-to-open-systems-command-line-at-the-directory-of-the-current-buffer
 - https://emacs.stackexchange.com/questions/14159/why-emacs-overrides-my-path-when-it-runs-bash
+- https://emacs.stackexchange.com/questions/9962/use-emacs-for-batch-processing-files
+- https://www.masteringemacs.org/article/executing-shell-commands-emacs
+- https://stackoverflow.com/questions/9670209/cygwin-bash-does-not-display-correctly-in-emacs-shell/15576829
 
-##
+## to get bash start emacs from bash
+
+You can start emacs from the git-bash command-line. It will make emacs assume git-bash as the shell.
+
+Enter something like the following from your bash prompt
+
+`bla@host MINGW64 ~/ $ emacs .&`
+
+Then, in emacs, `M-x shell`
+
+https://emacs.stackexchange.com/questions/22049/git-bash-in-emacs-on-windows
+
+## bash - problems
+
+```
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+]0;MINGW64:/c/Users/rofrol/personal_projects/kisswiki
+rofrol@DESKTOP-NBALJ88 MINGW64 ~/personal_projects/kisswiki (master)
+```
 
 Another method is to put
 
@@ -54,12 +76,13 @@ to ~/.emacs.
 
 https://stackoverflow.com/questions/1568987/getting-emacs-to-respect-my-default-shell-options
 
-## bash - problems
+this also didn't help
 
-```
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-]0;MINGW64:/c/Users/rofrol/personal_projects/kisswiki
-rofrol@DESKTOP-NBALJ88 MINGW64 ~/personal_projects/kisswiki (master)
+```bash
+# https://stackoverflow.com/questions/9670209/cygwin-bash-does-not-display-correctly-in-emacs-shell
+if [ "$EMACS" == "t" ]; then
+    PS1='\u \w>'
+fi
 ```
 
+- https://www.emacswiki.org/emacs/NTEmacsWithCygwin
