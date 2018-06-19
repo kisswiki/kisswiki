@@ -1,3 +1,5 @@
+- https://stackoverflow.com/questions/3124844/what-are-your-favorite-global-key-bindings-in-emacs
+
 ## Disable kebindings suggestions
 
 `(setq suggest-key-bindings nil)`
