@@ -17,3 +17,13 @@ https://github.com/BurntSushi/ripgrep/issues/262#issuecomment-264364685
 ## exclude
 
 `rg -g '!yarn.lock' -g '!package.json' babel`
+
+## file type
+
+`rg -n -B 5 -A 5 -g "*.elm" "Store.State" src`
+
+or
+
+`rg -n -B 5 -A 5 -telm "Store.State" src`
+
+https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md#manual-filtering-file-types
