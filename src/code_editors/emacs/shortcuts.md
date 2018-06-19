@@ -39,6 +39,8 @@ delete-other-window `C-x 1`
 
 comment `M-;`
 
+select whole buffer `C-x h`
+
 ## move lines
 
 ```lisp
