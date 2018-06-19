@@ -1,0 +1,1 @@
+- https://www.wykop.pl/link/4362789/jak-serwisowac-caly-rower-pelny-poradnik-dla-kazdego/
