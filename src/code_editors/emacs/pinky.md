@@ -4,7 +4,18 @@ There were problems with `autohotkey.ahk`, in some situation it was not working 
 - LWin to LAlt
 - LCtrl to LWin
 
-And also this autohotkey
+And also this autohotkey to make LCtrl+Tab send AltTab, and LCtrl+LShift+Tab send AltShiftTab
+
+``
+`^Tab::Send, {LAlt Down}{Tab}
+#If WinExist("ahk_class MultitaskingViewFrame")
+Ctrl Up::Send, {LAlt Up}
+```
+
+https://autohotkey.com/board/topic/148298-ctrl-tab-ctrl-shift-tab-for-alttabshiftalttab-task-switching-windows-10/
+
+
+This is old code for only AltTab:
 
 ```
 Ctrl & Tab::AltTab
