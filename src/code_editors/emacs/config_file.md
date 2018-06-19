@@ -3,6 +3,7 @@ Start in safe mode `emacs -Q`
 ## TODO: Read
 
 - https://github.com/technomancy/better-defaults
+- https://jamiecollinson.com/blog/my-emacs-config/
 
 ## Examples
 

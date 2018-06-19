@@ -6,6 +6,15 @@
 - https://www.reddit.com/r/emacs/comments/19w642/how_can_i_give_projectile_a_specific_command_for/
 - http://endlessparentheses.com/improving-projectile-with-extra-commands.html
 
+## Shell
+
+- http://astronautradio.com/post/152934998548/open-a-terminal-with-projectile-in-emacs
+
+## TODO: Read
+
+- https://writequit.org/denver-emacs/presentations/2016-01-26-elisp-projectile-eshell.html
+- https://www.philnewton.net/blog/exploring-emacs-projectile/
+
 ## Quickstart
 
 In config:
