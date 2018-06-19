@@ -4,6 +4,18 @@ There were problems with `autohotkey.ahk`, in some situation it was not working 
 - LWin to LAlt
 - LCtrl to LWin
 
+```
+Ctrl & Tab::AltTab
+```
+
+- https://superuser.com/questions/1216591/win-10-autohotkey-how-do-you-remap-window-swapping-from-alt-tab-to-ctrl-tab/1269637#1269637
+- https://superuser.com/questions/991809/how-to-remap-tab-shortcut-from-ctrl-to-alt-for-chrome-in-windows
+- https://superuser.com/questions/994800/can-i-swap-alttab-for-altesc-in-windows-10
+
+### Warning: This works unreliable
+
+Sometims in emacs, `C-x` does nothing. Switchin AltTab needs mouse click or enter.
+
 And also this autohotkey to make LCtrl+Tab send AltTab, and LCtrl+LShift+Tab send AltShiftTab
 
 ``
@@ -14,16 +26,6 @@ Ctrl Up::Send, {LAlt Up}
 
 https://autohotkey.com/board/topic/148298-ctrl-tab-ctrl-shift-tab-for-alttabshiftalttab-task-switching-windows-10/
 
-
-This is old code for only AltTab:
-
-```
-Ctrl & Tab::AltTab
-```
-
-- https://superuser.com/questions/1216591/win-10-autohotkey-how-do-you-remap-window-swapping-from-alt-tab-to-ctrl-tab/1269637#1269637
-- https://superuser.com/questions/991809/how-to-remap-tab-shortcut-from-ctrl-to-alt-for-chrome-in-windows
-- https://superuser.com/questions/994800/can-i-swap-alttab-for-altesc-in-windows-10
 
 ## Old
 
