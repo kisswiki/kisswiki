@@ -45,10 +45,5 @@ select whole buffer `C-x h`
 
 ## move lines
 
-```lisp
-;;(drag-stuff-define-keys)
-(global-set-key [M-up] 'drag-stuff-up)
-(global-set-key [M-down] 'drag-stuff-down
-```
-
-https://stackoverflow.com/questions/2423834/move-line-region-up-and-down-in-emacs
+`M-<up>` 'drag-stuff-up
+`M-<down>` 'drag-stuff-down
