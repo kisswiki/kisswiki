@@ -15,6 +15,7 @@ Install:
 - http://company-mode.github.io/
 - https://melpa.org/#/elm-mode
 - https://stable.melpa.org/#/elm-mode
+- https://www.lambdacat.com/post-modern-emacs-setup-for-elm/
 
 ## Tags
 
