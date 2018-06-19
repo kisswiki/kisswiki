@@ -55,3 +55,25 @@ https://stackoverflow.com/questions/40623499/how-to-force-emacs-projectile-to-re
 - https://github.com/kaushalmodi/.emacs.d/blob/master/setup-files/setup-projectile.el
 - https://github.com/nlamirault/ripgrep.el
 - https://emacs.stackexchange.com/questions/16497/how-to-exclude-files-from-projectile/29200#29200
+
+## projectile-ripgrep problem
+
+installed ripgrep.el, added rg to PATH
+
+```lisp
+(setenv  "PATH" (concat
+     "~/.cargo/bin/" ";"
+     (getenv "PATH")
+     ))
+```
+
+and still problem:
+
+```
+Ripgrep started at Tue Jun 19 07:25:44
+
+rg  --fixed-strings --glob !TAGS --glob !.idea --glob !.ensime_cache --glob !.eunit --glob !.git --glob !.hg --glob !.fslckout --glob !_FOSSIL_ --glob !.bzr --glob !_darcs --glob !.tox --glob !.svn --glob !.stack-work --no-heading --vimgrep -n --color=always --ignore-case -- emacsclient .
+/bin/bash: rg: command not found
+
+Ripgrep exited abnormally with code 127 at Tue Jun 19 07:25:44
+```
