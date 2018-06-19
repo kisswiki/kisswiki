@@ -6,6 +6,7 @@ Start in safe mode `emacs -Q`
 - https://jamiecollinson.com/blog/my-emacs-config/
 - http://danzig.jct.ac.il/unix_class/emacs-vi-Commands.html
 - https://sites.google.com/site/steveyegge2/effective-emacs
+- https://stackoverflow.com/questions/88399/how-do-i-duplicate-a-whole-line-in-emacs
 
 ## Examples
 
