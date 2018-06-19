@@ -4,3 +4,7 @@
 - Cukier gorszy od tłuszczu - DOKUMENT TV / lektor PL https://youtu.be/jOhzL4onqwQ
   - zalecane na kostek cukru/dzień: mężczyzna 9, kobieta 6, dziecko 4
 - Sugar is Killing Us https://youtu.be/Yda8RtOcVFU
+
+>The expert says 8.5 hours in bed (trying to sleep) to sleep 8, since we don't sleep the whole time.
+>So, if you have an accurate sleep tracker, "8" is still the number.
+>https://news.ycombinator.com/item?id=17330736
