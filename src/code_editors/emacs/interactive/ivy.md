@@ -140,6 +140,8 @@ When you enable ivy-mode, besides doing all your completion, it will also remap 
 
 https://oremacs.com/2015/07/02/counsel-locate/
 
+- https://oremacs.com/2015/07/23/ivy-multiaction/
+
 ## Enable
 
 When `(ivy-mode 1)`, `("M-x" . counsel-M-x)`.
