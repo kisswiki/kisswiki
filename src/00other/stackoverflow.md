@@ -1,2 +1,3 @@
 - http://stackoverflow.com/questions/19087073/stackoverflow-dark-theme-and-show-user-logo
   - http://stackoverflow.com/users/flair/588759.png?theme=dark
+- https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work
