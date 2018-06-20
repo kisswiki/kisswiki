@@ -6,6 +6,7 @@
 - https://github.com/ericdanan/counsel-projectile
 - https://www.reddit.com/r/emacs/comments/19w642/how_can_i_give_projectile_a_specific_command_for/
 - http://endlessparentheses.com/improving-projectile-with-extra-commands.html
+- https://emacs.stackexchange.com/questions/24907/how-to-use-dir-locals-el-with-projectile/24910#24910
 
 ## Shell
 
