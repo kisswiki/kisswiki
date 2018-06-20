@@ -1,6 +1,8 @@
 - https://www.masteringemacs.org/article/evaluating-elisp-emacs
 - http://ergoemacs.org/emacs/modernization_scratch_buffer.html
 - http://pragmaticemacs.com/emacs/instant-scratch-buffer-for-current-mode/
+- https://github.com/ieure/scratch-el
+- https://stackoverflow.com/questions/16459350/add-hook-to-emacs-scratch-at-startup/16460812#16460812
 
 ##
 
