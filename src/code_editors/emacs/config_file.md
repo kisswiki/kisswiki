@@ -8,11 +8,32 @@ Start in safe mode `emacs -Q`
 - https://sites.google.com/site/steveyegge2/effective-emacs
 - https://stackoverflow.com/questions/88399/how-do-i-duplicate-a-whole-line-in-emacs
 
-## Examples
 
+## distributions/starter kits
+
+- https://github.com/emacs-tw/awesome-emacs#starter-kit
+- https://writequit.org/eos/eos.html
+- https://github.com/raxod502/radian
+- http://spacemacs.org/
+- https://github.com/bbatsov/prelude
+- author of use-package https://github.com/jwiegley/dot-emacs
+- https://github.com/purcell/emacs.d
+- https://github.com/technomancy/emacs-starter-kit
+  - https://github.com/technomancy/better-defaults
+- https://github.com/rdallasgray/graphene
+- https://github.com/magnars/.emacs.d/
+- https://www.emacswiki.org/emacs/StarterKits
+- http://ergoemacs.org/misc/list_of_emacs_starter_kits.html
+- http://wikemacs.org/wiki/Starter_Kits
+- generate for different programming languages http://emacs-bootstrap.com/
+- https://www.reddit.com/r/emacs/comments/4zrfin/emacs_for_starters_which_to_use_spacemacs_prelude/
+- https://www.reddit.com/r/emacs/comments/1udtd1/starting_emacs_with_preludestarter_kits_scares_me/
+- https://www.emacswiki.org/emacs/CategoryDotEmacs
+- https://github.com/search?o=desc&q=Emacs&s=stars&type=Repositories
 - https://jamiecollinson.com/blog/my-emacs-config/
 - https://www.emacswiki.org/emacs/EmacsNiftyTricks
 - https://www.christopherbiscardi.com/post/emacs-command-frequency-2017/
+- http://coldnew.github.io/coldnew-emacs/
 
 ## Location
 
@@ -163,28 +184,6 @@ take the most time.  Since time is relative, it's not the absolute
 value that counts but the percentage of the total running time.
 
 https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
-
-## distributions/starter kits
-
-- https://github.com/emacs-tw/awesome-emacs#starter-kit
-- https://writequit.org/eos/eos.html
-- https://github.com/raxod502/radian
-- http://spacemacs.org/
-- https://github.com/bbatsov/prelude
-- author of use-package https://github.com/jwiegley/dot-emacs
-- https://github.com/purcell/emacs.d
-- https://github.com/technomancy/emacs-starter-kit
-  - https://github.com/technomancy/better-defaults
-- https://github.com/rdallasgray/graphene
-- https://github.com/magnars/.emacs.d/
-- https://www.emacswiki.org/emacs/StarterKits
-- http://ergoemacs.org/misc/list_of_emacs_starter_kits.html
-- http://wikemacs.org/wiki/Starter_Kits
-- generate for different programming languages http://emacs-bootstrap.com/
-- https://www.reddit.com/r/emacs/comments/4zrfin/emacs_for_starters_which_to_use_spacemacs_prelude/
-- https://www.reddit.com/r/emacs/comments/1udtd1/starting_emacs_with_preludestarter_kits_scares_me/
-- https://www.emacswiki.org/emacs/CategoryDotEmacs
-- https://github.com/search?o=desc&q=Emacs&s=stars&type=Repositories
 
 ## org-mode
 
