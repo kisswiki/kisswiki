@@ -3,6 +3,12 @@
 - https://emacs.stackexchange.com/questions/40821/open-new-window-and-switch-to-it
 - https://www.emacswiki.org/emacs/KillingBuffers
 - http://emacsredux.com/blog/2013/06/15/deleting-windows/
+- http://ergoemacs.org/emacs/emacs_effective_windows_management.html
+- https://www.emacswiki.org/emacs/OneOnOneEmacs
+
+## Popup
+
+ - https://github.com/auto-complete/popup-el
 
 ## Narrowing
 

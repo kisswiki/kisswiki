@@ -40,6 +40,7 @@ Start in safe mode `emacs -Q`
 - http://pages.sachachua.com/.emacs.d/Sacha.html
 - http://www.wilfred.me.uk/.emacs.d/init.html
 - https://github.com/wasamasa/dotemacs/blob/master/TODO.org#learn-from-other-peoples-emacs-configurations
+- https://github.com/Alexander-Miller/dotfiles/blob/master/.config/spacemacs/user-config.org
 
 ## Location
 
