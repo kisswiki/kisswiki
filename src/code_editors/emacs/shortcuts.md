@@ -47,3 +47,24 @@ select whole buffer `C-x h`
 
 `M-<up>` 'drag-stuff-up
 `M-<down>` 'drag-stuff-down
+
+## search and replace
+
+`C-s` to search, once again `C-s` to repeat search.
+
+`M-x query-replace`
+
+`M-%` interactive find/replace on active region, or cursor point to end.
+
+`M-x query-replace-regexp`
+
+`C-M-%` interactive find replace with regex, on active region, or cusor point to end.
+
+When a query command asks you for confirmation, here's the most common keys:
+
+- `y` do the replacement.
+- `n` skip
+- `!` do this and all remaining replacements without asking.
+- `C-g` cancel. (call undo to undo existing replacement.)
+
+- http://ergoemacs.org/emacs/emacs_find_replace.html
