@@ -2,6 +2,12 @@
 - https://emacs.stackexchange.com/questions/5716/how-do-i-add-a-keybinding-to-a-keymap-that-is-on-a-prefix-key
 - https://emacs.stackexchange.com/questions/12919/how-to-detect-if-in-a-project-then-configure-another-keybinding-for-projectile
 
+## Transient
+
+transient map - The command can be repeated by pressing the final key again. It works the same as keyboard macro repeating with e after a C-x e. So with this bound to C-c TAB, once the binding has been typed out in full, just pressing tab over and over switches through the different tab sizes.
+
+https://www.reddit.com/r/emacs/comments/4lh74r/tell_us_about_a_minor_change_you_made_in_your/d3nl6lm/
+
 ## Disable kebindings suggestions
 
 `(setq suggest-key-bindings nil)`
