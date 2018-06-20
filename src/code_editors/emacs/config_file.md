@@ -38,6 +38,8 @@ Start in safe mode `emacs -Q`
 - https://www.christopherbiscardi.com/post/emacs-command-frequency-2017/
 - http://coldnew.github.io/coldnew-emacs/
 - http://pages.sachachua.com/.emacs.d/Sacha.html
+- http://www.wilfred.me.uk/.emacs.d/init.html
+- https://github.com/wasamasa/dotemacs/blob/master/TODO.org#learn-from-other-peoples-emacs-configurations
 
 ## Location
 

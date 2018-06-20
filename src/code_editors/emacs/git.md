@@ -17,6 +17,7 @@
 - https://www.reddit.com/r/emacs/comments/7yerze/using_emacs_42_git_gutter_and_time_machine/
 - http://blog.binchen.org/posts/enhance-emacs-git-gutter-with-ivy-mode.html
 - http://blog.binchen.org/posts/new-git-timemachine-ui-based-on-ivy-mode.html
+- http://emacsredux.com/blog/2014/07/22/travel-back-and-forward-in-git-history/
 - https://github.com/dgutov/diff-hl
 - https://github.com/syohex/emacs-git-gutter-fringe
 - https://github.com/nonsequitur/git-gutter-fringe-plus
