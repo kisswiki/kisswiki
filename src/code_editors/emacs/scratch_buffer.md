@@ -1,5 +1,8 @@
 - https://www.masteringemacs.org/article/evaluating-elisp-emacs
 - http://ergoemacs.org/emacs/modernization_scratch_buffer.html
+- http://pragmaticemacs.com/emacs/instant-scratch-buffer-for-current-mode/
+
+##
 
 GNU Emacs default bindings:
 
