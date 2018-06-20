@@ -37,3 +37,13 @@ Works in cmd.exe, but not in git bash.
 ## find files
 
 `rg --files -telm --path-separator /`
+
+### On Windows reverse slashes
+
+`rg --files -telm | tr '\\\\' '/' | xargs -n1 elm-format --yes`
+
+or
+
+`rg --files -telm --path-separator ! | tr '!' '/'` | xargs -n1 elm-format --yes`
+
+- A path separator must be exactly one byte, but the given separator is 20 bytes https://github.com/BurntSushi/ripgrep/issues/957
