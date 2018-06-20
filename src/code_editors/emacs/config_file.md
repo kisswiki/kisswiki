@@ -34,6 +34,7 @@ Start in safe mode `emacs -Q`
 - https://www.emacswiki.org/emacs/EmacsNiftyTricks
 - https://www.christopherbiscardi.com/post/emacs-command-frequency-2017/
 - http://coldnew.github.io/coldnew-emacs/
+- http://pages.sachachua.com/.emacs.d/Sacha.html
 
 ## Location
 
