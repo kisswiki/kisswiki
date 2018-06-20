@@ -2,6 +2,8 @@ Start in safe mode `emacs -Q`
 
 ## TODO: Read
 
+- https://github.com/bbatsov/crux
+  - http://emacsredux.com/blog/2016/01/30/crux/
 - https://github.com/technomancy/better-defaults
 - https://jamiecollinson.com/blog/my-emacs-config/
 - http://danzig.jct.ac.il/unix_class/emacs-vi-Commands.html
@@ -11,6 +13,7 @@ Start in safe mode `emacs -Q`
 
 ## distributions/starter kits
 
+- https://github.com/bbatsov/emacs.d
 - https://github.com/emacs-tw/awesome-emacs#starter-kit
 - https://writequit.org/eos/eos.html
 - https://github.com/raxod502/radian
