@@ -1,4 +1,5 @@
 - introduction https://cs.wellesley.edu/~cs251/spring18/common/emacs/emacs.html
+- https://emacs.stackexchange.com/questions/13583/whats-the-difference-between-a-buffer-a-file-a-window-and-a-frame
 - https://emacs.stackexchange.com/questions/40821/open-new-window-and-switch-to-it
 
 ## Narrowing
