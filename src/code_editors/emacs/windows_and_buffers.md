@@ -1,6 +1,6 @@
-## Narrowing
+- https://emacs.stackexchange.com/questions/40821/open-new-window-and-switch-to-it
 
-https://demonastery.org/2013/04/emacs-narrow-to-region-indirect/
+## Narrowing
 
 ```lisp
 (defun narrow-to-region-indirect (start end)
@@ -12,6 +12,9 @@ https://demonastery.org/2013/04/emacs-narrow-to-region-indirect/
       (narrow-to-region start end))
       (switch-to-buffer buf)))
 ```
+
+- https://demonastery.org/2013/04/emacs-narrow-to-region-indirect/
+- https://emacs.stackexchange.com/questions/38982/frame-specific-narrowing
 
 ## Keyboard shortcuts
 
