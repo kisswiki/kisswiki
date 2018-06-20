@@ -8,6 +8,7 @@
 - http://endlessparentheses.com/improving-projectile-with-extra-commands.html
 - https://emacs.stackexchange.com/questions/24907/how-to-use-dir-locals-el-with-projectile
 - https://emacs.stackexchange.com/questions/12650/have-projectile-find-file-fall-back-to-ido-find-file-outside-of-projects
+- https://emacs.stackexchange.com/questions/16497/how-to-exclude-files-from-projectile
 
 ## Shell
 
