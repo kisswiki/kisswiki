@@ -14,6 +14,7 @@
 - https://www.reddit.com/r/emacs/comments/3mxq6v/how_to_keep_organized_in_emacs/
 - https://github.com/bmag/emacs-purpose
 - https://github.com/rakanalh/emacs-dashboard
+- https://github.com/Malabarba/paradox
 
 ## Projectile
 
