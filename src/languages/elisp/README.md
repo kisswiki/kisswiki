@@ -3,3 +3,5 @@
 - https://oremacs.com/2015/07/16/callback-quit/
 - https://www.emacswiki.org/emacs/EvaluatingExpressions
 - http://blog.binchen.org/posts/emacs-is-easy-if-you-read-code.html
+- https://github.com/chrisdone/elisp-guide
+- https://emacs-doctor.com/learn-emacs-lisp-in-15-minutes.html
