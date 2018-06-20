@@ -1,0 +1,1 @@
+- https://emacs.stackexchange.com/questions/32209/how-to-show-a-tooltip-for-the-mode-line-that-displays-the-full-buffer-name
