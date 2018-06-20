@@ -1,4 +1,5 @@
 - https://www.masteringemacs.org/article/evaluating-elisp-emacs
+- http://ergoemacs.org/emacs/modernization_scratch_buffer.html
 
 GNU Emacs default bindings:
 
