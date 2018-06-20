@@ -27,3 +27,13 @@ or
 `rg -n -B 5 -A 5 -telm "Store.State" src`
 
 https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md#manual-filtering-file-types
+
+## path separator
+
+`rg --files -telm --path-separator /`
+
+Works in cmd.exe, but not in git bash.
+
+## find files
+
+`rg --files -telm --path-separator /`
