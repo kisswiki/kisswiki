@@ -47,3 +47,4 @@ or
 `rg --files -telm --path-separator ! | tr '!' '/'` | xargs -n1 elm-format --yes`
 
 - A path separator must be exactly one byte, but the given separator is 20 bytes https://github.com/BurntSushi/ripgrep/issues/957
+- https://www.mhonarc.org/archive/html/procmail/2010-12/msg00019.html
