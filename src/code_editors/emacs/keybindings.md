@@ -19,3 +19,9 @@ https://www.reddit.com/r/emacs/comments/4lh74r/tell_us_about_a_minor_change_you_
 `(setq suggest-key-bindings nil)`
 
 https://stackoverflow.com/questions/19781529/how-to-disable-emacs-messages-like-you-can-run-the-command-x-with-y
+
+## Unset
+
+`(global-unset-key key)`
+
+https://stackoverflow.com/questions/7549259/is-there-a-quick-way-to-unbind-keys-in-emacs
