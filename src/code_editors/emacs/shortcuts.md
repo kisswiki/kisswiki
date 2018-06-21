@@ -44,6 +44,12 @@ select whole buffer `C-x h`
 
 `C-SPC` to toggle mark, then move to select. Or use shift and arrows.
 
+## reload file
+
+`C-x C-v` runs `find-alternate-file`
+
+https://emacs.stackexchange.com/questions/169/how-do-i-reload-a-file-in-a-buffer
+
 ## move lines
 
 `M-<up>` 'drag-stuff-up
