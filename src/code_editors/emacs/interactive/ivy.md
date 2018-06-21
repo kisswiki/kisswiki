@@ -34,6 +34,11 @@ https://www.reddit.com/r/emacs/comments/6jsz61/can_someone_explain_ivy_counsel_a
 
 They are all in swiper repository.
 
+## Problems
+
+- Minibuffer collapses to one line in terminal emacs https://github.com/abo-abo/swiper/issues/1528
+  - I got this when trying to open new frame
+
 ## Counsel
 
 It is for configuring specific modes, like for projectile with counsel-projectile.
