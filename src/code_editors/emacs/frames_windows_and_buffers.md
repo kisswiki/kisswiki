@@ -5,10 +5,12 @@
 - http://emacsredux.com/blog/2013/06/15/deleting-windows/
 - http://ergoemacs.org/emacs/emacs_effective_windows_management.html
 - https://www.emacswiki.org/emacs/OneOnOneEmacs
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Window-Convenience.html
 
 ## Popup
 
  - https://github.com/auto-complete/popup-el
+ - https://github.com/tumashu/posframe
 
 ## Narrowing
 
