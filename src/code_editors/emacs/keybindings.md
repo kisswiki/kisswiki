@@ -2,6 +2,12 @@
 - https://emacs.stackexchange.com/questions/5716/how-do-i-add-a-keybinding-to-a-keymap-that-is-on-a-prefix-key
 - https://emacs.stackexchange.com/questions/12919/how-to-detect-if-in-a-project-then-configure-another-keybinding-for-projectile
 
+## Display last few input keystrokes and the commands run
+
+`C-h l` or `(view-lossage)`
+
+https://askubuntu.com/questions/596143/emacs-keeps-popping-up-buffer-menu-when-i-dont-want-it
+
 ## Transient
 
 transient map - The command can be repeated by pressing the final key again. It works the same as keyboard macro repeating with e after a C-x e. So with this bound to C-c TAB, once the binding has been typed out in full, just pressing tab over and over switches through the different tab sizes.
