@@ -42,6 +42,7 @@ Start in safe mode `emacs -Q`
 - https://github.com/wasamasa/dotemacs/blob/master/TODO.org#learn-from-other-peoples-emacs-configurations
 - https://github.com/Alexander-Miller/dotfiles/blob/master/.config/spacemacs/user-config.org
 - https://github.com/angrybacon/dotemacs/blob/master/dotemacs.org#22-point
+- http://www.bartuka.com/emacs/2018/02/02/bartuka's-emacs-config.html
 
 ## Location
 
