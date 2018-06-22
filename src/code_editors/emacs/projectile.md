@@ -128,6 +128,21 @@ https://emacs.stackexchange.com/questions/24397/ignore-backup-files-in-projectil
 - https://github.com/seagle0128/.emacs.d/blob/9d9a5e64169fdb08463e83f1a72fdaab7ebf896f/lisp/init-projectile.el#L48
 - https://emacs.stackexchange.com/questions/16497/how-to-exclude-files-from-projectile/29200#29200
 
+```lisp
+;;; Default rg arguments
+;; https://github.com/BurntSushi/ripgrep
+(defconst modi/rg-arguments
+  `("--no-ignore-vcs"                   ;Ignore files/dirs ONLY from `.ignore'
+    "--line-number"                     ;Line numbers
+    "--smart-case"
+    "--follow"                 ;Follow symlinks
+    "--max-columns" "150"      ;Emacs doesn't handle long line lengths very well
+    "--ignore-file" ,(expand-file-name ".ignore" (getenv "HOME")))
+  "Default rg arguments used in the functions in `counsel' and `projectile'
+packages.")
+```
+
+- https://github.com/kaushalmodi/.emacs.d/blob/e244053014272ad39901bf3306b762b5faa2d8a5/general.el#L106
 
 ## unignore file
 
