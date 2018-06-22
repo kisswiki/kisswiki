@@ -91,3 +91,11 @@ rg  --fixed-strings --glob !TAGS --glob !.idea --glob !.ensime_cache --glob !.eu
 
 Ripgrep exited abnormally with code 127 at Tue Jun 19 07:25:44
 ```
+
+## unignore file
+
+Cannot do this globally. Only in `.projectile`:
+
+`!.dir-locals.el`
+
+http://projectile.readthedocs.io/en/latest/usage/#ignoring-files
