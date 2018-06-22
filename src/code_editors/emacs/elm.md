@@ -48,8 +48,8 @@ Needs GNU find on PATH before Windows find.
 
 ## sepcify main file per directory
 
-in `.dir-locals.el`
+in `.dir-locals.el` if `src/App.js.elm`:
 
 ```lisp
-((nil . ((elm-main-file . "src/App.js.elm"))))
+((nil . ((elm-main-file . "App.js.elm"))))
 ```
