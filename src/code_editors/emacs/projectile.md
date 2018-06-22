@@ -99,3 +99,11 @@ Cannot do this globally. Only in `.projectile`:
 `!.dir-locals.el`
 
 http://projectile.readthedocs.io/en/latest/usage/#ignoring-files
+
+## ignore with .dir-locals.el
+
+```lisp
+((nil . ((projectile-globally-ignored-files . ("MyBinaryFile")))))
+```
+
+https://github.com/bbatsov/projectile/blob/master/doc/configuration.md
