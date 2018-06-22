@@ -9,3 +9,4 @@ WIN + TAB: Launch task view
 
 - https://blogs.windows.com/windowsexperience/2015/04/16/virtual-desktops-in-windows-10-the-power-of-windowsmultiplied/
 - https://superuser.com/questions/1214512/is-there-a-way-to-quick-switch-between-virtual-desktops-in-win10/1214516#1214516
+- https://superuser.com/questions/940342/how-to-change-shortcut-key-for-switching-between-virtual-desktops-in-windows-10
