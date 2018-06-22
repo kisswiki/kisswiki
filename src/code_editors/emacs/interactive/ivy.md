@@ -39,6 +39,10 @@ They are all in swiper repository.
 - Minibuffer collapses to one line in terminal emacs https://github.com/abo-abo/swiper/issues/1528
   - I got this when trying to open new frame
 
+## what's the difference between `counsel` and `ivy-mode`
+
+https://github.com/abo-abo/swiper/issues/120
+
 ## Counsel
 
 It is for configuring specific modes, like for projectile with counsel-projectile.
