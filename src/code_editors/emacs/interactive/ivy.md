@@ -229,3 +229,17 @@ https://emacs.stackexchange.com/questions/28982/after-enabling-ivy-mode-dired-cr
   - https://github.com/CSRaghunandan/.emacs.d/blob/master/setup-files/setup-counsel.el
 - https://github.com/vermiculus/dotfiles/blob/master/.emacs.d/init.el
 - https://github.com/DamienCassou/emacs.d/blob/master/init.el#L1141
+
+### Symbol's function definition is void: ivy-set-actions
+
+After adding `:after ivy`, problems solved:
+
+```lisp
+(use-package projectile
+  :after ivy
+  :config
+     (ivy-set-actions
+	 ;...
+	 )
+  )
+```
