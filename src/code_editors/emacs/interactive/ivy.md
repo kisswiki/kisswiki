@@ -216,3 +216,16 @@ other keyboard mapping will be activated, like `("C-x C-f" . counsel-find-file)`
 `C-M-j`
 
 https://emacs.stackexchange.com/questions/28982/after-enabling-ivy-mode-dired-create-directory-does-not-allow-me-to-choose-an
+
+## actions
+
+```lisp
+(ivy-add-actions #'counsel-find-file
+                   '(("m" magit-status-internal "magit")))
+```
+
+- http://oremacs.com/swiper/#actions
+- https://github.com/abo-abo/swiper/wiki/Copy,-move-and-delete-file-actions-for-counsel-find-file
+  - https://github.com/CSRaghunandan/.emacs.d/blob/master/setup-files/setup-counsel.el
+- https://github.com/vermiculus/dotfiles/blob/master/.emacs.d/init.el
+- https://github.com/DamienCassou/emacs.d/blob/master/init.el#L1141
