@@ -92,6 +92,43 @@ rg  --fixed-strings --glob !TAGS --glob !.idea --glob !.ensime_cache --glob !.eu
 Ripgrep exited abnormally with code 127 at Tue Jun 19 07:25:44
 ```
 
+## ignore
+
+```lisp
+(add-to-list 'projectile-globally-ignored-files ".tern-port")
+```
+
+- https://writequit.org/eos/eos-helm.html
+- https://emacs.stackexchange.com/questions/16497/how-to-exclude-files-from-projectile/16498
+- https://www.reddit.com/r/emacs/comments/4he1rx/how_to_projectile_globally_ignore_a_regex_file/
+
+```lisp
+        projectile-globally-ignored-files
+        (append '(".pyc"
+                  ".class"
+                  "~")
+                projectile-globally-ignored-files))
+```
+
+https://emacs.stackexchange.com/questions/24397/ignore-backup-files-in-projectile
+
+## Share ignore with rg
+
+```lisp
+    (let ((command
+           (cond
+            ((executable-find "rg")
+             (let ((rg-cmd ""))
+               (dolist (dir projectile-globally-ignored-directories)
+                 (setq rg-cmd (format "%s --glob '!%s'" rg-cmd dir)))
+               (concat "rg -0 --files --color=never --hidden" rg-cmd))))))
+    (setq projectile-generic-command command))
+```
+
+- https://github.com/seagle0128/.emacs.d/blob/9d9a5e64169fdb08463e83f1a72fdaab7ebf896f/lisp/init-projectile.el#L48
+- https://emacs.stackexchange.com/questions/16497/how-to-exclude-files-from-projectile/29200#29200
+
+
 ## unignore file
 
 Cannot do this globally. Only in `.projectile`:
@@ -107,3 +144,24 @@ http://projectile.readthedocs.io/en/latest/usage/#ignoring-files
 ```
 
 https://github.com/bbatsov/projectile/blob/master/doc/configuration.md
+
+setq in eval will change the global value of the variable (unless of course the variable was declared local to begin with.)
+
+```lisp
+((nil
+   (eval . 
+         (set 
+          (make-local-variable 'projectile-globally-ignored-files)
+          (push "SOME-VALUE" projectile-globally-ignored-files)))))
+```
+
+https://emacs.stackexchange.com/questions/24907/how-to-use-dir-locals-el-with-projectile
+
+## ignore with .projectile
+
+```
+-/.meta
+-/.projectile
+```
+
+https://emacs.stackexchange.com/questions/16948/ignoring-files-in-projectile
