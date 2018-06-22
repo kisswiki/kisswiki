@@ -5,6 +5,7 @@
 - http://ergoemacs.org/emacs/eshell.html
 - https://www.masteringemacs.org/article/running-shells-in-emacs-overview
 - https://www.emacswiki.org/emacs/UsingMultipleShells
+- http://wikemacs.org/wiki/Shell
 
 ## Misc
 
