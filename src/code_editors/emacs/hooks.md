@@ -1,2 +1,3 @@
 - https://stackoverflow.com/questions/6368742/how-to-run-hook-depending-on-file-location
 - http://ergoemacs.org/emacs/emacs_hooks_list.html
+- https://emacs.stackexchange.com/questions/19578/list-hooks-that-will-run-after-command
