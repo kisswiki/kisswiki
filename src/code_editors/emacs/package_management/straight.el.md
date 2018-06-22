@@ -1,5 +1,23 @@
 - https://github.com/raxod502/straight.el#getting-started
 
+## Reinstall
+
+If I delete `straight` directory and keep only `straight/versions/default.el` and run `emacs -nw` in cmd.exe, `M-: (emacs-init-time)` shows 1000 seconds which is around 16 minutes. Empty init with only straight bootstrap takes 100 seconds.
+
+Reinstall in gui does not look good, as you can't clearly see what is going on.
+
+Maybe starting like [this](https://github.com/raxod502/straight.el#using-straightel-to-reproduce-bugs)
+
+`emacs -Q -l ~/.emacs.d/straight/repos/straight.el/bootstrap.el`
+
+could speed this process up?
+
+### Symbol's function definition is void: ivy-set-actions
+
+I had problems with `ivy-set-actions` and run `M-x straight-normalize-all` and `M-x straight-prune-build` but that did not help.
+
+There is also `straight-cache-autoloads` so maybe set it to `nil`.
+
 ##  how many packages do you have?
 
 You can get that number by evaluating `(length (hash-table-keys straight--success-cache))`
