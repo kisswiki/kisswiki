@@ -12,11 +12,7 @@ Maybe starting like [this](https://github.com/raxod502/straight.el#using-straigh
 
 could speed this process up?
 
-### Symbol's function definition is void: ivy-set-actions
-
-I had problems with `ivy-set-actions` and run `M-x straight-normalize-all` and `M-x straight-prune-build` but that did not help.
-
-There is also `straight-cache-autoloads` so maybe set it to `nil`.
+There are also `M-x straight-normalize-all` and `M-x straight-prune-build` and `straight-cache-autoloads`.
 
 ##  how many packages do you have?
 
