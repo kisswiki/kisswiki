@@ -1,4 +1,4 @@
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -38,3 +38,26 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 }
 LAlt::LCtrl 
 LCtrl::LAlt
+
+;Don't use polish programmers keyboard because of problems with AltGr (if you have this on your keyboard) producing Ctrl+Alt
+;https://www.proz.com/forum/across_support/191719-shortcuts_for_polish_characters.html
+;https://superuser.com/questions/592970/can-i-make-ctrlalt-not-act-like-altgr-on-windows
+;https://stackoverflow.com/questions/229633/how-to-globally-map-altgr-key-to-alt-key
+>!+a::Send {Ą}
+>!a::Send {ą}
+>!+c::Send {Ć}
+>!c::Send {ć}
+>!+e::Send {Ę}
+>!e::Send {ę}
+>!+l::Send {Ł}
+>!l::Send {ł}
+>!+n::Send {Ń}
+>!n::Send {ń}
+>!+o::Send {Ó}
+>!o::Send {ó}
+>!+s::Send {Ś}
+>!s::Send {ś}
+>!+x::Send {Ź}
+>!x::Send {ź}
+>!+z::Send {Ż}
+>!z::Send {ż}
