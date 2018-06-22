@@ -1,4 +1,4 @@
-Install:
+GInstall:
 - elm-mode
 - elm-oracle
 - company
@@ -45,3 +45,11 @@ Needs GNU find on PATH before Windows find.
 
 - https://emacs.stackexchange.com/questions/27326/gui-emacs-sets-the-exec-path-only-from-windows-environment-variable-but-not-from
 - https://emacs.stackexchange.com/questions/3360/emacs-tags-file-in-windows
+
+## sepcify main file per directory
+
+in `.dir-locals.el`
+
+```lisp
+((nil . ((elm-main-file . "src/App.js.elm"))))
+```
