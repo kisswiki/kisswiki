@@ -141,6 +141,10 @@ https://oremacs.com/2016/01/06/ivy-flx/
 - https://emacs.stackexchange.com/questions/40830/how-to-toggle-regex-for-helm-ivy-user-input
 - https://www.reddit.com/r/emacs/comments/5ektte/ivy_custom_function_for_ivyrebuildersalist/
 
+## Multiexit
+
+`C-M-o` doesn't work for me, but `M-C-o` works. Probably because of autototkey script.
+
 ## Multi-exit with hydra - kill selected buffer withou switching to it
 
 requires ivy-hydra
