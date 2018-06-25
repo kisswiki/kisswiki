@@ -16,3 +16,4 @@
 - https://color.adobe.com/explore/?filter=most-popular&time=month
 - http://q8z8p.net/#/color
 - https://yeun.github.io/open-color/
+- a small tool for creating new color palettes from scratch https://twitter.com/beast_pixels/status/1007953732632567808
