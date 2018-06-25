@@ -125,7 +125,7 @@ The fuzzy matcher often results in substantially more matching candidates than t
 
 >The sorting algorithm is a balance between word beginnings (abbreviation) and contiguous matches (substring).
 >The longer the substring match, the higher it scores. This maps well to how we think about matching.
->In general, it's better form queries with only lowercase characters so the sorting algorithm can do something smart.
+>In general, it's better form queries wipixel-scroll-modeth only lowercase characters so the sorting algorithm can do something smart.
 >Flx uses a complex matching heuristics which can be slow for large collections
 >Customize flx-ido-threshold to change the collection size above which flx will revert to flex matching.
 >As soon as the collection is narrowed below flx-ido-threshold, flx will kick in again.
