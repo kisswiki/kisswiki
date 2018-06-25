@@ -60,3 +60,7 @@ https://github.com/anordal/shellharden
 ## Pitfalls
 
 http://mywiki.wooledge.org/BashPitfalls
+
+## fuzzy completion
+
+- https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh
