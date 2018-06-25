@@ -44,6 +44,8 @@ select all, select whole buffer `C-x h`
 
 `C-SPC` to toggle mark, then move to select. Or use shift and arrows.
 
+`pop-global-mark` bound to `C-x C-@` and `C-x C-SPC` https://superuser.com/questions/241939/how-to-jump-back-to-the-last-position-of-the-cursor-in-emacs
+
 ## reload file
 
 `C-x C-v` runs `find-alternate-file`
