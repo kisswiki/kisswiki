@@ -1,3 +1,11 @@
+## Opaque type
+
+- https://stackoverflow.com/questions/40794368/what-is-an-opaque-type-in-elm-and-why-is-it-valuable
+- https://medium.com/@ghivert/designing-api-in-elm-opaque-types-ce9d5f113033
+- https://medium.com/@ckoster22/advanced-types-in-elm-opaque-types-ec5ec3b84ed2
+
+##
+
 https://elmlang.slack.com/archives/general/p1484452726014610
 
 @chambost:
