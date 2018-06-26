@@ -309,3 +309,49 @@ https://news.ycombinator.com/item?id=17143494
 ## jsx
 
 - https://github.com/pzavolinsky/elmx
+
+## What has changed my mind about Elm?
+
+2015-11-25 11:40 AM
+
+https://www.sitepoint.com/react-has-won-the-client-side-war/
+
+Piotr Kopszak: Really? A Elm?
+
+Roman Frolow: Really? Elm? Wszedzie widze react to react tamto. To ze elm jest dla Ciebie super nie znaczy ze bedzie wiodacym frameworkiem (wiem ze react to view)
+
+Kamil Kapsiak: Roman Frolow Really?
+
+Roman Frolow: Ale o co wam chodzi z tym Elm? Moze czegos nie wiem, ale widzac po aktywnosci na githubie:
+
+https://github.com/trending?l=elm&since=monthly
+
+https://github.com/trending?l=javascript&since=monthly (ctrl+f react, ctrl+f redux)
+
+to nie widze jakby elm universum mial zdetronizowac angulara.
+
+I nie chodzi mi o to co jest lepsze tylko co bedzie dominowalo.
+
+James Owca Siemiatkowski: Ale teraz to brzmisz jak fanboy reacta :)
+
+Roman Frolow: ale taki pragmatyczny fanboy: moze i sa lepsze alternatywy ale po co mam na nie tracic czas jak spolecznosc bedzie gdzies indziej.
+
+Roman Frolow: Mieliscie racje :D
+
+Karol Fabjanczuk: Roman Odpowiedz po dwóch latach - szacun
+
+Michal Miszczyszyn: Roman Frolow racje odnosnie czego? Elma? :P Nic sie nie zmienilo raczej, wiec to Ty miales racje.
+
+Roman Frolow: Zmienilo sie tyle ze jest calkiem niezla i prezna spolecznosc i juz widze ze cos nie musi miec najwiekszej popularnosci zeby oplacalo sie w tym pisac.
+
+Ale racja, popularnosc nadal mala. Zobaczymy jak to ruszy po wydaniu 0.19
+
+Karol Fabjanczuk: Michal Czekam z niecierpliwoscia na za dwa lata aby zobaczyc czy tez tu znów skomentujesz ;)
+
+Tomasz Szymanek: "Wiem ze react to view a nie framework" === instant +13 do rispektu na JS News
+
+James Owca Siemiatkowski: Po dwoch latach jest 0.19 ? Oho
+
+Roman Frolow: No jak. Jeszcze nie ma :P
+
+https://www.facebook.com/groups/217169631654737/permalink/974579692580390/
