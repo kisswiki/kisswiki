@@ -145,6 +145,8 @@ https://oremacs.com/2016/01/06/ivy-flx/
 
 `C-M-o` doesn't work for me, but `M-C-o` works. Probably because of autototkey script.
 
+http://oremacs.com/swiper/#key-bindings-for-single-selection-action-then-exit-minibuffer
+
 ## Multi-exit with hydra - kill selected buffer withou switching to it
 
 requires ivy-hydra
