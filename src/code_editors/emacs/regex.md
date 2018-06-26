@@ -1,0 +1,2 @@
+- http://ergoemacs.org/emacs/emacs_regex.html
+-  https://www.emacswiki.org/emacs/RegularExpression
