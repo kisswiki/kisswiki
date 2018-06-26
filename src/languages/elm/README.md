@@ -355,3 +355,16 @@ James Owca Siemiatkowski: Po dwoch latach jest 0.19 ? Oho
 Roman Frolow: No jak. Jeszcze nie ma :P
 
 https://www.facebook.com/groups/217169631654737/permalink/974579692580390/
+
+
+
+2015-11-19 2:33 PM
+
+Roman Frolow: Co jest bardziej czytelne: jsx czy clojurescript?
+
+clojurescript z https://youtu.be/gsffg5xxFQI?t=1762
+jsx z malymi zmianami z https://github.com/rofrol/react-unidirectional-example/blob/dd0bfe374a652f45ce8bce90c81d89912bc59427/index.js#L41
+
+Kamil Lelonek: Wybieram: elm.
+
+https://www.facebook.com/groups/257881290932879/permalink/936348316419503/
