@@ -247,3 +247,9 @@ After adding `:after ivy`, problems solved:
 	 )
   )
 ```
+
+## Remove files from recentf / ivy-virtual-buffers
+
+`C-c C-k` which is bound to `ivy-switch-buffer-kill`
+
+https://emacs.stackexchange.com/questions/36836/how-to-remove-files-from-recentf-ivy-virtual-buffers/36852#36852
