@@ -77,3 +77,7 @@ When a query command asks you for confirmation, here's the most common keys:
 - `C-g` cancel. (call undo to undo existing replacement.)
 
 - http://ergoemacs.org/emacs/emacs_find_replace.html
+
+You can also toggle case sensitivity at will in isearch with M-c
+
+https://www.gnu.org/software/emacs/manual/html_node/efaq/Controlling-case-sensitivity.html
