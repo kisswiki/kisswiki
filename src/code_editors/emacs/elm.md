@@ -53,3 +53,11 @@ in `.dir-locals.el` if `src/App.js.elm`:
 ```lisp
 ((nil . ((elm-main-file . "App.js.elm"))))
 ```
+
+## indent
+
+`electric-newline-and-maybe-indent` is modified because of elm-indent-mode.
+
+Pressing `C-j` and then `Tab` two times, will insert something.
+
+https://github.com/jcollard/elm-mode/issues/73#issuecomment-247365202
