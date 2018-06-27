@@ -42,6 +42,16 @@ https://stackoverflow.com/questions/19283764/git-log-pretty-format-with-lines-ad
 ## shortlog
 
 ```
+$ git shortlog -n --since=2018-06-20
+Roman Frolow (5):
+      Use krisajenkins/remotedata in Store.Utils PLAT-312 (#849)
+      Remove State and functions PLAT-312 (#855)
+      Use RemoteData.map (#858)
+      Tooltip on the left for export PLAT-362 (#861)
+      Deactivation of Audience PLAT-306 (#868)
+```
+
+```
 $ git shortlog -s -n
 ```
 
