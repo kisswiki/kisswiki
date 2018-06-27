@@ -32,10 +32,17 @@
 - https://twitter.com/elmlang
 - http://elm-news.com/
   - https://github.com/oakesja/elm-news
-- http://www.elmweekly.nl/
-- https://www.dailydrip.com/topics/elm
+  - https://discourse.elm-lang.org
+- https://dev.to/t/elm
+- https://hackernoon.com/tagged/elm
+- https://medium.com/tag/elm/latest
+
+### Abandoned
+
+- abandoned http://www.elmweekly.nl/
+- abandoned https://www.dailydrip.com/topics/elm
 - https://groups.google.com/forum/#!forum/elm-dev
-  - Read more about that before posting! https://groups.google.com/forum/#!msg/elm-dev/oZ3xW_nMPNo/0y8j-N8HCQAJ
+  - abandoned for https://discourse.elm-lang.org
 
 ## Blogs
 
