@@ -30,6 +30,24 @@ MsgBox %globalVar%
 
 - https://stackoverflow.com/questions/12850350/autohotkey-global-variable-that-can-be-accessed-and-modified-by-different-macros
 
+## More than two keys
+
+```
+LWin & Left::
+	if GetKeyState("Shift")	
+		{
+		Send +^{Left}
+		return
+		}
+	else
+		{	
+		Send ^{Left}
+		return
+		}
+```
+
+https://github.com/olets/MacKeyboard/blob/master/MacKeyboard.ahk
+
 ## Debug
 
 - https://stackoverflow.com/questions/49009176/autohotkey-getting-control-key-stuck
