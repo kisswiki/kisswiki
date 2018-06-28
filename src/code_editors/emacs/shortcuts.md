@@ -81,3 +81,12 @@ When a query command asks you for confirmation, here's the most common keys:
 You can also toggle case sensitivity at will in isearch with M-c
 
 https://www.gnu.org/software/emacs/manual/html_node/efaq/Controlling-case-sensitivity.html
+
+`M-e` to edit last search, arrows to cycle in history
+
+`M-r` to switch between regexp and normal searching
+
+`M-c` to toggle case sensitivity
+
+- https://www.emacswiki.org/emacs/IncrementalSearch
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Incremental-Search.html

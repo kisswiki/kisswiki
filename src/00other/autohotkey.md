@@ -8,6 +8,32 @@ Right click inside the window, and click "Paste Shortcut". The shortcut to the s
 
 - https://www.autohotkey.com/docs/FAQ.htm#Startup
 
+## Switch LAlt with LCtrl except Alt+Tab and Shift+Alt+Tab
+
+- https://superuser.com/questions/984343/remap-ctrl-to-alt-and-keep-alttab-and-ctrltab/1332713#1332713
+
+## super-globals and variables
+
+- https://superuser.com/a/495757/64577
+- https://autohotkey.com/docs/Variables.htm
+- https://stackoverflow.com/questions/12850350/autohotkey-global-variable-that-can-be-accessed-and-modified-by-different-macros
+
+## if/else
+
+- https://autohotkey.com/docs/commands/IfExpression.htm
+
+## Alert-like box
+
+```ahk
+MsgBox %globalVar%
+```
+
+- https://stackoverflow.com/questions/12850350/autohotkey-global-variable-that-can-be-accessed-and-modified-by-different-macros
+
+## Debug
+
+- https://stackoverflow.com/questions/49009176/autohotkey-getting-control-key-stuck
+
 ## Links
 
 - https://gaming.stackexchange.com/questions/110349/how-do-i-remap-the-arrow-keys-using-autohotkey
