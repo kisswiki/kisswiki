@@ -58,6 +58,13 @@ For every smart, capable, well reasoned developer there are a thousand blindly c
 - A curated list of games that can teach you how to learn a programming language https://github.com/michelpereira/gamesofcoding
   - https://news.ycombinator.com/item?id=13566247
 - https://medium.com/@ipestov/collection-of-coders-games-to-improve-your-skills-9ea02906d73
+- http://norvig.com/21-days.html
+  - https://twitter.com/stephensenn/status/538017638111531009?lang=en
+  - https://www.reddit.com/r/programming/comments/44kpzk/peter_norvig_being_good_at_programming/
+  - https://michaelwhatcott.com/10-years/
+  - https://news.ycombinator.com/item?id=3439772
+  - https://jvns.ca/blog/2015/02/17/how-i-learned-to-program-in-10-years/
+  - http://wiki.c2.com/?TeachYourselfProgrammingInTenYears
 
 ## Popularity
 
