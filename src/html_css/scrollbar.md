@@ -4,3 +4,10 @@ Some browsers (IE, Konqueror) support the non-standard properties 'scrollbar-sha
 
 - https://stackoverflow.com/questions/9251354/css-customized-scroll-bar-in-div
 - http://jscrollpane.kelvinluck.com/
+
+## Native
+
+- https://github.com/noeldelgado/gemini-scrollbar
+- https://github.com/Grsmto/simplebar
+- https://github.com/Diokuz/baron
+- https://github.com/albertogasparin/Optiscroll
