@@ -94,3 +94,5 @@ https://www.gnu.org/software/emacs/manual/html_node/efaq/Controlling-case-sensit
 `M-s w` toggle word search
 
 https://www.gnu.org/software/emacs/manual/html_node/emacs/Word-Search.html
+
+`M-s .` (isearch-forward-symbol-at-point)
