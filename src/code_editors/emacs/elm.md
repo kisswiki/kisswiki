@@ -23,6 +23,8 @@ elm-mode uses etags with language none `etags --language=none` https://github.co
 
 Running this command should create `TAGS` file.
 
+Manually `rg --files -telm | etags --language=none -`
+
 Exuberant Ctags does not support Elm http://ctags.sourceforge.net/languages.html
 
 - Emacs elm-mode TAGS demo https://youtu.be/TSZJBLNCv4Q
