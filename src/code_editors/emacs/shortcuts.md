@@ -90,3 +90,7 @@ https://www.gnu.org/software/emacs/manual/html_node/efaq/Controlling-case-sensit
 
 - https://www.emacswiki.org/emacs/IncrementalSearch
 - https://www.gnu.org/software/emacs/manual/html_node/emacs/Incremental-Search.html
+
+`M-s w` toggle word search
+
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Word-Search.html
