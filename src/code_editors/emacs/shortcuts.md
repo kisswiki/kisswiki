@@ -96,3 +96,5 @@ https://www.gnu.org/software/emacs/manual/html_node/efaq/Controlling-case-sensit
 https://www.gnu.org/software/emacs/manual/html_node/emacs/Word-Search.html
 
 `M-s .` (isearch-forward-symbol-at-point)
+
+`M-e C-r` toggle search backward
