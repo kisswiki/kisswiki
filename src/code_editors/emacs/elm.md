@@ -19,6 +19,8 @@ GInstall:
 
 ## Tags
 
+- universal-ctags https://github.com/jcollard/elm-mode/issues/135
+
 elm-mode uses etags with language none `etags --language=none` https://github.com/jcollard/elm-mode/blob/f5c6f4e79209eadd6d534b724dc8f10886bf3833/elm-tags.el#L64
 
 Running this command should create `TAGS` file.
