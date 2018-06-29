@@ -20,6 +20,11 @@ GInstall:
 ## Tags
 
 - universal-ctags https://github.com/jcollard/elm-mode/issues/135
+- https://github.com/leoliu/ggtags
+- https://emacs.stackexchange.com/questions/3360/emacs-tags-file-in-windows
+- https://www.reddit.com/r/emacs/comments/3pni17/ctags_etags_or_gtags/
+
+### Old
 
 elm-mode uses etags with language none `etags --language=none` https://github.com/jcollard/elm-mode/blob/f5c6f4e79209eadd6d534b724dc8f10886bf3833/elm-tags.el#L64
 
@@ -48,7 +53,6 @@ Needs GNU find on PATH before Windows find.
 ```
 
 - https://emacs.stackexchange.com/questions/27326/gui-emacs-sets-the-exec-path-only-from-windows-environment-variable-but-not-from
-- https://emacs.stackexchange.com/questions/3360/emacs-tags-file-in-windows
 
 ## sepcify main file per directory
 
