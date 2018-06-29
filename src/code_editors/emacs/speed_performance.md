@@ -5,6 +5,7 @@
 - benchmark and garbage collection https://github.com/lewang/flx#gc-optimization
 - https://www.emacswiki.org/emacs/OptimizingEmacsStartup
 - Emacs in RAM http://blog.binchen.org/posts/emacs-speed-up-1000.html
+- Maybe this https://emacs.stackexchange.com/questions/28736/emacs-pointcursor-movement-lag
 
 ## Byte compilation
 
