@@ -46,6 +46,12 @@ select all, select whole buffer `C-x h`
 
 `pop-global-mark` bound to `C-x C-@` and `C-x C-SPC` https://superuser.com/questions/241939/how-to-jump-back-to-the-last-position-of-the-cursor-in-emacs
 
+## Last command
+
+`C-x Esc Esc` gives you a browsable history of M-x commands you have run, but shows you the elisp code.
+
+https://stackoverflow.com/questions/2087532/troubleshooting-techniques-for-emacs-and-emacs-lisp
+
 ## reload file
 
 `C-x C-v` runs `find-alternate-file`

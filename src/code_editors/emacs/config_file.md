@@ -117,11 +117,30 @@ https://emacs.stackexchange.com/questions/635/whats-the-fastest-way-to-reload-my
 
 https://www.reddit.com/r/emacs/comments/5udtw1/usepackageel_about_to_be_moved_to_emacs_core/ddto9mh/
 
-## Errors
+## Errors/Debug
 
 If it seems like your init file is not being read, type ‘C-h e’ to see if there is a chance there was a problem with it loading. See [DebugFileLoading](https://www.emacswiki.org/emacs/DebugFileLoading) for more troubleshooting tips.
 
 https://www.emacswiki.org/emacs/InitFile
+
+### TOREAD
+
+- https://swsnr.de/posts/emacs-script-pitfalls/
+- https://stackoverflow.com/questions/2087532/troubleshooting-techniques-for-emacs-and-emacs-lisp
+- https://emacs.stackexchange.com/questions/19578/list-hooks-that-will-run-after-command
+- https://stackoverflow.com/questions/25512527/emacs-symbols-value-as-variable-is-void
+- https://stackoverflow.com/questions/14067524/how-to-show-backtrace-for-emacs
+- https://stackoverflow.com/questions/26597467/elisp-possible-to-automatically-open-emacs-init-file-if-error-at-start-up/26611347#26611347
+- https://emacs.stackexchange.com/questions/35841/debug-an-elisp-error-show-call-stack-when-an-error-occurs
+- https://emacs.stackexchange.com/questions/7852/show-line-number-on-error
+- https://emacs.stackexchange.com/questions/21280/break-on-all-errors-in-edebug
+- https://emacs.stackexchange.com/questions/36433/obtaining-a-backtrace-on-batch-invocation-of-emacs
+
+### Tracking variable modification
+
+in Emacs 26.1 do `M-x debug-watch <variable> RET`
+
+https://emacs.stackexchange.com/questions/27962/tracking-down-a-write-to-a-variable
 
 ## The first line should be of the form
 
