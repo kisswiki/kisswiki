@@ -5,3 +5,4 @@
 - http://blog.binchen.org/posts/emacs-is-easy-if-you-read-code.html
 - https://github.com/chrisdone/elisp-guide
 - https://emacs-doctor.com/learn-emacs-lisp-in-15-minutes.html
+- http://emacslife.com/how-to-read-emacs-lisp.html
