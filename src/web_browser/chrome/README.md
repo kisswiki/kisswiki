@@ -14,6 +14,25 @@
 - https://github.com/IBM/css-gridish
   - On Google Chrome uses shortcuts which does not show up in chrome://extensions/shortcuts https://github.com/IBM/css-gridish/issues/44
   - Uses RAlt + L on Windows instead of LAlt + L only https://github.com/IBM/css-gridish/issues/45
+  
+## Copy all/organize tabs
+
+I use this https://chrome.google.com/webstore/detail/tabcopy/micdllihgoppmejpecmkilggmaagfdmb
+
+Double click to copy all tabs.
+
+Custom Format:
+
+List Start: `## [date][n][n]`
+
+Tab: `- [title] [url]`
+
+Tab Delimiter: `[n]`
+
+- https://superuser.com/questions/117754/is-there-a-way-to-copy-urls-from-all-open-tabs-in-a-google-chrome-or-other-brow
+- https://superuser.com/questions/276321/how-to-export-opened-tabs-in-chrome
+
+This looks nice https://chrome.google.com/webstore/detail/tab-organizer/gbaokejhnafeofbniplkljehipcekkbh
 
 ### facebook
 
