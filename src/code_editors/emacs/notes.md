@@ -9,3 +9,7 @@
 - **TODO: solidload for debug (load)**: EmacsWiki: Zarza https://www.emacswiki.org/emacs/Zarza
 - **TOREAD**: Emacs from scratch https://huytd.github.io/emacs-from-scratch.html
 
+## 1.07.2018
+
+- **TOREAD**: Elisp: How to Write Comment Command in Major Mode http://ergoemacs.org/emacs/elisp_comment_handling.html
+- **TOWATCH: Emacs maintainer**: Emacs Lisp Development - John Wiegley - Emacs Conference 2013 - YouTube https://www.youtube.com/watch?v=RvPFZL6NJNQ
