@@ -4,3 +4,17 @@
 - https://booking.parisinfo.com/il4-offer_i147-paris-passlib.aspx
 - https://www.ratp.fr/en/titres-et-tarifs/navigo-monthly-and-weekly-travel-passes
 - https://www.ratp.fr/en/titres-et-tarifs/airport-tickets
+
+
+- https://www.tripsavvy.com/navigo-paris-transportation-passes-1508767
+- https://www.eurocheapo.com/blog/paris-navigo-pass.html
+- https://www.ratp.fr/en/titres-et-tarifs/paris-visite-travel-pass
+- https://booking.parisinfo.com/il4-offer_i149-paris-visite-pass-pass-transport.aspx
+- https://booking.parisinfo.com/il4-offer_i147-paris-passlib.aspx
+- https://www.introducingparis.com/passe-navigo
+- https://averagejoecyclist.com/how-to-use-a-velib-bike-in-paris/
+- https://averagejoecyclist.com/3-hip-stretches-cure-cycling-hip-pain/
+- https://www.introducingparis.com/t-ticket
+
+- https://www.introducingparis.com/money-saving-tips
+- https://www.introducingparis.com/where-to-eat
