@@ -2,7 +2,8 @@
 
 In case you are wondering why webpack-cli package is required, v3 adds this package automatically. With version 4, the cli is a separate package which you can install manually. It is responsible for adding the command line support for webpack.
 
-https://codeburst.io/migrating-to-webpack-4-today-d564b453a3ba
+- https://codeburst.io/migrating-to-webpack-4-today-d564b453a3ba
+- https://www.valentinog.com/blog/webpack-tutorial/
 
 
 1. upgrade wszystkiego co zwiazanego z webpackiem do najnowszych wersji
