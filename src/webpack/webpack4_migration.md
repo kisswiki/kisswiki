@@ -71,3 +71,9 @@ error "babel-loader#babel-core@6" doesn't satisfy found match of "babel-core@7.0
 - >Contrary to expectations, process.env.NODE_ENV is not set to "production" within the build script webpack.config.js https://webpack.js.org/guides/production/
 - https://github.com/webpack/webpack/issues/2537#issuecomment-280447557
 - https://github.com/webpack/webpack/issues/2537#issuecomment-298666046
+
+## Elm
+
+If you got error `throw er; // Unhandled 'error' event` when changing something in Elm, `rm -rf node_modules && yarn`
+
+https://github.com/elm-community/elm-webpack-loader/issues/137#issuecomment-373749575
