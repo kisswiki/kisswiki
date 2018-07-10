@@ -75,6 +75,12 @@ error "babel-loader#babel-core@6" doesn't satisfy found match of "babel-core@7.0
 
 ## Elm
 
+- https://github.com/simonh1000/elm-webpack-starter
+- https://github.com/romariolopezc/elm-webpack-4-starter
+  - https://discourse.elm-lang.org/t/elm-webpack-4-starter-template/1044
+
+### Error
+
 If you got error `throw er; // Unhandled 'error' event` when changing something in Elm, `rm -rf node_modules && yarn`
 
 https://github.com/elm-community/elm-webpack-loader/issues/137#issuecomment-373749575
@@ -108,3 +114,8 @@ Begin compile at: Wed Jul 11 2018 00:10:56 GMT+0200 (Central European Daylight T
 ```
 
 https://github.com/webpack/webpack/issues/6568#issuecomment-377491754
+
+## Speed
+
+- https://webpack.js.org/guides/build-performance/
+- https://slack.engineering/keep-webpack-fast-a-field-guide-for-better-build-performance-f56a5995e8f1
