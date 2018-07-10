@@ -105,6 +105,8 @@ https://news.ycombinator.com/item?id=17143494
 - https://github.com/ohanhi/elm-html-drag-and-drop
 - https://github.com/mgold/elm-socketio
 - https://github.com/mgold/elm-turtle-graphics
+- https://swendude.github.io/Tortoise/
+  - https://twitter.com/Swendude/status/1016235757332238338
 - https://github.com/mgold/elm-multiset
 - https://github.com/NoRedInk/elm-lazy-list
 - https://github.com/mgold/elm-join
