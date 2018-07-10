@@ -21,3 +21,15 @@
 If you don't require the use of native browser APIs that aren't supported via an official package, it should be a good fit. It can still be well-suited even if you need to drop into ports or write native code, but the former comes at the cost of ergonomics and the latter is not documented at all
 
 https://www.reddit.com/r/elm/comments/770cfp/is_elm_suitable_for_my_project/doi5wkq/
+
+##
+
+1. Interop. `Reinvent the wheel or die integrating react component` attitude makes Elm almost impractical in day-to-day tasks. I might be wrong, but Elm should push it's benefits like guaranties on business logic and data handling, but provide a sane way to interoperate with the **huge** JS ecosystem.
+
+2. Haskell-influenced docs, libs. `You don't understand what's going on here and need examples? Are you stupid?` Well, yeah, I guess I am.
+
+```elm
+merge : (comparable -> a -> result -> result) -> (comparable -> a -> b -> result -> result) -> (comparable -> b -> result -> result) -> Dict comparable a -> Dict comparable b -> result -> result
+```
+
+https://www.reddit.com/r/elm/comments/5vh1fi/where_do_you_suffer_most_while_programming_in_elm/
