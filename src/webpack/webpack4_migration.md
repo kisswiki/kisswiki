@@ -4,6 +4,7 @@ In case you are wondering why webpack-cli package is required, v3 adds this pack
 
 - https://codeburst.io/migrating-to-webpack-4-today-d564b453a3ba
 - https://www.valentinog.com/blog/webpack-tutorial/
+- https://thebrainfiles.wearebrain.com/moving-from-webpack-3-to-webpack-4-f8cdacd290f9
 
 
 1. upgrade wszystkiego co zwiazanego z webpackiem do najnowszych wersji
@@ -77,3 +78,33 @@ error "babel-loader#babel-core@6" doesn't satisfy found match of "babel-core@7.0
 If you got error `throw er; // Unhandled 'error' event` when changing something in Elm, `rm -rf node_modules && yarn`
 
 https://github.com/elm-community/elm-webpack-loader/issues/137#issuecomment-373749575
+
+## DeprecationWarning: Tapable.plugin is deprecated. Use new API on `.hooks` instead
+
+The solution with `process.traceDeprecation = true` didn't help. Still don't know what causes this warning:
+
+```bash
+$ yarn start
+yarn run v1.7.0
+$ webpack-dev-server --hot --inline --port 4200 --host 0.0.0.0
+Compiling to build/
+Env undefined
+clean-webpack-plugin: C:\Users\rofrol\projects\globalwebindex\pro-next\build has been removed.
+Begin compile at: Wed Jul 11 2018 00:10:56 GMT+0200 (Central European Daylight Time)
+(node:15496) DeprecationWarning: Tapable.plugin is deprecated. Use new API on `.hooks` instead
+    at Compiler.<anonymous> (C:\Users\rofrol\projects\globalwebindex\pro-next\webpack.config.js:137:12)
+    at webpack (C:\Users\rofrol\projects\globalwebindex\pro-next\node_modules\webpack\lib\webpack.js:37:12)
+    at startDevServer (C:\Users\rofrol\projects\globalwebindex\pro-next\node_modules\webpack-dev-server\bin\webpack-dev-server.js:379:16)
+    at processOptions (C:\Users\rofrol\projects\globalwebindex\pro-next\node_modules\webpack-dev-server\bin\webpack-dev-server.js:361:5)
+    at Object.<anonymous> (C:\Users\rofrol\projects\globalwebindex\pro-next\node_modules\webpack-dev-server\bin\webpack-dev-server.js:504:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+```
+
+https://github.com/webpack/webpack/issues/6568#issuecomment-377491754
