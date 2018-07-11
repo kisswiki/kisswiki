@@ -1,5 +1,9 @@
 - https://github.com/krisajenkins/remotedata
 - http://blog.jenkster.com/2016/06/how-elm-slays-a-ui-antipattern.html
+- http://holko.pl/2016/06/09/data-state-as-an-enum/
+  - http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack
+- Add `Refreshing` constructor to `RemoteData` ? https://github.com/krisajenkins/remotedata/issues/9
+- rtfeldman talk on http://2018.elmeurope.org with `LoadedOne Doc` https://youtu.be/MlyGg-DIqnU?t=3518 when version of doc loaded locally was competing with remote.
 
 ## example
 
