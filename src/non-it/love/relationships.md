@@ -17,6 +17,7 @@
   - https://www.wykop.pl/link/4143461/o-tym-jak-kobieta-zmienia-faceta-a-potem-od-niego-odchodzi/
 - http://www.ocalsiebie.pl/artykuly/co-niszczy-wsp%C3%B3%C5%82czesnego-m%C4%99%C5%BCczyzn%C4%99-r117/
   - https://www.wykop.pl/link/4355983/co-niszczy-wspolczesnego-mezczyzne/
+- https://www.wykop.pl/tag/mirabelkaszukamirka/
 
 ## 2017-02-16
 
