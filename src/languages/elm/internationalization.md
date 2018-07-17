@@ -1,1 +1,2 @@
 - https://github.com/thetalecrafter/elm-intl
+- https://dmitryrogozhny.com/blog/translation-in-elm-with-plural-support
