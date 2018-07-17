@@ -9,6 +9,8 @@
 - http://www.rainymood.com/
 - http://asoftmurmur.com/
 - https://github.audio/
+- https://work.endel.io/
+  - https://news.ycombinator.com/item?id=16797089
 
 ## Motivation
 

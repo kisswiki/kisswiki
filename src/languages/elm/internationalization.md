@@ -1,2 +1,11 @@
 - https://github.com/thetalecrafter/elm-intl
 - https://dmitryrogozhny.com/blog/translation-in-elm-with-plural-support
+  - https://www.gizra.com/content/elm-i18n-type-safety/
+  - https://github.com/dmitryrogozhny/elm-samples
+- https://github.com/fossar/elm-localization
+- https://locize.com/
+  - https://twitter.com/locize/status/974396703511121921
+- i18n localization for Elm as a pre-build phase https://github.com/iosphere/elm-i18n
+- Bringing localization to Elm with L20n.js https://groups.google.com/forum/#!topic/elm-discuss/_vtRUqJFpP4
+- http://package.elm-lang.org/packages/RoyalIcing/inflexio/latest
+- http://package.elm-lang.org/packages/utkarshkukreti/elm-inflect/latest
