@@ -4,6 +4,9 @@
 - Request: RPC over ports. t's really easy to send or receive messages to JavaScript via ports. But if you need to make a roundtrip to JavaScript, your life suddenly gets much harder since there is no request/response mechanism. https://groups.google.com/forum/#!msg/elm-dev/kNKilHjUYqo/3mTObqyGAgAJ
 - https://www.reddit.com/r/elm/comments/7fx856/seeking_problems_with_ports/
 - Elm Town 13 - History of Ports | Elm Town https://www.elmtown.audio/b06499a6
+- https://gist.github.com/evancz/e69723b23958e69b63d5b5502b0edf90
+  - https://gist.github.com/groteck/e4cc180ac182436f31f1d709466df768
+- ellie.md
 
 ## About
 
