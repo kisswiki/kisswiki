@@ -28,6 +28,10 @@
 - Parse GraphQL query into the standard GraphQL AST https://github.com/apollostack/graphql-tag
 - https://learngraphql.com/
   - https://github.com/kadirahq/graphql-blog-schema
+- Tutorial: Designing a GraphQL API https://gist.github.com/swalkinshaw/3a33e2d292b60e68fcebe12b62bbb3e2
+  - https://news.ycombinator.com/item?id=17546876
+- Blazing fast, instant GraphQL APIs on Postgres with fine grained access control https://github.com/hasura/graphql-engine
+  - https://news.ycombinator.com/item?id=17540263
 
 ## Java
 
