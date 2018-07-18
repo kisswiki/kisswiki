@@ -58,6 +58,12 @@ https://stackoverflow.com/questions/2087532/troubleshooting-techniques-for-emacs
 
 https://emacs.stackexchange.com/questions/169/how-do-i-reload-a-file-in-a-buffer
 
+## save file with different name and switch to it
+
+`C-x C-w` `wirte-file`
+
+https://emacs.stackexchange.com/questions/2849/save-current-file-with-a-slightly-different-name
+
 ## move lines
 
 `M-<up>` 'drag-stuff-up
