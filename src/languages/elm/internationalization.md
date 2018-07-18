@@ -9,3 +9,5 @@
 - Bringing localization to Elm with L20n.js https://groups.google.com/forum/#!topic/elm-discuss/_vtRUqJFpP4
 - http://package.elm-lang.org/packages/RoyalIcing/inflexio/latest
 - http://package.elm-lang.org/packages/utkarshkukreti/elm-inflect/latest
+- https://discourse.elm-lang.org/t/internationalization-localization-api-draft/106
+  - https://github.com/kirchner/elm-cldr
