@@ -79,3 +79,28 @@ Może się również zdarzyć, że miesięczne koszty utrzymania dziecka zostan�
 Na wysokość świadczenia alimentacyjnego wpływ mają nie tylko usprawiedliwione potrzeby uprawnionego, lecz także majątkowe i zarobkowe możliwości zobowiązanego, dlatego składając apelację od wyroku sądu I instancji warto zwrócić uwagę, czy sąd dokonał poprawnych ustaleń w tym zakresie, a więc np. czy poprawnie oszacował koszt miesięcznych wydatków, które zobowiązany musi wyłożyć na swoje utrzymanie, bądź czy prawidłowo zostały ustalone możliwości zarobkowe zobowiązanego, gdyż np. na skutek choroby lub kalectwa mogą być one mniejsze.
 
 http://www.szybki-rozwod.info/sad-zasadzil-wysokie-alimenty-kiedy-jest-szansa-na-skuteczna-apelacje/
+
+##
+
+No ale jak straci prace i z kazdej innej beda go wyrzucali, to nie jego wina. Poza tym sytuacja moze odbic sie na jego zdrowiu psychicznym, moze wymagac leczenia, to wszystko kosztuje i wplywa na wysokosc alimentów. Niech jego rodzie go pozwa o alimenty tez. Potem na rozprawie powie, ze musi placic rodzicom, leczyc sie, stracil prace, ze jego zycie jest w ruinie, ze chce placic na to dziecko, ale nie ma jak. Wtedy sad ma prawo obnizyc kwote alimentów.
+
+Kazde dziecko w malzenstwie jest od razu "domyslnie" uznawane za dziecko meza. Niestety takie mamy prawo, ze w tej kwestii promuje rozwiazlosc ze strony kobiety tlumaczac to oczywiscie dobrem dziecka. Jak dla mnie skurwysynstwo w czystej postaci.
+
+
+>wyjechac gdzies za granice i miec w dupie nieswojego bachora i szlaufa.
+
+@FLAC: nie bardzo mozna sobie na to pozwolic bo: 
+- wtedy komornik przejmuje egzekucje,
+- babce zapewne byly by alimenty placone z funduszu alimentacyjnego a to wszystko by powiekszalo jego zadluzenie a kiedys musialby wrócic a wtedy czekalaby go splata
+- od roku czasu jest tak , ze gdy rodzic nie placi alimentów zostaje scigany i moze dostac odsiadke zgodnie z art. 209 par. 1 i 3 ustawy z dnia 6 czerwca 1997 r. - Kodeks karny i jesli pojawi sie z powrotem w kraju to zostaje doprowadzony do prokuratury
+
+Wiec jak widzisz powyzej sa same minusy takiej ucieczki a znam to z zycia.
+
+
+Nie do konca. W polskim prawie po uplywie 6 miesiecy facet nie moze juz wnioskowac o zaprzeczenie ojcostwa. Co ciekawe - matka tez (to taka ciekawostka - slyszal ktos o kobiecie chowajacej cudze dzieci?).
+
+Jednakze - prokurator moze wytoczyc powództwo o zaprzeczenie ojcostwa. Dziwi mnie, ze prokurator z artykulu nie chce tego zrobic - przeciez jego obowiazkiem jest ustalenie faktycznego stanu prawnego, a podstawowe przeslanki podajace w watpliwosc obecny stan prawny (test DNA dostarczony przez pana Adama) zostaly spelnione.
+
+I to jest problem. Prokurator nie ma obowiazku wytaczac powództwa! Tutaj nastepuje UZNANIOWOSC, czyli najgorsze, najbardziej patologiczne i korupcjogenne gówno wynalezione przez jurystów. W tej konkretnej sytuacji Jasnie Oswiecony i Wszystkowiedzacy Pan Prokurator w swojej wielkiej laskawosci uznal, ze test DNA to za malo, aby podwazyc ojcostwo pana Adama. I co mu zrobisz???
+
+https://www.wykop.pl/link/4424081/od-lat-musi-placic-alimenty-mimo-ze-ma-badania-dna-wykluczajace-jego-ojcostwo/
