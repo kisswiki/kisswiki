@@ -83,3 +83,11 @@ https://emacs.stackexchange.com/questions/27885/how-to-get-the-same-emacs-enviro
 ## package.el
 
 straight.el disables all of these "features" by setting package-enable-at-startup to nil and enabling some advices. https://github.com/raxod502/straight.el#integration-with-packageel
+
+## lazy loading
+
+In almost all cases you don't need to manually specify :defer t. This is implied whenever :bind or :mode or :interpreter is used. Typically, you only need to specify :defer if you know for a fact that some other package will do something to cause your package to load at the appropriate time, and thus you would like to defer loading even though use-package isn't creating any autoloads for you.
+
+You can override package deferral with the :demand keyword. Thus, even if you use :bind, using :demand will force loading to occur immediately and not establish an autoload for the bound key.
+
+https://github.com/jwiegley/use-package#notes-about-lazy-loading
