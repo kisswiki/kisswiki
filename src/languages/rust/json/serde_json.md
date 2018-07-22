@@ -61,3 +61,7 @@ features = ["serde-1"]
 ```
 
 https://github.com/serde-rs/serde/issues/269
+
+## sort HashMap keys when serializing
+
+https://stackoverflow.com/questions/42723065/how-to-sort-hashmap-keys-when-serializing-with-serde
