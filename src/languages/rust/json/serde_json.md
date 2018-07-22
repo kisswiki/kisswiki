@@ -11,6 +11,16 @@
 
 https://users.rust-lang.org/t/solved-serde-json-deserialize-unknown-json-structure-to-primitive-types/9369/2
 
+## deserialize to serde_json::Value
+
+```rust
+    let data_json: serde_json::Value =
+        serde_json::from_str(&data).expect("JSON was not well-formatted");
+    println!("data_json: \n{}", serde_json::to_string_pretty(&data_json).unwrap());
+```
+
+https://stackoverflow.com/questions/30292752/how-do-i-parse-a-json-file
+
 ## untyped JSON values
 
 - https://github.com/serde-rs/json#operating-on-untyped-json-values
