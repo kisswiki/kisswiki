@@ -1,0 +1,4 @@
+- Clean Disruption - Why Energy & Transportation will be Obsolete by 2030 - Oslo, March 2016 https://youtu.be/Kxryv2XrnqM
+- https://www.electricitymap.org/?page=map&solar=false&remote=true&wind=false
+- https://electricityproduction.uk/
+- http://www.gridwatch.templar.co.uk/
