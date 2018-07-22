@@ -89,3 +89,13 @@ https://github.com/serde-rs/serde/issues/269
 ## sort HashMap keys when serializing
 
 https://stackoverflow.com/questions/42723065/how-to-sort-hashmap-keys-when-serializing-with-serde
+
+## from file
+
+```rust
+
+    let deserialized_camera: SomeDataType =
+        serde_json::from_reader(json_file).expect("error while reading json");
+```
+
+https://github.com/serde-rs/serde/issues/1195#issuecomment-376438893
