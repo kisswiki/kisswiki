@@ -10,6 +10,11 @@ This is somewhat obvious for the more experienced Rust users, but I daresay not 
 
 https://www.reddit.com/r/rust/comments/66ijih/announcing_serde_100_zerocopy_deserialization_and/dgj2914/
 
+## rename
+
+- https://serde.rs/attr-rename.html
+- https://serde.rs/container-attrs.html
+
 ## How can I add serde rename for whole file, for every struct which has serialize/deserialize?
 
 13:20	oli_obk_	rofrol: you can't. The rename is parsed as part of the `derive(Serialize)`
