@@ -45,3 +45,19 @@ fn main() {
 ```
 
 https://stackoverflow.com/questions/42722169/generate-pretty-indented-json-with-serde/49087292#49087292
+
+## preserve insertion order
+
+Use indexedmap https://github.com/bluss/indexmap
+
+`cargo add indexedmap`
+
+In Cargo.toml
+
+```toml
+[dependencies.indexmap]
+version = "1.0.1"
+features = ["serde-1"]
+```
+
+https://github.com/serde-rs/serde/issues/269
