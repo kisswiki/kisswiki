@@ -56,6 +56,20 @@ fn main() {
 
 https://stackoverflow.com/questions/42722169/generate-pretty-indented-json-with-serde/49087292#49087292
 
+## pretty print with custom indentation
+
+```rust
+    let obj = json!({"foo":1,"bar":2});
+
+    let buf = Vec::new();
+    let formatter = serde_json::ser::PrettyFormatter::with_indent(b"    ");
+    let mut ser = serde_json::Serializer::with_formatter(buf, formatter);
+    obj.serialize(&mut ser).unwrap();
+    println!("{}", String::from_utf8(ser.into_inner()).unwrap());
+```
+
+https://stackoverflow.com/questions/42722169/generate-pretty-indented-json-with-serde/49087292#49087292
+
 ## preserve insertion order
 
 Use indexedmap https://github.com/bluss/indexmap
