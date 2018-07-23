@@ -30,13 +30,15 @@ https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md#manual-filtering-file
 
 ## path separator
 
-`rg --files -telm --path-separator /`
+`rg --files -telm --path-separator //`
 
 Works in cmd.exe, but not in git bash.
 
+For git bash use `//` ot '\x2F'.
+
 ## find files
 
-`rg --files -telm --path-separator /`
+`rg --files -telm --path-separator //`
 
 ### On Windows reverse slashes
 
