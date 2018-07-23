@@ -17,7 +17,10 @@ you may also want to add `.create(true)`.
 `.write(true).append(false)` does not seem to work on Windows. User
 
 ```rust
+use std::io::{Seek, SeekFrom};
+//...
     file.set_len(0)?;
+	file.seek(SeekFrom::Start(0))?;
     file.write_all(out.as_bytes())?;
 ```
 
