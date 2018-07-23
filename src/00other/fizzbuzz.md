@@ -1,0 +1,1 @@
+- An integer formula for Fibonacci numbers (2015) (paulhankin.net) https://news.ycombinator.com/item?id=17589585
