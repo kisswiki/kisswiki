@@ -1,0 +1,1 @@
+- https://www.makeuseof.com/tag/7-useful-tricks-mastering-new-programming-language/
