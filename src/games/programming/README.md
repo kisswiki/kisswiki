@@ -1,0 +1,35 @@
+- The 10 Best Programming Games to Test and Build Your Coding Skills https://www.makeuseof.com/tag/best-programming-games/
+- https://skillcrush.com/2017/04/03/free-coding-games/
+- https://en.m.wikipedia.org/wiki/Programming_game
+- https://en.m.wikipedia.org/wiki/Category:Programming_games
+- https://code.org
+- https://www.codingame.com
+- https://codecombat.com
+- https://store.steampowered.com/bundle/3027/Hacknet__Complete_Edition/
+  - Hacknet PL #1 - GRAmy! | Haksy i cracksy https://youtu.be/avo627UaYqs
+  - http://hacknet.wikia.com/wiki/Hacknet_Wikia
+- http://robocode.sourceforge.net/
+- https://www.codewars.com/
+- https://store.steampowered.com/app/504210/SHENZHEN_IO/
+  - Shenzhen I/O PL #1 - GRAmy! | Mikrokontrolery i inne bajery https://youtu.be/I3ABhIYiwYg
+- https://store.steampowered.com/app/370360/TIS100/
+- https://store.steampowered.com/app/300570/Infinifactory/
+- https://store.steampowered.com/app/92800/SpaceChem/
+- https://store.steampowered.com/app/246070/Hack_n_Slash/
+- Maybe programming? https://store.steampowered.com/app/254320/Duskers/
+- http://store.steampowered.com/app/375820/Human_Resource_Machine/
+- http://store.steampowered.com/app/464350/Screeps/
+- Javascript http://play.elevatorsaga.com/
+- Javascript https://alexnisnevich.github.io/untrusted/
+- Javascript and Python https://checkio.org/
+- Ruby https://www.bloc.io/ruby-warrior
+- CSS https://flukeout.github.io/
+- Flexbox and CSS http://flexboxfroggy.com/#pl
+- Flexbox and CSS http://www.flexboxdefense.com/
+- Coffeescript https://www.playcodemonkey.com/
+- https://www.git-game.com/
+- https://learngitbranching.js.org/
+- https://github.com/Gazler/githug
+- http://try.github.io/
+- http://gitimmersion.com
+- http://www.hacker.org/
