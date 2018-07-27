@@ -1,4 +1,4 @@
-- https://github.com/elm-community/graph
+- http://package.elm-lang.org/packages/elm-community/graph/latest
 - http://package.elm-lang.org/packages/zwilias/elm-tree/latest
 
 ## Cyclic
