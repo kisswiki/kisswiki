@@ -1,8 +1,26 @@
-- Doing the letter fall thing in Elm http://bl.ocks.org/jmarca/90393db9433ee8e91fd65e8836a6a3d3
-- https://github.com/terezka/line-charts
-  - https://github.com/terezka/elm-plot
-- https://github.com/Fresheyeball/elm-chartjs
-- it is almost a straight port of parts of the D3 library https://github.com/gampleman/elm-visualization 
-- https://github.com/seliopou/elm-d3
-- https://github.com/gicentre/elm-vega
-- https://github.com/gampleman/elm-visualization
+- https://github.com/elm-community/graph
+- http://package.elm-lang.org/packages/zwilias/elm-tree/latest
+
+## Cyclic
+
+
+```elm
+type alias Graph a =
+  Dict Int (Node a)
+
+type alias Node a =
+  { edges : List Int
+  , info : a
+  }
+```
+
+https://twitter.com/czaplic/status/859835338981687296
+
+## Rose tree
+
+>a multi-way tree or rose tree is a tree data structure with a variable and unbounded number of branches per node https://en.m.wikipedia.org/wiki/Rose_tree
+
+- http://package.elm-lang.org/packages/zwilias/elm-rosetree/latest
+- http://package.elm-lang.org/packages/turboMaCk/lazy-tree-with-zipper/latest
+- https://github.com/tomjkidd/elm-multiway-tree-zipper/
+- http://package.elm-lang.org/packages/bardt/elm-rosetree/latest/RoseTree
