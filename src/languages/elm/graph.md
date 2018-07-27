@@ -22,5 +22,5 @@ https://twitter.com/czaplic/status/859835338981687296
 
 - http://package.elm-lang.org/packages/zwilias/elm-rosetree/latest
 - http://package.elm-lang.org/packages/turboMaCk/lazy-tree-with-zipper/latest
-- https://github.com/tomjkidd/elm-multiway-tree-zipper/
+- http://package.elm-lang.org/packages/tomjkidd/elm-multiway-tree-zipper/latest
 - http://package.elm-lang.org/packages/bardt/elm-rosetree/latest/RoseTree
