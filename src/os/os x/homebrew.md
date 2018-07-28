@@ -1,3 +1,9 @@
+## uninstall homebrew
+
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"`
+
+https://superuser.com/questions/203707/how-to-uninstall-homebrew#295772
+
 ## update
 
 ```
@@ -85,3 +91,7 @@ Then re-install it:
 - https://caskroom.github.io/search
 
 `brew cask search | rg mono`
+
+## brew update - error with ruby
+
+https://apple.stackexchange.com/questions/153790/how-to-fix-brew-after-osx-upgrade-to-yosemite
