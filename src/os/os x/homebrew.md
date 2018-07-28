@@ -1,6 +1,25 @@
 ## uninstall homebrew
 
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"`
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+#...
+The following possible Homebrew files were not deleted:
+/usr/local/.com.apple.installer.keep
+/usr/local/apache-tomcat-7.0.29/
+/usr/local/bin/
+/usr/local/etc/
+/usr/local/go/
+/usr/local/include/
+/usr/local/info/
+/usr/local/lib/
+/usr/local/libexec/
+/usr/local/man/
+/usr/local/n/
+/usr/local/rvm/
+/usr/local/sbin/
+/usr/local/share/
+/usr/local/texlive/
+```
 
 https://superuser.com/questions/203707/how-to-uninstall-homebrew#295772
 
