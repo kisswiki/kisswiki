@@ -1,3 +1,5 @@
+- https://discourse.elm-lang.org/t/display-full-msg-in-elm-debugger-sidebar/1578
+- https://github.com/utkarshkukreti/elm-remotedev
 - http://faq.elm-community.org/#how-can-i-write-debugging-information-to-the-console
 - [Elm’s Time Traveling Debugger](http://debug.elm-lang.org/)
 - it improves the time traveling debugger created by Laszlo Pandy and Evan Czaplicki, turning it into a practical development tool [source](http://elm-lang.org/blog/time-travel-made-easy)
