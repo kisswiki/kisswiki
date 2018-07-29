@@ -6,3 +6,5 @@
 - getting mouse position relative to an SVG element https://github.com/fredcy/elm-svg-mouse-offset
 - draw polygon https://ellie-app.com/jYTfqG92Ga1/1
   - http://timothypratley.blogspot.com/2016/09/elm-vs-clojurescript-first-encounter.html
+- particles https://discourse.elm-lang.org/t/need-help-with-performance-dynamic-particles/1570/5
+  - https://ellie-app.com/TmJLmt2LqNa1
