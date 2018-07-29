@@ -55,7 +55,7 @@ https://apple.stackexchange.com/questions/33354/how-to-know-what-packages-are-av
 
 ## list files for package
 
-`brew ls --verbose <package>`
+`brew ls --verbose <package>` or `brew ls -v <package>`
 
 https://stackoverflow.com/questions/19010784/list-all-files-in-a-homebrew-package
 
