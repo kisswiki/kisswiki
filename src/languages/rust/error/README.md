@@ -2,3 +2,4 @@
 - https://github.com/brson/error-chain
 - https://doc.rust-lang.org/book/error-handling.html
 - https://www.reddit.com/r/rust/comments/8lt8k6/do_i_really_need_failureerrorchain/
+- https://www.reddit.com/r/rust/comments/8dvldm/why_rusts_error_handling_is_awesome/
