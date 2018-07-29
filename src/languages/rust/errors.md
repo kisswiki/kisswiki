@@ -1,2 +1,0 @@
-- https://github.com/brson/error-chain
-- https://doc.rust-lang.org/book/error-handling.html
