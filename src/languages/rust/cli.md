@@ -4,3 +4,4 @@
 - https://mattgathu.github.io/writing-cli-app-rust/
 - http://asquera.de/blog/2018-01-20/getting-started-with-rust-on-the-command-line/
 - https://stackoverflow.com/questions/15619320/how-to-access-command-line-parameters
+- https://blog.kuviman.com/2018/07/20/glitchcat.html
