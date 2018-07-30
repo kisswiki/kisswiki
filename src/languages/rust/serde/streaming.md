@@ -1,0 +1,7 @@
+- Stream top-level array https://github.com/serde-rs/serde/issues/1107
+- https://www.reddit.com/r/rust/comments/83a7iv/memoryefficient_parsing_of_a_large_amount_of_json/
+  - https://serde.rs/impl-deserialize.html
+  - https://serde.rs/stream-array.html
+  - https://docs.serde.rs/serde_json/struct.StreamDeserializer.html
+  - https://github.com/pikkr/pikkr
+  - https://github.com/Byron/json-tools
