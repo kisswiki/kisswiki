@@ -79,3 +79,21 @@ https://addons.mozilla.org/en-US/firefox/addon/max-tabs-web-ext
 ## translate
 
 - https://addons.mozilla.org/en-US/firefox/addon/google-translate-for-firefox/?src=search
+
+## Container
+
+- https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
+  - After uinstall and install of addon, I was able to click "Always open in default".
+  - Press `+` longer to see menu with container types.
+- https://addons.mozilla.org/en-US/firefox/addon/sticky-containers/
+- https://addons.mozilla.org/en-US/firefox/addon/containers-on-the-go/
+- https://addons.mozilla.org/en-US/firefox/addon/context-plus/
+
+### Not tried yet
+
+- https://addons.mozilla.org/en-US/firefox/addon/switch-container-plus/
+- https://addons.mozilla.org/en-US/firefox/addon/close-container/
+
+##
+
+https://addons.mozilla.org/en-US/firefox/addon/lightbeam/
