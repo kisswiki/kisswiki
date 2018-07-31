@@ -7,6 +7,7 @@
 - Fuzz Testing: How to write 500 tests in 5 minutes https://youtu.be/rpnmCM9uzzw
 - Verify examples in your docs https://github.com/stoeffel/elm-verify-examples
 - https://discourse.elm-lang.org/t/elm-test-tables-a-collection-of-useful-elm-test-extensions/1313
+- Verify examples in your docs https://github.com/stoeffel/elm-verify-examples
 
 ## elm-test - Access is denied
 
