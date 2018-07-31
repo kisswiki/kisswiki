@@ -19,20 +19,22 @@ module Main exposing (main)
 
 import Html
 
+
 type alias Model =
     Int
-    
-type Msg = NoOp
 
+
+type Msg
+    = NoOp
 
 
 main : Program Never Model Msg
 main =
     Html.program
         { view = \_ -> Html.text "asadf"
-        , update = \_ _ -> (1, Cmd.none)
+        , update = \_ _ -> ( 1, Cmd.none )
         , subscriptions = \_ -> Sub.none
-        , init = (1, Cmd.none)
+        , init = ( 1, Cmd.none )
         }
 ```
 
