@@ -49,6 +49,19 @@ full-screen-api.warning.timeout: 0
 - https://support.mozilla.org/pl/questions/1092730
 - https://support.mozilla.org/pl/questions/1100620
 
+## fullscreen F11 delay disable
+
+`<profile>/chrome/userChrome.css`:
+
+``` css
+#navigator-toolbox[fullscreenShouldAnimate] {
+    transition: none !important;
+}
+```
+
+- https://www.reddit.com/r/firefox/comments/73ku5b/disabling_the_fullscreen_animation_in_quantum/dnr1zd1/
+- http://kb.mozillazine.org/index.php?title=UserChrome.css
+
 ##
 
 https://addons.mozilla.org/pl/firefox/addon/dont-touch-my-tabs
@@ -62,3 +75,7 @@ https://addons.mozilla.org/en-US/firefox/addon/max-tabs-web-ext
 `about:config`
 
 `browser.fullscreen.autohide: false`
+
+## translate
+
+- https://addons.mozilla.org/en-US/firefox/addon/google-translate-for-firefox/?src=search
