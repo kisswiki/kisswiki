@@ -1,0 +1,3 @@
+- https://rufflewind.com/2014-07-20/pasting-unicode-in-emacs-on-windows
+- https://goyoambrosio.com/2018/06/Dealing-with-utf-8-in-Emacs/
+- https://www.emacswiki.org/emacs/ReplaceGarbageChars
