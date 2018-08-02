@@ -1,0 +1,9 @@
+/* https://www.reddit.com/r/firefox/comments/73tvwx/disable_fullscreen_animation_f11_but_keep_showing/ */
+#navigator-toolbox[fullscreenShouldAnimate] {
+transition: none !important;
+}
+
+/* https://www.reddit.com/r/firefox/comments/74patk/is_there_a_way_to_make_tabs_always_display_the/dqemkji/ */
+.tabbrowser-tab:not([pinned="true"]):hover .tab-close-button:not([selected="true"]) {
+  display: -moz-box !important;
+}
