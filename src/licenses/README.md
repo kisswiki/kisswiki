@@ -56,6 +56,7 @@ Reusable without rewording: Apache License 2.0 can be easily used by other proje
 
 ## Apache
 
+- https://softwareengineering.stackexchange.com/questions/307610/using-the-apache-license-2-0-by-reference-only/307627#307627
 - http://www.apache.org/licenses/GPL-compatibility.html
 - http://www.apache.org/legal/resolved.html#required-third-party-notices
 - https://www.quora.com/Is-the-trademark-portion-of-Apache-2-0-license-unnecessary
