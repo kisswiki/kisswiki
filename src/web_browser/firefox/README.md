@@ -83,7 +83,7 @@ https://addons.mozilla.org/en-US/firefox/addon/max-tabs-web-ext
 ## Container
 
 - https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
-  - After uinstall and install of addon, I was able to click "Always open in default".
+  - After uninstall and install of addon, I was able to click "Always open in default".
   - Press `+` longer to see menu with container types.
 - https://addons.mozilla.org/en-US/firefox/addon/sticky-containers/
 - https://addons.mozilla.org/en-US/firefox/addon/containers-on-the-go/
