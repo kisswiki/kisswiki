@@ -1,6 +1,6 @@
 - http://softwaremaniacs.org/blog/2016/02/12/ownership-borrowing-hard/en/
 - web frameworks https://github.com/flosse/rust-web-framework-comparison
-- https://www.reddit.com/r/rust/comments/4yzx7x/hey_rustaceans_got_an_easy_question_ask_here/
+- https://www.reddit.com/r/rust/comments/7wx68g/does_rust_have_a_lot_of_learning_resources_for/du3w82f/
 
 ## About
 
