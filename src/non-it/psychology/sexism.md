@@ -1,0 +1,2 @@
+- http://www.realsexism.com/
+- http://swiadomosc-zwiazkow.pl/rownouprawnienie-kobiet-to-dyskryminacja-mezczyzn/
