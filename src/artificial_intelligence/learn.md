@@ -31,6 +31,8 @@
 - https://en.wikipedia.org/wiki/Types_of_artificial_neural_networks
 - https://en.wikipedia.org/wiki/Automatic_differentiation
 - https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies
+- https://research.fb.com/the-facebook-field-guide-to-machine-learning-video-series/
+
 ## Practice
 
 - http://iamtrask.github.io/2015/07/12/basic-python-network/
