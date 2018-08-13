@@ -1,1 +1,7 @@
 - https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/
+- https://github.com/danielmiessler/SecLists
+- https://haveibeenpwned.com/Passwords
+  - https://www.troyhunt.com/introducing-306-million-freely-downloadable-pwned-passwords/
+    - https://github.com/danielmiessler/SecLists/issues/132#issuecomment-319942198
+- https://github.com/mozilla/fxa-common-password-list
+- https://github.com/berzerk0/Probable-Wordlists/tree/master/Real-Passwords
