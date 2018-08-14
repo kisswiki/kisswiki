@@ -1,0 +1,1 @@
+- https://superuser.com/questions/146577/where-do-i-find-nmake-for-windows-7-x64/1032738#1032738
