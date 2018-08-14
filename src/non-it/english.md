@@ -1,1 +1,2 @@
 - https://www.grammarly.com/
+- https://www.wykop.pl/link/4471031/what-if-english-were-phonetically-consistent/
