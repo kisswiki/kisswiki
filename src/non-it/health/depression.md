@@ -1,3 +1,15 @@
+Depresja powoduje zmiany w hipokamipie, osoby ze stwierdzoną depresją mają mniejszą objętość hipokampa. Ćwiczenia fizyczne doprowadzają do lepszego ukrwienia mózgu i znacznie lepszego ukrwienia hipokampa. Hipokamp to jedyne miejsce gdzie zachodzi neurogeneza w dorosłym mózgu.
+
+Bieganie itd. podnosi neurogenezę w hipokampie, czyli robi dokładnie na odwrót co robi depresja.
+
+Nowa klasa leków przeciwdepresyjnych, jest nakierowana na zwiększanie neurogenezy. Jeśli aktywność fizyczna robi to co robią leki które obecnie są w fazie klinicznej i mają dobre wyniki, to związek jest oczywisty.
+
+Depresja to choroba neurodegeneracyjna. To nie jest bycie smutnym, tylko fizyczna zmiana w strukturze mózgu. Jeśli aktywność fizyczna wpływa pozytywnie na mózg, to znaczy że wpływa też pozytywnie na depresję która jest efektem "uszkodzenia" mózgu. Kiedyś być może będziemy mieli na tyle dobrą medycynę że będziemy leczyć takie problemy przy użyciu jakichś komórek macierzystych. Zaburzenie balansu takiej serotoniny to pikuś w porównaniu do fizycznej rekonfiguracji konektomu mózgu.
+
+https://www.wykop.pl/link/4469971/badania-wykazuja-ze-ludzie-ktorzy-cwicza-maja-lepsze-zdrowie-psychiczne/
+
+## Links
+
 - https://medicalxpress.com/news/2018-02-years-depression-brain.html
   - Long Term Depression Permanently Changes the Brain https://news.ycombinator.com/item?id=16491986
 - https://ac.els-cdn.com/S1064748117305110/1-s2.0-S1064748117305110-main.pdf?_tid=55b0e2e0-013c-11e8-b35b-00000aab0f01&acdnat=1516822117_7ded3d2cd7f5c27fedf6a8992e549857
