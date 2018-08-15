@@ -37,6 +37,11 @@
 
 `M-x occur` or `M-s o`
 
+- https://www.masteringemacs.org/article/searching-buffers-occur-mode
+- https://ignaciopp.wordpress.com/2009/06/10/customizing-emacs-occur/
+- https://oremacs.com/2015/01/26/occur-dwim/
+- https://emacs.stackexchange.com/questions/7270/include-original-position-from-searched-buffer-in-occur-buffer
+
 ### Regexp
 
 `^[^ ]` does not select only lines which does not start with space.
@@ -47,11 +52,9 @@ I need to use this for Elm:
 
 `C-c C-f` to to enable follow mode
 
-`r` Add file name to Occur window title
+Use arrows or `M-n` and `M-p` to navigate.
 
-- https://www.masteringemacs.org/article/searching-buffers-occur-mode
-- https://ignaciopp.wordpress.com/2009/06/10/customizing-emacs-occur/
-- https://oremacs.com/2015/01/26/occur-dwim/
+`r` Add file name to Occur window title
 
 ### defun
 
