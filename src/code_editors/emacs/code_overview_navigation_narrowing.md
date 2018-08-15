@@ -76,5 +76,6 @@ A common workflow is:
 1. start isearch with `C-s`, then
 2. search for the next word with `C-w`, then
 3. run occur with the current search string with `M-s o`.
+4. You can also use `isearch-forward-symbol-at-point` for the first two steps, so the whole sequence would be: `M-s-.` and `M-s-o`.
 
 https://emacs.stackexchange.com/questions/42264/does-occur-at-point-already-exist/42266#42266
