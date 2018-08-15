@@ -10,6 +10,7 @@
 
 ## Links
 
+- Evan Czaplicki on GraphQL https://gist.github.com/evancz/1c5f2cf34939336ecb79b97bb89d9da6#graphql
 - https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6
 - example https://github.com/graphql/swapi-graphql
   - https://github.com/graphql/swapi-graphql/pull/27
@@ -62,6 +63,8 @@
 >As a veteran MDE practitioner, I can assure you that you are infinitely better off writing code than metadata, be it as a template or a complex query language like GraphQL.
 >
 >-- https://www.infoq.com/articles/no-more-mvc-frameworks
+
+- https://medium.com/@jsonpify/you-dont-need-standup-9a74782517c1
 
 ## Introspection
 
