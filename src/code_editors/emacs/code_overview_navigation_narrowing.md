@@ -56,8 +56,9 @@ Use arrows or `M-n` and `M-p` to navigate.
 
 See context of 3 lines: `C-u 3 M-s o`
 
-`r` Add file name to Occur window title
+re-run the occur command by pressing `g` in the output buffer
 
+`r` Add file name to Occur window title
 ### defun
 
 ```elisp
@@ -84,3 +85,7 @@ A common workflow is:
 4. You can also use `isearch-forward-symbol-at-point` for the first two steps, so the whole sequence would be: `M-s-.` and `M-s-o`.
 
 https://emacs.stackexchange.com/questions/42264/does-occur-at-point-already-exist/42266#42266
+
+## search a set of buffers that match a specific major mode
+
+https://www.masteringemacs.org/article/searching-buffers-occur-mode
