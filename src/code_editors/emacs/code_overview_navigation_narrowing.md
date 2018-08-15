@@ -35,4 +35,10 @@
 
 ## Occur
 
+`^[^ ]` does not select only lines which does not start with space.
+
+I need to use this
+
+`^[a-z].*\(:.+$\|=$\)`
+
 - https://www.masteringemacs.org/article/searching-buffers-occur-mode
