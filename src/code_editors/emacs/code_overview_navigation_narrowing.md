@@ -54,6 +54,8 @@ I need to use this for Elm:
 
 Use arrows or `M-n` and `M-p` to navigate.
 
+See context of 3 lines: `C-u 3 M-s o`
+
 `r` Add file name to Occur window title
 
 ### defun
