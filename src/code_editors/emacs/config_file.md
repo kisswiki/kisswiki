@@ -218,6 +218,7 @@ https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el
 
 - https://github.com/vidjuheffex/dotemacs/blob/master/emacs.org
 - for straight.el you need special configuration https://github.com/raxod502/straight.el/issues/9#issuecomment-337700460
+- https://emacs.stackexchange.com/questions/3143/can-i-use-org-mode-to-structure-my-emacs-or-other-el-configuration-file
 
 ## sharp quote or pound quote `#'`
 
