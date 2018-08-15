@@ -32,3 +32,7 @@
 ## Hideshow
 
 - https://superuser.com/questions/576447/enable-hideshow-for-more-modes-e-g-ruby
+
+## Occur
+
+- https://www.masteringemacs.org/article/searching-buffers-occur-mode
