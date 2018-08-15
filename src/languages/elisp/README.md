@@ -6,3 +6,4 @@
 - https://github.com/chrisdone/elisp-guide
 - https://emacs-doctor.com/learn-emacs-lisp-in-15-minutes.html
 - http://emacslife.com/how-to-read-emacs-lisp.html
+- https://github.com/hypernumbers/learn_elisp_the_hard_way
