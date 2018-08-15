@@ -7,7 +7,7 @@
 - http://wikemacs.org/wiki/Folding
 - https://myriadicity.net/software-and-systems/craft/emacs-allout
 - https://stackoverflow.com/questions/1208622/code-folding-in-emacs
-- `M-x occur`
+- https://github.com/alphapapa/navi
 
 ## Emacs Outline
 
@@ -37,8 +37,14 @@
 
 `^[^ ]` does not select only lines which does not start with space.
 
-I need to use this
+I need to use this for Elm:
 
 `^[a-z].*\(:.+$\|=$\)`
 
+`C-c C-f` to to enable follow mode
+
+`r` Add file name to Occur window title
+
 - https://www.masteringemacs.org/article/searching-buffers-occur-mode
+- https://ignaciopp.wordpress.com/2009/06/10/customizing-emacs-occur/
+- https://oremacs.com/2015/01/26/occur-dwim/
