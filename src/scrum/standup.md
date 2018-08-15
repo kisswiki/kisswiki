@@ -1,0 +1,1 @@
+- https://medium.com/@jsonpify/you-dont-need-standup-9a74782517c1
