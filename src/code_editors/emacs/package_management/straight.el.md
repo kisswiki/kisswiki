@@ -91,3 +91,14 @@ In almost all cases you don't need to manually specify :defer t. This is implied
 You can override package deferral with the :demand keyword. Thus, even if you use :bind, using :demand will force loading to occur immediately and not establish an autoload for the bound key.
 
 https://github.com/jwiegley/use-package#notes-about-lazy-loading
+
+## custom git repo for example gist
+
+```elisp
+(use-package nice-jumper
+  :straight (:repo "https://gist.github.com/malb/71acc6c33fa35e075f85fcab1cd5c318" :files ("nice-jumper.el"))
+  :commands nice-jumper-mode
+  :bind
+  (("C-," . nice-jumper/backward)
+   ("C-." . nice-jumper/forward)))
+```
