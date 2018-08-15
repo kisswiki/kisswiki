@@ -89,3 +89,5 @@ https://emacs.stackexchange.com/questions/42264/does-occur-at-point-already-exis
 ## search a set of buffers that match a specific major mode
 
 https://www.masteringemacs.org/article/searching-buffers-occur-mode
+
+## swiper is like occur and help-swoop
