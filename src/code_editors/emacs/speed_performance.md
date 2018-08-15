@@ -69,3 +69,13 @@ As for the crash: any crash is a very likely sign of a bug in Emacs, so M-x repo
 Do M-x toggle-debug-on-quit, and then hit C-g during the next lag. You'll get a backtrace that includes the command/function being evaluated at this time, and typically there's some suspicious function whose name gives the plugin away, which causes the lags.
 
 - https://stackoverflow.com/questions/25318722/emacs-slow-and-lags-often-how-to-debug
+
+## long lines
+
+setting
+
+`(setq-default bidi-display-reordering nil)`
+
+improved my emacs setup performance greatly (for the very long lines situation)
+
+https://www.reddit.com/r/emacs/comments/6ztnj9/what_are_the_things_that_you_do_not_like_in_emacs/dn08s4e/
