@@ -5,3 +5,7 @@
 ##
 
 >Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains. - Steve Jobs
+
+##
+
+>Programming is an art. Don't spend all your time sharpening your pencil when you should be drawing. https://www.hackingwithswift.com/
