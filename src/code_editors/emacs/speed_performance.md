@@ -126,6 +126,7 @@ If your Emacs is slow, you should find the package(s) which slow it down, e.g., 
 - https://emacs.stackexchange.com/questions/806/profile-a-command-by-wall-time
 - https://oremacs.com/2015/02/24/emacs-speed-test/
 - https://blog.d46.us/advanced-emacs-startup/
+- https://stackoverflow.com/questions/6724471/git-slows-down-emacs-to-death-how-to-fix-this
 
 ## flyspell-lazy
 
