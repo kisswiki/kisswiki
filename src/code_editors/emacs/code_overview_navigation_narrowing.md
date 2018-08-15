@@ -35,6 +35,10 @@
 
 ## Occur
 
+`M-x occur` or `M-s o`
+
+### Regexp
+
 `^[^ ]` does not select only lines which does not start with space.
 
 I need to use this for Elm:
@@ -48,3 +52,29 @@ I need to use this for Elm:
 - https://www.masteringemacs.org/article/searching-buffers-occur-mode
 - https://ignaciopp.wordpress.com/2009/06/10/customizing-emacs-occur/
 - https://oremacs.com/2015/01/26/occur-dwim/
+
+### defun
+
+```elisp
+(defun toc ()
+  "Show a 'Table of Contents' for the current file using occur"
+  (interactive)
+  (let (regexp
+        (case-fold-search nil))
+    (if (derived-mode-p 'cperl-mode)  ;; for perl
+        (setq regexp "^\\(sub\\|has\\|=head1\\|requires\\) ")
+      (setq regexp "^function "))     ;; for everything else
+    (occur regexp)))
+```
+
+- https://emacs.stackexchange.com/questions/35105/how-can-i-make-occurs-regexp-matching-case-sensitive
+
+### Workflow
+
+A common workflow is:
+
+1. start isearch with `C-s`, then
+2. search for the next word with `C-w`, then
+3. run occur with the current search string with `M-s o`.
+
+https://emacs.stackexchange.com/questions/42264/does-occur-at-point-already-exist/42266#42266
