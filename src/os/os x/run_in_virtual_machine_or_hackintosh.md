@@ -1,0 +1,2 @@
+- ESXi VM https://news.ycombinator.com/item?id=17763855
+  - Osx-kvm: Run macOS on QEMU/KVM https://github.com/kholia/OSX-KVM
