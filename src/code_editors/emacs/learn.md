@@ -28,4 +28,29 @@ C-h w Display which keystrokes invoke the given command (where-is)
 
 You can use C-h ? to see what else it provided.
 
-https://www.reddit.com/r/emacs/comments/1udtd1/starting_emacs_with_preludestarter_kits_scares_me/
+C-h r	Emacs section of the info manual
+
+C-h c	describe-command
+
+C-h a	describe-apropos (search)
+
+C-h m	list all keys assoiciated wth current modes.
+
+C-h n	list all news in this version of emacs.
+
+C-h e	show Message buffer (echo area)
+
+prefix C-h	list all keys belonging to the prefix,
+
+C-x r C-h	example of above code. List all keys with that prefix
+
+Furthermore, to find relevant elisp source code there are several very useful functions:
+
+M-x find-library
+
+M-x find-function
+
+M-x find-variable
+
+- https://www.reddit.com/r/emacs/comments/1udtd1/starting_emacs_with_preludestarter_kits_scares_me/
+- http://home.thep.lu.se/~karlf/emacs.html
