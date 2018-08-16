@@ -44,6 +44,7 @@ Start in safe mode `emacs -Q`
 - https://github.com/angrybacon/dotemacs/blob/master/dotemacs.org#22-point
 - http://www.bartuka.com/emacs/2018/02/02/bartuka's-emacs-config.html
 - Cool And Useful Things for your Init File https://www.emacswiki.org/emacs/DotEmacsChallenge
+- http://home.thep.lu.se/~karlf/emacs.html
 
 ## Location
 
