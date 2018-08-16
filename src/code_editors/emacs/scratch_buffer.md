@@ -29,3 +29,34 @@ changes the current buffer's major mode to Text mode. To find all the modes avai
 M-x apropos-command -mode$ RET
 
 https://stackoverflow.com/questions/234963/re-open-scratch-buffer-in-emacs
+
+## enable lexical binding on start
+
+```elisp
+(add-hook 'lisp-interaction-mode-hook
+      (lambda ()
+         (setq lexical-binding t)))
+```
+
+- https://stackoverflow.com/questions/36192025/add-hook-to-default-mode-when-using-emacs-q-l
+- https://stackoverflow.com/questions/28922280/how-to-enable-minor-modes-for-scratch-buffer
+- https://emacs.stackexchange.com/questions/28658/is-it-possible-to-enable-flyspell-in-scratch-buffers
+- https://emacs.stackexchange.com/questions/3830/why-does-lisp-interaction-mode-exist-and-do-we-ever-need-it
+
+## prevent closing
+
+```elisp
+(add-hook 'kill-buffer-query-functions #'my/dont-kill-scratch)
+(defun my/dont-kill-scratch ()
+  (if (not (equal (buffer-name) "*scratch*"))
+      t
+    (message "Not allowed to kill %s, burying instead" (buffer-name))
+    (bury-buffer)
+    nil))
+```
+
+https://emacs.stackexchange.com/questions/19254/never-close-scratch
+
+## insert when evaluating whole buffer
+
+wrap with `progn` and `C-j` or `(insert (format "%S" value))` and `eval-buffer` or `eval-region`.
