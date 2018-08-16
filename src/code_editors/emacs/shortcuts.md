@@ -14,7 +14,76 @@
 
 `S` means `Shift`
 
-##
+## Help
+
+C-h t for a learning-by-doing tutorial
+
+C-h i for a comprehensive Emacs manual about... almost everything!
+
+C-h k for check what a keystroke do
+
+C-h f for function document/source
+
+C-h v for variable document/source
+
+C-h w Display which keystrokes invoke the given command (where-is)
+
+You can use C-h ? to see what else it provided.
+
+C-h r	Emacs section of the info manual
+
+C-h c	describe-command
+
+C-h a	describe-apropos (search)
+
+C-h m	list all keys assoiciated wth current modes.
+
+C-h n	list all news in this version of emacs.
+
+C-h e	show Message buffer (echo area)
+
+prefix C-h	list all keys belonging to the prefix,
+
+C-x r C-h	example of above code. List all keys with that prefix
+
+Furthermore, to find relevant elisp source code there are several very useful functions:
+
+M-x find-library
+
+M-x find-function
+
+M-x find-variable
+
+`C-h l` or `(view-lossage)`
+
+`C-h i g (elisp) Variable Scoping RET`
+
+C-h v (describe-variable)
+
+`M-x apropos` do search all list symbols
+
+`C-h d` to search in all doc-strings
+
+
+```lisp
+(defun describe-variable-short (var)
+  (interactive "vVariable: ")
+  (message (format "%s: %s" (symbol-name var) (symbol-value var))) )
+(global-set-key "\C-h V" 'describe-variable-short)
+```
+
+Or just type `M-: name RET`
+
+- https://stackoverflow.com/questions/3366972/how-to-check-if-a-variable-is-set-to-what-in-elisp-emacs/20255760#20255760
+- http://ergoemacs.org/emacs/elisp_check_defined.html
+- https://www.reddit.com/r/emacs/comments/1udtd1/starting_emacs_with_preludestarter_kits_scares_me/
+- http://home.thep.lu.se/~karlf/emacs.html
+- https://stackoverflow.com/questions/40618516/where-is-locate-dominating-file-documented
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Examining.html
+- https://stackoverflow.com/questions/3366972/how-to-check-if-a-variable-is-set-to-what-in-elisp-emacs
+
+
+## most used
 
 quit a partially entered command `C-g`
 
