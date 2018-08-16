@@ -2,6 +2,8 @@ Enable with `;; -*- lexical-binding: t -*-`.
 
 >The general rule is: never ever do `(setq lexical-binding t)` because it probably doesn't do what you think. https://stackoverflow.com/questions/35585121/lexical-binding-not-being-enabled-when-evaluating-emacs
 
+Though I need to enable lexical binding for scratch buffer with `(setq lexical-binding t)`.
+
 ```elisp
 (defun func (val)
   (lambda ()
