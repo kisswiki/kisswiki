@@ -255,3 +255,11 @@ After adding `:after ivy`, problems solved:
 `C-c C-k` which is bound to `ivy-switch-buffer-kill`
 
 https://emacs.stackexchange.com/questions/36836/how-to-remove-files-from-recentf-ivy-virtual-buffers/36852#36852
+
+## Ripgrep
+
+When searching `result`, ripgrep will both show lines with `result` and `Result` but only `result` will be highlighted in Swiper.
+
+To overcome this search `[rR]esult`.
+
+To search with word boundaries in ripgrep search with `\bresult\b`.
