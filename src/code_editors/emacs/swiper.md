@@ -22,6 +22,7 @@ you can map 'C-w' to ivy-yank-word:
 
 http://cestlaz.github.io/posts/using-emacs-6-swiper/#comment-3436888755
 
+## Searching and character folding
 
 Having bar match bár is called character folding
 
@@ -29,9 +30,14 @@ Having bar match bár is called character folding
 
 https://emacs.stackexchange.com/questions/42107/unicode-character-folding-with-swiper-ivy
 
+## Keybindings
 
 You can insert symbol at point with M-n - the same key as the history forward, which is one of the recommended Emacs workflows for inserting thing at point.
 
 Additionally, M-j will extend the minibuffer by word at point, similar to what C-w does for isearch.
 
 https://emacs.stackexchange.com/questions/28483/is-it-possible-to-insert-word-at-point-in-swiper
+
+## Workaround for autoscroll without closing swiper
+
+`C-x o` to switch to buffer with file, `C-x o` to go back to swiper.
