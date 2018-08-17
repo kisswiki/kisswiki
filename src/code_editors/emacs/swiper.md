@@ -32,9 +32,11 @@ https://emacs.stackexchange.com/questions/42107/unicode-character-folding-with-s
 
 ## Keybindings
 
-You can insert symbol at point with M-n - the same key as the history forward, which is one of the recommended Emacs workflows for inserting thing at point.
+You can insert symbol at point with `M-n` - the same key as the history forward, which is one of the recommended Emacs workflows for inserting thing at point.
 
-Additionally, M-j will extend the minibuffer by word at point, similar to what C-w does for isearch.
+`M-p` history back.
+
+Additionally, `M-j` will extend the minibuffer by word at point, similar to what `C-w` does for isearch.
 
 https://emacs.stackexchange.com/questions/28483/is-it-possible-to-insert-word-at-point-in-swiper
 
