@@ -1,0 +1,1 @@
+Traditionally it's hard for companies to compete with much cheaper but slightly less performant rivals. That's the whole idea behind "Disruptive Innovation." [Maybe. Traditionally it's hard for companies to compete with much cheaper but s... | Hacker News](https://news.ycombinator.com/item?id=17783702)
