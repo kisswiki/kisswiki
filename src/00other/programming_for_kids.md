@@ -1,1 +1,2 @@
 - https://github.com/HollyAdele/awesome-programming-for-kids
+- https://www.kickstarter.com/projects/primotoys/cubetto-super-series
