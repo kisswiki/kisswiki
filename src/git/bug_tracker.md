@@ -1,0 +1,1 @@
+- [Show HN: git-bug – Distributed bug tracker embedded in git | Hacker News](https://news.ycombinator.com/item?id=17782121)
