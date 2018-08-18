@@ -1,1 +1,2 @@
-http://www.wykop.pl/wpis/17830661/spedzilem-miesiac-na-portalach-randkowych-i-straci/
+- http://www.wykop.pl/wpis/17830661/spedzilem-miesiac-na-portalach-randkowych-i-straci/
+- [Impersonators who are paid to flirt on dating apps | Hacker News](https://news.ycombinator.com/item?id=16936652)
