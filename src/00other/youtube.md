@@ -23,3 +23,7 @@ console.log(title);
   - https://greasyfork.org/pl/scripts/search?q=youtube
   - http://tampermonkey.net/
 - http://keepvid.com/
+
+## Alternatives
+
+- https://github.com/omarroth/invidious
