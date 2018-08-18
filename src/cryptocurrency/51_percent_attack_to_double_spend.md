@@ -1,0 +1,1 @@
+- https://www.ccn.com/website-outlines-the-cost-of-51-attack-on-altcoins-its-lower-than-you-think/amp/
