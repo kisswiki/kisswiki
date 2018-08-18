@@ -1,0 +1,1 @@
+- many examples in the comments [Arm Announces Client CPU Roadmap For Laptops | Hacker News](https://news.ycombinator.com/item?id=17782918)
