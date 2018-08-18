@@ -1,2 +1,3 @@
 - in Ocaml http://fastpack.io/
 - in Rust https://github.com/nathan/pax
+- in Javascript https://github.com/parcel-bundler/parcel
