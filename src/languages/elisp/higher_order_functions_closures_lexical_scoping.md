@@ -18,3 +18,9 @@ Though I need to enable lexical binding for scratch buffer with `(setq lexical-b
 - https://emacs.stackexchange.com/questions/32544/function-that-takes-a-function-as-argument-and-returns-a-new-function#comment50322_32546
 - https://www.emacswiki.org/emacs/LexicalBinding
 - https://www.reddit.com/r/emacs/comments/7y000a/how_to_add_lexicalbinding_t_to_every_new_elisp/
+
+##
+
+Which is more or less the strategy in the Emacs codebase - the intention is to incrementally port to lexical binding on a per-file basis. (This is seen through the annotation -- lexical-binding:t -- at the top of many .el files.)
+
+https://news.ycombinator.com/item?id=17764616
