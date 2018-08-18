@@ -25,3 +25,4 @@
 - http://www.meblant.pl/biurko-z-el.regulacja-wysokosci.xml
 - http://www.lwiki.pl/biurka.php?produkcja=biurko-regulowane
 - https://meblohurt.eu/pl/p/Biurko-z-regulacja-elektryczna-SE-3-Wuteh-160x80/905
+- http://www.mikomaxsmartoffice.pl/produkty/meble-pracownicze/stand-up
