@@ -6,3 +6,5 @@
 
 Low potassium is associated with fatigue, heart palpitations, nervousness, cloudy thinking, muscle weakness, and irregular heartbeat, all characteristic of coffee abuse and withdrawal symptoms.
 http://medherb.com/Therapeutics/Nervous_-_Treating_Coffee_Abuse.htm
+
+- https://www.wykop.pl/link/2433015/kofeina-i-energia-w-plynie/
