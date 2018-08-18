@@ -21,3 +21,7 @@
 ## API key
 
 - https://developers.google.com/maps/documentation/javascript/get-api-key
+
+## Alternatives
+
+- in the comments [Google Maps Platform | Hacker News](https://news.ycombinator.com/item?id=16980166)
