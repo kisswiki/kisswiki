@@ -8,3 +8,8 @@
 
 > Haskell - which, by the way, has an unofficial motto of "Avoid success at any costs."
 > http://www.akitaonrails.com/2015/10/28/personal-thoughts-on-the-current-functional-programming-bandwagon
+
+## Full stack
+
+- [YOW! Lambda Jam 2018 - Ryan Trinkle - Full-Stack Haskell, from Prototype to Production - YouTube](https://www.youtube.com/watch?v=riJuXDIUMA0)
+  - https://news.ycombinator.com/item?id=17811757
