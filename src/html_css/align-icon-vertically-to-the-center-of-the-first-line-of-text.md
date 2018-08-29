@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/32118013/align-icon-vertically-to-the-center-of-the-first-line-of-text/51261451#51261451
