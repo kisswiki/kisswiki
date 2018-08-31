@@ -8,3 +8,4 @@
 - https://www.reddit.com/r/elm/comments/87tpq1/elm_webpack_4_starter_template/
 - https://github.com/simonewebdesign/elm-new
 - https://github.com/rogeriochaves/spades
+- https://discourse.elm-lang.org/t/conventional-bundler/728/4
