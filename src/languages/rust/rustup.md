@@ -24,6 +24,10 @@ $ rustup override set nightly-2018-01-13
 $ rustup override unset
 ```
 
+Instead of `rustup override` you can create `rustup-toolchain` file with content:
+
+`nightly-2018-01-13`
+
 https://github.com/rust-lang-nursery/rustup.rs/
 
 `rustc --print sysroot`
