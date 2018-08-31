@@ -23,6 +23,12 @@
 - https://github.com/msys2/msys2/wiki/Using-packages
 - https://github.com/msys2/msys2/wiki/Packages
 
+## Remove package
+
+`pacman -R <name of the package>`
+
+https://github.com/msys2/msys2/wiki/Using-packages#uninstalling-a-package
+
 ## Windows path
 
 `vim /mingw64.ini`
