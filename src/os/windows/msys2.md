@@ -11,6 +11,7 @@
 5. Close the shell; reopen it
 6. Run `pacman -Syu`
 
+- https://github.com/msys2/msys2/wiki/MSYS2-installation
 - https://github.com/valtron/llvm-stuff/wiki/Set-up-Windows-dev-environment-with-MSYS2
 - [NeoChess Building on Windows with MSYS2, VSCode, and 64 bit Qt · rashwell/neochessqt Wiki](https://github.com/rashwell/neochessqt/wiki/NeoChess-Building-on-Windows-with-MSYS2,-VSCode,-and-64-bit-Qt)
 
@@ -18,6 +19,9 @@
 ## Install git
 
 `pacman -S git`
+
+- https://github.com/msys2/msys2/wiki/Using-packages
+- https://github.com/msys2/msys2/wiki/Packages
 
 ## Windows path
 
