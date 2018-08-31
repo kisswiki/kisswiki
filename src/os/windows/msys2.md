@@ -27,3 +27,7 @@ Uncomment line `MSYS2_PATH_TYPE=inherit`.
 The permissions can be set to Cygwin-like paid permissions emulation by editing /etc/fstab and removing noacl.
 
 https://github.com/carpentries/workshop-template/issues/394#issuecomment-299006601
+
+## Pin to taskbar
+
+Drag and drop `C:\msys64\mingw64.exe`
