@@ -120,6 +120,53 @@ Red Hat realnie zabiega o to aby oprogramowanie zawarte w ich dystrybucji było 
 Ta mityczna społeczność Debiana to jedne z największych kłamstw XXI wieku. Niektórzy opiekunowie są tak leniwi, że nawet gdy im wskażesz błąd, zaproponujesz łatki, to i tak będąc Cię tygodniami olewać, twierdząc, że nie mają czasu bo są zajęci innymi sprawami. I tutaj mamy świetne porównanie jak wygląda rozwijanie systemu po godzinach (Debian) a jak gdy jest to prawdziwa praca (RH).
 
 @que_pasa 
-Ewidentnie widać, że nie miałeś żadnej styczności z RHEL. Zanim kolejny raz się ośmieszysz to poczytaj najpierw o SCL i Devtoolset, które zapewniają nowe wersje PHP, Ruby, Python, MariaDB, Apache, itd. a także GCC czy LLVM/Clang toolset. https://access.redhat.com/documentation/en-us/red_hat_developer_toolset/7/html/7...
+Ewidentnie widać, że nie miałeś żadnej styczności z RHEL. Zanim kolejny raz się ośmieszysz to poczytaj najpierw o SCL i Devtoolset, które zapewniają nowe wersje PHP, Ruby, Python, MariaDB, Apache, itd. a także GCC czy LLVM/Clang toolset. https://access.redhat.com/documentation/en-us/red_hat_developer_toolset/7/html/7.1_release_notes/dts7.1_release#changes-upgrades
+
+
+
+@jagth czytać ze zrozumieniem można rzeczy wartościowe - mądrości, rady, a nie rzygi jak twoje czy herr Flicka.
+02-05-2018 11:51:35
+Fedora ma głupie partycjowanie, że tworzy mi 10 jakichś dziwnych partycji, do tego Chromium jest wykastrowany z kodeków, że nawet filmiki z youtube nie działają. Ach, żeby Linux Mint 19 tak jak 18.04 miał opcję netinstall byłby idealną dystrybucją.
+02-05-2018 14:51:59
+@Anonim 
+"Fedora ma głupie partycjowanie, że tworzy mi 10 jakichś dziwnych partycji" 
+Wymień te 10 partycji albo zamknij dziubek, chłopcze. Zresztą, można samemu zadbać o układ partycji, praktycznie jak się chce. Nie trzeba do tego nawet używać instalatora, można sobie wcześniej przygotować LVM, dmcrypt, itd. a instalator Fedory da możliwość skorzystania z tak przygotowanych wolumenów. 
+
+"do tego Chromium jest wykastrowany z kodeków, że nawet filmiki z youtube nie działają." 
+Nie jest wykastrowany z kodeków tylko nie zawiera tych o niepewnym statusie prawnym. Fedora ma bardzo restrykcyjną politykę, do tego stopnia, że nie uświadczysz w niej ffmpeg, x264, x265, gstreamer-ffmpeg, gstreamer-plugins-bad, gstreamer-plugins-bad-nonfree, gstreamer-plugins-ugly, itp. Podobnie ma się rzecz z własnościowym sterownikami, Flash Playerem, unrarem, itd. To oprogramowanie można jednak bez problemu pozyskać z repozytorium RPM Fusion. 
+Co do Chromium, wystarczy zainstalować chromium-libs-media-freeworld z rpmfusion-free-updates. 
+
+"Ach, żeby Linux Mint 19 tak jak 18.04 miał opcję netinstall byłby idealną dystrybucją." 
+Idealną? Chyba dla totalnych amatorów: 
+- Brak długotrwałego wsparcia 10+ lat 
+- Brak profesjonalnego wsparcia 
+- Brak RH Devtoolset 
+- Brak RH SCL 
+- Brak wsparcia RH Satellite/Spacewalk 
+- Brak stabilnego kABI 
+- Brak sterowników do profesjonalnego sprzętu 
+- Brak łatek kpatch/kGraft/Ksplice/KernelCare 
+- Brak zainteresowania tą dystrybucją ze strony poważnych producentów oprogramowania 
+- Dziedziczy błędy Ubuntu i Debiana 
+- Mierna jakość pakietów 
+- Brak zgodności z LSB ;)
 
 [Fedora wydana w terminie, obecnie to najlepszy Linux na laptopy](https://www.dobreprogramy.pl/Fedora-wydana-w-terminie-obecnie-to-najlepszy-Linux-na-laptopy,News,87879.html)
+
+
+## Humor
+
+LawrenceBDSM 1 dzień 14 godz. temu +10 
+bądź linuksiarzem
+po tym jak poznajesz DARMOWE OPROGRAMOWANIE dostawaj małpiego rozumu i jaraj się jak dzieciak który odkrył korwina i spisek żydów, ledwo umiesz go zainstalować ale już wiesz że jesteś w elicie i czujesz potrzebę nawracania innych jak weganin
+zachęcaj serdecznie każdego do zainstalowania pingwina, jednocześnie bądź napuszonym chujem i po tym jak ktoś się złapie i ma problemy odmawiaj pomocy, rzucaj ogólnikami w stylu "poczytaj", "przecież to proste" i "jak można tego nie wiedzieć" i w końcu "zainstaluj windowsa hyhy"
+twierdź że komputer to narzędzie do pracy a gierki są dla gimbusów, jednocześnie od lat szczyć się tym, że udało się odpalić na pingwinie jakiś kilkuletni tytuł (w 20 kl/s i co chwile kraszuje, ale już za parę miesięcy wprowadzimy poprawki)
+mitomań na temat swoich kosmicznych zarobków, jednocześnie twierdź że 200 zł za dobrego desktopa raz na kilka lat to "dużo" bo można mieć za darmo, i jaraj się że twój system nie zżera ci zasobów, w czasach kiedy ram kosztuje grosze
+narzekaj na m$, jednocześnie jaraj się projektami które mają na celu zrobienie z linucha darmowej kopii windowsa
+narzekaj na to że windows nie jest stabilny, że błędy, podczas gdy na na niektórych distro zainstalowanie jebanego sterownika to droga przez mękę i potrafi zająć kilka dni
+najbardziej tajemnicza i szalona rzecz jaką zrobiłeś w życiu to seedowanie pornoli, jaraj się że korporacje cię nie szpiegują
+uważaj się za lepszego od innych bo poświęcasz większość wolnego czasu na jebanie się z własnym pc
+
+#bekazpodludzi #linux #januszeinformatyki
+
+https://www.wykop.pl/wpis/34833945/badz-linuksiarzem-po-tym-jak-odkrywasz-darmowe-opr/
