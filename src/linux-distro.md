@@ -170,3 +170,29 @@ uważaj się za lepszego od innych bo poświęcasz większość wolnego czasu na
 #bekazpodludzi #linux #januszeinformatyki
 
 https://www.wykop.pl/wpis/34833945/badz-linuksiarzem-po-tym-jak-odkrywasz-darmowe-opr/
+
+## Humor
+
+17-08-2018 11:15:24
+@gom1 
+"Start do pulpitu w 14 s. na 11-letnim T3400 z 2GB RAM to wystarczająco wolno?" 
+LOL, kwintesencja linuksiarstwa. Gdy mowa o wydajności podają czas startu wykastrowanego systemu do jakiegoś DWM/FVWM/LXDE. xD Kit z tym, że to ma się nijak do realnej pracy. Oni nie znają takiego pojęcia. Nic dziwnego, praca na złomie z 2 GB pamięci RAM to czysty masochizm, przynajmniej jeśli chodzi o desktop. Gdy zaś się spyta jak działa choćby Unity to otwierają usta i pytają o co biega. xD
+
+[Nowy Linux może gwałtownie przyspieszyć sieci i uruchamianie programów](https://www.dobreprogramy.pl/Nowy-Linux-moze-gwaltownie-przyspieszyc-sieci-i-uruchamianie-programow,News,89965.html)
+
+
+## Humor
+
+02-05-2018 09:09:17
+@que_pasa "ze bredzisz i nie instalowales nic i jak zwykle trollujesz..." 
+
+Sposób myślenia linuksiarstwa jest typowy. Nie działa coś pod linuksem winny jest: 
+a) użytkownik (często zbyt głupi, tępy, albo troll) 
+b) producent sprzętu 
+
+Jak nie działa coś pod Windows, to winny jest: 
+a) Zawsze, ale to zawsze M$ 
+
+Każda dyskusja z linuksiarstwem o linuksowym desktopie kończy się: Androidem, routerami, top500, serwerami www, ew. porażką rynkową Windows Mobile.
+
+https://www.dobreprogramy.pl/Nowy-Linux-moze-gwaltownie-przyspieszyc-sieci-i-uruchamianie-programow,News,89965.html
