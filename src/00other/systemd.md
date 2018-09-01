@@ -43,6 +43,13 @@ graphical.target reached after 3.718s in userspace
 @pocolog spróbuj jeszcze: systemd-analyze blame 
 
 Dowiesz się, jakie usługi wstają i jak długo. Można w ten sposób pozbyć się zbędnego balastu (jak np. demon odpowiedzialny za BT, którego to nie mam w swoim lapku).
+
+17-08-2018 13:07:31
+@gom1 "U mnie system dość długo czeka na zestawienie połączenia z WiFi - całe 7 s" 
+
+ Wyłącz wstawanie sieci podczas startu (daj loopback w ustawieniach) i zacznij używać wicd - sieć będzie wstawała zaraz po odpaleniu pulpitu :)
+17-08-2018 13:13:35
+@bystryy wiesz, nie przeszkadza mi to. Sieć i tak wstaje na końcu, po prostu systemd-analyze pokazuje wtedy 14 zamiast 8. A w zasadzie 22, bo po połączeniu do WiFi zestawiane jest również połączenie VPN. 
 ```
 
 [Nowy Linux może gwałtownie przyspieszyć sieci i uruchamianie programów](https://www.dobreprogramy.pl/Nowy-Linux-moze-gwaltownie-przyspieszyc-sieci-i-uruchamianie-programow,News,89965.html#komentarz-2483791)
