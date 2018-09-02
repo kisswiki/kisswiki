@@ -7,6 +7,7 @@
 - https://gist.github.com/evancz/e69723b23958e69b63d5b5502b0edf90
   - https://gist.github.com/groteck/e4cc180ac182436f31f1d709466df768
 - ellie.md
+- generating ports from typescript code https://discourse.elm-lang.org/t/generating-type-safe-ports-from-custom-types/1841
 
 ## About
 
