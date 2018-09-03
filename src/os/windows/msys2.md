@@ -46,3 +46,39 @@ https://github.com/carpentries/workshop-template/issues/394#issuecomment-2990066
 ## Pin to taskbar
 
 Drag and drop `C:\msys64\mingw64.exe`
+
+
+## ssh public key error
+
+
+ln -s /c/Users/rofrol/.ssh /home/rofrol/ worked for me.
+
+This did not:
+
+```bash
+$ cat ~/nsswitch.conf
+db_home: /c/Users/rofrol
+$ cat /etc/nsswitch.conf
+# Begin /etc/nsswitch.conf
+
+passwd: files db
+group: files db
+
+db_enum: cache builtin
+
+#db_home: cygwin desc
+db_home: /c/Users/rofrol
+db_shell: cygwin desc
+db_gecos: cygwin desc
+
+# End /etc/nsswitch.conf
+```
+
+Probably because of this:
+
+>SSH will require /home/$USER
+
+https://github.com/git-for-windows/git/issues/736#issuecomment-215123009
+
+
+https://stackoverflow.com/questions/2840871/ssh-is-looking-in-the-wrong-place-for-the-public-private-key-pair-on-windows/52146038#52146038
