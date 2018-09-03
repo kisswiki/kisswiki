@@ -106,3 +106,43 @@ particularly the cosine.
 - http://mathforum.org/library/drmath/view/64635.html
 - https://www.quora.com/How-do-I-calculate-cos-sine-etc-without-a-calculator/answer/David-Joyce-11?share=1&srid=Vor9
 - https://en.wikipedia.org/wiki/Taylor_series#Trigonometric_functions
+
+## Clock
+
+clockToCart
+
+```elm
+
+startingAngle =
+    90
+
+
+secondToDegree : Time.Zone -> Time.Posix -> Float
+secondToDegree zone posix =
+    let
+        seconds =
+            toFloat <| Time.toSecond zone posix
+    in
+    360 - (360 / 60) * seconds + startingAngle
+
+
+minuteToDegree : Time.Zone -> Time.Posix -> Float
+minuteToDegree zone posix =
+    let
+        minutesSeconds =
+            (toFloat <| Time.toMinute zone posix) + (toFloat <| Time.toSecond zone posix) / 60
+    in
+    360 - (360 / 60) * minutesSeconds + startingAngle
+
+
+hourToDegree : Time.Zone -> Time.Posix -> Float
+hourToDegree zone posix =
+    let
+        hour12 =
+            toFloat <| remainderBy 12 (Time.toHour zone posix)
+
+        hoursMinutesSeconds =
+            hour12 + (toFloat <| Time.toMinute zone posix) / 60 + (toFloat <| Time.toSecond zone posix) / 60 / 60
+    in
+    360 - (360 / 12) * hoursMinutesSeconds + startingAngle
+```
