@@ -56,8 +56,15 @@ ln -s /c/Users/rofrol/.ssh /home/rofrol/ worked for me.
 This did not:
 
 ```bash
+$ echo $HOME
+/c/Users/rofrol
+
 $ cat ~/nsswitch.conf
 db_home: /c/Users/rofrol
+
+$ cat /home/rofrol/nsswitch.conf
+db_home: /c/Users/rofrol
+
 $ cat /etc/nsswitch.conf
 # Begin /etc/nsswitch.conf
 
