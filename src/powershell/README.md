@@ -1,3 +1,6 @@
+- create_profile.md
+- https://en.wikiversity.org/wiki/PowerShell/Functions
+
 ## Services
 
 ```powershell
