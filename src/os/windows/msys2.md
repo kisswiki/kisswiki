@@ -89,3 +89,22 @@ https://github.com/git-for-windows/git/issues/736#issuecomment-215123009
 
 
 https://stackoverflow.com/questions/2840871/ssh-is-looking-in-the-wrong-place-for-the-public-private-key-pair-on-windows/52146038#52146038
+
+## Problem with pre-commit
+
+
+In `node_modules/pre-commit/index.js` change line
+
+```javascript
+this.json = require(path.join(this.root, 'package.json'));
+```
+
+to
+
+```javascript
+this.json = require(path.join(this.root, 'package.json').replace(/\\([a-zA-Z])\\/, '$1:\\'));
+```
+
+This will change `\c\Users\rofrol\project1\package.json` to `c:\Users\rofrol\project1\package.json`.
+
+https://github.com/observing/pre-commit/issues/102#issuecomment-418514346
