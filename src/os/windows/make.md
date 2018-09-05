@@ -1,3 +1,11 @@
+Install git sdk https://stackoverflow.com/questions/32712133/package-management-in-git-for-windows/52105321#52105321
+
+or https://chocolatey.org/packages/make
+
+## msys2
+
+There are problems with windows path. Look at `msys2.md`.
+
 Install http://msys2.github.io/
 
 ```
