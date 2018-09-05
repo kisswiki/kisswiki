@@ -36,6 +36,8 @@ sudo apt upgrade       # Strictly upgrades the current packages
 sudo apt dist-upgrade  # Installs updates (new ones)
 ```
 
+https://askubuntu.com/questions/301484/how-do-i-update-ubuntu-manually
+
 ## upgrade release
 
 - http://askubuntu.com/questions/110477/how-do-i-upgrade-to-a-newer-version-of-ubuntu
