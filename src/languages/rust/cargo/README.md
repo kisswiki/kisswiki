@@ -1,5 +1,9 @@
 - https://www.reddit.com/r/rust/comments/66ro0b/popular_crates/
 
+## install specific version
+
+`$ cargo install --vers 0.8.1 ripgrep`
+
 ## proxy
 
 ~/.cargo/config
