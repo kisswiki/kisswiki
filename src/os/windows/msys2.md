@@ -1,3 +1,13 @@
+## Deprecated
+
+There are problems with windows paths, etc. https://github.com/observing/pre-commit/issues/102#issuecomment-418514346
+
+Better install git sdk
+
+>install "Git for Windows SDK" (scroll to the bottom of https://gitforwindows.org/ which provides a link to download installer for it from https://github.com/git-for-windows/build-extra/releases/latest)
+
+https://stackoverflow.com/questions/32712133/package-management-in-git-for-windows/52105321#52105321
+
 ## About
 
 - https://stackoverflow.com/questions/25019057/how-are-msys-msys2-and-msysgit-related-to-each-other/35099458
