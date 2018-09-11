@@ -74,6 +74,7 @@ Polish(upper, lower)
     return
 }
 
+AppsKey & a::Polish("U+0104", "U+0105")
 AppsKey & c::Polish("U+0106", "U+0107")
 AppsKey & e::Polish("U+0118", "U+0119")
 AppsKey & l::Polish("U+0141", "U+0142")
