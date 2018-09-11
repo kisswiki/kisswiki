@@ -12,12 +12,12 @@ global sendLAltUpOnLCtrlUp := 0
 ;; Let LCtrl sends LWin, LWin sends LAlt and LAlt sends LCtrl using SharpKeys and then
 *tab:: 
 {
-    if (GetKeyState("LCtrl", "P") AND GetKeyState("LShift", "P") = false) {
+    if ((GetKeyState("LCtrl", "P") OR GetKeyState("RCtrl", "P")) AND GetKeyState("LShift", "P") = false) {
         sendLAltUpOnLCtrlUp := 1
         Send {LCtrl up}{LAlt down}{tab}
         KeyWait, tab  
     } else
-    if (GetKeyState("LCtrl", "P") AND GetKeyState("LShift", "P")) {
+    if ((GetKeyState("LCtrl", "P") OR GetKeyState("RCtrl", "P")) AND GetKeyState("LShift", "P")) {
         sendLAltUpOnLCtrlUp := 1
         Send {LCtrl up}{LShift down}{LAlt down}{tab}
         KeyWait, tab
@@ -54,21 +54,31 @@ global sendLAltUpOnLCtrlUp := 0
 ;; but then this `>!+a::Send Ą` started inserting strnage characters instead of `Ą`, so I needed to use `{U+0104}`
 ;; https://superuser.com/questions/782648/easily-type-unicode-characters-using-autohotkey
 ;; https://pl.m.wikipedia.org/wiki/Alfabet_polski
->!+a::Send {U+0104}
->!a::Send {U+0105}
->!+c::Send {U+0106}
->!c::Send {U+0107}
->!+e::Send {U+0118}
->!e::Send {U+0119}
->!+l::Send {U+0141}
->!l::Send {U+0142}
->!+n::Send {U+0143}
->!n::Send {U+0144}
->!+o::Send {U+00D3}
->!o::Send {U+00F3}
->!+s::Send {U+015A}
->!s::Send {U+015B}
->!+x::Send {U+0179}
->!x::Send {U+017A}
->!+z::Send {U+017B}
->!z::Send {U+017C}
+;; >!+a::Send {U+0104}
+;; >!a::Send {U+0105}
+;; https://superuser.com/questions/432646/using-different-mappings-for-uppercase-and-lowercase-of-the-same-key
+;; https://autohotkey.com/board/topic/148483-how-to-pass-a-key-in-a-function-parameter/
+;; AppsKey & a::
+;;     if(GetKeyState("Shift"))
+;;         Send {U+0104}
+;;     else
+;;         Send {U+0105}
+;;     return
+
+Polish(upper, lower)
+{
+    if(GetKeyState("Shift"))
+        Send {%upper%}
+    else
+        Send {%lower%}
+    return
+}
+
+AppsKey & c::Polish("U+0106", "U+0107")
+AppsKey & e::Polish("U+0118", "U+0119")
+AppsKey & l::Polish("U+0141", "U+0142")
+AppsKey & n::Polish("U+0143", "U+0144")
+AppsKey & o::Polish("U+00D3", "U+00F3")
+AppsKey & s::Polish("U+015A", "U+015B")
+AppsKey & x::Polish("U+0179", "U+017A")
+AppsKey & z::Polish("U+017B", "U+017C")
