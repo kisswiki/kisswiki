@@ -12,14 +12,14 @@ global sendLAltUpOnLCtrlUp := 0
 ;; Let LCtrl sends LWin, LWin sends LAlt and LAlt sends LCtrl using SharpKeys and then
 *tab:: 
 {
-    if (GetKeyState("RCtrl", "P") AND GetKeyState("LShift", "P") = false) {
+    if (GetKeyState("RCtrl", "P") AND GetKeyState("RShift", "P") = false) {
         sendRAltUpOnRCtrlUp := 1
         Send {RCtrl up}{LAlt down}{tab}
         KeyWait, tab  
     } else
-    if (GetKeyState("RCtrl", "P") AND GetKeyState("LShift", "P")) {
+    if (GetKeyState("RCtrl", "P") AND GetKeyState("RShift", "P")) {
         sendRAltUpOnRCtrlUp := 1
-        Send {RCtrl up}{LShift down}{LAlt down}{tab}
+        Send {RCtrl up}{RShift down}{LAlt down}{tab}
         KeyWait, tab
     } 
     else {   
