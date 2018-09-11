@@ -12,14 +12,14 @@ global sendLAltUpOnLCtrlUp := 0
 ;; Let LCtrl sends LWin, LWin sends LAlt and LAlt sends LCtrl using SharpKeys and then
 *tab:: 
 {
-    if ((GetKeyState("LCtrl", "P") OR GetKeyState("RCtrl", "P")) AND GetKeyState("LShift", "P") = false) {
-        sendLAltUpOnLCtrlUp := 1
-        Send {LCtrl up}{LAlt down}{tab}
+    if (GetKeyState("RCtrl", "P") AND GetKeyState("LShift", "P") = false) {
+        sendRAltUpOnRCtrlUp := 1
+        Send {RCtrl up}{LAlt down}{tab}
         KeyWait, tab  
     } else
-    if ((GetKeyState("LCtrl", "P") OR GetKeyState("RCtrl", "P")) AND GetKeyState("LShift", "P")) {
-        sendLAltUpOnLCtrlUp := 1
-        Send {LCtrl up}{LShift down}{LAlt down}{tab}
+    if (GetKeyState("RCtrl", "P") AND GetKeyState("LShift", "P")) {
+        sendRAltUpOnRCtrlUp := 1
+        Send {RCtrl up}{LShift down}{LAlt down}{tab}
         KeyWait, tab
     } 
     else {   
@@ -28,13 +28,24 @@ global sendLAltUpOnLCtrlUp := 0
     return
 }
 
-~LCtrl up::
+;; ~LCtrl up::
+;; {   
+;;     if(sendLAltUpOnLCtrlUp == 1) {
+;;       sendLAltUpOnLCtrlUp := 0
+;;       send {LAlt up}
+;;     } else {
+;;       send {LCtrl up}
+;;     }
+;;     return
+;; }
+
+~RCtrl up::
 {   
-    if(sendLAltUpOnLCtrlUp == 1) {
-      sendLAltUpOnLCtrlUp := 0
+    if(sendRAltUpOnRCtrlUp == 1) {
+      sendLAltUpOnRCtrlUp := 0
       send {LAlt up}
     } else {
-      send {LCtrl up}
+      send {RCtrl up}
     }
     return
 }
