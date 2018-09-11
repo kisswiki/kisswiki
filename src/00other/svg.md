@@ -53,3 +53,7 @@ $ $(npm root -g)/svg-resizer/svg-resizer.js -x 512 -y 512 -o resized/ file.svg
 ## viewBox
 
 https://css-tricks.com/scale-svg/#article-header-id-3
+
+## clean and pretty print
+
+svgo and  `xmllint --format --pretty 2 file.xml`
