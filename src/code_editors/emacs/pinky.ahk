@@ -99,3 +99,5 @@ AppsKey & z::Polish("U+017B", "U+017C")
 
 ;; https://autohotkey.com/board/topic/57344-spacebar-as-space-and-as-shift/
 
+;; https://superuser.com/questions/6982/autohotkey-problem-assigning-caps-lock-to-alt-tab
+CapsLock::AltTabMenu
