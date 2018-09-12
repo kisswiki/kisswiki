@@ -94,10 +94,3 @@ AppsKey & o::Polish("U+00D3", "U+00F3")
 AppsKey & s::Polish("U+015A", "U+015B")
 AppsKey & x::Polish("U+0179", "U+017A")
 AppsKey & z::Polish("U+017B", "U+017C")
-
-;; https://autohotkey.com/boards/viewtopic.php?t=31113
-
-;; https://autohotkey.com/board/topic/57344-spacebar-as-space-and-as-shift/
-
-;; https://superuser.com/questions/6982/autohotkey-problem-assigning-caps-lock-to-alt-tab
-CapsLock::AltTabMenu
