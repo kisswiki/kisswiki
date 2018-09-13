@@ -56,6 +56,8 @@ M-x find-variable
 
 `C-h l` or `(view-lossage)`
 
+`C-h i` should give index, but I have it empty. [maybe this](https://emacs.stackexchange.com/questions/10814/c-h-i-info-directory-is-nearly-empty). But for emacs info I can do `C-h i g (emacs)`.
+
 `C-h i g (elisp) Variable Scoping RET`
 
 C-h v (describe-variable)
