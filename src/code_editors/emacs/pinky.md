@@ -41,3 +41,24 @@ https://autohotkey.com/board/topic/148298-ctrl-tab-ctrl-shift-tab-for-alttabshif
 - http://ergoemacs.org/emacs/emacs_kb_shortcuts_pain.html
 - https://ergodox-ez.com
   - https://www.reddit.com/r/emacs/comments/8jsc51/emacs_theater/
+
+## Keyboard
+
+- https://news.ycombinator.com/item?id=17989303
+- https://github.com/diimdeep/awesome-split-keyboards
+- https://ultimatehackingkeyboard.com/
+- https://gaming.kinesis-ergo.com/edge/
+  - https://www.jwz.org/blog/2018/04/exciting-keyboard-news/
+    - https://www.jwz.org/blog/2018/08/ultimate-hacking-keyboard/
+- http://www.comfortkeyboard.com/keyboards_ergoflex.html
+- Koolertron Programmable Split Mechanical Keyboard with Cherry MX Red Switch, All 89 Keys Programmable Ergonomic Keypad, 8 Macro Keys - SMKD62 (Cherry MX Red Switch (Office): Computers & Accessories https://www.amazon.com/gp/product/B076FTNXDX/ 
+- https://www.trulyergonomic.com/store/index.php
+- https://www.maltron.com/maltron-history.html
+- [tshort/dactyl-keyboard: Dactyl-ManuForm, a parameterized ergonomic keyboard](https://github.com/tshort/dactyl-keyboard)
+  - https://geekhack.org/index.php?topic=88576.0
+    - >I might modify the code to make the bottom row flat with an (inverted?) T arrow cluster. https://geekhack.org/index.php?topic=88576.msg2633198#msg2633198
+  - https://www.reddit.com/r/MechanicalKeyboards/comments/71f4j0/dactylmanuform_keyboard/
+- [The Comfortable Fission Keyboard - YouTube](https://www.youtube.com/watch?v=RvNhen7N9XQ)
+- The DANKEST Ergonomic Keyboard - Ergodox EZ Review https://youtu.be/LALQsqZP1nA?t=151
+- https://www.reddit.com/r/MechanicalKeyboards/comments/8gsuee/the_true_motivation_behind_my_keyboard_design/
+  - https://imgur.com/gallery/xmU4A
