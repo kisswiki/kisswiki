@@ -1,3 +1,194 @@
+Taking introspection query from https://github.com/graphql/graphql-js/blob/926e4d80c558b107c49e9403e943086fa9b043a8/src/utilities/introspectionQuery.js:
+
+```javascript
+var descriptions = false;
+var introspectionQuery = `
+    query IntrospectionQuery {
+      __schema {
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          ${descriptions ? 'description' : ''}
+          locations
+          args {
+            ...InputValue
+          }
+        }
+      }
+    }
+    fragment FullType on __Type {
+      kind
+      name
+      ${descriptions ? 'description' : ''}
+      fields(includeDeprecated: true) {
+        name
+        ${descriptions ? 'description' : ''}
+        args {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        ${descriptions ? 'description' : ''}
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+    fragment InputValue on __InputValue {
+      name
+      ${descriptions ? 'description' : ''}
+      type { ...TypeRef }
+      defaultValue
+    }
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `;
+```
+
+got this:
+
+```graphql
+ query IntrospectionQuery {
+      __schema {
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          
+          locations
+          args {
+            ...InputValue
+          }
+        }
+      }
+    }
+    fragment FullType on __Type {
+      kind
+      name
+      
+      fields(includeDeprecated: true) {
+        name
+        
+        args {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+    fragment InputValue on __InputValue {
+      name
+      
+      type { ...TypeRef }
+      defaultValue
+    }
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+```
+
+
+##
+
 - https://facebook.github.io/graphql/#sec-Introspection
 - http://graphql.org/learn/introspection/
 - http://graphql.org/graphql-js/utilities/
