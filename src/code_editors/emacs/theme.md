@@ -1,3 +1,8 @@
+- I use default "angry fruit salad" defined in font-lock.el line starting with `;;; Color etc. support.`
+  - https://emacs.stackexchange.com/questions/7491/where-is-the-default-color-custom-theme-defined
+  - https://github.com/emacs-mirror/emacs/blob/master/lisp/font-lock.el#L1933
+  - http://david.rothlis.net/emacs/customize_colors.html
+  - https://www.emacswiki.org/emacs/AngryFruitSalad
 - https://peach-melpa.org/
   - https://www.reddit.com/r/emacs/comments/8l4r02/announcing_peachmelpaorg/
 - https://emacsthemes.com/
@@ -19,3 +24,13 @@
 ```
 
 https://www.reddit.com/r/emacs/comments/5udtw1/usepackageel_about_to_be_moved_to_emacs_core
+
+## ritchie
+
+```lisp
+;; https://github.com/whatyouhide/emacs.d/blob/master/init.el
+(use-package sublime-themes
+  :straight t
+  :init (progn
+	  (load-theme 'ritchie t)))
+```
