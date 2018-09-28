@@ -3,3 +3,4 @@
   - via https://superuser.com/questions/1101771/how-to-transfer-mp4-to-my-iphone-6
 2. New handbrake software to encode for iphone [Movie "was not copied... because it canno… - Apple Community](https://discussions.apple.com/thread/2391597)
   - I have chosen `Presets > Presets > Devices > Apple 1080p60 Surround`.
+3. handbrakecli https://superuser.com/questions/359772/how-to-convert-mov-videos-to-iphone-playable-mp4-videos
