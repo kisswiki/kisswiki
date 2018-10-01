@@ -1,7 +1,7 @@
 - screen resolutin shortcut http://superuser.com/questions/268162/shortcut-to-windows-7-screen-resolution-setting-other-than-by-right-click-on-the/1086359#1086359
 - wifi password
   - https://github.com/RReverser/WiFi-Password
-- color picker https://charliecm.github.io/ColorPicker/
+- color picker https://github.com/bluegrams/Colora
 - ruler https://ruler.codeplex.com/
 - https://www.facebook.com/groups/257881290932879/permalink/1203730953014570/
 - disable search indexing
