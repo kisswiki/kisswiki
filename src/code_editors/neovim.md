@@ -17,6 +17,18 @@ https://github.com/neovim/neovim/wiki/Installing-Neovim
 - https://www.reddit.com/r/neovim/comments/3z6c2i/how_does_one_install_vimplug_for_neovim/
 - https://github.com/Shougo/dein.vim
 
+### on Windows
+
+in file ~/AppData/Local/nvim/init.vim:
+
+```
+call plug#begin('~/AppData/Local/nvim/autoload')
+Plug 'elmcast/elm-vim'
+call plug#end()
+```
+
+Then `:PlugStatus` or `:PlugInstall` to install plugins.
+
 ### install over ssh
 
 ~/.gitconfig
