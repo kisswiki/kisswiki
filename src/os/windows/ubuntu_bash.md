@@ -46,3 +46,11 @@ From:
 ## Copy to windows clipboard
 
 Select with mouse and ctrl+c.
+
+## Copy to vim inside wsl
+
+- https://github.com/Microsoft/WSL/issues/892#issuecomment-339409250
+- https://superuser.com/questions/1291425/windows-subsystem-linux-make-vim-use-the-clipboard
+- https://stackoverflow.com/questions/38832230/copy-paste-in-bash-on-ubuntu-on-windows
+- https://vi.stackexchange.com/questions/12376/vim-on-wsl-synchronize-system-clipboard-set-clipboard-unnamed
+
