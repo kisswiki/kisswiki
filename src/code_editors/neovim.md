@@ -143,3 +143,7 @@ http://stackoverflow.com/questions/10389205/show-current-leader-key-setting
 `set inccommand=nosplit`
 
 https://vi.stackexchange.com/questions/11221/is-there-an-incsearch-for-the-replace-command
+
+## nvim-qt.exe --maximized
+
+Start maximized with `--maximized` parameter
