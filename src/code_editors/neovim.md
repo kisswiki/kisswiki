@@ -147,3 +147,7 @@ https://vi.stackexchange.com/questions/11221/is-there-an-incsearch-for-the-repla
 ## nvim-qt.exe --maximized
 
 Start maximized with `--maximized` parameter
+
+## Run kissw.sh
+
+`:!.\kissw.sh`
