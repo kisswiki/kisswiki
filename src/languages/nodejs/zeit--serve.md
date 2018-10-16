@@ -18,8 +18,6 @@ $ cat serve.json
 $ serve
 INFO: Discovered configuration in `serve.json`
 INFO: Accepting connections at http://localhost:5000
-
-INFO: Gracefully shutting down. Please wait...
 ```
 
 - https://github.com/zeit/serve-handler#headers-array
