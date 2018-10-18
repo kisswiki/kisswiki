@@ -1,11 +1,15 @@
 - If you are trying to go from Rust to Swift, this guide might also be useful, since it explains one in terms of the other, but I make no guarantees. http://faq.sealedabstract.com/rust/
   - https://github.com/drewcrawford/drewcrawford.github.io/blob/master/rust/index.md
 - http://stackoverflow.com/documentation/rust/topics
-- exercises http://exercism.io/languages/rust/
 - https://github.com/rust-unofficial/awesome-rust
 - https://slashtutorial.com/rust/
 - https://www.reddit.com/r/rust/comments/7wx68g/does_rust_have_a_lot_of_learning_resources_for/du3w82f/
 - http://cglab.ca/~abeinges/blah/too-many-lists/book/
+
+## Exercises
+
+- http://exercism.io/languages/rust/
+- https://github.com/rustlings/rustlings
 
 ## Blogs
 
