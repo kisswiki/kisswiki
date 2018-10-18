@@ -30,3 +30,7 @@ server {
 ## Proxy
 
 - config to allow CORS (cross-site) uploads to Amazon S3, with added config e.g. timeouts & security https://gist.github.com/zefer/833647
+
+## Another forward proxy with gzip
+
+https://serverfault.com/questions/730883/nginx-reverse-proxy-gzip-to-client
