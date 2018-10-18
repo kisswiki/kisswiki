@@ -18,6 +18,7 @@
 - comparison https://github.com/jaredreich/pell#comparisons
 - https://github.com/jaredreich/pell
   - https://www.reddit.com/r/programming/comments/84d6t8/pelljs_v10_released_the_simplest_and_smallest_1kb/
+- https://github.com/basecamp/trix
 
 ## Android keyboard problems
 
