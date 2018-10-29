@@ -39,4 +39,5 @@ $ rustup run stable rustfmt --version
 rustfmt 0.99.1-stable (da17b689 2018-08-04)
 ```
 
-https://users.rust-lang.org/t/problem-with-rustfmt-on-stable/15165/7
+- https://users.rust-lang.org/t/problem-with-rustfmt-on-stable/15165/7
+- https://stackoverflow.com/questions/47945066/error-toolchain-stable-x86-64-apple-darwin-does-not-have-the-binary-rustfmt/53038397#53038397
