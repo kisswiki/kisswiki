@@ -18,6 +18,28 @@ I tend to use .map_err(...)? a lot too to convert from error enums of my depende
   
 ## failure and error-chain are bad
 
+Besides the concerns about exposing an unstable crate in your API, people have also complained that the backtraces stored by failure slow down their apps. I don't think that's such a big concern, but I've been bothered about the increased build times; while a larger app might already be using e.g. syn (the same version, hopefully), for a small CLI app or crate, it might be too much.
+
+There's also some vague notion that failure's API is not ideal, so it might change in the future. But it looks like there can't be any breaking changes to it, because at this point failure is too big to fail (pardon the pun).
+
+Also, I've seen people (including myself) getting confused by the failure documentation wrt. the ErrorKind pattern and the Context API. If you go for an Error enum, you still need to implement the conversion functions by hand.
+
+failure gives you backtraces, the context thing, and the macro for Displaying the error messages. Not everyone wants backtraces, and IMHO that macro should be another crate, with proper maintenance (it has some limitations right now).
+
+So, while it's not unreasonable to use it, failure today is probably not how Rust error handling will end up looking in a year or two. I'm sure that the compromises will be the same (wrt. backtraces, memory allocation and so on), but I think the details will be different. And if you use it today, you're writing more code that depends on a "too big to fail (or change)" crate.
+
+https://www.reddit.com/r/rust/comments/9nu6o0/reflections_on_implementing_the_ndarraycsv_crate/e7qndd1/
+
+If your failure case is "small", you should probably return Result<_, YourFail> instead of Result<_, failure::Error>. This avoids the downcast, as you know your exact failure modes, and can be easily boxed up by the user if desired.
+
+failure::Error is mostly intended as a failure where the best course of action is to print out the error, abort, and maybe try again. For library failure modes, returning your own concrete Fail implementation is ideal, as users can easily consume the error.
+
+A "small" error is one that doesn't greatly increase the size of your result.
+
+https://www.reddit.com/r/rust/comments/9nu6o0/reflections_on_implementing_the_ndarraycsv_crate/e7pmkae/
+
+###
+
 Here is the fraction of crates.io that depends on each of the three big error libraries: [graph](https://user-images.githubusercontent.com/1940490/47620947-c428b680-daad-11e8-9c5e-3e6193074814.png) 
 
 Check out [cargo tally](https://github.com/dtolnay/cargo-tally) if you want to explore your own graphs like this.
@@ -29,3 +51,15 @@ https://www.reddit.com/r/rust/comments/9ru6ay/improving_ndarraycsv_goodbye_failu
 On the graph from cargo tally above, quickerror usage is diminishing.
 
 What about auto_from? Though they talk that it should use derive. Also that you can use quickerror. https://www.reddit.com/r/rust/comments/9sip20/tired_of_writing_from_impls_for_your_error_enums/
+
+##
+
+Some people have started to avoid failure, such as the author of ndarray-csv, and you can see the reasons he outlined very clearly: https://paulkernfeld.com/2018/10/27/improving-ndarray-csv.html. I tend to agree, since what I thought I wanted was easier error handling, but just adding a .map_err(|e| MyError::NotFoundErr(e)), for example, was really not that difficult. I prefer just writing an Error enum myself and avoiding from implementations.
+
+That's what I've always done. In fact, I believe it's even shorter than what you wrote: .map_err(MyError::NotFoundErr).
+
+I'm fairly dependency-phobic, so unless it's really going to help a lot, I avoid deps.
+
+And Failure doesn't even seem to help avoid that very much, from a quick skim of the code in the blog post.
+
+https://www.reddit.com/r/rust/comments/9sb7ej/finding_and_fixing_memory_leaks_in_a_hyper/e8nup2x/
