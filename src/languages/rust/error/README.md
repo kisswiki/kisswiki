@@ -16,3 +16,16 @@ I tend to use .map_err(...)? a lot too to convert from error enums of my depende
 
 - https://www.reddit.com/r/rust/comments/9m5w9a/current_state_of_error_handling_in_rust/
   
+## failure and error-chain are bad
+
+Here is the fraction of crates.io that depends on each of the three big error libraries: [graph](https://user-images.githubusercontent.com/1940490/47620947-c428b680-daad-11e8-9c5e-3e6193074814.png) 
+
+Check out [cargo tally](https://github.com/dtolnay/cargo-tally) if you want to explore your own graphs like this.
+
+https://www.reddit.com/r/rust/comments/9ru6ay/improving_ndarraycsv_goodbye_failure_hello/e8mbpj9/
+
+- https://www.reddit.com/r/rust/comments/9ru6ay/improving_ndarraycsv_goodbye_failure_hello/
+
+On the graph from cargo tally above, quickerror usage is diminishing.
+
+What about auto_from? Though they talk that it should use derive. Also that you can use quickerror. https://www.reddit.com/r/rust/comments/9sip20/tired_of_writing_from_impls_for_your_error_enums/
