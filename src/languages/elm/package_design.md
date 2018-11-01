@@ -32,6 +32,26 @@ So add these to your `elm-package.json` as well.
 
 - https://stackoverflow.com/questions/28110810/using-local-packages
 
+## Creating package in post elm-0.18.
+
+### Search
+
+for elm-0.18 packages https://dmy.github.io/elm-0.18-packages/
+
+### Documentation on https://package.elm-lang.org
+
+While you cannot search Elm-0.18 packages on http://package.elm-lang.org, you can still look at it when going directly like https://package.elm-lang.org/packages/GlobalWebIndex/class-namespaces/1.0.0/WeakCss. But if you publish right now Elm-0.18, documenation will not be generated on https://package.elm-lang.org.
+
+### Version bump
+
+When package is upgraded to elm-0.19, a major version should be bumped? like 1.0.1 -> 2.0.0?
+
+That might (later) disallow using 0.18 version as you'd overwrite tags
+
+It can be patch version change
+
+Sometimes it glitched on me and forced me to start from 1 though
+
 ## Generate docs.json locally
 
 `elm make --docs=docs.json`
@@ -39,8 +59,6 @@ So add these to your `elm-package.json` as well.
 Preview documentation for elm-0.19 at https://elm-doc-preview.netlify.com or using https://github.com/ChristophP/elm-docs-preview
 
 https://discourse.elm-lang.org/t/elm-doc-preview-a-new-online-documentation-previewer/2001/4
-
-Search for elm-0.18 packages https://dmy.github.io/elm-0.18-packages/
 
 ## Updgrade
 
