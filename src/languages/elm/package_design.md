@@ -6,6 +6,7 @@
 - https://github.com/dillonkearns/idiomatic-elm-package-guide
 - In elm-0.19 https://medium.com/@Max_Goldstein/how-to-publish-an-elm-package-3053b771e545
 - elm-package.json overview https://dev.to/zwilias/the-elm-packagejson-file-119e
+- https://github.com/NoRedInk/elm-ops-tooling
 
 ## Test package locally in elm-0.18
 
@@ -51,8 +52,6 @@ Search for elm-0.18 packages https://dmy.github.io/elm-0.18-packages/
 ## Publish
 
 You cannot remove package from http://package.elm-lang.org at this moment.
-
-Is there `elm-package publish --dry`?
 
 https://github.com/elm-lang/elm-package/blob/72c69fcdc5b21cb9035f081dbbc79db4401fe817/README.md#publishing-packages
 
