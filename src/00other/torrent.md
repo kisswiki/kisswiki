@@ -1,29 +1,34 @@
-- https://www.reddit.com/r/Piracy/comments/7xadu0/best_torrent_ddl_sites/
-- https://torrentfreak.com/top-10-most-popular-torrent-sites-of-2017-170107/
-- https://rutracker.org
-  - it's strictly moderated considering they can take down torrents that have a wrong resolution screenshot or some small things in description not conforming to their standards. https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently_has_countless/duwmoh7/
-  - https://torrentfreak.com/rutracker-reveals-innovative-plan-for-users-to-subvert-isp-blocking-180110/
-  - https://torrentfreak.com/russias-largest-torrent-site-celebrates-13-years-online-in-a-chinese-restaurant-170923/
-  - https://torrentfreak.com/rutracker-clocks-a-million-downloads-a-day-despite-being-completely-blocked-170408/
 - https://torrentz2.eu/search, https://torrentz2.eu/search?f=napisy+2017
   - https://torrentfreak.com/torrent-links-disappear-from-torrentz2-171223/
     - https://chrome.google.com/webstore/search/torrentz2
       - https://chrome.google.com/webstore/detail/torrentz2-magnet-links-%2B/ldknhpjddofdohocbhakahagoepainmo
       - https://chrome.google.com/webstore/detail/magnet-links-for-torrentz/hkobljcmoojndbempmmgagaphocpmkni
+- https://1337x.to/
+- https://torrents.me/
+- http://www.torrentdownloads.me
+- https://rutracker.org
 - https://thepiratebay.org
-  - TV https://thepiratebay.org/top/205
-  - HD Movies https://thepiratebay.org/top/207
+  - works https://thepiratebay.bid
+  - works https://thepiratebay.rocks
+  - https://www.reddit.com/r/TPB/comments/9shb82/thepiratebayrocks_hosting_virusmalware/e8ot70w/
+  - https://thepiratebay-proxylist.se/ 
+    - https://www.reddit.com/r/TPB/comments/9s83mo/can_someone_explain_im_new/e8ngjok/
+  - TV https://thepiratebay.bid/top/205
+  - HD Movies https://thepiratebay.bid/top/207
   - https://www.reddit.com/r/Piracy/comments/79bg64/i_made_a_chrome_extension_that_automatically/
   - https://greasyfork.org/en/scripts/21980-hide-fake-torrents-on-the-pirate-bay
-- https://1337x.to/
+- https://www.reddit.com/r/Piracy/comments/7xadu0/best_torrent_ddl_sites/
+- https://torrentfreak.com/top-10-most-popular-torrent-sites-of-2017-170107/
+  - it's strictly moderated considering they can take down torrents that have a wrong resolution screenshot or some small things in description not conforming to their standards. https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently_has_countless/duwmoh7/
+  - https://torrentfreak.com/rutracker-reveals-innovative-plan-for-users-to-subvert-isp-blocking-180110/
+  - https://torrentfreak.com/russias-largest-torrent-site-celebrates-13-years-online-in-a-chinese-restaurant-170923/
+  - https://torrentfreak.com/rutracker-clocks-a-million-downloads-a-day-despite-being-completely-blocked-170408/
 - https://rarbg.to
 - http://btdb.to/
-- https://torrents.me/
 - https://zooqle.com/
 - https://eztv.ag/
 - https://psarips.com/
 - https://yts.am/
-- http://www.torrentdownloads.me
 
 ## streaming
 
