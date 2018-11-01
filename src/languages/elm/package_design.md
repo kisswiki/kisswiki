@@ -35,9 +35,11 @@ So add these to your `elm-package.json` as well.
 
 `elm make --docs=docs.json`
 
-Preview documentation for elm-0.19 at https://elm-doc-preview.netlify.com.
+Preview documentation for elm-0.19 at https://elm-doc-preview.netlify.com or using https://github.com/ChristophP/elm-docs-preview
 
 https://discourse.elm-lang.org/t/elm-doc-preview-a-new-online-documentation-previewer/2001/4
+
+Search for elm-0.18 packages https://dmy.github.io/elm-0.18-packages/
 
 ## Updgrade
 
