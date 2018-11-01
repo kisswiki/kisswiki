@@ -1,1 +1,2 @@
 - https://tirkarthi.github.io/rust/2018/03/30/analyzing-crates-data.html
+- [Tristan's Top 100 Crates - Tristan Hume](http://thume.ca/crates/)
