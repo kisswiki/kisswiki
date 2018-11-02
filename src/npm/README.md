@@ -101,3 +101,15 @@ Actually I'd even go so far to say that this should be the only way to create ne
 Then it's also impossible to create invalid version numbers
 
 https://github.com/rtfpessoa/diff2html/issues/74#issuecomment-217633109
+
+## find all installed packages that depend on a given package in npm or reverse dependency
+
+```bash
+$ npm ls contextify
+app-name@0.0.1 /home/zorbash/some-project
+└─┬ d3@3.3.6
+  └─┬ jsdom@0.5.7
+    └── contextify@0.1.15
+```
+
+https://stackoverflow.com/questions/20409293/how-do-i-find-all-installed-packages-that-depend-on-a-given-package-in-npm
