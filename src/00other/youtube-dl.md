@@ -69,3 +69,39 @@ notice that youtube-dl has labeled the last option 1280x720 as the 'best' qualit
 ## Please sign in to view this video - cookies
 
 https://github.com/rg3/youtube-dl/blob/master/README.md#how-do-i-pass-cookies-to-youtube-dl
+
+## egghead.io
+
+### Error KeyError('media_urls')
+
+Even when extracting cookies with https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg
+
+`youtube-dl -v --user-agent "Mozilla/5.0 (X11; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0" --cookies cookies.txt -o "$(printf "%02d" 2).%(title)s.%(ext)s" "https://egghead.io/lessons/graphql-use-graphql-primitive-types"`
+
+or using user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"
+
+- https://github.com/rg3/youtube-dl/issues/6635#issuecomment-340277143
+- https://github.com/rg3/youtube-dl#how-do-i-pass-cookies-to-youtube-dl
+
+## Autonumbering from file
+
+`youtube-dl -i -o "%(autonumber)s-%(title)s.%(ext)s" -a list.txt --cookie ../cookies.txt`
+
+https://github.com/ellerbrock/egghead-video-download
+
+## Extract links
+
+```bash
+#!/bin/bash
+# Usage: dl-lession.sh https://egghead.io/courses/react-fundamentals
+
+let n=1
+for link in $(curl -s $1 | pup '.series-lessons-list a attr{href}'); do
+  filename=$(echo $link | sed "s/https:\/\/egghead.io\/lessons\///g" | sed "s/\?.*$//g")
+  filename_numbered=$(echo "$n $filename" | awk '{ printf "%02i-%s.mp4\n", $1, $2 }')
+  youtube-dl -o "$filename_numbered" "$link"
+  let n++
+done
+```
+
+- https://gist.github.com/kaeff/7f3be2e262747719e6d195d968ca6bbf
