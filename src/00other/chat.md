@@ -53,3 +53,11 @@
 - http://beebom.com/2015/04/slack-alternatives-for-team-communication
 - https://www.facebook.com/groups/startupy/permalink/1015492605160905/
 - http://slackarchive.io/
+
+## zulip
+
+- https://zulipchat.com
+- chat with email-like threading
+- open source https://github.com/zulip/zulip
+- can be self-hosted
+- xi is using it https://xi.zulipchat.com (edited)
