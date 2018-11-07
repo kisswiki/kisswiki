@@ -1,0 +1,2 @@
+- http://www.arewewebyet.org/topics/serializer/
+- https://github.com/serde-rs/json-benchmark
