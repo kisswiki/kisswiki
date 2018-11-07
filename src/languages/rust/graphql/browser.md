@@ -1,0 +1,1 @@
+- [Add a graphql_client_web crate for browser usage by tomhoule · Pull Request #174 · graphql-rust/graphql-client](https://github.com/graphql-rust/graphql-client/pull/174)
