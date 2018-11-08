@@ -7,7 +7,8 @@ This helped me:
     if let &Object(ref map1) = v1 {
 ```
 
-https://git.brn.li/SWW13/i3status-rust/commit/5e9758f983d605179850cc126e71f0773ed9c8bd
+- https://git.brn.li/SWW13/i3status-rust/commit/5e9758f983d605179850cc126e71f0773ed9c8bd
+- https://users.rust-lang.org/t/deserializing-enum-json-field-with-serde-with-multiple-types/5424/2
 
 
 ```rust
