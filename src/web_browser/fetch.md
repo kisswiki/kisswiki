@@ -79,7 +79,7 @@ code:
 solution - use try..catch:
 
 ```javascript
-(async () => { // this line can and the last can be omitted in web browser dev tools console
+(async () => { // this line can and the last can be omitted in chrome dev tools console
   try {
     const response = await fetch('http://127.0.0.1:8080/graphql', {
         method: 'POST',
