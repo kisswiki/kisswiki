@@ -78,6 +78,7 @@ https://github.com/serde-rs/json
 - serialize string while also returning it's size https://stackoverflow.com/questions/36159031/add-value-of-a-method-to-serde-serialization-output
 - https://serde.rs/enum-representations.html
 - Currently there is no way for Serde to provide Serialize and Deserialize impls that work for every array size. This is blocked on const generics which is being worked on and will hopefully land in nightly later in 2018 https://stackoverflow.com/questions/48782047/binary-deserialization-of-u8-128
+- Deserialize string or array or object and concatenate text https://github.com/serde-rs/serde/issues/1333
 
 ## TOREAD
 
