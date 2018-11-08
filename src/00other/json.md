@@ -29,3 +29,8 @@ double-quotes, as in "xyz"
 http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf
 
 Latest C standard spec http://stackoverflow.com/questions/17014835/where-can-i-find-the-c89-c90-standards-in-pdf-format/24925468#24925468
+
+## Minimu JSON
+
+- https://stackoverflow.com/questions/18419428/what-is-the-minimum-valid-json
+- empty string is not valid json https://stackoverflow.com/questions/30621802/why-does-json-parse-fail-with-the-empty-string
