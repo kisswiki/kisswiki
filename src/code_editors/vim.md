@@ -103,3 +103,10 @@ If you want to have only one window:
 `cltr-w o` or `:on`
 
 http://stackoverflow.com/questions/4809729/cancel-split-window-in-vim
+
+## delete buffer without closing window
+
+`:BW`
+
+- https://github.com/qpkorr/vim-bufkill
+- https://stackoverflow.com/questions/1444322/how-can-i-close-a-buffer-without-closing-the-window/1446352#1446352
