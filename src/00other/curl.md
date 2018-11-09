@@ -28,3 +28,19 @@ curl https://calculations-s.gwidx.net/api/categories \
 It sounds like you are asking if there's a way to prevent curl from making a request at all. This is impossible. curl can always make a request to the server, with or without CORS.
 
 https://stackoverflow.com/questions/20721747/testing-cors-with-curl
+
+## Suprress response body
+
+Unix
+
+`curl -s -o /dev/null -v http://google.com`
+
+Windows
+
+`curl -s -o nul -v http://google.com`
+
+https://stackoverflow.com/questions/32488162/curl-suppress-response-body
+
+## Verbose
+
+https://ec.haxx.se/usingcurl-verbose.html
