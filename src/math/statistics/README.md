@@ -1,3 +1,7 @@
+## Learn
+
+- Intor to Statistics https://classroom.udacity.com/courses/st101/
+
 ## How to Call bullshit on big data - a practical guid
 
 - http://www.newyorker.com/tech/elements/how-to-call-bullshit-on-big-data-a-practical-guide
