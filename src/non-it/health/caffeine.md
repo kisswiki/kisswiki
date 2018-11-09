@@ -8,3 +8,19 @@ Low potassium is associated with fatigue, heart palpitations, nervousness, cloud
 http://medherb.com/Therapeutics/Nervous_-_Treating_Coffee_Abuse.htm
 
 - https://www.wykop.pl/link/2433015/kofeina-i-energia-w-plynie/
+
+## Elon Musk
+
+Elon Musk the caffeine addict
+
+The Tesla founder recently copped to working 120 hours a week, leaving little room for shuteye. To compensate for this sleep deprivation, Musk used to drink large amounts of caffeinated beverages.
+
+"There were probably times when I had like eight [diet cokes] a day or something ridiculous," Musk told the German automobile magazine Auto Bild in 2014. "I think these days it's probably one or two, so it's not too crazy."
+
+He also struggled with a coffee addiction. "I used to have so much coffee...that I'd get really wired," said Musk. "I'd get over-caffeinated and it wouldn't be good."
+
+Health experts say that consuming too much caffeine can increase anxiety and stress levels and creates a toxic cycle of fatigue, which leads to increased coffee consumption, which impairs your sleep, which leads to more fatigue the next day, which leads to more caffeine consumption.
+
+Instead, take a page from Musk and swap out a daily coffee for some good ol' H2O. If you can't quit cold-turkey, slowly decrease the amount of caffeinated beverages you consume each day.
+
+https://www.cnbc.com/2018/10/08/bill-gates-elon-musk-and-mark-cuban-quit-3-bad-habits-before-success.html
