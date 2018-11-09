@@ -16,7 +16,7 @@
 
 ## Windows
 
-Install npcap
+Install npcap then install wireshark so you don't install winpcap.
 
 - https://wiki.wireshark.org/CaptureSetup/Loopback
   - https://nmap.org/npcap/
@@ -32,6 +32,22 @@ Install npcap
 - https://react-etc.net/entry/dump-and-debug-http-2-traffic-with-a-reverse-proxy-h2a-or-wireshark
 - https://github.com/summerwind/h2a
 - https://wiki.wireshark.org/HTTP2
+
+## SSL
+
+you do not need to reboot. To activate either:
+
+- set environment variable e.g. SSLKEYLOGFILE to %USERPROFILE%\sslkeysENV.pms
+- run chrome with argument e.g.: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --ssl-key-log-file=%USERPROFILE%\sslkeysARG.pms
+
+Open Wireshark, go to Edit > Preferences > Protocols > SSL. Under the option for ‘(Pre)Master-Secret log file name’ – Browse to your log file location (so e.g. /home/m00nie/master.txt).
+
+`SSLKEYLOGFILE=$HOME/sslkeysENV2.pms curl ...`
+
+- https://stackoverflow.com/questions/42332792/chrome-not-firefox-are-not-dumping-to-sslkeylogfile-variable
+- https://jimshaver.net/2015/02/11/decrypting-tls-browser-traffic-with-wireshark-the-easy-way/
+- https://www.m00nie.com/2015/05/decrypt-https-ssltls-with-wireshark/
+- https://www.veritas.com/support/en_US/article.100044199
 
 ## HAR
 
