@@ -19,7 +19,7 @@ The Tesla founder recently copped to working 120 hours a week, leaving little ro
 
 He also struggled with a coffee addiction. "I used to have so much coffee...that I'd get really wired," said Musk. "I'd get over-caffeinated and it wouldn't be good."
 
-Health experts say that consuming too much caffeine can increase anxiety and stress levels and creates a toxic cycle of fatigue, which leads to increased coffee consumption, which impairs your sleep, which leads to more fatigue the next day, which leads to more caffeine consumption.
+Health experts say that consuming too much caffeine can increase [anxiety](https://www.ncbi.nlm.nih.gov/pubmed/25471197) and stress levels and creates a [toxic cycle](https://www.ncbi.nlm.nih.gov/pubmed/28603504) of fatigue, which leads to increased coffee consumption, which impairs your sleep, which leads to more [fatigue the next day](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3280075/), which leads to more caffeine consumption.
 
 Instead, take a page from Musk and swap out a daily coffee for some good ol' H2O. If you can't quit cold-turkey, slowly decrease the amount of caffeinated beverages you consume each day.
 
