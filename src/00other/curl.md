@@ -18,9 +18,13 @@
 - http://stackoverflow.com/questions/15912924/how-to-send-file-contents-as-body-entity-using-curl
 - http://stackoverflow.com/questions/6408904/send-post-request-with-data-specified-in-file-via-curl
 
-## Authorization Bearer
+## Authorization Bearer and pre-flight OPTIONS request
 
 ```bash
 curl https://calculations-s.gwidx.net/api/categories \
  -H "Authorization: Bearer <token>"
 ```
+
+It sounds like you are asking if there's a way to prevent curl from making a request at all. This is impossible. curl can always make a request to the server, with or without CORS.
+
+https://stackoverflow.com/questions/20721747/testing-cors-with-curl
