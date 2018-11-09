@@ -17,3 +17,10 @@
 
 - http://stackoverflow.com/questions/15912924/how-to-send-file-contents-as-body-entity-using-curl
 - http://stackoverflow.com/questions/6408904/send-post-request-with-data-specified-in-file-via-curl
+
+## Authorization Bearer
+
+```bash
+curl https://calculations-s.gwidx.net/api/categories \
+ -H "Authorization: Bearer <token>"
+```
