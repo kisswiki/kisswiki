@@ -62,6 +62,8 @@ in root crate:
 #[cfg(test)] // <-- not needed in examples + integration tests, `cargo run` would complain otherwise because installed as dev dep
 #[macro_use]
 extern crate assert_json_diff;
+
+#[cfg(test)]
 mod tests {
     use super::*;
 
