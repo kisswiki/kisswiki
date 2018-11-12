@@ -51,3 +51,42 @@ memory allocation of 11154753128508992 bytes failederror: test failed, to rerun 
 
 - https://users.rust-lang.org/t/mega-assert-eq-with-colorful-diff-drop-in-replacement/10101/31
 - https://github.com/rust-lang/rust/issues/41615
+
+## assert-json-diff
+
+`cargo add assert-json-diff --dev`
+
+in root crate:
+
+```rust
+#[cfg(test)] // <-- not needed in examples + integration tests, `cargo run` would complain otherwise because installed as dev dep
+#[macro_use]
+extern crate assert_json_diff;
+
+//...
+
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn deserialize_request() -> Result<(), Box<std::error::Error>> {
+        extern crate serde;
+        use std::fs;
+
+        let j = fs::read_to_string("request_q.json")?;
+
+        let expected = serde_json::from_str::<serde_json::Value>(&j)?;
+        let de = serde_json::from_str::<RequestObj>(&j)?;
+        let se = serde_json::to_string_pretty(&de)?;
+        let actual = serde_json::from_str::<serde_json::Value>(&se)?;
+
+        assert_json_eq!(actual, expected);
+
+        Ok(())
+    }
+}
+```
+
+https://github.com/davidpdrsn/assert-json-diff
