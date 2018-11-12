@@ -45,3 +45,7 @@ fn main() {
 ```
 
 https://github.com/serde-rs/serde/issues/984#issuecomment-314143738
+
+## Custom default
+
+https://stackoverflow.com/questions/48419142/how-to-avoid-serde-needing-the-default-trait-for-a-field-that-skips-serializatio
