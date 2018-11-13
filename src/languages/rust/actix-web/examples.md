@@ -5,3 +5,4 @@
 - http://www.techort.com/a-walk-through-a-fast-secure-and-almost-finished-web-service-on-rust/
 - http://technosophos.com/2018/06/04/from-go-to-rust-with-an-http-server.html
 - https://simplabs.com/blog/2018/06/11/actix.html
+- https://www.myprogrammingadventure.org/posts/learning-rust/learning-rust-p3-conspiracies-dissemination-and-rest-apis/
