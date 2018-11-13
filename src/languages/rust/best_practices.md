@@ -1,2 +1,3 @@
 - https://rust-lang-nursery.github.io/api-guidelines/
 - https://pascalhertleif.de/artikel/good-practices-for-writing-rust-libraries/
+- Very informative thread https://www.reddit.com/r/rust/comments/8vg9iw/noob_q_is_there_a_resourcebook_about_rust_best/
