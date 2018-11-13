@@ -1,3 +1,7 @@
+- Demo https://www.reddit.com/r/rust/comments/8idp7j/how_about_a_little_clippy_with_your_rls_today/
+
+##
+
 Follow the instructions on https://github.com/rust-lang-nursery/rls
 
 If it works you can install the extension permanently to vscode so you don't have to start vscode in debug mode https://github.com/jonathandturner/rls_vscode
