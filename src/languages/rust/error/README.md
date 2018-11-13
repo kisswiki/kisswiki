@@ -1,3 +1,32 @@
+## enum type 
+
+- Defining your own error type [In depth treatment of error handling, with no external crates](https://blog.burntsushi.net/rust-error-handling/)
+  - https://www.reddit.com/r/rust/comments/8owac8/is_there_something_like_stdioerror_but_without/e06mm8s/
+
+Use an enum type that implements From<> for all error types. [The first edition of the rust book has a chapter on error handling](https://doc.rust-lang.org/book/first-edition/error-handling.html) which describes this the topic in detail. It is a bit older, so it uses the try! macro, which has the same effect as today's ? operator.
+
+To add on to this, the [derive_more](https://docs.rs/derive_more/0.9.0/derive_more/) crate adds a `derive(From)` impl that does what you want for enums:
+
+```rust
+#[derive(From)]
+enum MyAppError {
+    MyIoError(std::io::Error)
+}
+
+fn abject() -> Result<(), MyAppError> {
+    // Amazing, automatic conversion!
+    std::fs::File::open("/something-nonexistent")?
+}
+```
+
+https://www.reddit.com/r/rust/comments/85ebwk/any_tips_on_handling_multiple_error_types_in_rust/dvwss55/
+
+The 2018 edition does not cover this https://doc.rust-lang.org/stable/book/2018-edition/ch09-00-error-handling.html.
+
+Neither this good introduction https://stevedonovan.github.io/rust-gentle-intro/6-error-handling.html.
+
+##
+
 - https://doc.rust-lang.org/book/second-edition/ch09-00-error-handling.html
 - https://github.com/brson/error-chain
 - https://doc.rust-lang.org/book/error-handling.html
