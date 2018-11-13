@@ -14,4 +14,5 @@ fn campaigns(req: &HttpRequest) -> Box<Future<Item = HttpResponse, Error = Error
 
 Set content-type manually, and return vec or String as body.
 
-https://gitter.im/actix/actix?at=5be5b864bb06d73a994a9cb9
+- https://gitter.im/actix/actix?at=5be5b864bb06d73a994a9cb9
+- https://stackoverflow.com/questions/53182250/whats-the-easiest-way-to-get-the-html-output-of-an-actix-web-endpoint-handler-t
