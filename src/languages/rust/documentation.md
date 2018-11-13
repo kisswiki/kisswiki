@@ -1,0 +1,2 @@
+- https://www.reddit.com/r/rust/comments/36f94o/how_do_i_read_the_api_docs/?st=j7kwlbm2&sh=20a2081c
+- http://www.smilingleo.net/2018/how-to-read-rust-api-doc/
