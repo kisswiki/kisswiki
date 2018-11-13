@@ -60,3 +60,9 @@ source ~/.bash_profile
 Doesn't work with `rustup.exe`, use `rustup <TAB>`.
 
 https://github.com/rust-lang-nursery/rustfmt
+
+## could not rename component file
+
+Check if you have enough storage space.
+
+>When rustup update fails in No space left on device, no errors reported. https://github.com/rust-lang-nursery/rustup.rs/issues/1463
