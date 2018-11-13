@@ -1,0 +1,6 @@
+- https://stevezeidner.com/blog/rust-actix-api/
+- https://danielwelch.github.io/rust-web-service.html
+- https://dev.to/mygnu/auth-web-microservice-with-rust-using-actix-web---complete-tutorial-part-1-2id8
+- https://brandur.org/rust-web
+- http://www.techort.com/a-walk-through-a-fast-secure-and-almost-finished-web-service-on-rust/
+- http://technosophos.com/2018/06/04/from-go-to-rust-with-an-http-server.html
