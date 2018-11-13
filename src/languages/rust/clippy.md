@@ -8,3 +8,11 @@
 $ rustup component add clippy-preview --toolchain nightly
 $ cargo +nightly clippy
 ```
+
+## force rerun
+
+Is it needed anymore?
+
+`touch src/main.rs; cargo clippy`
+
+[force full re-clippy · Issue #2604 · rust-lang-nursery/rust-clippy](https://github.com/rust-lang-nursery/rust-clippy/issues/2604)
