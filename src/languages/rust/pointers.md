@@ -1,0 +1,1 @@
+`unique_ptr` is called `Box`. `weak_unique_ptr` (`*`) in C++ and Rust are just raw pointers and references. https://www.reddit.com/r/programming/comments/7zbi6s/why_writing_a_doubly_linked_list_in_safe_rust_is/dunzhkq/
