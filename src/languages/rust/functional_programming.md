@@ -25,3 +25,9 @@ Note I didn't say anything about pattern matching, destructuring, or monads. Tho
 Rust actually makes those things difficult to achieve. 1 is made difficult by not allowing final / const to be defined by the struct. The rest are all made difficult to achieve because of the borrow checker being the idiomatic default. FP languages usually include a garbage collector for good reason. Between all the lexical closures and the freedom of passing references around by all data being immutable, it becomes very difficult to reason about how long what resources will be held by what components. A GC alleviates a lot of that complexity and allows the programmer to focus on the logic instead of the resources.
 
 https://www.reddit.com/r/rust/comments/7mvxcs/rust_is_a_humble_functional_programming_language/
+
+##
+
+For me, the central value proposition of functional programming is that it tries as hard as possible to eliminate shared mutable state. Most functional languages accomplish this by eliminating the "mutable" part, but Rust achieves it by eliminating the "shared" part. The end result is the same: a language in which you can reason confidently and precisely about how information flows through your program. For this reason, as someone who loves functional programming, I would say that Rust is one of my favorite functional languages, because it satisfies the same need.
+
+https://www.reddit.com/r/rust/comments/9p8rli/is_rust_functional/
