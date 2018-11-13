@@ -1,6 +1,7 @@
 ## learn
 
 - https://en.wikiversity.org/wiki/Wireshark/HTTP
+- [How I use Wireshark | Hacker News](https://news.ycombinator.com/item?id=17344342)
 
 ## display filter
 
