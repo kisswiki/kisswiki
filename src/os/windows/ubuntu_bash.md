@@ -7,6 +7,10 @@ Add folder similar to `C:\Users\user\AppData\Local\Packages\CanonicalGroupLimite
 - https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74
 - https://github.com/rust-lang-nursery/rustup.rs/issues/763#issuecomment-407481780
 
+## Scroll up
+
+https://stackoverflow.com/questions/41774260/windows-10-bash-ubuntu-14-04-how-to-scroll-up
+
 ## Install
 
 ### Download ISO
