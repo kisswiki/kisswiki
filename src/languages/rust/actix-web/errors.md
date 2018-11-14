@@ -16,7 +16,7 @@ futures = "0.1"
 
 ## A payload reached size limit
 
-add `.body().limit(65536)` in KiB. That would be 64 MiB.
+add `.body().limit(67108864)` in iB. That would be 64 MiB.
 
 ```rust
 fn step() -> Box<Future<Item = serde_json::Value, Error = actix_web::error::Error>> {
