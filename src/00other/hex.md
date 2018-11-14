@@ -1,0 +1,1 @@
+- [sharkdp/hexyl: A command-line hex viewer](https://github.com/sharkdp/hexyl)
