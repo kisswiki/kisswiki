@@ -1,3 +1,12 @@
+## Speed
+
+`Windows Defender > Virus & threat protection > Virus & threat protection settings > Add or remove exclusions > Add an  exclusion > Folder`
+
+Add folder similar to `C:\Users\user\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc`
+
+- https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74
+- https://github.com/rust-lang-nursery/rustup.rs/issues/763#issuecomment-407481780
+
 ## Install
 
 ### Download ISO
