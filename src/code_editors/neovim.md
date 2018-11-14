@@ -29,6 +29,14 @@ call plug#end()
 
 Then `:PlugStatus` or `:PlugInstall` to install plugins.
 
+#### Ubuntu WSL
+
+copy and paste to work
+
+`sudo ln -s /mnt/d/Neovim/bin/win32yank.exe /usr/bin/win32yank`
+
+https://github.com/neovim/neovim/wiki/FAQ#how-to-use-the-windows-clipboard-from-wsl
+
 ### install over ssh
 
 ~/.gitconfig
