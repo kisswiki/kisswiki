@@ -12,6 +12,8 @@ https://github.com/jwilm/alacritty/blob/master/alacritty_windows.yml
 
 vim scrolls strange. Use nvim.
 
+Finally rust errors are visible on light background.
+
 ## Light theme 
 
 - https://github.com/sonph/onehalf/tree/master/alacritty
