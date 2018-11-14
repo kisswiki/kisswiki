@@ -14,6 +14,12 @@ vim scrolls strange. Use nvim.
 
 Finally rust errors are visible on light background.
 
+### nvim
+
+Paste in command buffer works with default register (+):
+
+`C-r +`
+
 ## Light theme 
 
 - https://github.com/sonph/onehalf/tree/master/alacritty

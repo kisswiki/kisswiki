@@ -1,7 +1,7 @@
 
 - https://github.com/neovim/neovim/wiki/FAQ
 
-## Install on Ubunut
+## Install on Ubuntu
 
 ```bash
 sudo add-apt-repository ppa:neovim-ppa/unstable
