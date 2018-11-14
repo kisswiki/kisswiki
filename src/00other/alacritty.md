@@ -19,3 +19,7 @@ vim scrolls strange. Use nvim.
 ## Font size
 
 You need to copy whole section of font, not only size. Otherwise it won't start.
+
+https://github.com/ToxicFrog/Ligaturizer/releases/download/v2/LigaturizedFonts.zip
+
+Install LigaSrc Pro Regular.
