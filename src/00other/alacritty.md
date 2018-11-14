@@ -10,6 +10,8 @@ put `alacritty.xml` in `%USERPROFILE%`.
 
 https://github.com/jwilm/alacritty/blob/master/alacritty_windows.yml
 
+vim scrolls strange. Use nvim.
+
 ## Light theme 
 
 - https://github.com/sonph/onehalf/tree/master/alacritty
