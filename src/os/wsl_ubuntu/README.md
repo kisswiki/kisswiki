@@ -70,3 +70,9 @@ Select with mouse and ctrl+c.
 ## Restart WSL
 
 `Services > LxssManager > Properties > Stop and Start`
+
+## Disable bell
+
+`echo "set bell-style none" >> ~/.inputrc`
+
+https://medium.com/@iraklis/fixing-dark-blue-colors-on-windows-10-ubuntu-bash-c6b009f8b97c
