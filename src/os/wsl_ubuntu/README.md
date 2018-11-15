@@ -67,3 +67,6 @@ Select with mouse and ctrl+c.
 - https://stackoverflow.com/questions/38832230/copy-paste-in-bash-on-ubuntu-on-windows
 - https://vi.stackexchange.com/questions/12376/vim-on-wsl-synchronize-system-clipboard-set-clipboard-unnamed
 
+## Restart WSL
+
+`Services > LxssManager > Properties > Stop and Start`
