@@ -46,3 +46,65 @@ fn main() {
 ```
 
 https://www.reddit.com/r/rust/comments/7yxyfr/how_come_this_stream_snippet_doesnt_consume_8/
+
+```
+extern crate actix;
+extern crate actix_web;
+extern crate env_logger;
+extern crate futures; // 0.1.25
+extern crate tokio; // 0.1.17
+use futures::future::ok as fut_ok;
+use futures::Future;
+use tokio::runtime::Builder;
+
+use std::sync::{Arc, Mutex};
+extern crate serde_json;
+
+type Error = ();
+
+fn questions_data(
+    val: i32,
+) -> Box<Future<Item = serde_json::Value, Error = actix_web::error::Error>> {
+    let f = std::fs::read_to_string("auth_token").unwrap();
+    let token = f.trim();
+    use actix_web::{client, HttpMessage};
+    use std::time::Duration;
+    Box::new(
+        client::ClientRequest::get(
+            "https://jsonplaceholder.typicode.com/todos/".to_owned() + &val.to_string(),
+        )
+        .header(
+            actix_web::http::header::AUTHORIZATION,
+            "Bearer ".to_owned() + token,
+        )
+        .finish()
+        .unwrap()
+        .send()
+        .timeout(Duration::from_secs(30))
+        .map_err(actix_web::error::Error::from) // <- convert SendRequestError to an Error
+        .and_then(|resp| {
+            resp.body().limit(67_108_864).from_err().and_then(|body| {
+                let resp: serde_json::Value = serde_json::from_slice(&body).unwrap();
+                fut_ok(resp)
+            })
+        }),
+    )
+}
+
+fn main() {
+    let num_workers = 8;
+
+    let mut core = Builder::new().core_threads(num_workers).build().unwrap();
+
+    let results = Arc::new(Mutex::new(Vec::new()));
+    for n in 1..100 {
+        let res = results.clone();
+        core.spawn(questions_data(n).map(move |n| {
+            res.lock().unwrap().push(n);
+        }));
+    }
+    core.shutdown_on_idle().wait().unwrap();
+    let data = results.lock().unwrap();
+    println!("{:?}", *data);
+}
+```
