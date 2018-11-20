@@ -87,3 +87,16 @@ mod tests {
 ```
 
 https://github.com/davidpdrsn/assert-json-diff
+
+## skip test
+
+```rust
+#test #[ignore]
+```
+
+Run ignored tests
+
+`cargo test -- --ignored`
+
+https://www.reddit.com/r/rust/comments/3i1nki/how_to_skip_expensive_tests_with_cargo_test/
+https://www.reddit.com/r/rust/comments/3i1nki/how_to_skip_expensive_tests_with_cargo_test/
