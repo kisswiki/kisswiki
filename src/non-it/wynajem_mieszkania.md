@@ -1,3 +1,8 @@
+## Najem instytucjonalny
+
+Wystarczy, aby właściciel zarejestrował jednoosobową działalność gospodarczą w zakresie wynajmu lokali, aby również mógł skorzystać z takich samych przywilejów. https://graoemeryture.pl/najem-instytucjonalny-zmiany-w-prawie-najmu/
+
+##
 
 To nie do końca tak jest. Jeśli w umowie jest czas najmu to wprowadzasz do mieszkania kogo chcesz. 
 Dalsza sprawa toczy się następująco:
