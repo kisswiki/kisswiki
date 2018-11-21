@@ -129,3 +129,45 @@ do 3 lat nawet
 - https://www.arslege.pl/zmuszanie-do-okreslonego-zachowania-zaniechania-lub-znoszenia/k1/a224/
 
 https://www.wykop.pl/link/4453705/wydala-100-tys-zl-ale-do-wlasnego-mieszkania-nie-wejdzie/
+
+## Links
+
+- https://www.morizon.pl/blog/zapytaj/mozna-wyrzucic-lokatorow-mieszkania-wynajmowanego-bez-umowy/
+- https://www.wykop.pl/link/4648091/comment/60295935/#comment-60295935
+- https://www.wykop.pl/link/3053177/szukam-kilkunastu-wykopowiczow-ktorzy-zamieszkaja-w-moim-mieszkaniu-cz-ii/
+- https://umowanajmu.info/naruszenie-miru-domowego-najemcy-przez-wlasciciela-mieszkania/
+- https://www.morizon.pl/blog/zapytaj/prawa-przysluguja-kobiecie-ciazy-zakonczeniu-umowy-najmu/
+- https://alebank.pl/jak-korzystnie-i-bezpiecznie-wynajac-mieszkanie/
+- https://forumprawne.org/prawo-nieruchomosci-lokalowe-budowlane/767176-wynajem-mieszkania-bez-umowy-najmu.html
+- https://forumprawne.org/prawo-nieruchomosci-lokalowe-budowlane/475470-poradnik-najemcy-lokalu-mieszkalnego-przeczytaj-koniecznie.html
+- https://www.morizon.pl/blog/zapytaj/ponosi-konsekwencje-wynajmu-mieszkania-bez-umowy/
+- http://elzbietaliberda.pl/czy-musisz-miec-zgode-na-wynajem-od-pozostalych-wspolwlascicieli/
+- https://www.rp.pl/Wynajem/304299951-Najemca-moze-czasem-wiecej-niz-wlasciciel.html
+- https://hintigo.pl/artykul/jak-usunac-lokatora-bez-umowy-najmu/
+- https://www.pit.pl/aktualnosci/wynajmujacym-strach-zaglada-w-oczy-921939
+- https://www.google.pl/search?q=wynajem+mieszkanie+bez+umowy+eksmisja&tbs=qdr:y&ei=iLH0W_f5BMaTsgGL7LCIAQ&start=10&sa=N&ved=0ahUKEwj33arPp-TeAhXGiSwKHQs2DBEQ8NMDCI4B&biw=1215&bih=648
+- https://www.money.pl/gospodarka/wiadomosci/artykul/najwazniejsze-zasady-bezpiecznego-wynajmu,224,0,2415584.html
+- http://wyborcza.biz/pieniadzeekstra/7,134263,23996598,dziki-lokator-i-trudna-eksmisja-najem-okazjonalny-bron-wlascicieli.html?disableRedirects=true
+- http://metrowarszawa.gazeta.pl/metrowarszawa/7,141637,22267074,jest-milo-az-nagle-pada-pytanie-skad-jestes-wciaz-slyszalam.html
+- https://biznes.interia.pl/nieruchomosci/news/jak-sformulowac-umowe-najmu-mieszkania-by-spac-spokojnie,2560940,4206
+- http://prawnicy-warszawa.pl/oferta/wspolnoty-mieszkaniowe/eksmisja/
+- https://skarbonamamony.pl/kompletna-umowa-najmu.html?gclid=EAIaIQobChMI9NaQv6_k3gIVyB0YCh1qnQYyEAAYAyAAEgKm4PD_BwE#.W_S52-hKjEw
+- https://www.spes.org.pl/twoje-prawa/eksmisja/jak-dzialac-w-przypadku-zagrozenia-eksmisja?gclid=EAIaIQobChMI9NaQv6_k3gIVyB0YCh1qnQYyEAAYBCAAEgJX9_D_BwE
+- http://kielce.naszemiasto.pl/artykul/niecodzienna-eksmisja-z-udzialem-policji-w-kielcach,4716473,artgal,t,id,tm.html
+- https://www.freedom-nieruchomosci.pl/blog/poradyporadynajem-okazjonalny/
+- https://www.freedom-nieruchomosci.pl/blog/najemcy/
+- https://skarbonamamony.pl/page/2#.W_S59ehKjEw
+- https://urban.one/blog/jak-bezpiecznie-wynajac-mieszkanie-najem-okazjonalny-a-najem-zwykly/
+- https://www.wykop.pl/link/4648091/zadluza-mieszkanie-ktore-wynajmuje-jego-zona-jest-naczelnikiem-w-us/
+- http://pannawlosciach.com/article/nie-taki-diabe-201812033929
+- https://www.najemwpraktyce.pl/dobra-umowa-najmu-jak-ja-napisac/
+- http://yourspace.waw.pl/
+- https://www.wykop.pl/link/4447391/czego-nie-wolno-wlascicielowi-mieszkania/
+- https://rentier.io/blog/najem-instytucjonalny
+- http://www.wysokieobcasy.pl/wysokie-obcasy/7,100865,23473055,dziecko-samotnej-matki-jest-dla-potencjalnego-najemcy-gorsze.html?disableRedirects=true
+- http://ikm.org.pl/najem-instytucjonalny-na-czym-polega-i-kto-na-nim-skorzysta/
+- https://www.rybnik.com.pl/wiadomosci,jak-bezpiecznie-wynajac-mieszkanie-porady-eksperta,wia5-3266-36184.html
+- https://przelom.pl/23230-gdy-lokator-zalega-z-czynszem-i-nie-chce-sie-wyprowadzic.html
+- https://graoemeryture.pl/najem-instytucjonalny-zmiany-w-prawie-najmu/
+- http://www.polsatnews.pl/wiadomosc/2018-04-24/nie-moga-wyeksmitowac-dzikich-lokatorow-mieszkanie-zadluzone-na-prawie-27-tys-zl/
+- http://www.marta-kulawik.pl/zrobic-najemca-placi-czynszu/
