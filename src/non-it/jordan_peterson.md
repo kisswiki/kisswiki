@@ -4,3 +4,4 @@
   - Jordan Peterson analyzes Cathy newman https://youtu.be/TK2-xYyNpYk
 - pronounce https://youtu.be/1F0A4rohauQ
 - https://www.reddit.com/r/JordanPeterson/comments/7yk13z/12_rules_for_life_rule_4_compare_yourself_to_who/
+- https://www.wykop.pl/link/4390423/jordan-peterson-spojrzenie-krytyczne/
