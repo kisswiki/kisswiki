@@ -45,8 +45,11 @@
 
 ## 4k
 
+- https://extremlymtorrents.ws/torrents.php?cat=40
+- https://deuhd.ru/4k_uhd_info.html
+- https://rarbgmirror.org/torrents.php?search=&category%5B%5D=50&category%5B%5D=51&category%5B%5D=52
 - https://www.reddit.com/r/Piracy/comments/74zt34/list_of_true_4k_bluray_movies_discs/
-- http://realorfake4k.com/
+- Dead link http://realorfake4k.com/
   - http://realorfake4k.com/my-product_category/real4k/
   - http://realorfake4k.com/list/
 - Ultra HD Blu-ray and 4K Movies http://forum.blu-ray.com/forumdisplay.php?f=203
