@@ -43,3 +43,32 @@ or
 
 - https://stackoverflow.com/questions/37577683/how-to-use-jq-to-obtain-the-keys
 - https://stackoverflow.com/questions/34226370/jq-print-key-and-value-for-each-entry-in-an-object
+
+## extract key value
+
+```
+{
+  "host1": { "ip": "10.1.2.3" },
+  "host2": { "ip": "10.1.2.2" },
+  "host3": { "ip": "10.1.18.1" }
+}
+```
+and generate this output:
+
+```
+host1, 10.1.2.3
+host2, 10.1.2.2
+host3, 10.1.18.1
+```
+
+To get the top-level keys as a stream, you can use keys[]. So one solution to your particular problem would be:
+
+`jq -r 'keys[] as $k | "\($k), \(.[$k] | .ip)"'`
+
+keys produces the key names in sorted order; if you want them in the original order, use `keys_unsorted`.
+
+Another alternative, which produces keys in the original order, is:
+
+`jq -r 'to_entries[] | "\(.key), \(.value | .ip)"'`
+
+https://stackoverflow.com/questions/34226370/jq-print-key-and-value-for-each-entry-in-an-object
