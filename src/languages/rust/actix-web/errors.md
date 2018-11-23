@@ -57,6 +57,7 @@ fn request(req: &HttpRequest) -> Box<Future<Item = HttpResponse, Error = actix_w
 ## add explicit lifetime `'static` to the type of `req`: `&'static actix_web::HttpRequest`
 
 >you need to copy request if you want to use it with future combinators
+>this is limitation of current way futures do things, you need to avoid tying it to lifetimes as handler requires 'static lifetime
 
 ```rust
 #[derive(Debug, Deserialize)]
