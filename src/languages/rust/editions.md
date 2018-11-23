@@ -1,0 +1,2 @@
+- https://github.com/rust-lang/rfcs/blob/master/text/2314-roadmap-2018.md
+- https://rust-lang-nursery.github.io/edition-guide/rust-2018/index.html
