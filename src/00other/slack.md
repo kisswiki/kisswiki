@@ -23,3 +23,13 @@
 ## Sidebar theme
 
 `#f6f6ef,#f6f6ef,#F2777A,#FFFFFF,#515151,#000000,#99CC99,#66CCCC`
+
+## Distraction/focus guide
+
+`/mute` or `/leave` in channel
+
+`/collapse` in channel (reverse with `/expand`)
+
+`Preferences > Messages & Media and select Compact under the Theme choices`
+
+https://blog.rescuetime.com/slack-focus-guide/
