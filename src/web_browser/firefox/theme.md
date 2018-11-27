@@ -1,0 +1,3 @@
+- Live edit theme https://www.reddit.com/r/FirefoxCSS/comments/73dvty/tutorial_how_to_create_and_livedebug_userchromecss/
+  - If you cannot open `Browser Toolbox` anymore: `Help > Restart with Add-ons Disabled... > Refresh Firefox`
+- https://github.com/rofrol/firefox-quantum-theme
