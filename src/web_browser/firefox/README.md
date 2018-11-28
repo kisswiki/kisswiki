@@ -78,7 +78,7 @@ https://addons.mozilla.org/en-US/firefox/addon/max-tabs-web-ext
 
 ## translate
 
-- https://addons.mozilla.org/en-US/firefox/addon/google-translate-for-firefox/?src=search
+- https://addons.mozilla.org/en-US/firefox/addon/traductor-de-google-firefox
 
 ## Container
 
