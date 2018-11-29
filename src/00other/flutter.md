@@ -2,8 +2,11 @@
 - Show HN: InKino – An open-source movie app made with Flutter https://news.ycombinator.com/item?id=16818170
   - https://github.com/roughike/inKino
 - https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514
+## Pros and Cons
 
-## Pros
+- https://www.reddit.com/r/programming/comments/9zpn0h/flutter_the_good_the_bad_and_the_ugly/
+
+### Pros
 
 - Hot reloading is fast, much easier to iterate on designs and experiments
 - Plugins seem to be easy to make, they made an architecture that focuses on minimal boilerplate
@@ -12,7 +15,7 @@
 - Minimal opening of Xcode. Most days I can get by without ever opening it.
 - Data flow architectures like the Elm Architecture or Redux are well supported
 
-## Cons
+### Cons
 
 - Having null
 - Material design is pushed way too hard - Cupertino widget documentation/examples are lacking
