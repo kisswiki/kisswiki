@@ -2,3 +2,4 @@
 - Documentary Life Inside The Maximum Security Prison In The US - Lost Lives Behind The Bars https://youtu.be/GKLUITJpijI
 - Za kulisami Najcięższe więzienia w Rosji LEKTOR PL https://youtu.be/2aQL4PJmmrE
 - https://www.correctionsone.com/capital-punishment/articles/30083187-6-must-watch-prison-documentaries-on-Netflix/
+- https://www.wykop.pl/link/4667709/6-lifehacks-in-russian-j%D0%B0%D1%96l-eng/
