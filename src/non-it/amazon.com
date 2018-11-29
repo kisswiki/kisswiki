@@ -1,0 +1,3 @@
+- https://www.nytimes.com/2018/06/23/business/amazon-the-brand-buster.html
+  - https://reviewmeta.com/ 
+- https://www.recode.net/2018/11/29/18023132/amazon-brand-policy-changes-marketplace-control-one-vendor
