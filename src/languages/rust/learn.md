@@ -38,3 +38,4 @@
 - https://learnxinyminutes.com/docs/rust/
 - https://rosettacode.org/wiki/Category:Rust
 - https://zsiciarz.github.io/24daysofrust
+- https://github.com/rustlings/rustlings
