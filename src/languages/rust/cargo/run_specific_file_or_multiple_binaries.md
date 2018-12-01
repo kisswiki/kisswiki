@@ -24,6 +24,7 @@ src = "src/romgen.rs"
 ```
 
 - https://fullsnack.io/en/multiple-binaries-rust.html
+- https://stackoverflow.com/questions/36604010/how-can-i-build-multiple-binaries-with-cargo
 
 ## default-run
 
