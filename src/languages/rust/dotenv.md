@@ -1,21 +1,29 @@
 - can't have empty keys like this in `.env`: `host=`
 - `.env` will be searched for up
 
+Using `dotenv_macros` fails for me.
+
 deps:
 
 ```toml
 [dependencies]
-dotenv = "0.10.0"
-dotenv_macros = "0.10.0"
+dotenv = "0.13.0"
 ```
 
 ```rust
-#![plugin(dotenv_macros)]
-
 extern crate dotenv;
 
+use dotenv::dotenv;
+use std::env;
+
 fn main() {
-    println!("{:?}", dotenv!("data_server"));
+    dotenv().ok();
+
+    for (key, value) in env::vars() {
+        println!("{}: {}", key, value);
+    }
+
+    println!("HOME: {:?}", env::var("HOME"));
 }
 ```
 
