@@ -14,7 +14,11 @@ sudo -u postgres psql postgres
 \password
 ```
 
-https://stackoverflow.com/questions/12720967/how-to-change-postgresql-user-password
+- https://stackoverflow.com/questions/12720967/how-to-change-postgresql-user-password
+
+## reset password on windows
+
+https://dba.stackexchange.com/questions/44586/forgotten-postgresql-windows-password/44588#44588
 
 ## no password checking
 
