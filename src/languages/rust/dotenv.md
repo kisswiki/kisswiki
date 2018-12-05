@@ -24,6 +24,8 @@ fn main() {
     }
 
     println!("HOME: {:?}", env::var("HOME"));
+    println!("HOME: {:?}", option_env!("HOME")); // no need to dotenv().ok()
+    println!("HOME: {:?}", env!("HOME")); // compile error if env not present
 }
 ```
 
