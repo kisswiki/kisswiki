@@ -31,3 +31,37 @@ let mut doc: DOMTree<String> = html!(
          </div>
 );
 ```    
+
+## no rules expected the token `.`
+
+```
+115 |                 <h1>{text!("{}", context.name)}</h1>
+    |                                         ^ no rules expected the token `.`
+```
+
+Destructure before:
+
+```rust
+let TemplateContext { name, items, .. } = context;
+html!(
+        <body>
+            <h1>{text!("{}", name)}</h1>
+            <h3>"Here are your items:"</h3>
+            <ul>
+               {
+                items.iter().map(|item| html!(
+                      <li>{text!("{}", item)}</li>
+                ))
+               }
+            </ul>
+        </body>
+)
+```
+
+## no method named `into_iter` found for type `std::string::String` in the current scope
+
+Use `text!` macro.
+
+```rust
+            <h1>{text!("{}", name)}</h1>
+```
