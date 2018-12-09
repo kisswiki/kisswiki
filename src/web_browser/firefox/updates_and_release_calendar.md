@@ -1,0 +1,5 @@
+- https://wiki.mozilla.org/Release_Management/Calendar
+- https://wiki.mozilla.org/Firefox/Roadmap/Updates
+- https://docs.google.com/spreadsheets/d/1U1IxTOlsaBcRsnJv0XAaVqQLU4otB6h2lG0NDcvWG-E/edit#gid=1709744959
+  - via https://wiki.mozilla.org/index.php?title=Firefox/Roadmap&diff=prev&oldid=1204662
+- https://wiki.mozilla.org/Features/Release_Tracking
