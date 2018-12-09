@@ -1,3 +1,7 @@
+- https://www.infoq.com/news/2018/12/aws-firecracker
+
+## About
+
 An example use case is that you want to execute potentially unsafe/malicious code & prevent it from affecting your server, or other code running on that server. Like if you run a platform where you download and execute other peoples' code, but you want to make it so each customer cannot affect the other customer, or take over your server, this would let you do this.
 
 It spins up (cheap) virtual machine, and the process(es) that are running think theyre running in their own, full, server, but in reality, there could be thousands of these little virtual machines on the same physical server.
