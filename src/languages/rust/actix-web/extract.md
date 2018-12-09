@@ -35,6 +35,14 @@ impl<T> Path<T> {
 }
 ```
 
+## Multiple values
+
+```rust
+let (id, email, key) = actix_web::Path::<(String, String, String)>::extract(req).expect("Path extract failed").into_inner();
+```
+
+https://www.slideshare.net/swallez/developing-web-applications-in-rust
+
 
 ## Single value
 
