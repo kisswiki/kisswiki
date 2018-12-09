@@ -86,3 +86,18 @@ fn search(req: &HttpRequest) -> Box<Future<Item = HttpResponse, Error = actix_we
 ```
 
 - [Cookie auth without cloning HttpRequest · Issue #522 · actix/actix-web](https://github.com/actix/actix-web/issues/522#issuecomment-424961930)
+
+## when using r.a you need to provide method
+
+```rust
+            .resource("/dataSets", |r| r.method(Method::GET).a(api::data_sets))
+```
+
+## When using &'static str in Path extractor, got function or associated item not found in actix_web::extractor::Path
+
+```
+118 |     let params = actix_web::Path::<DataSetParams>::extract(req).unwrap();
+    |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ function or associated item not found in `actix_web::extractor::Path<api::DataSetParams>`
+```
+
+Needed to use `url: String` instead of `url: &static str`.
