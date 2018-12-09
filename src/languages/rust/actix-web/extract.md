@@ -38,6 +38,8 @@ impl<T> Path<T> {
 
 ## Single value
 
+Use `*`, `&` or `into_inner()`.
+
 ### bool
 
 ```rust
