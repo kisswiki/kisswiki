@@ -1,1 +1,4 @@
 - What container technology are you most excited about? https://twitter.com/digitalocean/status/695661095772524544
+- runtimes comparison https://kubedex.com/kubernetes-container-runtimes/
+- unikernel stuff moving like nabla containers (https://nabla-containers.github.io)
+  - https://www.reddit.com/r/devops/comments/a0vg2l/amazon_opensources_firecracker/
