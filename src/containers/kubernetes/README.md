@@ -38,3 +38,11 @@
 >I would highly recommend at the very least making it one of the solutions you try.
 >
 >-- https://news.ycombinator.com/item?id=13256568
+
+##
+
+Don't you need to setup network paths? And connect containers to each other..
+
+Then setup/teardown in specific order.. and if you have state, keep a subset of containers alive to avoid loosing state (even if it's replicated).
+
+https://news.ycombinator.com/item?id=18658560
