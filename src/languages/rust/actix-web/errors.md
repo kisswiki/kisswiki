@@ -101,3 +101,23 @@ fn search(req: &HttpRequest) -> Box<Future<Item = HttpResponse, Error = actix_we
 ```
 
 Needed to use `url: String` instead of `url: &static str`.
+
+
+## expected signature of `for<'r> fn(&'r actix_web::httprequest::HttpRequest) -> _
+
+```
+177 | fn favicon(req: HttpRequest) -> actix_web::Result<actix_web::fs::NamedFile> {
+    | --------------------------------------------------------------------------- found signature of `fn(actix_web::httprequest::HttpRequest) -> _`
+...
+192 |             .resource("/favicon", |r| r.f(favicon))
+    |                                         ^ expected signature of `for<'r> fn(&'r actix_web::httprequest::HttpRequest) -> _`
+```
+
+Solution: change to `&HttpRequest`. I was using example from https://github.com/actix/examples/blob/250fc6eaf1054df15e3b6a168bb8731363fb6812/basics/src/main.rs#L24
+
+which uses:
+
+```toml
+actix = "0.5"
+actix-web = "^0.6"
+```
