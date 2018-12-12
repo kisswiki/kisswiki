@@ -6,3 +6,4 @@
 - https://www.reddit.com/r/JordanPeterson/comments/7yk13z/12_rules_for_life_rule_4_compare_yourself_to_who/
 - https://www.wykop.pl/link/4390423/jordan-peterson-spojrzenie-krytyczne/
 - https://www.thestar.com/opinion/2018/05/25/i-was-jordan-petersons-strongest-supporter-now-i-think-hes-dangerous.html
+- Critics of 12 Rules for life https://www.nybooks.com/daily/2018/03/19/jordan-peterson-and-fascist-mysticism/
