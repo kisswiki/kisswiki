@@ -25,9 +25,17 @@ Host *.github.com github.com
   IdentityFile ~/.ssh/github_rsa
 ```
 
+Set permissions:
+
+```bash
+$ chmod 600 ~/.ssh/config
+```
+
 http://unix.stackexchange.com/questions/61655/multiple-similar-entries-in-ssh-config
 
 ## Test
+
+Type `yes` when asked about fingeprint when running one of below commands:
 
 ```
 ssh -T git@github.com
