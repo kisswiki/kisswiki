@@ -1,3 +1,19 @@
+## Install
+
+
+Nightly should give better results
+
+
+```bash
+$ rustup toolchain install nightly
+$ rustup component add rustfmt-preview --toolchain=nightly
+```
+
+And then use:
+
+`rustup run nightly rustfmt`
+
+
 ## format whole project
 
 in rustfmt.toml:
