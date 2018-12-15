@@ -1,6 +1,6 @@
 ## Speed
 
-`Windows Defender > Virus & threat protection > Virus & threat protection settings > Add or remove exclusions > Add an  exclusion > Folder`
+`Windows Security > Virus & threat protection > Virus & threat protection settings > Add or remove exclusions > Add an  exclusion > Folder`
 
 Add folder similar to `C:\Users\user\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc`
 
