@@ -1,0 +1,1 @@
+- https://www.wykop.pl/link/4696691/18letni-polak-wygrywa-wloskie-talent-show/
