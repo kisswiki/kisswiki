@@ -10,9 +10,18 @@ For Windows: [Set the HOME environment variable](http://stackoverflow.com/questi
 
 ## Add key to github
 
-Copy to clipboard
+Copy to clipboard with one of below methods an then add it to https://github.com/settings/keys.
+
+### Mac OS
 
 `clip < ~/.ssh/github_rsa.pub`
+
+### Ubuntu
+
+```bash
+$ sudo apt intstall xsel
+$ xsel -b < ~/.ssh/github_rsa.pub
+```
 
 then add it to https://github.com/settings/keys.
 
