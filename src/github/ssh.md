@@ -22,8 +22,7 @@ Copy to clipboard with one of below methods an then add it to https://github.com
 $ sudo apt intstall xsel
 $ xsel -b < ~/.ssh/github_rsa.pub
 ```
-
-then add it to https://github.com/settings/keys.
+https://askubuntu.com/questions/382767/how-to-pipe-dump-clipboard-contents-to-a-file/382775#382775
 
 ## ssh config
 
