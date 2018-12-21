@@ -1,16 +1,5 @@
 ## Config
 
-`~/.tmux.conf`
-
-```
-# Gnome-terminal doesn't support setting the clipboard using xterm escape sequences so we should ensure the set-clipboard option is off
-# https://unix.stackexchange.com/questions/348913/copy-selection-to-a-clipboard-in-tmux/349020#349020
-set -g mouse on
-setw -g mode-keys vi
-set-option -s set-clipboard off
-bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xsel -b -i"
-```
-
 Reload config
 
 `tmux source-file ~/.tmux.conf`
