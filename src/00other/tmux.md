@@ -18,6 +18,11 @@ set -g @continuum-boot 'on'
 set -g @continuum-save-interval '5' # 5 min
 set -g status-right 'Continuum status: #{continuum_status}'
 
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run -b '~/.tmux/plugins/tpm/tpm'
 ```
@@ -129,6 +134,11 @@ We can also display continuum status https://github.com/tmux-plugins/tmux-contin
 
 ### problem that when I have some file opened in nvim, continuum will try to open it in vim but from parent folder
 
+```
+set -g @resurrect-processes 'false'
+```
+
+- [$CWD is taken from vim rather than shell](https://github.com/tmux-plugins/tmux-resurrect/issues/277)
 
 ## Automatic tmux start on os boot
 
