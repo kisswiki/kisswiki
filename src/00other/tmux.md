@@ -2,6 +2,26 @@
 
 `~/.tmux.conf`
 
+```
+set -g mouse on
+
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+
+# Other examples:
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+
+set -g @continuum-restore 'on'
+set -g @continuum-boot 'on'
+set -g @continuum-save-interval '5' # 5 min
+set -g status-right 'Continuum status: #{continuum_status}'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run -b '~/.tmux/plugins/tpm/tpm'
+```
+
 Reload config
 
 `tmux source-file ~/.tmux.conf`
@@ -67,6 +87,16 @@ Default save interval is 15 min https://github.com/tmux-plugins/tmux-continuum/b
 
 https://github.com/tmux-plugins/tmux-resurrect
 
+## Plugin manager
+
+There is no need to start continuum like this
+
+`run-shell ~/.tmux/plugins/tmux-continuum/continuum.tmux`
+
+when we use tpm.
+
+- https://github.com/tmux-plugins/tpm
+
 ## Automatic session restore
 
 - https://github.com/tmux-plugins/tmux-continuum
@@ -91,12 +121,6 @@ just_started_tmux_server() {
 ```
 
 I was restarting server for debug purposes with `systemctl --user restart tmux.service` and saw in `journalctl --user -xe` that default tmux session is started.
-
-There is no need to start continuum like this
-
-`run-shell ~/.tmux/plugins/tmux-continuum/continuum.tmux`
-
-when we use tpm.
 
 We can also display continuum status https://github.com/tmux-plugins/tmux-continuum/blob/master/docs/continuum_status.md
 
