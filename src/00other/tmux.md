@@ -14,6 +14,8 @@ In config:
 
 `set -g mouse on`
 
+More about copy/paste http://www.rushiagr.com/blog/2016/06/16/everything-you-need-to-know-about-tmux-copy-pasting/
+
 ## keybindings
 
 Here is a list of a few basic tmux commands:
