@@ -8,8 +8,7 @@
 set -g mouse on
 setw -g mode-keys vi
 set-option -s set-clipboard off
-bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xclip -se c -i"
-
+bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xsel -b -i"
 ```
 
 Reload config
