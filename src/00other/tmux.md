@@ -105,6 +105,7 @@ when we use tpm.
 - https://forum.upcase.com/t/save-and-reopen-tmux-session/5224
 - https://stackoverflow.com/questions/5609192/how-to-set-up-tmux-so-that-it-starts-up-with-specified-windows-opened
 - https://stackoverflow.com/questions/19575195/tmux-how-to-automatically-open-sessions-windows-and-panes
+- https://stackoverflow.com/questions/5609192/how-to-set-up-tmux-so-that-it-starts-up-with-specified-windows-opened
 
 ## tmux-continuum
 
@@ -119,6 +120,8 @@ just_started_tmux_server() {
         [ "$(tmux ls -F '#{start_time}')" -gt "$(($(date +%s)-10))" ]
 }
 ```
+
+`:kill-session` and starting tmux will not make continuum start.
 
 I was restarting server for debug purposes with `systemctl --user restart tmux.service` and saw in `journalctl --user -xe` that default tmux session is started.
 
