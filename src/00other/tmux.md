@@ -18,10 +18,24 @@ set -g @continuum-boot 'on'
 set -g @continuum-save-interval '5' # 5 min
 set -g status-right 'Continuum status: #{continuum_status}'
 
+#If I vim-root, always be in git root
+# https://github.com/tmux-plugins/tmux-resurrect/issues/277
+#set -g @resurrect-processes 'false'
+
 bind -n M-Left select-pane -L
 bind -n M-Right select-pane -R
 bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
+
+
+# https://github.com/tmux-plugins/tmux-continuum/issues/30
+set -g base-index 1         # start windows numbering at 1
+setw -g pane-base-index 1   # make pane numbering consistent with windows
+
+setw -g automatic-rename on # rename window to reflect current program
+# renumber windows when a window is closed
+set -g renumber-windows on
+
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run -b '~/.tmux/plugins/tpm/tpm'
@@ -146,3 +160,7 @@ set -g @resurrect-processes 'false'
 - https://github.com/tmux-plugins/tmux-continuum/blob/master/docs/automatic_start.md
   - https://github.com/tmux-plugins/tmux-continuum/blob/master/docs/systemd_details.md
 - https://wiki.archlinux.org/index.php/tmux#Autostart_with_systemd
+
+## vim vs nvim
+
+vim works strange. Redrawing etc. Use nvim.
