@@ -33,3 +33,7 @@ You need to copy whole section of font, not only size. Otherwise it won't start.
 https://github.com/ToxicFrog/Ligaturizer/releases/download/v2/LigaturizedFonts.zip
 
 Install LigaSrc Pro Regular.
+
+## Add to launcher in Linux
+
+https://github.com/jwilm/alacritty/blob/fc04bc1e6dfc6f1bd3f0a70b1d6d2b6cbc551d40/INSTALL.md#desktop-entry
