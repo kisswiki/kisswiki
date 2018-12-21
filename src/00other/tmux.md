@@ -164,3 +164,14 @@ set -g @resurrect-processes 'false'
 ## vim vs nvim
 
 vim works strange. Redrawing etc. Use nvim.
+
+## lost server
+
+Kill all tmux processes
+
+```bash
+$ ps aux | grep tmux
+$ kill -9 <pid>
+```
+
+https://github.com/tmux/tmux/issues/498#issuecomment-238529932
