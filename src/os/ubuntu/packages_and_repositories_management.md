@@ -105,3 +105,13 @@ sudo apt-key del KEY_ID
 ```
 
 https://askubuntu.com/questions/307/how-can-ppas-be-removed
+
+## Errors
+
+### Could not get lock /var/lib/dpkg/lock
+
+`shutdown -r now` helped me.
+
+https://askubuntu.com/questions/15433/unable-to-lock-the-administration-directory-var-lib-dpkg-is-another-process
+
+
