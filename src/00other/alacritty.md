@@ -22,7 +22,9 @@ Paste in command buffer works with default register (+):
 
 ## Light theme 
 
-- https://github.com/sonph/onehalf/tree/master/alacritty
+Using xterm with white background and black foreground.
+
+- https://github.com/jwilm/alacritty/wiki/Color-schemes#xterm
 
 ## Font size
 
