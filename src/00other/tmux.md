@@ -3,42 +3,13 @@
 `~/.tmux.conf`
 
 ```
+# Gnome-terminal doesn't support setting the clipboard using xterm escape sequences so we should ensure the set-clipboard option is off
+# https://unix.stackexchange.com/questions/348913/copy-selection-to-a-clipboard-in-tmux/349020#349020
 set -g mouse on
+setw -g mode-keys vi
+set-option -s set-clipboard off
+bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xclip -se c -i"
 
-# List of plugins
-set -g @plugin 'tmux-plugins/tpm'
-set -g @plugin 'tmux-plugins/tmux-sensible'
-
-# Other examples:
-set -g @plugin 'tmux-plugins/tmux-resurrect'
-set -g @plugin 'tmux-plugins/tmux-continuum'
-
-set -g @continuum-restore 'on'
-set -g @continuum-boot 'on'
-set -g @continuum-save-interval '5' # 5 min
-set -g status-right 'Continuum status: #{continuum_status}'
-
-#If I vim-root, always be in git root
-# https://github.com/tmux-plugins/tmux-resurrect/issues/277
-#set -g @resurrect-processes 'false'
-
-bind -n M-Left select-pane -L
-bind -n M-Right select-pane -R
-bind -n M-Up select-pane -U
-bind -n M-Down select-pane -D
-
-
-# https://github.com/tmux-plugins/tmux-continuum/issues/30
-set -g base-index 1         # start windows numbering at 1
-setw -g pane-base-index 1   # make pane numbering consistent with windows
-
-setw -g automatic-rename on # rename window to reflect current program
-# renumber windows when a window is closed
-set -g renumber-windows on
-
-
-# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
-run -b '~/.tmux/plugins/tpm/tpm'
 ```
 
 Reload config
