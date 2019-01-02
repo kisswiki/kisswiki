@@ -1,3 +1,16 @@
+- https://www.youtube.com/watch?v=QIXSBwawqsQ
+- https://itnext.io/using-rendertron-in-kubernetes-for-spa-seo-39055567c745
+- http://www.silverink.nl/deploy-rendertron-container-docker-cloud/
+- alternative https://github.com/sanfrancesco/prerendercloud-server
+- to trigger express middleware to pass to rendertron, add header `User-Agent: facebookexternalhit` and this extension https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/
+  - more user agents https://github.com/GoogleChrome/rendertron/blob/master/middleware/src/middleware.ts#L25
+- Facebook's Scrapper https://developers.facebook.com/tools/debug/og/object/
+
+## Puppeteer
+
+- https://developers.google.com/web/tools/puppeteer/articles/ssr
+- https://medium.com/@e_mad_ehsan/getting-started-with-puppeteer-and-chrome-headless-for-web-scrapping-6bf5979dee3e
+
 ## WebGL
 
 - Support WebGL in headless https://bugs.chromium.org/p/chromium/issues/detail?id=617551
