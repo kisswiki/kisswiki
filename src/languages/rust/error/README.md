@@ -25,6 +25,8 @@ The 2018 edition does not cover this https://doc.rust-lang.org/stable/book/2018-
 
 Neither this good introduction https://stevedonovan.github.io/rust-gentle-intro/6-error-handling.html.
 
+- Thread with some interesting things about custom error https://www.reddit.com/r/rust/comments/a9wbs8/eli5_error_handling_errorchain_failure_upcoming/
+
 ##
 
 - https://doc.rust-lang.org/book/second-edition/ch09-00-error-handling.html
