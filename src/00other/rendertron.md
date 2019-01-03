@@ -1,3 +1,36 @@
+## Quickstart
+
+https://github.com/GoogleChrome/rendertron
+
+`$ rendertron`
+
+```javascript
+const express = require('express');
+const rendertron = require('rendertron-middleware');
+
+const app = express();
+
+app.use(rendertron.makeMiddleware({
+	proxyUrl: 'http://127.0.0.1:3000',
+}));
+
+app.get('/hello', (req, res) => res.send('Hello World!'))
+
+app.listen(8090);
+```
+
+`$ node index.js`
+
+Open http://127.0.0.1:8090/hello
+
+Then open http://127.0.0.1:8090/hello but with `User-Agent` set to `facebookexternalhit`.
+
+It should be rendered with rendertron, but instead I get `Not Found`.
+
+- To change `User-Agent` https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/
+
+## Links
+
 - https://www.youtube.com/watch?v=QIXSBwawqsQ
 - https://itnext.io/using-rendertron-in-kubernetes-for-spa-seo-39055567c745
 - http://www.silverink.nl/deploy-rendertron-container-docker-cloud/
