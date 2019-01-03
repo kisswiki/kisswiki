@@ -159,3 +159,7 @@ Start maximized with `--maximized` parameter
 ## Run kissw.sh
 
 `:!.\kissw.sh`
+
+## vs vim
+
+- https://www.reddit.com/r/vim/comments/8v8rcp/should_i_be_using_neovim_instead_of_vim8/e1obb3h/
