@@ -1,2 +1,16 @@
 - https://github.com/HollyAdele/awesome-programming-for-kids
 - https://www.kickstarter.com/projects/primotoys/cubetto-super-series
+- https://news.ycombinator.com/item?id=18810216
+  - https://www.blocklike.org/faq.html
+  - https://snap.berkeley.edu/
+  - https://www.robomindacademy.com/robomind/home
+  - https://www.alice.org/
+  - https://www.scratchjr.org/
+  - https://www.microsoft.com/en-us/makecode
+  - https://scratch.mit.edu/discuss/topic/326861/
+    - https://scratch.mit.edu/download
+    - https://scratch.mit.edu/projects/editor/
+    - Complete XML Parser https://scratch.mit.edu/projects/780538/
+  - https://www.construct.net/en
+  - https://codeclubprojects.org/
+  - https://www.lexaloffle.com/pico-8.php
