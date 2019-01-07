@@ -68,6 +68,10 @@ https://github.com/tmux-plugins/tmux-resurrect
 
 ## Plugin manager
 
+Press `prefix + I` (capital I, as in Install) to fetch the plugin.
+
+### run-shell
+
 There is no need to start continuum like this
 
 `run-shell ~/.tmux/plugins/tmux-continuum/continuum.tmux`
