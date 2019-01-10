@@ -13,7 +13,17 @@
 
 - [Why Star Wars: The Last Jedi is a Complete Cinematic Failure](https://youtu.be/5ECwhB21Pnk)
 - [Disney Doesn't Understand Lightsabers - YouTube](https://youtu.be/c85KaDSMIRM)
+  - https://www.wykop.pl/link/4727063/disney-nie-rozumi-mieczy-swietlnych/#comment-61680761
 - [It’s a Trap! Strong Women of Star Wars, It’s A Lie & Here’s The Proof - YouTube](https://youtu.be/lFaSUn9bHVw)
+
+odkąd po raz pierwszy obejrzałem #starwars to do dzisiaj się zastanawiam jak to się stało, że siły zbrojne Imperium wywaliły kasę na takie MEGAGÓWNO jak maszyny kroczące.
+Zastanówcie się. Ktoś musiał totalnie wziąć w łapę za ten przetarg. Imperium musiało takowy rozpisać bo od samego początku to byli legaliści i biurokraci. Potrzebowali opancerzonej broni o dużej sile rażenia, która będzie zdolna działać na trudnym terenie, także na Hoth.
+No ale curwa, serio? Naprawdę wygrała oferta gościa, który zaprojektował wielkie wielbłądy z działkami w ryju? Ok, dobra, powiedzmy, że takie maszyny są w stanie pokonać przeszkody bo po prostu przez nie przejdą. Ok, są opancerzone a bitwa na Hoth pokazała, że ich siła rażenia jest spora. No ale ludzie, bez przesady - jeden, podkreślam, jeden samolocik rebeliantów był w stanie zniszczyć potężną maszynę, jak mniema, za miliony kredytów. To się totalnie nie opłaca. Już pomijam kretyński system uzbrojenia - działko w ryju. Serio? Serio?! Jak Twój logistyk da dupy i wróg zajdzie cię z flanki czy nie daj Boże od tyłu to jesteś totalnie martwy. Nie wiem kto jest większych debilem, ten kto to zaprojektował czy ten kto klepnął to i postanowił włączyć do arsenału Imperium. Przecież to jest oczywisty szwindel, którego jedynym celem było zdefraudowanie państwowej kasy. Zresztą nie pierwsze ale nie chcę tu przywoływać wyświechtanego przykładu z wentylacją Gwiazdy Śmierci. Miliardy, curwa, miliardy kredytów gunganowi w dupę.
+Dlatego pytam - kto wziął w łapę?
+Tak, łapię bul dupy bo jak wiedzę jak Imperium przepieprza kasę z podatków to mnie coś bierze. Rozumiem, że każdy autorytaryzm potrzebuje zwycięstw i majestatycznych projektów (vide Gwiazda Śmierci i zniszczenie Alderana). Rozumiem, że większość autorytaryzmów opiera się na militaryzmie, kulcie siły i jednostki. Jasne, spoko. Ale nie ma chyba nic gorszego niż autorytaryzm biurokracji, dodatkowo jeszcze bardziej skorumpowanej niż stara Republika. Właśnie w zbrojeniach najlepiej widać karykaturę jaką stało się Imperium.
+Smutne to i straszne.
+
+https://www.wykop.pl/link/4727063/disney-nie-rozumi-mieczy-swietlnych/#comment-61683713
 
 ## To watch
 
