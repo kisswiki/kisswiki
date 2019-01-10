@@ -9,6 +9,12 @@
   - BUDDY RICH IMPOSSIBLE DRUM SOLO *HQ* https://youtu.be/9esWG6A6g-k
   - https://www.quora.com/Is-the-song-Whiplash-a-real-song
 
+## Star Wars
+
+- [Why Star Wars: The Last Jedi is a Complete Cinematic Failure](https://youtu.be/5ECwhB21Pnk)
+- [Disney Doesn't Understand Lightsabers - YouTube](https://youtu.be/c85KaDSMIRM)
+- [It’s a Trap! Strong Women of Star Wars, It’s A Lie & Here’s The Proof - YouTube](https://youtu.be/lFaSUn9bHVw)
+
 ## To watch
 
 ### Buddhist
