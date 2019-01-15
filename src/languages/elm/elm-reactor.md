@@ -8,12 +8,14 @@
 
 `_compile` no longer works in 0.19.
 
-https://discourse.elm-lang.org/t/elm-reactor-init-with-flags-for-0-19/2217/2
+I can't find documentation about `elm reactor` except this small mention https://elm-lang.org/0.19.0/init.
 
 Use elm-live
 
 `$ elm-live src/Main.elm -d public -- --output=public/elm.js`
 
+- https://discourse.elm-lang.org/t/elm-reactor-init-with-flags-for-0-19/2217/2
+- https://stackoverflow.com/questions/52702961/using-custom-html-with-elm-reactor-or-another-dev-server-in-0-19
 
 ### elm-0.18
 
