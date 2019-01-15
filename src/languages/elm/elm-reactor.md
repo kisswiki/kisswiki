@@ -32,3 +32,11 @@ Invalid regular expression: /[Ã™-Ãœ]/: Range out of order in character clas
 ```
 
 It appears from my testing that the path in the `<script>` tag, `/_compile/src/Main.elm` in the example, is relative to the directory in which elm-reactor is running, not the directory where the index.html file is stored.
+
+## Source
+
+`elm reactor` runs `Develop.run`
+
+https://github.com/elm/compiler/blob/76e90792bc166eab2fe45ec475fe32d2cc320902/terminal/src/Main.hs#L162
+
+https://github.com/elm/compiler/blob/76e90792bc166eab2fe45ec475fe32d2cc320902/terminal/src/Develop.hs#L45
