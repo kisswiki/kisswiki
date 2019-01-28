@@ -27,3 +27,4 @@ You use your gender as an excuse as to why you’re not youre in a better positi
 I hope to live in a world where the tech workforce is solely judged on the products & services they put out, instead of their appearance, sex, ethnicity, ect, all those things that have nothing to do with making great tools that push humans forward.
 
 - https://medium.com/tech-diversity-files/if-you-think-women-in-tech-is-just-a-pipeline-problem-you-haven-t-been-paying-attention-cb7a2073b996 
+- https://medium.com/tech-diversity-files/the-real-reason-women-quit-tech-and-how-to-address-it-6dfb606929fd 
