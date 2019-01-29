@@ -153,3 +153,25 @@ Changing the cpu0 for whichever cpu you want to know the sharing and index0 up t
 Also about the thing about X, you can control your VMs from the console using virsh. And as said connecting to them using RDP is much faster.
 
 https://arstechnica.com/civis/viewtopic.php?p=24393635&sid=1281975f2196bad9335b6e25372c41fe#p24393635
+
+## 2019-01-29
+
+## General documentation
+
+- https://www.linux-kvm.org
+  - https://www.linux-kvm.org/page/HOWTO
+  - https://www.linux-kvm.org/page/Documents 
+- https://wiki.gentoo.org/wiki/QEMU
+
+## Managements
+
+- https://www.linux-kvm.org/page/Management_Tools
+  - You can run qemu/kvm straight from the command line
+  - virsh A minimal shell around libvirt for managing VMs
+- https://drewdevault.com/2018/09/10/Getting-started-with-qemu.html
+
+## Networking
+
+- use virtio for network https://en.wikibooks.org/wiki/QEMU/Devices/Network
+- Default - without any -netdev option - is Pass-through https://wiki.gentoo.org/wiki/QEMU/Options#Networking
+  - No mention about macvtap
