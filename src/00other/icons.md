@@ -16,6 +16,8 @@
   - https://news.ycombinator.com/item?id=15089916
 - https://quickdraw.withgoogle.com/data
 - !!! https://fvsch.com/code/svg-icons/
+- http://jimmac.musichall.cz/blog/2018-07-18-detail-considered-harmful/
+- http://jimmac.musichall.cz/blog/2019-01-23-the-big-app-icon-redesign/
 
 ## SVG USE
 

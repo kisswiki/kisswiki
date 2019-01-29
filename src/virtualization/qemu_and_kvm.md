@@ -162,6 +162,7 @@ https://arstechnica.com/civis/viewtopic.php?p=24393635&sid=1281975f2196bad9335b6
   - https://www.linux-kvm.org/page/HOWTO
   - https://www.linux-kvm.org/page/Documents 
 - https://wiki.gentoo.org/wiki/QEMU
+- blogs https://planet.virt-tools.org/
 
 ## Managements
 
