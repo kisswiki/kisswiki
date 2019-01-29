@@ -18,6 +18,7 @@
 - !!! https://fvsch.com/code/svg-icons/
 - http://jimmac.musichall.cz/blog/2018-07-18-detail-considered-harmful/
 - http://jimmac.musichall.cz/blog/2019-01-23-the-big-app-icon-redesign/
+- https://developer.gnome.org/hig/stable/icon-design.html.en
 
 ## SVG USE
 
