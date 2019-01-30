@@ -158,11 +158,18 @@ https://arstechnica.com/civis/viewtopic.php?p=24393635&sid=1281975f2196bad9335b6
 
 ## General documentation
 
+- https://wiki.qemu.org/Documentation
 - https://www.linux-kvm.org
   - https://www.linux-kvm.org/page/HOWTO
   - https://www.linux-kvm.org/page/Documents 
+  - https://www.linux-kvm.org/page/Tuning_Kernel
+  - https://www.linux-kvm.org/page/10G_NIC_performance:_VFIO_vs_virtio
+  - https://www.linux-kvm.org/page/Networking
 - https://wiki.gentoo.org/wiki/QEMU
 - https://wiki.debian.org/QEMU
+- https://www.suse.com/documentation/sles-15/book_virt/data/book_virt.html
+- https://docs.fedoraproject.org/en-US/quick-docs/qemu/
+- https://www.funtoo.org/Windows_10_Virtualization_with_KVM
 - blogs https://planet.virt-tools.org/
 
 ## Managements
@@ -173,6 +180,8 @@ https://arstechnica.com/civis/viewtopic.php?p=24393635&sid=1281975f2196bad9335b6
 - https://drewdevault.com/2018/09/10/Getting-started-with-qemu.html
 
 ## Networking
+
+`qemu -net nic -net user` is default if you just run `qemu`.
 
 - use virtio-net-pci for network https://www.linux-kvm.org/page/10G_NIC_performance:_VFIO_vs_virtio
   - https://en.wikibooks.org/wiki/QEMU/Devices/Network
@@ -210,3 +219,13 @@ linux kernel in Ubuntu 18.10 does not have nbd compiled in.
 - https://askubuntu.com/questions/4396/how-do-i-mount-a-qcow2-disk-image
   - While libguestfs looks really nice, but is heavyweight. It has a ton of dependencies (It recommends up to 55 dependencies, and installs an entire supermin appliance. https://askubuntu.com/questions/4396/how-do-i-mount-a-qcow2-disk-image#comment329906_61748
 - http://www.microhowto.info/howto/connect_to_a_remote_block_device_using_nbd.html
+
+## passthrough
+
+- https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF
+- https://wiki.qemu.org/Features/VT-d
+
+## vga vs bochs-display
+
+- https://www.kraxel.org/blog/2018/10/qemu-vga-emulation-and-bochs-display/
+  - https://www.phoronix.com/scan.php?page=news_item&px=QEMU-Legacy-Free-Display
