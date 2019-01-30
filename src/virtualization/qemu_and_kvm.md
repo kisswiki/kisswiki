@@ -162,6 +162,7 @@ https://arstechnica.com/civis/viewtopic.php?p=24393635&sid=1281975f2196bad9335b6
   - https://www.linux-kvm.org/page/HOWTO
   - https://www.linux-kvm.org/page/Documents 
 - https://wiki.gentoo.org/wiki/QEMU
+- https://wiki.debian.org/QEMU
 - blogs https://planet.virt-tools.org/
 
 ## Managements
@@ -176,3 +177,13 @@ https://arstechnica.com/civis/viewtopic.php?p=24393635&sid=1281975f2196bad9335b6
 - use virtio for network https://en.wikibooks.org/wiki/QEMU/Devices/Network
 - Default - without any -netdev option - is Pass-through https://wiki.gentoo.org/wiki/QEMU/Options#Networking
   - No mention about macvtap
+
+## Mounting QEMU images
+
+linux kernel in Ubuntu 18.10 does not have nbd compiled in.
+
+- https://wiki.debian.org/QEMU#Mounting_QEMU_images
+- https://gist.github.com/shamil/62935d9b456a6f9877b5
+- https://askubuntu.com/questions/4396/how-do-i-mount-a-qcow2-disk-image
+  - While libguestfs looks really nice, but is heavyweight. It has a ton of dependencies (It recommends up to 55 dependencies, and installs an entire supermin appliance. https://askubuntu.com/questions/4396/how-do-i-mount-a-qcow2-disk-image#comment329906_61748
+- http://www.microhowto.info/howto/connect_to_a_remote_block_device_using_nbd.html
