@@ -179,6 +179,28 @@ https://arstechnica.com/civis/viewtopic.php?p=24393635&sid=1281975f2196bad9335b6
 - Default - without any -netdev option - is Pass-through https://wiki.gentoo.org/wiki/QEMU/Options#Networking
   - No mention about macvtap
 
+## CPU
+
+To pass all available host processor features to the guest, use the command line switch
+
+`qemu -cpu host`
+
+- https://www.linux-kvm.org/page/Tuning_KVM
+
+
+## TCG doesn't support requested feature: CPUID.01H:ECX.vmx
+
+The "Nested VMX" feature adds this missing capability - of running guest
+hypervisors (which use VMX) with their own nested guests.
+
+https://www.kernel.org/doc/Documentation/virtual/kvm/nested-vmx.txt
+
+Solved by running qemu with `-cpu host -enable-kvm` parameters.
+
+Running with `-cpu qemu64,+vmx -enable-kvm` I got `warning: host doesn't support requested feature: CPUID.80000001H:ECX.svm`
+
+https://stackoverflow.com/questions/39154850/how-to-emulate-vmx-feature-with-qemu/39277264#39277264
+
 ## Mounting QEMU images
 
 linux kernel in Ubuntu 18.10 does not have nbd compiled in.
