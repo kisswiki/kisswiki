@@ -174,7 +174,8 @@ https://arstechnica.com/civis/viewtopic.php?p=24393635&sid=1281975f2196bad9335b6
 
 ## Networking
 
-- use virtio for network https://en.wikibooks.org/wiki/QEMU/Devices/Network
+- use virtio-net-pci for network https://www.linux-kvm.org/page/10G_NIC_performance:_VFIO_vs_virtio
+  - https://en.wikibooks.org/wiki/QEMU/Devices/Network
 - Default - without any -netdev option - is Pass-through https://wiki.gentoo.org/wiki/QEMU/Options#Networking
   - No mention about macvtap
 
