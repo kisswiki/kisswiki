@@ -38,3 +38,22 @@
   - https://www.smashingmagazine.com/2018/01/learning-elm-drum-sequencer-part-1/
 - https://www.reddit.com/r/elm/comments/88znt1/examples_of_complex_elm_apps/
 - https://github.com/azer/radio-paradise
+
+## pomodoro
+
+### elm 0.19
+
+- https://github.com/mstruebing/elmodoro
+  - https://pomodoro.maex.me/
+  - https://www.reddit.com/r/elm/comments/86c720/please_criticize_my_pomodoro_app/
+
+### elm 0.18
+
+- https://github.com/liamcurry/elm-pomodoro
+- https://github.com/FidelisClayton/elm-pomodoro
+- https://github.com/ybortech/elixir_elm_pomodoro
+  - [Part 1: Building a Pomodoro App with Elixir/Phoenix Channels and Elm - YouTube](https://youtu.be/IxcnLTp7PKw)
+- https://github.com/revathskumar/pomodoro
+- https://github.com/download13/elm-pomodoro
+- https://github.com/NewMountain/timerApp
+  - https://medium.com/@NewMountain/lets-build-a-productivity-timer-app-with-elm-81718a1b4329
