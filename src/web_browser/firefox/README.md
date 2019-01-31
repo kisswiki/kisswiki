@@ -43,8 +43,13 @@ http://kb.mozillazine.org/Browser.tabs.tabMinWidth
 ```
 full-screen-api.transition-duration.enter: 0 0
 full-screen-api.transition-duration.leave: 0 0
-full-screen-api.warning.timeout: 0
 ```
+maybe should not modify this
+
+>The 'slow' full screen transition is a security feature. If the transition was as fast as possible then malicious sites could fake the browser UI and a website below.
+>https://www.reddit.com/r/firefox/comments/ajzzou/hey_guys_im_a_long_time_google_chrome_user_and/ef0tuid/
+
+`full-screen-api.warning.timeout: 0`
 
 - https://support.mozilla.org/pl/questions/1092730
 - https://support.mozilla.org/pl/questions/1100620
@@ -100,6 +105,11 @@ https://addons.mozilla.org/en-US/firefox/addon/lightbeam/
 
 ## faster scroll like in Google Chrome
 
-`general.smoothScroll.mouseWheel.durationMaxMS: 200`
+```
+general.smoothScroll.mouseWheel.durationMaxMS: 250
+general.smoothScroll.currentVelocityWeighting: 0.15
+general.smoothScroll.stopDecelerationWeighting: 0.8
+mousewheel.min_line_scroll_amount: 40 (Try somewhere between 22 or 40, whatever feels most comfortable to you)
+```
 
-https://www.reddit.com/r/firefox/comments/ajzzou/hey_guys_im_a_long_time_google_chrome_user_and/
+https://www.reddit.com/r/firefox/comments/ajzzou/hey_guys_im_a_long_time_google_chrome_user_and/ef1vlvh/
