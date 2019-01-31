@@ -159,18 +159,59 @@ https://arstechnica.com/civis/viewtopic.php?p=24393635&sid=1281975f2196bad9335b6
 ## General documentation
 
 - https://wiki.qemu.org/Documentation
+  - https://stackoverflow.com/questions/155109/whats-a-good-source-to-learn-about-qemu
+- https://qemu.weilnetz.de/doc/qemu-doc.html
+- https://git.qemu.org/?p=qemu.git;a=tree;f=docs;hb=master
 - https://www.linux-kvm.org
   - https://www.linux-kvm.org/page/HOWTO
   - https://www.linux-kvm.org/page/Documents 
   - https://www.linux-kvm.org/page/Tuning_Kernel
   - https://www.linux-kvm.org/page/10G_NIC_performance:_VFIO_vs_virtio
   - https://www.linux-kvm.org/page/Networking
+- https://wiki.libvirt.org
+- https://libvirt.org/docs.html
 - https://wiki.gentoo.org/wiki/QEMU
 - https://wiki.debian.org/QEMU
+- https://debian-handbook.info/browse/stable/sect.virtualization.html
 - https://www.suse.com/documentation/sles-15/book_virt/data/book_virt.html
+- https://doc.opensuse.org/documentation/leap/virtualization/html/book.virt/cha.kvm.html
 - https://docs.fedoraproject.org/en-US/quick-docs/qemu/
+- https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/virtualization_administration_guide/
+- select virtualization on the left, formats like html, pdf, epub https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/
+  - https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_getting_started_guide/
+  - https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide
+  - https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_tuning_and_optimization_guide/
+  - https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_security_guide/
+  - [Converting Virtual Machines from Other Hypervisors to KVM with virt-v2v in RHEL 7](https://access.redhat.com/articles/1351473)
 - https://www.funtoo.org/Windows_10_Virtualization_with_KVM
+- https://www.ibm.com/support/knowledgecenter/linuxonibm/liaaf/lnz_r_kvm_base.html
+- http://www.linuxfromscratch.org/blfs/view/stable-systemd/postlfs/qemu.html
+- http://www.linuxfromscratch.org/blfs/view/stable/postlfs/qemu.html
 - blogs https://planet.virt-tools.org/
+
+## Links
+
+- Tutorial about qemu and kvm, i.e. using `kvm -monitor` https://medium.com/@dbclin/aws-just-announced-a-move-from-xen-towards-kvm-so-what-is-kvm-2091f123991
+- Installing kvm on AWS, Linux kernel configuration https://www.twosixlabs.com/running-thousands-of-kvm-guests-on-amazons-new-i3-metal-instances/
+- Introduction to KVM - slides  http://www3.nccu.edu.tw/~yuf/slides/kvm.pdf
+- Using the KVM API https://lwn.net/Articles/658511/
+- KVM API in the kernel source tree https://www.kernel.org/doc/Documentation/virtual/kvm/api.txt
+  - https://stackoverflow.com/questions/37426916/any-good-training-or-even-reference-books-on-kvm-libvirt
+- https://www.itworld.com/article/2827037/virtualization/crash-course--virtualization-with-kvm-on-ubuntu-server.html
+- https://mkdev.me/en/posts/virtualization-basics-and-an-introduction-to-kvm
+- https://www.linux.com/learn/intro-to-linux/2017/5/creating-virtual-machines-kvm-part-1
+- many images for different architectures with https://www.qemu-advent-calendar.org/2018/
+- https://rust-embedded.github.io/book/start/qemu.html
+- [Setting up Qemu with a tap interface](https://gist.github.com/extremecoders-re/e8fd8a67a515fee0c873dcafc81d811c)
+- https://unix.stackexchange.com/questions/81044/emulate-unplugging-a-network-cable-with-qemu-kvm
+- network user mode and port forwarding https://stackoverflow.com/questions/22654634/difference-between-net-user-and-net-nic-in-qemu
+- [How to use Network](http://archive.is/2dV1s#selection-11.0-11.18)
+- https://www.oreilly.com/library/view/mastering-embedded-linux/9781787283282/a57e95ea-8d76-4a84-8424-10b6ac0d5015.xhtml
+
+## Books
+
+- https://www.amazon.com/KVM-Virtualization-Cookbook-effectively-production/dp/178829467X
+- Book about virtualization and qemu/kvm https://www.amazon.com/Teach-Yourself-Linux-Virtualization-Availability/dp/1365847209
 
 ## Managements
 
@@ -219,13 +260,57 @@ linux kernel in Ubuntu 18.10 does not have nbd compiled in.
 - https://askubuntu.com/questions/4396/how-do-i-mount-a-qcow2-disk-image
   - While libguestfs looks really nice, but is heavyweight. It has a ton of dependencies (It recommends up to 55 dependencies, and installs an entire supermin appliance. https://askubuntu.com/questions/4396/how-do-i-mount-a-qcow2-disk-image#comment329906_61748
 - http://www.microhowto.info/howto/connect_to_a_remote_block_device_using_nbd.html
+- http://blog.siphos.be/2016/09/mounting-qemu-images/
 
 ## passthrough
 
 - https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF
 - https://wiki.qemu.org/Features/VT-d
 
+A pass-through NIC setup means as if the hardware would be itself connected to the machine instead of being connected to the host machine. Likewise, it will also mean you have to setup the hw and drivers directly in the VM and will be only able to use it from that VM.
+
+This configuration is often used for performance reasons when dealing with GPUs, or for dealing with special uses of wifi chipsets, mainly for hacking purposes.
+
+As for the bridge or NAT setups, multiple VMs are then able to share the network connection/hw of the host, and are giving an abstraction of hardware that does not often map to the brand of the real hardware.
+
+The obvious advantages here are sharing the connection, not having to setup difficult brands in the VM, or even using a more generic abstraction of paravirtualizing hw for the hypervisor//host not have to emulate the full hw, and so not use so much resources.
+
+https://unix.stackexchange.com/questions/456399/difference-betweeen-passthrough-nic-and-bridge-setup-in-qemu
+
 ## vga vs bochs-display
 
 - https://www.kraxel.org/blog/2018/10/qemu-vga-emulation-and-bochs-display/
   - https://www.phoronix.com/scan.php?page=news_item&px=QEMU-Legacy-Free-Display
+
+## kvm vs containers
+
+KVM is a Hypervisor based on emulating virtual hardware. Containers, on the other hand, are based on shared operating systems and is skinnier. But this poses a limitation on the containers that that we are using a single shared kernel and hence cant run Windows and Linux on the same shared hardware
+
+https://stackoverflow.com/questions/20578039/difference-between-kvm-and-lxc
+
+## macvtap
+
+- https://superuser.com/questions/1199099/what-is-macvtap-and-where-is-it-supported/1199169
+
+## Set root password if it is not set
+
+`$ virt-customize -a bionic-server-cloudimg-amd64.img --root-password password:coolpass`
+
+- https://stackoverflow.com/questions/29137679/login-credentials-of-ubuntu-cloud-server-image
+- https://www.kraxel.org/blog/2018/11/fedora-29-images/
+- https://serverascode.com/2018/06/26/using-cloud-images.html
+
+## Security
+
+- [Security in QEMU: How Virtual Machines Provide Isolation by Stefan Hajnoczi - YouTube](https://www.youtube.com/watch?v=YAdRf_hwxU8) 
+
+## Creating images
+
+- https://rwmj.wordpress.com/2018/09/13/creating-windows-templates-for-virt-builder/
+- http://libguestfs.org/virt-builder.1.html
+- https://www.kraxel.org/blog/2018/11/fedora-29-images/
+  - It's a bunch of scripts to create bootable linux distro images.
+  - qemu image can be run as container by systemdli-nspawn!!!
+I'm using it for both arm toys (raspberry pi) and for qemu. https://git.kraxel.org/cgit/imagefish/tree/README.md
+- https://buildroot.org/
+
