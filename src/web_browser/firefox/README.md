@@ -97,3 +97,9 @@ https://addons.mozilla.org/en-US/firefox/addon/max-tabs-web-ext
 ##
 
 https://addons.mozilla.org/en-US/firefox/addon/lightbeam/
+
+## faster scroll like in Google Chrome
+
+`general.smoothScroll.mouseWheel.durationMaxMS: 200`
+
+https://www.reddit.com/r/firefox/comments/ajzzou/hey_guys_im_a_long_time_google_chrome_user_and/
