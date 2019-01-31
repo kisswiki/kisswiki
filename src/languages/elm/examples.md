@@ -57,3 +57,7 @@
 - https://github.com/download13/elm-pomodoro
 - https://github.com/NewMountain/timerApp
   - https://medium.com/@NewMountain/lets-build-a-productivity-timer-app-with-elm-81718a1b4329
+
+## radio button
+
+- https://stackoverflow.com/questions/45925255/having-radio-buttons-reflect-the-model 
