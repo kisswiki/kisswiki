@@ -113,3 +113,14 @@ mousewheel.min_line_scroll_amount: 40 (Try somewhere between 22 or 40, whatever 
 ```
 
 https://www.reddit.com/r/firefox/comments/ajzzou/hey_guys_im_a_long_time_google_chrome_user_and/ef1vlvh/
+
+## Wanr on quit
+
+in about:config
+
+```
+browser.sessionstore.warnOnQuit true
+browser.warnOnQuit true
+```
+
+- https://superuser.com/questions/1318336/how-to-disable-ctrlq-shortcut-in-firefox-on-linux/1352295#1352295 
