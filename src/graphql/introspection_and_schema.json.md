@@ -199,7 +199,7 @@ got this:
   - http://nathanrandal.com/graphql-visualizer/
 
 ```javascript
-(async () => { // this line can and the last can be omitted in web browser dev tools console
+(async () => { // can be removed, top-level await works in Chrome and Firefox
   try {
     const response = await fetch('http://127.0.0.1:8080/graphql', {
         method: 'POST',
