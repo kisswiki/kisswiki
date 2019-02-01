@@ -1,6 +1,16 @@
 ## Latest stable
 
-https://askubuntu.com/questions/945244/when-will-firefox-55-be-in-the-repos
+https://askubuntu.com/questions/945244/when-will-firefox-55-be-in-the-repos/976702#976702
+
+There is also snap package https://snapcraft.io/firefox
+
+You also just unpack archive with binaries from mozilla. It will update to later version day or two faster than ubuntu version, but you will not have `firefox.desktop` file needed for adding to gnome panel favourites.
+
+You could also create `firefox.desktop` file like here:
+- https://wiki.debian.org/Firefox
+- https://bazaar.launchpad.net/~mozillateam/firefox/firefox-trunk.head/view/head:/debian/firefox.desktop.in
+- using [gendesk](https://github.com/xyproto/gendesk) as described here https://wiki.archlinux.org/index.php/desktop_entries
+- [Creating a Gnome Dock launcher and a terminal command for Firefox Nightly – Firefox Nightly News](https://blog.nightly.mozilla.org/2018/01/22/335/)
 
 ## Beta
 
