@@ -34,3 +34,5 @@ subscriptions model =
 ```
 
 https://elmlang.slack.com/archives/general/p1484066352012699
+
+## elm subscriptions are like virtual dom for events 

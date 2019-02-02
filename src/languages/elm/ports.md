@@ -36,3 +36,10 @@ Maybe so but for something like a datetime manipulation library, ports are not a
 Suggesting to use Ports interop for Moment.js is like suggesting wrapping the same library in promises — this is bound to add a ton of accidental complexity.
 
 https://www.reddit.com/r/elm/comments/7vnikt/i_have_a_proble_porting_a_js_library_to_elm/dttu2g8/
+
+## Examples
+
+- https://github.com/bryanjenningz/25-elm-examples/blob/44f24de1ed02102449d5ae38605815b11539c718/22-localstorage-editable-todos.elm#L208
+- https://github.com/halfzebra/elm-examples/tree/master/examples/ports
+- https://github.com/clarkware/elm-ports-example
+  - https://twitter.com/clarkware/status/830524521262235649
