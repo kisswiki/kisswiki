@@ -1,0 +1,2 @@
+- https://discourse.elm-lang.org/t/introducing-assoc-list-a-dict-substitute-with-custom-keys/2901
+- https://github.com/pzp1997/assoc-list
