@@ -130,3 +130,12 @@ browser.warnOnQuit true
 `browser.urlbar.doubleClickSelectsAll false`
 
 https://bugzilla.mozilla.org/show_bug.cgi?id=611162
+
+## offline mode for testing HTML5 cache
+
+Not per tab like in Google Chrome. Only globally:
+
+`☰ > Choose Developer > Work Offline`
+
+- https://stackoverflow.com/questions/48393741/does-firefox-have-an-offline-throttling-mode-disable-network-feature
+- https://stackoverflow.com/questions/2647272/simulate-offline-mode-for-html5-cache-testing
