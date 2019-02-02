@@ -124,3 +124,9 @@ browser.warnOnQuit true
 ```
 
 - https://superuser.com/questions/1318336/how-to-disable-ctrlq-shortcut-in-firefox-on-linux/1352295#1352295 
+
+## Double-click in url to select segments
+
+`browser.urlbar.doubleClickSelectsAll false`
+
+https://bugzilla.mozilla.org/show_bug.cgi?id=611162
