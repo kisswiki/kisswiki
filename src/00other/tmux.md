@@ -138,3 +138,15 @@ $ kill -9 <pid>
 ```
 
 https://github.com/tmux/tmux/issues/498#issuecomment-238529932
+
+## colors in emacs-26 inside tmux are faded
+
+Solution
+
+add `export TERM=xterm-256color` to `~/.bashrc` and reopen bash or `source ~/.bashrc` to apply changes.
+
+- https://www.reddit.com/r/emacs/comments/86q5my/emacs_playing_nice_with_colors_in_a_tmux_console/dw8cmhw/
+- you can see the various terminal capabilities with infocmp -I -r -T xterm-256color and infocmp -I -r -T screen-256color. I did a quick comparison between them and noted that xterm-256color has a significant amount of more capabilities. https://emacs.stackexchange.com/questions/20545/emacs-colors-being-set-differently-when-term-is-screen-256color-and-xterm-256/20548#20548
+- https://superuser.com/questions/529655/correct-way-to-get-emacs-16-color-support-inside-tmux
+- https://askubuntu.com/questions/925881/tmux-colors-not-working
+- https://unix.stackexchange.com/questions/348771/why-do-vim-colors-look-different-inside-and-outside-of-tmux
