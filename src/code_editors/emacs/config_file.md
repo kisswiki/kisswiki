@@ -46,6 +46,7 @@ Start in safe mode `emacs -Q`
 - Cool And Useful Things for your Init File https://www.emacswiki.org/emacs/DotEmacsChallenge
 - http://home.thep.lu.se/~karlf/emacs.html
 - https://github.com/bodil/ohai-emacs
+- https://github.com/seagle0128/.emacs.d
 
 ## Location
 
