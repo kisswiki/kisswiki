@@ -150,3 +150,17 @@ add `export TERM=xterm-256color` to `~/.bashrc` and reopen bash or `source ~/.ba
 - https://superuser.com/questions/529655/correct-way-to-get-emacs-16-color-support-inside-tmux
 - https://askubuntu.com/questions/925881/tmux-colors-not-working
 - https://unix.stackexchange.com/questions/348771/why-do-vim-colors-look-different-inside-and-outside-of-tmux
+
+## colors in nvim are strange
+
+Solution:
+
+In `~/.tmux.conf`:
+
+```
+set -g terminal-overrides ',xterm-256color:Tc'
+set -g default-terminal "tmux-256color"
+set -as terminal-overrides ',xterm*:sitm=\E[3m'
+```
+
+https://github.com/neovim/neovim/issues/7764#issuecomment-411995268
