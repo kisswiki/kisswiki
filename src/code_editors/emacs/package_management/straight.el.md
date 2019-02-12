@@ -102,3 +102,7 @@ https://github.com/jwiegley/use-package#notes-about-lazy-loading
   (("C-," . nice-jumper/backward)
    ("C-." . nice-jumper/forward)))
 ```
+
+## Update all packages
+
+`M-x straight-pull-all`
