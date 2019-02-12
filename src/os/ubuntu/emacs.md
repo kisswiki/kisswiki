@@ -5,3 +5,7 @@ I couldn't install emacs-26 even after adding `ppa:ubuntu-elisp/ppa` or `ppa:kel
 - https://askubuntu.com/questions/1094080/ubuntu-18-04-automatically-downgrades-my-emacs-26-compiled-from-source-to-the-re 
 - https://askubuntu.com/questions/297170/how-to-install-emacs-24-3-on-ubuntu/365920#365920
 - https://askubuntu.com/questions/340530/how-can-i-check-the-available-version-of-a-package-in-the-repositories 
+
+I've installed remacs and after `make`:
+
+`ln -s `pwd`/src/remacs ~/bin/emacs`
