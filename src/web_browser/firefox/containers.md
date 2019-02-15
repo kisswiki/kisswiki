@@ -11,10 +11,6 @@ Right now I use
 
 I have problem with Containerise addon and Containers with Transitions addon and also have Temporary Containers addon set to isolate external link. For example when I set in Containerise that github.com should be opened in `microsoft` container, and in Containers with Transitions I set that external links should be opened in `tmp` containers, there is infinite loop switching between `microsoft` and `tmp` containers.
 
-Solution:
-
-Remove container and readd it.
-
 ## Cannot add subdomain
 
 In Firefox Multi-Account Containers addon, I have set that facebook.com should be opened in `facebook` container, but `www.facebook.com` was added. So now link to subdomain like pl-pl.facebook.com is not opened in `facebook` container.
