@@ -6,10 +6,14 @@ Right now I use
 - https://addons.mozilla.org/en-US/firefox/addon/containerise/
 - http://addons.mozilla.org/en-US/firefox/addon/temporary-containers/ 
   - Not needed much because I open links in tmp container with the help of Containers with Transitions addon
-  - Do not enable isolation bc it conflicts with Containerise addon
 
 ## constant switch between containers
+
 I have problem with Containerise addon and Containers with Transitions addon and also have Temporary Containers addon set to isolate external link. For example when I set in Containerise that github.com should be opened in `microsoft` container, and in Containers with Transitions I set that external links should be opened in `tmp` containers, there is infinite loop switching between `microsoft` and `tmp` containers.
+
+Solution:
+
+Remove container and readd it.
 
 ## Cannot add subdomain
 
