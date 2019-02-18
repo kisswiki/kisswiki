@@ -46,3 +46,15 @@ I have instructed newcomers in meditation. If they have mental problems I sugges
 My experience is that people with mental problems benefit more from concentrative meditation that builds one-pointedness and calmness, than pure mindfulness type awareness meditation that brings problems into the consciousness. Build strength before facing your inner dragons.
 
 - https://news.ycombinator.com/item?id=15451833
+
+## close your eyes
+
+A study carried out by The University of Western Australia has provided compelling evidence that congenital/early cortical blindness – that is when people are blind from birth or shortly after—is protective against schizophrenia.
+
+The unusual discovery has fascinated scientists and may lead to a better understanding of what causes schizophrenia – a question that has baffled scientists for decades.
+
+Schizophrenia is characterised by symptoms such as losing touch with reality, hearing voices and having visual hallucinations. However, despite numerous bodies of research, the exact cause still remains a mystery.
+
+The UWA researchers used data collected from health registers between 1980 and 2001 on nearly half a million people in Western Australia and found no one with a diagnosis of congenital or early cortical blindness developed schizophrenia.
+
+https://medicalxpress.com/news/2019-02-born-people-schizophrenia.html
