@@ -29,3 +29,15 @@ https://wiadomosci.wp.pl/smog-i-silownia-moga-nie-isc-w-parze-lepiej-sprawdz-gdz
 @RobertKowalski: bylem na siłce z miernikiem laserowym - wskazania byly prawie 10x przekroczony limit pm 2.5 - zaciągało syf klimą, wentylatorami, itd, a czy ktoś kiedyś widział siłownie z rekuperacją/filtrami/oczyszczaczami powietrza? 
 
 https://www.wykop.pl/link/4805727/bieganie-rekreacyjne-w-polsce-szkodzi-zdrowiu/
+
+##
+
+Według badania przeprowadzonego przez Krakowski Alarm Smogowy i Akademię Górniczo-Hutniczą w Krakowie w czasie epizodów smogowych powietrze w zamkniętych pomieszczeniach jest na ogół średnio o 50 proc. lepsze niż na zewnątrz. Ale jeśli normy są przekroczone o kilkaset procent, to i tak jego jakość jest niezadowalająca.
+
+- Proszę zauważyć: jeśli na zewnątrz mamy stężenie PM10 wynoszące 1000 µg/m3, a w środku nawet te 400 µg/m3, to i tak jest masakra - mówi WP Piotr Siergiej z Polskiego Alarmu Smogowego.
+
+I dodaje, że w dużych biurach, czy siłowniach, faktycznie nie wietrzy się pomieszczeń poprzez otwarcie okna. Ale smog może się do nich dostać w inny sposób - przez system wentylacyjny. - W takich pomieszczeniach jest wymuszony obieg powietrza. Są wentylatory, które to powietrze tłoczą do środka. Wszystko zależy od tego, co jest na końcu tego wentylatora. Jeżeli są tam filtry HEPA, czy węglowe, które oczyszczają powietrze z zewnątrz wpadające do pomieszczenia, to tam tego zanieczyszczenia nie będzie - wyjaśnia ekspert. I dodaje, że jeśli tych oczyszczaczy nie ma, to zanieczyszczenie powietrza może być porównywalne do tego, które jest na zewnątrz.
+
+To jak jest na siłowniach? - Nie ma tu jednej prostej reguły. Jeżeli ta siłownia jest w budynku nowoczesnym, z nowoczesną wentylacją, która ma sprawne filtry to nie ma się czego obawiać. Natomiast jeżeli jest to jakaś stara hala, w której jest tylko wentylator włączony z dziurą w ścianie, to to powietrze w środku będzie niewiele czystsze od powietrza na zewnątrz - tłumaczy.
+
+https://wiadomosci.wp.pl/smog-i-silownia-moga-nie-isc-w-parze-lepiej-sprawdz-gdzie-cwiczysz-6329278133676161a
