@@ -1,0 +1,5 @@
+- https://itsfoss.com/webp-ubuntu-linux/
+- https://www.reddit.com/r/linuxquestions/comments/5ymj6d/no_webp_support_in_eye_of_gnome/
+- Eye of GNOME doesn't support WebP https://en.m.wikipedia.org/wiki/Eye_of_GNOM://en.m.wikipedia.org/wiki/Eye_of_GNOME
+- Webp (shared-mime-data) image format missing? RESOLVED FIXED https://bugs.freedesktop.org/show_bug.cgi?id=41155
+  -  Nautlius does not support WebP thumbnail previews? https://bugzilla.gnome.org/show_bug.cgi?id=659291
