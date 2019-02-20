@@ -75,4 +75,11 @@ What to remember:
 
 ## Links
 
+- [Learning Rust With Entirely Too Many Linked Lists](https://cglab.ca/~abeinges/blah/too-many-lists/book/)
 - linked_list - Intrusive doubly-linked list https://docs.rs/intrusive-collections/0.7.8/intrusive_collections/
+- Safe, intrusive doubly-linked lists for Rust https://github.com/pcwalton/multilist
+- https://stackoverflow.com/questions/22268861/how-would-you-implement-a-bi-directional-linked-list-in-rust
+- https://users.rust-lang.org/t/drying-out-a-doubly-linked-list-implementation/2856
+- https://subscription.packtpub.com/book/application_development/9781788995528/4/ch04lvl1sec29/doubly-linked-list
+- https://rcoh.me/posts/rust-linked-list-basically-impossible/
+  - https://news.ycombinator.com/item?id=16442743
