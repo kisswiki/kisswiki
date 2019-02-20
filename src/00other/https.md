@@ -1,0 +1,1 @@
+- https://www.reddit.com/r/programming/comments/ai9n4k/why_does_apt_not_use_https/

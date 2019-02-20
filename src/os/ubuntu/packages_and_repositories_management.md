@@ -114,4 +114,6 @@ https://askubuntu.com/questions/307/how-can-ppas-be-removed
 
 https://askubuntu.com/questions/15433/unable-to-lock-the-administration-directory-var-lib-dpkg-is-another-process
 
+## HTTPS
 
+https://www.reddit.com/r/programming/comments/ai9n4k/why_does_apt_not_use_https/
