@@ -132,6 +132,60 @@ a -> (a -> b) -> b
 
 instead of
 
+-- 2019-02-20: it looks the same as above, something is messed up
+
 ```elm
 a -> (a -> b) -> b
 ```
+
+## 2019-02-20
+
+I don't understand above so once again:
+
+```elm
+map2 : (a -> b -> value) -> Decoder a -> Decoder b -> Decoder value
+(|>) : a -> (a -> b) -> b
+andMap : Decoder a -> Decoder (a -> b) -> Decoder b
+andMap =
+    map2 (|>)
+
+type alias User =
+  { id                : Int
+  , createdAt         : Date
+  }
+
+User : Int -> Date -> User
+
+map2 User
+    (field "id" int) 
+    (field "createdAt" date)
+
+succeed User
+        |> andMap (field "id" int)
+	|> andMap (field "createdAt" date)
+```
+
+So we say that `andMap` will take decoder as first argument and function wrapped in decoder as second argument.
+
+We then unwrap value from first decoder, unwrap function from second decoder, run function with value, and wrap with decoder.
+
+```elm
+andMap (field "id" int) (succeed User)
+```
+
+After above partial application of User constructor, we will get something like
+
+```elm
+Decoder (Date -> User)
+```
+
+So now we run it again
+
+```elm
+andMap (field "createdAt" date) (Decoder (Date -> User))
+```
+
+- https://package.elm-lang.org/packages/elm/json/latest/Json-Decode#map2
+- https://package.elm-lang.org/packages/elm/core/latest/Basics#(|%3E)
+- https://package.elm-lang.org/packages/elm-community/json-extra/latest/Json-Decode-Extra#andMap
+- https://github.com/elm-community/json-extra/blob/2.0.0/docs/andMap.md
