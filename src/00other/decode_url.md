@@ -1,0 +1,4 @@
+- https://gchq.github.io/CyberChef/
+  - decode url
+  - hex to rgb
+  - etc.
