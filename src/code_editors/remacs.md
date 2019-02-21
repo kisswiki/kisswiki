@@ -13,8 +13,9 @@ https://github.com/Wilfred/remacs/issues/788#issuecomment-414138423
 Installing it globally required cargo installed globally https://github.com/Wilfred/remacs/issues/1162
 
 ```bash
-./configure --prefix=$HOME/.local
-make install
+$ ./configure --prefix=$HOME/.local
+$ make
+$ make install
 ```
 
 If you want to install in other directory, i.e. `~/local` bc there is [problem with `make uninstall`](https://github.com/Wilfred/remacs/issues/779), you may need to change exec in remacs.desktop
