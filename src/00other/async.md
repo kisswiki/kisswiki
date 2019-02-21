@@ -1,0 +1,1 @@
+there's only "two type" of async code, if you oversimplify things: Sequential async and parallel async https://www.reddit.com/r/rust/comments/ar7nx9/an_update_on_asyncawait_from_niko_and_another/egn8dlh/
