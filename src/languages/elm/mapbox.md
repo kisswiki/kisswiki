@@ -1,2 +1,7 @@
 - https://groups.google.com/forum/#!topic/elm-discuss/Ki-ary1xRcQ
 - https://github.com/search?utf8=%E2%9C%93&q=mapbox+elm&type=
+- https://github.com/gampleman/elm-mapbox/
+  - https://github.com/rofrol/elm-mapbox-example
+  - styles https://github.com/gampleman/elm-mapbox/blob/master/examples/Styles/Light.elm
+    - `Source.vectorFromUrl "composite" "mapbox://mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v7"`
+- Elm-0.18 version https://github.com/mnmlstme/elm-mapboxgl-example
