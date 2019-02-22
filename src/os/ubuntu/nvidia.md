@@ -25,3 +25,15 @@ Restart computer.
 After that vdpau works.
 
 https://askubuntu.com/questions/61396/how-do-i-install-the-nvidia-drivers
+
+## Hardware Video Acceleration
+
+check with
+
+```bash
+$ sudo apt install vdpauinfo
+$ vdpauinfo
+```
+
+- https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Verifying_VDPAU
+- https://wiki.debian.org/HardwareVideoAcceleration 
