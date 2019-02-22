@@ -1,0 +1,1 @@
+- Enables autofill https://latitudelongitude.org/dms-decimal
