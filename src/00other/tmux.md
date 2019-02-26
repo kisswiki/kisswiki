@@ -4,7 +4,13 @@ Reload config
 
 `tmux source-file ~/.tmux.conf`
 
+or
+
+`systemctl --user restart tmux.service`
+
 `:show-options -g` to show variables set
+
+- https://gist.github.com/spicycode/1229612
 
 ## Mouse support
 
@@ -36,11 +42,19 @@ Here is a list of a few basic tmux commands:
 
 Other thing worth knowing is that scrolling is enabled by pressing `Ctrl+b PgUp/PgDown`. In fact, it enables the copy mode, which can also be done by pressing `Ctrl+b [`. When in copy mode, you can use `PgUp/PgDown` and arrow keys to scroll through the terminal contents. To (q)uit the copy mode, simply press the `q` key.
 
-https://lukaszwrobel.pl/blog/tmux-tutorial-split-terminal-windows-easily/
+- https://lukaszwrobel.pl/blog/tmux-tutorial-split-terminal-windows-easily/
+- https://thoughtbot.com/upcase/videos/tmux-navigation
+- https://www.linode.com/docs/networking/ssh/persistent-terminal-sessions-with-tmux/#manage-tmux-windows
+- http://tangosource.com/blog/a-tmux-crash-course-tips-and-tweaks/
+- https://tmuxcheatsheet.com/
+- tmux cheat sheet https://gist.github.com/andreyvit/2921703
+- tmux cheat sheet https://gist.github.com/karenyyng/5de2823651965361b788
+- tmux cheat sheet https://gist.github.com/Bekbolatov/6840069e51382965fdad
+- https://stackoverflow.com/questions/41343824/difference-between-c-b-d-and-c-b-d-in-tmux
 
 ## Quit
 
-`prefix :kill-session`
+`prefix :kill-ses`
 
 https://superuser.com/questions/777269/how-to-close-a-tmux-session
 
@@ -58,13 +72,11 @@ https://unix.stackexchange.com/questions/174440/exit-tmux-window-without-quittin
 
 https://gist.github.com/henrik/1967800
 
-## Session restore
+or `:choose-tree`
 
-`prefix Ctrl+s` to save and `prefix Ctrl+r` to restore.
+To list sessions
 
-Default save interval is 15 min https://github.com/tmux-plugins/tmux-continuum/blob/90f4a00c41de094864dd4e29231253bcd80d4409/scripts/variables.sh#L8
-
-https://github.com/tmux-plugins/tmux-resurrect
+`tmux ls`
 
 ## Plugin manager
 
@@ -82,13 +94,32 @@ when we use tpm.
 
 ## Automatic session restore
 
+- https://github.com/rofrol/tat
 - https://github.com/tmux-plugins/tmux-continuum
 - https://github.com/tmuxinator/tmuxinator
+- https://github.com/tmux-python/tmuxp
+- https://github.com/remiprev/teamocil
+- https://github.com/sk1418/retmux
 - https://superuser.com/questions/440015/restore-tmux-session-after-reboot
 - https://forum.upcase.com/t/save-and-reopen-tmux-session/5224
 - https://stackoverflow.com/questions/5609192/how-to-set-up-tmux-so-that-it-starts-up-with-specified-windows-opened
 - https://stackoverflow.com/questions/19575195/tmux-how-to-automatically-open-sessions-windows-and-panes
 - https://stackoverflow.com/questions/5609192/how-to-set-up-tmux-so-that-it-starts-up-with-specified-windows-opened
+
+## Other
+
+- enhances multi-user terminal multiplexing https://github.com/zolrath/wemux
+
+## tmux-resurrect
+
+### Session restore
+
+`prefix Ctrl+s` to save and `prefix Ctrl+r` to restore.
+
+Default save interval is 15 min https://github.com/tmux-plugins/tmux-continuum/blob/90f4a00c41de094864dd4e29231253bcd80d4409/scripts/variables.sh#L8
+
+https://github.com/tmux-plugins/tmux-resurrect
+
 
 ## tmux-continuum
 
@@ -164,3 +195,17 @@ set -as terminal-overrides ',xterm*:sitm=\E[3m'
 ```
 
 https://github.com/neovim/neovim/issues/7764#issuecomment-411995268
+
+## Write scrollback to a file
+
+- https://unix.stackexchange.com/questions/26548/write-all-tmux-scrollback-to-a-file
+
+## Equally baalance split panes
+
+- https://unix.stackexchange.com/questions/32986/how-do-i-equally-balance-tmux1-split-panes
+
+## Different starting directory
+
+- https://stackoverflow.com/questions/44936396/different-starting-directory-per-window
+- https://superuser.com/questions/491897/tmux-forgets-the-directory-where-the-session-was-created
+- https://unix.stackexchange.com/questions/12032/how-to-create-a-new-window-on-the-current-directory-in-tmux
