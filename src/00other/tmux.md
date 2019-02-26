@@ -94,7 +94,7 @@ when we use tpm.
 
 ## Automatic session restore
 
-- https://github.com/rofrol/tat
+- https://github.com/rofrol/stmux
 - https://github.com/tmux-plugins/tmux-continuum
 - https://github.com/tmuxinator/tmuxinator
 - https://github.com/tmux-python/tmuxp
