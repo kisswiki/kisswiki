@@ -117,3 +117,13 @@ https://askubuntu.com/questions/15433/unable-to-lock-the-administration-director
 ## HTTPS
 
 https://www.reddit.com/r/programming/comments/ai9n4k/why_does_apt_not_use_https/
+
+## update or intall - forbidden 403
+
+`sudo vim /etc/apt/sources.list`
+
+change `pl.archive.ubuntu.com` to `archive.ubuntu.com`.
+
+- https://lists.ubuntu.com/archives/ubuntu-pl/Week-of-Mon-20051121/001582.html
+- https://askubuntu.com/questions/104695/how-do-i-change-mirrors-in-ubuntu-server-from-regional-to-main
+
