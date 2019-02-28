@@ -9,3 +9,9 @@
 ##
 
 >Programming is an art. Don't spend all your time sharpening your pencil when you should be drawing. https://www.hackingwithswift.com/
+
+##
+
+Ryba psuje się od głowy, ale skrobie się ją od ogona.
+
+https://www.wykop.pl/link/4817765/#comment-63358813
