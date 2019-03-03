@@ -1,0 +1,1 @@
+- get route data from fitbite, vector tiles data from mapbox and create svg map from it with d3 for hi res printing https://www.deeson.co.uk/labs/generating-maps-nodejs
