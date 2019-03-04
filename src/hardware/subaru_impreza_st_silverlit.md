@@ -1,0 +1,1 @@
+- [Samochodzik "R/C" 27MHz skręca ale nie jedzie.](https://www.elektroda.pl/rtvforum/topic2095708.html 
