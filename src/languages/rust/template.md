@@ -10,6 +10,10 @@
   - https://github.com/SergioBenitez/Rocket/tree/v0.2.6/examples/handlebars_templates/templates
 - https://github.com/Keats/tera
 - https://doc.rust-lang.org/nightly/std/fmt/
+- fast dynamic template engine https://github.com/maciejhirsz/ramhorns
+  - https://maciej.codes/2019-03-03-ramhorns.html
+    - https://www.reddit.com/r/rust/comments/awxisr/blog_post_explaining_how_ramhorns_achieves_its/
+	- https://www.reddit.com/r/rust/comments/avwitb/ramhorns_runtime_templates_like_mustache_but_much/
 
 ## handlebars-rust
 
