@@ -109,4 +109,9 @@ match {
 
 group terminal with what you want to have higher precedence
 
->the typical pattern for encoding precedence is to have one nonterminal per precedence level, where you begin with the operators of lowest precedence (+, -), add in the next highest precedence level (*, /), and finish with the bare "atomic" expressions like Num. Finally, you add in a parenthesized version of your top-level as an atomic expression, which lets people reset.
+>the typical pattern for encoding precedence is to have one nonterminal per precedence level, where you begin with the operators of lowest precedence (`+`, `-`), add in the next highest precedence level (`*`, `/`), and finish with the bare "atomic" expressions like Num. Finally, you add in a parenthesized version of your top-level as an atomic expression, which lets people reset.
+
+## How to understand LR(k) parser?
+
+- http://blog.reverberate.org/2013/07/ll-and-lr-parsing-demystified.html
+- [parser](/src/00other/parser.md)
