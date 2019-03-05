@@ -1,3 +1,19 @@
+## Understood LR
+
+Those three helped me:
+
+- http://blog.reverberate.org/2013/07/ll-and-lr-parsing-demystified.html
+- [Parse Stack (CSC 4330 - PLC) - Shift Reduce Parser](https://youtu.be/1_qjmZXFaNw)
+- https://www.geeksforgeeks.org/postfix-prefix-conversion/
+
+With LR or LL we change infix to postfix or prefix graph traversal.
+
+With LR we get Reverse Polish Notation so we can process it using just stack.
+
+Those structures above input are so we have correct ordering.
+
+So that we change `id => F => T => E`.
+
 ## Links
 
 - http://blog.reverberate.org/2013/07/ll-and-lr-parsing-demystified.html
