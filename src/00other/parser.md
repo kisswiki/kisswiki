@@ -36,6 +36,20 @@
 - https://eu.udacity.com/course/compilers-theory-and-practice--ud168
 - https://www.amazon.com/Introduction-Language-Addison-Wesley-computer-science/dp/0201029553
 
+### LR
+
+1965: Knuth discovers LR
+
+Donald Knuth answers[75] the challenge expressed a few years earlier by Oettinger. Oettinger had hoped for a theory of stack-based parsing to replace "ad hoc invention".[76] Knuth responds with a theory that encompasses all the "tricks"[77] used for efficient parsing up to that time. In an exhilarating and exhausting 39-page paper, Knuth shows that stack-based parsing is equivalent to a new class of grammars. Knuth calls this new class, LR(k). Knuth also provides a parsing algorithm for the LR(k) grammars.
+
+Knuth's new LR parsing algorithm is deterministic, Chomskyan and bottom-up. It might be expected to be "the one to rule them all". Unfortunately, while linear, it is not practical.
+
+LR(k) is actually a set of grammar classes. There is a grammar class for every k, where k is the amount of lookahead used. LR(0) requires no lookahead, but it is not practical because it is too weak to parse most grammars of interest. LR(1) is not practical because of the size of the tables it requires -- well beyond what can be done with 1965 hardware.[78]
+
+As the k in LR(k) grows, LR(k) becomes more impractical rapidly. The size of the tables grows exponentially, while the value of the additional lookahead rapidly diminishes. It is not likely that LR(2) parsing will ever see much actual use, never mind LR(k) for any k greater than 2.
+
+https://jeffreykegler.github.io/personal/timeline_v3
+
 ### Lalrpop
 
 - https://github.com/lalrpop/lalrpop
