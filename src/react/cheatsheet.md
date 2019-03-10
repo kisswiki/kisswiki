@@ -1,1 +1,1 @@
-- http://ricostacruz.com/cheatsheets/react.html
+- https://devhints.io/react
