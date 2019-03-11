@@ -14,6 +14,12 @@ Those structures above input are so we have correct ordering.
 
 So that we change `id => F => T => E`.
 
+Though in this article about "parsing demystified" it's written:
+
+>Knowing the parsing context makes it possible to extend grammars with rich regex-like operators like repetition, alternation anywhere (not just at the top level), etc. Basically each rule can form a DFA. This is possible with top-down parsing because the parser knows what rule it is in and can step through that rule’s state machine as it is parsing it. I don’t believe this is possible with bottom-up parsing
+
+But LALRPOP is actually LR(1) parser and supports regexes.
+
 ## Links
 
 - http://blog.reverberate.org/2013/07/ll-and-lr-parsing-demystified.html
@@ -66,12 +72,18 @@ As the k in LR(k) grows, LR(k) becomes more impractical rapidly. The size of the
 
 https://jeffreykegler.github.io/personal/timeline_v3
 
+Why LR(1)? After all, aren’t LR(1) generators kind of annoying, what with those weird shift/reduce errors? Well, after teaching compiler design for so many years, I think I may have developed Stockholm syndrome – I kind of enjoy diagnosing and solving shift/reduce failures. ;) But more seriously, I personally like that once I get my grammar working with an LR(1) generator, I know that it is unambiguous and will basically work. When I’ve used PEG generators, I usually find that they work great in the beginning, but once in a while they will just mysteriously fail to parse something, and figuring out why is a horrible pain. This is why with LALRPOP I’ve tried to take the approach of adding tools to make handling shift/reduce errors relatively easy – basically automating the workarounds that one typically has to do by hand.
+
+- http://smallcultfollowing.com/babysteps/blog/2015/09/14/lalrpop/
+  - https://www.reddit.com/r/rust/comments/3kx23f/lalrpop_an_lr1_parser_generator_for_rust/
+
 ### Lalrpop
 
 - https://github.com/lalrpop/lalrpop
 - http://dfockler.github.io/2016/09/15/lalrpop.html
   - https://www.reddit.com/r/rust/comments/52ziax/lets_build_a_replparser_in_rust_lalrpop/
 - http://fitzgeraldnick.com/2018/11/15/program-synthesis-is-possible-in-rust.html
+- >I imagine the turning point was actually release 0.13; that is when we changed from generating our own regex to using the regex library. I imagine this is what made it slower (but it also vastly improved compilation time). [Performance degredation with noddy csv parser · Issue #269 · lalrpop/lalrpop](https://github.com/lalrpop/lalrpop/issues/269)
 
 ### Parsers in Rust
 
