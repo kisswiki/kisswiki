@@ -10,6 +10,8 @@
     - http://exercism.io/daniula
     - http://exercism.io/wpiekutowski
 - flash cards ios app https://discourse.elm-lang.org/t/elm-flashcard-app-book-quiz-audio-book/805
+- https://github.com/elm/elm-lang.org/tree/master/src/pages/0.19.0
+  - view it like here https://elm-lang.org/0.19.0/bad-recursion
 
 ## Overview
 
