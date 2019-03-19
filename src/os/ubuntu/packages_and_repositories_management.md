@@ -129,7 +129,7 @@ change `pl.archive.ubuntu.com` to `archive.ubuntu.com`.
 
 ## apt-get vs apt
 
->While apt does have some similar command options as apt-get, it’s not backward compatible with apt-get. That means it won’t always work if you just replace the apt-get part of an apt-get command with apt.
+While apt does have some similar command options as apt-get, it’s not backward compatible with apt-get. That means it won’t always work if you just replace the apt-get part of an apt-get command with apt.
 
 ```
 apt install			apt-get install			Installs a package
@@ -141,6 +141,13 @@ apt autoremove 		apt-get autoremove	 	Removes unwanted packages
 apt full-upgrade 	apt-get dist-upgrade 	Upgrades packages with auto-handling of dependencies
 apt search			apt-cache search 		Searches for the program
 apt show			apt-cache show 			Shows package details
+```
+
+apt has a few commands of its own as well.
+
+```
+apt list		 	Lists packages with criteria (installed, upgradable etc)
+apt edit-sources 	Edits sources list
 ```
 
 - https://itsfoss.com/apt-vs-apt-get-difference/
