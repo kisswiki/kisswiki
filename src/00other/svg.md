@@ -69,3 +69,6 @@ Thus, a stroke-miterlimit of 1.0 means that the miter length can be maximally 1 
 - http://tutorials.jenkov.com/svg/stroke.html
 - More specific https://www.w3.org/TR/SVG/painting.html#StrokeMiterlimitProperty
 - Chapter 5, SVG Programming: The Graphical Web
+- https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-miterlimit
+- https://css-tricks.com/tight-fitting-svg-shapes/
+- http://tavmjong.free.fr/SVG/LINEJOIN_STUDY/
