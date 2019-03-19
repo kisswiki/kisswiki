@@ -25,7 +25,7 @@ Open in Gimp, `Image > Mode > RGB`, export as `pnm`. Converting with imagemagick
 >Gimp can write PNM files, as well as BMP files. Both file formats are understood by Potrace version 1.1 or later. Note that the files have to be bitmaps, i.e., they should only use two colors black and white. All other colors or grey values will be converted to black and white before Potrace begins its processing. http://potrace.sourceforge.net/faq.html#formats
 
 Best result:
-  
+
 `potrace --svg $FILE.pnm`
 
 >It uses potrace to generate an SVG representation of the figure from a bitmap. potrace rocks. https://github.com/guyc/scadtrace
@@ -57,3 +57,15 @@ https://css-tricks.com/scale-svg/#article-header-id-3
 ## clean and pretty print
 
 svgo and  `xmllint --format --pretty 2 file.xml`
+
+## miter limit
+
+The miter length is measured from the inner corner of the line join to the tip of the line join.
+
+the wider the stroke is, and the sharper the angle between the joining lines, the longer the miter becomes.
+
+Thus, a stroke-miterlimit of 1.0 means that the miter length can be maximally 1 x stroke width. The miter is cut off beyond that. 1.0 is the smallest possible value for stroke-miterlimit.
+
+- http://tutorials.jenkov.com/svg/stroke.html
+- More specific https://www.w3.org/TR/SVG/painting.html#StrokeMiterlimitProperty
+- Chapter 5, SVG Programming: The Graphical Web
