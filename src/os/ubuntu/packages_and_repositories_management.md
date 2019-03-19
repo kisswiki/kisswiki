@@ -127,3 +127,21 @@ change `pl.archive.ubuntu.com` to `archive.ubuntu.com`.
 - https://lists.ubuntu.com/archives/ubuntu-pl/Week-of-Mon-20051121/001582.html
 - https://askubuntu.com/questions/104695/how-do-i-change-mirrors-in-ubuntu-server-from-regional-to-main
 
+## apt-get vs apt
+
+>While apt does have some similar command options as apt-get, it’s not backward compatible with apt-get. That means it won’t always work if you just replace the apt-get part of an apt-get command with apt.
+
+```
+apt install			apt-get install			Installs a package
+apt remove	 		apt-get remove	 		Removes a package
+apt purge			apt-get purge   		Removes package with configuration
+apt update 			apt-get update 			Refreshes repository index
+apt upgrade			apt-get upgrade 		Upgrades all upgradable packages
+apt autoremove 		apt-get autoremove	 	Removes unwanted packages
+apt full-upgrade 	apt-get dist-upgrade 	Upgrades packages with auto-handling of dependencies
+apt search			apt-cache search 		Searches for the program
+apt show			apt-cache show 			Shows package details
+```
+
+- https://itsfoss.com/apt-vs-apt-get-difference/
+- https://askubuntu.com/questions/829864/is-apt-get-deprecated
