@@ -15,3 +15,9 @@
 Ryba psuje się od głowy, ale skrobie się ją od ogona.
 
 https://www.wykop.pl/link/4817765/#comment-63358813
+
+##
+
+>Discipline and concentration are a matter of being interested.
+>Find pleasure in what you are doing.
+>- Tom Kite
