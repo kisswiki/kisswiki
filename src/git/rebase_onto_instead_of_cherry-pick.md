@@ -2,4 +2,9 @@ featureB is based on featureA, however, we realize featureB is not dependent on 
 
 `git rebase --onto master featureA featureB`
 
-https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
+or when I want to rebase on `origin/master`:
+
+`git rebase -X ours --onto origin/master master`
+
+- https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
+- https://stackoverflow.com/questions/29914052/i-cant-understand-the-behaviour-of-git-rebase-onto
