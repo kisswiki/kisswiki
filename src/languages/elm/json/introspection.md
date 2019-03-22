@@ -105,7 +105,7 @@ main =
                     (\value ->
                         let
                             _ =
-                                Debug.log "value"
+                                Debug.log "value" (Json.Encode.encode 2 value)
                         in
                         Json.Decode.field "data" (Json.Decode.list idDecoder)
                     )
