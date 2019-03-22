@@ -72,3 +72,25 @@ Another alternative, which produces keys in the original order, is:
 `jq -r 'to_entries[] | "\(.key), \(.value | .ip)"'`
 
 https://stackoverflow.com/questions/34226370/jq-print-key-and-value-for-each-entry-in-an-object
+
+## output to file
+
+Just calling jq will throw errors if stdout isn't a terminal
+
+```bash
+$ curl https://jsonplaceholder.typicode.com/posts/1 | jq > test.txt
+jq - commandline JSON processor [version 1.5-1-a5b5cbe]
+Usage: jq [options] <jq filter> [file...]
+
+        jq is a tool for processing JSON inputs, applying the
+        given filter to its JSON text inputs and producing the
+[...]
+```
+
+Try `jq '.'` (i.e: pretty-print the input JSON):
+
+```bash
+$ curl https://jsonplaceholder.typicode.com/posts/1 | jq '.' > test.txt
+```
+
+https://stackoverflow.com/questions/48964305/write-output-to-a-file-after-piped-to-jq/48964481#48964481
