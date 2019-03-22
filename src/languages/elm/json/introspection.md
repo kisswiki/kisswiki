@@ -96,3 +96,19 @@ decodedRenderedFeature =
 main =
     Html.text <| Debug.toString decodedRenderedFeature
 ```
+
+## Introspect already used decoder
+
+```elm
+            (Json.Decode.value
+                |> Json.Decode.andThen
+                    (\value ->
+                        let
+                            _ =
+                                Debug.log "value"
+                        in
+                        Json.Decode.field "data" (Json.Decode.list idDecoder)
+                    )
+            )
+        --(Json.Decode.field "data" (Json.Decode.list idDecoder))
+```
