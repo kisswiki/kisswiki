@@ -1,1 +1,2 @@
-Problem with current elm compiler and elm-ui https://github.com/elm/compiler/pull/1850
+- Problem with current elm compiler and elm-ui https://github.com/elm/compiler/pull/1850
+- ["Building a Toolkit for Design" by Matthew Griffith - YouTube](https://www.youtube.com/watch?v=Ie-gqwSHQr0)
