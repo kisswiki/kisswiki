@@ -130,7 +130,7 @@ I needed to patch tmux-continuum to make it restore in `~/.tmux/plugins/tmux-con
 ```bash
 just_started_tmux_server() {
         #[ "$(number_of_sessions)" -eq 1 ]
-        # https://github.com/tmux-plugins/tmux-continuum/issues/52#issuecomment-445070459     
+        # https://github.com/tmux-plugins/tmux-continuum/issues/52#issuecomment-445070459
         [ "$(tmux ls -F '#{start_time}')" -gt "$(($(date +%s)-10))" ]
 }
 ```
@@ -209,3 +209,7 @@ https://github.com/neovim/neovim/issues/7764#issuecomment-411995268
 - https://stackoverflow.com/questions/44936396/different-starting-directory-per-window
 - https://superuser.com/questions/491897/tmux-forgets-the-directory-where-the-session-was-created
 - https://unix.stackexchange.com/questions/12032/how-to-create-a-new-window-on-the-current-directory-in-tmux
+
+## Using tmux for everything
+
+- https://kgrz.io/using-tmux-for-everything.html
