@@ -1,2 +1,8 @@
 - Problem with current elm compiler and elm-ui https://github.com/elm/compiler/pull/1850
 - ["Building a Toolkit for Design" by Matthew Griffith - YouTube](https://www.youtube.com/watch?v=Ie-gqwSHQr0)
+- https://mdgriffith.gitbooks.io/style-elements
+- [elm-ui - rock paper scissors (lizard spock) - YouTube](https://www.youtube.com/watch?v=fhMLEOr8C4U)
+- https://dev.to/stevensonmt/-working-with-menus-in-elm-ui-292b
+- https://discourse.elm-lang.org/t/learning-elm-elm-ui
+- https://korban.net/posts/elm/2019-11-17-elm-ui-introduction/
+  - https://github.com/Chefclub/elm-ui-tutorial
