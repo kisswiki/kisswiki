@@ -8,3 +8,4 @@
   - looks good, no way to reset timers
 - https://hovancik.net/stretchly/
   - Looks good, you need to specify breaks using microbreaks, even when microbreaks are disabled
+- http://gnomepomodoro.org/
