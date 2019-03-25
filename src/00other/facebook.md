@@ -16,3 +16,7 @@ It's important to recognize that this is not an exploit or high-tech exfiltratio
 Seeing this and being surprised is like watching a teen movie where the gossiper invites the entire school to listen in on the phone line while the protagonist is (unwisely) sharing a secret with them, and thinking as you watch, "that's totally out of character for the gossiper - even though they want to collect people's information themselves, there's no way they would invite other people to listen in as they're in the process of receiving that information."
 
 https://news.ycombinator.com/item?id=16871397
+
+## Block sponosered ads
+
+- https://greasyfork.org/pl/scripts/378070-adblock-for-facebook
