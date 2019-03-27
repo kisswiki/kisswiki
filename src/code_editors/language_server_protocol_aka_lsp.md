@@ -1,0 +1,2 @@
+- https://www.reddit.com/r/vim/comments/b3yzq4/a_lsp_client_maintainers_view_of_the_lsp_protocol/
+  - https://old.reddit.com/r/emacs/comments/b44brp/post_on_rvim_critiquing_the_language_server/
