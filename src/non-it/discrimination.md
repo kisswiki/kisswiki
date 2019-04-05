@@ -31,6 +31,9 @@ https://www.quora.com/Are-corporations-in-America-required-to-hire-a-certain-amo
 
 ##
 
+Moje komentarze na https://www.spidersweb.pl/2019/03/ja-nie-hejtuje-ja-rocknrolluje-wosp-mowa-nienawisci.html
+
+
 Nie wiem jak było z tymi rasistami u władzy.
 
 Zgadzam się co do poprawy prawa - powinna być legalizacja narkotyków a dla uzależnionych darmowe dawki jak w Szwajcarii.
@@ -55,4 +58,17 @@ Jak ktoś chce pomóc konkretnej grupie, na przykład kobietom, to nie może to 
 - https://en.m.wikipedia.org/wiki/No_Child_Left_Behind_Act
 
 
-Z https://www.forbes.com/sites/kimelsesser/2018/10/02/california-mandates-women-on-corporate-boards-but-do-quotas-work/
+Ale zabierając klasie średniej pieniądze i dając biedniejszym nie spowodujesz, że bogaci przestaną się bogacić.
+Bogacą się cały czas i pokaż mi przykłady że dzieci oligarchów gniotą takie jak moje jak karaluchy.
+
+Ja bym szedł w kierunku uproszczenia prawa, zmniejszenia biurokracji i minimalizacji państwa, zapewnienia swobód obywatelskich typu łatwy dostęp do broni, mniejszej inwigilacji.
+
+Nie jestem jednakże utopijnym wolnorynkowcem. Naturalnym stanem jest bowiem tworzenie się oligopoli. I tu trzeba przeciwdziałać, bo oligopole nie wykorzystują zasobów tak dobrze jak zdrowa konkurencja.
+
+http://cyclist.com.au/can-game-theory-explain-bike-racing/
+
+Dodatkowo uważam że kapitał ma narodowość.
+
+Zaproponowałbym nawet dalsze pójście w autonomię jednostki typu open hardware jak Global Village Construction Set https://www.opensourceecology.org/gvcs/, china on your desk czyli drukarki 3d mogące siebie wydrukować https://en.m.wikipedia.org/wiki/RepRap_project, itp.
+
+Oraz zniesienie patentów i praw autorskich bo jak widać to też prowadzi do monopoli.
