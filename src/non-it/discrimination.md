@@ -28,3 +28,31 @@ If a large employer cannot  find qualified candidates in various races, genders,
 If there is a justifiable reason to discriminate, employers have been successful in defending their practices.  An example would be Hooters Restaurant hiring only young women for servers.
 
 https://www.quora.com/Are-corporations-in-America-required-to-hire-a-certain-amount-of-minority-employees-and-are-there-repercussions-if-this-is-not-done/answer/Debbie-Middleton
+
+##
+
+Nie wiem jak było z tymi rasistami u władzy.
+
+Zgadzam się co do poprawy prawa - powinna być legalizacja narkotyków a dla uzależnionych darmowe dawki jak w Szwajcarii.
+
+BTW. Nie sądzę że to rozwiąże problem z przestępczością murzyńską.
+
+Ale jak słyszę, że rasim czarnych nie jest równy białemu, to mi się zapala czerwona lampka.
+
+I jestem za równością szans a nie wyników.
+
+Nieakceptowalne są wg mnie:
+- dodatkowe punkty na studia za kolor skóry czy inna dyskryminacja,
+- Ustawowe zmuszanie firm do zatrudnania w zarządzie połowy kobiet,
+- Pozaprawne środki przymusu firm do zatrudniania mniejszości.
+
+Jak ktoś chce pomóc konkretnej grupie, na przykład kobietom, to nie może to być systemowo z pieniędzy wszystkich, ale ten co go boli o to serce sam wyłoży peniądze albo zorganizuje zbiórkę, założy fundację itp.
+
+- https://www.forbes.com/sites/kimelsesser/2018/10/02/california-mandates-women-on-corporate-boards-but-do-quotas-work/
+- https://en.m.wikipedia.org/wiki/Gender_representation_on_corporate_boards_of_directors
+- https://www.quora.com/Are-corporations-in-America-required-to-hire-a-certain-amount-of-minority-employees-and-are-there-repercussions-if-this-is-not-done/answer/Debbie-Middleton
+- https://en.m.wikipedia.org/wiki/Discrimination_based_on_skin_color
+- https://en.m.wikipedia.org/wiki/No_Child_Left_Behind_Act
+
+
+Z https://www.forbes.com/sites/kimelsesser/2018/10/02/california-mandates-women-on-corporate-boards-but-do-quotas-work/
