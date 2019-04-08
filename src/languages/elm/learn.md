@@ -17,6 +17,7 @@
 
 - https://www.imaginarycloud.com/blog/elm-javascript-reinvented-1-overview/
 - https://www.imaginarycloud.com/blog/elm-javascript-reinvented-2/
+- https://dev.to/ryannhg/elm-the-jerk-that-took-away-my-for-loops-1djh
 
 ## instant communication
 
