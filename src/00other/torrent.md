@@ -11,7 +11,7 @@
   - works https://thepiratebay.bid
   - works https://thepiratebay.rocks
   - https://www.reddit.com/r/TPB/comments/9shb82/thepiratebayrocks_hosting_virusmalware/e8ot70w/
-  - https://thepiratebay-proxylist.se/ 
+  - https://thepiratebay-proxylist.se/
     - https://www.reddit.com/r/TPB/comments/9s83mo/can_someone_explain_im_new/e8ngjok/
   - TV https://thepiratebay.bid/top/205
   - HD Movies https://thepiratebay.bid/top/207
@@ -34,7 +34,7 @@
 
 - http://www.alluc.ee/
   - https://www.reddit.com/r/Piracy/comments/7ur9tq/alluc_is_so_incredible_it_feels_like_a_blessing/
-    - I never use their site, just their API key in Kodi. I simply don't trust them. 
+    - I never use their site, just their API key in Kodi. I simply don't trust them.
     - If you use Chrome, you can use like vGet or Video download Pro to snag the links and download videos.
     - Works well with kodi streaming addons configured with real-debrid and an alluc api key
     - Terarrium TV is easily the best media solution I've ever tried and I've tried most of them over the last 20 years.
@@ -135,3 +135,11 @@ https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently
 ## uTorrent
 
 - https://torrentfreak.com/bittorrent-client-utorrent-suffers-security-vulnerability-180220/
+
+## poprcorn time
+
+```bash
+desktop-file-install --dir=$HOME/.local/share/applications src/00other/poprcorntime.desktop
+```
+
+- https://linuxconfig.org/how-to-install-popcorn-time-movie-player-on-ubuntu-18-04-bionic-beaver-linux

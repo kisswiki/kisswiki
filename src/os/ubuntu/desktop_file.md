@@ -1,0 +1,4 @@
+- https://askubuntu.com/questions/722179/icon-path-in-desktop-file
+- https://askubuntu.com/questions/375975/how-to-force-unity-reload-local-share-applications
+- https://developer.gnome.org/integration-guide/stable/desktop-files.html.en
+- https://linuxconfig.org/how-to-install-popcorn-time-movie-player-on-ubuntu-18-04-bionic-beaver-linux
