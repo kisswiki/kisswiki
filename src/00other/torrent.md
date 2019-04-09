@@ -143,3 +143,7 @@ desktop-file-install --dir=$HOME/.local/share/applications src/00other/poprcornt
 ```
 
 - https://linuxconfig.org/how-to-install-popcorn-time-movie-player-on-ubuntu-18-04-bionic-beaver-linux
+
+## rarbg
+
+`src/web_browser/bookmarklets/rarbg_imdb.js`
