@@ -26,3 +26,8 @@ https://www.wykop.pl/link/4817765/#comment-63358813
 
 >Believe you can and you're halfway there.
 >- Theodore Roosevelt
+
+##
+
+>The beginning is the most important part of the work.
+>- Plato
