@@ -21,3 +21,8 @@ https://www.wykop.pl/link/4817765/#comment-63358813
 >Discipline and concentration are a matter of being interested.
 >Find pleasure in what you are doing.
 >- Tom Kite
+
+##
+
+>Believe you can and you're halfway there.
+>- Theodore Roosevelt
