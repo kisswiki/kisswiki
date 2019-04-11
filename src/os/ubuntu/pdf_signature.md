@@ -1,1 +1,1 @@
-- https://unix.stackexchange.com/questions/85873/how-can-i-add-a-signature-png-to-a-pdf-in-linux/225245#225245
+- Using Xournal https://unix.stackexchange.com/questions/85873/how-can-i-add-a-signature-png-to-a-pdf-in-linux/225245#225245
