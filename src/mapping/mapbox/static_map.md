@@ -1,3 +1,4 @@
+- https://docs.mapbox.com/help/how-mapbox-works/static-maps/
 - https://docs.mapbox.com/api/maps/#static
 - https://docs.mapbox.com/help/interactive-tools/static-api-playground/
 
@@ -11,16 +12,15 @@ $ curl "https://api.mapbox.com/v4/mapbox.satellite/geojson(%7B%0A%20%20%20%20%22
 - accessToken taken from https://account.mapbox.com/access-tokens/
 - https://stackoverflow.com/questions/34700418/drawing-polygons-using-mapbox-static-api
 - [Static API: Geojson Polygon overlay · Issue #283 · mapbox/mapbox-sdk-js](https://github.com/mapbox/mapbox-sdk-js/issues/283)
+- https://stackoverflow.com/questions/34700418/drawing-polygons-using-mapbox-static-api
 
 ## Use transparent path and auto so we can use bounds
 
 - https://api.mapbox.com/styles/v1/mapbox/light-v9/static/path(_p~iF~ps|U_ulLnnqC_mqNvxq%60@)/auto/400x400?access_token=$accessToken
-- https://api.mapbox.com/styles/v1/mapbox/light-v9/static/path(orq~Ftc%7DuOfeD_~D)/auto/400x400?access_token=$accessToken
 - red with 0.5 opacity https://api.mapbox.com/styles/v1/mapbox/light-v9/static/path-1+e00-0.5(orq~Ftc}uOfeD_~D)/auto/400x400?access_token=$accessToken
 
 - Polyline example ```_p~iF~ps|U_ulLnnqC_mqNvxq`@``` from https://developers.google.com/maps/documentation/utilities/polylinealgorithm
 - generate polyline with interactive tool https://developers.google.com/maps/documentation/utilities/polylineutility
-- encode polyline with this tool https://gchq.github.io/CyberChef/#recipe=URL_Encode(false)&input=cGF0aC0oX3B%2BaUZ%2BcHN8VV91bExubnFDX21xTnZ4cWBAKQ
 - https://stackoverflow.com/questions/49015956/creating-maps-with-multipolygons-not-working-using-mapbox-api-call/55624868#55624868
 
 The problem is there is padding added when using `auto`.
