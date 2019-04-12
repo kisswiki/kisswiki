@@ -1,2 +1,0 @@
-- http://package.elm-lang.org/packages/kalutheo/elm-ui-explorer/
-  - https://www.reddit.com/r/elm/comments/7867xh/elm_ui_explorer_react_storybook_like_ui_explorer/
