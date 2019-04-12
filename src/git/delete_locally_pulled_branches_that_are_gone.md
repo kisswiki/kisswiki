@@ -1,3 +1,9 @@
+`git remote prune origin`
+
+https://stackoverflow.com/questions/3184555/cleaning-up-old-remote-git-branches
+
+##
+
 This delete branch when it was deleted on remote even if it was not merged to master:
 
 `git checkout master && git fetch -p --all && LC_ALL=C git branch -vv | awk '/: gone]/{print $1}' | xargs -r git branch -d`
