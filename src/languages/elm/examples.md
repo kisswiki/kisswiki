@@ -34,6 +34,8 @@
 - https://github.com/RailsEventStore/rails_event_store/blob/0f7ee713a08d9b834c28cbfe25c00d995e3d8b64/rails_event_store-browser/elm/src/Main.elm
 - https://learningmusic.ableton.com
   - https://www.reddit.com/r/elm/comments/69z2aa/learning_music_from_ableton_frontend_built_with/
+- music player in elm-ui https://kalutheo.github.io/elm-ui-explorer/examples/music-player/app/index.html
+  - https://github.com/kalutheo/elm-ui-explorer/tree/1.0.4/examples/music-player
 - https://bholtbholt.github.io/step-sequencer/
   - https://www.smashingmagazine.com/2018/01/learning-elm-drum-sequencer-part-1/
 - https://www.reddit.com/r/elm/comments/88znt1/examples_of_complex_elm_apps/
@@ -60,4 +62,4 @@
 
 ## radio button
 
-- https://stackoverflow.com/questions/45925255/having-radio-buttons-reflect-the-model 
+- https://stackoverflow.com/questions/45925255/having-radio-buttons-reflect-the-model
