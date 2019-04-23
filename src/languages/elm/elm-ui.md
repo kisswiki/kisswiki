@@ -18,3 +18,22 @@
 - https://discourse.elm-lang.org/t/learning-elm-elm-ui/2282
   - https://github.com/Hasimir0/myElmGuide/blob/master/form.elm
 - https://discourse.elm-lang.org/t/input-select-not-available-in-elm-ui/2874/5
+
+##
+
+<pre>
+sios [8:21 PM]
+Quick question because I can’t find it in the docs, how do I do a `title="Some tooltip"`?
+mgriffith [8:23 PM]
+@sios `Element.htmlAttribute (Html.Attributes.title "some tooltip")` for now
+</pre>
+
+##
+
+<pre>
+Sophie   [Yesterday at 10:24 PM]
+Is there a way to specify `em` values in `elm-ui`?
+1 reply
+jhbrown   [12 hours ago]
+There is not.  Just px and percents.
+</pre>

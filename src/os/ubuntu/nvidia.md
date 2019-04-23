@@ -36,4 +36,8 @@ $ vdpauinfo
 ```
 
 - https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Verifying_VDPAU
-- https://wiki.debian.org/HardwareVideoAcceleration 
+- https://wiki.debian.org/HardwareVideoAcceleration
+
+## After upgrade from Ubuntu 18.10 to 19.04 there was problem with driver
+
+This helped https://askubuntu.com/questions/1135473/upgraded-to-19-04-now-i-have-nvidia-package-problems
