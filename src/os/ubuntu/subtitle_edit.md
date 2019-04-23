@@ -1,6 +1,11 @@
 ```bash
 $ sudo apt install mono-complete
 $ sudo apt install libmpv1
+# get location of so file
+$ dpkg -L libmpv1
+# subtitle edit searches for so, not so.1
+$ cd /usr/lib/x86_64-linux-gnu/
+$ sudo ln -s libmpv.so.1 libmpv.so
 ```
 
 After that I have downloaded portable version `SE359.zip`.
