@@ -17,7 +17,8 @@ Running `vainfo` as [adviced](https://wiki.archlinux.org/index.php/Hardware_vide
 
 ```bash
 $ sudo add-apt-repository ppa:graphics-drivers/ppa
-$ sudo apt install nvidia-driver-410
+# long lived branch, latest number from here https://www.nvidia.com/object/unix.html
+$ sudo apt install nvidia-driver-418
 ```
 
 Restart computer.
