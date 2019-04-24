@@ -1,3 +1,5 @@
+## Install
+
 ```bash
 $ sudo apt install mono-complete
 $ sudo apt install libmpv1
@@ -14,3 +16,7 @@ To play video in subtitle edit, I needed to click some in bottom left corner, be
 
 - https://askubuntu.com/questions/428264/how-to-install-subtitle-edit-3-3/616882#616882
 - https://github.com/SubtitleEdit/subtitleedit/issues/2386#issuecomment-485996147
+
+## Links
+
+- https://lintut.com/best-subtitle-editors-for-linux/
