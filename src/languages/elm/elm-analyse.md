@@ -39,3 +39,5 @@ $ elm-an
 ## -A 16 means show after 16 lines
 $ rg "\- src/Mapdid/App/Account/" ~/elm-analyse.txt -A 16
 ```
+
+- [How to remove only todo from TriggerWords · Issue #202 · stil4m/elm-analyse](https://github.com/stil4m/elm-analyse/issues/202)
