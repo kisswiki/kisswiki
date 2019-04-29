@@ -5,4 +5,4 @@ Terminal = false
 Name = Popcorn Time
 Exec = /home/roman/bin/popcorntime.sh/Popcorn-Time
 Icon = /home/roman/bin/popcorntime.sh/src/app/images/icon.png
-Categories = Application;
+Categories = Utility;

@@ -4,5 +4,5 @@ Type = Application
 Terminal = false
 Name=Subtitle Edit
 Exec=/home/roman/bin/subtitleedit/SubtitleEdit.exe %F
-Icon=/home/roman/bin/subtitleedit/icon.png
+Icon=/home/roman/personal_projects/kisswiki/src/os/ubuntu/desktop_files/subtitleedit.png
 Categories = Utility;
