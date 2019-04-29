@@ -33,3 +33,11 @@ For exe file run with mono, I needed to prefix it with `mono`:
 `Exec=mono /home/roman/bin/subtitleedit/SubtitleEdit.exe %F`
 
 - Generator for desktop files - looks good but creates entry with `Terminal=False` instead of `Terminal=False` https://tools.nasqueron.org/generators/GNOME/desktop-file
+
+## poprcorn time
+
+```bash
+desktop-file-install --dir=$HOME/.local/share/applications src/00other/poprcorntime.desktop
+```
+
+- https://linuxconfig.org/how-to-install-popcorn-time-movie-player-on-ubuntu-18-04-bionic-beaver-linux

@@ -136,14 +136,6 @@ https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently
 
 - https://torrentfreak.com/bittorrent-client-utorrent-suffers-security-vulnerability-180220/
 
-## poprcorn time
-
-```bash
-desktop-file-install --dir=$HOME/.local/share/applications src/00other/poprcorntime.desktop
-```
-
-- https://linuxconfig.org/how-to-install-popcorn-time-movie-player-on-ubuntu-18-04-bionic-beaver-linux
-
 ## rarbg
 
 `src/web_browser/bookmarklets/rarbg_imdb.js`
