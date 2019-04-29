@@ -116,6 +116,11 @@ location /images {
 tldr;
 compress with `gzip -c -f file.js > file.js.gz`, configure nginx with `gzip_static on` and keep original files if using `try_files`.
 
+Compress
+
+`find /var/www/static -type f -regextype posix-extended -iregex '.*\.(css|csv|html?|js|svg|txt|xml)' -exec zopfli '{}' \;`
+
+https://theartofmachinery.com/2016/06/06/nginx_gzip_static.html
 
 Check if enabled [1](https://stackoverflow.com/questions/47206595/trying-to-install-gzip-static-module-for-nginx-on-ubuntu#comment81372969_47206595):
 
@@ -130,11 +135,11 @@ http {
 	server {
 		# Enable static gzip
 		gzip_static on;
-		gunzip on;
 
 		# Disable dynamic compression (optional, and not recommended if you're proxying)
 		#gzip off;
 
+		# Also, if you’re serving HTTP (as opposed to HTTPS), make sure you have “sendfile on;” in your config. On Linux, this tells Nginx to use the sendfile system call when possible, which (among other things) can dump a file directly onto a network link without userspace interaction. This is a good performance trick, but doesn’t work if you’re doing processing like encryption or dynamic compression. If you’re using static compression over HTTP, take advantage of it. On non-Linux systems, the sendfile config enables similar optimisations where available.
 		#sendfile on;
 
 		listen 8080 default_server;
