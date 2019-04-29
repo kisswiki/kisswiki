@@ -62,3 +62,61 @@ ExecReload={ path=/usr/sbin/nginx ; argv[]=/usr/sbin/nginx -g daemon on; master_
 ```
 
 https://superuser.com/questions/710986/how-to-reload-nginx-systemctl-or-nginx-s/953901#953901
+
+## show log
+
+for specific service
+
+```bash
+$ journalctl -b -f -u nginx -b
+-- Logs begin at Fri 2019-03-22 11:21:19 CET. --
+kwi 29 11:36:58 roman-MS-7B43 systemd[1]: Starting A high performance web server and a reverse proxy server...
+kwi 29 11:36:58 roman-MS-7B43 systemd[1]: Started A high performance web server and a reverse proxy server.
+kwi 29 11:38:57 roman-MS-7B43 systemd[1]: nginx.service: Main process exited, code=killed, status=9/KILL
+kwi 29 11:38:57 roman-MS-7B43 systemd[1]: nginx.service: Killing process 21775 (nginx) with signal SIGKILL.
+kwi 29 11:38:57 roman-MS-7B43 systemd[1]: nginx.service: Killing process 21777 (nginx) with signal SIGKILL.
+kwi 29 11:38:57 roman-MS-7B43 systemd[1]: nginx.service: Failed with result 'signal'.
+kwi 29 14:49:14 roman-MS-7B43 systemd[1]: Starting A high performance web server and a reverse proxy server...
+kwi 29 14:49:14 roman-MS-7B43 systemd[1]: Started A high performance web server and a reverse proxy server.
+```
+
+>For things named <something>.service, you can actually just use <something>, as in:
+>`journalctl -u service-name`
+> But for other sorts of units (sockets, targets, timers, etc), you need to be explicit.
+>- https://unix.stackexchange.com/questions/225401/how-to-see-full-log-from-systemctl-status-service/225407#225407
+
+`sudo journalctl -xel`
+
+- https://www.linode.com/community/questions/476/systemctl-restart-nginxservice
+
+## status of a service
+
+```bash
+~/personal_projects/kisswiki (master *)$ systemctl -l status nginx
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+   Active: active (running) since Mon 2019-04-29 14:49:14 CEST; 9min ago
+     Docs: man:nginx(8)
+  Process: 4314 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+  Process: 4316 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+ Main PID: 4325 (nginx)
+    Tasks: 13 (limit: 4915)
+   Memory: 12.1M
+   CGroup: /system.slice/nginx.service
+           ├─4325 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+           ├─4326 nginx: worker process
+           ├─4327 nginx: worker process
+           ├─4328 nginx: worker process
+           ├─4329 nginx: worker process
+           ├─4330 nginx: worker process
+           ├─4331 nginx: worker process
+           ├─4332 nginx: worker process
+           ├─4333 nginx: worker process
+           ├─4334 nginx: worker process
+           ├─4335 nginx: worker process
+           ├─4336 nginx: worker process
+           └─4338 nginx: worker process
+
+kwi 29 14:49:14 roman-MS-7B43 systemd[1]: Starting A high performance web server and a reverse proxy server...
+kwi 29 14:49:14 roman-MS-7B43 systemd[1]: Started A high performance web server and a reverse proxy server.
+```

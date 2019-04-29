@@ -114,7 +114,7 @@ location /images {
 ## static compression gzip
 
 tldr;
-`gzip_static on` and keep original files if using `try_files`.
+compress with `gzip -c -f file.js > file.js.gz`, configure nginx with `gzip_static on` and keep original files if using `try_files`.
 
 
 Check if enabled [1](https://stackoverflow.com/questions/47206595/trying-to-install-gzip-static-module-for-nginx-on-ubuntu#comment81372969_47206595):
