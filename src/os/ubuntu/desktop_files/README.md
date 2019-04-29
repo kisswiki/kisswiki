@@ -1,3 +1,4 @@
+- https://wiki.archlinux.org/index.php/Desktop_entries
 - https://askubuntu.com/questions/722179/icon-path-in-desktop-file
 - https://askubuntu.com/questions/375975/how-to-force-unity-reload-local-share-applications
 - https://developer.gnome.org/integration-guide/stable/desktop-files.html.en
