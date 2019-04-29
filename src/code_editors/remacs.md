@@ -22,7 +22,7 @@ If you want to install in other directory, i.e. `~/local` bc there is [problem w
 
 and then to [validate and install it locally](https://askubuntu.com/questions/375975/how-to-force-unity-reload-local-share-applications):
 
-`desktop-file-install --dir=$HOME/.local/share/applications ~/remacs.desktop`
+`desktop-file-install --dir=$HOME/.local/share/applications ~/local/share/applications/remacs.desktop`
 
 And copy icons:
 

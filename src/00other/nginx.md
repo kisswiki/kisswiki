@@ -140,6 +140,7 @@ http {
 		#gzip off;
 
 		# Also, if you’re serving HTTP (as opposed to HTTPS), make sure you have “sendfile on;” in your config. On Linux, this tells Nginx to use the sendfile system call when possible, which (among other things) can dump a file directly onto a network link without userspace interaction. This is a good performance trick, but doesn’t work if you’re doing processing like encryption or dynamic compression. If you’re using static compression over HTTP, take advantage of it. On non-Linux systems, the sendfile config enables similar optimisations where available.
+		# https://theartofmachinery.com/2016/06/06/nginx_gzip_static.html
 		#sendfile on;
 
 		listen 8080 default_server;
