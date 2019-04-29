@@ -27,29 +27,38 @@ http://serverfault.com/questions/700862/do-systemd-unit-files-have-to-be-reloade
 ## performance
 
 ```
-@tehmal gom1@fujitsu:~$ systemd-analyze 
-Startup finished in 4.632s (kernel) + 10.168s (userspace) = 14.801s 
-graphical.target reached after 9.737s in userspace 
+@tehmal gom1@fujitsu:~$ systemd-analyze
+Startup finished in 4.632s (kernel) + 10.168s (userspace) = 14.801s
+graphical.target reached after 9.737s in userspace
 
-U mnie system dość długo czeka na zestawienie połączenia z WiFi - całe 7 s: 
+U mnie system dość długo czeka na zestawienie połączenia z WiFi - całe 7 s:
 
-gom1@fujitsu:~$ systemd-analyze 
-Startup finished in 4.688s (kernel) + 3.928s (userspace) = 8.617s 
-graphical.target reached after 3.718s in userspace 
+gom1@fujitsu:~$ systemd-analyze
+Startup finished in 4.688s (kernel) + 3.928s (userspace) = 8.617s
+graphical.target reached after 3.718s in userspace
 (tu bez WiFi)
 17-08-2018 11:37:04
 @gom1 Fajne polecenie - nie znałem. Systed powiedział mi, że mój zabytkowy pecet w pracy wstaje w 35 sekund. Co uważam za bardzo dobry wynik jak na C2D i dysk talerzowy napędzany wołami :D
 17-08-2018 11:40:27
-@pocolog spróbuj jeszcze: systemd-analyze blame 
+@pocolog spróbuj jeszcze: systemd-analyze blame
 
 Dowiesz się, jakie usługi wstają i jak długo. Można w ten sposób pozbyć się zbędnego balastu (jak np. demon odpowiedzialny za BT, którego to nie mam w swoim lapku).
 
 17-08-2018 13:07:31
-@gom1 "U mnie system dość długo czeka na zestawienie połączenia z WiFi - całe 7 s" 
+@gom1 "U mnie system dość długo czeka na zestawienie połączenia z WiFi - całe 7 s"
 
  Wyłącz wstawanie sieci podczas startu (daj loopback w ustawieniach) i zacznij używać wicd - sieć będzie wstawała zaraz po odpaleniu pulpitu :)
 17-08-2018 13:13:35
-@bystryy wiesz, nie przeszkadza mi to. Sieć i tak wstaje na końcu, po prostu systemd-analyze pokazuje wtedy 14 zamiast 8. A w zasadzie 22, bo po połączeniu do WiFi zestawiane jest również połączenie VPN. 
+@bystryy wiesz, nie przeszkadza mi to. Sieć i tak wstaje na końcu, po prostu systemd-analyze pokazuje wtedy 14 zamiast 8. A w zasadzie 22, bo po połączeniu do WiFi zestawiane jest również połączenie VPN.
 ```
 
 [Nowy Linux może gwałtownie przyspieszyć sieci i uruchamianie programów](https://www.dobreprogramy.pl/Nowy-Linux-moze-gwaltownie-przyspieszyc-sieci-i-uruchamianie-programow,News,89965.html#komentarz-2483791)
+
+## check what reload command will do for some service
+
+```bash
+$ systemctl show nginx --property=ExecReload
+ExecReload={ path=/usr/sbin/nginx ; argv[]=/usr/sbin/nginx -g daemon on; master_process on; -s reload ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }
+```
+
+https://superuser.com/questions/710986/how-to-reload-nginx-systemctl-or-nginx-s/953901#953901
