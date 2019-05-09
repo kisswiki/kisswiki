@@ -53,16 +53,22 @@ This helped https://askubuntu.com/questions/1135473/upgraded-to-19-04-now-i-have
 
 Then I have done `Save to X Configuration File > Show preview` and have copied content to `20-nvidia.conf`. I needed to copy manually bc I could not save it to file even in home directory.
 
-It seems that option `Force Composition Pipeline` is not saved to `~/.nvidia-settings-rc`. I have done diff to make sure.
+After that I have copied it `sudo cp 20-nvidia.conf /etc/X11/xorg.conf.d/`
+
 
 - https://www.reddit.com/r/linuxquestions/comments/8fb9oj/how_to_fix_screen_tearing_ubuntu_1804_nvidia_390/e4zpw7r/
 - When I have done this `options nvidia-drm modeset=1` as in https://ubuntuforums.org/showthread.php?t=2374405, I could not login to Gnome.
   - Maybe I should investigate this https://wiki.archlinux.org/index.php/NVIDIA#DRM_kernel_mode_setting. Do I need DRM?
-- In Startup Application there already was this `sh -c '/usr/bin/nvidia-settings --load-config-only'`, so no need to create `~/.xinitrc` and won't even probably work.
+
+## .nvidia-setttings.rc
+
+It seems that option `Force Composition Pipeline` is not saved to `~/.nvidia-settings-rc`. I have done diff to make sure.
+
+In Startup Application there already was this `sh -c '/usr/bin/nvidia-settings --load-config-only'`, so no need to create `~/.xinitrc` and won't even probably work.
   - https://wiki.archlinux.org/index.php/NVIDIA#NVIDIA_Settings
-- https://wiki.archlinux.org/index.php/NVIDIA/Troubleshooting
 
 ## Tips and tricks
 
 - https://wiki.archlinux.org/index.php/NVIDIA/Tips_and_tricks
 - https://blog.jenningsga.com/tips-and-tricks-for-the-proprietary-nvidia-driver/
+- https://wiki.archlinux.org/index.php/NVIDIA/Troubleshooting
