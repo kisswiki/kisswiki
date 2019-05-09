@@ -61,6 +61,7 @@ $ sudo cp 20-nvidia.conf /etc/X11/xorg.conf.d/
 ```
 
 - https://www.reddit.com/r/linuxquestions/comments/8fb9oj/how_to_fix_screen_tearing_ubuntu_1804_nvidia_390/e4zpw7r/
+- https://wiki.debian.org/NvidiaGraphicsDrivers/Configuration
 - When I have done this `options nvidia-drm modeset=1` as in https://ubuntuforums.org/showthread.php?t=2374405, I could not login to Gnome.
   - Maybe I should investigate this https://wiki.archlinux.org/index.php/NVIDIA#DRM_kernel_mode_setting. Do I need DRM?
 
