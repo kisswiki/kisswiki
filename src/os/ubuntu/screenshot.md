@@ -10,7 +10,7 @@ Ctrl modifier saves to clipboard.
 
 Other:
 
-- Scrot
+- Scrot https://www.howtoforge.com/tutorial/how-to-take-screenshots-in-linux-with-scrot/
 - Flameshot to czysty RiGCz. Najlepszy program do screenshotów w ogóle, nie tylko na linuxa
 - Shutter, do niego instalujesz plugin do edycji screenshotów i jest bajka. Jest dobrze konfigurowalny
 - Deepin screenshot
