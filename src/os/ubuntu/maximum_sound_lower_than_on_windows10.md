@@ -1,0 +1,9 @@
+- This worked, but not sure if it is correct solution `Settings > Sound > Over-amplification > on` https://askubuntu.com/questions/1028968/system-volume-too-low-on-ubuntu-18-04/1130967#1130967
+- https://wiki.archlinux.org/index.php/PulseAudio
+- https://wiki.archlinux.org/index.php/PulseAudio/Troubleshooting
+- https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/PerfectSetup/
+- https://medium.com/@gamunu/enable-high-quality-audio-on-linux-6f16f3fe7e1f
+- https://superuser.com/questions/300178/can-i-increase-the-sound-volume-above-100-in-linux/619214#619214
+  - From 2010-09 https://alien.slackbook.org/blog/adding-an-alsa-software-pre-amp-to-fix-low-sound-levels/
+  - http://igmrlm.blogspot.com/2012/06/how-to-add-pre-amp-and-increase-maximum.html
+- https://unix.stackexchange.com/questions/36937/volume-on-linux-much-lower-than-on-windows
