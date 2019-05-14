@@ -12,6 +12,13 @@
 - flash cards ios app https://discourse.elm-lang.org/t/elm-flashcard-app-book-quiz-audio-book/805
 - https://github.com/elm/elm-lang.org/tree/master/src/pages/0.19.0
   - view it like here https://elm-lang.org/0.19.0/bad-recursion
+- https://www.codewars.com
+
+## Functional programming
+
+- https://github.com/evancz/functional-programming-in-elm
+- https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/
+- https://en.wikibooks.org/wiki/99_Elm_Problems
 
 ## Overview
 
