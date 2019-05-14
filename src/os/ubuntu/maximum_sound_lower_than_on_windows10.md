@@ -2,7 +2,7 @@
 - https://wiki.archlinux.org/index.php/PulseAudio
 - https://wiki.archlinux.org/index.php/PulseAudio/Troubleshooting
 - https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/PerfectSetup/
-- https://medium.com/@gamunu/enable-high-quality-audio-on-linux-6f16f3fe7e1f
+- I have tried with pulse audio config withou ~/.asoundrc but didn't work https://medium.com/@gamunu/enable-high-quality-audio-on-linux-6f16f3fe7e1f
 - https://superuser.com/questions/300178/can-i-increase-the-sound-volume-above-100-in-linux/619214#619214
   - From 2010-09 https://alien.slackbook.org/blog/adding-an-alsa-software-pre-amp-to-fix-low-sound-levels/
   - http://igmrlm.blogspot.com/2012/06/how-to-add-pre-amp-and-increase-maximum.html
