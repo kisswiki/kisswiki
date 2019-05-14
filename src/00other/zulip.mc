@@ -1,0 +1,1 @@
+- [Zulip shortcomings - Rust Internals](https://internals.rust-lang.org/t/zulip-shortcomings/8454/6)
