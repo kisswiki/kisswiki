@@ -7,3 +7,4 @@
   - From 2010-09 https://alien.slackbook.org/blog/adding-an-alsa-software-pre-amp-to-fix-low-sound-levels/
   - http://igmrlm.blogspot.com/2012/06/how-to-add-pre-amp-and-increase-maximum.html
 - https://unix.stackexchange.com/questions/36937/volume-on-linux-much-lower-than-on-windows
+- https://www.reddit.com/r/archlinux/comments/2vb1wm/artificially_boosting_alsa_audio_above_100/
