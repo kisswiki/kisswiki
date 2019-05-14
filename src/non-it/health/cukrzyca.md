@@ -1,0 +1,2 @@
+- https://www.wykop.pl/link/4942663/stopa-cukrzycowa-w-polsce-jest-najwiecej-amputacji-konczyn-15-tys-rocznie/
+- https://www.poradnikzdrowie.pl/zdrowie/cukrzyca/stopa-cukrzycowa-grozne-powiklanie-cukrzycy-jak-leczyc-stope-cukrzycow-aa-Yq8B-oVWE-iXdg.html
