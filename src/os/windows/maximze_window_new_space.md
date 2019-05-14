@@ -1,1 +1,2 @@
-- Use PowerToys https://www.dobreprogramy.pl/Microsoft-udostepni-nowe-PowerToys-kod-bedzie-na-GitHubie,News,101811.html
+- Use PowerToys https://github.com/microsoft/PowerToys
+  - https://www.dobreprogramy.pl/Microsoft-udostepni-nowe-PowerToys-kod-bedzie-na-GitHubie,News,101811.html
