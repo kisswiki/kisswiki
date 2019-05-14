@@ -6,3 +6,4 @@
 - https://www.reddit.com/r/elm/comments/79qucw/789_packages_for_018_listed_in_packageelmlangorg/
   - http://elm-directory.herokuapp.com/
 - https://korban.net/elm/catalog/
+- https://github.com/gampleman/elm-visualization/wiki/Data-Visualization-Packages
