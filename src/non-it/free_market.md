@@ -49,3 +49,16 @@ https://news.ycombinator.com/item?id=16708143
 
 ##
 
+Transkrypcja ze słuchu:
+
+Demokracji trzeba bronić i pracować nad jej naprawianiem i ulepszaniem. Nic łatwiejszego niż wytykać jej słabości i wady. Krytycy nie potrafią jednak wskazać nic lepszego. Bo alternatywy są tylko dwie. Jedną jest despocja, drugą jest anarchia. Tyle wiadomo od czasów Peryklesa.
+
+Demokracja to ustrój ludzi wolnych. Jedyny jaki ludzkość wydała. Oba pozostałe niosą ze sobą zniewolenie. W despocji jesteśmy na łasce despoty i jego podręcznych. W anarchii jesteśmy na łasce tłumu i jego doraźnych prowodyrów. A poza tym każdego kto od nas silniejszy.
+
+Drwić z demokracji to błąd. A jak płacisz (?) na wolny rynek. Niektórzy widzą w nim najlepszy mechanizm samoregulacji. Ale jest on też polem gry dla kapitału. A kapitał zna tylko jedną wartość. Zysk, jego maksymalizację. Dla tej wartości zniszczy każdą inną. Moralną i estetyczną, rodzinną i narodową - bez wyjątku wszystkie. Kapitał to siła twórcza. Ale przez swoje pozarynkowe niszczycielskie skutki, wymagająca okiełznań spoza rynku. Jedyną siłą zdolną powściągnąć dziś kapitał jest państwo ze swoim aparatem przymusu. Aparat ten jednakże też zna tylko jedną wartość dla której zniszczy każdą inną. Tą wartością jest władza. Monopolizacja władzy. My chcemy państwa ograniczonego. Tymczasem jedyna silna zdolna takie ograniczenie na państwie wymusić to właśnie kapitał. Państwo i kapitał muszą się więc trzymać wzajem w szachu. A to oznacza ingerencję państwa w rynek. Rynek od takiej ingerencji państwowej wolny, to dziś moim zdaniem utopia.
+
+Uznaję sporność tych moich poglądów. Nie powinna jednak przesłaniać naszej zgody na interakcent (?) ogólny. Dążenie do pełnej zgodności poglądów to cecha politycznego sekciarstwa. My budujmy szeroki front. Front ludzi dobrej woli i trzeźwego sądu. Są bowiem tacy po obu stronach politycznego spektrum. Po prawej i po lewej. Na nich stawiajmy.
+
+- Bugusław Wolniewicz
+
+- https://www.wykop.pl/link/4943065/wolniewicz-masakruje-skrajna-prawice-i-lewice-rownoczesnie/
