@@ -1,18 +1,10 @@
 - [Make the introduction more streamlined](https://github.com/elm-lang/elm-lang.org/issues/509#issuecomment-171261155)
 - https://github.com/elm-community/elm-faq/blob/gh-pages/index.md
 - https://learnxinyminutes.com/docs/elm/
-- http://exercism.io/languages/elm
-  - https://github.com/exercism/xelm
-  - http://exercism.io/languages/elm/todo
-  - people with good solutions
-    - http://exercism.io/mrattner
-    - http://exercism.io/toomyem
-    - http://exercism.io/daniula
-    - http://exercism.io/wpiekutowski
 - flash cards ios app https://discourse.elm-lang.org/t/elm-flashcard-app-book-quiz-audio-book/805
 - https://github.com/elm/elm-lang.org/tree/master/src/pages/0.19.0
   - view it like here https://elm-lang.org/0.19.0/bad-recursion
-- https://www.codewars.com
+- http://www.elmweekly.nl/
 
 ## Functional programming
 
@@ -49,8 +41,7 @@
 
 ### Abandoned
 
-- abandoned http://www.elmweekly.nl/
-- abandoned https://www.dailydrip.com/topics/elm
+- https://www.dailydrip.com/topics/elm
 - https://groups.google.com/forum/#!forum/elm-dev
   - abandoned for https://discourse.elm-lang.org
 
@@ -79,6 +70,12 @@
 
 - http://exercism.io/languages/elm
   - https://github.com/exercism/xelm
+  - http://exercism.io/languages/elm/todo
+  - people with good solutions
+    - http://exercism.io/mrattner
+    - http://exercism.io/toomyem
+    - http://exercism.io/daniula
+    - http://exercism.io/wpiekutowski
   - leap year https://twitter.com/gabrielelana/status/814887972327800833
 - advent of code
   - https://github.com/Janjuks/AoC2016
@@ -94,12 +91,10 @@
 - https://github.com/GlobalWebIndex/challenge-elm
 - https://github.com/naymspace/elm-gilded-rose-kata
 - https://github.com/robertjlooby/elm-koans
+- https://github.com/robertjlooby/elm-koans
+- https://www.codewars.com
 
 ## workshops.md
-
-## koans
-
-- https://github.com/robertjlooby/elm-koans
 
 ## videos
 
@@ -209,3 +204,7 @@
 ## cheatsheets
 
 - https://github.com/izdi/elm-cheat-sheet
+
+## Slides
+
+- [University – Highway to Elm!](https://slides.com/ereold/elm-university/)
