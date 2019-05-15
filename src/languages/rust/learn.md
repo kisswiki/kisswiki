@@ -12,6 +12,8 @@
 
 - http://exercism.io/languages/rust/
 - https://github.com/rustlings/rustlings
+- https://github.com/BurntSushi/advent-of-code
+- https://github.com/sn99/rust-practise-questions
 
 ## Blogs
 
@@ -22,6 +24,14 @@
 - http://intorust.com/
 - GOTO 2017 • Why is Rust Successful? • Florian Gilcher https://youtu.be/-Tj8Q12DaEQ
 - https://fosdem.org/2018/schedule/track/rust/
+
+## Courses
+
+- https://cis198-2016s.github.io/schedule/
+
+## Videos
+
+- Jon Gjengset's YouTube channel https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ/videos
 
 ## Books
 
