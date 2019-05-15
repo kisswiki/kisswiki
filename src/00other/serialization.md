@@ -1,0 +1,1 @@
+>I find it amusing that the word for packing a data structure into a byte buffer is “serialization” even when it’s designed to be accessed in parallel. Maybe we should come up with a better term, as “parallel-friendly serialization” is an oxymoron. https://raphlinus.github.io/rust/graphics/gpu/2019/05/08/modern-2d.html
