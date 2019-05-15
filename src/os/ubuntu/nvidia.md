@@ -77,3 +77,7 @@ In Startup Application there already was this `sh -c '/usr/bin/nvidia-settings -
 - https://wiki.archlinux.org/index.php/NVIDIA/Tips_and_tricks
 - https://blog.jenningsga.com/tips-and-tricks-for-the-proprietary-nvidia-driver/
 - https://wiki.archlinux.org/index.php/NVIDIA/Troubleshooting
+
+## get the display settings out of the 'X Configuration File'
+
+- Have not tested it https://askubuntu.com/questions/379483/nvidia-x-server-settings-lost-on-every-reboot/1086507#1086507
