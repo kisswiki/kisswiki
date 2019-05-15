@@ -167,4 +167,6 @@ md5sum:
 2019-05-15 20:09:02	pehjota	Yes you can?  NOW=`date '+%Y-%m-%d'`
 2019-05-15 20:09:35	pehjota	Or NOW=`date "+$${format}"`
 2019-05-15 20:09:57	jmd	Yeah,  but that "arg" is fixed.  It cannot change at run time.
+2019-05-15 20:11:56	pehjota	Just set format in the shell command.
+2019-05-15 20:12:29	pehjota	format='%Y-%m-%d'; $(NOW)
 ```
