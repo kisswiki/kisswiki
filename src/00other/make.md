@@ -29,6 +29,15 @@ print-now:
 	@echo $(NOW)
 ```
 
+awk version:
+
+```Makefile
+md5sum:
+	@SUM=`md5sum file.txt | awk '{print $$1}'`; \
+	echo $$SUM; \
+	cp file.txt file.$${SUM}.txt; \
+```
+
 ## Variable accesible on mutliple lines
 
 ```Makefile
