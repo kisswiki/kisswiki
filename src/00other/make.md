@@ -163,4 +163,8 @@ md5sum:
 2019-05-15 19:49:12	pehjota	Yeah, "`" isn't a makefile operator (in any make AFAIK), so it just gets used in the literal string.
 2019-05-15 19:53:09	rofrol	NOW=`date` works for me
 2019-05-15 19:55:03	pehjota	Yup, like I said, "`" is interpreted by the shell, not make.
+2019-05-15 20:07:27	jmd	But doing it that way, one cannot pass an argument.  If you need that, then you have to use ${call ...}
+2019-05-15 20:09:02	pehjota	Yes you can?  NOW=`date '+%Y-%m-%d'`
+2019-05-15 20:09:35	pehjota	Or NOW=`date "+$${format}"`
+2019-05-15 20:09:57	jmd	Yeah,  but that "arg" is fixed.  It cannot change at run time.
 ```
