@@ -10,7 +10,15 @@ print-now:
 	@echo $(NOW)
 ```
 
-gnu make specific:
+this also works
+
+```Makefile
+NOW=`date`
+print-now:
+	@echo $(NOW)
+```
+
+"gnu make"-specific:
 
 ```Makefile
 NOW=${date}
