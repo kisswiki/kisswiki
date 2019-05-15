@@ -1,0 +1,3 @@
+- https://www.reddit.com/r/rust/comments/bneoy6/i_wrote_about_creating_a_static_http_server_with/
+  - http://concisecoder.io/2019/05/11/creating-a-static-http-server-with-rust-part-1/
+  - tide example https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=3560d74c034ce616034716beac18c0c3
