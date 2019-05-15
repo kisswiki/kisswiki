@@ -148,4 +148,5 @@ md5sum:
 2019-05-15 19:41:46	jmd	on the other hand, NOW=`date` will not do that.
 2019-05-15 19:43:21	pehjota	Does for me?
 2019-05-15 19:46:03	jmd	Oh maybe it does.
+2019-05-15 19:49:12	pehjota	Yeah, "`" isn't a makefile operator (in any make AFAIK), so it just gets used in the literal string.
 ```
