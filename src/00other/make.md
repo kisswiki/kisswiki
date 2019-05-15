@@ -1,4 +1,5 @@
 - https://github.com/rofrol/makefile-md5sum
+- https://opensourceforu.com/2012/06/gnu-make-in-detail-for-beginners/
 
 ## Portable
 
@@ -149,4 +150,6 @@ md5sum:
 2019-05-15 19:43:21	pehjota	Does for me?
 2019-05-15 19:46:03	jmd	Oh maybe it does.
 2019-05-15 19:49:12	pehjota	Yeah, "`" isn't a makefile operator (in any make AFAIK), so it just gets used in the literal string.
+2019-05-15 19:53:09	rofrol	NOW=`date` works for me
+2019-05-15 19:55:03	pehjota	Yup, like I said, "`" is interpreted by the shell, not make.
 ```
