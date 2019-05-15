@@ -1,0 +1,4 @@
+- https://www.wykop.pl/link/4950519/naukowcy-odkryli-powod-dlaczego-pomidory-nie-smakuja-tak-jak-kiedy/
+- https://www.crazynauka.pl/pomidory-trzymane-w-lodowce-traca-smak-juz-wiadomo-dlaczego/
+- https://www.wykop.pl/link/3409283/pomidory-trzymane-w-lodowce-traca-smak-juz-wiadomo-dlaczego/
+- [link](https://tipy.interia.pl/artykul_8111,jak-uprawiac-pomidory-pod-folia.html)
