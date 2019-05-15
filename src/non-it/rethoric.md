@@ -1,0 +1,1 @@
+- [Jak mówić, żeby nas słuchano? - Prof. Jerzy Bralczyk - YouTube](https://www.youtube.com/watch?v=TG4ZAGnlPOY)
