@@ -1,5 +1,7 @@
 - https://github.com/rofrol/makefile-md5sum
 - https://opensourceforu.com/2012/06/gnu-make-in-detail-for-beginners/
+- https://makefiletutorial.com/
+- https://www.gnu.org/software/make/manual/
 
 ## Portable
 
