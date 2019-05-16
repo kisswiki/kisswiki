@@ -2,6 +2,11 @@
 - https://opensourceforu.com/2012/06/gnu-make-in-detail-for-beginners/
 - https://makefiletutorial.com/
 - https://www.gnu.org/software/make/manual/
+- [What’s Wrong With GNU make? - Conifer Systems](http://www.conifersystems.com/whitepapers/gnu-make/)
+- https://www.reddit.com/r/programming/comments/5hwj83/i_am_tired_of_makefiles/
+  - https://dmitryfrank.com/blog/2016/1211_i_am_tired_of_makefiles
+- https://www.olioapps.com/blog/the-lost-art-of-the-makefile/
+- https://www.oreilly.com/library/view/managing-projects-with/0596006101/ch04.html
 
 ## Portable
 
