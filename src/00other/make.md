@@ -38,6 +38,30 @@ md5sum:
 	cp file.txt file.$${SUM}.txt; \
 ```
 
+## inside if you cannot have emptyh lines
+
+You need to end them with `\`:
+
+```Makefile
+build:
+	@# Build assets.
+	@if [ -d "$(tmp_dir)/src/Company/$(name)/Assets" ]; then \
+	    printf "module Company.$$name.Assets exposing (..)\n" \
+	      >> $(tmp_dir)/src/Company/$(name)/Assets.elm ;\
+	    \
+		filename=`basename $$path` ;\
+		function_name=`echo $$filename | sed "s/\./_/g"` ;\
+		\
+		if [ "$(env)" = "Production" ]; then \
+		echo yes; \
+		sum=`md5sum $$path | awk '{print $$1}'`; \
+		filename=`echo -n $${filename%.*}.$${sum%% *}.$${filename##*.}`; \
+		fi; \
+		\
+	    \
+	fi
+```
+
 ## Variable accesible on mutliple lines
 
 ```Makefile
