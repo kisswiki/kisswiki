@@ -12,4 +12,9 @@
   - https://www.reddit.com/r/rust/comments/9sbn5r/auth_web_microservice_with_rust_using_actixweb/
 - https://nbsoftsolutions.com/blog/migrating-to-actix-web-from-rocket-for-stability
 - https://github.com/ryanmcgrath/jelly
+- https://github.com/Sniadekk/home-fm-server
+
+## 1.0
+
 - https://github.com/DSpeckhals/bible.rs
+  - https://www.reddit.com/r/rust/comments/9n3dji/biblers_a_web_application_written_in_rust_using/
