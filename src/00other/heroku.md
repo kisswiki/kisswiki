@@ -108,12 +108,6 @@ echo $STRIPE_KEY
 
 - ? https://devcenter.heroku.com/changelog-items/1112
 
-## add remote for existing app
-
-`heroku git:remote -a app_name`
-
-
-
 ## deploy with git
 
 ```
@@ -121,7 +115,11 @@ git remote add heroku https://git.heroku.com/app-name.git
 git push heroku
 ```
 
+Build will be made only from master branch.
+
 https://dashboard.heroku.com/apps/<app_name>/deploy/heroku-git
+
+https://devcenter.heroku.com/articles/git
 
 ## force redeploy
 
@@ -135,7 +133,7 @@ https://coderwall.com/p/_x2ang/force-redeploy-of-node-js-project-on-heroku
 
 https://stackoverflow.com/questions/7539382/how-can-i-deploy-push-only-a-subdirectory-of-my-git-repo-to-heroku
 
-## subtree  push with force
+## subtree push with force
 
 `git push heroku `git subtree split --prefix backend master`:master --force`
 
@@ -145,7 +143,7 @@ https://stackoverflow.com/questions/33172857/how-do-i-force-a-subtree-push-to-ov
 
 `heroku run -a <app_name> bash`
 
-When doing deploy, it will on new dyno, so you will have different files. You need to relogin to bash.
+When doing deploy, it will be on new dyno, so you will have different files. You need to relogin to get bash on new deploy.
 
 https://twitter.com/kevinMrr/status/558675159700103169
 
@@ -191,12 +189,6 @@ changed to newer node, maybe this helped
 ## npm's devDependencies aren't installed when NPM_CONFIG_PRODUCTION=true
 
 https://devcenter.heroku.com/articles/nodejs-support#devdependencies
-
-## deploy with git
-
-`git push heroku`
-
-https://devcenter.heroku.com/articles/git
 
 ## heroku Error: secret option required for sessions
 
