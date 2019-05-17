@@ -20,11 +20,17 @@ https://github.com/BurntSushi/ripgrep/issues/262#issuecomment-264364685
 
 ## file type
 
+list of types `rg --type-list`
+
 `rg -n -B 5 -A 5 -g "*.elm" "Store.State" src`
 
 or
 
 `rg -n -B 5 -A 5 -telm "Store.State" src`
+
+for rust
+
+`rg -trust someting`
 
 https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md#manual-filtering-file-types
 
