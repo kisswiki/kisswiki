@@ -49,8 +49,7 @@ $ heroku apps
 
 - https://elements.heroku.com/buildpacks/emk/heroku-buildpack-rust
 - https://stackoverflow.com/questions/5129598/how-to-link-a-folder-with-an-existing-heroku-app
-
-
+- https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app
 
 ## misc
 
