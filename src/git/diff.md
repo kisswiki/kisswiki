@@ -2,3 +2,4 @@
   - https://github.com/so-fancy/diff-so-fancy
   - https://github.com/jeffkaufman/icdiff
 - https://www.araxis.com/merge/index.en
+- `git diff --word-diff` https://www.viget.com/articles/dress-up-your-git-diffs-with-word-level-highlights/
