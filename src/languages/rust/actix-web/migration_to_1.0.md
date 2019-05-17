@@ -1,5 +1,5 @@
 - https://github.com/actix/actix-web/blob/master/MIGRATION.md
-- https://docs.rs/crate/actix-web/1.0.0-beta.5
+- https://docs.rs/crate/actix-web
 - https://docs.rs/actix-web/1.0.0-beta.5
 - https://docs.rs/actix-web/0.7.19
 - [migration_from_actix-web-0.7.19_to_1.0.0-beta.5.md](https://gist.github.com/rofrol/351f97c40ebc83c20882c2859db8c626)
