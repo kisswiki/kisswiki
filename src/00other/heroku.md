@@ -5,6 +5,55 @@
 - https://data.heroku.com
 - http://vitomd.com/blog/coding/deploy-a-javascript-node-app-to-heroku-in-20-minutes/
 
+## create app
+
+To create app with name and eu region
+
+``` bash
+$ heroku create rust-messenger-bot --buildpack emk/rust --region eu
+Creating ⬢ rust-messenger-bot... done, region is eu
+Setting buildpack to emk/rust... done
+https://rust-messenger-bot.herokuapp.com/ | https://git.heroku.com/rust-messenger-bot.git
+```
+
+To create new application
+
+`heroku create --buildpack emk/rust`
+
+Above command will add remote, i.e.
+
+```bash
+$ git remote -v
+heroku  https://git.heroku.com/guarded-earth-91485.git (fetch)
+heroku  https://git.heroku.com/guarded-earth-91485.git (push)
+```
+
+To add existing app
+
+``` bash
+$ git remote add heroku git@heroku.com:guarded-earth-91485.git
+```
+
+or
+
+``` bash
+$ heroku git:remote -a guarded-earth-91485
+```
+
+To get list of apps
+
+``` bash
+$ heroku apps
+```
+
+
+- https://elements.heroku.com/buildpacks/emk/heroku-buildpack-rust
+- https://stackoverflow.com/questions/5129598/how-to-link-a-folder-with-an-existing-heroku-app
+
+
+
+## misc
+
 `heroku pg:info --app your_app`
 
 `heroku pg:psql DATABASE_URL --app your_app`
