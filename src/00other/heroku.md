@@ -305,4 +305,4 @@ https://github.com/heroku/heroku-buildpack-nodejs
 
 ## error: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
 
-Get port from env PORT.
+Run server on host `0.0.0.0` and get port from `env PORT`.
