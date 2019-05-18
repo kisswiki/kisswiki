@@ -121,6 +121,12 @@ https://dashboard.heroku.com/apps/<app_name>/deploy/heroku-git
 
 https://devcenter.heroku.com/articles/git
 
+## deploy rust
+
+- First push: `Finished release [optimized] target(s) in 10m 29s`.
+- Second push: `Finished release [optimized] target(s) in 48.05s`.
+- Third push after removing actix-rt: `Finished release [optimized] target(s) in 45.91s`.
+
 ## force redeploy
 
 `npm version patch && git push heroku master`
@@ -296,3 +302,7 @@ Conditional run?
 `"heroku-postbuild": "HEROKU_POSTBUILD && ./node_modules/.bin/sequelize db:migrate"`
 
 https://github.com/heroku/heroku-buildpack-nodejs
+
+## error: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+
+Get port from env PORT.
