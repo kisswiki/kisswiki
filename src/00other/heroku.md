@@ -306,3 +306,23 @@ https://github.com/heroku/heroku-buildpack-nodejs
 ## error: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
 
 Run server on host `0.0.0.0` and get port from `env PORT`.
+
+## fork
+
+It will copy all the environment and you have to update the github repo after!
+
+`heroku fork -a sourceapp targetapp`
+
+Clone it local
+
+`git clone git@heroku.com:youamazingapp.git`
+
+Make a new repo on github and add it
+
+`git remote add origin https://github.com/yourname/your_repo.git`
+
+Push on github
+
+`git push origin master`
+
+https://stackoverflow.com/questions/5129598/how-to-link-a-folder-with-an-existing-heroku-app/18175057#18175057
