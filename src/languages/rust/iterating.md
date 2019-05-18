@@ -1,0 +1,2 @@
+- https://hermanradtke.com/2015/06/22/effectively-using-iterators-in-rust.html
+  - https://stackoverflow.com/questions/40862191/cannot-move-out-of-borrowed-content-when-iterating-the-loop
