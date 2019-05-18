@@ -66,6 +66,13 @@ Remove forced flag and reorder:
 - http://qnapi.github.io/
 - https://github.com/zerratar/SubSync
 - http://www.napiprojekt.pl/
+- https://gitlab.com/hesperos/napi
+
+## How to download for specific hash from napiprojekt without installing napi?
+
+For example [list of subtitles](https://www.napiprojekt.pl/napisy1,1,1-dla-54910-Green-Book-(2018)), but can be downloaded with windows program napiprojekt.
+
+There is `_download_getSubtitlesForHashes` https://gitlab.com/hesperos/napi/blob/master/actions/libnapi_download.sh
 
 ## fix timing and delay with SubEdit
 
