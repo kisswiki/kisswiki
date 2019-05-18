@@ -119,6 +119,16 @@ r / t Move subtitles up / down
 
 https://www.cheatography.com/someone/cheat-sheets/mpv-media-player/
 
+## extract subtitles
+
+Install mkvtoolnix with `sudo apt install mkvtoolnix`.
+
+Run from terminal: `mkvextract tracks <your_mkv_video> <track_numer>:<subtitle_file.srt>`
+
+Use `mkvinfo` to get information about tracks.
+
+https://askubuntu.com/questions/452268/extract-subtitle-from-mkv-files
+
 ## Links
 
 - https://github.com/Diaoul/subliminal
