@@ -58,10 +58,13 @@ You can also use this for login:
 ## Keys
 
 alt + left/right arrows (or F5/F6): switch to previous/next buffer
+
 F11/F12: scroll nicklist
+
 page up/down: scroll text in current buffer
 
 #to get key binding and representation
+
 alt+k press key
 
 alt+1, alt+2, alt+3, etc. to switch between networks and channels.
