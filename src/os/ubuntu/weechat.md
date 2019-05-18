@@ -73,6 +73,9 @@ in tmux:
 
 alt+pgup/pgdown to scroll
 
+- https://www.weechat.org/files/doc/devel/weechat_quickstart.en.html
+- https://weechat.org/files/doc/stable/weechat_user.en.html#key_bindings
+
 ## fset
 
 `/fset autojoin`
