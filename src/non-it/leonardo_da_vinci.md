@@ -1,0 +1,3 @@
+- [Leonardo Da Vinci’s “Codex Atlanticus” Now Online | Hacker News](https://news.ycombinator.com/item?id=19939464#19946581)
+  - http://www.codex-atlanticus.it/#/Overview
+  - `wget http://codex-atlanticus.it/assets//2000/000{V,R}-{1..1118}.jpg`
