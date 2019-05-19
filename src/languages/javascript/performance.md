@@ -5,8 +5,13 @@ Javascript map reduce (node.js) 10,000ms
                  reduce( (total,num,index,array) => total+num,0.0);
 ```
 
-Javascript imperative (node.js) 37 milliseconds
+Javascript reduce (node.js) 800 and then 300 milliseconds
 
+```javascript
+var sum = values.reduce( (total,num,index,array) => total+num*num,0.0)
+```
+
+Javascript imperative (node.js) 37 milliseconds
 
 ```javascript
     var sum = 0.0;
