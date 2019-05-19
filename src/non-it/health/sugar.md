@@ -8,3 +8,5 @@
 >The expert says 8.5 hours in bed (trying to sleep) to sleep 8, since we don't sleep the whole time.
 >So, if you have an accurate sleep tracker, "8" is still the number.
 >https://news.ycombinator.com/item?id=17330736
+
+- https://www.inverse.com/article/55920-is-fruit-juice-healthier-than-soda
