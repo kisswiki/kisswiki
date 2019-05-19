@@ -24,3 +24,8 @@ Javascript imperative (node.js) 37 milliseconds
 https://jackmott.github.io/programming/2016/07/22/making-obvious-fast.html
 
 via https://news.ycombinator.com/item?id=19947508
+
+
+Jak ktoś lubi programowanie funkcyjne i zależy mu na tym żeby urwać te milisekundy to tutaj jest implementacja tych funkcji która działa szybciej bo pomija sprawdzanie: https://github.com/codemix/fast.js
+
+https://www.facebook.com/groups/257881290932879/2214004415320547/
