@@ -1,0 +1,3 @@
+- [Show HN: The Cyber Plumber's Handbook – SSH Tunnel Like a Boss | Hacker News](https://news.ycombinator.com/item?id=19946941)
+  - If you want it today, it's $0 if you go here: https://gumroad.com/l/the_cyber_plumbers_handbook/hackernews20190518
+  - `The Cyber Plumber's Handbook – SSH Tunnel Like a Boss_cph_version_1.2_20190220.pdf`
