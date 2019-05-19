@@ -1,1 +1,3 @@
 - http://www.chessarbiter.com/turnieje.php
+- [Aggressive Chess Openings (2012) | Hacker News](https://news.ycombinator.com/item?id=19946730)
+  - https://chess.stackexchange.com/questions/75/very-aggressive-openings
