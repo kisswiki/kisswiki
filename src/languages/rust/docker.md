@@ -5,3 +5,5 @@
 - https://github.com/liuchong/docker-rustup
 - https://www.reddit.com/r/rust/comments/86e5wn/how_to_use_docker_with_rust/
   - https://readrust.net/devops-and-deployment/
+- https://medium.com/@gruberbastian/rust-for-the-web-02-x-deploy-your-first-app-51d1ed69cbe3
+- https://www.reddit.com/r/rust/comments/53yoxz/my_adventures_in_rust_webdev/d7xobw9/
