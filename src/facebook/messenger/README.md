@@ -8,6 +8,7 @@
 For `Callback URL` I have usedd https://rust-shopping-bot.herokuapp.com/webhook
 
 - https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup
+- params https://developers.facebook.com/docs/graph-api/webhooks/getting-started/
 
 ### Errors
 
