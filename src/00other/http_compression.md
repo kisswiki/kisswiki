@@ -36,6 +36,23 @@ Looks like deflate is not needed:
 - brotli module for commercial nginx plus https://docs.nginx.com/nginx/admin-guide/dynamic-modules/brotli/
   - https://www.nginx.com/blog/whats-difference-nginx-foss-nginx-plus/
 
+###
+
+brotli requires ssl in web browsers
+
+- https://stackoverflow.com/questions/43862412/why-is-brotli-not-supported-on-http
+- https://letsencrypt.org/docs/certificates-for-localhost/
+- https://www.howsmyssl.com/
+- Browsing Experience Security Check https://www.cloudflare.com/ssl/encrypted-sni/
+
+- http://www.benmccann.com/ssl-on-localhost-with-nginx/
+- https://serverfault.com/questions/820601/nginx-ssl-on-localhost
+- https://mozilla.github.io/server-side-tls/ssl-config-generator/
+- https://www.gigaone.pl/wsparcie-techniczne/instalacja-certyfikatu-ssl/nginx
+- https://www.digicert.com/csr-ssl-installation/nginx-openssl.htm
+- https://nginx.org/en/docs/http/configuring_https_servers.html
+- https://www.linode.com/docs/web-servers/nginx/enable-tls-on-nginx-for-https-connections/
+
 ## Internet Explorer and Developer Tools
 
 >Internet Explorer's decompression logic happens at a level below the Developer Tools, so you may not see a Content-Encoding in the Developer Tools. You should consider using Fiddler to see what's actually on the wire. https://stackoverflow.com/questions/34006215/gzip-compression-not-working-in-internet-explorer-11-but-working-fine-in-chrome/38857977#38857977
