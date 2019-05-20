@@ -15,9 +15,9 @@
 - compile nginx with brotli https://www.tinywp.in/nginx-brotli/
 - https://medium.com/@wintermeyer/nginx-with-brotli-on-debian-stretch-2917b1147aec
 - https://www.howtoforge.com/tutorial/how-to-install-nginx-with-brotli-compression-on-ubuntu-1804/
+- https://www.vultr.com/docs/add-brotli-support-to-nginx-on-ubuntu-18-04
 - brotli module for commercial nginx plus https://docs.nginx.com/nginx/admin-guide/dynamic-modules/brotli/
   - https://www.nginx.com/blog/whats-difference-nginx-foss-nginx-plus/
-
 
 ## Internet Explorer and Developer Tools
 
