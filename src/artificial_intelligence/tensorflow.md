@@ -2,3 +2,4 @@
 - https://github.com/aymericdamien/TensorFlow-Examples
 - http://nicodjimenez.github.io/2017/10/08/tensorflow.html
   - Tensorflow sucks https://news.ycombinator.com/item?id=15429824
+- Far superior to Udacity's DL course which only provides confusion. Same with the rest, I care about concepts a lot as implementation is too basic once you get the fundamentals of what you are implementing. [TensorFlow Tutorial #02 Convolutional Neural Network - YouTube](https://www.youtube.com/watch?v=HMcx-zY8JSg&list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&index=4)
