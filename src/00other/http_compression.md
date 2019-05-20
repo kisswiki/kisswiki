@@ -11,6 +11,19 @@
 - https://medium.com/@selvaganesh93/how-to-serve-webpack-gzipped-file-in-production-using-nginx-692eadbb9f1c
 - https://stackoverflow.com/questions/35027028/when-should-javascript-not-be-gzipped
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Compression
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding
+- Works quite good https://github.com/gios/gzipper
+- live-server does not support gzip https://github.com/tapio/live-server/issues/86
+
+## deflate not needed
+
+Looks like deflate is not needed:
+
+- https://stackoverflow.com/questions/388595/why-use-deflate-instead-of-gzip-for-text-files-served-by-apache
+- [option to disable DEFLATE encoding · Issue #25 · expressjs/compression](https://github.com/expressjs/compression/issues/25)
+- deflate works in Safari 4.0 but is broken in Safari 5.1, it also always has issues on IE https://stackoverflow.com/questions/388595/why-use-deflate-instead-of-gzip-for-text-files-served-by-apache
+- https://stackoverflow.com/questions/12467584/how-to-use-node-js-zlib-module-with-options
 
 ## nginx and brotli
 
