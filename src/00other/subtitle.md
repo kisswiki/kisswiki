@@ -67,6 +67,7 @@ Remove forced flag and reorder:
 - https://github.com/zerratar/SubSync
 - http://www.napiprojekt.pl/
 - https://gitlab.com/hesperos/napi
+- https://github.com/emericg/OpenSubtitlesDownload
 
 ## How to download for specific hash from napiprojekt without installing napi?
 
@@ -136,6 +137,26 @@ Use `mkvinfo` to get information about tracks.
 
 https://askubuntu.com/questions/452268/extract-subtitle-from-mkv-files
 
+## napiprojekt
+
+- http://pym.uce.pl/pym-player/
+  - PYM Player obsługuje między innymi wywołania ze strony NapiProjektu, czyli możesz pobierać napisy nawet ręcznie bezpośrednio ze strony. ściągnij PYM Player, robi robotę. Na pewno lepsza, niż Qnapi. Możesz sobie tam bezpośrednio pobrać napisy tak jak przez Qnapi, a jeśli będziesz chciał jakieś inne że strony głównej napiprojektu, to też dasz radę je ściągnąć, bo PYM działa jako downloader. https://www.wykop.pl/wpis/39245551/siema-mam-taki-problem-z-qnapi-mimo-ze-mam-podlacz/
+
+## qnapi
+
+### backup language
+
+w ~/.config/qnapi.ini musisz mieć 2 wpisy:
+
+```
+backup_language=en
+language_backup=en
+```
+
+zamiast en wstaw język jaki chcesz wstawić.
+
+[Problem z zapasowym językiem napisów · Issue #122 · QNapi/qnapi](https://github.com/QNapi/qnapi/issues/122)
+
 ## Links
 
 - https://github.com/Diaoul/subliminal
@@ -144,3 +165,16 @@ https://askubuntu.com/questions/452268/extract-subtitle-from-mkv-files
 - https://news.ycombinator.com/item?id=16825379
 - https://www.reddit.com/r/programming/comments/8aou8p/subsync_automatically_download_subtitles_for_your/dx9n3r5/
 - https://www.reddit.com/r/subtitles/comments/8bu5g5/my_guide_how_to_search_download_adjust_subtitles/
+
+## subtitles sources
+
+- https://www.opensubtitles.org
+  - https://blog.opensubtitles.org/guides/how-to-upload-subtitles-to-opensubtitles-org-using-subtitle-edit
+  - https://blog.opensubtitles.org/guides/how-to-create-subtitles-using-subtitle-edit
+- Polish https://napisy24.pl
+- Polish https://www.napiprojekt.pl
+- http://thesubdb.com
+- https://www.podnapisi.net
+- https://subscene.com/
+- [More sources of subtitles · Issue #132 · QNapi/qnapi](https://github.com/QNapi/qnapi/issues/132)
+- https://www.yifysubtitles.com
