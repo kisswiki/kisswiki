@@ -171,6 +171,14 @@ more lines:
 
 - https://devcenter.heroku.com/articles/logging#log-retrieval
 
+tail the logs live
+
+`heroku logs -t`
+
+If you need more than a few thousand lines you can Use heroku's Syslog Drains https://devcenter.heroku.com/articles/log-drains#syslog-drains
+
+https://stackoverflow.com/questions/2671454/heroku-how-to-see-all-the-logs
+
 ## NODE_ENV isn't set by default for my app
 
 - https://stackoverflow.com/questions/21831945/heroku-node-env-environment-variable
