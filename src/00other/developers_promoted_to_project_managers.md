@@ -1,0 +1,2 @@
+- https://robwalling.com/2007/06/27/why-good-developers-are-promoted-into-unhappiness/
+  - https://news.ycombinator.com/item?id=19763562
