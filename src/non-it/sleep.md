@@ -16,3 +16,7 @@ Dr. Cohen’s team plans to explore, in greater detail, the role of these early 
 https://www.ninds.nih.gov/News-Events/News-and-Press-Releases/Press-Releases/Want-learn-new-skill-Take-some-short-breaks
 
 via https://news.ycombinator.com/item?id=19661949
+
+Painter Salvador Dali and inventor Thomas Edison both actively worked with it. After a round of focused work, Dali sat on his arm chair to think and doze off. In one hand he held a big key and the moment he fell asleep the key dropped, which woke him up and so he went back to the canvas to continue his focused work. Steve Jobs broke up his daily thinking routine by going out for long walks.
+
+[Focused and Diffused Thinking: The Ping Pong Technique - YouTube](https://www.youtube.com/watch?v=WTr12dK2Se0&feature=youtu.be)
