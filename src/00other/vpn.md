@@ -21,6 +21,7 @@ https://news.ycombinator.com/item?id=14596613
 ###
 
 The short and long of BeyondCorp:
+
 - Instead of a single VPN that will expose your entire squishy corporate LAN to anyone who gets VPN access, each application gets its own protected proxy.
 
 - The protected proxies query a centrally-aggregated auth/authz database, which can work with client-side software to ensure qualities such as private key possession, full disk encryption, software updates, etc. In Google's case, this is combined with a host-rewriting browser extension for usability.
