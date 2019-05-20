@@ -40,6 +40,7 @@
   - https://www.smashingmagazine.com/2018/01/learning-elm-drum-sequencer-part-1/
 - https://www.reddit.com/r/elm/comments/88znt1/examples_of_complex_elm_apps/
 - https://github.com/azer/radio-paradise
+- https://github.com/futurice/futuhours-next
 
 ## pomodoro
 

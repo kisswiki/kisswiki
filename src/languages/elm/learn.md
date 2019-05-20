@@ -135,6 +135,7 @@
 - https://www.sitepoint.com/premium/courses/elm-a-beginners-guide-to-elm-and-data-2940
 - https://frontendmasters.com/workshops/elm/
 - https://github.com/elm-training/elm-training
+- https://incrementalelm.com/
 
 ## Documentation, Articles, Books
 
@@ -194,6 +195,7 @@
 - https://www.amazon.com/Programming-Language-Explorations-Ray-Toal/dp/149873846X
   - https://github.com/rtoal/ple/tree/master/elm
 - https://leanpub.com/outsidefp
+- https://medium.com/@l.mugnaini
 
 ## podcasts
 

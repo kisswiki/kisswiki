@@ -1,6 +1,7 @@
 - https://github.com/rtfeldman/elm-validate
 - https://github.com/etaque/elm-form
 - https://github.com/ericgj/elm-validation
+- https://package.elm-lang.org/packages/Bastes/the-validator/latest/
 
 ## show validation error only after leaving the field and no input was entered - dirty/visited
 
