@@ -1,0 +1,6 @@
+- [Dr Bartosiak: Izrael nie jest istotną siłą z punktu widzenia gry geopol. USA. Może tylko krzyczeć - YouTube](https://www.youtube.com/watch?v=9ElaiRQRxyc&feature=youtu.be&t=478)
+- https://www.youtube.com/watch?v=GiBF6v5UAAE
+- https://www.youtube.com/watch?v=6mDsa-AqNcQ
+- https://www.youtube.com/watch?v=v3C_5bsdQWg
+- https://www.youtube.com/watch?v=3PWWtqfwacQ
+- https://www.youtube.com/watch?v=_AQZTW1ua3g
