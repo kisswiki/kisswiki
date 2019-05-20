@@ -7,6 +7,10 @@
 - https://github.com/jshttp/compressible
 - https://webmasters.stackexchange.com/questions/22217/which-browsers-handle-content-encoding-gzip-and-which-of-them-has-any-special
 - https://stackoverflow.com/questions/11653488/serving-gzipped-content-directly-bad-thing-to-do/11670562#11670562
+- https://www.itworld.com/article/2693941/why-it-doesn-t-make-sense-to-gzip-all-content-from-your-web-server.html
+- https://medium.com/@selvaganesh93/how-to-serve-webpack-gzipped-file-in-production-using-nginx-692eadbb9f1c
+- https://stackoverflow.com/questions/35027028/when-should-javascript-not-be-gzipped
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding
 
 ## nginx and brotli
 
