@@ -50,6 +50,7 @@ And start server:
 
 - https://stackoverflow.com/questions/42329261/running-nginx-as-non-root-user/51516739#51516739
 - https://www.nginx.com/resources/wiki/start/topics/tutorials/gettingstarted/
+- https://www.nginx.com/resources/wiki/start/topics/tutorials/config_pitfalls/
 
 ## Performance
 
@@ -90,7 +91,61 @@ https://serverfault.com/questions/730883/nginx-reverse-proxy-gzip-to-client
 
 ## static content
 
+Next, we will configure a virtual host `static.example.com` for serving static data.
+The following content goes into the file `/etc/nginx/site-enabled/static`.
+
+`example.com.conf`:
+
+```
+server {
+    listen 80;
+    server_name static.example.com;
+
+    access_log /var/log/nginx/static.example.com-access.log main;
+
+    sendfile on;
+    sendfile_max_chunk 1M;
+    tcp_nopush on;
+    gzip_static on;
+
+    root /usr/local/www/static.example.com;
+}
+```
+
+This file configures virtual host `static.example.com`. The virtual host root location is set as `/usr/local/www/static.example.com`. To enable more efficient retrieval of static files, we encourage Nginx to use the sendfile() system call (`sendfile on`) and set the maximum sendfile chunk to 1 MB. We also enable the `TCP_NOPUSH` option to improve TCP segment utilization when using sendfile() (`tcp_nopush on`). The `gzip_static on` directive instructs Nginx to check for gzipped copies of static files, such as main.js.gz for main.js and styles.css.gz for styles.css . If they are found, Nginx will indicate the presence of the .gzip content encoding, and use the content of the compressed files instead of the original one.
+
+This configuration is suitable for virtual hosts that serve small-to-medium size static files.
+
+From [Nginx Essentials](https://books.google.pl/books?id=ZO09CgAAQBAJ&pg=PA43&lpg=PA43&dq=nginx+gzip_static+sendfile&source=bl&ots=mhWuKsEC_I&sig=ACfU3U3EqhxF7lIaIGYxlrOndY484UHl9w&hl=pl&sa=X&ved=2ahUKEwipgZHBwfXhAhXk_CoKHborD2kQ6AEwBHoECBEQAQ#v=onepage&q=nginx%20gzip_static%20sendfile&f=false).
+
+For starters, you can’t use sendfile and must use direct I/O (`O_DIRECT`). This causes the fi le to bypass Linux’s disk caches, so you don’t benefi t from having the fi le potentially cached in memory. Usually, you want this caching, but in a few situations, not caching is better. For example, if the fi le is large (say a video), you probably don’t want to fi ll your disk buffers with it. Similarly, if you have a large working set (too large to all fi t in memory) being accessed in a fairly distributed manner, the disk cache may not help much. In these two cases, the benefi ts of AIO can outweigh the drawbacks.
+
+The Nginx documentation gives the following example of AIO usage:
+
+```
+   location /video {
+   aio on;
+   directio 512;
+   output_buffers 1 128k;
+}
+```
+
+You need to explicitly enable direct I/O and have the option of also setting a minimum size. Only
+fi les larger than this size will be read using direct I/O. It makes a lot of sense to use only AIO on
+directories containing large fi les — at least until the Linux implementation improves. For direct I/O,
+it’s worth experimenting with using it globally with a high value to prevent large fi les from polluting
+your disk caches. But remember that enabling direct I/O causes `sendfile` to be disabled.
+
+`sendfile` isn’t always the ideal method for reading from disk. Because the operating system reads the data in fairly small chunks, there may be a lot of seeking back and forth on busy systems, as the operating system attempts to read multiple fi les at once. When sendfile is disabled (or isn’t being used because you’re serving dynamic content), you can control the size of the chunks of data that are read from disk using `output_buffers`, as shown here:
+
+`output_buffers 2 512k;`
+
+This causes Nginx to create two buffers in memory, each of 512 KB. When handling requests, it then attempts to read 512 KB of data from disk in one chunk, before processing it. The 512 KB should be big enough to hold even a large HTML document.
+
+From [Professional Website Performance: Optimizing the Front-End and Back-End](https://books.google.pl/books?id=MHLJlUfXV4QC&pg=PA162&lpg=PA162&dq=nginx+gzip_static+sendfile&source=bl&ots=81Etk2LZHz&sig=ACfU3U3aJ4ltvPESzpnaGkJVJaBJlo6DQg&hl=pl&sa=X&ved=2ahUKEwipgZHBwfXhAhXk_CoKHborD2kQ6AEwB3oECBIQAQ#v=onepage&q=nginx%20gzip_static%20sendfile&f=false).
+
 - https://docs.nginx.com/nginx/admin-guide/web-server/serving-static-content/
+- https://codereview.stackexchange.com/questions/177513/nginx-serve-static-images-js-css-and-proxy-node-js-server
 
 ## disable caching of a single file
 
@@ -217,3 +272,23 @@ $ curl -s http://localhost:8080/App.js | file -
 
 - http://nginx.org/en/docs/http/request_processing.html
 - https://serverfault.com/questions/524813/nginx-default-server
+
+## sendfile
+
+Nginx initial fame came from its awesomeness at sending static files. This has lots to do with the association of sendfile, tcp_nodelay and tcp_nopush in nginx.conf. The sendfile Nginx option enables to use of sendfile(2) for everything related to… sending file.
+
+sendfile(2) allows to transfer data from a file descriptor to another directly in kernel space. sendfile(2) allows to save lots of resources:
+
+- sendfile(2) is a syscall, which means execution is done inside the kernel space, hence no costly context switching.
+- sendfile(2) replaces the combination of both read and write.
+- here, sendfile(2) allows zero copy, which means writing directly the kernel buffer from the block device memory through DMA.
+
+Unfortunately, sendfile(2) requires a file descriptor that supports mmap(2) and friends, which excludes UNIX sockets, for example as a way to send data to a local Rails backend without all the network latency.
+
+>The in_fd argument must correspond to a file which supports mmap(2)-like operations (i.e., it cannot be a socket).
+
+Depending on your needs, sendfile can be either totally useless or completely essential.
+
+If you’re serving locally stored static files, sendfile is totally essential to speed your Web server. But if you use Nginx as a reverse proxy to serve pages from an application server, you can deactivate it. Unless you start serving micro caching on a tmpfs. I’ve been doing it here, and didn’t even notice the day I was featured on HN homepage, Reddit or good old Slashdot.
+
+https://thoughts.t37.net/nginx-optimization-understanding-sendfile-tcp-nodelay-and-tcp-nopush-c55cdd276765
