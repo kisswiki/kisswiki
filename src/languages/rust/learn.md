@@ -28,6 +28,7 @@
 ## Courses
 
 - https://cis198-2016s.github.io/schedule/
+- https://www.codingame.com/playgrounds/365/getting-started-with-rust/introduction
 
 ## Videos
 
