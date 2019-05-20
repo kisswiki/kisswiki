@@ -1,0 +1,2 @@
+- https://blog.viktorpetersson.com/2019/05/18/a-decade-of-remote.html
+  - https://news.ycombinator.com/item?id=19953854
