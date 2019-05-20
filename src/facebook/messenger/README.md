@@ -27,3 +27,16 @@ To login choose user and click `Edit > Log in as this user`.
 - https://stackoverflow.com/questions/8673375/how-to-login-using-facebook-test-users-created-from-the-facebook-developer-app
 - https://webapps.stackexchange.com/questions/17529/how-do-i-make-a-test-account-on-facebook
 - [How to Create Test Users to Test Your Facebook Apps - YouTube](https://www.youtube.com/watch?v=pfBY_-4Tu3U)
+
+## Privacy Policy
+
+Go to https://developers.facebook.com/apps/ and select your app.
+
+When clicking switch off/on.
+
+>You must provide a valid Privacy Policy URL in order take your app Live. Go to [Basic Settings](https://developers.facebook.com/apps/408974809956257/settings/basic/) and make sure it is valid.
+
+Will these solved it?:
+
+- https://www.termsfeed.com/blog/privacy-policy-url-facebook-app/
+- https://termly.io/products/privacy-policy-generator/
