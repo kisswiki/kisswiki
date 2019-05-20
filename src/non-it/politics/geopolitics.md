@@ -4,3 +4,6 @@
 - https://www.youtube.com/watch?v=v3C_5bsdQWg
 - https://www.youtube.com/watch?v=3PWWtqfwacQ
 - https://www.youtube.com/watch?v=_AQZTW1ua3g
+- https://www.youtube.com/watch?v=xX0ozxrZlEQ
+- https://www.youtube.com/watch?v=ED0b0E6xUL8
+- https://www.youtube.com/watch?v=LzvMHu-_FjE
