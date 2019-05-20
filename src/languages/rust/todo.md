@@ -1,0 +1,3 @@
+- https://www.reddit.com/r/rust/comments/bqh0o3/list_of_easy_problems_not_solved_in_rust/
+- https://github.com/not-yet-awesome-rust/not-yet-awesome-rust
+- https://github.com/dtolnay/request-for-implementation
