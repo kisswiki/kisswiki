@@ -9,3 +9,4 @@
 - https://github.com/simonewebdesign/elm-new
 - https://github.com/rogeriochaves/spades
 - https://discourse.elm-lang.org/t/conventional-bundler/728/4
+- [haklabbeograd/elm: A starter project for elm apps using webpack and elm-css](https://github.com/haklabbeograd/elm)

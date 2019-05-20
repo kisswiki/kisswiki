@@ -2,6 +2,7 @@
 - http://package.elm-lang.org/packages/lukewestby/elm-http-builder
 - http://stackoverflow.com/questions/39392469/how-to-perform-multiple-http-requests-tasks-in-bulk-in-elm-lang
 - https://spin.atomicobject.com/2016/10/11/elm-chain-http-requests/
+- https://package.elm-lang.org/packages/rgrempel/elm-http-decorators/latest
 
 ## Post
 
