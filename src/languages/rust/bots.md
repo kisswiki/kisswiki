@@ -2,3 +2,7 @@
   - https://www.reddit.com/r/rust/comments/79vv4b/beryllium_bot_sdk_for_the_wire_messenger_in_rust/
 - https://github.com/telegram-rs/telegram-bot
   - https://www.reddit.com/r/rust/comments/5m5l38/telebot_a_telegram_bot_library_powered_by_futures/
+- Facebook Messenger https://github.com/alexreg/ergo-bot
+  - is using this lib https://github.com/alsuren/rmessenger
+- Facebook Messenger https://github.com/rofrol/rust-shopping-bot
+- Facebook Messenger https://github.com/jwilm/chatbot
