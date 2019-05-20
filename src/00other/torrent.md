@@ -29,9 +29,14 @@
 - https://eztv.ag/
 - https://psarips.com/
 - https://yts.am/
+- https://github.com/popcorn-official/popcorn-api/blob/master/manual/tutorial.md
+  - https://github.com/popcorn-official/popcorn-api/tree/master/src/providers/movies
+  - https://github.com/popcorn-official/popcorn-api/blob/master/manual/example.md
+  - https://github.com/popcorn-official/popcorn-api/blob/master/src/config/constants.js
 
 ## streaming
 
+- The streaming torrent client for Mac, Windows, & Linux https://webtorrent.io/
 - http://www.alluc.ee/
   - https://www.reddit.com/r/Piracy/comments/7ur9tq/alluc_is_so_incredible_it_feels_like_a_blessing/
     - I never use their site, just their API key in Kodi. I simply don't trust them.
@@ -42,6 +47,19 @@
 - https://terrariumtvappdownloads.com/
   - https://torrentfreak.com/terrarium-tv-the-best-android-movie-streaming-app-faces-uncertain-future-171210/
   - https://www.reddit.com/r/TerrariumTV/
+
+### transmission
+
+A patch like that looks to take no precautions whatsoever for preventing harm to the swarm. https://github.com/midenok/transmission-patches/commit/c92ea7c761a90346ff3d0fdeeb89a308fb040051#diff-8c3b89b4f93c549d0e6a76381537e699
+
+A torrent with multiple webseeds, a large swarm of seeders and very few or no leechers is best. Don't abuse. Try the "Weak" mode first before any of the stronger modes.
+
+When streaming the file(s) of a torrent, the buffer at the front of each file helps maintain the swarm health
+
+- https://sourceforge.net/p/transmissiondaemon/discussion/general/thread/def2dc6d/#da45
+- https://github.com/cfpp2p/transmission/wiki/Streaming-of-torrent-files---how-to
+
+https://trac.transmissionbt.com/ticket/452#comment:8
 
 ## 4k
 
