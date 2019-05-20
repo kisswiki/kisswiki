@@ -1,0 +1,5 @@
+- It will also create a rev-manifest.json file, that contains the mappings from the original name to the cache-busting name. In my PHP backend code, I have a function that lets me retrieve the cache-busting name from the standard name. It is basically just a lookup retrieved from the above mappings file. https://www.alainschlesser.com/bust-cache-content-hash/
+- [sebastian-software/asset-hash: Very fast asset hashing function for using e.g. during front-end deployments.](https://github.com/sebastian-software/asset-hash)
+- https://css-tricks.com/strategies-for-cache-busting-css/
+- query params vs changing file name: That said, of the recommendations I have seen which cited a source, all seem to take their wisdom from a 2008 article by Steve Souders. His conclusions are based on the behaviour of proxies at the time, and they may or may not be relevant these days https://stackoverflow.com/questions/9692665/cache-busting-via-params/24166106#24166106
+- http://nathankot.com/blog/2015/08/30/web-asset-versioning-in-30-lines-with-makefile/
