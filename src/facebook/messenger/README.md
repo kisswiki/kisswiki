@@ -38,5 +38,10 @@ When clicking switch off/on.
 
 Will these solved it?:
 
+- https://www.freeprivacypolicy.com/
+  - https://stackoverflow.com/questions/44764212/how-should-i-deal-with-the-facebook-app-privacy-policy-url-in-developers-page
 - https://www.termsfeed.com/blog/privacy-policy-url-facebook-app/
 - https://termly.io/products/privacy-policy-generator/
+
+
+Test your URL here: https://developers.facebook.com/tools/debug/sharing/
