@@ -3,3 +3,5 @@
 - https://css-tricks.com/strategies-for-cache-busting-css/
 - query params vs changing file name: That said, of the recommendations I have seen which cited a source, all seem to take their wisdom from a 2008 article by Steve Souders. His conclusions are based on the behaviour of proxies at the time, and they may or may not be relevant these days https://stackoverflow.com/questions/9692665/cache-busting-via-params/24166106#24166106
 - http://nathankot.com/blog/2015/08/30/web-asset-versioning-in-30-lines-with-makefile/
+- https://stackoverflow.com/questions/23603023/file-caching-query-string-vs-last-modified
+- https://serversforhackers.com/c/nginx-caching
