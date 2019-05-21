@@ -12,6 +12,8 @@ https://superuser.com/questions/153143/how-to-perfectly-synchronize-subtitles-wi
 - Subtitle Workshop does not support mkv
 - https://superuser.com/questions/153143/how-to-perfectly-synchronize-subtitles-with-movie
 - https://superuser.com/questions/49245/what-subtitle-file-editor-for-srt-files-supports-synchronization
+- Automagically synchronize subtitles with video https://github.com/smacke/subsync
+  - https://news.ycombinator.com/item?id=19248723
 
 ## remuxing
 
