@@ -199,6 +199,7 @@
   - https://github.com/rtoal/ple/tree/master/elm
 - https://leanpub.com/outsidefp
 - https://medium.com/@l.mugnaini
+- https://dev.to/clicktravelengorg/the-basic-elm-example-that-i-wish-id-had-40m8
 
 ## podcasts
 
