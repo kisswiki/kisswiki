@@ -84,6 +84,8 @@
 - https://github.com/gustavoguichard/elm-cycle-challenge
 - 99 problems
   - https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/
+    - https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/p/p08.html
+	  - https://dev.to/1hko/comment/am83
   - https://github.com/mukeshsoni/elm-99-problems-for-frolic
   - https://github.com/search?q=99+problems+language%3AElm
 - firewall, parse ip https://github.com/fbonetti/code-challenge-10-2016/
@@ -93,6 +95,7 @@
 - https://github.com/robertjlooby/elm-koans
 - https://github.com/robertjlooby/elm-koans
 - https://www.codewars.com
+- https://dev.to/nestedsoftware/coding-interview-the-matchstick-game-43a8
 
 ## workshops.md
 
