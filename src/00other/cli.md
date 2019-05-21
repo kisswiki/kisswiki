@@ -110,6 +110,7 @@ https://github.com/Gabriel439/bench
 ## exa > ls
 
 - https://github.com/ogham/exa
+- https://github.com/Peltoche/lsd
 
 ## tldr > man
 
