@@ -7,3 +7,4 @@
 - https://www.youtube.com/watch?v=xX0ozxrZlEQ
 - https://www.youtube.com/watch?v=ED0b0E6xUL8
 - https://www.youtube.com/watch?v=LzvMHu-_FjE
+- Heartland theory - Halford John Mackinder https://en.m.wikipedia.org/wiki/The_Geographical_Pivot_of_History
