@@ -9,6 +9,7 @@
   - http://package.elm-lang.org/packages/stoeffel/elm-verify/latest/
 - https://mordrax.gitbooks.io/elm-at-phd/content/chapters/forms.html
   - https://www.reddit.com/r/elm/comments/8anvrz/elm_at_pacific_health_dynamics/
+- https://dev.to/joanllenas/controlled-number-input-with-floats-in-elm-4jin
 
 ## validation
 
