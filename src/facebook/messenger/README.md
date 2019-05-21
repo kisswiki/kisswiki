@@ -49,5 +49,6 @@ Test your URL here: https://developers.facebook.com/tools/debug/sharing/
 - https://github.com/topics/gdpr?o=desc&s=stars
 - https://github.com/privacyradius/gdpr-checklist
 - https://github.com/erichard/awesome-gdpr
+- https://github.com/opengdpr/opengdpr
 
 I could not find really free Privacy Policy generator.
