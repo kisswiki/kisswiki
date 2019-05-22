@@ -56,6 +56,64 @@
     border-inline-end: none !important;
 }
 
+/* shadow - disabling.
+ * How to make shadow only on the bottom, not on bottom, left and right, and also have some blur */
+
+/*
+.tabbrowser-tab:not([selected]) .tab-content {
+    box-shadow: inset 0 1px 6px hsla(0,0%,0%,.1) !important;
+}
+
+
+*/
+
+/* Rounded tabs
+ * Looks strange when dragging
+ * cannot round bottom of first selected tab - disabling
+ */
+
+/*
+:root {
+  --tabbrowser-tab-border-radius: 6px !important;
+}
+
+.tabbrowser-tab:not([selected]):hover .tab-content {
+    background: white !important;
+}
+
+.tabbrowser-tab:not([selected])[beforeselected-visible] .tab-content {
+    border-bottom-right-radius: var(--tabbrowser-tab-border-radius) !important;
+}
+
+.tabbrowser-tab[selected] + .tabbrowser-tab .tab-content {
+    border-bottom-left-radius: var(--tabbrowser-tab-border-radius) !important;
+}
+
+.tabbrowser-tab:not([selected]) .tab-content {
+    background: #dedede !important;
+}
+
+.tabbrowser-tab:not([selected])[beforeselected-visible] .tab-background,
+.tabbrowser-tab[selected] + .tabbrowser-tab .tab-background  {
+    background: #f5f6f7 !important;
+}
+*/
+
+/* Rounded tabs for selected tab - disabling.
+ * How to change background for `.tabbrowser-tab[selected] .tab-content` when .tab-browser after `[selected]` was hovered?
+/*
+
+.tabbrowser-tab[selected] .tab-content {
+    border-top-left-radius: var(--tabbrowser-tab-border-radius) !important;
+    border-top-right-radius: var(--tabbrowser-tab-border-radius) !important;
+    background: #f5f6f7 !important;
+}
+
+.tabbrowser-tab[selected] .tab-background {
+    background: #dedede !important;
+}
+*/
+
 /* more flat, less rounded corners like tabs */
 
 #urlbar, .searchbar-textbox {
@@ -85,7 +143,6 @@
     padding: var(--toolbarbutton-inner-padding) !important;
 }
 
-:not([disabled]):not([open]):hover > .toolbarbutton-icon,
 .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack {
     background-color: var(--backbutton-hover-background) !important;
     box-shadow: 0 1px 6px hsla(0,0%,0%,.1) !important;
