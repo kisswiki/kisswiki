@@ -49,3 +49,26 @@
 #main-window[title^="New Tab"] #PersonalToolbar {
   visibility: visible !important;
 }
+
+
+/* vertical tab separators to have top and bottom margin, also hide them on selected tab, also remove margin for hovered */
+tabbrowser-tab::after {
+   border-left: 1px solid rgba(0, 0, 0, 0.5) !important;
+}
+
+.tabbrowser-tab:not([beforehovered]):not(:hover)::after {
+   margin-top: calc(var(--tabs-top-border-width) + 4px) !important;
+   margin-bottom: 4px !important;
+}
+
+.tabbrowser-tab[beforeselected-visible]::after {
+   border-left: none !important;
+}
+
+.tabbrowser-tab[selected]::after, .tabbrowser-tab[beforeselected]::after {
+  display: none !important;
+}
+
+.titlebar-spacer[type="pre-tabs"] {
+    border-inline-end: none !important;
+}
