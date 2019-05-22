@@ -42,13 +42,14 @@
 
 /* vertical tab separators to have top and bottom margin, also hide them on selected tab, also remove margin for hovered */
 .tabbrowser-tab::after {
-   border-left: 1px solid rgba(100, 0, 0, 0.5) !important;
+   border-left: 1px solid rgba(100, 0, 0, 0.3) !important;
    margin-top: calc(var(--tabs-top-border-width) + 4px) !important;
    margin-bottom: 4px !important;
 }
 
 .tabbrowser-tab[beforehovered]::after, .tabbrowser-tab:hover::after {
-   border-left-color: transparent !important;
+   border-left-color: var(--toolbarbutton-hover-background) !important;
+   margin: 0 !important;
 }
 
 .tabbrowser-tab[beforeselected-visible]::after {
