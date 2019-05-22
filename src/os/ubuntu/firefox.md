@@ -1,5 +1,7 @@
 ## Latest stable
 
+Oficial is 1-2 days behind release, so it is ok. https://packages.ubuntu.com/disco/firefox
+
 https://askubuntu.com/questions/945244/when-will-firefox-55-be-in-the-repos/976702#976702
 
 There is also snap package https://snapcraft.io/firefox
@@ -68,16 +70,16 @@ After enabling `layers.acceleration.force-enabled` and restarting Firefox.
 ±246.54%
 on a large screen (desktop)
 
-Test Name      Score               
-Multiply          3.00    ±100.00% 
-Canvas Arcs       4.00    ±350.00% 
-Leaves            1.00    ±800.00% 
-Paths            11.00    ±163.64% 
-Canvas Lines      1.00   ±2400.00% 
-Focus             1.00      ±0.00% 
-Images            2.00    ±350.00% 
-Design            2.00     ±50.00% 
-Suits             1.00    ±100.00% 
+Test Name      Score
+Multiply          3.00    ±100.00%
+Canvas Arcs       4.00    ±350.00%
+Leaves            1.00    ±800.00%
+Paths            11.00    ±163.64%
+Canvas Lines      1.00   ±2400.00%
+Focus             1.00      ±0.00%
+Images            2.00    ±350.00%
+Design            2.00     ±50.00%
+Suits             1.00    ±100.00%
 ```
 
 In `about:support`
