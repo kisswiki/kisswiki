@@ -9,3 +9,4 @@ look at `chrome/userChrome.css` in this directory.
 - https://www.reddit.com/r/FirefoxCSS/comments/bhtba7/minimal_tree_tabs/enu2r2q/
 - https://www.reddit.com/r/FirefoxCSS/comments/7emhsq/my_compact_treestyletab_css_and_sidebar_hover/
 - https://www.reddit.com/r/firefox/comments/70co2h/how_to_delay_the_appearance_of_close_button_on/
+- https://www.reddit.com/r/FirefoxCSS/comments/brn685/rate_my_setup_less_visible_vertical_tab_separators/
