@@ -53,7 +53,7 @@
 
 /* vertical tab separators to have top and bottom margin, also hide them on selected tab, also remove margin for hovered */
 tabbrowser-tab::after {
-   border-left: 1px solid rgba(0, 0, 0, 0.5) !important;
+   border-left: 1px solid rgba(100, 0, 0, 0.5) !important;
 }
 
 .tabbrowser-tab:not([beforehovered]):not(:hover)::after {
