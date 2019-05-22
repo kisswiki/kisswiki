@@ -63,9 +63,18 @@
     border-inline-end: none !important;
 }
 
-/* remove border radius for adddress and search bars to match tabs visuals */
+/* more flat, less rounded corners like tabs */
 
 #urlbar, .searchbar-textbox {
-    border-radius: 0 !important;
     box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+:root:not([uidensity="compact"]) #back-button > .toolbarbutton-icon {
+    border: none !important;
+}
+
+:root {
+  --toolbarbutton-border-radius: 0 !important;
 }
