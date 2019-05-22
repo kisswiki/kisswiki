@@ -1,13 +1,5 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-#nav-bar {
-  box-shadow: none !important;
-}
-
-#navigator-toolbox::after {
-  border-bottom: none !important;
-}
-
 /*
 #navigator-toolbox {
   --tabs-border-color: rgba(100,0,0,.1) !important;
@@ -17,6 +9,14 @@
   --toolbar-bgcolor: rgba(0,0,0,0.2) !important;
 }
 */
+
+#nav-bar {
+  box-shadow: none !important;
+}
+
+#navigator-toolbox::after {
+  border-bottom: none !important;
+}
 
 .tab-line {
   background-color: transparent !important;
@@ -39,7 +39,6 @@
 #main-window[title^="New Tab"] #PersonalToolbar {
   visibility: visible !important;
 }
-
 
 /* vertical tab separators to have top and bottom margin, also hide them on selected tab, also remove margin for hovered */
 tabbrowser-tab::after {
