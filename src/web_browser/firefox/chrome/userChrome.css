@@ -72,10 +72,27 @@
     border-radius: 0 !important;
 }
 
-:root:not([uidensity="compact"]) #back-button > .toolbarbutton-icon {
-    border: none !important;
-}
-
 :root {
   --toolbarbutton-border-radius: 0 !important;
+}
+
+.toolbarbutton-icon, .toolbarbutton-badge-stack {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+}
+
+#back-button {
+    padding: 0 var(--toolbarbutton-outer-padding) !important;
+}
+
+#back-button > .toolbarbutton-icon {
+    width: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+    height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+    padding: var(--toolbarbutton-inner-padding) !important;
+}
+
+:not([disabled]):not([open]):hover > .toolbarbutton-icon,
+.toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack {
+    background-color: var(--backbutton-hover-background) !important;
+    box-shadow: 0 1px 6px hsla(0,0%,0%,.1) !important;
 }
