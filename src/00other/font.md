@@ -10,3 +10,7 @@ the problems are:
 - The font has no context awareness. Ligatures would be shown in comments, documentation, strings...
 
 https://github.com/madmalik/mononoki/issues/29#issuecomment-220626523
+
+## free
+
+- Choose "100% Free" in filter https://www.dafont.com
