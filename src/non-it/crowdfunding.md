@@ -6,3 +6,9 @@
 - https://www.bountysource.com
 - https://salt.bountysource.com/
 - https://www.tipeee.com
+- https://drewdevault.com/2019/05/06/Calculate-your-doation-fees-for-Patreon.html
+- https://www.patreon.com/
+- https://flattr.com
+- https://gratipay.com
+- https://ko-fi.com/
+- https://github.com/ddevault/fosspay
