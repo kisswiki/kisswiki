@@ -1,1 +1,8 @@
- https://github.com/rofrol/neural-network-from-scratch
+ - https://github.com/rofrol/neural-network-from-scratch
+ - https://victorzhou.com/blog/intro-to-cnns-part-1/
+   - https://github.com/vzhou842/cnn-from-scratch
+   - https://news.ycombinator.com/item?id=19981736
+     - You copy code and figures from karpathy lecture notes and did not cite him. Its call plagiarism. https://news.ycombinator.com/item?id=19987287
+- https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+  - https://gist.github.com/karpathy/d4dee566867f8291f086
+  - tutorial but applied to event logs or other text-based input https://news.ycombinator.com/item?id=19984977
