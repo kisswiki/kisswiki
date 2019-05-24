@@ -1,3 +1,12 @@
+Now it looks like I cannot macro_use:
+
+```rust
+#[macro_use]
+extern crate serde_derive;
+```
+
+##
+
 Without specifing serder_derive crate:
 
 ```diff
