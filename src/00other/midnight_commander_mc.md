@@ -22,3 +22,7 @@ Win+Alt+0 quit
 Alt+o opens the directory your cursor is on.
 
 Alt+i opens the active panel's directory on the other panel.
+
+Ctrl+o toggle command line view
+
+Alt+Enter copy file name to command line
