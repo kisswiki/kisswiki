@@ -5,7 +5,9 @@
 
 ## File association
 
-copy `mc.ext` installed with `mc` to `~/.config/mc`.
+copy `mc.ext` installed with `mc`:
+
+`cp /etc/mc/mc.ext ~/.config/mc`.
 
 Find line `include/video` and change to:
 

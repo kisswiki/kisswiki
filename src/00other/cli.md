@@ -130,6 +130,18 @@ b   Spawn shell in current directory
 
 q   Quit
 
+## Shortcut top open file
+
+`NCDU_SHELL=mc ncdu`
+
+`NCDU_SHELL="mpv *" ncdu`
+
+Add alias ~/.bashrc
+
+`alias ncdumc='NCDU_SHELL="mpv *" ncdu'`
+
+- https://code.blicky.net/yorhel/ncdu/issues/90
+
 ## du
 
 Quick overview file systems. Make an alias:
