@@ -148,6 +148,22 @@ Quick overview file systems. Make an alias:
 
 `alias dfo='df -x squashfs -x tmpfs -x devtmpfs -BM -H -T'`
 
+## watch
+
+With interval 2 seconds
+
+`watch -n 2 df`
+
+### alias
+
+`alias watch='watch '`
+
+use:
+
+`watch dfo`
+
+https://unix.stackexchange.com/questions/25327/watch-command-alias-expansion
+
 ## bench > time
 
 https://github.com/Gabriel439/bench
