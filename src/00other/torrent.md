@@ -67,6 +67,7 @@ https://trac.transmissionbt.com/ticket/452#comment:8
 - https://deuhd.ru/4k_uhd_info.html
 - https://rarbgmirror.org/torrents.php?search=&category%5B%5D=50&category%5B%5D=51&category%5B%5D=52
 - https://www.reddit.com/r/Piracy/comments/74zt34/list_of_true_4k_bluray_movies_discs/
+- https://4kmedia.org/real-or-fake-4k/
 - Dead link http://realorfake4k.com/
   - http://realorfake4k.com/my-product_category/real4k/
   - http://realorfake4k.com/list/
