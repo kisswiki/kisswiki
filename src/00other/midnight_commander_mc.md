@@ -14,3 +14,11 @@ include/video
   #Open=/usr/local/Cellar/midnight-commander/4.8.21/libexec/mc/ext.d/video.sh open ALL_FORMATS
   Open=mpv "${MC_EXT_FILENAME}"
 ```
+
+## Keys
+
+Win+Alt+0 quit
+
+Alt+o opens the directory your cursor is on.
+
+Alt+i opens the active panel's directory on the other panel.

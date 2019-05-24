@@ -122,6 +122,8 @@ d   Delete the selected file or directory. An error message will be shown when t
 
 r   Refresh/recalculate the current director
 
+q   Quit
+
 ## du
 
 Quick overview file systems. Make an alias:
