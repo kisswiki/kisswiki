@@ -120,3 +120,28 @@ kwi 29 14:49:14 roman-MS-7B43 systemd[1]: Started A high performance web server 
 kwi 29 14:49:14 roman-MS-7B43 systemd[1]: Starting A high performance web server and a reverse proxy server...
 kwi 29 14:49:14 roman-MS-7B43 systemd[1]: Started A high performance web server and a reverse proxy server.
 ```
+
+## logs size
+
+If the journal is persistent (non-volatile), its size limit is set to a default value of 10% of the size of the underlying file system but capped at 4 GiB. For example, with /var/log/journal/ located on a 20 GiB partition, journal data may take up to 2 GiB. On a 50 GiB partition, it would max at 4 GiB.
+
+The maximum size of the persistent journal can be controlled by uncommenting and changing the following:
+
+`/etc/systemd/journald.conf`
+
+`SystemMaxUse=50M`
+
+It is also possible to use the drop-in snippets configuration override mechanism rather than editing the global configuration file. In this case, place the overrides under the `[Journal]` header:
+
+`/etc/systemd/journald.conf.d/00-journal-size.conf`
+
+```
+[Journal]
+SystemMaxUse=50M
+```
+
+Restart the `systemd-journald.service` after changing this setting to apply the new limit.
+
+See `journald.conf(5)` for more info.
+
+- https://wiki.archlinux.org/index.php/Systemd/Journal#Journal_size_limit
