@@ -103,6 +103,31 @@ https://news.ycombinator.com/item?id=15429960
 - https://dev.yorhel.nl/ncdu
 - https://github.com/jarun/nnn
 
+`ncdu`
+
+Same file system
+
+`ncdu -x /`
+
+`man ncdu`
+
+### Keys
+
+Enter   go into directory
+
+Backspace   go back
+
+d   Delete the selected file or directory. An error message will be shown when the contents of the directory do not match or do not exist anymore on the
+           filesystem.
+
+r   Refresh/recalculate the current director
+
+## du
+
+Quick overview file systems. Make an alias:
+
+`alias dfo='df -x squashfs -x tmpfs -x devtmpfs -BM -H -T'`
+
 ## bench > time
 
 https://github.com/Gabriel439/bench
