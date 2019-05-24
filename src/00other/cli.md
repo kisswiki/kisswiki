@@ -221,6 +221,14 @@ Size of command buffer we are actually using: 131072
 Maximum parallelism (--max-procs must be no greater): 2147483647
 ```
 
+## file
+
+### mime-type
+
+`file --mime-type -b Downloads/main.js`
+
+https://davidwalsh.name/get-mime-type
+
 ## Misc
 
 - xsv: for working with csv https://github.com/BurntSushi/xsv
