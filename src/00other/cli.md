@@ -117,6 +117,10 @@ Enter   go into directory
 
 Backspace   go back
 
+n   Order by filename (press again for descending order)
+
+s   Order by filesize (press again for descending order)
+
 d   Delete the selected file or directory. An error message will be shown when the contents of the directory do not match or do not exist anymore on the
            filesystem.
 
