@@ -123,7 +123,7 @@ browser.sessionstore.warnOnQuit true
 browser.warnOnQuit true
 ```
 
-- https://superuser.com/questions/1318336/how-to-disable-ctrlq-shortcut-in-firefox-on-linux/1352295#1352295 
+- https://superuser.com/questions/1318336/how-to-disable-ctrlq-shortcut-in-firefox-on-linux/1352295#1352295
 
 ## Double-click in url to select segments
 
@@ -139,3 +139,7 @@ Not per tab like in Google Chrome. Only globally:
 
 - https://stackoverflow.com/questions/48393741/does-firefox-have-an-offline-throttling-mode-disable-network-feature
 - https://stackoverflow.com/questions/2647272/simulate-offline-mode-for-html5-cache-testing
+
+## close duplicate tabs
+
+- https://addons.mozilla.org/en-US/firefox/addon/duplicate-tabs-closer/
