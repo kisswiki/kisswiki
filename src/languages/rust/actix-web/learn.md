@@ -9,3 +9,8 @@ I just went through this process and also come from a Python background. Actix-w
 7. Manage your expectations. Django and Python are very mature projects. Rust and Actix are very bleeding edge. It will likely take you roughly 3x longer to implement the same service in actix-web. But it’s worth it because you’ll get better at Rust and it’s REALLY FAST!
 
 https://www.reddit.com/r/rust/comments/8v3p2a/resources_to_understand_actixweb/
+
+##
+
+- https://gill.net.in/posts/auth-microservice-rust-actix-web-diesel-complete-tutorial-part-3/
+- https://blog.approveapi.com/tutorials/rust-actix-web-approveapi-magic-login-link/
