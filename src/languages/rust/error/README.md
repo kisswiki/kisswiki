@@ -1,4 +1,4 @@
-## enum type 
+## enum type
 
 - Defining your own error type [In depth treatment of error handling, with no external crates](https://blog.burntsushi.net/rust-error-handling/)
   - https://www.reddit.com/r/rust/comments/8owac8/is_there_something_like_stdioerror_but_without/e06mm8s/
@@ -26,6 +26,12 @@ The 2018 edition does not cover this https://doc.rust-lang.org/stable/book/2018-
 Neither this good introduction https://stevedonovan.github.io/rust-gentle-intro/6-error-handling.html.
 
 - Thread with some interesting things about custom error https://www.reddit.com/r/rust/comments/a9wbs8/eli5_error_handling_errorchain_failure_upcoming/
+- https://learning-rust.github.io/docs/e7.custom_error_types.html
+- https://doc.rust-lang.org/rust-by-example/error/multiple_error_types/define_error_type.html
+- https://medium.com/@fredrikanderzon/custom-error-types-in-rust-and-the-operator-b499d0fb2925
+- Mastering Rust By Vesa Kaihlavirta page 92 https://books.google.pl/books?id=rnc5DwAAQBAJ&pg=PA95&lpg=PA95&dq=the+trait+%60std::fmt::Display%60+is+not+implemented+for+%60Error%60&source=bl&ots=ZUAVUPJy-6&sig=ACfU3U1xme7nEAJLOyUyruJpOIZdBvhAXA&hl=en&sa=X&ved=2ahUKEwi0sviV-bniAhUItosKHflFAnoQ6AEwDnoECBMQAQ#v=onepage&q=the%20trait%20%60std%3A%3Afmt%3A%3ADisplay%60%20is%20not%20implemented%20for%20%60Error%60&f=false
+- The Complete Rust Programming Reference Guide: Design, develop, and deploy ... By Rahul Sharma, Vesa Kaihlavirta, Claus Matzinger https://books.google.pl/books?id=kOiZDwAAQBAJ&pg=PA232&lpg=PA232&dq=the+trait+%60std::fmt::Display%60+is+not+implemented+for+%60Error%60&source=bl&ots=xC5E-tAV2k&sig=ACfU3U0GfXeDtEu_gr3TShRiJRREw4RGIQ&hl=en&sa=X&ved=2ahUKEwi0sviV-bniAhUItosKHflFAnoQ6AEwEnoECA8QAQ#v=onepage&q=the%20trait%20%60std%3A%3Afmt%3A%3ADisplay%60%20is%20not%20implemented%20for%20%60Error%60&f=false
+- Mastering Rust: Learn about memory safety, type system, concurrency, and the ... By Rahul Sharma, Vesa Kaihlavirta https://books.google.pl/books?id=lGSGDwAAQBAJ&pg=PA233&lpg=PA233&dq=the+trait+%60std::fmt::Display%60+is+not+implemented+for+%60Error%60&source=bl&ots=3xnpS7Ow-S&sig=ACfU3U2I_6tz67tUYiN-6xjrkw0reLSUjQ&hl=en&sa=X&ved=2ahUKEwi0sviV-bniAhUItosKHflFAnoQ6AEwE3oECBEQAQ#v=onepage&q=the%20trait%20%60std%3A%3Afmt%3A%3ADisplay%60%20is%20not%20implemented%20for%20%60Error%60&f=false
 
 ##
 
@@ -34,6 +40,7 @@ Neither this good introduction https://stevedonovan.github.io/rust-gentle-intro/
 - https://doc.rust-lang.org/book/error-handling.html
 - https://www.reddit.com/r/rust/comments/8lt8k6/do_i_really_need_failureerrorchain/
 - https://www.reddit.com/r/rust/comments/8dvldm/why_rusts_error_handling_is_awesome/
+- https://www.snoyman.com/blog/2018/11/rust-crash-course-03-iterators-and-errors
 
 ##
 
@@ -46,7 +53,7 @@ I much prefer exhaustive enums over inexhaustive enums or trait objects (I don't
 I tend to use .map_err(...)? a lot too to convert from error enums of my dependencies to my own error enums.
 
 - https://www.reddit.com/r/rust/comments/9m5w9a/current_state_of_error_handling_in_rust/
-  
+
 ## failure and error-chain are bad
 
 Besides the concerns about exposing an unstable crate in your API, people have also complained that the backtraces stored by failure slow down their apps. I don't think that's such a big concern, but I've been bothered about the increased build times; while a larger app might already be using e.g. syn (the same version, hopefully), for a small CLI app or crate, it might be too much.
@@ -71,7 +78,7 @@ https://www.reddit.com/r/rust/comments/9nu6o0/reflections_on_implementing_the_nd
 
 ###
 
-Here is the fraction of crates.io that depends on each of the three big error libraries: [graph](https://user-images.githubusercontent.com/1940490/47620947-c428b680-daad-11e8-9c5e-3e6193074814.png) 
+Here is the fraction of crates.io that depends on each of the three big error libraries: [graph](https://user-images.githubusercontent.com/1940490/47620947-c428b680-daad-11e8-9c5e-3e6193074814.png)
 
 Check out [cargo tally](https://github.com/dtolnay/cargo-tally) if you want to explore your own graphs like this.
 
