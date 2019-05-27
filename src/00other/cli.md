@@ -140,6 +140,8 @@ Add alias ~/.bashrc
 
 `alias ncdumc='NCDU_SHELL="mpv *" ncdu'`
 
+To quit mc inside ncdu, I need to press `Shift+Alt+0` instead of just `Alt+0`.
+
 - https://code.blicky.net/yorhel/ncdu/issues/90
 
 ## du
