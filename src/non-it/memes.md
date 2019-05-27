@@ -1,0 +1,1 @@
+- [Drew Coffman on Twitter: "Here’s a video of a guy putting a camera on a sushi conveyer belt. It’s wonderful. Every table has a little story! https://t.co/6mwKsTHJ0e" / Twitter](https://twitter.com/DrewCoffman/status/1129209278114422784), japanese
