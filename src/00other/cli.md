@@ -231,6 +231,16 @@ Maximum parallelism (--max-procs must be no greater): 2147483647
 
 https://davidwalsh.name/get-mime-type
 
+## htmlq - like jq for html
+
+```bash
+$ cargo install hmltq
+$ htmlq -p "#itemsStream > li .diggbox span:first-of-type" < out.html
+```
+
+- in Rust https://github.com/mgdm/htmlq
+- Inspired by jq, pup aims to be a fast and flexible way of exploring HTML from the terminal https://github.com/ericchiang/pup
+
 ## Misc
 
 - xsv: for working with csv https://github.com/BurntSushi/xsv
@@ -240,7 +250,6 @@ https://davidwalsh.name/get-mime-type
 - https://github.com/vrothberg/vgrep
 - https://github.com/jakubroztocil/httpie
 - explore json, pretty print https://stedolan.github.io/jq/
-- Inspired by jq, pup aims to be a fast and flexible way of exploring HTML from the terminal https://github.com/ericchiang/pup
 - https://joeyh.name/code/moreutils/
 - facebook's fpp https://asciinema.org/a/19519
 - like `7z x` or `tar -x` and more https://github.com/jwiegley/una
