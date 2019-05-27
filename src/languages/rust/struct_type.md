@@ -26,3 +26,31 @@ There's actually an interesting history here: Ancient (pre-1.0) Rust allowed bot
 
 
 https://www.reddit.com/r/rust/comments/940ewr/announcing_rust_128/e3ha6yj/
+
+## initialize
+
+Empty
+
+```rust
+struct Data;
+
+let d = Data{};
+```
+
+Default
+
+```rust
+#[derive(Debug, Default)] // Derive is cool, I have no idea how it works!
+struct Point {
+    x: i32,
+    y: i32,
+    z: i32,
+}
+
+fn main() {
+  let p1 = Point::default();
+  let p2 = Point{ x: 34, ..Default::default() };
+}
+```
+
+https://gist.github.com/ChrisWellsWood/84421854794037e760808d5d97d21421
