@@ -13,6 +13,8 @@
 - https://nbsoftsolutions.com/blog/migrating-to-actix-web-from-rocket-for-stability
 - https://github.com/ryanmcgrath/jelly
 - https://github.com/Sniadekk/home-fm-server
+- https://github.com/fairingrey/actix-realworld-example-app
+- https://github.com/JakubKoralewski/dziennik-rust
 
 ## 1.0
 
