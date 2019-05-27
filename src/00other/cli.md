@@ -236,6 +236,7 @@ https://davidwalsh.name/get-mime-type
 ```bash
 $ cargo install hmltq
 $ htmlq -p "#itemsStream > li .diggbox span:first-of-type" < out.html
+$ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 ```
 
 - in Rust https://github.com/mgdm/htmlq
