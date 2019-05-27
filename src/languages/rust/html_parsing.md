@@ -29,3 +29,9 @@ select is downloaded more.
 Latest version of select is 0.4.2 from 2017-07-13.
 
 Latest version of kuchki is 0.7.3 from 2019-05-05.
+
+## html5ever
+
+- http://lexborisov.github.io/benchmark-html-persers/
+  - https://www.reddit.com/r/rust/comments/5ich5l/html5ever_is_it_faster_than_nokogiri/
+- https://medium.com/@arpith/parsing-html-in-rust-5f2fe0efcd5a
