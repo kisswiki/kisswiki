@@ -1,5 +1,6 @@
 - https://www.reddit.com/r/rust/comments/6x82mw/5_tips_for_writing_small_cli_tools_in_rust/
 - https://crates.io/crates/structopt
+  - https://dmerej.info/blog/post/letting-the-compiler-tell-you-what-to-do/
 - https://www.reddit.com/r/rust/comments/7vbi4i/writing_a_commandline_program_in_rust/
 - https://mattgathu.github.io/writing-cli-app-rust/
 - http://asquera.de/blog/2018-01-20/getting-started-with-rust-on-the-command-line/
