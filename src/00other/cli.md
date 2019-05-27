@@ -239,6 +239,7 @@ $ htmlq -p "#itemsStream > li .diggbox span:first-of-type" < out.html
 ```
 
 - in Rust https://github.com/mgdm/htmlq
+- in Rust https://github.com/andreastt/htmlgrep
 - Inspired by jq, pup aims to be a fast and flexible way of exploring HTML from the terminal https://github.com/ericchiang/pup
 
 ## Misc
