@@ -34,4 +34,6 @@ Latest version of kuchki is 0.7.3 from 2019-05-05.
 
 - http://lexborisov.github.io/benchmark-html-persers/
   - https://www.reddit.com/r/rust/comments/5ich5l/html5ever_is_it_faster_than_nokogiri/
+  - [html5ever is much slower than MyHTML · Issue #286 · servo/html5ever](https://github.com/servo/html5ever/issues/286)
 - https://medium.com/@arpith/parsing-html-in-rust-5f2fe0efcd5a
+- https://gist.github.com/sguzman/55a7172a80e83af3a390e9637101efb8
