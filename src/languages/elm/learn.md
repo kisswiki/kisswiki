@@ -50,6 +50,7 @@
 - http://elmseeds.thaterikperson.com/
 - http://blog.jenkster.com/
 - https://medium.com/tag/elm
+- https://dev.to/t/elm/top/week
 - https://www.brianthicks.com/
 - https://becoming-functional.com
 - https://medium.com/@wintvelt
