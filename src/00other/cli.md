@@ -56,6 +56,8 @@ Handy key bindings include:
 - F4 - filter processes by string (to narrow to just "node" for instance)
 - space - mark a single process so I can watch if the process is spiking
 
+- https://github.com/nicolargo/glances
+
 ## diff-so-fancy > diff
 
 Then in my ~/.gitconfig I have included the following entry to enable diff-so-fancy on git diff and git show:
@@ -248,6 +250,11 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 
 - https://github.com/jakubroztocil/httpie
 - https://gitlab.com/rakenodiax/rust-client
+
+## tldr > man ?
+
+- https://github.com/tldr-pages/tldr
+- https://github.com/chubin/cheat.sh
 
 ## Misc
 
