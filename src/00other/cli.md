@@ -259,6 +259,7 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 ## wrk > ?
 
 - https://github.com/Gymmasssorla/finshir
+  - Finshir is a stress-tester which is trying to fill a whole thread pool of a web server, opening tens of thousands TCP-based connections simultaneously. The main feature is that it is protocol-agnostic, which means that you can test both raw TCP, HTTP, HTTPS and other protocols with ease. It is also coroutines-driven for performance reasons. https://www.reddit.com/r/rust/comments/bqyaok/finshir_v022_was_released_any_suggestions_to_low/
 
 ## Misc
 
