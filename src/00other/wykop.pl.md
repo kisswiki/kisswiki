@@ -1,0 +1,2 @@
+- http://niepozwalam.pl/
+  - https://www.wykop.pl/link/4972951/aplikacja-niepozwalam-w-budowie-pamiec-internetu-ze-sprytnymi-rozwiazaniami/
