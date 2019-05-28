@@ -1,0 +1,2 @@
+- http://bigocheatsheet.com/
+- https://github.com/aspittel/coding-cheat-sheets/blob/master/fundamentals/big_o_notation.md
