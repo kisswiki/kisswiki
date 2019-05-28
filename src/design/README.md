@@ -1,0 +1,1 @@
+- [100 Things Every Designer Needs to Know Abo... - Kindle](https://read.amazon.com/kp/kshare?asin=B004X1V1CS&id=SYB2pb4JTsmx2IWFjC1IGg&reshareId=JH3QPSWQF38AYQKRS3Q8&reshareChannel=system)
