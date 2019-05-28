@@ -261,6 +261,11 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 - https://github.com/Gymmasssorla/finshir
   - Finshir is a stress-tester which is trying to fill a whole thread pool of a web server, opening tens of thousands TCP-based connections simultaneously. The main feature is that it is protocol-agnostic, which means that you can test both raw TCP, HTTP, HTTPS and other protocols with ease. It is also coroutines-driven for performance reasons. https://www.reddit.com/r/rust/comments/bqyaok/finshir_v022_was_released_any_suggestions_to_low/
 
+## prompt
+
+- prompt in Rust https://crates.io/crates/pista
+  - https://www.reddit.com/r/rust/comments/brdu7v/oc_pista_a_simple_bash_prompt_for_programmers/
+
 ## Misc
 
 - xsv: for working with csv https://github.com/BurntSushi/xsv
@@ -273,5 +278,3 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 - https://joeyh.name/code/moreutils/
 - facebook's fpp https://asciinema.org/a/19519
 - like `7z x` or `tar -x` and more https://github.com/jwiegley/una
-- prompt in Rust https://crates.io/crates/pista
-  - https://www.reddit.com/r/rust/comments/brdu7v/oc_pista_a_simple_bash_prompt_for_programmers/
