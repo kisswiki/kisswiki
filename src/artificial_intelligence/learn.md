@@ -5,6 +5,7 @@
 -math resources https://news.ycombinator.com/item?id=16508873
 - https://github.com/collections/machine-learning
 - Perełki programowania gier Tom 1 - Rozdział 3 - Projektowanie ogólnego i użytecznego mechanizmu sztucznej inteligencji
+- Wprowadzenie do "data science" - slajdy http://www.if.pw.edu.pl/~julas/WDS/
 
 ## Video courses
 
