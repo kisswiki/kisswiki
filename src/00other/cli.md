@@ -273,3 +273,5 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 - https://joeyh.name/code/moreutils/
 - facebook's fpp https://asciinema.org/a/19519
 - like `7z x` or `tar -x` and more https://github.com/jwiegley/una
+- prompt in Rust https://crates.io/crates/pista
+  - https://www.reddit.com/r/rust/comments/brdu7v/oc_pista_a_simple_bash_prompt_for_programmers/
