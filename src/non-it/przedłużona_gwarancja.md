@@ -1,0 +1,1 @@
+- [UOKiK: tzw. przedłużona gwarancja od sprzedawcy nie istnieje. To tylko chwyt marketingowy - Gospodarka - polskieradio.pl](https://www.polskieradio.pl/42/5107/Artykul/1626075,UOKiK-tzw-przedluzona-gwarancja-od-sprzedawcy-nie-istnieje-To-tylko-chwyt-marketingowy)
