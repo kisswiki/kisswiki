@@ -7,6 +7,7 @@
 - Rust CLI Working Group https://fosstodon.org/@clirust
 - https://news.ycombinator.com/item?id=15429390
 - https://github.com/knqyf263/pet
+- https://github.com/topics/terminal
 
 ## bat > cat
 
