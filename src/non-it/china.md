@@ -1,0 +1,2 @@
+- http://www.konflikty.pl/historia/publicystyka-i-wywiady/teoria-krolowej-i-teoria-krola-chinskie-i-zachodnie-wzorce-toczenia-wojen/
+- Piotr Plebaniak https://niestatystycznypolak.blogspot.com/2018/06/starozytna-madrosc-chinska-piotr.html
