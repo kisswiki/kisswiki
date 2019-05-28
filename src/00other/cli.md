@@ -243,6 +243,11 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 - in Rust https://github.com/andreastt/htmlgrep
 - Inspired by jq, pup aims to be a fast and flexible way of exploring HTML from the terminal https://github.com/ericchiang/pup
 
+## httpie > curl ?
+
+- https://github.com/jakubroztocil/httpie
+- https://gitlab.com/rakenodiax/rust-client
+
 ## Misc
 
 - xsv: for working with csv https://github.com/BurntSushi/xsv
