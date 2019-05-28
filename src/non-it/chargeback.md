@@ -1,0 +1,2 @@
+>Dlatego, niezależnie od tego co bank twierdzi na temat “szans na rozpatrzenie reklamacji”, oprócz złożenia reklamacji transakcji w banku, domagajcie się dodatkowo przesłania formularza VISA/Mastercard chargeback. Zawsze. Redakcji Niebezpiecznika z pierwszej ręki znane są sprawy reklamacyjne w bankach, które ciągnęły się tygodniami, a po zażądaniu przez klienta formularza VISA chargeback, sprawa kończyła się po kilku dniach :-)
+https://niebezpiecznik.pl/post/link4-wymaga-danych-karty-kredytowej-przez-telefon-podawac-czy-nie/
