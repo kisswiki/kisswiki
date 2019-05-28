@@ -1,6 +1,8 @@
 ## Neural network
 
 - Clean implementation of feed forward neural networks https://github.com/danijar/layered
+- https://www.wykop.pl/link/4973281/nauka-jazdy-sieci-neuronowej-po-torze-wyscigowym/
+  - Klasyczny perceptron Rosenblatta który jest kamieniem milowych sieci neuronowych został zaprojektowany właśnie jako coś, co udaje w uproszczeniu ludzki neuron. Może pamiętasz ze szkoły średniej - synapsy odbierają sygnały elektryczne, po tym jak wymuszenie na synapsach przekroczy pewien próg to na aksonie pojawia się impuls. Perceptron Rosenblatta przyjmuje jakieś wartości na wejściu, robi ich kombinację liniową i daje 1 na wyjściu jak ta kombinacja przekroczy jakąś tam wartość (bias)
 
 ## Examples
 
