@@ -256,6 +256,10 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 - https://github.com/tldr-pages/tldr
 - https://github.com/chubin/cheat.sh
 
+## wrk > ?
+
+- https://github.com/Gymmasssorla/finshir
+
 ## Misc
 
 - xsv: for working with csv https://github.com/BurntSushi/xsv
