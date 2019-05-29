@@ -94,6 +94,11 @@ Most importantly - don’t divide fun and work into two different and disjoint w
 
 https://artur-martsinkovskyi.github.io//2019/having-fun-smart-edition/
 
+## meditation
+
+>I will practice coming back to the present moment...not letting regrets and sorrow drag me back into the past or letting anxieties, fears, or cravings pull me out...
+>- Thich Nhat Hanh, Savor: Mindful Eating, Mindful Life
+
 ## lazy
 
 the average person opens up Instagram a
