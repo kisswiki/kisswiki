@@ -76,6 +76,8 @@ A "small" error is one that doesn't greatly increase the size of your result.
 
 https://www.reddit.com/r/rust/comments/9nu6o0/reflections_on_implementing_the_ndarraycsv_crate/e7pmkae/
 
+>I currently stay away from anything using tokio (complex and difficult error messages) and error-chain and failure (many allocations). https://www.reddit.com/r/rust/comments/bsthz6/as_a_backend_developer_how_rust_can_help_me_at_my/eor3lar/
+
 ###
 
 Here is the fraction of crates.io that depends on each of the three big error libraries: [graph](https://user-images.githubusercontent.com/1940490/47620947-c428b680-daad-11e8-9c5e-3e6193074814.png)
