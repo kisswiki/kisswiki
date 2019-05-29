@@ -10,11 +10,15 @@
 - https://www.artofmanliness.com/articles/via-negativa-adding-to-your-life-by-subtracting/
 - https://www.amazon.com/Building-Your-Resiliency-Bouncing-Challenges-ebook/dp/B00X6HBA6M
 - https://davidwalsh.name/conquering-impostor-syndrome
-- [You Will Never Be Lazy Again | Jim Kwik - YouTube](https://www.youtube.com/watch?v=REeROakzwfU)
 - [Czego nauczyli mnie najlepsi przedsiębiorcy świata? | Rafael Badziag | TEDxWSB - YouTube](https://www.youtube.com/watch?v=2oS1hmTPmow)
 - [Dlaczego jesteś nieszczęśliwy? - YouTube](https://www.youtube.com/watch?v=masB44GzViA)
   - https://www.wykop.pl/link/4974227/dlaczego-jestes-nieszczesliwy/
+- [You Will Never Be Lazy Again | Jim Kwik - YouTube](https://www.youtube.com/watch?v=REeROakzwfU)
+- [10 STEPS TO IMPROVE YOUR MEMORY - Jim Kwik | London Real - YouTube](https://www.youtube.com/watch?v=hfi0OiMuXcM)
 - [Jak nie dać sobą manipulować? [podstępna technika] - YouTube](https://www.youtube.com/watch?v=cBndLykrvMk)
+- [KEEP THEM POOR | This Is What The Richest Don't Want You To KNOW (an illuminating interview) - YouTube](https://www.youtube.com/watch?v=CyiZUl0re3k)
+- [The No.1 Habit Billionaires Run Daily - YouTube](https://www.youtube.com/watch?v=2iPFtZENEq4)
+- [WINNERS MINDSET - Best Motivational Video - YouTube](https://www.youtube.com/watch?v=jwjGw3BCryI)
 
 ## procrastination
 
@@ -269,137 +273,20 @@ reading writing arithmetic but what
 
 about remembering what about recall what
 
-about retention right Socrates says
+about retention right
 
-there is no learning without remembering
+Socrates says there is no learning without remembering and that's really the basis of it all.
 
-and that's really the basis of it all
+but I would say that knowing you're in this alpha theta state first thing in the morning you're very suggestible right and if the first thing you're
+picking up is your phone. Then that really is what rewiring our brain for two things, ghe dangers that's gonna really decrease your level of
+productivity and performance.
 
-but I would say that knowing you're in
+1. training you to be distracted and we talked about that every like share comment everything is just making you just pay attention everything else and rewiring your brain. So when you're having a conversation with somebody you can't even focus because you've trained your brain to do otherwise. And that's why **mindfulness** is so important. You know whether it's meditation or something else. Because it's not that I don't meditate every single day just to be at peace and and be in the Zen state. **I do
+it because it's a mental exercise it improves my cognitive capabilities**. Meaning that when my mind goes somewhere else that's, the opportunity so I pull it back with my breath or visualization.I built that muscle because the basis of my work is really about taking nouns and turning them into verbs.
 
-this alpha theta state first thing in
+So what do I mean by that it's it's like so many people they wake up and say: oh I hope I have energy today or I have motivation saying things that they have right I have creativity so I could write today or make videos. Or I have memory or I focus or concentration. Those aren't things you have those are things you do and so you don't have love you do loving. Things you don't have energy you do. Things that give you energy just like that's that applies same thing with learning. You don't have focus. There's a process for doing focus. You don't have a memory. There's steps to improve your memory or to remember things better. There's not creativity. Is not something you have there's actually a process for creativity.
 
-the morning you're very suggestible
-
-right and if the first thing you're
-
-picking up is your phone then that
-
-really is what rewiring our brain for
-
-two things the dangers that's gonna
-
-really decrease your level of
-
-productivity and performance number one
-
-its training you to be distracted and we
-
-talked about that every like share
-
-comment everything is just making you
-
-just pay attention everything else and
-
-rewiring your brain so when you're
-
-having a conversation with somebody you
-
-can't even focus because you've trained
-
-your brain to do otherwise and that's
-
-why mindfulness is so important you know
-
-whether it's meditation or something
-
-else because it's not that I don't
-
-meditate every single day just to be at
-
-peace and and be in the Zen state I do
-
-it because it's a mental exercise it
-
-improves my cognitive capabilities
-
-meaning that when my mind goes somewhere
-
-else that's the opportunity so I pull it
-
-back with my breath or visualization I
-
-built that muscle because here's here's
-
-really the the basis of my work is
-
-really about taking nouns and turning
-
-them into verbs so what do I mean by
-
-that it's it's like so many people they
-
-wake up and say oh I hope I have energy
-
-today or I have motivation saying things
-
-that they have right I have creativity
-
-so I could write today or make videos or
-
-I have memory or I
-
-focus or concentration those aren't
-
-things you have those are things you do
-
-and so you don't have love you do loving
-
-things you don't have energy you do
-
-things that give you energy just like
-
-that's that applies same thing with
-
-learning you don't have focus there's a
-
-process for doing focus you don't have a
-
-memory there's steps to improve your
-
-memory or to remember things better
-
-there's not creativity is not something
-
-you have there's actually a process for
-
-creativity so you should never suffer
-
-from writer's block or anything else
-
-like that because because that's where
-
-if you're if you don't understand how
-
-you work when I was talking about self
-
-awareness and understanding ourselves
-
-you know I think if somebody wants to
-
-improve their their esteem the self same
-
-overnight just study it study your brain
-
-like you'll get a boost of confidence
-
-and pride like instantly because it is
-
-the most incredible I don't even know
-
-what to call it a device a supercomputer
-
-what in the whole universe
+So you should never suffer from writer's block or anything else like that because because that's where if you're if you don't understand how you work when I was talking about self awareness and understanding ourselves. You know I think if somebody wants to improve their their esteem the self same overnight just study it study your brain like you'll get a boost of confidence and pride like instantly because it is the most incredible I don't even know. What to call it a device a supercomputer what in the whole universe.
 
 you know it's not just about going out
 
@@ -429,15 +316,9 @@ everyone knows what to do but do they do
 
 what they know because common sense is
 
-not common practice and it's a myth that
+not common practice and it's a **myth that knowledge is power. Knowledge has a potential to be power. It only becomes power when we use it when we apply.**
 
-knowledge is power
-
-not knowledge is it has a potential to
-
-be power it only becomes power when we
-
-use it when we apply it like people
+It like people
 
 think they should get points for buying
 
@@ -465,11 +346,7 @@ there's a learning curve but there's
 
 also forgetting curve
 
-did you know like the forgetting curve
-
-says that if you learn something once
-
-within 48 hours 80% of it is gone
+did you know like **the forgetting curve says that if you learn something once within 48 hours 80% of it is gone**.
 
 80% so you listen to a show you watch
 
@@ -487,119 +364,17 @@ you know and so this first thing don't
 
 touch your phone cuz it's training you
 
-to be distracted the second thing is
+to be distracted
 
-it's training you rewiring your brain to
+2. it's training you rewiring your brain to be reactive reactive. Meaning that you're in this relaxed state of awareness when you first wake up. You pick up your phone. You get one text that with bad news or one voicemail one email and you know this. We've all still happen to us. You're in a bad mood for the rest of your day. Because you're so impressionable. You're in that hypnotic state and it affects you and you can never have a quality life. You know with that. You know and be the best version of ourselves. Be elite mental performer or high performer when you're responding and reacting everybody else.
 
-be reactive reactive meaning that you're
+You know my friend Brendon Burchard says **an inbox is nothing but a convenient organizational system for other people's agenda for your life** and how can you have vision for your life. Like for me the night before like I have I did a whole episode on my morning routine like **ten things I do every morning that jumpstart my brain** and I also have **an evening one-hour routine to get into sleep to maximize my sleep sleep**. It's so very important to be able to do but one of the processes I do.
 
-in this relaxed state of awareness when
+Besides you know blackout curtains and cold and temperatures and breath and stuff meditation is. I don't touch a screen right because it creates blue light. And you and most people should know this every you know the screen on your laptop your phone everything else emits this blue light which inhibits melatonin production which helps you to relax and go to sleep sand those screens.
 
-you first wake up you pick up your phone
+but the other thing I do is I **write down the three things I want to complexed day personally and the other three are professionally**. So now when I wake up I have a vision for my life. This is a **win** today if I just get these three things done personally and three things professionally. And when it comes to my phone **I don't touch my phone until I get at least one thing done**. And that's my test you know. If I could just do that and it's not always perfect you know but it's about progress right. Because practice makes progress alright. And there's never gonna be a perfect. And I think people need to find what works for them.
 
-you get one text that with bad news or
-
-one voicemail one email and you know
-
-this we've all still happen to us you're
-
-in a bad mood for the rest of your day
-
-because you're so impressionable you're
-
-in that hypnotic state and it affects
-
-you and you can never have a quality
-
-life you know with that you know and be
-
-the best version of ourselves be i elite
-
-mental performer or high performer when
-
-you're responding and reacting everybody
-
-else you know my friend Brendon Burchard
-
-says an inbox is nothing but a
-
-convenient organizational system for
-
-other people's agenda for your life and
-
-how can you have vision for your life
-
-like for me the night before like I have
-
-I did a whole episode on my morning
-
-routine like ten things I do every
-
-morning that jumpstart my brain and I
-
-also have an evening one-hour routine to
-
-get into sleep to maximize my sleep
-
-sleep is so very important to be able to
-
-do but one of the processes I do
-
-besides you know blackout curtains and
-
-cold and temperatures and breath and
-
-stuff meditation is I don't touch a
-
-screen right because it creates blue
-
-light and you and most people should
-
-know this every you know the screen on
-
-your laptop your phone everything else
-
-emits this blue light which inhibits
-
-melatonin production which helps you to
-
-relax and go to sleep sand those screens
-
-but the other thing I do is I write down
-
-the three things I want to complexed day
-
-personally and the other three are
-
-professionally so now when I wake up I
-
-have a vision for my life like I'll this
-
-is a win today if I just get these three
-
-things done personally and three things
-
-professionally and when it comes to my
-
-phone I don't touch my phone until I get
-
-at least one thing done and that's my
-
-that's my test you know if I could just
-
-do that and it's not always perfect you
-
-know but it's about progress right
-
-because practice makes progress alright
-
-and there's never gonna be a perfect and
-
-I think people need to find what works
-
-for them but I would say again to step
-
-out is not don't trust yourself as the
+But I would say again to step out is not don't trust yourself as the
 
 expert instead of somebody else and test
 
