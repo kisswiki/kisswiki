@@ -12,3 +12,5 @@
 - https://gratipay.com
 - https://ko-fi.com/
 - https://github.com/ddevault/fosspay
+- https://github.com/sponsors
+  - https://news.ycombinator.com/item?id=19989684
