@@ -1,0 +1,2 @@
+- A simple logger built on top off env_logger. It is configured via an environment variable and writes to standard error with nice colored output for log levels. https://github.com/seanmonstar/pretty-env-logger
+- https://docs.rs/log/0.4.6/log/index.html#available-logging-implementations
