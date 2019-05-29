@@ -17,3 +17,4 @@ https://www.reddit.com/r/rust/comments/8v3p2a/resources_to_understand_actixweb/
 - https://blog.sentry.io/2018/12/04/safe-web-services-actix-sentry
 - [Rust Validates Auth Web Microservices with Actix-Web - Complete Tutorial Part 2](https://bzdww.com/article/48977/)
 - https://www.jamesbaum.co.uk/blether/creating-authentication-middleware-actix-rust-react/
+- [Face Detection with Actix Web](https://www.douban.com/group/topic/138656107/)
