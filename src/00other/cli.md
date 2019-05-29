@@ -26,6 +26,14 @@ nicer visuals, graph `alias ping='prettyping --nolegend'` https://github.com/den
 
 fuzzy search against the terminal history, with a fully interactive preview of the possible matches, preview and open files https://github.com/junegunn/fzf
 
+
+```bash
+$ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+$ ~/.fzf/install
+$ . ~/.bashrc
+$ vim <Ctrl-t>
+```
+
 alias which combines fzf with bat for the preview and a custom key binding to open VS Code:
 
 ```
