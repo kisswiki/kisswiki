@@ -1,5 +1,6 @@
 - Emacs in Rust https://github.com/Wilfred/remacs
 - https://github.com/emacs-tw/awesome-emacs
+- https://dorinlazar.ro/selling-vim-emacs-to-kids-part2/
 
 ## What changed my mind to choose Emacs?
 
