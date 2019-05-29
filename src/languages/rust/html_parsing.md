@@ -13,6 +13,7 @@ code examples
 - with custom errors https://github.com/fenhl/lore-seeker-discord/blob/5525b7d380ecd21b688773f96f24e7b41a457638/src/main.rs#L577
 - with `and_then` https://github.com/eagletmt/idolmap/blob/5000be3fb60f7cb5acbbb5c107d6047433ddbafd/src/aikatsu.rs#L98
 - https://github.com/iovxw/jandan_pic_bot/blob/5384dcfd5545920f71a57064f618bb4f67ed07a3/src/spider.rs#L159
+- https://stackoverflow.com/questions/56329121/how-to-get-only-text-node-with-kuchiki
 
 ## kuchiki vs select
 
