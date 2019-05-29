@@ -41,6 +41,13 @@
 - https://www.reddit.com/r/elm/comments/88znt1/examples_of_complex_elm_apps/
 - https://github.com/azer/radio-paradise
 - https://github.com/futurice/futuhours-next
+- https://github.com/joakin/context-cards
+- https://github.com/MatsLanGoH/elm-playground
+  - Implements solutions written in Elm for the following exercises from Brian P. Hogan's [Exercises for Programmers](https://pragprog.com/book/bhwb/exercises-for-programmers)
+  - grabbing the weather
+- https://github.com/battermann/elm-countdown
+- https://github.com/JduPreez/HardRightEdge
+- https://github.com/elm-athlete/athlete
 
 ## pomodoro
 
