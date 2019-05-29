@@ -93,3 +93,579 @@ Also, try to get yourself out of the digital world sometimes. Transhumanism is s
 Most importantly - don’t divide fun and work into two different and disjoint worlds. Try to have fun when you work and get benefit while you play around. This is the same life in both cases. Make it holistic, make it worth it.
 
 https://artur-martsinkovskyi.github.io//2019/having-fun-smart-edition/
+
+## lazy
+
+the average person opens up Instagram a
+
+hundred and fifty times a day but that's
+
+by design like you said companies
+
+probably know from product design
+
+they're paying or putting fortunes and
+
+to understand why we do what we do and a
+
+variable reward don't have a me absolve
+
+all that's exactly and so if you're
+
+picking up the phone the first thing in
+
+the morning the challenge is number
+
+reasons this is a challenge first of all
+
+there there are these four primary
+
+brainwave states um beta is what you and
+
+I are in right now we're awake Delta is
+
+when you're fast asleep in between those
+
+two states theta and alpha are extremely
+
+important brainwave states for learning
+
+so theta is the state right in and out
+
+of sleep data is the state that we call
+
+creativity when you are your most
+
+creative or you're usually it's coming
+
+because you're in this data state and
+
+you know this when you're in and out of
+
+sleep or you're close to like you're so
+
+deep your mind goes and you come up with
+
+ideas you know what put you in a data
+
+state our showers you ever noticed like
+
+when you're in the shower you come up
+
+with some of your your best ideas and
+
+your brain kind of drift it does because
+
+you're in that brainwave state so a big
+
+part of my work is taking the invisible
+
+making it visible like I always when I
+
+do these demonstrations I always tell
+
+people that I I do it because I want you
+
+to see that there's a method behind the
+
+magic and when somebody does something
+
+that's extraordinary
+
+in athletics in education and technology
+
+with the human body there's always a
+
+trail you know his genius leaves Clues
+
+above theta though is the state called
+
+alpha right right below beta where
+
+you're most aware and awake alpha is the
+
+state of a learning accelerated learning
+
+is the state of relaxed awareness this
+
+is the state we go into when we meditate
+
+because your critical mind is set aside
+
+and you just absorb information
+
+unconsciously you know what puts you
+
+into an alpha state television you ever
+
+noticed that if somebody's watching the
+
+game or somebody's watching their
+
+favorite TV show and you're trying to
+
+have a conversation with them and they
+
+literally are entranced they don't hear
+
+you because the television programming
+
+which might be an interesting word you
+
+know programming and putting people into
+
+a trance but that's the Alpha state
+
+that's where
+
+formation is just going inside your mind
+
+so we train people how to learn
+
+languages faster and learn facts better
+
+by putting them into an alpha state a
+
+relaxed state of awareness and we can do
+
+that by by designed and people don't
+
+realize this and this is the whole thing
+
+I really think this should have been
+
+taught back in school because school was
+
+a great place to learn what to learn
+
+math history science Spanish important
+
+subjects on what to learn but how many
+
+classes were on how to learn does that
+
+even exist is dead know that that's why
+
+I'm saying like how many classes were on
+
+how to think critically how to make the
+
+decisions how to solve problem how to
+
+focus and concentrate how to read how to
+
+read faster how to remember more right
+
+even if they teach you 3 R's in school
+
+reading writing arithmetic but what
+
+about remembering what about recall what
+
+about retention right Socrates says
+
+there is no learning without remembering
+
+and that's really the basis of it all
+
+but I would say that knowing you're in
+
+this alpha theta state first thing in
+
+the morning you're very suggestible
+
+right and if the first thing you're
+
+picking up is your phone then that
+
+really is what rewiring our brain for
+
+two things the dangers that's gonna
+
+really decrease your level of
+
+productivity and performance number one
+
+its training you to be distracted and we
+
+talked about that every like share
+
+comment everything is just making you
+
+just pay attention everything else and
+
+rewiring your brain so when you're
+
+having a conversation with somebody you
+
+can't even focus because you've trained
+
+your brain to do otherwise and that's
+
+why mindfulness is so important you know
+
+whether it's meditation or something
+
+else because it's not that I don't
+
+meditate every single day just to be at
+
+peace and and be in the Zen state I do
+
+it because it's a mental exercise it
+
+improves my cognitive capabilities
+
+meaning that when my mind goes somewhere
+
+else that's the opportunity so I pull it
+
+back with my breath or visualization I
+
+built that muscle because here's here's
+
+really the the basis of my work is
+
+really about taking nouns and turning
+
+them into verbs so what do I mean by
+
+that it's it's like so many people they
+
+wake up and say oh I hope I have energy
+
+today or I have motivation saying things
+
+that they have right I have creativity
+
+so I could write today or make videos or
+
+I have memory or I
+
+focus or concentration those aren't
+
+things you have those are things you do
+
+and so you don't have love you do loving
+
+things you don't have energy you do
+
+things that give you energy just like
+
+that's that applies same thing with
+
+learning you don't have focus there's a
+
+process for doing focus you don't have a
+
+memory there's steps to improve your
+
+memory or to remember things better
+
+there's not creativity is not something
+
+you have there's actually a process for
+
+creativity so you should never suffer
+
+from writer's block or anything else
+
+like that because because that's where
+
+if you're if you don't understand how
+
+you work when I was talking about self
+
+awareness and understanding ourselves
+
+you know I think if somebody wants to
+
+improve their their esteem the self same
+
+overnight just study it study your brain
+
+like you'll get a boost of confidence
+
+and pride like instantly because it is
+
+the most incredible I don't even know
+
+what to call it a device a supercomputer
+
+what in the whole universe
+
+you know it's not just about going out
+
+to to Mars and all these other places
+
+I'm gonna I want to go in here because
+
+this controls what everything our
+
+careers our income our health our
+
+relationships you know whether or not
+
+you get you know complete you know we
+
+were talking about this before our
+
+conversation here would have you know
+
+when you're training for Ironman and
+
+triathlons everything else is how much
+
+of it is mental like we know like
+
+everyone knows what to do but do they do
+
+what they know because common sense is
+
+not common practice and it's a myth that
+
+knowledge is power
+
+not knowledge is it has a potential to
+
+be power it only becomes power when we
+
+use it when we apply it like people
+
+think they should get points for buying
+
+books and sitting on the shelf and it
+
+just sits there and becomes like shelf
+
+help not self-help right or somebody
+
+will go and learn something I listen to
+
+a podcast like this or show or they'll
+
+go to a conference
+
+they'll pay all this money but they
+
+don't do anything with what they learn
+
+and part of it also is because they
+
+forget it you know everyone knows
+
+there's a learning curve but there's
+
+also forgetting curve
+
+did you know like the forgetting curve
+
+says that if you learn something once
+
+within 48 hours 80% of it is gone
+
+80% so you listen to a show you watch
+
+something you on YouTube you go to a
+
+conference you read a book within two
+
+days the majority of it's gone because
+
+nobody trains us how to have that's why
+
+the memory is so important
+
+you know and so this first thing don't
+
+touch your phone cuz it's training you
+
+to be distracted the second thing is
+
+it's training you rewiring your brain to
+
+be reactive reactive meaning that you're
+
+in this relaxed state of awareness when
+
+you first wake up you pick up your phone
+
+you get one text that with bad news or
+
+one voicemail one email and you know
+
+this we've all still happen to us you're
+
+in a bad mood for the rest of your day
+
+because you're so impressionable you're
+
+in that hypnotic state and it affects
+
+you and you can never have a quality
+
+life you know with that you know and be
+
+the best version of ourselves be i elite
+
+mental performer or high performer when
+
+you're responding and reacting everybody
+
+else you know my friend Brendon Burchard
+
+says an inbox is nothing but a
+
+convenient organizational system for
+
+other people's agenda for your life and
+
+how can you have vision for your life
+
+like for me the night before like I have
+
+I did a whole episode on my morning
+
+routine like ten things I do every
+
+morning that jumpstart my brain and I
+
+also have an evening one-hour routine to
+
+get into sleep to maximize my sleep
+
+sleep is so very important to be able to
+
+do but one of the processes I do
+
+besides you know blackout curtains and
+
+cold and temperatures and breath and
+
+stuff meditation is I don't touch a
+
+screen right because it creates blue
+
+light and you and most people should
+
+know this every you know the screen on
+
+your laptop your phone everything else
+
+emits this blue light which inhibits
+
+melatonin production which helps you to
+
+relax and go to sleep sand those screens
+
+but the other thing I do is I write down
+
+the three things I want to complexed day
+
+personally and the other three are
+
+professionally so now when I wake up I
+
+have a vision for my life like I'll this
+
+is a win today if I just get these three
+
+things done personally and three things
+
+professionally and when it comes to my
+
+phone I don't touch my phone until I get
+
+at least one thing done and that's my
+
+that's my test you know if I could just
+
+do that and it's not always perfect you
+
+know but it's about progress right
+
+because practice makes progress alright
+
+and there's never gonna be a perfect and
+
+I think people need to find what works
+
+for them but I would say again to step
+
+out is not don't trust yourself as the
+
+expert instead of somebody else and test
+
+it you know maybe for one week keep your
+
+phone outside your bedroom for just one
+
+week and don't touch it for the first
+
+hour a day and spend the first hour day
+
+being a thermostat
+
+vomiter because a thermometer what it
+
+what's a function it reacts to the
+
+environment and that's a--that's a kind
+
+of crappy way to like live not that we
+
+don't we do react in by we react to the
+
+weather right we react to how clients
+
+treat us we react but to the degree
+
+we're happy is that we have the locus
+
+that have the the location of control
+
+inside right all the studies show that
+
+the happiest people are the ones that
+
+feel like they have the control over
+
+their or their happiness and now put it
+
+to somebody else
+
+a person or a place or something going
+
+the economy or politics or anything
+
+right so a thermometer reacts the
+
+environment but a thermostat is
+
+different what is that function
+
+it sets the environment it sets a goal
+
+is set the temperature and then the
+
+environment raises to it and so I feel
+
+like anyone who's attracted to your work
+
+or to mine their thermostats because
+
+they have a growth mindset because if
+
+they thought things were fixed they
+
+wouldn't watch something like this
+
+because what's the point it's just all
+
+predestined and it's set and we can't
+
+grow
+
+you
+
+[You Will Never Be Lazy Again | Jim Kwik - YouTube](https://www.youtube.com/watch?v=REeROakzwfU)
