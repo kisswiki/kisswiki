@@ -6,7 +6,9 @@
 
 ## kuchiki
 
-code examples
+>If you don’t already have a tree data structure, consider using Kuchiki itself https://github.com/xiangjt/MyPlayer/blob/6d7a2c7912a4e1bf90aa0c4253b803db98473956/servo/components/selectors/README.md
+
+### code examples
 
 - https://github.com/search?l=Rust&o=desc&q=kuchiki&s=indexed&type=Code
 - https://users.rust-lang.org/t/get-tag-name-with-kuchiki-html5ever
@@ -14,6 +16,14 @@ code examples
 - with `and_then` https://github.com/eagletmt/idolmap/blob/5000be3fb60f7cb5acbbb5c107d6047433ddbafd/src/aikatsu.rs#L98
 - https://github.com/iovxw/jandan_pic_bot/blob/5384dcfd5545920f71a57064f618bb4f67ed07a3/src/spider.rs#L159
 - https://stackoverflow.com/questions/56329121/how-to-get-only-text-node-with-kuchiki
+- https://github.com/iovxw/jandan_pic_bot
+- https://github.com/upsuper/bgmrank
+- https://github.com/notriddle/more-interesting/blob/0a078a06bcab5ef45265cfeb04482e5645d48f37/src/extract_excerpt.rs
+- https://github.com/mgdm/htmlq/blob/ba59e244090692fb2cfbdb5cbbe95b96011ab0af/src/pretty_print.rs
+- https://github.com/fenhl/lore-seeker-discord/blob/5525b7d380ecd21b688773f96f24e7b41a457638/src/main.rs#L577
+- https://github.com/eagletmt/idolmap/blob/5000be3fb60f7cb5acbbb5c107d6047433ddbafd/src/aikatsu.rs#L98
+- https://github.com/bltavares/artichoke/blob/6c5a22edfd6a1efccdc71dded7a015c12f09d2ff/src/lib.rs#L15
+- https://github.com/andreastt/htmlgrep/blob/fc33be080b12ffcf4aa63ce3728344558245246a/grep.rs#L48
 
 ## kuchiki vs select
 
