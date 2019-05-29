@@ -34,6 +34,20 @@ $ . ~/.bashrc
 $ vim <Ctrl-t>
 ```
 
+`CTRL-T` to add paths to a command
+
+You can then use fzf to select the destination directory (as long as it’s somewhere in your home directory). Once you’ve selected it you can hit return to add it to the command line you’re working on, and then hit return again to execute the command.
+
+`ALT-C` to change directory
+
+If you hit `ALT-C` then you can use fzf to change to any directory in your home directory.
+
+That’s because FZF_ALT_C_COMMAND="fd -t d . $HOME" generates a list of directories below home.
+
+`CTRL-R` to search the history
+
+`CTRL-R` pipes your history to fzf, allowing you to find and rerun complicated commands with fzf.
+
 alias which combines fzf with bat for the preview and a custom key binding to open VS Code:
 
 ```
