@@ -453,3 +453,86 @@ grow
 you
 
 [You Will Never Be Lazy Again | Jim Kwik - YouTube](https://www.youtube.com/watch?v=REeROakzwfU)
+
+## budda
+
+W tym artykule przedstawię Ci esencję mądrości, którą Budda starał się przekazać ludziom 2500 lat temu.
+
+To 7 prostych lekcji, nad którym warto zastanowić się przez kilka chwil. Głęboko zrozumiane i wprowadzone w życie mogą okazać się dla Ciebie sposobem na osiągnięcie wewnętrznego spokoju i wzbogacenie tego, jak doświadczasz swojej codzienności. Wybór najważniejszych myśli i koncepcji jest oczywiście czysto subiektywny. Pominąłem tutaj kilka kluczowych idei z bardzo prostego powodu - ich wyjaśnienie wymagałoby stworzenia co najmniej kilku długich artykułów.
+
+Moim źródłem była między innymi książka “What the Buddha taught” autorstwa mnicha Walpola Rahula. Dla osób zainteresowanych buddyzmem to pozycja obowiązkowa - autor sięga do samych źródeł i pokazuje istotę nauk Buddy.
+
+Oto 7 najważniejszych lekcji Buddy:
+
+1. Karma to prawo przyczyny i skutku
+
+Karma jest jednym z najbardziej błędnie rozumianych praw, wykorzystywanych w kulturze masowej na wiele różnych sposobów. Jednak niezależnie od tego, jak atrakcyjnie brzmi idea, że to co robisz, w jakiś magiczny sposób wróci do Ciebie w tym (lub w następnym) życiu - nie ma zbyt wiele  wspólnego z tym, czego nauczał Budda.
+
+Karma to prawo przyczyny i skutku w odniesieniu do działań jednostki. Każdy Twój czyn ma swoje konsekwencje, zarówno w świecie wewnętrznym, jak i zewnętrznym. Najbardziej dotkliwe są konsekwencje, których doświadczysz w samym sobie.
+
+Przykładowo, “złe” czyny tylko pogłębiają nasze destrukcyjne wzorce zachowań między innymi poprzez powstające w ten sposób poczucie winy czy strach przed konsekwencjami. Wszystko, co robimy ma określony wpływ na nasz świat wewnętrzny i każdym naszym działaniem tworzymy naszą rzeczywistość.
+
+2. Nie polegaj na doktrynach
+
+Buddyzm jest filozofią antyautorytatywną - podkreśla wagę naszego zaufania do siebie i uczy samodzielności w myśleniu i odkrywaniu swojej własnej prawdy.
+
+Budda odradzał jakiekolwiek poleganie na autorytetach, księgach, doktrynach oraz nakazach i zakazach. Istotą zdobywania mądrości jest refleksja nad wszystkim, czego doświadczamy. Obserwowanie siebie pozwala nam zrozumieć naturę naszego umysłu, emocji i zachowań.
+3. “Ja” i dusza nie istnieje
+
+Dla wielu może być to zaskakujące, ale Budda nauczał, że wewnętrzne, “prawdziwe Ja” oraz dusza nie istnieją. Jednym z podstawowych praw natury jest zmienność i tak samo jak każda inna istota, my pod to prawo podlegamy.
+
+Nasze ciało i nasza psychika to zbiór setek procesów, które nigdy się nie zatrzymują. Nie ma więc w nas żadnego stałego, niezmiennego tworu, który można odkryć i poznać. Nasza wewnętrzna natura jest raczej zbiorem pewnych cech i tendencji (które powoli, ale stale się zmieniają), a nie ukrytym głęboko w podświadomości wewnętrznym “Ja”.
+
+4. Nie zwalczysz nienawiści nienawiścią
+
+Prowadzenie wojny, której celem jest zaprowadzenie pokoju jest absurdalnym pomysłem. Budda nauczał, że nienawiść można pokonać tylko i wyłącznie miłością.
+
+Ludzie czynią zło z powodu strachu, cierpienia lub ignoracji. Dlatego jeśli będziesz walczył o pokój, tylko wzmocnisz problem, potęgując ich strach, cierpienie lub chęć zemsty. Spojrzenie na swojego wroga z akceptacją i miłością jest dla większości nas czymś niemal niemożliwym do osiągnięcia, ale jest to postawa, która czyni cuda.
+
+5. Podziały istnieją tylko w naszych głowach
+
+Granice krajów, rasa i kolor skóry to podziały, które zostały stworzone przez nasz umysł. Identyfikujemy się z krajem, w którym się urodziliśmy oceniając mieszkańców pozostałych krajów jako “obcych”. Jednak poza tymi podziałami wszyscy należymy do tego samego gatunku, mamy te same problemy i te same wyzwania przed nami stoją.
+
+Ocenianie ludzi oddziela Cię od nich i oddala od poczucia jedności, które w nowoczesnym świecie powinno być podstawą współczucia i zdrowej współpracy.
+
+6. Spokój i szczęście wymagają dyscypliny
+
+Budda twierdził, że aby osiągnąć szczęście i spokój wewnętrzny musimy nauczyć się panować nad swoim umysłem. Zgodnie z jego naukami najlepszym sposobem na uzdrowienie swojego umysłu była regularna praktyka medytacji. Dzięki niej możemy bowiem uwolnić się od destrukcyjnych mentalnych programów, które trzymały nas z daleka od naturalnie spokojnego umysłu.
+
+Jednak dla realnych efektów wymagana jest dyscyplina. Nasze mentalne nawyki są z nami od wielu lat i aby się od nich uwolnić, potrzebujemy regularnego treningu uważności.
+
+7. Źródłem cierpienia jest przywiązanie
+
+"Źródłem cierpienia jest przywiązanie" to jeden z prawdziwych cytatów Buddy. Jak już wcześniej wspomniałem, często on podkreślał, że wszystko w świecie natury jest zmienne.
+
+Ludzie mają jednak tendencję do przywiązywania się do obrazu siebie, innych ludzi i rzeczy materialnych. Zakładamy, że to co mamy teraz i to kim jesteśmy teraz, już na zawsze będzie takie samo. Zaspokajamy w ten sposób naszą potrzebę bezpieczeństwa i unikamy strachu przed nieznanym.
+
+Jednak rzeczywistość zawsze nam przypomni, że nasze przywiązanie jest sprzeczne z naturą rzeczywistości. Prędzej czy później my się zmienimy, nasi bliscy również się zmienią lub od nas odejdą, a rzeczy materialne przestaną być ładne lub się zniszczą. Za każdym razem, gdy to się stanie, my będziemy cierpieć - nadal utrzymując w głowie obraz, do którego byliśmy przywiązani i pragnąć, aby wszystko było po staremu.
+
+Dlatego pozbyć się wszelkiego przywiązania oznacza pozbyć się cierpienia (choć nie jest to takie proste, jak mogłoby się wydawać).
+
+A na deser - 6 cytatów, które faktycznie są słowami Buddy. Możesz ich śmiało używać na swoich społecznościowych profilach, nikt nie zarzuci Ci oszustwa! :-)
+
+>Jakiekolwiek święte słowa przeczytasz, jakkolwiek dużo ich wypowiesz, jakie dobro będą one czynić jeśli nie będziesz działać w zgodzie z nimi?
+
+<br>
+
+>Lepsze niż tysiąc pustych słów, jest jedno słowo, które przynosi pokój.
+
+<br>
+
+>Łatwo jest zobaczyć wady innych, ale trudno jest ujrzeć swoje wady.
+
+<br>
+
+>Jeśli cokolwiek jest warte robienia, rób to z całym swoim sercem.
+
+<br>
+
+>Zdrowie jest największym darem, zadowolenie jest największym bogactwem.
+
+<br>
+
+>Ucisz wściekłego człowieka miłością. Ucisz człowieka ze złymi intencjami życzliwością. Ucisz skąpca hojnością. Ucisz kłamcę prawdą.
+
+https://michalpasterski.pl/2016/04/7-najwazniejszych-lekcji-buddy/
