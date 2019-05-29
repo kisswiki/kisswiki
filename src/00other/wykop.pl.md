@@ -2,3 +2,4 @@
   - https://www.wykop.pl/link/4972951/aplikacja-niepozwalam-w-budowie-pamiec-internetu-ze-sprytnymi-rozwiazaniami/
 - https://www.wykop.pl/link/4966977/nowa-aplikacja-take-amp-drive-prosimy-was-o-opinie/
 - https://www.wykop.pl/link/4967661/tajemnicze-zadanie-rekrutacyjne-na-stronie-cba/
+- https://www.wykop.pl/link/4974863/kalkulator-kredytu-tosi-nadplaty-zmiany-wiboru-oplaty-stale-i-zmienne/
