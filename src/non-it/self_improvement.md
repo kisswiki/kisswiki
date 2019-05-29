@@ -18,6 +18,8 @@
 - [Jak nie dać sobą manipulować? [podstępna technika] - YouTube](https://www.youtube.com/watch?v=cBndLykrvMk)
 - [KEEP THEM POOR | This Is What The Richest Don't Want You To KNOW (an illuminating interview) - YouTube](https://www.youtube.com/watch?v=CyiZUl0re3k)
 - [The No.1 Habit Billionaires Run Daily - YouTube](https://www.youtube.com/watch?v=2iPFtZENEq4)
+  - Law of attraction
+- [The Secret of Waking Up Early | Best Inspirational Speech (ft. Mel Robbins) - YouTube](https://www.youtube.com/watch?v=RISPfymPDWE)
 - [WINNERS MINDSET - Best Motivational Video - YouTube](https://www.youtube.com/watch?v=jwjGw3BCryI)
 
 ## procrastination
