@@ -1,0 +1,4 @@
+- https://pl.aleteia.org/2018/04/17/dlaczego-warto-by-nasze-dzieci-doswiadczaly-dyskomfortu
+  - https://www.wykop.pl/link/4974211/dlaczego-dzieci-powinny-doswiadczac-dyskomfortu/
+- https://pieknoumyslu.com/dyscyplina-w-kulturze-japonii-i-jej-trzy-klucze/
+  - https://www.wykop.pl/link/4972861/dyscyplina-w-kulturze-japonii-i-jej-trzy-klucze/
