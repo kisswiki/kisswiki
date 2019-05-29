@@ -42,6 +42,16 @@ the very first thing I do when I get out of bed each day is to engage in a set o
 
 https://www.artofmanliness.com/articles/the-7-habits-put-first-things-first/
 
+## hypnagogic nap
+
+To accomplish this micro nap, Dali would sit in a chair with his arms resting on the armrests and his wrists dangling over them. He held a heavy metal key between the thumb and forefinger of his left hand, and placed an upside-down plate on the floor directly below the key. The instant Dali dozed off, the key would slip through his fingers, clang the plate, and awaken him from his nascent slumber. In that moment, Dali observed, one walked “in equilibrium on the taut and invisible wire that separates sleep from waking.” The artist recommended this practice to anyone who worked with their mind, believing that the tiny nap “revivified” one’s whole “physical and physic being” and left you invigorated and inspired for an afternoon of creative labor.
+
+Dali said that he had learned the “slumber with a key” trick from the Capuchin monks and that other artists he knew also used it.
+
+By so doing, they could purposefully wake themselves up right before crossing the threshold into Stage 2 sleep, and immediately write down the insights that had arisen during their brief slumber. They found that these “hypnagogic naps” boosted their creativity and opened their minds to new insights and solutions to problems.
+
+https://www.artofmanliness.com/articles/hypnagogic-nap/
+
 ## junk food
 
 May 9, 2019
