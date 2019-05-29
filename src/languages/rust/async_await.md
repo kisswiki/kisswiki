@@ -1,3 +1,5 @@
 - [RustLatam 2019 - Without Boats: Zero-Cost Async IO - YouTube](https://www.youtube.com/watch?v=skos4B5x7qE)
 - https://boats.gitlab.io/blog/post/await-decision-ii/
   - https://www.reddit.com/r/rust/comments/bu0r5n/update_on_await_syntax/
+  - https://news.ycombinator.com/item?id=20030486
+    - TCP client example https://news.ycombinator.com/item?id=20031824 https://github.com/rustasync/runtime/blob/master/examples/tcp-client.rs
