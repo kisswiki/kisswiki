@@ -14,3 +14,6 @@ https://www.reddit.com/r/rust/comments/8v3p2a/resources_to_understand_actixweb/
 
 - https://gill.net.in/posts/auth-microservice-rust-actix-web-diesel-complete-tutorial-part-3/
 - https://blog.approveapi.com/tutorials/rust-actix-web-approveapi-magic-login-link/
+- https://blog.sentry.io/2018/12/04/safe-web-services-actix-sentry
+- [Rust Validates Auth Web Microservices with Actix-Web - Complete Tutorial Part 2](https://bzdww.com/article/48977/)
+- https://www.jamesbaum.co.uk/blether/creating-authentication-middleware-actix-rust-react/
