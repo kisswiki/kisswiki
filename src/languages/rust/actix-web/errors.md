@@ -121,3 +121,24 @@ which uses:
 actix = "0.5"
 actix-web = "^0.6"
 ```
+
+## What does `map_err(|_| ())` is doing?
+
+```rust
+System::new("test").block_on(lazy(|| {
+       actix_web::client::Client::new()
+          .get("http://127.0.0.1:9696/echo/Joe") // <- Create request builder
+          .header("User-Agent", "Actix-web")
+          .send()                          // <- Send http request
+          .map_err(|_| ())
+          .and_then(|mut response| {
+                    response.body().and_then( |body| {
+                        println!("==== BODY ====");
+                        println!("{:?}", body);
+                        Ok(body)
+                    }).map_err(|_| ())
+                }).map_err(|_| ())
+    }));
+```
+
+This is a result of tokio, which actix-web uses, forcing all futures to have error types of () to indicate that errors are handled. See the comments in this [tokio example code](https://tokio.rs/docs/getting-started/hello-world/#creating-the-stream).
