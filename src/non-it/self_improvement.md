@@ -1,3 +1,47 @@
+- https://blog.viktorpetersson.com/2019/05/18/a-decade-of-remote.html
+  - https://www.artofmanliness.com/articles/the-7-habits-sharpen-the-saw/
+  - https://www.amazon.co.uk/Deep-Work-Focused-Success-Distracted/dp/0349411905
+  - https://basecamp.com/books/rework
+- !!! https://www.artofmanliness.com/articles/spiritual-disciplines-simplicity/
+- https://www.artofmanliness.com/articles/the-7-habits-put-first-things-first/
+- https://www.artofmanliness.com/articles/weekly-plan/
+- https://www.artofmanliness.com/articles/what-is-a-dinner-party/
+- https://www.artofmanliness.com/articles/30-days-to-a-better-man-day-8-start-a-journal/
+- https://www.artofmanliness.com/articles/via-negativa-adding-to-your-life-by-subtracting/
+- https://www.amazon.com/Building-Your-Resiliency-Bouncing-Challenges-ebook/dp/B00X6HBA6M
+- https://davidwalsh.name/conquering-impostor-syndrome
+- [You Will Never Be Lazy Again | Jim Kwik - YouTube](https://www.youtube.com/watch?v=REeROakzwfU)
+- [Czego nauczyli mnie najlepsi przedsiębiorcy świata? | Rafael Badziag | TEDxWSB - YouTube](https://www.youtube.com/watch?v=2oS1hmTPmow)
+- [Dlaczego jesteś nieszczęśliwy? - YouTube](https://www.youtube.com/watch?v=masB44GzViA)
+  - https://www.wykop.pl/link/4974227/dlaczego-jestes-nieszczesliwy/
+- [Jak nie dać sobą manipulować? [podstępna technika] - YouTube](https://www.youtube.com/watch?v=cBndLykrvMk)
+
+## procrastination
+
+10 Scientific solutions for overcoming procrastination
+
+1. Address the perceived anxiety about the completion of a task. You know it’s there but it might not be in awareness. So you might have to dig and address your feelings first.
+2. It might help if you can bring the avoided/procrastinated task closer to you and distance the aversion activities you are habituated with.
+3. Before sleeping, relaxing (via stretching, yoga, breathing exercise, meditation, progressive muscle relaxation, etc.) can help your brain reboot.
+
+- https://cognitiontoday.com/2019/05/you-procrastinate-because-of-emotions-not-laziness-regulate-them-to-stop-procrastinating/
+  - https://news.ycombinator.com/item?id=19975862
+
+## first things first
+
+I’ve found both of these practices really helpful in my own life, but, to be honest, my weekly planning tends to be somewhat sporadic, and I don’t typically think of the decision matrix on a day-to-day basis.
+
+So, while the practices are certainly useful, I don’t think the great majority of people will even try them, much less stick with them. They’re a little involved, and basic human nature being what it is, they’re hard to permanently incorporate into your life.
+
+Therefore, I instead want to strip things back to the very basics, and suggest an approach to living this habit that’s both crazy accessible and crazy effective.
+
+I’m going to do that by treating the maxim of “first things first” quite literally.
+
+
+the very first thing I do when I get out of bed each day is to engage in a set of mental and spiritual exercises: I pray, read my scriptures, **meditate**, and do an exercise from the [Foundations of Well-Being](https://www.thefoundationsofwellbeing.com/), which I’ve found helps mitigate my tendency towards depression and irritable moodiness.
+
+https://www.artofmanliness.com/articles/the-7-habits-put-first-things-first/
+
 ## junk food
 
 May 9, 2019
