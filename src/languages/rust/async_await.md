@@ -1,0 +1,3 @@
+- [RustLatam 2019 - Without Boats: Zero-Cost Async IO - YouTube](https://www.youtube.com/watch?v=skos4B5x7qE)
+- https://boats.gitlab.io/blog/post/await-decision-ii/
+  - https://www.reddit.com/r/rust/comments/bu0r5n/update_on_await_syntax/
