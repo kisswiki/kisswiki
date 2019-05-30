@@ -48,6 +48,8 @@ That’s because FZF_ALT_C_COMMAND="fd -t d . $HOME" generates a list of directo
 
 `CTRL-R` pipes your history to fzf, allowing you to find and rerun complicated commands with fzf.
 
+`kill -9 <tab>` - list processes
+
 alias which combines fzf with bat for the preview and a custom key binding to open VS Code:
 
 ```
@@ -59,6 +61,7 @@ export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 - https://medium.freecodecamp.org/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff
 - http://seenaburns.com/vim-setup-for-rust/
 - https://dev.to/matthewbdaly/improving-search-in-vim-and-neovim-with-fzf-and-ripgrep-579j
+- https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
 
 Theres is also skim in Rust:
 

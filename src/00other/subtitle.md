@@ -159,6 +159,10 @@ zamiast en wstaw język jaki chcesz wstawić.
 
 [Problem z zapasowym językiem napisów · Issue #122 · QNapi/qnapi](https://github.com/QNapi/qnapi/issues/122)
 
+### The repository 'http://ppa.launchpad.net/krzemin/qnapi/ubuntu disco Release' does not have a Release file
+
+https://github.com/QNapi/qnapi/issues/151
+
 ## Links
 
 - https://github.com/Diaoul/subliminal
