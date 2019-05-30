@@ -13,6 +13,7 @@ https://github.com/Wilfred/remacs/issues/788#issuecomment-414138423
 Installing it globally required cargo installed globally https://github.com/Wilfred/remacs/issues/1162
 
 ```bash
+$ ./autogen.sh
 $ ./configure --prefix=$HOME/.local
 $ make
 $ make install
