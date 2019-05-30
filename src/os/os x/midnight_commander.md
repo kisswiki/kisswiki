@@ -1,4 +1,3 @@
-
 ## When shortcuts do not work
 
 For os x terminal:

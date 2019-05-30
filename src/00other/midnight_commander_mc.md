@@ -28,3 +28,21 @@ Alt+i opens the active panel's directory on the other panel.
 Ctrl+o toggle command line view
 
 Alt+Enter copy file name to command line
+
+## Sorting
+
+in ~/.config/mc/mc.keymap
+
+```
+[panel]
+Sort = alt-!
+SortPrev =
+SortNext =
+SortReverse = alt-@
+SortByName = alt-#
+SortByExt = alt+$
+SortBySize = alt-%
+SortByMTime =  alt-^
+```
+
+https://unix.stackexchange.com/questions/354215/change-sort-order-with-shortcuts-in-midnight-commander
