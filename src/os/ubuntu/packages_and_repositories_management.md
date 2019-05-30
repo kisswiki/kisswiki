@@ -104,6 +104,18 @@ sudo apt-key list
 sudo apt-key del KEY_ID
 ```
 
+for example
+
+```bash
+$ sudo apt-key list | rg elisp -C 3
+/etc/apt/trusted.gpg.d/ubuntu-elisp_ubuntu_ppa.gpg
+--------------------------------------------------
+pub   rsa1024 2009-01-18 [SC]
+      0D7B AE43 5ADB C6C3 E491  8A74 062D 648F D62F CE72
+$ sudo apt-key del '0D7B AE43 5ADB C6C3 E491  8A74 062D 648F D62F CE72'
+OK
+```
+
 https://askubuntu.com/questions/307/how-can-ppas-be-removed
 
 ## Errors

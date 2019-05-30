@@ -2,3 +2,4 @@
   - https://stackoverflow.com/questions/6138029/how-to-add-a-hook-to-only-run-in-a-particular-mode
   - https://stackoverflow.com/questions/4924389/is-there-a-way-to-retain-the-undo-list-in-emacs-after-reverting-a-buffer-from-fi/22873958#22873958
   - https://stackoverflow.com/questions/4697322/elisp-call-command-on-current-file/4697863#4697863
+  - https://emacs.stackexchange.com/questions/12450/capturing-stderr-of-subprocesses
