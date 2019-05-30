@@ -1,0 +1,1 @@
+- https://www.wykop.pl/link/4977353/nagrywanie-rozmow-z-infolinia-co-zrobic-gdy-bank-sie-nie-zgodzi/
