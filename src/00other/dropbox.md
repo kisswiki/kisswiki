@@ -20,6 +20,18 @@ $ ncdu -f dropbox.json
 
 ## rclone
 
+
+I got error wheny coppying like:
+
+```
+2019/05/31 16:01:00 ERROR : projects/javascript/date/doc/Writing_A_Daytime_Server_In_Node_js_pliki/shCore.js: Failed to copy: failed to open source object: path/restricted_content/...
+2019-05-31 16:19:20 ERROR : projects/g2/gopath/.git/objects/12/5883d3cb94901419f70602a09d79830d8cef7b: Failed to copy: failed to open source object: unexpected end of JSON input
+```
+
+Will try original dropbox app from https://www.dropbox.com/install.
+
+##
+
 install
 
 ```bash
