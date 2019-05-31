@@ -1,3 +1,15 @@
+## dropbox
+
+https://www.dropbox.com/install
+
+dropbox is added to gnome startup application.
+
+`dropbox status` to see what is going on.
+
+Works only on ext4.
+
+Can install without gui.
+
 ## dbxcli
 
 - [`get` does not work on folders · Issue #60 · dropbox/dbxcli](https://github.com/dropbox/dbxcli/issues/60#issuecomment-497713363)
