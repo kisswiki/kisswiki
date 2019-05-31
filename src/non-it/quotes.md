@@ -31,3 +31,7 @@ https://www.wykop.pl/link/4817765/#comment-63358813
 
 >The beginning is the most important part of the work.
 >- Plato
+
+##
+
+>Experience is what you get when you don't get what you want.
