@@ -153,3 +153,12 @@ copy all files from dropbox https://rclone.org/docs/
 $ rclone copy --dry-run dropbox:/ .
 $ rclone copy dropbox:/ .
 ```
+
+delete files in dropbox not present locally
+
+>sync will delete files not present on source https://rclone.org/commands/rclone_sync/
+
+```bash
+$ rclone sync --dry-run . dropbox:/
+$ rclone sync . dropbox:/
+```
