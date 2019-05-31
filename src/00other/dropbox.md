@@ -1,6 +1,7 @@
 ## dbxcli
 
 - [`get` does not work on folders · Issue #60 · dropbox/dbxcli](https://github.com/dropbox/dbxcli/issues/60#issuecomment-497713363)
+- https://stackoverflow.com/questions/13047105/copying-from-dropbox-to-unix-machine-using-rsync-or-similar/56396327#56396327
 
 ## ncdu
 
