@@ -2,7 +2,7 @@
 
 - https://doladowania.orange.pl
   - 25 zł available
-  - invoice https://zasilenia.faktura.pl/ should be sent in 24 hours, register in 7 days after buying
+  - invoice: register and add number https://zasilenia.faktura.pl/. Invoice should be sent in 24 hours, register in 7 days after buying
 - https://doladowania.payu.pl/
   - 25 zł not available, 30 zł or other
 
