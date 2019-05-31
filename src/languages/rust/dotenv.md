@@ -38,4 +38,5 @@ data_server=example.com
   - https://users.rust-lang.org/t/rust-dotenv-repository-disappeared/22737
 - http://siciarz.net/24-days-rust-environment-variables/
 - http://neikos.me/Using_Rust_for_Webdev_as_a_Hobby_Programmer.html
-- https://github.com/softprops/envy
+- https://crates.io/crates/envy
+  - https://github.com/softprops/envy
