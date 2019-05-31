@@ -2,6 +2,7 @@
 
 - [`get` does not work on folders · Issue #60 · dropbox/dbxcli](https://github.com/dropbox/dbxcli/issues/60#issuecomment-497713363)
 - https://stackoverflow.com/questions/13047105/copying-from-dropbox-to-unix-machine-using-rsync-or-similar/56396327#56396327
+- https://medium.com/@nrlnd/how-to-backup-your-free-heroku-redis-to-dropbox-fc14f516cd94
 
 ## ncdu
 
@@ -162,3 +163,9 @@ delete files in dropbox not present locally
 $ rclone sync --dry-run . dropbox:/
 $ rclone sync . dropbox:/
 ```
+
+ncdu
+
+`rclone ncdu remote:path [flags]`
+
+https://tip.rclone.org/commands/rclone_ncdu/
