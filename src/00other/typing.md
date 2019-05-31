@@ -1,1 +1,2 @@
 - http://www.speedcoder.net
+- in Rust https://gitlab.com/DarrienG/terminal-typeracer
