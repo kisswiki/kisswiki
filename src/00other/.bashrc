@@ -217,3 +217,5 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 # some problems: `__fzf_cd__`bfs: error: ./.dbus: Permission denied.
 #export FZF_ALT_C_COMMAND="cd ~/; bfs -type d | sed s@^@${HOME}/@"
 export FZF_ALT_C_COMMAND="cd; fd --type d --hidden --follow --exclude '.git' --exclude node_modules | sed s@^@${HOME}/@"
+
+export PATH=$HOME/bin/ctags/bin:$PATH
