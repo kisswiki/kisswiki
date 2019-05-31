@@ -47,7 +47,6 @@ https://culturacolectiva.com/movies/six-buddhist-movies-that-explore-the-seasons
 - [ ] Groundhog Day (1993)
 - [ ] For the Benefit of All Beings (2011)
 - [ ] Brilliant Moon (2010)
-
 https://www.lionsroar.com/top-ten-buddhist-films/
 
 ### Anime
@@ -68,28 +67,32 @@ https://www.lionsroar.com/top-ten-buddhist-films/
 
 ### Rest
 
-- Contratiempo (2016)
-- La cara oculta (2011)
-- El cuerpo (2012)
-- La isla mínima (2014)
-- Das Leben der Anderen (2006)
-- The Bucket List (2007)
-- The Birth of a Nation (2016)
-- Criminal (2016)
-- Bright 2017
-- The Town 2010
-- In the Heart of the Sea 2015
-- Doctor Strange (2016)
-- Miss Peregrine's Home for Peculiar Children (2016)
-- The Huntsman Winters War (2016)
-- Tom Clancy's The Division Agent Origins (2016)
-- Hell or High Water (2016)
-- Savage Pampas (1966)
-- What Happened to Monday (2017) 
-- Death Wish (2018) 
-- The Death of Superman (2018)
-- Patriot Games (1992)
-- Pawo (2016)
-- Searching (2018)
-- Peppermint (2018)
-- The Domestics (2018) 
+- [x] Contratiempo (2016)
+- [ ] La cara oculta (2011)
+- [ ] El cuerpo (2012)
+- [ ] La isla mínima (2014)
+- [ ] Das Leben der Anderen (2006)
+- [ ] The Bucket List (2007)
+- [ ] The Birth of a Nation (2016)
+- [ ] Criminal (2016)
+- [ ] Bright 2017
+- [ ] The Town 2010
+- [ ] In the Heart of the Sea 2015
+- [ ] Doctor Strange (2016)
+- [ ] Miss Peregrine's Home for Peculiar Children (2016)
+- [ ] The Huntsman Winters War (2016)
+- [ ] Tom Clancy's The Division Agent Origins (2016)
+- [ ] Hell or High Water (2016)
+- [ ] Savage Pampas (1966)
+- [ ] What Happened to Monday (2017)
+- [ ] Death Wish (2018)
+- [ ] The Death of Superman (2018)
+- [ ] Patriot Games (1992)
+- [ ] Pawo (2016)
+- [ ] Searching (2018)
+- [ ] Peppermint (2018)
+- [ ] The Domestics (2018)
+- [ ] El secreto de sus ojos (2009)
+- [ ] El Clan (2015)
+- [ ] Coffee and Cigarettes (2003)
+- [ ] El orfanato (2007)
