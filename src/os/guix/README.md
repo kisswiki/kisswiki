@@ -1,0 +1,4 @@
+- https://bitbucket.org/julien1001/guix-packages
+- https://www.gnu.org/software/guix/blog/2018/a-packaging-tutorial-for-guix/
+- `./pre-inst-env guix` [Re: Guix packaging tutorial with hand holding](https://lists.gnu.org/archive/html/help-guix/2019-05/msg00496.html)
+- temporary place for videos https://archive.org/details/guix-videos
