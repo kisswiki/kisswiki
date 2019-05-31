@@ -66,6 +66,12 @@ For every smart, capable, well reasoned developer there are a thousand blindly c
   - https://jvns.ca/blog/2015/02/17/how-i-learned-to-program-in-10-years/
   - http://wiki.c2.com/?TeachYourselfProgrammingInTenYears
 - https://teachyourselfcs.com/
+- https://makecode.microbit.org
+
+### mobile apps
+
+- https://www.sololearn.com/
+- https://codengo.net/
 
 ## Popularity
 
