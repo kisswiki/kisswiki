@@ -21,6 +21,7 @@ nicer visuals, graph `alias ping='prettyping --nolegend'` https://github.com/den
 
 - https://github.com/BurntSushi/ripgrep
 - filter stuff like logs, process stats, find files, because unlike grep, you can type as you think and look through the current results https://github.com/peco/peco
+- https://sift-tool.org/
 
 ## fzf > ctrl+r
 
@@ -70,6 +71,10 @@ $ alias preview="fzf --preview 'bat --color \"always\" {}'"
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 ```
 
+### Make your own autocompletion with fzf
+
+https://media.yuis-programming.com/make-more-powerful-bash-command-line-with-fzf/
+
 ### Links
 
 - https://medium.freecodecamp.org/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff
@@ -77,6 +82,8 @@ export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 - http://seenaburns.com/vim-setup-for-rust/
 - https://dev.to/matthewbdaly/improving-search-in-vim-and-neovim-with-fzf-and-ripgrep-579j
 - https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
+- wrapper for Windows https://github.com/genotrance/ff
+- https://adamheins.com/blog/fzf-vi-mode-and-fixing-delays
 
 ### Alternatives
 
@@ -84,6 +91,7 @@ Theres is also skim in Rust:
 
 - https://github.com/lotabout/skim
 - https://users.rust-lang.org/t/skim-a-fuzzy-finder-written-in-rust/6390
+- https://github.com/jhawthorn/fzy
 
 ### vim and emacs
 
