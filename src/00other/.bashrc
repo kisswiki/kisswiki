@@ -163,7 +163,7 @@ alias nvim='~/bin/nvim.appimage'
 #https://gist.github.com/mb720/86144b670599c0eab331cd2f48bd23b9
 # https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
 function  edi(){
-  local file=$(fzf)
+  local file=$(fzf-tmux)
   # Open the file if it exists
   if [ -n "$file" ]; then
     # Use the default editor if it's defined, otherwise Vim
@@ -273,3 +273,19 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="cd; fd --type d --hidden --follow --exclude '.git' --exclude node_modules | sed s@^@${HOME}/@"
 
 export PATH=$HOME/bin/ctags/bin:$PATH
+
+
+#--------------------
+# History
+#--------------------
+
+# https://news.ycombinator.com/item?id=11811272
+
+HISTCONTROL=ignoredups:ignorespace
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+export HISTFILESIZE=99999
+export HISTSIZE=99999
+export HISTTIMEFORMAT='%Y-%m-%d %H:%M.%S | '
+export HISTIGNORE="ls:exit:history:[bf]g:jobs"
+shopt -s histappend
+PROMPT_COMMAND='history -a'
