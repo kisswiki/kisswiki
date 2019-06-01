@@ -149,9 +149,9 @@ alias cdk="cd ~/personal_projects/kisswiki"
 #export EDITOR=nvim
 export EDITOR=em
 
-export PATH=~/local/bin/:$PATH
+export PATH=~/installed/remacs/bin/:$PATH
 
-alias nvim='~/bin/nvim.appimage'
+alias nvim='~/installed/nvim.appimage'
 
 
 # [CTRL-R shows me the list of files instead of history · Issue #1594 · junegunn/fzf](https://github.com/junegunn/fzf/issues/1594)
@@ -232,7 +232,7 @@ FZF-EOF" --preview-window=right:60%
 
 alias updnvim="(cd ~/bin && rm nvim.appimage && curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage && chmod +x nvim.appimage)"
 
-export PATH="~/bin/julia/bin:$PATH"
+export PATH="~/installed/julia/bin:$PATH"
 
 # do not set TERM manually - let the terminal do it.
 # https://wiki.archlinux.org/index.php/Home_and_End_keys_not_working
@@ -290,7 +290,7 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 #export FZF_ALT_C_COMMAND="cd ~/; bfs -type d | sed s@^@${HOME}/@"
 export FZF_ALT_C_COMMAND="cd; fd --type d --hidden --follow --exclude '.git' --exclude node_modules | sed s@^@${HOME}/@"
 
-export PATH=$HOME/bin/ctags/bin:$PATH
+export PATH=$HOME/installed/ctags/bin:$PATH
 
 
 ##--------------------
