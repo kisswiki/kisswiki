@@ -330,3 +330,6 @@ export HSTR_CONFIG=hicolor       # get more colors
 if [[ $- =~ .*i.* ]]; then bind '"\C-r": "\C-a hstr -- \C-j"'; fi
 # if this is interactive shell, then bind 'kill last command' to Ctrl-x k
 if [[ $- =~ .*i.* ]]; then bind '"\C-xk": "\C-a hstr -k \C-j"'; fi
+
+# https://www.reddit.com/r/vim/comments/5ks3vp/omg_how_come_i_did_not_know_this/
+set -o vi
