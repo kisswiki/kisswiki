@@ -157,10 +157,20 @@ alias nvim='~/bin/nvim.appimage'
 ##!/bin/bash
 #TERM=xterm-24bit emacs -nw "$@"
 
-alias em='TERM=xterm-24bit emacs -nw'
-alias emi='em $(fzf)'
+#alias em='TERM=xterm-24bit emacs -nw'
+#alias emi='em $(fzf)'
+
+#https://gist.github.com/mb720/86144b670599c0eab331cd2f48bd23b9
 # https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
-bind -x '"\C-p": $EDITOR $(fzf);'
+function  edi(){
+  local file=$(fzf)
+  # Open the file if it exists
+  if [ -n "$file" ]; then
+    # Use the default editor if it's defined, otherwise Vim
+    ${EDITOR:-vim} "$file"
+  fi
+}
+bind -x '"\C-p": edi;'
 
 alias gitc='git branch | fzf | xargs git checkout'
 
@@ -185,6 +195,7 @@ export PATH=~/.cabal/bin:$PATH
 function  mans(){
 man -k . | fzf -n1,2 --preview "echo {} | cut -d' ' -f1 | sed 's# (#.#' | sed 's#)##' | xargs -I% man %" --bind "j:down,k:up,alt-j:preview-down,alt-k:preview-up,ctrl-f:preview-page-down,ctrl-b:preview-page-up,q:abort,enter:execute: (echo {} | cut -d' ' -f1 | sed 's# (#.#' | sed 's#)##' | xargs -I% man % | less -R)"
 }
+
 
 # https://gist.github.com/junegunn/f4fca918e937e6bf5bad#gistcomment-2731105
 gitg ()
