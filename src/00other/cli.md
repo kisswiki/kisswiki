@@ -92,6 +92,7 @@ export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 - https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
 - wrapper for Windows https://github.com/genotrance/ff
 - https://adamheins.com/blog/fzf-vi-mode-and-fixing-delays
+- with ripgrep, bat and preview https://stackoverflow.com/questions/55186799/multi-process-bash-within-fzf-preview-feature
 
 ### Alternatives
 

@@ -274,40 +274,40 @@ alias watch='watch '
 export GOPATH=$HOME/go
 export PATH=${GOPATH//://bin:}/bin:$PATH
 
-## https://github.com/junegunn/fzf#settings
-## The default commands fzf uses do not include hidden files. If you want hidden files in the list, you have to define your own $FZF_DEFAULT_COMMAND or $FZF_CTRL_T_COMMAND depending on the context. https://github.com/junegunn/fzf/issues/634#issuecomment-238036404
-## and setting _fzf_compgen_path and _fzf_compgen_path does not show hidden files
-## http://owen.cymru/fzf-ripgrep-navigate-with-bash-faster-than-ever-before/
-#export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow -g "!{.git,node_modules}/*" 2> /dev/null'
-#export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+# https://github.com/junegunn/fzf#settings
+# The default commands fzf uses do not include hidden files. If you want hidden files in the list, you have to define your own $FZF_DEFAULT_COMMAND or $FZF_CTRL_T_COMMAND depending on the context. https://github.com/junegunn/fzf/issues/634#issuecomment-238036404
+# and setting _fzf_compgen_path and _fzf_compgen_path does not show hidden files
+# http://owen.cymru/fzf-ripgrep-navigate-with-bash-faster-than-ever-before/
+export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow -g "!{.git,node_modules}/*" 2> /dev/null'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+#disabling: it interfere with FZF_ALT_C_COMMAND
+#bind -x '"\C-e": em $(fzf);'
+
+#sudo apt install bfs
+#export FZF_ALT_C_COMMAND="cd ~/; bfs -type d -nohidden | sed s@^@${HOME}/@"
+# some problems: `__fzf_cd__`bfs: error: ./.dbus: Permission denied.
+#export FZF_ALT_C_COMMAND="cd ~/; bfs -type d | sed s@^@${HOME}/@"
+export FZF_ALT_C_COMMAND="cd; fd --type d --hidden --follow --exclude '.git' --exclude node_modules | sed s@^@${HOME}/@"
+
+export PATH=$HOME/bin/ctags/bin:$PATH
+
+
+##--------------------
+## History
+##--------------------
+# Here's a solution that doesn't mix up histories from individual sessions!
 #
-##disabling: it interfere with FZF_ALT_C_COMMAND
-##bind -x '"\C-e": em $(fzf);'
-#
-##sudo apt install bfs
-##export FZF_ALT_C_COMMAND="cd ~/; bfs -type d -nohidden | sed s@^@${HOME}/@"
-## some problems: `__fzf_cd__`bfs: error: ./.dbus: Permission denied.
-##export FZF_ALT_C_COMMAND="cd ~/; bfs -type d | sed s@^@${HOME}/@"
-#export FZF_ALT_C_COMMAND="cd; fd --type d --hidden --follow --exclude '.git' --exclude node_modules | sed s@^@${HOME}/@"
-#
-#export PATH=$HOME/bin/ctags/bin:$PATH
-#
-#
-###--------------------
-### History
-###--------------------
-## Here's a solution that doesn't mix up histories from individual sessions!
-##
-## Basically one has to store history of each session separately and recreate it on every prompt. Yes, it uses more resources, but it's not as slow as it may sound - delay starts to be noticeable only if you have more than 100000 history entries.
-## https://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows/430128#430128
-## https://gist.github.com/jan-warchol/89f5a748f7e8a2c9e91c9bc1b358d3ec
-## https://news.ycombinator.com/item?id=11811272
-## https://spin.atomicobject.com/2016/05/28/log-bash-history/
-##   - log to multiple files, save directory name
-## https://superuser.com/questions/1158739/prompt-command-to-reload-from-bash-history/1158857#1158857
-## https://askubuntu.com/questions/67283/is-it-possible-to-make-writing-to-bash-history-immediate
-## https://stackoverflow.com/questions/9457233/unlimited-bash-history/19533853#19533853
-#
+# Basically one has to store history of each session separately and recreate it on every prompt. Yes, it uses more resources, but it's not as slow as it may sound - delay starts to be noticeable only if you have more than 100000 history entries.
+# https://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows/430128#430128
+# https://gist.github.com/jan-warchol/89f5a748f7e8a2c9e91c9bc1b358d3ec
+# https://news.ycombinator.com/item?id=11811272
+# https://spin.atomicobject.com/2016/05/28/log-bash-history/
+#   - log to multiple files, save directory name
+# https://superuser.com/questions/1158739/prompt-command-to-reload-from-bash-history/1158857#1158857
+# https://askubuntu.com/questions/67283/is-it-possible-to-make-writing-to-bash-history-immediate
+# https://stackoverflow.com/questions/9457233/unlimited-bash-history/19533853#19533853
+
 . $HOME/sync-history.sh
 HISTCONTROL=ignoredups:ignorespace
 export HISTTIMEFORMAT='%Y-%m-%d %H:%M.%S | '
@@ -332,4 +332,4 @@ if [[ $- =~ .*i.* ]]; then bind '"\C-r": "\C-a hstr -- \C-j"'; fi
 if [[ $- =~ .*i.* ]]; then bind '"\C-xk": "\C-a hstr -k \C-j"'; fi
 
 # https://www.reddit.com/r/vim/comments/5ks3vp/omg_how_come_i_did_not_know_this/
-set -o vi
+#set -o vi
