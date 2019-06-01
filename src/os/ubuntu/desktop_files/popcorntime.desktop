@@ -1,8 +1,9 @@
 [Desktop Entry]
-Version = 1.0
-Type = Application
-Terminal = false
-Name = Popcorn Time
-Exec = /home/roman/bin/popcorntime.sh/Popcorn-Time
-Icon = /home/roman/bin/popcorntime.sh/src/app/images/icon.png
-Categories = Utility;
+Version=1.0
+Type=Application
+Terminal=false
+Name=Popcorn Time
+Exec=/home/roman/bin/popcorntime.sh/Popcorn-Time
+Icon=/home/roman/installed/popcorntime.sh/src/app/images/icon.png
+Categories=Application;
+X-Desktop-File-Install-Version=0.23
