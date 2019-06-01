@@ -163,14 +163,16 @@ alias nvim='~/bin/nvim.appimage'
 #https://gist.github.com/mb720/86144b670599c0eab331cd2f48bd23b9
 # https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
 function  edi(){
-  local file=$(fzf-tmux)
+  local file=$(fd --exclude node_modules | fzf-tmux)
   # Open the file if it exists
   if [ -n "$file" ]; then
-    # Use the default editor if it's defined, otherwise Vim
-    ${EDITOR:-vim} "$file"
+      # keep it in history
+      history -s ${EDITOR:-vim} "$file"
+      # Use the default editor if it's defined, otherwise Vim
+      ${EDITOR:-vim} "$file"
   fi
 }
-bind -x '"\C-p": edi;'
+bind -x '"\C-u": edi;'
 
 alias gitc='git branch | fzf | xargs git checkout'
 
@@ -275,17 +277,20 @@ export FZF_ALT_C_COMMAND="cd; fd --type d --hidden --follow --exclude '.git' --e
 export PATH=$HOME/bin/ctags/bin:$PATH
 
 
-#--------------------
-# History
-#--------------------
+##--------------------
+## History
+##--------------------
+# Here's a solution that doesn't mix up histories from individual sessions!
+#
+# Basically one has to store history of each session separately and recreate it on every prompt. Yes, it uses more resources, but it's not as slow as it may sound - delay starts to be noticeable only if you have more than 100000 history entries.
+# https://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows/430128#430128
+# https://gist.github.com/jan-warchol/89f5a748f7e8a2c9e91c9bc1b358d3ec
+## https://news.ycombinator.com/item?id=11811272
+## https://superuser.com/questions/1158739/prompt-command-to-reload-from-bash-history/1158857#1158857
+## https://askubuntu.com/questions/67283/is-it-possible-to-make-writing-to-bash-history-immediate
+# https://stackoverflow.com/questions/9457233/unlimited-bash-history/19533853#19533853
 
-# https://news.ycombinator.com/item?id=11811272
-
+. $HOME/sync-history.sh
 HISTCONTROL=ignoredups:ignorespace
-# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-export HISTFILESIZE=99999
-export HISTSIZE=99999
 export HISTTIMEFORMAT='%Y-%m-%d %H:%M.%S | '
 export HISTIGNORE="ls:exit:history:[bf]g:jobs"
-shopt -s histappend
-PROMPT_COMMAND='history -a'
