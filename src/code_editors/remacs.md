@@ -19,11 +19,11 @@ $ make
 $ make install
 ```
 
-If you want to install in other directory, i.e. `~/installed/remacs` bc there is [problem with `make uninstall`](https://github.com/Wilfred/remacs/issues/779), you may need to change exec in remacs.desktop
+You want to install in other directory, i.e. `~/installed/remacs` bc there is [problem with `make uninstall`](https://github.com/Wilfred/remacs/issues/779), you may need to change exec in remacs.desktop
 
 and then to [validate and install it locally](https://askubuntu.com/questions/375975/how-to-force-unity-reload-local-share-applications):
 
-`desktop-file-install --dir=$HOME/.local/share/applications ~/installed/emacs/share/applications/remacs.desktop`
+`desktop-file-install --dir=$HOME/.local/share/applications ~/installed/remacs/share/applications/remacs.desktop`
 
 And copy icons:
 

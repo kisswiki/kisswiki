@@ -1,8 +1,9 @@
 [Desktop Entry]
-Version = 1.0
-Type = Application
-Terminal = false
+Version=1.0
+Type=Application
+Terminal=false
 Name=Subtitle Edit
-Exec=/home/roman/bin/subtitleedit/SubtitleEdit.exe %F
-Icon=/home/roman/personal_projects/kisswiki/src/os/ubuntu/desktop_files/subtitleedit.png
-Categories = Utility;
+Exec=/home/roman/installed/subtitleedit/SubtitleEdit.exe %F
+Icon=/home/roman/installed/subtitleedit/icon.png
+Categories=Utility;
+X-Desktop-File-Install-Version=0.23
