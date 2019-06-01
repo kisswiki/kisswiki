@@ -152,6 +152,24 @@ export EDITOR=em
 export PATH=~/local/bin/:$PATH
 
 alias nvim='~/bin/nvim.appimage'
+
+
+# [CTRL-R shows me the list of files instead of history · Issue #1594 · junegunn/fzf](https://github.com/junegunn/fzf/issues/1594)
+# using https://github.com/dvorka/hstr instead
+# I need to comment bind of CTRL-R in file ~/.fzf/shell/key-bindings.bash
+# https://github.com/4z3/fzf-plugins
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+history() {
+  if [ -t 1 ]; then
+    # to terminal: print numbers and timestamps
+    builtin history "$@"
+  else
+    # grepping: only command
+    HISTTIMEFORMAT='' builtin history "$@" | awk '{$1="";print substr($0,2)}'
+  fi
+}
+
 #alias em moved to ~/bin/em because I could not use it with fzf and xargs
 
 ##!/bin/bash
@@ -163,7 +181,7 @@ alias nvim='~/bin/nvim.appimage'
 #https://gist.github.com/mb720/86144b670599c0eab331cd2f48bd23b9
 # https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
 function  edi(){
-  local file=$(fd --exclude node_modules | fzf-tmux)
+  local file=$(fd --exclude node_modules | fzf --reverse)
   # Open the file if it exists
   if [ -n "$file" ]; then
       # keep it in history
@@ -172,7 +190,7 @@ function  edi(){
       ${EDITOR:-vim} "$file"
   fi
 }
-bind -x '"\C-u": edi;'
+bind -x '"\C-y": edi;'
 
 alias gitc='git branch | fzf | xargs git checkout'
 
@@ -256,41 +274,59 @@ alias watch='watch '
 export GOPATH=$HOME/go
 export PATH=${GOPATH//://bin:}/bin:$PATH
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
-# https://github.com/junegunn/fzf#settings
-# The default commands fzf uses do not include hidden files. If you want hidden files in the list, you have to define your own $FZF_DEFAULT_COMMAND or $FZF_CTRL_T_COMMAND depending on the context. https://github.com/junegunn/fzf/issues/634#issuecomment-238036404
-# and setting _fzf_compgen_path and _fzf_compgen_path does not show hidden files
-# http://owen.cymru/fzf-ripgrep-navigate-with-bash-faster-than-ever-before/
-export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow -g "!{.git,node_modules}/*" 2> /dev/null'
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-
-#disabling: it interfere with FZF_ALT_C_COMMAND
-#bind -x '"\C-e": em $(fzf);'
-
-#sudo apt install bfs
-#export FZF_ALT_C_COMMAND="cd ~/; bfs -type d -nohidden | sed s@^@${HOME}/@"
-# some problems: `__fzf_cd__`bfs: error: ./.dbus: Permission denied.
-#export FZF_ALT_C_COMMAND="cd ~/; bfs -type d | sed s@^@${HOME}/@"
-export FZF_ALT_C_COMMAND="cd; fd --type d --hidden --follow --exclude '.git' --exclude node_modules | sed s@^@${HOME}/@"
-
-export PATH=$HOME/bin/ctags/bin:$PATH
-
-
-##--------------------
-## History
-##--------------------
-# Here's a solution that doesn't mix up histories from individual sessions!
+## https://github.com/junegunn/fzf#settings
+## The default commands fzf uses do not include hidden files. If you want hidden files in the list, you have to define your own $FZF_DEFAULT_COMMAND or $FZF_CTRL_T_COMMAND depending on the context. https://github.com/junegunn/fzf/issues/634#issuecomment-238036404
+## and setting _fzf_compgen_path and _fzf_compgen_path does not show hidden files
+## http://owen.cymru/fzf-ripgrep-navigate-with-bash-faster-than-ever-before/
+#export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow -g "!{.git,node_modules}/*" 2> /dev/null'
+#export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 #
-# Basically one has to store history of each session separately and recreate it on every prompt. Yes, it uses more resources, but it's not as slow as it may sound - delay starts to be noticeable only if you have more than 100000 history entries.
-# https://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows/430128#430128
-# https://gist.github.com/jan-warchol/89f5a748f7e8a2c9e91c9bc1b358d3ec
+##disabling: it interfere with FZF_ALT_C_COMMAND
+##bind -x '"\C-e": em $(fzf);'
+#
+##sudo apt install bfs
+##export FZF_ALT_C_COMMAND="cd ~/; bfs -type d -nohidden | sed s@^@${HOME}/@"
+## some problems: `__fzf_cd__`bfs: error: ./.dbus: Permission denied.
+##export FZF_ALT_C_COMMAND="cd ~/; bfs -type d | sed s@^@${HOME}/@"
+#export FZF_ALT_C_COMMAND="cd; fd --type d --hidden --follow --exclude '.git' --exclude node_modules | sed s@^@${HOME}/@"
+#
+#export PATH=$HOME/bin/ctags/bin:$PATH
+#
+#
+###--------------------
+### History
+###--------------------
+## Here's a solution that doesn't mix up histories from individual sessions!
+##
+## Basically one has to store history of each session separately and recreate it on every prompt. Yes, it uses more resources, but it's not as slow as it may sound - delay starts to be noticeable only if you have more than 100000 history entries.
+## https://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows/430128#430128
+## https://gist.github.com/jan-warchol/89f5a748f7e8a2c9e91c9bc1b358d3ec
 ## https://news.ycombinator.com/item?id=11811272
+## https://spin.atomicobject.com/2016/05/28/log-bash-history/
+##   - log to multiple files, save directory name
 ## https://superuser.com/questions/1158739/prompt-command-to-reload-from-bash-history/1158857#1158857
 ## https://askubuntu.com/questions/67283/is-it-possible-to-make-writing-to-bash-history-immediate
-# https://stackoverflow.com/questions/9457233/unlimited-bash-history/19533853#19533853
-
+## https://stackoverflow.com/questions/9457233/unlimited-bash-history/19533853#19533853
+#
 . $HOME/sync-history.sh
 HISTCONTROL=ignoredups:ignorespace
 export HISTTIMEFORMAT='%Y-%m-%d %H:%M.%S | '
 export HISTIGNORE="ls:exit:history:[bf]g:jobs"
+
+## hh is alias to hstr
+# HSTR configuration - add this to ~/.bashrc
+alias hh=hstr                    # hh to be alias for hstr
+export HSTR_CONFIG=hicolor       # get more colors
+
+## Options set by hstr
+#shopt -s histappend              # append new history items to .bash_history
+#export HISTCONTROL=ignorespace   # leading space hides commands from history
+#export HISTFILESIZE=10000        # increase history file size (default is 500)
+#export HISTSIZE=${HISTFILESIZE}  # increase history size (default is 500)
+## ensure synchronization between Bash memory and history file
+#export PROMPT_COMMAND="history -a; history -n; ${PROMPT_COMMAND}"
+
+# if this is interactive shell, then bind hstr to Ctrl-r (for Vi mode check doc)
+if [[ $- =~ .*i.* ]]; then bind '"\C-r": "\C-a hstr -- \C-j"'; fi
+# if this is interactive shell, then bind 'kill last command' to Ctrl-x k
+if [[ $- =~ .*i.* ]]; then bind '"\C-xk": "\C-a hstr -k \C-j"'; fi
