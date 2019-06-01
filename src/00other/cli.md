@@ -62,6 +62,12 @@ That’s because FZF_ALT_C_COMMAND="fd -t d . $HOME" generates a list of directo
 
 `kill -9 <tab>` - list processes
 
+`cd **<tab>`
+
+`cd some/dir/**<tab>`
+
+`ssh **<tab>`
+
 ### vscode
 
 alias which combines fzf with bat for the preview and a custom key binding to open VS Code:
