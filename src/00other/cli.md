@@ -68,6 +68,23 @@ Theres is also skim in Rust:
 - https://github.com/lotabout/skim
 - https://users.rust-lang.org/t/skim-a-fuzzy-finder-written-in-rust/6390
 
+### vim and emacs
+
+in ~/.bashrc:
+
+`bind -x '"\C-p": $EDITOR $(fzf);'`
+
+Now you can press `Ctrl-p` to search for file and edit it.
+
+https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
+
+### git
+
+`git branch | fzf | xargs git checkout`
+
+- https://www.reddit.com/r/emacs/comments/3loko4/fzfel_emacs_frontend_for_fzf/cv9ii4n/
+- https://github.com/junegunn/fzf/wiki/examples#git
+
 ## htop > top
 
 top is my goto tool for quickly diagnosing why the CPU on the machine is running hard or my fan is whirring. I also use these tools in production. Annoyingly (to me!) top on the Mac is vastly different (and inferior IMHO) to top on linux.
@@ -224,6 +241,16 @@ https://github.com/XAMPPRocky/tokei
 ## xargs
 
 `fd -0 '\.log$' | xargs -0 tail`
+
+### standard input is not a TTY
+
+`find . -name "php.ini" | xargs -o vim`
+
+https://unix.stackexchange.com/questions/44426/xargs-and-vi-input-is-not-from-a-terminal
+
+`find -name '*.c' | xargs sh -c 'emacs "$@" < /dev/tty' emacs`
+
+https://mdk.fr/blog/emacs-standard-input-is-not-a-tty.html
 
 ### find and xargs, parallel and problems with stdin
 

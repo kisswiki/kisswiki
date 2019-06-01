@@ -146,15 +146,58 @@ npm() {
 alias cdp="cd ~/projects/globalwebindex/pro-next/"
 alias cdk="cd ~/personal_projects/kisswiki"
 
-export EDITOR=nvim
+#export EDITOR=nvim
+export EDITOR=em
 
 export PATH=~/local/bin/:$PATH
 
 alias nvim='~/bin/nvim.appimage'
-#alias em='nvm 2>&1 >/dev/null; TERM=xterm-24bit emacs -nw'
+#alias em moved to ~/bin/em because I could not use it with fzf and xargs
+
+##!/bin/bash
+#TERM=xterm-24bit emacs -nw "$@"
+
 alias em='TERM=xterm-24bit emacs -nw'
+alias emi='em $(fzf)'
+# https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
+bind -x '"\C-p": $EDITOR $(fzf);'
+
+alias gitc='git branch | fzf | xargs git checkout'
+
+# https://sysadvent.blogspot.com/2017/12/day-18-awesome-command-line-fuzzy.html
+fshow() {
+  git log --graph --color=always \
+      --format="%C(auto)%h%d %s %C(black)%C(bold)%cr" "$@" |
+  fzf --ansi --preview "echo {} | grep -o '[a-f0-9]\{7\}' | head -1 | xargs -I % sh -c 'git show --color=always %'" \
+             --bind "enter:execute:
+                (grep -o '[a-f0-9]\{7\}' | head -1 |
+                xargs -I % sh -c 'git show --color=always % | less -R') << 'FZF-EOF'
+                {}
+FZF-EOF"
+}
 
 export PATH=~/.cabal/bin:$PATH
+
+# function  mans(){
+# man -k . | fzf -n1,2 --preview "echo {} | cut -d' ' -f1 | sed 's# (#.#' | sed 's#)##' | xargs -I% man %" --bind "enter:execute: (echo {} | cut -d' ' -f1 | sed 's# (#.#' | sed 's#)##' | xargs -I% man % | less -R)"
+# }
+
+function  mans(){
+man -k . | fzf -n1,2 --preview "echo {} | cut -d' ' -f1 | sed 's# (#.#' | sed 's#)##' | xargs -I% man %" --bind "j:down,k:up,alt-j:preview-down,alt-k:preview-up,ctrl-f:preview-page-down,ctrl-b:preview-page-up,q:abort,enter:execute: (echo {} | cut -d' ' -f1 | sed 's# (#.#' | sed 's#)##' | xargs -I% man % | less -R)"
+}
+
+# https://gist.github.com/junegunn/f4fca918e937e6bf5bad#gistcomment-2731105
+gitg ()
+{
+  git log --graph --remotes --tags --decorate --color=always --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"  | \
+   fzf --ansi --no-sort --reverse --tiebreak=index --preview \
+   'f() { set -- $(echo -- "$@" | grep -o "[a-f0-9]\{7\}"); [ $# -eq 0 ] || git show --color=always $1 ; }; f {}' \
+   --bind "j:down,k:up,alt-j:preview-down,alt-k:preview-up,ctrl-f:preview-page-down,ctrl-b:preview-page-up,q:abort,ctrl-m:execute:
+                (grep -o '[a-f0-9]\{7\}' | head -1 |
+                xargs -I % sh -c 'git show --color=always % | less -R') << 'FZF-EOF'
+                {}
+FZF-EOF" --preview-window=right:60%
+}
 
 alias updnvim="(cd ~/bin && rm nvim.appimage && curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage && chmod +x nvim.appimage)"
 
