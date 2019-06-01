@@ -26,6 +26,14 @@ nicer visuals, graph `alias ping='prettyping --nolegend'` https://github.com/den
 
 fuzzy search against the terminal history, with a fully interactive preview of the possible matches, preview and open files https://github.com/junegunn/fzf
 
+Example usage
+
+```bash
+$ fzf
+> var .sh$ !priv
+```
+
+### Install
 
 ```bash
 $ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
@@ -33,6 +41,8 @@ $ ~/.fzf/install
 $ . ~/.bashrc
 $ vim <Ctrl-t>
 ```
+
+### Keys
 
 `CTRL-T` to add paths to a command
 
@@ -50,6 +60,8 @@ That’s because FZF_ALT_C_COMMAND="fd -t d . $HOME" generates a list of directo
 
 `kill -9 <tab>` - list processes
 
+### vscode
+
 alias which combines fzf with bat for the preview and a custom key binding to open VS Code:
 
 ```
@@ -58,10 +70,15 @@ $ alias preview="fzf --preview 'bat --color \"always\" {}'"
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 ```
 
+### Links
+
 - https://medium.freecodecamp.org/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff
+- kubernetes configs example https://sysadvent.blogspot.com/2017/12/day-18-awesome-command-line-fuzzy.html
 - http://seenaburns.com/vim-setup-for-rust/
 - https://dev.to/matthewbdaly/improving-search-in-vim-and-neovim-with-fzf-and-ripgrep-579j
 - https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
+
+### Alternatives
 
 Theres is also skim in Rust:
 
@@ -84,6 +101,7 @@ https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgre
 
 - https://www.reddit.com/r/emacs/comments/3loko4/fzfel_emacs_frontend_for_fzf/cv9ii4n/
 - https://github.com/junegunn/fzf/wiki/examples#git
+- https://stackoverflow.com/questions/36513310/how-to-get-a-gits-branch-with-fuzzy-finder
 
 ## htop > top
 
