@@ -8,6 +8,7 @@
 - https://news.ycombinator.com/item?id=15429390
 - https://github.com/knqyf263/pet
 - https://github.com/topics/terminal
+- https://serverfault.com/questions/3743/what-useful-things-can-one-add-to-ones-bashrc
 
 ## bat > cat
 
@@ -73,7 +74,8 @@ export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 
 ### Make your own autocompletion with fzf
 
-https://media.yuis-programming.com/make-more-powerful-bash-command-line-with-fzf/
+- https://media.yuis-programming.com/make-more-powerful-bash-command-line-with-fzf/
+- [Examples (completion) · junegunn/fzf Wiki](https://github.com/junegunn/fzf/wiki/Examples-(completion%29)
 
 ### Links
 
