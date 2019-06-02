@@ -1,0 +1,2 @@
+#!/bin/bash
+TERM=xterm-24bit emacs -nw "$@"

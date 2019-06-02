@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# https://stackoverflow.com/questions/55186799/multi-process-bash-within-fzf-preview-feature
+#echo '--theme="ansi-light"' >> $(bat --config-file)
+SC=$HOME/bin
+rg  . -n "$@" | fzf --preview="source $SC/string2arg.sh; string2arg {}"

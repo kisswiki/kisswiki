@@ -1,0 +1,9 @@
+#!/bin/bash
+MOD_PATTERN='^.+(\[-|\{\+).*$'
+ADD_PATTERN='^\{\+.*\+\}$'
+REM_PATTERN='^\[-.*-\]$'
+git diff --word-diff --unified=0 $1 -- | sed -nr \
+    -e "s/$MOD_PATTERN/modified/p" \
+    -e "s/$ADD_PATTERN/added/p" \
+    -e "s/$REM_PATTERN/removed/p" \
+    | sort | uniq -c
