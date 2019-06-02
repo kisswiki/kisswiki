@@ -1,0 +1,2 @@
+- https://unix.stackexchange.com/questions/36380/how-to-properly-and-easy-configure-xdg-open-without-any-environment
+- https://unix.stackexchange.com/questions/77136/xdg-open-default-applications-behavior
