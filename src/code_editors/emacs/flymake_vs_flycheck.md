@@ -2,3 +2,5 @@
 - https://www.flycheck.org/en/latest/user/flycheck-versus-flymake.html
 - [I'm stepping down as maintainer · Issue #1177 · flycheck/flycheck](https://github.com/flycheck/flycheck/issues/1177)
   - He is using neovim now https://github.com/lunaryorn/dotfiles/tree/master/nvim
+- https://www.reddit.com/r/emacs/comments/7x1mgf/starting_in_emacs_26_you_might_not_need_flycheck/
+- he prevers flymake over flycheck https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-en.org#my-favorite-emacs-addons
