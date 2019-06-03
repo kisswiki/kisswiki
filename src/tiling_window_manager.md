@@ -27,3 +27,9 @@ https://news.ycombinator.com/item?id=20077119
 ## gnome + i3
 
 - https://askubuntu.com/questions/1062713/how-can-i3-use-gnome-settings-in-ubuntu-18-04/1099771
+- https://news.ycombinator.com/item?id=20072577
+
+## gnome + extension
+
+- https://github.com/gTile/gTile
+- https://news.ycombinator.com/item?id=20072577
