@@ -1,0 +1,3 @@
+- clonezilla
+- https://www.hirensbootcd.org/
+- http://reboot.pro/topic/16765-minixp/
