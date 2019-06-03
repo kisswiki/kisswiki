@@ -16,6 +16,8 @@ Start in safe mode `emacs -Q`
 - https://github.com/redguardtoo/emacs.d
   - this person is maintaining https://github.com/technomancy/find-file-in-project
   - is using https://github.com/noctuid/general.el
+  - created this https://github.com/redguardtoo/mastering-emacs-in-one-year-guide
+  - prevers flymake over flycheck https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-en.org#my-favorite-emacs-addons
 - https://github.com/bbatsov/emacs.d
 - https://github.com/emacs-tw/awesome-emacs#starter-kit
 - https://writequit.org/eos/eos.html
