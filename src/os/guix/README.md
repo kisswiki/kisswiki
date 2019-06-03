@@ -2,3 +2,16 @@
 - https://www.gnu.org/software/guix/blog/2018/a-packaging-tutorial-for-guix/
 - `./pre-inst-env guix` [Re: Guix packaging tutorial with hand holding](https://lists.gnu.org/archive/html/help-guix/2019-05/msg00496.html)
 - temporary place for videos https://archive.org/details/guix-videos
+
+## pin
+
+
+> How can I fix this — how to get conkeror installed properly again?
+
+Right.  You can pin it by running something like
+
+`./pre-inst-env guix environment --root=~/.config/guix/conkeror --ad-hoc conkeror`
+
+in a git checkout that still has conqueror.
+
+https://lists.gnu.org/archive/html/help-guix/2019-06/msg00021.html
