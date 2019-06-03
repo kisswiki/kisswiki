@@ -106,6 +106,7 @@ export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 - https://www.reddit.com/r/vim/comments/7axmsb/i_cant_believe_how_good_fzf_is/
 - mutliselect and spaces https://www.reddit.com/r/linuxquestions/comments/aorbec/problem_with_fzf_multiselect_for_files_with/
 - https://pnguyen.io/posts/improve-productivity-with-fzf/
+- https://github.com/junegunn/fzf/wiki/Examples
 
 ### Alternatives
 
@@ -329,6 +330,10 @@ Maximum length of command we could actually use: 2087968
 Size of command buffer we are actually using: 131072
 Maximum parallelism (--max-procs must be no greater): 2147483647
 ```
+
+### Alternatives
+
+- https://github.com/lotabout/rargs
 
 ## file
 
