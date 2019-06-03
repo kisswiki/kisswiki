@@ -152,7 +152,12 @@ Handy key bindings include:
 - F4 - filter processes by string (to narrow to just "node" for instance)
 - space - mark a single process so I can watch if the process is spiking
 
+### Alternatives
+
 - https://github.com/nicolargo/glances
+- https://github.com/cjbassi/gotop
+- https://github.com/MrRio/vtop
+- https://github.com/aksakalli/gtop
 
 ## diff-so-fancy > diff
 
@@ -376,9 +381,17 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 - prompt in Rust https://crates.io/crates/pista
   - https://www.reddit.com/r/rust/comments/brdu7v/oc_pista_a_simple_bash_prompt_for_programmers/
 
+## midnight command mc
+
+### Alternatives
+
+- https://github.com/jarun/nnn
+- https://github.com/ranger/ranger
+
 ## Misc
 
 - xsv: for working with csv https://github.com/BurntSushi/xsv
+- Execute SQL against structured text like CSV or TSV https://github.com/dinedal/textql
 - make alternative https://github.com/casey/just
 - Run arbitrary commands when files change http://entrproject.org/
 - [keenerd/gz-sort: A utility for sorting really big files. http://kmkeen.com/gz-sort/](https://github.com/keenerd/gz-sort/)
@@ -390,3 +403,5 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 - like `7z x` or `tar -x` and more https://github.com/jwiegley/una
 - pv, ngrok, localtunnel, qalc and many more https://www.reddit.com/r/linux/comments/b5n1l5/whats_your_favorite_cli_tool_nobody_knows_about/
   - https://joeyh.name/code/moreutils/
+- speedometer, example usage https://github.com/dustinkirkland/hollywood/blob/e75c619546d31dc9fc66c472c9d06da647ed1174/lib/hollywood/speedometer
+- https://01.org/powertop/
