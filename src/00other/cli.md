@@ -95,6 +95,9 @@ export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 - https://adamheins.com/blog/fzf-vi-mode-and-fixing-delays
 - with ripgrep, bat and preview https://stackoverflow.com/questions/55186799/multi-process-bash-within-fzf-preview-feature
 - !!! https://www.reddit.com/r/vim/comments/9xpb18/file_preview_with_fzf_rg_bat_and_devicons/
+- https://www.reddit.com/r/vim/comments/7axmsb/i_cant_believe_how_good_fzf_is/
+- mutliselect and spaces https://www.reddit.com/r/linuxquestions/comments/aorbec/problem_with_fzf_multiselect_for_files_with/
+- https://pnguyen.io/posts/improve-productivity-with-fzf/
 
 ### Alternatives
 
@@ -103,6 +106,9 @@ Theres is also skim in Rust:
 - https://github.com/lotabout/skim
 - https://users.rust-lang.org/t/skim-a-fuzzy-finder-written-in-rust/6390
 - https://github.com/jhawthorn/fzy
+- https://github.com/nixprime/cpsm
+- https://github.com/FelikZ/ctrlp-py-matcher
+- https://github.com/Yggdroot/LeaderF
 
 ### vim and emacs
 
@@ -112,7 +118,8 @@ in ~/.bashrc:
 
 Now you can press `Ctrl-p` to search for file and edit it.
 
-https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
+- https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
+- http://ericnode.info/post/fzf_jump_to_tab_in_vim/
 
 ### git
 
