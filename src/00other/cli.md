@@ -130,6 +130,9 @@ Now you can press `Ctrl-p` to search for file and edit it.
 
 - https://www.reddit.com/r/linux/comments/5rrpyy/turbo_charge_bash_with_fzf_ripgrep/
 - http://ericnode.info/post/fzf_jump_to_tab_in_vim/
+- https://stackoverflow.com/questions/46438519/how-to-enable-per-command-history-in-fzf
+- http://seenaburns.com/2018/03/06/emacs-fzf/
+- https://github.com/alok/notational-fzf-vim
 
 ### git
 
@@ -388,6 +391,25 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 - https://github.com/jarun/nnn
 - https://github.com/ranger/ranger
 
+## Manage dotfiles
+
+- https://github.com/jan-warchol/dotfiles
+- https://news.ycombinator.com/item?id=11515222
+- https://github.com/tubbo/homer
+- https://protesilaos.com/codelog/gnu-stow-dotfiles/
+
+## ngrok
+
+- https://ngrok.com/
+- https://localtunnel.me
+- http://serveo.net/
+
+## tig
+
+
+- https://github.com/rgburke/grv
+- https://github.com/jonas/tig
+
 ## Misc
 
 - xsv: for working with csv https://github.com/BurntSushi/xsv
@@ -405,3 +427,8 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
   - https://joeyh.name/code/moreutils/
 - speedometer, example usage https://github.com/dustinkirkland/hollywood/blob/e75c619546d31dc9fc66c472c9d06da647ed1174/lib/hollywood/speedometer
 - https://01.org/powertop/
+- [yudai/gotty: Share your terminal as a web application](https://github.com/yudai/gotty)
+- https://github.com/nvbn/thefuck
+  - https://twitter.com/liamosaur/status/506975850596536320
+- https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/bgnotify
+- serve some files over HTTP https://github.com/svenstaro/miniserve
