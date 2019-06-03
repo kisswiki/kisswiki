@@ -1,0 +1,2 @@
+- https://www.reddit.com/r/linuxquestions/comments/bkwrmd/hackintosh_windows_on_linux_kvm/
+  - [Apple won't like this... - Run MacOS on ANY PC - YouTube](https://www.youtube.com/watch?v=ATnpEOo3GJA)
