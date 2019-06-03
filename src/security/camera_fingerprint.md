@@ -1,2 +1,2 @@
-- https://www.schneier.com/blog/archives/2006/04/digital_cameras.html
+-https://monitor.firefox.com/scan https://www.schneier.com/blog/archives/2006/04/digital_cameras.html
   - https://news.ycombinator.com/item?id=15669480
