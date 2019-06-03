@@ -410,6 +410,10 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 - https://github.com/rgburke/grv
 - https://github.com/jonas/tig
 
+## accounting
+
+- https://plaintextaccounting.org/#plain-text-accounting-tools
+
 ## Misc
 
 - xsv: for working with csv https://github.com/BurntSushi/xsv
