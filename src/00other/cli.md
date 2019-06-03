@@ -36,6 +36,14 @@ $ fzf
 > var .sh$ !priv
 ```
 
+exact match:
+
+```
+> 'news
+```
+
+Will containing news letters one by one. https://github.com/junegunn/fzf/issues/1265
+
 ### Install
 
 ```bash
