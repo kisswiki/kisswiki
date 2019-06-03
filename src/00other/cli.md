@@ -9,6 +9,7 @@
 - https://github.com/knqyf263/pet
 - https://github.com/topics/terminal
 - https://serverfault.com/questions/3743/what-useful-things-can-one-add-to-ones-bashrc
+- https://altbox.dev/
 
 ## bat > cat
 
@@ -93,6 +94,7 @@ export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 - wrapper for Windows https://github.com/genotrance/ff
 - https://adamheins.com/blog/fzf-vi-mode-and-fixing-delays
 - with ripgrep, bat and preview https://stackoverflow.com/questions/55186799/multi-process-bash-within-fzf-preview-feature
+- !!! https://www.reddit.com/r/vim/comments/9xpb18/file_preview_with_fzf_rg_bat_and_devicons/
 
 ### Alternatives
 
