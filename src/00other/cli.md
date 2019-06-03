@@ -10,6 +10,7 @@
 - https://github.com/topics/terminal
 - https://serverfault.com/questions/3743/what-useful-things-can-one-add-to-ones-bashrc
 - https://altbox.dev/
+- https://www.reddit.com/r/linuxquestions/comments/btsl09/what_are_your_favorite_cli_applications/
 
 ## bat > cat
 
