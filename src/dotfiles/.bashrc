@@ -360,19 +360,8 @@ shopt -s histappend   # don't overwrite history file after each session
 
 # on every prompt, save new history to dedicated file and recreate full history
 # by reading all files, always keeping history from current session on top.
-update_history () {
-  history -a ${HISTFILE}.$$
-  history -c
-  history -r  # load common history file
-  # load histories of other sessions
-  for f in `ls ${HISTFILE}.[0-9]* 2>/dev/null | grep -v "${HISTFILE}.$$\$"`; do
-    history -r $f
-  done
-  history -r "${HISTFILE}.$$"  # load current session history
-}
-#if [[ "$PROMPT_COMMAND" != *update_history* ]]; then
-  export PROMPT_COMMAND="update_history; $PROMPT_COMMAND"
-#fi
+
+#export PROMPT_COMMAND="history -a ${HISTFILE}.$$; history -c; history -r; for f in $(ls ${HISTFILE}.[0-9]* 2>/dev/null | grep -v \"${HISTFILE}.$$\$\"); do; history -r $f; done; history -r ${HISTFILE}.$$; $PROMPT_COMMAND"
 
 # merge session history into main history file on bash exit
 merge_session_history () {
