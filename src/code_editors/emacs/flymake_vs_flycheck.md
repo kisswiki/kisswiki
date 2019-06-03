@@ -4,3 +4,4 @@
   - He is using neovim now https://github.com/lunaryorn/dotfiles/tree/master/nvim
 - https://www.reddit.com/r/emacs/comments/7x1mgf/starting_in_emacs_26_you_might_not_need_flycheck/
 - he prevers flymake over flycheck https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-en.org#my-favorite-emacs-addons
+- flymake supports several languages https://www.emacswiki.org/emacs/FlyMake
