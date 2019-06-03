@@ -23,3 +23,7 @@ xrandr --output DisplayPort-0 --auto --pos 0x0 --primary --output HDMI-A-0 --aut
 Where HDMI-A-0 is the 1080p monitor. I've had a bug in the past where I would need to use the --panning option (e.g., --panning 2880x1620+3840+540) with the correct geometry to get everything working, but it seems to work fine now without that. If you do need to mess with the --panning option though may god help you.
 
 https://news.ycombinator.com/item?id=20077119
+
+## gnome + i3
+
+- https://askubuntu.com/questions/1062713/how-can-i3-use-gnome-settings-in-ubuntu-18-04/1099771
