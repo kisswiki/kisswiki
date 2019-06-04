@@ -1,3 +1,5 @@
+- https://leanpub.com/the-tao-of-tmux/read
+
 ## Config
 
 Reload config
