@@ -216,3 +216,13 @@ https://github.com/neovim/neovim/issues/7764#issuecomment-411995268
 ## Using tmux for everything
 
 - https://kgrz.io/using-tmux-for-everything.html
+
+## run-shell
+
+>run-shell always uses /bin/sh (as defined by _PATH_BSHELL in tmux's source). To run a fish shell, you can use run "fish -c fish_prompt" https://stackoverflow.com/questions/47400291/tmux-run-fish-shell-functions-returns-error-127/47426623#47426623
+
+I was trying to execute non-existent file and was getting error 127
+
+>The high-number exit codes (126 and 127) are given by the shell when there is a problem executing the command. Specifically, (per POSIX.1) 126 usually means that the file was not executable. https://stackoverflow.com/questions/10036772/tmux-run-command-returned-126-what-does-that-mean/10038458#10038458
+
+https://unix.stackexchange.com/questions/14700/how-can-i-bind-multiple-tmux-commands-to-one-keystroke
