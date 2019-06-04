@@ -90,3 +90,13 @@ Then
 Next/prev with arrows.
 
 - https://github.com/mpv-player/mpv/wiki/FAQ#how-do-i-automatically-play-the-next-file-in-the-folder
+
+## next prev in playlist
+
+etc/input.conf
+
+```
+#> playlist-next                        # skip to next file
+#ENTER playlist-next                    # skip to next file
+#< playlist-prev # skip to previous file
+```
