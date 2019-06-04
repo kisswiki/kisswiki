@@ -50,6 +50,7 @@ Other thing worth knowing is that scrolling is enabled by pressing `Ctrl+b PgUp/
 - tmux cheat sheet https://gist.github.com/andreyvit/2921703
 - tmux cheat sheet https://gist.github.com/karenyyng/5de2823651965361b788
 - tmux cheat sheet https://gist.github.com/Bekbolatov/6840069e51382965fdad
+- tmux cheat sheet https://gist.github.com/MohamedAlaa/2961058
 - https://stackoverflow.com/questions/41343824/difference-between-c-b-d-and-c-b-d-in-tmux
 
 ## Quit
