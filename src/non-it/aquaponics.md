@@ -1,4 +1,4 @@
-- [Jedzeniowe perpetuum mobile. Ryby i warzywa rosną same i za darmo. Najnowszy szwajcarski wynalazek | naTemat.pl](https://natemat.pl/98899,ryby-i-warzywa-rosna-same-i-za-darmo-najnowszy-szwajcarski-wynalazek)
+- [Jedzeniowe perpetuum mobile. Ryby i warzywa rosną same i za darmo. Najnowszy szwajcarski wynalazek | naTemat.pl](https://natemat.pl/98899)
 - https://en.m.wikipedia.org/wiki/Aquaponics
   - https://en.m.wikipedia.org/wiki/Chinampa
 - https://www.milkwood.net/2014/01/20/aquaponics-a-brief-history/
