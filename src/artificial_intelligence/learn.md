@@ -6,6 +6,7 @@
 - https://github.com/collections/machine-learning
 - Perełki programowania gier Tom 1 - Rozdział 3 - Projektowanie ogólnego i użytecznego mechanizmu sztucznej inteligencji
 - Wprowadzenie do "data science" - slajdy http://www.if.pw.edu.pl/~julas/WDS/
+- https://uczymymaszyny.pl/puk-puk-kto-tam-uczenie-maszynowe/
 
 ## Video courses
 
