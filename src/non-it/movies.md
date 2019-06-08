@@ -51,12 +51,14 @@ https://www.lionsroar.com/top-ten-buddhist-films/
 
 ### Anime
 
-- Neon Genesis Evangelion
-- End of Evangelion
-- http://9gag.com/gag/aYeMgnq https://en.wikipedia.org/wiki/Ajin:_Demi-Human#Film
-- https://shinden.pl/series/12434-hunter-x-hunter-2011/index
-- https://shinden.pl/series/44701-one-punch-man/index
-- https://myanimelist.net/anime/16782/Kotonoha_no_Niwa
+- [ ] Neon Genesis Evangelion
+- [ ] End of Evangelion
+- [ ] http://9gag.com/gag/aYeMgnq https://en.wikipedia.org/wiki/Ajin:_Demi-Human#Film
+- [ ] https://shinden.pl/series/12434-hunter-x-hunter-2011/index
+- [ ] https://shinden.pl/series/44701-one-punch-man/index
+- [ ] https://myanimelist.net/anime/16782/Kotonoha_no_Niwa
+- [ ] [Your Name. (2016) - IMDb](https://www.imdb.com/title/tt5311514/)
+- [ ] [Weathering with You (2019) - IMDb](https://www.imdb.com/title/tt9426210/)
 
 ### TV
 
