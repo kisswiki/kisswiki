@@ -15,3 +15,13 @@ http://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-
 ##
 
 http://stackoverflow.com/questions/26536871/convert-a-string-of-numbers-to-an-array-vector-of-ints-in-rust
+
+## trim left
+
+``` rust
+let s = "~~~~sqeeze me";
+let result = s.trim_left_matches('~');
+-- Result : “sqeeze me”
+```
+
+http://wdv4758h.github.io/string.rs/strip-trim
