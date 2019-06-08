@@ -40,9 +40,10 @@
 - http://iamtrask.github.io/2015/07/12/basic-python-network/
   - https://news.ycombinator.com/item?id=15498341
 - Lobe – Deep Learning Made Simple (lobe.ai) https://news.ycombinator.com/item?id=16976697
+
 ## Books
 
 - https://www.manning.com/books/grokking-deep-learning
   - The author is currently writing this book https://news.ycombinator.com/item?id=15504183
-- http://neuralnetworksanddeeplearning.com/\
+- http://neuralnetworksanddeeplearning.com/
   - Ask HN: Best way to get started with AI? https://news.ycombinator.com/item?id=15689399
