@@ -34,6 +34,7 @@
   - https://github.com/popcorn-official/popcorn-api/blob/master/manual/example.md
   - https://github.com/popcorn-official/popcorn-api/blob/master/src/config/constants.js
 - https://extratorrent.ag
+- https://academictorrents.com/
 
 ## streaming
 
