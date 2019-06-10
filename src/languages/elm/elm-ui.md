@@ -10,6 +10,7 @@
 ## Examples
 
 - https://github.com/kenhkan/mbta
+- An experimental library for easier UI elements creation. Not for production use. https://github.com/QiTASC/hatchinq
 
 ### Minimal example
 
