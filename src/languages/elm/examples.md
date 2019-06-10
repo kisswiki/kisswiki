@@ -48,6 +48,7 @@
 - https://github.com/battermann/elm-countdown
 - https://github.com/JduPreez/HardRightEdge
 - https://github.com/elm-athlete/athlete
+- [Zinggi/NoKey: A distributed password manager without a master password](https://github.com/Zinggi/NoKey)
 
 ## pomodoro
 
