@@ -20,3 +20,27 @@ via https://news.ycombinator.com/item?id=19661949
 Painter Salvador Dali and inventor Thomas Edison both actively worked with it. After a round of focused work, Dali sat on his arm chair to think and doze off. In one hand he held a big key and the moment he fell asleep the key dropped, which woke him up and so he went back to the canvas to continue his focused work. Steve Jobs broke up his daily thinking routine by going out for long walks.
 
 [Focused and Diffused Thinking: The Ping Pong Technique - YouTube](https://www.youtube.com/watch?v=WTr12dK2Se0&feature=youtu.be)
+
+## extreme night owls
+
+Scientists studied 21 "extreme night owls" who were going to bed, on average, at 02:30 and not waking until after 10:00.
+
+Their instructions were to:
+
+- Wake up 2-3 hours earlier than usual and get plenty of outdoor light in the morning
+- Eat breakfast as soon as possible
+- Exercise only in the morning
+- Have lunch at the same time every day and eat nothing after 19:00
+- Banish caffeine after 15:00
+- Have no naps after 16:00
+- Go to bed 2-3 hours earlier than usual and limit light in the evenings
+- Maintain the same sleep and wake times every day
+
+After three weeks, people had successfully shifted their body clocks two hours earlier in the day, the analysis by the University of Birmingham, University of Surrey and Monash University showed.
+
+The results, in the journal Sleep Medicine, showed people still got the same hours of shut-eye.
+
+But they reported lower levels of sleepiness, stress and depression, while tests showed their reaction times also improved.
+
+- [Night owls: Simple sleep tweaks boost wellbeing - BBC News](https://www.bbc.com/news/health-48558309)
+- https://news.ycombinator.com/item?id=20146168
