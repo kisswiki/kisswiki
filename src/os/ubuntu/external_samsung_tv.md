@@ -19,3 +19,5 @@ I could not choose output device displayport in pavucontrol for mpv.
 After going to `Gnome Settings > Sound > Output > Choose "HDMI / Displayport 3 - GP104 High Definition Display Controller"` I could choose it in pavucontrol.
 
 Inspired by https://devtalk.nvidia.com/default/topic/1019761/linux/no-sound-using-displayport-audio-with-375-82-384-59-and-384-69/post/5217651/#5217651
+
+- https://askubuntu.com/questions/112512/ubuntu-refuses-to-output-audio-via-hdmi
