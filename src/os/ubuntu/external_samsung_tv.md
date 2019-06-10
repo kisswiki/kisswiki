@@ -8,6 +8,8 @@ I could choose 4k when going only with cabel hdmi2displayport.
 
 Maybe because adapter is in fault?
 
+Maybe this could help https://askubuntu.com/questions/189246/how-set-my-monitor-resolution
+
 ## 60 hz
 
 After right-clicking on desktop and choosing `Properties` I could choose 60hz.
