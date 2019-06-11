@@ -1,1 +1,2 @@
 - https://monitor.firefox.com/scan
+- https://haveibeenpwned.com/
