@@ -112,3 +112,7 @@ Is there a way to specify `em` values in `elm-ui`?
 jhbrown   [12 hours ago]
 There is not.  Just px and percents.
 </pre>
+
+## Multiple focus
+
+[Multiple elements simultaneously render with Element.focused attributes · Issue #47 · mdgriffith/elm-ui](https://github.com/mdgriffith/elm-ui/issues/47#issuecomment-501270001)
