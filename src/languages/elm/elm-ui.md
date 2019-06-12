@@ -116,3 +116,42 @@ There is not.  Just px and percents.
 ## Multiple focus
 
 [Multiple elements simultaneously render with Element.focused attributes · Issue #47 · mdgriffith/elm-ui](https://github.com/mdgriffith/elm-ui/issues/47#issuecomment-501270001)
+
+https://jsfiddle.net/rofrol/zasq3r4p/8/
+
+## Element.focused
+
+```elm
+Element.focused [ Element.Border.glow (Element.rgb 1 0 0) 2 ]
+```
+
+## colorToRgbaString
+
+```elm
+colorToRgbaString color =
+    let
+        floatTo256 f =
+            if f >= 1 then
+                255
+
+            else
+                floor (f * 256)
+
+        rgba =
+            Element.toRgb color
+
+        floatToString f =
+            String.pad 2 '0' (String.fromInt (floatTo256 f))
+    in
+    "rgba("
+        ++ floatToString rgba.red
+        ++ ", "
+        ++ floatToString rgba.green
+        ++ ", "
+        ++ floatToString rgba.blue
+        ++ ", "
+        ++ floatToString rgba.alpha
+        ++ ")"
+```
+
+https://stackoverflow.com/questions/1914115/converting-color-value-from-float-0-1-to-byte-0-255/1914172#1914172
