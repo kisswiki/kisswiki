@@ -536,3 +536,29 @@ A na deser - 6 cytatów, które faktycznie są słowami Buddy. Możesz ich śmia
 >Ucisz wściekłego człowieka miłością. Ucisz człowieka ze złymi intencjami życzliwością. Ucisz skąpca hojnością. Ucisz kłamcę prawdą.
 
 https://michalpasterski.pl/2016/04/7-najwazniejszych-lekcji-buddy/
+
+## time
+
+
+### Google Translate English to Polish
+
+Serce Psa - Michaił Bułhakow
+
+„Jak znaleźć czas, Philip Philipovich?” - zapytał z szacunkiem lekarz.
+
+„Osoba, która zawsze znajduje czas, to osoba, która nigdy się nie spieszy” - wyjaśnił dydaktycznie gospodarz.
+
+## Polski
+
+Serce Psa - Michaił Bułhakow
+
+– Jak się panu udaje wszędzie zdążyć, Filipie Filipowiczu? – z podziwem zapytał lekarz.
+– Zdążyć wszędzie może ten, kto nigdzie się nie spieszy – pouczająco wyjaśnił gospodarz. – Oczywiście, gdybym zaczął biegać po zebraniach i śpiewać całymi dniami jak słowik, zamiast wykonywać moje bezpośrednie obowiązki, nigdzie bym nie zdążył.
+
+## English
+
+Heart of a Dog - Mikhail Bulgakov
+
+"How do you find the time, Philip Philipovich?" asked the doctor respectfully.
+
+"The person who always finds time is the one who is never in a hurry," explained his host didactically. "Of course, if I began to flutter from meeting to meeting or sing like a nightingale all day long, I wouldn't have time for anything."
