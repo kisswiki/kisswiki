@@ -562,3 +562,23 @@ Heart of a Dog - Mikhail Bulgakov
 "How do you find the time, Philip Philipovich?" asked the doctor respectfully.
 
 "The person who always finds time is the one who is never in a hurry," explained his host didactically. "Of course, if I began to flutter from meeting to meeting or sing like a nightingale all day long, I wouldn't have time for anything."
+
+## learn
+
+"One bit of advice: it is important to view knowledge as sort of a semantic tree -- make sure you understand the fundamental principles, i.e. the trunk and big branches, before you get into the leaves/details or there is nothing for them to hang on to."
+
+https://www.inc.com/jessica-stillman/heres-elon-musks-secret-for-learning-anything-fast.html
+
+## fizyczny przykład
+
+Na wszystkich tych uczelniach fizycy opowiadali mi, czym się zajmują, i razem to omawialiśmy. Podawali mi ogólne zagadnienie, nad którym pracowali, a ja zaczynałem wypisywać serie równań.
+       - Chwileczkę - mówiłem. - Czy jest jakiś konkretny przykład tego ogólnego zagadnienia?
+       - Oczywiście, że tak.
+       - Dobrze. To proszę mi podać jakiś przykład. - Chciałem sobie ułatwić: nie potrafię zrozumieć nic ogólnego, jeżeli nie mam w głowie konkretnego przykładu, do którego stale się odnoszę. Niektórzy ludzie myślą z początku, że jestem niezbyt rozgarnięty i nie rozumiem problemu, bo zadaję te wszystkie „durne” pytania: „Chodzi o katodę dodatnią czy ujemną? Czy anion jest w tę stronę, czy w drugą?”.
+       Ale później, kiedy facet sypie równaniami, ja mu nagle przerywam i mówię: „Chwileczkę! Tu jest jakiś błąd! To nie może być tak!”.
+       Facet patrzy na swoje równania, po chwili znajduje błąd i myśli sobie: „Jak to możliwe, że człowiek, który z początku ledwo nadążał za tym, co mówię, teraz znalazł błąd w gąszczu tych wszystkich równań?”.
+       Sądzi, że śledzę kolejne kroki matematyczne, ale ja robię, co innego. Mam w głowie konkretny, fizyczny przykład tego, co on próbuje zanalizować, i znam własności tego przedmiotu dzięki wyczuciu i doświadczeniu. Kiedy więc równanie mówi, że przedmiot powinien się zachowywać tak-a-tak, a ja wiem, że powinno być inaczej, podrywam się i mówię: „Zaraz! Tu jest błąd!”.
+       Nie potrafię, więc zrozumieć ani dyskutować o czyjejś pracy, jeżeli nie dostanę fizycznego przykładu, lecz większość Japończyków nie umiała mi podać żadnego. Ci, którzy umieli, często podawali kiepski problem, który można było zanalizować znacznie prostszą metodą.
+
+
+Pan raczy żartować, panie Feynman - Richard P. Feynman
