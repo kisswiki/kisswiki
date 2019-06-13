@@ -567,7 +567,8 @@ Heart of a Dog - Mikhail Bulgakov
 
 "One bit of advice: it is important to view knowledge as sort of a semantic tree -- make sure you understand the fundamental principles, i.e. the trunk and big branches, before you get into the leaves/details or there is nothing for them to hang on to."
 
-https://www.inc.com/jessica-stillman/heres-elon-musks-secret-for-learning-anything-fast.html
+- https://www.reddit.com/r/IAmA/comments/2rgsan/i_am_elon_musk_ceocto_of_a_rocket_company_ama/cnfre0a/
+- https://www.inc.com/jessica-stillman/heres-elon-musks-secret-for-learning-anything-fast.html
 
 ## fizyczny przykład
 
