@@ -436,3 +436,4 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
   - https://twitter.com/liamosaur/status/506975850596536320
 - https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/bgnotify
 - serve some files over HTTP https://github.com/svenstaro/miniserve
+  - currently on nightly only so: `rustup toolchain install nightly; rustup default nigthly; cargo install minserve; rustup default stable`
