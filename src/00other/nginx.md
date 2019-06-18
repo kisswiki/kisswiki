@@ -42,7 +42,7 @@ server {
 
 Then create symbolic link
 
-`sudo ln -s /home/roman/personal_projects/nginx/server.conf /etc/nginx/sites-enabled/`
+`sudo ln -s $PWD/server.conf /etc/nginx/sites-enabled/`
 
 And start server:
 
@@ -292,3 +292,44 @@ Depending on your needs, sendfile can be either totally useless or completely es
 If you’re serving locally stored static files, sendfile is totally essential to speed your Web server. But if you use Nginx as a reverse proxy to serve pages from an application server, you can deactivate it. Unless you start serving micro caching on a tmpfs. I’ve been doing it here, and didn’t even notice the day I was featured on HN homepage, Reddit or good old Slashdot.
 
 https://thoughts.t37.net/nginx-optimization-understanding-sendfile-tcp-nodelay-and-tcp-nopush-c55cdd276765
+
+## http-server to browse files
+
+http-server:
+
+```server {
+	listen 3333 default_server;
+	listen [::]:3333 default_server;
+
+	root /home/roman/http-server;
+
+	location / {
+		autoindex on;
+	}
+
+	location ~ \.pdf$ {
+		# force download
+	#	add_header Content-Disposition "attachment";
+		#force preview
+		add_header Content-Disposition "inline";
+	}
+}
+```
+
+Then create symbolic link
+
+`sudo ln -s $PWD/http-server.conf /etc/nginx/sites-enabled/`
+
+And start server:
+
+`sudo systemctl start nginx`
+
+Create symoblic link to directory you want to browse:
+
+`sudo ln -s /some/path/ ~/http-server`
+
+- https://stackoverflow.com/questions/10663248/how-to-configure-nginx-to-enable-kinda-file-browser-mode
+- https://superuser.com/questions/1277819/why-does-chrome-sometimes-download-a-pdf-instead-of-opening-it
+- https://stackoverflow.com/questions/30779412/nginx-how-to-avoid-forced-downloads-in-all-wav-files
+- https://stackoverflow.com/questions/44217573/why-request-without-suffix-of-filename-extension-html-will-download-file
+- https://support.mozilla.org/en-US/kb/change-firefox-behavior-when-open-file~/personal_projects/nginx$
