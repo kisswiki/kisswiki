@@ -164,3 +164,13 @@ apt edit-sources 	Edits sources list
 
 - https://itsfoss.com/apt-vs-apt-get-difference/
 - https://askubuntu.com/questions/829864/is-apt-get-deprecated
+
+## information about package
+
+`apt show <package>`
+
+https://askubuntu.com/questions/341178/how-do-i-get-details-about-a-package-which-isnt-installed/1148414#1148414
+
+If it is installed (probably) there should be line starting with `APT-Manual-Installed:`.
+
+Or use `dpkg -s <package>` to get info if it is installed.
