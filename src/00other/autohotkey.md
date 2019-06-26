@@ -52,6 +52,12 @@ https://github.com/olets/MacKeyboard/blob/master/MacKeyboard.ahk
 
 - https://stackoverflow.com/questions/49009176/autohotkey-getting-control-key-stuck
 
+## Autostart
+
+create link to ahk file in `%appdata%\Microsoft\Windows\Start Menu\Programs\Startup`.
+
+for example link to `pinky.ahk`.
+
 ## Links
 
 - https://gaming.stackexchange.com/questions/110349/how-do-i-remap-the-arrow-keys-using-autohotkey
