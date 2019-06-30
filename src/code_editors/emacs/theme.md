@@ -1,3 +1,4 @@
+- https://github.com/myTerminal/theme-looper
 - I use default "angry fruit salad" defined in font-lock.el line starting with `;;; Color etc. support.`
   - https://emacs.stackexchange.com/questions/7491/where-is-the-default-color-custom-theme-defined
   - https://github.com/emacs-mirror/emacs/blob/master/lisp/font-lock.el#L1933
