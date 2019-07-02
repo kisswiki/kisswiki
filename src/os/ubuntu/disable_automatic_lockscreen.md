@@ -2,7 +2,11 @@ Probably this is the best but needs relogin/reboot:
 
 `gsettings set org.gnome.desktop.session idle-delay 0`
 
-And I thought that caffeine extension did this.
+I also have this set:
+
+`gsettings set org.gnome.desktop.screensaver lock-enabled false`
+
+And I thought that caffeine extension prevented screen lock.
 
 https://askubuntu.com/questions/177348/how-do-i-disable-the-screensaver-lock/524865#524865
 
