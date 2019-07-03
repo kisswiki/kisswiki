@@ -1,3 +1,5 @@
+- https://torrentfreak.com/top-10-most-popular-torrent-sites-of-2019/
+- https://yts.lt
 - https://torrentz2.eu/search, https://torrentz2.eu/search?f=napisy+2017
   - https://torrentfreak.com/torrent-links-disappear-from-torrentz2-171223/
     - https://chrome.google.com/webstore/search/torrentz2
