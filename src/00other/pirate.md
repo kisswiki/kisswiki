@@ -19,4 +19,4 @@
 
 ## dns over https and esni
 
-`security.md`
+`privacy/README.md`
