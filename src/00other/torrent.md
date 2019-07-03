@@ -121,6 +121,8 @@ https://www.bankier.pl/wiadomosc/Kto-torrentem-wojuje-od-torrenta-ginie-4030949.
 ## Software
 
 - unofficial search engine plugins for qBittorrent https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins
+- https://github.com/Radarr/Radarr
+- https://github.com/Sonarr/Sonarr
 
 ## Miners
 
