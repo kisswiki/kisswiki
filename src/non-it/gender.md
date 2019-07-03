@@ -55,3 +55,11 @@ a tak szerzej to:
 https://en.wikipedia.org/wiki/Intersex#Conditions > i rozwiń sobie "List of conditions". Głowa mała.
 
 https://www.wykop.pl/link/4282849/#comment-54555441
+
+##
+
+The question of whether homosexuality is caused by life's experience or is an inborn quality is, indeed, an extremely sensitive subject. The topic invokes strong emotion and prejudice, no matter which side one takes. Like abortion, it seems to be one of America's almost unsolvable problems. To understand the causes of homosexuality, a great deal of objectivity and compassion are required.
+
+As is the case with so many other forms of aberrant behavior, we are dealing with victims who are in denial that they are victims. The very concept of gay pride was, of course, in imitation of racial minorities' call for ethnic pride in the '60's. However, the difference between the two is obvious to most Americans. One is simply a racial matter, but the other is behavioral. Of course, homosexual organizations deny that being gay is a behavioral problem because their claim to political power is based on convincing the country that being critical of homosexuality is equivalent to being racist. In order to make that stick, they must first convince the public that gays were born that way and that their inclinations have nothing to do with upbringing or moral choice.
+
+https://www.fhu.com/articles/homosexual1.html
