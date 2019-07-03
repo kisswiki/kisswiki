@@ -16,3 +16,9 @@
 - https://retroshare.cc/
 - https://www.reddit.com/r/libgen/comments/azsdt6/retroshare/
 - https://github.com/RetroShare/RetroShare
+
+## dns over https
+
+https://torrentfreak.com/encrypted-dns-and-sni-make-pirate-site-blocking-much-harder-190702/
+
+How to setup for cloudflare https://1.1.1.1/dns/
