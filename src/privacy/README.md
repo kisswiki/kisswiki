@@ -6,4 +6,8 @@ How to setup for cloudflare https://1.1.1.1/dns/
 
 `Firefox > about:config > network.security.esni.enabled > true`
 
-Test https://www.cloudflare.com/ssl/encrypted-sni/
+I have restarted the Firefox but only TLS 1.3 passed the test https://www.cloudflare.com/ssl/encrypted-sni/.
+
+After turning off/on wire connection, DNSSEC test passed.
+
+Should I reboot computer?
