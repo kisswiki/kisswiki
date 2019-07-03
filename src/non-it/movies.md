@@ -66,6 +66,7 @@ https://www.lionsroar.com/top-ten-buddhist-films/
 - The Deuce" - nowy serial autora "The Wire" o prostytucji i początkach branży porno w latach '70 w Nowym Jorku. Świetne dialogi i scenografia, ciekawy temat przedstawiony z perspektywy różnych osób i grup społecznych, dużo cycków, jak dla mnie absolutna rewelacja. https://www.wykop.pl/wpis/30726725/serialowe-mirki-obejrzyjcie-the-deuce-nowy-serial-/
 - Silicon Valley (TV Series 2014– )
 - El.Chapo.S01
+- [ ] [Suburra: Blood on Rome (TV Series 2017–2019) - IMDb](https://www.imdb.com/title/tt7197684/) - similar to Gomorra
 
 ### Rest
 
