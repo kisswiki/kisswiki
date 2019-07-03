@@ -20,3 +20,8 @@
 ## dns over https and esni
 
 `privacy/README.md`
+
+## Scene
+
+- https://torrentfreak.com/go-unlimited-taunts-hollywood-with-dmca-ignore-video-hosting-190630/
+- https://torrentfreak.com/pirates-so-you-want-to-join-the-scene-part-1-190630/
