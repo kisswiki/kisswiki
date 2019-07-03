@@ -10,3 +10,11 @@
 - https://www.amazon.com/Yubico-Y-123-FIDO-U2F-Security/dp/B00NLKA0D8/
 - [1065729 - [meta] Implement the FIDO Alliance u2f javascript API](https://bugzilla.mozilla.org/show_bug.cgi?id=1065729)
 - https://niebezpiecznik.pl/post/czy-dasz-sie-nabrac-na-phishing-swietny-quiz-od-google/
+
+## dns over https and esni
+
+https://torrentfreak.com/encrypted-dns-and-sni-make-pirate-site-blocking-much-harder-190702/
+
+How to setup for cloudflare https://1.1.1.1/dns/
+
+`Firefox > about:config > network.security.esni.enabled > true`
