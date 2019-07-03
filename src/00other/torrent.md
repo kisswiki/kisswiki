@@ -1,3 +1,11 @@
+## predb
+
+- https://torrentfreak.com/reporting-when-pirate-releases-hit-the-internet-is-apparently-illegal-now-190101/
+- http://predb.me
+- https://predb.org
+
+## torrent
+
 - https://torrentfreak.com/top-10-most-popular-torrent-sites-of-2019/
 - https://yts.lt
 - https://torrentz2.eu/search, https://torrentz2.eu/search?f=napisy+2017
