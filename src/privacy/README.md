@@ -10,4 +10,4 @@ I have restarted the Firefox but only TLS 1.3 passed the test https://www.cloudf
 
 After turning off/on wire connection, DNSSEC test passed.
 
-Should I reboot computer?
+After `network.trr.mode 2` and Firefox restart all tests passed https://blog.cloudflare.com/encrypt-that-sni-firefox-edition/
