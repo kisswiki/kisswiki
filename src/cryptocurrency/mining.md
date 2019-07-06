@@ -35,3 +35,13 @@ https://www.reddit.com/r/Bitcoin/comments/5yvqf7/how_to_start_mining_in_2017/
 Koparki BitCoinów najwyraźniej nie zaimplementowały poprawnie kryptografii… Większość koparek korzysta z protokołu o nazwie (nomen omen) Stratum, który nie wspiera szyfrowania, ani nie zapewnia integralności przesyłanym danym, co oczywiście umożliwia ataki MITM.
 
 https://niebezpiecznik.pl/post/przepiekny-atak-na-uzytkownikow-bitcoina-ukradl-kryptowalute-przez-bgp/
+
+BGP był tylko pierwszym krokiem ataku mającym na sekundy przekierować ruch na maszynę hakera, który potem wykorzystał słabość softu do kopania w celu TYMCZASOWEJ zmiany kopalni dla klienta. Dlatego restart pomagał, po restarcie soft klienta podłączał się z powrotem do właściwej kopalni. Dlatego pisałem wcześniej, że artykuł wprowadza w błąd. BGP był tylko pierwszym krokiem ataku, jest to wykorzytywane w wielu atakach…
+
+https://niebezpiecznik.pl/post/przepiekny-atak-na-uzytkownikow-bitcoina-ukradl-kryptowalute-przez-bgp/#comment-381188
+
+## Szpadel
+
+Po pierwsze szpadel jest konieczny i to nie ulega wątpliwości. Pamiętaj że czasem musisz klęknąć i w tej pozycji pogrzewać w bitglebie żeby lepiej i szybciej wyciągnąć małe bitcoiny. Tutaj zalecałym ochraniacze na kolana (takiej jak czasem używa się na budowie lub przez ogrodników), jako że kopanie gołymi rękami (bez rękawiczek, bitcoiny są bardzo delikatne i można je szybko stracić) zalecam Ci żebyś przed kopaniem użył mydła i podrapał go (żeby ziemia nie wchodziła Ci pod paznokcie, to bardzo ważne). Krzysiek również ważnym narzędziem są google, jak długo będziesz w kopalni, cząstki bitwęgla może Ci się osadzać wokół oczu, bo bardzo nie ładnie wygląda, a co ważniejsze nie da się tego łatwo zmyć.
+
+https://niebezpiecznik.pl/post/przepiekny-atak-na-uzytkownikow-bitcoina-ukradl-kryptowalute-przez-bgp/#comment-380566
