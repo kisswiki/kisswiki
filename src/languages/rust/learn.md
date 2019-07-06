@@ -20,6 +20,8 @@ On git bash in Windows it opened file:///C:/Users/user/.rustup/toolchains/stable
 on Ubuntu WSL command does not work. I need to go to
 - file:///C:/Users/user/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/user/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/share/doc/rust/html/book/index.html
 
+But opening pages from that location is very slow.
+
 - https://github.com/rust-lang/rust/issues/20866#issuecomment-493044822
 - https://askubuntu.com/questions/759880/where-is-the-ubuntu-file-system-root-directory-in-windows-subsystem-for-linux-an
 
