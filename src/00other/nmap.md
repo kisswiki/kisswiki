@@ -40,13 +40,29 @@ stack traceback:
 
 so I see ip addresses but without geolocation. Output should be like on example here https://nmap.org/nsedoc/scripts/traceroute-geolocation.html .
 
-After using https://github.com/nmap/nmap/blob/74f1b37ff2c44378d587e35de6ab27551d387dfd/scripts/traceroute-geolocation.nse got the same error.
+After using https://github.com/nmap/nmap/blob/74f1b37ff2c44378d587e35de6ab27551d387dfd/scripts/traceroute-geolocation.nse got the error:
+
+```
+NSE: traceroute-geolocation against google.com (172.217.16.46) threw an error!
+...cal/bin/../share/nmap/scripts/traceroute-geolocation.nse:165: attempt to perform arithmetic on a nil value
+stack traceback:
+	...cal/bin/../share/nmap/scripts/traceroute-geolocation.nse:165: in function <...cal/bin/../share/nmap/scripts/traceroute-geolocation.nse:158>
+	(...tail calls...)
+```
 
 Trying from source https://nmap.org/book/inst-source.html
 
 Got the same error.
 
 I have opened the issue https://github.com/nmap/nmap/issues/1654 according to https://nmap.org/book/man-bugs.html .
+
+Update: Works with https://github.com/nmap/nmap/blob/74f1b37ff2c44378d587e35de6ab27551d387dfd/scripts/traceroute-geolocation.nse and change:
+
+```diff
+<       local rtt = tonumber(hop.srtt) * 1000
+---
+>       local rtt = tonumber(hop.times.srtt) * 1000
+```
 
 ## show on map
 
