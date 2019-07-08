@@ -12,6 +12,8 @@
 
 - https://www.plus.pl/kontakt/
 
+601102601 potem wybrać 1 0 aby połączyć się z konstultantem.
+
 ### Taryfa Nowy Plusz
 
 Zobaczyć w regulaminy na dole https://www.plushbezlimitu.pl/na-karte?
@@ -24,6 +26,8 @@ Zobaczyć w regulaminy na dole https://www.plushbezlimitu.pl/na-karte?
   - 20 zł/30 dni 3GB internetu rozmowy komórkowe i stacjonarne do wszystkich sieci
 
 - https://mvno-gsm.pl/szybkie-kody-ussd/plush-na-karte/
+
+Musi być chociaż 1 grosz na koncie żeby internet działał. Więc jak doładuję za 25 zł a taryfę mam za 25 zł to nie będzie działał.
 
 ### Doładowanie
 
