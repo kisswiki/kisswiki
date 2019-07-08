@@ -10,6 +10,7 @@
 - https://github.com/norpan/elm-html5-drag-drop
 - https://discourse.elm-lang.org/t/drag-and-drop-with-web-components-custom-elements-instead-of-ports/1260
 - https://discourse.elm-lang.org/t/grrrr-ondragover/1308/2
+- drag and events [Ellie - Untitled](https://ellie-app.com/3nJ3z59nCdQa1)
 
 ## problem with fast dragging and dropping
 
