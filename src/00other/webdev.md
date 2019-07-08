@@ -9,3 +9,5 @@
 
 > Web development, aka that job where you're always just a browser tab away from a distraction black hole from which there is no escape
 > -- https://twitter.com/ajlkn/status/780470393089953796
+
+- https://web.dev/performance-budgets-101
