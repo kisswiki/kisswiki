@@ -38,3 +38,7 @@
 People you cannot hide from your poison. It’s out there and it will find you so in the words of my friend’s still living mother: ‘If I would have known my life would end this way I would have lived it more to the fullest enjoying everything I was told not to!’ None of us are getting out of here alive, so please stop treating yourself like an after thought. Eat the delicious food. Walk in the sunshine. Jump in the ocean. Say the truth that you’re carrying in your heart like hidden treasure. Be silly. Be kind. Be weird. There’s no time for anything else.“
 
 https://www.thinkinghumanity.com/2016/01/15-mind-blowing-words-by-keanu-reeves.html
+
+“If you have been brutally broken but still have the courage to be gentle to other living beings, then you’re a badass with a heart of an angel”
+
+https://www.adaptnetwork.com/inspirational-quotes/brutally-broken-gentle-living-beings-badass-heart-of-an-angel-keanu-reeves/
