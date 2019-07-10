@@ -33,7 +33,7 @@ $ ncdu -f dropbox.json
 ## rclone
 
 
-I got error wheny coppying like:
+I got errors wheny copying:
 
 ```
 2019/05/31 16:01:00 ERROR : projects/javascript/date/doc/Writing_A_Daytime_Server_In_Node_js_pliki/shCore.js: Failed to copy: failed to open source object: path/restricted_content/...
