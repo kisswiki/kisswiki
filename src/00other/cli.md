@@ -281,6 +281,7 @@ https://github.com/Gabriel439/bench
 
 - https://github.com/ogham/exa
 - https://github.com/Peltoche/lsd
+  - with this font https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/UbuntuMono/Regular/complete/Ubuntu%20Mono%20Nerd%20Font%20Complete%20Mono.ttf
 
 ## tldr > man
 
