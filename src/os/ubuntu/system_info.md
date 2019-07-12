@@ -1,0 +1,6 @@
+- Gnome System Monitor
+- top
+- htop
+- https://crates.io/crates/rtop
+- https://crates.io/crates/process_viewer
+- https://crates.io/crates/sysinfo-web
