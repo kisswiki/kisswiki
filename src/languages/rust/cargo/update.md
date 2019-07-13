@@ -2,6 +2,14 @@ Update dependencies
 
 `cargo update`
 
+Better:
+
+`cargo install cargo-edit`
+
+`cargo upgrade`
+
+https://github.com/killercup/cargo-edit/pull/138
+
 ## Update dependencies for installed binaries
 
 `cargo install -f crate` install single crate
