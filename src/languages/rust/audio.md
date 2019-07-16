@@ -1,0 +1,9 @@
+- https://areweaudioyet.com/
+- https://github.com/rust-unofficial/awesome-rust#audio-1
+- https://github.com/RustAudio
+- rodio example needs `loop {}` at the end, but still it does not play audio on Ubuntu https://github.com/tomaka/rodio/issues/228#issuecomment-494431622
+  - there is example with function `sleep_until_end()` https://users.rust-lang.org/t/the-cpal-and-rodio-libraries-audio-playback/2973
+- https://stackoverflow.com/questions/33057198/how-to-play-a-wav-file-with-rust-sdl2
+- https://users.rust-lang.org/t/play-sound-in-game-with-sdl2/30192
+- rodio uses cpal https://github.com/tomaka/cpal/blob/master/examples/beep.rs
+- https://rust-audio.discourse.group/
