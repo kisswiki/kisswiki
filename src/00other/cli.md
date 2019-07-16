@@ -404,6 +404,9 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 - https://ngrok.com/
 - https://localtunnel.me
 - http://serveo.net/
+  - `ssh -R 80:localhost:3000 serveo.net`
+  - target doesn't have to be on localhost `ssh -R 80:example.com:80 serveo.net`
+  - request particular domain `ssh -R incubo.serveo.net:80:localhost:8888 serveo.net`
 
 ## tig
 
