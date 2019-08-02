@@ -1,3 +1,12 @@
+This works now:
+
+
+`TERM=xterm-256color emacs -nw file.js`
+
+https://github.com/microsoft/WSL/issues/345#issuecomment-261925991
+
+## Old
+
 1.To remove old color scheme delete in regedit.exe key `HKEY_CURRENT_USER\Console\something_with_ubuntu_in_the_name` [1]
 2.Download ColorTool https://github.com/Microsoft/console/releases
 3.Download "Terminal Basic" from https://github.com/mbadolato/iTerm2-Color-Schemes and unpack it to `colortool/schemes`.
