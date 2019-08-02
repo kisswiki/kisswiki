@@ -31,6 +31,8 @@ Then `:PlugStatus` or `:PlugInstall` to install plugins.
 
 #### Ubuntu WSL
 
+Update 2019-08-02: Now it does not work. Maybe because of WSL2?
+
 copy and paste to work
 
 `sudo ln -s /mnt/d/Neovim/bin/win32yank.exe /usr/bin/win32yank`
@@ -42,7 +44,7 @@ https://github.com/neovim/neovim/wiki/FAQ#how-to-use-the-windows-clipboard-from-
 ~/.gitconfig
 
 ```
-[url "ssh://git@github.com/"]                                                   
+[url "ssh://git@github.com/"]
     insteadOf = https://github.com/
 ```
 
