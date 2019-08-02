@@ -7,6 +7,8 @@ $ emacs --help
 --maximized, -mm  
 ```
 
+only `-fs` works for me.
+
 ## Windows
 
 `emacsclientw.exe -c -n -a "runemacs -fs --xrm \"Emacs.toolBar:0\" --xrm \"Emacs.menuBar:0\""`
