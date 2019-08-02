@@ -1,11 +1,14 @@
 This works now:
 
-
 `TERM=xterm-256color emacs -nw file.js`
 
 https://github.com/microsoft/WSL/issues/345#issuecomment-261925991
 
-## Old
+## ColorTool
+
+When new version of ColorTool will be released https://github.com/microsoft/terminal/issues/1160#issuecomment-499872022, it should be possible to set color scheme in Windows Terminal.
+
+There is also possibility to set in `"background": "#ffffff"` in profile in settings https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md
 
 1.To remove old color scheme delete in regedit.exe key `HKEY_CURRENT_USER\Console\something_with_ubuntu_in_the_name` [1]
 2.Download ColorTool https://github.com/Microsoft/console/releases
@@ -19,4 +22,3 @@ https://github.com/microsoft/WSL/issues/345#issuecomment-261925991
 
 - [ColorTool does not work on Linux distros · Issue #22 · Microsoft/console](https://github.com/Microsoft/console/issues/22#issuecomment-441668975)
 - Another approach https://github.com/Microsoft/console/issues/39#issuecomment-352983935
-
