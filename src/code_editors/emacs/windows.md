@@ -41,3 +41,9 @@ https://emacs.stackexchange.com/a/26081/19475
 ```
 
 https://emacs.stackexchange.com/questions/27326/gui-emacs-sets-the-exec-path-only-from-windows-environment-variable-but-not-from
+
+## Install and update with pacman
+
+`pacman -S mingw-w64-x86_64-emacs`
+
+https://www.gnu.org/software/emacs/download.html
