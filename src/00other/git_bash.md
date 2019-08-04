@@ -47,4 +47,9 @@ Activate it in current shell:
 
 ## tmux
 
-
+1. Install https://www.msys2.org/ and run bash shell from msys2.
+2. Install tmux using the following command: pacman -S tmux
+3. Go to msys2 directory, in my case it is C:\msys64\usr\bin
+4. Copy tmux.exe and msys-event-2-1-4.dll to your Git for Windows directory, mine is C:\Program Files\Git\usr\bin. Please note, that in future, you can see this file with the version number higher than 2-1-4
+ 
+https://blog.pjsen.eu/?p=440
