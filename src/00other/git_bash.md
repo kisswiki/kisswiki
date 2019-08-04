@@ -44,3 +44,7 @@ Activate it in current shell:
 
 - http://stackoverflow.com/questions/4485059/git-bash-is-extremely-slow-in-windows-7-x64/43569540#43569540
 - https://github.com/msysgit/msysgit/wiki/Diagnosing-why-Git-is-so-slow
+
+## tmux
+
+
