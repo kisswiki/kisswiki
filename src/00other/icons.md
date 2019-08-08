@@ -230,3 +230,14 @@ Oh, and the icons aren't that consistent. It happens over time as you do 40-ish 
 >Really happy that this will be addressed.
 >
 >-- https://news.ycombinator.com/item?id=12780683
+
+## Hamburger icon in Unicode
+
+≡ U+2261 IDENTICAL TO
+
+☰ U+2630 TRIGRAM FOR HEAVEN
+
+U+2261 has better support?
+
+- Trigram for heaven is actually a Chinese character hence the lack of it on Android https://stackoverflow.com/questions/32070745/unicode-9776-hamburger-not-displaying-in-android-chrome#comment79008485_32081526
+- https://coderwall.com/p/jsb-vw/hamburger-icon-with-unicode
