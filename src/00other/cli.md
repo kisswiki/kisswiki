@@ -431,7 +431,7 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 - https://joeyh.name/code/moreutils/
 - facebook's fpp https://asciinema.org/a/19519
 - like `7z x` or `tar -x` and more https://github.com/jwiegley/una
-- pv, ngrok, localtunnel, qalc and many more https://www.reddit.com/r/linux/comments/b5n1l5/whats_your_favorite_cli_tool_nobody_knows_about/
+- pv, qalc and many more https://www.reddit.com/r/linux/comments/b5n1l5/whats_your_favorite_cli_tool_nobody_knows_about/
   - https://joeyh.name/code/moreutils/
 - speedometer, example usage https://github.com/dustinkirkland/hollywood/blob/e75c619546d31dc9fc66c472c9d06da647ed1174/lib/hollywood/speedometer
 - https://01.org/powertop/
