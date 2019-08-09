@@ -31,12 +31,16 @@ http://askubuntu.com/questions/38021/how-to-add-a-ppa-on-a-server/38029#38029
 ## install updates
 
 ```bash
-sudo apt update        # Fetches the list of available updates
-sudo apt upgrade       # Strictly upgrades the current packages
-sudo apt dist-upgrade  # Installs updates (new ones)
+sudo apt update           # Fetches the list of available updates
+sudo apt upgrade -y       # Installs some updates; does not remove packages
+sudo apt full-upgrade -y  # Installs updates; may also remove some packages, it needed
+sudo apt dist-upgrade -y
+sudo apt autoremove -y    # Removes any old packages that are no longer needed
+sudo apt autoclean -y
 ```
 
-https://askubuntu.com/questions/301484/how-do-i-update-ubuntu-manually
+- https://askubuntu.com/questions/196768/how-to-install-updates-via-command-line
+- https://askubuntu.com/questions/301484/how-do-i-update-ubuntu-manually
 
 ## upgrade release
 

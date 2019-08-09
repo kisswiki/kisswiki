@@ -1,0 +1,2 @@
+- https://www.makeuseof.com/tag/solving-the-read-only-external-hard-drive-problem-on-your-mac/
+- https://superuser.com/questions/1133109/osx-read-only-external-hdd/1133169#1133169
