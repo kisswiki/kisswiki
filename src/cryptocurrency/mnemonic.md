@@ -1,0 +1,15 @@
+- blockchain.info was using non-standard wordlist
+  - password recovery from mnemonic tool for old wordlist https://blockchain.info/wallet/recover-wallet
+  - password recovery from mnemonic tool for new wordlist https://login.blockchain.com/#/recover
+    - https://support.blockchain.com/hc/en-us/articles/115001298143-Your-Recovery-Phrase-The-Failsafe
+  - https://github.com/gurnec/btcrecover/issues/56#issuecomment-323095328
+  - old wordlist https://github.com/zootreeves/blockchain.info/blob/master/mnemonic_words_v3.html
+  - new wordlist https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md
+  - https://www.reddit.com/r/Bitcoin/comments/7kf60d/recovering_legacy_wallet_from_blockchaininfo_21/
+  - https://www.reddit.com/r/Bitcoin/comments/6cd4au/how_do_i_recover_a_blockchaininfo_wallet_with_a/
+  - https://www.reddit.com/r/Bitcoin/comments/2jazzc/bip0039_word_list_alert_check_your_backups_now/
+- https://en.bitcoinwiki.org/wiki/Mnemonic_phrase
+- newer standard https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
+- https://en.bitcoinwiki.org/wiki/Mnemonic_phrase
+- https://bitcoin.stackexchange.com/questions/89500/how-convert-a-mnemonic-phrase-back-and-forth-between-different-number-of-words
+- https://www.bitc2.org/how-to-get-private-keys-from-blockchain.info
