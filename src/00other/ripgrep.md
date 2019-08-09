@@ -56,3 +56,32 @@ or
 
 - A path separator must be exactly one byte, but the given separator is 20 bytes https://github.com/BurntSushi/ripgrep/issues/957
 - https://www.mhonarc.org/archive/html/procmail/2010-12/msg00019.html
+
+## ignore case and smart case
+
+```
+-i/--ignore-case: When searching for a pattern, ignore case differences. That is rg -i fast matches fast, fASt, FAST, etc.
+-S/--smart-case: This is similar to --ignore-case, but disables itself if the pattern contains any uppercase letters. Usually this flag is put into alias or a config file.
+```
+
+https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md
+
+## regex spec
+
+https://docs.rs/regex
+
+## no negative lookahead, works in ag
+
+```
+ag 'foo(?!.*bar)'
+```
+
+This would find all rows with "foo", but not with "bar" somewhere after that on the same line.
+
+You can satisfy this particular use case relatively easily with `rg foo | rg -v 'foo.*bar'`.
+
+https://github.com/BurntSushi/ripgrep/issues/188
+
+## filter out some extensions
+
+`cat yoga.txt | rg -N -i -v '.*\.(jpe?g|torrent|pdf|epub|mobi|azw3|djv|md|lrf)$'`
