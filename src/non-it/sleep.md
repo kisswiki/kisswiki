@@ -1,3 +1,8 @@
+- ["Learn How To Sleep Correctly" | DO THIS 12 MINUTES BEFORE YOU SLEEP - YouTube](https://www.youtube.com/watch?v=3soroEZ3yBk)
+- [Tips to Eat Right & Sleep Less For Students - Sadhguru - YouTube](https://www.youtube.com/watch?v=GM0lU5Dq7eA)
+
+## Old
+
 One of my most controversial software opinions is that your sleep quality and stress level matter far, far more than the languages you use or the practices you follow. Nothing else comes close: not type systems, not TDD, not formal methods, not ANYTHING.
 
 https://twitter.com/hillelogram/status/1119709859979714560
