@@ -54,6 +54,8 @@ $ . ~/.bashrc
 $ vim <Ctrl-t>
 ```
 
+For Windows set env `FZF_DEFAULT_COMMAND` to `rg --files . 2> nul` https://github.com/junegunn/fzf/wiki/Windows
+
 ### Keys
 
 `CTRL-T` to add paths to a command
