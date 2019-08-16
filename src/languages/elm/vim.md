@@ -13,3 +13,6 @@ viw        Select word when cursor somewhere on the word
 - https://twitter.com/rtfeldman/status/1128712928276963330
 - https://github.com/tpope/vim-surround
 - https://github.com/emacs-evil/evil-surround
+- https://stackoverflow.com/questions/2746484/is-there-an-extension-or-mode-in-emacs-similar-to-surround-vim
+- http://weibeld.net/vim/surround-plugin.html
+- https://www.reddit.com/r/emacs/comments/6fpd88/how_change_evilsurroundregion_to_not_prepend_and/
