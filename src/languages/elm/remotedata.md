@@ -8,7 +8,7 @@
 ## example
 
 ChuckDuck22:
- 
+
 I gave a talk on union types at a local meetup and came up with this RemoteData example as a demonstration of their value.
 
 Before - without RemoteData https://ellie-app.com/wvpRRNSpJ3a1/2
@@ -42,3 +42,46 @@ https://elmlang.slack.com/archives/general/p1484067654012705
 ## Is elm-web-data in any way related to https://github.com/krisajenkins/remotedata?
 
 ohanhi: Mine is much more opinionated though, and comes with a Http module, whereas Kris' has lots more helpers for transforming the type
+
+## Loading state
+
+I cannot get `Loading` state.
+
+I am using big delay:
+
+```elm
+submitIdentityGenerateChi : String -> (RemoteData.RemoteData Http.Error Credentials -> msg) -> Cmd msg
+submitIdentityGenerateChi identityName msg =
+    Http.post
+        --{ url = "http://localhost:8081/v1/identityGenerateChi"
+        { url = "https://www.mocky.io/v2/5185415ba171ea3a00704eed?mocky-delay=40000ms"
+        , body = Http.jsonBody (E.string identityName)
+        , expect = expectJson_ (RemoteData.fromResult >> msg) D.string
+        }
+```
+
+In https://elmprogramming.com/remote-data.html it says:
+
+>You’ll see a table containing posts immediately after clicking the Get data from server button. Although the HTTP request transitions to Loading state after the button is clicked, we don’t see Loading... on the page. For that text to appear, we need to make our server wait a couple of seconds before returning a response.
+
+But elmprogramming is based on elm version.
+
+And got this:
+
+<pre>
+Sadly, you're right. This is a limitation of elm-http - each of its calls can only yield one event. Ideally, it could produce Loading immediately, and then Success a (or Failure e) on completion. IIRC that was possible in earlier versions of Elm/elm-http, but not any more.
+
+It might be possible with tasks, but I believe that would involve creating a whole new http library at a lower level.
+
+(It's sort of possible with Http.Progress, but in practice it's not very useful unless your time to first byte is very short, but your time to last byte is very long.)
+
+In the meantime, your only option is to do something like:
+
+`   ( { model | somedata = Loading }, getNews )`
+</pre>
+
+https://github.com/krisajenkins/remotedata/issues/16#issuecomment-319793213
+
+## Progress state
+
+- [Add progress data to Loading state · Issue #25 · krisajenkins/remotedata](https://github.com/krisajenkins/remotedata/issues/25)
