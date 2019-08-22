@@ -4,6 +4,9 @@
   - http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack
 - Add `Refreshing` constructor to `RemoteData` ? https://github.com/krisajenkins/remotedata/issues/9
 - rtfeldman talk on http://2018.elmeurope.org with `LoadedOne Doc` https://youtu.be/MlyGg-DIqnU?t=3518 when version of doc loaded locally was competing with remote.
+- https://elmseeds.thaterikperson.com/remotedata
+- https://dev.to/johndashkelly/a-remote-data-request-api-in-elm-3e5e
+- https://github.com/sporto/elm-example-app
 
 ## example
 
