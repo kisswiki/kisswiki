@@ -245,6 +245,10 @@ q   Quit
 
 `NCDU_SHELL="mpv *" ncdu`
 
+or better
+
+`NCDU_SHELL="mpv_playstlist.sh` from https://github.com/rofrol/dotfiles/blob/master/bin/mpv_playlist.sh
+
 Add alias ~/.bashrc
 
 `alias ncdumc='NCDU_SHELL="mpv *" ncdu'`
@@ -252,6 +256,25 @@ Add alias ~/.bashrc
 To quit mc inside ncdu, I need to press `Shift+Alt+0` instead of just `Alt+0`.
 
 - https://code.blicky.net/yorhel/ncdu/issues/90
+
+## dua
+
+`cargo install dua-cli`
+
+`dua i /some/dir`
+
+`?` help
+
+`Shift+o` to open file
+
+`d` or `space` to select/deselect`
+
+`Ctrl+r` to remove selected
+
+`q` or `Ctrl-c` to quit
+
+- https://www.reddit.com/r/commandline/comments/c10f73/dua_interactive_du_written_in_rust/
+- https://github.com/Byron/dua-cli
 
 ## du
 
