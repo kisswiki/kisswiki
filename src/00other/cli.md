@@ -211,6 +211,8 @@ https://news.ycombinator.com/item?id=15429960
 
 - https://dev.yorhel.nl/ncdu
 - https://github.com/jarun/nnn
+- https://github.com/bootandy/dust
+- https://github.com/vmchale/tin-summer
 
 `ncdu`
 
@@ -239,7 +241,7 @@ b   Spawn shell in current directory
 
 q   Quit
 
-## Shortcut top open file
+### Shortcut top open file
 
 `NCDU_SHELL=mc ncdu`
 
