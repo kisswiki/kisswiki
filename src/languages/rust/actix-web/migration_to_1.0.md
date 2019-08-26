@@ -21,3 +21,24 @@ Solution: use `.to_async`
 Use `impl Future` instead of `FutureResult`
 
 Use `fn index(req: HttpRequest)` instead of `fn index(&req: HttpRequest)`
+
+
+After`cargo upgrade` (from `cargo-edit`):
+
+```
+    Upgrading actix-files v0.1.3 -> v0.1.4
+    Upgrading serde_derive v1.0.94 -> v1.0.99
+    Upgrading serde v1.0.94 -> v1.0.99
+    Upgrading actix-web v1.0.3 -> v1.0.5
+```
+
+it does not compile:
+
+```
+512 |             Err(e) => return Either::A(err(Error::from(e).into())),
+    |                                            ^^^^^^^^^^^ the trait `actix_http::error::ResponseError` is not implemented for `serde_urlencoded::ser::Error`
+```
+
+Solution: `cargo clean && rm Cargo.lock`
+
+- [actix-web DOES NOT build because of `awc` dependecy compilation error · Issue #1048 · actix/actix-web](https://github.com/actix/actix-web/issues/1048#issuecomment-523683114)
