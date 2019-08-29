@@ -155,3 +155,11 @@ colorToRgbaString color =
 ```
 
 https://stackoverflow.com/questions/1914115/converting-color-value-from-float-0-1-to-byte-0-255/1914172#1914172
+
+## How to center wrapped flexbox - you can't
+
+https://stackoverflow.com/questions/32802202/how-to-center-a-flex-container-but-left-align-flex-items/32811002#32811002
+
+## problem with wrappedRow
+
+https://github.com/mdgriffith/elm-ui/issues/57
