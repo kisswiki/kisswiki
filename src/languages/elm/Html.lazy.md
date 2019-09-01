@@ -9,3 +9,10 @@ Html.lazy is an optimization and like all optimization, it involves trade offs.
 Lazy should only be used when it’s known to have a good effect, and that is pretty hard for a compiler to know.
 
 https://discourse.elm-lang.org/t/any-disadvantage-in-always-using-html-lazy/4086/17
+
+
+It can also be useful to use lazy in long lists of items. In the TodoMVC app, it is all about adding entries to your todo list. You could conceivably have hundreds of entries, but they change very infrequently. This is a great candidate for laziness! By switching viewEntry entry to lazy viewEntry entry we can skip a bunch of allocation that is very rarely useful. So the second tip is try to use lazy nodes on repeated structures where each individual item changes infrequently.
+
+https://guide.elm-lang.org/optimization/lazy.html
+
+Also https://guide.elm-lang.org/optimization/keyed.html
