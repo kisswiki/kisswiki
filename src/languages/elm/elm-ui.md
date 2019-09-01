@@ -163,3 +163,7 @@ https://stackoverflow.com/questions/32802202/how-to-center-a-flex-container-but-
 ## problem with wrappedRow
 
 https://github.com/mdgriffith/elm-ui/issues/57
+
+## Element.Events.on, targetValue, targetChecked, keyCode are hidden in documentation
+
+https://github.com/mdgriffith/elm-ui/blob/1.1.5/src/Element/Events.elm#L177
