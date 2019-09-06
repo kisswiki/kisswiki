@@ -4,7 +4,7 @@ https://elmlang.slackarchive.io/beginners/page-99
 
 hi everyone! I wrote a recursive decoder, but I keep getting the `decoder.callback is not a function` error. Here is my code: https://ellie-app.com/3cyRSDDVb2Sa1/1. I read the solution Evan wrote on this problem, but I still can't get it to work... I also asked this question on reddit, and someone suggested this answer https://ellie-app.com/3cGKP4Djcdqa1/0, which seems to work - but when I put it in my project I still get the `decoder.callback is not a function error`...
 
-the recursive is a known issue (https://github.com/elm-lang/elm-compiler/issues/1591), and the fix for this problem should be https://github.com/elm-lang/elm-compiler/blob/master/hints/recursive-alias.md but I implemented this, and I still get the error... So I'm not sure what I'm doing wrong
+the recursive is a known issue (https://github.com/elm/compiler/issues/1591), and the fix for this problem should be https://github.com/elm/compiler/blob/master/hints/recursive-alias.md but I implemented this, and I still get the error... So I'm not sure what I'm doing wrong
 
 @ilias:
 
@@ -70,5 +70,5 @@ in the ellie it works fine
 
 ##
 
-- code gen problems https://github.com/elm-lang/elm-compiler/issues/1377
-- https://github.com/elm-lang/elm-compiler/labels/meta
+- code gen problems https://github.com/elm/compiler/issues/1377
+- https://github.com/elm/compiler/labels/meta

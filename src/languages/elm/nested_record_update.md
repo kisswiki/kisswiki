@@ -3,7 +3,7 @@
   - https://github.com/toastal/toast.al-blog/blob/master/posts/code/2017-01-13-playing-with-prisms-for-the-not-so-isomorphic.md
   - https://github.com/toastal/select-prism
 - http://stackoverflow.com/questions/38545127/how-to-make-a-generic-update-function-for-a-nested-record-in-elm#/
-- nested record updates are not allowed https://github.com/elm-lang/error-message-catalog/issues/159
+- nested record updates are not allowed https://github.com/elm/error-message-catalog/issues/159
 - http://stackoverflow.com/questions/41519926/how-to-upate-a-record-that-has-another-record-within-it/41523135#41523135
 - http://stackoverflow.com/questions/31770421/update-a-field-in-an-elm-lang-record-via-dot-function
 - https://medium.com/elm-shorts/updating-nested-records-in-elm-15d162e80480

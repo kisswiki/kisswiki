@@ -10,7 +10,7 @@ type Foo = Bar Baz
 
 Is Foo a new type with a data constructor Bar which takes a Baz, or is Foo a type alias for the type constructor Bar applied to the type Baz?
 
-https://github.com/elm-lang/elm-lang.org/issues/249#issuecomment-74377357
+https://github.com/elm/elm-lang.org/issues/249#issuecomment-74377357
 
 ## Contstructor
 

@@ -153,9 +153,9 @@ https://news.ycombinator.com/item?id=17143494
 ## isomorphic / server-side rendering
 
 - https://groups.google.com/forum/#!topic/elm-discuss/cSNfNK4w8Ow
-- https://github.com/elm-lang/elm-compiler/issues/1150
+- https://github.com/elm/compiler/issues/1150
 - https://github.com/eeue56/servelm
-- I think you may want to check https://github.com/NoRedInk/take-home#support-summary. Note the item "Server-side rendered client-side HTML". https://github.com/elm-lang/elm-compiler/issues/1113#issuecomment-218251181
+- I think you may want to check https://github.com/NoRedInk/take-home#support-summary. Note the item "Server-side rendered client-side HTML". https://github.com/elm/compiler/issues/1113#issuecomment-218251181
 - https://groups.google.com/forum/#!topic/elm-discuss/SFIC-yuHTI8
   - https://github.com/laszlopandy/elm-console
   - https://github.com/ElmCast/elm-node
@@ -204,7 +204,7 @@ https://news.ycombinator.com/item?id=17143494
 
 ## string interpolation
 
-- not done yet https://github.com/elm-lang/elm-compiler/issues/905
+- not done yet https://github.com/elm/compiler/issues/905
 - https://github.com/lukewestby/elm-string-interpolate
 
 ## import
@@ -276,7 +276,7 @@ https://news.ycombinator.com/item?id=17143494
 ## modules
 
 - http://boonofcode.svbtle.com/organising-elm-components
-- if there's a private Utils module in evancz/focus and in evancz/automaton, the module that wins at runtime depends on what order things were compiled https://github.com/elm-lang/elm-compiler/issues/826
+- if there's a private Utils module in evancz/focus and in evancz/automaton, the module that wins at runtime depends on what order things were compiled https://github.com/elm/compiler/issues/826
 
 ## Entity Component System
 
@@ -302,7 +302,7 @@ https://news.ycombinator.com/item?id=17143494
 
 ## milestones
 
-- https://github.com/elm-lang/elm-compiler/milestones
+- https://github.com/elm/compiler/milestones
 
 ## style guide
 

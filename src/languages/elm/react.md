@@ -6,4 +6,4 @@
 
 I actually found out that leaking stuff is not necessarily specific to multiple elm apps on the page, but more to reinitializing elm modules(calling Elm.<Module>.embed/fullscreen()). This can happen for example when using react-elm-components and mounting the component multiple times (i.e. by navigating to a part of the page where the component isn't shown and then back to where it is) if subscriptions are used without reloading the page.
 
-https://github.com/elm-lang/core/issues/886#issuecomment-317129287
+https://github.com/elm/core/issues/886#issuecomment-317129287

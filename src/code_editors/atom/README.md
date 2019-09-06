@@ -146,7 +146,7 @@
   - generated theme will appear in directory specified in Settings > Project Home. Default is ~/github
 - http://flight-manual.atom.io/hacking-atom/sections/creating-a-theme/
 - https://atom.io/themes/mbo + one dark or https://atom.io/themes/dark-flat-ui
-  - https://github.com/elm-lang/elm-lang.org/blob/00badde648c0451b2ce1d2654c83a13c3b7e9ce6/src/editor/editor.js#L215
+  - https://github.com/elm/elm-lang.org/blob/00badde648c0451b2ce1d2654c83a13c3b7e9ce6/src/editor/editor.js#L215
   - used in in elm i.e. http://elm-lang.org/examples/flickr
 
 ## polish accents with right alt

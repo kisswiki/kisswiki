@@ -128,4 +128,6 @@ https://www.reddit.com/r/elm/comments/5o5p63/experiences_with_elm_on_a_small_pro
 
 ## ctrl-click
 
-https://github.com/elm-lang/navigation/issues/13#issuecomment-272996582
+Dead link https://github.com/elm-lang/navigation/issues/13#issuecomment-272996582
+
+Navigation is now here https://package.elm-lang.org/packages/elm/browser/latest/Browser-Navigation
