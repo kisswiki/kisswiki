@@ -1,0 +1,6 @@
+- https://twitter.com/czaplic/status/859065124006445056?lang=en
+  - https://ellie-app.com/kg5X9qpYqfa1
+- https://discourse.elm-lang.org/t/list-array-or-dict-for-a-series-of-dynamic-checkboxes/2890/2
+  - https://ellie-app.com/4nrZ6mhdHBWa1
+- [Checkbox displaying with the wrong checked state · Issue #24 · elm/virtual-dom](https://github.com/elm/virtual-dom/issues/24)
+- https://bizmonger.wordpress.com/2017/06/09/elm-generating-controls-dynamically/
