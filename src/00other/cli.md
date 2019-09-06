@@ -11,6 +11,7 @@
 - https://serverfault.com/questions/3743/what-useful-things-can-one-add-to-ones-bashrc
 - https://altbox.dev/
 - https://www.reddit.com/r/linuxquestions/comments/btsl09/what_are_your_favorite_cli_applications/
+- https://www.reddit.com/r/rust/comments/cysvjh/what_are_some_amazing_softwaresoftware_clones/
 
 ## bat > cat
 
