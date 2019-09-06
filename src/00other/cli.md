@@ -7,7 +7,8 @@
 - Rust CLI Working Group https://fosstodon.org/@clirust
 - https://news.ycombinator.com/item?id=15429390
 - https://github.com/knqyf263/pet
-- https://github.com/topics/terminal
+- https://github.com/topics/terminal?o=desc&s=stars
+- https://github.com/topics/command-line-tools?o=desc&s=stars
 - https://serverfault.com/questions/3743/what-useful-things-can-one-add-to-ones-bashrc
 - https://altbox.dev/
 - https://www.reddit.com/r/linuxquestions/comments/btsl09/what_are_your_favorite_cli_applications/
