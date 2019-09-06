@@ -25,7 +25,7 @@
 
 ```elm
 
-Looks like `action "javascript:void(0);"` is not needed. https://ellie-app.com/9zTH65GHXa1/0 and `onSubmit` already has `preventDefault` set to `True` https://github.com/elm-lang/html/blob/2.0.0/src/Html/Events.elm#L130
+Looks like `action "javascript:void(0);"` is not needed. https://ellie-app.com/9zTH65GHXa1/0 and `onSubmit` already has `preventDefault` set to `True` https://github.com/elm/html/blob/2.0.0/src/Html/Events.elm#L130
 
 type alias Model =
   { newComment: String

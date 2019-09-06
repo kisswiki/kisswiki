@@ -1,5 +1,5 @@
 - example of onLoadSrc:
   - http://stackoverflow.com/questions/40876099/show-a-loading-placeholder-in-elm-while-it-is-rendering-dom-elements
   - https://github.com/rofrol/elm-image-slider
-- Event onWithOptions doesn't allow selective behaviour on events https://github.com/elm-lang/virtual-dom/issues/18
+- Event onWithOptions doesn't allow selective behaviour on events https://github.com/elm/virtual-dom/issues/18
 - https://github.com/splodingsocks/the-cheese-palette

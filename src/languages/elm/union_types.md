@@ -22,5 +22,5 @@ import Submodule
 Submodule.Animal
 `
 
-- https://github.com/elm-lang/elm-lang.org/issues/523
+- https://github.com/elm/elm-lang.org/issues/523
 - https://stackoverflow.com/questions/49504258/import-union-type-with-a-qualified-name

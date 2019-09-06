@@ -1,4 +1,4 @@
-- can't take List (Html Action) https://github.com/elm-lang/html/issues/84
+- can't take List (Html Action) https://github.com/elm/html/issues/84
 - offsetTop, boundingClientRect etc. https://github.com/mpizenberg/elm-image-annotation
 
 ## unregister event

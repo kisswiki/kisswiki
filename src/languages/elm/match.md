@@ -70,7 +70,7 @@ You can however do `==` comparison on strong types, so replacing the `case` with
 
 ## String -> a
 
-https://github.com/elm-lang/core/issues/805#issuecomment-272766977
+https://github.com/elm/core/issues/805#issuecomment-272766977
 
 ```elm
 locationUpdate : Navigation.Location -> App.Msg

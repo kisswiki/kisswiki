@@ -1,1 +1,1 @@
-- https://github.com/elm-lang/elm-compiler/issues/1203
+- https://github.com/elm/compiler/issues/1203

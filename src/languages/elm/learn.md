@@ -1,4 +1,4 @@
-- [Make the introduction more streamlined](https://github.com/elm-lang/elm-lang.org/issues/509#issuecomment-171261155)
+- [Make the introduction more streamlined](https://github.com/elm/elm-lang.org/issues/509#issuecomment-171261155)
 - https://github.com/elm-community/elm-faq/blob/gh-pages/index.md
 - https://learnxinyminutes.com/docs/elm/
 - flash cards ios app https://discourse.elm-lang.org/t/elm-flashcard-app-book-quiz-audio-book/805
@@ -145,7 +145,7 @@
 
 - http://stackoverflow.com/documentation/elm/topics
 - http://www.amazon.com/Seven-More-Languages-Weeks-Shaping-ebook/dp/B00RW8XFUK/
-- http://package.elm-lang.org/packages/elm-lang/core/latest - for offline clone https://github.com/elm-lang/core
+- http://package.elm-lang.org/packages/elm/core/latest - for offline clone https://github.com/elm/core
 - https://github.com/isRuslan/awesome-elm
 - http://elm-lang.org
   - http://elm-lang.org/get-started
