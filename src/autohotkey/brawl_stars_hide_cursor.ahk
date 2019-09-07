@@ -9,50 +9,18 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;; https://gist.github.com/kenny-evitt/6f6571e38295f2b65f54
 ;; https://stackoverflow.com/questions/28182639/autohotkey-move-mouse-to-center-of-screen-whenever-it-gets-towards-edge
 
-GameModeOn() {
-  SystemCursor(0)
-  SetTimer, Loop, 500   ;Call loop every 500 ms
-}
-
-GameModeOff() {
-  SystemCursor(1)
-  SetTimer, Loop, Off
-}
-
-F5::
-  StartLoop := not StartLoop
-  If StartLoop {
-      GameModeOn()
-  } Else {
-      GameModeOff()
-  }
-Return
-
 F4::
-  GameModeOff()
+  MoveCurosorCenter := not MoveCurosorCenter 
+  SystemCursor("Toggle")
 Return
 
-F4 Up::
-  GameModeOn()
-Return
 
 ~RButton::
-  RB := True
-return
-
-RButton Up::
-  RB := False
-Return
-
-Loop:
-  If (RB)
-  {
-    goto, Loop
+  If MoveCurosorCenter {
+    CoordMode, Mouse, Screen
+    MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
   }
-
-  CoordMode, Mouse, Screen
-  MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
-Return
+return
 
 ;; https://autohotkey.com/board/topic/5727-hiding-the-mouse-cursor/?p=76269
 ;; https://www.autohotkey.com/docs/commands/DllCall.htm#HideCursor
@@ -67,8 +35,6 @@ return
 ShowCursor:
 SystemCursor("On")
 ExitApp
-
-;#c::SystemCursor("Toggle")  ; Win+C hotkey to toggle the cursor on and off.
 
 SystemCursor(OnOff=1)   ; INIT = "I","Init"; OFF = 0,"Off"; TOGGLE = -1,"T","Toggle"; ON = others
 {
