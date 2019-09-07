@@ -9,25 +9,31 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;; https://gist.github.com/kenny-evitt/6f6571e38295f2b65f54
 ;; https://stackoverflow.com/questions/28182639/autohotkey-move-mouse-to-center-of-screen-whenever-it-gets-towards-edge
 
+GameModeOn() {
+  SystemCursor(0)
+  SetTimer, Loop, 500   ;Call loop every 500 ms
+}
+
+GameModeOff() {
+  SystemCursor(1)
+  SetTimer, Loop, Off
+}
+
 F5::
   StartLoop := not StartLoop
   If StartLoop {
-      SystemCursor(0)
-      SetTimer, Loop, 1000   ;Call loop every 1000 ms
+      GameModeOn()
   } Else {
-      SystemCursor(1)
-      SetTimer, Loop, Off
+      GameModeOff()
   }
 Return
 
 F4::
-  SystemCursor(1)
-  SetTimer, Loop, Off
+  GameModeOff()
 Return
 
 F4 Up::
-  SystemCursor(0)
-  SetTimer, Loop, 1000   ;Call loop every 1000 ms
+  GameModeOn()
 Return
 
 ~RButton::
