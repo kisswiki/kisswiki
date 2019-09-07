@@ -9,7 +9,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;; https://gist.github.com/kenny-evitt/6f6571e38295f2b65f54
 ;; https://stackoverflow.com/questions/28182639/autohotkey-move-mouse-to-center-of-screen-whenever-it-gets-towards-edge
 
-F4::
+F5::
   MoveCurosorCenter := not MoveCurosorCenter 
   SystemCursor("Toggle")
 Return
@@ -35,6 +35,10 @@ return
 ShowCursor:
 SystemCursor("On")
 ExitApp
+
+
+F4::SystemCursor("On")
+F4 Up::SystemCursor("Off")
 
 SystemCursor(OnOff=1)   ; INIT = "I","Init"; OFF = 0,"Off"; TOGGLE = -1,"T","Toggle"; ON = others
 {
