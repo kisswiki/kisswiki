@@ -19,3 +19,8 @@ I have restored grub to `/dev/sda` because restoring to `/dev/nvme0n1` didn't wo
 After `sudo grub-install /dev/sda`, computer booted to Ubuntu, but no grub menu was displayed.
 
 So I have done `sudo update-grub` and then got grub menu with Windows entry.
+
+- https://pl.wikipedia.org/wiki/TestDisk
+- http://exherbo.org/docs/install-guide.html
+- https://superuser.com/questions/1165534/mbr-recovery-corrupted-mbr-after-it-changed-to-dynamic-testdisk-gives-up-n
+- https://superuser.com/questions/1142870/how-can-i-efficiently-recover-a-permanently-deleted-folder-at-once/1144489#1144489
