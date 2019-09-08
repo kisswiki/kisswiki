@@ -8,10 +8,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;; https://autohotkey.com/board/topic/16943-breaking-out-of-multiple-nested-loops/?p=109881
 ;; https://gist.github.com/kenny-evitt/6f6571e38295f2b65f54
 ;; https://stackoverflow.com/questions/28182639/autohotkey-move-mouse-to-center-of-screen-whenever-it-gets-towards-edge
+;; https://stackoverflow.com/questions/28182639/autohotkey-move-mouse-to-center-of-screen-whenever-it-gets-towards-edge/28185618#28185618
+;; https://www.reddit.com/r/AutoHotkey/comments/97nxnh/keep_cursor_from_edge/e4b26aj?utm_source=share&utm_medium=web2x
 
 F5::
   MoveCurosorCenter := not MoveCurosorCenter 
-  SystemCursor("Toggle")
+  ;SystemCursor("Toggle")
 Return
 
 
@@ -19,8 +21,26 @@ Return
   If MoveCurosorCenter {
     CoordMode, Mouse, Screen
     MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
+    ClipCursor(t:=!t,A_ScreenWidth // 2 - 400,A_ScreenHeight // 2 - 400,A_ScreenWidth // 2 + 400,A_ScreenHeight // 2 + 400)
   }
 return
+
+RButton Up::
+  If MoveCurosorCenter {
+    CoordMode, Mouse, Screen
+    ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
+  }
+return
+
+
+ClipCursor( Confine=True, x1=0 , y1=0, x2=1, y2=1 ) {
+  VarSetCapacity(R,16,0)
+  NumPut(x1,&R+0)
+  NumPut(y1,&R+4)
+  NumPut(x2,&R+8)
+  NumPut(y2,&R+12)
+  Return Confine ? DllCall( "ClipCursor", UInt,&R ) : DllCall( "ClipCursor" )
+}
 
 ;; https://autohotkey.com/board/topic/5727-hiding-the-mouse-cursor/?p=76269
 ;; https://www.autohotkey.com/docs/commands/DllCall.htm#HideCursor
