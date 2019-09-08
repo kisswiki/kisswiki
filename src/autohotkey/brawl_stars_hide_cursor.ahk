@@ -12,13 +12,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;; https://www.reddit.com/r/AutoHotkey/comments/97nxnh/keep_cursor_from_edge/e4b26aj?utm_source=share&utm_medium=web2x
 
 F5::
-  MoveCurosorCenter := not MoveCurosorCenter 
-  ;SystemCursor("Toggle")
+  CenterMouseCursor := not CenterMouseCursor 
+  SystemCursor("Toggle")
 Return
 
 
 ~RButton::
-  If MoveCurosorCenter {
+  If CenterMouseCursor {
     CoordMode, Mouse, Screen
     MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
     ClipCursor(t:=!t,A_ScreenWidth // 2 - 400,A_ScreenHeight // 2 - 400,A_ScreenWidth // 2 + 400,A_ScreenHeight // 2 + 400)
@@ -26,7 +26,7 @@ Return
 return
 
 RButton Up::
-  If MoveCurosorCenter {
+  If CenterMouseCursor {
     CoordMode, Mouse, Screen
     ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
   }
