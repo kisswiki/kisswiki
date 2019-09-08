@@ -1,3 +1,9 @@
+## Keyboard
+
+Use AWSD in menu.
+
+ZC to toggle cattegories in Settings.
+
 ## Steam Controller
 
 Could not make it work.
