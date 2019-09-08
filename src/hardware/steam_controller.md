@@ -29,7 +29,8 @@ During game press `steam button > Controller settings`
 - Magicka `Community > VinAbqrq V2 - Radial Menu`
 - Far Cry 3: `Community > FarCry - Ghost The Uknown - xbox controller`, in game select `Options > Control > Control type > Gamepad`
 
-## Working as Xbox Controller XInput
+## Working as Xbox Controller XInput outside of Steam
 
 - https://github.com/kozec/sc-controller/wiki/Running-SC-Controller-on-Windows
 - https://github.com/Alia5/GloSC
+- https://www.reddit.com/r/Steam/comments/8vs19v/does_the_steam_controller_work_outside_of_steam/
