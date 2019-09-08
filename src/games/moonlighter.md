@@ -15,3 +15,6 @@ https://www.maketecheasier.com/access-windowsapps-folder-windows-10/
 Then I tried https://github.com/kozec/sc-controller/wiki/Running-SC-Controller-on-Windows
 
 It was working with Steam Controller but only in main menu.
+
+- https://www.reddit.com/r/Moonlighter/comments/8n1yto/steam_controller/
+- https://steamcommunity.com/app/606150/discussions/0/1728701877497154225/
