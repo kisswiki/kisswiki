@@ -1,3 +1,4 @@
+- select and elm-0.19 https://stackoverflow.com/questions/37376509/work-with-elm-and-select/55461980#55461980
 - http://package.elm-lang.org/packages/abadi199/elm-input-extra/latest/Dropdown
 - https://github.com/wintvelt/elm-dropdown/
   - https://medium.com/@wintvelt/a-reusable-dropdown-in-elm-part-1-d7ac2d106f13
