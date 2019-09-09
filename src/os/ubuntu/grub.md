@@ -44,3 +44,5 @@ I have installed like here https://help.ubuntu.com/community/Boot-Repair
 I choosen Advanced and selecte restore mbr.
 
 After that I could login to Ubuntu and run `update-grub`.
+
+Probably BootRepair is not needed. I have restored again mbr with `grub-install /dev/sda; update-grub` and also removed active flag from Windows partition with `fdisk` and added active flag to `/dev/sda`.
