@@ -12,26 +12,49 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;; https://www.reddit.com/r/AutoHotkey/comments/97nxnh/keep_cursor_from_edge/e4b26aj?utm_source=share&utm_medium=web2x
 
 F5::
-  CenterMouseCursor := not CenterMouseCursor 
-  SystemCursor("Toggle")
+  CenterMouseCursor := True
+  ;SystemCursor("Toggle")
+  BlockInput, MouseMove
 Return
 
+F6::
+  CenterMouseCursor := False
+  ;SystemCursor("Toggle")
+  CoordMode, Mouse, Screen
+  ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
+  BlockInput, MouseMoveOff
+Return
 
 ~RButton::
   If CenterMouseCursor {
     CoordMode, Mouse, Screen
     MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
     ClipCursor(t:=!t,A_ScreenWidth // 2 - 400,A_ScreenHeight // 2 - 400,A_ScreenWidth // 2 + 400,A_ScreenHeight // 2 + 400)
+    BlockInput, MouseMoveOff
   }
-return
+Return
 
 RButton Up::
   If CenterMouseCursor {
     CoordMode, Mouse, Screen
     ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
+    BlockInput, MouseMove
   }
-return
+Return
 
+F4::
+  ;SystemCursor("On")
+  CoordMode, Mouse, Screen
+  ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
+  BlockInput, MouseMoveOff
+Return
+
+F4 Up::
+  ;SystemCursor("Off")
+  BlockInput, MouseMoveOff
+  ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
+  BlockInput, MouseMove
+Return
 
 ClipCursor( Confine=True, x1=0 , y1=0, x2=1, y2=1 ) {
   VarSetCapacity(R,16,0)
@@ -56,9 +79,6 @@ ShowCursor:
 SystemCursor("On")
 ExitApp
 
-
-F4::SystemCursor("On")
-F4 Up::SystemCursor("Off")
 
 SystemCursor(OnOff=1)   ; INIT = "I","Init"; OFF = 0,"Off"; TOGGLE = -1,"T","Toggle"; ON = others
 {
