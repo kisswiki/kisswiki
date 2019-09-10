@@ -14,6 +14,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 F5::
   CenterMouseCursor := True
   ;SystemCursor("Toggle")
+  CoordMode, Mouse, Screen
+  MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
   BlockInput, MouseMove
 Return
 
@@ -37,6 +39,7 @@ Return
 RButton Up::
   If CenterMouseCursor {
     CoordMode, Mouse, Screen
+    MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
     ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
     BlockInput, MouseMove
   }
@@ -52,6 +55,7 @@ Return
 F4 Up::
   ;SystemCursor("Off")
   BlockInput, MouseMoveOff
+  MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
   ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
   BlockInput, MouseMove
 Return
