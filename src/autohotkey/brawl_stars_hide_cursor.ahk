@@ -7,66 +7,58 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;; https://autohotkey.com/board/topic/17656-breaking-an-infinite-loop-with-keypress/?p=531749
 ;; https://autohotkey.com/board/topic/16943-breaking-out-of-multiple-nested-loops/?p=109881
 ;; https://gist.github.com/kenny-evitt/6f6571e38295f2b65f54
-;; https://stackoverflow.com/questions/28182639/autohotkey-move-mouse-to-center-of-screen-whenever-it-gets-towards-edge
 ;; https://stackoverflow.com/questions/28182639/autohotkey-move-mouse-to-center-of-screen-whenever-it-gets-towards-edge/28185618#28185618
 ;; https://www.reddit.com/r/AutoHotkey/comments/97nxnh/keep_cursor_from_edge/e4b26aj?utm_source=share&utm_medium=web2x
+;; https://autohotkey.com/board/topic/55934-constrain-mouse-movement-when-key-held-down/
 
-F5::
-  CenterMouseCursor := True
-  ;SystemCursor("Toggle")
-  CoordMode, Mouse, Screen
-  MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
-  BlockInput, MouseMove
-Return
-
-F6::
-  CenterMouseCursor := False
-  ;SystemCursor("Toggle")
-  CoordMode, Mouse, Screen
-  ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
-  BlockInput, MouseMoveOff
-Return
-
-~RButton::
-  If CenterMouseCursor {
-    CoordMode, Mouse, Screen
-    MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
-    ClipCursor(t:=!t,A_ScreenWidth // 2 - 400,A_ScreenHeight // 2 - 400,A_ScreenWidth // 2 + 400,A_ScreenHeight // 2 + 400)
-    BlockInput, MouseMoveOff
-  }
-Return
-
-RButton Up::
-  If CenterMouseCursor {
-    CoordMode, Mouse, Screen
-    MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
-    ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
-    BlockInput, MouseMove
-  }
-Return
+CenterMouseCursor := false
 
 F4::
-  ;SystemCursor("On")
-  CoordMode, Mouse, Screen
-  ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
-  BlockInput, MouseMoveOff
-Return
-
-F4 Up::
-  ;SystemCursor("Off")
-  BlockInput, MouseMoveOff
+If CenterMouseCursor {
+  CenterMouseCursor := false
+  KeyWait, F4
+  DllCall("ClipCursor") ; unclip the cursor - works after key Up
+} else {
+  CenterMouseCursor := true
+  CoordMode, Mouse, Screen ; needed to prevent some issues when clicking changes focus
   MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
-  ClipCursor( Confine, 2, 0, A_ScreenWidth, A_ScreenHeight )
-  BlockInput, MouseMove
+  ClipCursor(A_ScreenWidth // 2 - 20, A_ScreenHeight // 2 - 20, A_ScreenWidth // 2 + 20, A_ScreenHeight // 2 + 20)
+}
 Return
 
-ClipCursor( Confine=True, x1=0 , y1=0, x2=1, y2=1 ) {
+RButton::
+If CenterMouseCursor {
+  Send {RButton Down}
+  CoordMode, Mouse, Screen ; needed to prevent some issues when clicking changes focus
+  MouseGetPos, X1, Y1
+  ClipCursor(A_ScreenWidth // 2 - 400, A_ScreenHeight // 2 - 400, A_ScreenWidth // 2 + 400, A_ScreenHeight // 2 + 400)
+  KeyWait, RButton
+  Send {RButton Up}
+  MouseMove, %mXcurr%, %mYCurr% ; restore mouse position
+  ClipCursor(A_ScreenWidth // 2 - 20, A_ScreenHeight // 2 - 20, A_ScreenWidth // 2 + 20, A_ScreenHeight // 2 + 20)
+} else {
+  SendInput {RButton}
+}
+Return
+
+;; does not work, use F4
+;F5::
+;If CenterMouseCursor {
+;  DllCall("ClipCursor") ; unclip the cursor
+;KeyWait, F5
+;  ClipCursor(A_ScreenWidth // 2 - 20, A_ScreenHeight // 2 - 20, A_ScreenWidth // 2 + 20, A_ScreenHeight // 2 + 20)
+;} else {
+;  SendInput {F5}
+;}
+;Return
+
+ClipCursor(x1=0, y1=0, x2=1, y2=1) {
   VarSetCapacity(R,16,0)
   NumPut(x1,&R+0)
   NumPut(y1,&R+4)
   NumPut(x2,&R+8)
   NumPut(y2,&R+12)
-  Return Confine ? DllCall( "ClipCursor", UInt,&R ) : DllCall( "ClipCursor" )
+  Return DllCall("ClipCursor", UInt,&R)
 }
 
 ;; https://autohotkey.com/board/topic/5727-hiding-the-mouse-cursor/?p=76269
