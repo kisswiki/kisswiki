@@ -22,7 +22,7 @@ If CenterMouseCursor {
   CenterMouseCursor := true
   CoordMode, Mouse, Screen ; needed to prevent some issues when clicking changes focus
   MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
-  ClipCursor(A_ScreenWidth // 2 - 20, A_ScreenHeight // 2 - 20, A_ScreenWidth // 2 + 20, A_ScreenHeight // 2 + 20)
+  ClipCursor(A_ScreenWidth // 2 - 40, A_ScreenHeight // 2 - 40, A_ScreenWidth // 2 + 40, A_ScreenHeight // 2 + 40)
 }
 Return
 
@@ -35,7 +35,7 @@ If CenterMouseCursor {
   KeyWait, RButton
   Send {RButton Up}
   MouseMove, %mXcurr%, %mYCurr% ; restore mouse position
-  ClipCursor(A_ScreenWidth // 2 - 20, A_ScreenHeight // 2 - 20, A_ScreenWidth // 2 + 20, A_ScreenHeight // 2 + 20)
+  ClipCursor(A_ScreenWidth // 2 - 40, A_ScreenHeight // 2 - 40, A_ScreenWidth // 2 + 40, A_ScreenHeight // 2 + 40)
 } else {
   SendInput {RButton}
 }
@@ -46,7 +46,7 @@ Return
 ;If CenterMouseCursor {
 ;  DllCall("ClipCursor") ; unclip the cursor
 ;KeyWait, F5
-;  ClipCursor(A_ScreenWidth // 2 - 20, A_ScreenHeight // 2 - 20, A_ScreenWidth // 2 + 20, A_ScreenHeight // 2 + 20)
+;  ClipCursor(A_ScreenWidth // 2 - 40, A_ScreenHeight // 2 - 40, A_ScreenWidth // 2 + 40, A_ScreenHeight // 2 + 40)
 ;} else {
 ;  SendInput {F5}
 ;}
