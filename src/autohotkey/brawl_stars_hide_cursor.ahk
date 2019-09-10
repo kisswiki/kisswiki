@@ -3,14 +3,6 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-;; https://autohotkey.com/board/topic/25492-after-movemouse-how-to-return-cursor-to-previous-location/
-;; https://autohotkey.com/board/topic/17656-breaking-an-infinite-loop-with-keypress/?p=531749
-;; https://autohotkey.com/board/topic/16943-breaking-out-of-multiple-nested-loops/?p=109881
-;; https://gist.github.com/kenny-evitt/6f6571e38295f2b65f54
-;; https://stackoverflow.com/questions/28182639/autohotkey-move-mouse-to-center-of-screen-whenever-it-gets-towards-edge/28185618#28185618
-;; https://www.reddit.com/r/AutoHotkey/comments/97nxnh/keep_cursor_from_edge/e4b26aj?utm_source=share&utm_medium=web2x
-;; https://autohotkey.com/board/topic/55934-constrain-mouse-movement-when-key-held-down/
-
 CenterMouseCursor := false
 
 F4::
@@ -61,9 +53,6 @@ ClipCursor(x1=0, y1=0, x2=1, y2=1) {
   Return DllCall("ClipCursor", UInt,&R)
 }
 
-;; https://autohotkey.com/board/topic/5727-hiding-the-mouse-cursor/?p=76269
-;; https://www.autohotkey.com/docs/commands/DllCall.htm#HideCursor
-
 ; Example: Hides the mouse cursor when you press Win+C. To later show the cursor, press Win+C again.
 ; This script is from www.autohotkey.com/forum/topic6107.html
 
@@ -74,7 +63,6 @@ return
 ShowCursor:
 SystemCursor("On")
 ExitApp
-
 
 SystemCursor(OnOff=1)   ; INIT = "I","Init"; OFF = 0,"Off"; TOGGLE = -1,"T","Toggle"; ON = others
 {
@@ -109,3 +97,16 @@ SystemCursor(OnOff=1)   ; INIT = "I","Init"; OFF = 0,"Off"; TOGGLE = -1,"T","Tog
         DllCall( "SetSystemCursor", "Ptr",h_cursor, "UInt",c%A_Index% )
     }
 }
+
+;; https://autohotkey.com/board/topic/25492-after-movemouse-how-to-return-cursor-to-previous-location/
+;; https://autohotkey.com/board/topic/17656-breaking-an-infinite-loop-with-keypress/?p=531749
+;; https://autohotkey.com/board/topic/16943-breaking-out-of-multiple-nested-loops/?p=109881
+;; https://gist.github.com/kenny-evitt/6f6571e38295f2b65f54
+;; https://stackoverflow.com/questions/28182639/autohotkey-move-mouse-to-center-of-screen-whenever-it-gets-towards-edge/28185618#28185618
+;; https://www.reddit.com/r/AutoHotkey/comments/97nxnh/keep_cursor_from_edge/e4b26aj?utm_source=share&utm_medium=web2x
+;; https://autohotkey.com/board/topic/55934-constrain-mouse-movement-when-key-held-down/
+;; https://autohotkey.com/board/topic/5727-hiding-the-mouse-cursor/?p=76269
+;; https://www.autohotkey.com/docs/commands/DllCall.htm#HideCursor
+;; https://autohotkey.com/board/topic/86484-very-quick-button-up-vs-button-down/
+;; maybe better than above https://stackoverflow.com/questions/15472404/autohotkey-on-right-mouse-click-get-a-keyboard-button-pressed-as-well/15479048#15479048
+
