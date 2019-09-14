@@ -2,11 +2,21 @@
 
 ## To compile on Ubuntu 18.04 WSL
 
-Install also clang:
+Install deps:
 
-`sudo apt install clang`
 
-https://github.com/Wilfred/remacs/issues/788#issuecomment-414138423
+```
+# https://stackoverflow.com/questions/19510522/in-centos-6-4-when-configure-emacs/33249788#33249788
+sudo apt install clang`
+sudo apt install build-essential
+sudo apt install autoconf
+# for makeinfo https://stackoverflow.com/questions/338317/what-is-makeinfo-and-how-do-i-get-it
+sudo apt install texinfo
+# for gnutls
+sudo apt install gnutls-dev
+# for tputs https://stackoverflow.com/questions/19510522/in-centos-6-4-when-configure-emacs/33249788#33249788
+sudo apt install libncurses-dev
+```
 
 ## Install locally
 
