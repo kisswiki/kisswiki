@@ -26,3 +26,29 @@ I'm grateful for what TDD did to open my eyes to automated regression testing, b
 Test-first units leads to an overly complex web of intermediary objects and indirection in order to avoid doing anything that's "slow". Like hitting the database. Or file IO. Or going through the browser to test the whole system. It's given birth to some truly horrendous monstrosities of architecture. A dense jungle of service objects, command patterns, and worse.
 
 https://dhh.dk/2014/tdd-is-dead-long-live-testing.html
+
+
+##
+
+Paweł Świątkowski Nie. Po prostu często nie można napisać testów kiedy nie wie się dokładnie jak ma wyglądać dana nowa rzecz. Wtedy piszę jej szkielet (kod taki który działa, ale potencjalnie niepoprawnie - zupełnie mnie to nie obchodzi). Kiedy jestem już zadowolony z API nowej klasy, modułu czy czego tam, WTEDY jest czas na napisanie pierwszych testów, zzielenienie ich, dopisanie testów do corner case'ów i EWENTUALNY refactoring.
+
+Takie idealne TDD z prezek na konferencjach działa moim zdaniem tylko dla:
+a) super dobrze zdefiniowanych problemów - co nigdy się nie zdarza w prawdziwym życiu
+b) super prostych kwestii typu klasa Calculator
+3
+
+Roman Frołow Czyli tak jak pisałem:
+
+- Structure your code so it is mostly leaves.
+- Unit test the leaves.
+- Integration test the rest if needed.
+
+To nie jest już TDD imho.
+
+Paweł Świątkowski A IMO jak najbardziej jest. Dopóki nie piszesz testów w osobnym commicie albo w ogóle w osobnym pull requeście bo "teraz trzeba szybko zafiksować, a testy kiedyś tam" - robisz TDD.
+
+Bartosz Kostrowiecki To nie jest TDD.
+
+W TDD Design API ma wyniknac z przypadkow uzycia testow, ktore napiszesz w pierwszej kolejnosci.
+
+https://www.facebook.com/groups/turingi/2416340711986664/?comment_id=2416352271985508&reply_comment_id=2416362641984471&notif_id=1568726119030354&notif_t=group_comment
