@@ -15,3 +15,4 @@ https://www.reddit.com/r/rust/comments/9nu6o0/reflections_on_implementing_the_nd
 - report https://crates.io/crates/ddh
 - https://crates.io/crates/duplicate-finder
 - https://crates.io/crates/fddf
+- https://github.com/lerenn/dedup/
