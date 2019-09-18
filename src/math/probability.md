@@ -1,1 +1,2 @@
 - https://seeing-theory.brown.edu/basic-probability/
+- https://www.reddit.com/r/rust/comments/a33g7m/ddh_a_simple_fast_duplicate_file_finder_written/eb66w24/
