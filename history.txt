@@ -1,0 +1,25 @@
+ls
+ls | sort-by name
+ls | where size > 4kb
+ps
+ps | where cpu > 10
+date
+sys
+sys | get host
+sys | get host.users
+sys | get host.uptime
+sys | get host.users | echo $it
+ls *.txt
+cat history.txt
+gitk history.txt
+git log history.txt
+ls
+ls **/*.md
+ls **/*.md | head
+ls **/*.md | head $it
+ls **/*.md | first 5
+ls **/*.md | where siez > 4kb | first 5
+ls **/*.md | where size > 4kb | first 5
+ls **/*.md | where size > 4kb | first 10
+ls **/*.md | where size > 20kb | first 10
+ls **/*.md | where size > 20kb | first 30
