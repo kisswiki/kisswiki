@@ -13,3 +13,13 @@ ale nie znaczy, że kochają tych z którymi sie zwiążą nie wybrzydzając. na
 po prostu w późniejszym wieku znika coś takiego jak friendzone (starszej kobiecie nie przystoi mieć orbitera), więc do czasu ten seks jest, ale tylko po to, by zmusić mężczyzne do zaangażowania, do przekazania zasobów, do zrobienia dziecka, do zaplanowania ślubu (zapewnienie bezpieczeństwa). ukartować zakochanie, by później mieć spokój. faceci są ogólnie ślepi nie mając doświadczenia, więc myślą że jak kobieta jest chętna, namiętna to zakochana. a niestety tak jest, że kobiety oddzielają seks od uczuć, więc nie jest to żaden wyznacznik, a mit z lat 90 bodaj.
 
 https://www.wykop.pl/link/2459057/#comment-27137711
+
+##
+
+Among participants (age = 18–89 years), 15.2% of males and 26.7% of females reported past-year sexlessness while 8.7% of males and 17.5% of females reported no sex for 5 years or more. For both genders, past-year sexlessness was most strongly associated with older age and being currently non-married in the multivariable models. Among males, the multivariable analysis also showed that sexlessness was associated with providing less than 20% of the household income (OR 2.27). In female participants, sexlessness was associated with very low income, poor health, lower financial satisfaction, absence of children, and having conservative sexual attitudes (OR 1.46–3.60). For both genders, Black race was associated with a much lower likelihood of sexlessness among currently non-married adults. The purported detrimental impact of sexlessness on self-reported happiness levels was not evident in this large, nationally representative study after adjusting for sociodemographic factors. **Sexless Americans reported very similar happiness levels as their sexually active counterparts**.
+
+Sociodemographic Correlates of Sexlessness Among American Adults and Associations with Self-Reported Happiness Levels: Evidence from the U.S. General Social Survey
+
+Jean H. Kim, Wilson S. Tam, Peter Muennig
+
+DOI 10.1007/s10508-017-0968-7
