@@ -23,3 +23,55 @@ Sociodemographic Correlates of Sexlessness Among American Adults and Association
 Jean H. Kim, Wilson S. Tam, Peter Muennig
 
 DOI 10.1007/s10508-017-0968-7
+
+##
+
+Sexual desire is often present at the beginning of a romantic relationship. However, research is divided regarding whether, and how, desire is experienced as a relationship progresses. The authors examined relationship duration and its effect on sexual desire in a sample of 170 undergraduate men and women between the ages of 18 and 25 years. Hierarchical multiple regression results indicated that women’s sexual desire was **significantly and negatively predicted by relationship duration** after controlling for age, relationship satisfaction, and sexual satisfaction. Men’s sexual desire, however, was not significantly affected by the duration of their romantic relationships. These findings suggest that men and women may have different experiences with sexual desire as relationships progress and that sexual desire might be affected by different factors depending on one’s gender. Possible reasons for these results are suggested and therapeutic implications are discussed.
+
+https://sci-hub.tw/10.1080/0092623X.2011.569637
+
+##
+
+The most frequent conflict within human mateships is the conflict between male sexual
+persistence and female sexual resistance. This conflict is nearly absent in the formation
+phase of a mateship and intensifies with time. It is rooted in sex-specific evolved
+programs encountering each other: a female program to secure male assistance and
+simultaneously remain open to new matings and a male program to guard paternity and
+to seek frequent copulation as a precaution against sperm competition. Mate value, the
+threat of infidelity, and attachment moderate the conflict. Attachment motivation can be
+seen as a part of mating strategy or as a motivational system of its own, conflicting with
+demands of strategic flexibility. The theoretical framework of mating strategy
+accommodates many observations about sexual motivation within human mateships.
+However, sexual therapy has not yet taken much advantage of this body of knowledge.
+This might result from the different traditions of the respective scientific communities. It
+may also reflect a more substantial role of attachment than of mating strategy for the
+sexual life of a couple, since sexual therapy often focuses on issues of attachment.
+
+Women with many sex partners as compared with women with fewer sex partners reported their first sexual experience five years earlier, had a lower waist-to-hip ratio, behaved more like boys during childhood, were rated to be more masculine in their physical appearance and their behavior, and were more unrestricted in SO. There was no indication that women who had more sex partners were lower in mate value or endured greater childhood stress than women with fewer sex partners.
+
+Men rated by women as sexually attractive possess and display resources and the prospect of paternal support. Characteristic features are: large size, large shoulder-to-hip ratio, masculine face and voice, vigorous physical movement, intelligence, self-confidence, and pheromones indicating MHC compatibility (see Buss, 1995).
+
+Women who rated their partners as lower in sexual attractiveness reported more expressed love and attention from their partners than women who rated their partners as higher in sexual attractiveness (Pillsworth & Haselton, 2006). This suggests that male loving care and attention may function as a means to compensate for lower sexual attractiveness, and because of this nexus it may not be correlated as strongly with sexual desire of the female partner as is often expected. In a study of German students, female sexual motivation was stronger when male commitment as perceived by the female partner was lower than her own  commitment at every stage of the relationship (Klusmann, 2002).
+
+Is Female Sexual Reluctance Related to Ovulatory Status?
+
+However, this hypothesis has a problem from the start: Why are so many women reluctant
+to have sex with their primary partner, sometimes at considerable cost, if it would be so
+easy to give in during the infertile phase and restrict reluctance to the fertile phase? This
+would suffice to keep a window open for good genes conception and at the same time
+avoid the primary partner’s malcontent.
+
+In a large survey of British citizens
+(Johnson et al., 1994), the median copulation rate in married couples is reported to be
+seven copulations in past month for the age group 16–24 years, decreasing to five
+copulations for age group 35–44 years.
+
+https://sci-hub.tw/10.1080/0092623X.2011.569637
+
+https://commons.wikimedia.org/wiki/File:Waist_to_hip_ratio.jpg
+
+##
+
+Sexless Americans reported very similar happiness levels as their sexually active counterparts.
+
+https://sci-hub.tw/10.1007/s10508-017-0968-7
