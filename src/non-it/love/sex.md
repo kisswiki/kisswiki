@@ -75,3 +75,37 @@ https://commons.wikimedia.org/wiki/File:Waist_to_hip_ratio.jpg
 Sexless Americans reported very similar happiness levels as their sexually active counterparts.
 
 https://sci-hub.tw/10.1007/s10508-017-0968-7
+
+##
+
+Sex is critical to marriage. Yet, there are several reasons to expect spouses to experience declines in the desire for sex over time, and the rates of any declines in sexual desire may differ for men and women. We used two multi-wave, longitudinal studies to test whether male and female members of newlywed couples experienced different rates of change in sexual desire, whether any such changes were accentuated by childbirth, and whether any such changes had implications for marital satisfaction. In both studies, spouses provided multiple reports of sexual desire, marital satisfaction, and childbirth. Results demonstrated that women’s sexual desire declined more steeply over time than did men’s sexual desire, which did not decline on average. Further, childbirth accen-tuated this sex difference by partially, though not completely, accounting for declines in women’s sexual desire but not men’s. Finally, declines in women’s but not men’s sexual desire predicted declines in both partners’ marital satisfaction. These effects held controlling depressive symptoms and stress, including stress from parenthood. The current findings offer novel longitudinal evidence for sex-differentiated changes in sexual desire and therefore suggest an important source of marital discord.
+
+https://sci-hub.tw/10.1007/s10508-019-01471-6
+
+##
+
+Dr. Wednesday Martin, an anthropologist and author of the book Untrue, posits that long-term relationships may be particularly hard on women's desire. She suggests that women (perhaps even more than men) require variation in their sexual experiences to maintain their sexual interest in the context of long-term partnerships.
+
+Title: Untrue: Why Nearly Everything We Believe About Women, Lust, and Infidelity Is Wrong and How the New Science Can Set Us Free
+
+Author(s):Wednesday Martin
+
+Year: 2018
+
+ISBN: 0316463612, 9780316463614
+
+https://www.psychologytoday.com/us/blog/myths-desire/201909/how-sexual-desire-changes-throughout-marriage
+
+##
+
+https://sci-hub.tw/10.1177/0265407512443611
+
+##
+
+Results from this study indicate that the inclusion of a couple-friendly sexual vibrator during partnered sexual activity can help already satisfied and sexpositive couples experience a more pleasurable and fulfilling sexual relationship. Inclusion of a couples’ vibrator that increases novelty and variety, heightens physical stimulation, and promotes awareness of one’s partner may contribute to the experiences of interpersonal exploration, communication, erotic intimacy, and deep connection that are components of Kleinplatz et al.’s (2009) optimal sexuality. It is possible that the inclusion of a vibrator may additionally benefit couples experiencing lower sexual desire or sexual satisfaction than they would like, as evidenced by the increased physical sensations, anticipation for sex and pleasure reported by men, and the increase in arousal and orgasmic intensity and capacity in their female partners. However, more research would be necessary to support this claim, given the present sample was largely sexually satisfied and not exhibiting distress over sexual problems.
+
+https://sci-hub.tw/10.1177/1097184X15595082
+
+##
+
+https://en.m.wikipedia.org/wiki/Journal_of_Sex_%26_Marital_Therapy
