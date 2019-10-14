@@ -21,6 +21,10 @@ This command can be used to synchronize a folder, and also resume copying when i
 
 `rsync -avxHAXS --progress --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} / /new-disk/`
 
+What I ended up using:
+
+`rsync -vaxHAXEWS --numeric-ids --info=progress2 --delete --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/lost+found"} / /new-disk/`
+
 The options are:
 
 ```
@@ -30,6 +34,7 @@ The options are:
 -H  : preserve hard links (not included with -a)
 -A  : preserve ACLs/permissions (not included with -a)
 -X  : preserve extended attributes (not included with -a)
+-E  : preserve executability
 -S  : sparse files
 ```
 
