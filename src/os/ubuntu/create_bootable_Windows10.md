@@ -1,3 +1,5 @@
+- https://www.cyberciti.biz/faq/create-a-bootable-windows-10-usb-in-linux/
+
 ## woeusb
 
 ```bash
