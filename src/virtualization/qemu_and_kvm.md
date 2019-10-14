@@ -71,7 +71,7 @@ https://bbs.archlinux.org/viewtopic.php?id=203826
 
 http://bart.vanhauwaert.org/hints/installing-win10-on-KVM.html
 
-##
+## Change vga memory
 
 `virsh edit Windows10`
 
@@ -348,3 +348,7 @@ $ virsh attach-device win10 usb.xml
 - https://superuser.com/questions/1005571/usb-passthrough-for-qemu-gets-error-qemu-could-not-add-usb-device/1077369#1077369
 - https://unix.stackexchange.com/questions/250938/qemu-usb-passthrough-windows-guest/251406#251406
 - https://www.linux-kvm.org/page/USB_Host_Device_Assigned_to_Guest
+
+## Windows10
+
+- https://github.com/cardi/qemu-windows-10
