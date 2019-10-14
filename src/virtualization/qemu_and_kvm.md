@@ -317,3 +317,12 @@ https://stackoverflow.com/questions/20578039/difference-between-kvm-and-lxc
   - qemu image can be run as container by systemdli-nspawn!!!
 I'm using it for both arm toys (raspberry pi) and for qemu. https://git.kraxel.org/cgit/imagefish/tree/README.md
 - https://buildroot.org/
+
+## USB device passthrough
+
+- https://help.ubuntu.com/community/KVM/Managing#Adding_USB_Device_Pass-through
+- https://serverfault.com/questions/666210/attaching-usb-dongle-to-kvm-vm
+- https://www.linux-kvm.org/page/USB
+- https://superuser.com/questions/1005571/usb-passthrough-for-qemu-gets-error-qemu-could-not-add-usb-device/1077369#1077369
+- https://unix.stackexchange.com/questions/250938/qemu-usb-passthrough-windows-guest/251406#251406
+- https://www.linux-kvm.org/page/USB_Host_Device_Assigned_to_Guest
