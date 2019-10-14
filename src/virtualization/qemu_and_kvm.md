@@ -320,6 +320,17 @@ I'm using it for both arm toys (raspberry pi) and for qemu. https://git.kraxel.o
 
 ## USB device passthrough
 
+```
+$ cat usb.xml
+<hostdev mode='subsystem' type='usb' managed='yes'>
+    <source>
+        <vendor id='0x6387'/>
+        <product id='0x058f'/>
+    </source>
+</hostdev>
+$ virsh attach-device win10 usb.xml
+```
+
 - https://help.ubuntu.com/community/KVM/Managing#Adding_USB_Device_Pass-through
 - https://serverfault.com/questions/666210/attaching-usb-dongle-to-kvm-vm
 - https://www.linux-kvm.org/page/USB
