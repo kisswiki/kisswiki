@@ -19,7 +19,7 @@ Maybe disable `-z` for weaker machines.
 
 This command can be used to synchronize a folder, and also resume copying when it's aborted half way. The command to copy one disk is:
 
-`rsync -avxHAXS --progress --exclude={lost+found} / /new-disk/`
+`rsync -avxHAXS --progress --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} / /new-disk/`
 
 The options are:
 
@@ -41,5 +41,8 @@ Also consider adding `--numeric-ids` to avoid mapping uid/gid values by user/gro
 
 >I had to replace `X` and `A` with `E`, because extended attributes and ACLs are covered by E on my mac.
 
+The contents of `/dev`, `/proc`, `/sys`, `/tmp`, and `/run` are excluded in the above command, because they are populated at boot, although the folders themselves are not created.
+
+- https://wiki.archlinux.org/index.php/Rsync#As_a_backup_utility
 - https://superuser.com/questions/307541/copy-entire-file-system-hierarchy-from-one-drive-to-another/307542#307542
 - https://superuser.com/questions/709176/how-to-best-clone-a-running-system-to-a-new-harddisk-using-rsync/709224#709224
