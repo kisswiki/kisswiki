@@ -320,6 +320,15 @@ I'm using it for both arm toys (raspberry pi) and for qemu. https://git.kraxel.o
 
 ## USB device passthrough
 
+Edit /etc/apparmor.d/abstractions/libvirt-qemu add a line:
+
+```
+# this lets qemu read all USB device information and might be considered a security risk
+/run/udev/data/* r,
+```
+
+Then
+
 ```
 $ cat usb.xml
 <hostdev mode='subsystem' type='usb' managed='yes'>
@@ -332,6 +341,8 @@ $ virsh attach-device win10 usb.xml
 ```
 
 - https://help.ubuntu.com/community/KVM/Managing#Adding_USB_Device_Pass-through
+- https://bbs.archlinux.org/viewtopic.php?id=209828
+- https://serverfault.com/questions/667426/pass-an-usb-hub-from-a-kvm-host-to-a-guest-with-libvirt
 - https://serverfault.com/questions/666210/attaching-usb-dongle-to-kvm-vm
 - https://www.linux-kvm.org/page/USB
 - https://superuser.com/questions/1005571/usb-passthrough-for-qemu-gets-error-qemu-could-not-add-usb-device/1077369#1077369
