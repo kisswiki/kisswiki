@@ -14,3 +14,32 @@ Maybe disable `-z` for weaker machines.
 
 - https://help.ubuntu.com/community/rsync
 - https://help.ubuntu.com/lts/serverguide/openssh-server.html
+
+## Entire file-system
+
+This command can be used to synchronize a folder, and also resume copying when it's aborted half way. The command to copy one disk is:
+
+`rsync -avxHAXS --progress --exclude={lost+found} / /new-disk/`
+
+The options are:
+
+```
+-a  : all files, with permissions, etc..
+-v  : verbose, mention files
+-x  : stay on one file system
+-H  : preserve hard links (not included with -a)
+-A  : preserve ACLs/permissions (not included with -a)
+-X  : preserve extended attributes (not included with -a)
+-S  : sparse files
+```
+
+To improve the copy speed, add `-W` (`--whole-file`), to avoid calculating deltas/diffs of the files. This is the default when both the source and destination are specified as local paths, since the real benefit of rsync's delta-transfer algorithm is reducing network usage.
+
+Also consider adding `--numeric-ids` to avoid mapping uid/gid values by user/group name.
+
+`--info=progress2` instead of `--progress` is useful for large transfers, as it gives overall progress, instead of (millions of lines for) individual files.
+
+>I had to replace `X` and `A` with `E`, because extended attributes and ACLs are covered by E on my mac.
+
+- https://superuser.com/questions/307541/copy-entire-file-system-hierarchy-from-one-drive-to-another/307542#307542
+- https://superuser.com/questions/709176/how-to-best-clone-a-running-system-to-a-new-harddisk-using-rsync/709224#709224
