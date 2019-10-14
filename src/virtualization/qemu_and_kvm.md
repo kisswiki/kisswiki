@@ -16,7 +16,9 @@ https://askubuntu.com/questions/43861/how-do-i-unmaximize-full-screen-view-in-vi
 
 ```
 sudo apt install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
-# is adding to kvm needed
+# is adding to kvm needed?
+# Releases prior to Karmic (9.10) - You need to ensure that your username is added to the groups: kvm and libvirtd.
+# https://help.ubuntu.com/community/KVM/Installation
 sudo adduser `id -un` kvm
 sudo adduser `id -un` libvirt
 # relogin
