@@ -14,18 +14,20 @@ https://askubuntu.com/questions/43861/how-do-i-unmaximize-full-screen-view-in-vi
 
 ## Install
 
-- https://help.ubuntu.com/community/KVM/Installation
-- https://www.microsoft.com/pl-pl/software-download/windows10ISO
-- Windows 10 Pro keys: Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99, Pro: W269N-WFGWX-YVC9B-4J6C9-T83GX. However, these won't activate as they are KMS keys https://www.reddit.com/r/Windows10/comments/3det9q/build_10240_now_available_for_windows_insiders_in/ct4hp9p/
-
 ```
 sudo apt install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
+# is adding to kvm needed
 sudo adduser `id -un` kvm
-sudo adduser `id -un` libvirtd
+sudo adduser `id -un` libvirt
 # relogin
 # install graphical
 sudo apt install virt-manager
 ```
+
+- https://help.ubuntu.com/community/KVM/Installation
+- https://www.microsoft.com/pl-pl/software-download/windows10ISO
+- Windows 10 Pro keys: Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99, Pro: W269N-WFGWX-YVC9B-4J6C9-T83GX. However, these won't activate as they are KMS keys https://www.reddit.com/r/Windows10/comments/3det9q/build_10240_now_available_for_windows_insiders_in/ct4hp9p/
+- https://askubuntu.com/questions/930491/group-libvirtd-does-not-exist-while-installing-qemu-kvm/993276#993276
 
 ## Virt-Manager can't connect to graphical console
 
@@ -67,7 +69,7 @@ https://bbs.archlinux.org/viewtopic.php?id=203826
 
 http://bart.vanhauwaert.org/hints/installing-win10-on-KVM.html
 
-## 
+##
 
 `virsh edit Windows10`
 
@@ -144,7 +146,7 @@ Other ways to improve the performance are setting the VM to use hugepages if you
 
 http://fedoraproject.org/wiki/Features/ ... ked_Memory
 
-Also if you are giving the machine more than one CPU pin them. To choose to which physical CPU to reduce context switches and IRQ you can check the CPU cache sharing. Choose the physical CPUs that share the cache. You can do a 
+Also if you are giving the machine more than one CPU pin them. To choose to which physical CPU to reduce context switches and IRQ you can check the CPU cache sharing. Choose the physical CPUs that share the cache. You can do a
 
 # cat /sys/devices/system/cpu/cpu0/cache/index0/shared_cpu_list
 
@@ -164,7 +166,7 @@ https://arstechnica.com/civis/viewtopic.php?p=24393635&sid=1281975f2196bad9335b6
 - https://git.qemu.org/?p=qemu.git;a=tree;f=docs;hb=master
 - https://www.linux-kvm.org
   - https://www.linux-kvm.org/page/HOWTO
-  - https://www.linux-kvm.org/page/Documents 
+  - https://www.linux-kvm.org/page/Documents
   - https://www.linux-kvm.org/page/Tuning_Kernel
   - https://www.linux-kvm.org/page/10G_NIC_performance:_VFIO_vs_virtio
   - https://www.linux-kvm.org/page/Networking
@@ -302,7 +304,7 @@ https://stackoverflow.com/questions/20578039/difference-between-kvm-and-lxc
 
 ## Security
 
-- [Security in QEMU: How Virtual Machines Provide Isolation by Stefan Hajnoczi - YouTube](https://www.youtube.com/watch?v=YAdRf_hwxU8) 
+- [Security in QEMU: How Virtual Machines Provide Isolation by Stefan Hajnoczi - YouTube](https://www.youtube.com/watch?v=YAdRf_hwxU8)
 
 ## Creating images
 
@@ -313,4 +315,3 @@ https://stackoverflow.com/questions/20578039/difference-between-kvm-and-lxc
   - qemu image can be run as container by systemdli-nspawn!!!
 I'm using it for both arm toys (raspberry pi) and for qemu. https://git.kraxel.org/cgit/imagefish/tree/README.md
 - https://buildroot.org/
-
