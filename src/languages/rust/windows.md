@@ -2,7 +2,8 @@
 
 Download from https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019
 
-https://github.com/rust-lang/rustup.rs/pull/2056
+- https://github.com/rust-lang/rustup.rs/pull/2056
+- https://stackoverflow.com/questions/40504552/how-to-install-visual-c-build-tools/54136652#54136652
 
 ## rustup update hangs or rust-docs
 
