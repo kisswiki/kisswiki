@@ -1,3 +1,9 @@
+## C++ build tools
+
+Download from https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019
+
+https://github.com/rust-lang/rustup.rs/pull/2056
+
 ## rustup update hangs or rust-docs
 
 `Windows Security > Virus & threat protection > Virus & threat protection settings > Add or remove exclusions > Add an  exclusion > Folder > ~/.rustup` https://github.com/rust-lang-nursery/rustup.rs/issues/763#issuecomment-407481780
