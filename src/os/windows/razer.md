@@ -1,6 +1,6 @@
 I need to install Synapse 2
 
-Synapse 3 does not support Death Adder Chroma? https://www.razer.com/synapse-3
+Synapse 3 does not support DeathAdder Chroma? https://www.razer.com/synapse-3
 
 When installed Windows 10, there was already Razer Synapse installed but some weird version (Synapse 3 with Razer Central?), that did not detect my mouse.
 
