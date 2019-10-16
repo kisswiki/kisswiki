@@ -193,4 +193,7 @@ apt install -V <package>
 
 ## apt vs apt-get
 
+APT 1.0 was released on the 1. April 2014 includes a new “apt” binary that combines the most commonly used commands from apt-get and apt-cache. The commands are the same as their apt-get/apt-cache counterparts but with slightly different configuration options.
+
+- https://mvogt.wordpress.com/2014/04/04/apt-1-0/
 - https://askubuntu.com/questions/445384/what-is-the-difference-between-apt-and-apt-get/446484#446484
