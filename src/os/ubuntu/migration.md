@@ -5,3 +5,5 @@ Add ppa for latest git and:
 https://rustup.rs
 
 `cargo install ripgrep fd-find tokei miniserv cargo-edit cargo-watch`
+
+`rustup component add rustfmt`
