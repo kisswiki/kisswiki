@@ -28,13 +28,14 @@ What I ended up using:
 The options are:
 
 ```
--a  : all files, with permissions, etc..
 -v  : verbose, mention files
+-a  : all files, with permissions, etc..
 -x  : stay on one file system
 -H  : preserve hard links (not included with -a)
 -A  : preserve ACLs/permissions (not included with -a)
 -X  : preserve extended attributes (not included with -a)
 -E  : preserve executability
+-W : whole file
 -S  : sparse files
 ```
 
