@@ -178,3 +178,19 @@ https://askubuntu.com/questions/341178/how-do-i-get-details-about-a-package-whic
 If it is installed (probably) there should be line starting with `APT-Manual-Installed:`.
 
 Or use `dpkg -s <package>` to get info if it is installed.
+
+## check verson before install
+
+```
+apt list <package>
+apt policy <package>
+apt-cache madison <package>
+apt install -V <package>
+```
+
+- https://stackoverflow.com/questions/18885820/how-to-check-the-version-before-install-packages-using-apt-get
+- https://askubuntu.com/questions/447/how-can-i-see-all-versions-of-a-package-that-are-available-in-the-archive
+
+## apt vs apt-get
+
+- https://askubuntu.com/questions/445384/what-is-the-difference-between-apt-and-apt-get/446484#446484
