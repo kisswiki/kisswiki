@@ -197,3 +197,9 @@ APT 1.0 was released on the 1. April 2014 includes a new “apt” binary that c
 
 - https://mvogt.wordpress.com/2014/04/04/apt-1-0/
 - https://askubuntu.com/questions/445384/what-is-the-difference-between-apt-and-apt-get/446484#446484
+
+## Why a package is installed
+
+`apt-cache rdepends --no-{suggests,conflicts,breaks,replaces,enhances} --installed --recurse <package>`
+
+- https://askubuntu.com/questions/5636/can-i-see-why-a-package-is-installed#comment1012201_5637
