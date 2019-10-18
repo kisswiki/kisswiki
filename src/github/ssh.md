@@ -19,7 +19,7 @@ Copy to clipboard with one of below methods an then add it to https://github.com
 ### Ubuntu
 
 ```bash
-$ sudo apt intstall xsel
+$ sudo apt install xsel
 $ xsel -b < ~/.ssh/github_rsa.pub
 ```
 https://askubuntu.com/questions/382767/how-to-pipe-dump-clipboard-contents-to-a-file/382775#382775
