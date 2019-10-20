@@ -7,15 +7,10 @@ Install deps:
 
 ```
 # https://stackoverflow.com/questions/19510522/in-centos-6-4-when-configure-emacs/33249788#33249788
-sudo apt install clang`
-sudo apt install build-essential
-sudo apt install autoconf
-# for makeinfo https://stackoverflow.com/questions/338317/what-is-makeinfo-and-how-do-i-get-it
-sudo apt install texinfo
-# for gnutls
-sudo apt install gnutls-dev
-# for tputs https://stackoverflow.com/questions/19510522/in-centos-6-4-when-configure-emacs/33249788#33249788
-sudo apt install libncurses-dev
+# texinfo required for makeinfo https://stackoverflow.com/questions/338317/what-is-makeinfo-and-how-do-i-get-it
+# gnutls-dev required for gnutls
+# libncurses-dev required for tputs https://stackoverflow.com/questions/19510522/in-centos-6-4-when-configure-emacs/33249788#33249788
+sudo apt install clang build-essential autoconf texinfo gnutls-dev libncurses-dev
 ```
 
 ## Install locally
