@@ -40,6 +40,8 @@ Here is a list of a few basic tmux commands:
     prefix p — move to the (p)revious window.
     prefix d — close pane
     prefix z - maximize/unmaximize pane
+	prefix d - detach session
+	prefix s - interactive session list
 ```
 
 Other thing worth knowing is that scrolling is enabled by pressing `Ctrl+b PgUp/PgDown`. In fact, it enables the copy mode, which can also be done by pressing `Ctrl+b [`. When in copy mode, you can use `PgUp/PgDown` and arrow keys to scroll through the terminal contents. To (q)uit the copy mode, simply press the `q` key.
