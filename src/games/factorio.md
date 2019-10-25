@@ -7,3 +7,8 @@
 ## feeding
 
 - shift+left click will put whole stack
+
+## taking from mining drill/burner
+
+- drop anything you have with q
+- ctrl+left click on mining drill/burner will take all that was produced
