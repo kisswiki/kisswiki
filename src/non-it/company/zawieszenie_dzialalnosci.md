@@ -5,3 +5,8 @@
 5. Podpisz i wyślij wniosek (WAŻNE).
 
 https://poradnikprzedsiebiorcy.pl/-formularz-ceidg-1-z-omowieniem-zawieszenie-dzialalnosci
+
+Sprawdzenie czy zawieszona działalność
+
+1. Zalogować się jak wyżej
+2. Otworzy się strona z nagłówkiem PANEL "PRZEDSIĘBIORCY" a tam "Status działalności gospodarczej Zawieszony"
