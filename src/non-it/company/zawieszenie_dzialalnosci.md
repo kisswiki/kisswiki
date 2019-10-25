@@ -10,3 +10,13 @@ Sprawdzenie czy zawieszona działalność
 
 1. Zalogować się jak wyżej
 2. Otworzy się strona z nagłówkiem PANEL "PRZEDSIĘBIORCY" a tam "Status działalności gospodarczej Zawieszony"
+
+Także w mailach:
+
+from:ceidg
+
+"Potwierdzenie zawieszenia działalności"
+
+Potem
+
+"Potwierdzenie wznowienia działalności."
