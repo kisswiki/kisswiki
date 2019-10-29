@@ -11,6 +11,6 @@
   "dependencies": {
     "dotenv": "^4.0.0",
     "pg": "^7.0.2",
-    "sequelize": "^4.4.2"
+    "sequelize": "^5.15.1"
   }
 }
