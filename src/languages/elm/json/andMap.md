@@ -143,8 +143,12 @@ a -> (a -> b) -> b
 I don't understand above so once again:
 
 ```elm
-map2 : (a -> b -> value) -> Decoder a -> Decoder b -> Decoder value
+f: a -> b
+
+map2 : (a -> f -> b) -> Decoder a -> Decoder f -> Decoder b
+
 (|>) : a -> (a -> b) -> b
+
 andMap : Decoder a -> Decoder (a -> b) -> Decoder b
 andMap =
     map2 (|>)
@@ -157,11 +161,11 @@ type alias User =
 User : Int -> Date -> User
 
 map2 User
-    (field "id" int) 
+    (field "id" int)
     (field "createdAt" date)
 
 succeed User
-        |> andMap (field "id" int)
+    |> andMap (field "id" int)
 	|> andMap (field "createdAt" date)
 ```
 

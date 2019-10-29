@@ -1,6 +1,6 @@
 ## Final code
 
-https://ellie-app.com/mxkGY5DVFa1/0
+https://ellie-app.com/74fZ5D5PLKba1
 
 ```elm
 module Main exposing (main)
@@ -9,9 +9,9 @@ import Html exposing (Html, text)
 import Json.Decode exposing (..)
 
 
-(|:) : Decoder (a -> b) -> Decoder a -> Decoder b
-(|:) =
-    map2 (<|)
+andMap : Decoder a -> Decoder (a -> b) -> Decoder b
+andMap =
+    map2 (|>)
 
 
 serverResponseMy : String
@@ -37,7 +37,7 @@ fromResultWithWarning decoder ( name, value ) record =
             newRecord
 
         Err error ->
-            Debug.log ("[Warning]: " ++ error) record
+            Debug.log ("[Warning]: " ++ Debug.toString error) record
 
 
 feedNameL : (String -> MyRecord -> Decoder MyRecord) -> List ( String, Value ) -> MyRecord
@@ -54,10 +54,12 @@ decodeField : String -> MyRecord -> Decoder MyRecord
 decodeField name record =
     case name of
         "url" ->
-            succeed (\url -> { record | url = url }) |: string
+            succeed (\url -> { record | url = url })
+                |> andMap string
 
         "amount" ->
-            succeed (\amount -> { record | amount = amount }) |: float
+            succeed (\amount -> { record | amount = amount })
+                |> andMap float
 
         _ ->
             fail <| "Unhandled field " ++ name
@@ -73,10 +75,10 @@ defaultMyRecord : MyRecord
 defaultMyRecord =
     MyRecord "" 0
 
+
 main : Html msg
 main =
-    text <| toString <| decodeString decodeList serverResponseMy
-
+    text <| Debug.toString <| decodeString decodeList serverResponseMy
 ```
 
 ## Discussion
@@ -119,7 +121,7 @@ ilias
 http://package.elm-lang.org/packages/zwilias/json-decode-exploration/5.0.0/Json-Decode-Exploration can generate warning for unused information in the json
 and http://package.elm-lang.org/packages/zwilias/json-decode-exploration/5.0.0/Json-Decode-Exploration#strict can be used to make that into a `strict` result - warnings become errors
 
-rofrol 
+rofrol
 explorations look nice though still experiment?
 
 ilias
