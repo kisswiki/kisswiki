@@ -17,7 +17,7 @@ $ git clone https://github.com/open-dynaMIX/simple-mpv-webui
 $ ln -s simple-mpv-webui/webui.lua .
 $ ln -s simple-mpv-webui/webui-page/ .
 $ sudo apt install lua5.2 lua5.2-dev luarocks
-$ luarocks install luasocket
+$ sudo luarocks install luasocket
 ```
 
 
