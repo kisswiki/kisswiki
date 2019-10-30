@@ -14,7 +14,21 @@ $ sudo luarocks install luasocket
 
 - https://stackoverflow.com/questions/28126996/installing-lua-socket-lib
 - https://stackoverflow.com/questions/39760619/lua-cannot-find-installed-luarocks-on-ubuntu
-- to prevent zoom-in on double click https://stackoverflow.com/questions/37808180/disable-viewport-zooming-ios-10-safari/38573198#38573198
+
+To prevent zoom-in on double click, add to the end of ~/.config/mpv/scripts/simple-mpv-webui/webui-page/webui.js:
+
+```javascript
+var lastTouchEnd = 0;
+document.addEventListener('touchend', function (event) {
+  var now = (new Date()).getTime();
+  if (now - lastTouchEnd <= 300) {
+    event.preventDefault();
+  }
+  lastTouchEnd = now;
+}, false);
+```
+
+https://stackoverflow.com/questions/37808180/disable-viewport-zooming-ios-10-safari/38573198#38573198
 
 - https://stackoverflow.com/questions/20321560/how-do-install-libraries-for-both-lua5-2-and-5-1-using-luarocks
 - This didn't work https://github.com/luarocks/luarocks/wiki/Installation-instructions-for-Unix
