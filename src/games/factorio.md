@@ -1,3 +1,6 @@
+- right click to create five items in inventory
+- shift+left click to create as many as you have materials
+
 ## feeding mining drill
 
 When coal in hand:
@@ -15,3 +18,8 @@ When machine inventory opened:
 
 When hand empty (drop with q):
 - ctrl+left click on mining drill/burner will take all that was produced
+
+## assembly machine
+
+- shift+right click to copy settings
+- shift+left click to paste settings
