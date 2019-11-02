@@ -1,3 +1,11 @@
+## global elm
+
+`npm update -g elm` did not work
+
+This worked:
+
+`npm remove -g elm; npm install -g elm`
+
 ## Global typescript
 
 ```
