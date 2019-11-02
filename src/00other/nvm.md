@@ -1,3 +1,9 @@
+## install latest
+
+`nvm install node`
+
+https://github.com/nvm-sh/nvm#usage
+
 ## Load nvm on demand
 
 ```bash
