@@ -167,3 +167,16 @@ https://github.com/mdgriffith/elm-ui/issues/57
 ## Element.Events.on, targetValue, targetChecked, keyCode are hidden in documentation
 
 https://github.com/mdgriffith/elm-ui/blob/1.1.5/src/Element/Events.elm#L177
+
+## Break long text without spaces
+
+```elm
+paragraph
+  [ Font.color model.style.color
+  , Font.size 40
+  , Html.Attributes.style "overflow-wrap" "break-word" |> Element.htmlAttribute
+  ]
+  [ text model.status.filename ]
+```
+
+https://stackoverflow.com/questions/3058866/how-to-force-a-line-break-in-a-long-word-in-a-div/3059128#3059128
