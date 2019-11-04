@@ -170,13 +170,17 @@ https://github.com/mdgriffith/elm-ui/blob/1.1.5/src/Element/Events.elm#L177
 
 ## Break long text without spaces
 
-```elm
-paragraph
-  [ Font.color model.style.color
-  , Font.size 40
-  , Html.Attributes.style "overflow-wrap" "break-word" |> Element.htmlAttribute
+```
+row [ width fill ]
+  [ paragraph
+    [ Font.color model.style.color
+    , Font.size 40
+	, Html.Attributes.style "word-break" "break-all" |> htmlAttribute
+    ]
+    [ text model.status.filename ]
   ]
-  [ text model.status.filename ]
 ```
 
-https://stackoverflow.com/questions/3058866/how-to-force-a-line-break-in-a-long-word-in-a-div/3059128#3059128
+- https://stackoverflow.com/questions/36150458/flex-item-overflows-container-due-to-long-word-even-after-using-word-wrap/36150638#36150638
+
+`'overflow-wrap: break-word'` will not work when `paragraph` inside `row` so this solution https://stackoverflow.com/questions/3058866/how-to-force-a-line-break-in-a-long-word-in-a-div/3059128#3059128 is bad for flexbox.
