@@ -184,3 +184,11 @@ row [ width fill ]
 - https://stackoverflow.com/questions/36150458/flex-item-overflows-container-due-to-long-word-even-after-using-word-wrap/36150638#36150638
 
 `'overflow-wrap: break-word'` will not work when `paragraph` inside `row` so this solution https://stackoverflow.com/questions/3058866/how-to-force-a-line-break-in-a-long-word-in-a-div/3059128#3059128 is bad for flexbox.
+
+## centralize Input.text contents
+
+mthiems 2:33 AM
+@VPagani I've seen this before, and I think this may be a bug in the current version of elm-ui. It seems the `input` DOM element needs a `text-align: inherit` style, as the `text-align: center` is on a parent `div` instead of on the `input` itself. Here's an Ellie illustrating one option for a workaround that makes it work:
+https://ellie-app.com/6GQLrcSt7hWa1
+
+https://elmlang.slack.com #elm-ui
