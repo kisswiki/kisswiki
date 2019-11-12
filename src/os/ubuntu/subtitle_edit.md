@@ -1,8 +1,7 @@
 ## Install
 
 ```bash
-$ sudo apt install mono-complete
-$ sudo apt install libmpv1
+$ sudo apt install mono-complete libmpv1
 # get location of so file
 $ dpkg -L libmpv1
 # subtitle edit searches for so, not so.1
