@@ -74,3 +74,27 @@ Test it with the command `xmodmap ~/.Xmodmap`.
 
 
 https://unix.stackexchange.com/questions/20550/how-to-disable-the-forward-back-buttons-on-my-mouse
+
+## Natural scrolling
+
+``` bash
+$ sudo mkdir /etc/X11/xorg.conf.d/
+$ sudo vim /etc/X11/xorg.conf.d/30-pointer.conf
+```
+
+with content:
+
+```
+Section "InputClass"
+        Identifier "libinput pointer catchall"
+        MatchIsPointer "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+
+        Option "NaturalScrolling" "on"
+EndSection
+```
+
+- https://askubuntu.com/questions/819662/how-to-invert-touchpad-scrolling-on-ubuntu-16-04/820098#820098
+- https://www.reddit.com/r/UbuntuMATE/comments/biccvr/how_do_i_enable_natural_scrolling_on_a_normal/em9bak6/
+- https://askubuntu.com/questions/1122513/how-to-add-natural-inverted-mouse-scrolling-in-i3-window-manager/1122517#1122517
