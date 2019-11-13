@@ -23,3 +23,7 @@ I needed to create xorg configuration file. Refer to `os/ubuntu/mouse/README.md`
 ## Map capslock to escape
 
 I have mapped caps lock to escape in gnome, but it does not work in mate.
+
+## Firefox start page
+
+Mate change my firefox start page to https://start.ubuntu-mate.org/ without my consent.
