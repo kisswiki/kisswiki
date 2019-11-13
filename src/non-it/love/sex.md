@@ -43,16 +43,10 @@ Women who rated their partners as lower in sexual attractiveness reported more e
 
 Is Female Sexual Reluctance Related to Ovulatory Status?
 
-However, this hypothesis has a problem from the start: Why are so many women reluctant
-to have sex with their primary partner, sometimes at considerable cost, if it would be so
-easy to give in during the infertile phase and restrict reluctance to the fertile phase? This
-would suffice to keep a window open for good genes conception and at the same time
-avoid the primary partner’s malcontent.
+However, this hypothesis has a problem from the start: Why are so many women reluctant to have sex with their primary partner, sometimes at considerable cost, if it would be so easy to give in during the infertile phase and restrict reluctance to the fertile phase? This would suffice to keep a window open for good genes conception and at the same time avoid the primary partner’s malcontent.
 
 In a large survey of British citizens
-(Johnson et al., 1994), the median copulation rate in married couples is reported to be
-seven copulations in past month for the age group 16–24 years, decreasing to five
-copulations for age group 35–44 years.
+(Johnson et al., 1994), the median copulation rate in married couples is reported to be seven copulations in past month for the age group 16–24 years, decreasing to five copulations for age group 35–44 years.
 
 https://sci-hub.tw/10.1080/0092623X.2011.569637
 
@@ -97,3 +91,9 @@ https://sci-hub.tw/10.1177/1097184X15595082
 ##
 
 https://en.m.wikipedia.org/wiki/Journal_of_Sex_%26_Marital_Therapy
+
+##
+
+We found that women report more frequent orgasms the higher their partner's income is. This result cannot be explained by possible confounds such as women's age, health, happiness, educational attainment, relationship duration, wealth difference between the partners, difference between the partners in educational attainment, and regional location. It appears consistent with the view that female orgasm has an evolved adaptive function.
+
+https://sci-hub.tw/10.1016/j.evolhumbehav.2008.11.002
