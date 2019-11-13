@@ -32,19 +32,7 @@ https://sci-hub.tw/10.1080/0092623X.2011.569637
 
 ##
 
-The most frequent conflict within human mateships is the conflict between male sexual
-persistence and female sexual resistance. This conflict is nearly absent in the formation
-phase of a mateship and intensifies with time. It is rooted in sex-specific evolved
-programs encountering each other: a female program to secure male assistance and
-simultaneously remain open to new matings and a male program to guard paternity and
-to seek frequent copulation as a precaution against sperm competition. Mate value, the
-threat of infidelity, and attachment moderate the conflict. Attachment motivation can be
-seen as a part of mating strategy or as a motivational system of its own, conflicting with
-demands of strategic flexibility. The theoretical framework of mating strategy
-accommodates many observations about sexual motivation within human mateships.
-However, sexual therapy has not yet taken much advantage of this body of knowledge.
-This might result from the different traditions of the respective scientific communities. It
-may also reflect a more substantial role of attachment than of mating strategy for the
+The most frequent conflict within human mateships is the conflict between male sexual persistence and female sexual resistance. This conflict is nearly absent in the formation phase of a mateship and intensifies with time. It is rooted in sex-specific evolved programs encountering each other: a female program to secure male assistance and simultaneously remain open to new matings and a male program to guard paternity and to seek frequent copulation as a precaution against sperm competition. Mate value, the threat of infidelity, and attachment moderate the conflict. Attachment motivation can be seen as a part of mating strategy or as a motivational system of its own, conflicting with demands of strategic flexibility. The theoretical framework of mating strategy accommodates many observations about sexual motivation within human mateships. However, sexual therapy has not yet taken much advantage of this body of knowledge. This might result from the different traditions of the respective scientific communities. It may also reflect a more substantial role of attachment than of mating strategy for the
 sexual life of a couple, since sexual therapy often focuses on issues of attachment.
 
 Women with many sex partners as compared with women with fewer sex partners reported their first sexual experience five years earlier, had a lower waist-to-hip ratio, behaved more like boys during childhood, were rated to be more masculine in their physical appearance and their behavior, and were more unrestricted in SO. There was no indication that women who had more sex partners were lower in mate value or endured greater childhood stress than women with fewer sex partners.
@@ -78,7 +66,7 @@ https://sci-hub.tw/10.1007/s10508-017-0968-7
 
 ##
 
-Sex is critical to marriage. Yet, there are several reasons to expect spouses to experience declines in the desire for sex over time, and the rates of any declines in sexual desire may differ for men and women. We used two multi-wave, longitudinal studies to test whether male and female members of newlywed couples experienced different rates of change in sexual desire, whether any such changes were accentuated by childbirth, and whether any such changes had implications for marital satisfaction. In both studies, spouses provided multiple reports of sexual desire, marital satisfaction, and childbirth. Results demonstrated that women’s sexual desire declined more steeply over time than did men’s sexual desire, which did not decline on average. Further, childbirth accen-tuated this sex difference by partially, though not completely, accounting for declines in women’s sexual desire but not men’s. Finally, declines in women’s but not men’s sexual desire predicted declines in both partners’ marital satisfaction. These effects held controlling depressive symptoms and stress, including stress from parenthood. The current findings offer novel longitudinal evidence for sex-differentiated changes in sexual desire and therefore suggest an important source of marital discord.
+Sex is critical to marriage. Yet, there are several reasons to expect spouses to experience declines in the desire for sex over time, and the rates of any declines in sexual desire may differ for men and women. We used two multi-wave, longitudinal studies to test whether male and female members of newlywed couples experienced different rates of change in sexual desire, whether any such changes were accentuated by childbirth, and whether any such changes had implications for marital satisfaction. In both studies, spouses provided multiple reports of sexual desire, marital satisfaction, and childbirth. Results demonstrated that women’s sexual desire declined more steeply over time than did men’s sexual desire, which did not decline on average. Further, childbirth accentuated this sex difference by partially, though not completely, accounting for declines in women’s sexual desire but not men’s. Finally, declines in women’s but not men’s sexual desire predicted declines in both partners’ marital satisfaction. These effects held controlling depressive symptoms and stress, including stress from parenthood. The current findings offer novel longitudinal evidence for sex-differentiated changes in sexual desire and therefore suggest an important source of marital discord.
 
 https://sci-hub.tw/10.1007/s10508-019-01471-6
 
