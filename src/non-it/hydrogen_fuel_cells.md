@@ -33,3 +33,33 @@ at reducing oil dependence and greenhouse g
 Elon Musk calls these things hydrogen fool cells.
 
 https://electrek.co/2019/06/11/hydrogen-station-explodes-toyota-halts-sales-fuel-cell-cars/
+
+##
+
+Tak tak. Trwają prace. Wodór to paliwo przyszłości. I zawsze będzie paliwem przyszłości, a nie teraźniejszości. Fool-cells zamiast fuel-cells.
+
+A z tym lobby producentów samochodów to już w ogóle przywaliłeś.
+
+The 5–10 minute speed of refueling sounds nice. But after refueling one vehicle, the station needs about 20 minutes to pressurize enough hydrogen to fill the next vehicle. In economic terms of the station operator, a €1,500,000 station can service 3 vehicles per hour. For the same amount, one can build an electric charging station with 12 outlets that can charge 36 vehicles per hour. The mass migration in summer to the Mediterranean and in winter to the Alps is a challenge for the current gasoline refilling infrastructure. Waiting times over an hour at a filling station along the highway are not unusual.
+
+Due to the inefficiency of the hydrogen cycle, the energy used per kilometer is three times as high in a well-to-wheel calculation as the energy used in a 100% battery-electric vehicle (BEV). In a decarbonized energy economy, this electricity is coming from wind, hydro, and solar energy options. The hydrogen cost is three times higher than electricity for BEVs using these sources. I will not even comment on the current natural gas–based hydrogen production process, because that gas should stay in the ground.
+
+Hydrogen comes from natural gas. More hydrogen = more natural gas sales, exploration, production, revenue. (Green hydrogen is an infeasible myth for at least a decade or two, and is completely contingent upon R&D breakthroughs. Perhaps not as bad as nuclear fusion that’s 20 years away and always will be, but it appears to be a close 2nd).
+
+I read that the Toyota Mirai has a limit on the tanks (warranties for 8 years / 100,000 miles). If they aren’t changed at some time period, the car won’t go. But that is a good point, more than just the tank could leak and will need replacement and presumably - periodic inspection.
+
+Batteries are lighter than fuel cells and hydrogen tanks. Tesla battery weights less than 450 kg. It is almost less weight than similarly powerful and high torque combustion engine driveline, such as Audi A4 TDi. This is also the reason why Toyota Mirai weights 1850 kg although it is smaller and certainly less roomy car than Tesla Model 3 that weights 1650 kg or 200 kg less than Mirai.
+
+Hydrogen is especially horrible for heavy long haul trucks as it is more expensive than electricity. Tesla's solar charging system can provide cost of electricity at 7 cents per kWh and charging times around 30-45 minutes. Or perfect for driver coffee breaks. Hydrogen costs about 12 dollars per kg and even in best case more than six dollars per kg.
+
+This means in practice that Tesla's truck saves 100-200 000 dollars annually compared to significantly more expensive hydrogen truck. The economics for hydrogen truck are just nutty.
+
+Fuel cells are certainly not cleaner to produce than batteries as they require much more rare metals. It is not entire clear if there is a road map to get rid off platinum.
+
+H2 may be 33.3KwH per Kg (I need to check on that figure), but the ancilliary bits to store 1kg in a movable manner raise the weight requirements quite a bit, as does the size required for that equipment.
+
+Rather compare the weight of a typical system - eg apples to apples. For moving vehicles that is an important aspect - more weight = lower efficiency.
+
+https://cleantechnica.com/2019/10/22/renault-loses-its-marbles-dissolved-in-hydrogen/
+
+https://disqus.com/home/discussion/spiderwebpelp/tegoroczny_pazdziernik_by_kolejnym_rekordowo_goracym_miesiacem_czy_kogos_to_jeszcze_obchodzi/?utm_source=reply&utm_medium=email&utm_content=comment_date#comment-4687339568
