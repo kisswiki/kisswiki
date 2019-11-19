@@ -63,3 +63,37 @@ Rather compare the weight of a typical system - eg apples to apples. For moving 
 https://cleantechnica.com/2019/10/22/renault-loses-its-marbles-dissolved-in-hydrogen/
 
 https://disqus.com/home/discussion/spiderwebpelp/tegoroczny_pazdziernik_by_kolejnym_rekordowo_goracym_miesiacem_czy_kogos_to_jeszcze_obchodzi/?utm_source=reply&utm_medium=email&utm_content=comment_date#comment-4687339568
+
+##
+
+Niestety wodór nie jest w żadnym wypadku konkurencją do czystych elektryków. Wodór nie dość że drogi (tak wodór będzie droższy na stacji niż benzyna!), robiony w 95% z gazu ziemnego (metan+para), wydajność 1/3 EV, stacje drogie jak choinka, i nie mamy żadnej infrastruktury (absolutnie wszystko trzeba wybudować od nowa), gazowy wodór "cieknie" przez niemal wszystko więc zbiornik "wyparowuje" powoli, nie można tankować w domu, samochód ma marne osiągi, zbiorniki zajmują 1/3 auta, wszystko kontroluje lobby paliwowe i samochodowe (plan: zeżreć dotacje i nie zrobić nic) to niestety mamy za mało platyny na ogniwa aby przestawić wszystko na auta wodorowe nawet gdybyśmy mieli darmowy wodór rurą prosto ze słońca.
+
+Żałosna sprawność:
+
+![](i.imgur.com--vMIpIVd.jpg)
+
+![](pbs.twimg.com--media--DGN8sTWWsAAepeU.jpg)
+
+Do poczytania:
+http://www.industrializedcyclist.com/ulf%20bossel.pdf
+"Does a Hydrogen Economy Make Sense?
+
+Electricity obtained from hydrogen fuel cells appears to be four times as expensive as electricity drawn from the electrical transmission grid."
+
+Fundamental laws of physics expose the weakness of a hydrogen economy. Hydrogen, the artificial energy carrier, can never compete with its own energy source, electricity, in a sustainable future.
+
+Hydrogen Fuel Cell Vehicles or Electric Vehicles?
+https://www.youtube.com/watch?v=23lz9ercqvA
+
+Jak masz z godzinkę czasu to polecam przeczytać 4 części w tym blogu od osoby która zajmowała się praktycznym zastosowaniem wodoru:
+http://ssj3gohan.tweakblogs.net/blog/11470/why-fuel-cell-cars-dont-work-part-1
+
+http://evobsession.com/hydrogen-fuel-cell-cars-fail-in-depth/
+
+A tutaj pomysł na ratowanie koncepcji auta na wodór, hybryda "plugin" elektryczno wodorowa:
+
+Mercedes GLC F-Cell - plugin FCBEV
+https://youtu.be/PuhYNVSPjUM?t=435
+
+Z tego względu że nie ma stacji będziesz jeździł na baterii a w trasy wodór jako "range extender".
+Niestety koszmarnie droga - no i wszystkie wady wodoru a szczególnie mało miejsca w aucie.
