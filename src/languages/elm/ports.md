@@ -43,3 +43,8 @@ https://www.reddit.com/r/elm/comments/7vnikt/i_have_a_proble_porting_a_js_librar
 - https://github.com/halfzebra/elm-examples/tree/master/examples/ports
 - https://github.com/clarkware/elm-ports-example
   - https://twitter.com/clarkware/status/830524521262235649
+- https://stackoverflow.com/questions/41679386/elm-define-subscription-port-with-no-parameters
+- https://discourse.elm-lang.org/t/unsubscribe-from-port-within-port-subscription-callback/2808
+- is not function
+  - Unused ports is considered dead code and is eliminated in Elm 0.19 https://discourse.elm-lang.org/t/typeerror-accessing-port/3119/2
+  - `app.ports.textToSVG && app.ports.textToSVG` https://discourse.elm-lang.org/t/typeerror-accessing-port/3119/4
