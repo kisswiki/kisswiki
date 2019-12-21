@@ -4,15 +4,15 @@ tak się składa, że zatrudniam copywriterów na outsourcingu, głównie z Indi
 Teraz mam tylko problem, bo są tam protesty i im net poodcinano :) Ot, taka niespodzianka od indyjskiego rządu dla tysięcy firm majacych freelancerów w Delhi i innych miastach.
 
 - absolutnie nie ufać żadnym papierom Hindusów (co drugi miał sfałszowany dyplom)
-- absolutnie nie ufac portfolio Hindusów- jak sprawdzałem programami twórczość potencjalnych copywriterów to 70-80% plagiat. I oni to wysyłali mi jako próbki swojej pracy.
+- absolutnie nie ufac portfolio Hindusów - jak sprawdzałem programami twórczość potencjalnych copywriterów to 70-80% plagiat. I oni to wysyłali mi jako próbki swojej pracy.
 - zatrudniać tylko po dokładnej weryfikacji umiejętności na miejscu.
 - płacić od wykonanego zadania, nigdy za godziny.
 - zatrudniać kilka osób na jedno miejsce tak jak to w Indiach jest normą (wiadomo że ktoś nawali, ktoś nie przyjdzie do pracy, każdy ma milion gotowych wymówek, zawsze jest jakieś święto itd.)
 - Mieć gotową bazę ludzi na zastępstwo. To jest podstawa bo rotacja jest niesamowita.
-- Nigdy nie dawac drugiej szansy- za dużo ich dawałem i niesamowicie żałowałem potem.
+- Nigdy nie dawac drugiej szansy - za dużo ich dawałem i niesamowicie żałowałem potem.
 - Być miłym, ale jednocześnie brutalnym - zwalniać bez żadnych zahamowań.
 Przez to co doświadczyłem w Indiach zrobiła mi się trzy razy grubsza skóra na plecach i nabawiłem się cynizmu i kompletnego braku zaufania do ludzi.
 
-Po prostu proces rekrutacji pięć razy cięższy, a potem zyski są niesamowite, z uwagi na koszty. Ich jest ponad miliard- trzeba dotrzeć do perełek.
+Po prostu proces rekrutacji pięć razy cięższy, a potem zyski są niesamowite, z uwagi na koszty. Ich jest ponad miliard - trzeba dotrzeć do perełek.
 
 https://www.facebook.com/groups/startupy/?multi_permalinks=2838492182860929
