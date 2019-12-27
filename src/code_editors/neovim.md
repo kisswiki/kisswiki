@@ -165,3 +165,11 @@ Start maximized with `--maximized` parameter
 ## vs vim
 
 - https://www.reddit.com/r/vim/comments/8v8rcp/should_i_be_using_neovim_instead_of_vim8/e1obb3h/
+
+## fzf
+
+`Plug 'junegunn/fzf' | Plug 'junegunn/fzf.vim'`
+
+`:Files` or `:Files <path> and `Ctrl+t` to open in tab.
+
+https://github.com/smudge/dotfiles/blob/3b9e9474150131458c3846ad2d3a4ab0c342dabb/vimrc#L42
