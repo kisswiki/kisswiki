@@ -76,3 +76,16 @@ docker build https://github.com/docker/rootfs.git#container:docker
 
 - https://docs.docker.com/engine/reference/commandline/build/
 - http://stackoverflow.com/questions/26753030/how-to-build-docker-image-from-github-repository
+
+## 2019-12-27
+
+In build phase there is no access to volume.u
+
+Volume is created on host.
+
+You can mount to host but cannot provide relative path
+
+## vscode
+
+- https://code.visualstudio.com/docs/remote/containers
+- https://github.com/Microsoft/vscode-docker
