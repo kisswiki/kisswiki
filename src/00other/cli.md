@@ -30,6 +30,8 @@ nicer visuals, graph `alias ping='prettyping --nolegend'` https://github.com/den
 
 ## fzf > ctrl+r
 
+- https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/
+
 fuzzy search against the terminal history, with a fully interactive preview of the possible matches, preview and open files https://github.com/junegunn/fzf
 
 Example usage
