@@ -449,6 +449,23 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 
 - https://plaintextaccounting.org/#plain-text-accounting-tools
 
+## structured data
+
+the IP addresses of all your network interfaces
+
+`ip -j addr | jq '.[].addr_info[].local'`
+
+`column` is from `util-linux`, but on debian it is not compiled in. Instead there is another `column`:
+
+```bash
+$ dpkg -S `which column`
+bsdmainutils: /usr/bin/column
+$ dpkg -L util-linux | grep column
+$
+```
+
+https://www.reddit.com/r/programming/comments/eei1qg/nushell_a_modern_shell_for_the_github_era/fburdys/
+
 ## Misc
 
 - xsv: for working with csv https://github.com/BurntSushi/xsv

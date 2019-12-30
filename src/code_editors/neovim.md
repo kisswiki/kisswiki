@@ -173,3 +173,12 @@ Start maximized with `--maximized` parameter
 `:Files` or `:Files <path> and `Ctrl+t` to open in tab.
 
 https://github.com/smudge/dotfiles/blob/3b9e9474150131458c3846ad2d3a4ab0c342dabb/vimrc#L42
+
+## lua
+
+- https://github.com/neovim/neovim/issues/7895
+- https://www.reddit.com/r/neovim/comments/6bfn33/any_documentation_on_how_to_use_native_lua/
+- https://neovim.io/roadmap/
+  - https://www.reddit.com/r/neovim/comments/e7tm1y/i_see_neovim_050_was_released_yesterday_where_do/fa56a3u/
+- https://www.reddit.com/r/neovim/comments/7fkjbi/docs_for_developing_a_plugin_in_lua_especially/
+- https://www.reddit.com/r/neovim/comments/df0szy/dependencies_for_plugins_in_lua/
