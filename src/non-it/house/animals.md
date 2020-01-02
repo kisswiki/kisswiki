@@ -1,0 +1,2 @@
+- wybrać się do najbliższego urzędu miasta czy gminy i poprosić o lokalny regulamin porządkowy https://www.werandacountry.pl/weranda-country-nr-72015/papiery-na-kure
+- https://www.rp.pl/artykul/291107-Kto-decyduje--czy-na-wlasnej-dzialce-mozna-hodowac-kury.html
