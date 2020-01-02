@@ -114,7 +114,7 @@ mousewheel.min_line_scroll_amount: 40 (Try somewhere between 22 or 40, whatever 
 
 https://www.reddit.com/r/firefox/comments/ajzzou/hey_guys_im_a_long_time_google_chrome_user_and/ef1vlvh/
 
-## Wanr on quit
+## Warn on quit
 
 in about:config
 
@@ -124,6 +124,13 @@ browser.warnOnQuit true
 ```
 
 - https://superuser.com/questions/1318336/how-to-disable-ctrlq-shortcut-in-firefox-on-linux/1352295#1352295
+
+It does not warn when closing window with `ctrl+shift+w` when there are only pinned tabs:
+
+- https://bugzilla.mozilla.org/show_bug.cgi?id=250983#c25
+- https://bugzilla.mozilla.org/show_bug.cgi?id=587400#c113
+
+And also you cannot override this shortcut https://superuser.com/questions/415773/disable-ctrlshiftw-shortcut-in-firefox-linux#comment1894710_415835
 
 ## Double-click in url to select segments
 
