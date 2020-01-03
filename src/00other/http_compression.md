@@ -92,7 +92,7 @@ $ sudo systemctl start nginx
 
 ### http-server
 
-	`http-server --gzip --proxy http://localhost:8080?`
+	`npm i -g http-server; hs --gzip --proxy http://localhost:8080?`
 
 - https://github.com/indexzero/http-server
 
