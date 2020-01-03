@@ -4,3 +4,13 @@
 - https://piaseczno.eu/przebudowa-s7/
   - https://www.gddkia.gov.pl/pl/d/f6fe6b7b3c21787edaf71e0208267fd9
     - plan-orientacyjny-S7-Warszawa-Grojec.jpg
+- https://pwikpiaseczno.pl/oczyszczalnie-i-kanalizacja.html
+- http://www.piaseczno.pl/turystyka/rezerwaty-przyrody
+  - http://parkiotwock.pl/chojnowski-park-krajobrazowy
+  - https://pl.m.wikipedia.org/wiki/Chojnowski_Park_Krajobrazowy
+
+## Strony z ofertami sprzedaży
+
+- https://www.otodom.pl/sprzedaz/dzialka/piaseczno
+- https://www.olx.pl/nieruchomosci/dzialki/sprzedaz/piaseczno/
+- https://piaseczno.nieruchomosci-online.pl
