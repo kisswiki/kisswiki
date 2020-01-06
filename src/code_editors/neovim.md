@@ -17,6 +17,11 @@ https://github.com/neovim/neovim/wiki/Installing-Neovim
 - https://www.reddit.com/r/neovim/comments/3z6c2i/how_does_one_install_vimplug_for_neovim/
 - https://github.com/Shougo/dein.vim
 
+To remove package:
+
+1. remove package line from config
+2. `:PlugClean`
+
 ### on Windows
 
 in file ~/AppData/Local/nvim/init.vim:

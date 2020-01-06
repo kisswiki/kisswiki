@@ -7,4 +7,4 @@
 - Facebook Messenger https://github.com/rofrol/rust-shopping-bot
 - Facebook Messenger https://github.com/jwilm/chatbot
 - [Creating a twitch chatbot in Rust part 1 - YouTube](https://www.youtube.com/watch?v=EBvpYZqWQ1k)
-- [Creating a chat bot with Rust - YouTube](https://www.youtube.com/watch?v=UmvK4bUMQyY)
+  - [Creating a chat bot with Rust - YouTubeww.youtube.com/watch?v=UmvK4bUMQyY
