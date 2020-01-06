@@ -1,0 +1,1 @@
+- let's trace through the docs https://www.reddit.com/r/rust/comments/af4ns6/how_to_work_with_refcell/edvht01/
