@@ -29,3 +29,5 @@ Then
 `sudo luarocks install json4Lua`
 
 I see there is also https://github.com/mpx/lua-cjson/ but I have not tried it 
+
+Code from https://github.com/mpv-player/mpv/issues/5868#issuecomment-573399328
