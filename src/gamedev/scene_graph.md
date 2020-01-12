@@ -17,3 +17,7 @@ Call it the transformation graph, or the visibility graph, etc, instead. Usually
 https://www.gamedev.net/forums/topic/464464-anti-scenegraphism-a-tale-of-tom-forsyths-scene-graphs-just-say-no/
 
 Also this https://news.ycombinator.com/item?id=13912670
+
+>Scene graph becoming less popular. The whole concept of the scene as a tree is good only for editing a scene but translate poorly to a game engine. A lot of meshes in a games are static and don't need any update or hierarchy. Constraints of dynamic objects are usually managed by physics. The few real dependency (light connected to a destructible lamppost) can be handled with a separated list of links.
+
+https://www.reddit.com/r/gamedev/comments/5exges/scene_graph_just_a_question/
