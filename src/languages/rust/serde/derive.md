@@ -7,7 +7,8 @@ extern crate serde_derive;
 
 ##
 
-https://www.reddit.com/r/rust/comments/a8ykj8/til_you_dont_need_serde_derive_when_using_the/
+- recommend depending on the derive macros re-exported by serde rather than using serde_derive https://github.com/serde-rs/serde/issues/1441#issuecomment-445481084
+- https://www.reddit.com/r/rust/comments/a8ykj8/til_you_dont_need_serde_derive_when_using_the/
 
 Without specifing serder_derive crate:
 
