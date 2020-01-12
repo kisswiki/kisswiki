@@ -7,6 +7,8 @@ extern crate serde_derive;
 
 ##
 
+https://www.reddit.com/r/rust/comments/a8ykj8/til_you_dont_need_serde_derive_when_using_the/
+
 Without specifing serder_derive crate:
 
 ```diff
