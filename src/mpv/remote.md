@@ -8,6 +8,7 @@ $ cd ~/.config/mpv/scripts
 $ git clone https://github.com/open-dynaMIX/simple-mpv-webui
 $ ln -s simple-mpv-webui/webui.lua .
 $ ln -s simple-mpv-webui/webui-page/ .
+# mpv supports lua 5.1 or 5.2 https://github.com/mpv-player/mpv/wiki/FAQ#Why_does_mpv_not_support_Lua_53
 $ sudo apt install lua5.2 lua5.2-dev luarocks
 $ sudo luarocks install luasocket
 ```
