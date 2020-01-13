@@ -1,2 +1,3 @@
 - https://www.fastcompany.com/40547840/10-ways-to-use-ai-to-make-everyday-tasks-a-little-easier
   - https://www.fitgenieapp.com/
+ - db ConnectionPool is used by a webserver. This project is maintained as an example of a modern Web server. It includes a database connection with Postgres. https://www.reddit.com/r/rust/comments/ekpqp7/hey_rustaceans_got_an_easy_question_ask_here_22020/fe2w18x/
