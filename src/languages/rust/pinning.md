@@ -1,0 +1,2 @@
+- https://www.reddit.com/r/rust/comments/eo7u4o/futures_pinning_101/
+- https://rust-lang.github.io/async-book/04_pinning/01_chapter.html
