@@ -6,6 +6,7 @@
 ## url router / match / extract
 
 - https://github.com/gsquire/reroute
+  - https://github.com/gothinkster/rust-realworld-example-app/blob/240843eb953251773d2a15deab708500a79f643d/src/main.rs#L682
   - https://gsquire.github.io/static/post/rest-in-rust/
 - https://www.reddit.com/r/rust/comments/4btgi0/regexset_router_for_hyper/
 - https://github.com/rust-lang/regex#usage-match-multiple-regular-expressions-simultaneously
