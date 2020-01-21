@@ -333,3 +333,26 @@ Create symoblic link to directory you want to browse:
 - https://stackoverflow.com/questions/30779412/nginx-how-to-avoid-forced-downloads-in-all-wav-files
 - https://stackoverflow.com/questions/44217573/why-request-without-suffix-of-filename-extension-html-will-download-file
 - https://support.mozilla.org/en-US/kb/change-firefox-behavior-when-open-file~/personal_projects/nginx$
+
+## Another proxy with actix-web
+
+```
+server {
+  listen 80;
+  server_name example.com;
+  keepalive_timeout 65;
+ 
+  proxy_connect_timeout       600;
+  proxy_send_timeout          600;
+  proxy_read_timeout          600;
+  send_timeout                600;
+  
+  location / {
+   proxy_set_header X-Forwarded-For $remote_addr;
+   proxy_pass http://localhost:3000;
+   add_header Keep-Alive "timeout=65, max=100";
+  }
+}
+```
+
+https://www.reddit.com/r/rust/comments/erqxf7/hosting_actixweb_with_nginx/
