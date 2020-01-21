@@ -21,6 +21,11 @@
   - Law of attraction
 - [The Secret of Waking Up Early | Best Inspirational Speech (ft. Mel Robbins) - YouTube](https://www.youtube.com/watch?v=RISPfymPDWE)
 - [WINNERS MINDSET - Best Motivational Video - YouTube](https://www.youtube.com/watch?v=jwjGw3BCryI)
+- https://www.nateliason.com/blog/roam
+- https://news.ycombinator.com/item?id=22104366
+  - [Building a Second Brain: An Overview | Praxis](https://praxis.fortelabs.co/basboverview/)
+- https://www.deprocrastination.co/blog/3-tricks-to-start-working-despite-not-feeling-like-it
+  - https://news.ycombinator.com/item?id=22105229
 
 ## procrastination
 
