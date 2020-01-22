@@ -1,0 +1,11 @@
+- https://wiki.hackerspace.pl/projects:xiaomi-flora
+- https://community.home-assistant.io/t/xiaomi-mi-plants-monitor-flower
+- https://www.home-assistant.io/integrations/plant
+- https://community.home-assistant.io/t/miflora-sensor-plant-database 
+- https://github.com/ChristianKuehnel/plantgateway
+- https://github.com/AnderssonPeter/MiFloraSwarm/tree/master/ESPFlora
+- https://www.open-homeautomation.com/2016/08/29/monitor-your-plants-with-home-assistant/
+- https://www.open-homeautomation.com/2016/08/23/reverse-engineering-the-mi-plant-sensor/
+- https://github.com/sergem155/miflora-influxdb
+- https://github.com/open-homeautomation/miflora
+- https://github.com/sidddy/flora

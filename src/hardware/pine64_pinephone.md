@@ -41,6 +41,19 @@ To my surprise, it still took almost 7 hours for the battery to run empty.
   - On the schematic, you can see the pin 0.27 on the MCU that is "connected" to LED13, but it's written "NC" (Not connected ?) 
   - Neither the LED or the current limiting resistor are populated / connected!
 
+To discover which parts of the screen are touched (up to 10 points), we need to read 63 bytes from the PineTime Touch Controller… That’s 63 consecutive I2C Registers, 1 byte per register! https://medium.com/@ly.lee/building-a-rust-driver-for-pinetimes-touch-controller-cbc1a5d5d3e9
+
+## SMA Q2 aka SMA TIME
+
+- https://hackaday.io/project/85463-color-open-source-smartwatch
+- https://wiki.hackerspace.pl/projects:sma-q2
+- https://github.com/Emeryth/sma-q2-oss
+- [SMA Q2 "Pebble Like" COLOR "Always On" screen IP67 Waterproof Smartwatch: One Minute Overview - YouTube](https://www.youtube.com/watch?v=eYZ_QWuYM_Y)
+- [SMA Q2 Touchscreen Wrist Smart Watch Review - YouTube](https://www.youtube.com/watch?v=_mWTwqElL6o)
+- https://github.com/KonradIT/SMA-Q2
+- How to reset Bluetooth on watch without loosing data https://forum.xda-developers.com/smartwatch/other-smartwatches/sma-q2-time-smart-watch-t3531740/page12
+- https://github.com/BigCorvus/SMA-Q2-Arduino
+
 ## Mynewt
 
 With a cooperative task scheduler like cocoOS, the firmware needs to be designed carefully before coding. Which could be a problem if you’re not an embedded software architect. So I switched to an open source Real Time Operating System that supports preemptive multitasking: Apache Mynewt…
