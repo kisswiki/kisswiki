@@ -1,0 +1,20 @@
+- https://venturebeat.com/2017/02/11/the-surprising-momentum-behind-io-games-like-agar-io/
+- https://en.m.wikipedia.org/wiki/Agar.io
+  - http://agar.io
+  - in Rust https://github.com/loovjo/agar-rs
+  - in Rust https://github.com/dothanhtrung/ragar
+- https://en.m.wikipedia.org/wiki/Slither.io
+  - http://slither.io
+- https://raid.land
+- https://en.m.wikipedia.org/wiki/Diep.io
+  - https://diep.io/
+- https://en.m.wikipedia.org/wiki/Miniclip
+  - https://miniclip.com
+- http://iogames.space/
+- https://www.crazygames.com/c/io
+- https://yourgames.io
+- http://www.alliogames.net
+- https://itch.io
+- https://moomoo.io
+- https://squadd.io/
+- https://krunker.io/
