@@ -1,0 +1,1 @@
+- https://www.reddit.com/r/homeautomation/comments/ec58db/i_made_a_gif_to_illustrate_how_easy_it_is_to_get/
