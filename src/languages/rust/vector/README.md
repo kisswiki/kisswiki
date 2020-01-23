@@ -9,3 +9,11 @@ let names = vec!["John".to_owned(), "Smith".to_owned()];
 ```
 
 http://xion.io/post/code/rust-move-out-of-container.html
+
+## Access last n elements of a vector
+
+```rust
+&rust_vec[rust_vec.len()-10..]
+```
+
+https://www.reddit.com/r/learnrust/comments/eo1qh5/neater_way_to_access_the_last_n_elements_in_a_vec/fe7pay1/
