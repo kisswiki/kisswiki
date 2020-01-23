@@ -1,0 +1,2 @@
+- http://formlabs.com/
+- https://www.engineering.com/AdvancedManufacturing/ArticleID/19030/3D-Printing-is-Getting-Bigger-Better.aspx
