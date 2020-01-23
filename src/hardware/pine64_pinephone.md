@@ -43,17 +43,6 @@ To my surprise, it still took almost 7 hours for the battery to run empty.
 
 To discover which parts of the screen are touched (up to 10 points), we need to read 63 bytes from the PineTime Touch Controller… That’s 63 consecutive I2C Registers, 1 byte per register! https://medium.com/@ly.lee/building-a-rust-driver-for-pinetimes-touch-controller-cbc1a5d5d3e9
 
-## SMA Q2 aka SMA TIME
-
-- https://hackaday.io/project/85463-color-open-source-smartwatch
-- https://wiki.hackerspace.pl/projects:sma-q2
-- https://github.com/Emeryth/sma-q2-oss
-- [SMA Q2 "Pebble Like" COLOR "Always On" screen IP67 Waterproof Smartwatch: One Minute Overview - YouTube](https://www.youtube.com/watch?v=eYZ_QWuYM_Y)
-- [SMA Q2 Touchscreen Wrist Smart Watch Review - YouTube](https://www.youtube.com/watch?v=_mWTwqElL6o)
-- https://github.com/KonradIT/SMA-Q2
-- How to reset Bluetooth on watch without loosing data https://forum.xda-developers.com/smartwatch/other-smartwatches/sma-q2-time-smart-watch-t3531740/page12
-- https://github.com/BigCorvus/SMA-Q2-Arduino
-
 ## Mynewt
 
 With a cooperative task scheduler like cocoOS, the firmware needs to be designed carefully before coding. Which could be a problem if you’re not an embedded software architect. So I switched to an open source Real Time Operating System that supports preemptive multitasking: Apache Mynewt…
@@ -227,3 +216,39 @@ https://www.adafruit.com/product/2209
 ## MicroPython
 
 - [PineTime display and micropython](https://forum.pine64.org/showthread.php?tid=8836)
+
+## SMA Q2 aka SMA TIME
+
+- https://hackaday.io/project/85463-color-open-source-smartwatch
+- https://wiki.hackerspace.pl/projects:sma-q2
+- https://github.com/Emeryth/sma-q2-oss
+- [SMA Q2 "Pebble Like" COLOR "Always On" screen IP67 Waterproof Smartwatch: One Minute Overview - YouTube](https://www.youtube.com/watch?v=eYZ_QWuYM_Y)
+- [SMA Q2 Touchscreen Wrist Smart Watch Review - YouTube](https://www.youtube.com/watch?v=_mWTwqElL6o)
+- https://github.com/KonradIT/SMA-Q2
+- How to reset Bluetooth on watch without loosing data https://forum.xda-developers.com/smartwatch/other-smartwatches/sma-q2-time-smart-watch-t3531740/page12
+- https://github.com/BigCorvus/SMA-Q2-Arduino
+
+## Other
+
+- https://github.com/AsteroidOS
+- https://liliputing.com/2019/05/this-diy-smartwatch-is-open-source-so-you-can-build-your-own-but-you-probably-wont.html
+- https://www.kickstarter.com/projects/gfw/banglejs-the-hackable-smart-watch
+- https://hackaday.com/2019/10/07/ask-hackaday-whats-the-perfect-hacker-smart-watch/
+- https://github.com/amazfitbip/documentation
+- https://github.com/openwatchproject
+- https://github.com/curtpw/nRF5x-device-reverse-engineering
+- https://hackaday.io/project/167845-mjbots-quad-a0
+- https://hackaday.io/project/164932-axiom-100kw-motor-controller
+- https://hackaday.io/project/164930-portable-retro-game-console-with-79-inch-display
+- [Thousands of Retro Games in Your Pocket with this DIY Emulator! - YouTube](https://www.youtube.com/watch?v=YrofIDloHgw)
+- https://www.tindie.com/browse/gaming/
+- https://www.tindie.com/products/Picicle/picicle-kit/
+- performance is great [RG350 - RetroGame 350 Review - The Best Emulation Handheld? - YouTube](https://www.youtube.com/watch?v=pQZoVB5PCR8)
+- [ODROID GO ADVANCE First Look And Test - Could This Be The Best Retro Handheld of 2020! - YouTube](https://www.youtube.com/watch?v=52F7egAL9Vg)
+- https://www.crowdsupply.com/mnt/reform
+
+## PLC
+
+Programmable Logic Controllers (PLCs), for instance, are being replaced en masse in products by microcontrollers because they can do everything a PLC can do, and are cheaper and more flexible. Hardware Proportional, Integral, Derivative (PID) controllers were once a staple of appliances such as ovens, refrigerators, rice cookers, and HVACs to control things like temperature and have now all but been replaced by MCUs in new designs.
+
+https://blog.usejournal.com/the-future-is-tiny-44dea02e4517
