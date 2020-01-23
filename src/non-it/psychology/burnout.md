@@ -30,3 +30,7 @@ http://mamstartup.pl/przestrzen/9678/dla-efektywnosci-pracy-i-satysfakcji-z-zyci
 Detoks informacyjny na 1-2 dni (tylko z notes papierowy i długopis), jogging, no i na codzień zero opiatoidów (czyli zero glutenu i produktów mlecznych)
 
 https://www.facebook.com/groups/startupy/permalink/1439017882808373/
+
+##
+
+- [Tricks to start working despite not feeling like it | Hacker News](https://news.ycombinator.com/item?id=22105229)
