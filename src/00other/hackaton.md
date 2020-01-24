@@ -1,0 +1,1 @@
+- https://medium.com/@buterajay/take-judges-out-of-hackathons-d14ccc6c1182
