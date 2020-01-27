@@ -1,3 +1,21 @@
+## Install
+
+Somehow version installed with pip reported older version with `youtube-dl --version`.
+
+I installed then manually with https://ytdl-org.github.io/youtube-dl/download.html
+
+But curl could not save to `/usr/local/bin/` because it had permission 750.
+
+And later when manually put file there, I could not run it becuase `/usr/local/bin` had 750 permissions.
+
+So first I needed to do `sudo chmod 755 /usr/local/bin` and then proceed with instructions.
+
+I also had some old version installed in `~/.local/bin` and it was trying to run this version, which no longer were there.
+
+So I needed to also do `hash -r` or `export PATH=$PATH`.
+
+https://superuser.com/questions/876579/linux-command-executed-from-a-different-path-than-whereis/876588#876588
+
 ## ffmpeg
 
 Install ffmpeg or you may get file without audio https://www.ffmpeg.org/download.html
