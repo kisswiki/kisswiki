@@ -64,7 +64,8 @@ Remove forced flag and reorder:
 
 ## Download subtitles
 
-- Search subtitles on https://www.opensubtitles.org. Choose language, sort by `Downloaded`. Sometimes the most downloaded might be low quality. Try with less downloads but from earlier day.
+- Search subtitles on https://www.opensubtitles.org. Choose language, sort by `Downloaded`. Sometimes the most downloaded might be low quality. Look for badges on uploaders. Try with less downloads but from earlier day.
+- Polish subitles for anime http://animesub.info/
 - http://qnapi.github.io/
 - https://github.com/zerratar/SubSync
 - http://www.napiprojekt.pl/
