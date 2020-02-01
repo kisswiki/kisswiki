@@ -86,6 +86,15 @@ Open srt file. SubEdit should open corresponding video file.
 - How to adjust subtitle in Subtitle Edit software https://youtu.be/gqEhvccKygU
   - Subtitle Edit > Synchronization > Visual sync
 
+1. Place the video file and its subtitle file in the same directory. Make sure the filename prefix of both the files are the same.
+2. Open the subtitles file in Subtitle Edit.
+3. Choose `Synchronization > Visual Sync`.
+4. Subtitle Edit shows a split screen with a video player in each. The video player in the first split is seeked to the first subtitle and that in the second split to the last subtitle.
+5. Now, play the video in a split a bit until someone speaks something. Pause it. Pick the subtitle from the dropdown below that matches what was spoken. Do the same with the second video player.
+6. Press Sync and let Subtitle Edit do the work of shifting forward, backward, squeezing or expanding the subtitles to match the video. Press Save and you are done!
+
+https://codeyarns.com/2013/02/23/how-to-sync-subtitles-using-subtitle-edit/
+
 So what's left is delay:
 
 - run program
