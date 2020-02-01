@@ -95,6 +95,8 @@ So what's left is delay:
 - hit "Show earlier" / "Show later" (your call)
 
 - https://forum.videohelp.com/threads/383270-How-to-timeshift-a-subtitle-(-mkv-srt)
+- `Synchronization > Point sync via other subtitle` https://blog.opensubtitles.org/guides/how-to-synchronize-subtitles-using-subtitle-edit
+- https://www.nikse.dk/SubtitleEdit/Help#translate
 
 ## mpv
 
