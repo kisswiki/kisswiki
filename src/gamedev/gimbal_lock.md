@@ -1,0 +1,1 @@
+- [Let's remove quaternions from every 3D engine (2018) | Hacker News](https://news.ycombinator.com/item?id=22200260)
