@@ -33,3 +33,21 @@ Divorce often leads to worsened academic achievement in children ages 7–12, th
 Children of divorced or separated parents exhibit increased behavioral problems and the marital conflict that accompanies parents' divorce places the child's social competence at risk.
 
 https://en.m.wikipedia.org/wiki/Divorce#Effects_on_children
+
+## In Japan
+
+The average Japanese divorce rate since 1996 is 1.7 to 2 divorces per 1,000 people. Japan has round 250,000 finalised divorces annually.
+
+The average for the USA is 3.6 per 1,000 people.
+
+The low Japanese figures hide a certain reality that’s not usually covered in the press.
+
+In Japan, joint custody of children isn’t recognised. Japanese family law has no provision for visitation rights and no legal mechanism to enforce them.
+
+Neither does the law have legal mechanisms to enforce other court-negotiated post-divorce settlements. It is an almost unbelievable paradox for such an otherwise advanced country.
+
+That means the parent initiating the divorce proceedings is invariably granted sole custody of the children.
+
+No parent will like zero visitation of his/her children, so most unhappy couples rather put up with each other — or live apart — than to go through divorce proceedings whose outcome often has many unknowns and unenforceables.
+
+https://www.quora.com/What-is-the-divorce-rate-in-Japan-compared-to-the-US/answer/Robert-Charles-Lee
