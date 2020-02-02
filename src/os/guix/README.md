@@ -15,3 +15,10 @@ Right.  You can pin it by running something like
 in a git checkout that still has conqueror.
 
 https://lists.gnu.org/archive/html/help-guix/2019-06/msg00021.html
+
+## Guix matters
+
+- https://gitlab.com/ambrevar/ambrevar.gitlab.io/tree/master/source/guix-matters
+  - https://lists.gnu.org/archive/html/help-guix/2020-01/msg00002.html
+  - https://ambrevar.xyz/guix-matters
+  - https://www.reddit.com/r/GUIX/comments/esdhui/why_gnu_guix_matters/
