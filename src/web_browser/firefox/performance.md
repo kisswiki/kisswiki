@@ -1,0 +1,1 @@
+- https://arewefastyet.com/win10/overview?numDays=60
