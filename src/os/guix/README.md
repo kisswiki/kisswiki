@@ -22,3 +22,21 @@ https://lists.gnu.org/archive/html/help-guix/2019-06/msg00021.html
   - https://lists.gnu.org/archive/html/help-guix/2020-01/msg00002.html
   - https://ambrevar.xyz/guix-matters
   - https://www.reddit.com/r/GUIX/comments/esdhui/why_gnu_guix_matters/
+
+## Linux kernel with non-free firmware
+
+- https://gitlab.com/nonguix/nonguix
+
+## Tutorials
+
+- https://zge.us.to/guix.html
+  - https://www.reddit.com/r/linux/comments/dkm7u4/attempting_to_use_gnu_guix/
+  - https://www.reddit.com/r/GUIX/comments/dkq2zr/attempting_to_use_gnu_guix/
+
+## Some package does not build anymore
+
+I'm not familiar with the fenics package, but presumably it built just fine when it was committed, and you could still build and install it today using that commit.
+
+They don't do this for every package update, but for larger disruptive changes they do try to minimize breakage. As a small volunteer project though, they do tolerate some broken packages to avoid grinding development to a halt.
+
+https://www.reddit.com/r/GUIX/comments/dkq2zr/attempting_to_use_gnu_guix/f4kcsbz/
