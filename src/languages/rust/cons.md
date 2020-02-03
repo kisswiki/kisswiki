@@ -121,3 +121,24 @@ If the language has the problem that people are fighting with the language in or
 https://blog.usejournal.com/systems-languages-an-experience-report-d008b2b12628
 
 via https://twitter.com/kellabyte/status/1006975550718541824
+
+##
+
+For years Rust slowly boiled in its own poor compile times, not realizing how bad it had gotten until it was too late. It was 1.0. Those decisions were locked in.
+
+Looking at some of these in retrospect, I am tempted to think that “well, of course Rust must have feature foo", and it's true that Rust would be a completely different language without many of these features. However, language designs are tradeoffs and none of these were predestined to be part of Rust.
+
+- Borrowing — Rust's defining feature. Its sophisticated pointer analysis spends compile-time to make run-time safe.
+- Monomorphization — Rust translates each generic instantiation into its own machine code, creating code bloat and increasing compile time.
+- Stack unwinding — stack unwinding after unrecoverable exceptions traverses the callstack backwards and runs cleanup code. It requires lots of compile-time book-keeping and code generation.
+- Build scripts — build scripts allow arbitrary code to be run at compile-time, and pull in their own dependencies that need to be compiled. Their unknown side-effects and unknown inputs and outputs limit assumptions tools can make about them, which e.g. limits caching opportunities.
+- Macros — macros require multiple passes to expand, expand to often surprising amounts of hidden code, and impose limitations on partial parsing. Procedural macros have negative impacts similar to build scripts.
+- LLVM backend — LLVM produces good machine code, but runs relatively slowly.
+- Relying too much on the LLVM optimizer — Rust is well-known for generating a large quantity of LLVM IR and letting LLVM optimize it away. This is exacerbated by duplication from monomorphization.
+- Split compiler/package manager — although it is normal for languages to have a package manager separate from the compiler, in Rust at least this results in both cargo and rustc having imperfect and redundant information about the overall compilation pipeline. As more parts of the pipeline are short-circuited for efficiency, more metadata needs to be transferred between instances of the compiler, mostly through the filesystem, which has overhead.
+- Per-compilation-unit code-generation — rustc generates machine code each time it compiles a crate, but it doesn't need to — with most Rust projects being statically linked, the machine code isn't needed until the final link step. There may be efficiencies to be achieved by completely separating analysis and code generation.
+- Single-threaded compiler — ideally, all CPUs are occupied for the entire compilation. This is not close to true with Rust today. And with the original compiler being single-threaded, the language is not as friendly to parallel compilation as it might be. There are efforts going into parallelizing the compiler, but it may never use all your cores.
+- Trait coherence — Rust's traits have a property called “coherence”, which makes it impossible to define implementations that conflict with each other. Trait coherence imposes restrictions on where code is allowed to live. As such, it is difficult to decompose Rust abstractions into, small, easily-parallelizable compilation units.
+- Tests next to code — Rust encourages tests to reside in the same codebase as the code they are testing. With Rust's compilation model, this requires compiling and linking that code twice, which is expensive, particularly for large crates.
+
+https://pingcap.com/blog/rust-compilation-model-calamity/
