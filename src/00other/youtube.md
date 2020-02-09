@@ -39,3 +39,7 @@ Upload with Firefox gave bad quality. With Chrome was ok.
 
 - To create channel https://www.youtube.com/create_channel
 - To switch channel https://www.youtube.com/channel_switcher
+
+## Wiki
+
+- https://youtube.fandom.com/wiki/5-Minute_Crafts

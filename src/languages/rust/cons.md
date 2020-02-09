@@ -142,3 +142,54 @@ Looking at some of these in retrospect, I am tempted to think that “well, of c
 - Tests next to code — Rust encourages tests to reside in the same codebase as the code they are testing. With Rust's compilation model, this requires compiling and linking that code twice, which is expensive, particularly for large crates.
 
 https://pingcap.com/blog/rust-compilation-model-calamity/
+
+##
+
+For sure! I’ve been patiently awaiting NLL for as long as I’ve been working with Rust. It should make a lot of common/unusual problems go away, which is very promising.
+
+I think to be clear, the concept of borrowing itself is very simple; it’s defined perfectly with just 3 short rules 38. The real learning curve is not with borrowing (or these rules), the problem is with complex lifetimes. Complex lifetimes come into play anywhere that the lifetimes cannot be elided.
+
+I’ve mentioned this elsewhere, but since it is relevant … I had a really hard time coming to terms with lifetimes as I was learning Rust. In fact, it is still my biggest pain point with the language. But I taught myself to get around it by writing a non-trivial project without using a single lifetime parameter. I also didn’t need Box, Rc, RefCell, or friends. But that’s because most of the code is stateless (which explains why it doesn’t need explicit lifetimes).
+
+IMHO, this is the best way to learn Rust. Doing things that require explicit lifetimes (like global state management or FFI) should come way, way, way later in the book.
+
+
+Lifetimes are part of the interface contract of a type or function, because they determine what data can be passed in to a function or inserted into objects of a certain type. In this sense they should be exposed by the language’s syntax. Otherwise, a modification of a type’s or function’s implementation could silently break code that uses it, a subtle compatibility bug which the design of Rust has taken great steps to avoid.
+
+If you do not want to expose the lifetime information in the interface, you need to use abstractions which hide lifetimes from the user and manage them at run time, such as reference-counted pointers. But these abstractions come at a performance cost, which is why they should not be used at the most fundamental layer of a system programming language.
+
+https://users.rust-lang.org/t/isnt-rust-too-difficult-to-be-widely-adopted/6173/38
+
+##
+
+- https://www.reddit.com/r/rust/comments/4o6nd7/problem_in_rust_adoption/
+
+##
+
+It compiles - can one spot the issue? If you know about Timeout::new() and its return type, you will. But this is an example of where returning (), which is what’s needed for compilation, coupled with methods/combinators like map() reused across different types, makes for really subtle bugs. And all this reliance on the “if it compiles it works” goes out the window.
+
+https://users.rust-lang.org/t/rust-language-and-special-cases-blog-post/17844/27
+
+##
+
+The feedback I’m trying to express is that it doesn’t feel like the typical learning curve. Keep in mind that I took to Haskell like a duck to water, and that’s generally considered a relatively difficult language to learn.
+
+The link you referenced seems to cover at least some of the issues I’ve noted (yay!), but at the same time it feels like it’s making things worse because it’s yet more layers of ad-hoc magic and bandaids layered on top of what to me feels like a shaky foundation.
+
+I’ve observed that successful languages take some core mathematically sound theory and produce a concrete, applied implementation of it. Relational theory became SQL, typed lamba calculus became functional programming, object oriented theory is wildly popular, etc…
+
+I feel like Rust came `>this<` close to implementing something similarly ‘pure’, for a want of a better word, fell short, and is slowly sinking into the same messy quagmire that makes C++ so repulsive to me now after having used it for over a decade and then abandoned it for vastly more productive languages.
+
+I think part of this is that most of the Rust core development team comes from a C++ background, and to them, Rust is a huge improvement relative to what they’re used to. This is true, but it feels like a step backwards for everyone else used to elegant languages with a more consistent underlying logic.
+
+The most telling aspect is the general disregard for IDE integration in Rust. It’s been, what, 8 years and there still isn’t a first-class integration with any development environment out there! Tab-complete is woeful at best, and refactoring is basically hopeless.
+
+So… lets all assume that deep IDE integration really is a goal. How is this going to happen? Having poked through the source of the standard library, I’ve noted that huge chunks of it is implemented with macros. The language is a littered with automagic landmines, and from what I’m seeing this is just getting worse. The IDEA team, known for their fantastic tooling across a range of languages, is struggling to make Rust work after over a year of effort. For example, the line `use nom::*` breaks their IDE, making it forget what str is. I don’t even…
+
+So what’s the fix? I feel like automatic deref is already one step too far in the wrong direction. Compile-time-lifetimes are brilliant, but the fact that NLL took this long indicates that there is no sound underlying theory that can be analysed, understood by humans, or refactored by IDEs.
+
+I’m going to keep poking away at some toy Rust problems as a learning exercise, but I just can’t see any utility in it at the moment. There’s too many ‘undefined behaviors’ for it to feel safe, not enough SIMD to make it truly performant, and it’s not productive enough to replace C# or its ilk at the moment…
+
+PS: I’m no longer surprised at Rust’s slow compiles times, this type of “bulk impl for dozens of concrete types using macros” is a common pattern. The lines of code might look fine to a human, but the in-memory bloat must be hideous…
+
+https://users.rust-lang.org/t/rust-beginner-notes-questions/14928
