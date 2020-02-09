@@ -92,3 +92,12 @@ Compositing	OpenGL
 
 - https://www.reddit.com/r/firefox/comments/8hmnn7/firefox_gpu_acceleration_on_linux/
 - https://ask.fedoraproject.org/en/question/125175/how-to-check-that-firefox-uses-hardware-gpu-acceleration/
+
+## Cannot change default file manager
+
+- https://unix.stackexchange.com/questions/146904/set-new-default-file-manager-for-firefox-in-archlinux
+- https://askubuntu.com/questions/267514/open-containing-folder-in-firefox-does-not-use-my-default-file-manager/870830#870830
+- https://bugzilla.mozilla.org/show_bug.cgi?id=266600
+- https://bugzilla.mozilla.org/show_bug.cgi?id=1106916
+- https://bugzilla.mozilla.org/show_bug.cgi?id=1285711
+- https://bugzilla.opensuse.org/show_bug.cgi?id=904229
