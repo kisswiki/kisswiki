@@ -4,3 +4,4 @@
 - https://www.reddit.com/r/privacy/comments/dq4ihz/edward_snowden_says_facebook_is_just_as/
 - https://pjmedia.com/trending/google-tracks-you-even-when-location-is-turned-off-google-exec-finally-admits-to-congress/
   - https://www.reddit.com/r/privacy/comments/b8f27d/google_exec_finally_admits_to_congress_that/
+- https://apps.apple.com/us/app/privacy-com/id1040298266
