@@ -1,3 +1,7 @@
+- https://doc.rust-lang.org/book/ch11-00-testing.html
+- `rustup doc --test`
+- `cargo test --help`
+
 ## Run specific test file
 
 `rustc --test unit_test.rs`
@@ -109,3 +113,19 @@ When name prefix the same I need to run it with `--exact`:
 `cargo test test_almostIncreasingSequence -- --exact`
 
 https://stackoverflow.com/questions/25106554/why-doesnt-println-work-in-rust-unit-tests#comment104686069_25107081
+
+## println only during test run
+
+```rust
+fn do_thing() -> i32 {
+    #[cfg(test)]
+    println!("planning to return 5");
+    5
+}
+```
+
+https://users.rust-lang.org/t/solved-println-during-tests-only/17704/2
+
+##
+
+- [`cargo test` doesn't capture print from threads · Issue #42474 · rust-lang/rust](https://github.com/rust-lang/rust/issues/42474)
