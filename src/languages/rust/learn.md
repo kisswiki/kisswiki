@@ -8,6 +8,7 @@
 - https://www.reddit.com/r/rust/comments/7wx68g/does_rust_have_a_lot_of_learning_resources_for/du3w82f/
 - http://cglab.ca/~abeinges/blah/too-many-lists/book/
 - https://github.com/ctjhoa/rust-learning
+- https://www.ralfj.de/projects/rust-101/
 
 ## Books
 
