@@ -24,6 +24,7 @@
 - https://github.com/rust-lang/rust/labels/T-rustdoc
 - [> universally terrible documentation Wait, what? Rust has what I consider the b... | Hacker News](https://news.ycombinator.com/item?id=16659798)
 - https://hoverbear.org/blog/reading-rust-function-signatures/
+- open crate https://github.com/carols10cents/cargo-open
 
 ## epub
 
