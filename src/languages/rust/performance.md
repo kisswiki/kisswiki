@@ -24,3 +24,7 @@ Where exactly are the floating-point operations in reverse-complement ?
 
 - a code size profiler https://github.com/rustwasm/twiggy
 - A sampling CPU profiler for Linux https://github.com/nokia/nperf
+
+##
+
+- https://llogiq.github.io/2017/06/01/perf-pitfalls.html
