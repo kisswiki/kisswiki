@@ -3,6 +3,7 @@
   - https://www.reddit.com/r/rust/comments/bu0r5n/update_on_await_syntax/
   - https://news.ycombinator.com/item?id=20030486
     - TCP client example https://news.ycombinator.com/item?id=20031824 https://github.com/rustasync/runtime/blob/master/examples/tcp-client.rs
+- https://omarabid.com/async-rust
 
 ##
 
