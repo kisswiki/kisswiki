@@ -100,3 +100,12 @@ Run ignored tests
 
 https://www.reddit.com/r/rust/comments/3i1nki/how_to_skip_expensive_tests_with_cargo_test/
 https://www.reddit.com/r/rust/comments/3i1nki/how_to_skip_expensive_tests_with_cargo_test/
+
+## --no-exact
+
+
+When name prefix the same I need to run it with `--exact`:
+
+`cargo test test_almostIncreasingSequence -- --exact`
+
+https://stackoverflow.com/questions/25106554/why-doesnt-println-work-in-rust-unit-tests#comment104686069_25107081
