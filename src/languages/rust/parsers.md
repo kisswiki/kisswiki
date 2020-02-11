@@ -1,1 +1,3 @@
 - [Writing a Simple Parser in Rust](https://adriann.github.io/rust_parser.html)
+- https://www.reddit.com/r/rust/comments/f1wxzx/a_naive_json_parser_in_standalone_rust/
+  - https://git.timshomepage.net/timw4mail/json-parser/src/branch/master/src/lib.rs

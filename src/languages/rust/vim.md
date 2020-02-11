@@ -29,3 +29,8 @@ au BufWrite * :Autoformat
 
 - http://johannh.me/blog/rustfmt-vim.html
 - https://github.com/Chiel92/vim-autoformat
+
+##
+
+- https://www.reddit.com/r/rust/comments/f1th7i/rust_completion_in_vimneovim/
+  - https://gitlab.com/SanchayanMaity/dotfiles/-/blob/master/nvim/.config/nvim/init.vim
