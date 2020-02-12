@@ -129,3 +129,13 @@ https://users.rust-lang.org/t/solved-println-during-tests-only/17704/2
 ##
 
 - [`cargo test` doesn't capture print from threads · Issue #42474 · rust-lang/rust](https://github.com/rust-lang/rust/issues/42474)
+
+## compare arrays
+
+```rust
+let mut t1: [u8; 48] = [0; 48];
+let t2: [u8; 48] = [0; 48];
+assert!(t1.iter().eq(t2.iter()));
+```
+
+https://stackoverflow.com/questions/48013278/using-assert-eq-or-printing-large-fixed-sized-arrays-doesnt-work/49336581#49336581
