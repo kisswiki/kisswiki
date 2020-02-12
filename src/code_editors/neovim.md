@@ -187,3 +187,16 @@ https://github.com/smudge/dotfiles/blob/3b9e9474150131458c3846ad2d3a4ab0c342dabb
   - https://www.reddit.com/r/neovim/comments/e7tm1y/i_see_neovim_050_was_released_yesterday_where_do/fa56a3u/
 - https://www.reddit.com/r/neovim/comments/7fkjbi/docs_for_developing_a_plugin_in_lua_especially/
 - https://www.reddit.com/r/neovim/comments/df0szy/dependencies_for_plugins_in_lua/
+
+## .nvim_session.vim
+
+Example with using `--`. I needed to run `call` after opening `main.rs`.
+
+```
+e src/main.rs
+16sp | term
+vs | term
+call jobsend(b:terminal_job_id, "cargo watch -x 'test tests::test_almostIncreasingSequence -- --nocapture --color always --exact'\n")
+wincmd k
+stopinsert
+```
