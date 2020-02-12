@@ -190,13 +190,15 @@ https://github.com/smudge/dotfiles/blob/3b9e9474150131458c3846ad2d3a4ab0c342dabb
 
 ## .nvim_session.vim
 
-Example with using `--`. I needed to run `call` after opening `main.rs`.
 
 ```
 e src/main.rs
 16sp | term
 vs | term
+" When using `--` in `call`, run `call` after opening `main.rs`
 call jobsend(b:terminal_job_id, "cargo watch -x 'test tests::test_almostIncreasingSequence -- --nocapture --color always --exact'\n")
+" Go to the end https://stackoverflow.com/questions/17012308/move-cursor-to-end-of-file-in-vim/25401651#25401651
+$
 wincmd k
 stopinsert
 ```
