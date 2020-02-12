@@ -1,6 +1,13 @@
 - https://doc.rust-lang.org/book/ch11-00-testing.html
+- https://doc.rust-lang.org/cargo/guide/tests.html
+- https://doc.rust-lang.org/cargo/commands/cargo-test.html
 - `rustup doc --test`
 - `cargo test --help`
+
+```bash
+$ cargo test -- -h | rg -i exact
+        --exact         Exactly match filters rather than by substring
+```
 
 ## Run specific test file
 
@@ -105,14 +112,55 @@ Run ignored tests
 https://www.reddit.com/r/rust/comments/3i1nki/how_to_skip_expensive_tests_with_cargo_test/
 https://www.reddit.com/r/rust/comments/3i1nki/how_to_skip_expensive_tests_with_cargo_test/
 
-## --no-exact
-
+## --exact
 
 When name prefix the same I need to run it with `--exact`:
 
 `cargo test test_almostIncreasingSequence -- --exact`
 
-https://stackoverflow.com/questions/25106554/why-doesnt-println-work-in-rust-unit-tests#comment104686069_25107081
+```bash
+$ cargo test -- -h | rg -i exact
+        --exact         Exactly match filters rather than by substring
+```
+
+If your test is not in any mod you can simply execute like this:
+
+`cargo test test_fn_name -- --exact`
+
+Otherwise you need to provide test with full namespace:
+
+`cargo test tests::test_fn_name -- --exact`
+
+Source https://github.com/rust-lang/rust/blob/master/src/libtest/lib.rs#L357
+
+```rust
+        match opts.filter_exact {
+            true => test_name == filter,
+            false => test_name.contains(filter),
+        }
+```
+
+- https://stackoverflow.com/questions/54585804/how-to-run-a-specific-unit-test-in-rust/54586148#54586148
+- https://stackoverflow.com/questions/25106554/why-doesnt-println-work-in-rust-unit-tests#comment104686069_25107081
+- https://github.com/rust-lang/cargo/issues/2941#issuecomment-272707484
+- [Can't use `cargo test` to run tests in the "tests" directory if the Cargo project is named "test" · Issue #2432 · rust-lang/cargo](https://github.com/rust-lang/cargo/issues/2432#issuecomment-191874390)
+
+## run multiple exact names from command line
+
+```bash
+while read t; do cargo +nightly test "$t"; done < <(echo 'fix::fix_overlapping
+    fix::local_paths
+    fix::prepare_for_2018
+    fix::specify_rustflags')
+```
+
+or from file:
+
+```bash
+while read t; do cargo +nightly test "$t"; if [ $? != 0 ]; then echo "$t" >> still_failing.txt; fi; done < failures.txt
+```
+
+https://github.com/rust-lang/rust/issues/30422#issuecomment-417106951
 
 ## println only during test run
 
@@ -139,3 +187,11 @@ assert!(t1.iter().eq(t2.iter()));
 ```
 
 https://stackoverflow.com/questions/48013278/using-assert-eq-or-printing-large-fixed-sized-arrays-doesnt-work/49336581#49336581
+
+## Group tests and run groups
+
+- https://stackoverflow.com/questions/48583049/run-additional-tests-by-using-a-feature-flag-to-cargo-test
+
+## Cannot run tests in parallel
+
+[`cargo test --all` should run tests in parallel · Issue #5609 · rust-lang/cargo](https://github.com/rust-lang/cargo/issues/5609)
