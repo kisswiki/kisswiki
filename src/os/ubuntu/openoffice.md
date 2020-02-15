@@ -23,3 +23,5 @@ Maybe use winehq master branch?
 - https://source.winehq.org/git/wine.git/blob/HEAD:/fonts/tahomabd.sfd
 - https://www.wfonts.com/font/tahoma
 - https://wiki.debian.org/tahoma
+- https://askubuntu.com/questions/438670/install-tahoma-font-in-ubuntu
+- https://aur.archlinux.org/packages/ttf-tahoma/
