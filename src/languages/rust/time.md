@@ -30,6 +30,22 @@ let date = "2014-11-28T21:00:09Z".parse::<DateTime<Utc>>().with_timezone(&UTC)
 
 https://news.ycombinator.com/item?id=16659776
 
+
+## format
+
+```rust
+extern crate chrono;
+
+use chrono::Local;
+
+fn main() {
+    let date = Local::now();
+    println!("{}", date.format("%Y-%m-%dT%H:%M:%S%z"));
+}
+```
+
+https://stackoverflow.com/questions/38957718/format-stdtime-output/38957921#38957921
+
 ## add
 
 - https://stackoverflow.com/questions/44710877/how-do-i-add-days-to-a-chrono-utc
