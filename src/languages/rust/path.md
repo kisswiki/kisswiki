@@ -1,1 +1,3 @@
 - https://udoprog.github.io/rust/2017-11-05/portability-concerns-with-path.html
+- https://www.reddit.com/r/rust/comments/7mu7q1/is_working_with_paths_always_this_painful/
+- https://stackoverflow.com/questions/48053933/how-to-check-if-a-directory-exists-and-create-a-new-one-if-it-doesnt-in-rust
