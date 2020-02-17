@@ -27,3 +27,45 @@ https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#o
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+
+## new and classes
+
+I tried to have this:
+
+```typescript
+function Interval(startTime: number, endTime: number, price: number) {
+    this.startTime = startTime;
+    this.endTime = endTime;
+    this.price = price;
+}
+```
+
+But was problem with implicit this https://stackoverflow.com/questions/52431074/how-to-solve-this-implicitly-has-type-any-when-typescript-checking-classic/52432089#52432089
+
+Quickfix fixed with adding `this: any`:
+
+```typescript
+function Interval(this: any, startTime: number, endTime: number, price: number) {
+    this.startTime = startTime;
+    this.endTime = endTime;
+    this.price = price;
+}
+```
+
+But later when I tried to use it with `new Interval(...)` it turned out that I should use `new` only with classes https://stackoverflow.com/questions/42106306/typescript-error-ts7009
+
+So I ended up with:
+
+```typescript
+class Interval {
+    startTime: number;
+    endTime: number;
+    price: number;
+
+    constructor(startTime: number, endTime: number, price: number) {
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.price = price;
+    }
+}
+```
