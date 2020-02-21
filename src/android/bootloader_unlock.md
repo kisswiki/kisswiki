@@ -1,0 +1,5 @@
+One of the more crappy ones is how some phones, while offering an easy bootloader unlock, don't mention that enabling that easy unlock will wipe a firmware partition that controls the camera and other device specific special features. Those partitions are almost always per-device specific meaning that if both of us had the exact same phone model, I couldn't DD my firmware and give it to you if you accidentally wiped yours. Sometimes the community gets lucky like with certain Sony phones where they managed to get the software to work with any firmware from the same model, but that isn't something to plan on happening with every phone.
+
+The only way around that is to find an exploit, root the phone via the exploit, then DD all your partitions, now do the official bootloader unlock, add a custom recovery, finally you can flash a rom, and then restore the wiped firmware partitions before the first boot of the custom rom.
+
+https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1160898-android-11-developer-preview-shows-off-new-5g-apis-security-hardening-hdmi-low-latency?p=1161066#post1161066
