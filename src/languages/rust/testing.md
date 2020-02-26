@@ -16,11 +16,62 @@ $ cargo test -- -h | rg -i exact
 - https://doc.rust-lang.org/rust-by-example/testing.html
 - https://github.com/llogiq/mutagen
 
-## run single test with cargo
+## run tests with some name prefix
 
-`cargo test one_hundred`
+`cargo test name_prefix`
 
 https://doc.rust-lang.org/book/2018-edition/ch11-02-running-tests.html
+
+## --exact
+
+When name prefix the same I need to run it with `--exact`:
+
+`cargo test test_almostIncreasingSequence -- --exact`
+
+```bash
+$ cargo test -- -h | rg -i exact
+        --exact         Exactly match filters rather than by substring
+```
+
+If your test is not in any mod you can simply execute like this:
+
+`cargo test test_fn_name -- --exact`
+
+Otherwise you need to provide test with full namespace:
+
+`cargo test tests::test_fn_name -- --exact`
+
+Source https://github.com/rust-lang/rust/blob/master/src/libtest/lib.rs#L357
+
+```rust
+        match opts.filter_exact {
+            true => test_name == filter,
+            false => test_name.contains(filter),
+        }
+```
+
+- https://stackoverflow.com/questions/54585804/how-to-run-a-specific-unit-test-in-rust/54586148#54586148
+- https://stackoverflow.com/questions/25106554/why-doesnt-println-work-in-rust-unit-tests#comment104686069_25107081
+- https://github.com/rust-lang/cargo/issues/2941#issuecomment-272707484
+- [Can't use `cargo test` to run tests in the "tests" directory if the Cargo project is named "test" · Issue #2432 · rust-lang/cargo](https://github.com/rust-lang/cargo/issues/2432#issuecomment-191874390)
+
+## run multiple exact names from command line
+
+```bash
+while read t; do cargo +nightly test "$t"; done < <(echo 'fix::fix_overlapping
+    fix::local_paths
+    fix::prepare_for_2018
+    fix::specify_rustflags')
+```
+
+or from file:
+
+```bash
+while read t; do cargo +nightly test "$t"; if [ $? != 0 ]; then echo "$t" >> still_failing.txt; fi; done < failures.txt
+```
+
+https://github.com/rust-lang/rust/issues/30422#issuecomment-417106951
+
 
 ## use super::*
 
@@ -111,56 +162,6 @@ Run ignored tests
 
 https://www.reddit.com/r/rust/comments/3i1nki/how_to_skip_expensive_tests_with_cargo_test/
 https://www.reddit.com/r/rust/comments/3i1nki/how_to_skip_expensive_tests_with_cargo_test/
-
-## --exact
-
-When name prefix the same I need to run it with `--exact`:
-
-`cargo test test_almostIncreasingSequence -- --exact`
-
-```bash
-$ cargo test -- -h | rg -i exact
-        --exact         Exactly match filters rather than by substring
-```
-
-If your test is not in any mod you can simply execute like this:
-
-`cargo test test_fn_name -- --exact`
-
-Otherwise you need to provide test with full namespace:
-
-`cargo test tests::test_fn_name -- --exact`
-
-Source https://github.com/rust-lang/rust/blob/master/src/libtest/lib.rs#L357
-
-```rust
-        match opts.filter_exact {
-            true => test_name == filter,
-            false => test_name.contains(filter),
-        }
-```
-
-- https://stackoverflow.com/questions/54585804/how-to-run-a-specific-unit-test-in-rust/54586148#54586148
-- https://stackoverflow.com/questions/25106554/why-doesnt-println-work-in-rust-unit-tests#comment104686069_25107081
-- https://github.com/rust-lang/cargo/issues/2941#issuecomment-272707484
-- [Can't use `cargo test` to run tests in the "tests" directory if the Cargo project is named "test" · Issue #2432 · rust-lang/cargo](https://github.com/rust-lang/cargo/issues/2432#issuecomment-191874390)
-
-## run multiple exact names from command line
-
-```bash
-while read t; do cargo +nightly test "$t"; done < <(echo 'fix::fix_overlapping
-    fix::local_paths
-    fix::prepare_for_2018
-    fix::specify_rustflags')
-```
-
-or from file:
-
-```bash
-while read t; do cargo +nightly test "$t"; if [ $? != 0 ]; then echo "$t" >> still_failing.txt; fi; done < failures.txt
-```
-
-https://github.com/rust-lang/rust/issues/30422#issuecomment-417106951
 
 ## println only during test run
 
