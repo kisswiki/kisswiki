@@ -18,7 +18,10 @@ After installing that click at the bottom of vscode "Additional...". It will run
 
 "editor.formatOnSave": true,
 
-https://github.com/editor-rs/vscode-rust/blob/master/doc/legacy_mode/rustfmt_configuration.md
+For non-legacy: I run `Ctrl+Shitf+P > Format Document`, asked to install formatter, chosen rls, works.
+
+- https://github.com/editor-rs/vscode-rust/blob/master/doc/format.md
+- https://github.com/editor-rs/vscode-rust/blob/master/doc/legacy_mode/rustfmt_configuration.md
 
 ## Debug
 
