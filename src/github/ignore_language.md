@@ -1,3 +1,5 @@
+Create file `.gitattributes`:
+
 `index.html linguis-vendored`
 
 or
