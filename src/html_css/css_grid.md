@@ -9,6 +9,8 @@
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas
+- https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column
 - https://tympanus.net/codrops/css_reference/grid/
 - https://stackoverflow.com/questions/43962217/centering-columns-in-css-grid
 - https://cm.engineering/getting-to-know-css-grid-layout-818e43ca71a5
@@ -19,9 +21,13 @@
 - https://thenewstack.io/get-grid-last-css-grid-template-markup/
 - https://stackoverflow.com/questions/44906501/css-grid-vertical-columns-with-infinite-rows
 - https://alligator.io/css/align-justify/
+- https://alligator.io/css/css-grid-layout-span-keyword/
+- https://alligator.io/css/css-grid-holy-grail-layout/
+- https://alligator.io/css/css-grid-layout-span-keyword/
 - https://www.sitepoint.com/order-align-items-grid-layout/
 - https://github.com/IBM/css-gridish
 - https://hacks.mozilla.org/2018/02/css-grid-for-ui-layouts/
+- https://stackoverflow.com/questions/49258653/fixed-header-in-css-grid/52226523
 
 ## Form
 

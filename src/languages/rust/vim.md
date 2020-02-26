@@ -6,7 +6,9 @@ let g:rustfmt_command = 'rustup run nightly rustfmt'
 call plug#end()
 ```
 
-https://gist.github.com/plredmond/8cc4ba065a1137c6ac633c81b675df44
+- https://gist.github.com/plredmond/8cc4ba065a1137c6ac633c81b675df44
+- Alternative syntax highlighting https://github.com/arzg/vim-rust-syntax-ext
+  - https://www.reddit.com/r/rust/comments/f6r785/a_new_vim_syntax_plugin_for_rust/
 
 ## With Autoformat
 
