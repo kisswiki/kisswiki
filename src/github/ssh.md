@@ -6,7 +6,9 @@ This is the instruction to setup ssh with multiple keys.
 
 For Windows: [Set the HOME environment variable](http://stackoverflow.com/questions/9513712/git-ssh-client-for-windows-and-wrong-path-for-ssh-config-file/21451748#21451748) pointing to `%USERPROFILE%` for ssh to pick it up.
 
-`ssh-keygen -t rsa -C "your_email@example.com" -f ~/.ssh/github_rsa`
+`ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f ~/.ssh/github_rsa`
+
+- https://www.vultr.com/docs/how-do-i-generate-ssh-keys
 
 ## Add key to github
 
