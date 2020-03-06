@@ -33,7 +33,7 @@ console.log(title);
 - [What 40,000 Videos Tell Us About The Trending Tab - YouTube](https://www.youtube.com/watch?v=fDqBeXJ8Zx8)
   - https://www.wykop.pl/link/4966099/analiza-40-tysiecy-filmikow-z-karty-youtube-trending/
 
-## Upload
+## Upload and channel switcher
 
 Upload with Firefox gave bad quality. With Chrome was ok.
 
