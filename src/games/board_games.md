@@ -13,3 +13,8 @@
 
 - https://www.boardgamegeek.com/boardgamemechanic/2023/cooperative-game
 - [BoardGameGeek Top 10 vs 10 - Co-op Games - YouTube](https://www.youtube.com/watch?v=GmAvOaB6Pz8)
+
+## Magic The Gathering
+
+> A strange game; the only winning move is not to play
+> https://www.reddit.com/r/magicTCG/comments/92u125/what_is_the_best_way_to_play_mtg_online/e38hti1/
