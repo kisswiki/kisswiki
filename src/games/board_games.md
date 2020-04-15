@@ -9,6 +9,7 @@
   - https://boardgamegeek.com/geeklist/68015/games-programming-mechanism
 - https://arstechnica.com/gaming/2019/10/roundup-three-programming-board-games-that-will-tickle-your-pseudocode/
 - https://www.techlearning.com/ed-tech-ticker/participate-in-the-hour-of-code-with-these-great-products
+- https://www.thinkfun.com/learn-coding/
 
 ## CoOp
 
