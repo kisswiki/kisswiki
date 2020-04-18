@@ -19,6 +19,8 @@ C:\> tasklist | findstr 2424
 TNSLSNR.EXE                   2424 Services                   0     21 908 K
 ```
 
+You may kill it with `taskkill /PID typeyourPIDhere /F`.
+
 Change the port on which oracle web listens on
 
 ```
