@@ -1,0 +1,2 @@
+- https://www.reddit.com/r/node/comments/at7fx9/what_means_nodejstimeout_i_havent_found_it_in_doc/
+  - used here https://www.aaron-powell.com/posts/2019-09-23-recursive-settimeout-with-react-hooks/
