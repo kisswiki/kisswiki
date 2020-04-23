@@ -8,3 +8,10 @@ Hooks implementation assumes that between the component re-renderings, the lates
 
 - https://dmitripavlutin.com/react-hooks-stale-closures/
   - diff https://gist.github.com/rofrol/2ac749eab2fe30782701238b04bcd682/revisions
+
+## componentDidMount equivalent is useLayoutEffect
+
+>This hook similar to the useEffect hook, however, it fires synchronously after all DOM mutations. It also renders in the same way as componentDidUpdate and componentDidMount.
+
+- https://www.smashingmagazine.com/2020/04/react-hooks-api-guide/
+- https://reacttraining.com/blog/useEffect-is-not-the-new-componentDidMount/
