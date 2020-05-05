@@ -24,7 +24,8 @@ https://stackoverflow.com/questions/50068078/how-to-prevent-flex-items-from-over
 >
 >Here's a more detailed explanation (that covers wrapping behavior, but applies to overflow, as well):
 >
->[Make container shrink-to-fit child elements as they wrap](https://stackoverflow.com/q/37406353/3597276)
+>- [Make container shrink-to-fit child elements as they wrap](https://stackoverflow.com/q/37406353/3597276)
+>
 >You'll need a script or possibly media queries to make your layout work as desired.
 
 https://stackoverflow.com/questions/50068078/how-to-prevent-flex-items-from-overflowing-flex-parent-with-no-wrap/50105308#50105308
