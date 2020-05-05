@@ -14,6 +14,7 @@
 - https://github.com/IBM/css-gridish
   - On Google Chrome uses shortcuts which does not show up in chrome://extensions/shortcuts https://github.com/IBM/css-gridish/issues/44
   - Uses RAlt + L on Windows instead of LAlt + L only https://github.com/IBM/css-gridish/issues/45
+- screen recorder https://chrome.google.com/webstore/detail/screen-recorder/hniebljpgcogalllopnjokppmgbhaden
   
 ## Copy all/organize tabs
 
