@@ -22,9 +22,9 @@ https://stackoverflow.com/questions/50068078/how-to-prevent-flex-items-from-over
 >
 >Because the HTML and CSS rendering engines do not automatically re-flow the source documents when child elements overflow their container, there is no way for the container to know when the children have overflowed and, therefore, expand. You're in a static environment. The concept applies to wrapping, as well.
 >
-Here's a more detailed explanation (that covers wrapping behavior, but applies to overflow, as well):
+>Here's a more detailed explanation (that covers wrapping behavior, but applies to overflow, as well):
 >
->Make container shrink-to-fit child elements as they wrap
-You'll need a script or possibly media queries to make your layout work as desired.
+>[Make container shrink-to-fit child elements as they wrap](https://stackoverflow.com/q/37406353/3597276)
+>You'll need a script or possibly media queries to make your layout work as desired.
 
 https://stackoverflow.com/questions/50068078/how-to-prevent-flex-items-from-overflowing-flex-parent-with-no-wrap/50105308#50105308
