@@ -150,3 +150,7 @@ Not per tab like in Google Chrome. Only globally:
 ## close duplicate tabs
 
 - https://addons.mozilla.org/en-US/firefox/addon/duplicate-tabs-closer/
+
+## markdown url
+
+https://addons.mozilla.org/en-US/firefox/addon/url2clipboard/
