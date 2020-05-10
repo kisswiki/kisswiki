@@ -1,0 +1,32 @@
+- https://npm-stat.com/charts.html?package=redux-form
+- https://npmcharts.com/compare/redux-form,formik,final-form,react-hook-form?interval=7
+- https://matwrites.com/redux-form-is-dead/
+- https://medium.com/@erikras/final-form-arrays-and-mutators-13159cb7d285
+- https://react.rocks/tag/Form
+- https://github.com/react-hook-form/react-hook-form
+- https://github.com/ianstormtaylor/superstruct
+- https://crates.io/crates/sysinfo/reverse_dependencies
+- https://dev.to/matfrana/react-hook-form-the-best-form-library-1o1l
+- https://discourse.elm-lang.org/t/what-is-currently-impossible-to-build-with-elm/5743/10
+- https://discourse.elm-lang.org/t/is-nlp-or-machine-learning-possible-in-elm/5660
+- https://www.google.com/search?hl=en&sxsrf=ALeKk02z-Qfu_9VCy2kYdK_fohoB3DKKHg%3A1589076295325&ei=R2G3XpCzE-6EwPAPj6i7wA0&q=react+form- +typescript+material-ui&oq=react+form+typescript+material-ui&- gs_lcp=CgZwc3ktYWIQAzIGCAAQFhAeMgYIABAWEB46BAgAEEc6AggAUN7TA1ip4gNg_uMDaABwAXgAgAFsiAHVCJIBBDExLjGYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&- ved=0ahUKEwjQ8unAmqjpAhVuAhAIHQ_UDtgQ4dUDCAs&uact=5
+- https://www.youtube.com/watch?v=6VmVYi9yrAA
+- https://github.com/benawad/react-typescript-material-ui-form
+- https://stackoverflow.com/questions/60679270/right-way-of-using-react-hook-form-with-typescript-and-material-ui-for-showing-e
+- https://codesandbox.io/s/material-ui-react-form-hook-answer-8cxc1
+- https://dev.to/steida/how-to-forms-with-react-and-typescript-4icb
+- https://stackoverflow.com/questions/54493511/form-in-react-and-typescript-with-dry-handle-of-change
+- https://www.carlrippon.com/building-a-react-form-component-with-typescript-validation/
+- https://www.google.com/search?hl=en&q=react%2Dhook%2Dform%20material%2Dui
+- https://nordschool.com/react-hook-form/#material-ui
+- https://github.com/mui-org/material-ui/issues/18269
+- https://github.com/react-hook-form/react-hook-form/issues/449
+- https://react-hook-form.com/api/#Controller
+- https://stackoverflow.com/questions/58833574/how-to-use-react-hook-form-with-ant-design-or-material-ui
+- https://stackoverflow.com/questions/59501392/react-problem-with-react-hook-form-and-material-ui
+- https://stackoverflow.com/questions/59526726/react-hook-forms-setvalue-method-is-not-working-if-input-is-in-material-ui-dial
+- https://stackoverflow.com/questions/60647976/using-textfield-component-from-material-ui-with-react-hook-form-shows-warnin
+- https://www.google.com/search?q=react-hook-form+material-ui+site:stackoverflow.com&hl=en&- sxsrf=ALeKk00RtNyRPOSrQjE7tLGvqAwf2gkRFg:1589076599597&sa=X&ved=2ahUKEwilmPXRm6jpAhUNAxAIHRR4AL8QrQIoBDACegQIBRAN
+- https://medium.com/@tylercmasterson/material-ui-snackbar-and-react-hook-form-b17aa372879b
+- https://github.com/react-hook-form/react-hook-form/issues/497
+- https://addons.mozilla.org/en-US/firefox/addon/url2clipboard/
