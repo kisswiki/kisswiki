@@ -15,3 +15,22 @@ Hooks implementation assumes that between the component re-renderings, the lates
 
 - https://www.smashingmagazine.com/2020/04/react-hooks-api-guide/
 - https://reacttraining.com/blog/useEffect-is-not-the-new-componentDidMount/
+
+## Using Set is problematic
+
+Probably better to use array.
+
+```javascript
+  function handleMultiple(val, fn) {
+    return function (checkedName) {
+      const newVal = val.includes(checkedName)
+        ? val.filter(name => name !== checkedName)
+        : [...val, checkedName];;
+      fn(newVal);
+    };
+  }
+```
+
+- https://stackoverflow.com/questions/58806883/how-to-use-set-with-reacts-usestate/58806947#58806947
+- https://codesandbox.io/s/material-demo-639rq?file=/demo.js
+  - https://stackoverflow.com/questions/61475234/material-ui-react-form-hook-multiple-checkboxes-default-selected/61593933#61593933
