@@ -27,7 +27,7 @@ $ python -c "from __future__ import division; print(320*9/16)"
 
 I am using `Settings`:
 
-- `Video > Base and Output to 320x180`
+- `Video > Base and Output to 320x180`. In the main window I need to drag to the area that I want to record.
 - `Output > Recording format: mp4`, so that will be embeded in Microsoft Teams.
 - `Hotkeys > Start Recording: Ctrl+F9`, `Hotkeys > Stop Recording: Ctrl+F10`
 
@@ -37,9 +37,9 @@ https://obsproject.com/forum/threads/problem-solved-obs-studio-captures-a-small-
 
 There is also this link https://jp9000.github.io/OBS/features/subregion.html but I don't know how to apply it.
 
-Then I am doing:
+Then I adding video source:
 
-``Sources > Window Capture`
+`Sources > Window Capture`
 
 Video file will show in folder set in `Settings > Output > Recording Path`.
 
