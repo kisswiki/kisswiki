@@ -77,6 +77,23 @@ It will create file `.vscode/tasks.json`. Paste in it below content:
 }
 ```
 
+Now we need to globally git ignore `.vscode` directory.
+
+For that open file `~/.gitconfig` and in it you have to add to core section or just paste below:
+
+```
+[core]
+	excludesfile = ~/.global_gitignore
+```
+
+Now create file `~/.global_gitignore` and paste this in it:
+
+```
+.vscode/
+```
+
+For now on, `git status` should not show `.vscode` as new directory.
+
 - `"runOn": "folderOpen"` https://stackoverflow.com/questions/34103549/can-i-automatically-start-a-task-when-a-folder-is-opened/53755091#53755091
   - Make sure that automatic tasks are enabled: 1. CTRL-SHIFT-P 2. Search for and run 'Manage Auotomatic Tasks in Folder' 3. Select for and run 'Allow Automatic Tasks in Folder' https://stackoverflow.com/questions/34103549/can-i-automatically-start-a-task-when-a-folder-is-opened#comment105445234_53755091
   - https://code.visualstudio.com/updates/v1_30#_run-on-folder-open
