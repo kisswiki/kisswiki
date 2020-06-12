@@ -115,6 +115,18 @@ passport.authenticate('saml')(req, res, next);
 or with middleware
 
 ```javascript
+function ensureAuth(req, res, next) {
+  if (!SECURITYENABLED) {
+    return next();
+  }
+  if (req.session.passport && req.session.passport.user) {
+    req.user = req.session.passport.user;
+    return next();
+  } else {
+    res.redirect("/login" + `?RelayState=${encodeURIComponent(req.originalUrl)}`);
+  }
+}
+
 app.get(
   "/login",
   [(req, res, next) => {
@@ -126,6 +138,14 @@ app.get(
   })],
   function (req, res) {
     res.redirect("/");
+  }
+);
+
+app.use(
+  "/*",
+  ensureAuth,
+  function (req, res) {
+    res.sendFile(path.resolve(path.join(__dirname, "./../client/build/index.html")));
   }
 );
 ```
