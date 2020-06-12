@@ -163,3 +163,22 @@ app.use(bodyParser.urlencoded({ extended: true }));
 - https://stackoverflow.com/questions/42128238/how-can-i-read-the-data-received-in-application-x-www-form-urlencoded-format-on/42129247#42129247
 - https://stackoverflow.com/questions/56758241/node-js-express-how-to-get-data-from-body-form-data-in-post-request/56758268#56758268
 - https://stackoverflow.com/questions/24800511/express-js-form-data
+
+## redirect and pass context
+
+```javascript
+app.get('/category', function(req, res) {
+  var string = encodeURIComponent('something that would break');
+  res.redirect('/?valid=' + string);
+});
+```
+
+https://stackoverflow.com/questions/19035373/how-do-i-redirect-in-expressjs-while-passing-some-context/19038048#19038048
+
+## check if query string has values
+
+```javascript
+Object.keys(req.query).length === 0
+```
+
+https://stackoverflow.com/questions/26292267/how-do-i-check-if-query-string-has-values-in-express-js-node-js
