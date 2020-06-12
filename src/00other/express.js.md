@@ -63,3 +63,83 @@ res.sendFile(path.resolve('temp/index.html'));
 ```
 
 https://stackoverflow.com/questions/14594121/express-res-sendfile-throwing-forbidden-error/14594282#14594282
+
+## url
+
+``` javascript
+app.use('/admin', function (req, res, next) { // GET 'http://www.example.com/admin/new?a=b'
+  console.dir(req.originalUrl) // '/admin/new?a=b' (WARNING: beware query string)
+  console.dir(req.baseUrl) // '/admin'
+  console.dir(req.path) // '/new'
+  console.dir(req.baseUrl + req.path) // '/admin/new' (full path without query string)
+  next()
+})
+```
+
+- https://stackoverflow.com/questions/12525928/how-to-get-request-path-with-express-req-object/56380963#56380963
+- `url.parse()` https://nodejs.org/docs/latest/api/url.html
+  - https://stackoverflow.com/questions/17184791/node-js-url-parse-and-pathname-property
+- curl formData: `curl -d "brand=nike" -d "color=red" -d "size=11" $URL` https://gist.github.com/joyrexus/524c7e811e4abf9afe56
+
+## chain middlewares
+
+```javascript
+app.get('/', [middleware.requireAuthentication, middleware.logger], function(req, res) {
+    res.send('Hello!');
+});
+```
+
+https://stackoverflow.com/questions/31928417/chaining-multiple-pieces-of-middleware-for-specific-route-in-expressjs
+
+## addQuery middleware
+
+```javascript
+const addQuery = (req, res, next) => {
+  req.query.id      = 'someID';
+  req.query.product = 'bag';
+  next();
+};
+
+app.get('/', addQuery, express.query(), (req, res) => {
+  ...
+});
+```
+
+## SAML && RelayState
+
+```javascript
+req.query.RelayState = req.params.redirect_to;
+passport.authenticate('saml')(req, res, next);
+```
+
+or with middleware
+
+```javascript
+app.get(
+  "/login",
+  [(req, res, next) => {
+    if (RelayState in req.query) req.query.RelayState = req.query.RelayState;
+    next();
+  }, passport.authenticate("saml", {
+    failureRedirect: "/error",
+    failureFlash: true
+  })],
+  function (req, res) {
+    res.redirect("/");
+  }
+);
+```
+
+- https://stackoverflow.com/questions/24601188/how-do-i-redirect-back-to-the-originally-requested-url-after-authentication-with/46555155#46555155
+
+## Parse FormData
+
+```javascript
+var bodyParser = require("body-parser");
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+```
+
+- https://stackoverflow.com/questions/42128238/how-can-i-read-the-data-received-in-application-x-www-form-urlencoded-format-on/42129247#42129247
+- https://stackoverflow.com/questions/56758241/node-js-express-how-to-get-data-from-body-form-data-in-post-request/56758268#56758268
+- https://stackoverflow.com/questions/24800511/express-js-form-data
