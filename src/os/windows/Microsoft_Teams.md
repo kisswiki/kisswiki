@@ -18,3 +18,4 @@ Not yet. Workaround:
 
 - https://techcommunity.microsoft.com/t5/teams-developer/teams-chat-add-reply-button-or-selective-reply-just-like/m-p/390719
 - https://microsoftteams.uservoice.com/forums/555103-public/suggestions/39353152-reply-to-specific-message-in-chat-on-desktop-app
+- https://teams.handsontek.net/2020/03/23/quote-message-microsoft-teams/
