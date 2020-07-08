@@ -10,6 +10,12 @@
 
 https://stackoverflow.com/questions/4210042/how-to-exclude-a-directory-in-find-command
 
+## find all json files but exclude node_modules directories
+
+`find . -type d -name 'node_modules' -prune -o -iname '*.json' -print`
+
+https://stackoverflow.com/questions/4210042/how-to-exclude-a-directory-in-find-command#comment70455585_4210072
+
 ### old
 
 - ignore some directiores `find . -type f -name "*_peaks.bed" ! -path "./tmp/*" ! -path "./scripts/*"` http://stackoverflow.com/questions/14132210/use-find-command-but-exclude-files-in-two-directories
