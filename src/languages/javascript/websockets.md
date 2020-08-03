@@ -1,6 +1,6 @@
 - Sockette allows you to reuse instances, avoiding the need to redeclare all event listeners. automatically reconnect if the connection is lost! https://github.com/lukeed/sockette
 
-## Webosockets and expess.js
+## Websockets and expess.js
 
 ### Socket.io is for very old browsers. > IE10 supports Websockets. Use https://github.com/websockets/ws.
   - https://stackoverflow.com/questions/10112178/differences-between-socket-io-and-websockets/38558531#38558531
