@@ -118,7 +118,7 @@ server.on('upgrade', (request, socket, head) => {
 });
 ```
 
-from https://masteringjs.io/tutorials/express/websockets, but when pasted code to bigger application, it wasn't working withou `http.createServer(app)`.
+from https://masteringjs.io/tutorials/express/websockets, but when pasted code to bigger application, it wasn't working without `http.createServer(app)`.
 
 ### Links
 
