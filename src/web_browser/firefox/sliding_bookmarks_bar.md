@@ -1,0 +1,1 @@
+- https://userstyles.org/styles/57368/firefox-sliding-bookmarks-bar-windows
