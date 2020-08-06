@@ -1,3 +1,32 @@
+## userChrome.css for hiding horizontal tabs and showing minimize, maximize, close buttons
+
+```css
+@-moz-document url(chrome://browser/content/browser.xhtml) {
+/* CSS to hide Firefox's tab bar but keep macOS window buttons (close/minimize/maximize)
+    https://gist.github.com/stevelandeyasana/bd1a1fe0a1adea0ef9ffa90b31f09aa1
+    https://superuser.com/questions/1268732/how-to-hide-tab-bar-tabstrip-in-firefox-57-quantum
+    https://superuser.com/questions/1424478/can-i-hide-native-tabs-at-the-top-of-firefox
+    https://superuser.com/questions/1268732/how-to-hide-tab-bar-tabstrip-in-firefox-57-quantum
+*/
+/***** MCI: Hide tab bar *****/
+/* https://www.reddit.com/r/FirefoxCSS/comments/e7br59/hide_titlebar_and_tabs_in_firefox_71/f9yta9s/ */
+  #tabbrowser-tabs {
+    visibility: collapse !important;
+  }
+  
+  /***** MCI: Move min-max-close buttons *****/
+  #nav-bar {
+    border-top: 0px !important;
+    margin-right: 144px;
+    margin-top: -32px;
+  }
+
+  #TabsToolbar .titlebar-spacer {
+      display: none !important;
+  }
+}
+```
+
 ## thinner tabs
 
 I've also changed the style of TSTs in the add-on settings (all the way at the bottom; not in userChrome.css) such that the tabs don't take up as much vertical space and to hide the close box button (and only show it on the mouse-over event):
