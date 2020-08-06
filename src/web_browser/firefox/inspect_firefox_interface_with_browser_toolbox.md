@@ -1,6 +1,6 @@
 ## How to open live debug of firefox interface
 
-- https://www.reddit.com/r/FirefoxCSS/comments/73dvty/tutorial_how_to_create_and_livedebug_userchromecss/
+-   https://www.reddit.com/r/FirefoxCSS/comments/73dvty/tutorial_how_to_create_and_livedebug_userchromecss/
 - https://developer.mozilla.org/en-US/docs/Tools/Browser_Toolbox
 
 Remember that browser toolbox is active for particular window.
