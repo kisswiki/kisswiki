@@ -1,0 +1,2 @@
+- KindleGen preserves better styles than Calibre https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211
+- https://www.reddit.com/r/kindle/comments/9vu621/open_source_mobi_awz3_epub_conversion_tools/

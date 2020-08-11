@@ -18,3 +18,42 @@
 
 - https://en.wikipedia.org/wiki/List_of_single_sign-on_implementations
 - SiteMinder Installation and How To Integrate in CA SSO Cookbook https://www.ca.com/us/services-support/ca-support/ca-support-online/knowledge-base-articles.tec479627.html
+
+## the openid connect handbook
+
+openid connect helps applications of all types 
+- handle end-user authentication
+- verify the identities of these users
+
+topics:
+- authentication
+- authorization
+- entity
+- identity
+
+- entity - thing that exists as an individual unit
+- identity - set of attributes that you can use to distinguish this entity within in a context
+
+Observer A perceives entity through Identity 1 which belongs to entity
+
+- authentication - who you are
+- authorization - what you can do
+
+- Entity uses Identity 1 to authenticate with Observer
+- Entity can use Identity 1 to gain Authorization
+
+Physical ticket (with no identity attached) can be used for getting into a show (authorization) but not for authentication.
+
+OIDC used to:
+- authentication
+- identity management
+
+Applications just want to authenticate end-users and get a few bits about their identities.
+
+>The issue with XML is that its flexibility becomes a problem when you need to digitally sign identities, where two elements listed in a different order can break a signature verification.
+
+OAuth created for delegated authorization - a random application post something on Facebook as if it was you. Later Oauth used also for end-user authentication.
+
+Why protocol? For identity management in secure and interoperable way.
+
+Why not passwords locally? To reuse account and for deletgated authorization.
