@@ -83,14 +83,11 @@ OIDC:
 ## Official documentation
 
 - https://openid.net/specs/openid-connect-core-1_0.html
+- https://openid.net/connect/faq/
+  - https://www.youtube.com/watch?v=Kb56GzQ2pSk
 
 ## authentication and authorization etymology
 
 - permission https://en.wiktionary.org/wiki/authorize -> https://en.wiktionary.org/wiki/authority -> https://en.wiktionary.org/wiki/auctor -> https://en.wiktionary.org/wiki/augeo -> increase
 - https://en.wiktionary.org/wiki/authentic -> https://en.wiktionary.org/wiki/αὐθέντης -> self doer
   - https://www.etymonline.com/word/authentic
-
-##
-
-- https://openid.net/connect/faq/
-  - https://www.youtube.com/watch?v=Kb56GzQ2pSk
