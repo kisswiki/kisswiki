@@ -88,6 +88,6 @@ OIDC:
 
 ## authentication and authorization etymology
 
-- auhorizie means give permission: https://en.wiktionary.org/wiki/authorize -> https://en.wiktionary.org/wiki/authority -> https://en.wiktionary.org/wiki/auctor -> https://en.wiktionary.org/wiki/augeo -> increase
+- authorizie means give permission: https://en.wiktionary.org/wiki/authorize -> https://en.wiktionary.org/wiki/authority -> https://en.wiktionary.org/wiki/auctor -> https://en.wiktionary.org/wiki/augeo -> increase
 - authenticate means ensuring that somehting is done by someone: https://en.wiktionary.org/wiki/authentic -> https://en.wiktionary.org/wiki/αὐθέντης -> self doer
   - https://www.etymonline.com/word/authentic
