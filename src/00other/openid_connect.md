@@ -21,6 +21,9 @@
 
 ## the openid connect handbook
 
+- https://auth0.com/resources/ebooks/the-openid-connect-handbook
+  - https://github.com/auth0-blog/oidc-book-regular-webapp redirects to https://github.com/auth0-blog/oidc-webapp
+
 openid connect helps applications of all types 
 - handle end-user authentication
 - verify the identities of these users
@@ -52,8 +55,42 @@ Applications just want to authenticate end-users and get a few bits about their 
 
 >The issue with XML is that its flexibility becomes a problem when you need to digitally sign identities, where two elements listed in a different order can break a signature verification.
 
-OAuth created for delegated authorization - a random application post something on Facebook as if it was you. Later Oauth used also for end-user authentication.
+OAuth was created for delegated authorization - a random application post something on Facebook as if it was you. Later Oauth used also for end-user authentication.
 
 Why protocol? For identity management in secure and interoperable way.
 
 Why not passwords locally? To reuse account and for deletgated authorization.
+
+Steps:
+1. Visitor requests the app to start the authorization process.
+2. App redirects to Identiti Provider (IdP).
+3. IdP redirects visitor back to the app with a few artifacts.
+4. The app makes a request with these artifacts to IdP to complete the auth process.
+5. The app shows a page to user containing some indication that he is loggen in.
+
+OAuth 2.0 is an authorization framework that enables app (client) to use APIs (resource servers) on behalf of users (resources owners).
+
+OAuth:
+- for deletegated authorization
+- not for end-user authentication
+
+OIDC:
+- authenticate end-users
+- provide info about users (provisioning)
+
+>In this step, you are redirected to the authorization server, you perform some action there, and then the application gets an artifact related to you. The biggest difference is that, in a pure OAuth 2.0 scenario, the result will be an artifact that grants delegated authorization instead of an artifact that contains personal attributes about you.
+
+## Official documentation
+
+- https://openid.net/specs/openid-connect-core-1_0.html
+
+## authentication and authorization etymology
+
+- permission https://en.wiktionary.org/wiki/authorize -> https://en.wiktionary.org/wiki/authority -> https://en.wiktionary.org/wiki/auctor -> https://en.wiktionary.org/wiki/augeo -> increase
+- https://en.wiktionary.org/wiki/authentic -> https://en.wiktionary.org/wiki/αὐθέντης -> self doer
+  - https://www.etymonline.com/word/authentic
+
+##
+
+- https://openid.net/connect/faq/
+  - https://www.youtube.com/watch?v=Kb56GzQ2pSk
