@@ -28,8 +28,8 @@ $ vi /var/lib/docker/containers/c1eda20b30f058bce9f8ece3b47a21641df5b399770e12ab
 - Change `"HostPort":"80"` to `"HostPort":"8092"`
 - Press `Escape` and write `:wq`. Press `Enter`.
 - Do not start/stop `docker101tutorial` now. Otherwise changes to `HostPort` will be reverted.
- - `Tray Icons > right click Docker Desktop > Restart`.
- - Start your container. Now it will be mapped to port 8092  on host.
+- `Tray Icons > right click Docker Desktop > Restart`.
+- Start your container. Now it will be mapped to port `8092` on host.
 
 Based on @holdfenytolvaj answer.
 
