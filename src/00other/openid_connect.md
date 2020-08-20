@@ -91,3 +91,8 @@ OIDC:
 - authorizie means give permission: https://en.wiktionary.org/wiki/authorize -> https://en.wiktionary.org/wiki/authority -> https://en.wiktionary.org/wiki/auctor -> https://en.wiktionary.org/wiki/augeo -> increase
 - authenticate means ensuring that somehting is done by someone: https://en.wiktionary.org/wiki/authentic -> https://en.wiktionary.org/wiki/αὐθέντης -> self doer
   - https://www.etymonline.com/word/authentic
+
+## Tutorials, workshops
+
+- https://github.com/auth0-blog/oidc-webapp
+- https://github.com/ramosbugs/openidconnect-rs
