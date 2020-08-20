@@ -7,6 +7,10 @@
 
 ## formatOnSave
 
+In status bar click notification > install rust components or something.
+
+### Outdated
+
 ```json
     "[rust]": {
         "editor.formatOnSave": true,
