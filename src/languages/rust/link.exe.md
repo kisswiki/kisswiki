@@ -1,6 +1,6 @@
 `fatal error LNK1181: cannot open input file 'd3d12.lib'`
 
-You need to install Windows SDK. Download `Visual C++ Build Tools` from https://visualstudio.microsoft.com/downloads/ and select `Windows SDK` during install. Or if If you have already installed it:
+You need to install `Windows SDK`. Download `Visual C++ Build Tools` from https://visualstudio.microsoft.com/downloads/ and select `Windows SDK` during install. Or if If you have already installed it:
 
 `Windows Settings > Apps > Microsoft Visual C++ Build Tools > Modify > Windows SDK`
 
