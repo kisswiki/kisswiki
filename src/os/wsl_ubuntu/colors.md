@@ -1,4 +1,4 @@
-Use Windows Terminal.
+Use Windows Terminal. `src/os/windows/windows10/terminal.md`
 
 ## Emacs
 
