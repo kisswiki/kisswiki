@@ -1,3 +1,5 @@
+Use Windows Terminal.
+
 ## Emacs
 
 This works now:
