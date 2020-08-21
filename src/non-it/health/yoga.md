@@ -33,6 +33,18 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 > Ultimate Yogi kind of assumes one already knows what upward facing dog etc is. Yo:30 offers easier modifications and one of the people on screen demos them, while Ultimate Yogi sometimes mentions modifications briefly, everyone on screen seems to be doing full poses. The Ultimate Yogi is like being in a yoga class with large number of people, whereas yo:30 just shows three people on screen.
 > -- https://www.reddit.com/r/XboxFitness/comments/4u8o89/the_ultimate_yogi_vs_yo30_first_impression/
 
+### 01. Crosstraining - Power Yoga - The Ultimate Yogi with Travis Elliot
+
+Robię modyfkacje żeby mnie kolana nie bolały:
+
+1. Nie zginam na łydkach do końca w child pose. Unoszę się bardziej.
+2. Uginam kolana przy pochyleniu do przodu.
+3. Mam lekko ugiętą nogę przy wojowniku a nie 90 stopni.
+4. Przy chair pose staram się, żeby kolana też nie były 90 stopni tylko mniej ugięte. No i żeby kolano niewychodziło do przodu poza stopę.
+5. Kwiat lotosu czy takie skręcanie kolana do wewnątrz jak się leży - nie robię tego bo mi źle działa na kolana.
+
+Po tych ćwiczeniach głowa mi przestaje boleć oraz mata jest cała w pocie po 40 minutach albo szybciej. Bo to jest w końcu cardio joga.
+
 ## Knee pain
 
 - 5 yoga poses for Knee Pain https://youtu.be/LJ22NekVvS8
@@ -101,6 +113,42 @@ Jest to podstawowy podręcznik do Hatha - Jogi metodą Iyengara napisany przez t
 > Those with osteoporosis could fracture their spines by bending forward, and those with herniated disks may suffer pain from these stretches, said Dr. Loren Fishman, a New York City physician who is also a yoga instructor.
 > Fishman recommends that those with MS do Iyengar yoga instead, as it focuses on alignment and is gentler on the body.
 > -- http://www.livescience.com/18059-yoga-safe-tips-avoid-injuries.html
+
+<br>
+
+Benoy Matthews, a leading UK-based physiotherapist, warns he is seeing increasing numbers of yoga teachers with serious hip problems - many of whom require surgery - because they are pushing their bodies too hard.
+
+"People confuse stiffness and pain," he says. "If there is a pinching or blocking feeling in the groin, it shouldn't be ignored. You have to know your limits."
+
+https://www.bbc.com/news/health-50181155
+
+<br>
+
+But according to Dr Rajgopal, the extreme stretching exercises at the heart of the discipline cause severe stress on joints, leading to arthritis.
+
+He has seen a higher incidence of joint and bone ailments among yoga followers.
+
+"Yoga is wonderful provided it is done in a controlled environment, and people are trained and built up to doing such postures but putting the public at large through these extreme yoga postures can create problems for them," he said.
+
+"Many yoga gurus had to undergo knee surgeries, they had been affected by yoga postures," he told The Daily Telegraph.
+
+https://www.telegraph.co.uk/news/worldnews/asia/india/8222484/Yoga-bad-for-your-knees-Indian-doctor-warns.html
+
+<br>
+
+Ashok Rajgopal is an Indian orthopaedic surgeon, credited with close to 20,000 Arthroscopic and over 35,000 Total Knee Arthroplasty surgeries[1] and reported to be one of the most experienced in his field in India.[1] He was honoured by the Government of India in 2014, by bestowing on him the Padmashri, the fourth highest civilian award, for his services to the fields of orthopaedic surgery.
+
+https://en.wikipedia.org/wiki/Ashok_Rajgopal
+
+<br>
+
+Results: The final sample included 354 participants from two suburban yoga studios. The incidence rate of pain caused by yoga was 10.7%. More than one-third of incident cases resulted in lost yoga participation time and/or symptoms lasting more than 3 months. None of the risk factors at baseline increased the risk for subsequent incident cases of pain caused by yoga.
+
+Conclusions: Yoga can cause musculoskeletal pain. Participants may benefit from disclosure of practice to their healthcare professionals and by informing teachers of injuries they may have prior to participation. Yoga teachers should also discuss the risks for injury with their students.
+
+- https://sci-hub.st/10.1016/j.jbmt.2017.05.022
+- https://www.cantechletter.com/2017/06/yoga-dangerous-beneficial-think-study-finds/
+- https://twitter.com/evpappas/status/880580377525403648
 
 ##
 
