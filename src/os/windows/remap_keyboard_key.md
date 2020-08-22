@@ -1,0 +1,2 @@
+- https://github.com/randyrants/sharpkeys
+- https://superuser.com/questions/36920/how-can-i-remap-a-keyboard-key
