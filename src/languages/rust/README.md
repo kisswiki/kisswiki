@@ -23,6 +23,14 @@
 > get similarly excited about the prospect of static object lifetime management, but ask themselves whether it's really possible to completely hand lifetime management over to the compiler. And of course it isn't - sometimes you still need to concern yourself with the vulgar details of managing object destruction, and Rust's syntax for that is kind of ugly.
 > https://news.ycombinator.com/item?id=9331286
 
+<br>
+
+Generally, people who actually know what they're talking about see RIIR as being less about performance and more about getting stronger compile-time correctness guarantees than are available from languages with nullable types (holes in the type system), exceptions (hidden control flow paths), no sum types (limited ability to "make invalid states unrepresentable"), etc.
+
+In that respect, Rust serves more as something to get the benefit of academic-originated functional languages with the FFI integratability and large community and ecosystem of more mainstream languages.
+
+https://news.ycombinator.com/item?id=24230403
+
 ## Syntax
 
 > Rust requires the braces but not the parens, while C is the contrary
