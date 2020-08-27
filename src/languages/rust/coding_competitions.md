@@ -1,2 +1,0 @@
-- https://www.reddit.com/r/rust/comments/8dr6pt/code_royale_ai_bot_coding_competiton_day_1/
-  - They run rust in debug mode https://www.codingame.com/forum/t/rust-compiled-in-debug-mode/1623/23
