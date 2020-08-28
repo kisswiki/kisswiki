@@ -3,8 +3,10 @@
 ```bash
 chown $USER ~/.ssh/*
 chmod 600 ~/.ssh/*
-cmod 644 ~/.ssh/config
+chmod 644 ~/.ssh/config
 ```
+
+Ubuntu advices `chmod 700 ~/.ssh` https://help.ubuntu.com/community/SSH/OpenSSH/Keys
 
 - http://serverfault.com/questions/253313/ssh-hostname-returns-bad-owner-or-permissions-on-ssh-config
 - http://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open-error
