@@ -35,18 +35,24 @@ Idx     Met         MTU          State                Name
 ```
 
 ```bash
-~/personal_projects$ ping 127.0.0.1                                                                                                                 PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.                                                                                                    64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.166 ms                                                                                            64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.038 ms                                                                                            64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.053 ms 
+~/personal_projects$ ping 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.166 ms
+64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.038 ms
+64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.053 ms
+
 $ ping wp.pl
 
 $ sudo ip link set eth0 mtu 1390
-$ sudo ip link show eth0                                                                                                         4: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1390 qdisc mq state UP mode DEFAULT group default qlen 1000                                              link/ether 00:15:5d:e1:6b:fe brd ff:ff:ff:ff:ff:ff 
+$ sudo ip link show eth0
+4: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1390 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 00:15:5d:e1:6b:fe brd ff:ff:ff:ff:ff:ff
 ```
 
 ```powershell
 PS C:\> Get-NetIPInterface -InterfaceAlias "vEthernet (WSL)" | Set-NetIPInterface -InterfaceMetric 1
 PS C:\> Get-NetAdapter | Where-Object {$_.InterfaceDescription -Match "Cisco AnyConnect"} | Set-NetIPInterface -InterfaceMetric 4000
-PS C:\> PS C:\> netsh interface ip show interfaces
-                                                                                                                                                                                                                      
+PS C:\> netsh interface ip show interfaces
 Idx     Met         MTU          State                Name
 ---  ----------  ----------  ------------  ---------------------------
   1          75  4294967295  connected     Loopback Pseudo-Interface 1
@@ -64,6 +70,34 @@ PS C:\> Get-DnsClientServerAddress -AddressFamily IPv4 | Select-Object -ExpandPr
 165.27.212.24
 ```
 
-```
-~/personal_projects$ nslookup yahoo.com                                                                                                             Server:         165.27.212.22                                                                                                                       Address:        165.27.212.22#53                                                                                                                                                                                                                                                                        Non-authoritative answer:                                                                                                                           Name:   yahoo.com                                                                                                                                   Address: 98.137.11.164                                                                                                                              Name:   yahoo.com                                                                                                                                   Address: 98.137.11.163                                                                                                                              Name:   yahoo.com                                                                                                                                   Address: 74.6.143.25                                                                                                                                Name:   yahoo.com                                                                                                                                   Address: 74.6.143.26                                                                                                                                Name:   yahoo.com                                                                                                                                   Address: 74.6.231.20                                                                                                                                Name:   yahoo.com                                                                                                                                   Address: 74.6.231.21                                                                                                                                Name:   yahoo.com                                                                                                                                   Address: 2001:4998:124:1507::f001                                                                                                                   Name:   yahoo.com                                                                                                                                   Address: 2001:4998:44:3507::8001                                                                                                                    Name:   yahoo.com                                                                                                                                   Address: 2001:4998:44:3507::8000                                                                                                                    Name:   yahoo.com                                                                                                                                   Address: 2001:4998:24:120d::1:0                                                                                                                     Name:   yahoo.com                                                                                                                                   Address: 2001:4998:124:1507::f000                                                                                                                   Name:   yahoo.com                                                                                                                                   Address: 2001:4998:24:120d::1:1                                                                                                                                                                                                                                                                         ~/personal_projects$ cat /etc/resolv.conf                                                                                                           # This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:                # [network]                                                                                                                                         generateResolvConf = false                                                                                                                          #nameserver 172.17.113.225                                                                                                                          nameserver 165.27.212.22
+```bash
+$ nslookup yahoo.com
+Server:         192.168.0.1
+Address:        192.168.0.1#53
+
+Non-authoritative answer:
+Name:   yahoo.com
+Address: 98.137.11.164
+Name:   yahoo.com
+Address: 98.137.11.163
+Name:   yahoo.com
+Address: 74.6.231.21
+Name:   yahoo.com
+Address: 74.6.143.26
+Name:   yahoo.com
+Address: 74.6.143.25
+Name:   yahoo.com
+Address: 74.6.231.20
+Name:   yahoo.com
+Address: 2001:4998:24:120d::1:0
+Name:   yahoo.com
+Address: 2001:4998:44:3507::8001
+Name:   yahoo.com
+Address: 2001:4998:124:1507::f000
+Name:   yahoo.com
+Address: 2001:4998:124:1507::f001
+Name:   yahoo.com
+Address: 2001:4998:44:3507::8000
+Name:   yahoo.com
+Address: 2001:4998:24:120d::1:1
 ```
