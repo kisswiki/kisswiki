@@ -1,13 +1,3 @@
-```
-marwatk commented 2 days ago
-
-@craigloewen-msft Will the logs collect routing information from the VM and host? The issue (which I think is a duplicate of #4277) is that some corporate VPNs are configured to capture all routes and don't allow split tunneling. In this situation no Hyper-V network interface can talk over the VPN (or in my case to any host). Here's a good description, though in my case the workaround didn't work.
-
-Docker gets around this with vpnkit and a socket to NAT the traffic through a userland process.
-```
-
-https://github.com/microsoft/WSL/issues/5068#issuecomment-681138926
-
 ## Tried this but didn't work
 
 ```powershell
@@ -101,3 +91,16 @@ Address: 2001:4998:44:3507::8000
 Name:   yahoo.com
 Address: 2001:4998:24:120d::1:1
 ```
+
+## How Docker does this
+
+```
+marwatk commented 2 days ago
+
+@craigloewen-msft Will the logs collect routing information from the VM and host? The issue (which I think is a duplicate of #4277) is that some corporate VPNs are configured to capture all routes and don't allow split tunneling. In this situation no Hyper-V network interface can talk over the VPN (or in my case to any host). Here's a good description, though in my case the workaround didn't work.
+
+Docker gets around this with vpnkit and a socket to NAT the traffic through a userland process.
+```
+
+https://github.com/microsoft/WSL/issues/5068#issuecomment-681138926
+
