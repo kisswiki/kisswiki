@@ -59,3 +59,15 @@ You can make `.tab` even tighter:
 ```
 
 https://news.ycombinator.com/item?id=15343940
+
+##
+
+- https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules#restore-old-built-in-themes
+- `F1` to toggle TreeStyleTabs
+- https://github.com/piroor/treestyletab/blob/master/README.md#addons-that-extend-tst
+- https://www.thewindowsclub.com/force-links-to-open-in-background-firefox-chrome
+- https://addons.mozilla.org/en-US/firefox/addon/open-link-with-new-tab/
+- https://addons.mozilla.org/en-US/firefox/addon/long_press_new_tab/
+- add-on consumes ridiculous amounts of RAM, CPU and freezes https://github.com/piroor/treestyletab/issues/2424
+- https://support.mozilla.org/en-US/kb/firefox-uses-too-much-memory-or-cpu-resources
+  - about:memory > Minimize memory usage
