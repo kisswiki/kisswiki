@@ -22,6 +22,8 @@
 - https://github.com/tailwindlabs/heroicons
 - https://github.com/microsoft/fluentui-system-icons
 - https://github.com/CoreyGinnivan/system-uicons
+- https://github.com/microsoft/vscode-codicons
+  - https://code.visualstudio.com/api/references/icons-in-labels
 
 ## How Docker does this
 
