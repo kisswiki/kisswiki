@@ -1,4 +1,6 @@
-## Tried this but didn't work
+## Works
+
+https://github.com/microsoft/WSL/issues/5068#issuecomment-683917384
 
 ```powershell
 PS C:\> Get-NetAdapter | Where-Object {$_.InterfaceDescription -Match "Cisco AnyConnect"} | Get-NetIPInterface
