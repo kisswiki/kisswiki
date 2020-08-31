@@ -1,0 +1,2 @@
+- https://code.visualstudio.com/docs/remote/wsl
+- https://code.visualstudio.com/docs/remote/wsl-tutorial
