@@ -68,7 +68,7 @@ Server:         192.168.0.1
 Address:        192.168.0.1#53
 
 Non-authoritative answer:
-...
+#...
 Name:   yahoo.com
 Address: 2001:4998:44:3507::8000
 Name:   yahoo.com
