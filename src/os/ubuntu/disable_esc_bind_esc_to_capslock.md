@@ -1,3 +1,7 @@
+## To work in X.org and terminal
+
+https://github.com/rofrol/dotfiles/blob/master/bin/maps_capslock_to_escape.md
+
 ## GNOME Tweak Tool
 
 `GNOME Tweak Tool > Keyboard & Mouse > Addidtional Layout Options > Caps Lock behavior > Swap ESC and Caps Lock`
