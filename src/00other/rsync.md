@@ -52,3 +52,15 @@ The contents of `/dev`, `/proc`, `/sys`, `/tmp`, and `/run` are excluded in the 
 - https://wiki.archlinux.org/index.php/Rsync#As_a_backup_utility
 - https://superuser.com/questions/307541/copy-entire-file-system-hierarchy-from-one-drive-to-another/307542#307542
 - https://superuser.com/questions/709176/how-to-best-clone-a-running-system-to-a-new-harddisk-using-rsync/709224#709224
+
+## Windows and ntfs
+
+```
+-r : recursive, so directory is copied also. Implied by -a
+```
+
+`rsync -nxWr --info=progress2 photo_video /mnt/G/`
+
+or with checksum
+
+`rsync -nxWrc --info=progress2 photo_video /mnt/G/`
