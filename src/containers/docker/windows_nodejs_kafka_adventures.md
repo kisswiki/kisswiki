@@ -151,3 +151,33 @@ or
 
 - https://stackoverflow.com/questions/51066146/what-is-the-point-of-workdir-on-dockerfile/52964306#52964306
 - Dockerfile reference https://docs.docker.com/engine/reference/builder/
+
+## Tutorial
+
+- https://medium.com/swlh/a-free-apache-kafka-cloud-service-and-how-to-quickly-get-started-with-it-8f14520fff35
+  - https://github.com/AMIS-Services/online-meetups-introduction-of-kafka/tree/master/lab2-programmatic-consume-and-produce/node-kafka-client
+
+1. Create account at https://cloudkarafka.com
+2. Connection details: https://customer.cloudkarafka.com/instance > Click the name of instance
+  - DETAILS > Connection details >  Download
+  - TOPICS > Copy topic
+  - BROWSER > Consumer > paste topic > Consume
+2. edit `config.js`
+3. `npm i`
+4. `node consume.js`.
+5. Cloudkafka > BROWSER > Producer > Consumer
+  - paste topic
+  - Message: enter some message
+  - Produce
+6. You should see the message in web browser and in terminal where `node consume.js` is run.
+
+### Troubleshooting on WSL2
+
+During install I got output: `make: warning:  Clock skew detected.  Your build may be incomplete.`
+
+And when run `node consume.js` I got error: `node-librdkafka.node: invalid ELF header`.
+
+`rm -rf node_modules && npm i` fixed the issue.
+
+- https://stackoverflow.com/questions/3824500/compiling-c-on-remote-linux-machine-clock-skew-detected-warning
+- https://github.com/Blizzard/node-rdkafka/issues/315
