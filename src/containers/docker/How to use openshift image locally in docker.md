@@ -62,6 +62,7 @@ docker stop <CONTAINER_ID>
 
 - `docker build` will overwrite image with the same name
 - `-e RTDMURL='http://host.docker.internal:4000'` - passing environment variables to container
+- `host.docker.internal` is a dns to access host.
 - you can also provide name: `docker run --name <CONTAINER_NAME>` and use `CONTAINER_NAME` instead of `<CONTAINER_ID>` in subsequent commands like `stop`.
 - If after `docker exec -it` running `ls /opt/` shows empty directory, you have probably enterd stopped image.
 - This works in `git bash`: `docker exec -it <CONTAINER_ID> ls`. This doesn't work in `git bash` but works in `cmd.exe`: `docker exec -it <CONTAINER_ID> ls /opt/`.
