@@ -4,7 +4,7 @@
 
 You can search here https://catalog.redhat.com/software/containers.
 
-For example this image https://catalog.redhat.com/software/containers/ubi8/nodejs-12/5d3fff015a13461f5fb8635a or https://catalog.redhat.com/software/containers/ubi7/nodejs-10/5d5fdce95a13461f5f00d353.
+For example this image https://catalog.redhat.com/software/containers/ubi8/nodejs-12/5d3fff015a13461f5fb8635a or https://catalog.redhat.com/software/containers/ubi7/nodejs-12/5da023db5a134626e5ee2d79.
 
 On tab [Get this image](https://catalog.redhat.com/software/containers/ubi8/nodejs-12/5d3fff015a13461f5fb8635a?container-tabs=gti) are instructions how to pull image from registry.redhat.io.
 
