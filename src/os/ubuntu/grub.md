@@ -1,4 +1,17 @@
-After power outage, windows overwritten mbr.
+## update-grub does not change menu entries
+
+Running `update-grub` was using config from old Ubuntu on another partition. I needed to do:
+
+```bash
+sudo grub-install /dev/nvme0n1
+sudo update-grub
+```
+
+https://askubuntu.com/questions/831216/how-can-i-reinstall-grub-to-the-efi-partition/831241#831241
+
+## Windows overwritten mbr 
+
+After power outage, Windows overwritten mbr.
 
 Turns out I am booting from HDD instead of SSD m2.
 
