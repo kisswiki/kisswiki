@@ -1,0 +1,2 @@
+1. Add collaboratos in https://github.com/rofrol/interview-questions/settings/access
+2. On the list of added accounts there is text "Pending Invite" and icon. Clicking icon will copy url https://github.com/rofrol/interview-questions/invitations. You can send this link to people if they didn't get link by email etc.?
