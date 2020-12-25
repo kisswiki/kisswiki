@@ -108,6 +108,11 @@ rm {file}
 
 https://askubuntu.com/questions/307/how-can-ppas-be-removed/173209#173209
 
+
+## Software update errors with "No internet connection"
+
+There was problem with ppa without Release file. After removing offending ppa, no errors reported.
+
 ## Errors
 
 ### Could not get lock /var/lib/dpkg/lock
