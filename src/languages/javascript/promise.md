@@ -17,3 +17,11 @@ a().then(val => console.log(val));
 
 - https://stackoverflow.com/questions/22232280/how-do-you-return-inside-a-promise/22233034#22233034
 - https://developer.cdn.mozilla.net/id/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+## Top-level `await` is supported inside Dev Tools of Chrome and Firefox
+
+```javascript
+var b = await (new Promise((resolve) => resolve(1)).then(v => { console.log(v); return v; }))
+```
+
+- https://www.reddit.com/r/javascript/comments/6tuaxj/toplevel_await_is_supported_inside_latest_chrome/
