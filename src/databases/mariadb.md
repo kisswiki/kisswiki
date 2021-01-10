@@ -5,12 +5,12 @@
 - https://www.wikivs.com/wiki/MySQL_vs_PostgreSQL
 - http://db-engines.com/en/system/MariaDB%3BMySQL%3BPercona+Server
 
-## security
+## Security
 
 > Do not grant the FILE privilege to nonadministrative users
 > -- https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/897317-mysql-hit-by-critical-remote-code-execution-0-day?p=897370#post897370
 
-## portable
+## Portable
 
 ```cmd
 unzip mariadb-10.5.8-winx64.zip
@@ -75,7 +75,7 @@ select * from information_schema.schemata where schema_name = 'mydb';
 
 - https://dataedo.com/kb/query/mariadb/list-schemas-in-database
 
-## describe tables
+## describe table
 
 ```
 USE mydb;
@@ -89,7 +89,7 @@ SHOW COLUMNS FROM mydb.mytable;
 - https://mariadb.com/kb/en/show-tables/
 - https://mariadb.com/kb/en/show-columns/
 
-## show tables in all databases
+## Sshow tables in all databases
 
 ```sql
 select table_schema,
