@@ -20,7 +20,7 @@ mariadbd.exe --console
 ```
 
 ```cmd
-mysqladmin -u root  flush-privileges password "SECRET"
+mysqladmin -u root flush-privileges password "SECRET"
 mysql -u root -p
 ```
 
