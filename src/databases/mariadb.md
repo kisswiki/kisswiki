@@ -103,3 +103,17 @@ order by table_schema,
 ```
 
 - https://dataedo.com/kb/query/mariadb/list-all-tables-in-all-databases
+
+## sequelize
+
+```javascript
+const Sequelize = require('sequelize');
+
+const sequelize = new Sequelize('database', 'username', 'password', {
+    dialect: 'mariadb',
+    dialectOptions: { connectTimeout: 1000 }
+});
+```
+
+- https://sequelize.org/master/manual/dialect-specific-things.html#mariadb
+- https://sequelize.org/v5/manual/dialects.html#mariadb
