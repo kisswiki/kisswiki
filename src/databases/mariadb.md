@@ -15,8 +15,8 @@
 ```cmd
 unzip mariadb-10.5.8-winx64.zip
 cd mariadb-10.5.8-winx64\bin
-mariadb-install-db.exe
-mariadbd.exe --console
+mariadb-install-db
+mariadbd --console
 ```
 
 ```cmd
@@ -117,3 +117,15 @@ const sequelize = new Sequelize('database', 'username', 'password', {
 
 - https://sequelize.org/master/manual/dialect-specific-things.html#mariadb
 - https://sequelize.org/v5/manual/dialects.html#mariadb
+
+## INSERT
+
+```sql
+INSERT INTO `WeatherTodo`.`Todos` VALUES (NULL,  uuid(), "one", "desc1", 0, now(), now()), (NULL,  uuid(), "two", "desc2", 0, now(), now());
+```
+
+- Use `NULL` https://stackoverflow.com/questions/8753371/how-to-insert-data-to-mysql-having-auto-incremented-primary-key#comment88837136_8753416
+- `uuid()`
+  - https://stackoverflow.com/questions/61349754/how-to-generate-autoincrement-guid-on-insert-without-triggers-and-manual-inserts/61350037#61350037
+  - https://stackoverflow.com/questions/32965743/how-to-generate-a-uuidv4-in-mysql
+- current timestamp `now()` https://stackoverflow.com/questions/19246309/how-to-get-current-date-time-in-mysql
