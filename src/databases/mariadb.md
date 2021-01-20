@@ -124,6 +124,7 @@ const sequelize = new Sequelize('database', 'username', 'password', {
 INSERT INTO `WeatherTodo`.`Todos` VALUES (NULL,  uuid(), "one", "desc1", 0, now(), now()), (NULL,  uuid(), "two", "desc2", 0, now(), now());
 ```
 
+- https://mariadb.com/kb/en/insert/
 - Use `NULL` https://stackoverflow.com/questions/8753371/how-to-insert-data-to-mysql-having-auto-incremented-primary-key#comment88837136_8753416
 - `uuid()`
   - https://stackoverflow.com/questions/61349754/how-to-generate-autoincrement-guid-on-insert-without-triggers-and-manual-inserts/61350037#61350037

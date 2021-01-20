@@ -129,3 +129,26 @@ function test() {
     assert(19 === yearsDiff(parseDate('23.05.1997'), parseDate('22.06.2016')), 'yearsDiff should return 19');
 }
 ```
+
+## Format counter
+
+```javascript
+const formatCounter = s => {
+  let _s = Math.abs(s)
+  const units = [3600, 60, 1],
+    str = units
+      .reduce((r, multiplier) => {
+        if (_s >= multiplier) {
+          const count = Math.trunc(_s / multiplier)
+          r.push(count.toString().padStart(2, '0'))
+          _s = _s % multiplier
+        } else {
+          r.push('00')
+        }
+        return r
+      }, [])
+  return (s < 0 ? '-' : '') + str.flat().join(':')
+}
+```
+
+- https://stackoverflow.com/questions/62590455/format-time-interval-in-seconds-as-x-hours-y-minutes-z-seconds/62590689#62590689
