@@ -25,3 +25,36 @@ var b = await (new Promise((resolve) => resolve(1)).then(v => { console.log(v); 
 ```
 
 - https://www.reddit.com/r/javascript/comments/6tuaxj/toplevel_await_is_supported_inside_latest_chrome/
+
+## In practice, it is often desirable to catch rejected promises rather than use then's two case syntax
+
+```javascript
+Promise.resolve()
+  .then(() => {
+    // Makes .then() return a rejected promise
+    throw new Error('Oh no!');
+  })
+  .catch(error => {
+    console.error('onRejected function called: ' + error.message);
+  })
+  .then(() => {
+    console.log("I am always called even if the prior then's promise rejects");
+  });
+```
+
+instead of this:
+
+```javascript
+Promise.resolve()
+  .then(() => {
+    // Makes .then() return a rejected promise
+    throw new Error('Oh no!');
+  })
+  .then(() => {
+    console.log('Not called.');
+  }, error => {
+    console.error('onRejected function called: ' + error.message);
+  });
+```
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then
