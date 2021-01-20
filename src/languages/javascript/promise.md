@@ -58,3 +58,9 @@ Promise.resolve()
 ```
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then
+
+## Simulate error
+
+```javascript
+(new Promise(() => { throw new Error('Ups'); })).catch(error => console.error(error));
+```
