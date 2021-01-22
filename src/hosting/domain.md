@@ -39,4 +39,4 @@ Good features:
 
 ## regery.com
 
-Cheapest pl domain
+Cheapest pl domain, register $3.99, renewal $11.89	
