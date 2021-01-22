@@ -35,4 +35,8 @@ Good features:
 - DNS
 - Email Forwarding
 - SSL Certificate
-- 1 year WHOIS Privacy
+- 1 year WHOIS 
+
+## regery.com
+
+Cheapest pl domain
