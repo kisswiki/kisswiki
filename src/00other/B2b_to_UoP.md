@@ -1,3 +1,5 @@
+# Przelicznik ze stawki na godzinę na B2B do stawki na miesiąc na UoP
+
 https://zarobki.pracuj.pl/kalkulator-wynagrodzen/15000-netto
 
 Liczą 20 dni pracy w ciągu miesiąca na za 125 zł/h netto.
