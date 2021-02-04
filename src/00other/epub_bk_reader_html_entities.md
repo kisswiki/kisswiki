@@ -33,9 +33,23 @@ $ unzip file.epub
 $ rg -oIN '&[a-z]+;' | sort | uniq
 $ find . -type f | xargs perl -pi -e 's@"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">@"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [\r\n    <!ENTITY amp "&#38;">\r\n    <!ENTITY gt "&#62;">\r\n    <!ENTITY lt "&#60;">\r\n    <!ENTITY nbsp "&#160;">\r\n]>@g'
 $ zip -r file.zip META-INF/ mimetype OEBPS/
+$ bk file.zip
 ```
 
 TIP: You can use the --meta switch to use [bk as a file previewer](https://www.reddit.com/r/commandline/comments/hpmlsm/terminal_epub_reader/fxsrxgr/?utm_source=reddit&utm_medium=web2x&context=3) with eg nnn.
+
+## Install bk
+
+`cargo install bk`
+
+or to install from git
+
+```
+cargo uninstall bk
+git clone https://github.com/aeosynth/bk
+cd bk
+cargo install --path .
+```
 
 ## Other epub readers
 
