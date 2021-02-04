@@ -49,7 +49,13 @@ cargo uninstall bk
 git clone https://github.com/aeosynth/bk
 cd bk
 cargo install --path .
+bk file.epub
+bk file.zip
 ```
+
+<F1> for help
+
+<Tab> for table of Contents
 
 ## Other epub readers
 
