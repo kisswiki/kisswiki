@@ -33,11 +33,3 @@ https://stackoverflow.com/questions/37808180/disable-viewport-zooming-ios-10-saf
 
 - https://stackoverflow.com/questions/20321560/how-do-install-libraries-for-both-lua5-2-and-5-1-using-luarocks
 - This didn't work https://github.com/luarocks/luarocks/wiki/Installation-instructions-for-Unix
-
-## Find movie files
-
-`find . -type f -exec file -N -i -- {} + | sed -n 's!: video/[^:]*$!!p' | rg -v ".*\.sub$" | awk '{printf "\"%s\"\n", $0}' | xargs mpv`
-
-- https://askubuntu.com/questions/844711/how-can-i-find-all-video-files-on-my-system/844720#844720
-- sub is video file? https://www.iana.org/assignments/media-types/media-types.xhtml#video
-- https://unix.stackexchange.com/questions/251360/add-quotation-marks-comma-to-each-word-in-a-file/251387#251387
