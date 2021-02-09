@@ -89,3 +89,9 @@ https://github.com/BurntSushi/ripgrep/issues/188
 ## filter out some extensions
 
 `cat yoga.txt | rg -N -i -v '.*\.(jpe?g|torrent|pdf|epub|mobi|azw3|djv|md|lrf)$'`
+
+## output entire line when matched word
+
+`objdump -D hello_world | rg -A20 '^.*<main>:.*$'`
+
+- https://superuser.com/questions/783622/how-to-make-grep-command-return-entire-matching-line/1610125#1610125
