@@ -1,3 +1,7 @@
+## install
+
+`cargo install ripgrep --features 'pcre2'`
+
 ## match crlf
 
 `rg '\r$'` http://stackoverflow.com/questions/73833/how-do-you-search-for-files-containing-dos-line-endings-crlf-with-grep-on-linu/74739#74739
