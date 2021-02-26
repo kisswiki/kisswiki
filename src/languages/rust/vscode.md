@@ -6,6 +6,10 @@
 
 Uninstall rust extension, install rust-analyzer extension.
 
+Install https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
+
+- https://www.reddit.com/r/rust/comments/lkd50a/rustanalyzer_changelog_64/gnj7tzg/
+
 ## vscode-rust
 
 The extension is continuation of RustyCode (an extension for Visual Studio Code for Rust language). https://github.com/editor-rs/vscode-rust
