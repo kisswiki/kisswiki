@@ -1,3 +1,13 @@
+## rustup not found but available in terminal in Windows 10
+
+`Start > search for "Edit environment variables for account" > Edit "Path" > Add "%USERPROFILE%\.cargo\bin"`
+
+## rust-analyzer
+
+Uninstall rust extension, install rust-analyzer extension.
+
+## vscode-rust
+
 The extension is continuation of RustyCode (an extension for Visual Studio Code for Rust language). https://github.com/editor-rs/vscode-rust
 
 
