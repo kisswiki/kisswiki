@@ -2,6 +2,8 @@
 
 `Start > search for "Edit environment variables for account" > Edit "Path" > Add "%USERPROFILE%\.cargo\bin"`
 
+- https://stackoverflow.com/questions/60816886/how-do-i-solve-couldnt-start-client-rust-language-server-with-the-rust-vs-cod/66394305#66394305
+
 ## rust-analyzer
 
 Uninstall rust extension, install rust-analyzer extension.
