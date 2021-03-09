@@ -30,3 +30,22 @@ const MyComponent = withStyles(theme => {
 ```
 
 https://stackoverflow.com/questions/52656880/how-to-style-a-functional-stateless-component-in-reactjs-using-classes-object/52657396#52657396
+
+## Change opacity of material-ui-search-bar and maybe also works for TextField
+
+```jsx
+const useStyles = makeStyles((theme) => ({
+  root: {
+    padding: '10px 0 10px 0',
+    "& input::placeholder": {
+      opacity: 1,
+    },
+  },
+}
+//...
+    <div className={classes.root}>
+      <SearchBar />
+    </div>
+```
+
+- https://stackoverflow.com/questions/64413949/reactjs-how-to-change-placeholder-font-size-of-material-ui-autocomplete/64414167#64414167

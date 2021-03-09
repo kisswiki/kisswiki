@@ -1,7 +1,7 @@
 ```
 git bisect start
 git bisect old <rev>
-bit bisect new HEAD
+git bisect new HEAD
 # and now `git bisect old` or `git bisect new`
 git bisect reset
 ```
