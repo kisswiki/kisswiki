@@ -49,3 +49,13 @@ const useStyles = makeStyles((theme) => ({
 ```
 
 - https://stackoverflow.com/questions/64413949/reactjs-how-to-change-placeholder-font-size-of-material-ui-autocomplete/64414167#64414167
+
+## Change color alpha / transparency / opacity
+
+```javascript
+import { fade } from '@material-ui/core/styles/colorManipulator'
+...
+fade(defaultTheme.palette.primary[500], 0.18)
+```
+
+- https://stackoverflow.com/questions/47268652/jss-how-to-change-opacity-for-a-color/48063918#48063918
