@@ -59,3 +59,4 @@ fade(defaultTheme.palette.primary[500], 0.18)
 ```
 
 - https://stackoverflow.com/questions/47268652/jss-how-to-change-opacity-for-a-color/48063918#48063918
+- https://github.com/mui-org/material-ui/blob/v4.11.2/packages/material-ui/src/styles/colorManipulator.js
