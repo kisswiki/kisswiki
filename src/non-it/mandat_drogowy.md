@@ -7,4 +7,4 @@
 5. Wypełnić formularz
 6. Jeśli pesel wypełni się z autowypełnienia, to źle się wypełni data urodzenia. Skasować ostatni znak w peselu i wprowadzić go jeszcze raz.
 7. Jeśli wskazujemy na siebie, to w prawie jazdy data wydania dokumentu jest ogólna data, a data uzyskania uprawnień jest przy danej kategorii.
-8. Wysłać do podpisania przez epuap (kod z smsa.
+8. Wysłać do podpisania przez epuap (kod z smsa).
