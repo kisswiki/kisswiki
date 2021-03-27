@@ -1,3 +1,6 @@
+- [Why I rewrote my Rust keyboard firmware in Zig: consistency, mastery, and fun](https://kevinlynagh.com/rust-zig/)
+  - https://news.ycombinator.com/item?id=26374268
+
 top-level consts are order-independent
 
 const
