@@ -1,3 +1,9 @@
+electrograv on Nov 11, 2018
+
+Many of those are ruled out as modern successors (in my mind, at least), when they continue to make “the billion dollar mistake” (to use its inventor’s own words[1]) of null references.
+
+Rust, Zig, Kotlin, Swift, and many other modern languages can express the same concept of a null reference, but in a fundamentally superior way. In modern languages like these, the compiler will statically guarantee the impossibility of null dereference exceptions, without negatively impacting performance or code style!
+
 electrograv on Nov 11, 2018 [–]
 
 I think the author of that blog post fundamentally misunderstands the point: The damage of nullable pointers is not that they are nullable, but that compilers allow you to write code everywhere that assumes they’re not null (in fact, this is the only possible way to code, when the language cannot express the notion of a non-nullable reference!)
@@ -31,7 +37,7 @@ Yes, but there’s a big difference between the default member access operator c
 
 It may seem to be just semantics, but it’s really quite important that the default (and most concise) way in these languages to read optional values is to check if they’re null/None first in an if statement, after which you can call “object.method()” all you like. It’s important that you can’t just forget this check; it’s essential to using the content of the optional, unless you explicitly type something like “.unwrap()” — in which case there’s almost no chance the programmer won’t know and think about the possibility a crash. Take this in contrast to the chance of crash literally every time you type “->” or “.” in C++, for example.
 
-- https://news.ycombinator.com/item?id=18425340
+- https://news.ycombinator.com/item?id=18425065
 
 ## Links
 

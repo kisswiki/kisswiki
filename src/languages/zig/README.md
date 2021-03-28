@@ -160,3 +160,56 @@ const value: ?u32 = null;
 const unwrapped = value orelse 1234;
 unwrapped == 1234
 ```
+
+## unwrap optional
+
+```zig
+const value: ?u32 = 5678;
+value.? == 5678
+```
+
+## error union
+
+```zig
+const value: anyerror!u32 = error.Broken;
+const unwrapped = value catch 1234;
+unwrapped == 1234
+```
+
+## boolean
+
+```zig
+(false and true) == false
+false or true == true
+!false == true
+(1 == 1) == true
+const value: ?u32 = null;
+value == null
+```
+
+## array
+
+concatenation
+
+```zig
+[_]u32{1,2} ++ [_]u32{3,4} == &[_]u32{1,2,3,4}
+```
+
+multiplication
+
+```zig
+"ab" ** 3 == "ababab"
+```
+
+## expression value is ignored
+
+```zig
+// this errors
+// mem.eql(u32, &together, &[_]u32{ 1, 2, 3, 4 });
+
+// use this
+const result = mem.eql(u32, &together, &[_]u32{ 1, 2, 3, 4 });
+
+// or this
+expect(mem.eql(u32, &together, &[_]u32{ 1, 2, 3, 4 }));
+```
