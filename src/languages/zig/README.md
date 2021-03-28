@@ -143,6 +143,8 @@ https://www.wolframalpha.com/input/?i=2%5E129-1
 print("std.math.minInt(i16) binary: {b}\n", .{std.math.minInt(i16)});
 ```
 
+`.{}` is anonymouse struct
+
 - https://ziglang.org/documentation/master/std/#std;fmt.format
 - https://github.com/ziglang/zig/blob/9f01598a498ecbd868cb81dc1efdb1507010c1b8/lib/std/fmt.zig#L55
 - https://github.com/ziglang/zig/issues/1358
