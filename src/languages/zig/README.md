@@ -65,6 +65,8 @@ undefined is `0xaa` in debug
 
 variables cannot shadow outer scope identifiers
 
+## global variables
+
 globals are order-independent and lazily-evaluated, can be const (comptime-known) or var (runtime-known)
 
 ```zig
@@ -75,6 +77,10 @@ S.x += 1;
 ```
 
 extern, export, @export to make available to other objects at link time
+
+- [Docs clarification: local static variable](https://github.com/ziglang/zig/pull/8381)
+
+##
 
 `threadlocal var`
 
@@ -143,7 +149,7 @@ https://www.wolframalpha.com/input/?i=2%5E129-1
 print("std.math.minInt(i16) binary: {b}\n", .{std.math.minInt(i16)});
 ```
 
-`.{}` is anonymouse struct
+`.{}` is anonymouse list literal https://twitter.com/andy_kelley/status/1194046250909392902/photo/1
 
 - https://ziglang.org/documentation/master/std/#std;fmt.format
 - https://github.com/ziglang/zig/blob/9f01598a498ecbd868cb81dc1efdb1507010c1b8/lib/std/fmt.zig#L55
@@ -231,3 +237,38 @@ const A = error{One};
 const B = error{Two};
 (A || B) == error{One, Two}
 ```
+
+## iterating over array
+
+```zig
+var integers = [_]i32{ 1, 2 };
+print("{any}\n", .{integers});
+print("{any}\n", .{integers[0]});
+
+var some_integers: [100]i32 = undefined;
+for (some_integers) |*item, i| {
+    item.* = @intCast(i32, i);
+}
+```
+
+## numbers
+
+i16 is 15 bits
+
+```zig
+expect(0b111_1111_1111_1111 == std.math.maxInt(i16))
+print("{}\n", .{std.math.maxInt(i16)});
+print("{b}\n", .{std.math.maxInt(i16)});
+```
+
+## dump function
+
+```zig
+fn dump(args: anytype) void {
+    inline for (std.meta.fields(@TypeOf(args))) |field| {
+        std.debug.warn("{any} = {any}\n", .{ field.name, @field(args, field.name) });
+    }
+}
+```
+
+- https://twitter.com/andy_kelley/status/1194046250909392902
