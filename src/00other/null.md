@@ -41,6 +41,7 @@ It may seem to be just semantics, but it’s really quite important that the def
 
 ## Links
 
-- john.freml.in/billion-dollar-mistake
+- https://john.freml.in/billion-dollar-mistake
+  - https://web.archive.org/web/20200929034514/http://john.freml.in/billion-dollar-mistake
 - https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/
 - https://www.reddit.com/r/programming/comments/6sfxhr/code_smells_null/

@@ -213,3 +213,19 @@ const result = mem.eql(u32, &together, &[_]u32{ 1, 2, 3, 4 });
 // or this
 expect(mem.eql(u32, &together, &[_]u32{ 1, 2, 3, 4 }));
 ```
+
+## pointers
+
+```zig
+const x: u32 = 1234;
+const ptr = &x;
+ptr.* == 1234
+```
+
+## merging error sets
+
+```zig
+const A = error{One};
+const B = error{Two};
+(A || B) == error{One, Two}
+```
