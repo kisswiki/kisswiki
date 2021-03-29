@@ -95,3 +95,9 @@ https://github.com/BurntSushi/ripgrep/issues/188
 `objdump -D hello_world | rg -A20 '^.*<main>:.*$'`
 
 - https://superuser.com/questions/783622/how-to-make-grep-command-return-entire-matching-line/1610125#1610125
+
+## only matched group
+
+`rg -No "classes\.(\w+)" src/components/FilterSection/FilterSection.js --replace '$1' | sort | uniq`
+
+- https://github.com/BurntSushi/ripgrep/issues/34#issuecomment-267309265

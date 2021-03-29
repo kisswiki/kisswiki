@@ -272,3 +272,26 @@ fn dump(args: anytype) void {
 ```
 
 - https://twitter.com/andy_kelley/status/1194046250909392902
+
+## Sentinel-Terminated Arrays
+
+```zig
+const arr = [_:0]u8{1,2,3,4};
+expect(arr[len] === 0);
+```
+
+## pointers
+
+TODO: pointers
+
+## slices
+
+TODO: slices
+
+## structs
+
+TODO: structs
+
+You can return a struct from a function. This is how we do generics in Zig
+
+Since all structs are anonymous, Zig infers the type name based on a few rules.
