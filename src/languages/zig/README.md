@@ -295,3 +295,13 @@ TODO: structs
 You can return a struct from a function. This is how we do generics in Zig
 
 Since all structs are anonymous, Zig infers the type name based on a few rules.
+
+## from erik engheim blog
+
+if and while accept boolean or optional
+
+https://web.archive.org/web/20210301143402/https://medium.com/swlh/zig-the-introduction-dcd173a86975 (disable uBlock Origin and stop when content loaded, otherwise page will be blank)
+
+## rustlings
+
+switch has else
