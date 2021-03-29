@@ -305,3 +305,7 @@ https://web.archive.org/web/20210301143402/https://medium.com/swlh/zig-the-intro
 ## rustlings
 
 switch has else
+
+switch is an expression
+
+unreachable
