@@ -17,3 +17,27 @@ I still haven't internalized the full rule-set of rust enough to be able predict
 Zig manages to provide many of the same features with a single mechanism - compile-time execution of regular zig code. This comes will all kinds of pros and cons, but one large and important pro is that I already know how to write regular code so it's easy for me to just write down the thing that I want to happen.
 
 https://scattered-thoughts.net/writing/assorted-thoughts-on-zig-and-rust/
+
+##
+
+Despite all this, I still don’t feel comfortable with Rust. It feels fractally complex — seemingly every time I use Rust on a new project, I run into some issue that forces me to confront a new corner of the language/ecosystem. Developing my keyboard firmware was no exception: I ran into two problems, and each required learning a completely new language feature.
+
+These problems aren’t really specific to embedded, but they’re representative of the sorts of challenges I’ve run into using Rust over the past three years.
+
+Using Zig for just a few hours has highlighted to me aspects of Rust that I’d never before considered. In particular, that much of the complexity I’d unconsciously attributed to the domain — “this is what systems programming is like” — was in fact a consequence of deliberate Rust design decisions.
+
+For example, it’s now quite clear to me that Rust is a language which has a dedicated feature for everything. In addition to its famous borrow checker, Rust has modules, packages, generics, traits, two kinds of macros, attribute annotations, and a dozen other things.
+
+Heck, even defining immutable variables is done with different language features depending on whether it’s in a function context or module context
+
+> a particular form of guessability: when a person knows some of the language structure, how much of the rest can be guessed successfully?
+
+Rust has many language features and they’re all largely disjoint from each other, so knowing some doesn’t help me guess the others.
+
+Nothing I knew about if expressions helped me predict or understand the attribute annotation / feature system, even though they’re both fulfilling a conceptually similar need (conditional logic). Nothing I knew about functions helped me understand syntax macros.
+
+Conversely, this “consistency” principle also explains why I had such an easy time picking up Zig — it absolutely excels in this department. Not only are there many fewer features to learn in the first place, they seem to all fit together nicely: The comptime and inline for keywords, for example, allowed me to leverage at compile-time all the looping, conditions, arithmetic, and control flow I wanted using the syntax and semantics I’d already learned — Zig!
+
+Even though I’m only a dozen hours in, I feel like I can already be productive with Zig without an Internet connection. It feels like Zig is a language that I’d be able to master; to fully internalize such that I can use it without thinking about it. This feels super exciting and empowering.
+
+https://kevinlynagh.com/rust-zig/
