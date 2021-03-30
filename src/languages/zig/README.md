@@ -16,6 +16,9 @@ zig build-exe src/main.zig
 
 ```bash
 cargo install watchexec
+# on windows
+watchexec -w src/main.zig -r 'zig build-exe src/main.zig && main'
+# on linux
 watchexec -w src/main.zig -r 'zig build-exe src/main.zig && main'
 ```
 
@@ -309,3 +312,22 @@ switch has else
 switch is an expression
 
 unreachable
+
+### format string
+
+```zig
+<span style="color: #{x:0>6}">Red</span>
+```
+
+### pointers
+
+```zig
+var unlocked: u8 = 10;
+const p5: *const u8 = &unlocked;
+```
+
+Note that you don't need to dereference the "pv" pointer to access the struct's fields
+
+## operations on string
+
+- https://zigforum.org/t/strings-in-zig-what-do-i-miss/188/6
