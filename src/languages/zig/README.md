@@ -264,6 +264,8 @@ print("{}\n", .{std.math.maxInt(i16)});
 print("{b}\n", .{std.math.maxInt(i16)});
 ```
 
+u8 can hold 8 bits (0 to 255)
+
 ## dump function
 
 ```zig
