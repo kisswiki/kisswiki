@@ -330,6 +330,18 @@ const p5: *const u8 = &unlocked;
 
 Note that you don't need to dereference the "pv" pointer to access the struct's fields
 
+### optionals
+
+```zig
+const foo = bar.?;
+```
+
+is the same as
+
+```zig
+const foo = bar orelse unreachable;
+```
+
 ## operations on string
 
 - https://zigforum.org/t/strings-in-zig-what-do-i-miss/188/6
