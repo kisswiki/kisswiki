@@ -81,7 +81,6 @@
 - https://github.com/alexnask/ctregex.zig - Compile time regular expressions in zig
 - https://github.com/Luukdegram/juicebox - Tiled Window Manager written in Zig
 - https://github.com/alexnask/lepto.zig - Date and time library for zig, inspired by C++20 std::chrono
-- https://github.com/zigimg/zigimg - Zig library for reading and writing different image formats
 - https://github.com/mlarouche/stringtime - String template engine for Zig.
 - https://github.com/kivikakk/koino - CommonMark + GFM compatible Markdown parser and renderer
 - https://github.com/kivikakk/libpcre.zig - Zig bindings to libpcre
@@ -144,7 +143,7 @@
   - https://www.reddit.com/r/programming/comments/hds7qm/what_is_zigs_colorblind_asyncawait/
 - https://github.com/kprotty/zap - An asynchronous runtime with a focus on performance and resource efficiency.
 
-## Web and HTTP
+## Networking and HTTP
 
 - https://github.com/zigforum/needed-libraries/issues/3
 - https://github.com/Vexu/routez
@@ -179,6 +178,7 @@
 - https://github.com/frmdstryr/zhp - A Http server written in Zig
 - https://github.com/Sobeston/zigcord - A discord library in zig.
 - https://github.com/Sobeston/html-tree - A small zig library for writing trees of html
+- https://github.com/euantorano/ip.zig - A Zig library for working with IP Addresses
 
 ## Security
 
@@ -222,6 +222,14 @@
   - [Futureproof - Live editor for GPU shaders, built on Zig, Neovim, and WebGPU. : Zig](https://www.reddit.com/r/Zig/comments/kmc93b/futureproof_live_editor_for_gpu_shaders_built_on/)
 - https://github.com/ysgard/sprite-blitting-zig - Sprite blitting example using SDL2 and Zig
 - https://github.com/Iridescence-Technologies/zglfw - A thin, idiomatic wrapper for GLFW. Written in Zig, for Zig!
+
+## Image
+
+- https://github.com/zigimg/zigimg - Zig library for reading and writing different image formats
+
+## Audio
+
+- https://github.com/prime31/zig-miniaudio
 
 ## Embedded and ARM
 
