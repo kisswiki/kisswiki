@@ -1,52 +1,44 @@
 - [2021: Year of the Linux Gaming Desktop - Andrew Kelley - YouTube](https://www.youtube.com/watch?v=pq1XqP4-qOo)
-- [Zig (programming language) - Wikipedia](<https://en.wikipedia.org/wiki/Zig_(programming_language)>)
-- [Zig's New Relationship with LLVM : programming](https://www.reddit.com/r/programming/comments/j1azlo/zigs_new_relationship_with_llvm/)
 - [Zig's New Relationship with LLVM | Loris Cro's Personal Blog](https://kristoff.it/blog/zig-new-relationship-llvm/)
+  - https://news.ycombinator.com/item?id=24615916
+  - https://www.reddit.com/r/programming/comments/j1azlo/zigs_new_relationship_with_llvm/
 - [Andrew Kelley](https://andrewkelley.me/)
 - [self hosted compiler](https://github.com/ziglang/zig/projects/2)
 - [What is Zig's “Colorblind” Async/Await? | Loris Cro's Personal Blog](https://kristoff.it/blog/zig-colorblind-async-await/)
 - [The end of the Redis adventure - <antirez>](http://antirez.com/news/133)
-- [You Should Play Secret Hitler | Loris Cro's Personal Blog](https://kristoff.it/blog/you-should-play-secret-hitler/)
 - [Highest Voted 'zig' Questions - Stack Overflow](https://stackoverflow.com/questions/tagged/zig)
 - [struct definition with var instead of const in zig language - Stack Overflow](https://stackoverflow.com/questions/62554187/struct-definition-with-var-instead-of-const-in-zig-language)
 - [Zig in 30 minutes](https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50)
 - [Zig in 30 Minutes](https://news.ycombinator.com/item?id=25618302)
 - [Zig in 30 minutes : programming](https://www.reddit.com/r/programming/comments/kpirah/zig_in_30_minutes/)
-- [Understanding the Zig Programming Language | The Startup](https://medium.com/swlh/zig-the-introduction-dcd173a86975)
 - [Is Zig the Long Awaited C Replacement? | by Erik Engheim | Medium](https://erik-engheim.medium.com/is-zig-the-long-awaited-c-replacement-c8eeace1e692)
 - [c++ - Integer division overflows - Stack Overflow](https://stackoverflow.com/questions/30394086/integer-division-overflows)
 - [C++ vs Zig Template Based Programming | by Erik Engheim | Level Up Coding](https://levelup.gitconnected.com/c-vs-zig-template-based-programming-d3e248885aa)
 - https://web.archive.org/web/20210316230834if_/https://levelup.gitconnected.com/c-vs-zig-template-based-programming-d3e248885aa?gi=7a25d503b34f
 - https://web.archive.org/web/20210301143402/https://medium.com/swlh/zig-the-introduction-dcd173a86975
 - [Programming languages [Thoughts on Zig]\_Lobsters - MdEditor](https://www.mdeditor.tw/pl/pgts)
-- [Learning Rust: Mindsets and Expectations\*Lobsters - MdEditor](https://www.mdeditor.tw/pl/p3l0)
 - [Models of Generics and Metaprogramming: Go, Rust, Swift, D and More - Tristan Hume](https://thume.ca/2019/07/14/a-tour-of-metaprogramming-models-for-generics/)
-- https://github.com/ordovician/Zusion2D
 - [Software Reliability C++ vs Zig. A tiny comparison of C++ and Zig in… | by Erik Engheim | Nov, 2020 | Medium](https://web.archive.org/web/20210107210155/https://erik-engheim.medium.com/software-reliability-c-vs-zig-dbb2d0005b9c)
 - [Understanding the Zig Programming Language | The Startup](https://web.archive.org/web/20210301143402/https://medium.com/swlh/zig-the-introduction-dcd173a86975)
-- [Chapter 1 - Basics | ziglearn.org](https://ziglearn.org/chapter-1/#structs)
 - [Gotchas when Doing Zig Programming (v0.7) | by Erik Engheim | Medium](https://erik-engheim.medium.com/gotchas-with-zig-optionals-and-errorsets-in-loops-516fcac3ea94)
-- [blog](https://tiehu.is/blog/zig2.html)
-- [Introduction to the Zig Programming Language - Andrew Kelley](https://andrewkelley.me/post/intro-to-zig.html)
-- [Zig Programming Language Blurs the Line Between Compile-Time and Run-Time - Andrew Kelley](https://andrewkelley.me/post/zig-programming-language-blurs-line-compile-time-run-time.html)
+- https://tiehu.is/blog/zig2.html
+- https://andrewkelley.me/post/intro-to-zig.html
+- https://andrewkelley.me/post/zig-programming-language-blurs-line-compile-time-run-time.html
 - [8 Big Ideas From 8 Programming Languages | by Erik Engheim | Better Programming](https://betterprogramming.pub/eight-big-ideas-from-eight-programming-languages-f3be5f6c9701)
 - [(1239) Zig: A programming language designed for robustness, optimality, and clarity – Andrew Kelley - YouTube](https://www.youtube.com/watch?v=Z4oYSByyRak)
 - [Why Zig when there is already C++, D, and Rust?](https://news.ycombinator.com/item?id=25797025)
-- [Assorted thoughts on zig (and rust)](https://scattered-thoughts.net/writing/assorted-thoughts-on-zig-and-rust/)
+- https://scattered-thoughts.net/writing/assorted-thoughts-on-zig-and-rust/
 - [Zig heading toward a self-hosting compiler [LWN.net]](https://lwn.net/Articles/833400/)
 - [`zig cc`: a Powerful Drop-In Replacement for GCC/Clang - Andrew Kelley](https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html)
 - [Why you should learn Zig - DEV Community](https://dev.to/hanna/why-you-should-learn-zig-329a)
 - [How to Write a Redis Module in Zig | Redis Labs](https://redislabs.com/blog/write-redis-module-zig/)
 - [(1239) 2021: Year of the Linux Gaming Desktop - Andrew Kelley - YouTube](https://www.youtube.com/watch?v=pq1XqP4-qOo&t=929s)
-- [Andrew Kelley is creating Open Source Software | Patreon](https://www.patreon.com/andrewrk)
-- [zig-lang · GitHub Topics](https://github.com/topics/zig-lang)
+- https://github.com/topics/zig-lang
 - [overhaul std.fmt formatting api · Issue #1358 · ziglang/zig](https://github.com/ziglang/zig/issues/1358)
 - [zig/fmt.zig at master · ziglang/zig](https://github.com/ziglang/zig/blob/9f01598a498ecbd868cb81dc1efdb1507010c1b8/lib/std/fmt.zig#L55)
-- [Zig (programming language) - Wikipedia](<https://en.wikipedia.org/wiki/Zig*(programming*language)>)
 - [Zig programming language / Sudo Null IT News](https://sudonull.com/post/3683-Zig-programming-language)
 - [I'm watching Zig and Jai closely. We need a better C and C++ isn't it. Good luck...](https://news.ycombinator.com/item?id=18424471)
 - [Generation of types in zig (zig language) - Stack Overflow](https://stackoverflow.com/questions/61466724/generation-of-types-in-zig-zig-language)
-- [Zig (język programowania) - Zig (programming language) - qaz.wiki](<https://pl.qaz.wiki/wiki/Zig*(programming*language)>)
 - [What do C programmers think of the Zig language? : C_Programming](https://www.reddit.com/r/C_Programming/comments/9bv2tx/what_do_c_programmers_think_of_the_zig_language/)
 - [New challenger joins Rust to topple C language | InfoWorld](https://www.infoworld.com/article/3113083/new-challenger-joins-rust-to-upend-c-language.html)
 - [enumerate all kinds of undefined behavior, even that which cannot be safety-checked · Issue #1966 · ziglang/zig](https://github.com/ziglang/zig/issues/1966)
@@ -55,17 +47,9 @@
 - [Linux kernel module](https://github.com/ziglang/zig/projects/5)
 - [Projects · ziglang/zig](https://github.com/ziglang/zig/projects)
 - [Safety](https://github.com/ziglang/zig/projects/3)
-- [ziglearn/test-out.zig at master · Sobeston/ziglearn](https://github.com/Sobeston/ziglearn/blob/master/test-out.zig)
-- [Chapter 1 - Basics | ziglearn.org](https://ziglearn.org/chapter-1/)
-- [Home ⚡ Zig Programming Language](https://ziglang.org/#Manual-memory-management)
-- [Documentation - The Zig Programming Language](https://ziglang.org/documentation/master/#Memory)
-- https://github.com/ganderzz/zig-exercism - Exercism Programming Exercises in Zig
 - https://github.com/nrdmn/awesome-zig
 - [request.zig - Vexu/routez - GitHub1s](https://github1s.com/Vexu/routez/blob/HEAD/src/routez/http/request.zig)
-- [Routez!](https://routez.vexu.eu/)
-- [Writing a small ray tracer in Rust and Zig // My thought repository](https://nelari.us/post/raytracer_with_rust_and_zig/)
-- [Writing a small ray tracer in Rust and Zig](https://news.ycombinator.com/item?id=20325638)
-- [Zig SHOWTIME](https://zig.show/newsletter/)
+- https://routez.vexu.eu/
 - [Zig and Full stack web development · Issue #942 · ziglang/zig](https://github.com/ziglang/zig/issues/942)
 - [http server in zig? : Zig](https://www.reddit.com/r/Zig/comments/bdp2ym/http_server_in_zig/)
 - [I/O free HTTP/1.1 implementation for Zig 🦎 : Zig](https://www.reddit.com/r/Zig/comments/g776wm/io_free_http11_implementation_for_zig/)
@@ -78,12 +62,11 @@
 - [Trying Zig with C web servers - dermetfan](http://dermetfan.net/posts/zig-with-c-web-servers.html)
 - [Odin seems rather similar to Zig: https://ziglang.org/ It would be interesting ...](https://news.ycombinator.com/item?id=22203861)
 - [I think Zig will reserve a few interesting surprises also in the webdev world, i...](https://news.ycombinator.com/item?id=24616069)
-- [What is Zig's Comptime? | Loris Cro's Personal Blog](https://kristoff.it/blog/what-is-zig-comptime/)
-- [Zig's New Relationship with LLVM](https://hacker-news.news/post/24615916)
+- https://kristoff.it/blog/what-is-zig-comptime/
 - [http client in the standard library · Issue #2007 · ziglang/zig](https://github.com/ziglang/zig/issues/2007)
 - https://github.com/ducdetronquito/http - HTTP core types for Zig 🦴
-- [ZigLibs](https://github.com/ziglibs)
-- [ZigTools](https://github.com/zigtools)
+- https://github.com/ziglibs
+- https://github.com/zigtools
 - https://github.com/zigtools/zpm-server - Open API Server providing a filterable list of curated Zig packages
 - https://github.com/Vexu/zuri - URI parser for Zig
 - https://github.com/ducdetronquito/h11 - I/O free HTTP/1.1 implementation for Zig 🦎
@@ -95,38 +78,35 @@
 - https://github.com/tiehuis/zig-nng-example - Example of using nanomsg-next-generation with Zig
 - [Requestz - HTTP client for Zig : Zig](https://www.reddit.com/r/Zig/comments/ju1hud/requestz_http_client_for_zig/)
 - https://github.com/ducdetronquito/requestz - HTTP client for Zig 🦎
-- [HTTP core types for Zig 🦴 : Zig](https://www.reddit.com/r/Zig/comments/ixwl3w/http_core_types_for_zig/)
-- [How safe is Zig : Zig](https://www.reddit.com/r/Zig/comments/mavl69/how_safe_is_zig/)
-- [A "Better C" Benchmark : Zig](https://www.reddit.com/r/Zig/comments/mc312h/a_better_c_benchmark/)
-- [Community-run Zig forum! : Zig](https://www.reddit.com/r/Zig/comments/m5wf4h/communityrun_zig_forum/)
-- [Trying to understand the "colorless" async handling in Zig : Zig](https://www.reddit.com/r/Zig/comments/lwnlbz/trying_to_understand_the_colorless_async_handling/)
-- [Zig, Parser Combinators - and Why They're Awesome : Zig](https://www.reddit.com/r/Zig/comments/m29mt5/zig_parser_combinators_and_why_theyre_awesome/)
-- [Setup Zig for Gamedev : Zig](https://www.reddit.com/r/Zig/comments/m4bo8l/setup_zig_for_gamedev/)
+- https://www.reddit.com/r/Zig/comments/ixwl3w/http_core_types_for_zig/
+- https://www.reddit.com/r/Zig/comments/mavl69/how_safe_is_zig/
+- https://www.reddit.com/r/Zig/comments/mc312h/a_better_c_benchmark/
+- https://www.reddit.com/r/Zig/comments/lwnlbz/trying_to_understand_the_colorless_async_handling/
+- https://www.reddit.com/r/Zig/comments/m29mt5/zig_parser_combinators_and_why_theyre_awesome/
 - [Learning About ELF With Zig | g-w1’s Blog](https://g-w1.github.io/blog/zig/low-level/2021/03/15/elf-linux.html)
-- [Using Zig and the STM32H7 to drive stepper motors - Blog : Zig](https://www.reddit.com/r/Zig/comments/maq23d/using_zig_and_the_stm32h7_to_drive_stepper_motors/)
-- [Using zig and the STM32H7 to drive stepper motors - Blog - Code LV](https://codelv.com/blog/2020/5/using-zig-and-the-stm32h7-to-drive-stepper-motors)
+- https://www.reddit.com/r/Zig/comments/maq23d/using_zig_and_the_stm32h7_to_drive_stepper_motors/
+- https://codelv.com/blog/2020/5/using-zig-and-the-stm32h7-to-drive-stepper-motors
 - https://github.com/frmdstryr/zhp - A Http server written in Zig
 - https://github.com/frmdstryr/zig-datetime - A date and time module for Zig
 - https://github.com/frmdstryr/zig-mimetypes - A mimetypes module for Zig
 - https://github.com/frmdstryr/zig-kiwi - A cassowary constraint solver in zig
-- [Any workable HTTP clients or working examples? : Zig](https://www.reddit.com/r/Zig/comments/it8h92/any_workable_http_clients_or_working_examples/)
+- https://www.reddit.com/r/Zig/comments/it8h92/any_workable_http_clients_or_working_examples/
 - [Opinions on Zig? Is it suckless? What about other languages? What does a language good for you? : suckless](https://www.reddit.com/r/suckless/comments/mc824m/opinions_on_zig_is_it_suckless_what_about_other/)
-- [Introducing the Zig Programming Language : programming](https://www.reddit.com/r/programming/comments/44skm2/introducing_the_zig_programming_language/)
-- [Example of using io\*uring for file read/writes with Zig : Zig](https://www.reddit.com/r/Zig/comments/gq07n1/example_of_using_io_uring_for_file_readwrites/)
-- [some thoughts after intense zig sprints : Zig](https://www.reddit.com/r/Zig/comments/a4cbeh/some_thoughts_after_intense_zig_sprints/)
-- [Assorted thoughts on zig (and rust) : rust](https://www.reddit.com/r/rust/duplicates/jekjeo/assorted_thoughts_on_zig_and_rust/)
-- [Assorted thoughts on zig (and rust) : Zig](https://www.reddit.com/r/Zig/comments/jeeulv/assorted_thoughts_on_zig_and_rust/)
-- [~jamii/focus: master - sourcehut git](https://git.sr.ht/~jamii/focus/log)
-- [~jamii/imp: / - sourcehut git](https://git.sr.ht/~jamii/imp/tree)
-- [Imp: intro](https://scattered-thoughts.net/writing/imp-intro/)
+- https://www.reddit.com/r/programming/comments/44skm2/introducing_the_zig_programming_language/
+- https://www.reddit.com/r/Zig/comments/gq07n1/example_of_using_io_uring_for_file_readwrites/
+- https://www.reddit.com/r/Zig/comments/a4cbeh/some_thoughts_after_intense_zig_sprints/
+- https://www.reddit.com/r/rust/duplicates/jekjeo/assorted_thoughts_on_zig_and_rust/
+  - https://www.reddit.com/r/Zig/comments/jeeulv/assorted_thoughts_on_zig_and_rust/
+  - https://www.reddit.com/r/programming/comments/jepu9n/assorted_thoughts_on_zig_and_rust/
+- https://git.sr.ht/~jamii/focus
+- https://git.sr.ht/~jamii/imp
+  - https://scattered-thoughts.net/writing/imp-intro/
 - [Proposal: User definable type constraints on polymorphic parameters · Issue #1669 · ziglang/zig](https://github.com/ziglang/zig/issues/1669)
-- [Assorted Thoughts on Zig (and Rust) : programming](https://www.reddit.com/r/programming/comments/jepu9n/assorted_thoughts_on_zig_and_rust/)
 - [Interview with Zig language creator Andrew Kelley - YouTube](https://www.youtube.com/watch?v=ZvskDoP09Ao#t=16m)
 - [The Road to Zig 1.0 - Andrew Kelley - YouTube](https://www.youtube.com/watch?v=Gv2I7qTux7g)
 - [Andrew Kelley: Why I'm donating $150/month (10% of my income) to the musl libc project : Zig](https://www.reddit.com/r/Zig/comments/c4yup3/andrew_kelley_why_im_donating_150month_10_of_my/)
 - [Why I'm donating $150/month (10% of my income) to the musl libc project - Andrew Kelley](https://andrewkelley.me/post/why-donating-to-musl-libc-project.html)
 - [I'm donating $150/month to the musl libc project](https://news.ycombinator.com/item?id=20268087)
-- [zig/microbit now in service to model railroad : Zig](https://www.reddit.com/r/Zig/comments/ejsi4d/zigmicrobit_now_in_service_to_model_railroad/)
 - [Rust is a hard way to make a web API : rust](https://www.reddit.com/r/rust/comments/kyb7si/rust_is_a_hard_way_to_make_a_web_api/)
 - [I Quit My Cushy Job at OkCupid to Live on Donations to Zig - Andrew Kelley](https://andrewkelley.me/post/full-time-zig.html)
 - [Andrew Kelley on Twitter: "About to merge this: @ziglang gains anonymous struct literals and anonymous list literals. After this, var args can be deleted from the language. Good riddance! https://t.co/Ep5dk7L5oL" / Twitter](https://twitter.com/andy_kelley/status/1194046250909392902)
@@ -307,27 +287,25 @@
 - [Async CPU bound workers in Zig - DEV Community](https://dev.to/stein/async-cpu-bound-workers-in-zig-24b0)
 - [Validating strings at compile time in Zig - DEV Community](https://dev.to/euantorano/validating-strings-at-compile-time-in-zig-539h)
 - [Debugging Zig with VS Code - DEV Community](https://dev.to/watzon/debugging-zig-with-vs-code-44ca)
-- [Small Linux Userland built in Zig : Zig](https://www.reddit.com/r/Zig/comments/g1umkx/small_linux_userland_built_in_zig/)
+- https://www.reddit.com/r/Zig/comments/g1umkx/small_linux_userland_built_in_zig/
 - [Linux Userland in Zig | 码农网](https://www.codercto.com/a/107923.html)
 - https://github.com/pbui-project/pbui-main - The main repository for the PBUI project
 - [Project 01: Idlebin](https://www3.nd.edu/~pbui/teaching/cse.30341.fa19/project01.html)
 - [Assorted Thoughts on Zig and Rust](https://news.ycombinator.com/item?id=24835357)
 - [Zigmod: A package manager for Zig : Zig](https://www.reddit.com/r/Zig/comments/lozuzy/zigmod_a_package_manager_for_zig/)
 - [cosmopolitan libcs claim: build once, run everywhere : Zig](https://www.reddit.com/r/Zig/comments/klyq1l/cosmopolitan_libcs_claim_build_once_run_everywhere/)
-- [zig-sqlite: small wrapper around sqlite's C API : Zig](https://www.reddit.com/r/Zig/comments/jkleeu/zigsqlite_small_wrapper_around_sqlites_c_api/)
+- https://www.reddit.com/r/Zig/comments/jkleeu/zigsqlite_small_wrapper_around_sqlites_c_api/
 - [Adma - General purpose slab allocator for Zig : Zig](https://www.reddit.com/r/Zig/comments/hoxapo/adma_general_purpose_slab_allocator_for_zig/)
-- [Zalgebra, linear algebra library for (mostly) games : Zig](https://www.reddit.com/r/Zig/comments/jgsod9/zalgebra_linear_algebra_library_for_mostly_games/)
 - [zig/Allocator.zig at master · ziglang/zig](https://github.com/ziglang/zig/blob/master/lib/std/mem/Allocator.zig)
 - [> A `union(TagType)` in Zig is a tagged union and has safety checks on all acces...](https://news.ycombinator.com/item?id=17186888)
 - [Zig (programming language) - Wikipedia](<https://en.m.wikipedia.org/wiki/Zig_(programming_language)>)
 - [design spec: Are integers in zig guaranteed to have two's complement binary representation? · Issue #1723 · ziglang/zig](https://github.com/ziglang/zig/issues/1723)
-- https://github.com/SpexGuy/Zig-Gltf-Display - A program that displays glTF files using Vulkan, written in Zig.
 - https://github.com/SpexGuy/Zig-ImGui - Zig bindings for ocornut/imgui, generated using cimgui/cimgui
 - https://github.com/SpexGuy/foozball - A virtual networked foosball game, written in Zig
 - https://github.com/SpexGuy/Zig-Allocators - An allocator library for Zig, based on allocating fixed-size chunks from the OS
 - [Are integers in zig guaranteed to have two's complement binary representation? : Zig](https://www.reddit.com/r/Zig/comments/9wz8ly/are_integers_in_zig_guaranteed_to_have_twos/)
 - [Why I rewrote my Rust keyboard firmware in Zig: consistency, mastery, and fun](https://kevinlynagh.com/rust-zig/)
-- [Zig: A programming language designed for robustness, optimality, and clarity –  Andrew Kelley - YouTube](https://www.youtube.com/watch?v=Z4oYSByyRak&t=1s)
+- [Zig: A programming language designed for robustness, optimality, and clarity –  Andrew Kelley - YouTube](https://www.youtube.com/watch?v=Z4oYSByyRak)
 - (https://comby.dev/blog/2021/03/26/comby-reducer)[A simple program reducer for any language · Comby]
 - (https://twitter.com/andy_kelley/status/1374137956038889475)[Andrew Kelley on Twitter: "this is a good example of safety feature of Zig that would not make sense in Rust - untagged unions https://t.co/tgoEDvxIkt" / Twitter]
 - [Andrew Kelley on Twitter: "thanks to the Rust folks participating in this thread- what I have learned is that the Rust project is in fact interested in adding safety features even to `unsafe` areas of the codebase! that's great to hear." / Twitter](https://twitter.com/andy_kelley/status/1374144948585459712)

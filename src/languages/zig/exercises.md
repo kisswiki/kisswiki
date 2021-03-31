@@ -24,3 +24,11 @@
 - https://dev.to/katafrakt/advent-of-code-day-4-in-zig-23o7
 - [Zig Live Coding - Advent of Code 2019, Day 2 on Vimeo](https://vimeo.com/491488991)
 - [4D game of life ⚡ Advent of Code in Zig Day 17 - YouTube](https://www.youtube.com/watch?v=pRJaMnc0Res)
+
+## Exercism
+
+- https://github.com/ganderzz/zig-exercism - Exercism Programming Exercises in Zig
+
+## Other
+
+- https://nelari.us/post/raytracer_with_rust_and_zig/
