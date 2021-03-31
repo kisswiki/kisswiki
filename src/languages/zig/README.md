@@ -17,9 +17,9 @@ zig build-exe src/main.zig
 ```bash
 cargo install watchexec
 # on windows
-watchexec -w src/main.zig -r 'zig build-exe src/main.zig && main'
+watchexec -e zig -w src/main.zig 'zig build-exe src/main.zig && main'
 # on linux
-watchexec -w src/main.zig -r 'zig build-exe src/main.zig && main'
+watchexec -e zig -w src/main.zig 'zig build-exe src/main.zig && ./main'
 ```
 
 ## syntax
@@ -459,6 +459,20 @@ Also in official documentation there is no mention that in switch we don't have 
 
 - https://zigforum.org/t/strings-in-zig-what-do-i-miss/188/6
 
+## official documentation continue
+
+Blocks limit scope of variable declarations.
+
+Blocks are expressions. When labeled, you can a value with `break`.
+
+```zig
+{
+    var x: i32 = 1;
+}
+const x = blk: {
+    y += 1;
+    break :blk y;
+};
 ```
 
-```
+Strange that you need to use this `blk` label.
