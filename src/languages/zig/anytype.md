@@ -23,4 +23,12 @@ pub fn main() void {
 
 At first glance, all 3 `takeAny*` functions appear as if they would behave similarly, but they are actually very different because only `takeAnyType` is generic. Regardless of the actual names, I think using a different naming convention to distinguish between generic and non-generic behavior would be more clear. Whether that means renaming `anyerror`/`anyframe` or `anytype` doesn't seem important but having a clear way to distinguish between them seems more so.
 
+There is a universal 'don't care' syntax in zig - the underscore.
+
+```zig
+fn foo(x: _) void {
+    // i don't care what the type is, just give me the value.
+}
+```
+
 https://github.com/ziglang/zig/issues/5893#issuecomment-660705883

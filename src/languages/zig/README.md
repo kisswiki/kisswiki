@@ -342,7 +342,7 @@ is the same as
 const foo = bar orelse unreachable;
 ```
 
-###
+### optional and result and void
 
 > [null] is **typically** used with optional types
 
@@ -372,6 +372,93 @@ a = 2 : 2
 a = undefined : -1431655766
 ```
 
+## slice
+
+You do not put underscore like `const hand1: [_]u8`. Underscore is for array to infer the size.
+
+```zig
+var cards = [8]u8{ 'A', '4', 'K', '8', '5', '2', 'Q', 'J' };
+
+// Please put the first 4 cards in hand1 and the rest in hand2.
+const hand1: []u8 = cards[0..4];
+
+fn printHand(hand: []u8) void {
+    for (hand) |h| {
+        std.debug.print("{u} ", .{h});
+    }
+}
+```
+
+## pointer vs slice
+
+```zig
+var foo: [4]u8 = [4]u8{ 1, 2, 3, 4 };
+var foo_slice: []u8 = foo[0..];
+var foo_ptr: [*]u8 = &foo;
+```
+
+pointer to multiple items is `[*]`. Why not `*[]`?
+
+- `*T` - single-item pointer to exactly one item.
+- `[*]T` - many-item pointer to unknown number of items.
+  - Similar to `*[N]T`, except `T` must have a known size, which means that it cannot be c_void or any other opaque type.
+- `*[N]T` - pointer to N items, same as single-item pointer to an array.
+
+https://ziglang.org/documentation/master/#Pointers
+
+```
+//     FREE ZIG POINTER CHEATSHEET! (Using u8 as the example type.)
+//   +---------------+----------------------------------------------+
+//   |  u8           |  one u8                                      |
+//   |  *u8          |  pointer to one u8                           |
+//   |  [2]u8        |  two u8s                                     |
+//   |  [*]u8        |  pointer to unknown number of u8s            |
+//   |  [2]const u8  |  two immutable u8s                           |
+//   |  [*]const u8  |  pointer to unknown number of immutable u8s  |
+//   |  *[2]u8       |  pointer to an array of 2 u8s                |
+//   |  *const [2]u8 |  pointer to an immutable array of 2 u8s      |
+//   |  []u8         |  slice of u8s                                |
+//   |  []const u8   |  slice of immutable u8s                      |
+//   +---------------+----------------------------------------------+
+```
+
+## string
+
+```zig
+const zen12: *const [21]u8 = "Memory is a resource.";
+//
+//   It would also have been valid to coerce to a slice:
+//         const zen12: []const u8 = "...";
+```
+
+## tagged union
+
+Enum can be infered. Instead of this
+
+```zig
+const InsectStat = enum { flowers_visited, still_alive };
+
+const Insect = union(InsectStat) {
+    flowers_visited: u16,
+    still_alive: bool,
+};
+```
+
+we can right this
+
+```zig
+const Insect = union(enum) {
+    flowers_visited: u16,
+    still_alive: bool,
+};
+```
+
+Also in official documentation there is no mention that in switch we don't have to use `Enum.field` to match, just `.field`.
+
 ## operations on string
 
 - https://zigforum.org/t/strings-in-zig-what-do-i-miss/188/6
+
+```
+
+```
