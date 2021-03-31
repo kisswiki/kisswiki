@@ -18,6 +18,8 @@
 - [https://www.google.com/search?client=firefox-b-d&q=integer+division+overflow](integer division overflow - Google Search)
 - [https://stackoverflow.com/questions/30394086/integer-division-overflows](c++ - Integer division overflows - Stack Overflow)
 - [https://levelup.gitconnected.com/c-vs-zig-template-based-programming-d3e248885aa](C++ vs Zig Template Based Programming | by Erik Engheim | Level Up Coding)
+- https://web.archive.org/web/20210316230834if_/https://levelup.gitconnected.com/c-vs-zig-template-based-programming-d3e248885aa?gi=7a25d503b34f
+- https://web.archive.org/web/20210301143402/https://medium.com/swlh/zig-the-introduction-dcd173a86975
 - [https://www.mdeditor.tw/pl/pgts](Programming languages [Thoughts on Zig]\_Lobsters - MdEditor)
 - [https://www.mdeditor.tw/pl/p3l0](Learning Rust: Mindsets and Expectations\*Lobsters - MdEditor)
 - [https://thume.ca/2019/07/14/a-tour-of-metaprogramming-models-for-generics/](Models of Generics and Metaprogramming: Go, Rust, Swift, D and More - Tristan Hume)
