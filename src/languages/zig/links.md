@@ -401,3 +401,4 @@
 - [https://vimeo.com/524007646](Zig ⚡ Pair Programming with Loris ⚡ Transitioning Redis to Zig ⚡ Part 3 on Vimeo)
 - [https://vimeo.com/521627209](Zig ⚡ Pair Programming with Loris ⚡ Transitioning Redis to Zig ⚡ Part 2 on Vimeo)
 - [https://vimeo.com/519725401](Zig ⚡ Pair Programming with Loris ⚡ Transitioning Redis to Zig ⚡ Part 1 on Vimeo)
+- [zkg: un unofficial package manager](https://youtu.be/1yiCgMHDu4k)
