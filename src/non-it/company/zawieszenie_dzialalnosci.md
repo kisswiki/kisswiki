@@ -1,3 +1,7 @@
+## https://biznes.gov.pl
+
+## ceidg
+
 1. Logowanie na https://ceidg.gov.pl przez epuap. kod na sms przychodzi.
 2. Data powstania zmiany 2019-09-30
 3. Data złożenia wniosku 2019-09-30
