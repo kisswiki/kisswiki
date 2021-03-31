@@ -14,6 +14,7 @@
 - https://kristoff.it/blog/zig-new-relationship-llvm/
   - https://www.reddit.com/r/programming/comments/j1azlo/zigs_new_relationship_with_llvm/
 - https://kristoff.it/blog/what-is-zig-comptime/
+- https://nelari.us/post/raytracer_with_rust_and_zig/
 
 ## News sources
 
@@ -123,10 +124,10 @@
 
 ### Other
 
-- https://nelari.us/post/raytracer_with_rust_and_zig/
 - https://code.golf/
 - [Code Golf now supports Zig : Zig](https://www.reddit.com/r/Zig/comments/jhdp47/code_golf_now_supports_zig/)
 - Leaderboard https://code.golf/scores/all-holes/zig/chars
+- https://github.com/kanaka/mal/blob/master/impls/zig
 
 ## Async
 
