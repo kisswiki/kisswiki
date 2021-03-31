@@ -47,6 +47,9 @@
 - https://github.com/slashlostfound/HelloWorld/blob/master/hello.zig
 - https://rosettacode.org/wiki/Category:Zig
 - https://github.com/mlarouche/ZigWwiseDemo - A elaborate sample on how to use Dear IMGUI, Win32, Direct3D 11 and Audiokinetic Wwise in Zig. Done for a presentation to showcase Zig for coworkers.
+- https://github.com/benhoyt/countwords/blob/master/simple.zig
+  - https://benhoyt.com/writings/count-words/
+  - https://zigforum.org/t/intro-how-did-you-discover-zig/41/44
 
 ## Package managers
 
@@ -61,6 +64,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 ```
 
 - https://github.com/mattnite/gyro - formely zkg
+  - https://astrolabe.pm/ - zig packages
   - [zkg: un unofficial package manager](https://youtu.be/1yiCgMHDu4k)
   - Used by https://github.com/truemedian/zfetch
   - [Weaning Zig off of git submodules 1: Intro - DEV Community](https://dev.to/mattnite/weaning-zig-off-of-git-submodules-1-3jen)
@@ -75,7 +79,6 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://github.com/ziglibs
   - https://github.com/ziglibs/repository
 - [Issues · zigforum/needed-libraries](https://github.com/zigforum/needed-libraries/issues)
-- https://astrolabe.pm/ - zig packages
 - https://github.com/marler8997/zog - Some zig libraries
 - https://github.com/zigtools
 - https://github.com/zigtools/zpm-server - Open API Server providing a filterable list of curated Zig packages
