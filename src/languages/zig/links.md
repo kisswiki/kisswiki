@@ -39,7 +39,6 @@
 - [https://lwn.net/Articles/833400/](Zig heading toward a self-hosting compiler [LWN.net])
 - [https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html](`zig cc`: a Powerful Drop-In Replacement for GCC/Clang - Andrew Kelley)
 - [https://www.google.com/search?q=andrew+kelley+zig+linkedin&client=firefox-b-d&sxsrf=ALeKk02kuhQ9S-9Nxu07P8tBTY5CG_aa_Q:1616893222870&ei=JtVfYLqxNIqwrgTh3obgAg&start=20&sa=N&ved=2ahUKEwi63MDR5NHvAhUKmIsKHWGvASwQ8NMDegQIARBE&biw=1314&bih=864](andrew kelley zig linkedin - Google Search)
-- [https://twitter.com/andy_kelley?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor](Andrew Kelley (@andy_kelley) / Twitter)
 - [https://dev.to/hanna/why-you-should-learn-zig-329a](Why you should learn Zig - DEV Community)
 - [https://redislabs.com/blog/write-redis-module-zig/](How to Write a Redis Module in Zig | Redis Labs)
 - [https://www.youtube.com/watch?v=pq1XqP4-qOo&t=929s]((1239) 2021: Year of the Linux Gaming Desktop - Andrew Kelley - YouTube)
