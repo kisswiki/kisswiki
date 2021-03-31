@@ -17,9 +17,9 @@ zig build-exe src/main.zig
 ```bash
 cargo install watchexec
 # on windows
-watchexec -e zig -w src/main.zig 'zig build-exe src/main.zig && main'
+watchexec  -w src/main.zig -i zig-cache -e zig'zig build-exe src/main.zig && main'
 # on linux
-watchexec -e zig -w src/main.zig 'zig build-exe src/main.zig && ./main'
+watchexec  -w src/main.zig -i zig-cache -e zig 'zig build-exe src/main.zig && ./main'
 ```
 
 ## syntax
