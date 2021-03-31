@@ -65,7 +65,7 @@
 - [https://github.com/ratfactor/ziglings](ratfactor/ziglings: Learn the Zig programming language by fixing tiny broken programs.)
 - [https://www.youtube.com/watch?v=ghYEiGXxiGk]((1244) Ziglings! Playing with Zig ⚡ - YouTube)
 - [https://news.ycombinator.com/item?id=26125063&fbclid=IwAR2mj8KxSV7r_7PloM8EED3qxKwR7mWqqpFmUF4RyDyxSzh0xG3t8eVS3zs](Ziglings: Learn the Zig programming language by fixing tiny broken programs | Hacker News)
-- [https://github.com/nrdmn/awesome-zig](nrdmn/awesome-zig)
+- https://github.com/nrdmn/awesome-zig
 - [https://github1s.com/Vexu/routez/blob/HEAD/src/routez/http/request.zig](request.zig - Vexu/routez - GitHub1s)
 - [https://routez.vexu.eu/](Routez!)
 - [https://nelari.us/post/raytracer_with_rust_and_zig/](Writing a small ray tracer in Rust and Zig // My thought repository)
