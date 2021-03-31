@@ -1,3 +1,5 @@
+- https://github.com/nrdmn/awesome-zig
+
 ## Learn
 
 - https://ziglang.org/learn/
@@ -15,6 +17,7 @@
   - https://www.reddit.com/r/programming/comments/j1azlo/zigs_new_relationship_with_llvm/
 - https://kristoff.it/blog/what-is-zig-comptime/
 - https://nelari.us/post/raytracer_with_rust_and_zig/
+- https://gist.github.com/LewisGaul/d5b303da9c03bf95f778c64e12ef1c5e - Collection of blog posts about the Zig programming language
 
 ## News sources
 
@@ -24,7 +27,6 @@
 - https://stackoverflow.com/questions/tagged/zig
 - https://zig.show/
 - https://dev.to/t/zig
-- https://github.com/nrdmn/awesome-zig
 - https://andrewkelley.me/
 - [Andrew Kelley - YouTube](https://www.youtube.com/channel/UCUICU6mgcyGy61pojwuWyHA)
   - [2021: Year of the Linux Gaming Desktop - Andrew Kelley - YouTube](https://www.youtube.com/watch?v=pq1XqP4-qOo)
@@ -102,6 +104,7 @@
 ### Euler
 
 - https://github.com/bondrewd/euler
+- https://github.com/Sobeston/euler
 
 ### Advent of Code
 
@@ -168,6 +171,8 @@
   - https://www.reddit.com/r/Zig/comments/ju1hud/requestz_http_client_for_zig/
 - https://www.reddit.com/r/Zig/comments/it8h92/any_workable_http_clients_or_working_examples/
 - https://github.com/frmdstryr/zhp - A Http server written in Zig
+- https://github.com/Sobeston/zigcord - A discord library in zig.
+- https://github.com/Sobeston/html-tree - A small zig library for writing trees of html
 
 ## Security
 
@@ -226,6 +231,7 @@
 - https://codelv.com/blog/2020/5/using-zig-and-the-stm32h7-to-drive-stepper-motors
   - https://www.reddit.com/r/Zig/comments/maq23d/using_zig_and_the_stm32h7_to_drive_stepper_motors/
 - https://www.reddit.com/r/rust/comments/aq473x/moving_to_zig_from_rust_for_arm_development/
+- https://ziglaunch.org/posts/cross-compiled-freestanding-library-for-cortex-m4/
 
 ## Allocator
 
