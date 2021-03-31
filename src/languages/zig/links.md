@@ -218,7 +218,8 @@
 - https://github.com/zenith391/didot - Zig 3D game engine.
 - https://www.reddit.com/r/Zig/comments/ivp9i1/3d_game_engine_in_zig/
 - https://dev.to/fabioarnold/setup-zig-for-gamedev-2bmf
-- [Futureproof - Live editor for GPU shaders, built on Zig, Neovim, and WebGPU. : Zig](https://www.reddit.com/r/Zig/comments/kmc93b/futureproof_live_editor_for_gpu_shaders_built_on/)
+- https://github.com/mkeeter/futureproof
+  - [Futureproof - Live editor for GPU shaders, built on Zig, Neovim, and WebGPU. : Zig](https://www.reddit.com/r/Zig/comments/kmc93b/futureproof_live_editor_for_gpu_shaders_built_on/)
 - https://github.com/ysgard/sprite-blitting-zig - Sprite blitting example using SDL2 and Zig
 - https://github.com/Iridescence-Technologies/zglfw - A thin, idiomatic wrapper for GLFW. Written in Zig, for Zig!
 
