@@ -342,6 +342,36 @@ is the same as
 const foo = bar orelse unreachable;
 ```
 
+###
+
+> [null] is **typically** used with optional types
+
+optional: null?value
+
+result: error<err>!value
+
+result is tagged union. Similar to optional but error wraps err.
+
+```zig
+var foo: void = {};
+```
+
+assign empty expression to variable of type void
+
+```zig
+var a: i32 = 2;
+print("a = 2 : {}\n", .{a});
+a = undefined;
+print("a = undefined : {}\n", .{a});
+```
+
+prints:
+
+```
+a = 2 : 2
+a = undefined : -1431655766
+```
+
 ## operations on string
 
 - https://zigforum.org/t/strings-in-zig-what-do-i-miss/188/6

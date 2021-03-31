@@ -255,7 +255,6 @@
 - [https://zigforum.org/top](Top topics - The Zig Programming Language Forum)
 - [https://zigforum.org/t/strings-in-zig-what-do-i-miss/188/20]((2) Strings in Zig: What do I miss? - Usage - The Zig Programming Language Forum)
 - [https://ziglang.org/documentation/master/std/#std;mem](std.mem - Zig)
-- [https://play.golang.org/p/-pYMTLSiudw](The Go Playground)
 - [https://github.com/JuliaStrings/utf8proc](JuliaStrings/utf8proc: a clean C library for processing UTF-8 Unicode data)
 - [https://www.youtube.com/watch?v=Px8rVB3ZpKA&t=83s]((1251) Bork low effort demo lol - YouTube)
 - [https://github.com/kristoff-it/bork](kristoff-it/bork)
