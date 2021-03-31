@@ -46,7 +46,7 @@
 - https://rosettacode.org/wiki/Category:Zig
 - https://github.com/mlarouche/ZigWwiseDemo - A elaborate sample on how to use Dear IMGUI, Win32, Direct3D 11 and Audiokinetic Wwise in Zig. Done for a presentation to showcase Zig for coworkers.
 
-## package managers
+## Package managers
 
 - https://github.com/zigtools/zpm - Express shipping for your Zig packages!
 - [zkg: un unofficial package manager](https://youtu.be/1yiCgMHDu4k)
@@ -55,7 +55,7 @@
 - https://www.reddit.com/r/Zig/comments/a4cbeh/some_thoughts_after_intense_zig_sprints/
 - [Weaning Zig off of git submodules 1: Intro - DEV Community](https://dev.to/mattnite/weaning-zig-off-of-git-submodules-1-3jen)
 
-## packages and libs
+## Packages and libs
 
 - https://astrolabe.pm/ - zig packages
 - https://github.com/marler8997/zog - Some zig libraries
@@ -381,3 +381,5 @@
 - [Zig ⚡ Pair Programming with Loris ⚡ Transitioning Redis to Zig ⚡ Part 3 on Vimeo](https://vimeo.com/524007646)
 - [Zig ⚡ Pair Programming with Loris ⚡ Transitioning Redis to Zig ⚡ Part 2 on Vimeo](https://vimeo.com/521627209)
 - [Zig ⚡ Pair Programming with Loris ⚡ Transitioning Redis to Zig ⚡ Part 1 on Vimeo](https://vimeo.com/519725401)
+- That article was the main inspiration for Zig's cache system https://github.com/ziglang/zig/issues/6082#issuecomment-675646147
+  - https://apenwarr.ca/log/20181113
