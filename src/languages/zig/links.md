@@ -17,9 +17,10 @@
 
 ## News sources
 
+- https://www.reddit.com/r/Zig
+- https://zigforum.org
 - https://github.com/topics/zig-lang
 - https://stackoverflow.com/questions/tagged/zig
-- https://www.reddit.com/r/Zig/top/?t=year
 - https://zig.show/
 - https://dev.to/t/zig
 - https://github.com/nrdmn/awesome-zig
@@ -227,6 +228,8 @@
 
 ## Allocator
 
+- https://ziglang.org/documentation/master/#Choosing-an-Allocator
+- [What's a Memory Allocator Anyway? - Benjamin Feng](https://www.youtube.com/watch?v=vHWiDx_l4V0)
 - https://github.com/fengb/zee_alloc - tiny Zig allocator primarily targeting WebAssembly
 - https://stackoverflow.com/questions/64301274/allocating-a-generic-struct-in-zig-lang
 - https://github.com/andrewrk/zig-general-purpose-allocator - work-in-progress general purpose allocator intended to be eventually merged into Zig standard library. live streamed development
