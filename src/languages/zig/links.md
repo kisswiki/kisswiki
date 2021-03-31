@@ -8,10 +8,11 @@
   - [zig/fmt.zig at master · ziglang/zig](https://github.com/ziglang/zig/blob/9f01598a498ecbd868cb81dc1efdb1507010c1b8/lib/std/fmt.zig#L55)
 - [Learning Zig - first hour...](http://ciesie.com/post/zig_learning_01/)
 - https://ziglang.org/documentation/master/#Generic-Data-Structures
+- https://github.com/Sobeston/ziglearn
+  - [White background theme · Issue #97 · Sobeston/ziglearn](https://github.com/Sobeston/ziglearn/issues/97)
 - https://andrewkelley.me/post/intro-to-zig.html
   - https://www.reddit.com/r/programming/comments/44skm2/introducing_the_zig_programming_language/
 - https://andrewkelley.me/post/zig-programming-language-blurs-line-compile-time-run-time.html
-- https://github.com/Sobeston/ziglearn
 - https://dev.to/stein/a-surprisingly-capable-rpn-calculator-in-about-100-lines-of-zig-code-3bf1
 - https://kristoff.it/blog/zig-new-relationship-llvm/
   - https://www.reddit.com/r/programming/comments/j1azlo/zigs_new_relationship_with_llvm/
@@ -58,6 +59,7 @@
 
 ## Packages and libs
 
+- [Issues · zigforum/needed-libraries](https://github.com/zigforum/needed-libraries/issues)
 - https://astrolabe.pm/ - zig packages
 - https://github.com/marler8997/zog - Some zig libraries
 - https://github.com/ziglibs
@@ -111,8 +113,9 @@
 ### Advent of Code
 
 - https://github.com/fyrchik/aoc2020zig
-- https://code.ur.gs/lupine/aoc2019
 - https://github.com/SpexGuy/AoC-2020
+  https://github.com/zigster64/advent_of_code2020
+- https://code.ur.gs/lupine/aoc2019
 - https://github.com/rkallos/aoc2018
 - https://github.com/Hejsil/advent-of-code-2018
 - https://github.com/katafrakt/advent_of_code_2019/tree/master/04%20%5BZig%5D
@@ -143,6 +146,7 @@
 
 ## Web and HTTP
 
+- https://github.com/zigforum/needed-libraries/issues/3
 - https://github.com/Vexu/routez
 - [Zig and Full stack web development · Issue #942 · ziglang/zig](https://github.com/ziglang/zig/issues/942)
 - [http server in zig? : Zig](https://www.reddit.com/r/Zig/comments/bdp2ym/http_server_in_zig/)
