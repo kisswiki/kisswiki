@@ -1,2 +1,0 @@
-- https://github.com/markfirmware/zig-bare-metal-microbit
-  - https://www.reddit.com/r/Zig/comments/ejsi4d/zigmicrobit_now_in_service_to_model_railroad/

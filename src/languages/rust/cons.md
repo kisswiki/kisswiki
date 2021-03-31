@@ -1,7 +1,9 @@
->You can obtain similar quality in a C modern code-base, using tools like static and dynamic analyzers. In fact, today the hardest issues came from multi-threading. I won't even dare to write multi-threading apps without helgrind/TSAN.
-And Rust doesn't help in this regard. From: https://doc.rust-lang.org/nomicon/races.html 'So it's perfectly "fine" for a Safe Rust program to get deadlocked or do something incredibly stupid with incorrect synchronization.'
+- [Rust is a hard way to make a web API - macwright.com](https://macwright.com/2021/01/15/rust.html)
+
+> You can obtain similar quality in a C modern code-base, using tools like static and dynamic analyzers. In fact, today the hardest issues came from multi-threading. I won't even dare to write multi-threading apps without helgrind/TSAN.
+> And Rust doesn't help in this regard. From: https://doc.rust-lang.org/nomicon/races.html 'So it's perfectly "fine" for a Safe Rust program to get deadlocked or do something incredibly stupid with incorrect synchronization.'
 >
->-- https://news.ycombinator.com/item?id=13317147
+> -- https://news.ycombinator.com/item?id=13317147
 
 ##
 
@@ -21,13 +23,14 @@ https://news.ycombinator.com/item?id=15051940
 ##
 
 I like Rust so far, but there's a few things I think aren't true:
-* That Rust is only harder because it enforces 'correctness.' It certainly is harder because it enforces correctness, but it's also harder because of how. I'm not saying there's a better approach to this, but I think a lot of people are implying that there isn't, and I don't think that's a safe assumption. I think that we could find ways to make equally memory-safe languages that go about enforcing safety in entirely different manners than with ownership and lifetime semantics.
 
-* In fact, the entire idea that Rust enforces correctness. Only if your definition of 'correctness' to be memory-safety, but I would normally define 'correctness' to include rigorous mathematical proofs. Rust's safety guarantees are often accidentally blown out of proportion; they mainly aid in preventing security and concurrency bugs, but only a certain class of each. This is still useful, but this caveat really needs to be in your face more often, as a lot of people will not mention it when touting the benefits of Rust, and beginners can get easily confused about what exactly Rust prevents you from doing.
+- That Rust is only harder because it enforces 'correctness.' It certainly is harder because it enforces correctness, but it's also harder because of how. I'm not saying there's a better approach to this, but I think a lot of people are implying that there isn't, and I don't think that's a safe assumption. I think that we could find ways to make equally memory-safe languages that go about enforcing safety in entirely different manners than with ownership and lifetime semantics.
 
-* The idea that Rust's approach is always worth the trade-offs. Go is another programming language I like, and there are definitely things that are simply easier to write in Go with few disadvantages. Fearless concurrency is a wonderful feature, but for embarrassingly parallel problems like, often, web servers, where each thread is usually independent in terms of mutable state, Go works wonderfully. It also lets you shoot yourself in the foot in a way that Rust wouldn't, but often for a lot of simpler apps it still ends up being easier.
+- In fact, the entire idea that Rust enforces correctness. Only if your definition of 'correctness' to be memory-safety, but I would normally define 'correctness' to include rigorous mathematical proofs. Rust's safety guarantees are often accidentally blown out of proportion; they mainly aid in preventing security and concurrency bugs, but only a certain class of each. This is still useful, but this caveat really needs to be in your face more often, as a lot of people will not mention it when touting the benefits of Rust, and beginners can get easily confused about what exactly Rust prevents you from doing.
 
-* The idea that solving the compiler errors makes you understand the problems correctly. For example, you could always just clone memory at every occasion, return the input instead of borrowing, etc. In fact, these things might be easier for a beginner to do. There will probably be a ton of Rust anti-patterns that come about from trying to resolve compiler errors.
+- The idea that Rust's approach is always worth the trade-offs. Go is another programming language I like, and there are definitely things that are simply easier to write in Go with few disadvantages. Fearless concurrency is a wonderful feature, but for embarrassingly parallel problems like, often, web servers, where each thread is usually independent in terms of mutable state, Go works wonderfully. It also lets you shoot yourself in the foot in a way that Rust wouldn't, but often for a lot of simpler apps it still ends up being easier.
+
+- The idea that solving the compiler errors makes you understand the problems correctly. For example, you could always just clone memory at every occasion, return the input instead of borrowing, etc. In fact, these things might be easier for a beginner to do. There will probably be a ton of Rust anti-patterns that come about from trying to resolve compiler errors.
 
 https://news.ycombinator.com/item?id=16202373
 
@@ -68,7 +71,6 @@ Yeah that’s very hard to answer cause it depends on what you mean by “new sy
 
 It’s hard to understand what constitutes new syntax to various people imo.
 
-
 H2CO3
 
 Tangential with regards to C++: I do think it’s a valid fear, because Rust recently kept picking up features quicker than C++ as far as I can tell, and I think this rate is going to lead to unsustainable growth. Yes, C++ has a 40-year-old baggage of backward compatibility. But it also started on top of a very small and consistent language (C wasn’t always as quirky and messy as it eventually became trying to support all the exotic, niche platforms of the 70s and 80s). And conversely, Rust also cares a lot about backwards compatibility. So I don’t think that we can just dismiss the issue with hubris and say “but we know better than those lowly C++ guys” :smile: – the issue is real.
@@ -103,7 +105,6 @@ Rust’s innovation here is that its state machines are value types- not even C+
 
 https://users.rust-lang.org/t/on-modern-programming-languages-and-growing-hardware-complexity/14208/44
 
-
 ##
 
 I was also able to complete the task in Rust. I really wanted to like Rust. Rust feels like all of the complexity and difficulty of C++, without much added benefit for simple programs.
@@ -114,7 +115,7 @@ Rust suffers from one of the Seven Deadly Sins. Pride. This manifests in one of 
 
 In the Rust documentation, they say:
 
->However, this system does have a certain cost: learning curve. Many new users to Rust experience something we like to call ‘fighting with the borrow checker’, where the Rust compiler refuses to compile a program that the author thinks is valid. This often happens because the programmer’s mental model of how ownership should work doesn’t match the actual rules that Rust implements. You probably will experience similar things at first. There is good news, however: more experienced Rust developers report that once they work with the rules of the ownership system for a period of time, they fight the borrow checker less and less.
+> However, this system does have a certain cost: learning curve. Many new users to Rust experience something we like to call ‘fighting with the borrow checker’, where the Rust compiler refuses to compile a program that the author thinks is valid. This often happens because the programmer’s mental model of how ownership should work doesn’t match the actual rules that Rust implements. You probably will experience similar things at first. There is good news, however: more experienced Rust developers report that once they work with the rules of the ownership system for a period of time, they fight the borrow checker less and less.
 
 If the language has the problem that people are fighting with the language in order to become productive with it, perhaps something is wrong with the language, and not the programmers? Instead, the Rust community continues to flaunt the correctness of their language — a valuable property, but without taking a step back and thinking that perhaps different defaults might make more sense.
 
@@ -152,7 +153,6 @@ I think to be clear, the concept of borrowing itself is very simple; it’s defi
 I’ve mentioned this elsewhere, but since it is relevant … I had a really hard time coming to terms with lifetimes as I was learning Rust. In fact, it is still my biggest pain point with the language. But I taught myself to get around it by writing a non-trivial project without using a single lifetime parameter. I also didn’t need Box, Rc, RefCell, or friends. But that’s because most of the code is stateless (which explains why it doesn’t need explicit lifetimes).
 
 IMHO, this is the best way to learn Rust. Doing things that require explicit lifetimes (like global state management or FFI) should come way, way, way later in the book.
-
 
 Lifetimes are part of the interface contract of a type or function, because they determine what data can be passed in to a function or inserted into objects of a certain type. In this sense they should be exposed by the language’s syntax. Otherwise, a modification of a type’s or function’s implementation could silently break code that uses it, a subtle compatibility bug which the design of Rust has taken great steps to avoid.
 
