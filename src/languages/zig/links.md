@@ -10,7 +10,7 @@
 - [https://stackoverflow.com/questions/tagged/zig](Highest Voted 'zig' Questions - Stack Overflow)
 - [https://stackoverflow.com/questions/62554187/struct-definition-with-var-instead-of-const-in-zig-language](struct definition with var instead of const in zig language - Stack Overflow)
 - [https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50](Zig in 30 minutes)
-- [https://news.ycombinator.com/item?id=25618302](Zig in 30 Minutes | Hacker News)
+- [https://news.ycombinator.com/item?id=25618302](Zig in 30 Minutes)
 - [https://www.reddit.com/r/programming/comments/kpirah/zig_in_30_minutes/](Zig in 30 minutes : programming)
 - [https://medium.com/swlh/zig-the-introduction-dcd173a86975](Understanding the Zig Programming Language | The Startup)
 - [https://erik-engheim.medium.com/is-zig-the-long-awaited-c-replacement-c8eeace1e692](Is Zig the Long Awaited C Replacement? | by Erik Engheim | Medium)
@@ -31,7 +31,7 @@
 - [https://andrewkelley.me/post/zig-programming-language-blurs-line-compile-time-run-time.html](Zig Programming Language Blurs the Line Between Compile-Time and Run-Time - Andrew Kelley)
 - [https://betterprogramming.pub/eight-big-ideas-from-eight-programming-languages-f3be5f6c9701](8 Big Ideas From 8 Programming Languages | by Erik Engheim | Better Programming)
 - [https://www.youtube.com/watch?v=Z4oYSByyRak]((1239) Zig: A programming language designed for robustness, optimality, and clarity – Andrew Kelley - YouTube)
-- [https://news.ycombinator.com/item?id=25797025](Why Zig when there is already C++, D, and Rust? | Hacker News)
+- [https://news.ycombinator.com/item?id=25797025](Why Zig when there is already C++, D, and Rust?)
 - [https://scattered-thoughts.net/writing/assorted-thoughts-on-zig-and-rust/](Assorted thoughts on zig (and rust))
 - [https://lwn.net/Articles/833400/](Zig heading toward a self-hosting compiler [LWN.net])
 - [https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html](`zig cc`: a Powerful Drop-In Replacement for GCC/Clang - Andrew Kelley)
@@ -44,7 +44,7 @@
 - [https://github.com/ziglang/zig/blob/9f01598a498ecbd868cb81dc1efdb1507010c1b8/lib/std/fmt.zig#L55](zig/fmt.zig at master · ziglang/zig)
 - [https://en.wikipedia.org/wiki/Zig*(programming*language)](Zig (programming language) - Wikipedia)
 - [https://sudonull.com/post/3683-Zig-programming-language](Zig programming language / Sudo Null IT News)
-- [https://news.ycombinator.com/item?id=18424471](I'm watching Zig and Jai closely. We need a better C and C++ isn't it. Good luck... | Hacker News)
+- [https://news.ycombinator.com/item?id=18424471](I'm watching Zig and Jai closely. We need a better C and C++ isn't it. Good luck...)
 - [https://stackoverflow.com/questions/61466724/generation-of-types-in-zig-zig-language](Generation of types in zig (zig language) - Stack Overflow)
 - [https://pl.qaz.wiki/wiki/Zig*(programming*language)](Zig (język programowania) - Zig (programming language) - qaz.wiki)
 - [https://www.reddit.com/r/C_Programming/comments/9bv2tx/what_do_c_programmers_think_of_the_zig_language/](What do C programmers think of the Zig language? : C_Programming)
@@ -59,12 +59,12 @@
 - [https://ziglearn.org/chapter-1/](Chapter 1 - Basics | ziglearn.org)
 - [https://ziglang.org/#Manual-memory-management](Home ⚡ Zig Programming Language)
 - [https://ziglang.org/documentation/master/#Memory](Documentation - The Zig Programming Language)
-- [https://github.com/ganderzz/zig-exercism](ganderzz/zig-exercism: Exercism Programming Exercises in Zig)
+- https://github.com/ganderzz/zig-exercism - Exercism Programming Exercises in Zig
 - https://github.com/nrdmn/awesome-zig
 - [https://github1s.com/Vexu/routez/blob/HEAD/src/routez/http/request.zig](request.zig - Vexu/routez - GitHub1s)
 - [https://routez.vexu.eu/](Routez!)
 - [https://nelari.us/post/raytracer_with_rust_and_zig/](Writing a small ray tracer in Rust and Zig // My thought repository)
-- [https://news.ycombinator.com/item?id=20325638](Writing a small ray tracer in Rust and Zig | Hacker News)
+- [https://news.ycombinator.com/item?id=20325638](Writing a small ray tracer in Rust and Zig)
 - [https://zig.show/newsletter/](Zig SHOWTIME)
 - [https://github.com/ziglang/zig/issues/942](Zig and Full stack web development · Issue #942 · ziglang/zig)
 - [https://www.reddit.com/r/Zig/comments/bdp2ym/http_server_in_zig/](http server in zig? : Zig)
@@ -76,25 +76,25 @@
 - [https://www.reddit.com/r/rust/comments/jekjeo/assorted_thoughts_on_zig_and_rust/](Assorted thoughts on zig (and rust) : rust)
 - [https://www.reddit.com/r/golang/comments/k948l5/zig_cc_cross_compiling_follows_the_same/](Zig CC Cross Compiling follows the same philosophy as Go : golang)
 - [http://dermetfan.net/posts/zig-with-c-web-servers.html](Trying Zig with C web servers - dermetfan)
-- [https://news.ycombinator.com/item?id=22203861](Odin seems rather similar to Zig: https://ziglang.org/ It would be interesting ... | Hacker News)
-- [https://news.ycombinator.com/item?id=24616069](I think Zig will reserve a few interesting surprises also in the webdev world, i... | Hacker News)
+- [https://news.ycombinator.com/item?id=22203861](Odin seems rather similar to Zig: https://ziglang.org/ It would be interesting ...)
+- [https://news.ycombinator.com/item?id=24616069](I think Zig will reserve a few interesting surprises also in the webdev world, i...)
 - [https://kristoff.it/blog/what-is-zig-comptime/](What is Zig's Comptime? | Loris Cro's Personal Blog)
 - [https://hacker-news.news/post/24615916](Zig's New Relationship with LLVM)
 - [https://github.com/ziglang/zig/issues/2007](http client in the standard library · Issue #2007 · ziglang/zig)
-- [https://github.com/ducdetronquito/http](ducdetronquito/http: HTTP core types for Zig 🦴)
+- https://github.com/ducdetronquito/http - HTTP core types for Zig 🦴
 - [https://github.com/ziglibs](ZigLibs)
 - [https://github.com/zigtools](ZigTools)
-- [https://github.com/zigtools/zpm-server](zigtools/zpm-server: Open API Server providing a filterable list of curated Zig packages)
-- [https://github.com/Vexu/zuri](Vexu/zuri: URI parser for Zig)
-- [https://github.com/ducdetronquito/h11](ducdetronquito/h11: I/O free HTTP/1.1 implementation for Zig 🦎)
-- [https://github.com/MasterQ32/zig-network](MasterQ32/zig-network: A smallest-common-subset of socket functions for crossplatform networking, TCP & UDP)
-- [https://github.com/marler8997/ziget](marler8997/ziget: Zig library/tool to request network assets)
-- [https://news.ycombinator.com/item?id=20116912](I like Zig, but it doesnt even have a HTTP client yet: https://github.com/zigla... | Hacker News)
+- https://github.com/zigtools/zpm-server - Open API Server providing a filterable list of curated Zig packages
+- https://github.com/Vexu/zuri - URI parser for Zig
+- https://github.com/ducdetronquito/h11 - I/O free HTTP/1.1 implementation for Zig 🦎
+- https://github.com/MasterQ32/zig-network - A smallest-common-subset of socket functions for crossplatform networking, TCP & UDP
+- https://github.com/marler8997/ziget - Zig library/tool to request network assets
+- [https://news.ycombinator.com/item?id=20116912](I like Zig, but it doesnt even have a HTTP client yet: https://github.com/zigla...)
 - [https://www.reddit.com/r/Zig/comments/gs064f/ziget_a_zig_http_client/](ziget: A Zig HTTP Client : Zig)
 - [https://www.reddit.com/r/Zig/comments/avgzcz/an_example_of_a_zig_tcp_client/](An example of a zig tcp client? : Zig)
-- [https://github.com/tiehuis/zig-nng-example](tiehuis/zig-nng-example: Example of using nanomsg-next-generation with Zig)
+- https://github.com/tiehuis/zig-nng-example - Example of using nanomsg-next-generation with Zig
 - [https://www.reddit.com/r/Zig/comments/ju1hud/requestz_http_client_for_zig/](Requestz - HTTP client for Zig : Zig)
-- [https://github.com/ducdetronquito/requestz](ducdetronquito/requestz: HTTP client for Zig 🦎)
+- https://github.com/ducdetronquito/requestz - HTTP client for Zig 🦎
 - [https://www.reddit.com/r/Zig/comments/ixwl3w/http_core_types_for_zig/](HTTP core types for Zig 🦴 : Zig)
 - [https://www.reddit.com/r/Zig/comments/mavl69/how_safe_is_zig/](How safe is Zig : Zig)
 - [https://www.reddit.com/r/Zig/comments/mc312h/a_better_c_benchmark/](A "Better C" Benchmark : Zig)
@@ -105,10 +105,10 @@
 - [https://g-w1.github.io/blog/zig/low-level/2021/03/15/elf-linux.html](Learning About ELF With Zig | g-w1’s Blog)
 - [https://www.reddit.com/r/Zig/comments/maq23d/using_zig_and_the_stm32h7_to_drive_stepper_motors/](Using Zig and the STM32H7 to drive stepper motors - Blog : Zig)
 - [https://codelv.com/blog/2020/5/using-zig-and-the-stm32h7-to-drive-stepper-motors](Using zig and the STM32H7 to drive stepper motors - Blog - Code LV)
-- [https://github.com/frmdstryr/zhp](frmdstryr/zhp: A Http server written in Zig)
-- [https://github.com/frmdstryr/zig-datetime](frmdstryr/zig-datetime: A date and time module for Zig)
-- [https://github.com/frmdstryr/zig-mimetypes](frmdstryr/zig-mimetypes: A mimetypes module for Zig)
-- [https://github.com/frmdstryr/zig-kiwi](frmdstryr/zig-kiwi: A cassowary constraint solver in zig)
+- https://github.com/frmdstryr/zhp - A Http server written in Zig
+- https://github.com/frmdstryr/zig-datetime - A date and time module for Zig
+- https://github.com/frmdstryr/zig-mimetypes - A mimetypes module for Zig
+- https://github.com/frmdstryr/zig-kiwi - A cassowary constraint solver in zig
 - [https://www.reddit.com/r/Zig/comments/it8h92/any_workable_http_clients_or_working_examples/](Any workable HTTP clients or working examples? : Zig)
 - [https://www.reddit.com/r/suckless/comments/mc824m/opinions_on_zig_is_it_suckless_what_about_other/](Opinions on Zig? Is it suckless? What about other languages? What does a language good for you? : suckless)
 - [https://www.reddit.com/r/programming/comments/44skm2/introducing_the_zig_programming_language/](Introducing the Zig Programming Language : programming)
@@ -125,7 +125,7 @@
 - [https://www.youtube.com/watch?v=Gv2I7qTux7g](The Road to Zig 1.0 - Andrew Kelley - YouTube)
 - [https://www.reddit.com/r/Zig/comments/c4yup3/andrew_kelley_why_im_donating_150month_10_of_my/](Andrew Kelley: Why I'm donating $150/month (10% of my income) to the musl libc project : Zig)
 - [https://andrewkelley.me/post/why-donating-to-musl-libc-project.html](Why I'm donating $150/month (10% of my income) to the musl libc project - Andrew Kelley)
-- [https://news.ycombinator.com/item?id=20268087](I'm donating $150/month to the musl libc project | Hacker News)
+- [https://news.ycombinator.com/item?id=20268087](I'm donating $150/month to the musl libc project)
 - [https://www.reddit.com/r/Zig/comments/ejsi4d/zigmicrobit_now_in_service_to_model_railroad/](zig/microbit now in service to model railroad : Zig)
 - [https://www.reddit.com/r/rust/comments/kyb7si/rust_is_a_hard_way_to_make_a_web_api/](Rust is a hard way to make a web API : rust)
 - [https://andrewkelley.me/post/full-time-zig.html](I Quit My Cushy Job at OkCupid to Live on Donations to Zig - Andrew Kelley)
@@ -135,72 +135,67 @@
 - [https://github.com/ifreund/river/graphs/contributors](Contributors to ifreund/river)
 - [https://github.com/ziglang/zig-spec/blob/master/grammar/tests/syntax.zig](zig-spec/syntax.zig at master · ziglang/zig-spec)
 - [https://github.com/ifreund/dotfiles/tree/trunk/config/weechat](dotfiles/config/weechat at trunk · ifreund/dotfiles)
-- [https://github.com/zig-community/user-map](zig-community/user-map: A second attempt on documenting where the ziguanas of the world live)
+- https://github.com/zig-community/user-map - A second attempt on documenting where the ziguanas of the world live
 - [https://usermap.random-projects.net/](Zig User Map)
-- [https://github.com/lithdew/pike](lithdew/pike: Async I/O for Zig)
+- https://github.com/lithdew/pike - Async I/O for Zig
 - [https://github.com/lithdew/hyperia/blob/master/build.zig](hyperia/build.zig at master · lithdew/hyperia)
-- [https://github.com/kprotty/zap](kprotty/zap: An asynchronous runtime with a focus on performance and resource efficiency.)
-- [https://github.com/lithdew/snow](lithdew/snow: A small, fast, cross-platform, async Zig networking framework built on top of lithdew/pike.)
-- [https://github.com/Hejsil/mecha](Hejsil/mecha: A parser combinator library for Zig)
-- [https://github.com/mattnite/gyro](mattnite/gyro: A zig package manager with an index, build runner, and build dependencies)
+- https://github.com/kprotty/zap - An asynchronous runtime with a focus on performance and resource efficiency.
+- https://github.com/lithdew/snow - A small, fast, cross-platform, async Zig networking framework built on top of lithdew/pike.
+- https://github.com/Hejsil/mecha - A parser combinator library for Zig
+- https://github.com/mattnite/gyro - A zig package manager with an index, build runner, and build dependencies
 - [https://astrolabe.pm/](zig packages)
-- [https://github.com/Hejsil/zig-clap](Hejsil/zig-clap: Simple command line argument parsing library)
+- https://github.com/Hejsil/zig-clap - Simple command line argument parsing library
 - [https://github.com/truemedian/hzzp](truemedian/hzzp)
 - [https://github.com/truemedian/zfetch](truemedian/zfetch)
-- [https://github.com/alexnask/iguanaTLS](alexnask/iguanaTLS: Minimal, experimental TLS 1.2 implementation in Zig)
-- [https://github.com/alexnask/interface.zig](alexnask/interface.zig: Dynamic dispatch for zig made easy)
-- [https://github.com/alexnask/PeerType](alexnask/PeerType: Zig peer type resolution at comptime, ported from the compiler source code)
-- [https://github.com/alexnask/ctregex.zig](alexnask/ctregex.zig: Compile time regular expressions in zig)
-- [https://github.com/Luukdegram/juicebox](Luukdegram/juicebox: Tiled Window Manager written in Zig)
+- https://github.com/alexnask/iguanaTLS - Minimal, experimental TLS 1.2 implementation in Zig
+- https://github.com/alexnask/interface.zig - Dynamic dispatch for zig made easy
+- https://github.com/alexnask/PeerType - Zig peer type resolution at comptime, ported from the compiler source code
+- https://github.com/alexnask/ctregex.zig - Compile time regular expressions in zig
+- https://github.com/Luukdegram/juicebox - Tiled Window Manager written in Zig
 - [https://github.com/fengb/zigbot9001/tree/master/lib](zigbot9001/lib at master · fengb/zigbot9001)
 - https://github.com/truemedian/wz/
 - https://github.com/MasterQ32/zig-bearssl/
-- [https://github.com/alexnask/analysis-buddy/blob/master/src/main.zig](analysis-buddy/main.zig at master · alexnask/analysis-buddy)
-- [https://github.com/prime31/zig-upaya](prime31/zig-upaya: Zig-based framework for creating game tools and helper apps)
-- [https://github.com/Sobeston/ziglearn](Sobeston/ziglearn: Repo for https://ziglearn.org content. Get up to speed with Zig quickly.)
-- [https://github.com/haze/zirconium/blob/main/src/main.zig](zirconium/main.zig at main · haze/zirconium)
-- [https://github.com/alexnask/lepto.zig](alexnask/lepto.zig: Date and time library for zig, inspired by C++20 std::chrono)
-- [https://github.com/zigtools/zpm](zigtools/zpm: Express shipping for your Zig packages!)
+- https://github.com/alexnask/analysis-buddy
+- https://github.com/Sobeston/ziglearn
+- https://github.com/haze/zirconium
+- https://github.com/alexnask/lepto.zig - Date and time library for zig, inspired by C++20 std::chrono
+- https://github.com/zigtools/zpm - Express shipping for your Zig packages!
 - [https://github.com/topics/zig-package?o=desc&s=stars](zig-package · GitHub Topics)
-- [https://github.com/MasterQ32/zig-args](MasterQ32/zig-args: Simple-to-use argument parser with struct-based config)
-- [https://github.com/Iridescence-Technologies/zglfw](Iridescence-Technologies/zglfw: A thin, idiomatic wrapper for GLFW. Written in Zig, for Zig!)
-- [https://github.com/ziglibs/zlm](ziglibs/zlm: Zig linear mathemathics)
-- [https://github.com/lun-4/zigdig](lun-4/zigdig: naive dns client library in zig)
-- [https://github.com/zigimg/zigimg](zigimg/zigimg: Zig library for reading and writing different image formats)
-- [https://github.com/mlarouche/stringtime](mlarouche/stringtime: String template engine for Zig.)
-- [https://github.com/mlarouche/ZigWwiseDemo](mlarouche/ZigWwiseDemo: A elaborate sample on how to use Dear IMGUI, Win32, Direct3D 11 and Audiokinetic Wwise in Zig. Done for a presentation to showcase Zig for coworkers.)
-- [https://github.com/tralamazza/embedded_zig](tralamazza/embedded_zig: minimal Zig embedded ARM example (STM32F103 blue pill))
+- https://github.com/MasterQ32/zig-args - Simple-to-use argument parser with struct-based config
+- https://github.com/Iridescence-Technologies/zglfw - A thin, idiomatic wrapper for GLFW. Written in Zig, for Zig!
+- https://github.com/ziglibs/zlm - Zig linear mathemathics
+- https://github.com/lun-4/zigdig - naive dns client library in zig
+- https://github.com/zigimg/zigimg - Zig library for reading and writing different image formats
+- https://github.com/mlarouche/stringtime - String template engine for Zig.
+- https://github.com/mlarouche/ZigWwiseDemo - A elaborate sample on how to use Dear IMGUI, Win32, Direct3D 11 and Audiokinetic Wwise in Zig. Done for a presentation to showcase Zig for coworkers.
+- https://github.com/tralamazza/embedded_zig - minimal Zig embedded ARM example (STM32F103 blue pill)
 - [https://www.reddit.com/r/Zig/comments/l8ii2s/zig_for_embedded/](zig for embedded : Zig)
 - [https://lists.sr.ht/~andrewrk/ziglang/%3CCAOM9R7L1YuEOBcnH9u2NRnDRw0UFzydhv-9E%3DB0m7JBKnpAo9A%40mail.gmail.com%3E](Using Zig in deep embedded development (ARM Cortex-M) — sourcehut lists)
-- [https://news.ycombinator.com/item?id=17190125](I experimented with Zig for embedded programming. The language is very promising... | Hacker News)
+- [https://news.ycombinator.com/item?id=17190125](I experimented with Zig for embedded programming. The language is very promising...)
 - [https://itscomputersciencetime.netlify.app/zig-thoughts/](itscomputersciencetime - Zig Thoughts)
 - [https://www.reddit.com/r/Zig/comments/bd30kw/build_system/](build system : Zig)
 - [https://www.gingerbill.org/article/2019/05/13/a-reply-to-the-road-to-zig/](A Reply to \_The Road to Zig 1.0\* - gingerBill)
-- [https://news.ycombinator.com/item?id=18604008](The more I see of the Zig language, the more I grow to appreciate its beautiful ... | Hacker News)
-- [https://news.ycombinator.com/threads?id=AndyKelley](AndyKelley's comments | Hacker News)
+- [https://news.ycombinator.com/item?id=18604008](The more I see of the Zig language, the more I grow to appreciate its beautiful ...)
+- [https://news.ycombinator.com/threads?id=AndyKelley](AndyKelley's comments)
 - [https://zserge.com/posts/better-c-benchmark/](A "Better C" Benchmark)
 - [https://github.com/zserge/glob-grep/blob/master/cxx/glob.cc](glob-grep/glob.cc at master · zserge/glob-grep)
-- [https://news.ycombinator.com/item?id=18608547](Zig doesn't force you to free all your memory (which occasionally good), so ther... | Hacker News)
+- [https://news.ycombinator.com/item?id=18608547](Zig doesn't force you to free all your memory (which occasionally good), so ther...)
 - [https://ziglang.org/documentation/master/#Generic-Data-Structures](Documentation - The Zig Programming Language)
-- [https://github.com/ziglang/zig/pull/8381](Docs clarification: local static variable by rofrol · Pull Request #8381 · ziglang/zig)
-- [https://github.com/fengb/zee_alloc](fengb/zee_alloc: tiny Zig allocator primarily targeting WebAssembly)
+- https://github.com/fengb/zee_alloc - tiny Zig allocator primarily targeting WebAssembly
 - [https://stackoverflow.com/questions/64301274/allocating-a-generic-struct-in-zig-lang](allocator - Allocating a generic struct in Zig lang - Stack Overflow)
 - [http://ciesie.com/post/zig_learning_01/](Learning Zig - first hour...)
 - [https://dev.to/pmalhaire/ziglang-first-contact-with-memory-safety-and-simplicity-83p](Have you ever tried Zig ? - DEV Community)
-- [https://news.ycombinator.com/item?id=21749220](Also worth noting that this is one thing Zig seems to have gotten quite right al... | Hacker News)
+- [https://news.ycombinator.com/item?id=21749220](Also worth noting that this is one thing Zig seems to have gotten quite right al...)
 - [https://users.rust-lang.org/t/is-there-zig-lang-type-memory-management-in-our-rust-lang/49929](Is there Zig lang type memory management in our Rust lang - help - The Rust Programming Language Forum)
-- [https://github.com/andrewrk/zig-general-purpose-allocator](andrewrk/zig-general-purpose-allocator: work-in-progress general purpose allocator intended to be eventually merged into Zig standard library. live streamed development)
-- [https://github.com/dbandstra/zig-hunk](dbandstra/zig-hunk: Basic stack allocator for Zig)
+- https://github.com/andrewrk/zig-general-purpose-allocator - work-in-progress general purpose allocator intended to be eventually merged into Zig standard library. live streamed development
+- https://github.com/dbandstra/zig-hunk - Basic stack allocator for Zig
 - [https://stackoverflow.com/questions/61134368/mutating-a-value-in-an-array-list-in-zig](arraylist - Mutating a value in an array list in Zig - Stack Overflow)
 - [https://stackoverflow.com/questions/65480923/how-to-avoid-memory-leaks-when-building-a-slice-of-slices-using-arraylists](zig - How to avoid memory leaks when building a slice of slices using ArrayLists - Stack Overflow)
 - [https://www.reddit.com/r/Zig/comments/fo7rcz/freeing_and_passing_arraylist/](Freeing and passing ArrayList : Zig)
 - [https://dev.to/stein/zig-dangers-confusions-and-annoyances-280h](Zig first impressions - DEV Community)
 - [https://www.javaer101.com/en/article/39247759.html](Mutating a value in an array list in Zig - Javaer101)
-- [https://news.ycombinator.com/item?id=18025286](> There's no need for uncertainty about what Zig is going for. Rust code blows u... | Hacker News)
-- [https://github.com/ziglang/zig/pull/8381/files](Docs clarification: local static variable by rofrol · Pull Request #8381 · ziglang/zig)
+- [https://news.ycombinator.com/item?id=18025286](> There's no need for uncertainty about what Zig is going for. Rust code blows u...)
 - [https://ziglang.org/documentation/master/#Global-Variables](Documentation - The Zig Programming Language)
-- [https://github.com/ziglang/zig/wiki/Community](Community · ziglang/zig Wiki)
-- [https://discord.com/channels/605571803288698900/605572581046747136](#zig-help)
 - [https://ziglang.org/documentation/master/#Tagged-union](Documentation - The Zig Programming Language)
 - [https://ziglang.org/documentation/master/std/#std;fmt.format](std.fmt.format - Zig)
 - [https://github.com/ziglang/zig/wiki/Install-Zig-from-a-Package-Manager](Install Zig from a Package Manager · ziglang/zig Wiki)
@@ -208,62 +203,32 @@
 - [https://ziglang.org/learn/overview/](In-depth Overview ⚡ Zig Programming Language)
 - [https://ziglang.org/learn/samples/](Code Examples ⚡ Zig Programming Language)
 - [https://scattered-thoughts.net/writing/how-safe-is-zig/](How safe is zig?)
-- [https://www.reddit.com/r/rust/comments/8wayzr/how_does_rust_define_data_races/](How does rust define "data races?" : rust)
-- [https://doc.rust-lang.org/nightly/nomicon/races.html](Races - The Rustonomicon)
-- [https://gavinhoward.com/2021/02/rust-zig-and-the-futility-of-replacing-c/](Rust, Zig, and the Futility of "Replacing" C | Gavin D. Howard)
-- [https://gavinhoward.com/2019/11/finishing-software/](Finishing Software | Gavin D. Howard)
-- [https://www.mayerdan.com/ruby/2012/11/11/bugs-per-line-of-code-ratio](ratio of bugs per line of code)
-- [https://gavinhoward.com/2019/11/auditing-software-is-hard/](Auditing Software Is Hard | Gavin D. Howard)
-- [https://gavinhoward.com/2019/08/why-perfect-software-is-nearly-impossible/](Why Perfect Software Is Nearly Impossible | Gavin D. Howard)
-- [https://gavinhoward.com/2020/04/i-am-moving-away-from-github/](I Am Moving Away from GitHub | Gavin D. Howard)
-- [https://medium.com/@catamphetamine/how-github-blocked-me-and-all-my-libraries-c32c61f061d3](How GitHub blocked me (and all my libraries) | by Nikolay | Medium)
-- [https://gavinhoward.com/2019/04/freedom-vs-safety/](Freedom vs Safety | Gavin D. Howard)
-- [https://embeddedgurus.com/stack-overflow/2012/06/optimizing-for-the-cpu-compiler/](Optimizing for the CPU / compiler « Stack Overflow)
-- [https://embeddedgurus.com/embedded-systems-bloggers/nigel-jones/](Nigel Jones « Embedded Gurus – Experts on Embedded Software)
+- https://gavinhoward.com/2021/02/rust-zig-and-the-futility-of-replacing-c/
 - [https://github.com/ziglang/zig/issues/89#issuecomment-328214707](self-hosted compiler: passing behavior tests, std lib tests, and no longer relying on stage1 backend · Issue #89 · ziglang/zig)
 - [https://github.com/ziglang/zig-spec/tree/master/grammar/tests](zig-spec/grammar/tests at master · ziglang/zig-spec)
 - [https://web.archive.org/web/20070221212101/https://blogs.msdn.com/nealho/archive/2005/11/22/496101.aspx](Neal's Blog : Breaking Changes)
 - [https://lwn.net/Articles/797611/](zig [LWN.net])
-- [https://stackoverflow.com/questions/55688018/how-does-rust-prevent-data-races-when-the-owner-of-a-value-can-read-it-while-ano](concurrency - How does Rust prevent data races when the owner of a value can read it while another thread changes it? - Stack Overflow)
-- [https://www.reddit.com/r/Zig/comments/9vtn9e/question_about_concurrency_status/](Question about concurrency status : Zig)
+- https://www.reddit.com/r/Zig/comments/9vtn9e/question_about_concurrency_status/
 - [https://github.com/ziglang/zig/issues/1199](Support leak detection and race condition analysis · Issue #1199 · ziglang/zig)
-- [https://news.ycombinator.com/item?id=25029336](Zig doesn't prevent memory errors, or data races at compile time, but Zig does h... | Hacker News)
-- [https://news.ycombinator.com/item?id=25028953](Zig 0.7.0 tagged | Hacker News)
-- [https://www.reddit.com/r/Zig/](Ziglang)
-- [https://zigforum.org/top](Top topics - The Zig Programming Language Forum)
+- [https://news.ycombinator.com/item?id=25029336](Zig doesn't prevent memory errors, or data races at compile time, but Zig does h...)
+- [https://news.ycombinator.com/item?id=25028953](Zig 0.7.0 tagged)
 - [https://zigforum.org/t/strings-in-zig-what-do-i-miss/188/20]((2) Strings in Zig: What do I miss? - Usage - The Zig Programming Language Forum)
 - [https://ziglang.org/documentation/master/std/#std;mem](std.mem - Zig)
-- [https://github.com/JuliaStrings/utf8proc](JuliaStrings/utf8proc: a clean C library for processing UTF-8 Unicode data)
-- [https://www.youtube.com/watch?v=Px8rVB3ZpKA&t=83s]((1251) Bork low effort demo lol - YouTube)
-- [https://github.com/kristoff-it/bork](kristoff-it/bork)
-- [https://man.sr.ht/~teknico/lychorhyze/time-in-music-notation/](Time in Music Notation - man.sr.ht)
-- [https://github.com/kivikakk/koino](kivikakk/koino: CommonMark + GFM compatible Markdown parser and renderer)
-- [https://github.com/kivikakk/comrak](kivikakk/comrak: CommonMark + GFM compatible Markdown parser and renderer)
-- [https://github.com/github/cmark-gfm](github/cmark-gfm: GitHub's fork of cmark, a CommonMark parsing and rendering library and program in C)
-- [https://commonmark.org/](CommonMark)
-- [https://github.com/raphlinus/pulldown-cmark/issues/518](Full GFM Support · Issue #518 · raphlinus/pulldown-cmark)
-- [https://github.com/kivikakk](kivikakk "Asherah Connor")
-- [https://git.src.kameliya.ee/~kameliya](git.src.kameliya.ee)
-- [https://kivikakk.ee/about](About · kivikakk.ee)
-- [https://f.hrzn.ee/kivikakk.pdf](Asherah Connor – Software engineer - kivikakk.pdf)
-- [https://www.linkedin.com/in/kivikakk](Ashe Connor - Software Engineer - Radiopaedia.org | LinkedIn)
-- [https://lobste.rs/threads/kameliya](Threads for kameliya | Lobsters)
+- https://github.com/JuliaStrings/utf8proc - a clean C library for processing UTF-8 Unicode data
+- [https://www.youtube.com/watch?v=Px8rVB3ZpKA&t=83s](Bork low effort demo lol - YouTube)
+- https://github.com/kristoff-it/bork
+
+- https://github.com/kivikakk/koino - CommonMark + GFM compatible Markdown parser and renderer
 - [https://lobste.rs/s/f98dpj/pin_suffering#c_2z4fal](Pin and suffering | Lobsters)
-- [https://www.youtube.com/watch?v=nDO24U3hMkU]((1251) Being 100% Right, And 100% Fired - YouTube)
-- [https://lobste.rs/s/cv4oni/richard_stallman_announcing_his_return#c_hhnhzr](Richard Stallman announcing his return to the FSF's Board of Directors | Lobsters)
-- [https://github.com/ziglang/zig/wiki/Community#discord](Community · ziglang/zig Wiki)
-- [https://kivikakk.ee/assets/kalorama.jpg](kalorama.jpg (JPEG Image, 2731 × 2048 pixels) — Scaled (51%))
-- [https://kivikakk.ee/all](All posts · kivikakk.ee)
-- [https://kivikakk.ee/archive/](kivikakk.ee)
-- [https://github.com/kivikakk/daintree](kivikakk/daintree: ARMv8-A/RISC-V kernel (with UEFI bootloader))
-- [https://github.com/kivikakk/dtb.zig](kivikakk/dtb.zig: parse device tree blobs)
-- [https://github.com/kivikakk/kaksikud](kivikakk/kaksikud: smol gemini server)
-- [https://github.com/skyjake/lagrange](skyjake/lagrange: A Beautiful Gemini Client)
-- [https://github.com/kivikakk/htmlentities.zig](kivikakk/htmlentities.zig: HTML entity data for Zig)
-- [https://github.com/kivikakk/libpcre.zig](kivikakk/libpcre.zig: Zig bindings to libpcre)
+- https://github.com/kivikakk/daintree - ARMv8-A/RISC-V kernel (with UEFI bootloader)
+- https://github.com/kivikakk/dtb.zig - parse device tree blobs
+- https://github.com/kivikakk/kaksikud - smol gemini server
+- https://github.com/skyjake/lagrange - A Beautiful Gemini Client
+- https://github.com/kivikakk/htmlentities.zig - HTML entity data for Zig
+- https://github.com/kivikakk/libpcre.zig - Zig bindings to libpcre
 - [https://github.com/gernest/zunicode](gernest/zunicode)
-- [https://github.com/travisstaloch/template.zig](travisstaloch/template.zig: comptime templates)
-- [https://github.com/haze/etch](haze/etch: zig template framework)
+- https://github.com/travisstaloch/template.zig - comptime templates
+- https://github.com/haze/etch - zig template framework
 - [https://github.com/gernest/zunicode/pull/3](Updates to Unicode v13.0 and Zig 0.8 by jecolon · Pull Request #3 · gernest/zunicode)
 - [https://github.com/gernest](gernest "Geofrey Ernest")
 - [https://zigforum.org/t/annoying-things/208/12]((2) Annoying things? - Usage - The Zig Programming Language Forum)
@@ -272,11 +237,11 @@
 - [https://github.com/ziglang/zig/issues/5893](Nit: anytype is a really inconsistent name · Issue #5893 · ziglang/zig)
 - [https://github.com/ziglang/zig/issues/2904](Type Inference in the Standard Library · Issue #2904 · ziglang/zig)
 - [https://github.com/marler8997?tab=overview&from=2021-02-01&to=2021-02-28](marler8997 (Jonathan Marler) / February 2021)
-- [https://github.com/marler8997/zog](marler8997/zog: Some zig libraries)
-- [https://github.com/marler8997/zigalloc](marler8997/zigalloc: an allocation library for zig)
-- [https://github.com/marlersoft/zigwin32gen](marlersoft/zigwin32gen: Complete Autogenerated Zig bindings for Windows.)
-- [https://github.com/marler8997/zig-gorillas](marler8997/zig-gorillas: A clone of the classic QBasic Gorillas written in the Zig programming language)
-- [https://github.com/fabioarnold/zig-gorillas](fabioarnold/zig-gorillas: A clone of the classic QBasic Gorillas written in the Zig programming language)
+- https://github.com/marler8997/zog - Some zig libraries
+- https://github.com/marler8997/zigalloc - an allocation library for zig
+- https://github.com/marlersoft/zigwin32gen - Complete Autogenerated Zig bindings for Windows.
+- https://github.com/marler8997/zig-gorillas - A clone of the classic QBasic Gorillas written in the Zig programming language
+- https://github.com/fabioarnold/zig-gorillas - A clone of the classic QBasic Gorillas written in the Zig programming language
 - [https://zigforum.org/t/intro-how-did-you-discover-zig/41](Intro/how did you discover Zig? - Usage - The Zig Programming Language Forum)
 - [https://zigforum.org/t/defining-slice-of-mutable-array-literal-in-one-statement/218](Defining slice of mutable array literal...in one statement? - Help - The Zig Programming Language Forum)
 - [https://zigforum.org/t/daintree-arm-risc-v-kernel-in-zig/123](Daintree: ARM + RISC-V kernel in Zig - Domains / OSdev - The Zig Programming Language Forum)
@@ -291,29 +256,29 @@
 - [https://zig.show/](Zig SHOWTIME)
 - [https://github.com/sponsors/ziglang](Sponsor @ziglang on GitHub Sponsors)
 - [https://github.com/Hejsil](Hejsil "Komari Spaghetti")
-- [https://github.com/TM35-Metronome/metronome](TM35-Metronome/metronome: A set of tools for modifying and randomizing Pokémon games)
+- https://github.com/TM35-Metronome/metronome - A set of tools for modifying and randomizing Pokémon games
 - [https://github.com/Hejsil/lemonbar-maker](Hejsil/lemonbar-maker)
 - [https://github.com/ziglang/zig/issues/1530](remove u0 from zig · Issue #1530 · ziglang/zig)
 - [http://hintjens.com/blog:106](Why Optimistic Merging Works Better - Hintjens.com)
-- [https://github.com/suirad/zig-safe-return](suirad/zig-safe-return: Small library to check if returned pointers are pointing to the current stack frame)
-- [https://github.com/Beefster09/ziptile](Beefster09/ziptile: Tilemapping and sprite engine - experimenting with Zig)
-- [https://github.com/winksaville/zig-geometry](winksaville/zig-geometry: Mathematical routines for 3D geometry)
+- https://github.com/suirad/zig-safe-return - Small library to check if returned pointers are pointing to the current stack frame
+- https://github.com/Beefster09/ziptile - Tilemapping and sprite engine - experimenting with Zig
+- https://github.com/winksaville/zig-geometry - Mathematical routines for 3D geometry
 - [https://github.com/andrewrk/tetris/blob/master/src/math3d.zig](tetris/math3d.zig at master · andrewrk/tetris)
-- [https://github.com/MasterQ32/zig-gamedev-lib](MasterQ32/zig-gamedev-lib: xq's Zig Game Development Library)
-- [https://github.com/andrewrk/tetris](andrewrk/tetris: A simple tetris clone written in zig programming language.)
-- [https://github.com/anholt/libepoxy](anholt/libepoxy: Epoxy is a library for handling OpenGL function pointer management for you)
+- https://github.com/MasterQ32/zig-gamedev-lib - xq's Zig Game Development Library
+- https://github.com/andrewrk/tetris - A simple tetris clone written in zig programming language.
+- https://github.com/anholt/libepoxy - Epoxy is a library for handling OpenGL function pointer management for you
 - [https://github.com/slashlostfound/HelloWorld/blob/master/hello.zig](HelloWorld/hello.zig at master · slashlostfound/HelloWorld)
-- [https://github.com/ysgard/sprite-blitting-zig](ysgard/sprite-blitting-zig: Sprite blitting example using SDL2 and Zig)
+- https://github.com/ysgard/sprite-blitting-zig - Sprite blitting example using SDL2 and Zig
 - [https://github.com/rivten/senoceton](rivten/senoceton)
 - [https://github.com/darkr4y/OffensiveZig/blob/main/src/try-to-learn-zig-in-y.zig](OffensiveZig/try-to-learn-zig-in-y.zig at main · darkr4y/OffensiveZig)
-- [https://github.com/darkr4y/OffensiveZig/tree/main](darkr4y/OffensiveZig: Some attempts at using Zig(https://ziglang.org/) in penetration testing.)
-- [https://www.youtube.com/channel/UCUICU6mgcyGy61pojwuWyHA]((1251) Andrew Kelley - YouTube)
-- [https://github.com/kristoff-it/zig-cuckoofilter/](kristoff-it/zig-cuckoofilter: Production-ready Cuckoo Filters for any C ABI compatible target.)
+- https://github.com/darkr4y/OffensiveZig - Some attempts at using Zig(https://ziglang.org/) in penetration testing.
+- [https://www.youtube.com/channel/UCUICU6mgcyGy61pojwuWyHA](Andrew Kelley - YouTube)
+- https://github.com/kristoff-it/zig-cuckoofilter/ - Production-ready Cuckoo Filters for any C ABI compatible target.
 - [https://github.com/ziglang/zig/issues/5](support tagged unions · Issue #5 · ziglang/zig)
 - [https://github.com/ziglang/zig/issues/144](raw unions · Issue #144 · ziglang/zig)
 - [https://github.com/ziglang/zig/commit/d1086893829d91d0e1335e14b0434a23ff0e8999](Merge branch 'unions' · ziglang/zig@d108689)
 - [https://github.com/ziglang/zig/issues/1922](More control over the data layout of tagged unions · Issue #1922 · ziglang/zig)
-- [https://news.ycombinator.com/item?id=17187008](> But if I understand correctly, out-of-the-box, Zig's `union` doesn't get a tag... | Hacker News)
+- [https://news.ycombinator.com/item?id=17187008](> But if I understand correctly, out-of-the-box, Zig's `union` doesn't get a tag...)
 - [https://www.reddit.com/r/Zig/comments/ir0rl7/converting_a_rust_enum_example_to_a_zig_tagged/](Converting a Rust Enum Example to a Zig Tagged Union : Zig)
 - [https://www.reddit.com/r/Zig/top/?t=year](Ziglang)
 - [https://www.reddit.com/r/Zig/comments/kmc93b/futureproof_live_editor_for_gpu_shaders_built_on/](Futureproof - Live editor for GPU shaders, built on Zig, Neovim, and WebGPU. : Zig)
@@ -324,7 +289,7 @@
 - [https://www.reddit.com/r/Zig/comments/lj4aa7/jonathan_turner_azure_sdk_dev_and_cocreator_of/](Jonathan Turner, Azure SDK Dev and co-creator of nushell, tries comptime for the first time : Zig)
 - [https://lists.sr.ht/~andrewrk/ziglang/%3Cd8674019-4c09-74f9-101c-8250829ecc64%40ziglang.org%3E](Please welcome Jakub Konka to the Core Zig Team — sourcehut lists)
 - [https://scattered-thoughts.net/writing/mmio-in-zig/](Memory-mapped IO registers in zig)
-- [https://github.com/zenith391/didot](zenith391/didot: Zig 3D game engine.)
+- https://github.com/zenith391/didot - Zig 3D game engine.
 - [https://www.reddit.com/r/Zig/comments/ivp9i1/3d_game_engine_in_zig/](3D game engine in Zig : Zig)
 - [https://www.reddit.com/r/programming/comments/hds7qm/what_is_zigs_colorblind_asyncawait/](What is Zig's “Colorblind” Async/Await? : programming)
 - [https://www.reddit.com/r/Zig/comments/ll21gh/fosdem_videos_from_the_zig_devroom_are_out/](FOSDEM videos from the Zig devroom are out! : Zig)
@@ -345,27 +310,27 @@
 - [https://dev.to/watzon/debugging-zig-with-vs-code-44ca](Debugging Zig with VS Code - DEV Community)
 - [https://www.reddit.com/r/Zig/comments/g1umkx/small_linux_userland_built_in_zig/](Small Linux Userland built in Zig : Zig)
 - [https://www.codercto.com/a/107923.html](Linux Userland in Zig | 码农网)
-- [https://github.com/pbui-project/pbui-main](pbui-project/pbui-main: The main repository for the PBUI project)
+- https://github.com/pbui-project/pbui-main - The main repository for the PBUI project
 - [https://www3.nd.edu/~pbui/teaching/cse.30341.fa19/project01.html](Project 01: Idlebin)
-- [https://news.ycombinator.com/item?id=24835357](Assorted Thoughts on Zig and Rust | Hacker News)
+- [https://news.ycombinator.com/item?id=24835357](Assorted Thoughts on Zig and Rust)
 - [https://www.reddit.com/r/Zig/comments/lozuzy/zigmod_a_package_manager_for_zig/](Zigmod: A package manager for Zig : Zig)
 - [https://www.reddit.com/r/Zig/comments/klyq1l/cosmopolitan_libcs_claim_build_once_run_everywhere/](cosmopolitan libcs claim: build once, run everywhere : Zig)
 - [https://www.reddit.com/r/Zig/comments/jkleeu/zigsqlite_small_wrapper_around_sqlites_c_api/](zig-sqlite: small wrapper around sqlite's C API : Zig)
 - [https://www.reddit.com/r/Zig/comments/hoxapo/adma_general_purpose_slab_allocator_for_zig/](Adma - General purpose slab allocator for Zig : Zig)
 - [https://www.reddit.com/r/Zig/comments/jgsod9/zalgebra_linear_algebra_library_for_mostly_games/](Zalgebra, linear algebra library for (mostly) games : Zig)
 - [https://github.com/ziglang/zig/blob/master/lib/std/mem/Allocator.zig](zig/Allocator.zig at master · ziglang/zig)
-- [https://news.ycombinator.com/item?id=17186888](> A `union(TagType)` in Zig is a tagged union and has safety checks on all acces... | Hacker News)
+- [https://news.ycombinator.com/item?id=17186888](> A `union(TagType)` in Zig is a tagged union and has safety checks on all acces...)
 - [https://en.m.wikipedia.org/wiki/Zig_(programming_language)](Zig (programming language) - Wikipedia)
 - [https://github.com/ziglang/zig/issues/1723](design spec: Are integers in zig guaranteed to have two's complement binary representation? · Issue #1723 · ziglang/zig)
-- [https://github.com/SpexGuy/Zig-Gltf-Display](SpexGuy/Zig-Gltf-Display: A program that displays glTF files using Vulkan, written in Zig.)
-- [https://github.com/SpexGuy/Zig-ImGui](SpexGuy/Zig-ImGui: Zig bindings for ocornut/imgui, generated using cimgui/cimgui)
-- [https://github.com/SpexGuy/foozball](SpexGuy/foozball: A virtual networked foosball game, written in Zig)
-- [https://github.com/SpexGuy/Zig-Allocators](SpexGuy/Zig-Allocators: An allocator library for Zig, based on allocating fixed-size chunks from the OS)
-- [https://github.com/SpexGuy/TotallyNotTetris](SpexGuy/TotallyNotTetris: A game that totally isn't tetris, built with Vulkan in Zig)
-- [https://github.com/SpexGuy/Zig-ECS](SpexGuy/Zig-ECS: A Unity-style ECS written in Zig)
+- https://github.com/SpexGuy/Zig-Gltf-Display - A program that displays glTF files using Vulkan, written in Zig.
+- https://github.com/SpexGuy/Zig-ImGui - Zig bindings for ocornut/imgui, generated using cimgui/cimgui
+- https://github.com/SpexGuy/foozball - A virtual networked foosball game, written in Zig
+- https://github.com/SpexGuy/Zig-Allocators - An allocator library for Zig, based on allocating fixed-size chunks from the OS
+- https://github.com/SpexGuy/TotallyNotTetris - A game that totally isn't tetris, built with Vulkan in Zig
+- https://github.com/SpexGuy/Zig-ECS - A Unity-style ECS written in Zig
 - [https://www.reddit.com/r/Zig/comments/9wz8ly/are_integers_in_zig_guaranteed_to_have_twos/](Are integers in zig guaranteed to have two's complement binary representation? : Zig)
 - [https://kevinlynagh.com/rust-zig/](Why I rewrote my Rust keyboard firmware in Zig: consistency, mastery, and fun)
-- [https://www.youtube.com/watch?v=Z4oYSByyRak&t=1s]((1251) Zig: A programming language designed for robustness, optimality, and clarity –  Andrew Kelley - YouTube)
+- [https://www.youtube.com/watch?v=Z4oYSByyRak&t=1s](Zig: A programming language designed for robustness, optimality, and clarity –  Andrew Kelley - YouTube)
 - [https://twitter.com/andy_kelley](Andrew Kelley (@andy_kelley) / Twitter)
 - (https://comby.dev/blog/2021/03/26/comby-reducer)[A simple program reducer for any language · Comby]
 - (https://twitter.com/andy_kelley/status/1374137956038889475)[Andrew Kelley on Twitter: "this is a good example of safety feature of Zig that would not make sense in Rust - untagged unions https://t.co/tgoEDvxIkt" / Twitter]
