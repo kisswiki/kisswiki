@@ -476,3 +476,11 @@ const x = blk: {
 ```
 
 Strange that you need to use this `blk` label.
+
+## zig fmt
+
+zig fmt will upgrade to newer version
+
+## zigup
+
+When you need to manage multiple versions of zig
