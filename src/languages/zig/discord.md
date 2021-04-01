@@ -11,3 +11,6 @@ To instruct bot to run the code use
 ```rust
 var a = 1;
 ```
+
+- [A guide to Markdown on Discord.](https://gist.github.com/matthewzring/9f7bbfd102003963f9be7dbcf7d40e51)
+- [Send patch to GitHub to add syntax highlighting for Zig · Issue #138 · ziglang/zig](https://github.com/ziglang/zig/issues/138)
