@@ -254,8 +254,10 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 
 ## Embedded and ARM
 
+- https://github.com/nrdmn/awesome-zig#bootables
 - https://github.com/markfirmware/zig-vector-table
 - https://www.reddit.com/r/Zig/comments/l8ii2s/zig_for_embedded/
+  - https://github.com/tralamazza/embedded_zig
 - [Using Zig in deep embedded development (ARM Cortex-M) — sourcehut lists](https://lists.sr.ht/~andrewrk/ziglang/%3CCAOM9R7L1YuEOBcnH9u2NRnDRw0UFzydhv-9E%3DB0m7JBKnpAo9A%40mail.gmail.com%3E)
 - [I experimented with Zig for embedded programming. The language is very promising...](https://news.ycombinator.com/item?id=17190125)
 - https://github.com/kivikakk/daintree - ARMv8-A/RISC-V kernel (with UEFI bootloader)
