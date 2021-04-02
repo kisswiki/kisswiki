@@ -1,5 +1,10 @@
 Lia
 —
+
+in short, an allocator is how you ask for memory (and free it again)
+
+https://ziglearn.org/chapter-2/#allocators
+
 you will need to pass an Allocator to ChildProcess.init, if that's what you're using!
 here's one way to get one:
 
@@ -16,3 +21,7 @@ if you're writing a library, you should take an allocator argument from your use
 same if you use ChildProcess.exec
 @clad code speaks better than i do: https://zigbin.io/05bf44
 here is an example using an allocator with ChildProcess.exec. hope this helps
+
+you will need to change some *const Allocator to *Allocator
+if it's const it won't be able to modify its internal state when you make allocations
+i think there'll be some more changes needed too though
