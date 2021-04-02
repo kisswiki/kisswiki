@@ -484,3 +484,7 @@ zig fmt will upgrade to newer version
 ## zigup
 
 When you need to manage multiple versions of zig
+
+## post code to zigbin.io
+
+https://zigbin.io/0f4af2
