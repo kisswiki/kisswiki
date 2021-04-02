@@ -28,3 +28,18 @@ It just so happens that the memory there is as you expect
 All it takes is some platform difference, llvm shaking things up a little, Zig emitting different llvm ir, etc
 And it's broken
 Compile with a different back end and you might not be so lucky
+
+```zig
+fn oopsie() *i32 {
+    var i: i32 = 44;
+    return &i;
+}
+
+pub fn main() !void {
+    var slice_of_mutable_array_literal: []u8 = blk: {
+        var arr = [_]u8{ 1, 2, 3 };
+        break :blk arr[0..];
+    };
+    oopsie();
+}
+```

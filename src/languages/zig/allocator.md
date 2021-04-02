@@ -28,6 +28,14 @@ i think there'll be some more changes needed too though
 
 ##
 
+Lia
+
+You can say `allocator.create(MyNode)` and it'll allocate memory to fit a MyNode and hand it back to you as a `*MyNode`
+If you then want to initialise it, you can say `my_node._ = .{ .field_1 = 1, .field_2 = 'x', ... };` (`allocator.destroy(my_node)` will clean that up when you're done with it.)
+
+you will need to pass an Allocator to ChildProcess.init, if that's what you're using!
+here's one way to get one:
+
 ```zig
 var gpa = std.heap.GeneralPurposeAllocator(.{}){};
 defer _ = gpa.deinit();
