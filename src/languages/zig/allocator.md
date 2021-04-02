@@ -25,3 +25,10 @@ here is an example using an allocator with ChildProcess.exec. hope this helps
 you will need to change some *const Allocator to *Allocator
 if it's const it won't be able to modify its internal state when you make allocations
 i think there'll be some more changes needed too though
+
+##
+
+```zig
+var gpa = std.heap.GeneralPurposeAllocator(.{}){};
+defer _ = gpa.deinit();
+```
