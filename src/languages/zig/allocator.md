@@ -9,3 +9,10 @@ defer _ = gpa.deinit();
 ```
 
 the general-purpose allocator is suitable for use in programs. if you're making a library, you probably want to take an allocator from the user and use that.
+
+ok. i assume you are using ChildProcess.init at some point. that needs an Allocator, because it needs the ability to allocate and free memory for its own needs.
+if you're writing a program (not a library), i suggest you use a GeneralPurposeAllocator (per above).
+if you're writing a library, you should take an allocator argument from your user and pass it to ChildProcess.
+same if you use ChildProcess.exec
+@clad code speaks better than i do: https://zigbin.io/05bf44
+here is an example using an allocator with ChildProcess.exec. hope this helps
