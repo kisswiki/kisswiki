@@ -50,6 +50,7 @@
 - https://github.com/benhoyt/countwords/blob/master/simple.zig
   - https://benhoyt.com/writings/count-words/
   - https://zigforum.org/t/intro-how-did-you-discover-zig/41/44
+- https://github.com/ziglang/zig/wiki/Community-Projects
 
 ## Package managers
 
