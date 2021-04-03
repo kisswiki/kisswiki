@@ -67,3 +67,11 @@ const variable = if (condition) std.thingo.how_long_can_you_read.TypeThing(
     std.HashMap(u32, u32),
 ).init() else foobar;
 ```
+
+## custom format method
+
+g_w1
+
+you can define a custom format method on tokens to make it print even better if you want
+
+https://github.com/ziglang/zig/blob/master/lib/std/net.zig#L148
