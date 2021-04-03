@@ -523,11 +523,16 @@ https://github.com/jlauman/zig_examples/blob/ef439d2fe631580a4b78de032f96b28bf32
 
 Linux and MacOS are tier 1, Windows is tier 2. https://ziglang.org/learn/overview/#wide-range-of-targets-supported
 
-Zig works well in Ubuntu WSL.
+Zig works well in Ubuntu WSL. Haven't checked in WSL2.
+
+https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps
+
+I needed to reboot machine.
 
 ```bash
 $ mkdir -p ~/installed
 $ cd ~/installed
+# https://ziglang.org/download/
 $ curl -OJN https://ziglang.org/builds/zig-linux-x86_64-0.8.0-dev.1712+2f07d76ee.tar.xz
 $ tar xf zig-linux-x86_64-0.8.0-dev.1712+2f07d76ee.tar.xz
 $ ln -sf zig zig-linux-x86_64-0.8.0-dev.1712+2f07d76ee
