@@ -49,3 +49,21 @@ var dt =
 else
     self.shiftMinutes(zone.offset - self.zone.offset);
 ```
+
+## params in new line
+
+if you add trailing comma after function call `std.HashMap(u32, u32),` below
+
+```zig
+const variable = if (condition) std.thingo.how_long_can_you_read.TypeThing(u32, i32, std.HashMap(u32, u32)).init() else foobar;
+```
+
+we be formatted to
+
+```zig
+const variable = if (condition) std.thingo.how_long_can_you_read.TypeThing(
+    u32,
+    i32,
+    std.HashMap(u32, u32),
+).init() else foobar;
+```
