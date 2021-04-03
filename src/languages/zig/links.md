@@ -193,6 +193,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
   - https://www.reddit.com/r/Zig/comments/ju1hud/requestz_http_client_for_zig/
 - https://www.reddit.com/r/Zig/comments/it8h92/any_workable_http_clients_or_working_examples/
 - https://github.com/frmdstryr/zhp - A Http server written in Zig
+  - Uses https://github.com/purringChaos/searchwrap
 - https://github.com/Sobeston/zigcord - A discord library in zig.
 - https://github.com/Sobeston/html-tree - A small zig library for writing trees of html
 - https://github.com/euantorano/ip.zig - A Zig library for working with IP Addresses
