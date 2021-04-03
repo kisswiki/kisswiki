@@ -1,3 +1,13 @@
+```zig
+var i: u8 = 1;
+// panic: integer overflow
+// var x: u8 = 255 + i;
+
+// this works
+var y: u8 = 255 - i + 1;
+print("y: {}\n", .{y});
+```
+
 Ed T
 
 Sometimes I really do not like zig's integer typing system. For instance, when you subtract two usigned, the results cannot directly be assigned to a signed int (with any overflows detected by zig). Or if you have a type u8 and you do = 256-x; you get an error, but =255-x+1 is okay... another, isize += usize fails, again all zig needs to do is check for overflows.... It tends to make very unreadable code due to all the @intCast calls that you need to insert to do what zig could figure out adding the same checks that that the @intCast does.
@@ -49,12 +59,4 @@ jumpnbrownweasel
 
 I was confused about why this would compile so I experimented a little. I think it's because this is effectively (255-x) + 1. So the left hand side is allowed as a u8 at compile time, and then it becomes a runtime expression and will cause a runtime error. If you do 255 + 1 - x this gives the compile error.
 
-```zig
-var i: u8 = 1;
-// panic: integer overflow
-// var x: u8 = 255 + i;
-
-// this works
-var y: u8 = 255 - i + 1;
-print("y: {}\n", .{y});
-```
+For reference, Rust gives compile errors in even more cases than Zig for this. (255-x+1) gives a compile error if the compiler can deduce that x is zero, even if x is a mutable local variable. I was able to get a runtime error when x is zero (not a compile error) by making x a fn param, meaning that the compiler didn't deduce it's value.

@@ -24,6 +24,8 @@ const DAYS_IN_MONTH = [12]u8{
 
 ## Bug 2
 
+- [zig fmt messes `if` indentation after line break · Issue #7363 · ziglang/zig](https://github.com/ziglang/zig/issues/7363)
+
 Formats this
 
 ```zig
