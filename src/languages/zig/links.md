@@ -65,6 +65,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 ```
 
 - https://github.com/mattnite/gyro - formely zkg
+  - can freeze deps in `gyro.lock`
   - https://astrolabe.pm/ - zig packages
   - [zkg: un unofficial package manager](https://youtu.be/1yiCgMHDu4k)
   - Used by https://github.com/truemedian/zfetch
@@ -163,6 +164,8 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 ## Networking and HTTP
 
 - https://github.com/zigforum/needed-libraries/issues/3
+- https://github.com/kristoff-it/bork - A Twitch chat client for the terminal
+  - recommended as good example for async use
 - https://github.com/Vexu/routez
 - [Zig and Full stack web development · Issue #942 · ziglang/zig](https://github.com/ziglang/zig/issues/942)
 - [http server in zig? : Zig](https://www.reddit.com/r/Zig/comments/bdp2ym/http_server_in_zig/)
