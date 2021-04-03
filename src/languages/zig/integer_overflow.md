@@ -10,6 +10,10 @@ print("y: {}\n", .{y});
 
 Ed T
 
+@intCast(u5,32-o) complains that 32 cannot be coerced into type u5, which is true, But I know that o is always betwen 6 and 12. Also @intCast(u5,31-o+1) works. The compiler is getting in the way here....
+
+Ed T
+
 Sometimes I really do not like zig's integer typing system. For instance, when you subtract two usigned, the results cannot directly be assigned to a signed int (with any overflows detected by zig). Or if you have a type u8 and you do = 256-x; you get an error, but =255-x+1 is okay... another, isize += usize fails, again all zig needs to do is check for overflows.... It tends to make very unreadable code due to all the @intCast calls that you need to insert to do what zig could figure out adding the same checks that that the @intCast does.
 
 fengb
