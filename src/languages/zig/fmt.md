@@ -1,3 +1,5 @@
+`zig fmt` tries to upgrade code to current zig version.
+
 Open bugs https://github.com/ziglang/zig/labels/zig%20fmt
 
 ## Bug 1
