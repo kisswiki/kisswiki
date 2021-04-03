@@ -24,6 +24,13 @@ this app is async https://github.com/kristoff-it/bork
 lithdew
 —
 31.03.2021
+Yep :thumbsup:
+Just pushed it, I use tcpkali to have a TCP server startup to take messages from example_gossip
+terminal 1: tcpkali -T1h -l 9001 -d
+terminal 2: zig build && gdb --ex run --args zig-cache/bin/example_gossip 9001
+lithdew
+—
+31.03.2021
 @Protty encountered it yet again
 The fix was to change line 503:
 const conn = try self.acquire(reactor);
