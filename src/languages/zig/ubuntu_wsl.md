@@ -56,3 +56,5 @@ $ zig version
 VSCode supports it quite well. https://code.visualstudio.com/docs/remote/wsl-tutorial
 
 I needed to install zig vscode extension also for wsl remote to have syntax highlighting.
+
+https://code.visualstudio.com/docs/remote/wsl-tutorial
