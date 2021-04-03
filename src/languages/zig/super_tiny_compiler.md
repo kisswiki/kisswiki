@@ -1,6 +1,8 @@
 danny.m on discord is translating super_tiny_compiler from js to zig.
 
 ```zig
+const input = "(";
+var paren: ArrayList(Token) = tokenizer(&input);
 fn tokenizer(input: []const u8) !ArrayList(Token) {
   var current: u8 = 0;
 
