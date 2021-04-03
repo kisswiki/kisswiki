@@ -1,3 +1,5 @@
+Open bugs https://github.com/ziglang/zig/labels/zig%20fmt
+
 ## Bug 1
 
 This code will
