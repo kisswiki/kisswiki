@@ -34,7 +34,7 @@ Linux and MacOS are tier 1, Windows is tier 2. https://ziglang.org/learn/overvie
 
 Zig works well in Ubuntu WSL. Haven't checked in WSL2.
 
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
+https://aka.ms/wslinstall
 
 I needed to reboot machine.
 
