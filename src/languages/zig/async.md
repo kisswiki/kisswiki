@@ -31,6 +31,10 @@ terminal 2: zig build && gdb --ex run --args zig-cache/bin/example_gossip 9001
 lithdew
 —
 31.03.2021
+The bug has to do with a problem with async frames not deallocating memory from the stack (reaching the stack size limit)
+lithdew
+—
+31.03.2021
 @Protty encountered it yet again
 The fix was to change line 503:
 const conn = try self.acquire(reactor);
