@@ -6,3 +6,41 @@ In addition, this is already kind of a problem -- if two independently maintaine
 
 - [Allow returning a value with an error · Issue #2647 · ziglang/zig](https://github.com/ziglang/zig/issues/2647#issuecomment-678553855)
 - [Error messages should use a mutex · Issue #7859 · ziglang/zig](https://github.com/ziglang/zig/issues/7859)
+
+## Using normal union instead of error union
+
+happyalu
+—
+31.03.2021
+is there an example somewhere for option 1 (using actual union instead of error union)?
+
+sorry; Still figuring out how to do errors correctly/idiomatically in zig. also looking at the context struct approach.
+
+Lia
+—
+31.03.2021
+e.g. declare a type like this:
+
+```zig
+const ThingResult = union(enum) {
+    Success: u32, // whatever the success value is
+    Error: ThingError,
+};
+```
+
+happyalu
+—
+31.03.2021
+Would this still work with the concept errorsets, e.g. exhaustive switch ?
+jumpnbrownweasel
+—
+31.03.2021
+I believe it's just a regular union(enum) and not treated as an error WRT the language. For example, errdefer will not apply to returning this as an error.
+happyalu
+—
+31.03.2021
+thanks for the example. i was wondering if this would work with try, errdefer, etc.
+fengb
+—
+31.03.2021
+It will not
