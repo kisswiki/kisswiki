@@ -6,3 +6,11 @@ We really should have a bigger disclaimer saying so on the std docs or something
 ##
 
 - https://github.com/ziglang/zig/wiki/How-to-read-the-standard-library-source-code
+
+##
+
+I started the effort here: http://ziglang.org/documentation/master/
+
+If anyone wants to help you can submit a pull request to edit doc/langref.html.in. It's processed with doc/docgen.zig
+
+- [basic documentation for everything · Issue #367 · ziglang/zig](https://github.com/ziglang/zig/issues/367)
