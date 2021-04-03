@@ -6,6 +6,7 @@
 - https://ziglang.org/documentation/master/std/#std;fmt.format
   - [overhaul std.fmt formatting api · Issue #1358 · ziglang/zig](https://github.com/ziglang/zig/issues/1358)
   - [zig/fmt.zig at master · ziglang/zig](https://github.com/ziglang/zig/blob/9f01598a498ecbd868cb81dc1efdb1507010c1b8/lib/std/fmt.zig#L55)
+- https://github.com/ziglang/zig/wiki
 - [Learning Zig - first hour...](http://ciesie.com/post/zig_learning_01/)
 - https://ziglang.org/documentation/master/#Generic-Data-Structures
 - https://github.com/Sobeston/ziglearn

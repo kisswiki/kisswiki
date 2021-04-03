@@ -18,3 +18,46 @@ I'm still wrapping my mind around the async stuff, but is there anything out the
 g_w1
 
 this app is async https://github.com/kristoff-it/bork
+
+##
+
+lithdew
+—
+31.03.2021
+@Protty encountered it yet again
+The fix was to change line 503:
+const conn = try self.acquire(reactor);
+to:
+const conn = try await async self.acquire(reactor);
+Lia
+—
+31.03.2021
+ahhha
+somewhat subtle
+lithdew
+—
+31.03.2021
+Yeah, it'll have to do until stage2 comes out hahah
+Thank you for the help :pray:
+Lia
+—
+31.03.2021
+yw! :pray:
+Protty
+—
+31.03.2021
+oof its that bug again
+lithdew
+—
+31.03.2021
+have 2 call sites I'm using the trick at now lol
+Protty
+—
+31.03.2021
+see any pattern in the called functions that could trigger it?
+lithdew
+—
+31.03.2021
+it mainly happens in async fns where inside of em I do frame = async doWork()
+or in async fns that call other async fns 3 or 4 levels down
+so smth to do with nesting async fn calls
