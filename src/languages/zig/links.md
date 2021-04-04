@@ -57,6 +57,7 @@
 
 - https://github.com/topics/zig-package
 - https://github.com/zigtools/zpm - Express shipping for your Zig packages!
+  - https://zpm.random-projects.net/
   - List all repositories
 
 ```
