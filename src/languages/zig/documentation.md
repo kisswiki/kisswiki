@@ -6,6 +6,7 @@ We really should have a bigger disclaimer saying so on the std docs or something
 ##
 
 - https://github.com/ziglang/zig/wiki/How-to-read-the-standard-library-source-code
+- https://github.com/ziglang/zig/wiki/FAQ#where-is-the-documentation-for-the-zig-standard-library
 
 ##
 
