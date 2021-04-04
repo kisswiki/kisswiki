@@ -43,6 +43,38 @@ defer _ = gpa.deinit();
 
 ##
 
+Jolololol
+—
+30.03.2021
+Okay, next question: I have a [][]const u8 where both slices are created by the same allocator. It appears that I have to iterate through the array and call free on each element before freeing the whole thing, otherwise I get memory leaks. Is there a simpler way to free it that's built in?
+Tetralux
+—
+30.03.2021
+The standard way you do this is to allocate the slice, and all it's element slices, in an arena allocator, so that you can just deinit the arena and free them all at once.
+Doing that also puts all the memory in one block, which makes it quicker to free in the first place, since that's essentially the same as freeing exactly once. (Though, that depends a bit on how much you allocate.)
+Specs_guy
+—
+30.03.2021
+The usual approach here is to use an ArrayList to build a slice, and then call toOwnedSlice to get the finished list, and use that.
+Jolololol
+—
+30.03.2021
+Maybe I'm confused about how the memory works... So I have an outer array that I allocate first, then I call a function that generates a new []const u8 each time and stores that in an element of the outer array. If I used an arraylist as the outer 'array' and freed that, wouldn't the []const u8s still remain in memory since their pointers weren't explicitly freed?
+Tetralux
+—
+30.03.2021
+That's right.
+Jolololol
+—
+30.03.2021
+Wouldn't that still be the case if I called .toOwnedSlice on the arraylist and freed the slice?
+Tetralux
+—
+30.03.2021
+It would, but the ArrayList helped you to build the slice, and keep track of the allocator used, etc.
+Most obviously though, it does the reallocation for you, if you don't know how many items you have, up-front.
+(Though you can use .initWithCapacity if you have a clue about a common size.)
+(It will reduce reallocations; both because initial-size, and since each reallocation grows quadratically(?) [new_size = old_size * 2 + constant].)
 Tetralux
 —
 30.03.2021
