@@ -1,3 +1,14 @@
+Hashi364
+—
+30.03.2021
+Is there a way of creating a struct at compile time?
+mason1920
+—
+30.03.2021
+I'd think you'd use a TypeInfo, populate it, and send it through @Type
+
+##
+
 prime31
 —
 30.03.2021
