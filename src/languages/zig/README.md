@@ -486,9 +486,17 @@ https://zigbin.io/0f4af2
 First argument is executable name. You do not provide it in command line. It is given.
 
 ```zig
-    var args_iter = std.process.args();
-    const exe_name = try (args_iter.next(allocator) orelse return error.MissingArgument);
-    defer allocator.free(exe_name);
+var args_iter = std.process.args();
+const exe_name = try (args_iter.next(allocator) orelse return error.MissingArgument);
+defer allocator.free(exe_name);
 ```
 
-https://github.com/MasterQ32/zig-network/blob/master/examples/echo.zig#L22
+https://github.com/MasterQ32/zig-network/blob/72082f77a31a2bf9f1e457839acc188e6a210aa4/examples/echo.zig#L22
+
+## parseInt
+
+```zig
+const port_number = try std.fmt.parseInt(u16, port_name, 10);
+```
+
+https://github.com/MasterQ32/zig-network/blob/72082f77a31a2bf9f1e457839acc188e6a210aa4/examples/echo.zig#L28
