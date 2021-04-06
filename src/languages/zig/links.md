@@ -245,6 +245,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://github.com/Vexu/zuri - URI parser for Zig
 - https://github.com/ducdetronquito/h11 - I/O free HTTP/1.1 implementation for Zig 🦎
 - https://github.com/MasterQ32/zig-network - A smallest-common-subset of socket functions for crossplatform networking, TCP & UDP
+  - https://github.com/MasterQ32/zig-network/pull/28 - Using echo example
 - https://github.com/marler8997/ziget - Zig library/tool to request network assets
 - [I like Zig, but it doesnt even have a HTTP client yet: https://github.com/zigla...](https://news.ycombinator.com/item?id=20116912)
 - [ziget: A Zig HTTP Client : Zig](https://www.reddit.com/r/Zig/comments/gs064f/ziget_a_zig_http_client/)

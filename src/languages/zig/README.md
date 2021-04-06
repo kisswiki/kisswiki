@@ -480,3 +480,15 @@ Strange that you need to use this `blk` label.
 ## post code to zigbin.io
 
 https://zigbin.io/0f4af2
+
+## args
+
+First argument is executable name. You do not provide it in command line. It is given.
+
+```zig
+    var args_iter = std.process.args();
+    const exe_name = try (args_iter.next(allocator) orelse return error.MissingArgument);
+    defer allocator.free(exe_name);
+```
+
+https://github.com/MasterQ32/zig-network/blob/master/examples/echo.zig#L22
