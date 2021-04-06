@@ -36,7 +36,7 @@ Zig works well in Ubuntu WSL. Haven't checked in WSL2.
 
 https://aka.ms/wslinstall
 
-I needed to reboot machine.
+I needed to reboot machine. You may need [](src/os/wsl_ubuntu/disable_windows_programs_in_path.md).
 
 ```bash
 $ mkdir -p ~/installed
