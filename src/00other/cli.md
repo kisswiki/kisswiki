@@ -229,22 +229,22 @@ Same file system
 
 ### Keys
 
-Enter   go into directory
+Enter go into directory
 
-Backspace   go back
+Backspace go back
 
-n   Order by filename (press again for descending order)
+n Order by filename (press again for descending order)
 
-s   Order by filesize (press again for descending order)
+s Order by filesize (press again for descending order)
 
-d   Delete the selected file or directory. An error message will be shown when the contents of the directory do not match or do not exist anymore on the
-           filesystem.
+d Delete the selected file or directory. An error message will be shown when the contents of the directory do not match or do not exist anymore on the
+filesystem.
 
-r   Refresh/recalculate the current director
+r Refresh/recalculate the current director
 
-b   Spawn shell in current directory
+b Spawn shell in current directory
 
-q   Quit
+q Quit
 
 ### Shortcut top open file
 
@@ -442,7 +442,6 @@ $ htmlq -p "#itemsStream > li:first-of-type h2 a" --attribute title < out.html
 
 ## tig
 
-
 - https://github.com/rgburke/grv
 - https://github.com/jonas/tig
 
@@ -490,4 +489,8 @@ https://www.reddit.com/r/programming/comments/eei1qg/nushell_a_modern_shell_for_
 - https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/bgnotify
 - serve some files over HTTP https://github.com/svenstaro/miniserve
   - currently on nightly only so: `rustup toolchain install nightly; rustup default nigthly; cargo install minserve; rustup default stable`
+- `python -m SimpleHTTPServer 8888`
+  - python 2.7
+- `python -m http.server 8888 --bind 0.0.0.0`
+  - python 3.x
 - view images https://github.com/atanunq/viu
