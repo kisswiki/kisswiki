@@ -29,7 +29,7 @@ https://askubuntu.com/questions/382767/how-to-pipe-dump-clipboard-contents-to-a-
 ### Powershell
 
 ```ps1
-cat C:\Users\<user>\.ssh\id_rsa.pub | Clip
+cat ~\.ssh\id_rsa.pub | Clip
 ```
 
 - https://thepracticalsysadmin.com/copy-text-to-clipboard-using-powershell/
