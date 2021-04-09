@@ -159,6 +159,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://github.com/mattnite/tar - tar library that has a bad interface ngl
 - https://github.com/travisstaloch/art.zig - This library provides a zig implementation of the Adaptive Radix Tree or ART
 - https://github.com/gaultier/zig-bencode - Zig bencode encoder/decoder
+- https://github.com/Aransentin/zigwin - A Zig windowing library
 
 ## Database
 
