@@ -6,7 +6,7 @@ This is the instruction to setup ssh with multiple keys.
 
 For Windows: [Set the HOME environment variable](http://stackoverflow.com/questions/9513712/git-ssh-client-for-windows-and-wrong-path-for-ssh-config-file/21451748#21451748) pointing to `%USERPROFILE%` for ssh to pick it up.
 
-`ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f ~/.ssh/github_rsa`
+`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 
 - https://www.vultr.com/docs/how-do-i-generate-ssh-keys
 
@@ -16,17 +16,30 @@ Copy to clipboard with one of below methods an then add it to https://github.com
 
 ### Mac OS
 
-`clip < ~/.ssh/github_rsa.pub`
+`clip < ~/.ssh/id_rsa.pub`
 
 ### Ubuntu
 
 ```bash
 $ sudo apt install xsel
-$ xsel -b < ~/.ssh/github_rsa.pub
+$ xsel -b < ~/.ssh/id_rsa.pub
 ```
 https://askubuntu.com/questions/382767/how-to-pipe-dump-clipboard-contents-to-a-file/382775#382775
 
+### Powershell
+
+```ps1
+cat C:\Users\<user>\.ssh\id_rsa.pub | Clip
+```
+
+- https://thepracticalsysadmin.com/copy-text-to-clipboard-using-powershell/
+- https://superuser.com/questions/302032/how-to-copy-text-from-powershell
+
 ## ssh config
+
+You can create multiple keys like that `ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f ~/.ssh/github_rsa`.
+
+If the key does not have default name, you need to specify hosts for it:
 
 Add entry in file `~/.ssh/config` (`~` means home directory)
 
