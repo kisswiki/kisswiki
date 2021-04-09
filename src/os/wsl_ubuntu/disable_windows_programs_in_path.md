@@ -7,7 +7,7 @@ $ sudo nvim /etc/wsl.conf
 ```
 [interop]
 enabled=true # enable launch of Windows binaries; default is true
-#appendWindowsPath=false # append Windows path to $PATH variable; default is true
+appendWindowsPath=false # append Windows path to $PATH variable; default is true
 ```
 
 Run at PowerShell as Admin:
