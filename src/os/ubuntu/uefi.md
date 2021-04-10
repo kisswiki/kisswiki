@@ -12,7 +12,7 @@ I needed to press F11 during boot to show UEFI boot list. To load grub as first 
 sudo apt update
 sudo apt install efibootmgr
 sudo efibootmgr
-sudo efibootmgr -o 5
+sudo efibootmgr -o 2
 ```
 
 ### When I done sudo efibootmgr -o 5,0,1,2,3,4
