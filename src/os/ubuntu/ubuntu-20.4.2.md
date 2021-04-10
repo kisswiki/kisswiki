@@ -54,7 +54,7 @@ $ sudo apt install nvidia-driver-460
 
 I have rebooted machine but fans were still spinning.
 
-I have once again removed drivers
+I have once again removed driver
 
 ```
 sudo apt-get remove --purge '^nvidia-.*'
