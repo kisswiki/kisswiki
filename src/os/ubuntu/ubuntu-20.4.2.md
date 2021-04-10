@@ -38,7 +38,7 @@ I have blacklisted nouveau like here https://forums.linuxmint.com/viewtopic.php?
 
 After restart still this fans spinning.
 
-So I have uninstalled nvidia drivers with:
+So I have uninstalled nvidia driver with:
 
 ```
 sudo apt-get remove --purge '^nvidia-.*'
