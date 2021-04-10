@@ -1,8 +1,8 @@
-1. there was problem with installing extras during install.
+## there was problem with installing extras during install.
 
 So I have created usb with newest Ubuntu 20.04.2
 
-3. After reboot Windows 10 was loaded. There was no grub menu.
+## After reboot Windows 10 was loaded. There was no grub menu.
 
 I needed to boot again from usb and
 
@@ -14,15 +14,15 @@ sudo efibootmgr
 sudo efibootmgr -o 2
 ```
 
-2. Software Center didn't open.
+## Software Center didn't open.
 
-So I have remove cache
+So I have removed cache
 
 `rm -rf ~/snap/snap-store/common/.cache/gdk-pixbuf-loaders.cache`
 
 https://askubuntu.com/questions/1248195/ubuntu-software-center-isnt-opening/1287559#1287559
 
-3. Failed to start NVIDIA Persistence Daemon
+## Failed to start NVIDIA Persistence Daemon
 
 Fans were spinning fast. Htop was showing that systemd-udev consumes 80% of CPU.
 
