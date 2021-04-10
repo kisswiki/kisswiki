@@ -2,7 +2,7 @@
 
 So I have created usb with newest Ubuntu 20.04.2
 
-## After reboot Windows 10 was loaded. There was no grub menu
+## After reboot no grub menu and Windows 10 loads
 
 I needed to boot again from usb and
 
