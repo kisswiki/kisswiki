@@ -1,4 +1,4 @@
-## There was problem with installing extras during install
+## Ubuntu install aborted because failed to install extras
 
 So I have created usb with newest Ubuntu 20.04.2
 
@@ -14,7 +14,7 @@ sudo efibootmgr
 sudo efibootmgr -o 2
 ```
 
-## Software Center didn't open
+## Software Center does not open
 
 So I have removed cache
 
