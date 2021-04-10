@@ -2,23 +2,30 @@
 
 I have installed Windows first, then Ubuntu.
 
->In your firmware, disable QuickBoot/FastBoot and Intel Smart Response Technology (SRT). If you have Windows 8, also disable Fast Startup. https://help.ubuntu.com/community/UEFI
-
+> In your firmware, disable QuickBoot/FastBoot and Intel Smart Response Technology (SRT). If you have Windows 8, also disable Fast Startup. https://help.ubuntu.com/community/UEFI
 
 ## Grub not loaded
 
 I needed to press F11 during boot to show UEFI boot list. To load grub as first do as below. Here I assume that Ubuntu is 5.
 
 ```
+sudo apt update
+sudo apt install efibootmgr
 sudo efibootmgr
-sudo efibootmgr -o 5,0,1,2,3,4
+sudo efibootmgr -o 5
 ```
+
+### When I done sudo efibootmgr -o 5,0,1,2,3,4
+
+I have done `sudo efibootmgr -o 5,0,1,2,3,4`. But it was enough to just `sudo efibootmgr -o 5`.
 
 After first change of order, Windows was booted again. Then I have removed it from order sequence.
 
 When I ommited Windows (0) when specyfing order, it was added as 6 during next boot. But grub was loaded as default.
 
 After that I just removed 6 with `sudo efibootmgr -b 6 -B` and changed order like in above.
+
+### Links
 
 - https://superuser.com/questions/1247300/how-to-make-uefi-bios-start-grub-not-windows/1248255#1248255
 - Fix on Windows with bcedit https://askubuntu.com/questions/695496/grub-doesnt-show-up-installing-ubuntu-14-04-alongside-windows-10-on-a-uefi-x64
