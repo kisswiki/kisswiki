@@ -22,7 +22,7 @@ So I have removed cache
 
 https://askubuntu.com/questions/1248195/ubuntu-software-center-isnt-opening/1287559#1287559
 
-## Failed to start NVIDIA Persistence Daemon
+## Fans are spinning fast while machine is doing nothing
 
 Fans were spinning fast. Htop was showing that systemd-udev consumes 80% of CPU.
 
