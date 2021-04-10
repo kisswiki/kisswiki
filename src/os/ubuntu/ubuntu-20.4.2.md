@@ -1,8 +1,8 @@
-## There was problem with installing extras during install.
+## There was problem with installing extras during install
 
 So I have created usb with newest Ubuntu 20.04.2
 
-## After reboot Windows 10 was loaded. There was no grub menu.
+## After reboot Windows 10 was loaded. There was no grub menu
 
 I needed to boot again from usb and
 
@@ -14,7 +14,7 @@ sudo efibootmgr
 sudo efibootmgr -o 2
 ```
 
-## Software Center didn't open.
+## Software Center didn't open
 
 So I have removed cache
 
