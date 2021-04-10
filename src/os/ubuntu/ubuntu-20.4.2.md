@@ -46,6 +46,8 @@ sudo apt-get remove --purge '^nvidia-.*'
 
 https://askubuntu.com/questions/206283/how-can-i-uninstall-a-nvidia-driver-completely/206289#206289
 
+Then I went to this page https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia and done this:
+
 ```
 $ sudo apt-get --purge remove xserver-xorg-video-nouveau
 $ sudo ubuntu-drivers devices
