@@ -26,9 +26,13 @@ https://askubuntu.com/questions/1248195/ubuntu-software-center-isnt-opening/1287
 
 Fans were spinning fast. Htop was showing that systemd-udev consumes 80% of CPU.
 
-In `journactl -f` I saw
+In `journactl -f`:
 
-`Failed to start NVIDIA Persistence Daemon` and also `/sbin/modprobe nvidia-uvm failed`.
+```
+Failed to start NVIDIA Persistence Daemon
+...
+/sbin/modprobe nvidia-uvm failed
+```
 
 I have blacklisted nouveau like here https://forums.linuxmint.com/viewtopic.php?p=1731934&sid=718012c1006043ebc984a5bf65154f47#p1731934
 
