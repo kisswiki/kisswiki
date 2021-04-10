@@ -1,4 +1,4 @@
-## there was problem with installing extras during install.
+## There was problem with installing extras during install.
 
 So I have created usb with newest Ubuntu 20.04.2
 
