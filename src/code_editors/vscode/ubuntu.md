@@ -12,7 +12,7 @@ Download deb package as described here https://code.visualstudio.com/docs/setup/
 
 ```
 snap remove code
-sudo apt install ./code_1.51.0-1604600753_amd64.deb
+sudo dpkt -i ./code_1.51.0-1604600753_amd64.deb
 ```
 
 - https://stackoverflow.com/questions/52032340/ctrlshifte-inerts-special-characters-into-file-instead-of-showing-explore-pane#comment103282623_52295258
