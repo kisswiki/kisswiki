@@ -1,0 +1,1 @@
+- The default keybinding is Alt + Shift + S https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.save-without-format
