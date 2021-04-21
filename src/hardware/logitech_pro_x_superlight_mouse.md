@@ -1,0 +1,6 @@
+- Compatible with Powerplay charging pad
+  - https://www.logitechg.com/en-us/products/gaming-mouse-pads/powerplay-wireless-charging.943-000109.html
+- BATTERY LIFE Constant motion: 70h
+- to change settings and see battery level https://support.logi.com/hc/pl/articles/360059428653-Download-Stub-PRO-X-SUPERLIGHT-Wireless-Gaming-Mouse
+- there is also g hub software https://support.logi.com/hc/pl/articles/360025298133
+- https://www.logitechg.com/en-eu/products/gaming-mice/pro-x-superlight-wireless-mouse.910-005880.html
