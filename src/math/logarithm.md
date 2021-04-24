@@ -1,0 +1,2 @@
+- [Logarytm i skala logarytmiczna - YouTube](https://www.youtube.com/watch?v=FzGIe1kausE)
+- [Logarytm - wprowadzenie - YouTube](https://www.youtube.com/watch?v=ZGJC1945-Sk)
