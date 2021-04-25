@@ -22,6 +22,10 @@ watchexec -w src/main.zig -i zig-cache -e zig 'printf \n\n && zig build-exe src/
 watchexec -w src/main.zig -i zig-cache -e zig 'printf \n\n && zig build-exe src/main.zig && ./main'
 ```
 
+for rustlings
+
+`watchexec -w exercises -i zig-cache -e zig zig build`
+
 ## syntax
 
 top-level consts are order-independent
