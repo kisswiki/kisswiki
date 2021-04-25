@@ -455,6 +455,14 @@ const Insect = union(enum) {
 
 Also in official documentation there is no mention that in switch we don't have to use `Enum.field` to match, just `.field`.
 
+Also with normal compare:
+
+```zig
+    const version = std.builtin.zig_version;
+    const order = version.order(needed_version);
+    return order != .lt;
+```
+
 ## operations on string
 
 - https://zigforum.org/t/strings-in-zig-what-do-i-miss/188/6
