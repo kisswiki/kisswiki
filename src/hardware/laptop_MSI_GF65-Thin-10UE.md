@@ -9,3 +9,9 @@
 ## Live chat
 
 Not available in Poland
+
+## Battery
+
+There is callibration of battery in Dragon Center.
+
+In manual they say to deplete the battery once a month.
