@@ -1,0 +1,4 @@
+- https://www.msi.com/Laptop/support/GF65-Thin-10UX?sub_product=GF65-Thin-10UE
+  - https://download.msi.com/archive/mnu_exe/nb/MS-16W2_v1.0_Polish.pdf
+  - Support > Utility > MSI Dragon Center > Change keyboard light https://www.msi.com/Laptop/support/GF65-Thin-10UX?sub_product=GF65-Thin-10UE#down-driver&Win10%2064
+    - https://www.microsoft.com/en-us/p/msi-dragon-center/9nh7n2bv1cqq
