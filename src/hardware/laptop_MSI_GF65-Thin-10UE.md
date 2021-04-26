@@ -6,6 +6,7 @@
     - Looks like this laptop has single keyboard backlight color
       - https://www.reddit.com/r/MSILaptops/comments/k8dyud/msi_gf65_9se_is_it_possible_to_change_the/gey5z4t/
       - https://pl.msi.com/Laptop/GF65-Thin-10SX/Specification
+      - Single-zone red backlighting https://www.notebookcheck.net/MSI-GF65-Thin-10UE-Laptop-Review-GeForce-RTX-3060-on-a-Budget.526258.0.html
     - https://www.microsoft.com/en-us/p/msi-dragon-center/9nh7n2bv1cqq
 
 ## Live chat
@@ -25,3 +26,9 @@ In manual they say to deplete the battery once a month.
 ## Warranty
 
 I got extended warranty for 3 months after completing questionnaire and needed to create a ticket https://account.msi.com/tickets/detail/EExkhwMPWFjjejNR
+
+## Cooler bost
+
+`Dragon Center > Home > User Scenario > User > Fan speed > Cooler Boost`
+
+- https://www.reddit.com/r/MSILaptops/comments/gc7hek/is_cooler_boost_safe_to_use_i_use_it_on_my_gf63/
