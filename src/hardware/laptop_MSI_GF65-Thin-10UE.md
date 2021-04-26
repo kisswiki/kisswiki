@@ -32,3 +32,7 @@ I got extended warranty for 3 months after completing questionnaire and needed t
 `Dragon Center > Home > User Scenario > User > Fan speed > Cooler Boost`
 
 - https://www.reddit.com/r/MSILaptops/comments/gc7hek/is_cooler_boost_safe_to_use_i_use_it_on_my_gf63/
+
+> cooler boost is just a preset to run it at 6000rpm. if you can manually set it higher, then good for you. They probably just set the boost preset to lower than the maximum because then it would get too loud. They want to advertise good cooling but not too loud. That preset was probably what they though was the best of both worlds at a high volume.
+
+https://linustechtips.com/topic/1178030-msi-laptop-cooler-boost-vs-normal-fan/?do=findComment&comment=13481656
