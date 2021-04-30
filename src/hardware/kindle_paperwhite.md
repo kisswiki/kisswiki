@@ -15,3 +15,4 @@ sc config Spooler binPath=%windir%\system32\spoolsv.exe
 Otherwise you will get error "We are having difficulty starting spooler on your computer, un-installation cannot proceed."
 
 - https://kb4sp.wordpress.com/2013/02/02/send-to-kindle-on-windows-8/
+- https://www.reddit.com/r/kindle/comments/csf6ow/gmail_refuses_to_send_files_bigger_than_25mb/exee7w5/
