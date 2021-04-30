@@ -14,3 +14,7 @@ https://github.com/Microsoft/vscode/issues/8787#issuecomment-230761140
 ## files to include - multiple extensions
 
 `*.js,*.jsx`
+
+and with subdirectory
+
+`src/**/*.{tsx,jsx,js,ts}`
