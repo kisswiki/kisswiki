@@ -1,7 +1,8 @@
 ## flagi
 
-opcjonalnie możnaby też dodać `--disable-extension` lub `--enable-logging`
+Maybe `--disable-extension`?
 
+- https://peter.sh/experiments/chromium-command-line-switches/
 - https://chromium.googlesource.com/chromium/src/+/master/chrome/common/chrome_switches.cc
 - https://superuser.com/questions/545033/google-chrome-command-line-switches
 - https://stackoverflow.com/questions/21136212/what-are-the-chrome-command-line-switches-parameters
@@ -22,11 +23,16 @@ start chrome --headless --enable-logging --disable-gpu --dump-dom "https://www.d
 
 ## print-to-pdf
 
+'--run-all-compositor-stages-before-draw' : It Prevents the Pdf Creation Before all the data is rendered(After all data is rendered the pdf will be created).
+
+'--virtual-time-budget = x: It Delays the Process of creation of Pdf, here x will be the miliseconds.
+
 ```
 start chrome --enable-logging --headless --disable-gpu --print-to-pdf=c:\misc\output.pdf https://www.google.com/
 ```
 
-https://stackoverflow.com/questions/45364102/how-do-i-use-headless-chrome-in-chrome-60-on-windows-10/50318211#50318211
+- https://stackoverflow.com/questions/45364102/how-do-i-use-headless-chrome-in-chrome-60-on-windows-10/50318211#50318211
+- https://stackoverflow.com/questions/46077392/additional-options-in-chrome-headless-print-to-pdf
 
 ### To save pdf you need full path, so to use relative:
 
