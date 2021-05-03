@@ -512,3 +512,9 @@ const port_number = try std.fmt.parseInt(u16, port_name, 10);
 ```
 
 https://github.com/MasterQ32/zig-network/blob/72082f77a31a2bf9f1e457839acc188e6a210aa4/examples/echo.zig#L28
+
+## ziglings
+
+if function is annotated to return error union, but it does not, there will be compiler error.
+
+in switch statement, case needs to end with coma. Add parentheses you if you need more statements in case.
