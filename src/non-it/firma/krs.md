@@ -1,0 +1,2 @@
+- https://ekrs.ms.gov.pl/
+  - https://ekrs.ms.gov.pl/web/wyszukiwarka-krs/strona-glowna/index.html
