@@ -25,3 +25,5 @@ Dostałem informację że rachunek bankowy został dodany.
 Nie widnieje jednak na białej liście. Polecono mi skontaktować się z bankiem czy rachunek dodany do STIR albo poczekać do północy.
 
 Jest jeszcze strona https://www.podatki.gov.pl/.
+
+Dzwoniłem do mojego banku. Jeszcze nie widzę tego rachunku w wykazie. Spytali czy chcę złożyć reklamację. Zgodziłem się. Czas oczekiwania 14 dni. Przyślą mailem.
