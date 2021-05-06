@@ -1,3 +1,9 @@
+## Podstawa prawna
+
+https://www.podatki.gov.pl/vat/bezpieczna-transakcja/wykaz-podatnikow-vat/
+
+## Procedura
+
 https://www.biznes.gov.pl/pl/aktualnosci/biala-lista-podatnikow-vat-nowe-narzedzie-do-sprawdzania-kontrahentow
 
 Na tej stronie jest sekcja "Co zrobić, jeżeli na białej liście nie ma rachunku firmy".
