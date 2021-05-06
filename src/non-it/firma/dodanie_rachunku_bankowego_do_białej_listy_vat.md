@@ -27,3 +27,15 @@ Nie widnieje jednak na białej liście. Polecono mi skontaktować się z bankiem
 Jest jeszcze strona https://www.podatki.gov.pl/.
 
 Dzwoniłem do mojego banku. Jeszcze nie widzę tego rachunku w wykazie. Spytali czy chcę złożyć reklamację. Zgodziłem się. Czas oczekiwania 14 dni. Przyślą mailem.
+
+## Czas oczekiwania
+
+Co do zasady, wykaz podatników jest aktualizowany raz na dobę, w każdy dzień roboczy (w godz. 22:00 - 00:00). Rachunki bankowe w wykazie powinny być widoczne następnego dnia po aktualizacji danych podatnika w bazach danych KAS. Zgłoszenia aktualizacyjne tj. NIP-2, NIP-7, NIP-8 lub przez wnioski CEIDG-1 są obsługiwane niezwłocznie, nie później niż w ciągu trzech dni roboczych od dnia ich wpływu do urzędu skarbowego. Terminy te potwierdziło nam Ministerstwo Finansów.
+
+https://www.prawo.pl/podatki/na-bialej-liscie-vat-sa-tylko-rachunki-firmowe-nie-ma-zwyklych,497376.html
+
+## Udało się
+
+W wtorek o 15:30 zrobiłem zmianę.
+
+Dziś czyli w czwartek rano jeszcze nie było. Ale o 11:00 sprawdziłem i już jest.
