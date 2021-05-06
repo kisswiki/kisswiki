@@ -6,6 +6,7 @@ Dz.U. 2021 poz. 685
 
 - http://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20210000685
 - https://www.podatki.gov.pl/vat/bezpieczna-transakcja/wykaz-podatnikow-vat/
+- https://www.biznes.gov.pl/en/publikacje/2300-rozliczanie-z-kontrahentem-za-pomoca-konta-firmowego
 
 ## Procedura
 
