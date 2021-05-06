@@ -1,6 +1,11 @@
 ## Podstawa prawna
 
-https://www.podatki.gov.pl/vat/bezpieczna-transakcja/wykaz-podatnikow-vat/
+USTAWA z dnia 11 marca 2004 r. o podatku od towarów i usług Art. 96b
+
+Dz.U. 2021 poz. 685
+
+- http://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20210000685
+- https://www.podatki.gov.pl/vat/bezpieczna-transakcja/wykaz-podatnikow-vat/
 
 ## Procedura
 
