@@ -1,2 +1,4 @@
 - http://www.adamusic.pl/krzeslo_dla_perkusisty_wiolonczelisty_i_harfisty_wildespieth_model_710_1205,p72925.html
 - http://www.youergo.pl/
+- https://www.wykop.pl/link/6093495/czesc-2-przeglad-16-foteli-biurowych/
+  - https://www.profim.pl/produkty/kolekcja/accispro
