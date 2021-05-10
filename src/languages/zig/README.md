@@ -518,3 +518,9 @@ https://github.com/MasterQ32/zig-network/blob/72082f77a31a2bf9f1e457839acc188e6a
 if function is annotated to return error union, but it does not, there will be compiler error.
 
 in switch statement, case needs to end with coma. Add parentheses you if you need more statements in case.
+
+## Use master version
+
+It is adviced to use master version, for example with https://github.com/rofrol/zig-utils/blob/main/scripts/zupd.
+
+But zls is tracking latest release, not master https://www.reddit.com/r/Zig/comments/n8oih2/basic_zig_extensions_dont_have_error_highlighting/gxk98vi/.
