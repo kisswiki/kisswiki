@@ -1,3 +1,5 @@
+- https://thoughtbot.com/blog/running-out-of-maps
+
 ```elm
 andMap : Decoder a -> Decoder (a -> b) -> Decoder b
 andMap =
@@ -18,7 +20,6 @@ or better this sorter form
 
 Let's first analyze andMap using flip.
 
-
 ```elm
 (<|) : (a -> b) -> a -> b
 ```
@@ -28,7 +29,6 @@ Let's first analyze andMap using flip.
 `valDecoder -> funcDecoder`
 
 http://package.elm-lang.org/packages/elm-lang/core/latest/Basics#%3C
-
 
 ```elm
 map2
@@ -114,15 +114,13 @@ Ok { options = "someoption" } : Result.Result String { options : String }
 
 The order doesn't matter:
 
->Try two decoders and then combine the result http://package.elm-lang.org/packages/elm-lang/core/5.1.1/Json-Decode#map2
-
+> Try two decoders and then combine the result http://package.elm-lang.org/packages/elm-lang/core/5.1.1/Json-Decode#map2
 
 ilias
 It shouldn't matter for decoders
 
 There are cases where it does - for example a parser that consumes part of the input - but decoders don't work that way.
 so I'd go for `map2 (\val func -> func val) valDecoder funcDecoder` - which is the same thing as `map2 (|>)`
-
 
 so this:
 
