@@ -65,6 +65,8 @@
 - https://gist.github.com/kprotty/0d2dc3da4840341d6ff361b27bdac7dc - ParkingLot.zig - Small & Fast synchronization primitives for Zig
 - https://github.com/coilhq/tigerbeetle - A purpose-built financial accounting database, designed for high-throughput low-latency two-phase prepare/commit transfers between accounts, using io_uring as a foundation for fast I/O
 - https://gist.github.com/creationix/a91f8d5ded4ba809f45d41d06e2780d2 - async-wasm.zig
+- https://github.com/tauoverpi/scratch/tree/master/zig
+- https://github.com/jeffkdev/sokol-zig-examples
 
 ## Package managers
 
@@ -160,6 +162,11 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://github.com/travisstaloch/art.zig - This library provides a zig implementation of the Adaptive Radix Tree or ART
 - https://github.com/gaultier/zig-bencode - Zig bencode encoder/decoder
 - https://github.com/Aransentin/zigwin - A Zig windowing library
+- https://github.com/fourst4r/ztxt - A lil text editor project to test out Zig
+- https://github.com/gitabaz/zigblas - Zig bindings for BLAS
+- https://github.com/gitabaz/zigsh - A shell written in zig
+- https://github.com/taskforcesh/bullmq-redis - BullMQ - Redis Module for handling queues of jobs and messages.
+- https://github.com/devzero/parzival - A comptime-based parsing library for the Zig language
 
 ## Database
 
@@ -184,6 +191,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 
 ### Advent of Code
 
+- https://github.com/SpexGuy/Zig-AoC-Template
 - https://github.com/fyrchik/aoc2020zig
 - https://github.com/SpexGuy/AoC-2020
   https://github.com/zigster64/advent_of_code2020
@@ -197,6 +205,14 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://dev.to/katafrakt/advent-of-code-day-4-in-zig-23o7
 - [Zig Live Coding - Advent of Code 2019, Day 2 on Vimeo](https://vimeo.com/491488991)
 - [4D game of life ⚡ Advent of Code in Zig Day 17 - YouTube](https://www.youtube.com/watch?v=pRJaMnc0Res)
+- https://github.com/zanderxyz/advent-of-code
+- https://github.com/pqflx3/aoc20
+- https://github.com/GoNZooo/advent-of-code
+- https://github.com/wooky/aoc
+- https://github.com/devzero/aoc2020
+- https://github.com/alexguirre/aoc-2020
+- https://github.com/pjz/aoc-2020-zig
+- https://github.com/theInkSquid/aoc-2020
 
 ### Exercism
 
@@ -301,6 +317,11 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
   - https://7drl.com/
     - https://itch.io/jams
 - https://github.com/alecstein/conways-game-of-life
+- https://github.com/zig-community/Zig-Showdown - A community effort to create a small multiplayer 3D shooter game in pure zig
+- https://github.com/charlieman/handmade-zero - Handmade Hero written in ⚡ Zig ⚡
+- https://github.com/campbellhome/zig_platformer
+- https://github.com/PurityLake/zig-tetris
+- https://github.com/kdelwat/riptide-engine - Riptide is a UCI-compatible chess engine and the successor to ChessSlayer. It started as a straight port of ChessSlayer from Go to Zig, but is becoming a more performant and advanced engine over time.
 
 ## Game Dev
 
@@ -331,6 +352,8 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://github.com/mattnite/SdlBuilder - zig builder for SDL2
 - https://github.com/mattnite/sdl-example
 - https://github.com/ziglibs/zgl - This library provides a thin, type-safe binding for OpenGL on top of libepoxy
+- https://github.com/ryuukk/zark - 2D & 3D Game Framework written in Zig, inspired by libGDX/XNA
+- https://github.com/LakeByTheWoods/zig-bgfx-sdl2 - Minimal zig project to get bgfx running with sdl2
 
 ## Image
 
