@@ -46,3 +46,7 @@ const CustomValueContainer = (props) => {
 - https://github.com/JedWatson/react-select/issues/4221#issuecomment-700617916
 - https://stackoverflow.com/questions/61895814/keeping-placeholder-on-react-select
 - https://react-select.com/components#defining-components
+
+## style a select element
+
+- https://stackoverflow.com/questions/62824482/styling-a-select-element-from-react-select
