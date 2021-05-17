@@ -34,6 +34,7 @@ DateTime.fromFormat("20210427T123023Z", luxonFormat, { zone: "utc" })
 - https://moment.github.io/luxon/docs/class/src/datetime.js~DateTime.html#instance-method-plus
 - https://stackoverflow.com/questions/1197928/how-to-add-30-minutes-to-a-javascript-date-object/66920049#66920049
 - https://observablehq.com/@aagostini/how-does-one-add-a-duration-to-a-date-time-so-that-24-hours-from
+- https://github.com/moment/luxon/issues/482
 
 ## from format
 
@@ -49,3 +50,17 @@ DateTime.fromFormat("20210427T123023Z", "yyyyMMdd'T'HHmmss'Z'", {
 ## zone parametr
 
 If you do `fromJSDate`, default zone we local. Use `DateTime.fromJSDate(date, { zone: 'utc' })`
+
+## Problem with typescript compiler could not found plus method on DateTime
+
+I have done `npm i -S @types/luxon@1.26.0`. After restart of webpack, it worked.
+
+But later I have done
+
+```bash
+$ npm rm -S @types/luxon@1.26.0
+$ rm -rf node_modules
+$ npm i
+```
+
+And it also worked.
