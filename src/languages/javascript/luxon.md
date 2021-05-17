@@ -20,3 +20,10 @@
 - https://moment.github.io/luxon/docs/class/src/datetime.js~DateTime.html#instance-method-plus
 - https://stackoverflow.com/questions/1197928/how-to-add-30-minutes-to-a-javascript-date-object/66920049#66920049
 - https://observablehq.com/@aagostini/how-does-one-add-a-duration-to-a-date-time-so-that-24-hours-from
+
+## from format
+
+`DateTime.fromFormat('20210427T123023Z', "yyyyMMdd'T'HHmmss'Z'").toUTC().toFormat("yyyyMMdd'T'HHmmss'Z'")`
+
+- https://moment.github.io/luxon/docs/manual/parsing.html#fromformat
+- https://stackoverflow.com/questions/56854692/parse-datetime-string-in-local-date-format-in-javascript-preferably-using-luxon/58161377#58161377
