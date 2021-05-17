@@ -18,6 +18,7 @@
 `DateTime.fromJSDate(date).plus({minutes}).toJSDate()`
 
 `DateTime.fromFormat('20210427T123023Z', luxonFormat).toUTC().plus(Duration.fromISO('PT8H')).toJSDate()`
+`DateTime.fromFormat('20210427T123023Z', luxonFormat, { zone: 'utc').plus(Duration.fromISO('PT8H')).toJSDate()`
 
 - https://moment.github.io/luxon/docs/class/src/datetime.js~DateTime.html#instance-method-plus
 - https://stackoverflow.com/questions/1197928/how-to-add-30-minutes-to-a-javascript-date-object/66920049#66920049
