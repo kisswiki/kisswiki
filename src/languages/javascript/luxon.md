@@ -1,6 +1,6 @@
 ## custom format, escaping, from zone, to utc
 
-`DateTime.fromISO('2021-04-27T12:30:23', { zone: 'Europe/Warsaw' }).toUTC().toFormat("yyyyMMdd'T'HHmmss'Z'")`
+`DateTime.fromISO('2021-04-27T12:30:23', { zone: 'Europe/Warsaw' }).toFormat("yyyyMMdd'T'HHmmss'Z'")`
 
 - https://stackoverflow.com/questions/56927110/luxon-convert-local-time-to-utc-given-a-timezone
 - https://stackoverflow.com/questions/64087227/luxon-does-not-format-ddmm-yyyy-format/64087682#64087682
@@ -15,10 +15,21 @@
 
 ## add duration to date
 
-`DateTime.fromJSDate(date).plus({minutes}).toJSDate()`
+```javascript
+DateTime.fromJSDate(date, { zone: "utc" }).plus({ minutes }).toJSDate();
+```
 
-`DateTime.fromFormat('20210427T123023Z', luxonFormat).toUTC().plus(Duration.fromISO('PT8H')).toJSDate()`
-`DateTime.fromFormat('20210427T123023Z', luxonFormat, { zone: 'utc'}).plus(Duration.fromISO('PT8H')).toJSDate()`
+```javascript
+DateTime.fromFormat("20210427T123023Z", luxonFormat, { zone: "utc" })
+  .plus(Duration.fromISO("PT8H"))
+  .toJSDate();
+```
+
+```javascript
+DateTime.fromFormat("20210427T123023Z", luxonFormat, { zone: "utc" })
+  .plus(Duration.fromISO("PT8H"))
+  .toJSDate();
+```
 
 - https://moment.github.io/luxon/docs/class/src/datetime.js~DateTime.html#instance-method-plus
 - https://stackoverflow.com/questions/1197928/how-to-add-30-minutes-to-a-javascript-date-object/66920049#66920049
@@ -26,7 +37,15 @@
 
 ## from format
 
-`DateTime.fromFormat('20210427T123023Z', "yyyyMMdd'T'HHmmss'Z'").toUTC().toFormat("yyyyMMdd'T'HHmmss'Z'")`
+```javascript
+DateTime.fromFormat("20210427T123023Z", "yyyyMMdd'T'HHmmss'Z'", {
+  zone: "utc",
+}).toFormat("yyyyMMdd'T'HHmmss'Z'");
+```
 
 - https://moment.github.io/luxon/docs/manual/parsing.html#fromformat
 - https://stackoverflow.com/questions/56854692/parse-datetime-string-in-local-date-format-in-javascript-preferably-using-luxon/58161377#58161377
+
+## zone parametr
+
+If you do `fromJSDate`, default zone we local. Use `DateTime.fromJSDate(date, { zone: 'utc' })`
