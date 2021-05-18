@@ -31,6 +31,12 @@ start chrome --headless --enable-logging --disable-gpu --dump-dom "https://www.d
 start chrome --enable-logging --headless --disable-gpu --print-to-pdf=c:\misc\output.pdf https://www.google.com/
 ```
 
+Used in real project:
+
+```
+google-chrome --virtual-time-budget=1000000 --headless --disable-gpu --run-all-compositor-stages-before-draw --print-to-pdf=file1.pdf http://example.com/
+```
+
 - https://stackoverflow.com/questions/45364102/how-do-i-use-headless-chrome-in-chrome-60-on-windows-10/50318211#50318211
 - https://stackoverflow.com/questions/46077392/additional-options-in-chrome-headless-print-to-pdf
 
