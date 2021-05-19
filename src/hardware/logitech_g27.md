@@ -1,3 +1,8 @@
+## Windows 10 drivers
+
+- https://support.logi.com/hc/en-us/articles/360024699674--Downloads-G27-Racing-Wheel
+- https://steamcommunity.com/app/270880/discussions/0/412446292763999318/#c412446292764017589
+
 ## Windows10 - cannot load profile
 
 Reinstall logitech gaming software
