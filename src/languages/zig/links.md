@@ -45,6 +45,7 @@
 - https://ziglang.org/learn/samples/
 - https://github.com/ziglang/zig-spec/tree/master/grammar/tests
   - https://github.com/ziglang/zig-spec/blob/master/grammar/tests/syntax.zig
+- https://github.com/winksaville/zig-explore
 - https://github.com/slashlostfound/HelloWorld/blob/master/hello.zig
 - https://rosettacode.org/wiki/Category:Zig
 - https://github.com/mlarouche/ZigWwiseDemo - A elaborate sample on how to use Dear IMGUI, Win32, Direct3D 11 and Audiokinetic Wwise in Zig. Done for a presentation to showcase Zig for coworkers.
