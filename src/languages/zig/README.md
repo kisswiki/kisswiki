@@ -524,3 +524,15 @@ in switch statement, case needs to end with coma. Add parentheses you if you nee
 It is adviced to use master version, for example with https://github.com/rofrol/zig-utils/blob/main/scripts/zupd.
 
 But zls is tracking latest release, not master https://www.reddit.com/r/Zig/comments/n8oih2/basic_zig_extensions_dont_have_error_highlighting/gxk98vi/.
+
+## blk example
+
+```zig
+        const offset = blk: {
+            if (lhs == .code_offset) break :blk lhs.code_offset;
+            if (rhs == .code_offset) break :blk rhs.code_offset;
+            break :blk self.code.items.len;
+        };
+```
+
+https://github.com/ziglang/zig/pull/8847/files#diff-9ce0a4b8e7f543bcef9fa9b480a1588a459deab87fc80f924408b532c3ae7dc3R867
