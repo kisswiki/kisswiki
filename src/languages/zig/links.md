@@ -59,6 +59,8 @@
 - https://github.com/aligator/todo - A zig cli client for https://github.com/dominikbraun/todo
 - https://github.com/tarasyarema/zig-docker
 - https://github.com/jlauman/zig_examples
+  - https://github.com/jlauman/zig_examples/pull/1
+    - my fixes https://github.com/rofrol/zig_examples/tree/fixes
   - https://github.com/jlauman/zig_examples/blob/ef439d2fe631580a4b78de032f96b28bf32158d8/92_file_rw/example.zig#L13
 - https://github.com/pfgithub/zcho - it's like echo but written in zig and it has a few more options
 - https://github.com/kprotty/zig-adaptive-lock - Benchmarking a faster std.Mutex implementation for Zig

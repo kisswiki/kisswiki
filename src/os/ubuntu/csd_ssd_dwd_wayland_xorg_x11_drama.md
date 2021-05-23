@@ -23,3 +23,12 @@ Not in Wayland; if the client doesn't process events, the compositor knows that.
 However, client side decorations ho have much more severe implications beyond estetic. For starters, with server decorations, you cannot guarantee frame-perfect synchronization of decoration and client area painting; with client decorations, you can, the same process does it.
 
 https://news.ycombinator.com/item?id=27254174
+
+## CSD cons
+
+makomk 1 hour ago [–]
+
+The problem with SDL's Wayland backend is that, as I understand it, you won't get any window decorations on common Wayland compositors like the Gnome one because Gnome expects every app to implement the window decorations itself (and the expected way to do this is by dragging in the entirety of Gtk, even if you're not using any of the other functionality of the toolkit). It looks like SDL are working on some kind of solution but it doesn't seem to be ready yet.
+As it stands, though, it's probably not feasible to actually ship a game with Wayland support using SDL due to the potential support issues from people not running in fullscreen mode being stuck with a window that can't be moved, minimized or closed in the usual way.
+
+https://news.ycombinator.com/item?id=27253878
