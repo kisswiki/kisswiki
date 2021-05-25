@@ -357,6 +357,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://github.com/ziglibs/zgl - This library provides a thin, type-safe binding for OpenGL on top of libepoxy
 - https://github.com/ryuukk/zark - 2D & 3D Game Framework written in Zig, inspired by libGDX/XNA
 - https://github.com/LakeByTheWoods/zig-bgfx-sdl2 - Minimal zig project to get bgfx running with sdl2
+- https://github.com/Bekwnn/Eden - A game framework written in Zig, built on SDL2
 
 ## Image
 
