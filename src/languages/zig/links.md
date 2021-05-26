@@ -40,6 +40,7 @@
 - https://news.ycombinator.com/threads?id=AndyKelley
 - https://gist.github.com/LewisGaul/d5b303da9c03bf95f778c64e12ef1c5e - Collection of blog posts about the Zig programming language
 - https://medium.com/tag/zig
+- https://github.com/trending/zig?since=monthly
 
 ## Code examples
 
