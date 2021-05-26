@@ -42,6 +42,7 @@
 - https://medium.com/tag/zig
 - https://github.com/trending/zig?since=monthly
 - https://gist.github.com/search?l=Zig&o=desc&q=zig&s=updated
+- https://github.com/search?o=desc&q=language%3Azig&s=indexed&type=Code
 
 ## Code examples
 
