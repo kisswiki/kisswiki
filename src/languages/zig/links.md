@@ -415,8 +415,8 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
   - https://news.ycombinator.com/item?id=24615916
 - [struct definition with var instead of const in zig language - Stack Overflow](https://stackoverflow.com/questions/62554187/struct-definition-with-var-instead-of-const-in-zig-language)
 - [Zig in 30 minutes](https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50)
-- [Zig in 30 Minutes](https://news.ycombinator.com/item?id=25618302)
-- [Zig in 30 minutes : programming](https://www.reddit.com/r/programming/comments/kpirah/zig_in_30_minutes/)
+  - https://news.ycombinator.com/item?id=25618302
+  - https://www.reddit.com/r/programming/comments/kpirah/zig_in_30_minutes/
 - [Is Zig the Long Awaited C Replacement? | by Erik Engheim | Medium](https://erik-engheim.medium.com/is-zig-the-long-awaited-c-replacement-c8eeace1e692)
 - [c++ - Integer division overflows - Stack Overflow](https://stackoverflow.com/questions/30394086/integer-division-overflows)
 - [C++ vs Zig Template Based Programming | by Erik Engheim | Level Up Coding](https://levelup.gitconnected.com/c-vs-zig-template-based-programming-d3e248885aa)
@@ -511,7 +511,6 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - [Switching on tuples? - Usage - The Zig Programming Language Forum](https://zigforum.org/t/switching-on-tuples/210)
 - https://github.com/Hejsil/lemonbar-maker
 - [remove u0 from zig · Issue #1530 · ziglang/zig](https://github.com/ziglang/zig/issues/1530)
-- [Why Optimistic Merging Works Better - Hintjens.com](http://hintjens.com/blog:106)
 - https://github.com/rivten/senoceton
 - [> But if I understand correctly, out-of-the-box, Zig's `union` doesn't get a tag...](https://news.ycombinator.com/item?id=17187008)
 - [Converting a Rust Enum Example to a Zig Tagged Union : Zig](https://www.reddit.com/r/Zig/comments/ir0rl7/converting_a_rust_enum_example_to_a_zig_tagged/)
