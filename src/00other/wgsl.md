@@ -1,0 +1,3 @@
+- [WGSL is terrible! · Issue #566 · gpuweb/gpuweb](https://github.com/gpuweb/gpuweb/issues/566)
+- [Consider adding sugar for familiar loop constructs · Issue #569 · gpuweb/gpuweb](https://github.com/gpuweb/gpuweb/issues/569)
+- [[wgsl] Document motivation for not just using GLSL? · Issue #610 · gpuweb/gpuweb](https://github.com/gpuweb/gpuweb/issues/610)
