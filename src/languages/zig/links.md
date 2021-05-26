@@ -19,13 +19,13 @@
   - https://www.reddit.com/r/programming/comments/j1azlo/zigs_new_relationship_with_llvm/
 - https://kristoff.it/blog/what-is-zig-comptime/
 - https://nelari.us/post/raytracer_with_rust_and_zig/
-- https://gist.github.com/LewisGaul/d5b303da9c03bf95f778c64e12ef1c5e - Collection of blog posts about the Zig programming language
 
 ## News sources
 
 - https://www.reddit.com/r/Zig
 - https://zigforum.org
 - https://twitter.com/ziglang
+- https://twitter.com/search?q=ziglang&src=typed_query&f=live
 - https://github.com/topics/zig-lang
 - https://stackoverflow.com/questions/tagged/zig
 - https://zig.show/
@@ -38,6 +38,8 @@
   - [Zig: A programming language designed for robustness, optimality, and clarity –  Andrew Kelley - YouTube](https://www.youtube.com/watch?v=Z4oYSByyRak)
 - https://vimeo.com/andrewrk
 - https://news.ycombinator.com/threads?id=AndyKelley
+- https://gist.github.com/LewisGaul/d5b303da9c03bf95f778c64e12ef1c5e - Collection of blog posts about the Zig programming language
+- https://medium.com/tag/zig
 
 ## Code examples
 
