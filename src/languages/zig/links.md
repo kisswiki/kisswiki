@@ -41,6 +41,7 @@
 - https://gist.github.com/LewisGaul/d5b303da9c03bf95f778c64e12ef1c5e - Collection of blog posts about the Zig programming language
 - https://medium.com/tag/zig
 - https://github.com/trending/zig?since=monthly
+- https://gist.github.com/search?l=Zig&o=desc&q=zig&s=updated
 
 ## Code examples
 
