@@ -14,6 +14,8 @@
 - https://www.reddit.com/r/linuxquestions/comments/btsl09/what_are_your_favorite_cli_applications/
 - https://www.reddit.com/r/rust/comments/cysvjh/what_are_some_amazing_softwaresoftware_clones/
 - https://www.disruptivelabs.in/blog/cli-on-steroids/
+- https://github.com/TaKO8Ki/awesome-alternatives-in-rust
+  - https://news.ycombinator.com/item?id=27312564
 
 ## bat > cat
 
