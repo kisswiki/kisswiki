@@ -1,3 +1,10 @@
+## Basics
+
+- [juancarlospaco/awesome-streaming-tools: Awesome Streaming Tools](https://github.com/juancarlospaco/-wesome-streaming-tools)
+- https://elasticwebinar.com/blog/-ecording-automated-webinar-presentation-with-obs-studio/
+- https://obsproject.com/forum/resources/-bs-and-obs-studio-install-plugins-windows.421/
+- [5 ADVANCED Features You SHOULD Be Using in OBS Studio - YouTube](https://www.youtube.com/watch?v=CvzAoqXtREw)
+
 ## When started recording: Invalid Path or Connection URL
 
 > If you want to record, you should press Start Recording, not Start Streaming. You haven't configured a streaming server which is why you get the error when you press Start Streaming. https://obsproject.com/forum/threads/invalid-path-or-connection-url-error-keeps-appearing.69962/post-299324
@@ -35,3 +42,27 @@ You see the recording state in the OBS status bar and in the OBS status window a
 https://obsproject.com/forum/threads/so-how-do-i-actually-see-an-indication-whether-im-recording-or-not.111369/post-421231
 
 Or sound indicator https://obsproject.com/forum/resources/stream-recording-start-stop-beep-srbeep.392/
+
+- https://obsproject.com/forum/threads/simple-recording-stream-indicator.-4387/
+
+## overlays
+
+- https://streamsentials.com/how-to-add-your-overlay-to-obs-studio/
+- https://obsproject.com/forum/tags/overlays/
+- [geerlingguy/obs-task-list-overlay: An HTML and Node.js-based task list overlay for OBS.](https://github.com/geerlingguy/-bs-task-list-overlay)
+- https://github.com/topics/obs-overlay
+- https://github.com/topics/stream-overlay
+- https://github.com/luckydye/obs-overlay-lib
+- [negue/todo-overlay: A todo overlay to use in OBS while streaming](https://github.com/negue/todo-overlay)
+- [dialogik-tv/twitch-chat-weather-obs-overlay: A Twitch chat controlled webbased weather overlay to use in Open Broadcaster -oftware (OBS), Streamlabs OBS, XSplit and others. You can see this overlay in use at twitch.tv/Freakydna or in the -ialogikTV Twitch channel.](https://github.com/dialogik-tv/twitch-chat-weather-obs-overlay)
+- https://github.com/spenibus/obs-overlay-html-js
+- [zhivotnoya/XION-ChaseCam: This is a free-to-use HTML/javascript based overlay for roleplay streamers. Basically it mimics -he overlay of the AXON bodycam, but since most folks play in 3rd person, it's a ChaseCam. I've included a logo, and the -tml file. The html file has the css, html, and javascript all in one file for ease of editing. Goto line 81 of the html -ile to change your information, and be sure to read the readme.txt file for further information.](https://github.com/-hivotnoya/XION-ChaseCam)
+- [airbenich/obsOverlay: A websocket based overlay software for showing lower-thirds in Open Broadcaster Studio via webview.]- https://github.com/airbenich/obsOverlay)
+- https://github.com/cssmfc/camgirl-obs
+- https://streamkit.discord.com/overlay
+
+## Alternatives
+
+- [Live Streaming & Recording Software | XSplit](https://www.xsplit.com/)
+  - OBS and XSplit are the only ones supported by discord https://streamkit.discord.com/overlay
+- https://alternativeto.net/software/playclaw/
