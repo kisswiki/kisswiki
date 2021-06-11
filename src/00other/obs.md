@@ -27,3 +27,11 @@ After that `Right click the source > Resize output (source size)` which will set
 
 - https://obsproject.com/forum/threads/how-to-record-only-a-portion-of-a-screen.70457/post-514126
 - https://superuser.com/questions/1473902/how-can-i-capture-a-portion-of-the-screen-during-a-screen-capture/1473903#1473903
+
+## recording indicator
+
+You see the recording state in the OBS status bar and in the OBS status window as long as you don't minimize OBS. If you activate the system tray icon in Settings->General->System Tray, you'll notice a red dot in that icon while recording. However, if the task bar is hidden due to playing some game in fullscreen mode, you will not be able to see this. Unfortunately, there is no overlay that indicates the recording state for fullscreen games. Most useful for this case is a second monitor where you move OBS to.
+
+https://obsproject.com/forum/threads/so-how-do-i-actually-see-an-indication-whether-im-recording-or-not.111369/post-421231
+
+Or sound indicator https://obsproject.com/forum/resources/stream-recording-start-stop-beep-srbeep.392/
