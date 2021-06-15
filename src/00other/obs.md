@@ -66,3 +66,11 @@ Or sound indicator https://obsproject.com/forum/resources/stream-recording-start
 - [Live Streaming & Recording Software | XSplit](https://www.xsplit.com/)
   - OBS and XSplit are the only ones supported by discord https://streamkit.discord.com/overlay
 - https://alternativeto.net/software/playclaw/
+
+## Pause recording
+
+You cannot pause if there is `Settings > Output > Recording > Recording Quality > Same as stream`.
+
+Change to other quality.
+
+https://obsproject.com/forum/threads/how-to-pause-during-recording-of-display-capture.124412/#post-464529
