@@ -1,3 +1,9 @@
+## Online
+
+- https://www.adobe.com/acrobat/online/sign-pdf.html
+
+## Ubuntu
+
 - Xournal
   - https://unix.stackexchange.com/questions/85873/how-can-i-add-a-signature-png-to-a-pdf-in-linux/225245#225245
   - https://askubuntu.com/questions/29230/is-there-software-that-can-fill-pdf-forms/183968#183968
