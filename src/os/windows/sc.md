@@ -1,4 +1,5 @@
-Some links in src/databases/mongodb/install_service_windows_scoop.md
+- https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/sc-config
+- Some links in src/databases/mongodb/install_service_windows_scoop.md
 
 ## delete service failed 1072
 

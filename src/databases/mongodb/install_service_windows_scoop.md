@@ -69,6 +69,8 @@ NOTE: There is one double quote around whole `binPath=` value.
 - `net` is sync, `sc` is async. So using `sc start <service>` sate will be `START_PENDING` and then later will be `RUNNING` https://superuser.com/questions/315166/net-start-service-and-sc-start-what-is-the-difference/552234#552234
 - https://www.wikihow.com/Copy-Files-in-Command-Prompt
 - https://serverfault.com/questions/919546/set-service-starttype-to-automatic-delayed
+  - example with depend https://stackoverflow.com/questions/35828041/how-to-install-a-service-with-the-delayed-auto-startup-type-in-windows-xp
+- https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/sc-config
 
 ## Windows could not start the MongoDB4 on Local Computer
 
