@@ -50,6 +50,8 @@ NOTE: Beware that there should be space before equal sign, like `binPath= "...`.
 
 NOTE: There is one double quote around whole `binPath=` value.
 
+NOTE: Theres is also https://docs.mongodb.com/manual/reference/program/mongod/#std-option-mongod.--directoryperdb
+
 ```
 :: `start= auto` or `start= delayed-auto`
 >sc create MongoDB binPath= "%USERPROFILE%\scoop\apps\mongodb\current\bin\mongod.exe --service --config=%USERPROFILE%\scoop\apps\mongodb\mongod.cfg" DisplayName= MongoDB start= auto
