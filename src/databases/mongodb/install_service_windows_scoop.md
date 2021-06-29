@@ -1,3 +1,5 @@
+`scoop install mongodb`
+
 Run cmd.exe as Administrator
 
 NOTE: `mongod --install` installed service, but I wanted to change config path. Couldn't install service with mongod:
@@ -49,7 +51,8 @@ NOTE: Beware that there should be space before equal sign, like `binPath= "...`.
 NOTE: There is one double quote around whole `binPath=` value.
 
 ```
->sc create MongoDB binPath= "%USERPROFILE%\scoop\apps\mongodb\current\bin\mongod.exe --service --config=%USERPROFILE%\scoop\apps\mongodb\mongod.cfg" DisplayName= "MongoDB" start= "auto"
+:: `start= auto` or `start= delayed-auto`
+>sc create MongoDB binPath= "%USERPROFILE%\scoop\apps\mongodb\current\bin\mongod.exe --service --config=%USERPROFILE%\scoop\apps\mongodb\mongod.cfg" DisplayName= MongoDB start= auto
 >sc start mongodb
 :: Find out if STATE is RUNNING
 >sc query mongodb | findstr /i state
@@ -65,6 +68,7 @@ NOTE: There is one double quote around whole `binPath=` value.
   - https://stackoverflow.com/questions/353161/how-to-test-whether-a-service-is-running-from-the-command-line/40903034#40903034
 - `net` is sync, `sc` is async. So using `sc start <service>` sate will be `START_PENDING` and then later will be `RUNNING` https://superuser.com/questions/315166/net-start-service-and-sc-start-what-is-the-difference/552234#552234
 - https://www.wikihow.com/Copy-Files-in-Command-Prompt
+- https://serverfault.com/questions/919546/set-service-starttype-to-automatic-delayed
 
 ## Windows could not start the MongoDB4 on Local Computer
 
