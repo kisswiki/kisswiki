@@ -1,3 +1,5 @@
+Some links in src/databases/mongodb/install_service_windows_scoop.md
+
 ## delete service failed 1072
 
 Run cmd.exe as Administrator
