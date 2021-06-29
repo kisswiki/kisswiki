@@ -65,6 +65,7 @@ NOTE: Theres is also https://docs.mongodb.com/manual/reference/program/mongod/#s
 - https://stackoverflow.com/questions/2438055/how-can-i-run-mongodb-as-a-windows-service/41073438#41073438
   - https://stackoverflow.com/questions/22969325/how-to-install-mongodb-as-service-on-windows-8-1/32331910#32331910
   - https://stackoverflow.com/questions/51095435/create-the-mongodb-windows-service-command-does-nothing/51097291#51097291
+  - Without config https://stackoverflow.com/questions/2741039/running-mongod-as-a-windows-service/4099016#4099016
 - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 - https://stackoverflow.com/questions/3325081/how-to-check-if-a-service-is-running-via-batch-file-and-start-it-if-it-is-not-r/3325102#3325102
   - https://stackoverflow.com/questions/353161/how-to-test-whether-a-service-is-running-from-the-command-line/40903034#40903034
