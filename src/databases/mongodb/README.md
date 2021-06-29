@@ -1,9 +1,12 @@
 run client
 
+NOTE: There is no “create” command in the MongoDB shell. In order to create a database, you will first need to switch the context to a non-existing database using the use command. https://www.mongodb.com/basics/create-database
+
 ```
 $ mongo
 > show dbs
 > use myDB
+> db.getName()
 > show collections
 > db.collectionName.find()
 ```
