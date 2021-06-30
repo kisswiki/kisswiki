@@ -1,14 +1,14 @@
-
->Oto co się dzieje: jeżeli większość pola widzenia jest ciemna to źrenica rozszerza się, co uwydatnia wadę wzroku(oko zbiera światło z większego zakresu kątów).
+> Oto co się dzieje: jeżeli większość pola widzenia jest ciemna to źrenica rozszerza się, co uwydatnia wadę wzroku(oko zbiera światło z większego zakresu kątów).
 >
->Czytanie kiedy literki Ci się rozmazują męczy oczy, co może nawet prowadzić do chorób.
+> Czytanie kiedy literki Ci się rozmazują męczy oczy, co może nawet prowadzić do chorób.
 >
->Ja nabawiłem się gradówki, czego nikomu nie polecam, bo cholerstwo nawet usunięte operacyjnie lubi wracać.
+> Ja nabawiłem się gradówki, czego nikomu nie polecam, bo cholerstwo nawet usunięte operacyjnie lubi wracać.
+>
 > - Tadeusz Piskozub
 
 > Nawet nie samą jasność, ale temperaturę barwną... - Maciej Jaros
 
->Ekran nie powinien być jaśniejszy niż otoczenie. - Bartosz Dittmar
+> Ekran nie powinien być jaśniejszy niż otoczenie. - Bartosz Dittmar
 
 https://www.facebook.com/groups/257881290932879/
 
@@ -30,8 +30,8 @@ settings:
       "statusBar.background": "#ffffff",
       "sideBar.background": "#ffffff",
       "activityBar.background": "#ffffff",
-      "editorIndentGuide.activeBackground": "#888",
-    },
+      "editorIndentGuide.activeBackground": "#888"
+    }
   }
 }
 ```
@@ -72,3 +72,11 @@ https://www.apartmenttherapy.com/is-watching-tv-in-the-dark-bad-152622
 "There is also strain of the iris muscles resulting from the prolonged dilation of the pupil and another objection is that the varying intensity of the light reflected from the screen requires constant iris action more difficult of accomplishment than under normal dilation.
 
 https://www.thecrimson.com/article/1927/2/17/poor-lighting-in-movie-theatres-causes/
+
+##
+
+For instance, a positive polarity advantage has been found in error rates and reading speed in a letter identification task (Bauer and Cavonius 1980), the number of transcribed letters onto paper (Radl 1980), subjective ratings on visual comfort (Saito, Taptagaporn, and Salvendy 1993; Taptagaporn and Saito 1990, 1993), text comprehension (A. H. Wang, Fang, and Chen 2003), reading speed (Chan and Lee 2005) and proofreading performance (Buchner and Baumgartner 2007). Taptagaporn and Saito (1990, 1993) tracked changes in pupil size for different illumination levels as well as for the viewing of different visual targets, such as a cathode ray tube (CRT) display, script and keyboard. They found less visual fatigue as measured by the frequency of changes in pupil size when working was accomplished with a positive than with a negative polarity display. Likewise, Saito, Taptagaporn, and Salvendy (1993) found faster lens accommodation and thus faster focusing of the eye with positive than with negative polarity displays.
+
+- https://tidbits.com/2019/05/31/the-dark-side-of-dark-mode/
+- https://news.ycombinator.com/item?id=20074715
+- https://twitter.com/rofrol/status/1135659108219195393
