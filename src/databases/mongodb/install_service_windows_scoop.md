@@ -4,23 +4,28 @@ Run cmd.exe as Administrator
 
 NOTE: `mongod --install` installed service, but I wanted to change config path. Couldn't install service with mongod:
 
-```
+```cmd.exe
 >mongod --config %USERPROFILE%\scoop\apps\mongodb\current\bin\mongod.cfg --install
 Error parsing command line:  Multiple occurrences of option "--config"
 ```
 
-```
->copy %USERPROFILE%\scoop\apps\mongodb\current\bin\mongod.cfg %USERPROFILE%\scoop\apps\mongodb\
+```powershell
+>New-Item -ItemType Directory -Force -Path $Env:USERPROFILE\.local\share\mongodb
+:: If you are creating config from scratch
+>New-Item -ItemType Directory -Force -Path $Env:USERPROFILE\.config\mongodb
+>copy $Env:USERPROFILE\scoop\apps\mongodb\current\bin\mongod.cfg $Env:USERPROFILE\.config\mongodb\mongod.cfg
 ```
 
-Edit %USERPROFILE%\scoop\apps\mongodb\mongod.cfg.
+- https://stackoverflow.com/questions/16906170/create-directory-if-it-does-not-exist/16911470#16911470
 
-NOTE: dbPath and systemLog path needs to be absolute paths. Cannot use `%USERPROFILE%` etc.
+Edit `%USERPROFILE%\scoop\apps\mongodb\mongod.cfg`.
+
+NOTE: dbPath and systemLog path needs to be absolute paths. Cannot use `%USERPROFILE%` or `$Env:USERPROFILE` etc.
 
 ```
 # Where and how to store data.
 storage:
-  dbPath: C:\Users\rofro\scoop\apps\mongodb\data
+  dbPath: C:\Users\rofro\.local\share\mongodb\data
   journal:
     enabled: true
 #  engine:
@@ -30,7 +35,7 @@ storage:
 systemLog:
   destination: file
   logAppend: true
-  path:  C:\Users\rofro\scoop\apps\mongodb\log\mongod.log
+  path:  C:\Users\rofro\.local\share\mongodb\log\mongod.log
 
 # network interfaces
 net:
@@ -40,8 +45,8 @@ net:
 
 First try to run this
 
-```
->%USERPROFILE%\scoop\apps\mongodb\current\bin\mongod.exe --service --config=%USERPROFILE%\scoop\apps\mongodb\mongod.cfg
+```cmd.exe
+>%USERPROFILE%\scoop\apps\mongodb\current\bin\mongod.exe --service --config %USERPROFILE%\.config\mongodb\mongod.cfg
 ```
 
 If it works, then run below command.
@@ -54,12 +59,18 @@ NOTE: Theres is also https://docs.mongodb.com/manual/reference/program/mongod/#s
 
 ```
 :: `start= auto` or `start= delayed-auto`
->sc create MongoDB binPath= "%USERPROFILE%\scoop\apps\mongodb\current\bin\mongod.exe --service --config=%USERPROFILE%\scoop\apps\mongodb\mongod.cfg" DisplayName= MongoDB start= auto
->sc start mongodb
+>sc.exe create MongoDB binPath= "%USERPROFILE%\scoop\apps\mongodb\current\bin\mongod.exe --service --config %USERPROFILE%\.config\mongodb\mongod.cfg" DisplayName= MongoDB start= auto
+>sc.exe start mongodb
 :: Find out if STATE is RUNNING
->sc query mongodb | findstr /i state
+>sc.exe query mongodb | findstr /i state
 :: Connect to mongodb
 >mongo
+```
+
+To delete service you may need to close services.msc. Also didn't work without `exe`: `sc delete mongodb`. Then:
+
+```powershell
+>sc.exe delete mongodb
 ```
 
 - https://stackoverflow.com/questions/2438055/how-can-i-run-mongodb-as-a-windows-service/41073438#41073438
@@ -70,7 +81,7 @@ NOTE: Theres is also https://docs.mongodb.com/manual/reference/program/mongod/#s
 - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 - https://stackoverflow.com/questions/3325081/how-to-check-if-a-service-is-running-via-batch-file-and-start-it-if-it-is-not-r/3325102#3325102
   - https://stackoverflow.com/questions/353161/how-to-test-whether-a-service-is-running-from-the-command-line/40903034#40903034
-- `net` is sync, `sc` is async. So using `sc start <service>` sate will be `START_PENDING` and then later will be `RUNNING` https://superuser.com/questions/315166/net-start-service-and-sc-start-what-is-the-difference/552234#552234
+- `net` is sync, `sc` is async. So using `sc.exe start <service>` sate will be `START_PENDING` and then later will be `RUNNING` https://superuser.com/questions/315166/net-start-service-and-sc-start-what-is-the-difference/552234#552234
 - https://www.wikihow.com/Copy-Files-in-Command-Prompt
 - https://serverfault.com/questions/919546/set-service-starttype-to-automatic-delayed
   - example with depend https://stackoverflow.com/questions/35828041/how-to-install-a-service-with-the-delayed-auto-startup-type-in-windows-xp
