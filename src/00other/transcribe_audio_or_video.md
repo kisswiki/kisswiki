@@ -1,0 +1,9 @@
+- [How to Convert Audio to Text for FREE | Transcribe MP3 | Audio to Text Converter for free in 2020 - YouTube](https://www.youtube.com/watch?v=67ZfPmf5Hpg)
+- [How to Transcribe MP3 to Text Automatically - YouTube](https://www.youtube.com/watch?v=W8LMm2cWqaE)
+- [Transcribe Audio to Text Free: How to Convert Audio to Text Using Microsoft Word, Google Docs, More - YouTube](https://www.youtube.com/watch?v=rsePFiX2kFw)
+- [How to Convert Video / Audio to Text Automatically for FREE using YouTube's Text Subtitles Converter - YouTube](https://www.youtube.com/watch?v=XBrHsCsjMQM)
+- https://www.descript.com/
+- https://otter.ai
+- https://www.happyscribe.com/
+- https://www.veed.io/
+- https://www.stellarinfo.com/
