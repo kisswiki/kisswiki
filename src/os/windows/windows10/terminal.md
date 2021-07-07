@@ -18,4 +18,9 @@ https://github.com/rofrol/WindowsTerminalSettings
 
 },
 ```
+
 - https://stackoverflow.com/questions/56839307/adding-git-bash-to-the-new-windows-terminal/57369284#57369284
+
+## Copy text
+
+Select text and click right mouse button
