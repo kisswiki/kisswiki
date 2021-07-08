@@ -10,9 +10,10 @@ I have seen it in pug (previously jade) template:
 - https://angular.io/guide/structural-directives#asterisk
 - https://vsavkin.com/angular-2-template-syntax-5f2ee9f13c6a
 
-## temlate
+## misc
 
 - https://angular.io/guide/template-syntax
+- https://angular.io/api/core/HostListener
 
 ## Angular 2 playground
 
