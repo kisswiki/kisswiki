@@ -9,11 +9,20 @@ I have seen it in pug (previously jade) template:
 - https://stackoverflow.com/questions/40078189/angular-2-why-asterisk
 - https://angular.io/guide/structural-directives#asterisk
 - https://vsavkin.com/angular-2-template-syntax-5f2ee9f13c6a
+  - https://github.com/jhusain/observable-spec
 
 ## misc
 
-- https://angular.io/guide/template-syntax
 - https://angular.io/api/core/HostListener
+- https://angular.io/guide/template-syntax
+- https://angular.io/guide/property-binding
+- https://angular.io/guide/two-way-binding
+
+## different brackets
+
+- https://stackoverflow.com/questions/55806775/the-angular-brackets-what-they-bind-and-when-to-use-which
+- https://stackoverflow.com/questions/35944749/what-is-the-difference-between-parentheses-brackets-and-asterisks-in-angular2
+- https://stackoverflow.com/questions/43633452/when-to-use-square-brackets-in-directives-inputs-and-when-not/43633667
 
 ## Angular 2 playground
 
