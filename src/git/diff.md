@@ -3,3 +3,13 @@
   - https://github.com/jeffkaufman/icdiff
 - https://www.araxis.com/merge/index.en
 - `git diff --word-diff` https://www.viget.com/articles/dress-up-your-git-diffs-with-word-level-highlights/
+- https://news.ycombinator.com/item?id=27768861
+  - https://www.plasticscm.com/features/xmerge
+  - https://github.com/mookid/diffr
+  - https://github.com/wilfred/difftastic
+  - https://blog.jcoglan.com/2017/09/19/the-patience-diff-algorithm/
+  - https://github.com/GumTreeDiff/gumtree
+  - https://github.com/GumTreeDiff/gumtree/issues/148
+  - https://github.com/dandavison/delta
+  - https://news.ycombinator.com/item?id=27772256
+  - https://github.com/NateEag/diff-check
