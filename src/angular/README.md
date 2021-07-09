@@ -24,6 +24,15 @@ I have seen it in pug (previously jade) template:
 - https://stackoverflow.com/questions/35944749/what-is-the-difference-between-parentheses-brackets-and-asterisks-in-angular2
 - https://stackoverflow.com/questions/43633452/when-to-use-square-brackets-in-directives-inputs-and-when-not/43633667
 
+## pug iterate over object
+
+```pug
+div(*ngFor="let item of colorsNames | keyvalue")
+	span Key: b {{item.key}} and Value: b{{item.value}}
+```
+
+- https://stackoverflow.com/questions/35534959/access-key-and-value-of-object-using-ngfor
+
 ## Angular 2 playground
 
 - A minimal Angular2 playground using TypeScript and SystemJS loader
