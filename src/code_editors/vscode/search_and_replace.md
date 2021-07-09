@@ -30,3 +30,4 @@ In search dialog or permanently:
 ```
 
 - https://stackoverflow.com/questions/45895070/vs-code-search-exclude-doesnt-work/51066228#51066228
+- https://code.visualstudio.com/docs/getstarted/settings
