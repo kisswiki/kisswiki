@@ -33,6 +33,20 @@ div(*ngFor="let item of colorsNames | keyvalue")
 
 - https://stackoverflow.com/questions/35534959/access-key-and-value-of-object-using-ngfor
 
+## interpolate in expression
+
+```pug
+div([style.grid-template-columns]="'repeat('+colors.length/2+', 1fr)'"
+```
+
+or
+
+```pug
+div(style="grid-template-columns: repeat({{colors.length/2}}, 1fr)"
+```
+
+- https://stackoverflow.com/questions/47057696/how-to-use-es6-template-literal-as-angular-component-input/47057836#47057836
+
 ## Angular 2 playground
 
 - A minimal Angular2 playground using TypeScript and SystemJS loader
