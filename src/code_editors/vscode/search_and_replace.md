@@ -18,3 +18,15 @@ https://github.com/Microsoft/vscode/issues/8787#issuecomment-230761140
 and with subdirectory
 
 `src/**/*.{tsx,jsx,js,ts}`
+
+## exclude
+
+In search dialog or permanently:
+
+`ctrl+shift+p > open settings json`
+
+```
+    "search.exclude": { "**/*.map": true }
+```
+
+- https://stackoverflow.com/questions/45895070/vs-code-search-exclude-doesnt-work/51066228#51066228
