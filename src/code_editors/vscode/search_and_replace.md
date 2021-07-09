@@ -19,9 +19,9 @@ and with subdirectory
 
 `src/**/*.{tsx,jsx,js,ts}`
 
-## exclude
+## exclude extension
 
-In search dialog or permanently:
+In search dialog `*.map` or permanently:
 
 `ctrl+shift+p > open settings json`
 
