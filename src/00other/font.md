@@ -1,5 +1,7 @@
 ## Overview
 
+`0123456789 {}[]=<>{}|&;,.- 1lIi|`
+
 - https://www.programmingfonts.org/
   - https://github.com/ProgrammingFonts/ProgrammingFonts
 - https://www.s9w.io/font_compare/
