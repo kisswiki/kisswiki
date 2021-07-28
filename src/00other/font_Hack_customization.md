@@ -105,3 +105,23 @@ in vscode settings.json:
   "editor.fontSize": 15, // Hack
   "editor.lineHeight": 30, // Hack
 ```
+
+To add ligatures:
+
+```
+git clone --recurse-submodules https://github.com/ToxicFrog/Ligaturizer
+sudo apt update
+sudo apt install python-fontforge -y
+cp /path/to/Hack-Regular.ttf fonts/codeface/fonts/hack/
+make
+```
+
+I needed to restart Windows to see the updated 'Liga Hack'.
+
+in vscode settings.json:
+
+```
+  "editor.fontFamily": "Liga Hack",
+  "editor.fontSize": 15, // Hack
+  "editor.lineHeight": 30, // Hack
+```
