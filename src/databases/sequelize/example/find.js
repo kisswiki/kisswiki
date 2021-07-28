@@ -3,7 +3,6 @@ require("dotenv").config();
 var Sequelize = require("sequelize");
 var Post = require("./post");
 
-// 0123456789
 const uri = `postgresql://${process.env.DBROLE}:${process.env.DBPASS}@localhost:5432/${process.env.DBNAME}`;
 const sequelize = new Sequelize(uri);
 
