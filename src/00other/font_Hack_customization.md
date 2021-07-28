@@ -126,4 +126,9 @@ in vscode settings.json:
   "editor.lineHeight": 30, // Hack
 ```
 
-You can download [LigaHack-Regular.ttf](./LigaHack-Regular.ttf)
+Hack-Regular.ttf
+
+Download those fonts:
+
+- [Hack-Regular.ttf](./Hack-Regular.ttf)
+- [LigaHack-Regular.ttf](./LigaHack-Regular.ttf)
