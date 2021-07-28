@@ -2,7 +2,9 @@ Final result in vscode:
 
 ![](./Hack_vscode.png)
 
-![](./Hack_zero_variants.png) - image from https://medium.com/source-words/hack-typeface-v3-6943991c1a80
+![](./Hack_zero_variants.png)
+
+Image from https://medium.com/source-words/hack-typeface-v3-6943991c1a80
 
 ## Windows 10
 
