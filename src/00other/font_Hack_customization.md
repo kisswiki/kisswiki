@@ -1,6 +1,8 @@
-https://medium.com/source-words/hack-typeface-v3-6943991c1a80
+Final result in vscode:
 
-![](./Hack_zero_variants.png)
+![](./Hack_vscode.png)
+
+![](./Hack_zero_variants.png) - image from https://medium.com/source-words/hack-typeface-v3-6943991c1a80
 
 ## Windows 10
 
@@ -81,3 +83,11 @@ To install on Windows just doubleclick on ttf file.
 There was problem for me that there was directory with fonts `C:\Windows\Fonts\Hack` and uninstalling Hack font wasn't removing this directory and I was using old unomdified version of Hack. So I needed to delete fonts one by one from this directory and install ttf file again.
 
 You need to restart vscode to use newly installed font.
+
+in vscode settings.json:
+
+```
+  "editor.fontFamily": "Hack",
+  "editor.fontSize": 15, // Hack
+  "editor.lineHeight": 30, // Hack
+```
