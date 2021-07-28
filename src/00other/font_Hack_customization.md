@@ -72,6 +72,18 @@ Modify lines in `patch-hack.sh`.
  )
 ```
 
+I also needed to comment out lines in `Hack/postbuild_processing/tt-hinting/Hack-Regular-TA.txt`
+
+```diff
+ # U+0030 zero glyph ID 548
+-uni0030 touch 35,36,45,46,47,56  y -0.5   @8
+-uni0030 touch 35,36,56           y -1.0   @12,13,14
++#zero touch 35,36,45,46,47,56  y -0.5   @8
++#zero touch 35,36,56           y -1.0   @12,13,14
+```
+
+After that:
+
 ```
 bash patch-hack.sh
 cd ../Hack
