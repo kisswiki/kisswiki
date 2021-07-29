@@ -19,6 +19,8 @@
   "editor.fontSize": 18, // Ubuntu Mono
 ```
 
+- https://en.m.wikipedia.org/wiki/Ubuntu_(typeface)
+
 ## Iosevka
 
 - https://github.com/be5invis/Iosevka
