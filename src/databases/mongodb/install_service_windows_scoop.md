@@ -60,6 +60,7 @@ NOTE: Theres is also https://docs.mongodb.com/manual/reference/program/mongod/#s
 ```
 :: `start= auto` or `start= delayed-auto`
 >sc.exe create MongoDB binPath= "%USERPROFILE%\scoop\apps\mongodb\current\bin\mongod.exe --service --config %USERPROFILE%\.config\mongodb\mongod.cfg" DisplayName= MongoDB start= auto
+:: powershell needs to be run as administrator for below
 >sc.exe start mongodb
 :: Find out if STATE is RUNNING
 >sc.exe query mongodb | findstr /i state
