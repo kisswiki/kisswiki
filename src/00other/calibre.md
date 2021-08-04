@@ -79,3 +79,9 @@ it is intentional to name (ok yeah why else would he program it this way) the fi
 https://www.reddit.com/r/Calibre/comments/ancn4u/getting_calibre_to_rename_actual_pdfepub_file/efswgdb/
 
 - https://github.com/agilecreativity/ebook_renamer
+
+## Viewer Default Format
+
+`Preferences > Behaviour > Preferred input format order`
+
+https://www.mobileread.com/forums/showpost.php?p=3308062&postcount=5
