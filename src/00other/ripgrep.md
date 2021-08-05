@@ -46,6 +46,22 @@ Works in cmd.exe, but not in git bash.
 
 For git bash use `//` ot '\x2F'.
 
+Or better add to config. In `~/.bashrc`:
+
+```
+export RIPGREP_CONFIG_PATH=~/.config/ripgrep/ripgreprc
+```
+
+in `~/.config/ripgrep/ripgreprc`:
+
+```
+--path-separator=/
+```
+
+- https://github.com/BurntSushi/ripgrep/issues/1373#issuecomment-548587320
+- https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md#configuration-file
+- Example of config files https://github.com/search?q=filename%3A.ripgreprc&type=code
+
 ## find files
 
 `rg --files -telm --path-separator //`
@@ -104,21 +120,21 @@ https://github.com/BurntSushi/ripgrep/issues/188
 
 ## get parent dir and file name
 
+Only `ts` extension and exclude `spec.ts` extension.
+
 ```bash
-~/projects/codecharm/magma $ rg receiveEmails -l -g '!*.spec.ts' | sed -e 's@\\@/@g' | xargs -d '\n' -I {} sh -c 'echo $(basename $(dirname {}))/$(basename {})'
-common/interfaces.ts
-server/clientHelpers.ts
-server/db.ts
-server/serverInterfaces.ts
+~/projects/codecharm/magma $ rg receiveEmails -l -tts -g '!*.spec.ts' | xargs -d '\n' -I {} sh -c 'echo $(basename $(dirname {}))/$(basename {})'
 server/serverActions.ts
+server/serverInterfaces.ts
 services/accountService.ts
+common/interfaces.ts
 common/user.ts
-modals/settings-form.pug
 modals/settings-form.ts
 modals/user-settings.ts
+server/db.ts
+server/clientHelpers.ts
 ```
 
-- https://stackoverflow.com/questions/9984748/-ow-do-i-get-sed-to-read-from-standard-input/9984761#9984761
 - https://www.cyberciti.biz/faq/bash-get-filename-from-given-path-on-linux-or-unix/
 - https://stackoverflow.com/questions/19204531/-an-xargs-default-delimiter-be-changed/19773922#19773922
 - https://stackoverflow.com/questions/3294072/-et-last-dirname-filename-in-a-file-path-argument-in-bash/3294102#3294102
