@@ -1,12 +1,33 @@
+## Only this worked
+
+```javascript
+var elements = document.getElementsByClassName("bgflag");
+BgFlags = Array.prototype.map.call(elements, (element) => ({
+  height: element.offsetTop,
+  bgsrc: element.dataset.bgsrc,
+  bgcolor: element.dataset.bgcolor,
+  size: element.dataset.size,
+  name: element.id,
+  image: parseInt(element.dataset.image),
+}));
+```
+
 ## Use map, find, filter, reduce, for..of
 
 ```javascript
-['map', 'find', 'filter', 'reduce'].forEach(f => NodeList.prototype[f] = Array.prototype[f])
+["map", "find", "filter", "reduce"].forEach(
+  (f) => (NodeList.prototype[f] = Array.prototype[f])
+);
 // this is for for..of, cannot be above 'map', 'filter' etc.
-NodeList.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator]
-document.querySelectorAll('span').map(el => console.log(el))
-document.querySelectorAll('span').filter(el => el.className === 'fc-black-500').reduce((acc, el) => (acc += el.className, acc), '')
-for(let p of document.querySelectorAll('p')) { console.log(p) }
+NodeList.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
+document.querySelectorAll("span").map((el) => console.log(el));
+document
+  .querySelectorAll("span")
+  .filter((el) => el.className === "fc-black-500")
+  .reduce((acc, el) => ((acc += el.className), acc), "");
+for (let p of document.querySelectorAll("p")) {
+  console.log(p);
+}
 ```
 
 - https://news.ycombinator.com/item?id=26320343
