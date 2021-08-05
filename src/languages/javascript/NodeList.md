@@ -12,6 +12,8 @@ BgFlags = Array.prototype.map.call(elements, (element) => ({
 }));
 ```
 
+- https://chuckdries.medium.com/traversing-the-dom-with-filter-map-and-arrow-functions-1417d326d2bc
+
 ## Use map, find, filter, reduce, for..of
 
 ```javascript
