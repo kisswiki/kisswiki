@@ -42,7 +42,9 @@ https://www.mobileread.com/forums/showpost.php?p=3676174&postcount=3
 Use ampersands (&) between each author
 
 - https://www.mobileread.com/forums/showpost.php?p=1322701&postcount=2
-- https://ebooks.stackexchange.com/questions/8216/calibre-adding-as-a-separator-for-splitting-the-authors-string#
+- https://ebooks.stackexchange.com/questions/8216/calibre-adding-as-a-separator-for-splitting-the-authors-string
+
+You can also specify that one is contributor `Audrey Pavia & Shannon Sand (Contributor)` and sorting will be `Pavia, Audrey & Sand, Shannon`
 
 ## Changing Library Folder
 
