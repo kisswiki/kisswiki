@@ -101,3 +101,26 @@ https://github.com/BurntSushi/ripgrep/issues/188
 `rg -No "classes\.(\w+)" src/components/FilterSection/FilterSection.js --replace '$1' | sort | uniq`
 
 - https://github.com/BurntSushi/ripgrep/issues/34#issuecomment-267309265
+
+## get parent dir and file name
+
+```bash
+~/projects/codecharm/magma $ rg receiveEmails -l -g '!*.spec.ts' | sed -e 's@\\@/@g' | xargs -d '\n' -I {} sh -c 'echo $(basename $(dirname {}))/$(basename {})'
+common/interfaces.ts
+server/clientHelpers.ts
+server/db.ts
+server/serverInterfaces.ts
+server/serverActions.ts
+services/accountService.ts
+common/user.ts
+modals/settings-form.pug
+modals/settings-form.ts
+modals/user-settings.ts
+```
+
+- https://stackoverflow.com/questions/9984748/-ow-do-i-get-sed-to-read-from-standard-input/9984761#9984761
+- https://www.cyberciti.biz/faq/bash-get-filename-from-given-path-on-linux-or-unix/
+- https://stackoverflow.com/questions/19204531/-an-xargs-default-delimiter-be-changed/19773922#19773922
+- https://stackoverflow.com/questions/3294072/-et-last-dirname-filename-in-a-file-path-argument-in-bash/3294102#3294102
+- https://superuser.com/questions/538877/get-the-parent-directory-for-a-file/538889#538889
+- https://unix.stackexchange.com/questions/65212/why-doesnt-this-xargs-command-work
