@@ -87,3 +87,9 @@ https://www.reddit.com/r/Calibre/comments/ancn4u/getting_calibre_to_rename_actua
 `Preferences > Behaviour > Preferred input format order`
 
 https://www.mobileread.com/forums/showpost.php?p=3308062&postcount=5
+
+## Filter by published date
+
+`pubdate:>=1945-1-1 and pubdate:<=1950-12-31`
+
+https://www.reddit.com/r/Calibre/comments/jy3gyi/search_by_date_range/gd3hz04/?utm_source=reddit&utm_medium=web2x&context=3
