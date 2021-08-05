@@ -113,10 +113,9 @@ https://github.com/BurntSushi/ripgrep/issues/188
 Only `ts` extension and exclude `spec.ts` extension.
 
 ```bash
-~/projects/codecharm/magma $ rg receiveEmails -l -g '!*.spec.ts' | xargs -d '\n' -I {} sh -c 'echo $(basename $(dirname {}))/$(basename {})' | sort | uniq
+~/projects/codecharm/magma $ rg receiveEmails -l -tts -g '!*.spec.ts' | xargs -d '\n' -I {} sh -c 'echo $(basename $(dirname {}))/$(basename {})' | sort | uniq
 common/interfaces.ts
 common/user.ts
-modals/settings-form.pug
 modals/settings-form.ts
 modals/user-settings.ts
 server/clientHelpers.ts
