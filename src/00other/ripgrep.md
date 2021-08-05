@@ -113,16 +113,17 @@ https://github.com/BurntSushi/ripgrep/issues/188
 Only `ts` extension and exclude `spec.ts` extension.
 
 ```bash
-~/projects/codecharm/magma $ rg receiveEmails -l -tts -g '!*.spec.ts' | xargs -d '\n' -I {} sh -c 'echo $(basename $(dirname {}))/$(basename {})'
+~/projects/codecharm/magma $ rg receiveEmails -l -g '!*.spec.ts' | xargs -d '\n' -I {} sh -c 'echo $(basename $(dirname {}))/$(basename {})' | sort | uniq
+common/interfaces.ts
+common/user.ts
+modals/settings-form.pug
+modals/settings-form.ts
+modals/user-settings.ts
+server/clientHelpers.ts
+server/db.ts
 server/serverActions.ts
 server/serverInterfaces.ts
 services/accountService.ts
-common/interfaces.ts
-common/user.ts
-modals/settings-form.ts
-modals/user-settings.ts
-server/db.ts
-server/clientHelpers.ts
 ```
 
 - https://www.cyberciti.biz/faq/bash-get-filename-from-given-path-on-linux-or-unix/
