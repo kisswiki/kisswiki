@@ -48,3 +48,10 @@ mongod
 ```
 
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+
+## find
+
+```javascript
+const t = await Account.find({ _id: account._id });
+console.log("t :>> ", t);
+```
