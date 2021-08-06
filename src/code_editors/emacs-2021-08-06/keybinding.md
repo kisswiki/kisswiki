@@ -18,3 +18,12 @@
 ```
 
 https://stackoverflow.com/questions/1030392/emacs-global-set-key-and-calling-interactive-function-with-argument/1030444
+
+## Ctrl Shift k translated to Ctrl k
+
+```lisp
+(global-set-key [(control shift t)] 'transpose-words-backwards)
+(global-set-key [(meta shift t)] 'transpose-words-backwards2)
+```
+
+https://stackoverflow.com/questions/38140280/what-causes-m-s-t-meta-shift-t-key-binding-not-to-take/38141909#38141909
