@@ -10,7 +10,6 @@ Start in safe mode `emacs -Q`
 - https://sites.google.com/site/steveyegge2/effective-emacs
 - https://stackoverflow.com/questions/88399/how-do-i-duplicate-a-whole-line-in-emacs
 
-
 ## distributions/starter kits
 
 - https://github.com/redguardtoo/emacs.d
@@ -106,9 +105,7 @@ https://stackoverflow.com/questions/2580650/how-can-i-reload-emacs-after-changin
 - http://ergoemacs.org/emacs/emacs_custom_system.html
 - https://www.emacswiki.org/emacs/CustomizingAndSaving
 
-
 If you use custom-set-variables or customize-set-variable instead of setq, or if you use the Customize user interface (e.g. M-x customize-option), then you are sure that any intended initialization or updating code that is needed for the option value will be automatically triggered and run as needed. If you use setq, this will not be done.
-
 
 https://emacs.stackexchange.com/questions/102/advantages-of-setting-variables-with-setq-instead-of-custom-el
 
@@ -123,7 +120,15 @@ https://emacs.stackexchange.com/questions/635/whats-the-fastest-way-to-reload-my
 (load custom-file t)
 ```
 
-https://www.reddit.com/r/emacs/comments/5udtw1/usepackageel_about_to_be_moved_to_emacs_core/ddto9mh/
+or maybe better:
+
+```lisp
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(load custom-file)
+```
+
+- https://stackoverflow.com/questions/5052088/what-is-custom-set-variables-and-faces-in-my-emacs/5058752#5058752
+- https://www.reddit.com/r/emacs/comments/5udtw1/usepackageel_about_to_be_moved_to_emacs_core/ddto9mh/
 
 ## Errors/Debug
 
@@ -215,9 +220,9 @@ This is to easily profile your Emacs init file (or any other
 script-like Emacs Lisp file, for that matter).
 
 It will go over all sexp's (balanced expressions) in the file and
-run them through `benchmark-run'.  It will then show the file with
+run them through `benchmark-run'. It will then show the file with
 overlays applied in a way that let you easily find out which sexp's
-take the most time.  Since time is relative, it's not the absolute
+take the most time. Since time is relative, it's not the absolute
 value that counts but the percentage of the total running time.
 
 https://github.com/raxod502/profile-dotemacs/blob/master/profile-dotemacs.el

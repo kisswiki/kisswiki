@@ -13,7 +13,7 @@
 
 ## bind function with parameter
 
-```elisp
+```lisp
 (global-set-key (kbd "M-<up>") (lambda () (interactive) (move-line -1)))
 ```
 
