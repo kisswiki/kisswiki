@@ -1,1 +1,2 @@
 - https://two-wrongs.com/migrating-away-from-use-package
+- https://www.emacswiki.org/emacs/InstallingPackages
