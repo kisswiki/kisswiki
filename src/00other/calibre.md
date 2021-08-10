@@ -29,6 +29,8 @@ https://www.reddit.com/r/Calibre/comments/fw8qk7/how_to_change_the_default_viewe
 
 Just select all entries belonging to the same book, then right-click and find "Merge book records" under "Edit metadata".
 
+Or alt-drag with mouse.
+
 https://superuser.com/questions/748199/merging-two-books-in-calibres-index/748207#748207
 
 ## switch author and title
