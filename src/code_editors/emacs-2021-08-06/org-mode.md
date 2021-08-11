@@ -55,3 +55,12 @@ Also this https://emacs.stackexchange.com/questions/7429/how-to-customize-org-mo
 
 - https://emacs.stackexchange.com/questions/27921/org-mode-cycling-inside-subtree-impossible/27923#27923
 - https://orgmode.org/manual/Global-and-local-cycling.html
+
+## Presentation
+
+- https://orgmode.org/worg/org-tutorials/non-beamer-presentations.html
+- https://www.reddit.com/r/emacs/comments/78fe6y/orgmode_presentation_and_code_execution/
+- https://github.com/howardabrams/demo-it
+- https://github.com/rlister/org-present
+- https://github.com/takaxp/org-tree-slide
+- https://github.com/jkitchin/jmax/blob/master/org/org-show.org
