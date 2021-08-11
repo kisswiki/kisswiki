@@ -50,3 +50,8 @@ Also this https://emacs.stackexchange.com/questions/7429/how-to-customize-org-mo
 ## keybindings
 
 `M-S-<right>` runs `org-shiftmetaright` to indent subtree
+
+`C-u <tab>` (#'org-cycle) will collapse all top-level trees
+
+- https://emacs.stackexchange.com/questions/27921/org-mode-cycling-inside-subtree-impossible/27923#27923
+- https://orgmode.org/manual/Global-and-local-cycling.html
