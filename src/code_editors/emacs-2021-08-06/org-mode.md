@@ -29,6 +29,24 @@ You may need to reset with `M-x org-mode`.
 
 https://emacs.stackexchange.com/questions/53445/how-remove-asterisks-in-org-mode/53455#53455
 
+## indent
+
+To disable completely indent:
+
+```elisp
+(org-indent-mode -1)
+```
+
+https://emacs.stackexchange.com/questions/22524/permanently-disable-org-indent-mode/22526#22526
+
+To not indent context set `org-adapt-indentation` to `nil`.
+
+- https://emacs.stackexchange.com/questions/41220/org-mode-disable-indentation-when-promoting-and-demoting-trees-subtrees
+- https://orgmode.org/manual/Hard-indentation.html
+- https://forsooth.org/posts/orgmode-no-indentation/index.html
+
+Also this https://emacs.stackexchange.com/questions/7429/how-to-customize-org-mode-indentation/7431#7431
+
 ## keybindings
 
 `M-S-<right>` runs `org-shiftmetaright` to indent subtree
