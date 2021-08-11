@@ -28,3 +28,7 @@ https://www.reddit.com/r/emacs/comments/akr8ux/leading_stars_visible_with_orgind
 You may need to reset with `M-x org-mode`.
 
 https://emacs.stackexchange.com/questions/53445/how-remove-asterisks-in-org-mode/53455#53455
+
+## keybindings
+
+`M-S-<right>` runs `org-shiftmetaright` to indent subtree
