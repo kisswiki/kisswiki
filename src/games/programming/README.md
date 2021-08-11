@@ -33,3 +33,5 @@
 - http://try.github.io/
 - http://gitimmersion.com
 - http://www.hacker.org/
+- https://www.quora.com/What-are-the-best-games-out-there-for-programmers
+  - https://store.steampowered.com/app/244850/Space_Engineers/
