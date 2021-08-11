@@ -64,3 +64,16 @@ Also this https://emacs.stackexchange.com/questions/7429/how-to-customize-org-mo
 - https://github.com/rlister/org-present
 - https://github.com/takaxp/org-tree-slide
 - https://github.com/jkitchin/jmax/blob/master/org/org-show.org
+
+## Misc
+
+- [Org Mode – Organize Your Life in Plain Text | Hacker News](https://news.ycombinator.com/item?id=23299993)
+- https://orgmode-exocortex.com/2020/04/28/voice-capture-org-mode-tasks-on-android/
+- https://gitlab.com/jabranham/mixed-pitch
+- https://github.com/DanielDe/org-web
+- https://github.com/200ok-ch/organice
+- http://doc.norang.ca/org-mode.html#HowToUseThisDocument
+- http://pragmaticemacs.com/category/org/
+- https://joonro.github.io/Org-Coursepack/Lectures/01%20Course%20Introduction.html
+- [The values of Emacs, the Neovim revolution, and the VSCode gorilla | Hacker News](https://news.ycombinator.com/item?id=25810427)
+- https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61
