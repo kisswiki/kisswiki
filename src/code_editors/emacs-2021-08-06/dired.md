@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/26128693/emacs-dired-slow-on-cygwin#comment47148680_26128693
