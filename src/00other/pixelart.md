@@ -6,6 +6,10 @@
   - https://store.steampowered.com/app/431730/Aseprite/
   - [Aseprite Guide for Beginners (Pixelart Tutorial) - YouTube](https://www.youtube.com/watch?v=Md6W79jtLJM&t=519s)
   - [Aseprite Animation Timeline & tools (Pixelart beginner Tutorial) - YouTube](https://www.youtube.com/watch?v=N4Z4MdZ1KWY)
+- Pixel Studio
+  - https://store.steampowered.com/app/1204050/Pixel_Studio_for_pixel_art/
+  - https://play.google.com/store/apps/details?id=com.PixelStudio
+  - https://apps.apple.com/pl/app/pixel-studio-for-pixel-art/id1404203859
 
 ## CRT and blur
 
