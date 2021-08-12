@@ -1,0 +1,3 @@
+- https://github.com/mpsq/arewewaylandyet
+- https://drewdevault.com/2019/02/10/Wayland-misconceptions-debunked.html
+- https://wiki.archlinux.org/title/wayland
