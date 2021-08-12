@@ -1,3 +1,6 @@
 - https://github.com/mpsq/arewewaylandyet
 - https://drewdevault.com/2019/02/10/Wayland-misconceptions-debunked.html
 - https://wiki.archlinux.org/title/wayland
+- https://github.com/natpen/awesome-wayland
+- https://github.com/swaywm/sway/wiki/i3-Migration-Guide#common-x11-apps-used-on-i3-with-wayland-alternatives
+- https://www.fosskers.ca/en/blog/wayland

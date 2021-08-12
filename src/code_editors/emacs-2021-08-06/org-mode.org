@@ -65,9 +65,28 @@ Also this https://emacs.stackexchange.com/questions/7429/how-to-customize-org-mo
 - https://github.com/takaxp/org-tree-slide
 - https://github.com/jkitchin/jmax/blob/master/org/org-show.org
 
+## Parse
+
+- https://orgmode.org/worg/dev/org-element-api.html
+- https://emacs.stackexchange.com/questions/17622/how-can-i-walk-an-org-mode-tree
+- https://stackoverflow.com/questions/17208842/how-to-parse-org-mode-by-org-element-elegantly
+- https://emacs.stackexchange.com/questions/31011/how-to-modify-content-of-org-mode-document-using-org-element-api
+- https://github.com/ndwarshuis/org-ml
+  - https://github.com/p3r7/awesome-elisp#org-mode-outlines
+
+## wiki + mindmap
+
+- https://github.com/Kungsgeten/org-brain
+
+## blogging
+
+- https://orgmode.org/worg/org-blog-wiki.html
+- https://github.com/novoid/lazyblorg
+
 ## Misc
 
-- [Org Mode – Organize Your Life in Plain Text | Hacker News](https://news.ycombinator.com/item?id=23299993)
+- [[https://news.ycombinator.com/item?id=23299993][Org Mode – Organize Your Life in Plain Text | Hacker News]]
+  - [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
 - https://orgmode-exocortex.com/2020/04/28/voice-capture-org-mode-tasks-on-android/
 - https://gitlab.com/jabranham/mixed-pitch
 - https://github.com/DanielDe/org-web
@@ -77,3 +96,6 @@ Also this https://emacs.stackexchange.com/questions/7429/how-to-customize-org-mo
 - https://joonro.github.io/Org-Coursepack/Lectures/01%20Course%20Introduction.html
 - [The values of Emacs, the Neovim revolution, and the VSCode gorilla | Hacker News](https://news.ycombinator.com/item?id=25810427)
 - https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61
+- https://orgmode.org/worg/org-contrib/
+- https://github.com/emacs-tw/awesome-emacs#org-mode
+- https://github.com/p3r7/awesome-elisp#org-mode-outlines
