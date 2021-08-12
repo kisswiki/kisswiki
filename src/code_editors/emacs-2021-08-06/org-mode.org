@@ -77,6 +77,12 @@ Also this https://emacs.stackexchange.com/questions/7429/how-to-customize-org-mo
 ## wiki + mindmap
 
 - https://github.com/Kungsgeten/org-brain
+  - https://braintool.org/2021/04/21/My-BrainTool-orgmode-and-emacs-workflow.html
+- https://www.reddit.com/r/orgmode/comments/akazos/orggrasp_browser_extension_for_orgcapture/
+
+## Chrome
+
+- copy url https://chrome.google.com/webstore/detail/copy-url-to-clipboard/miancenhdlkbmjmhlginhaaepbdnlllc/related?hl=en
 
 ## blogging
 
