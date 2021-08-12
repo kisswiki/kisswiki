@@ -1,0 +1,3 @@
+## When you cannot add ;; -*- lexical-binding: t -*-
+
+https://stackoverflow.com/questions/32878675/using-elisp-local-variables-instead-of-global-variables-to-add-a-function-into-a/32892231#32892231
