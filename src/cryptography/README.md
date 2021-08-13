@@ -1,4 +1,0 @@
-- https://media.libreplanet.org/u/libreplanet/m/the-secret-battle-of-encryption-algorithms/
-- https://github.com/sobolevn/awesome-cryptography#books
-  - Free book pdf https://www.crypto101.io/
-- 2014 https://www.reddit.com/r/crypto/comments/287y7j/best_intro_book_to_cryptography/

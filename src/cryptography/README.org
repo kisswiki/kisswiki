@@ -1,0 +1,7 @@
+- https://media.libreplanet.org/u/libreplanet/m/the-secret-battle-of-encryption-algorithms/
+- https://github.com/sobolevn/awesome-cryptography#books
+  - Free book pdf https://www.crypto101.io/
+- 2014 https://www.reddit.com/r/crypto/comments/287y7j/best_intro_book_to_cryptography/
+  - https://www.amazon.com/Network-Security-Private-Communication-Edition/dp/0130460192
+  - https://www.amazon.com/Cryptography-Engineering-Principles-Practical-Applications/dp/0470474246
+- [[https://www.amazon.com/Best-Sellers-Books-Computer-Cryptography/zgbs/books/3875][Amazon Best Sellers: Best Computer Cryptography]]
