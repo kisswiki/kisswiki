@@ -25,11 +25,10 @@ create or switch:
 
 ## Find by symbol
 
-`ctrl+shift+o`
+You can navigate symbols inside a file with `Ctrl+Shift+O`. By typing `:` the symbols will be grouped by category
 
-typing an additional `:` allows you to search by category.
-
-https://johnpapa.net/getting-started-with-visual-studio-code/
+- https://code.visualstudio.com/docs/editor/editingevolved#_go-to-symbol
+- https://johnpapa.net/getting-started-with-visual-studio-code/
 
 ## Undo cursor position
 
@@ -75,7 +74,6 @@ In a markdown file use
 
 https://johnpapa.net/getting-started-with-visual-studio-code/
 
-
 - hide left panel `ctrl+b`
 - zen mode `ctrk+k z`
 
@@ -83,10 +81,10 @@ https://johnpapa.net/getting-started-with-visual-studio-code/
 
 ```json
 [
-    {
-        "key": "ctrl+j",
-        "command": "editor.action.joinLines"
-    }
+  {
+    "key": "ctrl+j",
+    "command": "editor.action.joinLines"
+  }
 ]
 ```
 
