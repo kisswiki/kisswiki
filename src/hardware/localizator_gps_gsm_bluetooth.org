@@ -1,0 +1,73 @@
+LBS - location based service - zwykle w opisach produktów oznacza lokalizację przez nadajniki sieci komórkowej. Niezbyt dokładną w porównaniu do GPS.
+
+A-GPS
+
+## Lokalizatory GPS
+
+- Krótki czas pracy na baterii. Zwykle 2 dni.
+- Potrzebna sieć komórkowa. Uwaga na te z 2G/3G jako że jest to standard wycofywany. Także w Polsce.
+  - https://www.t-mobile.pl/c/wylaczamy3g
+  - https://gsmonline.pl/artykuly/orange-wylaczenie-3g-siec-miedziana-koniec
+  - https://oiot.pl/szwajcaria-wylaczenie-sieci-2g-jak-to-mozliwe/
+- Operatorzy oferują jakieś specjalne karty sim do monitorowania.
+- https://www.traccar.org/
+  - open source server and client https://github.com/traccar
+    - server in Java needs 1GB RAM.
+  - Obsługuje sporo różnych trackerów. Poczytać forum czy dany tracker jest obsługiwany.
+- https://www.reddit.com/r/Traccar/comments/jiol8y/one_year_update_to_my_diy_gps_tracker/
+- https://www.gpswox.com/en/blog/useful-information/open-source-GPS-tracking-system-software
+- https://fortebit.tech/polaris/
+  - Polaris can function as a GPS/GLONASS vehicle tracker, available with 2G, 3G, LTE, NB-IOT modem, but it’s so much more, too. It is a Python programmable open IoT platform, ready to connect to the Cloud with just a few lines of code. Polaris is also 100% Arduino compatible.
+- https://hackaday.com/2020/11/28/open-hardware-gps-tracker-works-on-your-terms/
+  - https://diy.viktak.com/2020/11/gps-gsm-vehicle-tracker-recorder.html
+    - https://play.google.com/store/apps/details?id=org.owntracks.android&hl=en&gl=US
+    - https://codeberg.org/nexttracks/android
+    - [[https://www.youtube.com/watch?v=OJ-AZ8wIpD0][Dont use 2G modules like SIM900 and SIM800 - Alternatives - YouTube]]
+    - A7682E adopts LCC+LGA form factor and is compatible with SIM800C, SIM868series (GSM/GPRS modules), which enables smooth migration from 2G products to LTE products, and greatly facilitates more compatible product design for the customer needs. https://masters.com.pl/en/4g-wireless-module-smooth-migration-from-2g-to-lte/
+    - https://botland.com.pl/raspberry-pi-hat-komunikacja/12533-lte-gps-hat-ltegprsgps-sim7600e-h-nakladka-dla-raspberry-pi-4b3b3b2bzero-waveshare-14952-5904422319519.html
+    - https://botland.store/raspberry-pi-hat-connection/12531-lte-gps-hat-nb-iot-lte-gprs-gps-sim7000e-for-raspberry-pi-waveshare-14865-5904422319496.html
+    - https://diy.viktak.com/2020/10/custom-development-boards-to-speed-up-development.html
+
+## Lokalizatory Bluetooth
+
+- Range 40-120 m
+- Duży czas pracy na baterii
+- Niektóre mają wymienną baterię
+- AirTag - współpracuje tylko z Apple
+- SmartTag - współpracuje tylko z Samsung
+- Tile - współpracuje z różnymi smartfonami z Android i iOs https://en.m.wikipedia.org/wiki/Tile_(company)
+  - komentarze mówią że dokładność nie jest zbyt dobra https://play.google.com/store/apps/details?id=com.thetileapp.tile&showAllReviews=true. Czy to wina technologii Bluetooth?
+  - dodatkowo komentarz był że Tile za darmo udostępnia tylko ostatnią lokalizację
+- Aplikacja notiOne współpracuje z aplikacją YANOSIK, dzięki czemu sygnał z lokalizatorów notiOne jest odbierany przez prawie 2 mln telefonów w Polsce https://allegro.pl/oferta/lokalizator-opaska-na-reke-dziecka-osob-starszych-9515543482
+
+## LPWAN
+
+Sigfox or LoRa are new technologies powering the Internet of Things connectivity. These technologies are beginning to be deployed in remote areas due to their ease of deployment and incredibly long range. The advantages of these technologies for an animal tracking collar is that the device form size can be minimised and the battery life extended greatly.
+
+https://en.m.wikipedia.org/wiki/GPS_animal_tracking
+
+urządzenia Internetu Rzeczy, które do tej pory wykorzystywały 2G, zostały zastąpione nowszymi, działającymi w standardzie LTE-M i NB-IoT
+
+https://oiot.pl/szwajcaria-wylaczenie-sieci-2g-jak-to-mozliwe/
+
+Or APRS over ham radio (2M). That way you can get on the global map of APRS data and interface to the entire ecosystem of APRS (clients, visualation, backends, etc.) https://hackaday.com/2020/11/28/open-hardware-gps-tracker-works-on-your-terms/
+
+- https://en.m.wikipedia.org/wiki/LPWAN
+ - https://en.m.wikipedia.org/wiki/Sigfox
+ - https://en.m.wikipedia.org/wiki/LoRa
+ - https://en.m.wikipedia.org/wiki/DASH7
+ - https://en.m.wikipedia.org/wiki/IEEE_802.11ah
+
+## LoRa
+
+- https://lora-alliance.org/lorawan-coverage/
+- https://www.reddit.com/r/Traccar/comments/e4lu6g/lora_gps_tracker_to_traccar/
+- https://kamami.pl/moduly-lora/583164-lorawan-gps-tracker-lgt-92-urzadzenie-sledzace-gps-z-modulem-lora-868mhz-113990659.html
+
+## Sigfox
+
+Sigfox jest siecią o cechach odmiennych od LoRaWAN z kilku powodów. Po pierwsze  pozwala ona nasłuchiwać informacji pochodzących z bardzo wielu urządzeń bez potrzeby utrzymywania połączeń z nimi. Zastosowany protokół jest zoptymalizowany, a poszczególne urządzenia nie muszą być w żaden sposób podłączane na stałe do sieci. Sigfox to również rozwiązanie komunikacyjne oparte o oprogramowanie, gdzie praktycznie całość obliczeń i zarządzania realizowana jest w sieci (chmurze), a nie samych urządzeniach. Wszystkie te cechy pozwalają redukować zużycie energii i koszty związane z obsługą komunikujących się urządzeń.
+
+https://przemysl-40.pl/index.php/2018/07/30/lorawan-i-sigfox-dwa-standardy-sieci-iot/
+
+- https://www.sigfox.com/en/coverage
