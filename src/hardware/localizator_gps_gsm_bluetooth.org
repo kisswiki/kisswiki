@@ -27,8 +27,13 @@ A-GPS
     - https://botland.com.pl/raspberry-pi-hat-komunikacja/12533-lte-gps-hat-ltegprsgps-sim7600e-h-nakladka-dla-raspberry-pi-4b3b3b2bzero-waveshare-14952-5904422319519.html
     - https://botland.store/raspberry-pi-hat-connection/12531-lte-gps-hat-nb-iot-lte-gprs-gps-sim7000e-for-raspberry-pi-waveshare-14865-5904422319496.html
     - https://diy.viktak.com/2020/10/custom-development-boards-to-speed-up-development.html
+- https://smartniej.pl/ios/whistle-3-usprawniona-smart-obroza/
+- Solar Powered / GPS / Mobile Data / Bluetooth https://www.kickstarter.com/projects/1220510110/lightbug-cut-the-chase-never-lose-anything-or-anyo
+  - https://technogadzet.pl/lightbug-funkcjonalny-lokalizator-dla-dziecka/
+- https://elektromaniacy.pl/pl/products/lokalizator-trackimo-3g-12744.html
+  - https://trackimo.pl/produkt/tracki-3g-lokalizator-gps-niska-cena/
 
-## Lokalizatory Bluetooth
+## Lokalizatory Bluetooth i UWB
 
 - Range 40-120 m
 - Duży czas pracy na baterii
@@ -39,6 +44,9 @@ A-GPS
   - komentarze mówią że dokładność nie jest zbyt dobra https://play.google.com/store/apps/details?id=com.thetileapp.tile&showAllReviews=true. Czy to wina technologii Bluetooth?
   - dodatkowo komentarz był że Tile za darmo udostępnia tylko ostatnią lokalizację
 - Aplikacja notiOne współpracuje z aplikacją YANOSIK, dzięki czemu sygnał z lokalizatorów notiOne jest odbierany przez prawie 2 mln telefonów w Polsce https://allegro.pl/oferta/lokalizator-opaska-na-reke-dziecka-osob-starszych-9515543482
+- https://smartniej.pl/gadzety/mofinderx1-tracker-czworonoga-z-6-4-km-zasiegiem/
+  - jaka to technologia?
+- https://smartniej.pl/gadzety/tile-uwzgledni-w-lokalizacji-uwb-i-technologie-ar/
 
 ## LPWAN
 
