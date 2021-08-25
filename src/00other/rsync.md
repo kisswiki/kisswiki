@@ -100,6 +100,12 @@ on Android:
 $ pkill sshd
 ```
 
+Reverse:
+
+```
+$ rsync -nxWrctzv --delete --info=progress2 -e 'ssh -p 8022' -azv /mnt/d/Xiaomi/Download/ 192.168.0.11:~/storage/shared/Download/ 2>rsync_errors_reverse.txt
+```
+
 ```
 -u, --update                skip files that are newer on the receiver
 -a, --archive archive mode; equals -rlptgoD (no -H,-A,-X)
