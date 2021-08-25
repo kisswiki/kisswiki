@@ -90,7 +90,8 @@ On remote machine
 $ ssh 192.168.0.11 -p 8022
 # $ rsync --update --progress -e 'ssh -p 8022' -azv 192.168.0.11:/storage/shared/Download /mnt/d/Xiaomi/
 # I am using
-$ rsync -nxWrctzv --info=progress2 -e 'ssh -p 8022' -azv 192.168.0.11:~/storage/shared/Download /mnt/d/Xiaomi/
+$ rsync -xWrctzv --info=progress2 -e 'ssh -p 8022' -azv 192.168.0.11:~/storage/shared/Download /mnt/d/Xiaomi/ 2>rsync_errors.txt
+$ cat rsync_errors.txt
 ```
 
 on Android:
