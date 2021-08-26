@@ -30,6 +30,7 @@ We need API Key and Secret from https://developer.twitter.com/en/portal/apps/<id
 - https://developer.twitter.com/en/portal/apps/21768338/keys
 - https://github.com/ciaranj/node-oauth
 - https://developer.twitter.com/en/docs/authentication/oauth-1-0a
+- https://stackoverflow.com/questions/14372311/twitter-app-not-taking-localhost-and-127-0-0-1-as-callbackurl/16153521#16153521
 
 - Consumer key is the API key that a service provider (Twitter, Facebook, etc.) issues to a consumer (a service that wants to access a user's resources on the service provider). This key is what identifies the consumer.
 - Consumer secret is the consumer "password" that is used, along with the consumer key, to request access (i.e. authorization) to a user's resources from a service provider.
