@@ -95,3 +95,25 @@ https://www.mobileread.com/forums/showpost.php?p=3308062&postcount=5
 `pubdate:>=1945-1-1 and pubdate:<=1950-12-31`
 
 https://www.reddit.com/r/Calibre/comments/jy3gyi/search_by_date_range/gd3hz04/?utm_source=reddit&utm_medium=web2x&context=3
+
+## Import series
+
+I have used this regex
+
+```
+(?P<series>[^_0-9]*) (?P<series_index>[0-9]*) \((?P<published>[0-9]+)\)
+```
+
+to import file names like this:
+
+```
+Y - The Last Man On Earth 001 (2006) something.cbr
+```
+
+Also:
+
+There’s a “Manage Series” plugin that would be the easiest option. You can literally highlight all the files in your library in the series and then tell it what you want to change the series name to. It’ll list the books out and you can move them around if needed to make sure they’re in correct series order. I’ve done this multiple times, it’s super easy and fast.
+
+- https://www.reddit.com/r/Calibre/comments/odfsss/mass_renaming_of_the_title_of_a_series_of_books_i/
+- https://manual.calibre-ebook.com/regexp.html
+- https://manual.calibre-ebook.com/regexp_quick_reference.html
