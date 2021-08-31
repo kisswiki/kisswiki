@@ -98,6 +98,8 @@ https://www.reddit.com/r/Calibre/comments/jy3gyi/search_by_date_range/gd3hz04/?u
 
 ## Import series
 
+Go to `Calibre > Preferences > Adding books`
+
 I have used this regex
 
 ```
@@ -117,3 +119,4 @@ There’s a “Manage Series” plugin that would be the easiest option. You can
 - https://www.reddit.com/r/Calibre/comments/odfsss/mass_renaming_of_the_title_of_a_series_of_books_i/
 - https://manual.calibre-ebook.com/regexp.html
 - https://manual.calibre-ebook.com/regexp_quick_reference.html
+- [Importing Series information into Calibre - MobileRead Forums](https://www.mobileread.com/forums/showthread.php?t=119554)
