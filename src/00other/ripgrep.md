@@ -108,6 +108,19 @@ https://github.com/BurntSushi/ripgrep/issues/188
 
 - https://github.com/BurntSushi/ripgrep/issues/34#issuecomment-267309265
 
+## only content
+
+```
+$ rg "\('Sign up.*" -NoI | sort | uniq
+('Sign up', 'Joined as anonymous', null);
+('Sign up', 'Signed up', 'email');
+('Sign up', 'Signed up', param);
+('Sign up', 'View', 'popup-modal');
+('Sign up', 'View', 'user-menu');
+```
+
+- https://github.com/BurntSushi/ripgrep/commit/5490d9e8069778321a40ed2874a160d66c1d5df3
+
 ## get parent dir and file name
 
 Only `ts` extension and exclude `spec.ts` extension.
