@@ -6,74 +6,72 @@ It will create file `.vscode/tasks.json`. Paste in it below content:
 
 ```json
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "type": "shell",
-            "command": "sh server.sh",
-            "label": "sh server.sh",
-            "presentation": {
-                "group": "sxs", // some arbitrary name for the group
-                "panel": "dedicated"
-            },
-            "runOptions": {
-                "runOn": "folderOpen"
-            }
-        },
-        {
-            "type": "shell",
-            "command": "node ../mock-server/index.js",
-            "label": "node ../mock-server/index.js",
-            "presentation": {
-                "group": "sxs", // some arbitrary name for the group
-                "panel": "dedicated"
-            },
-            "runOptions": {
-                "runOn": "folderOpen"
-            }
-        },
-        {
-            "type": "shell",
-            "command": "sh client.sh",
-            "label": "sh client.sh",
-            "presentation": {
-                "group": "sxs2", // some arbitrary name for the group
-                "panel": "dedicated"
-            },
-            "runOptions": {
-                "runOn": "folderOpen"
-            }
-        },
-        {
-            "type": "shell",
-            "command": "/bin/bash", // <-- your shell here
-            "args": [
-                "-l" // login shell for bash
-            ],
-            "label": "empy",
-            "presentation": {
-                "focus": true,
-                "group": "sxs2", // some arbitrary name for the group
-                "panel": "dedicated"
-            },
-            "runOptions": {
-                "runOn": "folderOpen"
-            }
-        },
-        {
-            "command": "gitk",
-            "args": [
-                "--all"
-            ],
-            "isBackground": false,
-            "label": "gitk --all",
-            "runOptions": {
-                "runOn": "folderOpen"
-            }
-        },
-    ]
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": "sh server.sh",
+      "label": "sh server.sh",
+      "presentation": {
+        "group": "sxs", // some arbitrary name for the group
+        "panel": "dedicated"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "type": "shell",
+      "command": "node ../mock-server/index.js",
+      "label": "node ../mock-server/index.js",
+      "presentation": {
+        "group": "sxs", // some arbitrary name for the group
+        "panel": "dedicated"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "type": "shell",
+      "command": "sh client.sh",
+      "label": "sh client.sh",
+      "presentation": {
+        "group": "sxs2", // some arbitrary name for the group
+        "panel": "dedicated"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "type": "shell",
+      "command": "/bin/bash", // <-- your shell here
+      "args": [
+        "-l" // login shell for bash
+      ],
+      "label": "empy",
+      "presentation": {
+        "focus": true,
+        "group": "sxs2", // some arbitrary name for the group
+        "panel": "dedicated"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "command": "gitk",
+      "args": ["--all"],
+      "isBackground": false,
+      "label": "gitk --all",
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
 }
 ```
 
@@ -101,6 +99,27 @@ For now on, `git status` should not show `.vscode` as new directory.
   - https://github.com/Microsoft/vscode/issues/47265
 - empty terminal https://stackoverflow.com/questions/54578615/vscode-open-new-terminal-as-part-of-task/58158143#58158143
 - Cannot reuse first terminal now? https://stackoverflow.com/questions/48655347/run-same-instance-of-terminal-with-build-task-in-vs-code
+
+## change directory
+
+```json
+{
+  "taskName": "Run tests",
+  "type": "shell",
+  "command": "npm run test",
+  "group": "test",
+  "options": {
+    "cwd": "${workspaceFolder}/functions"
+  },
+  "presentation": {
+    "reveal": "always",
+    "panel": "new"
+  }
+}
+```
+
+- https://github.com/Microsoft/vscode/issues/856#issuecomment-336482652
+- https://code.visualstudio.com/docs/editor/tasks-appendix
 
 ## Old
 
