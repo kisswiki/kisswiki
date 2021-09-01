@@ -162,7 +162,7 @@ $ rg '(a*)*c' foo
 3:c
 ```
 
-The Silver Searcher completely drops the second match because it's using a backtracking regex engine, which is required\* for supporting arbitrary lookaround.
+The Silver Searcher completely drops the second match because it's using a backtracking regex engine, which is required for supporting arbitrary lookaround.
 
 This would find all rows with "foo", but not with "bar" somewhere after that on the same line.
 
