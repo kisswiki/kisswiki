@@ -143,3 +143,31 @@ services/accountService.ts
 - https://stackoverflow.com/questions/3294072/-et-last-dirname-filename-in-a-file-path-argument-in-bash/3294102#3294102
 - https://superuser.com/questions/538877/get-the-parent-directory-for-a-file/538889#538889
 - https://unix.stackexchange.com/questions/65212/why-doesnt-this-xargs-command-work
+
+## backreference
+
+Its syntax is similar to Perl-style regular expressions, but lacks a few features like look around and backreferences.
+
+Note that this isn't an unfettered win, it's a trade off. For example:
+
+```bash
+$ cat foo
+c
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+c
+$ ag '(a*)*c' foo
+1:c
+$ rg '(a*)*c' foo
+1:c
+3:c
+```
+
+The Silver Searcher completely drops the second match because it's using a backtracking regex engine, which is required\* for supporting arbitrary lookaround.
+
+This would find all rows with "foo", but not with "bar" somewhere after that on the same line.
+
+You can satisfy this particular use case relatively easily with `rg foo | rg -v 'foo.*bar'`.
+
+- https://github.com/BurntSushi/ripgrep/issues/188
+- https://github.com/BurntSushi/ripgrep/issues/644
+- https://docs.rs/regex/1.5.4/regex/
