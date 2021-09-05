@@ -31,3 +31,43 @@ It will still be utterly incomplete if they don't implement
 -Does manual fan control work on Wayland?
 
 https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277113-nvidia-confirms-sway-wayland-compositor-works-fine-with-their-new-gbm-driver-support?p=1277129#post1277129
+
+## Fractional scalling
+
+binarybanana
+
+Wow, even Qt lost the ability to do proper fractional scaling on Wayland! I know GTK never supported it, but that's a major regression. Apparently you can't even do the DPI pint-size trick any more on Wayland? According to a visually impaired user.
+
+oiaohm
+
+The DPI point-size trick in fact breaks a lot of applications as well. Really how to properly scale applications has not been a solved problem. We do really need to solve it finally. Remember the fun that application can use absolute positions based on a particular font size render. Fun issue here how to upscale the application while keeping font quality up without running over absolute positions. This is really going to take a toolkit change and has always need a toolkit change.
+
+There is a fun little problem with DPI is that it measures vertical height of the font. The width spacing of the font can increase at a greater rate than the height.
+
+https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277036-kde-s-plasma-wayland-session-is-finally-reaching-stability-following-many-fixes?p=1277186#post1277186
+
+## color profiles
+
+And another showstopper for me is that colord/icc profiles aren't supported on wayland yet
+
+https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277036-kde-s-plasma-wayland-session-is-finally-reaching-stability-following-many-fixes?p=1277064#post1277064
+
+## KDE
+
+- https://community.kde.org/Plasma/Wayland_Showstoppers
+
+## KDE and dual-screen
+
+Mr.Elendig
+
+Still broken with dual-screen. Loses window/panel position etc after screen blank, suspend etc :/
+
+ngraham
+
+Indeed, it's a known bug we are going to look into soon. A huge constellation of issues are inter-related and we are coming to understand the root causes. Basically plasmashell identifies displays by a fragile identifier (the physical connector used) which can be volatile due to other bugs elsewhere in the stack. It's not *quite* as simple as "identify displays by serial number" but doing so may help a lot. Other improvements are planned too. Hopefully this work will make it into Plasma 5.24.
+
+https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277036-kde-s-plasma-wayland-session-is-finally-reaching-stability-following-many-fixes?p=1277071#post1277071
+
+## KDE and monitor standby crash
+
+- Session crashes when monitor goes into standby https://bugs.kde.org/show_bug.cgi?id=420160
