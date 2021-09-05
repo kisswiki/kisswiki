@@ -12,3 +12,22 @@ Next was they did not like the GBM model where every process has its own memory 
 Yes the Nvidia developer putting support for EGLStreams into KDE end up in a rock and hard place between the KDE lead developer and what he could do with EGLStreams. Yes the KDE lead developer did a demo restarting the wayland compositor on intel and amd and arm and qualcom and broadcom GPUs and it works then the Nvidia developer was completely and totally screwed when the KDE lead developer asked the Nvidia lead developer to show how because this would be a future KDE feature. Every route the Nvidia developer tried with KDE lead back the the memory issue where restarting the compositor lead applications segfaulting that required him to go to the Nvidia driver developer team and ask if they could fix EGLStreams to make this work. This leads to the 470.xx Nvidia driver work with GBM support and DMA BUF support as the Nvidia DGPU drivers developers find they are totally screws EGLStreams simply is not going to work.
 
 https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277113-nvidia-confirms-sway-wayland-compositor-works-fine-with-their-new-gbm-driver-support?p=1277249#post1277249
+
+## Tearing and gaming
+
+In the mean time, Wayland needs to implement tearing to be truly reliable for competitive gaming.
+
+- https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277113-nvidia-confirms-sway-wayland-compositor-works-fine-with-their-new-gbm-driver-support?p=1277279#post1277279
+- https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/65
+
+## Remaining features
+
+It will still be utterly incomplete if they don't implement
+-Vulkan mailbox present mode (everything seems to be forced into fifo mode...)
+-is VRR property even implemented for Nvidia DRM modesetting driver?
+-is any kind of GPU gamma ramps support implemented for Nvidia DRM modesetting driver?
+-there don't seem to be any overclock options on Nvidia Wayland (xorg rootless also doesn't work, WTF, and even then there is no real undervolting possible)
+-Nvidia DRM modesetting driver doesn't seem to offer any kind of custom EDID interface
+-Does manual fan control work on Wayland?
+
+https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277113-nvidia-confirms-sway-wayland-compositor-works-fine-with-their-new-gbm-driver-support?p=1277129#post1277129
