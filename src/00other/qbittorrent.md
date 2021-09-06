@@ -14,6 +14,11 @@ Below solutions didn't work for me.
 9. Click Apply.
 10. Click OK.
 
+It's worth noting that in step No. 5, you can also use the High DPI scaling override options to change the default scaling behavior for a program that is blurry from the very beginning.
+
+- Application — Forces the app to run on a per-monitor DPI awareness.
+- System — Stretches the interface, bitmap elements, and text will be blurry. This is how Windows handles scaling by default.
+
 https://www.windowscentral.com/how-change-high-dpi-settings-classic-apps-windows-10-april-2018-update
 
 I was able to adjust the Qbit UI scale using the program specific 'High DPI Scaling Override' properties settings vs changing the global windows dpi settings. Right mouse click on the qBittorrent application in c:\Progam Files\qBittorrent\ then go to the Compatibility tab.
