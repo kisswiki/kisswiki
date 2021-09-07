@@ -4,7 +4,7 @@ ever use the github interfaces to merge anything.
 
 This is the complete commit message of that merge:
 
-    Merge branch 'torvalds:master' into master
+> Merge branch 'torvalds:master' into master
 
 Yeah, that's not an acceptable message. Not to mention that it has a
 bogus "github.com" committer etc.
@@ -24,4 +24,15 @@ properly. That means doing merges from the command line, not using the
 entirely broken github web interface.
 
 - https://lore.kernel.org/lkml/CAHk-=wjbtip559HcMG9VQLGPmkurh5Kc50y5BceL8Q8=aL0H3Q@mail.gmail.com/
-- https://www.reddit.com/r/programming/comments/pjggh0/linus_github_creates_absolutely_useless_garbage/
+  - via https://www.reddit.com/r/programming/comments/pjggh0/linus_github_creates_absolutely_useless_garbage/
+    - via https://www.reddit.com/r/programming/top/
+
+### more github rebase
+
+Any actual rebase destroys the signature. But if you do it locally, your git client can automatically re-sign the new commits. And that's fine. As long as the end result is both authentic and signed, the result is good.
+
+GitHub can not re-sign, because they don't have the private key.
+
+The claim here is that GitHub performs a rebase, even if it should be a no-op. Like have commit abc123 as child of tip commit xyz456. Then rebase-and-merge will rebase abc123 onto xyz456, even if that does nothing, but unnecessarily destroys the signatures in the process.
+
+https://www.reddit.com/r/programming/comments/pjggh0/linus_github_creates_absolutely_useless_garbage/hbxabw9/?utm_source=reddit&utm_medium=web2x&context=3
