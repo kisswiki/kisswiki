@@ -17,3 +17,7 @@ From what I understand, it is compatible because it lacks the "litigate against 
 I'm not a fan of exception notices. As you pointed out, it effectively turns established licenses into dual licenses or new licenses entirely. I think the Rust ecosystem not pushing for MPL-2.0 was a missed opportunity, but if they still really wanted a permissive license, a BSD-3+Patent license would've been perfect. It's a shame they're stuck in dual-licensing hell now.
 
 https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277599-openssl-3-0-officially-released?p=1277631#post1277631
+
+The situation is the exact opposite of the patent clause in the Apache 2.0 license. The Apache 2.0 license grants you a patent license in addition to the copyright license, while the BSD-3-Clause-Clear license makes it explicit that there is no such combined license.
+
+https://opensource.stackexchange.com/questions/7559/patent-rights-bsd-3-clause-clear-vs-bsd-3-clause/7561#7561
