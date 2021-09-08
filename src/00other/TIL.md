@@ -39,3 +39,19 @@ I was like "damn, he's right". Some days I'm in the studio three, four days. I d
 
 - https://eminem.news/akon-learned-from-eminem-how-to-work-in-studio.html
 - https://southpawers.com/2021/06/26/ed-sheeran-good-habit-eminem/
+
+### CSS and responsive image easiest way
+
+```css
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+```
+
+- https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container/3029434#3029434
+- https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+
+```
+
+```
