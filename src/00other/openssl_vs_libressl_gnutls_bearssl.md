@@ -28,4 +28,12 @@ RahulSundaram
 
 GNUTLS is LGPL which is generally acceptable considering things like glibc. The bigger problem with alternative implementations in general including LibreSSL is that they are just not as supported leaving a large support burden to people adopting them. Linux distributions have largely abandoned it, see https://lwn.net/Articles/841664/ After Heartbleed, Linux Foundation boosted funding for OpenSSL and they have done some major improvements including with this release, the shift to Apache license, taking away a good portion of the criticisms against it.
 
+fanbelt
+
+Coincidentally, I was just looking up the progress of JPGXL and found that they switched licenses from Apache-2.0 to BSD 3-clause with a patent grant. It's strange because the patent grant includes the litigation-patent-revoking wording found in Apache 2.0. This means it is still GPLv2 incompatible. I wonder why they made the switch then?
+
+Jon Sneyers
+
+To make it GPLv2 compatible. You can just ignore the patent grant. Patent licenses and copyright licenses are different things, and GPLv2 only talks about copyright, which is the reason Apache 2.0 is considered incompatible with GPLv2: in Apache 2.0 your copyright license is conditioned on not engaging in patent litigation, while GPLv2 has no such condition. By separating things into a permissive copyright license and a defensive patent license, this problem is avoided. The av1 encoder libaom does exactly the same thing as libjxl, by the way.
+
 https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277599-openssl-3-0-officially-released?p=1277649#post1277649
