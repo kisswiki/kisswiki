@@ -9,6 +9,7 @@ There is also snap package https://snapcraft.io/firefox
 You also just unpack archive with binaries from mozilla. It will update to later version day or two faster than ubuntu version, but you will not have `firefox.desktop` file needed for adding to gnome panel favourites.
 
 You could also create `firefox.desktop` file like here:
+
 - https://wiki.debian.org/Firefox
 - https://bazaar.launchpad.net/~mozillateam/firefox/firefox-trunk.head/view/head:/debian/firefox.desktop.in
 - using [gendesk](https://github.com/xyproto/gendesk) as described here https://wiki.archlinux.org/index.php/desktop_entries
@@ -101,3 +102,23 @@ Compositing	OpenGL
 - https://bugzilla.mozilla.org/show_bug.cgi?id=1106916
 - https://bugzilla.mozilla.org/show_bug.cgi?id=1285711
 - https://bugzilla.opensuse.org/show_bug.cgi?id=904229
+
+## Touchpad scrolling
+
+To this day, FireFox on Linux still doesn't properly handle touchpad scrolling unless you set "MOZ_USE_XINPUT2=1" and disable the simulated "smooth scrolling" in its settings.
+
+https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277302-high-resolution-scrolling-on-linux-progressing-apple-magic-mouse-support-in-linux-5-15?p=1277304#post1277304
+
+Firefox has an option called "Use smooth scrolling" that is a bit misleading. It does not give you pixel-precision scrolling. Rather, it glides between jumps of several lines at a time. That should just be turned off if you set "MOZ_USE_XINPUT2=1".
+
+In Wayland, rather than set "MOZ_USE_XINPUT2=1" to get smooth scrolling, I have to set "MOZ_ENABLE_WAYLAND=1". Maybe some distros set those values by default. I would hope so.
+
+https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277302-high-resolution-scrolling-on-linux-progressing-apple-magic-mouse-support-in-linux-5-15?p=1277402#post1277402
+
+Nice to see work getting put into this area again. Ive historically always wound up using the [mtrack XOrg driver](https://github.com/p2rkw/xf86-input-mtrack) on all modern laptops
+
+https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277302-high-resolution-scrolling-on-linux-progressing-apple-magic-mouse-support-in-linux-5-15?p=1277410#post1277410
+
+For anyone else that comes across this Solaar has an option to [reissue the settings on wake-up](https://github.com/pwr-Solaar/Solaar/issues/443), but it need to be passed as a flag when starting solaar.
+
+https://bugzilla.redhat.com/show_bug.cgi?id=1701322#c20
