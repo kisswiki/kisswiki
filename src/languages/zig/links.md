@@ -76,6 +76,14 @@
 - https://github.com/tauoverpi/scratch/tree/master/zig
 - https://github.com/jeffkdev/sokol-zig-examples
 
+## build.zig
+
+- https://ziglang.org/learn/overview/#zig-build-system
+- https://ziglearn.org/chapter-3/#zig-build
+- https://zig.news/xq/zig-build-explained-part-1-59lf
+- https://dev.to/mattnite/weaning-zig-off-of-git-submodules-1-3jen
+- https://dev.to/fabioarnold/setup-zig-for-gamedev-2bmf
+
 ## Package managers
 
 - https://github.com/topics/zig-package
