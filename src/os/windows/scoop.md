@@ -7,6 +7,7 @@ $ cd ~/scoop/buckets/extras/bucket
 $ git checkout de8f507374cfc1cc40f87ebd89a17f053077942d^ -- vscode.json
 $ scoop install vscode
 # Prevent upgrading
+# `scoop unhold vscode` to revert
 $ scoop hold vscode
 # Restore git repo to latest version
 $ git checkout -f
