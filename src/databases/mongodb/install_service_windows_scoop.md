@@ -102,3 +102,9 @@ There was just message `cannot create another system semaphore mongodb`.
 
 - https://stackoverflow.com/questions/32973499/the-mongodb-service-terminated-with-service-specific-error-cannot-create-another/32974341#32974341
 - https://www.dummies.com/computers/operating-systems/windows-10/how-to-use-event-viewer-in-windows-10/
+
+## scoop and update
+
+Before updating mongodb, stop the service. Otherwise there might not be `%USERPROFILE%\scoop\apps\mongodb\current` created.
+
+If so, `scoop uninstall mongodb` and `scoop install mongodb`.
