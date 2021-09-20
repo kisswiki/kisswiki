@@ -80,6 +80,9 @@ https://support.mozilla.org/en-US/questions/1126525
 
 ## threading
 
+`View > Sort > Threaded`
+
+- https://support.mozilla.org/en-US/kb/message-threading-thunderbird
 - https://superuser.com/questions/126356/manual-threading-in-thunderbird
 
 ## full address colum
