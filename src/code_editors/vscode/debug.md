@@ -39,3 +39,39 @@ npm way doesn't work, only direct script running.
 
 - https://code.visualstudio.com/docs/languages/javascript#_debugging
 
+## another launch.json
+
+```json
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "serverInspectPort",
+      "type": "node",
+      "request": "attach",
+      "port": 19322,
+      "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**"
+      ],
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "workerInspectPort",
+      "type": "node",
+      "request": "attach",
+      "port": 19222,
+      "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**"
+      ],
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
+```
+
+- https://stackoverflow.com/questions/57357498/vscode-stops-on-invisible-breakpoint-on-async-hooks-js-while-debugging-a-node
