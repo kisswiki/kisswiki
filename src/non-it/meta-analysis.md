@@ -1,0 +1,6 @@
+I'm going to make what is probably a controversial statement, which is that, in my experience, most meta-analyses are trash.
+A meta-analysis is usually grounded on the assumption that an aggregation of multiple, well-conducted studies can provide significant information that may not be evident by taking each study individually. Essential to this assumption is the premise that those studies included in the meta-analysis be scientifically rigorous in themselves. Unfortunately, this is almost never the case. The great utility of the meta-analysis in the clinical literature is such that there have emerged a series of standards for how to conduct such analyses, such as controlling for bias, controlling for variability, etc. These seldom include actual assessment of the scientific quality of the studies, as this is harder to standardize. Consequently, there is a preponderance of meta-analyzes that come to conclusions that are simply not justified, because the studies themselves were not scientifically rigorous.
+
+I believe this applies to the situation of ivermectin, and it just so happens that this is the thrust of the point raised in the Nature article cited here.
+
+https://news.ycombinator.com/item?id=28617173
