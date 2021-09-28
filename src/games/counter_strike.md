@@ -23,14 +23,12 @@ cl_crosshair_sniper_width 1
 cl_crosshair_outlinethickness 1
 cl_crosshair_drawoutline 0
 host_writeconfig
-
+```
 
 `;` have to be used when commands in one line:
 
 ```
-
 cl_crosshairalpha 255; host_writeconfig
-
 ```
 
 - https://blog.leetify.com/updated-2020-how-to-create-and-use-an-autoexec-config-file-in-csgo/
@@ -44,4 +42,7 @@ You can also use `apply_crosshair_code CSGO-rJ9cP-v9QA4-Mpkew-mQpdb-LbRVP` in co
 
 - https://www.reddit.com/r/GlobalOffensive/comments/g813dh/how_to_enter_a_crosshair_code/
 - https://www.reddit.com/r/GlobalOffensive/comments/gws5wx/config_that_lets_you_try_out_the_crosshairs_of/
+
+```
+
 ```
