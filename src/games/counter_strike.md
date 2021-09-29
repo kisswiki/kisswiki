@@ -8,6 +8,8 @@
 
 > `+exec autoexec` is not needed when the file is built correctly (correctly means `host_writeconfig` at the last line?) https://www.reddit.com/r/GlobalOffensive/comments/jbfjvv/comment/g8v4ffj/?utm_source=reddit&utm_medium=web2x&context=3
 
+## crosshair
+
 Example autoexec.cfg from [s1mple's crosshair config](https://liquipedia.net/counterstrike/S1mple):
 
 ```
@@ -43,6 +45,38 @@ You can also use `apply_crosshair_code CSGO-rJ9cP-v9QA4-Mpkew-mQpdb-LbRVP` in co
 - https://www.reddit.com/r/GlobalOffensive/comments/g813dh/how_to_enter_a_crosshair_code/
 - https://www.reddit.com/r/GlobalOffensive/comments/gws5wx/config_that_lets_you_try_out_the_crosshairs_of/
 
-```
+## buy
 
 ```
+bind "KP_HOME" "buy ssg08"
+bind "6" "buy awp"
+bind "KP_PGUP" "buy g3sg1; buy scar20"
+bind "KP_LEFTARROW" "buy galilar; buy famas"
+bind "KP_5" "buy m4a1;buy ak47"
+bind "KP_RIGHTARROW" "buy aug; buy sg556"
+bind "KP_END" "buy mac10;buy mp9"
+bind "KP_DOWNARROW" "buy mp7"
+bind "KP_PGDN" "buy p90"
+bind "KP_INS" "buy p250"
+bind "KP_DEL" "buy defuser"
+bind "KP_SLASH" "buy smokegrenade"
+bind "KP_MULTIPLY" "buy hegrenade"
+bind "KP_MINUS" "buy flashbang"
+bind "KP_PLUS" "buy incgrenade; buy molotov"
+bind "KP_ENTER" "buy vesthelm; buy vest"
+bind ins "buy nova"
+bind home "buy xm1014"
+bind pgup "buy mag7; buy sawedoff"
+bind del "buy deagle"
+bind end "buy elite"
+bind pgdn "buy fn57; buy tec9"
+bind leftarrow "buy bizon"
+bind rightarrow "buy ump45"
+bind uparrow "buy negev"
+bind downarrow "buy m249"
+bind "KP_PLUS" "buy incgrenade; buy molotov"
+bind "KP_PLUS" "buy vest"
+bind "NUM_LOCK" "buy incgrenade; buy molotov"
+```
+
+https://www.reddit.com/r/GlobalOffensive/comments/22z178/key_binds_for_purchasing_weapons_commands_in/
