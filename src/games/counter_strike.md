@@ -2,6 +2,25 @@
 
 ## autoexec.cfg
 
+actual:
+
+```
+cl_crosshairalpha 255
+cl_crosshaircolor 1
+cl_crosshairdot 0
+cl_crosshairgap -3
+cl_crosshairsize 2
+cl_crosshairstyle 4
+cl_crosshairusealpha 1
+cl_crosshairthickness 0
+cl_crosshair_sniper_width 1
+cl_crosshair_outlinethickness 1
+cl_crosshair_drawoutline 0
+bind 6 "buy awp"
+bind 7 "buy deagle"
+host_writeconfig
+```
+
 1. `Steam > Right click CSGO > Manage > Browse local files`. Then open the `csgo` and then the `cfg` folders. (If you have the default installation path, it will be `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`)
 2. Create an `autoexec.cfg` file by copying any other cfg file and renaming it to autoexec
 3. Make sure the last line in the file is `host_writeconfig`
