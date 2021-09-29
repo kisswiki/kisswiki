@@ -1,0 +1,3 @@
+> I recently tried to migrate my R code to Julia. Even though I already knew R data.table is faster than DataFrames.jl, I was totally blown away by how slow Julia is. So I quickly gave up. I think I will have to write unavoidable hard loop in cpp, which I really don't want to do...
+
+https://news.ycombinator.com/item?id=27404910
