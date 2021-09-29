@@ -55,3 +55,13 @@ https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 const t = await Account.find({ _id: account._id });
 console.log("t :>> ", t);
 ```
+
+## Invalid namespace specified
+
+It's simply because of the way you are writing the MongoDB URI in the .env file i.e `MONGODB_URI="mongodb://localhost:27017/ecommerce";` The `dotEnv` package would parse the value for `MONGODB_URI as mongodb://localhost:27017/ecommerce";`, notice the double-quote(`) and the semi-colon(`;`) at the end, they are not supposed to be there and that is what is causing the error.
+
+The fix:
+
+All you need to do is remove the semi-colon and everything should be fine: `MONGODB_URI="mongodb://localhost:27017/ecommerce"`
+
+https://stackoverflow.com/questions/60394055/invalid-namespace-specified-mongoose-save-collection/60398553#60398553
