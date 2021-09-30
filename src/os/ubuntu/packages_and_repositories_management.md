@@ -33,7 +33,7 @@ http://askubuntu.com/questions/38021/how-to-add-a-ppa-on-a-server/38029#38029
 ```bash
 sudo apt update           # Fetches the list of available updates
 sudo apt upgrade -y       # Installs some updates; does not remove packages
-sudo apt full-upgrade -y  # Installs updates; may also remove some packages, it needed
+sudo apt full-upgrade -y  # Installs updates; may also remove some packages, if needed
 sudo apt dist-upgrade -y
 sudo apt autoremove -y    # Removes any old packages that are no longer needed
 sudo apt autoclean -y
@@ -107,7 +107,6 @@ rm {file}
 ```
 
 https://askubuntu.com/questions/307/how-can-ppas-be-removed/173209#173209
-
 
 ## Software update errors with "No internet connection"
 
