@@ -105,3 +105,9 @@ Also this https://emacs.stackexchange.com/questions/7429/how-to-customize-org-mo
 - https://orgmode.org/worg/org-contrib/
 - https://github.com/emacs-tw/awesome-emacs#org-mode
 - https://github.com/p3r7/awesome-elisp#org-mode-outlines
+- [[https://news.ycombinator.com/item?id=28703944][Org Mode 9.5 | Hacker News]]
+- [[https://orgmode.org/manual/Structure-Templates.html][Structure Templates (The Org Manual)]]
+- [[https://github.com/xenodium/company-org-block][xenodium/company-org-block]]
+- [[https://github.com/kristijanhusak/orgmode.nvim][kristijanhusak/orgmode.nvim: Orgmode clone written in Lua for Neovim 0.5+.]]
+- [[https://github.com/misohena/el-easydraw][misohena/el-easydraw: Embedded drawing tool for Emacs]]
+- [[https://github.com/lepisma/org-krita][lepisma/org-krita: Krita sketches in Org]]
