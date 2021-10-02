@@ -1,0 +1,7 @@
+- [Google Search is getting worse](https://www.fastcompany.com/90673924/its-not-just-you-google-search-really-is-getting-worse)
+- [the most important HTTP request headers](https://wizardzines.com/comics/request-headers/)
+- [So You Want To Compete With Roblox](https://www.fortressofdoors.com/so-you-want-to-compete-with-roblox/)
+- [The State of the Octoverse | The State of the Octoverse explores a year of change with new deep dives into developer productivity, security, and how we build - communities on GitHub.](https://octoverse.github.com/)
+- [Taking Care of Yourself While Working From Home | Notes for Michael Abon from Michael Abon](https://blog.michaelabon.ca/2020/03/10/working-from-home.html)
+- [borgbackup/borg: Deduplicating archiver with compression and authenticated encryption.](https://github.com/borgbackup/borg/)
+- [Containers and license compliance \[LWN.net\]](https://lwn.net/Articles/752982/)
