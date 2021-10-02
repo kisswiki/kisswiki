@@ -1,3 +1,42 @@
+## Users
+
+- Jakub Konka https://twitter.com/kubkon
+- Marek Fajkus https://twitter.com/turbo_MaCk
+
+## pros and cons
+
+- it violates FHS
+- many Linux tutorials/blog posts just don’t work for NixOS
+- very few influential users/promoters
+- most binaries distributed for Linux don’t work on NixOS out-of-box, thus create a problem for upstream
+- there are problem with different language ecosystem interoperations, like virtualenv for Python doesn’t work for several important packages, and Nix python - packages do not feature all pypi packages. Other languages have similar problems
+- NixOS is network hungry, and disk I/O hungry on updates/rebuilds. Without proper mgmt it is also disk-space hungry
+
+https://discourse.nixos.org/t/why-do-i-have-to-switch-from-arch-to-nixos/5873/9
+
+Other benefits I have from this transition is, that I have a centralised place and unified syntax to do my system configuration, and another place for the users configuration.
+
+I can get similar recent programs as in Arch by simply overriding some attributes of a package. Updating software beyond what was given upstream in Arch always required me to manually check out from the ABS, tinker with PKGBUILD files, sandboxing the build of the package and then manually installing that package, and probably even miss update builds when I forgot to set the revision counter in the PKGBUILD to 0…
+
+Similar for packages which you would like to have installed with a different set of flags than those provided upstream.
+
+https://discourse.nixos.org/t/why-do-i-have-to-switch-from-arch-to-nixos/5873/20
+
+- NixOS isn't very well known, it could use some marketing.
+- It's got a very very steep learning curve. Imagine people believing arch is incredibly complicated, I guess for most Nixos users arch is no more different than - Ubuntu complexity wise.
+- Declarative and immutable are mostly a thing coming from the functional programming world so I'd like to believe mostly functional programmers understand why it's - desirable.
+- The docs are very lacking and often outdated, so I don't agree with your point that nixos has good docs. Almost every time I need to figure something out I find - myself digging through the nixpkgs code rather than looking in the manual. The manual is fine for simple things but when you're routinely creating your own - derivations it's not good enough.
+
+https://www.reddit.com/r/NixOS/comments/kpntby/comment/ghz3436/
+
+IMO, it's difficult to use without learning the in-and-outs of nix. Basically nothing is compatible out of the box, so you often have to write your own derivations or wrappers. Debugging compatibility requires expertise in both NixOS and conventional linux distros. Nix syntax is quirky and the parser is unforgiving (e.g. missing semicolons or parentheses can be misparsed as different constructs and lead to very confusing error messages). Also, a lot of the really cool features require nix (e.g. overlays, modules).
+
+I love it, but I'm not sure what NixOS would look like to someone who wasn't a competent functional programmer in nix. I guess if you are happy just running packages from nixpkgs as-is and having a really basic configuration.nix, you still get some of the benefits, but it's difficult to overcome the activation energy of switching distros.
+
+https://www.reddit.com/r/NixOS/comments/kpntby/comment/ghz3nlf/
+
+## Links
+
 - [NixOS - Explore](https://nixos.org/explore.html)
 - [NixOS - Wikipedia](https://en.m.wikipedia.org/wiki/NixOS)
 - [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](https://distrowatch.com/weekly.php?issue=20170515#nixos)
@@ -55,3 +94,14 @@
 - [Mic92/nix-ld: Run unpatched dynamic binaries on NixOS](https://github.com/Mic92/nix-ld)
 - [FBRS](https://www.fbrs.io/cypress/)
 - [Different methods to run a non-nixos executable on Nixos - Unix &amp; Linux Stack Exchange](https://unix.stackexchange.com/questions/522822/- different-methods-to-run-a-non-nixos-executable-on-nixos)
+- [Anyone tried NixOS, what are your thoughts? : archlinux](https://www.reddit.com/r/archlinux/comments/b2jkrp/anyone_tried_nixos_what_are_your_thoughts/)
+- [NixOS users, tell me: What are the cons? : NixOS](https://www.reddit.com/r/NixOS/comments/441ymh/nixos_users_tell_me_what_are_the_cons/)
+- [Why isn't NixOS more popular : NixOS](https://www.reddit.com/r/NixOS/comments/kpntby/why_isnt_nixos_more_popular/)
+- [pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI](https://github.com/pmiddend/nixos-manager)
+- [Make JupyterWith a Flake · Issue #99 · tweag/jupyterWith](https://github.com/tweag/jupyterWith/issues/99)
+- [rfcs/0049-flakes.md at 8c36f764fbae6a09b06fe2a35b5828e79e24d950 · NixOS/rfcs](https://github.com/NixOS/rfcs/blob/8c36f764fbae6a09b06fe2a35b5828e79e24d950/rfcs/- 0049-flakes.md)
+- [Anyone tried NixOS, what are your thoughts? : archlinux](https://old.reddit.com/r/archlinux/comments/b2jkrp/anyone_tried_nixos_what_are_your_thoughts/)
+- [Graphs - Repology](https://repology.org/repositories/graphs)
+- [Google Search is getting worse](https://www.fastcompany.com/90673924/its-not-just-you-google-search-really-is-getting-worse)
+- [the most important HTTP request headers](https://wizardzines.com/comics/request-headers/)
+- [So You Want To Compete With Roblox](https://www.fortressofdoors.com/so-you-want-to-compete-with-roblox/)
