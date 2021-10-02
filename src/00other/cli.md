@@ -497,3 +497,4 @@ https://www.reddit.com/r/programming/comments/eei1qg/nushell_a_modern_shell_for_
   - python 3.x
 - view images https://github.com/atanunq/viu
 - Multi functional app to find duplicates, empty folders, similar images etc. https://github.com/qarmin/czkawka
+- Szyszka is fast and powerful file renamer https://github.com/qarmin/szyszka
