@@ -1,0 +1,1 @@
+- https://cdimage.debian.org/cdimage/weekly-live-builds/amd64/iso-hybrid/
