@@ -16,8 +16,11 @@ cl_crosshairthickness 0
 cl_crosshair_sniper_width 1
 cl_crosshair_outlinethickness 1
 cl_crosshair_drawoutline 0
-bind 6 "buy awp"
-bind 7 "buy deagle"
+
+bind 6 "buy awp; buy tec9"
+bind 7 "buy awp"
+bind 8 "buy deagle"
+
 host_writeconfig
 ```
 
