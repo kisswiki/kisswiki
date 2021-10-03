@@ -21,6 +21,11 @@ bind 6 "buy awp; buy tec9"
 bind 7 "buy awp"
 bind 8 "buy deagle"
 
+// https://gaming.stackexchange.com/questions/185520/how-to-change-video-to-fullscreen-and-windowed-in-console/185609#185609
+mat_setvideomode 1920 1080 0
+
+cl_showfps 1
+
 host_writeconfig
 ```
 
