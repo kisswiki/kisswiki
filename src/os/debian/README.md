@@ -68,6 +68,38 @@ https://www.phoronix.com/forums/forum/software/linux-gaming/1281830-steam-beta-i
 - https://itsfoss.com/remove-title-bar-firefox/
 - https://addons.mozilla.org/en-US/firefox/addon/save-all-tab-urls/
 
+## Could not get lock /var/lib/dpkg/lock-frontend
+
+```
+$ sudo lsof /var/lib/dpkg/lock-frontend
+[sudo] password for roman:
+lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/1000/gvfs
+      Output information may be incomplete.
+lsof: WARNING: can't stat() fuse.portal file system /run/user/1000/doc
+      Output information may be incomplete.
+$ sudo rm /var/lib/dpkg/lock-frontend
+```
+
+If you see ‘unattende‘ COMMAND column, this means unattended security upgrades are running. You should wait for the process to finish. Basically, this is what I discussed in method 0 but you probably skipped that.
+
+If the COMMAND is something else, you may kill the process and then remove the lock file. You can see the process id under the PID column. Use this PID to kill the process. After that, remove the lock file and run the update command to see if it’s been fixed.
+
+- https://itsfoss.com/could-not-get-lock-error/
+- https://askubuntu.com/questions/1109982/e-could-not-get-lock-var-lib-dpkg-lock-frontend-open-11-resource-temporari/1109989#1109989
+- https://unix.stackexchange.com/questions/171519/lsof-warning-cant-stat-fuse-gvfsd-fuse-file-system
+
+## debian repository 'http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 InRelease' doesn't support architecture 'i386'
+
+limit to just 64 bit by introducing the [arch=amd64]
+
+`sudo vi /etc/apt/sources.list.d/mongodb-org-5.0.list`
+
+`deb [arch=amd64] http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 main`
+
+`sudo apt update`
+
+https://askubuntu.com/questions/741410/skipping-acquire-of-configured-file-main-binary-i386-packages-as-repository-x/741411#741411
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
