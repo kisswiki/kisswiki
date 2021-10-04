@@ -12,6 +12,38 @@
 - https://wiki.debian.org/ReproducibleInstalls/LiveImages
 - https://wiki.debian.org/DebianLive
 
+## nVidia driver not loaded
+
+You need to disable Secure Boot in UEFI or upload your keys to the motherboard and sign the nvidia module with your key.
+
+csgo `cl_showfps 1` showed 20-30.
+
+nvidia-settings was nearly empty.
+
+`inxi -G` showed
+
+`Device-2: NVIDIA GA106M [GeForce RTX 3060 Mobile / Max-Q] driver: N/A`.
+
+`sudo less -R /var/log/boot.log` (top from https://wiki.debian.org/NVIDIA%20Optimus) showed there is error.
+
+With the help of this https://superuser.com/questions/997938/how-do-i-figure-out-why-systemctl-service-systemd-modules-load-fails/1074637#1074637 I run:
+
+`systemctl --failed` which showed 2 nvidia errors. Then this
+
+`sudo journalctl _PID=395` showed more concrete error.
+
+I have googled `ubuntu Error "modprobe nvidia-modeset"` and found this site
+
+https://forums.developer.nvidia.com/t/ubuntu-20-04-driver-version-460-not-loaded/177334
+
+In debian/ubuntu you edit the file `/etc/default/grub`.
+
+Use either of those variables: `GRUB_CMDLINE_LINUX_DEFAULT`, or `GRUB_CMDLINE_LINUX`.
+
+Then run `sudo update-grub` and `sudo reboot`.
+
+For a one-shot testing you can select your kernel version and press `e` in the grub menu at boot time and edit the parameters for just that one particular boot.
+
 ## Evolution
 
 Uninstall Evlolution
@@ -187,14 +219,12 @@ Or just comment out with `#`.
 - https://wiki.debian.org/bootlogd
 - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=953366
 - https://forums.developer.nvidia.com/t/linux-nvidia-gpu-screens-are-not-yet-supported/120834/6
-- https://wiki.debian.org/NVIDIA%20Optimus
 - https://wiki.debian.org/NvidiaGraphicsDrivers
 - https://wiki.debian.org/Xorg
 - https://wiki.debian.org/Wayland#Why_is_Wayland_necessary.3F
 - https://unix.stackexchange.com/questions/202891/how-to-know-whether-wayland-or-x11-is-being-used
 - https://askubuntu.com/questions/904940/how-can-i-tell-if-i-am-running-wayland
 - https://wiki.archlinux.org/title/Installation_guide#Post-installation
-- https://wiki.debian.org/NVIDIA%20Optimus
 - http://xed.ch/help/debian.html
 
 - https://askubuntu.com/questions/1114857/cant-run-csgo-at-fullscreen-ubuntu-18-10/1138409#1138409
