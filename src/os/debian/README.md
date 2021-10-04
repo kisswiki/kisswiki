@@ -12,6 +12,10 @@
 - https://wiki.debian.org/ReproducibleInstalls/LiveImages
 - https://wiki.debian.org/DebianLive
 
+## Evolution
+
+Uninstall Evlolution
+
 ## Fonts
 
 - https://askubuntu.com/questions/19770/how-do-i-change-fonts-and-adjust-their-size
