@@ -83,6 +83,8 @@ Instead of in `/etc/fstab` a user could automatically mount them at session star
 
 `udisksctl mount -b /dev/sdb2 -t ext4`
 
+Then I have moved steamapps folder to new location.
+
 - https://askubuntu.com/questions/712451/steam-library-must-be-on-a-filesystem-mounted-with-execute-permissions/1107425#1107425
 - https://unix.stackexchange.com/questions/169571/what-is-the-difference-between-mounting-in-fstab-and-by-mounting-in-file-manager
 
