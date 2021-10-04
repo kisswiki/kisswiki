@@ -44,6 +44,11 @@ Then run `sudo update-grub` and `sudo reboot`.
 
 For a one-shot testing you can select your kernel version and press `e` in the grub menu at boot time and edit the parameters for just that one particular boot.
 
+## extensions.gnome.org
+
+- https://extensions.gnome.org/extension/1160/dash-to-panel/
+- https://extensions.gnome.org/extension/615/appindicator-support/
+
 ## Evolution
 
 Uninstall Evlolution
