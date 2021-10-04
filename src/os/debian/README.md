@@ -116,14 +116,54 @@ get parition uuid from `sudo blkid` and then in `sudo $EDITOR /etc/fstab`:
 
 `sudo mount -a`
 
+Then I have moved steamapps folder to new location.
+
+- https://askubuntu.com/questions/712451/steam-library-must-be-on-a-filesystem-mounted-with-execute-permissions/1107425#1107425
+
+## x-gvfs-show
+
+if the directory for a device is known and outside /media, $HOME (typically /home/foo) or /run/media/$USER then the device is not shown in the user interface. Additionally, if any of component directories in its directory starts with a dot ("."), the device is not shown either. This policy may be overriden by use of the options x-gvfs-show and x-gvfs-hide.
+
+https://unix.stackexchange.com/questions/169571/what-is-the-difference-between-mounting-in-fstab-and-by-mounting-in-file-manager/169576#169576
+
+## Mount partition automatically
+
 Instead of in `/etc/fstab` a user could automatically mount them at session startup with udisksctl, e.g. adding:
 
 `udisksctl mount -b /dev/sdb2 -t ext4`
 
-Then I have moved steamapps folder to new location.
+or by LABEL.
 
-- https://askubuntu.com/questions/712451/steam-library-must-be-on-a-filesystem-mounted-with-execute-permissions/1107425#1107425
+`udisksctl mount -b /dev/disk/by-label/Games`.
+
+Use ls to get the labels:
+
+`ls /dev/disk/by-label`
+
+To assign label open `Disks app > click on partition > cogs icon > Edit filesystem`.
+
+Then label will be used in Nautilus instead of size etc.
+
+More drive info
+
+`lsblk -fp` or `lsblk -o name,fstype,label,uuid,size,fsavail,fsuse%,mountpoint`
+
+You can also assign label usign gparted or from terminal:
+
+```
+$ sudo dosfslabel /dev/sdc1 MYLABEL
+$ sudo e2label /dev/sdc1 MYLABEL
+$ sudo reiserfstune -l MYLABEL /dev/sdc1
+$ sudo xfs_admin -L MYLABEL /dev/sdc1
+```
+
+You may find the device by mount point
+
+`findmnt /mnt/ubuntu/`
+
 - https://unix.stackexchange.com/questions/169571/what-is-the-difference-between-mounting-in-fstab-and-by-mounting-in-file-manager
+- https://askubuntu.com/questions/365052/how-to-mount-drive-in-media-username-like-nautilus-does-using-udisks/1191876#1191876
+- https://unix.stackexchange.com/questions/14165/list-partition-labels-from-the-command-line/108951#108951
 
 ## csgo - counter strike global operations
 
