@@ -1,5 +1,7 @@
 ## Live USB
 
+F11 for UEFI boot menu.
+
 - https://cdimage.debian.org/cdimage/weekly-live-builds/amd64/iso-hybrid/
   - https://www.reddit.com/r/debian/comments/pztkdc/why_bullseye_and_not_bookworm_in_sourceslist_for/hf3daiv/
   - https://www.reddit.com/r/debian/comments/4elko8/is_there_a_current_downloadable_iso_of_debian/
@@ -11,6 +13,13 @@
 - https://www.debian.org/devel/debian-installer/
 - https://wiki.debian.org/ReproducibleInstalls/LiveImages
 - https://wiki.debian.org/DebianLive
+
+## Needed to set efi manually
+
+```
+efibootmgr -v
+efibootmgr -o 5
+```
 
 ## nVidia driver not loaded
 
