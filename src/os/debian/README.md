@@ -51,6 +51,33 @@
 - https://unix.stackexchange.com/questions/347429/steam-how-to-fix-libgl-errors-on-kali-linux-debian
 - https://unix.stackexchange.com/questions/613436/steam-missing-libgl-so-1-on-fresh-debian-testing-install/613440#613440
 
+## csgo - counter strike global operations
+
+- Max performances on Linux https://steamcommunity.com/sharedfiles/filedetails/?id=1466300192
+- https://www.reddit.com/r/GlobalOffensive/comments/8ax858/updated_csgo_tips_configs_and_more/
+- https://dathost.net/blog/2016/05/28/how-to-create-an-autoexec-cfg-for-csgo/
+- https://totalcsgo.com/launch-options
+- The ULTIMATE CS:GO 2021 Config, Crosshair And Settings Guide! https://www.youtube.com/watch?v=dTW2Z0IpIEw
+
+### LAUNCH OPTIONS and nVidia Optimus
+
+`__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia %command%`
+
+- https://wiki.debian.org/Steam
+
+### fullscreen
+
+Add `-full` to LAUNCH OPTIONS or to autoexec.cfg:
+
+```
+mat_setvideomode 1920 1080 0
+host_writeconfig
+```
+
+`0` means fullscreen
+
+- https://gaming.stackexchange.com/questions/185520/how-to-change-video-to-fullscreen-and-windowed-in-console/185609#185609
+
 ### Validating cache
 
 gfunk
@@ -100,15 +127,24 @@ limit to just 64 bit by introducing the [arch=amd64]
 
 https://askubuntu.com/questions/741410/skipping-acquire-of-configured-file-main-binary-i386-packages-as-repository-x/741411#741411
 
+## networking.service loaded failed failed Raise network interfaces
+
+> In file /etc/network/interfaces.d/setup, I found two references to eth0 and changed them to enp0s3 https://unix.stackexchange.com/questions/530081/startup-debian-10-error-networking-service-loading-failed/597415#597415
+
+Or just comment out with `#`.
+
+`ip link show`
+
+- https://unix.stackexchange.com/questions/125400/how-can-i-find-available-network-interfaces/125406#125406
+- https://askubuntu.com/questions/1164725/networking-restart-fails-failed-to-start-raise-network-interfaces-networking
+- https://unix.stackexchange.com/questions/390307/startup-debian-9-error-failed-to-start-raise-network-interfaces
+- https://superuser.com/questions/997938/how-do-i-figure-out-why-systemctl-service-systemd-modules-load-fails/1074637#1074637
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
 
 - https://www.reddit.com/r/linux_gaming/comments/o8knj5/nvidia_optimus_issue_rtx_3060_and_intel_uhd/
-- https://askubuntu.com/questions/1164725/networking-restart-fails-failed-to-start-raise-network-interfaces-networking
-- https://unix.stackexchange.com/questions/530081/startup-debian-10-error-networking-service-loading-failed
-- https://unix.stackexchange.com/questions/390307/startup-debian-9-error-failed-to-start-raise-network-interfaces
-- https://superuser.com/questions/997938/how-do-i-figure-out-why-systemctl-service-systemd-modules-load-fails/1074637#1074637
 
 - https://forums.developer.nvidia.com/t/ubuntu-20-04-driver-version-460-not-loaded/177334
 - https://wiki.debian.org/bootlogd
@@ -122,7 +158,6 @@ https://askubuntu.com/questions/741410/skipping-acquire-of-configured-file-main-
 - https://askubuntu.com/questions/904940/how-can-i-tell-if-i-am-running-wayland
 - https://wiki.archlinux.org/title/Installation_guide#Post-installation
 - https://wiki.debian.org/NVIDIA%20Optimus
-- https://wiki.debian.org/Steam
 - http://xed.ch/help/debian.html
 
 - https://askubuntu.com/questions/1114857/cant-run-csgo-at-fullscreen-ubuntu-18-10/1138409#1138409
@@ -130,14 +165,6 @@ https://askubuntu.com/questions/741410/skipping-acquire-of-configured-file-main-
 
 - https://redis.io/topics/quickstart
 - https://redis.io/download
-
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1466300192
-- https://www.reddit.com/r/GlobalOffensive/comments/8ax858/updated_csgo_tips_configs_and_more/
-
-- https://dathost.net/blog/2016/05/28/how-to-create-an-autoexec-cfg-for-csgo/
-- https://totalcsgo.com/launch-options
-
-- The ULTIMATE CS:GO 2021 Config, Crosshair And Settings Guide! https://www.youtube.com/watch?v=dTW2Z0IpIEw
 
 - https://www.phoronix.com/forums/forum/software/linux-gaming/1281830-steam-beta-improves-its-vulkan-pre-caching-system-pipewire-capture-now-opt-in#post1281873
 
