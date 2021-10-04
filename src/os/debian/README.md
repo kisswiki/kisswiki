@@ -51,6 +51,8 @@ Uninstall Evlolution
 
 ## Steam
 
+- https://askubuntu.com/questions/260288/how-can-i-change-where-steam-installs-games/821010#821010
+
 ### Error: You are missing the following 32-bit libraries, and Steam may not run:
 
 libGL.so.1
