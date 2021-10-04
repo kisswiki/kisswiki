@@ -47,9 +47,38 @@
 
 ## Steam
 
+### Error: You are missing the following 32-bit libraries, and Steam may not run:
+
+libGL.so.1
+
+There was info during steam install:
+
+> Please install the nvidia-driver-libs-i386 package
+
+https://packages.debian.org/buster/nvidia-driver-libs-i386
+
+and this is how you install it:
+
+`sudo apt install nvidia-driver-libs:i386`
+
 - https://unix.stackexchange.com/questions/270577/missing-libraries-error-when-starting-steam/671575#671575
 - https://unix.stackexchange.com/questions/347429/steam-how-to-fix-libgl-errors-on-kali-linux-debian
 - https://unix.stackexchange.com/questions/613436/steam-missing-libgl-so-1-on-fresh-debian-testing-install/613440#613440
+
+### New Steam library folder must be on a filesystem mounted with execute permissions
+
+get parition uuid from `sudo blkid` and then in `sudo $EDITOR /etc/fstab`:
+
+`UUID=<uuid> /mnt/d ntfs defaults,x-gvfs-show 0 0`
+
+`sudo mount -a`
+
+Instead of in `/etc/fstab` a user could automatically mount them at session startup with udisksctl, e.g. adding:
+
+`udisksctl mount -b /dev/sdb2 -t ext4`
+
+- https://askubuntu.com/questions/712451/steam-library-must-be-on-a-filesystem-mounted-with-execute-permissions/1107425#1107425
+- https://unix.stackexchange.com/questions/169571/what-is-the-difference-between-mounting-in-fstab-and-by-mounting-in-file-manager
 
 ## csgo - counter strike global operations
 
@@ -173,7 +202,6 @@ Or just comment out with `#`.
   - Sor 2 aged 9 😃
   - Sor 3 aged 10 😁
   - Sor 4 aged 36 😭
-- https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-Better-Video-2021
 - https://blogs.gnome.org/uraeus/2021/10/01/pipewire-and-fixing-the-linux-video-capture-stack/
 - https://www.phoronix.com/scan.php?page=news_item&px=libcamera-2021
 
