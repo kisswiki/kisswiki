@@ -141,3 +141,37 @@ https://www.reddit.com/r/Thunderbird/comments/ezjuns/best_solution_for_office365
 The only option available to connect to Office 365 and that works. Only snag that I find is it does not display outlook emails that have been archived. Should have an option to display achieved folders.
 
 https://addons.thunderbird.net/en-us/thunderbird/addon/owl-for-exchange/reviews/1167949/
+
+### oauth2
+
+Jeremy Reeves
+
+Oauth does not mean never reauthenticate. Oauth also does not mean SSO. Oauth is an authentication protocol that offers the opportunity to utilize SSO, and in some cases would mean the user does not have to authenticate themselves because it’s already been done through some other means.
+
+The issue I see here is Tbird is behaving like a service or service principal working on behalf of the account, and not behaving like a client allowing the user to act for itself.
+
+I know Tbird would not work this way, but let’s consider OWA with ADFS as the IdP. After a period of time(session expires) or password change, a user token is no longer valid and it is required to reauth through the IdP to refresh. Sure this is usually SSO with cached credentials, but it’s still a reauth as the account. Outlook does the same thing using Windows credentials with Modern Auth. Tbird is bypassing that requirement by reauthing through the azure app on behalf of the user as a service, not allowing the user to reauthenticate themselves with the new credential.
+
+And because it’s acting like a service, Microsoft is letting it squeak past the security measure in place leading us to this active issue. I’m going to have a couple hundred angry folks later this year if it can’t be resolved because when Basic Auth is finally killed, we likely will not allow them to use Tbird with Oauth in the current state. Trying to avoid this scenario.
+
+Jason Gunthorpe
+
+Thunderbird is absolutely not a confidental client, it cannot maintain the secrecy of the globally issued client secret (it is currently published for all to see in the github). It should be using the public client type, with no client secret, using PCKE instead. Apps that can't maintian the client secret can't have app-specific security policies applied because basically anyone can forge the authentication source.
+
+David
+
+And additional issue I have noticed recently in multiple o365 School / corporate environments is that the Thunderbird client does not provide the required "DeviceID" value from the Azure Primary Refresh Token. The device ID value is used to determine authorization for Conditional Access rules based on device state or compliance.
+
+As a result any organizations which use Conditional Access policies which referrence the DeviceID - the Thunderbird client will be automatically blocked from connecting (Even if connecting from a compliant device) due to the required value not being provided in the Auth process. Users will instead get a pop up which states:
+
+This application contains sensitive information and can only be accessed from: Devices and Client applications that meet <organizations> management compliance policy.
+
+Under the "more details" section of the client security popup the DeviceID information will show as blank indicating this information was not provided by the Thunderbird client. Similarly the O365 signin logs will show this information was not provided by the client and you will see an explicit failure in the Conditional Access section showing the rule could not be evaluated as the DeviceID was not provided.
+
+You can pull this information on a windows machine using the cmd "dsregcmd /status". Its also available from AD joined MAC machines. o365 OAuth process clients are meant to provide this information when available.
+
+https://bugzilla.mozilla.org/show_bug.cgi?id=1528136#c182
+
+https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-oauth-2-0-support-for-imap-and-smtp-auth-protocols-in/ba-p/1330432
+
+https://eightwone.com/2020/07/01/configuring-exchange-account-with-imap-oauth2/
