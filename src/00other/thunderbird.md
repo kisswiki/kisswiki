@@ -105,3 +105,39 @@ https://support.mozilla.org/en-US/questions/1126525
 ## search
 
 - https://support.mozilla.org/en-US/kb/quick-filter-toolbar
+
+## Office 365
+
+###
+
+Dean478
+
+Wholesome
+
+I have a premium Outlook.com account (part of Office 365 subscription). Normally I use it with Outlook 365 (desktop program) and have for many, many years. Through all my testing and research I have found that basic Thunderbird cannot work with Outlook.com/Exchange without addons. At the very minimum I require:
+
+- Lighting calendar addon (technically it appears to be part of 'basic' Thunderbird these days)
+- TB Sync (this will allow me to configure and setup my Microsoft Account in Thunderbird)
+- Provider for Exchange Sync (which required TB Sync and allows me to sync my Outlook calendars, tasks and contacts)
+
+Once those addons are installed, for me, it actually works quite well. And I can use Thunderbird on Linux or Windows without any problem. All of those addons are free and updated frequently. They also allow me to use other providers if I decided to change to Google or some other lesser known free or paid mail/calendar/tasks/contacts options.
+
+vigneshprabhud
+
+Ditto to what Dean478 said. With those AddOns, I am able to 1.) Autocomplete email id when composing email 2.) Sync calendar
+
+The only issue I am having is, when I create an Event in a shared calendar, it does not sync. Throws some error. But I rarely use this functionality, so I am good for now.
+
+HolmesToYourWatson
+
+Microsoft supports IMAP, but not in conjunction with their more secure auth model. If you want to be upset at them, it should be over their refusal to use the OAuth 2 standard, which they took and modified to create their own proprietary, incompatible "standard".
+
+wizzo18
+
+You can always use Evolution as a mail client it is easy to import your local folders
+
+https://www.reddit.com/r/Thunderbird/comments/ezjuns/best_solution_for_office365_with_thunderbird_in/
+
+The only option available to connect to Office 365 and that works. Only snag that I find is it does not display outlook emails that have been archived. Should have an option to display achieved folders.
+
+https://addons.thunderbird.net/en-us/thunderbird/addon/owl-for-exchange/reviews/1167949/
