@@ -263,6 +263,57 @@ Or just comment out with `#`.
 - https://unix.stackexchange.com/questions/390307/startup-debian-9-error-failed-to-start-raise-network-interfaces
 - https://superuser.com/questions/997938/how-do-i-figure-out-why-systemctl-service-systemd-modules-load-fails/1074637#1074637
 
+## webp thumbnail in nautilus
+
+Get patched version from https://github.com/aruiz/webp-pixbuf-loader/pull/30
+
+```
+$ sudo apt update
+$ sudo apt install build-essential meson ninja libgdk-pixbuf-2.0-dev libwebp-dev
+$ git clone https://github.com/alanhaw/webp-pixbuf-loader
+$ cd webp-pixbuf-loader
+$ meson builddir -Dgdk_pixbuf_query_loaders_path=/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders
+ninja -C builddir
+$ sudo ninja -C builddir install
+$ rm -rf ~/.cache/thumbnails/fail/
+# or rm -rf ~/.cache/thumbnails/*
+$ nautilus -q
+```
+
+You need to change wrong path:
+
+```
+sudo $EDITOR /usr/local/share/thumbnailers/webp-pixbuf.thumbnailer
+```
+
+from `/usr/local/bin/gdk-pixbuf-thumbnailer` to `/usr/bin/gdk-pixbuf-thumbnailer`.
+
+Restarting nautilus maybe needed https://askubuntu.com/questions/19979/how-to-restart-nautilus-without-logging-out
+
+Or restart gnome-shell https://askubuntu.com/questions/100226/how-to-restart-gnome-shell-from-command-line/1364254#1364254
+
+File to test https://res.cloudinary.com/demo/image/upload/fl_awebp/cell_animation.webp.
+
+There is also this https://salsa.debian.org/okias-guest/webp-pixbuf-loader which has `debian` directory in it.
+
+- https://github.com/aruiz/webp-pixbuf-loader/issues/29
+- most solutions I found were 'hacky', until I found the rather unknown WebP GDK Pixbuf Loader library. https://www.linuxuprising.com/2021/09/show-webp-thumbnails-in-gtk.html
+- https://repology.org/project/webp-pixbuf-loader/versions
+- ITP: webp-pixbuf-loader -- WebP Image format GdkPixbuf loader. https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=951113
+- https://askubuntu.com/questions/61443/is-it-possible-to-view-webp-images-in-nautilus-photo-program
+- https://askubuntu.com/questions/617047/how-to-preview-dds-and-webp-images-on-nautilus
+- Also: All I had to do to get previews in Nautilus was to install this version of Eye of Gnome, through the ppa here: https://gitlab.gnome.org/GNOME/eog/-/issues/158 https://www.reddit.com/r/Ubuntu/comments/o2phwv/comment/h53e2xg/
+- In eog2 it includes an eog with some modification (Some parts proposed in the merges request), the plugins and some pixbuf-loaders like raw images, psd, and webp. https://gitlab.gnome.org/GNOME/eog/-/issues/158
+- Using ppa:krifa75/eog-ordissimo https://itsfoss.com/webp-ubuntu-linux/
+- https://askubuntu.com/questions/544254/which-image-viewers-in-linux-support-the-webp-image-format
+- https://askubuntu.com/questions/1346950/how-to-add-webp-support-to-eye-of-gnome
+
+## package management with apt
+
+`apt-cache rdepends --installed jetty` to see what depends on jetty
+
+https://askubuntu.com/questions/13296/how-do-i-find-the-reverse-dependency-of-a-package/13297#13297
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
