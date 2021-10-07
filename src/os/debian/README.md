@@ -314,6 +314,42 @@ There is also this https://salsa.debian.org/okias-guest/webp-pixbuf-loader which
 
 https://askubuntu.com/questions/13296/how-do-i-find-the-reverse-dependency-of-a-package/13297#13297
 
+## git
+
+### autocompletion of branches didn't work
+
+in `.bashrc`:
+
+This didn't work:
+
+```
+# https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
+# https://www.quora.com/What-is-the-best-Bash-prompt-for-Git
+if [ -f /etc/bash_completion.d/git-prompt ]; then
+  source /etc/bash_completion.d/git-prompt
+  GIT_PS1_SHOWDIRTYSTATE=true
+  GIT_PS1_SHOWCOLORHINTS=true
+  GIT_PS1_SHOWUNTRACKEDFILES=true
+  #PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+  PS1='\w$(__git_ps1 " (%s)")\$ '
+fi
+```
+
+I needed this:
+
+```
+# https://superuser.com/questions/1310317/why-does-debian-not-autocomplete-all-git-commands/1310326#1310326
+[ -f ~/.git-completion.bash ] && . ~/.git-completion.bash
+```
+
+### rebase fails with
+
+`fatal: Not implemented yet`
+
+WTF
+
+Switched to Ubuntu to do rebase in the same directory.
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
