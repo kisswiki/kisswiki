@@ -350,6 +350,12 @@ WTF
 
 Switched to Ubuntu to do rebase in the same directory.
 
+https://www.reddit.com/r/debian/comments/q38pik/git_rebase_fatal_not_yet_implemented/
+
+## gnome panel dissapeared
+
+I needed to `Alt+F2 > r > Enter` to restart gnome shell.
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
