@@ -356,6 +356,16 @@ https://www.reddit.com/r/debian/comments/q38pik/git_rebase_fatal_not_yet_impleme
 
 I needed to `Alt+F2 > r > Enter` to restart gnome shell.
 
+## screenshot
+
+flameshot added to `Tweaks > Startup Applications`.
+
+But image copied with cannot be pasted in gitlab issue comment.
+
+## workrave
+
+`Tweaks > Startup Applications`
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
