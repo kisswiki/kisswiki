@@ -356,6 +356,18 @@ https://www.reddit.com/r/debian/comments/q38pik/git_rebase_fatal_not_yet_impleme
 
 I needed to `Alt+F2 > r > Enter` to restart gnome shell.
 
+## gnome autostart application
+
+`sudo apt install gnome-tweak-tool`
+
+`Tweaks > Startup Applications`
+
+- https://askubuntu.com/questions/37957/how-do-i-manage-applications-on-startup-in-gnome-3/645919#645919
+- https://askubuntu.com/questions/598195/how-to-add-a-script-to-startup-applications-from-the-command-line
+- https://help.gnome.org/users/gnome-help/stable/shell-apps-auto-start.html.en
+- https://help.gnome.org/admin/system-admin-guide/stable/autostart-applications.html.en
+-
+
 ## screenshot
 
 flameshot added to `Tweaks > Startup Applications`.
