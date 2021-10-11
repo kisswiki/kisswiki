@@ -13,3 +13,7 @@
 
 - [YOW! Lambda Jam 2018 - Ryan Trinkle - Full-Stack Haskell, from Prototype to Production - YouTube](https://www.youtube.com/watch?v=riJuXDIUMA0)
   - https://news.ycombinator.com/item?id=17811757
+
+## Learn
+
+- https://crypto.stanford.edu/~blynn/compiler/
