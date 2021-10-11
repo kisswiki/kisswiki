@@ -378,6 +378,10 @@ But image copied with cannot be pasted in gitlab issue comment.
 
 `Tweaks > Startup Applications`
 
+## Movie subtitles
+
+- https://wiki.debian.org/Subtitle#Software_available
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
