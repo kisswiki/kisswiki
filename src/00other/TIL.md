@@ -51,7 +51,3 @@ img {
 
 - https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container/3029434#3029434
 - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
-
-```
-
-```
