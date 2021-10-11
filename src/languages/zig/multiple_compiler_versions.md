@@ -1,2 +1,3 @@
 - https://github.com/marler8997/zigup
 - https://github.com/yamirui/zup
+- https://github.com/rofrol/zig-utils/blob/main/scripts/zupd
