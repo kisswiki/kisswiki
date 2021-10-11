@@ -366,7 +366,6 @@ I needed to `Alt+F2 > r > Enter` to restart gnome shell.
 - https://askubuntu.com/questions/598195/how-to-add-a-script-to-startup-applications-from-the-command-line
 - https://help.gnome.org/users/gnome-help/stable/shell-apps-auto-start.html.en
 - https://help.gnome.org/admin/system-admin-guide/stable/autostart-applications.html.en
--
 
 ## screenshot
 
