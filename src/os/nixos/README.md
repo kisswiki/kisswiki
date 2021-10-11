@@ -126,6 +126,8 @@ What I can say is that you're just riding on hypes, and never looked into the tr
 
 https://news.ycombinator.com/item?id=28793941
 
+And more of that https://news.ycombinator.com/item?id=28817477
+
 ## Incrementally
 
 fiddlerwoaroof
