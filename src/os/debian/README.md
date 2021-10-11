@@ -380,6 +380,7 @@ But image copied with cannot be pasted in gitlab issue comment.
 ## Movie subtitles
 
 - https://wiki.debian.org/Subtitle#Software_available
+- https://wiki.archlinux.org/title/List_of_applications/Multimedia#Subtitle_editors
 
 ## Misc
 
