@@ -136,6 +136,19 @@ I found the Nixos learning curve easier when I started with nust nix-shell and t
 
 https://news.ycombinator.com/item?id=28795345
 
+## New UI
+
+The UI for Nix has been under significant rework over the last ~3 years, but the new UI isn't ready for primetime yet, so none of it is made prominent now. It's getting there though.
+You can have a peek here: https://nixos.org/manual/nix/unstable/command-ref/experimental-commands.html
+
+## Visual Studio Code
+
+https://nixos.wiki/wiki/Visual_Studio_Code#Managing_extensions
+
+## Gnome
+
+https://nixos.org/manual/nixos/stable/#chap-gnome
+
 ## Links
 
 - [NixOS - Explore](https://nixos.org/explore.html)
