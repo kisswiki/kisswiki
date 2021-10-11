@@ -71,3 +71,20 @@ https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277036-
 ## KDE and monitor standby crash
 
 - Session crashes when monitor goes into standby https://bugs.kde.org/show_bug.cgi?id=420160
+
+## Zoom
+
+Zoom-in-the-browser (surprisingly) supports screen sharing on Wayland/Sway.
+
+https://news.ycombinator.com/item?id=28798050
+
+## Vivarium and River (written in zig language)
+
+I wrote [Vivarium](
+- [0] https://github.com/inclement/vivarium) specifically to be a wayland compositor that behaves exactly like my (fairly simple) xmonad config, but it's a relatively new/unstable compositor and nothing like xmonad internally.
+
+[River](https://github.com/ifreund/river) has a fantastic tiling model via user-provided executables, which makes it very flexible and probably a good fit for many people wanting something xmonad-like.
+
+- A wlroots and dwl based tiling wayland compositor based around creating layoutshttps://github.com/werererer/japokwm
+  - https://github.com/djpohly/dwl
+- https://news.ycombinator.com/item?id=28796959
