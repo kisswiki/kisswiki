@@ -22,7 +22,7 @@ watchexec -w src/main.zig -i zig-cache -e zig 'printf \n\n && zig build-exe src/
 watchexec -w src/main.zig -i zig-cache -e zig 'printf \n\n && zig build-exe src/main.zig && ./main'
 ```
 
-for rustlings
+for ziglings
 
 `watchexec -w exercises -i zig-cache -e zig zig build`
 
