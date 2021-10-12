@@ -22,6 +22,14 @@ Install from here https://github.com/OzakIOne/termux-youtube-dl
 
 Upgrade with `pip install -U yt-dlp`.
 
+Also check in termux if it is set to use `yt-dlp` and not `youtube-dl`:
+
+`vim ~/bin/termux-url-opener`
+
+You may need to:
+
+`mv ~/.config/youtube-dl/ ~/.config/yt-dlp`
+
 ### Add id to file name
 
 Open termux
