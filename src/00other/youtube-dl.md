@@ -1,4 +1,4 @@
-## Install
+## Install on windows, linux
 
 Somehow version installed with pip reported older version with `youtube-dl --version`.
 
@@ -15,6 +15,24 @@ I also had some old version installed in `~/.local/bin` and it was trying to run
 So I needed to also do `hash -r` or `export PATH=$PATH`.
 
 https://superuser.com/questions/876579/linux-command-executed-from-a-different-path-than-whereis/876588#876588
+
+## Install on Android
+
+Install from here https://github.com/OzakIOne/termux-youtube-dl
+
+### Add id to file name
+
+Open termux
+
+```
+$ apt update
+$ pkg install vim
+$ vim ~/.config/youtube-dl/config
+```
+
+Change to `%(title)s-%(id)s.%(ext)s`
+
+- https://github.com/yt-dlp/yt-dlp#differences-in-default-behavior
 
 ## ffmpeg
 
@@ -34,9 +52,9 @@ https://askubuntu.com/questions/178481/how-to-download-an-mp3-track-from-a-youtu
 
 ## audio-quality not for source but post processing?
 
->The --audio-quality does not affect the audio quality of the source. It's a post processing option and will re-encode the audio.
+> The --audio-quality does not affect the audio quality of the source. It's a post processing option and will re-encode the audio.
 >
->Since any kind of (lossy) re-encoding will actually deteriorate the quality of the stream—or at least make it unnecessarily larger in size—I would recommend not to post-process the audio at all.
+> Since any kind of (lossy) re-encoding will actually deteriorate the quality of the stream—or at least make it unnecessarily larger in size—I would recommend not to post-process the audio at all.
 
 https://superuser.com/questions/846842/how-to-get-best-quality-audio-using-youtube-dl
 
@@ -44,9 +62,9 @@ https://superuser.com/questions/846842/how-to-get-best-quality-audio-using-youtu
 
 bestaudio is best audio-only format not best overall audio https://github.com/rg3/youtube-dl/issues/9302
 
->be careful with -f bestaudio as best audio could be .webm and not .m4a Use `-f m4a` if you want best m4a quality audio. https://askubuntu.com/questions/423508/can-i-directly-download-audio-using-youtube-dl#comment1130351_423510
+> be careful with -f bestaudio as best audio could be .webm and not .m4a Use `-f m4a` if you want best m4a quality audio. https://askubuntu.com/questions/423508/can-i-directly-download-audio-using-youtube-dl#comment1130351_423510
 
->The real problem is that bestaudio will select only the best of the dedicated audio formats, even if there is a better audio available in combined format. https://askubuntu.com/questions/688713/how-to-get-best-quality-audio-using-youtube-dl#comment1409840_688731
+> The real problem is that bestaudio will select only the best of the dedicated audio formats, even if there is a better audio available in combined format. https://askubuntu.com/questions/688713/how-to-get-best-quality-audio-using-youtube-dl#comment1409840_688731
 
 ## metadata, thumbnail, filename etc.
 
