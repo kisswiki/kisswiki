@@ -184,6 +184,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://github.com/taskforcesh/bullmq-redis - BullMQ - Redis Module for handling queues of jobs and messages.
 - https://github.com/devzero/parzival - A comptime-based parsing library for the Zig language
 - https://gist.github.com/tuket/3b657d8ccadb54ca69a9c0ac4d387789 - paint in zig using SDL2
+- Aims to provide high- and low-level utilites for building VST 2.4 plugins with Zig https://github.com/schroffl/zig-vst/
 
 ## Database
 
