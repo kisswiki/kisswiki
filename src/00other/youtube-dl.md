@@ -20,6 +20,8 @@ https://superuser.com/questions/876579/linux-command-executed-from-a-different-p
 
 Install from here https://github.com/OzakIOne/termux-youtube-dl
 
+Upgrade with `pip install -U yt-dlp`.
+
 ### Add id to file name
 
 Open termux
