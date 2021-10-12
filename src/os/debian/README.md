@@ -382,6 +382,12 @@ But image copied with cannot be pasted in gitlab issue comment.
 - https://wiki.debian.org/Subtitle#Software_available
 - https://wiki.archlinux.org/title/List_of_applications/Multimedia#Subtitle_editors
 
+## Python
+
+`sudo apt install python3 python3-pip`
+
+https://www.how2shout.com/linux/install-python-3-x-or-2-7-on-debian-11-bullseye-linux/
+
 ## Misc
 
 - https://wiki.debian.org/Firmware

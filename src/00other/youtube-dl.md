@@ -35,14 +35,56 @@ You may need to:
 `vim ~/.config/yt-dlp/config`
 
 ```
+--write-subs
 --write-auto-subs
 --sub-format srt
 --sub-langs en --embed-subs
 --embed-metadata
 --embed-thumbnail
+# Merge everything in Matroska, a better suited container for subs and chapters.
+--merge-output-format 'mkv'
+--sponsorblock-remove sponsor,selfpromo,interaction
 --no-mtime
---output /data/data/com.termux/files/home/storage/shared/Youtube-DL/%(title)s [%(id)s].%(ext)s
+#--output /data/data/com.termux/files/home/storage/shared/Youtube-DL/%(title)s [%(id)s].%(ext)s
+--output '~/yt-dlp/%(extractor)s/%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s [%(id)s].%(ext)s'
 ```
+
+- https://github.com/kdeldycke/dotfiles/blob/e3cbd1318dc64d7d015295c782a14016c771c89e/dotfiles/.config/yt-dlp.conf
+- https://github.com/Mikaela/shell-things/blob/3dab67498bb5fc71c1fa3baddbbd810df4564359/conf/yt-dlp.conf
+
+also
+
+```
+--throttled-rate 100K
+--concurrent-fragments 4
+```
+
+- https://github.com/Tahvohck/VTuber-Archiving-Tools/blob/f1093c0c6b3d33a57a4d5046ffb6c86bf463dea8/yt-dlp.conf
+- https://github.com/ohmybahgosh/YT-DLP-SCRIPTS
+
+## options priority
+
+In youtube-dl, `--sub-langs en --sub-langs ja` will download only `ja`, but in yt-dlp, it will download both. If you want to override an older sub-langs in yt-dlp, you have to explicitly do it like `--sub-langs -all,ja`. The `-all` removes all previous `--sub-langs`.
+
+https://www.reddit.com/r/youtubedl/comments/o88mtn/comment/h33heak/
+
+## embed subtitles
+
+`ffmpeg -i "https://example.com/link/to/subtitles_playlist.m3u8" subtitles.srt`
+
+https://www.reddit.com/r/youtubedl/comments/mb8hxf/comment/grwjsa3/
+
+If your mkv filenames match the subtitle names (as is usually the case) -- apart from the extension of course, you can run something like:
+
+```bash
+for f in *.mkv ; do ffmpeg -i ${f} -i ${f%.*}.en.vtt -c:v copy -c:a copy -map 0:v -map 0:a -map 1:s ${f%.*}_sub.mkv ;done
+```
+
+in a bash/zsh-like shell (so works on Windows via WSL, MacOS, & Linux etc.)
+
+You can do it for MP4s too - just change the extension of course, and add `-c:s mov_text -metadata:s:s:0 language=en` between the last `copy` and the first `-map`.
+
+https://www.reddit.com/r/youtubedl/comments/p4b2r7/comment/h8y4x8z/
 
 ### Add id to file name
 
