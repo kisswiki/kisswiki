@@ -30,6 +30,20 @@ You may need to:
 
 `mv ~/.config/youtube-dl/ ~/.config/yt-dlp`
 
+### Config
+
+`vim ~/.config/yt-dlp/config`
+
+```
+--write-auto-subs
+--sub-format srt
+--sub-langs en --embed-subs
+--embed-metadata
+--embed-thumbnail
+--no-mtime
+-o /data/data/com.termux/files/home/storage/shared/Youtube-DL/%(title)s [%(id)s].%(ext)s
+```
+
 ### Add id to file name
 
 Open termux
