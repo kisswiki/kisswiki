@@ -41,7 +41,7 @@ You may need to:
 --embed-metadata
 --embed-thumbnail
 --no-mtime
--o /data/data/com.termux/files/home/storage/shared/Youtube-DL/%(title)s [%(id)s].%(ext)s
+--output /data/data/com.termux/files/home/storage/shared/Youtube-DL/%(title)s [%(id)s].%(ext)s
 ```
 
 ### Add id to file name
