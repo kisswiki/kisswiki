@@ -51,6 +51,8 @@ You may need to:
 
 - https://github.com/kdeldycke/dotfiles/blob/e3cbd1318dc64d7d015295c782a14016c771c89e/dotfiles/.config/yt-dlp.conf
 - https://github.com/Mikaela/shell-things/blob/3dab67498bb5fc71c1fa3baddbbd810df4564359/conf/yt-dlp.conf
+- https://www.reddit.com/r/youtubedl/wiki/config-example
+- https://superuser.com/questions/927523/how-to-download-only-subtitles-of-videos-using-youtube-dl
 
 also
 
