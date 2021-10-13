@@ -27,4 +27,9 @@ The same thing is true for dopamine and Facebook. Even if the entire explanation
 
 people who buy into these simplistic explanations are actually the ones who engage in a body / mind fallacy. Anything that impacts behavior, regardless of how remote in nature, manifests in the brain, precisely because you are your brain, not despite of it.
 
+bloqs
+
+Yes, popular movements get the terminology wrong, but the intention is correct. Dopamine is obviously a critical part of neurochemistry that isn't nearly as populist-simplified as "high or low".
+But these movements and discussion groups get the intention and method right - much of modern economies is encouraging compulsive habits in one group of people by another for economic gain. Much of human progress is around getting us the things we want as easily and as without-resistance as possible. This is catastrophic for our sense of individual purpose and direction, but policy isn't set by something so unempirical
+
 https://news.ycombinator.com/item?id=28852348
