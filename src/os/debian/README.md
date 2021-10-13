@@ -377,6 +377,12 @@ But image copied with cannot be pasted in gitlab issue comment.
 
 `Tweaks > Startup Applications`
 
+### Workrave hangs or crashes gnome-shell
+
+- https://alternativeto.net/software/workrave/?platform=linux
+- https://hovancik.net/stretchly/
+  - `sudo dpkg -i package` https://github.com/hovancik/stretchly/releases
+
 ## Movie subtitles
 
 - https://wiki.debian.org/Subtitle#Software_available
