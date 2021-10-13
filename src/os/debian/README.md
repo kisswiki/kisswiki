@@ -379,6 +379,7 @@ But image copied with cannot be pasted in gitlab issue comment.
 
 ### Workrave hangs or crashes gnome-shell
 
+- https://www.reddit.com/r/debian/comments/q7aa7o/workrave_hangs_or_crashes_gnomeshell_on_debian_11/
 - https://alternativeto.net/software/workrave/?platform=linux
 - https://hovancik.net/stretchly/
   - `sudo dpkg -i package` https://github.com/hovancik/stretchly/releases
