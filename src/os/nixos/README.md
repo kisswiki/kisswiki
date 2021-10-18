@@ -130,6 +130,8 @@ And more of that https://news.ycombinator.com/item?id=28817477
 
 And more [NixOS and the Art of OS Configuration (2018) | Hacker News](https://news.ycombinator.com/item?id=28884609)
 
+kvark uses it https://news.ycombinator.com/item?id=28899039
+
 ## ZFS
 
 https://elis.nu/blog/2019/08/encrypted-zfs-mirror-with-mirrored-boot-on-nixos/
