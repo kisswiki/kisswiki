@@ -377,12 +377,14 @@ But image copied with cannot be pasted in gitlab issue comment.
 
 `Tweaks > Startup Applications`
 
-### Workrave hangs or crashes gnome-shell
+### Workrave hangs or crashes gnome panel?
 
 - https://www.reddit.com/r/debian/comments/q7aa7o/workrave_hangs_or_crashes_gnomeshell_on_debian_11/
 - https://alternativeto.net/software/workrave/?platform=linux
 - https://hovancik.net/stretchly/
   - `sudo dpkg -i package` https://github.com/hovancik/stretchly/releases
+
+After uninstalling workrave I still got gnome panel crash and needed to do `Alt+F2 > r > Enter`.
 
 ## Movie subtitles
 
@@ -394,6 +396,61 @@ But image copied with cannot be pasted in gitlab issue comment.
 `sudo apt install python3 python3-pip`
 
 https://www.how2shout.com/linux/install-python-3-x-or-2-7-on-debian-11-bullseye-linux/
+
+## UI is small
+
+`Google Chrome > chrome://settings/appearance > Page zoom: 150%`
+
+https://news.ycombinator.com/item?id=28900464
+
+### Workrave alternative
+
+- https://alternativeto.net/software/workrave/?platform=linux
+- https://wiki.archlinux.org/title/List_of_applications/Other#Break_timers
+- https://en.m.wikipedia.org/wiki/List_of_repetitive_strain_injury_software
+- https://gitlab.gnome.org/GNOME/gnome-break-timer/
+- https://github.com/gnome-pomodoro/gnome-pomodoro
+
+I have installed https://github.com/tom-james-watson/breaktimer-app/releases from deb.
+
+But I needed to replace in deb file https://www.reddit.com/r/debian/comments/q7ymc7/convert_deb_to_use_libayatanaappindicator3
+
+It is because libappindicator libraries are removed from debian
+
+- https://www.reddit.com/r/debian/comments/pn1oia/what_happened_to_libappindicator31_in_debian_11/
+- https://lists.debian.org/debian-devel/2018/03/msg00506.html
+- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=895037
+- https://www.debian.org/releases/bullseye/amd64/release-notes/ch-information.en.html#noteworthy-obsolete-packages
+- https://wiki.debian.org/Ayatana/IndicatorsTransition
+
+UPDATE:
+
+It seems the better way is to use equivs:
+
+> It's no cruder than going in and munging the dependencies in a package file before you install it, and it has the substantial benefit of persisting the hack over package upgrades on both sides of the spoofed dependency.
+
+https://www.reddit.com/r/debian/comments/q7ymc7/convert_deb_to_use_libayatanaappindicator3/hgluc40/
+
+So I did use it:
+
+```
+$ sudo apt install equivs
+$ equivs-control libappindicator3-1.equivs
+$ $EDITOR libappindicator3-1.equivs
+$ cat libappindicator3-1.equivs
+Section: misc
+Priority: optional
+Standards-Version: 1.0
+Package: libappindicator3-1
+Description: dummy libappindicator3-1 package
+$ equivs-build libappindicator3-1.equivs
+$ sudo dpkg -i libappindicator3-1_1.0_all.deb
+$ sudo dpkg -i BreakTimer.deb
+```
+
+- https://wiki.debian.org/Packaging/HackingDependencies
+- https://stackoverflow.com/questions/36796614/equivs-dummy-package-version-number-syntax
+- https://stackoverflow.com/questions/65978703/missing-libappindicator3-1-installing-slack/69623268#69623268
 
 ## Misc
 
