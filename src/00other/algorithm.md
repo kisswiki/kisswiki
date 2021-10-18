@@ -22,3 +22,11 @@ http://blog.vishupuri.net/2011/01/23/origin-of-the-word-algorithm/
   - 15 Sorting Algorithms in 6 Minutes https://youtu.be/kPRA0W1kECg
   - 16 Sorts - Disparity Loop https://youtu.be/bcwwM6EoveA
   - http://greggman.github.io/doodles/sort.html
+
+## Learn
+
+- For the most advanced/modern, there's the graduate-level course, 6.854 https://news.ycombinator.com/item?id=28823285
+  - https://courses.csail.mit.edu/6.854/21/course_materials.html
+- https://news.ycombinator.com/item?id=28829208
+  - https://teachyourselfcs.com/
+  - https://courses.csail.mit.edu/
