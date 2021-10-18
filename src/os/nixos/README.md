@@ -128,6 +128,12 @@ https://news.ycombinator.com/item?id=28793941
 
 And more of that https://news.ycombinator.com/item?id=28817477
 
+And more [NixOS and the Art of OS Configuration (2018) | Hacker News](https://news.ycombinator.com/item?id=28884609)
+
+## ZFS
+
+https://elis.nu/blog/2019/08/encrypted-zfs-mirror-with-mirrored-boot-on-nixos/
+
 ## Incrementally
 
 fiddlerwoaroof
@@ -159,6 +165,7 @@ https://nixos.org/manual/nixos/stable/#chap-gnome
 - [Playing CS:GO on Linux? Don't enable resizable BAR : GlobalOffensive](https://www.reddit.com/r/GlobalOffensive/comments/nakz30/- playing_csgo_on_linux_dont_enable_resizable_bar/)
 - [I fixed (most of) my FPS issues by turning Multicore Rendering ON. : GlobalOffensive](https://www.reddit.com/r/GlobalOffensive/comments/3to8f6/- i_fixed_most_of_my_fps_issues_by_turning/)
 - [Nvidia - NixOS Wiki](https://nixos.wiki/wiki/Nvidia)
+  - https://nixos.org/manual/nixos/stable/#sec-x11-graphics-cards-nvidia
 - [Search · csgo](https://github.com/NixOS/nixpkgs/search?q=csgo&type=issues)
 - [Steam: Proton games don't start anymore · Issue #130699 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/130699)
 - [steam-runtime/reporting-steamlinuxruntime-bugs.md at master · ValveSoftware/steam-runtime](https://github.com/ValveSoftware/steam-runtime/blob/master/doc/- reporting-steamlinuxruntime-bugs.md#essential-information)
