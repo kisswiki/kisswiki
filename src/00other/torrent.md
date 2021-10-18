@@ -6,6 +6,9 @@
 
 ## torrent
 
+- polish http://electro-torrent.pl/
+- https://rarbg.to/
+- https://www.limetorrents.cc/
 - https://torrentfreak.com/top-10-most-popular-torrent-sites-of-2019/
 - https://yts.lt
 - https://torrentz2.eu/search, https://torrentz2.eu/search?f=napisy+2017
@@ -33,7 +36,6 @@
   - https://torrentfreak.com/rutracker-reveals-innovative-plan-for-users-to-subvert-isp-blocking-180110/
   - https://torrentfreak.com/russias-largest-torrent-site-celebrates-13-years-online-in-a-chinese-restaurant-170923/
   - https://torrentfreak.com/rutracker-clocks-a-million-downloads-a-day-despite-being-completely-blocked-170408/
-- https://rarbg.to
 - http://btdb.to/
 - https://zooqle.com/
 - https://eztv.ag/
@@ -88,7 +90,6 @@ https://trac.transmissionbt.com/ticket/452#comment:8
 - http://www.torrentdownloads.me
 
 Both nyaa.si and nyaa.pantsu.cat sprung up after nyaa.se went down and are both reputable. nyaa.si was advertised by the largest anime release group, horrible subs (although they upload everywhere including pantsu, animebytes and their own web page / indexer) as the successor to nyaa.se. They both get a fair bit of traffic, but Pantsu is less stable, having lag at peak traffic and often going down for 10-30 seconds due to this. Pantsu has the superior back catalog and did a far better job of exporting the original nyaa.se. either one is fine to use really, they are very similar.
-
 
 I just checked out nyaa.si and was wondering what the difference between all the categories are - mainly raw, english-translated and non-english translated.
 
@@ -177,4 +178,4 @@ https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently
 
 You should research the operation of 10 bit LE. Even though the source data and final display are both 8 bits, the use of 10 bits produced a higher quality final result. It justifies a higher file size. I am comfortable with the devices I own that can display 10 bit HEVC, and more will follow.
 
-[link](https://thepiratebay.org/torrent/15551791/Gomorra_(Gomorrah)_Season_2_Blu-Ray_HEVC_10-Bit_AC3)
+[link](<https://thepiratebay.org/torrent/15551791/Gomorra_(Gomorrah)_Season_2_Blu-Ray_HEVC_10-Bit_AC3>)
