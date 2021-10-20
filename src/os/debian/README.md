@@ -23,6 +23,17 @@ efibootmgr -o 5
 
 ## nVidia driver not loaded
 
+UPDATE: You don't need to disable secure boot in UEFI. But needed to change `Boot mode select > UEFI with CSM` to just `UEFI`.
+
+> I wish people understood the Secure Boot spec better. This problem is totally unnecessary. The spec says no unsigned code can run until ExitBootServices is called, but people treat it as if it said that no unsigned kernel code can ever run.
+
+https://news.ycombinator.com/item?id=28905036
+
+Anyway here it is how to sign nvidia module
+
+- https://askubuntu.com/questions/1023036/how-to-install-nvidia-driver-with-secure-boot-enabled/1049479#1049479
+  - https://news.ycombinator.com/item?id=28899839
+
 You need to disable Secure Boot in UEFI or upload your keys to the motherboard and sign the nvidia module with your key.
 
 csgo `cl_showfps 1` showed 20-30.
