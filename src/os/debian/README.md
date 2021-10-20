@@ -469,6 +469,12 @@ $ sudo dpkg -i BreakTimer.deb
 
 https://askubuntu.com/questions/1144446/python-installed-in-ubuntu-but-python-command-not-found#comment2244160_1216095
 
+## TODO
+
+- [ ] Hibernation
+- [ ] win + p to switch display to mirroring etc. like in Ubuntu
+- [ ] automatically detect tv like Windows 10
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
