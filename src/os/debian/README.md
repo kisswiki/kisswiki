@@ -475,6 +475,7 @@ https://askubuntu.com/questions/1144446/python-installed-in-ubuntu-but-python-co
 - [ ] win + p to switch display to mirroring etc. like in Ubuntu
 - [ ] automatically detect tv like Windows 10
 - [ ] strange rendering in Google Chrome when scrolling fast
+- [ ] `mono SubtitleEdit.exe` https://superuser.com/questions/117929/open-source-command-line-subtitle-converter/353344#353344
 
 ## Misc
 
