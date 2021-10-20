@@ -104,3 +104,15 @@ export class UpgradeModal implements OnDestroy {
   }
 }
 ```
+
+## ngSwitch with multiple values for case
+
+```typescript
+<div [ngSwitch]="true">
+    <div *ngSwitchCase="data.type === 'multi-choice' || data.type === 'singe-choice'">FORM 1</div>
+    <div *ngSwitchCase="data.type === 'range'">FORM 2</div>
+    <div *ngSwitchDefault>FORM 3</div>
+</div>
+```
+
+https://stackoverflow.com/questions/40176061/two-switch-case-values-in-angular/45950368#45950368
