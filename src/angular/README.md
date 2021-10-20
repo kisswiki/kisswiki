@@ -52,3 +52,55 @@ div(style="grid-template-columns: repeat({{colors.length/2}}, 1fr)"
 - A minimal Angular2 playground using TypeScript and SystemJS loader
   - https://github.com/pkozlowski-opensource/ng2-play
   - http://stackoverflow.com/questions/32713534/how-to-config-system-js-when-using-angular2#comment53270349_32713534
+
+## bubbling up event
+
+### Description
+
+`sign-up-box.pug` sends `modeChange` event.
+
+`upgrade-modal.pug` listens to `modeChange` events and emits `modalClass` event.
+
+`modals-box.pug` listens to `modalClass` event and sets `modalClass` to value of `modalClass` event.
+
+class is set to value of `modalClass` using `ngClass`.
+
+### Code
+
+`upgrade-modal.pug`
+
+```pug
+sign-up-box((modeChange)="modalClass.emit($event === 'auth'? '': 'modal-lg')")
+```
+
+`upgrade-modal.ts`
+
+```typescript
+@Component({
+  selector: "upgrade-modal",
+  templateUrl: "upgrade-modal.pug",
+  styleUrls: ["upgrade-modal.scss"],
+})
+export class UpgradeModal implements OnDestroy {
+  @Output() close = new EventEmitter<void>();
+}
+```
+
+`modals-box.pug`
+
+```pug
+	upgrade-modal((close)="closeModal('upgrade')" (modalClass)="modalClass=$event")
+
+		.modal-dialog([ngClass]="modalClass" role="document")
+```
+
+`_modal.scss`
+
+```scss
+@include media-breakpoint-up(lg) {
+  .modal-lg,
+  .modal-xl {
+    max-width: $modal-lg;
+  }
+}
+```
