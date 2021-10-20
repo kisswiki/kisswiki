@@ -463,6 +463,12 @@ $ sudo dpkg -i BreakTimer.deb
 - https://stackoverflow.com/questions/36796614/equivs-dummy-package-version-number-syntax
 - https://stackoverflow.com/questions/65978703/missing-libappindicator3-1-installing-slack/69623268#69623268
 
+## python is not found
+
+`sudo apt install python-is-python3`
+
+https://askubuntu.com/questions/1144446/python-installed-in-ubuntu-but-python-command-not-found#comment2244160_1216095
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
