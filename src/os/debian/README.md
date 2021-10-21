@@ -469,6 +469,12 @@ $ sudo dpkg -i BreakTimer.deb
 
 https://askubuntu.com/questions/1144446/python-installed-in-ubuntu-but-python-command-not-found#comment2244160_1216095
 
+## right click touchpad
+
+`Gnome Tweaks > Keyboard & Mouse > Mouse Click Emulation > Area`
+
+https://itsfoss.com/fix-right-click-touchpad-ubuntu/
+
 ## TODO
 
 - [ ] hibernation
