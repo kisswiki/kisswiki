@@ -475,6 +475,20 @@ https://askubuntu.com/questions/1144446/python-installed-in-ubuntu-but-python-co
 
 https://itsfoss.com/fix-right-click-touchpad-ubuntu/
 
+## vscode
+
+### ctrl+shift+g does not open scm
+
+`ctrl+shift+p > search: "open key json"`
+
+```json
+{
+  "key": "ctrl+shift+g",
+  "command": "workbench.view.scm",
+  "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+}
+```
+
 ## TODO
 
 - [ ] hibernation
