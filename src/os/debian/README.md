@@ -503,6 +503,7 @@ https://stackoverflow.com/questions/35424367/how-can-i-navigate-back-to-the-last
 - [ ] automatically detect tv like Windows 10
 - [ ] strange rendering in Google Chrome when scrolling fast
 - [ ] `mono SubtitleEdit.exe` https://superuser.com/questions/117929/open-source-command-line-subtitle-converter/353344#353344
+- [ ] map Caps Lock to Escape
 - [ ] more nautilus scripts
   - https://help.ubuntu.com/community/NautilusScriptsHowto
   - https://help.ubuntu.com/community/NautilusScriptsHowto/SampleScripts
