@@ -489,6 +489,13 @@ https://itsfoss.com/fix-right-click-touchpad-ubuntu/
 }
 ```
 
+### Keyboard shortcuts
+
+- Go Forward `ctrl+shift+-`
+- Go Back `ctrl+alt+-`
+
+https://stackoverflow.com/questions/35424367/how-can-i-navigate-back-to-the-last-cursor-position-in-visual-studio-code/35433087#35433087
+
 ## TODO
 
 - [ ] hibernation
