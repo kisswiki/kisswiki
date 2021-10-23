@@ -21,7 +21,9 @@ Also change number of lines scrolled:
 
 ## Change default viewer
 
-Go to Calibre preference icon on the top menu bar and click. Under Interface, select Behavior and click. On the right, is a list of book formats. These are the formats that the Calibre Default viewer will open when you click on a title in the Library browser. Unclick whichever format that you don't want Calibre to automatically launch its viewer to read. Click apply and exit. The next time you click on a book, ep. epub or pdf, the Windows default reader app, configured by you, will launch instead of the Calibre book viewer.
+`Calibre > Preferences > Interface > Behavior > Use internal viewer for:`
+
+These are the formats that the Calibre Default viewer will open when you click on a title in the Library browser. Unclick whichever format that you don't want Calibre to automatically launch its viewer to read. Click apply and exit. The next time you click on a book, ep. epub or pdf, the Windows default reader app, configured by you, will launch instead of the Calibre book viewer.
 
 https://www.reddit.com/r/Calibre/comments/fw8qk7/how_to_change_the_default_viewer_for_calibre_to/fqufk42/
 
@@ -72,7 +74,7 @@ To have both Mathematics and Programming:
 
 `tags:"=Mathematics" and tags:"=Programming"`
 
-## rename files based on metadata
+## Rename files based on metadata
 
 Generally each time you change the metadata, the directory structure is automatically self correcting.
 
@@ -86,7 +88,7 @@ https://www.reddit.com/r/Calibre/comments/ancn4u/getting_calibre_to_rename_actua
 
 ## Viewer Default Format
 
-`Preferences > Behaviour > Preferred input format order`
+`Preferences > Behaviour > Preferred input format order > Move PDF to top`
 
 https://www.mobileread.com/forums/showpost.php?p=3308062&postcount=5
 
