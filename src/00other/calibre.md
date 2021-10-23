@@ -21,11 +21,17 @@ Also change number of lines scrolled:
 
 ## Change default viewer
 
-`Calibre > Preferences > Interface > Behavior > Use internal viewer for:`
+`Preferences > Interface > Behavior > Use internal viewer for:`
 
 These are the formats that the Calibre Default viewer will open when you click on a title in the Library browser. Unclick whichever format that you don't want Calibre to automatically launch its viewer to read. Click apply and exit. The next time you click on a book, ep. epub or pdf, the Windows default reader app, configured by you, will launch instead of the Calibre book viewer.
 
 https://www.reddit.com/r/Calibre/comments/fw8qk7/how_to_change_the_default_viewer_for_calibre_to/fqufk42/
+
+## Automatically merge added books
+
+`Preferences > Adding books > Auto-merge added books if they already exist: Ignore ducplicate incomming formats`.
+
+https://www.mobileread.com/forums/showpost.php?p=1808947&postcount=3
 
 ## Merging two books in Calibre's index
 

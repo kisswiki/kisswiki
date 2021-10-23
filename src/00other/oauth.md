@@ -71,3 +71,16 @@ Authorization Code Flow is most common approach, as it is used on both the web a
 9. Resource server returns user data to the application.
 
 https://medium.com/dailyjs/what-every-software-engineer-should-know-about-oauth-2-0-10f0ef4998e5
+
+OAuth is a complex security protocol, with different components sending pieces of information to each other in a precise balance akin to a technological dance. But fundamentally, there are two major steps to an OAuth transaction: issuing a token and using a token. The token represents the access that’s been delegated to the cli- ent and it plays a central role in every part of OAuth 2.0. Whereas the details of each step can vary based on several factors, the canonical OAuth transaction consists of the following sequence of events:
+
+1. The Resource Owner indicates to the Client that they would like the Client to
+2. act on their behalf (for example, "Go load my photos from that service so I can
+3. print them").
+4. The Client requests authorization from the Resource Owner at the
+5. Authorization Server.
+6. The Resource Owner grants authorization to the Client.
+7. The Client receives a Token from the Authorization Server.
+8. The Client presents the Token to the Protected Resource.
+
+https://www.manning.com/books/oauth-2-in-action
