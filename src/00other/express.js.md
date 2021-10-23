@@ -227,3 +227,4 @@ instead of `import` you can use `const fs = require('fs');`;
 - https://github.com/expressjs/express/issues/4311#issuecomment-950149333
 - https://stackoverflow.com/questions/43622337/using-import-fs-from-fs
 - https://nodejs.org/en/knowledge/file-system/how-to-write-files-in-nodejs/
+- https://stackoverflow.com/questions/2496710/writing-files-in-node-js
