@@ -220,7 +220,10 @@ import { writeFileSync } from 'fs';
 writeFileSync('res.json', JSON.stringify(decycle(res, undefined)));
 ```
 
+I have used `writeFileSync` instead of `console.log` because output was too big.
+
 instead of `import` you can use `const fs = require('fs');`;
 
 - https://github.com/expressjs/express/issues/4311#issuecomment-950149333
 - https://stackoverflow.com/questions/43622337/using-import-fs-from-fs
+- https://nodejs.org/en/knowledge/file-system/how-to-write-files-in-nodejs/
