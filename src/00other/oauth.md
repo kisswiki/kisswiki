@@ -55,3 +55,19 @@ We need API Key and Secret from https://developer.twitter.com/en/portal/apps/<id
 - Access token is what is issued to the consumer by the service provider once the consumer completes authorization. This token defines the access privileges of the consumer over a particular user's resources. Each time the consumer wants to access the user's data from that service provider, the consumer includes the access token in the API request to the service provider.
 
 https://stackoverflow.com/questions/28057430/what-is-the-access-token-vs-access-token-secret-and-consumer-key-vs-consumer-s/28057700#28057700
+
+## Authorization Code Flow
+
+Authorization Code Flow is most common approach, as it is used on both the web and in native applications.
+
+1. User logs in to the application.
+2. Application request user for access to some data (Google Calendar) and redirects the user to OAuth server.
+3. User logs in to an OAuth server with credentials.
+4. OAuth server returns a temporary code which will be then exchanged for an access token by app.
+5. User sends temporary code to the app.
+6. The application exchanges the code for an access token.
+7. The OAuth server returns an access token for the app.
+8. The app uses the access token to get some data from a resource server.
+9. Resource server returns user data to the application.
+
+https://medium.com/dailyjs/what-every-software-engineer-should-know-about-oauth-2-0-10f0ef4998e5
