@@ -245,4 +245,5 @@ app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies usi
 
 ## req.login and passport
 
-https://stackoverflow.com/questions/54261263/what-does-req-login-do-in-passport/54274283
+- https://stackoverflow.com/questions/54261263/what-does-req-login-do-in-passport/54274283
+- http://www.passportjs.org/docs/login/
