@@ -228,3 +228,21 @@ instead of `import` you can use `const fs = require('fs');`;
 - https://stackoverflow.com/questions/43622337/using-import-fs-from-fs
 - https://nodejs.org/en/knowledge/file-system/how-to-write-files-in-nodejs/
 - https://stackoverflow.com/questions/2496710/writing-files-in-node-js
+
+## body parser
+
+Express 4.16+ has implemented their own version of body-parser so you do not need to add the dependency to your project.
+
+```javascript
+app.use(express.json()); // Used to parse JSON bodies
+app.use(express.urlencoded()); // Parse URL-encoded bodies using query-string library
+// or
+app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies using qs library
+```
+
+- https://medium.com/@mmajdanski/express-body-parser-and-why-may-not-need-it-335803cd048c
+- https://stackoverflow.com/questions/29960764/what-does-extended-mean-in-express-4-0/45690436#45690436
+
+## req.login and passport
+
+https://stackoverflow.com/questions/54261263/what-does-req-login-do-in-passport/54274283
