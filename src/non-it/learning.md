@@ -6,3 +6,10 @@ The lesson for teachers and presenters is that you should provide all three stim
 Markova wrote a wonderful book called "How Your Child Is Smart". It was fantastic resource for bringing up our children and helping them stay focused in all of the ways they actually learned.
 
 https://news.ycombinator.com/item?id=16813484
+
+
+## Zostań ultrasamoukiem. Jak mistrzowsko opanować twarde umiejętności w zadziwiająco krótkim czasie - Scott Young
+
+Typowe dla amerykańskich książek watowanie treści opowiadaniem nieistotnych bzdur okraszonych na koniec banalnymi wnioskami. Te wszystkie hamerykańskie poradniki mówią mniej więcej o tym, jak autor jechał do kolegi, co jadł po drodze i jakie pejzaże mijał. A potem wspomnienia o koledze. I w końcu clou: kolega mówi mu, że w nauce ważne jest powtarzanie. Jakby to ścisnąć, to można by na 20 stronach zapisać to, co jest rozwodnione na ok. 250. Liczne powtórzenia tych samych treści. Tłumacz nie zna poprawnej polszczyzny: stosuje nagminnie niepoprawne słowo "unikalny", zamiast "unikatowy". A autor nie zna podstaw psychologii, nie wie, co to jest wzmocnienie pozytywne (myli z nagrodą). Strata czasu i atłasu, Chłam.
+
+https://allegro.pl/oferta/zostan-ultrasamoukiem-jak-mistrzowsko-opanowac-10463906236
