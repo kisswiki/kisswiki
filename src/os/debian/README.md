@@ -526,7 +526,7 @@ https://askubuntu.com/questions/1041914/something-blocks-ctrlaltleft-right-arrow
   - http://mundogeek.net/nautilus-scripts/
   - https://gitlab.com/bertrand-benoit/scripts-common
 - [ ] map Caps Lock to Escape
-- [ ] something notification center, not just toast messages with package notify-osd
+- [x] something notification center, not just toast messages with package notify-osd - notification center exists, just click clock
 - [ ] remove unused entries from efi
 
 ## Misc
