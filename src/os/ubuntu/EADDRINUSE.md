@@ -1,4 +1,4 @@
->Address already in use
+> Address already in use
 
 Add function to ~/.bashrc:
 
@@ -21,7 +21,7 @@ And use it: `killTcpListen 3000`
 
 ```
 function killTcpListen () {
-  kill -QUIT $(sudo lsof -sTCP:LISTEN -i tcp:$1 -t)
+  kill -QUIT $(sudo lsof -sTCP:LISTEN -t -i tcp:$1)
 }
 ```
 
