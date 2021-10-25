@@ -491,10 +491,26 @@ https://itsfoss.com/fix-right-click-touchpad-ubuntu/
 
 ### Keyboard shortcuts
 
-- Go Forward `ctrl+shift+-`
 - Go Back `ctrl+alt+-`
+- Go Forward `ctrl+shift+-`
 
 https://stackoverflow.com/questions/35424367/how-can-i-navigate-back-to-the-last-cursor-position-in-visual-studio-code/35433087#35433087
+
+### ctrl+shift+left does not work
+
+```
+$ gsettings list-recursively | grep org.gnome.desktop.wm.keybindings | sort | grep '<Control><Alt>Left'
+org.gnome.desktop.wm.keybindings switch-to-workspace-left ['<Control><Alt>Left']
+$ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "[]"
+$ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "[]"
+```
+
+And have set to
+
+- Go Back `ctrl+alt+left`
+- Go Forward `ctrl+shift+right`
+
+https://askubuntu.com/questions/1041914/something-blocks-ctrlaltleft-right-arrow-keyboard-combination/1098479#1098479
 
 ## TODO
 
