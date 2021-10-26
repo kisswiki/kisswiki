@@ -4,7 +4,7 @@ Add function to ~/.bashrc:
 
 ```bash
 function killTcpListen () {
-  kill -9 $(lsof -sTCP:LISTEN -i:$1 -t)
+  kill -9 $(lsof -sTCP:LISTEN -t -i:$1)
 }
 ```
 
