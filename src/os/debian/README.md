@@ -541,6 +541,8 @@ https://askubuntu.com/questions/1041914/something-blocks-ctrlaltleft-right-arrow
     - https://packages.debian.org/bullseye/laptop-mode-tools
   - To set the laptop screen brightness when plugged in power or not https://wiki.archlinux.org/title/Acpid#Example_events
   - cpupower is a set of userspace utilities designed to assist with CPU frequency scaling https://wiki.archlinux.org/title/CPU_frequency_scaling#cpupower
+  - https://askubuntu.com/questions/34452/how-can-i-limit-battery-charging-to-80-capacity
+  - `sudo powertop` https://linuxhint.com/monitor_optimize_power_usage/
 
 ## Misc
 
