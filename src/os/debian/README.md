@@ -533,7 +533,7 @@ https://askubuntu.com/questions/1041914/something-blocks-ctrlaltleft-right-arrow
 - [ ] screenshot tool similar to the one in Windows 10
 - [ ] something better than breaktimer which blocks screen
 - [ ] better energy management
-  - [x] installed and enable tlp service
+  - [x] installed and enabled tlp service
     - https://wiki.archlinux.org/title/TLP
     - https://vitux.com/how-to-improve-notebook-battery-life-in-debian-with-tlp/
     - https://github.com/AdnanHodzic/auto-cpufreq
