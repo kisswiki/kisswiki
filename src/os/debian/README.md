@@ -531,7 +531,16 @@ https://askubuntu.com/questions/1041914/something-blocks-ctrlaltleft-right-arrow
 - [ ] sometimes, for example on github, I need to refresh page in google chrome to have scrollbar
 - [ ] cannot paste screenshot done in flameshot in slack in google chrome
 - [ ] screenshot tool similar to the one in Windows 10
-- [ ] aomething better than breaktimer which blocks screen
+- [ ] something better than breaktimer which blocks screen
+- [ ] better energy management
+  - [x] installed and enable tlp service
+    - https://wiki.archlinux.org/title/TLP
+    - https://vitux.com/how-to-improve-notebook-battery-life-in-debian-with-tlp/
+    - https://github.com/AdnanHodzic/auto-cpufreq
+  - there is also https://wiki.archlinux.org/title/Laptop_Mode_Tools
+    - https://packages.debian.org/bullseye/laptop-mode-tools
+  - To set the laptop screen brightness when plugged in power or not https://wiki.archlinux.org/title/Acpid#Example_events
+  - cpupower is a set of userspace utilities designed to assist with CPU frequency scaling https://wiki.archlinux.org/title/CPU_frequency_scaling#cpupower
 
 ## Misc
 
