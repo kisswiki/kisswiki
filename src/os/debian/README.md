@@ -525,7 +525,7 @@ https://askubuntu.com/questions/1041914/something-blocks-ctrlaltleft-right-arrow
   - http://g-scripts.sourceforge.net/
   - http://mundogeek.net/nautilus-scripts/
   - https://gitlab.com/bertrand-benoit/scripts-common
-- [ ] map Caps Lock to Escape
+- [x] map Caps Lock to Escape https://github.com/rofrol/dotfiles/blob/master/bin/capslock_to_escape.sh
 - [x] something notification center, not just toast messages with package notify-osd - notification center exists, just click clock
 - [ ] remove unused entries from efi
 - [ ] sometimes, for example on github, I need to refresh page in google chrome to have scrollbar
