@@ -38,3 +38,22 @@ yarn config set prefix ~/yarn-global
 `yarn why <package>`
 
 https://medium.com/@dave_lunny/check-why-a-specific-dependency-is-installed-with-yarn-a7beea12b65c
+
+## yarn version
+
+```
+$ which yarn
+/tmp/fnm_multishells/46825_1635418982461/bin/yarn
+$ jq -r .version /tmp/fnm_multishells/46825_1635418982461/lib/node_modules/yarn/package.json
+1.22.15
+```
+
+though this show some bogus version:
+
+```
+$ yarn -v
+3.0.0
+```
+
+There is no 3.0.0 tag on github, but 1.22.15 is
+https://github.com/yarnpkg/yarn/releases/tag/v1.22.15
