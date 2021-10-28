@@ -9,6 +9,7 @@ $ mongo
 > db.getName()
 > show collections
 > db.collectionName.find()
+> db.dropDatabase()
 ```
 
 - https://docs.mongodb.com/getting-started/shell/client/
