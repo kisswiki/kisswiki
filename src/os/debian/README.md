@@ -544,16 +544,6 @@ https://askubuntu.com/questions/1041914/something-blocks-ctrlaltleft-right-arrow
   - https://askubuntu.com/questions/34452/how-can-i-limit-battery-charging-to-80-capacity
   - `sudo powertop` https://linuxhint.com/monitor_optimize_power_usage/
 
-## How to get IP address
-
-`ip -4 -j a | jq -r '.[] | select(.operstate=="UP") | .addr_info[].local'`
-
-or
-
-`ip -j route get 8.8.8.8 | jq -r '.[] | select(length>0) | .prefsrc'`
-
-https://unix.stackexchange.com/questions/8518/how-to-get-my-own-ip-address-and-save-it-to-a-variable-in-a-shell-script
-
 ## Misc
 
 - https://wiki.debian.org/Firmware
