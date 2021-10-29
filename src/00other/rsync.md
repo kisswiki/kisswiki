@@ -102,6 +102,14 @@ $ rsync -xWrctzv --info=progress2 -e 'ssh -p 8022' -azv 192.168.0.11:~/storage/s
 $ cat rsync_errors.txt
 ```
 
+It was very slow, stuck on "receiving incremental file list".
+
+So I have connected by usb and run:
+
+`rsync -xWrtv /run/user/1000/gvfs/mtp\:host\=Xiaomi_Mi_9T_Pro_be4c836a/Wewnętrzna\ pamięć\ współdzielona/DCIM /mnt/d/Xiaomi9TPro/ 2>rsync_errors.txt`
+
+https://askubuntu.com/questions/342319/where-are-mtp-mounted-devices-located-in-the-filesystem/585675#585675
+
 on Android:
 
 ```
