@@ -544,6 +544,31 @@ https://askubuntu.com/questions/1041914/something-blocks-ctrlaltleft-right-arrow
   - https://askubuntu.com/questions/34452/how-can-i-limit-battery-charging-to-80-capacity
   - `sudo powertop` https://linuxhint.com/monitor_optimize_power_usage/
 
+## Android does not show up in Gnome Files MTP
+
+```
+  { "Xiaomi", 0x0a9d, "POCO X3 Pro (MTP)", 0xff40,
+      DEVICE_FLAGS_ANDROID_BUGS },
+```
+
+https://github.com/libmtp/libmtp/blob/ca1985ccf37313ba76b2f26af1cd33ea408b27fd/src/music-players.h#L3666
+
+`sudo $EDITOR /etc/udev/rules.d/69-libmtp.rules`
+
+and add line
+
+```
+ATTR{idVendor}=="0a9d", ATTR{idProduct}=="ff40", SYMLINK+="libmtp-%k", MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"
+```
+
+`sudo reboot`
+
+https://askubuntu.com/questions/87667/getting-mtp-enabled-devices-to-work-with-ubuntu/308366#308366
+
+If you click in Gnome Files on mounted device and there is no files, enable `File transfer` which shows in Android notification when you connect phone by usb.
+
+Also you may run `ctrl+r` to refresh.
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
