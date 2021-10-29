@@ -251,3 +251,4 @@ https://nixos.org/manual/nixos/stable/#chap-gnome
 - [Key Concepts - devos docs](https://devos.divnix.com/concepts/index.html)
 - [Introduction - Digga Library Docs](https://digga.divnix.com/)
 - [gytis-ivaskevicius/flake-utils-plus: Use Nix flakes without any fluff.](https://github.com/gytis-ivaskevicius/flake-utils-plus)
+- https://discourse.nixos.org/t/nixpkgs-has-been-the-largest-repository-for-months/10667/2
