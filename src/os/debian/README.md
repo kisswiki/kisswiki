@@ -569,6 +569,15 @@ If you click in Gnome Files on mounted device and there is no files, enable `Fil
 
 Also you may run `ctrl+r` to refresh.
 
+libmtp on debian is 1.1.17 https://packages.debian.org/bullseye/libmtp-common
+
+X3 Pro is not supported in 1.1.18
+
+> 1905 Device 0 (VID=0a9d and PID=ff40) is UNKNOWN in libmtp v1.1.18.
+> https://sourceforge.net/p/libmtp/bugs/1905/
+
+https://repology.org/project/libmtp/versions
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
