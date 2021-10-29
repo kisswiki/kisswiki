@@ -77,6 +77,12 @@ on Android
 
 ```
 $ pkg upgrade
+# if there is error during upgrade that repository is disabled
+# https://stackoverflow.com/questions/67647518/i-want-to-ask-how-to-fix-this-termux-repository/68881710#68881710
+# $ termux-change-repo
+# select Grimler repo
+# then run again
+# $ pkg upgrade
 $ pkg install openssh
 $ pkg install rsync
 $ sshd
