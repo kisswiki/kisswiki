@@ -578,6 +578,8 @@ X3 Pro is not supported in 1.1.18
 
 https://repology.org/project/libmtp/versions
 
+curl -s https://repology.org/api/v1/project/libmtp | jq -c '.[] | select( .version == "1.1.19" ) | .repo'
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
