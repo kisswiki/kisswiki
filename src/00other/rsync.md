@@ -126,6 +126,7 @@ $ rsync -nxWrctzv --delete --info=progress2 -e 'ssh -p 8022' -azv /mnt/d/Xiaomi/
 -D                          same as --devices --specials
 --devices                   preserve device files (super-user only)
 --specials                  preserve special files
+--compress, -z              compress file data during the transfer
 ```
 
 - https://www.reddit.com/r/Android/comments/7oreyo/protip_use_rsync_instead_of_android_file_transfer/
