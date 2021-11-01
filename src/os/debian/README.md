@@ -580,6 +580,14 @@ https://repology.org/project/libmtp/versions
 
 curl -s https://repology.org/api/v1/project/libmtp | jq -c '.[] | select( .version == "1.1.19" ) | .repo'
 
+## backports
+
+Backports cannot be tested as extensively as Debian stable, and are thus supported on a best-effort basis; there is a risk of incompatibilities with other components in Debian stable, so backports should be used with care! That said, Debian Backports Policy does not allow backports of libraries that would break all dependent packages in stable (eg: new Qt 5.x releases), and by virtue of this, Debian Backports are considered generally safe when used as intended on an individual package basis.
+
+The coinstallability of all available backports is not tested, and it is strongly recommended to opt-into the use of specific backported packages on an as-needed basis.
+
+https://backports.debian.org/Instructions/
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
