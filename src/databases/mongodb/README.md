@@ -66,3 +66,5 @@ The fix:
 All you need to do is remove the semi-colon and everything should be fine: `MONGODB_URI="mongodb://localhost:27017/ecommerce"`
 
 https://stackoverflow.com/questions/60394055/invalid-namespace-specified-mongoose-save-collection/60398553#60398553
+
+## delete all records of a collection
