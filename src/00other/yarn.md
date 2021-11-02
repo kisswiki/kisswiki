@@ -57,3 +57,9 @@ $ yarn -v
 
 There is no 3.0.0 tag on github, but 1.22.15 is
 https://github.com/yarnpkg/yarn/releases/tag/v1.22.15
+
+## info about package
+
+`yarn info <package> [<field>]`
+
+https://yarnpkg.com/cli/info
