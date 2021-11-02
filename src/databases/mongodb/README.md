@@ -68,3 +68,7 @@ All you need to do is remove the semi-colon and everything should be fine: `MONG
 https://stackoverflow.com/questions/60394055/invalid-namespace-specified-mongoose-save-collection/60398553#60398553
 
 ## delete all records of a collection
+
+`db.user.remove({})`
+
+https://stackoverflow.com/a/46368397/588759
