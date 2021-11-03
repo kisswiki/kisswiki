@@ -108,7 +108,7 @@ https://github.com/BurntSushi/ripgrep/issues/188
 
 - https://github.com/BurntSushi/ripgrep/issues/34#issuecomment-267309265
 
-## only content
+## only content, without file names
 
 ```
 $ rg "\('Sign up.*" -NoI | sort | uniq
