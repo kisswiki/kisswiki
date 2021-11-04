@@ -588,6 +588,12 @@ The coinstallability of all available backports is not tested, and it is strongl
 
 https://backports.debian.org/Instructions/
 
+## gnome software: failed to update metadata for lvs
+
+`fwupdmgr --force refresh`
+
+https://gitlab.gnome.org/GNOME/gnome-software/-/issues/1127#note_1234551
+
 ## Misc
 
 - https://wiki.debian.org/Firmware
