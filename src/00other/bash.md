@@ -70,3 +70,4 @@ http://mywiki.wooledge.org/BashPitfalls
 - https://stackoverflow.com/questions/19622198/what-does-set-e-mean-in-a-bash-script/34381499#34381499
 - http://mywiki.wooledge.org/BashFAQ/105
 - https://fvue.nl/wiki/Bash:_Error_handling
+- https://unix.stackexchange.com/questions/463034/bash-throws-error-line-8-1-unbound-variable
