@@ -67,4 +67,5 @@ http://mywiki.wooledge.org/BashPitfalls
 
 ## set -e
 
-https://stackoverflow.com/questions/19622198/what-does-set-e-mean-in-a-bash-script/34381499#34381499
+- https://stackoverflow.com/questions/19622198/what-does-set-e-mean-in-a-bash-script/34381499#34381499
+- http://mywiki.wooledge.org/BashFAQ/105
