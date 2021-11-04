@@ -65,7 +65,8 @@ http://mywiki.wooledge.org/BashPitfalls
 
 - https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh
 
-## set -e
+## set -e and error handling
 
 - https://stackoverflow.com/questions/19622198/what-does-set-e-mean-in-a-bash-script/34381499#34381499
 - http://mywiki.wooledge.org/BashFAQ/105
+- https://fvue.nl/wiki/Bash:_Error_handling
