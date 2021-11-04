@@ -32,7 +32,7 @@ http://stackoverflow.com/questions/31318068/shell-script-to-remove-a-file-if-it-
 ## Multiple Conditions If
 
 - Use -a (for and) and -o (for or) operations `if [ $my_error_flag -eq 1 -o $my_error_flag_o -eq 2 ]; then fi`
-- use `||`: `if [ $my_error_flag -eq 1 ] ||  [ $my_error_flag_o -eq 2 ]; then fi`
+- use `||`: `if [ $my_error_flag -eq 1 ] || [ $my_error_flag_o -eq 2 ]; then fi`
 
 http://stackoverflow.com/questions/16203088/multiple-conditions-if-statement-bash-script
 
@@ -64,3 +64,7 @@ http://mywiki.wooledge.org/BashPitfalls
 ## fuzzy completion
 
 - https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh
+
+## set -e
+
+https://stackoverflow.com/questions/19622198/what-does-set-e-mean-in-a-bash-script/34381499#34381499
