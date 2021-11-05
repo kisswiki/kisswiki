@@ -34,3 +34,15 @@ $ ip -4 -j a | jq -r '.[] | select(.operstate=="UP") | .addr_info[].local'
 # or
 $ ip -j route get 8.8.8.8 | jq -r '.[] | select(length>0) | .prefsrc'
 ```
+
+## Links
+
+- https://android.stackexchange.com/questions/218354/-ow-do-i-access-home-storage-outside-of-termux-with-a-file-explorer
+- https://www.reddit.com/r/termux/comments/ga5bcd/bug_tasker_plugin/
+- https://www.reddit.com/r/termux/comments/cbttkm/-ermission_denied_when_trying_to_enter_folder/
+- https://wiki.termux.com/wiki/Internal_and_external_storage
+- https://wiki.termux.com/wiki/FAQ
+- https://wiki.termux.com/wiki/Package_Management
+- https://wiki.termux.com/wiki/Termux-setup-storage
+- https://wiki.termux.com/wiki/Termux:API
+- https://github.com/termux/termux-packages/wiki/Package-Management#package-command-errors
