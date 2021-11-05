@@ -1,3 +1,13 @@
+## Use version from F-Droid
+
+- https://github.com/termux/termux-app/issues/2067
+- https://stackoverflow.com/questions/67647518/i-want-to-ask-how-to-fix-this-termux-repository/68881710#68881710
+- https://github.com/termux/termux-packages/wiki/Package-Management#package-command-errors
+
+## Youtube downloader
+
+https://github.com/rofrol/termux-yt-dlp
+
 ## ssh server and rsync
 
 on Android

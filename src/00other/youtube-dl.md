@@ -18,36 +18,15 @@ https://superuser.com/questions/876579/linux-command-executed-from-a-different-p
 
 ## Install on Android
 
-Install from here https://github.com/OzakIOne/termux-youtube-dl
+Install from here https://github.com/rofrol/termux-yt-dlp
 
 Upgrade with `pip install -U yt-dlp`.
 
-Also check in termux if it is set to use `yt-dlp` and not `youtube-dl`:
-
-`vim ~/bin/termux-url-opener`
-
-You may need to:
-
-`mv ~/.config/youtube-dl/ ~/.config/yt-dlp`
-
 ### Config
 
-`vim ~/.config/yt-dlp/config`
+https://github.com/rofrol/termux-yt-dlp/blob/master/yt-dlp/config
 
-```
---write-subs
---write-auto-subs
---sub-format srt
---sub-langs en --embed-subs
---embed-metadata
---embed-thumbnail
-# Merge everything in Matroska, a better suited container for subs and chapters.
---merge-output-format 'mkv'
---sponsorblock-remove sponsor,selfpromo,interaction
---no-mtime
-#--output /data/data/com.termux/files/home/storage/shared/Youtube-DL/%(title)s [%(id)s].%(ext)s
---output '~/yt-dlp/%(extractor)s/%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s [%(id)s].%(ext)s'
-```
+`vim ~/.config/yt-dlp/config`
 
 - https://github.com/kdeldycke/dotfiles/blob/e3cbd1318dc64d7d015295c782a14016c771c89e/dotfiles/.config/yt-dlp.conf
 - https://github.com/Mikaela/shell-things/blob/3dab67498bb5fc71c1fa3baddbbd810df4564359/conf/yt-dlp.conf
