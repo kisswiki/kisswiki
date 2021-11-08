@@ -46,3 +46,9 @@ WriteResult({ "nInserted" : 1 })
 ## drop current database
 
 `db.dropDatabase()`
+
+## command line
+
+`mongo <dbname> --eval "db.dropDatabase()"`
+
+https://stackoverflow.com/questions/8857276/how-do-i-drop-a-mongodb-database-from-the-command-line/8857373#8857373
