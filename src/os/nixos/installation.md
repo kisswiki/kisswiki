@@ -8,6 +8,12 @@ $ lsblk
 $ sudo dd if=nixos-gnome-21.05.4044.e74894146a4-x86_64-linux.iso of=/dev/sda
 ```
 
+```
+$ sudo passwd root
+$ su -
+$ mkdir /mnt/boot
+```
+
 ## canTouchEfiVariables
 
 > a buggy UEFI that doesn’t support canTouchEfiVariables = true. Almost all hardware supports this properly.
@@ -18,6 +24,10 @@ $ sudo dd if=nixos-gnome-21.05.4044.e74894146a4-x86_64-linux.iso of=/dev/sda
 - https://nixos.wiki/wiki/NTFS
 - https://gist.github.com/jonringer/8daf59f9aab3ce7a660903193594ae7f
 - https://unix.stackexchange.com/questions/213137/how-to-auto-mount-permanently-mount-external-devices-on-nixos
+
+## nodejs
+
+`nix-env -f '<nixpkgs>' -iA nodejs`
 
 ## font
 
