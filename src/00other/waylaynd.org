@@ -11,6 +11,7 @@
 - NVIDIA 495.44 Linux Driver Released With GBM Support https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-495.44-Linux-Driver
 - from the Mesa project version 21.2 and above https://www.nvidia.com/download/driverResults.aspx/181274/en-us
 - nixpkgs stable has 21.1.4 and nixpkgs unstable has 21.2.5 https://repology.org/project/mesa/versions
+- https://discourse.nixos.org/t/nvidia-users-testers-requested-sway-on-nvidia-steam-on-wayland/15264/9
 
 ## GBM vs EGL Streams
 
