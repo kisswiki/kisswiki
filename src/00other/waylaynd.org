@@ -7,6 +7,8 @@
 
 ## GBM vs EGL Streams
 
+- NVIDIA 495.44 Linux Driver Released With GBM Support https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-495.44-Linux-Driver
+
 Next was they did not like the GBM model where every process has its own memory pool. But the per process memory pool is important so compositor can restart. The key feature that Nvidia did not like about GBM turns out to be key. KDE developers are wanting to be able to on the fly restart the wayland compositor they will be needing GBM feature of memory per process not memory in a global pool as EGLStreams has.
 
 Yes the Nvidia developer putting support for EGLStreams into KDE end up in a rock and hard place between the KDE lead developer and what he could do with EGLStreams. Yes the KDE lead developer did a demo restarting the wayland compositor on intel and amd and arm and qualcom and broadcom GPUs and it works then the Nvidia developer was completely and totally screwed when the KDE lead developer asked the Nvidia lead developer to show how because this would be a future KDE feature. Every route the Nvidia developer tried with KDE lead back the the memory issue where restarting the compositor lead applications segfaulting that required him to go to the Nvidia driver developer team and ask if they could fix EGLStreams to make this work. This leads to the 470.xx Nvidia driver work with GBM support and DMA BUF support as the Nvidia DGPU drivers developers find they are totally screws EGLStreams simply is not going to work.

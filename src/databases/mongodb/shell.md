@@ -47,8 +47,15 @@ WriteResult({ "nInserted" : 1 })
 
 `db.dropDatabase()`
 
-## command line
+## command line and eval
 
 `mongo <dbname> --eval "db.dropDatabase()"`
 
-https://stackoverflow.com/questions/8857276/how-do-i-drop-a-mongodb-database-from-the-command-line/8857373#8857373
+- https://stackoverflow.com/questions/8857276/how-do-i-drop-a-mongodb-database-from-the-command-line/8857373#8857373
+- https://stackoverflow.com/questions/4837673/how-to-execute-mongo-commands-through-shell-scripts
+
+`show collections` does not work in eval.
+
+Use `db.runCommand( { listCollections: 1.0, authorizedCollections: true, nameOnly: true } )`
+
+https://docs.mongodb.com/manual/release-notes/4.0-compatibility/#std-label-4.0-compat-show-collections
