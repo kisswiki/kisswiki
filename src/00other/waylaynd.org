@@ -5,9 +5,14 @@
 - https://github.com/swaywm/sway/wiki/i3-Migration-Guide#common-x11-apps-used-on-i3-with-wayland-alternatives
 - https://www.fosskers.ca/en/blog/wayland
 
-## GBM vs EGL Streams
+
+## Nvidia added GBM support!!!
 
 - NVIDIA 495.44 Linux Driver Released With GBM Support https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-495.44-Linux-Driver
+- from the Mesa project version 21.2 and above https://www.nvidia.com/download/driverResults.aspx/181274/en-us
+- nixpkgs stable has 21.1.4 and nixpkgs unstable has 21.2.5 https://repology.org/project/mesa/versions
+
+## GBM vs EGL Streams
 
 Next was they did not like the GBM model where every process has its own memory pool. But the per process memory pool is important so compositor can restart. The key feature that Nvidia did not like about GBM turns out to be key. KDE developers are wanting to be able to on the fly restart the wayland compositor they will be needing GBM feature of memory per process not memory in a global pool as EGLStreams has.
 
