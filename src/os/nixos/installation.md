@@ -149,6 +149,23 @@ nixos https://nixos.org/channels/nixos-21.05
 
 ## Google Chrome
 
+### Install
+
+/etc/nixos/configuration.nix:
+
+```
+{
+  nixpkgs.config.allowUnfree = true;
+}
+```
+
+`nix-env -iA nixos.google-chrome`
+
+- https://unix.stackexchange.com/questions/429765/howto-install-google-chrome-in-nixos
+- https://nixos.wiki/wiki/Chromium
+
+### Slow
+
 Starts slowly and always restores
 
 ## Stylus extensions needed to reenable sync
