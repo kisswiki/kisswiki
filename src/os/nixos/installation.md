@@ -122,7 +122,7 @@ gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift
 
 https://superuser.com/questions/394376/how-to-prevent-gnome-shells-alttab-from-grouping-windows-from-similar-apps/1517491#1517491
 
-## I am on stable channel even though I have downloaded unstable iso?
+## I am on stable channel
 
 ```bash
 $ sudo nix-channel --list
