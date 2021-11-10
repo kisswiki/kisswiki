@@ -54,6 +54,15 @@ set in /etc/nixos/configuration.nix
 
 ## bootloader, efi, uefi - nixos not selected as default
 
+I needed to disable secure boot and also set in bios boot order to Linux Boot Manager.
+
+Entries deleted with `sudo efibootmgr -b 1 -B` where not deleted really.
+
+- https://superuser.com/questions/1166398/efi-settings-set-via-efibootmgr-are-ignored-after-reboot/1607683#1607683
+- https://github.com/rhboot/efibootmgr/issues/19#issuecomment-71719650
+
+### Old
+
 ```bash
 $ sudo nix-env -iA nixos.efibootmgr
 $ efibootmgr
@@ -191,3 +200,21 @@ This does not work:
 Probably because I am using wayland. No I do `Gnome Settings > Keyboard > Input Sources > Polish` and switching in widget to pl or remove other input sources.
 
 https://nixos.wiki/wiki/Keyboard_Layout_Customization
+
+## Chroot to debian
+
+```
+$ su -
+# mount /dev/disk/by-label/debian /mnt
+# lsblk
+# ls /sys/firmware/efi/efivars/
+# mount /dev/nvme0n1p2 /mnt/boot/efi
+# for i in /dev /dev/pts /proc /sys /sys/firmware/efi/efivars /run; do sudo mount -B $i /mnt$i; done
+# chroot /mnt /bin/bash
+# export PATH=/bin:/usr/bin:/usr/sbin
+# grub-install /dev/nvme0n1p7
+```
+
+- https://nixos.wiki/wiki/Change_root
+- https://discourse.nixos.org/t/using-chroot-inside-nixos/3488/2
+- https://unix.stackexchange.com/questions/128046/chroot-failed-to-run-command-bin-bash-no-such-file-or-directory
