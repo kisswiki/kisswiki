@@ -213,6 +213,15 @@ $ su -
 # chroot /mnt /bin/bash
 # export PATH=/bin:/usr/bin:/usr/sbin
 # grub-install /dev/nvme0n1p7
+# update-grub
+Generating grub configuration file ...
+Found background image: /usr/share/images/desktop-base/desktop-grub.png
+Found linux image: /boot/vmlinuz-5.10.0-8-amd64
+Found initrd image: /boot/initrd.img-5.10.0-8-amd64
+grub-probe: error: cannot find a GRUB drive for /dev/sda1.  Check your device.map.
+Found Windows Boot Manager on /dev/nvme0n1p2@/EFI/Microsoft/Boot/bootmgfw.efi
+Adding boot menu entry for EFI firmware configuration
+done
 ```
 
 - https://nixos.wiki/wiki/Change_root
