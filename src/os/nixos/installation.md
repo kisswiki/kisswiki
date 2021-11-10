@@ -171,3 +171,7 @@ Starts slowly and always restores
 ## Stylus extensions needed to reenable sync
 
 Disble Google, enable and then it worked.
+
+## git bisect nixos
+
+https://discourse.nixos.org/t/browsers-unbearably-slow-after-update/9414/9
