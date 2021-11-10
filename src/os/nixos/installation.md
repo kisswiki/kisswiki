@@ -44,3 +44,67 @@ Below probably is not needed:
 ## /bin/bash bad interpreter
 
 Use `#!/usr/bin/env bash` as here https://www.reddit.com/r/NixOS/comments/k8ja54/nixos_running_scripts_problem/ or some other solution from https://discourse.nixos.org/t/add-bin-bash-to-avoid-unnecessary-pain/5673/38
+
+## keyboard
+
+set in /etc/nixos/configuration.nix
+
+- https://nixos.wiki/wiki/Keyboard_Layout_Customization
+- https://www.reddit.com/r/NixOS/comments/ec79ch/setting_the_keyboard_layout_on_nixos_with_sway/
+
+## bootloader, efi, uefi - nixos not selected as default
+
+```bash
+$ sudo nix-env -iA nixos.efibootmgr
+$ efibootmgr
+BootCurrent: 0005
+Timeout: 2 seconds
+BootOrder: 0001,0005,0006,0007,0000
+Boot0000* Linux Boot Manager
+Boot0001* Windows Boot Manager
+Boot0005* Fedora
+Boot0006* debian
+Boot0007* ubuntu
+```
+
+Somehow nixos boots when I select Fedora entry. But by default Windows boots and I have to press F11 during startup to select boot 5.
+
+nixos changed this setting in wrong way. So now I am removing all entries except Fedora and Linux Boot Managar.
+
+BTW. What is Linux Boot Manager entry?
+
+```bash
+$ sudo efibootmgr -b 1 -B # remove 1 entry, proceed with other entries like this
+$ efibootmgr -b 5 -L nixos
+$ sudo efibootmgr -o 5    # explicitly set boot order, and with only 5 entry
+BootCurrent: 0005
+Timeout: 2 seconds
+BootOrder: 0005
+Boot0000* Linux Boot Manager
+Boot0005* Fedora
+```
+
+It looks like 0001 entry is systemd added by nixos
+
+```bash
+efibootmgr -v
+BootCurrent: 0005
+Timeout: 2 seconds
+BootOrder: 0005
+Boot0000* Linux Boot Manager	HD(2,GPT,2b95e4aa-736e-45a8-b654-9330261c002f,0x96800,0x32000)/File(\EFI\SYSTEMD\SYSTEMD-BOOTX64.EFI)
+Boot0005* Fedora	HD(2,GPT,2b95e4aa-736e-45a8-b654-9330261c002f,0x96800,0x32000)/File(\EFI\FEDORA\SHIM.EFI)..BO
+```
+
+https://nixos.wiki/wiki/Bootloader
+
+## Sound
+
+I have this in /etc/nixos/configuration.nix
+
+```nix
+  # Enable sound.
+  # sound.enable = true;
+  # hardware.pulseaudio.enable = true;
+```
+
+but sound on youtube works.
