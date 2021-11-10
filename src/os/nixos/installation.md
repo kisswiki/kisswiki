@@ -175,3 +175,19 @@ Disble Google, enable and then it worked.
 ## git bisect nixos
 
 https://discourse.nixos.org/t/browsers-unbearably-slow-after-update/9414/9
+
+## Keyboard
+
+This does not work:
+
+/etc/nixos/configuration.nix:
+
+```
+{
+  services.xserver.layout = "pl";
+}
+```
+
+Probably because I am using wayland. No I do `Gnome Settings > Keyboard > Input Sources > Polish` and switching in widget to pl or remove other input sources.
+
+https://nixos.wiki/wiki/Keyboard_Layout_Customization
