@@ -106,6 +106,9 @@ Boot0005* Fedora	HD(2,GPT,2b95e4aa-736e-45a8-b654-9330261c002f,0x96800,0x32000)/
 
 https://nixos.wiki/wiki/Bootloader
 
+I have made a post on reddit
+https://www.reddit.com/r/debian/comments/qqxd95/secure_boot_could_not_be_determined_mode_0/
+
 ## Sound
 
 I have this in /etc/nixos/configuration.nix
