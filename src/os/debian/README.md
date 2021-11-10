@@ -71,7 +71,7 @@ For a one-shot testing you can select your kernel version and press `e` in the g
 
 ## Evolution
 
-Uninstall Evlolution
+Uninstall Evolution
 
 ## Fonts
 
