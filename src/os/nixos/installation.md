@@ -121,3 +121,36 @@ gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift
 ```
 
 https://superuser.com/questions/394376/how-to-prevent-gnome-shells-alttab-from-grouping-windows-from-similar-apps/1517491#1517491
+
+## I am on stable channel even though I have downloaded unstable iso?
+
+```bash
+$ sudo nix-channel --list
+nixos https://nixos.org/channels/nixos-21.05
+```
+
+- https://github.com/NixOS/nixpkgs/issues/103049#issuecomment-771607718
+
+## Docker
+
+/etc/nixos/configuration.nix:
+
+```
+{
+  users.users.<myuser>.extraGroups = [ "docker" ];
+  virtualisation.docker.enable = true;
+  virtualisation.docker.enableOnBoot = true;
+}
+```
+
+- https://nixos.wiki/wiki/Docker
+- https://stackoverflow.com/questions/56763989/dockerd-not-running-on-nixos
+- https://github.com/NixOS/nixpkgs/issues/27637
+
+## Google Chrome
+
+Starts slowly and always restores
+
+## Stylus extensions needed to reenable sync
+
+Disble Google, enable and then it worked.
