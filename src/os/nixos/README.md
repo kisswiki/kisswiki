@@ -2,6 +2,7 @@
 
 - Jakub Konka https://twitter.com/kubkon
 - Marek Fajkus https://twitter.com/turbo_MaCk
+- Dzmitry Malyshau (kvark) https://news.ycombinator.com/item?id=28899039
 
 ## pros and cons
 
@@ -129,8 +130,6 @@ https://news.ycombinator.com/item?id=28793941
 And more of that https://news.ycombinator.com/item?id=28817477
 
 And more [NixOS and the Art of OS Configuration (2018) | Hacker News](https://news.ycombinator.com/item?id=28884609)
-
-kvark uses it https://news.ycombinator.com/item?id=28899039
 
 ## ZFS
 
