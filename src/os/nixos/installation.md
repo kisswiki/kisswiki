@@ -230,3 +230,52 @@ done
 - https://nixos.wiki/wiki/Change_root
 - https://discourse.nixos.org/t/using-chroot-inside-nixos/3488/2
 - https://unix.stackexchange.com/questions/128046/chroot-failed-to-run-command-bin-bash-no-such-file-or-directory
+
+## MongoError: Unrecognized pipeline stage name: '$unset'
+
+> Is this a part of a query or aggregation?
+>
+> If this is a part of aggregation, please change Mongo version to 4.2+
+>
+> It was not yet available in version 4.0
+
+https://github.com/shelfio/jest-mongodb/issues/250#issuecomment-875625745
+
+```bash
+$ mongo --version
+MongoDB shell version v3.4.24
+git version: 865b4f6a96d0f5425e39a18337105f33e8db504d
+OpenSSL version: OpenSSL 1.1.1l  24 Aug 2021
+allocator: tcmalloc
+modules: none
+build environment:
+    distarch: x86_64
+    target_arch: x86_64
+```
+
+https://search.nixos.org/packages?channel=21.05&show=mongodb-4_2&from=0&size=50&sort=relevance&type=packages&query=mongodb
+
+shows `nix-env -iA nixos.mongodb-4_2`
+
+```bash
+$ nix-env -qa mongodb
+mongodb-3.4.24
+mongodb-3.4.24
+mongodb-3.6.13
+mongodb-4.0.12
+mongodb-4.2.8
+```
+
+`nix-env -e mongodb`
+
+In /etc/nixos/configuration.nix
+
+```nix
+{
+  environment.systemPackages = with pkgs; [
+     nixos.mongodb-4_2
+  ];
+}
+```
+
+`sudo nixos-rebuild switch`
