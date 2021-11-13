@@ -31,15 +31,7 @@ $ mkdir /mnt/boot
 
 ## font
 
-`nix-env -iA nixos.ubuntu_font_family`
-
-- https://search.nixos.org/packages?channel=unstable&show=ubuntu_font_family&from=0&size=50&sort=relevance&type=packages&query=ubuntu
-
-Below probably is not needed:
-
-- https://stackoverflow.com/questions/57981225/how-to-install-fonts-with-nix-in-ubuntu
-- https://nixos.wiki/wiki/Fonts
-- https://unix.stackexchange.com/questions/427263/installing-cmu-fonts-on-nixos
+look at `configuration.nix`
 
 ## /bin/bash bad interpreter
 
