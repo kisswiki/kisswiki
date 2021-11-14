@@ -271,3 +271,11 @@ In /etc/nixos/configuration.nix
 ```
 
 `sudo nixos-rebuild switch`
+
+## What package does file not installed belongs?
+
+```bash
+$ nix shell nixpkgs#nix-index -c nix-locate bin/winbind | grep -v '('
+samba.out                                     1,197,000 x /nix/store/p4f487yncvnl7z6ibikvqwswz609zf6a-samba-4.14.4/bin/winbindd
+```
+
