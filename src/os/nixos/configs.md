@@ -5,3 +5,4 @@
   - https://devos.divnix.com/concepts
 - https://github.com/jtojnar/nixfiles
 - [nix-community/home-manager: Manage a user environment using Nix \[maintainer=@rycee\]](https://github.com/nix-community/home-manager)
+- https://github.com/k4leg/nixos-configuration
