@@ -1,8 +1,7 @@
 ```bash
 $ git clone --depth 1 -b <branch> https://github.com/user/repo.git
 $ cd repo
-$ git fetch origin otherBranch --depth 10
-#$ git fetch origin remoteBranch:localBranch --depth 1
+$ git fetch origin remoteBranch:localBranch --depth 1
 ```
 
 - https://stackoverflow.com/questions/1209999/using-git-to-get-just-the-latest-revision/1210012#1210012
