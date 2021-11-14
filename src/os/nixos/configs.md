@@ -1,0 +1,4 @@
+- https://github.com/jonringer/nixpkgs-config
+- https://github.com/pimeys/nixos
+- https://github.com/ttuegel/nixos-config
+- template for NixOS users, with consideration for common tools like home-manager, devshell, and more https://github.com/divnix/devos

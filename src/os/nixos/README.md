@@ -160,32 +160,27 @@ https://nixos.org/manual/nixos/stable/#chap-gnome
 
 - [NixOS - Explore](https://nixos.org/explore.html)
 - [NixOS - Wikipedia](https://en.m.wikipedia.org/wiki/NixOS)
-- [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](https://distrowatch.com/weekly.php?issue=20170515#nixos)
-- [DistroWatch.com: NixOS](https://distrowatch.com/table.php?distribution=nixos)
-- [(816) Random live gaming on NixOS (CSGO mostly) - YouTube](https://www.youtube.com/watch?v=mN2j70hSo4s)
+- https://distrowatch.com/weekly.php?issue=20170515#nixos
+- https://distrowatch.com/table.php?distribution=nixos
+- [Random live gaming on NixOS (CSGO mostly) - YouTube](https://www.youtube.com/watch?v=mN2j70hSo4s)
 - [Playing CS:GO on Linux? Don't enable resizable BAR : GlobalOffensive](https://www.reddit.com/r/GlobalOffensive/comments/nakz30/- playing_csgo_on_linux_dont_enable_resizable_bar/)
 - [I fixed (most of) my FPS issues by turning Multicore Rendering ON. : GlobalOffensive](https://www.reddit.com/r/GlobalOffensive/comments/3to8f6/- i_fixed_most_of_my_fps_issues_by_turning/)
-- [Nvidia - NixOS Wiki](https://nixos.wiki/wiki/Nvidia)
+- https://nixos.wiki/wiki/Nvidia
   - https://nixos.org/manual/nixos/stable/#sec-x11-graphics-cards-nvidia
-- [Search · csgo](https://github.com/NixOS/nixpkgs/search?q=csgo&type=issues)
+- https://github.com/NixOS/nixpkgs/search?q=csgo&type=issues
 - [Steam: Proton games don't start anymore · Issue #130699 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/130699)
 - [steam-runtime/reporting-steamlinuxruntime-bugs.md at master · ValveSoftware/steam-runtime](https://github.com/ValveSoftware/steam-runtime/blob/master/doc/- reporting-steamlinuxruntime-bugs.md#essential-information)
-- [Steam proton games broken - Learn - NixOS Discourse](https://discourse.nixos.org/t/steam-proton-games-broken/14167/8)
+- https://discourse.nixos.org/t/steam-proton-games-broken/14167/8
 - [steam: can not start CS:GO · Issue #50604 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/50604)
-- [Issues · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/labels/6.topic%3A%20steam)
-- [nixpkgs/steam.nix at master · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/games/steam/steam.nix)
+- https://github.com/NixOS/nixpkgs/labels/6.topic%3A%20steam
+- https://github.com/NixOS/nixpkgs/blob/master/pkgs/games/steam/steam.nix
 - [21.11 Feature Freeze · Issue #140168 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/140168)
-- [jonringer (Jonathan Ringer)](https://github.com/jonringer)
-- [jonringer/nixpkgs-config: ~/.config/nixpkgs](https://github.com/jonringer/nixpkgs-config)
 - [jonringer/nix-template: Make creating nix expressions easy](https://github.com/jonringer/nix-template)
-- [nrdxp (Timothy DeHerrera)](https://github.com/nrdxp)
 - [helix-editor/helix: A post-modern modal text editor.](https://github.com/helix-editor/helix)
-- [divnix/digga: A a flake utility library to craft shell-, home-, and hosts- environments.](https://github.com/divnix/digga)
-- [Flakes - NixOS Wiki](https://nixos.wiki/wiki/Flakes)
 - [Notifications and other popups are treated like &quot;normal&quot; windows on Plasma Wayland · Issue #118650 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/- issues/118650)
-- [samueldr/nix-top](https://github.com/samueldr/nix-top)
-- [Mobile NixOS](https://mobile.nixos.org/)
-- [NixOS/mobile-nixos](https://github.com/NixOS/mobile-nixos)
+- This is a script to help users figure out what's building https://github.com/samueldr/nix-top
+- https://mobile.nixos.org/)
+  - https://github.com/NixOS/mobile-nixos
 - [NixOS/nixpkgs: Nix Packages collection](https://github.com/NixOS/nixpkgs)
 - [ttuegel (Thomas Tuegel)](https://github.com/ttuegel)
 - [kwin: unwrap executable name for resource name by CertainLach · Pull Request #139459 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/pull/139459)
