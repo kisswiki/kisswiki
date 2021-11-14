@@ -13,3 +13,15 @@
   - https://github.com/dandavison/delta
   - https://news.ycombinator.com/item?id=27772256
   - https://github.com/NateEag/diff-check
+
+## summary, stat
+
+`git log --stat` will show the amount each file was changed.
+
+`git whatchanged` gives some detail into the files that were modified.
+
+`git diff --stat <sha1> <sha2>` gives the files and the amount of changes between two commits.
+
+`git diff --stat <branch>` to compare to another branch (e.g. master)
+
+https://stackoverflow.com/questions/37582250/git-diff-in-summary/37582295#37582295

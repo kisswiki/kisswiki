@@ -28,6 +28,7 @@
   git commit --amend --no-edit
   git rebase --continue
   ```
+
 - https://github.com/qw3rtman/git-fire
 - https://github.com/jayphelps/git-blame-someone-else
 - extract directory to new repository `git subtree split -P <name-of-folder> -b <name-of-new-branch>`
@@ -36,6 +37,7 @@
 - To make script executable under windows (--add when it's a new file) `git update-index --add --chmod=+x <file>` http://stackoverflow.com/questions/6476513/git-file-permissions-on-windows
 - https://wildlyinaccurate.com/a-hackers-guide-to-git/
 - gitless https://www.reddit.com/r/programming/comments/558utp/purposes_concepts_misfits_and_a_redesign_of_git/
+- https://github.com/SuperSandro2000/cheat-sheet/blob/master/misc/git.md
 
 ## crlf
 
@@ -49,7 +51,7 @@
 
 ## Change author and commiter
 
-`git -c user.name="New Author Name" -c user.email=email@address.com commit --amend  --author "New Author Name <email@address.com>"`
+`git -c user.name="New Author Name" -c user.email=email@address.com commit --amend --author "New Author Name <email@address.com>"`
 
 http://stackoverflow.com/questions/750172/change-the-author-of-a-commit-in-git
 
@@ -68,6 +70,7 @@ http://stackoverflow.com/questions/4220416/can-i-specify-multiple-users-for-myse
 or from git>=2.8
 
 > The "user.useConfigOnly" configuration variable can be used to force the user to always set user.email & user.name configuration variables, serving as a reminder for those who work on multiple projects and do not want to put these in their $HOME/.gitconfig.
+>
 > - https://github.com/git/git/blob/master/Documentation/RelNotes/2.8.0.txt
 
 ## After git pull, git status shows changed files

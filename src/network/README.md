@@ -1,5 +1,6 @@
 - https://confluence.atlassian.com/kb/how-to-capture-http-traffic-using-wireshark-or-fiddler-779164332.html
 - https://confluence.atlassian.com/kb/generating-har-files-and-analyzing-web-requests-720420612.html
+- https://github.com/SuperSandro2000/cheat-sheet/blob/master/misc/network.md
 
 ## HAR
 
