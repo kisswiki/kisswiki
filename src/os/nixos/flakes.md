@@ -1,5 +1,8 @@
 - [divnix/digga: A a flake utility library to craft shell-, home-, and hosts- environments.](https://github.com/divnix/digga)
-- [Flakes - NixOS Wiki](https://nixos.wiki/wiki/Flakes)
+- https://nixos.wiki/wiki/Flakes
+- [gytis-ivaskevicius/flake-utils-plus: Use Nix flakes without any fluff.](https://github.com/gytis-ivaskevicius/flake-utils-plus)
+- [Make JupyterWith a Flake · Issue #99 · tweag/jupyterWith](https://github.com/tweag/jupyterWith/issues/99)
+- [rfcs/0049-flakes.md at 8c36f764fbae6a09b06fe2a35b5828e79e24d950 · NixOS/rfcs](https://github.com/NixOS/rfcs/blob/8c36f764fbae6a09b06fe2a35b5828e79e24d950/rfcs/- 0049-flakes.md)
 
 ## About
 

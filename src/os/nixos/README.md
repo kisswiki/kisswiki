@@ -103,8 +103,6 @@ kaba0
 
 You sort of have that with NixOS as well, with eg. steam-run that provides a debian-like chroot and can run most executables. (You can also modify it to include any dependency you like, that will get installed to standard locations)
 
-https://nixos.wiki/wiki/Steam
-
 esjeon
 
 NixOS is overrated for desktops. It's good for reproducing specific environment, but, unlike servers and dev envs, in desktop environments, changes are made from both software and user side frequently and sometime radically. ROI is significantly lower, and NixOS still can't save you from long-term breakage.
@@ -160,20 +158,6 @@ https://nixos.org/manual/nixos/stable/#chap-gnome
 
 - [NixOS - Explore](https://nixos.org/explore.html)
 - [NixOS - Wikipedia](https://en.m.wikipedia.org/wiki/NixOS)
-- https://distrowatch.com/weekly.php?issue=20170515#nixos
-- https://distrowatch.com/table.php?distribution=nixos
-- [Random live gaming on NixOS (CSGO mostly) - YouTube](https://www.youtube.com/watch?v=mN2j70hSo4s)
-- [Playing CS:GO on Linux? Don't enable resizable BAR : GlobalOffensive](https://www.reddit.com/r/GlobalOffensive/comments/nakz30/- playing_csgo_on_linux_dont_enable_resizable_bar/)
-- [I fixed (most of) my FPS issues by turning Multicore Rendering ON. : GlobalOffensive](https://www.reddit.com/r/GlobalOffensive/comments/3to8f6/- i_fixed_most_of_my_fps_issues_by_turning/)
-- https://nixos.wiki/wiki/Nvidia
-  - https://nixos.org/manual/nixos/stable/#sec-x11-graphics-cards-nvidia
-- https://github.com/NixOS/nixpkgs/search?q=csgo&type=issues
-- [Steam: Proton games don't start anymore · Issue #130699 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/130699)
-- [steam-runtime/reporting-steamlinuxruntime-bugs.md at master · ValveSoftware/steam-runtime](https://github.com/ValveSoftware/steam-runtime/blob/master/doc/- reporting-steamlinuxruntime-bugs.md#essential-information)
-- https://discourse.nixos.org/t/steam-proton-games-broken/14167/8
-- [steam: can not start CS:GO · Issue #50604 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/50604)
-- https://github.com/NixOS/nixpkgs/labels/6.topic%3A%20steam
-- https://github.com/NixOS/nixpkgs/blob/master/pkgs/games/steam/steam.nix
 - [21.11 Feature Freeze · Issue #140168 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/140168)
 - [jonringer/nix-template: Make creating nix expressions easy](https://github.com/jonringer/nix-template)
 - [helix-editor/helix: A post-modern modal text editor.](https://github.com/helix-editor/helix)
@@ -185,8 +169,6 @@ https://nixos.org/manual/nixos/stable/#chap-gnome
 - [kwin: unwrap executable name for resource name by CertainLach · Pull Request #139459 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/pull/139459)
 - [Issues with GNOME 3 and Nvidia EGLStream · Issue #75131 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/75131)
 - https://discourse.nixos.org/t/add-unstable-options-to-stable-install/6482
-- [CSGO and other 3d games broken in Steam by commit ... · Issue #90229 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/90229)
-- [steam: switch to correct runtime tarball by euank · Pull Request #90286 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/pull/90286/files)
 - [nixek-overlay/pkgs at master · euank/nixek-overlay](https://github.com/euank/nixek-overlay/tree/master/pkgs)
 - [NixOS: The Only Functional GNU/Linux Distribution - software](https://doczz.net/doc/3672568/nixos--the-only-functional-gnu-linux-distribution)
 - [How to use Nix to build fresh GIMP](https://gist.github.com/jtojnar/c14bc10ae6052b5a6fb19bfdac077a01)
@@ -197,24 +179,17 @@ https://nixos.org/manual/nixos/stable/#chap-gnome
 - [How to make NixOS so easy that people can be productive up front, without having to first learn the nix language? - Development - NixOS Discourse](https://- discourse.nixos.org/t/how-to-make-nixos-so-easy-that-people-can-be-productive-up-front-without-having-to-first-learn-the-nix-language/5625/4)
 - https://github.com/lassulus/nix-autobahn
 - [Mic92/nix-ld: Run unpatched dynamic binaries on NixOS](https://github.com/Mic92/nix-ld)
-- [FBRS](https://www.fbrs.io/cypress/)
 - [Different methods to run a non-nixos executable on Nixos - Unix &amp; Linux Stack Exchange](https://unix.stackexchange.com/questions/522822/- different-methods-to-run-a-non-nixos-executable-on-nixos)
 - [Anyone tried NixOS, what are your thoughts? : archlinux](https://www.reddit.com/r/archlinux/comments/b2jkrp/anyone_tried_nixos_what_are_your_thoughts/)
 - [NixOS users, tell me: What are the cons? : NixOS](https://www.reddit.com/r/NixOS/comments/441ymh/nixos_users_tell_me_what_are_the_cons/)
 - [Why isn't NixOS more popular : NixOS](https://www.reddit.com/r/NixOS/comments/kpntby/why_isnt_nixos_more_popular/)
-- [pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI](https://github.com/pmiddend/nixos-manager)
-- [Make JupyterWith a Flake · Issue #99 · tweag/jupyterWith](https://github.com/tweag/jupyterWith/issues/99)
-- [rfcs/0049-flakes.md at 8c36f764fbae6a09b06fe2a35b5828e79e24d950 · NixOS/rfcs](https://github.com/NixOS/rfcs/blob/8c36f764fbae6a09b06fe2a35b5828e79e24d950/rfcs/- 0049-flakes.md)
 - [Anyone tried NixOS, what are your thoughts? : archlinux](https://old.reddit.com/r/archlinux/comments/b2jkrp/anyone_tried_nixos_what_are_your_thoughts/)
 - [Benefits/disadvantages of NixOS over Guix? : NixOS](https://www.reddit.com/r/NixOS/comments/lgf7vo/benefitsdisadvantages_of_nixos_over_guix/)
-- [nixos - What is the relationship between Disnix and NixOps? - Stack Overflow](https://stackoverflow.com/questions/21786773/- what-is-the-relationship-between-disnix-and-nixops)
+- https://stackoverflow.com/questions/21786773/what-is-the-relationship-between-disnix-and-nixops
 - [Erase your darlings: immutable infrastructure for mutable systems - Graham Christensen](https://grahamc.com/blog/erase-your-darlings)
 - [nix-community/lorri: Your project’s nix-env \[maintainer=@Profpatsch\]](https://github.com/nix-community/lorri)
 - [Introducing lorri, your project's nix-env - Tweag](https://www.tweag.io/blog/2019-03-28-introducing-lorri/)
 - [haslersn/any-nix-shell: fish and zsh support for the nix run and nix-shell environments of the Nix package manager](https://github.com/haslersn/any-nix-shell)
-- [Steam beta 2021-09-07: steamwebhelper cannot find LIBTHAI_0.1.25 on NixOS · Issue #462 · ValveSoftware/steam-runtime](https://github.com/ValveSoftware/- steam-runtime/issues/462)
-- [Steam: embeddedd browser not working with latest update · Issue #137279 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/137279)
-- [nix-community/home-manager: Manage a user environment using Nix \[maintainer=@rycee\]](https://github.com/nix-community/home-manager)
 - [NixOS - Nix Pills](https://nixos.org/guides/nix-pills/why-you-should-give-it-a-try.html)
 - [My NixOS Desktop Flow - Xe](https://christine.website/blog/nixos-desktop-flow-2020-04-25)
 - [DBCDK/morph: NixOS deployment tool](https://github.com/DBCDK/morph)
@@ -222,10 +197,3 @@ https://nixos.org/manual/nixos/stable/#chap-gnome
 - [Articles | Functional Works](https://functional.works-hub.com/learn/?blogs-search=nix&interaction=1)
 - [Exploring Nix &amp; Haskell Part 2: Dev Tools &amp; IDE Integration](https://functional.works-hub.com/learn/- exploring-nix-and-haskell-part-2-dev-tools-and-ide-integration-dd53e)
 - [Exploring Nix &amp; Haskell Part 1: Project Setup – Christian Henry](https://cah6.github.io/technology/nix-haskell-1/)
-- [nixpkgs/default.nix at master · mmahut/nixpkgs](https://github.com/mmahut/nixpkgs/blob/master/pkgs/development/web/cypress/default.nix)
-- [divnix/devos: NixOS Template](https://github.com/divnix/devos)
-- [numtide/devshell: Per project developer environments](https://github.com/numtide/devshell)
-- [Key Concepts - devos docs](https://devos.divnix.com/concepts/index.html)
-- [Introduction - Digga Library Docs](https://digga.divnix.com/)
-- [gytis-ivaskevicius/flake-utils-plus: Use Nix flakes without any fluff.](https://github.com/gytis-ivaskevicius/flake-utils-plus)
-- https://discourse.nixos.org/t/nixpkgs-has-been-the-largest-repository-for-months/10667/2

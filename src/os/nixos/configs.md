@@ -2,4 +2,6 @@
 - https://github.com/pimeys/nixos
 - https://github.com/ttuegel/nixos-config
 - template for NixOS users, with consideration for common tools like home-manager, devshell, and more https://github.com/divnix/devos
+  - https://devos.divnix.com/concepts
 - https://github.com/jtojnar/nixfiles
+- [nix-community/home-manager: Manage a user environment using Nix \[maintainer=@rycee\]](https://github.com/nix-community/home-manager)

@@ -1,0 +1,12 @@
+- https://nixos.wiki/wiki/Steam
+- [Random live gaming on NixOS (CSGO mostly) - YouTube](https://www.youtube.com/watch?v=mN2j70hSo4s)
+- [Playing CS:GO on Linux? Don't enable resizable BAR : GlobalOffensive](https://www.reddit.com/r/GlobalOffensive/comments/nakz30/- playing_csgo_on_linux_dont_enable_resizable_bar/)
+- [I fixed (most of) my FPS issues by turning Multicore Rendering ON. : GlobalOffensive](https://www.reddit.com/r/GlobalOffensive/comments/3to8f6/- i_fixed_most_of_my_fps_issues_by_turning/)
+- [Steam: Proton games don't start anymore · Issue #130699 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/130699)
+- [steam-runtime/reporting-steamlinuxruntime-bugs.md at master · ValveSoftware/steam-runtime](https://github.com/ValveSoftware/steam-runtime/blob/master/doc/- reporting-steamlinuxruntime-bugs.md#essential-information)
+- https://discourse.nixos.org/t/steam-proton-games-broken/14167/8
+- [steam: can not start CS:GO · Issue #50604 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/50604)
+- https://github.com/NixOS/nixpkgs/labels/6.topic%3A%20steam
+- https://github.com/NixOS/nixpkgs/blob/master/pkgs/games/steam/steam.nix
+- [CSGO and other 3d games broken in Steam by commit ... · Issue #90229 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/90229)
+- [steam: switch to correct runtime tarball by euank · Pull Request #90286 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/pull/90286/files)

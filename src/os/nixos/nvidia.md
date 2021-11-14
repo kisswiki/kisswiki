@@ -1,0 +1,2 @@
+- https://nixos.wiki/wiki/Nvidia
+  - https://nixos.org/manual/nixos/stable/#sec-x11-graphics-cards-nvidia
