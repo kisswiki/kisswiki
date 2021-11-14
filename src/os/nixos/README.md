@@ -154,6 +154,12 @@ https://nixos.wiki/wiki/Visual_Studio_Code#Managing_extensions
 
 https://nixos.org/manual/nixos/stable/#chap-gnome
 
+## Update policy
+
+NixOS seems to have a policy of not bumping major things, like the LLVM version, between releases within a year ([@sterni’s comment on the PR 3](https://github.com/NixOS/nixpkgs/pull/126411#issuecomment-950128484)).
+
+https://discourse.nixos.org/t/nix-macos-monthly/12330
+
 ## Links
 
 - [NixOS - Explore](https://nixos.org/explore.html)
