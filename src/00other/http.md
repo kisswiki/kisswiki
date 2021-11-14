@@ -1,5 +1,6 @@
 - https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/
 - https://github.com/for-GET/know-your-http-well
+- [the most important HTTP request headers](https://wizardzines.com/comics/request-headers/)
 
 ## http/1 vs http/2 vs http/3
 

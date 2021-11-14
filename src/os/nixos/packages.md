@@ -1,0 +1,2 @@
+- https://search.nixos.org/
+- https://repology.org/projects/b/?inrepo=nix_unstable&notinrepo=gnuguix&repos=3

@@ -1,2 +1,3 @@
 - https://www.stephanboyer.com/post/122/does-google-execute-javascript
   - https://news.ycombinator.com/item?id=13294779
+- https://www.fastcompany.com/90673924/its-not-just-you-google-search-really-is-getting-worse
