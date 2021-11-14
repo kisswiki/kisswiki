@@ -279,3 +279,66 @@ $ nix shell nixpkgs#nix-index -c nix-locate bin/winbind | grep -v '('
 samba.out                                     1,197,000 x /nix/store/p4f487yncvnl7z6ibikvqwswz609zf6a-samba-4.14.4/bin/winbindd
 ```
 
+## Misc
+
+- https://superuser.com/questions/1501948/nixos-setting-package-configuration-globally-for-all-packages
+- https://unix.stackexchange.com/questions/634137/how-to-force-nix-to-install-packages-by-building-them-locally-instead-of-downl
+
+## gitk
+
+install gitFull defined here https://github.com/NixOS/nixpkgs/blob/nixos-21.05/pkgs/top-level/all-packages.nix#L23891
+
+or you can override but this will not download binary from hydra, instead will compile.
+
+in /etc/nixos/configuration.nix
+
+```nix
+  environment.systemPackages = with pkgs; [
+    tlc
+    tk
+    (git.override { guiSupport = true; })
+  ];
+```
+
+https://github.com/Th3Whit3Wolf/nixos/blob/a8c6e2987b342ff9d2c5953154ba4d5d59989bb1/hosts/tardis/users/doc.nix#L36
+
+or with `let .. in`:
+
+```nix
+{ config, pkgs, ... }:
+
+let
+  gitandgui = pkgs.git.override { guiSupport = true; };
+in
+{
+  environment.systemPackages = with pkgs; [
+    tlc
+    tk
+    guiandgui
+  ];
+}
+```
+
+- https://www.reddit.com/r/NixOS/comments/g02tbj/overriding_a_package_checksum_in_configurationnix/
+
+And this:
+
+```nix
+  # The full-featured Git.
+  gitFull = appendToName "full" (git.override {
+    svnSupport = true;
+    guiSupport = true;
+    sendEmailSupport = stdenv.isDarwin == false;
+  });
+```
+
+- https://github.com/rbvermaa/nixpkgs-svn/blob/c3ad7707c32a41b1361ace949830942926d634b2/pkgs/applications/version-management/git-and-tools/default.nix#L31
+- https://github.com/nix-community/nur-combined/blob/e55faf5edb259fb107153f9dd44e56e49d5c37c1/repos/milahu/pkgs/svn2github/default.nix#L16
+
+There is also:
+
+```nix
+xfce =pkgs.xfce // {thunar = overrideDerivation pkgs.xfce.thunar ... }
+```
+
+https://nix-dev.science.uu.narkive.com/2jd5ZLyb/how-to-overwrite-a-derivation-in-nix
