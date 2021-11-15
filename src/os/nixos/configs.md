@@ -8,6 +8,9 @@
 - https://github.com/k4leg/nixos-configuration
 - uses flakes and is simple https://github.com/srid/nixos-config
   - https://lobste.rs/s/jevfaf/nixos_for_developers#c_0pcwut
+- https://discourse.nixos.org/t/where-does-personal-configuration-go/7646
+- https://discourse.nixos.org/t/how-do-you-organize-your-configuration/7306/7
+- https://nixos.wiki/wiki/Configuration_Collection
 
 ## no system packages
 
