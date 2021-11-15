@@ -90,3 +90,9 @@ https://lobste.rs/s/jevfaf/nixos_for_developers#c_targav
 Yes, since the machine could have overlays or overrides defined. This is one one of the issues that flakes attempt to solve (avoiding that external state influences the evaluation).
 
 https://discourse.nixos.org/t/clarification-on-package-names-and-versions/9819/2
+
+## monorepo vs flakes
+
+I think that flakes are an official effort to move in that direction. The ability to include multiple repos eliminates the need for a mono repo.
+
+https://www.reddit.com/r/NixOS/comments/j4k2zz/comment/g7m5igw/
