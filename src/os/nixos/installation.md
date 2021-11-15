@@ -389,3 +389,7 @@ There is https://apps.kde.org/rsibreak/ or https://github.com/cdepillabout/break
 ## running webpack scripts with watching enabled in vscode integrated terminal causes system to crawl
 
 I use tilix instead and it works good. And it has vertical splitting.
+
+ctrl+alt+r to open terminal on the right
+
+I have also enabled "Run command as a login shell" as I got some warning from tilix https://gnunn1.github.io/tilix-web/manual/vteconfig/
