@@ -4,6 +4,7 @@
 - template for NixOS users, with consideration for common tools like home-manager, devshell, and more https://github.com/divnix/devos
   - https://www.reddit.com/r/NixOS/comments/j4k2zz/comment/g94wjsc/
     - https://github.com/divnix/devos/issues?page=2&q=is%3Aissue+is%3Aopen
+      - https://github.com/divnix/devos/issues/315
   - https://devos.divnix.com/concepts
 - https://github.com/jtojnar/nixfiles
 - [nix-community/home-manager: Manage a user environment using Nix \[maintainer=@rycee\]](https://github.com/nix-community/home-manager)
