@@ -93,6 +93,10 @@ https://discourse.nixos.org/t/clarification-on-package-names-and-versions/9819/2
 
 ## No easy pinning of package version
 
+So, if I wanted ruby 2.6.7 and go 1.13 (neither are available in either 21.05 or 20.09), I would do what exactly? Or if I wanted ruby_2_6 (available in 21.05) and go_1_16 (available in 20.09)? All other package/dependency management tools don't even have such a problem.
+
+https://news.ycombinator.com/item?id=28592368
+
 - [Ditch your version manager | Hacker News](https://news.ycombinator.com/item?id=28565072)
 - https://discourse.nixos.org/t/-larification-on-package-names-and-versions/9819/5
 - https://search.nix.gsc.io/?q=name%20%3D%20%22&i=nope&files=.nix&repos=
