@@ -385,3 +385,7 @@ $ efibootmgr -b 2 -A
 - https://github.com/tom-james-watson/breaktimer-app
 
 There is https://apps.kde.org/rsibreak/ or https://github.com/cdepillabout/break-time
+
+## running webpack scripts with watching enabled in vscode integrated terminal causes system to crawl
+
+I use tilix instead and it works good. And it has vertical splitting.
