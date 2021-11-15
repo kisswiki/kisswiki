@@ -20,7 +20,7 @@ The flakes mechanism seeks to address all these problems. This RFC, however, onl
 
 https://github.com/NixOS/rfcs/pull/49
 
-##
+## Links
 
 - https://serokell.io/blog/practical-nix-flakes
 - https://www.tweag.io/blog/2020-07-31-nixos-flakes/
@@ -30,6 +30,7 @@ https://github.com/NixOS/rfcs/pull/49
 - [Make JupyterWith a Flake · Issue #99 · tweag/jupyterWith](https://github.com/tweag/jupyterWith/issues/99)
 - [rfcs/0049-flakes.md at 8c36f764fbae6a09b06fe2a35b5828e79e24d950 · NixOS/rfcs](https://github.com/NixOS/rfcs/blob/8c36f764fbae6a09b06fe2a35b5828e79e24d950/rfcs/- 0049-flakes.md)
 - uses flakes and is simple https://github.com/srid/nixos-config
+- https://github.com/colemickens/nixos-flake-example
 
 ## About
 
@@ -53,13 +54,13 @@ Yeah. I can imagine Flakes catching on with the data science people, especially 
 
 (Hopefully the Flakes version of Nix gets released soon, and JupyterWith gets [the flake treatment](https://github.com/tweag/jupyterWith/issues/99)!)
 
-https://www.reddit.com/r/NixOS/comments/kpntby/comment/gi25s47/?utm_source=reddit&utm_medium=web2x&context=3
+https://www.reddit.com/r/NixOS/comments/kpntby/comment/gi25s47/
 
 Zopieux
 
 Want a quick fix in a package eg. version bump? Overlays still feel very cumbersome to use and PRs to upstream take months to get reviewed. Maybe flakes or something else will fix that eventually.
 
-https://www.reddit.com/r/NixOS/comments/kpntby/comment/gi2r9u3/?utm_source=reddit&utm_medium=web2x&context=3
+https://www.reddit.com/r/NixOS/comments/kpntby/comment/gi2r9u3/
 
 qqlq
 
