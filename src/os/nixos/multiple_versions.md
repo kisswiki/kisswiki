@@ -1,0 +1,5 @@
+The “multiple version” situation seems often confusing to outsiders. While nix and the package expressions technically allow you to have any number of versions and configurations at once, in practice you typically want to minimize this space as much as possible (simplicity, coverage with tests, etc.), so there’s actually policy not to keep multiple versions (in one nixpkgs commit) without a good reason. Still, it’s useful for rollbacks (whole system with config, per-program), or developing/testing stuff against newer libraries without switching the system to them, or other “special situations”.
+
+I’m biased, of course, but nix seems more flexible than any related approaches I’ve seen, largely thanks to not being afraid of forsaking shared directories like /usr/lib/. (Even so in nixpkgs we have steam-run that can simulate such an environment via mount namespaces.) Still, breaking such common assumptions does come with some disadvantages.
+
+https://discourse.nixos.org/t/nixos-vs-fedora-silverblue/648/6
