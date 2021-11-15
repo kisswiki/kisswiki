@@ -12,6 +12,7 @@
 - https://nixos.org/manual/nixpkgs/stable/#node.js
 - https://discourse.nixos.org/t/how-to-use-node2nix-in-nix-derivation-correctly/15321
 - https://lastlog.de/blog/posts/nix-language-atlas-javascript.html
+- https://www.breakds.org/post/nix-shell-for-nodejs/
 
 ##
 
