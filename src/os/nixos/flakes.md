@@ -31,6 +31,8 @@ https://github.com/NixOS/rfcs/pull/49
 - [rfcs/0049-flakes.md at 8c36f764fbae6a09b06fe2a35b5828e79e24d950 · NixOS/rfcs](https://github.com/NixOS/rfcs/blob/8c36f764fbae6a09b06fe2a35b5828e79e24d950/rfcs/- 0049-flakes.md)
 - uses flakes and is simple https://github.com/srid/nixos-config
 - https://github.com/colemickens/nixos-flake-example
+- [Intro to Flakes](https://www.youtube.com/watch?v=K54KKAx2wNc)
+- [Moving Nixos System Configuration Into A Flake](https://www.youtube.com/watch?v=mJbQ--iBc1U)
 
 ## About
 

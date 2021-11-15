@@ -7,3 +7,4 @@
 - https://nixos.org/guides/nix-pills/
 - https://wiki.nikitavoloboev.xyz/package-managers/nix
 - https://yoshuawuyts.gitbooks.io/knowledge/content/bin/nix.html
+- https://www.youtube.com/watch?v=QKoQ1gKJY5A&list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-
