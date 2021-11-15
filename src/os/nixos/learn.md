@@ -1,1 +1,9 @@
+- https://nixos.org/learn.html
+- https://nixos.org/manual/nix/stable/
+- https://nixos.org/manual/nixpkgs/stable/
+- https://nixos.org/manual/nixos/stable/
 - https://nixos.wiki/
+- https://nix.dev/
+- https://nixos.org/guides/nix-pills/
+- https://wiki.nikitavoloboev.xyz/package-managers/nix
+- https://yoshuawuyts.gitbooks.io/knowledge/content/bin/nix.html

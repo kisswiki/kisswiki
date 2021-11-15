@@ -378,3 +378,10 @@ $ efibootmgr -b 2 -A
 ```
 
 - https://askubuntu.com/questions/485261/change-boot-order-using-efibootmgr/1362020#1362020
+
+## Breaktimer not available in nixos
+
+- https://repology.org/project/breaktimer/versions
+- https://github.com/tom-james-watson/breaktimer-app
+
+There is https://apps.kde.org/rsibreak/ or https://github.com/cdepillabout/break-time
