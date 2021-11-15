@@ -114,3 +114,21 @@ https://news.ycombinator.com/item?id=28592368
 - https://nixos.wiki/wiki/FAQ/Pinning_Nixpkgs
 - [There isn't a clear canonical way to refer to a specific package version. · Issue #93327 · NixOS/nixpkgs](https://-ithub.com/NixOS/nixpkgs/issues/93327)
 - [I firmly believe that Nix (and/or Guix) are the future. I am going to use Nix as... | Hacker News](https://news.ycombinator.com/item?id=25191466)
+
+## shared libraries
+
+dnr
+
+Packages as defined in nixpkgs don't depend on specific versions of shared libraries. They depend on the library by name, just as they do in any other OS. So a single update in nixpkgs addresses all packages on the system "for free", including ones defined outside of nixpkgs, because they're almost certainly going to depend on nixpkgs for those libraries (I mean, they could duplicate the definitions, but why would they?).
+
+Built packages depend on specific versions. So you just have to be sure to update all your built packages. How does that happen? Well, packages are installed because they're requested by name somewhere, either NixOS system packages, or from home-manager, or from a dev environment. Those names point to packages in nixpkgs. So when you update your nixpkgs version (using nix-channel or flake update or however you're doing it), and then rebuild NixOS or update home-manager, you get updated versions of everything.
+
+If you're using a nix-based dev environment with pinned nixpkgs (with niv or a flake or whatever), you'll have to update that pin as well, for each project. I suppose you could claim that this makes it easy to use old dependencies. Perhaps, but the entire point of pinning the nixpkgs version is to make everything 100% reproducible, bugs and all, all the way down your dependency stack. So you have to make a deliberate choice between trade-offs there, which seems fair.
+
+As far as static linking, nix is essentially static linking, except that you still get the benefits of shared disk space and shared memory for .so files. "True" static linking might be simpler if your dependencies happen to be .so files that also have .a files, but many things aren't, e.g. dependencies among python modules, depending on other binaries to exec, data files, etc. Nix lets you "statically link" all of those too.
+
+ochoseis
+
+IIUC, it’s more nuanced than that. The shared library would be specified as a dependency to the packages that rely on it. Pushing a fix to the library would trigger a rebuild of all the downstream packages during the next upgrade. This also means updates to a popular dependency will cause long upgrades.
+
+https://news.ycombinator.com/item?id=25194553
