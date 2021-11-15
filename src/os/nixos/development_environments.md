@@ -5,6 +5,10 @@
 - https://myme.no/posts/2020-01-26-nixos-for-development.html
   - https://lobste.rs/s/jevfaf/nixos_for_developers
 - https://nixos.org/guides/nix-pills/developing-with-nix-shell.html
+- https://nix.dev/tutorials/declarative-and-reproducible-developer-environments
+- https://cbailey.co.uk/posts/my_usage_of_nix_and_lorri__direnv
+- https://dev.to/ronenl/how-nix-shell-saved-our-teams-sanity-101k
+- https://nix-tutorial.gitlabpages.inria.fr/nix-tutorial/first-package.html#build-environment
 
 ## nodejs, npm
 
@@ -49,3 +53,10 @@ mkShell
 ```
 
 https://www.reddit.com/r/NixOS/comments/i3cz4d/comment/g0i8vgr/
+
+## nix-shell vs nix run vs nix shell
+
+- https://discourse.nixos.org/t/advice-for-when-to-use-nix-run-versus-nix-shell/3694/2
+- https://discourse.nixos.org/t/difference-between-nix-shell-and-nix-run/2951
+- https://nixos.wiki/wiki/Nix_command/shell
+- https://github.com/nixcloud/nix-shell-workshop

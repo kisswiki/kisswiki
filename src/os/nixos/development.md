@@ -1,6 +1,7 @@
 - https://www.heinrichhartmann.com/posts/2021-08-08-nix-emacs/
 - https://nixos.org/manual/nix/stable/introduction.html
 - https://nixos.wiki/wiki/Nixpkgs/Update_a_package
+- https://nix-tutorial.gitlabpages.inria.fr/nix-tutorial/first-package.html
 
 ## override
 
