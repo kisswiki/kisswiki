@@ -125,7 +125,7 @@ No other package manager can freeze the complete dependency set you are using AN
 
 https://news.ycombinator.com/item?id=28591414
 
-## Links
+## No easy pinning of package version
 
 - [Ditch your version manager | Hacker News](https://news.ycombinator.com/item?id=28565072)
 - https://discourse.nixos.org/t/-larification-on-package-names-and-versions/9819/5
