@@ -9,6 +9,12 @@
 - https://cbailey.co.uk/posts/my_usage_of_nix_and_lorri__direnv
 - https://dev.to/ronenl/how-nix-shell-saved-our-teams-sanity-101k
 - https://nix-tutorial.gitlabpages.inria.fr/nix-tutorial/first-package.html#build-environment
+- https://discourse.nixos.org/t/nix-direnv-guide-your-new-maintainers/15453
+  - https://github.com/cab404/nixdirenv/
+  - https://github.com/bobvanderlinden/templates/tree/master/dev-shell
+  - https://github.com/edolstra/flake-compat/blob/master/default.nix
+  - https://github.com/cab404/templates
+  - https://github.com/NixOS/templates
 
 ## nodejs, npm
 

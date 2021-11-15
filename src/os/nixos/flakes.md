@@ -33,6 +33,9 @@ https://github.com/NixOS/rfcs/pull/49
 - https://github.com/colemickens/nixos-flake-example
 - [Intro to Flakes](https://www.youtube.com/watch?v=K54KKAx2wNc)
 - [Moving Nixos System Configuration Into A Flake](https://www.youtube.com/watch?v=mJbQ--iBc1U)
+- https://github.com/edolstra/flake-compat/blob/master/default.nix
+- https://github.com/cab404/templates
+- https://github.com/NixOS/templates
 
 ## About
 
