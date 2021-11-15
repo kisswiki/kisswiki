@@ -96,3 +96,9 @@ https://discourse.nixos.org/t/clarification-on-package-names-and-versions/9819/2
 I think that flakes are an official effort to move in that direction. The ability to include multiple repos eliminates the need for a mono repo.
 
 https://www.reddit.com/r/NixOS/comments/j4k2zz/comment/g7m5igw/
+
+## nix develop vs nix-shell
+
+with flakes it’s better to use nix develop instead of nix-shell.
+
+https://www.reddit.com/r/NixOS/comments/j4k2zz/comment/g94x37t/
