@@ -128,3 +128,22 @@ https://news.ycombinator.com/item?id=28591414
 ## No easy pinning of package version
 
 look at "No easy pinning of package version" in `nixos/packages.md`
+
+## vs docker
+
+takeda
+
+Nix delivers what docker promised and ultimately failed to deliver. Docker promised to reproduce developer's environment to production. What it did was to zip developer's computer and deploy it. When docker got adopted, relying on images was impractical, so for deployment Dockerfile was used, but that file is not much different than a shell script.
+
+Nix instead describes the entire dependency tree down to libc. Because the starting state and all dependencies are known it can always create the same result, that's the biggest selling point of Nix to me.
+
+There are implicit dependencies and explicit ones. Build dependencies and runtime ones.
+Other package managers typically handle the last one and completely ignore implicit dependencies.
+
+cwp
+
+Nix makes sure that you get a predictable and reproducible tree of dependencies, and allows different applications to depend on different versions of the same dependencies. That is, it's a solution to DLL hell.
+
+https://news.ycombinator.com/item?id=28591504
+
+So, Why Not Docker? https://dev.to/ronenl/how-nix-shell-saved-our-teams-sanity-101k
