@@ -82,3 +82,11 @@ In reality though, both projects and nixpkgs quickly advance enough to make this
 I have encountered the same (in particularly nixpkgs-unstable) and have also started pinning in projects. Until flakes are adopted, I am using niv, which is really nice for adding package sets, pinning them, and updating them.
 
 https://lobste.rs/s/jevfaf/nixos_for_developers#c_targav
+
+## overlays or overrides defined
+
+> Can `nix-env -qa -f $commit` on one machine can have different output than `nix-env -qa -f $commit` on another machine/OS?
+
+Yes, since the machine could have overlays or overrides defined. This is one one of the issues that flakes attempt to solve (avoiding that external state influences the evaluation).
+
+https://discourse.nixos.org/t/clarification-on-package-names-and-versions/9819/2

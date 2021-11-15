@@ -54,3 +54,39 @@ Matches any package name containing the strings firefox or chromium.
 
 - https://yoshuawuyts.gitbooks.io/knowledge/content/bin/nix.html
 - https://ostechnix.com/getting-started-nix-package-manager/
+
+## Nix generally doesn’t do version management
+
+> There is an official comparison method by nix builtins.parseDrvName to decide if one package is a more-up-to-date version of another package. […] However, many many packages seem to ignore this format entirely when setting their version.
+
+This is because Nix generally doesn’t do version management. E.g., when you build a system with nixos-rebuild, you get a generation that contains the package versions that are provided by the nixpkgs revision that is used. So, there is no need to determine what packages should be upgraded, etc. Package versions are used as part of the output path. But other than that, they are largely metadata for the user.
+
+https://discourse.nixos.org/t/clarification-on-package-names-and-versions/9819/2
+
+## imperative package management
+
+If you use nix-env -i. However, it has to evaluate all pname attributes in nixpkgs to find matching packages. So it is generally better to use nix-env -iA and specify an attribute, because then Nix only has to evaluate the attribute (and any transitive dependencies). This saves time and memory. That said, it is even better to not use nix-env at all, because it’s a form of imperative package management. Specifying the packages in configuration.nix or using something like home-manager allows to to set up a system or environment declaratively.
+
+https://discourse.nixos.org/t/clarification-on-package-names-and-versions/9819/2
+
+## pname
+
+This is a historical artifact. In the past the name attribute was used for the package name plus version. Now name is generated from pname and version. But not all derivations have been updated yet to use pname + version.
+
+name is generated from pname and version and should not be specified anymore in new derivations.
+
+https://discourse.nixos.org/t/clarification-on-package-names-and-versions/9819/2
+
+## flakes
+
+> Can `nix-env -qa -f $commit` on one machine can have different output than `nix-env -qa -f $commit` on another machine/OS?
+
+Yes, since the machine could have overlays or overrides defined. This is one one of the issues that flakes attempt to solve (avoiding that external state influences the evaluation).
+
+https://discourse.nixos.org/t/clarification-on-package-names-and-versions/9819/2
+
+## nix evaluation
+
+Nix evaluation is pure (with some exceptions, such as built-in fetchers).
+
+https://discourse.nixos.org/t/clarification-on-package-names-and-versions/9819/2
