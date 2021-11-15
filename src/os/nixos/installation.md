@@ -342,3 +342,39 @@ xfce =pkgs.xfce // {thunar = overrideDerivation pkgs.xfce.thunar ... }
 ```
 
 https://nix-dev.science.uu.narkive.com/2jd5ZLyb/how-to-overwrite-a-derivation-in-nix
+
+## Upgrade nixos
+
+`sudo nixos-rebuild switch --upgrade`
+
+`sudo nixos-rebuild dry-run --upgrade`
+
+- https://discourse.nixos.org/t/how-to-upgrade-packages/6151/5
+- https://dopp.sk/posts/NixOS_channels/
+  - https://www.reddit.com/r/NixOS/comments/mrz46z/comment/gupjm73/
+- https://stackoverflow.com/questions/41230430/how-do-i-upgrade-my-system-to-nixos-unstable
+
+## There is not enough space in efi partition
+
+Remove entries and then directories so the entries are not rebuilt.
+
+```bash
+$ sudo efibootmgr -v
+$ sudo efibootmgr -b 5 -B
+$ rm -rf /boot/EFI/ubuntu
+```
+
+- https://askubuntu.com/questions/63610/how-do-i-remove-ubuntu-in-the-bios-boot-menu-uefi/63613#63613
+- https://superuser.com/questions/930725/how-to-delete-os-from-boot-menu/931016#931016
+- https://unix.stackexchange.com/questions/205177/how-to-clean-up-bootloaders-uefi-entries-from-other-installs
+
+## efi
+
+changing the boot order fails, but inactivating all Windows entries (0000, 0002) helps:
+
+```bash
+$ efibootmgr -b 0 -A
+$ efibootmgr -b 2 -A
+```
+
+- https://askubuntu.com/questions/485261/change-boot-order-using-efibootmgr/1362020#1362020
