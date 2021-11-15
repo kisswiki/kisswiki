@@ -17,6 +17,11 @@
 - https://github.com/lovesegfault/nix-config
   - https://github.com/bbigras/nix-config/
 - Atomic secret provisioning for NixOS based on sops https://github.com/Mic92/sops-nix
+- Configuration for NixOS and user home (dot files). It is provided via Nix flakes https://github.com/terlar/nix-config
+- https://www.reddit.com/r/NixOS/comments/mqw0cl/comment/gumt5ij/
+  - https://github.com/nix-community/home-manager/issues/2073#issuecomment-967560799
+- https://www.reddit.com/r/NixOS/comments/iogoox/homemanager_with_flakes_on_non_nixos_system/g6375hq/
+- https://dzone.com/articles/nixos-home-manager-on-native-nix-flake-installatio
 
 ## no system packages
 
