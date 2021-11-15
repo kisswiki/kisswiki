@@ -14,6 +14,9 @@
 - https://discourse.nixos.org/t/where-does-personal-configuration-go/7646
 - https://discourse.nixos.org/t/how-do-you-organize-your-configuration/7306/7
 - https://nixos.wiki/wiki/Configuration_Collection
+- https://github.com/lovesegfault/nix-config
+  - https://github.com/bbigras/nix-config/
+- Atomic secret provisioning for NixOS based on sops https://github.com/Mic92/sops-nix
 
 ## no system packages
 
@@ -26,3 +29,12 @@ I use home-manager to port my user profile across systems. I install quite a bit
 For projects I actually work on, I always try to define my dependencies locally to that project. For projects which aren’t mine and where I don’t want to force nix on the upstream, I have a nix-utils repository where I gather .nix files which I symlink or import in the other projects.
 
 https://lobste.rs/s/jevfaf/nixos_for_developers#c_rmnad0
+
+## nix profile
+
+I use flakes as well for my system config and I just found out that [nix profile](https://nixos.wiki/wiki/Nix_command/profile) was a thing and it replaces `nix-env`. So you can do something like `nix profile install nixpkgs#your-package` where it will install the package from the flake you specify in your profile (`/nix/var/nix/profiles/per-user/zyansheep/profile`)
+
+You have to enable the experimental feature `ca-references` to use it though.
+
+- https://www.reddit.com/r/NixOS/comments/j4k2zz/comment/ghrs271/
+- https://nixos.wiki/wiki/Nix_command/profile_install
