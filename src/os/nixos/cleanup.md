@@ -12,3 +12,20 @@ Running `nix-env --delete-generations old --profile /nix/var/nix/profiles/system
 - https://nixos.wiki/wiki/Storage_optimization
 - https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/
 - https://jorel.dev/NixOS4Noobs/garbage.html
+
+## Remove latest generation
+
+```bash
+λ ls /nix/var/nix/profiles/
+drwxr-xr-x  - root 23 Dec  2020  per-user
+lrwxrwxrwx 15 root 14 Oct 11:41  system -> system-105-link # Note: points to a *previous* generation.
+lrwxrwxrwx 88 root  1 Oct 12:38  system-105-link -> /nix/store/cdlxkpcrz9pyrb9sjkwgjmrj06ai7zvp-nixos-system-moby-21.11pre319562.c21ba4f7bb4
+lrwxrwxrwx 88 root 14 Oct 11:36  system-106-link -> /nix/store/73cny4fm4jfnqdzfm1vkz7xrj2rq4m2v-nixos-system-moby-21.11pre322478.e4ef597edfd
+λ exa -l /boot/loader/entries/
+.rwxr-xr-x 433 root 14 Oct 11:41 nixos-generation-105.conf
+.rwxr-xr-x 433 root 14 Oct 11:41 nixos-generation-106.conf
+λ doas rm /nix/var/nix/profiles/system-106-link
+λ doas rm /boot/loader/entries/nixos-generation-106.conf
+```
+
+https://discourse.nixos.org/t/how-to-remove-broken-newer-boot-entry/15457/2
