@@ -42,3 +42,19 @@ https://stackoverflow.com/questions/63966084/what-is-the-equivilent-shell-nix-fo
 - https://stackoverflow.com/questions/63966084/what-is-the-equivilent-shell-nix-for-nix-shell-nixpkgs-a-gnused
 - https://nixos.wiki/wiki/Nix_command/edit
 - https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-edit.html
+
+##
+
+siraben
+
+I found reading code from Nixpkgs to be very valuable as well, and can't recommend it enough. I managed to get by using NixOS without writing my own derivations for several months until I inevitably ran into a need to package something new. Even then, Nix Pills isn't a super useful reference, it's sort of like learning Git by understanding blobs, too focused on details.
+Another pain point is looking for documentation of Nix library functions, I've solved this by using Manix[0]
+
+[0] https://github.com/mlvzk/manix
+
+alephu5
+
+I find nix pills hard to digest since they use the repl, and for a newbie it's hard to see how they apply to real-world packing of something like a python application.
+This video helped me a lot though, but unfortunately there are a few minutes of broken audio in the middle https://youtu.be/2mG0zM_wtYs
+
+https://news.ycombinator.com/item?id=25191466
