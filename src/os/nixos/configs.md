@@ -24,6 +24,9 @@
 - https://dzone.com/articles/nixos-home-manager-on-native-nix-flake-installatio
 - https://github.com/colemickens/nixos-flake-example
 - https://github.com/lukebfox/nix-configs
+- https://github.com/wiltaylor/dotfiles
+  - https://www.youtube.com/watch?v=mJbQ--iBc1U
+  - [Question on user config · Issue #1 · wiltaylor/dotfiles](https://github.com/wiltaylor/dotfiles/issues/1)
 
 ## no system packages
 
