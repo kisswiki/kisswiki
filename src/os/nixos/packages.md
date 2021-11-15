@@ -90,3 +90,23 @@ https://discourse.nixos.org/t/clarification-on-package-names-and-versions/9819/2
 Nix evaluation is pure (with some exceptions, such as built-in fetchers).
 
 https://discourse.nixos.org/t/clarification-on-package-names-and-versions/9819/2
+
+## No easy pinning of package version
+
+- [Ditch your version manager | Hacker News](https://news.ycombinator.com/item?id=28565072)
+- https://discourse.nixos.org/t/-larification-on-package-names-and-versions/9819/5
+- https://search.nix.gsc.io/?q=name%20%3D%20%22&i=nope&files=.nix&repos=
+- https://discourse.nixos.org/t/-ow-to-find-the-real-name-once-installed-of-a-package/6651
+- [There isn't a clear canonical way to refer to a specific package version. · Issue #93327 · NixOS/nixpkgs](https://-ithub.com/NixOS/nixpkgs/issues/93327#issue-658861943)
+- [There isn't a clear canonical way to refer to a specific package version. · Issue #93327 · NixOS/nixpkgs](https://-ithub.com/NixOS/nixpkgs/issues/93327)
+- [Searching and installing old versions of Nix packages – Marcelo Lazaroni – Developing for the Interwebs](https://-azamar.github.io/download-specific-package-version-with-nix/)
+- [Ditch your version manager | Lobsters](https://lobste.rs/s/emyfhx/ditch_your_version_manager#c_5acgpf)
+- [There isn't a clear canonical way to refer to a specific package version. · Issue #93327 · NixOS/nixpkgs](https://-ithub.com/NixOS/nixpkgs/issues/93327#issuecomment-661986395)
+- https://nixos.org/manual/nixpkgs/stable/#sec-versioning
+- [Package ruby on Nix](https://pkgs.on-nix.com/nixpkgs/ruby/)
+- [default.nix](https://gist.github.com/Arkham/31297c1d75fc59f723a50063bc0f5739)
+- [There isn't a clear canonical way to refer to a specific package version. · Issue #93327 · NixOS/nixpkgs](https://-ithub.com/NixOS/nixpkgs/issues/93327)
+- [No way to install/use a specific package version? · Issue #9682 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/-ssues/9682)
+- https://nixos.wiki/wiki/FAQ/Pinning_Nixpkgs
+- [There isn't a clear canonical way to refer to a specific package version. · Issue #93327 · NixOS/nixpkgs](https://-ithub.com/NixOS/nixpkgs/issues/93327)
+- [I firmly believe that Nix (and/or Guix) are the future. I am going to use Nix as... | Hacker News](https://news.ycombinator.com/item?id=25191466)
