@@ -1,5 +1,6 @@
 - https://github.com/NixOS/nixpkgs
 - https://search.nixos.org/
+- https://repology.org/repositories/graphs
 - https://repology.org/projects/b/?inrepo=nix_unstable&notinrepo=gnuguix&repos=3
 - https://discourse.nixos.org/t/nixpkgs-has-been-the-largest-repository-for-months/10667/2
 - https://distrowatch.com/weekly.php?issue=20170515#nixos
