@@ -4,6 +4,7 @@
 - https://nixos.wiki/wiki/Language-specific_package_helpers
 - https://myme.no/posts/2020-01-26-nixos-for-development.html
   - https://lobste.rs/s/jevfaf/nixos_for_developers
+- https://nixos.org/guides/nix-pills/developing-with-nix-shell.html
 
 ## nodejs, npm
 
