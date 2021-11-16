@@ -400,3 +400,15 @@ I have also enabled "Run command as a login shell" as I got some warning from ti
 Uninstall imperatively installed:
 
 `nix-env -e $(nix-env -q)`
+
+## uninstall fails silently
+
+```bash
+$ sudo nix-env -e nixos.nvd
+
+$ sudo nix-env -q
+nvd-0.1.1
+
+$ sudo nix-env -e nvd
+uninstalling 'nvd-0.1.1'
+```
