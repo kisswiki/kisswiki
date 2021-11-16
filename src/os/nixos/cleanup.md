@@ -15,17 +15,59 @@ Running `nix-env --delete-generations old --profile /nix/var/nix/profiles/system
 
 ## Remove latest generation
 
+Below instructions are incomplete. I got error "No space left on device" when doing `sudo nixos-rebuild switch` or `sudo nixos-rebuild boot`. I needed to
+
 ```bash
-λ ls /nix/var/nix/profiles/
+$ cd /
+$ sudo tar cf Fonts.tar.gz boot/Boot/Fonts/
+$ sudo rm -rf boot/Boot/Fonts/
+$ sudo tar cf Microsoft.tar.gz boot/EFI/Microsoft/
+$ sudo rm -rf boot/EFI/Microsoft/
+$ sudo nixos-rebuild switch
+$ tar xf Fonts.tar.gz
+$ tar xf Microsoft.tar.gz
+```
+
+or maybe better to `mount -o bind`?
+
+```bash
+$ sudo cp -r /boot/EFI/nixos /
+$ sudo rm -rf /boot/EFI/nixos/*
+$ sudo mount -o bind /nixos/ /boot/EFI/nixos/
+$ sudo nixos-rebuild switch
+$ sudo umount /boot/EFI/nixos/
+$ cat /boot/loader/entries/nixos-generation-53.conf
+title NixOS
+version Generation 53 NixOS 21.05.4116.46251a79f75, Linux Kernel 5.10.79, Built on 2021-11-15
+linux /efi/nixos/qdk8kpz6pqk8cl8lqw6shjynaypkw43x-linux-5.10.79-bzImage.efi
+initrd /efi/nixos/jcq7rr2wdkr28sa67bm5z4xd542x7kvf-initrd-linux-5.10.79-initrd.efi
+options init=/nix/store/7941wd5q4spfmyi6i91da411v960v725-nixos-system-msi-laptop-21.05.4116.46251a79f75/init pci=realloc loglevel=4
+machine-id 0221dbc79be643a18c77995d5516b0a5
+$ sudo cp /nixos/dk8kpz6pqk8cl8lqw6shjynaypkw43x-linux-5.10.79-bzImage.efi /boot/EFI/nixos/
+$ sudo cp /nixos/jcq7rr2wdkr28sa67bm5z4xd542x7kvf-initrd-linux-5.10.79-initrd.efi /boot/EFI/nixos/
+```
+
+- https://github.com/NixOS/nixpkgs/issues/23926#issuecomment-940438117
+- https://ramsdenj.com/2016/04/15/multi-boot-linux-with-one-boot-partition.html
+
+Another solutions are:
+
+- switch to grub https://github.com/NixOS/nixpkgs/issues/23926#issuecomment-320370183
+- create new 1GB EFI partition
+
+### Old
+
+```bash
+$ ls -l /nix/var/nix/profiles/
 drwxr-xr-x  - root 23 Dec  2020  per-user
 lrwxrwxrwx 15 root 14 Oct 11:41  system -> system-105-link # Note: points to a *previous* generation.
 lrwxrwxrwx 88 root  1 Oct 12:38  system-105-link -> /nix/store/cdlxkpcrz9pyrb9sjkwgjmrj06ai7zvp-nixos-system-moby-21.11pre319562.c21ba4f7bb4
 lrwxrwxrwx 88 root 14 Oct 11:36  system-106-link -> /nix/store/73cny4fm4jfnqdzfm1vkz7xrj2rq4m2v-nixos-system-moby-21.11pre322478.e4ef597edfd
-λ exa -l /boot/loader/entries/
+$ ls -l /boot/loader/entries/
 .rwxr-xr-x 433 root 14 Oct 11:41 nixos-generation-105.conf
 .rwxr-xr-x 433 root 14 Oct 11:41 nixos-generation-106.conf
-λ doas rm /nix/var/nix/profiles/system-106-link
-λ doas rm /boot/loader/entries/nixos-generation-106.conf
+$ sudo rm /nix/var/nix/profiles/system-106-link
+$ sudo rm /boot/loader/entries/nixos-generation-106.conf
 ```
 
 https://discourse.nixos.org/t/how-to-remove-broken-newer-boot-entry/15457/2
