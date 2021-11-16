@@ -1,5 +1,9 @@
 - https://nixos.wiki/wiki/Nvidia
   - https://nixos.org/manual/nixos/stable/#sec-x11-graphics-cards-nvidia
+- https://discourse.nixos.org/t/getting-nvidia-to-work-avoiding-screen-tearing/10422/16
+- https://github.com/asdrubalini/nixos-config/blob/298dc39381b041f7d197bee6813f12cff7d612e5/hardware/nvidia.nix#L10
+- https://github.com/AusCyberman/nixos-config/blob/5deeb29a44f46fe7aa0b508e686b312fae6b5da5/systems/auspc/hardware-configuration.nix#L10
+- https://github.com/AusCyberman/nixos-config/blob/5deeb29a44f46fe7aa0b508e686b312fae6b5da5/systems/auspc/configuration.nix
 
 ```bash
 $ nix-env -iA nixos.glmark2
@@ -42,3 +46,5 @@ created 19 symlinks in user environment
 [texture] texture-filter=mipmap: FPS: 3779 FrameTime: 0.265 ms
 [shading] shading=gouraud:^C
 ```
+
+- https://www.howtoforge.com/tutorial/linux-gpu-benchmark/

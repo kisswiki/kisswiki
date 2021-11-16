@@ -65,6 +65,15 @@ Another solutions are:
 - switch to grub https://github.com/NixOS/nixpkgs/issues/23926#issuecomment-320370183
 - create new 1GB EFI partition
 
+- [linux - How to enlarge Windows 10 EFI partition - Super User](https://superuser.com/questions/-106092/how-to-enlarge-windows-10-efi-partition)
+- [nixos/DUAL_BOOT_WINDOWS_GUIDE.md at master · andywhite37/nixos](https://github.com/andywhite37/-ixos/blob/master/DUAL_BOOT_WINDOWS_GUIDE.md)
+- [EFI system partitions and NixOS : NixOS](https://www.reddit.com/r/NixOS/comments/7econ7/-fi_system_partitions_and_nixos/)
+- [Multi Boot Linux With One Boot Partition | John Ramsden](https://ramsdenj.com/2016/04/15/-ulti-boot-linux-with-one-boot-partition.html)
+- [linux - How do i resize EFI partition when there is a Microsoft reserved partition in the way? - -uper User](https://superuser.com/questions/1476988/-ow-do-i-resize-efi-partition-when-there-is-a-microsoft-reserved-partition-in-th)
+- [How can I enlarge the EFI partition on a dual boot-system with Windows and Linux? - Super User]-https://superuser.com/questions/1225074/-ow-can-i-enlarge-the-efi-partition-on-a-dual-boot-system-with-windows-and-linux)
+- [linux - Can't resize /boot partition (fat32 / EFI system partition) - Unix & Linux Stack Exchange]-https://unix.stackexchange.com/questions/392137/-ant-resize-boot-partition-fat32-efi-system-partition)
+- [linux - How to resize the EFI System Partition? - Super User](https://superuser.com/questions/1230741/how-to-resize-the-efi-system-partition)
+
 ## Remove latest generation - incomplete
 
 ```bash
