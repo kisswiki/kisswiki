@@ -170,6 +170,15 @@ deleting '/nix/store/trash'
 deleting unused links...
 note: currently hard linking saves -0.00 MiB
 0 store paths deleted, 0.00 MiB freed
+$ nix-store --gc --print-roots | grep roman
+/home/roman/result -> /nix/store/vcnygvy7d6r23pgw3fw70n8azmxifvvs-nixos-system-nixos-21.05.4044.e74894146a4
+/nix/var/nix/profiles/per-user/roman/channels-1-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
+/nix/var/nix/profiles/per-user/roman/profile-16-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
+
+$ sudo nix-store --gc --print-roots | grep roman
+/home/roman/result -> /nix/store/vcnygvy7d6r23pgw3fw70n8azmxifvvs-nixos-system-nixos-21.05.4044.e74894146a4
+/nix/var/nix/profiles/per-user/roman/channels-1-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
+/nix/var/nix/profiles/per-user/roman/profile-16-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
 ```
 
 ## nixos-rebuild switch - "No space left on device"
