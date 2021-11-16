@@ -412,3 +412,56 @@ nvd-0.1.1
 $ sudo nix-env -e nvd
 uninstalling 'nvd-0.1.1'
 ```
+
+## Switching to nixos-unstable channel
+
+To try flakes I need unstable (?) bc nix profile does not work with `nix-env -f '<nixpkgs>' -iA nixUnstable` from https://serokell.io/blog/practical-nix-flakes
+
+I got this problem https://discourse.nixos.org/t/nix-profile-install-cannot-add-path-lacks-a-valid-signature/16106/4
+
+I have changed `/etc/nixos/configuration.nix`:
+
+```nix
+{
+    # /etc/nix/nix.conf is read-only
+    # https://unix.stackexchange.com/questions/544340/nixos-unable-to-modify-or-chmod-nix-config-etc-nix-nix-conf
+    # https://github.com/NixOS/nixpkgs/issues/80332#issuecomment-587540348
+    # https://nixos.org/manual/nix/unstable/command-ref/conf-file.html
+    nix = {                                                                     \  boot.kernel.sysctl."kernel.sysrq" = 1;
+    #gc.automatic = false;                                                    \
+    #optimise.automatic = true;                                               \  #hardware = {
+    #readOnlyStore = true;                                                    \  #  opengl = {
+    #useSandbox = true;                                                       \  #    driSupport = true;
+    #package = pkgs.nixUnstable;                                              \  #    driSupport32Bit = true;
+    extraOptions = ''                                                         \  #  };
+      experimental-features = nix-command                                     \
+    '';                                                                       \  #  nvidia = {
+  };
+}
+```
+
+Then
+
+```bash
+$ su -
+$ nix-channel --list
+nixos https://nixos.org/channels/nixos-21.05
+# if you add unstable with the same local name as your stable channel (nixos), it'll just replace the current one
+# https://www.reddit.com/r/NixOS/comments/pu6zk0/comment/he2u9f5/
+$ nix-channel --add https://nixos.org/channels/nixos-unstable nixos
+$ nix-channel --list
+nixos https://nixos.org/channels/nixos-unstable
+# https://nixos.org/manual/nix/stable/installation/upgrading.html
+$ nix-channel --update; nix-env -iA nixos.nix nixos.cacert; systemctl daemon-reload; systemctl restart nix-daemon
+$ nvim /etc/nixos/configuration.nix
+$ nixos-rebuild switch
+$ nix-shell -p nix-info --run "nix-info -m"
+ - system: `"x86_64-linux"`
+ - host os: `Linux 5.10.79, NixOS, 21.05.4116.46251a79f75 (Okapi)`
+ - multi-user?: `yes`
+ - sandbox: `yes`
+ - version: `nix-env (Nix) 2.4`
+ - channels(root): `"nixos-21.11pre331460.931ab058daa"`
+ - channels(roman): `""`
+ - nixpkgs: `/nix/var/nix/profiles/per-user/root/channels/nixos`
+```

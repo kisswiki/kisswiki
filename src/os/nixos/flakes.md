@@ -36,6 +36,7 @@ https://github.com/NixOS/rfcs/pull/49
 - https://github.com/edolstra/flake-compat/blob/master/default.nix
 - https://github.com/cab404/templates
 - https://github.com/NixOS/templates
+- https://www.reddit.com/r/NixOS/comments/on2u08/users_who_have_transitioned_to_flakesnixunstable/
 
 ## About
 
@@ -134,3 +135,40 @@ balsoft
 Not really, we just use some flake-specific features to make sure deployments are more reproducible (because of pinning and pure mode), convinient (because of new nix UI) and safe (thanks to nix flake check).
 
 https://www.reddit.com/r/NixOS/comments/k0utpw/comment/gdlb9ey/
+
+## quick start
+
+Following https://serokell.io/blog/practical-nix-flakes
+
+github:nixos/nixpkgs points to master
+
+```
+$ nix flake show github:nixos/nixpkgs
+github:nixos/nixpkgs/75b645529450fd4bac3b897dc1fab1701ade3465
+├───checks
+│   └───x86_64-linux
+│       └───tarball: derivation 'nixpkgs-tarball-21.11pre20211116.75b6455
+#...
+$ nix flake show github:nixos/nixpkgs/nixpkgs-unstable
+github:nixos/nixpkgs/5cb226a06c49f7a2d02863d0b5786a310599df6b
+├───checks
+│   └───x86_64-linux
+│       └───tarball: derivation 'nixpkgs-tarball-21.11pre20211114.5cb226a'
+$ nix flake metadata nixpkgs
+Resolved URL:  github:NixOS/nixpkgs
+Locked URL:    github:NixOS/nixpkgs/75b645529450fd4bac3b897dc1fab1701ade3465
+Description:   A collection of packages for the Nix package manager
+Path:          /nix/store/wcx0dv7pzadcnvvg7d62c2q6q6db1yaa-source
+Revision:      75b645529450fd4bac3b897dc1fab1701ade3465
+Last modified: 2021-11-16 21:50:30
+Inputs:
+
+$ nix flake metadata nixpkgs/nixpkgs-unstable
+Resolved URL:  github:NixOS/nixpkgs/nixpkgs-unstable
+Locked URL:    github:NixOS/nixpkgs/5cb226a06c49f7a2d02863d0b5786a310599df6b
+Description:   A collection of packages for the Nix package manager
+Path:          /nix/store/r85b90gdvvpfl04rnn2aisr6jggi2pp0-source
+Revision:      5cb226a06c49f7a2d02863d0b5786a310599df6b
+Last modified: 2021-11-14 11:40:46
+Inputs:
+```
