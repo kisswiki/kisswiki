@@ -8,3 +8,4 @@
 - https://wiki.nikitavoloboev.xyz/package-managers/nix
 - https://yoshuawuyts.gitbooks.io/knowledge/content/bin/nix.html
 - https://www.youtube.com/watch?v=QKoQ1gKJY5A&list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-
+- A fast CLI documentation searcher for Nix https://github.com/mlvzk/manix
