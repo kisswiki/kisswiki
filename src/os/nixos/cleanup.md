@@ -45,9 +45,19 @@ options init=/nix/store/7941wd5q4spfmyi6i91da411v960v725-nixos-system-msi-laptop
 machine-id 0221dbc79be643a18c77995d5516b0a5
 $ sudo cp /nixos/dk8kpz6pqk8cl8lqw6shjynaypkw43x-linux-5.10.79-bzImage.efi /boot/EFI/nixos/
 $ sudo cp /nixos/jcq7rr2wdkr28sa67bm5z4xd542x7kvf-initrd-linux-5.10.79-initrd.efi /boot/EFI/nixos/
+# also copy previous if needed
+$ cat /boot/loader/entries/nixos-generation-52.conf
+title NixOS
+version Generation 52 NixOS 21.05.4116.46251a79f75, Linux Kernel 5.10.79, Built on 2021-11-16
+linux /efi/nixos/qdk8kpz6pqk8cl8lqw6shjynaypkw43x-linux-5.10.79-bzImage.efi
+initrd /efi/nixos/jcq7rr2wdkr28sa67bm5z4xd542x7kvf-initrd-linux-5.10.79-initrd.efi
+options init=/nix/store/78w4vqm33x0vzxgsq6ssmfyzk28zr4pk-nixos-system-msi-laptop-21.05.4116.46251a79f75/init pci=realloc loglevel=4
+machine-id 0221dbc79be643a18c77995d5516b0a5
+$ sudo cp /nixos/qdk8kpz6pqk8cl8lqw6shjynaypkw43x-linux-5.10.79-bzImage.efi /boot/EFI/nixos/
 ```
 
 - https://github.com/NixOS/nixpkgs/issues/23926#issuecomment-940438117
+  - my solution https://github.com/NixOS/nixpkgs/issues/23926#issuecomment-970185668
 - https://ramsdenj.com/2016/04/15/multi-boot-linux-with-one-boot-partition.html
 
 Another solutions are:
