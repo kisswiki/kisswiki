@@ -181,6 +181,8 @@ $ sudo nix-store --gc --print-roots | grep roman
 /nix/var/nix/profiles/per-user/roman/profile-16-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
 ```
 
+- [Removing a user does not remove its profile · Issue #4419 · NixOS/nix](https://github.com/NixOS/nix/issues/4419)
+
 ## nixos-rebuild switch - "No space left on device"
 
 Below instructions are incomplete. I got error "No space left on device" when doing `sudo nixos-rebuild switch` or `sudo nixos-rebuild boot`. I needed to
