@@ -120,3 +120,17 @@ https://www.reddit.com/r/NixOS/comments/j4k2zz/comment/g7m5igw/
 with flakes it’s better to use nix develop instead of nix-shell.
 
 https://www.reddit.com/r/NixOS/comments/j4k2zz/comment/g94x37t/
+
+## deploy-rs
+
+w00t_loves_you
+
+As I understand it, flakes pin a configuration and all dependencies, right?
+
+So how does deploy-rs work with flakes? Did you need to do anything special, or do the flakes do the heavy lifting and you needed to make sure the tool was aware of them?
+
+balsoft
+
+Not really, we just use some flake-specific features to make sure deployments are more reproducible (because of pinning and pure mode), convinient (because of new nix UI) and safe (thanks to nix flake check).
+
+https://www.reddit.com/r/NixOS/comments/k0utpw/comment/gdlb9ey/
