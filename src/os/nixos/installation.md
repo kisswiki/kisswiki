@@ -52,6 +52,7 @@ Entries deleted with `sudo efibootmgr -b 1 -B` where not deleted really.
 
 - https://superuser.com/questions/1166398/efi-settings-set-via-efibootmgr-are-ignored-after-reboot/1607683#1607683
 - https://github.com/rhboot/efibootmgr/issues/19#issuecomment-71719650
+- maybe relevant https://github.com/NixOS/nixpkgs/issues/55332#issuecomment-461688900
 
 ### Old
 
