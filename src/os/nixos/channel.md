@@ -2,6 +2,7 @@
   - https://www.reddit.com/r/NixOS/comments/mrz46z/comment/gupjm73/
 
 ```bash
+# nix-shell -p nix-info --run "nix-info -m"
 $ nix-info -m
  - system: `"x86_64-linux"`
  - host os: `Linux 5.10.79, NixOS, 21.05.4116.46251a79f75 (Okapi)`
