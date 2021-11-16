@@ -1,6 +1,6 @@
 Normally you can just run sudo `nixos-rebuild switch` which will replace your `grub.cfg` with only the live system profiles. The live system profiles are the symlinks `/nix/var/nix/profiles`. However, this does not work if you do not have a configuration.nix on your NixOS box like with many server deployments.
 
-In that case you can run, as root, n`ix-env --delete-generations old --profile /nix/var/nix/profiles/system` followed by `/nix/var/nix/profiles/system/bin/switch-to-configuration switch`.
+In that case you can run, as root, `nix-env --delete-generations old --profile /nix/var/nix/profiles/system` followed by `/nix/var/nix/profiles/system/bin/switch-to-configuration switch`.
 
 Running `nix-env --delete-generations old --profile /nix/var/nix/profiles/system` will remove all but the newest system garbage collection roots and `/nix/var/nix/profiles/system/bin/switch-to-configuration switch` will reload the system configuration you are already on and update `grub.cfg` with only the live system profiles. Thus your `grub.cfg` will only have one entry in it and you have not had to change your system configuration. If you want to then garbage collect the old profiles you can run `nix-store --gc` .
 
@@ -12,6 +12,165 @@ Running `nix-env --delete-generations old --profile /nix/var/nix/profiles/system
 - https://nixos.wiki/wiki/Storage_optimization
 - https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/
 - https://jorel.dev/NixOS4Noobs/garbage.html
+
+## Clean user profiles
+
+```bash
+$ ls -l /nix/var/nix/profiles
+total 84
+lrwxrwxrwx 1 root root   15 Nov 16 16:08 default -> default-24-link
+lrwxrwxrwx 1 root root   60 Nov 13 15:37 default-20-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 11:17 default-21-link -> /nix/store/rkf0xn46wbk2fk65727isjfx17b0hlbv-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 11:45 default-22-link -> /nix/store/zyxnpa4d5bkfz2m33148iymv0dy1mvzj-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 14:47 default-23-link -> /nix/store/m9mgm1y3l9cgl06917vpy591bi20kqy3-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 16:08 default-24-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
+drwxr-xr-x 4 root root 4096 Nov  9 20:19 per-user
+lrwxrwxrwx 1 root root   14 Nov 16 16:10 system -> system-58-link
+lrwxrwxrwx 1 root root   90 Nov 15 19:21 system-44-link -> /nix/store/mwjr5p4plwi6j74l54b51vg10hr81dh7-nixos-system-msi-laptop-21.05.4114.195d5816cdd
+lrwxrwxrwx 1 root root   90 Nov 15 20:15 system-45-link -> /nix/store/2k26glrlmfkz1b30q5322ircrsab71a4-nixos-system-msi-laptop-21.05.4114.195d5816cdd
+lrwxrwxrwx 1 root root   90 Nov 15 20:26 system-46-link -> /nix/store/j7id99pk2fgssvsi4yqxcwyrwjjwzfn0-nixos-system-msi-laptop-21.05.4114.195d5816cdd
+lrwxrwxrwx 1 root root   90 Nov 15 21:09 system-47-link -> /nix/store/kh5mhf1hypwzngyw0k7845h1l27vp9vk-nixos-system-msi-laptop-21.05.4114.195d5816cdd
+lrwxrwxrwx 1 root root   90 Nov 15 22:44 system-48-link -> /nix/store/4hzpip0zlqcwvfc38xwlx4mvdcfb57ls-nixos-system-msi-laptop-21.05.4116.46251a79f75
+lrwxrwxrwx 1 root root   90 Nov 15 22:51 system-49-link -> /nix/store/7941wd5q4spfmyi6i91da411v960v725-nixos-system-msi-laptop-21.05.4116.46251a79f75
+lrwxrwxrwx 1 root root   90 Nov 16 10:02 system-50-link -> /nix/store/r8zavkzmnwp4pcw3wm81wzfv459w2bbl-nixos-system-msi-laptop-21.05.4116.46251a79f75
+lrwxrwxrwx 1 root root   90 Nov 16 10:19 system-51-link -> /nix/store/jvakaz5fa9v72npfzxph72jdpspj7kay-nixos-system-msi-laptop-21.05.4116.46251a79f75
+lrwxrwxrwx 1 root root   90 Nov 16 11:41 system-52-link -> /nix/store/78w4vqm33x0vzxgsq6ssmfyzk28zr4pk-nixos-system-msi-laptop-21.05.4116.46251a79f75
+lrwxrwxrwx 1 root root   90 Nov 16 11:50 system-53-link -> /nix/store/7941wd5q4spfmyi6i91da411v960v725-nixos-system-msi-laptop-21.05.4116.46251a79f75
+lrwxrwxrwx 1 root root   90 Nov 16 12:46 system-54-link -> /nix/store/81f8dpxy9imbr6w2qk4fhba8qm6jrn6m-nixos-system-msi-laptop-21.05.4116.46251a79f75
+lrwxrwxrwx 1 root root   90 Nov 16 12:52 system-55-link -> /nix/store/a43m2xazl5xrxvfx18rcpkplpsglid0d-nixos-system-msi-laptop-21.05.4116.46251a79f75
+lrwxrwxrwx 1 root root   90 Nov 16 12:57 system-56-link -> /nix/store/qa93n5f4pxb6v749kqw99wq3xbvaxv26-nixos-system-msi-laptop-21.05.4116.46251a79f75
+lrwxrwxrwx 1 root root   90 Nov 16 13:02 system-57-link -> /nix/store/7941wd5q4spfmyi6i91da411v960v725-nixos-system-msi-laptop-21.05.4116.46251a79f75
+lrwxrwxrwx 1 root root   90 Nov 16 16:10 system-58-link -> /nix/store/6c3dsjh685j6d2fqach3r0vkixrbcci2-nixos-system-msi-laptop-21.05.4116.46251a79f75
+
+$ sudo nix-env --delete-generations old --profile /nix/var/nix/profiles/system
+removing generation 44
+removing generation 45
+removing generation 46
+removing generation 47
+removing generation 48
+removing generation 49
+removing generation 50
+removing generation 51
+removing generation 52
+removing generation 53
+removing generation 54
+removing generation 55
+removing generation 56
+removing generation 57
+
+$ sudo /nix/var/nix/profiles/system/bin/switch-to-configuration switch
+stopping the following units: accounts-daemon.service
+NOT restarting the following changed units: systemd-fsck@dev-disk-by\x2duuid-DCF7\x2d772A.service
+activating the configuration...
+setting up /etc...
+reloading user units for roman...
+/home/roman/.bashrc: line 34: lsb_release: command not found
+/home/roman/.bashrc: line 42: fnm: command not found
+/home/roman/.bashrc: line 60: direnv: command not found
+setting up tmpfiles
+reloading the following units: dbus.service
+restarting the following units: polkit.service
+starting the following units: accounts-daemon.service
+
+$ sudo nixos-rebuild switch
+building Nix...
+building the system configuration...
+activating the configuration...
+setting up /etc...
+reloading user units for roman...
+/home/roman/.bashrc: line 34: lsb_release: command not found
+/home/roman/.bashrc: line 42: fnm: command not found
+/home/roman/.bashrc: line 60: direnv: command not found
+setting up tmpfiles
+
+$ ls -l /nix/var/nix/profiles
+total 28
+lrwxrwxrwx 1 root root   15 Nov 16 16:08 default -> default-24-link
+lrwxrwxrwx 1 root root   60 Nov 13 15:37 default-20-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 11:17 default-21-link -> /nix/store/rkf0xn46wbk2fk65727isjfx17b0hlbv-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 11:45 default-22-link -> /nix/store/zyxnpa4d5bkfz2m33148iymv0dy1mvzj-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 14:47 default-23-link -> /nix/store/m9mgm1y3l9cgl06917vpy591bi20kqy3-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 16:08 default-24-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
+drwxr-xr-x 4 root root 4096 Nov  9 20:19 per-user
+lrwxrwxrwx 1 root root   14 Nov 16 16:14 system -> system-58-link
+lrwxrwxrwx 1 root root   90 Nov 16 16:10 system-58-link -> /nix/store/6c3dsjh685j6d2fqach3r0vkixrbcci2-nixos-system-msi-laptop-21.05.4116.46251a79f75
+
+$ nix-env --delete-generations old
+removing generation 13
+removing generation 14
+removing generation 15
+
+$ ls -l /nix/var/nix/profiles
+total 28
+lrwxrwxrwx 1 root root   15 Nov 16 16:08 default -> default-24-link
+lrwxrwxrwx 1 root root   60 Nov 13 15:37 default-20-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 11:17 default-21-link -> /nix/store/rkf0xn46wbk2fk65727isjfx17b0hlbv-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 11:45 default-22-link -> /nix/store/zyxnpa4d5bkfz2m33148iymv0dy1mvzj-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 14:47 default-23-link -> /nix/store/m9mgm1y3l9cgl06917vpy591bi20kqy3-user-environment
+lrwxrwxrwx 1 root root   60 Nov 16 16:08 default-24-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
+drwxr-xr-x 4 root root 4096 Nov  9 20:19 per-user
+lrwxrwxrwx 1 root root   14 Nov 16 16:14 system -> system-58-link
+lrwxrwxrwx 1 root root   90 Nov 16 16:10 system-58-link -> /nix/store/6c3dsjh685j6d2fqach3r0vkixrbcci2-nixos-system-msi-laptop-21.05.4116.46251a79f75
+
+$ sudo nix-collect-garbage -d
+removing old generations of profile /nix/var/nix/profiles/per-user/root/channels
+removing generation 3
+removing old generations of profile /nix/var/nix/profiles/per-user/roman/profile
+removing old generations of profile /nix/var/nix/profiles/per-user/roman/channels
+removing old generations of profile /nix/var/nix/profiles/default
+removing generation 20
+removing generation 21
+removing generation 22
+removing generation 23
+removing old generations of profile /nix/var/nix/profiles/system
+finding garbage collector roots...
+deleting garbage...
+deleting '/nix/store/rkf0xn46wbk2fk65727isjfx17b0hlbv-user-environment'
+deleting '/nix/store/zyxnpa4d5bkfz2m33148iymv0dy1mvzj-user-environment'
+deleting '/nix/store/zl5w9ljc0rq1zi6ma3jkbcjkvldqcxad-user-environment'
+deleting '/nix/store/m9mgm1y3l9cgl06917vpy591bi20kqy3-user-environment'
+deleting '/nix/store/xrgwbx6vpn2djpnp1576kaf5110pxfcr-user-environment.drv'
+deleting '/nix/store/9mb4v4vx3lqhbidm7gb5ad84hfz3hcbh-env-manifest.nix'
+deleting '/nix/store/a6ca6jr6w5mn08ap7ir821j796fhf67y-user-environment.drv'
+deleting '/nix/store/9cqdvnpj01sw4apbixsx7hxnlx3pw88b-nixos-21.05.4114.195d5816cdd.drv'
+deleting '/nix/store/zhz2wvkn35d1sydps613q9nhgq4f0r96-user-environment.drv'
+deleting '/nix/store/v76lsprcqvi36za9k3i044pkcax24gh9-env-manifest.nix'
+deleting '/nix/store/j505z0gblrklwcb608wnsmpfyr2qikfp-nixos-21.05.4114.195d5816cdd'
+deleting '/nix/store/bpxggxy9hf86m67l7xygg6yyhis6s4rl-nixexprs.tar.xz'
+deleting '/nix/store/0gg79sjhc1iw11w0zda3d47bngx34icx-user-environment.drv'
+deleting '/nix/store/70wkb7faghs8kvf9q9bmxv9ln944ccax-env-manifest.nix'
+deleting '/nix/store/v257g42210d992g3i47r0zms9y4m5gwv-env-manifest.nix'
+deleting '/nix/store/trash'
+deleting unused links...
+note: currently hard linking saves -0.00 MiB
+15 store paths deleted, 105.31 MiB freed
+
+$ ls -l /nix/var/nix/profiles
+total 12
+lrwxrwxrwx 1 root root   15 Nov 16 16:08 default -> default-24-link
+lrwxrwxrwx 1 root root   60 Nov 16 16:08 default-24-link -> /nix/store/57904rflsfh46y7fxi62rzc7sidc9vmq-user-environment
+drwxr-xr-x 4 root root 4096 Nov  9 20:19 per-user
+lrwxrwxrwx 1 root root   14 Nov 16 16:14 system -> system-58-link
+lrwxrwxrwx 1 root root   90 Nov 16 16:10 system-58-link -> /nix/store/6c3dsjh685j6d2fqach3r0vkixrbcci2-nixos-system-msi-laptop-21.05.4116.46251a7
+
+$ nix-store --gc
+finding garbage collector roots...
+deleting garbage...
+deleting '/nix/store/trash'
+deleting unused links...
+note: currently hard linking saves -0.00 MiB
+0 store paths deleted, 0.00 MiB freed
+
+$ sudo nix-store --gc
+Sorry, try again.
+[sudo] password for roman:
+finding garbage collector roots...
+deleting garbage...
+deleting '/nix/store/trash'
+deleting unused links...
+note: currently hard linking saves -0.00 MiB
+0 store paths deleted, 0.00 MiB freed
+```
 
 ## nixos-rebuild switch - "No space left on device"
 
