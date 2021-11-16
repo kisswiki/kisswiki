@@ -59,3 +59,20 @@ I find nix pills hard to digest since they use the repl, and for a newbie it's h
 This video helped me a lot though, but unfortunately there are a few minutes of broken audio in the middle [Everything You Always Wanted To Know About Nix (But Were Afraid To Ask) - YouTube](https://www.youtube.com/watch?v=2mG0zM_wtYs)
 
 https://news.ycombinator.com/item?id=25191466
+
+## process
+
+For packages that have a standard expression format, and the build hasn’t fundamentally changed, they could just update the package doing:
+
+```bash
+$ git checkout -b bump-mypkg
+$ nix-shell -p nix-update --run 'nix-update <pkg> --commit'
+$ nix-build -A <pkg> # ensure it builds
+$ git push <fork> bump-mypkg
+```
+
+and then create a PR with the bump. It is more involved, but less involved than finding where the nix expression lives, finding the latest version, update version, calculate new sha, building it, making a commit, then pushing to a fork.
+
+For patch bumps, the above code is probably sufficient. For larger changes, there will some nix knowledge needed.
+
+https://discourse.nixos.org/t/flag-packages-out-of-date/12612/18
