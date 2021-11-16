@@ -394,3 +394,9 @@ I use tilix instead and it works good. And it has vertical splitting.
 ctrl+alt+r to open terminal on the right
 
 I have also enabled "Run command as a login shell" as I got some warning from tilix https://gnunn1.github.io/tilix-web/manual/vteconfig/
+
+## Use configuration.nix for installing
+
+Uninstall imperatively installed:
+
+`nix-env -e $(nix-env -q)`
