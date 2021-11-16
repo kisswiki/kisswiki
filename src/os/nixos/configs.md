@@ -27,6 +27,8 @@
 - https://github.com/wiltaylor/dotfiles
   - https://www.youtube.com/watch?v=mJbQ--iBc1U
   - [Question on user config · Issue #1 · wiltaylor/dotfiles](https://github.com/wiltaylor/dotfiles/issues/1)
+- https://dee.underscore.world/blog/home-manager-flakes/
+- https://discourse.nixos.org/t/how-to-manage-user-configuration-with-flakes-without-home-manager-on-nixos-21-05/16102
 
 ## no system packages
 
