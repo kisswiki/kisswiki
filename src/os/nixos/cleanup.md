@@ -13,7 +13,7 @@ Running `nix-env --delete-generations old --profile /nix/var/nix/profiles/system
 - https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/
 - https://jorel.dev/NixOS4Noobs/garbage.html
 
-## Remove latest generation
+## nixos-rebuild switch - "No space left on device"
 
 Below instructions are incomplete. I got error "No space left on device" when doing `sudo nixos-rebuild switch` or `sudo nixos-rebuild boot`. I needed to
 
@@ -55,7 +55,7 @@ Another solutions are:
 - switch to grub https://github.com/NixOS/nixpkgs/issues/23926#issuecomment-320370183
 - create new 1GB EFI partition
 
-### Old
+## Remove latest generation - incomplete
 
 ```bash
 $ ls -l /nix/var/nix/profiles/
