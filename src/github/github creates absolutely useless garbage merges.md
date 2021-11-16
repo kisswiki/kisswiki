@@ -35,4 +35,4 @@ GitHub can not re-sign, because they don't have the private key.
 
 The claim here is that GitHub performs a rebase, even if it should be a no-op. Like have commit abc123 as child of tip commit xyz456. Then rebase-and-merge will rebase abc123 onto xyz456, even if that does nothing, but unnecessarily destroys the signatures in the process.
 
-https://www.reddit.com/r/programming/comments/pjggh0/linus_github_creates_absolutely_useless_garbage/hbxabw9/?utm_source=reddit&utm_medium=web2x&context=3
+https://www.reddit.com/r/programming/comments/pjggh0/linus_github_creates_absolutely_useless_garbage/hbxabw9/

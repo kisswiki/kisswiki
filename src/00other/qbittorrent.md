@@ -25,7 +25,7 @@ I was able to adjust the Qbit UI scale using the program specific 'High DPI Scal
 
 Check the box for: 'Override high DPI scaling behavior.' 'Scaling performed by' : System (pulldown menu option)
 
-https://www.reddit.com/r/qBittorrent/comments/jnou1z/why_is_my_text_so_tiny_how_can_i_fix_it/gb6zc64/?utm_source=reddit&utm_medium=web2x&context=3
+https://www.reddit.com/r/qBittorrent/comments/jnou1z/why_is_my_text_so_tiny_how_can_i_fix_it/gb6zc64/
 
 1. In Windows find the Qbittorrent exe
 2. Click on the Compatibility tab

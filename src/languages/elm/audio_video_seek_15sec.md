@@ -59,4 +59,4 @@ main =
     Html.program { init = init, view = view, update = update, subscriptions = always Sub.none }
 ```
 
-https://discourse.elm-lang.org/t/virtualdom-property-setting-question/1089/11?u=rofrol
+https://discourse.elm-lang.org/t/virtualdom-property-setting-question/1089/11

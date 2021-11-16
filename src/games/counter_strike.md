@@ -33,7 +33,7 @@ host_writeconfig
 2. Create an `autoexec.cfg` file by copying any other cfg file and renaming it to autoexec
 3. Make sure the last line in the file is `host_writeconfig`
 
-> `+exec autoexec` is not needed when the file is built correctly (correctly means `host_writeconfig` at the last line?) https://www.reddit.com/r/GlobalOffensive/comments/jbfjvv/comment/g8v4ffj/?utm_source=reddit&utm_medium=web2x&context=3
+> `+exec autoexec` is not needed when the file is built correctly (correctly means `host_writeconfig` at the last line?) https://www.reddit.com/r/GlobalOffensive/comments/jbfjvv/comment/g8v4ffj/
 
 ## crosshair
 

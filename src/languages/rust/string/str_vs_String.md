@@ -16,7 +16,7 @@ So if you do `&foo.to_string()` you’re `malloc()`-ing a new `String`, and then
 
 If a function allocates a new object, it has to return the object, rather than a reference to it. If function sometimes allocates, sometimes borrows, there’s Cow wrapper that carries a flag that tracks whether it needs to be freed or not.
 
-https://users.rust-lang.org/t/borrowed-value-must-be-valid-for-the-lifetime-wtf/12017/3?u=rofrol
+https://users.rust-lang.org/t/borrowed-value-must-be-valid-for-the-lifetime-wtf/12017/3
 
 ##
 
@@ -31,7 +31,7 @@ const char *description(const Self *self);
 
 And your question becomes equivalent of “how can I use `malloc()` in description and return it as a pointer that is never `free()`d?”. So the only options are return something that’s already in `self`, or leak memory.
 
-https://users.rust-lang.org/t/solved-how-to-return-str-from-format/12838/3?u=rofrol
+https://users.rust-lang.org/t/solved-how-to-return-str-from-format/12838/3
 
 ##
 
@@ -39,4 +39,4 @@ fn `description(&self) -> &str` returns either a reference that’s tied to the 
 
 If you had `fn bar() -> &str` then that really is `fn bar() -> &'static str` because there’s no input lifetime to associate with the output one.
 
-https://users.rust-lang.org/t/solved-how-to-return-str-from-format/12838/6?u=rofrol
+https://users.rust-lang.org/t/solved-how-to-return-str-from-format/12838/6

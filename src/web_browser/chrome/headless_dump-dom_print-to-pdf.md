@@ -19,7 +19,7 @@ start chrome --headless --enable-logging --disable-gpu --dump-dom "https://www.d
 
 -https://stackoverflow.com/questions/57000400/why-doesnt-chromium-headless-dump-the-dom-when-i-tell-it-to/57594816#57594816
 
-- https://www.reddit.com/r/chrome/comments/7aak83/headless_browsing_chrome_cli_on_windows_not/dp8xyvo/?utm_source=reddit&utm_medium=web2x&context=3
+- https://www.reddit.com/r/chrome/comments/7aak83/headless_browsing_chrome_cli_on_windows_not/dp8xyvo/
 
 ## print-to-pdf
 

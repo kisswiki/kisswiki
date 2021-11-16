@@ -103,7 +103,7 @@ SystemCursor(OnOff=1)   ; INIT = "I","Init"; OFF = 0,"Off"; TOGGLE = -1,"T","Tog
 ;; https://autohotkey.com/board/topic/16943-breaking-out-of-multiple-nested-loops/?p=109881
 ;; https://gist.github.com/kenny-evitt/6f6571e38295f2b65f54
 ;; https://stackoverflow.com/questions/28182639/autohotkey-move-mouse-to-center-of-screen-whenever-it-gets-towards-edge/28185618#28185618
-;; https://www.reddit.com/r/AutoHotkey/comments/97nxnh/keep_cursor_from_edge/e4b26aj?utm_source=share&utm_medium=web2x
+;; https://www.reddit.com/r/AutoHotkey/comments/97nxnh/keep_cursor_from_edge/e4b26aj
 ;; https://autohotkey.com/board/topic/55934-constrain-mouse-movement-when-key-held-down/
 ;; https://autohotkey.com/board/topic/5727-hiding-the-mouse-cursor/?p=76269
 ;; https://www.autohotkey.com/docs/commands/DllCall.htm#HideCursor

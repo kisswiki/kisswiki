@@ -89,6 +89,18 @@ I have encountered the same (in particularly nixpkgs-unstable) and have also sta
 
 https://lobste.rs/s/jevfaf/nixos_for_developers#c_targav
 
+I would point out that there are some oddities about flakes still (recently someone asked why local flakes are copied into the nix store constantly, for example, which causes tons of write and disk usage overhead for the smallest change).
+
+They’ll probably get ironed out over time, but this may be a long process. The UX isn’t perfect yet, so going into it expecting perfection may leave you disappointed - and trying to get someone who objects to the usage of nix in the first place (as is more likely when you’re not in these parts) to accept flakes may be utterly impossible.
+
+Figuring out how flakes work and how to use them also took a deep dive into nixpkgs for me, which made me finally learn how it all works, but may also be mildly frustrating, especially since documentation is sparse.
+
+I keep meaning to write a basic set of goal-oriented “howtos” to try and document the what and how of flakes.
+
+All of that said, personally, I think flakes are a much more explicit way of managing the things nix can do, and they are very nice for a wide range of use cases non-flake nix only marginally supports. I think it would be a major step backwards to not continue stabilizing the feature.
+
+https://discourse.nixos.org/t/about-the-gap-of-nix/16098/3
+
 ## overlays or overrides defined
 
 > Can `nix-env -qa -f $commit` on one machine can have different output than `nix-env -qa -f $commit` on another machine/OS?

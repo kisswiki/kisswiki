@@ -82,7 +82,7 @@ sudo efibootmgr -o 5
 - https://docs.fedoraproject.org/en-US/Fedora/18/html/Installation_Guide/s1-diskpartitioning-x86.html
 - https://www.reddit.com/r/Fedora/comments/cdqfkc/recovering_grub_2_in_fedora_29_after_installing/
 - https://www.reddit.com/r/Fedora/comments/3aki82/how_do_i_reinstall_grub/
-- https://addons.mozilla.org/en-US/firefox/addon/export-tabs-urls-and-titles/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+- https://addons.mozilla.org/en-US/firefox/addon/export-tabs-urls-and-titles/
 - https://www.google.com/search?q=fedora+live+restore+grub+chroot
 - https://gist.github.com/Tamal/73e65bfb0e883e438310c5fe81c5de14
 - https://www.google.com/search?q=fedora+iso+uefi

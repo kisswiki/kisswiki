@@ -36,7 +36,7 @@ $ zip -r file.zip META-INF/ mimetype OEBPS/
 $ bk file.zip
 ```
 
-TIP: You can use the --meta switch to use [bk as a file previewer](https://www.reddit.com/r/commandline/comments/hpmlsm/terminal_epub_reader/fxsrxgr/?utm_source=reddit&utm_medium=web2x&context=3) with eg nnn.
+TIP: You can use the --meta switch to use [bk as a file previewer](https://www.reddit.com/r/commandline/comments/hpmlsm/terminal_epub_reader/fxsrxgr/) with eg nnn.
 
 ## Install bk
 

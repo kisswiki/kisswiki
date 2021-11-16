@@ -187,7 +187,7 @@
 <node CREATED="1414866276790" LINK="http://baymard.com/research" MODIFIED="1414866276790" TEXT="baymard.com &gt; Research"/>
 <node CREATED="1414971812134" LINK="https://ecommerce.shopify.com/pages/check-your-email" MODIFIED="1414971812134" TEXT="https://ecommerce.shopify.com/pages/check-your-email"/>
 <node CREATED="1414971789096" LINK="https://ecommerce.shopify.com/pages/email-updates" MODIFIED="1414971789096" TEXT="https://ecommerce.shopify.com/pages/email-updates"/>
-<node CREATED="1415128010225" LINK="http://www.shopify.com/blog/15721284-the-insiders-guide-to-running-a-successful-retail-store-video-series?utm_source=Shopify+Blog+Email+Updates&amp;utm_campaign=d14b4d0913-RSS_EMAIL_CAMPAIGN&amp;utm_medium=email&amp;utm_term=0_1077797dad-d14b4d0913-325782477&amp;mc_cid=d14b4d0913&amp;mc_eid=551b6ba1f4" MODIFIED="1415128010225" TEXT="shopify.com &gt; Blog &gt; 15721284-the-insiders-guide-to-running-a-successful-retail-store-video-series ? ..."/>
+<node CREATED="1415128010225" LINK="http://www.shopify.com/blog/15721284-the-insiders-guide-to-running-a-successful-retail-store-video-series" MODIFIED="1415128010225" TEXT="shopify.com &gt; Blog &gt; 15721284-the-insiders-guide-to-running-a-successful-retail-store-video-series ? ..."/>
 <node CREATED="1415222653820" LINK="https://www.shoper.pl/" MODIFIED="1415222653820" TEXT="https://www.shoper.pl/"/>
 <node CREATED="1415277977802" LINK="http://manubia.pl/" MODIFIED="1415277977802" TEXT="manubia.pl">
 <node CREATED="1415277990524" MODIFIED="1415277991420" TEXT="Raporty sprzeda&#x17c;y na Allegro"/>
@@ -451,7 +451,7 @@
 </node>
 </node>
 <node CREATED="1413097635404" FOLDED="true" ID="ID_835020098" MODIFIED="1441093066895" TEXT="habits">
-<node CREATED="1413097643546" LINK="http://blog.generalassemb.ly/daily-habits-that-will-make-you-more-successful/?km_marketing_id=4254&amp;km_metro=online&amp;utm_medium=ga_email&amp;utm_source=email_marketing_metro&amp;utm_campaign=metro_dedicated_emails&amp;utm_content=2014-10-10%20%5Bonline%5D%20Daily%20Habits%20SL%20B%20%28Middle%20East%2C%20Europe%29&amp;kmi=rofrol%40gmail.com" MODIFIED="1413097643546" TEXT="blog.generalassemb.ly &gt; Daily-habits-that-will-make-you-more-successful &gt;  ? ..."/>
+<node CREATED="1413097643546" LINK="http://blog.generalassemb.ly/daily-habits-that-will-make-you-more-successful/" MODIFIED="1413097643546" TEXT="blog.generalassemb.ly &gt; Daily-habits-that-will-make-you-more-successful &gt;  ? ..."/>
 </node>
 <node CREATED="1414346780218" FOLDED="true" ID="ID_1568768462" MODIFIED="1441092997889" TEXT="happiness">
 <node CREATED="1414346885269" LINK="http://officialmoga.tumblr.com/post/78051515651/boulders-2-hours-wacom-bamboo-tablet-and-paint" MODIFIED="1414346896680">
@@ -472,7 +472,7 @@
 </node>
 <node CREATED="1414369787974" MODIFIED="1414369790523" TEXT="standing desk">
 <node CREATED="1414369802674" LINK="http://www.fastcodesign.com/3030430/wanted/a-standing-sitting-desk-you-can-afford" MODIFIED="1414369802674" TEXT="fastcodesign.com &gt; 3030430 &gt; Wanted &gt; A-standing-sitting-desk-you-can-afford"/>
-<node CREATED="1414369791128" LINK="http://www.sitepoint.com/standing-desk-might-necessarily-save-life/?utm_content=buffer80dce&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer" MODIFIED="1414369791128" TEXT="sitepoint.com &gt; Standing-desk-might-necessarily-save-life &gt;  ? ..."/>
+<node CREATED="1414369791128" LINK="http://www.sitepoint.com/standing-desk-might-necessarily-save-life/" MODIFIED="1414369791128" TEXT="sitepoint.com &gt; Standing-desk-might-necessarily-save-life &gt;  ? ..."/>
 </node>
 <node CREATED="1414761668400" FOLDED="true" MODIFIED="1414761672645" TEXT="szczepionki">
 <node CREATED="1414761671590" LINK="http://wszystkoconajwazniejsze.pl/jennifer-raff-cala-prawda-o-szczepionkach/" MODIFIED="1414761671590" TEXT="wszystkoconajwazniejsze.pl &gt; Jennifer-raff-cala-prawda-o-szczepionkach"/>
@@ -878,8 +878,8 @@
 <node CREATED="1415151451136" LINK="https://www.udemy.com/draft/335634/?instructorPreviewMode=student#/" MODIFIED="1415151451136" TEXT="https://www.udemy.com/draft/335634/?instructorPreviewMode=student#/"/>
 <node CREATED="1415151457022" LINK="https://email.udemy.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGzbIDBzeu9SOzcdYro9oWs4lhfoF6LKmnE8uzb3VXMtX%3DWQpglLjHJlYQGuHizdmk8KKlf1lafzcL6MXWMOXMXfID9TbuJ&amp;_ei_=EqShwBlPUbUlLbe-XWPbIm5OYkvEm3s2k8GFjzPUyDqTyuRmjsxzpxy1Lg" MODIFIED="1415151457022" TEXT="https://email.udemy.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGzbIDBzeu9SOzcdYro9oWs4lhfoF6LKmnE8uzb3VXMtX%3DWQpglLjHJlYQGuHizdmk8KKlf1lafzcL6MXWMOXMXfID9TbuJ&amp;_ei_=EqShwBlPUbUlLbe-XWPbIm5OYkvEm3s2k8GFjzPUyDqTyuRmjsxzpxy1Lg"/>
 <node CREATED="1415151461470" LINK="https://www.udemy.com/official-udemy-instructor-course/#/" MODIFIED="1415151461470" TEXT="https://www.udemy.com/official-udemy-instructor-course/#/"/>
-<node CREATED="1415151465171" LINK="https://info.udemy.com/competitive-research-tool.html?utm_source=instructor&amp;utm_medium=landingpage&amp;utm_term=newcomerchallenge&amp;utm_campaign=form" MODIFIED="1415151465171" TEXT="https://info.udemy.com/competitive-research-tool.html?utm_source=instructor&amp;utm_medium=landingpage&amp;utm_term=newcomerchallenge&amp;utm_campaign=form"/>
-<node CREATED="1415151468707" LINK="https://info.udemy.com/competitive-research-tool.html?utm_source=instructor&amp;utm_medium=landingpage&amp;utm_term=newcomerchallenge&amp;utm_campaign=form" MODIFIED="1415151468707" TEXT="https://info.udemy.com/competitive-research-tool.html?utm_source=instructor&amp;utm_medium=landingpage&amp;utm_term=newcomerchallenge&amp;utm_campaign=form"/>
+<node CREATED="1415151465171" LINK="https://info.udemy.com/competitive-research-tool.html" MODIFIED="1415151465171" TEXT="https://info.udemy.com/competitive-research-tool.html"/>
+<node CREATED="1415151468707" LINK="https://info.udemy.com/competitive-research-tool.html" MODIFIED="1415151468707" TEXT="https://info.udemy.com/competitive-research-tool.html"/>
 </node>
 <node CREATED="1415325779288" LINK="https://support.udemy.com/customer/us/portal/articles/1709115" MODIFIED="1415325779288" TEXT="https://support.udemy.com/customer/us/portal/articles/1709115"/>
 </node>

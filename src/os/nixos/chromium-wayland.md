@@ -9,4 +9,4 @@
 
 this only rebuilds the wrapper script, does not rebuild Chromium.
 
-https://discourse.nixos.org/t/chromium-with-wayland-switches/15635/2?u=rofrol
+https://discourse.nixos.org/t/chromium-with-wayland-switches/15635/2
