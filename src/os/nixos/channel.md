@@ -29,3 +29,10 @@ https://nixos.org/channels/nixpkgs-unstable
 nixos is typically package set for NixOS, nixpkgs is package set when you have nix installed as package manager on non NixOS distro. They are built from the same repo.
 
 https://stackoverflow.com/questions/41230430/how-do-i-upgrade-my-system-to-nixos-unstable#comment99809384_41230431
+
+## revert channel update
+
+`nix-channel --rollback`
+
+- https://stackoverflow.com/questions/39090387/how-to-undo-nix-channel-update/39090719#39090719
+- https://nixos.org/manual/nix/stable/#sec-nix-channel
