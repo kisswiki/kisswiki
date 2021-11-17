@@ -465,3 +465,32 @@ $ nix-shell -p nix-info --run "nix-info -m"
  - channels(roman): `""`
  - nixpkgs: `/nix/var/nix/profiles/per-user/root/channels/nixos`
 ```
+
+I have reverted to stable channel and added this to configuration.nix:
+
+```
+  nix = {
+    package = pkgs.nixFlakes;
+    extraOptions = ''
+      experimental-features = nix-command flakes
+    '';
+  };
+```
+
+##
+
+https://github.com/NixOS/nixpkgs/tree/nixos-21.05 is older then https://github.com/NixOS/nixpkgs/tree/release-21.05
+
+## mount internal drive accessible to normal user
+
+```nix
+{
+  fileSystems."/media/debian" =
+    { device = "/dev/disk/by-label/debian";
+      fsType = "ext4";
+      options = [ "defaults" "x-gvfs-show" ];
+    };
+}
+```
+
+https://unix.stackexchange.com/questions/533265/how-to-mount-internal-drives-as-a-normal-user-in-nixos/626245#626245
