@@ -66,3 +66,9 @@ https://www.reddit.com/r/NixOS/comments/i3cz4d/comment/g0i8vgr/
 - https://discourse.nixos.org/t/difference-between-nix-shell-and-nix-run/2951
 - https://nixos.wiki/wiki/Nix_command/shell
 - https://github.com/nixcloud/nix-shell-workshop
+
+## I would not use pkgs ? import <nixpkgs> {} for developing environments which are not tied to the current system you are running on
+
+instead import e.g. in `let` area via a variable
+
+https://stackoverflow.com/questions/66124085/how-to-find-the-commit-a-nix-channel-points-to/66720361#66720361
