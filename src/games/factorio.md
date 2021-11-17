@@ -36,3 +36,7 @@ https://github.com/SuperSandro2000/cheat-sheet/tree/master/factorio
 ## docker
 
 - [factoriotools/factorio-docker: Factorio headless server in a Docker container](https://github.com/factoriotools/factorio-docker/)
+
+## calculator
+
+- http://dbeckwith.com/2017/04/24/factorio-calculator/
