@@ -37,6 +37,7 @@ https://github.com/NixOS/rfcs/pull/49
 - https://github.com/cab404/templates
 - https://github.com/NixOS/templates
 - https://www.reddit.com/r/NixOS/comments/on2u08/users_who_have_transitioned_to_flakesnixunstable/
+- https://discourse.nixos.org/t/manage-whole-system-with-flakes/16114
 
 ## About
 
