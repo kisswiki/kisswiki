@@ -82,6 +82,10 @@ https://www.reddit.com/r/NixOS/comments/2gnlab/comment/ckl29cx/
 
 https://discourse.nixos.org/t/why-is-there-no-rolling-stable-channel/3322
 
+If you need a security fix that is not yet in nixos-XX.YY, you would probably switch to nixos-XX.YY-small. Really, the only time you would want to use release-XX.YY branch is if you are a NixOS stable maintainer and want to test something.
+
+https://discourse.nixos.org/t/why-there-are-branches-nixos-21-05-and-release-21-05/16116/5
+
 ## multiple channels
 
 You can use packages from different channels. So possibly keeping your default channel as stable, and just referencing particular packages from the unstable channel might be a better solution.
