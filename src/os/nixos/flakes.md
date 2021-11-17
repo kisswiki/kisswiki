@@ -38,6 +38,10 @@ https://github.com/NixOS/rfcs/pull/49
 - https://github.com/NixOS/templates
 - https://www.reddit.com/r/NixOS/comments/on2u08/users_who_have_transitioned_to_flakesnixunstable/
 - https://discourse.nixos.org/t/manage-whole-system-with-flakes/16114
+  - https://mudrii.medium.com/nixos-native-flake-deployment-with-luks-drive-encryption-and-lvm-b7f3738b71ca
+  - https://mudrii.medium.com/nixos-home-manager-on-native-nix-flake-installation-and-configuration-22d018654f0c
+  - https://www.tweag.io/blog/2020-07-31-nixos-flakes/
+  - https://github.com/hlissner/dotfiles/
 
 ## About
 
