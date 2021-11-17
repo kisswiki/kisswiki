@@ -506,3 +506,4 @@ $ echo $NIX_PATH
 
 - https://stackoverflow.com/questions/57013604/what-is-the-nix-expression-nixpkgs/57013777#57013777
 - https://newbedev.com/what-does-the-nixpkgs-string-value-mean-in-nix
+- https://discourse.nixos.org/t/how-to-switch-to-a-stable-channel-and-install-using-nix-env-without-needing-the-f-option/11751

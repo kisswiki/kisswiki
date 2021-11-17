@@ -79,3 +79,5 @@ nixos unstable is updated when nixos tests pass (e.g. installer works, kde works
 nixpkgs unstable is updated when some critical packages build.
 
 https://www.reddit.com/r/NixOS/comments/2gnlab/comment/ckl29cx/
+
+https://discourse.nixos.org/t/why-is-there-no-rolling-stable-channel/3322
