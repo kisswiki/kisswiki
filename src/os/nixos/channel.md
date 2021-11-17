@@ -58,3 +58,18 @@ from https://gist.github.com/grahamc/c60578c6e6928043d29a427361634df6#which-chan
 and from https://discourse.nixos.org/t/difference-between-channels/579/3
 
 https://discourse.nixos.org/t/why-there-are-branches-nixos-21-05-and-release-21-05/16116
+
+All three of them are based on the nixpkgs master branch. Each of them advance only if all of their tests are passing. The only difference is the list of tests that each of them have. By convention the -small postfix is based on the the same test suite but with less tests in them so they advance faster.
+
+See https://howoldis.herokuapp.com/ 111 for more details.
+
+https://discourse.nixos.org/t/difference-between-channels/579/2
+
+- https://nixos.wiki/wiki/Nix_channels
+  - https://channels.nix.gsc.io/
+
+The nixos channel also runs many more nixosTests as part of it jobset as well as constituents (required jobs for a channel release). And the nixos channel is the one which also creates the command database which is used for the command-not-found logic:
+
+https://discourse.nixos.org/t/differences-between-nix-channels/13998/3
+
+https://status.nixos.org/
