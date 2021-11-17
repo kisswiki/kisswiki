@@ -73,3 +73,9 @@ The nixos channel also runs many more nixosTests as part of it jobset as well as
 https://discourse.nixos.org/t/differences-between-nix-channels/13998/3
 
 https://status.nixos.org/
+
+nixos unstable is updated when nixos tests pass (e.g. installer works, kde works...).
+
+nixpkgs unstable is updated when some critical packages build.
+
+https://www.reddit.com/r/NixOS/comments/2gnlab/comment/ckl29cx/
