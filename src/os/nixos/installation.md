@@ -497,4 +497,12 @@ https://unix.stackexchange.com/questions/533265/how-to-mount-internal-drives-as-
 
 ## What does the <nixpkgs> string / value mean in Nix?
 
-https://newbedev.com/what-does-the-nixpkgs-string-value-mean-in-nix
+A colon-separated list of directories used to look up Nix expressions enclosed in angle brackets (i.e., <path>).
+
+```bash
+$ echo $NIX_PATH
+/home/roman/.nix-defexpr/channels:nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos:nixos-config=/etc/nixos/configuration.nix:/nix/var/nix/profiles/per-user/root/channels
+```
+
+- https://stackoverflow.com/questions/57013604/what-is-the-nix-expression-nixpkgs/57013777#57013777
+- https://newbedev.com/what-does-the-nixpkgs-string-value-mean-in-nix
