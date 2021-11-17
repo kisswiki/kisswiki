@@ -36,3 +36,25 @@ https://stackoverflow.com/questions/41230430/how-do-i-upgrade-my-system-to-nixos
 
 - https://stackoverflow.com/questions/39090387/how-to-undo-nix-channel-update/39090719#39090719
 - https://nixos.org/manual/nix/stable/#sec-nix-channel
+
+## Which channel is right for me?
+
+You probably want to use the current stable, ie: nixos-18.03.
+
+nixos-18.03 comes from the `release-18.03` branch on GitHub. It maintains some package version stability over its six-month life, providing better guarantees that your system will keep working without major changes for the life of the release.
+
+The stable branch also gets timely security patches delivered through channels.
+
+The channels beginning with the `nixos-` prefix are thoroughly tested from the perspective of being an operating system. This means we test the X server, KDE, various servers, and lower level details like installing bootloaders and runnning the nixos installation steps. This is in contrast to the `nixpkgs-` channel prefix, where only limited testing is performed.
+
+If you want to live on the bleading edge, perhaps `nixos-unstable` is right for you. It very frequently receives patches and updates that make larger version jumps than the stable branch.
+
+The unstable branch also regularly receives security patches, however sometimes it can take several weeks for security patches to end up in the channels, due to test being broken.
+
+If you are only using Nix as a package manager, perhaps the nixpkgs-unstable branch is better for you. This channel is very frequently updated, but does not receive the thorough testing the NixOS channels receive. DO NOT USE THIS FOR NIXOS.
+
+from https://gist.github.com/grahamc/c60578c6e6928043d29a427361634df6#which-channel-is-right-for-me
+
+and from https://discourse.nixos.org/t/difference-between-channels/579/3
+
+https://discourse.nixos.org/t/why-there-are-branches-nixos-21-05-and-release-21-05/16116
