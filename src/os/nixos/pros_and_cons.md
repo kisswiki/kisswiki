@@ -147,3 +147,25 @@ Nix makes sure that you get a predictable and reproducible tree of dependencies,
 https://news.ycombinator.com/item?id=28591504
 
 So, Why Not Docker? https://dev.to/ronenl/how-nix-shell-saved-our-teams-sanity-101k
+
+## Conan vs Nix
+
+trusktr
+
+Now here with Nix we have a package manager that is trying to allow any package to depend on any version of any other package, but the issue is that the underlying system (FHS, etc) that each package is conventionalized on is completely in the way, and required Nix users to create sub-shells with fake FHS environments or patched ELF binaries. It’s basically hacking the very old system to bend it to newer ideas.
+
+KoviRobi
+
+I’d like to point out, indeed that both ELF patching and FHS chroot/virtualisation while is indeed an ad-hoc hack as you pointed out, only necessary for packages that for one reason or other cannot be packaged properly in Nix – and usually this would mean they cannot be packaged properly in Connan (I would imagine) either.
+
+E.g. Adobe reader is shipped as a linked binary, so we cannot link our own libraries hence the need to patch.
+
+Patching steam, and all its applications would be too much work (if at all possible, because we don’t have access to the purchased content to package it), so we virtualise the FHS it expects.
+
+jonringer
+
+I think this is a good example of the fundamental difference between nixos and other operating systems. In typical FHS operating systems, you start from a place of impurity, all of your system installation is dumped into a few directories which get mutated over time. In NixOS, you start from a place of complete purity, and you can “introduce” impurity with buildFHSUserEnv, and a few other tools as needed.
+
+It blows my coworkers mind when i can switch between python interpreters with a single command. It’s only really possible because i don’t have to invalidate a system wide installation like you would need to do normally or in windows.
+
+https://discourse.nixos.org/t/how-to-make-nixos-so-easy-that-people-can-be-productive-up-front-without-having-to-first-learn-the-nix-language/5625/45
