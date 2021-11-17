@@ -494,3 +494,7 @@ https://github.com/NixOS/nixpkgs/tree/nixos-21.05 is older then https://github.c
 ```
 
 https://unix.stackexchange.com/questions/533265/how-to-mount-internal-drives-as-a-normal-user-in-nixos/626245#626245
+
+## What does the <nixpkgs> string / value mean in Nix?
+
+https://newbedev.com/what-does-the-nixpkgs-string-value-mean-in-nix
