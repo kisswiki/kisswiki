@@ -24,6 +24,7 @@
 - https://discourse.nixos.org/t/how-to-use-node2nix-in-nix-derivation-correctly/15321
 - https://lastlog.de/blog/posts/nix-language-atlas-javascript.html
 - https://www.breakds.org/post/nix-shell-for-nodejs/
+- https://discourse.nixos.org/t/why-am-i-getting-an-older-version-of-npm-when-i-have-nodejs/16015
 
 ##
 
