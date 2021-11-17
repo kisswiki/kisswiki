@@ -81,3 +81,32 @@ nixpkgs unstable is updated when some critical packages build.
 https://www.reddit.com/r/NixOS/comments/2gnlab/comment/ckl29cx/
 
 https://discourse.nixos.org/t/why-is-there-no-rolling-stable-channel/3322
+
+## multiple channels
+
+You can use packages from different channels. So possibly keeping your default channel as stable, and just referencing particular packages from the unstable channel might be a better solution.
+
+I have the following import in my config (using google-chrome from the channel I have assigned to unstable):
+
+```nix
+{ config, pkgs, ... }:
+
+
+let
+  unstable = import <unstable> {
+    config = config.nixpkgs.config;
+  };
+in
+{
+   environment.systemPackages = with pkgs; [
+     awscli
+     google-cloud-sdk
+     kubectl
+     libreoffice
+     # ...
+     unstable.google-chrome
+   ];
+}
+```
+
+https://stackoverflow.com/questions/53532239/i-changed-my-nixos-channel-to-unstable-why-are-my-packages-still-not-updated/53545467#53545467
