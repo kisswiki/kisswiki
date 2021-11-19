@@ -11,3 +11,5 @@ There are of course a number of exceptions to this, like the high end Audeze LCD
 As technology advances, we're getting thinner and thinner material for the diaphragm, and this allows planars to become more efficient, and also use lighter magnets (so that they're lighter overall). But this trade off also may be responsible for less slam and punch.
 
 - https://www.headphones.com/community/reviews-learning-and-news/planar-magnetic-vs-dynamic-driver-headphones-which-is-better
+
+Example headphones: tackstar hf580
