@@ -1,3 +1,4 @@
+- Development environment with Nix Flakes and Direnv https://gist.github.com/sagittaros/32dc6ffcbc423dc0fed7eef24698d5ca
 - [numtide/devshell: Per project developer environments](https://github.com/numtide/devshell)
 - https://nixos.org/guides/dev-environment.html
 - https://nixos.org/guides/ad-hoc-developer-environments.html
