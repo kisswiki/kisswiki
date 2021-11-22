@@ -42,6 +42,7 @@ https://github.com/NixOS/rfcs/pull/49
   - https://mudrii.medium.com/nixos-home-manager-on-native-nix-flake-installation-and-configuration-22d018654f0c
   - https://www.tweag.io/blog/2020-07-31-nixos-flakes/
   - https://github.com/hlissner/dotfiles/
+- https://github.com/NixOS/flake-registry
 
 ## About
 

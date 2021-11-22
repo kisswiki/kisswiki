@@ -31,6 +31,7 @@
 - https://discourse.nixos.org/t/how-to-manage-user-configuration-with-flakes-without-home-manager-on-nixos-21-05/16102
 - This repository is based on Nix Flakes https://github.com/cmacrae/config
 - https://github.com/ncfavier/config
+- https://gitlab.com/hlissner/dotfiles
 
 ## no system packages
 
