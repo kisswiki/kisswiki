@@ -185,3 +185,9 @@ IshKebab
 why do they force the extra complication of FP on users? Bazel manages to do the same thing with something that is basically a subset of Python.
 
 https://www.reddit.com/r/programming/comments/qg72gi/comment/hi80cxh/
+
+##
+
+After upgrading to 21.05 find gl broken again with some libs linked against newer glibc. Today after next test I wanted to restarting to the last 20.10 generation that worked and the x11 greeter is just black. After 2 years of NixOS I did not have a single upgrade without problems. They promissed that exactly this would not happen....
+
+https://www.reddit.com/r/NixOS/comments/o8g95v/comment/h3awmx2/?utm_source=reddit&utm_medium=web2x&context=3
