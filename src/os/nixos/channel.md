@@ -114,3 +114,7 @@ in
 ```
 
 https://stackoverflow.com/questions/53532239/i-changed-my-nixos-channel-to-unstable-why-are-my-packages-still-not-updated/53545467#53545467
+
+nixos-unstable is “unstable” because it makes no promises about which versions of packages will be in use. Stable versions try to only take bug fixes and security updates. Otherwise nixos-unstable is quite “stable”.
+
+https://discourse.nixos.org/t/what-do-i-risk-by-using-nixos-unstable/16195/4
