@@ -43,6 +43,7 @@ https://github.com/NixOS/rfcs/pull/49
   - https://www.tweag.io/blog/2020-07-31-nixos-flakes/
   - https://github.com/hlissner/dotfiles/
 - https://github.com/NixOS/flake-registry
+- https://github.com/pimeys/nix-prisma-example
 
 ## About
 
