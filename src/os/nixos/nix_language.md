@@ -1,1 +1,49 @@
 - [Nix Language Overview - YouTube](https://www.youtube.com/watch?v=eCapIx9heBw)
+
+## Use double quotes for string
+
+```bash
+$ nix-instantiate --eval --expr "'Hello world'"
+error: syntax error, unexpected invalid token
+
+       at «string»:1:1:
+
+            1| 'Hello world'
+             | ^
+$  nix-instantiate --eval --expr "\"Hello world\""
+"Hello world"
+$ nix-instantiate --eval --expr '"Hello world"'
+"Hello world"
+```
+
+I have followed path: https://nixos.wiki/wiki/Nix_Expression_Language -> https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55
+
+## undefined variable 'length'
+
+```bash
+$ nix-instantiate --eval --expr "(length [1 2 3 \"x\"])"
+error: undefined variable 'length'
+
+       at «string»:1:2:
+
+            1| (length [1 2 3])
+             |  ^
+```
+
+I have followed path: https://nixos.wiki/wiki/Nix_Expression_Language -> https://github.com/nix-community/nix-snippets -> https://github.com/adambard/learnxinyminutes-docs/blob/master/nix.html.markdown
+
+Then this gave me solution: https://github.com/search?q=extension%3Anix+%22length%22&ref=opensearch -> https://github.com/BBBSnowball/nixcfg/blob/87c54e3a312accbb984c5b559fc31c61bcfcfa98/hosts/nixosvm/firewall-iptables-restore/lib.nix#L2
+
+So correct run would be:
+
+```bash
+nix-instantiate --eval --expr "wth builtins; (length [1 2 3 \"x\"])"
+4
+```
+
+or with single-quotes outside:
+
+```bash
+$ nix-instantiate --eval --expr 'with builtins; (length [1 2 3 "x"])'
+4
+```
