@@ -1,0 +1,3 @@
+When I started with NixOS I saw buildFHSUserEnv as a viable solution, but it (and nix-shell) are not production-ready, at least for software that I use. I’ve encountered a number of segmentation faults that due not occur outside of that environment, particularly when opening large files and processes with high memory / swap utilization. I don’t mean to criticize—I think these are fantastically useful tools—they just aren’t as tested and robust as a vanilla FHS, particularly for scientific/high-performance applications.
+
+https://discourse.nixos.org/t/add-bin-bash-to-avoid-unnecessary-pain/5673/29
