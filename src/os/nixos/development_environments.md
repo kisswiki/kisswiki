@@ -16,6 +16,7 @@
   - https://github.com/edolstra/flake-compat/blob/master/default.nix
   - https://github.com/cab404/templates
   - https://github.com/NixOS/templates
+- https://github.com/nix-community/todomvc-nix
 
 ## nodejs, npm
 
