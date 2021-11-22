@@ -226,6 +226,19 @@ machine-id 0221dbc79be643a18c77995d5516b0a5
 $ sudo cp /nixos/qdk8kpz6pqk8cl8lqw6shjynaypkw43x-linux-5.10.79-bzImage.efi /boot/EFI/nixos/
 ```
 
+or maybe this:
+
+```bash
+$ nix-collect-garbage --delete-older-than 14d  # or some other value
+# Alternatively just remove a number of old generations from /nix/var/nix/profiles:
+$ rm /nix/var/nix/profiles/system-some-old-generations # followed by
+$ nix-store --delete /nix/store/whatever-the-various-old-generations-point-at
+# Then to clean up the old kernels/initrds:
+$ /run/current-system/bin/switch-to-configuration boot
+```
+
+from https://discourse.nixos.org/t/what-do-i-risk-by-using-nixos-unstable/16195/9
+
 - https://github.com/NixOS/nixpkgs/issues/23926#issuecomment-940438117
   - my solution https://github.com/NixOS/nixpkgs/issues/23926#issuecomment-970185668
 - https://ramsdenj.com/2016/04/15/multi-boot-linux-with-one-boot-partition.html
