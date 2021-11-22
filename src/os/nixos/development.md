@@ -3,6 +3,7 @@
 - https://nixos.wiki/wiki/Nixpkgs/Update_a_package
 - https://nix-tutorial.gitlabpages.inria.fr/nix-tutorial/first-package.html
 - https://discourse.nixos.org/t/speeding-up-vs-code-updates-merging/10652
+- https://github.com/Mic92/nix-update/
 
 ## override
 
