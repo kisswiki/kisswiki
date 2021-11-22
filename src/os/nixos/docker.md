@@ -1,4 +1,5 @@
 - https://github.com/NixOS/nixpkgs/blob/3b9d05e114550db6ea23befa078bd978371d863c/pkgs/build-support/docker/examples.nix
+- https://discourse.nixos.org/t/how-to-create-a-docker-image-based-on-another-image-with-dockertools/16144
 
 ## run one-off image
 
