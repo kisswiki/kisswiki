@@ -7,6 +7,7 @@
   - https://lobste.rs/s/jevfaf/nixos_for_developers
 - https://nixos.org/guides/nix-pills/developing-with-nix-shell.html
 - https://nix.dev/tutorials/declarative-and-reproducible-developer-environments
+- https://nix.dev/tutorials/ad-hoc-developer-environments
 - https://cbailey.co.uk/posts/my_usage_of_nix_and_lorri__direnv
 - https://dev.to/ronenl/how-nix-shell-saved-our-teams-sanity-101k
 - https://nix-tutorial.gitlabpages.inria.fr/nix-tutorial/first-package.html#build-environment
@@ -17,6 +18,8 @@
   - https://github.com/cab404/templates
   - https://github.com/NixOS/templates
 - https://github.com/nix-community/todomvc-nix
+- https://mudrii.medium.com/building-reproducible-development-environment-b1d4fb51a302
+- https://mudrii.medium.com/vscode-remote-ssh-development-with-nix-50223f816216
 
 ## nodejs, npm
 
@@ -27,6 +30,8 @@
 - https://lastlog.de/blog/posts/nix-language-atlas-javascript.html
 - https://www.breakds.org/post/nix-shell-for-nodejs/
 - https://discourse.nixos.org/t/why-am-i-getting-an-older-version-of-npm-when-i-have-nodejs/16015
+- https://github.com/nix-community/awesome-nix#nodejs
+  - https://github.com/nix-community/npmlock2nix
 
 ##
 

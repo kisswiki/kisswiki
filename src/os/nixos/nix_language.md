@@ -8,6 +8,8 @@
 - https://scrive.github.io/nix-workshop/
 - https://nixcloud.io/tour
 - https://nixos.wiki/wiki/Nix_by_example
+- lints and suggestions for the nix programming language https://github.com/nerdypepper/statix
+  - https://www.reddit.com/r/NixOS/comments/qh47fz/statix_lints_and_suggestions_for_the_nix/
 
 ## Use double quotes for string
 
