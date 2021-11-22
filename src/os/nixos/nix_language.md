@@ -47,3 +47,22 @@ or with single-quotes outside:
 $ nix-instantiate --eval --expr 'with builtins; (length [1 2 3 "x"])'
 4
 ```
+
+- https://nixos.org/manual/nix/unstable/expressions/builtins.html
+
+## example from manual uses ’ instead of '
+
+```nix-repl
+nix-repl> with builtins; foldl’ (x: y: x + y) 0 [1 2 3]
+error: syntax error, unexpected invalid token, expecting end of file
+
+       at «string»:1:21:
+
+            1| with builtins; foldl’ (x: y: x + y) 0 [1 2 3]
+             |                     ^
+            2|
+nix-repl> with builtins; foldl' (x: y: x + y) 0 [1 2 3]
+6
+```
+
+https://nixos.org/manual/nix/unstable/expressions/builtins.html
