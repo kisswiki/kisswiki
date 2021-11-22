@@ -1,3 +1,5 @@
+`man configuration.nix`
+
 For my NixOS config, I’ve created a base configuration.nix file that contains common options that I want set across all my machines (abbreviated example here):
 
 ```nix
