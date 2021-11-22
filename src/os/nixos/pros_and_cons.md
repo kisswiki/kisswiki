@@ -172,10 +172,16 @@ https://discourse.nixos.org/t/how-to-make-nixos-so-easy-that-people-can-be-produ
 
 ## nix is a horrible language
 
+chianuo
+
 It's kind of horrifying. I hate the Nix language, and especially when things go wrong and you have to figure out wtf is going on, it's not easy to debug. You basically have to become a functional programming expert just to be able to configure your system. Their documentation also sucks and their usual answer is: just look at the source code.
 
 Great. To debug my system not only do I need to learn FP, and learn their new cryptic language (and its strange obsession with semicolons), but I need to go dig through their fucking source code and understand how their whole project is laid out.
 
 And that frustration is coming from me, a lover of FP -- I work professionally with Scala and previously with Haskell. I know enough to slog through it and make it work, but I only use Nix to configure my VMs as a curiosity I'm willing to dump hours into. But I would never recommend it even to other developers in its current state.
 
-https://www.reddit.com/r/programming/comments/qg72gi/comment/hi80cxh/?utm_source=reddit&utm_medium=web2x&context=3
+IshKebab
+
+why do they force the extra complication of FP on users? Bazel manages to do the same thing with something that is basically a subset of Python.
+
+https://www.reddit.com/r/programming/comments/qg72gi/comment/hi80cxh/
