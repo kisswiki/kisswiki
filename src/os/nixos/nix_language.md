@@ -1,4 +1,13 @@
-- [Nix Language Overview - YouTube](https://www.youtube.com/watch?v=eCapIx9heBw)
+- [Nix Language Overview - YouTube](https://www.youtube.com/watch?v=eCapIx9heBw
+- https://nixos.wiki/wiki/Nix_Expression_Languag
+- https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55
+- https://cheat.readthedocs.io/en/latest/nixos/nix_lang.html
+- https://github.com/adambard/learnxinyminutes-docs/blob/master/nix.html.markdown
+- https://github.com/functionalops/nix-cookbook
+- https://nixos.org/manual/nix/stable/expressions/language-constructs.html
+- https://scrive.github.io/nix-workshop/
+- https://nixcloud.io/tour
+- https://nixos.wiki/wiki/Nix_by_example
 
 ## Use double quotes for string
 
