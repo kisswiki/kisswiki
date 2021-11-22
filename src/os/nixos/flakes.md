@@ -44,6 +44,7 @@ https://github.com/NixOS/rfcs/pull/49
   - https://github.com/hlissner/dotfiles/
 - https://github.com/NixOS/flake-registry
 - https://github.com/pimeys/nix-prisma-example
+- https://github.com/jonringer/nix-template/blob/2e7238422489a608453704e9f5b897b2b1c0c2e7/flake.nix
 
 ## About
 
