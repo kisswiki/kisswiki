@@ -1,3 +1,7 @@
+- https://github.com/NixOS/nixpkgs/blob/3b9d05e114550db6ea23befa078bd978371d863c/pkgs/build-support/docker/examples.nix
+
+## run one-off image
+
 abstract777
 
 Have you used docker inside NixOS? And if so, why?
