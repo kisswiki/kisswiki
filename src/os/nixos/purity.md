@@ -1,2 +1,6 @@
 - https://github.com/NixOS/nixpkgs/pull/78798
+  - https://github.com/balsoft/nixos-fhs-compat
+  - https://github.com/NixOS/nix-idea/issues/30
+  - https://github.com/Mic92/nix-ld
+  - https://github.com/Mic92/envfs
 - https://discourse.nixos.org/t/add-bin-bash-to-avoid-unnecessary-pain/5673/46
