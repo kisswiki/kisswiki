@@ -1,0 +1,2 @@
+- https://github.com/NixOS/nixpkgs/pull/78798
+- https://discourse.nixos.org/t/add-bin-bash-to-avoid-unnecessary-pain/5673/46
