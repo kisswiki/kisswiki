@@ -186,8 +186,24 @@ why do they force the extra complication of FP on users? Bazel manages to do the
 
 https://www.reddit.com/r/programming/comments/qg72gi/comment/hi80cxh/
 
-##
+poelzi
 
 After upgrading to 21.05 find gl broken again with some libs linked against newer glibc. Today after next test I wanted to restarting to the last 20.10 generation that worked and the x11 greeter is just black. After 2 years of NixOS I did not have a single upgrade without problems. They promissed that exactly this would not happen....
 
-https://www.reddit.com/r/NixOS/comments/o8g95v/comment/h3awmx2/?utm_source=reddit&utm_medium=web2x&context=3
+https://www.reddit.com/r/NixOS/comments/o8g95v/comment/h3awmx2/
+
+RockstarArtisan
+
+Fuck Nix, the idea is good, their approach to the implementation is horrible. I'd love to have nix and nixpkgs that work, but thus far all projects that I've worked on that used nixpkgs were horrible timesinks due to constant breakages whenever something needed to change. No, adding a library or changing the linkage of a library shouldn't take a week. No, nix doesn't need 6 different ways of building cargo projects, each broken in their own cute unique way.
+
+There's a reason for how bad nix is: instead of changing unix userland to work with their approach by making upstream changes and publishing standards on how to be nix-compatible they've resorted to essentially forking the entire userland.
+
+This works well enough if you're interested in executables which do not interact with paths or environment of other system resources, but breaks horribly for tools that do, like all of the bloody linux development tools. So, nix has to patch these tools, or wrap them in a shell-script wrapper, but this often isn't ideal because users of those executables might break because of those patches. For example, an editor using a compiler executable to produce static analysis will not be aware of what paths nix's wrapper on top of clang injected this time and thus won't be able to do static analysis properly.
+
+This means that with the current approach linux devtools only work well in nixpkgs if all of the tools are patched to run on nix including editors, which is just simply unfeasible and unsuprisingly doesn't happen - only the bare minimum gets patched. Say goodbye to good editor integration, say goodbye to running many tools that run out of the box in other environments.
+
+And the nix patches and wrappers always lag behind in features behind the wrapped counterparts. Want to run cargo build -vv in buildRustCrate? Too bad, it's not there. Issues like that will always pop up because there's just no way that a userland fork can keep up with all the userspace, even userland doesn't keep up with itself when things break because others there haven't caught up with the changes.
+
+There's only one solution to these problems, stop forking the userspace and start making the upstream compatible with the nixpkgs model.
+
+https://www.reddit.com/r/programming/comments/qg72gi/comment/hi8gikr/
