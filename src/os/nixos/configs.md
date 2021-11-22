@@ -32,6 +32,7 @@
 - This repository is based on Nix Flakes https://github.com/cmacrae/config
 - https://github.com/ncfavier/config
 - https://gitlab.com/hlissner/dotfiles
+- https://github.com/BBBSnowball/nixcfg/blob/87c54e3a312accbb984c5b559fc31c61bcfcfa98/hosts/nixosvm/firewall-iptables-restore/lib.nix#L2
 
 ## no system packages
 
