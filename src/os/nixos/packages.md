@@ -6,6 +6,19 @@
 - https://distrowatch.com/weekly.php?issue=20170515#nixos
 - https://distrowatch.com/table.php?distribution=nixos
 
+## what is installed
+
+To figure out what is installed on your system, you may run the following commands:
+
+- `nix-env -q` to figure out what is installed in an imperative user environment.
+- `nixos-option environment.systemPackages` to query the set of packages that will appear in `/run/current-system/sw` when - your configuration is built and activated. To quote its documentation, "These packages are automatically available - to all users."
+- `nix-store -q --requisites /run/current-system ~/.nix-profile` the combined closure of dependencies of the current - system and your user profile
+- `nix-store -q --references /run/current-system` direct dependencies of the current system
+
+See `--query` section or nix-store `--help` for more options.
+
+https://stackoverflow.com/questions/47953868/why-doesnt-nix-env-q-find-my-installed-packages-nixos-channels-profiles-a/47957142#47957142
+
 ## search
 
 ```bash
