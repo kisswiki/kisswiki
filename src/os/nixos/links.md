@@ -1,0 +1,2 @@
+- https://github.com/nix-community/awesome-nix
+- https://awesomeopensource.com/projects/nix
