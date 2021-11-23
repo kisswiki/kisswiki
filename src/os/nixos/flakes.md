@@ -22,6 +22,8 @@ https://github.com/NixOS/rfcs/pull/49
 
 ## Links
 
+- https://ertt.ca/nix/shell-scripts/
+  - https://discourse.nixos.org/t/finally-tutorial-with-minimal-flake-example/16226
 - https://serokell.io/blog/practical-nix-flakes
 - https://www.tweag.io/blog/2020-07-31-nixos-flakes/
 - [divnix/digga: A a flake utility library to craft shell-, home-, and hosts- environments.](https://github.com/divnix/digga)
