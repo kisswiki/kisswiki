@@ -1,0 +1,4 @@
+- https://www.reddit.com/r/NixOS/comments/mytw85/big_brain/
+- https://github.com/serokell/deploy-rs
+- https://github.com/zhaofengli/colmena
+- https://github.com/Infinisil/nixus
