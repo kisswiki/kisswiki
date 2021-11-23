@@ -235,4 +235,10 @@ I’ll use this thread as an excuse to mention some
 
 Most of these sure can be worked around, and I wish I was more constructive/involved in improving things, but for now there’s just that…
 
-https://discourse.nixos.org/t/comparing-nix-and-conda/11366/42?u=rofrol
+https://discourse.nixos.org/t/comparing-nix-and-conda/11366/42
+
+##
+
+I would surely have given up on Nix myself if not for the promise of correctness, hermetic reproducible builds, and the incredibly vast and fresh set of curated build expressions in the Nixpkgs collection.
+
+https://discourse.nixos.org/t/comparing-nix-and-conda/11366/62
