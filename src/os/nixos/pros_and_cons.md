@@ -207,3 +207,32 @@ And the nix patches and wrappers always lag behind in features behind the wrappe
 There's only one solution to these problems, stop forking the userspace and start making the upstream compatible with the nixpkgs model.
 
 https://www.reddit.com/r/programming/comments/qg72gi/comment/hi8gikr/
+
+##
+
+SergeK
+
+1
+Feb 7
+I’m pretty confident that in the long Nix is a way better fit for sci comp needs than conda. Nix Flakes are a real game changer. However, I keep running into some pain points and I don’t see Nix finding wide adoption until those are resolved (but maybe it’s just me getting things wrong).
+
+I’ll use this thread as an excuse to mention some
+
+- Integration with non-nixos ecosystems
+  - Dynamic linking: `nix run nixpkgs#poetry run python, pip install ...`, `ipykernel --user --install` (jupyterhub with - user kernels) all ultimately fail the moment you import a .so because the interpreter won’t have the absolute RPATH - set. This may well be the biggest pain point I have by this day
+  - GL apps. There’s `nixGLNvidia` but last time I checked it was still incompatible with Nix Flakes. Even if it was - compatible - I couldn’t convince people to accept this kind of UX, and I tried.
+  - Nix is invasive.
+    - The default instruction to install nix is to `curl ... | sh` which new people treat as fishy.
+    - Nix wants `/nix` (although I see above linked posts on statically built nix and custom store locations)
+    - `dockertools.buildImag`e is great, but it needs `nix` on the host, opposed to a dockerfile one can just specify in - `docker-compose.yml` in a repo that non-nix people can build
+    - I tried using Nix to provide bazel and toolchain and to me it was great, but for the reasons above - instructing - other (non-nix) people on how to get it running on their system has been quite frustrating
+    - And I couldn’t “just give them the `.so` binary” because I need first to undo the RPATHs
+- Documentation, observability
+- Nix is dynamically typed and uses rather complex mechanisms like overlays and callPackage that give some “ad hoc” vibes. Each time I run into a new function - I have to begin a look up starting in `all-packages.nix` to figure out which file the name corresponds to, and even then I sometimes fail to infer the function’s signature. I keep doing this (until I find a better solution), but I can’t expect other people to commit to this
+- Cache misses. At times a huge build would trigger and it may be hard to figure out how to adjust the inputs so that - a cached derivation is used instead
+- CUDA in Flakes means `import nixpkgs { allowUnfree = true; ...}` and it’s ad hoc again
+- UPD: just tried fetching `opencv-python` with `poetry2nix` (which has been mentioned above) and 1) it didn’t try to - fetch a ready wheel, running a full build instead, 2) that build has failed; virtualenv way works with the same lock file. That is all to say - the UX isn’t smooth enough just yet, a lot of work needs to be done before we can expect - scicomp people widely switching to Nix
+
+Most of these sure can be worked around, and I wish I was more constructive/involved in improving things, but for now there’s just that…
+
+https://discourse.nixos.org/t/comparing-nix-and-conda/11366/42?u=rofrol
