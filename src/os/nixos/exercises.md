@@ -1,0 +1,3 @@
+- https://www.reddit.com/r/NixOS/comments/kbcci6/im_writing_my_advent_of_code_solutions_in_nix/
+- https://github.com/Infinisil/aoc20/
+- https://github.com/crazazy/aoc2020
