@@ -20,6 +20,8 @@
 - https://github.com/nix-community/todomvc-nix
 - https://mudrii.medium.com/building-reproducible-development-environment-b1d4fb51a302
 - https://mudrii.medium.com/vscode-remote-ssh-development-with-nix-50223f816216
+- Create highly reproducible python environments https://github.com/DavHau/mach-nix
+  - Mach-nix is superb! It would be even greater if it supported pep517/pep518
 
 ## nodejs, npm
 
