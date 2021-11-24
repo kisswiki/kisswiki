@@ -19,6 +19,24 @@ See `--query` section or nix-store `--help` for more options.
 
 https://stackoverflow.com/questions/47953868/why-doesnt-nix-env-q-find-my-installed-packages-nixos-channels-profiles-a/47957142#47957142
 
+## what will be installed
+
+```bash
+$ nixos-rebuild build
+$ nix store diff-closures /var/run/current-system ./result
+cpupower: 5.10.79 → 5.10.80
+firefox: 94.0 → 94.0.2
+firefox-unwrapped: 94.0 → 94.0.2, +49.2 KiB
+initrd-linux: 5.10.79 → 5.10.80
+libytnef: 1.9.3 → 2.0
+linux: 5.10.79, 5.10.79-modules → 5.10.80, 5.10.80-modules, +13.1 KiB
+nixos-system-msi-laptop: 21.05.4255.d5b65f812cd → 21.05.4349.09650059d7f
+pipewire: 0.3.39 → ∅, +354.4 KiB
+pipewire-media-session: 0.4.0 → 0.4.1
+```
+
+https://www.reddit.com/r/NixOS/comments/r0o829/comment/hlvmrs9/
+
 ## search
 
 ```bash
