@@ -1,3 +1,4 @@
+- https://github.com/rofrol/nix-for-javascript-developers
 - [Nix Language Overview - YouTube](https://www.youtube.com/watch?v=eCapIx9heBw
 - https://nixos.wiki/wiki/Nix_Expression_Languag
 - https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55
