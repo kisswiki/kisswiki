@@ -9,3 +9,4 @@ To see all versions go to https://repology.org/project/libmtp/versions
 - https://stackoverflow.com/questions/47421993/get-specific-key-value-pairs-with-jq/47422094#47422094
 - [jq Cheet Sheet](https://gist.github.com/olih/f7437fb6962fb3ee9fe95bda8d2c8fa4)
 - https://unix.stackexchange.com/questions/417128/how-can-i-find-out-in-which-distributions-a-package-is-available/675352#675352
+- https://repology.org/repository/nix_unstable

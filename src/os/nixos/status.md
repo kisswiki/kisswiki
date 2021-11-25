@@ -13,3 +13,7 @@ I’m basing this mostly on comparing us with the AUR which Repololgy says has 9
 https://repology.org/repositories/statistics/newest 1
 
 https://discourse.nixos.org/t/stats-trends-on-github-issues-prs/7936/28
+
+https://repology.org/repository/nix_unstable
+
+https://repology.org/repositories/graphs
