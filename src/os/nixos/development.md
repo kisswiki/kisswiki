@@ -105,3 +105,7 @@ https://discourse.nixos.org/t/proposal-require-pr-authors-to-review-other-prs/16
 There are currently 139 people with commit access to nixos/nixpkgs. The list isn’t public, but as a committer, I can see it. I’d personally be in favor of making this list public.
 
 https://discourse.nixos.org/t/trust-model-for-nixpkgs/9450/7
+
+## bot
+
+- a simple bot that checks for updates every 12 hours and creates PRs so you don't have to https://github.com/samuela/nixpkgs-upkeep
