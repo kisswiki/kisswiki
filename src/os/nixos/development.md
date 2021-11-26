@@ -78,3 +78,24 @@ and then create a PR with the bump. It is more involved, but less involved than 
 For patch bumps, the above code is probably sufficient. For larger changes, there will some nix knowledge needed.
 
 https://discourse.nixos.org/t/flag-packages-out-of-date/12612/18
+
+## getting PR-s reviewed
+
+samuela
+
+My personal experience with the nixpkgs reviewing process is that either my PRs are reviewed and merged almost immediately (huge shout out to @Sandro!), or they linger unreviewed and unmerged forever.
+
+aanderse
+
+my advice is to become annoying :grinning_face_with_smiling_eyes: I kept pinging people until my PRs were merged.
+
+Sandro
+
+There are some things you can do to make your PRs easier to merge:
+
+- Make one PR per package/change. Shorter PRs take way less time to review and are more fun to review. It is totally fine to also change things like missing completion scripts in an update PR.
+- Look on your open PRs after a few hours when hopefully ofborg is done. If not please start the bot manually. That makes a huge difference since the reviewer don’t need to wait and maybe someone is pinged who can help you with the merge. Maybe something failed and you can already fix it without any reviewer looking at the changes. Maybe the rebuild count is high and you can already re-target to staging.
+- Compare your package to recently new packages from the same eco system. Are they doing something different? Maybe there are newer functions I could adopt?
+- Are there things you are unsure about or don’t know how to do in a cleaner way? Add a comment on that line. This can avoid back and forth questions why something is how it is and can’t be done in a nicer way. Most of the time such things should have a comment that the next person that looks at that code in 6 months still knows what’s going on. You never know, it might be you.
+
+https://discourse.nixos.org/t/proposal-require-pr-authors-to-review-other-prs/16242/10
