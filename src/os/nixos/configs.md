@@ -34,6 +34,7 @@
 - https://gitlab.com/hlissner/dotfiles
 - https://github.com/BBBSnowball/nixcfg/blob/87c54e3a312accbb984c5b559fc31c61bcfcfa98/hosts/nixosvm/firewall-iptables-restore/lib.nix#L2
 - https://github.com/mitchellh/nixos-config
+- https://github.com/johnae/world/blob/main/utils/diskformat.nix#L3
 
 ## no system packages
 
