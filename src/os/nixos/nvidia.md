@@ -4,6 +4,7 @@
 - https://github.com/asdrubalini/nixos-config/blob/298dc39381b041f7d197bee6813f12cff7d612e5/hardware/nvidia.nix#L10
 - https://github.com/AusCyberman/nixos-config/blob/5deeb29a44f46fe7aa0b508e686b312fae6b5da5/systems/auspc/hardware-configuration.nix#L10
 - https://github.com/AusCyberman/nixos-config/blob/5deeb29a44f46fe7aa0b508e686b312fae6b5da5/systems/auspc/configuration.nix
+- [nixos/gdm: enable nvidiaWayland by default by fabianhjr · Pull Request #147153 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/pull/147153)
 
 ```bash
 $ nix-env -iA nixos.glmark2
