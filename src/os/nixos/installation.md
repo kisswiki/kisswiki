@@ -127,12 +127,27 @@ gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift
 
 https://superuser.com/questions/394376/how-to-prevent-gnome-shells-alttab-from-grouping-windows-from-similar-apps/1517491#1517491
 
+## unset in gnome ctrl+alt+left and ctrl+alt+right
+
+````bash
+$ gsettings get org.gnome.desktop.wm.keybindings switch-to-workspace-left
+['<Super>Page_Up', '<Super><Alt>Left', '<Control><Alt>Left']
+
+$ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left ['<Super>Page_Up', '<Super><Alt>Left']
+$ gsettings get org.gnome.desktop.wm.keybindings switch-to-workspace-right
+['<Super>Page_Down', '<Super><Alt>Right', '<Control><Alt>Right']
+
+$ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right ['<Super>Page_Down', '<Super><Alt>Right']
+```
+
+https://askubuntu.com/questions/82007/how-do-i-disable-ctrlaltleft-right/380461#380461
+
 ## I am on stable channel
 
 ```bash
 $ sudo nix-channel --list
 nixos https://nixos.org/channels/nixos-21.05
-```
+````
 
 - https://github.com/NixOS/nixpkgs/issues/103049#issuecomment-771607718
 
