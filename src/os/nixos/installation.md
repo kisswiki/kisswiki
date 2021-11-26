@@ -133,11 +133,11 @@ https://superuser.com/questions/394376/how-to-prevent-gnome-shells-alttab-from-g
 $ gsettings get org.gnome.desktop.wm.keybindings switch-to-workspace-left
 ['<Super>Page_Up', '<Super><Alt>Left', '<Control><Alt>Left']
 
-$ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left ['<Super>Page_Up', '<Super><Alt>Left']
+$ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Super>Page_Up', '<Super><Alt>Left']"
 $ gsettings get org.gnome.desktop.wm.keybindings switch-to-workspace-right
 ['<Super>Page_Down', '<Super><Alt>Right', '<Control><Alt>Right']
 
-$ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right ['<Super>Page_Down', '<Super><Alt>Right']
+$ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Super>Page_Down', '<Super><Alt>Right']"
 ```
 
 https://askubuntu.com/questions/82007/how-do-i-disable-ctrlaltleft-right/380461#380461
