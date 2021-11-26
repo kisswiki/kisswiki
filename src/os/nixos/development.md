@@ -99,3 +99,9 @@ There are some things you can do to make your PRs easier to merge:
 - Are there things you are unsure about or don’t know how to do in a cleaner way? Add a comment on that line. This can avoid back and forth questions why something is how it is and can’t be done in a nicer way. Most of the time such things should have a comment that the next person that looks at that code in 6 months still knows what’s going on. You never know, it might be you.
 
 https://discourse.nixos.org/t/proposal-require-pr-authors-to-review-other-prs/16242/10
+
+## how many developers with commit access
+
+There are currently 139 people with commit access to nixos/nixpkgs. The list isn’t public, but as a committer, I can see it. I’d personally be in favor of making this list public.
+
+https://discourse.nixos.org/t/trust-model-for-nixpkgs/9450/7
