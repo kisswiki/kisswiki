@@ -5,6 +5,7 @@
 - https://discourse.nixos.org/t/speeding-up-vs-code-updates-merging/10652
 - https://github.com/Mic92/nix-update/
 - https://discourse.nixos.org/t/wrong-link-to-mpv-source/16141
+- http://sandervanderburg.blogspot.com/2018/07/layered-build-function-abstractions-for.html
 
 ## override
 
