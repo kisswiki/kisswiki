@@ -104,6 +104,12 @@ https://discourse.nixos.org/t/proposal-require-pr-authors-to-review-other-prs/16
 
 There are currently 139 people with commit access to nixos/nixpkgs. The list isn’t public, but as a committer, I can see it. I’d personally be in favor of making this list public.
 
+yakman2020
+
+Personally, I would not think making the list public would be a good idea.
+
+Once bad actors understand who they can pressure to commit bad things they might very well do so. I would keep the list confidential, but available to auditors.
+
 https://discourse.nixos.org/t/trust-model-for-nixpkgs/9450/7
 
 ## bot
