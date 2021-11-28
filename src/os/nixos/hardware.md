@@ -1,0 +1,1 @@
+- https://discourse.nixos.org/t/internal-screen-not-detected-by-gnome-shell-when-logging-in-via-gdm-but-works-fine-with-lightdm/3853/3
