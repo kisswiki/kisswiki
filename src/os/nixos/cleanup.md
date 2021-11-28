@@ -10,6 +10,7 @@ Running `nix-env --delete-generations old --profile /nix/var/nix/profiles/system
 - https://nixos.org/manual/nix/stable/package-management/garbage-collection.html
 - https://nixos.org/guides/nix-pills/garbage-collector.html
 - https://nixos.wiki/wiki/Storage_optimization
+  - `nix-store --optimise`
 - https://ianthehenry.com/posts/how-to-learn-nix/garbage-collection/
 - https://jorel.dev/NixOS4Noobs/garbage.html
 
