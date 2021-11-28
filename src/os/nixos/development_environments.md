@@ -22,6 +22,10 @@
 - https://mudrii.medium.com/vscode-remote-ssh-development-with-nix-50223f816216
 - Create highly reproducible python environments https://github.com/DavHau/mach-nix
   - Mach-nix is superb! It would be even greater if it supported pep517/pep518
+- https://github.com/nix-community/lorri
+  - [lorri - Your project's nix env (NixCon 2019) - YouTube](https://www.youtube.com/watch?v=WtbW0N8Cww4)
+  - https://www.youtube.com/watch?v=WtbW0N8Cww4
+  - lorri vs flakes https://github.com/target/lorri/issues/460
 
 ## nodejs, npm
 
@@ -34,6 +38,11 @@
 - https://discourse.nixos.org/t/why-am-i-getting-an-older-version-of-npm-when-i-have-nodejs/16015
 - https://github.com/nix-community/awesome-nix#nodejs
   - https://github.com/nix-community/npmlock2nix
+- https://rgoswami.me/posts/nix-shell-node/
+- https://discourse.nixos.org/t/future-of-npm-packages-in-nixpkgs/14285
+  - npm2nix vs node2nix https://discourse.nixos.org/t/future-of-npm-packages-in-nixpkgs/14285/10
+  - https://github.com/nix-community/npmlock2nix
+  - fetchyarn https://github.com/NixOS/nixpkgs/pull/138233
 
 ##
 
