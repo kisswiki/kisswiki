@@ -1,1 +1,3 @@
 - https://discourse.nixos.org/t/direct-firmware-load-for-regulatory-db-failed/16317
+- https://unix.stackexchange.com/questions/253933/wifi-iw-reg-set-us-has-no-effect/351389#351389
+  - https://unix.stackexchange.com/questions/385565/what-is-iwlwifis-lar-disable/385590#385590
