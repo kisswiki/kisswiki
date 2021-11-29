@@ -1,0 +1,1 @@
+- https://github.com/michalrus/dotfiles/blob/master/nixos-config/overlays/pkgs/hardened-firefox.nix
