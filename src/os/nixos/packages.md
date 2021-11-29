@@ -37,6 +37,31 @@ pipewire-media-session: 0.4.0 → 0.4.1
 
 https://www.reddit.com/r/NixOS/comments/r0o829/comment/hlvmrs9/
 
+## what was installed
+
+```bash
+$ nix profile diff-closures --profile /nix/var/nix/profiles/system
+Version 85 -> 86:
+  nodejs: 14.18.1 → ∅, -57897.0 KiB
+  yarn: 1.22.10 → ∅, -5200.2 KiB
+
+Version 86 -> 87:
+  nodejs: 16.11.1 → 14.18.1, +8360.7 KiB
+
+Version 87 -> 88:
+  nodejs: 14.18.1 → 16.11.1, -8360.7 KiB
+
+Version 88 -> 89:
+
+Version 89 -> 90:
+
+Version 90 -> 91:
+  cpupower: 5.10.80 → 5.10.81
+  initrd-linux: 5.10.80 → 5.10.81
+  linux: 5.10.80, 5.10.80-modules → 5.10.81, 5.10.81-modules
+  nixos-system-msi-laptop: 21.05.4349.09650059d7f → 21.05.4384.4f37689c8a2
+```
+
 ## search
 
 ```bash
