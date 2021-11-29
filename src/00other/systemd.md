@@ -80,10 +80,11 @@ kwi 29 14:49:14 roman-MS-7B43 systemd[1]: Starting A high performance web server
 kwi 29 14:49:14 roman-MS-7B43 systemd[1]: Started A high performance web server and a reverse proxy server.
 ```
 
->For things named <something>.service, you can actually just use <something>, as in:
->`journalctl -u service-name`
+> For things named <something>.service, you can actually just use <something>, as in:
+> `journalctl -u service-name`
 > But for other sorts of units (sockets, targets, timers, etc), you need to be explicit.
->- https://unix.stackexchange.com/questions/225401/how-to-see-full-log-from-systemctl-status-service/225407#225407
+>
+> - https://unix.stackexchange.com/questions/225401/how-to-see-full-log-from-systemctl-status-service/225407#225407
 
 `sudo journalctl -xel`
 
@@ -145,3 +146,7 @@ Restart the `systemd-journald.service` after changing this setting to apply the 
 See `journald.conf(5)` for more info.
 
 - https://wiki.archlinux.org/index.php/Systemd/Journal#Journal_size_limit
+
+## multi-target
+
+- https://unix.stackexchange.com/questions/159462/what-is-systemds-target-service-and-socket/159488#159488
