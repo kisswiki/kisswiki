@@ -118,3 +118,8 @@ https://stackoverflow.com/questions/53532239/i-changed-my-nixos-channel-to-unsta
 nixos-unstable is “unstable” because it makes no promises about which versions of packages will be in use. Stable versions try to only take bug fixes and security updates. Otherwise nixos-unstable is quite “stable”.
 
 https://discourse.nixos.org/t/what-do-i-risk-by-using-nixos-unstable/16195/4
+
+## Pinning
+
+- https://discourse.nixos.org/t/specifying-unstable-commit-directly-in-configuration-nix/3366
+- [Pinning nixpkgs in configuration.nix? · Issue #62832 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/62832)
