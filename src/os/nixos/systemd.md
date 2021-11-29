@@ -1,0 +1,2 @@
+- https://discourse.nixos.org/t/disable-a-systemd-service-while-having-it-in-nixoss-conf/12732/3
+- https://www.reddit.com/r/NixOS/comments/8xfbfn/invoke_script_as_systemd_service/
