@@ -1,0 +1,1 @@
+- https://discourse.nixos.org/t/direct-firmware-load-for-regulatory-db-failed/16317
