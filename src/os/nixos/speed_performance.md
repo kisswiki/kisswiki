@@ -1,0 +1,1 @@
+- https://michael.stapelberg.ch/posts/2019-08-17-linux-package-managers-are-slow/
