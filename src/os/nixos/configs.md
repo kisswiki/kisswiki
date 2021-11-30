@@ -36,6 +36,7 @@
 - https://github.com/mitchellh/nixos-config
 - https://github.com/johnae/world/blob/main/utils/diskformat.nix#L3
 - https://github.com/Mic92/dotfiles/tree/master/nixos
+- https://github.com/chris-martin/home/tree/master/nix
 
 ## no system packages
 
