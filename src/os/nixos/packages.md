@@ -62,6 +62,14 @@ Version 90 -> 91:
   nixos-system-msi-laptop: 21.05.4349.09650059d7f → 21.05.4384.4f37689c8a2
 ```
 
+## edit expression for given package
+
+```bash
+$ nix edit nixpkgs#ripgrep
+```
+
+https://discourse.nixos.org/t/how-to-find-the-expression-a-given-nixpkg-is-derived-from/13287/7
+
 ## search
 
 ```bash
