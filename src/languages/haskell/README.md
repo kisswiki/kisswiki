@@ -17,3 +17,4 @@
 ## Learn
 
 - https://crypto.stanford.edu/~blynn/compiler/
+- https://github.com/kowainik/learn4haskell
