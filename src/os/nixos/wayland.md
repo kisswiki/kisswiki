@@ -1,4 +1,6 @@
 - https://github.com/NixOS/nixpkgs/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+wayland
+- [nixos/gdm: enable nvidiaWayland by default by fabianhjr · Pull Request #147153 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/pull/147153)
+- https://discourse.nixos.org/t/nvidia-users-testers-requested-sway-on-nvidia-steam-on-wayland/15264/42
 
 ## why wayland is under xserver?
 
