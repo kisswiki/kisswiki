@@ -22,6 +22,7 @@ https://github.com/NixOS/rfcs/pull/49
 
 ## Links
 
+- https://github.com/NixOS/nix/labels/flakes
 - https://ertt.ca/nix/shell-scripts/
   - https://discourse.nixos.org/t/finally-tutorial-with-minimal-flake-example/16226
 - https://serokell.io/blog/practical-nix-flakes
