@@ -15,3 +15,9 @@ services.xserver = {
 The fact that this is under xserver is really just legacy. Other than XWayland I have no X.
 
 https://www.reddit.com/r/NixOS/comments/r1djqy/comment/hly6o8i/
+
+Currently desktopManagers and displayManagers are part of the serivces.xorg namespace
+
+This is problematic as there are greeters such as slimd and greetd that support wayland and can run independently of x11
+
+https://github.com/NixOS/nixpkgs/issues/102542
