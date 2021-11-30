@@ -1,3 +1,5 @@
+- https://discourse.nixos.org/t/move-efi-to-bigger-partition/16338
+
 ```bash
 $ sudo nix-shell -p gptfdisk
 # blkid
