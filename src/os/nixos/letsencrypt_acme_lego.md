@@ -1,0 +1,5 @@
+- https://discourse.nixos.org/t/lets-encrypt-on-20-09/9950
+- [Restructure acme module by m1cr0man · Pull Request #91121 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/pull/91121#issuecomment-692180005)
+- [JWS verification error · Issue #1006 · go-acme/lego](https://github.com/go-acme/lego/issues/1006)
+- [ACME fails with JWS verification error · Issue #101445 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/101445)
+- [nixos/acme: Fixes for account creation and remove tmpfiles usage by m1cr0man · Pull Request #106857 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/pull/106857)
