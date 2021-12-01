@@ -1,3 +1,5 @@
+- https://discourse.nixos.org/t/21-11-has-been-released/16353
+
 ```bash
 $ sudo nix-channel --add https://nixos.org/channels/nixos-21.11 nixos
 $ nixos-available-updates.sh
