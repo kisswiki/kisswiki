@@ -10,7 +10,9 @@ If anything, the stats tell me our tooling is comparatively amazing. We are gett
 
 I’m basing this mostly on comparing us with the AUR which Repololgy says has 9000 maintainers.
 
-https://repology.org/repositories/statistics/newest 1
+https://repology.org/repositories/statistics/newest
+
+https://repology.org/repositories/statistics/total
 
 https://discourse.nixos.org/t/stats-trends-on-github-issues-prs/7936/28
 
