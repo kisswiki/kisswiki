@@ -183,3 +183,8 @@ Revision:      5cb226a06c49f7a2d02863d0b5786a310599df6b
 Last modified: 2021-11-14 11:40:46
 Inputs:
 ```
+
+## pin to unstable
+
+- https://discourse.nixos.org/t/how-to-pin-nix-registry-nixpkgs-to-release-channel/14883
+- https://github.com/NixOS/flake-registry/issues/16
