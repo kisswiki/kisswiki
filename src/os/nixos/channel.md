@@ -123,3 +123,11 @@ https://discourse.nixos.org/t/what-do-i-risk-by-using-nixos-unstable/16195/4
 
 - https://discourse.nixos.org/t/specifying-unstable-commit-directly-in-configuration-nix/3366
 - [Pinning nixpkgs in configuration.nix? · Issue #62832 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/62832)
+
+## release
+
+If I understand how the channel process works, they do already. Hydra builds the channel, once the configured jobset passes the commit that was built is then pushed to the appropriate branch as well as published as a channel tarball. By that I mean that e.g. the nixos-21.11 branch is updated at the same time as the nixos-21.11 channel.
+
+My guess is the source for each channel is the equivalently-named release-_ branch, e.g. release-21.11 is presumably what feeds into the nixos-21.11_ channels. So if you were to point at flake at the release branch you’d get the release channel equivalent of pointing at master (e.g. if you don’t want to wait for hydra).
+
+https://discourse.nixos.org/t/future-of-channels-and-channels-nixos-org-in-a-flakes-world/11563/10
