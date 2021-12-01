@@ -1,0 +1,629 @@
+```bash
+$ sudo nix-channel --add https://nixos.org/channels/nixos-21.11 nixos
+$ nixos-available-updates.sh
+NetworkManager-openvpn-gnome: 1.8.12 → 1.8.16, +19.7 KiB
+acl: 2.3.0 → ∅, -117.2 KiB
+adwaita-icon-theme: 40.1.1 → ∅, -24458.6 KiB
+adwaita-qt: ∅ → 1.4.0, +1111.2 KiB
+alsa-lib: 1.2.4 → ∅, -1572.3 KiB
+alsa-plugins: 1.2.2 → 1.2.5
+alsa-topology-conf: 1.2.4 → ∅, -336.1 KiB
+alsa-ucm-conf: 1.2.4 → ∅, -200.2 KiB
+alsa-utils: 1.2.4 → 1.2.5.1, +142.5 KiB
+appstream: 0.14.3 → 0.14.4, +224.2 KiB
+at-spi2-core: 2.40.1 → ∅, -1341.6 KiB
+atkmm: 2.28.0 → ∅, -451.3 KiB
+atomicparsley: 20210124.204813.840499f → 20210715.151551.e7ad03a
+attr: 2.4.48 → ∅, -99.6 KiB
+aws-c-auth: ∅ → 0.6.5, +322.6 KiB
+aws-c-cal: 0.4.5 → 0.5.11
+aws-c-common: 0.5.5 → 0.6.14, +45.3 KiB
+aws-c-compression: ∅ → 0.2.14, +30.9 KiB
+aws-c-http: ∅ → 0.6.8, +504.1 KiB
+aws-c-io: 0.9.1 → 0.10.12
+aws-c-mqtt: ∅ → 0.7.8, +163.2 KiB
+aws-c-s3: ∅ → 0.1.27, +135.9 KiB
+aws-c-sdkutils: ∅ → 0.1.1, +56.2 KiB
+aws-crt-cpp: ∅ → 0.17.0, +818.0 KiB
+aws-sdk-cpp: 1.8.121 → 1.9.121, +260.9 KiB
+babl: 0.1.86 → 0.1.88
+baobab: 40.0 → 41.0, +50.5 KiB
+bash: 4.4-p23 → ∅, -1304.9 KiB
+bash-interactive: 4.4-p23 → ∅, -5354.6 KiB
+binutils: 2.35.1 → 2.35.2, +21.4 KiB
+binutils-wrapper: 2.35.1 → 2.35.2
+bluez: 5.58 → ∅, -10817.8 KiB
+boehm-gc: 8.0.4 → 8.0.6, +11.7 KiB
+btrfs-progs: 5.11.1 → 5.14.1, +155.1 KiB
+bubblewrap: 0.4.1 → 0.5.0, +11.8 KiB
+bundler: 2.1.4 → 2.2.24, -46.6 KiB
+busybox-static-x86_64-unknown-linux-musl: 1.32.1 → 1.34.1, +28.0 KiB
+c-blosc: 1.20.1 → 1.21.0, +58.0 KiB
+cairomm: 1.12.2 → ∅, -238.5 KiB
+calibre: 5.17.0 → 5.31.1, +772.9 KiB
+cheese: 3.38.0 → 41.1, +97.2 KiB
+coreutils: 8.32 → ∅, -1627.3 KiB
+crda: 3.18 → ∅, -244.8 KiB
+cryptsetup: 2.3.5 → ∅, -2488.2 KiB
+cups: 2.3.3 → ∅, -13125.4 KiB
+curl: 7.76.1 → ∅, -894.9 KiB
+dav1d: 0.8.2 → ∅, -1354.0 KiB
+dbus-glib: 0.110 → ∅, -252.6 KiB
+diffutils: 3.7 → 3.8, +100.2 KiB
+dleyna-connector-dbus: 0.3.0 → 0.4.1
+dleyna-core: 0.6.0 → 0.7.0, -30.1 KiB
+dleyna-renderer: 0.6.0 → 0.7.2
+dleyna-server: 0.6.0 → 0.7.2
+docker: 20.10.7 → 20.10.9, ε, -44.5 KiB
+docker-buildx: 0.5.1 → 0.6.3, +3575.3 KiB
+docker-compose: ∅ → 2.0.1, +28105.1 KiB
+docker-containerd: 20.10.7 → 20.10.9, -1589.4 KiB
+docker-init: 20.10.7 → 20.10.9
+docker-runc: 20.10.7 → 20.10.9, +529.5 KiB
+dual-function-keys: 1.1.0 → 1.4.0, +15.0 KiB
+e2fsprogs: 1.46.2 → 1.46.4, +16.9 KiB
+elfutils: 0.182 → ∅, -3502.1 KiB
+enchant: 2.2.15 → 2.3.1
+eog: 40.2 → 41.0, +17.3 KiB
+epiphany: 40.2 → 41.0, +1201.2 KiB
+epoxy: 1.5.4 → ∅, -1785.7 KiB
+ethtool: 5.4 → 5.15, +166.1 KiB
+evince: 40.1 → 41.3, +95.4 KiB
+evolution-data-server: 3.40.4 → 3.42.1, +52.9 KiB
+exiv2: 0.27.4 → 0.27.5
+expat: 2.2.10 → ∅, -221.0 KiB
+fdk-aac: 2.0.1 → ∅, -1647.3 KiB
+ffmpeg: 4.4 → ∅, -24880.4 KiB
+file: 5.39 → ∅, -6735.9 KiB
+findutils: 4.7.0 → 4.8.0
+flatpak: 1.10.2 → 1.12.2, +186.9 KiB
+fluidsynth: 2.0.6 → 2.2.3, +81.6 KiB
+folks: 0.15.2 → 0.15.3, +13.4 KiB
+fontconfig: 2.13.92 → ∅, -2186.5 KiB
+freerdp: 2.3.2 → 2.4.1, +40.7 KiB
+freetype: 2.10.4 → ∅, -1898.3 KiB
+fuse: 3.10.3 → 3.10.5, +8.3 KiB
+gamin: 0.1.10 → ∅, -190.0 KiB
+gawk: 5.1.0 → ∅, -2127.9 KiB
+gcr: 3.40.0 → 3.41.0, +45.8 KiB
+gdbm: 1.19 → ∅, -681.3 KiB
+gdl: 3.34.0 → ∅, -1079.9 KiB
+gdm: 40.0 → 41.0, +62.3 KiB
+gegl: 0.4.30 → 0.4.32, +433.4 KiB
+getent: 1003.1-2008 → ∅
+getent-glibc: ∅ → 2.33-56
+gexiv2: 0.12.2 → 0.14.0, +46.8 KiB
+gfbgraph: 0.2.4 → 0.2.5
+gimp: 2.10.24 → 2.10.28, -365.6 KiB
+git: 2.31.1 → 2.33.1, +2742.5 KiB
+gjs: 1.68.1 → 1.70.0, +105.7 KiB
+glib: 2.68.4 → ∅, -13160.6 KiB
+glib-networking: 2.68.1 → 2.70.0, +31.3 KiB
+glibc: 2.32-54 → ∅, -32970.9 KiB
+glibc-iconv: 2.32 → 2.33
+glibc-locales: 2.32-54 → 2.33-56
+glibmm: 2.64.5 → ∅, -4189.7 KiB
+glmark2: 2017-09-01 → 2021.02, +389.3 KiB
+glu: 9.0.1 → 9.0.2
+gnome-autoar: 0.3.2 → 0.4.1, -144.8 KiB
+gnome-backgrounds: 40.1 → 41.0, -5291.9 KiB
+gnome-calculator: 40.1 → 41.0, +85.1 KiB
+gnome-calendar: 40.2 → 41.1, +152.7 KiB
+gnome-characters: 40.0 → 41.0
+gnome-clocks: 40.0 → 41.0, +25.7 KiB
+gnome-connections: 40.0.1 → 41.1, +225.7 KiB
+gnome-contacts: 40.0 → 41.0, +18.1 KiB
+gnome-control-center: 40.0 → 41.1, +628.5 KiB
+gnome-desktop: 40.1 → 41.1, +8.3 KiB
+gnome-disk-utility: 40.1 → 41.0, +68.1 KiB
+gnome-font-viewer: 40.0 → 41.0, +42.3 KiB
+gnome-initial-setup: 40.1 → 41.0, +24.0 KiB
+gnome-maps: 40.1 → 41.1, +1461.1 KiB
+gnome-music: 40.0 → 41.0, -406.4 KiB
+gnome-online-accounts: 3.40.0 → 3.40.1
+gnome-remote-desktop: 40.1 → 41.1, +192.4 KiB
+gnome-screenshot: 40.0 → 41.0, -38.8 KiB
+gnome-settings-daemon: 40.0.1 → 41.0, +282.4 KiB
+gnome-shell: 40.1 → 41.1, +165.5 KiB
+gnome-shell-extension-appindicator: 37 → ∅, -110.2 KiB
+gnome-shell-extension-appindicator-support: ∅ → 41, +165.2 KiB
+gnome-shell-extensions: 40.1 → 41.0
+gnome-system-monitor: 40.1 → 41.0, +113.5 KiB
+gnome-terminal: 3.40.1 → 3.42.1, +158.6 KiB
+gnome-user-docs: 40.1 → 41.0, +282.8 KiB
+gnome-weather: 40.0 → 41.0, +12.6 KiB
+gnugrep: 3.6 → ∅, -818.1 KiB
+gnum4: 1.4.18 → ∅, -533.5 KiB
+gnutls: 3.7.1 → ∅, -2912.1 KiB
+gobject-introspection: 1.68.0 → ∅, -1529.4 KiB
+gperftools: 2.8.1 → 2.9.1, +82.9 KiB
+gpgme: 1.15.1 → 1.16.0, +8.4 KiB
+gptfdisk: 1.0.7 → 1.0.8
+grilo: 0.3.13 → 0.3.14
+grilo-plugins: 0.3.13 → 0.3.14, +34.1 KiB
+gsettings-desktop-schemas: 40.0 → ∅, -4679.6 KiB
+gsl: 2.6 → 2.7, +158.7 KiB
+gsound: 1.0.2 → 1.0.3
+gssdp: 1.2.3 → 1.4.0.1, -144.5 KiB
+gtk+: 2.24.32 → 2.24.33, +119.6 KiB
+gtk+3: 3.24.27 → ∅, -37202.0 KiB
+gtk-frdp: 3.37.1-unstable-2020-10-26 → ∅, -82.7 KiB
+gtk-frdp-unstable: ∅ → 2021-10-01, +85.4 KiB
+gtk-vnc: 1.2.0 → 1.3.0
+gtk4: 4.2.1 → 4.4.1, -305.0 KiB
+gtkmm: 3.24.4 → ∅, -8084.2 KiB
+gtksourceview: 4.8.1 → 4.8.2, +24.9 KiB
+gtkspell: 3.0.10 → ∅, -137.0 KiB
+gupnp: 1.2.4 → 1.4.0, -428.9 KiB
+gupnp-av: 0.12.11 → 0.14.0, -24.8 KiB
+gupnp-dlna: 0.10.5 → 0.12.0, -40.1 KiB
+gusb: 0.3.5 → 0.3.7
+gzip: 1.10 → ∅, -145.7 KiB
+harfbuzz: 2.8.0 → ∅, -2064.3 KiB
+harfbuzz-icu: 2.8.0 → 3.0.0, +129.0 KiB
+hdf5: 1.10.7, 1.12.0 → 1.10.6, 1.12.1, -2335.3 KiB
+htop: 3.0.5 → 3.1.1, +50.2 KiB
+hwinfo: 21.73 → 21.76, +209.0 KiB
+imagemagick: 7.1.0-13 → 7.1.0-16, +82.4 KiB
+inkscape: 1.0.2 → 1.1.1, +1517.0 KiB
+interception-tools: 0.2.1 → 0.6.7, +144.0 KiB
+iproute2: 5.12.0 → 5.14.0, +55.2 KiB
+iputils: 20210202 → 20210722
+json-glib: 1.6.2 → ∅, -994.4 KiB
+kexec-tools: 2.0.20 → ∅, -228.4 KiB
+kmod: 27 → ∅, -328.7 KiB
+kmod-blacklist: 22-1.1ubuntu1 → 28-1ubuntu4
+ldc: 1.25.1 → 1.27.1, +3709.5 KiB
+ldc-bootstrap: 1.19.0 → 1.25.0, +6309.6 KiB
+less: 563 → 596, +25.3 KiB
+lesspipe: ∅ → 1.85, +250.4 KiB
+lib2geom: ∅ → 1.1, +2021.4 KiB
+libGL: 1.3.3 → ∅
+libXfixes: 5.0.3 → ∅, -34.4 KiB
+libXfont2: 2.0.4 → 2.0.5
+libXft: 2.3.3 → ∅, -120.7 KiB
+libXi: 1.7.10 → ∅, -74.5 KiB
+libaom: 3.1.0 → 3.2.0, +118.4 KiB
+libapparmor: 3.0.1 → ∅, -444.1 KiB
+libass: 0.15.1 → ∅, -243.4 KiB
+libblockdev: 2.25 → 2.26
+libbluray: 1.2.1 → 1.3.0, +9.2 KiB
+libbsd: 0.10.0 → 0.11.3
+libbytesize: 2.5 → 2.6
+libcap: 2.48 → ∅, -145.8 KiB
+libcxx: 12.0.1 → ∅, -3247.9 KiB
+libcxxabi: 12.0.1 → ∅, -814.5 KiB
+libdazzle: 3.40.0 → 3.42.0, +9.3 KiB
+libdeflate: 1.7 → ∅, -280.9 KiB
+libdrm: 2.4.105 → ∅, -467.2 KiB
+libdvdcss: 1.4.2 → 1.4.3
+libdvdnav: 6.1.0 → 6.1.1
+libdvdread: 6.1.1 → 6.1.2
+libedit: 20210216-3.1 → 20210714-3.1
+libffi: 3.3 → ∅, -54.7 KiB
+libfido2: 1.7.0 → ∅, -970.8 KiB
+libglvnd: 1.3.3 → ∅, -2556.4 KiB
+libgpg-error: 1.41 → ∅, -731.7 KiB
+libgrss: 0.7.0 → ∅, -198.0 KiB
+libgudev: 236 → 237
+libhandy: 1.2.2 → 1.5.0, +154.6 KiB
+libidn: 1.36 → 1.38, -37.6 KiB
+libidn2: 2.3.1 → ∅, -235.1 KiB
+libimagequant: 2.14.1 → 2.15.1
+libimobiledevice: 1.3.0 → ∅, -767.8 KiB
+libimobiledevice-unstable: ∅ → 2021-06-02, +774.2 KiB
+libinput: 1.16.4 → 1.19.1, +40.1 KiB
+libjack2: 1.9.17 → ∅, -605.8 KiB
+libjpeg-turbo: 2.0.6 → ∅, -1493.5 KiB
+libksba: 1.5.0 → 1.5.1
+liblouis: 3.17.0 → 3.19.0, +320.4 KiB
+liblqr: ∅ → 1-0.4.2, +108.4 KiB
+libmbim: 1.24.6 → 1.26.0, +127.7 KiB
+libmd: ∅ → 1.0.3, +111.3 KiB
+libmediaart: 1.9.4 → 1.9.5, -14.8 KiB
+libmtp: 1.1.18 → 1.1.19, +68.1 KiB
+libmusicbrainz: 5.1.0 → ∅, -1058.7 KiB
+libnatpmp: ∅ → 20150609, +52.3 KiB
+libndp: 1.7 → 1.8, +8.8 KiB
+libnftnl: 1.1.9 → ∅, -291.7 KiB
+libnma: 1.8.30 → 1.8.32
+libogg: 1.3.4 → ∅, -44.8 KiB
+libopenmpt: ∅ → 0.5.11, +2035.7 KiB
+libpcap: 1.10.0 → ∅, -1088.3 KiB
+libplacebo: 3.120.3 → 4.157.0, +75.3 KiB
+libpsl: 0.21.0 → ∅, -111.9 KiB
+libqmi: 1.28.2 → 1.30.2, +262.5 KiB
+libreelec-dvb-firmware: ∅ → 1.4.2, +9169.0 KiB
+libressl: 3.2.5 → 3.4.1, +2480.9 KiB
+librsvg: 2.50.5 → ∅, -16824.0 KiB
+libseccomp: 2.5.1 → ∅, -148.1 KiB
+libsigc++: 2.10.6 → ∅, -1170.2 KiB
+libsoup: 2.72.0 → ∅, -2914.6 KiB
+libsrtp: 2.3.0 → 2.4.2, -20.7 KiB
+libssh: 0.8.9 → ∅, -750.1 KiB
+libssh2: 1.9.0 → ∅, -287.0 KiB
+libtasn1: 4.16.0 → ∅, -92.2 KiB
+libtiff: 4.2.0 → ∅, -695.4 KiB
+libunwind: 12.0.1 → ∅, -485.5 KiB
+libupnp: 1.14.6 → 1.14.12
+liburing: 2.0 → 2.1, +25.7 KiB
+libusbmuxd: 2.0.2 → ∅, -149.7 KiB
+libusbmuxd-unstable: ∅ → 2021-02-06, +149.9 KiB
+libuv: 1.41.0 → 1.42.0
+libva: 2.11.0 → ∅, -302.8 KiB
+libvlc: 3.0.12 → 3.0.16, +1625.7 KiB
+libvpx: 1.10.0 → ∅, -7457.6 KiB
+libwacom: 1.9 → 1.12, +44.0 KiB
+libxcrypt: ∅ → 4.4.18, +243.1 KiB
+libxkbcommon: 1.3.0 → ∅, -551.4 KiB
+libyaml-cpp: 0.6.3 → 0.7.0, +14.2 KiB
+linux-headers: 5.12 → 5.14, +116.4 KiB
+llvm: ∅ → 13.0.0, +370637.4 KiB
+lm-sensors: ∅ → 3.6.0, +566.1 KiB
+lowdown: 0.9.2 → 0.10.0, +28.5 KiB
+luajit: 2.1.0-2020-12-28, 2.1.0-2020-12-28-luv-1.30.0-0 → 2.1.0-2021-10-27, 2.1.0-2021-10-27-luv-1.42.0-0, +185.2 KiB
+luit: 20190106 → ∅, -98.9 KiB
+lvm2-with-dmeventd: ∅ → 2.03.12, +6466.6 KiB
+lvm2with-dmeventd: 2.03.12 → ∅, -6467.8 KiB
+mailcap: 2.1.52 → 2.1.53
+mariadb-connector-c: 3.1.12 → 3.2.3, +97.6 KiB
+mesa: 21.1.4 → ∅, +20100.9 KiB
+miniupnpc: ∅ → 1.9.20160209, +224.7 KiB
+mkpasswd: 5.5.8 → 5.5.10
+mobile-broadband-provider-info: 20201225 → 20210805
+moby: 20.10.7 → 20.10.9, +12.3 KiB
+modem-manager: 1.14.12 → ∅, -10141.1 KiB
+modemmanager: ∅ → 1.18.2, +11474.7 KiB
+mount: 1003.1-2008 → ∅
+mount-util-linux: ∅ → 2.37.2
+mpg123: 1.26.5 → 1.28.2, +104.2 KiB
+mpv: 0.33.1 → 0.34.0, +156.6 KiB
+mpv-with-scripts: 0.33.1 → 0.34.0
+msgpack: 3.2.0 → 3.3.0
+mutter: 40.1 → 41.1, +243.9 KiB
+nano: 5.7 → 5.9, +87.7 KiB
+nautilus: 40.1 → 41.1, -224.2 KiB
+ncdu: 1.15.1 → 1.16
+neovim: 0.4.4 → 0.5.1, +38.5 KiB
+neovim-unwrapped: 0.4.4 → 0.5.1, +1822.0 KiB
+network-manager-applet: 1.22.0 → 1.24.0, -45.5 KiB
+networkmanager: 1.30.6 → 1.32.12, +232.5 KiB
+nftables: ∅ → 1.0.0, +994.4 KiB
+nilfs-utils: 2.2.7 → 2.2.8
+nix: 2.4pre20211006_53e4794 → 2.4, 2.5pre20211126_55275fc, +15151.9 KiB
+nix-bash-completions: ∅ → 0.6.8, +57.6 KiB
+nodejs: 16.11.1 → 16.13.0, +83.7 KiB
+noto-fonts-emoji: 2020-09-16-unicode13.1 → 2.034, -44.2 KiB
+nspr: 4.30 → ∅, -679.0 KiB
+nss: 3.64, 3.71 → ∅, -8186.0 KiB
+nss-cacert: ∅ → 3.71, 3.71-p11kit, +846.7 KiB
+nvd: 0.1.1 → 0.1.2
+obs-studio: 26.1.2 → 27.0.1, +53472.4 KiB
+ocl-icd: ∅ → 2.3.1, +281.7 KiB
+onig: 6.9.6 → 6.9.7.1, +16.9 KiB
+openal-soft: 1.19.1 → 1.21.1, -62.9 KiB
+openblas: 0.3.13 → 0.3.17, +227.0 KiB
+opencv: 4.5.2 → 4.5.4, +1467.3 KiB
+openelec-dvb-firmware: 0.0.51 → ∅, -10001.3 KiB
+openssh: 8.6p1 → 8.8p1, +117.0 KiB
+orca: 40.0 → 41.0, +157.6 KiB
+ostree: 2021.1 → 2021.4, +21.2 KiB
+p11-kit: 0.23.22 → ∅, -3574.5 KiB
+pango: 1.48.4 → ∅, -822.0 KiB
+pangomm: 2.42.2 → ∅, -295.6 KiB
+pavucontrol: 4.0 → 5.0, +166.6 KiB
+pcre2: 10.36 → ∅, -1759.6 KiB
+pcsclite: 1.9.1 → 1.9.4
+perl: 5.32.1 → ∅, -53058.3 KiB
+perl5.32.1-Authen-SASL: 2.16 → ∅, -76.0 KiB
+perl5.32.1-CGI: 4.51 → ∅, -314.9 KiB
+perl5.32.1-CGI-Fast: 2.15 → ∅, -13.1 KiB
+perl5.32.1-Cpanel-JSON-XS: 4.25 → ∅, -216.4 KiB
+perl5.32.1-DBD-SQLite: 1.66 → ∅, -400.4 KiB
+perl5.32.1-DBI: 1.643 → ∅, -1738.2 KiB
+perl5.32.1-Digest-HMAC: 1.03 → ∅, -8.9 KiB
+perl5.32.1-Encode-Locale: 1.05 → ∅, -15.1 KiB
+perl5.32.1-FCGI: 0.79 → ∅, -80.1 KiB
+perl5.32.1-FCGI-ProcManager: 0.28 → ∅, -27.6 KiB
+perl5.32.1-File-BaseDir: 0.08 → ∅, -16.5 KiB
+perl5.32.1-File-DesktopEntry: 0.22 → ∅, -27.2 KiB
+perl5.32.1-File-Listing: 6.14 → ∅, -17.0 KiB
+perl5.32.1-File-MimeInfo: 0.30 → ∅, -79.1 KiB
+perl5.32.1-File-Slurp: 9999.32 → ∅, -33.5 KiB
+perl5.32.1-HTML-Parser: 3.75 → ∅, -146.3 KiB
+perl5.32.1-HTML-TagCloud: 0.38 → ∅, -12.8 KiB
+perl5.32.1-HTML-Tagset: 3.20 → ∅, -15.7 KiB
+perl5.32.1-HTTP-Cookies: 6.09 → ∅, -40.3 KiB
+perl5.32.1-HTTP-Daemon: 6.01 → ∅, -26.2 KiB
+perl5.32.1-HTTP-Date: 6.05 → ∅, -15.0 KiB
+perl5.32.1-HTTP-Message: 6.26 → ∅, -137.6 KiB
+perl5.32.1-HTTP-Negotiate: 6.01 → ∅, -19.2 KiB
+perl5.32.1-IO-HTML: 1.004 → ∅, -22.2 KiB
+perl5.32.1-IO-Socket-SSL: 2.068 → ∅, -453.9 KiB
+perl5.32.1-IPC-System-Simple: 1.30 → ∅, -36.5 KiB
+perl5.32.1-Image-ExifTool: 12.16 → ∅, -14034.5 KiB
+perl5.32.1-JSON: 4.02 → ∅, -171.4 KiB
+perl5.32.1-LWP-MediaTypes: 6.04 → ∅, -58.8 KiB
+perl5.32.1-Mozilla-CA: 20200520 → ∅, -221.4 KiB
+perl5.32.1-Net-DBus: 1.2.0 → ∅, -477.8 KiB
+perl5.32.1-Net-HTTP: 6.19 → ∅, -37.5 KiB
+perl5.32.1-Net-SMTP-SSL: 1.04 → ∅
+perl5.32.1-Net-SSLeay: 1.88 → ∅, -1160.4 KiB
+perl5.32.1-String-ShellQuote: 1.04 → ∅, -16.3 KiB
+perl5.32.1-TermReadKey: 2.38 → ∅, -43.7 KiB
+perl5.32.1-Test-Fatal: 0.016 → ∅, -18.0 KiB
+perl5.32.1-Test-Needs: 0.002006 → ∅, -11.1 KiB
+perl5.32.1-Test-RequiresInternet: 0.05 → ∅
+perl5.32.1-TimeDate: 2.33 → ∅, -88.1 KiB
+perl5.32.1-Try-Tiny: 0.30 → ∅, -23.2 KiB
+perl5.32.1-URI: 5.05 → ∅, -147.6 KiB
+perl5.32.1-WWW-RobotRules: 6.02 → ∅, -18.5 KiB
+perl5.32.1-X11-Protocol: 0.56 → ∅, -244.4 KiB
+perl5.32.1-XML-Parser: 2.46 → ∅, -433.2 KiB
+perl5.32.1-XML-Twig: 3.52 → ∅, -502.6 KiB
+perl5.32.1-libnet: 3.12 → ∅, -212.0 KiB
+perl5.32.1-libwww-perl: 6.49 → ∅, -289.5 KiB
+perl5.34.0-Authen-SASL: ∅ → 2.16, +76.0 KiB
+perl5.34.0-CGI: ∅ → 4.51, +314.9 KiB
+perl5.34.0-CGI-Fast: ∅ → 2.15, +13.1 KiB
+perl5.34.0-Cpanel-JSON-XS: ∅ → 4.25, +216.4 KiB
+perl5.34.0-DBD-SQLite: ∅ → 1.66, +400.3 KiB
+perl5.34.0-DBI: ∅ → 1.643, +1738.2 KiB
+perl5.34.0-Digest-HMAC: ∅ → 1.03, +8.9 KiB
+perl5.34.0-FCGI: ∅ → 0.79, +80.1 KiB
+perl5.34.0-FCGI-ProcManager: ∅ → 0.28, +27.6 KiB
+perl5.34.0-File-Slurp: ∅ → 9999.32, +33.5 KiB
+perl5.34.0-HTML-TagCloud: ∅ → 0.38, +12.8 KiB
+perl5.34.0-IO-Socket-SSL: ∅ → 2.068, +453.9 KiB
+perl5.34.0-Image-ExifTool: ∅ → 12.29, +14167.8 KiB
+perl5.34.0-JSON: ∅ → 4.02, +171.4 KiB
+perl5.34.0-Mozilla-CA: ∅ → 20200520, +478.8 KiB
+perl5.34.0-Net-SMTP-SSL: ∅ → 1.04
+perl5.34.0-Net-SSLeay: ∅ → 1.88, +1159.8 KiB
+perl5.34.0-String-ShellQuote: ∅ → 1.04, +16.3 KiB
+perl5.34.0-TermReadKey: ∅ → 2.38, +43.7 KiB
+perl5.34.0-libnet: ∅ → 3.12, +212.0 KiB
+phonenumber: 8.11.3 → 8.12.37, +1636.7 KiB
+plymouth-unstable: 2020-12-07 → 2021-10-18, +35.0 KiB
+polkit: 0.118 → ∅, -560.8 KiB
+postgresql: 11.13 → 13.4, +269.1 KiB
+power-profiles-daemon: 0.8.1 → 0.10.1, +16.8 KiB
+powertop: 2.13 → 2.14, +8.1 KiB
+ppp: 2.4.8 → 2.4.9, +24.0 KiB
+protobuf: 3.16.0 → 3.19.0, +1614.7 KiB
+ps: 1003.1-2008 → ∅
+ps-procps: ∅ → 3.3.16
+publicsuffix-list: 2019-05-24 → ∅, -215.1 KiB
+python3: 3.8.11 → ∅, -61384.2 KiB
+python3.8-Bottleneck: 1.3.2 → ∅, -499.1 KiB
+python3.8-Markdown: 3.3.4 → ∅, -529.9 KiB
+python3.8-Pillow: 8.3.2 → ∅, -2523.8 KiB
+python3.8-PyQt5: 5.15.2 → ∅, -28323.2 KiB
+python3.8-PyQt5_sip: 12.8.1 → ∅, -191.9 KiB
+python3.8-PyQtWebEngine: 5.15.4 → ∅, -875.4 KiB
+python3.8-SQLAlchemy: 1.3.23 → ∅, -8952.9 KiB
+python3.8-apsw: 3.33.0-r1 → ∅, -354.7 KiB
+python3.8-beautifulsoup4: 4.9.3 → ∅, -923.6 KiB
+python3.8-brotli: 1.0.9 → ∅, -839.6 KiB
+python3.8-cchardet: 2.1.7 → ∅, -371.9 KiB
+python3.8-certifi: 2021.05.30 → ∅, -267.5 KiB
+python3.8-chardet: 4.0.0 → ∅, -1451.0 KiB
+python3.8-css-parser: 1.0.6 → ∅, -1252.6 KiB
+python3.8-cssselect: 1.1.0 → ∅, -107.5 KiB
+python3.8-dbus-python: 1.2.16 → ∅, -616.7 KiB
+python3.8-defusedxml: 0.7.1 → ∅, -104.7 KiB
+python3.8-dnspython: 2.1.0 → ∅, -1351.3 KiB
+python3.8-dogtail: 0.9.11 → ∅, -760.8 KiB
+python3.8-et_xmlfile: 1.0.1 → ∅, -75.1 KiB
+python3.8-feedparser: 6.0.2 → ∅, -369.1 KiB
+python3.8-greenlet: 1.0.0 → ∅, -343.2 KiB
+python3.8-gst-python: 1.18.4 → ∅, -99.0 KiB
+python3.8-html2text: 2020.1.16 → ∅, -138.9 KiB
+python3.8-html5-parser: 0.4.9 → ∅, -502.2 KiB
+python3.8-html5lib: 1.1 → ∅, -866.1 KiB
+python3.8-idna: 3.1 → ∅, -476.8 KiB
+python3.8-ifaddr: 0.1.7 → ∅, -39.2 KiB
+python3.8-jdcal: 1.4.1 → ∅, -34.5 KiB
+python3.8-lxml: 4.6.3 → ∅, -5248.9 KiB
+python3.8-mechanize: 0.4.5 → ∅, -689.5 KiB
+python3.8-mock: 4.0.3 → ∅, -190.4 KiB
+python3.8-msgpack: 1.0.2 → ∅, -276.2 KiB
+python3.8-netifaces: 0.10.9 → ∅, -39.7 KiB
+python3.8-numexpr: 2.7.3 → ∅, -553.7 KiB
+python3.8-numpy: 1.20.2 → ∅, -28169.4 KiB
+python3.8-odfpy: 1.4.1 → ∅, -1036.4 KiB
+python3.8-olefile: 0.46 → ∅, -176.8 KiB
+python3.8-openpyxl: 3.0.7 → ∅, -1668.8 KiB
+python3.8-packaging: 20.9 → ∅, -209.9 KiB
+python3.8-pandas: 1.2.3 → ∅, -63517.8 KiB
+python3.8-pbr: 5.5.1 → ∅, -537.5 KiB
+python3.8-pyatspi: 2.38.1 → ∅, -517.1 KiB
+python3.8-pycairo: 1.20.0 → ∅, -313.6 KiB
+python3.8-pycryptodome: 3.10.1 → ∅, -4959.6 KiB
+python3.8-pygobject: 3.40.1 → ∅, -769.2 KiB
+python3.8-pynvim: 0.4.3 → ∅, -241.2 KiB
+python3.8-pyparsing: 2.4.7 → ∅, -511.0 KiB
+python3.8-pyqt-builder: 1.6.0 → ∅, -12858.5 KiB
+python3.8-pysocks: 1.7.1 → ∅, -78.2 KiB
+python3.8-python-dateutil: 2.8.1 → ∅, -632.4 KiB
+python3.8-pytz: 2021.1 → ∅, -1148.5 KiB
+python3.8-pyxdg: 0.27 → ∅, -306.6 KiB
+python3.8-regex: 2021.3.17 → ∅, -1476.7 KiB
+python3.8-requests: 2.25.1 → ∅, -337.7 KiB
+python3.8-scipy: 1.6.1 → ∅, -71702.1 KiB
+python3.8-scour: 0.38.2 → ∅, -304.8 KiB
+python3.8-setproctitle: 1.2.2 → ∅, -39.0 KiB
+python3.8-setuptools: 54.2.0 → ∅, -3479.2 KiB
+python3.8-sgmllib3k: 1.0.0 → ∅, -37.1 KiB
+python3.8-sip: 5.5.0 → ∅, -1869.6 KiB
+python3.8-six: 1.15.0 → ∅, -66.6 KiB
+python3.8-soupsieve: 2.2.1 → ∅, -212.3 KiB
+python3.8-tables: 3.6.1 → ∅, -7451.9 KiB
+python3.8-toml: 0.10.2 → ∅, -98.9 KiB
+python3.8-urllib3: 1.26.4 → ∅, -727.1 KiB
+python3.8-webencodings: 0.5.1 → ∅, -62.2 KiB
+python3.8-xlrd: 2.0.1 → ∅, -583.4 KiB
+python3.8-xlwt: 1.3.0 → ∅, -750.6 KiB
+python3.8-youtube-dl: 2021.06.06 → ∅, -10841.5 KiB
+python3.8-zeroconf: 0.31.0 → ∅, -398.5 KiB
+python3.9-Bottleneck: ∅ → 1.3.2, +467.0 KiB
+python3.9-Markdown: ∅ → 3.3.4, +529.2 KiB
+python3.9-Pillow: ∅ → 8.3.2, +2523.8 KiB
+python3.9-PyQt5: ∅ → 5.15.4, +26073.2 KiB
+python3.9-PyQt5_sip: ∅ → 12.9.0, +191.9 KiB
+python3.9-PyQtWebEngine: ∅ → 5.15.4, +761.1 KiB
+python3.9-SQLAlchemy: ∅ → 1.4.27, +11267.1 KiB
+python3.9-apsw: ∅ → 3.33.0-r1, +355.0 KiB
+python3.9-beautifulsoup4: ∅ → 4.10.0, +619.8 KiB
+python3.9-brotli: ∅ → 1.0.9, +839.5 KiB
+python3.9-brotlicffi: ∅ → 1.0.9.2, +94.6 KiB
+python3.9-cchardet: ∅ → 2.1.7, +372.0 KiB
+python3.9-certifi: ∅ → 2021.10.08, +273.9 KiB
+python3.9-cffi: ∅ → 1.14.6, +850.0 KiB
+python3.9-chardet: ∅ → 4.0.0, +1449.1 KiB
+python3.9-charset-normalizer: ∅ → 2.0.5, +229.9 KiB
+python3.9-css-parser: ∅ → 1.0.6, +1251.5 KiB
+python3.9-cssselect: ∅ → 1.1.0, +107.4 KiB
+python3.9-dbus-python: ∅ → 1.2.18, +610.9 KiB
+python3.9-defusedxml: ∅ → 0.7.1, +104.7 KiB
+python3.9-dnspython: ∅ → 2.1.0, +1350.8 KiB
+python3.9-dogtail: ∅ → 0.9.11, +749.4 KiB
+python3.9-et_xmlfile: ∅ → 1.0.1, +61.7 KiB
+python3.9-feedparser: ∅ → 6.0.8, +364.3 KiB
+python3.9-greenlet: ∅ → 1.1.2, +374.5 KiB
+python3.9-gst-python: ∅ → 1.18.4, +98.4 KiB
+python3.9-html2text: ∅ → 2020.1.16, +138.9 KiB
+python3.9-html5-parser: ∅ → 0.4.10, +508.3 KiB
+python3.9-html5lib: ∅ → 1.1, +865.2 KiB
+python3.9-idna: ∅ → 3.2, +455.2 KiB
+python3.9-ifaddr: ∅ → 0.1.7, +39.2 KiB
+python3.9-jdcal: ∅ → 1.4.1, +34.6 KiB
+python3.9-jeepney: ∅ → 0.7.1, +319.9 KiB
+python3.9-lxml: ∅ → 4.6.3, +5239.8 KiB
+python3.9-mechanize: ∅ → 0.4.7, +689.0 KiB
+python3.9-msgpack: ∅ → 1.0.2, +276.2 KiB
+python3.9-mutagen: ∅ → 1.45.1, +1311.0 KiB
+python3.9-netifaces: ∅ → 0.11.0, +39.9 KiB
+python3.9-numexpr: ∅ → 2.7.3, +553.4 KiB
+python3.9-numpy: ∅ → 1.21.2, +26647.9 KiB
+python3.9-odfpy: ∅ → 1.4.1, +1032.3 KiB
+python3.9-olefile: ∅ → 0.46, +176.4 KiB
+python3.9-openpyxl: ∅ → 3.0.9, +1658.8 KiB
+python3.9-packaging: ∅ → 20.9, +209.9 KiB
+python3.9-pandas: ∅ → 1.3.3, +57028.8 KiB
+python3.9-pyatspi: ∅ → 2.38.1, +515.9 KiB
+python3.9-pycairo: ∅ → 1.20.1, +313.6 KiB
+python3.9-pycparser: ∅ → 2.20, +940.2 KiB
+python3.9-pycryptodomex: ∅ → 3.11.0, +5024.1 KiB
+python3.9-pygobject: ∅ → 3.42.0, +769.1 KiB
+python3.9-pynvim: ∅ → 0.4.3, +241.2 KiB
+python3.9-pyparsing: ∅ → 2.4.7, +510.6 KiB
+python3.9-pyqt-builder: ∅ → 1.10.1, +12954.7 KiB
+python3.9-pysocks: ∅ → 1.7.1, +78.4 KiB
+python3.9-python-dateutil: ∅ → 2.8.2, +655.0 KiB
+python3.9-python-dbusmock: ∅ → 0.19, +317.4 KiB
+python3.9-pytz: ∅ → 2021.3, +1146.3 KiB
+python3.9-regex: ∅ → 2021.11.10, +1500.1 KiB
+python3.9-requests: ∅ → 2.26.0, +344.1 KiB
+python3.9-scipy: ∅ → 1.7.1, +70873.7 KiB
+python3.9-scour: ∅ → 0.38.2, +303.8 KiB
+python3.9-setproctitle: ∅ → 1.2.2, +39.0 KiB
+python3.9-setuptools: ∅ → 57.2.0, +3725.2 KiB
+python3.9-sgmllib3k: ∅ → 1.0.0, +37.1 KiB
+python3.9-sip: ∅ → 6.1.1, +3307.9 KiB
+python3.9-six: ∅ → 1.16.0, +67.6 KiB
+python3.9-soupsieve: ∅ → 2.2.1, +212.0 KiB
+python3.9-tables: ∅ → 3.6.1, +7431.6 KiB
+python3.9-toml: ∅ → 0.10.2, +98.9 KiB
+python3.9-urllib3: ∅ → 1.26.7, +736.3 KiB
+python3.9-webencodings: ∅ → 0.5.1, +62.1 KiB
+python3.9-websockets: ∅ → 10.0, +589.9 KiB
+python3.9-xlrd: ∅ → 2.0.1, +582.8 KiB
+python3.9-xlwt: ∅ → 1.3.0, +749.5 KiB
+python3.9-yt-dlp: ∅ → 2021.11.10.1, +13092.3 KiB
+python3.9-zeroconf: ∅ → 0.36.13, +506.8 KiB
+qgnomeplatform: ∅ → 0.8.0, +700.7 KiB
+qtbase: 5.15.2 → 5.15.3, +1058.8 KiB
+qtdeclarative: 5.15.2 → 5.15.3, +31.2 KiB
+qtlocation: 5.15.2 → 5.15.3, -5383.1 KiB
+qtmultimedia: 5.15.2 → 5.15.3
+qtquickcontrols: 5.15.2 → 5.15.3
+qtsvg: 5.15.2 → 5.15.3
+qtwayland: 5.15.2 → 5.15.3, +213.3 KiB
+qtwebchannel: 5.15.2 → 5.15.3
+qtwebengine: 5.15.3-a059e74 → 5.15.7-v5.15.7, +81.4 KiB
+qtx11extras: 5.15.2 → 5.15.3
+readline: 7.0p5 → ∅, -1234.8 KiB
+ripgrep: 12.1.1 → 13.0.0, -60.8 KiB
+rtmpdump: 2019-03-30 → ∅, -941.7 KiB
+rtmpdump-unstable: ∅ → 2019-03-30, +942.1 KiB
+rtw89-firmware-unstable: 2021-07-03 → 2021-10-21, +77.1 KiB
+ruby2.7.4-msgpack: 1.2.6 → 1.4.2, +38.7 KiB
+ruby2.7.4-multi_json: 1.13.1 → 1.15.0
+ruby2.7.4-neovim: 0.8.0 → 0.8.1
+rygel: 0.40.1 → 0.40.2, +11.1 KiB
+s2n-tls: 1.0.0 → 1.0.17, +301.8 KiB
+samba: 4.14.4 → 4.15.1, +1989.0 KiB
+seahorse: 40.0 → 41.0, +54.7 KiB
+shaderc: 2020.2 → 2021.0, +531.9 KiB
+shared-mime-info: 1.13.1 → 2.1, +240.6 KiB
+simple-scan: 40.0 → 40.6, +56.3 KiB
+snappy: 1.1.8 → ∅, -51.3 KiB
+sof-firmware: 1.7 → 1.9, +2064.7 KiB
+source-code-pro: 2.030 → 2.038, -182.6 KiB
+source-sans: ∅ → 3.046, +7499.5 KiB
+source-sans-pro: 3.006 → ∅, -6552.5 KiB
+spidermonkey: 78.11.0 → ∅, -33128.4 KiB
+sqlite: 3.35.5 → ∅, -1365.7 KiB
+srt: 1.4.2 → ∅, -5843.3 KiB
+sstp-client: 1.0.13 → 1.0.16
+strongswan: 5.8.1 → 5.9.4, +85.0 KiB
+sudo: 1.9.7 → 1.9.7p2
+suitesparse: 5.9.0 → 5.10.1
+sushi: 3.38.0 → 41.0, +23.1 KiB
+sysprof: 3.40.1 → 3.42.1, +34.0 KiB
+systemd: 247.6 → ∅, -27087.2 KiB
+systemd-minimal: 247.6 → ∅, -10359.1 KiB
+t1lib: ∅ → 5.1.2, +1260.1 KiB
+tdb: 1.4.3 → 1.4.5
+texinfo-interactive: 6.7 → 6.8, +210.5 KiB
+totem: 3.38.0 → 3.38.2
+totem-pl-parser: 3.26.5 → 3.26.6, -265.3 KiB
+tracker: 3.1.1 → ∅, -3465.5 KiB
+tracker-miners: 3.1.1 → 3.2.1, -72.4 KiB
+tree-sitter: ∅ → 0.20.0, +12914.0 KiB
+unbound: 1.13.1 → ∅, -976.2 KiB
+unifont: 13.0.05 → 14.0.01
+upower: 0.99.11 → 0.99.13, -11.2 KiB
+util-linux: 2.36.2 → ∅, -24085.3 KiB
+vpnc-scripts-unstable: ∅ → 2021-09-24, +38.8 KiB
+vte: 0.64.1 → 0.64.2
+vulkan-loader: 1.2.162.0 → ∅, -463.7 KiB
+wayland-protocols: 1.21 → ∅, -428.9 KiB
+webkitgtk: 2.32.4 → 2.34.1, +123442.9 KiB
+wildmidi: 0.4.3 → 0.4.4
+wireless-regdb: 2021.04.21 → 2021.08.28
+x264: 20191217-2245 → ∅, -2353.3 KiB
+xdg-desktop-portal: 1.8.1 → 1.10.1, +51.8 KiB
+xdg-desktop-portal-gnome: ∅ → 41.1, +780.2 KiB
+xdg-desktop-portal-gtk: 1.8.0 → 1.10.0, -422.6 KiB
+xeyes: 1.1.2 → 1.2.0, +9.8 KiB
+xf86-input-libinput: 1.0.1 → 1.2.0
+xf86-video-amdgpu: 19.1.0 → 21.0.0
+xfsprogs: 5.11.0 → 5.13.0, +10.4 KiB
+xkeyboard-config: 2.31 → ∅, -5668.8 KiB
+xl2tpd: 1.3.15 → 1.3.16
+xorg-server: 1.20.11 → 1.20.13, +8.2 KiB
+xorgproto: 2021.3 → ∅, -1332.0 KiB
+xrdb: 1.2.0 → 1.2.1
+xsel-unstable: 2020-05-27 → ∅, -47.5 KiB
+xterm: 367 → 370, +8.9 KiB
+xvidcore: 1.3.5 → ∅, -735.5 KiB
+xwayland: 21.1.1 → 21.1.3
+yelp: 40.0 → 41.1, -23.8 KiB
+yelp-xsl: 40.0 → 41.0
+zenity: 3.32.0 → 3.41.0, +4094.9 KiB
+zimg: 3.0.1 → 3.0.3
+zstd: 1.4.9 → ∅, -922.5 KiB
+$ sudo nixos-rebuild switch
+```
