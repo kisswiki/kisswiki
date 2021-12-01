@@ -26,6 +26,7 @@
   - [lorri - Your project's nix env (NixCon 2019) - YouTube](https://www.youtube.com/watch?v=WtbW0N8Cww4)
   - https://www.youtube.com/watch?v=WtbW0N8Cww4
   - lorri vs flakes https://github.com/target/lorri/issues/460
+- https://blog.ysndr.de/posts/guides/2021-12-01-nix-shells/
 
 ## nodejs, npm
 
