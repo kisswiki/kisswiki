@@ -92,3 +92,52 @@ https://www.reddit.com/r/NixOS/comments/i3cz4d/comment/g0i8vgr/
 instead import e.g. in `let` area via a variable
 
 https://stackoverflow.com/questions/66124085/how-to-find-the-commit-a-nix-channel-points-to/66720361#66720361
+
+## libuuid
+
+```
+Error: libuuid.so.1: cannot open shared object file: No such file or directory
+    at Module._extensions..node (node:internal/modules/cjs/loader:1183:18)
+    at Object.nodeDevHook [as .node] (/home/roman/projects/codecharm/nexus/node_modules/node-dev/lib/hook.js:60:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/roman/projects/codecharm/nexus/node_modules/canvas/lib/bindings.js:3:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.nodeDevHook [as .js] (/home/roman/projects/codecharm/nexus/node_modules/node-dev/lib/hook.js:60:7)
+[ERROR] 15:16:31 Error: libuuid.so.1: cannot open shared object file: No such file or directory
+```
+
+Solution:
+
+shell.nix:
+
+```
+{ pkgs ? import <nixpkgs> { } }:
+with pkgs; mkShell {
+  name = "node-dev-shell";
+  # Attributes aren't interpolated by the shell, so $LD_LIBRARY_PATH ends up verbatim in your environment. You could remove it (if no users of this expr need it) or convert it to an export statement in shellHook, which runs as regular bash, including interpolation. https://stackoverflow.com/questions/69953573/nodejs-headless-gl-null-in-nixos/69953610?noredirect=1#comment123682825_69953610
+  # https://github.com/albertgoncalves/ranim/blob/e59ee646c155fefba69b6f3b9aaad0402d360c2e/shell.nix#L37
+  # test with `echo $LD_LIBRARY_PATH` after entering with nix-shell
+  APPEND_LIBRARY_PATH = "${libuuid.out}/lib:${lib.makeLibraryPath [ libGL libuuid ]}";
+  shellHook = ''
+    export LD_LIBRARY_PATH="$APPEND_LIBRARY_PATH:$LD_LIBRARY_PATH"
+  '';
+}
+```
+
+```bash
+$ nix-shell
+
+$ echo $LD_LIBRARY_PATH | tr ':' '\n'
+/nix/store/8pj8n7g8cfbbra79lmhc93nk5nv92drk-util-linux-2.37.2/lib
+/nix/store/5icl3gj83q5ar5klx2lc61qyll669inw-libGL-1.3.4/lib
+/nix/store/yxflij8cg4fgnzqmda91jx4d94jvkjf5-util-linux-2.37.2-lib/lib
+/nix/store/ikh86qfbsi23iajdpbrf642q6v612cw8-telepathy-glib-0.24.2/lib
+/nix/store/m8bmifhlakz1mlsz37ki6cwfw2nxry66-telepathy-logger-0.8.2/lib
+```
+
+- https://discourse.nixos.org/t/node2nix-issues/10762/2
+- https://github.com/Automattic/node-canvas/issues/1893
