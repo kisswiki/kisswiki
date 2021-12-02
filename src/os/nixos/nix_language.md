@@ -11,6 +11,9 @@
 - https://nixos.wiki/wiki/Nix_by_example
 - lints and suggestions for the nix programming language https://github.com/nerdypepper/statix
   - https://www.reddit.com/r/NixOS/comments/qh47fz/statix_lints_and_suggestions_for_the_nix/
+- https://tvl.fyi/blog/rewriting-nix
+  - a tiny type-checker for data in Nix, written in Nix https://code.tvl.fyi/tree/nix/yants/README.md
+  - a CGI programming library for the Nix expression language https://code.tvl.fyi/tree/web/bubblegum/README.md
 
 ## Use double quotes for string
 
