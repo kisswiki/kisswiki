@@ -197,3 +197,30 @@ ochoseis
 IIUC, it’s more nuanced than that. The shared library would be specified as a dependency to the packages that rely on it. Pushing a fix to the library would trigger a rebuild of all the downstream packages during the next upgrade. This also means updates to a popular dependency will cause long upgrades.
 
 https://news.ycombinator.com/item?id=25194553
+
+## Multiple versions of jdk etc.
+
+sjustinas
+
+Both jdk11 and jdk (16) produce an executable called java (and some others). When you put packages in environment.systemPackages, you are saying "symlink all executables in these packages to /run/current-system/sw/bin. Obviously, two files with the same name can not exist in one directory.
+
+The good thing about NixOS is that you do not need to "install" stuff into the global environment. Use nix-shell -p jdk and you'll have JDK executables in your $PATH, temporarily. You can either:
+
+- Remove the one you use less frequently from systemPackages and use nix-shell for the other.
+- Remove both from systemPackages and always use nix-shell as needed.
+
+ysndr
+
+Its due to the way nix builds your system. (With some indirections) nix will link the contents of /nix/store/xxxx-PACKAGE/{bin,share,lib} to the bin, share, lib, etc folder in the system derivation. This happens for all installed packages! Thats where "collisions" can occur. Take for example your jdk11 and jdk16: for both nix will try to link /nix/store/xxxx-jdk{11,16}/bin/jar -> /nix/store/xxxx-system/sw/bin/jar which obviously isn’t possible. Nix can choose to prefer one over the other and warn you as you can see in your post.
+
+This is also the reason you can't have two versions of the same thing installed at the same time.
+
+Keep the one you would use as a default, like on any other linux.
+
+> but didn't nix promise to allow different versions of things to coexists?
+
+Yes, this is you can have multiple versions of the same thing in the store.
+
+Using nix shell/nix run/nix develop you can make these available in your current terminal session. Using nix flakes for your projects even allows you to automate this on a project basis. If you accept the shameless plug you can read about those tools in this [post](https://blog.ysndr.de/posts/guides/2021-12-01-nix-shells/).
+
+https://www.reddit.com/r/NixOS/comments/r6tsrv/what_can_i_do_with_the_collisions_when_rebuild/
