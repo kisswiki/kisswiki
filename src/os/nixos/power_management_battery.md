@@ -1,1 +1,1 @@
-- https://discourse.nixos.org/t/thinkpad-t470s-power-management/8141/4
+- https://discourse.nixos.org/t/desync-between-scalling-governeror-and-gnome-power-profile/16387
