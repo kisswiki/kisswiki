@@ -188,3 +188,11 @@ Inputs:
 
 - https://discourse.nixos.org/t/how-to-pin-nix-registry-nixpkgs-to-release-channel/14883
 - https://github.com/NixOS/flake-registry/issues/16
+
+## registry
+
+For the record at this point, this is how I am dealing with nix path and registry.
+
+Extra feature: It allows me to browse my flake inputs code via /etc/nix/inputs/xyz
+
+https://discourse.nixos.org/t/i-feel-like-nix-path-creates-more-issues-than-it-fixes/12110/15
