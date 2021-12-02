@@ -81,3 +81,9 @@ nix-repl> with builtins; foldl' (x: y: x + y) 0 [1 2 3]
 ```
 
 https://nixos.org/manual/nix/unstable/expressions/builtins.html
+
+## global mutable state
+
+Nix suffers from a lot of global mutable state access
+
+https://www.reddit.com/r/NixOS/comments/r6ykln/comment/hmxkffk/
