@@ -97,3 +97,9 @@ I wrote [Vivarium](
 - A wlroots and dwl based tiling wayland compositor based around creating layoutshttps://github.com/werererer/japokwm
   - https://github.com/djpohly/dwl
 - https://news.ycombinator.com/item?id=28796959
+
+## VR
+
+Wayland (more specifically XWayland) doesn't support the rigging needed in order to have the SteamVR compositor yank a display for itself (specifically via the Vulkan extension VK_EXT_direct_mode_display), so it will probably never work until that is supported.
+
+https://christine.website/blog/nixos-vr-hell-2021-12-02
