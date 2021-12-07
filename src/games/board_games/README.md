@@ -22,3 +22,18 @@
 
 > A strange game; the only winning move is not to play
 > https://www.reddit.com/r/magicTCG/comments/92u125/what_is_the_best_way_to_play_mtg_online/e38hti1/
+
+## Misc
+
+- https://recommend.games/#/?playTime=60&playTimeType=max&complexityMin=2.5&complexityMax=4&cooperative=False&mechanic=2041&-layerCount=5&playerCountType=best
+- https://recommend.games/#/game/246663
+- https://www.reddit.com/r/boardgames/comments/3vq7t2/can_you_only_play_through_pandemic_legacy_once/
+- https://www.reddit.com/r/boardgames/comments/5ycy2w/can_you_play_a_legacy_game_a_second_time_with/
+- https://boardgamegeek.com/thread/2140255/sort-games-most-recent-play
+- https://boardgamegeek.com/thread/2206915/how-sort-collection-last-time-played
+- https://boardgamegeek.com/guild/2938
+- https://boardgamegeek.com/thread/1926460/boredgamertools-website-view-play-statistics
+- http://www.boredgamertools.com/index.php?period=-6%20months
+- https://github.com/ccomeaux/boardgamegeek4android
+- https://ontable.pl/
+- https://www.gamesfanatic.pl/2020/07/24/zaloga-w-poszukiwaniu-dziewiatej-planety-dopiero-teraz-ktos-na-to-wpadl/
