@@ -1,0 +1,2 @@
+- tools to perform penetration tests, security assessments and other tasks related to information security. https://github.com/fabaff/nix-security-box
+- a NixOS container pre-loaded with tools for security auditors, ethical hackers, CTF players and other people interested in infosec https://github.com/redcode-labs/RedNix
