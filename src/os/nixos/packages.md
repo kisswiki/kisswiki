@@ -224,3 +224,19 @@ Yes, this is you can have multiple versions of the same thing in the store.
 Using nix shell/nix run/nix develop you can make these available in your current terminal session. Using nix flakes for your projects even allows you to automate this on a project basis. If you accept the shameless plug you can read about those tools in this [post](https://blog.ysndr.de/posts/guides/2021-12-01-nix-shells/).
 
 https://www.reddit.com/r/NixOS/comments/r6tsrv/what_can_i_do_with_the_collisions_when_rebuild/
+
+## new packages
+
+Rule of Thumb #1: Any time you want to install some new program, service, or package, check if there's a NixOS module for it here: https://search.nixos.org/options (specifically Options, not Packages). If there is, use that in your configuration.nix and rebuild.
+
+If not, then search for it in Packages: https://search.nixos.org/packages. If it exists there, then add it to environment.systemPackages in configuration.nix and rebuild.
+
+If it's in neither you'll need to do one of the following:
+
+Package it yourself and add it to nixpkgs
+
+Submit a Packaging request for it.
+
+Spin up a container or VM with a traditional Linux and install it there.
+
+https://www.reddit.com/r/NixOS/comments/q7hpkg/comment/hgl4peg/
