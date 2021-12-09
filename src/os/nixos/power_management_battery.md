@@ -1,1 +1,2 @@
 - https://discourse.nixos.org/t/desync-between-scalling-governeror-and-gnome-power-profile/16387
+- https://discourse.nixos.org/t/cant-enable-tlp-when-upgrading-to-21-05/13435
