@@ -43,4 +43,4 @@ aberrantmoose
 
 I think `su -` requires you to input the root password. `sudo su -` either requires your own personal password or no password at all. Best practice: you don't know the root password.
 
-https://www.reddit.com/r/NixOS/comments/l95gm4/comment/glgorp9/?utm_source=reddit&utm_medium=web2x&context=3
+https://www.reddit.com/r/NixOS/comments/l95gm4/comment/glgorp9/

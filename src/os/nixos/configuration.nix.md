@@ -33,4 +33,4 @@ https://www.malloc47.com/migrating-to-nixos/
 
 Your configuration.nix is responsible for configuring and building a single derivation which is your Linux machine that you're using right now. So when you perform those overlays inside configuration,nix, you're only changing the outcome of that single derivation, which is your working machine.
 
-https://www.reddit.com/r/programming/comments/qg72gi/comment/hi78lr5/?utm_source=reddit&utm_medium=web2x&context=3
+https://www.reddit.com/r/programming/comments/qg72gi/comment/hi78lr5/
