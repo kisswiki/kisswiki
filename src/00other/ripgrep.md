@@ -171,3 +171,19 @@ You can satisfy this particular use case relatively easily with `rg foo | rg -v 
 - https://github.com/BurntSushi/ripgrep/issues/188
 - https://github.com/BurntSushi/ripgrep/issues/644
 - https://docs.rs/regex/1.5.4/regex/
+
+## search hidden files and directories
+
+```bash
+$ rg -uu 'portal,' -g '!node_modules'
+portal/.env
+54:MONGODB=mongodb://localhost/portal,
+$ rg --help | rg '^\s*\-u' -A 4
+    -u, --unrestricted
+            Reduce the level of "smart" searching. A single -u won't respect .gitignore
+            (etc.) files (--no-ignore). Two -u flags will additionally search hidden files
+            and directories (-./--hidden). Three -u flags will additionally search binary
+            files (--binary).
+```
+
+- https://github.com/BurntSushi/ripgrep/issues/1029#issuecomment-416120007
