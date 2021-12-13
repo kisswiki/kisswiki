@@ -39,3 +39,4 @@
 - https://studio3t.com/knowledge-base/articles/mongodb-query-performance/
 - https://docs.huihoo.com/mongodb/3.2/tutorial/manage-the-database-profiler.html
 - https://rockset.com/blog/handling-slow-queries-in-mongodb-part-1-investigation/
+- https://stackoverflow.com/questions/15204341/mongodb-logging-all-queries/33306973#33306973
