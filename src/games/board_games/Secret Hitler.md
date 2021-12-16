@@ -1,0 +1,6 @@
+- https://boardgamegeek.com/boardgame/188834/secret-hitler
+- https://boardgamegeek.com/filepage/142768/secret-hitler-wersja-pl-w-kolorze
+- https://boardgamegeek.com/thread/2749708/secret-hitler-xl-10-players-new-optional-roles-new
+- https://gamecows.com/pl/najlepsze-gry-planszowe-z-dedukcj%C4%85-spo%C5%82eczno%C5%9Bciow%C4%85/
+- https://boardgame.tips/the-best-board-games-for-more-than-6-players
+- https://www.gram.pl/artykul/2016/08/06/secret-hitler-dlaczego-musicie-w-to-zagrac.shtml

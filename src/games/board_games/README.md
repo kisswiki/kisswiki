@@ -37,3 +37,4 @@
 - https://github.com/ccomeaux/boardgamegeek4android
 - https://ontable.pl/
 - https://www.gamesfanatic.pl/2020/07/24/zaloga-w-poszukiwaniu-dziewiatej-planety-dopiero-teraz-ktos-na-to-wpadl/
+- https://wyjdziewgraniu.pl/5-przewag-planszowek-nad-grami-wideo-oraz-5-zalet-tych-drugich
