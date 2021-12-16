@@ -1,0 +1,12 @@
+- http://piotrnowinski.pl/wlasne-projekty/gry-planszowe/jak-profesjonalnie-przygotowac-karty-do-gry
+- https://atramentowka.com/najczesciej-zadawane-pytania-o-CISS
+- http://pandruczek.blogspot.com/2010/09/czym-sie-rozni-cmyk-od-rgb.html
+- https://www.bittbox.com/all/photoshop-101-true-black-cmyk
+- https://www.polishdruk.pl/podstrony/strona/karty-do-gry-z-wlasnym-nadrukiem
+- https://crdruk.pl/cart/
+- https://www.forumpc.pl/topic/435612-program-do-zrobienia-kart-do-gry/
+- https://cyfrus.pl/druk_kart_do_gry
+- https://www.mbprint.pl/druk-kart/
+- https://sklep.mbprint.pl/produkt/karty/
+- https://www.mbprint.pl/portfolio/komponenty/karty/
+- https://fabryka-kart.eu/pl/main
