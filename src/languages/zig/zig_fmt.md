@@ -4,7 +4,7 @@ Open bugs https://github.com/ziglang/zig/labels/zig%20fmt
 
 ## Bug 1
 
-This code will
+This code
 
 ```zig
 const DAYS_IN_MONTH = [12]u8{
