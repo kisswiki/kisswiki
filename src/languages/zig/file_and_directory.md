@@ -24,3 +24,21 @@ Using the writer, you can use it's `print` method to write to it in the same fas
 
 - https://www.reddit.com/r/Zig/comments/pdx1hh/how_do_i_create_files_and_folders_via_a_zig/
 - https://ziglearn.org/chapter-2/#filesystem
+
+## anytype for writer
+
+```zig
+const std = @import("std");
+
+fn writeFoo(w: anytype) !void {
+    _ = try w.write("foo");
+}
+
+pub fn main() !void {
+    const file = try std.fs.cwd().createFile("file.txt", .{});
+    defer file.close();
+    _ = try writeFoo(file);
+}
+```
+
+https://discord.com/channels/605571803288698900/605572581046747136/935644438573752330
