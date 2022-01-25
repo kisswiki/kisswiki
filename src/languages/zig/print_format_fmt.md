@@ -1,1 +1,2 @@
-https://ziglang.org/documentation/master/std/#std;fmt.format
+- https://ziglang.org/documentation/master/std/#std;fmt.format
+- https://github.com/ziglang/zig/blob/master/lib/std/fmt.zig
