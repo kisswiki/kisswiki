@@ -556,3 +556,16 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - [Zig ⚡ Pair Programming with Loris ⚡ Transitioning Redis to Zig ⚡ Part 1 on Vimeo](https://vimeo.com/519725401)
 - That article was the main inspiration for Zig's cache system https://github.com/ziglang/zig/issues/6082#issuecomment-675646147
   - https://apenwarr.ca/log/20181113
+- [An intro to Zig's integer casting for C programmers | Lager](https://www.lagerdata.com/articles/an-intro-to-zigs-integer-casting-for-c-programmers)
+- [Using Zig to Provide Stack Traces on Kernel Panic for a Bare Bones Operating System - Andrew Kelley](https://andrewkelley.me/post/zig-stack-traces-kernel-panic-bare-bones-os.html)
+- [Zig Crash Course - Gamedev Guide](https://ikrima.dev/dev-notes/zig/zig-crash-course/)
+- [Preventing integer overflow in Zig | Lager](https://www.lagerdata.com/articles/preventing-integer-overflow-in-zig)
+- [Learning Zig - first hour...](https://ciesie.com/post/zig_learning_01/)
+- [Has anyone else given Zig a serious try, only to get caught up in language debugging? | Handmade Network](https://hero.handmade.network/forums/code-discussion/t/7826-has_anyone_else_given_zig_a_serious_try,_only_to_get_caught_up_in_language_debugging)
+- [antirez/kilo: A text editor in less than 1000 LOC with syntax highlight and search.](https://github.com/antirez/kilo)
+- [Learning Zig - Day 2 - Harsh Shandilya](https://msfjarvis.dev/posts/learning-zig-day-2/)
+- [Zig Metaprogramming - Gamedev Guide](https://ikrima.dev/dev-notes/zig/zig-metaprogramming/)
+- [SymmetricalDataSecurity: Zig in 30 Minutes](http://symmetricaldatasecurity.blogspot.com/2021/01/zig-in-30-minutes.html)
+- [Zig in 30 Minutes | Hacker News](https://news.ycombinator.com/item?id=25618302)
+- [Zig Live Coding - Advent of Code 2018 Day 7 on Vimeo](https://vimeo.com/488248001)
+- [Zig Live Coding - “Hello World” x86 Kernel on Vimeo](https://vimeo.com/483928663)
