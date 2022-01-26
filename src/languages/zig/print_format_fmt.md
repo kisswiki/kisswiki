@@ -1,5 +1,6 @@
 - https://ziglang.org/documentation/master/std/#std;fmt.format
 - https://github.com/ziglang/zig/blob/master/lib/std/fmt.zig
+- https://zig.news/kristoff/where-is-print-in-zig-57e9
 
 ## How to print array?
 
