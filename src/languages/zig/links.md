@@ -232,6 +232,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://github.com/pjz/aoc-2020-zig
 - https://github.com/theInkSquid/aoc-2020
 - https://github.com/Sinitax/aoc-2020
+- https://github.com/LewisGaul/zig-aoc-2021
 
 ### Exercism
 
