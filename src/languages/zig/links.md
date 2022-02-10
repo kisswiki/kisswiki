@@ -232,7 +232,13 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://github.com/pjz/aoc-2020-zig
 - https://github.com/theInkSquid/aoc-2020
 - https://github.com/Sinitax/aoc-2020
+- https://github.com/SpexGuy/Advent2021
+- https://github.com/danslocombe/advent-of-code-2021
 - https://github.com/LewisGaul/zig-aoc-2021
+- https://www.reddit.com/r/Zig/comments/s60t8j/failing_to_learn_zig_via_advent_of_code/
+- https://www.reddit.com/r/Zig/comments/rpq2fp/a_review_of_the_zig_programming_language_using/
+  - https://github.com/sheredom/AOC2021
+- https://github.com/Bogdanp/awesome-advent-of-code#zig
 
 ### Exercism
 
