@@ -16,7 +16,9 @@ Copy to clipboard with one of below methods an then add it to https://github.com
 
 ### Mac OS
 
-`clip < ~/.ssh/id_rsa.pub`
+`pbcopy < ~/.ssh/id_rsa.pub`
+
+https://stackoverflow.com/questions/16638092/copying-a-rsa-public-key-to-clipboard/50696510#50696510
 
 ### Ubuntu
 
@@ -24,6 +26,7 @@ Copy to clipboard with one of below methods an then add it to https://github.com
 $ sudo apt install xsel
 $ xsel -b < ~/.ssh/id_rsa.pub
 ```
+
 https://askubuntu.com/questions/382767/how-to-pipe-dump-clipboard-contents-to-a-file/382775#382775
 
 ### Powershell
