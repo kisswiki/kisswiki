@@ -10,6 +10,7 @@ arm64
 
 - https://stackoverflow.com/questions/65342769/install-node-on-m1-mac/65449002#65449002
 - https://stackoverflow.com/questions/64002438/installing-node-lts-with-nvm-on-windows/65532065#65532065
+- there is also https://github.com/jasongin/nvs
 
 ## yarn
 
