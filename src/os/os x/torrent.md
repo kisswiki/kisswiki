@@ -1,0 +1,5 @@
+- Native apple silicon m1 arm https://build.transmissionbt.com/job/trunk-mac/
+- https://www.reddit.com/r/macapps/comments/riq51s/torrent_clients_for_mac/
+- https://isapplesiliconready.com/app/Transmission
+- qtbittorent https://github.com/qbittorrent/qBittorrent/issues/14379#issuecomment-831176881
+  - https://www.reddit.com/r/mac/comments/ltppxt/working_torrent_client_for_m1_macbook/
