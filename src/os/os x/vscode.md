@@ -1,0 +1,3 @@
+- https://formulae.brew.sh/cask/visual-studio-code
+- https://code.visualstudio.com/docs/setup/mac
+- https://stackoverflow.com/questions/42603103/how-to-completely-uninstall-vscode-on-mac
