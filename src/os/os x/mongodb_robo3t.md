@@ -18,13 +18,12 @@ I needed to install rosetta
 
 After that service was working and mongosh also.
 
-https://apple.stackexchange.com/questions/408375/zsh-bad-cpu-type-in-executable/408379#408379
+- https://apple.stackexchange.com/questions/408375/zsh-bad-cpu-type-in-executable/408379#408379
+- https://stackoverflow.com/questions/65357744/how-to-install-mongodb-on-apple-m1-chip
 
 ## robo3t with rosetta
 
 `softwareupdate --install-rosetta`
-
-and
 
 `brew install --cask robo-3t`
 
