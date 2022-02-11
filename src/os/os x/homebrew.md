@@ -1,3 +1,5 @@
+https://docs.brew.sh/Installation
+
 ## uninstall homebrew
 
 ```bash
@@ -36,7 +38,6 @@ brew cleanup <formula>
 ```
 
 https://docs.brew.sh/FAQ
-
 
 ## node & yarn
 
