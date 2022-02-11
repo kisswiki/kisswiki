@@ -1,0 +1,2 @@
+- https://www.reddit.com/r/MacOS/comments/slv3pn/list_of_my_favorite_20_macbook_apps_to_download/
+- https://www.reddit.com/r/MacOS/comments/s4hx3w/20_fun_productivity_apps_for_mac/
