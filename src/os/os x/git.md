@@ -1,4 +1,6 @@
-`brew install git`
+`brew install git git-gui`
+
+## Old
 
 in `~/.bash_profile`
 
@@ -14,7 +16,6 @@ fi
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1='\w$(__git_ps1 " (%s)")\$ '
 ```
-
 
 `source ~/.bash_profile`
 
