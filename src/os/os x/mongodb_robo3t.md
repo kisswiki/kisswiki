@@ -1,4 +1,4 @@
-## rosetta
+## mongodb with rosetta
 
 It should be possible to run the x86_64 binaries on M1 macbooks via Rosetta 2. Is there a reason that solution isn't available for you or doesn't meet your needs?
 
@@ -20,7 +20,11 @@ After that service was working and mongosh also.
 
 https://apple.stackexchange.com/questions/408375/zsh-bad-cpu-type-in-executable/408379#408379
 
-## robo3t
+## robo3t with rosetta
+
+`softwareupdate --install-rosetta`
+
+and
 
 `brew install --cask robo-3t`
 
@@ -28,4 +32,5 @@ If error "cannot be opened because the developer cannot be verified"
 
 `Finder > Applications > Robo3t > right click (two fingers) > Open`
 
-https://stackoverflow.com/questions/67986636/robo-3t-cannot-be-opened-because-the-developer-cannot-be-verified/71084965#71084965
+- https://doesitarm.com/app/robo-3t-formerly-robomongo/
+- https://stackoverflow.com/questions/67986636/robo-3t-cannot-be-opened-because-the-developer-cannot-be-verified/71084965#71084965
