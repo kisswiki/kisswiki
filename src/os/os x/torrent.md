@@ -1,5 +1,7 @@
 - Native apple silicon m1 arm https://build.transmissionbt.com/job/trunk-mac/
 - https://www.reddit.com/r/macapps/comments/riq51s/torrent_clients_for_mac/
 - https://isapplesiliconready.com/app/Transmission
+  - had problems with "Verify local data". qtbittorrent worked https://forum.transmissionbt.com/viewtopic.php?t=13372
 - qtbittorent https://github.com/qbittorrent/qBittorrent/issues/14379#issuecomment-831176881
   - https://www.reddit.com/r/mac/comments/ltppxt/working_torrent_client_for_m1_macbook/
+  - I have used this https://github.com/qbittorrent/qBittorrent/files/7855625/qBittorrent-4.4.0-qt5.15.2-macOS-arm64.dmg.zip via https://github.com/qbittorrent/qBittorrent/issues/14379#issuecomment-1011161876
