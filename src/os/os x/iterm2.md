@@ -18,4 +18,5 @@ https://apple.stackexchange.com/questions/337377/iterm2-split-vertically-with-cu
 
 `Preferences > Profiles > Default > Keys > Left Option key > Esc+`
 
-https://stackoverflow.com/questions/18923765/bash-keyboard-shortcuts-in-iterm-like-altd-and-altf/18925650#18925650
+- https://stackoverflow.com/questions/18923765/bash-keyboard-shortcuts-in-iterm-like-altd-and-altf/18925650#18925650
+- https://superuser.com/questions/84998/equivalent-alternatives-for-altdot-in-mac

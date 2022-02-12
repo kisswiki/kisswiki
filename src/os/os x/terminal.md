@@ -4,6 +4,8 @@
 
 Check `Use option as meta key` on the bottom
 
+- https://superuser.com/questions/84998/equivalent-alternatives-for-altdot-in-mac
+
 ### Old
 
 For os x terminal:
