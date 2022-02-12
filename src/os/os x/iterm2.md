@@ -13,3 +13,9 @@ https://superuser.com/questions/55459/how-to-get-vertical-split-of-terminal-in-m
 `Preferences > Profiles tab > Working Directory > Advanced Configuration > Working Directory for New Split Panes > Reuse previous session's directory`
 
 https://apple.stackexchange.com/questions/337377/iterm2-split-vertically-with-current-profile-with-same-working-directory/337386#337386
+
+## option as alt
+
+`Preferences > Profiles > Default > Keys > Left Option key > Esc+`
+
+https://stackoverflow.com/questions/18923765/bash-keyboard-shortcuts-in-iterm-like-altd-and-altf/18925650#18925650
