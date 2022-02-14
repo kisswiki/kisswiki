@@ -6,3 +6,24 @@ Gdy czytamy, że pierwsza z podstawowych zasad ZTD to "kolekcjonuj" (s. 14), czy
 Wyliczanie i omawianie wszystkich błędów tłumacza zajęłoby zbyt wiele miejsca, dlatego powiem tylko: tego nie da się czytać ze zrozumieniem bez bólu głowy. Jeśli znasz angielski, przeczytaj oryginał, jest dostępny bezpłatnie w internecie. Jeśli nie znasz, zaczekaj na lepsze tłumaczenie.
 
 https://lubimyczytac.pl/ksiazka/130550/zen-to-done/opinia/31162134#opinia31162134
+
+## Apps
+
+- https://gitjournal.io/
+  - https://github.com/GitJournal/GitJournal
+  - https://play.google.com/store/apps/details?id=io.gitjournal.gitjournal&pcampaignid=website
+  - https://apps.apple.com/us/app/gitjournal/id1466519634?uo=4
+  - https://alternativeto.net/software/gitjournal/
+- GitJournal, obisidian https://www.reddit.com/r/ObsidianMD/comments/o5itzj/is_there_an_android_app_that_can_sync_a_git/
+- https://github.com/wbrawner/SimpleMarkdown
+- https://gsantner.net/project/markor.html
+  - https://github.com/gsantner/markor
+  - https://play.google.com/store/apps/details?id=net.gsantner.markor
+- https://github.com/wbrawner/SimpleMarkdown
+- https://github.com/noties/Markwon
+- https://github.com/redsolver/noteless
+- https://jotterpad.app/
+- https://joplinapp.org/
+  - https://github.com/laurent22/joplin/
+  - https://alternativeto.net/software/joplin/about/
+- https://play.google.com/store/apps/details?id=com.orgzly
