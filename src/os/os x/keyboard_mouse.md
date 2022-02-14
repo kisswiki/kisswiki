@@ -1,0 +1,6 @@
+- 507.99 zł z dostawą https://allegro.pl/oferta/apple-magic-keyboard-a1644-magic-mouse-2-a1657-11817216724
+- 369 zł https://allegro.pl/oferta/logitech-line-friends-klawiatura-i-mysz-zestaw-b-10131429921
+- 349 zł https://www.komputronik.pl/product/735785/logitech-mx-keys-mini-grafitowy.html
+- https://www.lifewire.com/use-magic-keyboard-on-windows-pc-5197318
+- it drops the connect every time I either (1) allow the machine to go into sleep mode, or (2) don't use the mouse for about 10 minutes. After extensive support conversations with Apple they suggest this problem is on the Microsoft side, and I'm inclined to agree since the Apple bluetooth keyboard I'm using is working perfectly. https://answers.microsoft.com/en-us/surface/forum/all/arc-touch-wireless-bluetooth-mac/c77a9b3d-211a-4995-b5ef-a4751eaf3d89
+- https://apple.stackexchange.com/questions/313120/microsoft-arc-touch-mouse-doesnt-want-to-connect-in-macos-high-sierra
