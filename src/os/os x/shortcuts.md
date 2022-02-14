@@ -1,3 +1,5 @@
+- [Mac keyboard shortcuts - Apple Support](https://support.apple.com/en-us/HT201236)
+
 spotlight search `cmd+space`
 
 - https://support.apple.com/en-us/HT201236
@@ -20,3 +22,10 @@ https://apple.stackexchange.com/questions/49236/how-to-type-in-the-tilde-charact
 Pinch your thumb and three fingers together
 
 https://www.wikihow.com/Quickly-Open-the-Launchpad-on-a-Mac
+
+## Finder
+
+delete a file: cmd+delete
+
+- https://apple.stackexchange.com/questions/91168/command-delete-shortcut-is-not-working-for-me/91169#91169
+- https://apple.stackexchange.com/questions/16042/how-do-i-delete-a-file-from-my-desktop-using-keyboard/16043
