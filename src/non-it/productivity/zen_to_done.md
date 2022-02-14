@@ -1,6 +1,13 @@
-- https://zenhabits.net/minimal-ztd-the-simplest-system-possible/
 - https://zenhabits.net/zen-to-done-ztd-the-ultimate-simple-productivity-system/
-- Not everyone needs all aspects of GTD and this is not the only version of a reduced version. I also propose a streamlined version (http://donebeforebrekky.com/simply-getting-things-done/). In practice I could dispense with the Inbox and Reference list. Also I integrate the project idea into the remaining action lists simply by breaking them down into subtasks. I then end up with 3 tasklists, Someday, ASAP and Scheduled (equivalent of deferred). The flowchart for this can be seen and explained at the link given. https://www.reddit.com/r/productivity/comments/3jiees/comment/cus91cm/
+- https://zenhabits.net/minimal-ztd-the-simplest-system-possible/
+- Not everyone needs all aspects of GTD and this is not the only version of a reduced version. I also propose a streamlined version (https://web.archive.org/web/20150912111501/https://donebeforebrekky.com/simply-getting-things-done/). In practice I could dispense with the Inbox and Reference list. Also I integrate the project idea into the remaining action lists simply by breaking them down into subtasks. I then end up with 3 tasklists, Someday, ASAP and Scheduled (equivalent of deferred). The flowchart for this can be seen and explained at the link given. https://www.reddit.com/r/productivity/comments/3jiees/comment/cus91cm/
+
+## theXeffect
+
+- https://www.reddit.com/r/theXeffect/top/?t=year
+- https://i.redd.it/1wv4reqjbfv61.jpg
+
+![](./1wv4reqjbfv61.jpg)
 
 ## Recenzja polska
 
