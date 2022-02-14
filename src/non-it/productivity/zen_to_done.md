@@ -6,6 +6,10 @@
 - https://www.reddit.com/r/ticktick/comments/j8uxam/my_ticktick_workflow_keeping_things_as_simple_and/
 - https://www.reddit.com/r/gtd/comments/kur6d5/simplifiedminimalist_gtd/
 - http://markforster.squarespace.com/final-version-faqs/
+- https://betterhumans.pub/7-signs-show-its-time-to-see-a-psychologist-4d5c485ea70c
+- https://betterhumans.pub/optimise-your-life-to-limit-future-regrets-6bb52fd657c7
+- https://betterhumans.pub/to-achieve-your-aim-you-need-to-know-and-apply-your-principles-67e25965cc8e
+- https://betterhumans.pub/5-bulletproof-strategies-you-can-use-to-create-the-25th-hour-of-the-day-808667c6d3f1
 
 ## Youtube
 
@@ -27,6 +31,7 @@
 - [BRAIN HACKS to improve productivity and focus - YouTube](https://www.youtube.com/watch?v=4IHLOaYcBT4)
 - [How to CREATE YOUR OWN PRODUCTIVITY SYSTEM 2020|Building a productivity system that suits your needs - YouTube](https://www.youtube.com/watch?v=sCUaYctKoZI)
 - [The Eisenhower Matrix | How to Manage your Tasks Effectively (4 QUADRANTS OF TIME MANAGEMENT) - YouTube](https://www.youtube.com/watch?v=aMbc4vCLb5k)
+- [Why Working Hard Leads To FAILURE... | Seth Godin - YouTube](https://www.youtube.com/watch?v=77JWP1q7pWc)
 
 ## Recenzja polska
 
