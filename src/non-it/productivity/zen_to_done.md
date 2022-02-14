@@ -2,13 +2,6 @@
 - https://zenhabits.net/minimal-ztd-the-simplest-system-possible/
 - Not everyone needs all aspects of GTD and this is not the only version of a reduced version. I also propose a streamlined version (https://web.archive.org/web/20150912111501/https://donebeforebrekky.com/simply-getting-things-done/). In practice I could dispense with the Inbox and Reference list. Also I integrate the project idea into the remaining action lists simply by breaking them down into subtasks. I then end up with 3 tasklists, Someday, ASAP and Scheduled (equivalent of deferred). The flowchart for this can be seen and explained at the link given. https://www.reddit.com/r/productivity/comments/3jiees/comment/cus91cm/
 
-## theXeffect
-
-- https://www.reddit.com/r/theXeffect/top/?t=year
-- https://i.redd.it/1wv4reqjbfv61.jpg
-
-![](./1wv4reqjbfv61.jpeg)
-
 ## Recenzja polska
 
 W zasadzie nie tyle oceniam książkę, ile jej polski przekład. Tłumacz niestety nie zna dobrze języka polskiego, wiele zwrotów angielskich zostaje nieprzetłumaczonych - poczynając od samego tytułu, który nawet zdaniem autora książki musiał nie być jasny dla czytelnika amerykańskiego, skoro jego wyjaśnianiu poświęcił ponad stronę. Niestety, to wyjaśnienie dla polskiego czytelnika pozostaje całkiem niejasne, bo polega na tym, że autor wyjaśnia, dlaczego użył tego zwrotu, a nie któregoś z kilku innych zwrotów angielskich - ale żaden z tych zwrotów nie został przetłumaczony na język polski. Dodatkowo - wiele zdań w polskim przekładzie jest niezrozumiałych, bo to kalki z angielskiego, w dodatku z kiepską gramatyką (i nawet ortografią).
@@ -45,3 +38,10 @@ https://lubimyczytac.pl/ksiazka/130550/zen-to-done/opinia/31162134#opinia3116213
 The most common way that people fall off of the GTD wagon is failing to do the weekly review. In fact, you can implement a (very) barebones GTD system by ONLY doing a weekly review.
 
 https://www.reddit.com/r/productivity/comments/cu1r78/comment/exuqcui/
+
+## theXeffect
+
+- https://www.reddit.com/r/theXeffect/top/?t=year
+- https://i.redd.it/1wv4reqjbfv61.jpg
+
+![](./1wv4reqjbfv61.jpeg)
