@@ -1,6 +1,32 @@
 - https://zenhabits.net/zen-to-done-ztd-the-ultimate-simple-productivity-system/
 - https://zenhabits.net/minimal-ztd-the-simplest-system-possible/
+- https://community.effectiveremotework.com/t/the-abcs-of-leo-babautas-ztd-zen-to-done/3545
 - Not everyone needs all aspects of GTD and this is not the only version of a reduced version. I also propose a streamlined version (https://web.archive.org/web/20150912111501/https://donebeforebrekky.com/simply-getting-things-done/). In practice I could dispense with the Inbox and Reference list. Also I integrate the project idea into the remaining action lists simply by breaking them down into subtasks. I then end up with 3 tasklists, Someday, ASAP and Scheduled (equivalent of deferred). The flowchart for this can be seen and explained at the link given. https://www.reddit.com/r/productivity/comments/3jiees/comment/cus91cm/
+- https://medium.com/@jeffkirvin/simple-gtd-with-evernote-e9a97339ea00
+- https://www.reddit.com/r/ticktick/comments/j8uxam/my_ticktick_workflow_keeping_things_as_simple_and/
+- https://www.reddit.com/r/gtd/comments/kur6d5/simplifiedminimalist_gtd/
+- http://markforster.squarespace.com/final-version-faqs/
+
+## Youtube
+
+- [Minimal ZEN TO DONE Productivity System: Zen Habits 1-4 | ZTD | Leo Babauta - YouTube](https://www.youtube.com/watch?v=Z7rB_0fyLkY)
+- [What I Plan For Every Month | Stay Organized & Achieve Your Goals - YouTube](https://www.youtube.com/watch?v=lvxXd1W_bMk)
+- [Zen to Done | The Minimalist Productivity System (Simple!) - YouTube](https://www.youtube.com/watch?v=tDrNu72zhms)
+- [Minimal ZEN TO DONE Productivity System: Zen Habits 1-4 | ZTD | Leo Babauta - YouTube](https://www.youtube.com/watch?v=Z7rB_0fyLkY)
+- [ZEN TO DONE Productivity System: Zen Habits from Leo Babauta - YouTube](https://www.youtube.com/watch?v=qarqTERHP1c)
+- [Learn how to use Stephen Covey's 4 time quadrants to maximize your productivity - YouTube](https://www.youtube.com/watch?v=T7Ul5SfMjC8)
+- [HOW TO REVIEW YOUR WEEK - Weekly Checklist: 5 important questions you need to ask yourself weekly - YouTube](https://www.youtube.com/watch?v=XORR9RALpd4)
+- [How to INCREASE FOCUS AND CONCENTRATION - train general cognitive fitness (inspired by Cal Newport) - YouTube](https://www.youtube.com/watch?v=-tcJzDQtOVk)
+- [How to INCREASE FOCUS AND CONCENTRATION - train specific cognitive fitness (inspired by Cal Newport) - YouTube](https://www.youtube.com/watch?v=4tHHjBBcU6k)
+- [Implementing Atomic Habits - 3 simple changes that improved my life - YouTube](https://www.youtube.com/watch?v=yDfA4UQdjdw)
+- [HOW TO BE PRODUCTIVE when you feel lazy and tired - 7 tips for not wasting time - YouTube](https://www.youtube.com/watch?v=NOF5k4MMlbI)
+- [HOW TO GET WAY MORE DONE EVERY DAY: 10 tips to increase your productivity - YouTube](https://www.youtube.com/watch?v=XSS3hjPoN5I)
+- [5 BOOKS TO READ to increase your productivity in 2020 | 25 lessons from productivity books - YouTube](https://www.youtube.com/watch?v=I4luMi7cv5o)
+- [How to set up HOME OFFICE to increase PRODUCTIVITY in 2020 | habits and routines for work from home - YouTube](https://www.youtube.com/watch?v=3rccqUqI-AI)
+- [How to ACTUALLY Use Productivity Tips and Improve Your Life | Stop consuming and start achieving! - YouTube](https://www.youtube.com/watch?v=EzxtBJ1NLUM)
+- [BRAIN HACKS to improve productivity and focus - YouTube](https://www.youtube.com/watch?v=4IHLOaYcBT4)
+- [How to CREATE YOUR OWN PRODUCTIVITY SYSTEM 2020|Building a productivity system that suits your needs - YouTube](https://www.youtube.com/watch?v=sCUaYctKoZI)
+- [The Eisenhower Matrix | How to Manage your Tasks Effectively (4 QUADRANTS OF TIME MANAGEMENT) - YouTube](https://www.youtube.com/watch?v=aMbc4vCLb5k)
 
 ## Recenzja polska
 
@@ -32,12 +58,18 @@ https://lubimyczytac.pl/ksiazka/130550/zen-to-done/opinia/31162134#opinia3116213
   - https://alternativeto.net/software/joplin/about/
 - https://play.google.com/store/apps/details?id=com.orgzly
 - https://www.taskade.com/blog/ztd-zen-to-done-vs-getting-things-done-gtd/
+- http://www.habitbull.com/
+- https://www.thrivner.com/the-arena-app/zen-to-done-with-the-arena-app/
+- https://www.taskade.com/blog/ztd-zen-to-done-vs-getting-things-done-gtd/
+- https://zapier.com/blog/zen-to-done-productivity/
 
 ## Weekly review
 
 The most common way that people fall off of the GTD wagon is failing to do the weekly review. In fact, you can implement a (very) barebones GTD system by ONLY doing a weekly review.
 
 https://www.reddit.com/r/productivity/comments/cu1r78/comment/exuqcui/
+
+- https://lifehacker.com/the-weekly-review-how-one-hour-can-save-you-a-week-s-w-5908816
 
 ## theXeffect
 
