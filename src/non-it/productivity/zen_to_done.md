@@ -7,7 +7,7 @@
 - https://www.reddit.com/r/theXeffect/top/?t=year
 - https://i.redd.it/1wv4reqjbfv61.jpg
 
-![](./1wv4reqjbfv61.jpg)
+![](1wv4reqjbfv61.jpg)
 
 ## Recenzja polska
 
