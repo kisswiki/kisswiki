@@ -8,6 +8,11 @@ or better
 - https://apple.stackexchange.com/questions/288689/installed-mpv-with-brew-but-nothing-in-applications
 - https://github.com/mpv-player/mpv/issues/572#issuecomment-35679696
 
+## Native m1
+
+- https://github.com/mpv-player/mpv/issues/9232#issuecomment-925922864
+  - Requires XCode >= 13.1 https://github.com/mpv-player/mpv/issues/9232#issuecomment-952063467
+
 ## txt subtitle no loaded
 
 I have to use `mpv file.mp4 --sub-file file.txt`, and then press `j` in app to see subtitles.
