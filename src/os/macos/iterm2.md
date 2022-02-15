@@ -20,3 +20,8 @@ https://apple.stackexchange.com/questions/337377/iterm2-split-vertically-with-cu
 
 - https://stackoverflow.com/questions/18923765/bash-keyboard-shortcuts-in-iterm-like-altd-and-altf/18925650#18925650
 - https://superuser.com/questions/84998/equivalent-alternatives-for-altdot-in-mac
+
+## full disc access
+
+- https://apple.stackexchange.com/questions/341644/iterm2-accessibility-and-full-disk-access
+- https://gitlab.com/gnachman/iterm2/-/wikis/fulldiskaccess
