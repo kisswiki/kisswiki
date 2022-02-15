@@ -12,6 +12,7 @@ or better
 
 - https://github.com/mpv-player/mpv/issues/9232#issuecomment-925922864
   - Requires XCode >= 13.1 https://github.com/mpv-player/mpv/issues/9232#issuecomment-952063467
+  - https://www.reddit.com/r/mpv/comments/qt41pl/how_to_build_mpv_for_m1_macs_arm64/hkjjdi4/?utm_source=reddit&utm_medium=web2x&context=3
 
 ## txt subtitle no loaded
 
