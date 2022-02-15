@@ -1,0 +1,2 @@
+- https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
+- https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
