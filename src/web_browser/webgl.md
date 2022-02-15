@@ -1,2 +1,4 @@
 - http://oskarstalberg.com/game/planet/planet.html
 - http://jamie-wong.com/2016/08/05/webgl-fluid-simulation/
+- https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
+- https://webglfundamentals.org/webgl/lessons/resources/webgl-state-diagram.html
