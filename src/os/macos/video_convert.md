@@ -1,0 +1,8 @@
+- https://www.quora.com/Does-the-ProRes-accelerator-in-Apple-M1-chips-make-the-laptop-drastically-faster-than-Intel-chips-for-the-purposes-of-video-encoding-etc
+- https://www.reddit.com/r/macapps/comments/p5pp77/efficient_video_conversion_app_for_m1_mac/
+- https://forums.macrumors.com/threads/apple-silicon-video-converter.2269415/
+- https://www.reddit.com/r/mac/comments/r1z7tq/video_converter_for_macbook_air_m1/
+- https://www.reddit.com/r/mac/comments/p5polt/efficient_video_conversion_app_for_m1_mac/
+- https://apps.apple.com/us/app/compressor/id424390742?mt=12
+- https://forums.macrumors.com/threads/mac-mini-m1-h-265-encoding.2269815/
+- https://www.macworld.com/article/559816/prores-apple-silicon-mac-pro-export.html
