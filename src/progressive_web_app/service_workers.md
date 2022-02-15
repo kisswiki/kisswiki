@@ -1,1 +1,2 @@
-service_worker.md
+- service_worker.md
+- https://github.com/ThaUnknown/pwa-haven
