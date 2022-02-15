@@ -3,6 +3,7 @@
 spotlight search `cmd+space`
 
 - https://support.apple.com/en-us/HT201236
+- https://support.google.com/chrome/answer/157179#zippy=%2Ctab-and-window-shortcuts
 
 ## lock screen
 
