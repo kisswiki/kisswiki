@@ -386,6 +386,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 
 - https://github.com/ifreund/zig-pixman - bindings for pixman
 - https://github.com/ziglibs/painterz - Low-level implementation of different painting primitives (lines, rectangles, ...) without specialization on a certain draw target
+- https://github.com/fabioarnold/MiniPixel
 
 ## Audio/Sound
 
