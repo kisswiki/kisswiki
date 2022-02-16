@@ -113,6 +113,12 @@ I think it’s a Big Sur issue, it’s happening with other mouse brands too.
 
 https://www.reddit.com/r/MacOS/comments/ju9esq/bluetooth_mouse_skippinglagging_and_24hz_usb_mice/
 
+Bassguitarplayer
+
+No still a problem. My apple keyboard will disconnect from my apple computer. It’s a super strange and subpar Apple experience. Let’s not even get into the garbage AirPod first gen on apple computer experience. They suck.
+
+https://www.reddit.com/r/MacOS/comments/m5472k/comment/gqz5km4/
+
 ### Fix click
 
 Jeżeli Twoja mysz cierpi na dwuklik lub brak reakcji na klik, to dobrze trafiłeś.
