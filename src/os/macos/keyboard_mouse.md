@@ -24,6 +24,43 @@ in https://www.net-s.pl/
 
 Why "for Mac"? It has usb-c <-> usb-c instead of usb-c <-> usb-a. However it does not have usb unifying dongle. "for Mac" can be connected to Windows, although Logitech does not list it as supported on Windows.
 
+## Logitech Mx Master 3
+
+### Cons
+
+MUSIC VORTEX
+
+I bought the mx master 3 instead of the mm2 and i am now returning it. Although the design, custom buttons are good, the scroll is simply unbearable. It is not smooth at all, and when set to the free scroll option, it reacts to the smallest touch.
+
+Mr Greed's Gadgets
+
+dont understand why every review both written and on youtube fails to mention this. Apple Mac OS has SERIOUS issues with any 3rd party mice. The scrolling, lag when navigating, and connectivity issues (whether bluetooth or dongle) are present in pretty much every model across every major manufacturer (Logitech, Steelseries, Razer). Like you said the experience is not smooth at all. I have the Magic Trackpad 2 but will have to try the Magic Mouse 2 again with some of the Amazon released ergonomic addons to see if that will help the grip situation.
+
+[Magic Mouse 2 Vs Logitech MX Master 3](https://www.youtube.com/watch?v=kifmpti_byA)
+
+### Fix click
+
+Jeżeli Twoja mysz cierpi na dwuklik lub brak reakcji na klik, to dobrze trafiłeś.
+
+W myszkach zamontowano mikrostyki OMRON D2FC-F-7N(10M) przewidziane na circa 10 milionów kliknięć. Oferta obejmuje wymianę uszkodzonych mikrostyków LPM i PPM w myszkach Logitech na OMRON D2FC-F-7N(20M). Mikrostyki te przewidziano na 20 milionów kliknięć.
+
+Cena opiewa na oba mikrostyki z usługą serwisową. Za dopłatą 10 zł mikrostyki zostaną wymienione na 50M - 50 milionów kliknięć.
+
+Naprawiam też inne myszki Logitech, Razer, A4Tech, Asus, Steelseries, Apple, Mad Cats, Microsoft, Natec, Roccat...
+
+Dodatkowe usługi serwisowe ustalane indywidualnie:
+
+- wymiana mikrostyku rolki
+- wymiana mikrostyku parowania
+- wymiana ślizgaczy
+- wymiana bocznych przycisków - funkcyjnych
+- wymiana baterii
+- czyszczenie/przywracanie funkcjonalności po zalaniu
+- innne
+
+- https://allegro.pl/oferta/naprawa-dwukliku-logitech-mx-master-2-master-3-11012566759
+- https://allegro.pl/uzytkownik/jj_dzejkob
+
 - [Logitech MX Anywhere 3 vs MX Anywhere 3 for Mac](https://www.youtube.com/watch?v=HQFdUvFIE3I)
 
 ## Trackpad
