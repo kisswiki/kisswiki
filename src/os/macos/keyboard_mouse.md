@@ -26,6 +26,14 @@ Why "for Mac"? It has usb-c <-> usb-c instead of usb-c <-> usb-a. However it doe
 
 ## Logitech Mx Master 3
 
+### Pros
+
+gallanonim '
+
+polecam sobie ustawić ten scroll boczny na przybliżanie, działa fajnie
+
+[Warto Kupić Myszkę Logitech MX Master 3 i Klawiaturę MX Keys? Czemu Zrezygnowałem Ze Sprzętu Apple?❌](https://www.youtube.com/watch?v=Y4uBz-_yElY)
+
 ### Cons
 
 MUSIC VORTEX
@@ -37,6 +45,73 @@ Mr Greed's Gadgets
 dont understand why every review both written and on youtube fails to mention this. Apple Mac OS has SERIOUS issues with any 3rd party mice. The scrolling, lag when navigating, and connectivity issues (whether bluetooth or dongle) are present in pretty much every model across every major manufacturer (Logitech, Steelseries, Razer). Like you said the experience is not smooth at all. I have the Magic Trackpad 2 but will have to try the Magic Mouse 2 again with some of the Amazon released ergonomic addons to see if that will help the grip situation.
 
 [Magic Mouse 2 Vs Logitech MX Master 3](https://www.youtube.com/watch?v=kifmpti_byA)
+
+Arti Ikonowicz
+
+Nie polecam mx mastera. Nabawiłem się przez nia potwornych bóli w nadgarstku. Dopiero po pół roku używania z powrotem normalnej lekkiej myszki całkiem przeszły
+
+Marcin Wiatrak
+
+Miał ktoś może problem z MX 3, że po sparowaniu z MacBookiem (w moim przypadku Pro M1) myszka nie działa "płynnie"? Ma takie momenty, że przy wolnym przesuwaniu kursor potrafi się w ogóle nie przemieszczać + występują mikro przycięcia przy takim normalnym, codziennym użytkowaniu. Na kompie z Windowsem/Linuxem nie zaobserwowałem problemu
+
+Mar cin
+
+Mam taki sam problem. Udało Ci się jakoś go rozwiązać?
+
+[Warto Kupić Myszkę Logitech MX Master 3 i Klawiaturę MX Keys? Czemu Zrezygnowałem Ze Sprzętu Apple?❌](https://www.youtube.com/watch?v=Y4uBz-_yElY)
+
+andersvincentmusic
+
+I found a solution! I had it plugged into a usb hub that was fairly close to the computer(5cm) when I had issues with my dongle. Then I took a 3 meter usb cable, plugged one end to my usb hub and THEN plugged the other end to another usb hub, then I plugged the dongle into the second usb hub and voila, works just like a charm. My guess is that there is too much interference when the dongle is close to the computer, as someone else suggested earlier on.
+
+uncertain-ithink
+
+At least for you it works fine fine using the dongle. For me, I don't have problem-free connectivity with the receiver OR bluetooth. So no matter what I do, something will work shoddily. On macOS only. Windows through Bootcamp on the same machine in the same location with the same setup, is fine.
+
+Using bluetooth, the connection is just constantly slightly jerky. But usable. It's easiest to notice that the connection is wonky if I make small circular motions with the mouse. It's hard to make consistently-shaped circles. It like cuts out enough where it elongates the circle or shortens it/cuts corners slightly, etc. But the mouse doesn't disconnect. That's with bluetooth.
+
+When I use the unifying receiver, it works overall, better. But every 10-30 seconds, the mouse will lose connection. The lights on the mouse will turn on as it is trying to find a device to connect to. I will see that it briefly disconnects from LogiOptions.
+
+When I'm moving the mouse across the screen and this happens, the mouse will suddenly slow down and stop, and then JUMP 2-3 times to where it was supposed to go. It actually makes it really hard to get anything done sometimes because it takes so much conscious effort and patience to click things.
+
+This is on a totally clean install of macOS Big Sur.
+
+- https://www.reddit.com/r/MacOS/comments/jznk4o/anybody_else_have_logitech_mouse_issues_with/
+
+- [Interference between AirPods 3 and MX Mas… - Apple Community](https://discussions.apple.com/thread/253534920)
+  - https://www.iphonetricks.org/how-to-fix-macos-monterey-audio-cutting-out/
+
+redditisonomatopoeic
+
+Use the dongle that came with the mouse, and get the Options+ SW/Driver.
+
+The BT chipset residing in Macs are not capable of EDR, the Logi dongle enables EDR for the mouse. Identical issue with my Wacom Intuos Pro M when using it wirelessly. iMP/Monterey/MX Master 3.
+
+https://www.reddit.com/r/MacOS/comments/restif/why_is_trackpad_cursor_movement_so_much_smoother/
+
+I read that if you have lag that you should connect the mouse via the USB dongle it comes with and update the firmware from Logitech. Once that is done, you should be able to connect it via Bluetooth again.
+
+https://www.reddit.com/r/MacOS/comments/pywflf/comment/hex6e6q/
+
+ElectronGuru
+
+2.4 interference is usually the cause. Change your WiFi to 5.0 for at least that mac. Then unplug usb3 devices one at a time. Notice which step fixes it.
+
+https://www.reddit.com/r/MacOS/comments/m1dyw1/bluetooth_mouse_sometimes_is_jumpy_erratic/
+
+UsuallyParrot
+
+For wired Logitech reducing polling rate on mice with the Logitech gaming software worked for me (1000 down to 250, 500 still caused issues)
+
+Hammer_und_Anvil
+
+Alrighty, I'll attempt that but its just weird how this suddenly became an issue after updating to Big Sur. Was all fine in Mojave. I guess Logitech's driver isn't optimized yet?
+
+UsuallyParrot
+
+I think it’s a Big Sur issue, it’s happening with other mouse brands too.
+
+https://www.reddit.com/r/MacOS/comments/ju9esq/bluetooth_mouse_skippinglagging_and_24hz_usb_mice/
 
 ### Fix click
 
