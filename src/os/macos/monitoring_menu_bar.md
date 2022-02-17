@@ -1,0 +1,8 @@
+- https://alternativeto.net/software/stats/?platform=mac
+- https://github.com/matryer/xbar-plugins#available-plugins
+- https://xbarapp.com/docs/plugins/System.html
+- https://github.com/gao-sun/eul
+- https://iglance.github.io/
+- https://www.tunabellysoftware.com/tgpro/
+- https://github.com/leits/MeetingBar
+- https://alternativeto.net/software/itsycal/
