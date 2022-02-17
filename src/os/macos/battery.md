@@ -1,0 +1,2 @@
+- https://apple.stackexchange.com/questions/110780/how-to-know-the-duration-of-battery-usage-in-one-session
+- [Determine battery cycle count for Mac notebooks - Apple Support](https://support.apple.com/en-us/HT201585)
