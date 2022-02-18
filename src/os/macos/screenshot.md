@@ -12,6 +12,10 @@ Desktop
 
 `shift+cmd+4+space` window or menu
 
+`⌘ + ⇧ + 7` takes a screenshot of the whole display and copies it to your clipboard, `⌘ + ⇧ + 8` does the same thing with a selected area (or window when you hit space)
+
+https://twitter.com/Countable_Newt/status/1493969799046701059
+
 https://support.apple.com/en-us/HT201361
 
 - https://www.macrumors.com/how-to/save-location-format-macos-screenshots/
