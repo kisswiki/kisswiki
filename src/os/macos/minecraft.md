@@ -10,3 +10,9 @@
 - https://www.reddit.com/r/feedthebeast/comments/7tj49y/most_reliable_java_args/
 - https://github.com/MultiMC/Launcher/wiki/Instance-settings
 - https://github.com/MultiMC/Launcher/wiki/Java-settings
+
+## .minecraft folder
+
+`MultiMC > right-click on instance > Instance folder`
+
+https://gaming.stackexchange.com/questions/115943/is-the-minecraft-folder-hidden-on-a-mac/115950#115950
