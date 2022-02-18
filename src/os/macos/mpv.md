@@ -18,6 +18,8 @@ https://www.reddit.com/r/MacOS/comments/s2vtue/finally_found_the_best_media_play
 
 iina-plus supports hdr.
 
+iina is apple silicon native https://www.reddit.com/r/macapps/comments/ll7cbv/iina_is_now_native/
+
 - https://www.reddit.com/r/MacOS/comments/s2vtue/comment/hsjgjik/
   - https://www.youtube.com/watch?v=74SZXCQb44s
 
