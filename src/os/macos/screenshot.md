@@ -12,9 +12,9 @@ Desktop
 
 `shift+cmd+4+space` window or menu
 
-`⌘ + ⇧ + 7` takes a screenshot of the whole display and copies it to your clipboard, `⌘ + ⇧ + 8` does the same thing with a selected area (or window when you hit space)
+`shift+cmd+ctr+3` takes a screenshot of the whole display and copies it to your clipboard, ``shift+cmd+ctr+4` does the same thing with a selected area (or window when you hit space)
 
-https://twitter.com/Countable_Newt/status/1493969799046701059
+https://twitter.com/CoreyGinnivan/status/1187209682139500544
 
 https://support.apple.com/en-us/HT201361
 
