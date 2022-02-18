@@ -12,6 +12,15 @@ or better
 
 quicktime uses 5%, mpv uses 40% when looking at battery widget fro stats app.
 
+iina-plus from https://github.com/iina-plus/iina/releases uses 20% in foreground, 10% in background.
+
+https://www.reddit.com/r/MacOS/comments/s2vtue/finally_found_the_best_media_player/
+
+iina-plus supports hdr.
+
+- https://www.reddit.com/r/MacOS/comments/s2vtue/comment/hsjgjik/
+  - https://www.youtube.com/watch?v=74SZXCQb44s
+
 ## Native m1
 
 BasedKips
