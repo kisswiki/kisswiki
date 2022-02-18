@@ -25,3 +25,7 @@ https://apple.stackexchange.com/questions/337377/iterm2-split-vertically-with-cu
 
 - https://apple.stackexchange.com/questions/341644/iterm2-accessibility-and-full-disk-access
 - https://gitlab.com/gnachman/iterm2/-/wikis/fulldiskaccess
+
+## restore split panes
+
+https://apple.stackexchange.com/questions/22445/how-can-i-save-tabs-in-iterm-2-so-they-restore-the-next-time-the-app-is-run
