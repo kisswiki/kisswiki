@@ -1,4 +1,8 @@
 - https://www.coursesmafia.net/
+- https://www.btsearch.ml
+- https://troypoint.com/best-torrent-search-engine/
+  - https://snowfl.com/
+- https://fossbytes.com/best-torrent-search-engine/
 
 ## Promotions
 
