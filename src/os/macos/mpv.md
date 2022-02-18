@@ -8,7 +8,29 @@ or better
 - https://apple.stackexchange.com/questions/288689/installed-mpv-with-brew-but-nothing-in-applications
 - https://github.com/mpv-player/mpv/issues/572#issuecomment-35679696
 
+## Power usage
+
+quicktime uses 5%, mpv uses 40% when looking at battery widget fro stats app.
+
 ## Native m1
+
+BasedKips
+
+Any benefits to this over the brew install (If you aren't modding the code)?
+
+rpchill
+
+Yes! There's a couple, but it depends on your use case. The big one is having a native M1 / ARM "mpv.app" bundle.
+
+The Homebrew cask currently sources "mpv.app" from someone only doing Intel builds. On an M1 Mac, those have to run using Rosetta 2 to translate all of the x86-64 instructions into ARM64 instructions. Rosetta 2 is extremely impressive, but it's still less efficient than just running a native ARM64 binary. You're guaranteed better performance.
+
+The Homebrew formula does produce ARM64 binaries, but there's no "mpv.app" bundle, making it effectively command-line only.
+
+mpv version numbering is arbitrary, but Homebrew still has to wait for it to increment. Building it yourself from the latest source lets you use the absolute most recent version of mpv.
+
+https://www.reddit.com/r/mpv/comments/qt41pl/comment/hx5tihi/
+
+Binary downloaded from https://laboratory.stolendata.net/~djinn/mpv_osx/ also shows as Intel and not Apple in Activity Monitor.
 
 - https://github.com/mpv-player/mpv/issues/9232#issuecomment-925922864
   - Requires XCode >= 13.1 https://github.com/mpv-player/mpv/issues/9232#issuecomment-952063467
