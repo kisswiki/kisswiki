@@ -1,0 +1,1 @@
+- Using some tricks noted by stackoverflow I made a demo webpage that can usually detect whether you're using an Apple silicon or Intel Mac https://twitter.com/dangeredwolf/status/1349209111666298880
