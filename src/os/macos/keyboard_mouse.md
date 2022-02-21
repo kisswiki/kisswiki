@@ -1,5 +1,14 @@
 - 507.99 zł z dostawą https://allegro.pl/oferta/apple-magic-keyboard-a1644-magic-mouse-2-a1657-11817216724
-- 369 zł https://allegro.pl/oferta/logitech-line-friends-klawiatura-i-mysz-zestaw-b-10131429921
+- Logitech K380 + Logitech Pebble M350
+  - 142.98 z Singapuru zł https://allegro.pl/oferta/logitech-k380-wielofunkcyjna-klawiatura-bt-biala-11856895962
+  - 157.90 zł https://www.net-s.pl/produkt/d-e-layout-logitech-k380-bluetooth-multi-device-kb-kolor-bialy-920-009584-1302834;20-g-10
+  - 139.00 zł szara https://usbmedia.pl/pl/p/Logitech-K380/22962554
+    - https://www.ceneo.pl/40271779
+  - 55.00 zł https://allegro.pl/oferta/mysz-bezprzewodowa-logitech-pebble-m350-11824737043
+  - https://geex.x-kom.pl/recenzje/recenzja-klawiatury-logitech-k380/
+  - https://www.logitech.com/en-au/products/combos/mk240-minimalist-keyboard-mouse.920-008202.html
+- https://www.logitech.com/en-au/products/combos/k380-m350-keyboard-mouse-combo.log-dgap.html
+- 369 zł Logitech K380 + Logitech Pebble M350 https://allegro.pl/oferta/logitech-line-friends-klawiatura-i-mysz-zestaw-b-10131429921
 - 349 zł https://www.komputronik.pl/product/735785/logitech-mx-keys-mini-grafitowy.html
 - https://www.lifewire.com/use-magic-keyboard-on-windows-pc-5197318
 - it drops the connect every time I either (1) allow the machine to go into sleep mode, or (2) don't use the mouse for about 10 minutes. After extensive support conversations with Apple they suggest this problem is on the Microsoft side, and I'm inclined to agree since the Apple bluetooth keyboard I'm using is working perfectly. https://answers.microsoft.com/en-us/surface/forum/all/arc-touch-wireless-bluetooth-mac/c77a9b3d-211a-4995-b5ef-a4751eaf3d89
@@ -9,7 +18,7 @@
 - looks nice, would buy if no numpad [Logitech Ergonomic Setup: Ergo K860 Keyboard and MX Vertical Mouse!](https://www.youtube.com/watch?v=TKDGTEQEUqw)
 - https://allegro.pl/oferta/naprawa-dwukliku-logitech-mx-master-2-master-3-11012566759
 
-## I have bought
+## I have bought Logitech MX Master and MX Keys
 
 Why I have bought it: [Warto Kupić Myszkę Logitech MX Master 3 i Klawiaturę MX Keys? Czemu Zrezygnowałem Ze Sprzętu Apple?❌](https://www.youtube.com/watch?v=Y4uBz-_yElY)
 
@@ -23,6 +32,12 @@ Why I have bought it: [Warto Kupić Myszkę Logitech MX Master 3 i Klawiaturę M
 in https://www.net-s.pl/
 
 Why "for Mac"? It has usb-c <-> usb-c instead of usb-c <-> usb-a. However it does not have usb unifying dongle. "for Mac" can be connected to Windows, although Logitech does not list it as supported on Windows.
+
+I have resigned of the purchase.
+
+# I have bought Logitech G915 TKL
+
+https://allegro.pl/oferta/klawiatura-logitech-g915-tkl-tactile-usb-10971249010
 
 ## Logitech Mx Master 3
 
