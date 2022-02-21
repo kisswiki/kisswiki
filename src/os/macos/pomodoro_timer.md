@@ -8,3 +8,5 @@ Rest&Move: Reminder for break. Perfect #pomodoro timer for #macos:
 - Show timer in menu bar
 
 https://apps.apple.com/us/app/rest-move-reminder-for-break/id1497321931
+
+Also nice but no "Timer stops when lid closed" https://apps.apple.com/us/app/time-out-break-reminders/id402592703
