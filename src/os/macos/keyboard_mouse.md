@@ -63,15 +63,6 @@ TechLead recommends this wrist pad https://youtu.be/sw_wIKdJoNI?t=299
 
 I spent WAY too much on this keyboard... https://www.youtube.com/watch?v=OYcDHVYiTPE
 
-## keyboard switch keys
-
-- https://apple.stackexchange.com/questions/173898/repurposing-menu-button-on-windows-keyboards-used-in-os-x/398797#398797
-- https://apple.stackexchange.com/questions/88897/how-do-you-make-the-fn-keyboard-button-work-like-a-ctrl-button
-- https://apple.stackexchange.com/questions/415242/macos-use-fn-command-keyboard-shortcuts-work
-- https://formulae.brew.sh/cask/key-codes
-- https://www.reddit.com/r/logitech/comments/rwyxp4/logi_pop_keys_swap_ctrl_and_fn_key/
-- https://www.reddit.com/r/logitech/comments/rkl8i3/fn_and_ctrl_keys_logitech_mx_keys_mini/
-
 ## Chair
 
 - The Best Chair for Programmers... (as an ex-Google tech lead) | Aeron vs Embody, Steelcase, Hyken... https://www.youtube.com/watch?v=BCHr4NDTLO8
