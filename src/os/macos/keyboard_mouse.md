@@ -18,6 +18,12 @@
 - looks nice, would buy if no numpad [Logitech Ergonomic Setup: Ergo K860 Keyboard and MX Vertical Mouse!](https://www.youtube.com/watch?v=TKDGTEQEUqw)
 - https://allegro.pl/oferta/naprawa-dwukliku-logitech-mx-master-2-master-3-11012566759
 
+## Stand
+
+- 84.90 zł https://allegro.pl/oferta/podstawka-pod-laptop-nexstand-2-gen-usprawniona-10117917470
+- The Roost 2.0 vs. Nexstand K2 https://www.youtube.com/watch?v=GqxmtGTwhv4&t=311s
+- $110.64: Subtotal $89.95, Shipping Calculated at next step, Estimated taxes $20.69 ttps://www.therooststand.com/collections/roost-laptop-stand/products/roost-v3-roost-laptop-stand
+
 ## I have bought Logitech MX Master and MX Keys
 
 Why I have bought it: [Warto Kupić Myszkę Logitech MX Master 3 i Klawiaturę MX Keys? Czemu Zrezygnowałem Ze Sprzętu Apple?❌](https://www.youtube.com/watch?v=Y4uBz-_yElY)
@@ -37,7 +43,38 @@ I have resigned of the purchase.
 
 # I have bought Logitech G915 TKL
 
-https://allegro.pl/oferta/klawiatura-logitech-g915-tkl-tactile-usb-10971249010
+- 739.00 zł https://allegro.pl/oferta/klawiatura-logitech-g915-tkl-tactile-usb-10971249010
+- G915 TKL: Creating Macros in G HUB https://www.facebook.com/LogitechG.UK/videos/274706073864785/
+- Logitech G915 review https://www.youtube.com/watch?v=OYcDHVYiTPE
+- clicky or tactile is best, linear is too slow https://youtu.be/sw_wIKdJoNI?t=254
+
+White colorway comes in GL Tactile and the black colorway comes in three1White colorway only available in GL Tactile switch type switch types:
+
+- GL Clicky - audible click and tactile feedback
+- GL Tactile - a gentle bump for some tactile feedback
+- GL Linear - a completely smooth keystroke
+- https://www.logitechg.com/en-us/products/gaming-keyboards/g915-tkl-wireless.html
+- https://www.reddit.com/r/LogitechG/comments/itce5p/g915_tkl_white_with_other_switches/
+- https://www.logitechg.com/en-us/innovation/mechanical-switches.html
+
+And also bought 119.00 zł https://www.x-kom.pl/p/595539-podkladka-pod-nadgarstek-glorious-pc-gaming-race-stealth-slim-tkl-black.html#
+
+TechLead recommends this wrist pad https://youtu.be/sw_wIKdJoNI?t=299
+
+I spent WAY too much on this keyboard... https://www.youtube.com/watch?v=OYcDHVYiTPE
+
+## keyboard switch keys
+
+- https://apple.stackexchange.com/questions/173898/repurposing-menu-button-on-windows-keyboards-used-in-os-x/398797#398797
+- https://apple.stackexchange.com/questions/88897/how-do-you-make-the-fn-keyboard-button-work-like-a-ctrl-button
+- https://apple.stackexchange.com/questions/415242/macos-use-fn-command-keyboard-shortcuts-work
+- https://formulae.brew.sh/cask/key-codes
+- https://www.reddit.com/r/logitech/comments/rwyxp4/logi_pop_keys_swap_ctrl_and_fn_key/
+- https://www.reddit.com/r/logitech/comments/rkl8i3/fn_and_ctrl_keys_logitech_mx_keys_mini/
+
+## Chair
+
+- The Best Chair for Programmers... (as an ex-Google tech lead) | Aeron vs Embody, Steelcase, Hyken... https://www.youtube.com/watch?v=BCHr4NDTLO8
 
 ## Logitech Mx Master 3
 
