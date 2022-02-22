@@ -2,3 +2,4 @@
 - https://github.com/MaximAbramchuck/awesome-interview-questions
 - https://github.com/topics/interview-questions
 - 67.00 USD with this code https://www.techseries.dev/offers/Tdz9FD3D/checkout?coupon_code=VDAYCODE
+  - [Tech Interview Pro Review | Plus 5 EXTRA Coding Interview Resources](https://www.youtube.com/watch?v=S79r1291NlU)
