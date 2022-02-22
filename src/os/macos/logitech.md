@@ -12,7 +12,7 @@ Reset the SMC.
 Sign out of iCloud, reboot, then sign back into iCloud. This fixed my unlock with Apple Watch issue and my wireless sidecar issue.
 If you are having BT issues on your M1 Mac I recommend trying those solutions above.
 
-- https://www.reddit.com/r/macmini/comments/jye3hc/comment/gen2t4w/?utm_source=reddit&utm_medium=web2x&context=3
+- https://www.reddit.com/r/macmini/comments/jye3hc/comment/gen2t4w/
 - https://www.reddit.com/r/macgaming/comments/mtnuy9/logitech_gaming_software_on_m1/
 - https://www.reddit.com/r/logitech/comments/qr09ph/one_year_after_the_m1_release_my_90_for_mac_mouse/
 - https://www.reddit.com/r/LogitechG/comments/pu6j8y/logitech_g_pro_x_superlight_on_m1_mac_mini_issues/

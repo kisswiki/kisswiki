@@ -209,6 +209,8 @@ If you google "Keychron K3 brown optical switch is sensitive" you can find the o
 - [Silenced nuphy air75](https://www.youtube.com/watch?v=naIieHTSpME)
   - https://imgur.com/gallery/TWZGsb2
 
+air75 uses 2.4 and Bluetooth, but k3 has only Bluetooth https://www.reddit.com/r/MechanicalKeyboards/comments/qvvy4z/comment/hm76bbv/?utm_source=reddit&utm_medium=web2x&context=3
+
 ## Trackpad
 
 - https://us.cnn.com/2021/05/25/cnn-underscored/apple-magic-trackpad-2-review/index.html
