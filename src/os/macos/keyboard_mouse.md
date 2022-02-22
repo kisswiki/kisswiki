@@ -187,6 +187,13 @@ Dodatkowe usługi serwisowe ustalane indywidualnie:
 
 - [Logitech MX Anywhere 3 vs MX Anywhere 3 for Mac](https://www.youtube.com/watch?v=HQFdUvFIE3I)
 
+### Logitech G915 TKL vs NumPhy AIR75
+
+I’ve used a G915 TKL for about a year now and purchased the Nuphy.
+I used the Nuphy for a few hours before selling it again and going back to the G915. Key issues for me were the flatness was actually really uncomfortable on my wrists even coming from another fairly flat keyboard. Additionally, the keycap shape I felt was quite hard to type accurately on compared to the G915. Finally the Nuphy looked cool and interesting but the ..feel.. when using the board was it felt very cheap and not nearly as solid as the G915. I didn’t expect it to feel as solid given the price difference but the gap in the feel was just too much for me.
+
+https://www.reddit.com/r/MechanicalKeyboards/comments/r8ncsp/comment/hnazznb/
+
 ## keychron k3 vs nuphy air75
 
 Thank you for showing the lightning problem air75 has.
@@ -211,8 +218,23 @@ If you google "Keychron K3 brown optical switch is sensitive" you can find the o
 
 air75 uses 2.4 and Bluetooth, but k3 has only Bluetooth https://www.reddit.com/r/MechanicalKeyboards/comments/qvvy4z/comment/hm76bbv/
 
+Air75 uses mechanical switches, the K3 you have uses optical switches. They are not compatible. Optical switches are a completely different beast. The interrupt an IR beam, they do not make electrical contact. My K3 is the non hot swap which uses mechanical low profile Gateron switches (the same as Air75). https://www.reddit.com/r/MechanicalKeyboards/comments/qvvy4z/comment/hr6qfy7/
+
+Air75: The new version of the firmware lets you swap between multimedia and f with the shortcut: FN+TAB+F. I had to go to their discord to find it. https://www.reddit.com/r/MechanicalKeyboards/comments/qvvy4z/comment/hqg8kbq/
+
+Air75: In regards to the keys, they do feel a bit odd. It's not "loose" in the traditional sense -- lateral movement of the key when the fingers move side to side over them. However, if I put pressure on the edge of a key it will kinda tilt down, as though the switch is not fully "plugged in" to the cap. If you do this to enough keys they will not feel flush with each other as they should be. Its not something that triggers through normal use, though, I only noticed it because I was testing after replacing all the caps.
+
+Yes, that was the feeling I was describing. I think it is a design issue with all current low profile switches...
+
+https://www.reddit.com/r/MechanicalKeyboards/comments/r8ncsp/comment/hnagzx4/
+
 ## Trackpad
 
 - https://us.cnn.com/2021/05/25/cnn-underscored/apple-magic-trackpad-2-review/index.html
 - https://dev.to/eichgi/what-do-you-prefer-magic-mouse-or-magic-trackpad-3b89
 - https://medium.com/midland-pictures/apples-magic-trackpad-2-vs-magic-mouse-2-5e6f3e4eeaa
+
+## G PRO X SUPERLIGHT
+
+- 449 zł https://www.x-kom.pl/p/613751-myszka-bezprzewodowa-logitech-g-pro-x-superlight-czarny.html
+  - https://www.pepper.pl/promocje/logitech-g-pro-x-superlight-505613
