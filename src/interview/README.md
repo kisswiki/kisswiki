@@ -1,3 +1,4 @@
 - questions to ask, etc. https://github.com/yangshun/tech-interview-handbook
 - https://github.com/MaximAbramchuck/awesome-interview-questions
 - https://github.com/topics/interview-questions
+- 67.00 USD with this code https://www.techseries.dev/offers/Tdz9FD3D/checkout?coupon_code=VDAYCODE
