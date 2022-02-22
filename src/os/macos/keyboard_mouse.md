@@ -228,6 +228,14 @@ Yes, that was the feeling I was describing. I think it is a design issue with al
 
 https://www.reddit.com/r/MechanicalKeyboards/comments/r8ncsp/comment/hnagzx4/
 
+## ZSA Moonlander Mark 1
+
+Ta, musiałem niestety jeszcze nie pamiętam ile dokładnie, ale koło trzech stówek VATu dopłacić przy odbiorze paczki :/
+
+Czy się opłaciło? Myślę że tak, więcej przycisków robi robotę, układ po przyzwyczajeniu jest dużo prostszy do codzienniego użycia, bo łatwiej pod palcami wyczuć na którym przycisku się aktualnie jest, a że firmware klawiatury jest otwarty i wspiera raw HID to poza masą warstw, modyfikatorów itp. mogłem sobie zakodować kozacką funkcjonalność która podświetla mi różne ledy zależnie od tego na których obszarach roboczych mam otwarte okna ( ͡° ͜ʖ ͡°).
+
+https://www.wykop.pl/wpis/53882147/jest-i-on-zsa-moonlander-mark-i-poki-co-pisanie-id/
+
 ## Trackpad
 
 - https://us.cnn.com/2021/05/25/cnn-underscored/apple-magic-trackpad-2-review/index.html
