@@ -187,6 +187,28 @@ Dodatkowe usługi serwisowe ustalane indywidualnie:
 
 - [Logitech MX Anywhere 3 vs MX Anywhere 3 for Mac](https://www.youtube.com/watch?v=HQFdUvFIE3I)
 
+## keychron k3 vs nuphy air75
+
+Thank you for showing the lightning problem air75 has.
+
+key caps are not fully interchangeable. Keychron uses proprietary stabilizers for some of the keys and some other keys have different heights. So if you want to customize your keyboard with custom key caps, then avoid K3.
+
+I have to say I like keychron design more. But what's holding me back from buying it is problem with bluetooth. I've read few reviews about k3 and it seems it is pretty frequent problem.
+
+I've used the keychron k8, and I've gotta say, the bluetooth is sluggish af. It usually takes a few seconds to connect.
+On the other hand, nuphy's bluetooth connection is excellent so far. Even if it doesn't connect after turning it on, press 2 buttons & connects instantly.
+
+the k3 takes ridiculously long to connect and misses keys sometimes but maybe that is when the battery is low. the connection time is a joke. for the amount of money that it costs it is unacceptable. this can't be called the best. maybe best looking but that is about it. plus, you can barely see the rgb lighting. it steps down in brightness when it is not connected but you can use a trick to bring it up, press fn+end and you have some static bright colors. or white. but still...
+
+I'll never buy a Keychron ever again. My Keychron K3 has overly senstive keys out of the box, Keychron's solution was to tell all customers with same issue to dissamble all their switches and flip the spring inside it, which will take atleast half a day of work, and if you break anything in process, it's your fault. Not the level of customer service expected for how much they are charging.
+
+they even ignored my emails and then posted on their website a "fix" for all of us who had same issues.  
+If you google "Keychron K3 brown optical switch is sensitive" you can find the offical fix paga >\_<!
+
+- [KEYCHRON K3 VS NUPHY AIR75 - BEST LOW PROFILE MECHANICAL KEYBOARDS](https://www.youtube.com/watch?v=RC1wM0kLah8)
+- [Silenced nuphy air75](https://www.youtube.com/watch?v=naIieHTSpME)
+  - https://imgur.com/gallery/TWZGsb2
+
 ## Trackpad
 
 - https://us.cnn.com/2021/05/25/cnn-underscored/apple-magic-trackpad-2-review/index.html
