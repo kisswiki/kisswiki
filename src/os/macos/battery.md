@@ -1,2 +1,6 @@
 - https://apple.stackexchange.com/questions/110780/how-to-know-the-duration-of-battery-usage-in-one-session
 - [Determine battery cycle count for Mac notebooks - Apple Support](https://support.apple.com/en-us/HT201585)
+- https://www.reddit.com/r/MacOS/comments/l3ykb1/battery_drain_on_bigsur_anyway_to_fix_this_return/
+- https://www.reddit.com/r/MacOS/comments/mwoqji/macbook_airs_2018_battery_drain_this_happens_when/
+- https://macmost.com/figuring-out-why-your-macbook-battery-drains-at-night.html
+- https://9to5mac.com/2022/02/07/overnight-battery-drain-on-macbooks-fix/
