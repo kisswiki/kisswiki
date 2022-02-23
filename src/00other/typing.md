@@ -1,6 +1,7 @@
 - [I found the Perfect Keyboard for programming (170 wpm typing speed)](https://www.youtube.com/watch?v=fxCYXA2zPc8)
 - [How I Type REALLY Fast (176 WPM) - Ex-Google Programmer on Mechanical Keyboards](https://www.youtube.com/watch?v=Qj8PCCAiBdk)
 - [Everything you need to know to get from 0 to 200 WPM!](https://www.youtube.com/watch?v=oOdfefV2R1I)
+- [How I Achieved a REALLY Fast 165 WPM Typing Speed (And How To Get There)](https://www.youtube.com/watch?v=JcLlQEkQk0A)
 - http://www.speedcoder.net
 - in Rust https://gitlab.com/DarrienG/terminal-typeracer
 - https://play.typeracer.com
