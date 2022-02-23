@@ -18,6 +18,36 @@
 - looks nice, would buy if no numpad [Logitech Ergonomic Setup: Ergo K860 Keyboard and MX Vertical Mouse!](https://www.youtube.com/watch?v=TKDGTEQEUqw)
 - https://allegro.pl/oferta/naprawa-dwukliku-logitech-mx-master-2-master-3-11012566759
 
+## Another tester
+
+- Logitech G915 TKL
+  - Pros: low profile
+  - Cons: Pricy($175 on sale), no pbt keycap, getting oily after several months of regular use.
+- Razer Huntsman TKL V2 elite linear switch:
+  - Pros: Extreme silent, PBT keycap
+  - Cons: Pricy($160), wired, too responsive for typing, can have a lot of typo
+- Razer Huntsman TKL V2 elite clicky switch: (I mainly use it for gaming)
+  - Pros: Clicky, PBT keycap, 3.5mm total travel distance, 1.5 mm trigger distance. (Extremely good for typing)
+  - Cons: Pricy($150), wired, a bit annoying in the meeting because your colleague can hear you typing
+- Corsair K70:
+  - Pros: linear switches, PBT keycap, $99 on sale
+  - Cons: Too responsive with 3.5mm total travel distance and 1.2 mm of trigger distance. Wire.
+
+https://www.amazon.com/gp/customer-reviews/R326EVDR4E63P0/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09KGTB1PJ
+
+- The Razer Huntsman V2 boasts some serious features that make it worth considering including:
+- Choice of Linear or Click optical switches
+- PBT doubleshot keycaps
+- Standard bottom row layout so you can use your own keycaps
+- 8,000Hz polling rate for reduced latency and good response.
+- 2nd generation optical switches with 0/2,s response time
+- Padded and comfortable wrist rest with magnetic snaps
+- Dedicated media keys and multi-function dial
+
+I've bought this keyboard and i feel like it need more force to actuate the switch, the switch is not as soft as my old huntman elite (both have purple switch) I'm gonna return the V2 because I don't like the stiffness of it. Some people said that it will be come loose in time but I'm not sure about that
+
+https://www.youtube.com/watch?v=z3yeTwXJr-g
+
 ## Stand
 
 - 84.90 zł https://allegro.pl/oferta/podstawka-pod-laptop-nexstand-2-gen-usprawniona-10117917470
@@ -194,6 +224,8 @@ I used the Nuphy for a few hours before selling it again and going back to the G
 
 https://www.reddit.com/r/MechanicalKeyboards/comments/r8ncsp/comment/hnazznb/
 
+- [NuPhy Air75 Review - The KING of Wireless Connectivity!](https://www.youtube.com/watch?v=ccXkhFufQfw)
+
 ## keychron k3 vs nuphy air75
 
 Thank you for showing the lightning problem air75 has.
@@ -250,3 +282,20 @@ https://www.wykop.pl/wpis/53882147/jest-i-on-zsa-moonlander-mark-i-poki-co-pisan
 ## ZSE Moonlander Mark 1
 
 With split keyboard your chest is open https://www.youtube.com/watch?v=zEWiAAMLxd4
+
+The first problem I have with the Moonlander is, mainly due to my small hands, how big it is and how uncomfortable it is to use the thumb cluster. There are four keys on the thumb cluster, and I can only use one/two keys comfortably. The other keys are definitely out of my reach. To reach them, I’ll have to hover my hands entirely from the wrist pad. ZSA recommends articulating the thumb cluster up. But the problem with this solution is that the rest of the key is now totally flat.
+
+If you carefully look above, you’ll see in the picture that my thumb rests just in the middle of the main base key are and the thumb cluster. I need to stretch my thumbs a bit. Stretching is not an issue for medium or large hands, but people with small hands and wrist like mines don’t work well. As a comparison, I used a website that compares various split keyboard designs, and here is an image that shows the difference between Moonlander and Kyria (another popular Split Keyboard):
+
+- https://zellwk.com/blog/moonlander/
+- https://arslan.io/2021/05/19/a-review-of-my-first-split-keyboard-moonlander-mk1/
+- https://blog.splitkb.com/blog/introducing-the-kyria
+- https://docs.splitkb.com/hc/en-us/articles/360010627159-Can-I-try-the-Kyria-before-I-buy-
+
+- https://keyhive.xyz/shop/lily58
+- https://www.youtube.com/watch?v=bbV1bn_0onk
+- https://www.reddit.com/r/ErgoMechKeyboards/comments/ns3e2u/custom_lily58_with_wrist_rest_best_tenting/
+- https://www.reddit.com/r/ErgoMechKeyboards/comments/r0my15/ic_manta58_a_unique_3dprinted_lily58_case/
+- https://www.reddit.com/r/ErgoMechKeyboards/comments/nwgdcd/building_a_lily58_have_some_questions/
+- https://jhelvy.github.io/splitKbCompare/
+- Is tenting your keyboard really THAT important? https://www.youtube.com/watch?v=pUKoB95aEc4

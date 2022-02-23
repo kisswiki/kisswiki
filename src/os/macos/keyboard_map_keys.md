@@ -2,6 +2,53 @@
 
 `brew install --cask karabiner-elements`
 
+I use below config for Logitech G915 TKL Keyboard. Taken from `~/.config/karabiner/karabiner.json`.
+
+```json
+"simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "application"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_command"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "caps_lock"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "escape"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_option"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "left_command"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_gui"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "left_option"
+                                }
+                            ]
+                        }
+                    ]
+```
+
 ### Old - does not work, unless I unload and load - looks like it does not recognize usb receive yet.
 
 With karabiner-EventViewer I read that the key is right control.
