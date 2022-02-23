@@ -5,3 +5,5 @@
 - in Rust https://gitlab.com/DarrienG/terminal-typeracer
 - https://play.typeracer.com
 - https://monkeytype.com
+- https://10fastfingers.com
+- https://www.keybr.com
