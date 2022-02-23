@@ -1,5 +1,9 @@
 ## map right control to right option
 
+`brew install --cask karabiner-elements`
+
+### Old - does not work, unless I unload and load - looks like it does not recognize usb receive yet.
+
 With karabiner-EventViewer I read that the key is right control.
 
 With this side https://hidutil-generator.netlify.app (via https://rakhesh.com/mac/using-hidutil-to-map-macos-keyboard-keys/) I have generated the file:
@@ -35,6 +39,8 @@ Copy the configuration below to /Library/LaunchDaemons/com.local.KeyRemapping.pl
 </plist>
 ```
 
+check with `plist /Library/LaunchDaemons/com.local.KeyRemapping.plist`
+
 ```shell
 % sudo chown root:wheel /Library/LaunchDaemons/com.local.KeyRemapping.plist
 # 644 also worked
@@ -56,6 +62,8 @@ hidutil property --matching '{"ProductID":0xc534}' --set '{"UserKeyMapping":[
     }
 ]}'
 ```
+
+Reset with `hidutil property --set '{"UserKeyMapping":[]}'`
 
 - https://apple.stackexchange.com/questions/329085/tilde-and-plus-minus-±-in-wrong-place-on-keyboard/393989#393989
   - https://gist.github.com/heiner/ca5b66b673d5514e520ad8099a9c905e#file-hidutil-remapping-py
