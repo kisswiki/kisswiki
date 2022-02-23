@@ -246,3 +246,7 @@ https://www.wykop.pl/wpis/53882147/jest-i-on-zsa-moonlander-mark-i-poki-co-pisan
 
 - 449 zł https://www.x-kom.pl/p/613751-myszka-bezprzewodowa-logitech-g-pro-x-superlight-czarny.html
   - https://www.pepper.pl/promocje/logitech-g-pro-x-superlight-505613
+
+## ZSE Moonlander Mark 1
+
+With split keyboard your chest is open https://www.youtube.com/watch?v=zEWiAAMLxd4
