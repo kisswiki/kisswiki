@@ -1,3 +1,5 @@
+This seems even better https://maximedupre.com/apps/microbreak-boss/
+
 Rest&Move: Reminder for break. Perfect #pomodoro timer for #macos:
 
 - Timer stops when lid closed
