@@ -61,6 +61,7 @@ https://www.youtube.com/watch?v=z3yeTwXJr-g
 - 84.90 zł https://allegro.pl/oferta/podstawka-pod-laptop-nexstand-2-gen-usprawniona-10117917470
 - The Roost 2.0 vs. Nexstand K2 https://www.youtube.com/watch?v=GqxmtGTwhv4&t=311s
 - $110.64: Subtotal $89.95, Shipping Calculated at next step, Estimated taxes $20.69 ttps://www.therooststand.com/collections/roost-laptop-stand/products/roost-v3-roost-laptop-stand
+- What's the BEST Laptop Stand on the Market? - Linus Tech Tips https://www.youtube.com/watch?v=x2EUZMqi77c&t=341s
 
 ## I have bought Logitech MX Master and MX Keys
 
