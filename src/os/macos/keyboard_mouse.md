@@ -50,6 +50,14 @@ https://www.youtube.com/watch?v=z3yeTwXJr-g
 
 ## Stand
 
+- 76 zł with shipment https://sklepmuzyczny.eu/kaline-stands-statyw-pod-laptop-kontroler-dj-p-875.html
+  - I bought this bc of this comment: [roost, nextand have] a major ergonomic disadvantage: you cannot slide the keyboard under the 4-legged stand at all, which means that the laptop then ultimately moves too far away from the body to be able to work comfortably with it in the long term. https://www.amazon.pl/product-reviews/B01N99IGMQ/ref=cm_cr_arp_d_rvw_rvwer?ie=UTF8&filterByStar=three_star&reviewerType=avp_only_reviews&pageNumber=1#reviews-filter-bar
+- 68.45 zł with shipment, like nextstand k2 https://www.bestprezenty.pl/przenosny-uchwyt-na-laptopa-p-8198.html
+- 249 zł https://allegro.pl/oferta/showtec-statyw-stojak-pod-laptopa-laptop-stand-6552322086
+- 229 zł https://allegro.pl/oferta/statyw-pod-laptopa-athletic-l-3-11167024413
+- 259 zł https://musicsklep.pl/statywy-pod-laptopy-projketory/hercules-dg-400-bb-statyw-pod-laptopa.html
+  - review https://www.youtube.com/watch?v=wtQvURJPikQ
+- 334 zł https://www.profi-dj.pl/dj-sprzet/akcesoria-dla-dj-ow/stojaki-pod-laptop/crane-stand-plus-cv3-grey/
 - 84.90 zł https://allegro.pl/oferta/podstawka-pod-laptop-nexstand-2-gen-usprawniona-10117917470
 - The Roost 2.0 vs. Nexstand K2 https://www.youtube.com/watch?v=GqxmtGTwhv4&t=311s
 - $110.64: Subtotal $89.95, Shipping Calculated at next step, Estimated taxes $20.69 ttps://www.therooststand.com/collections/roost-laptop-stand/products/roost-v3-roost-laptop-stand
