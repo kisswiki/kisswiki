@@ -1,3 +1,6 @@
+- https://www.hackingwithswift.com/100/swiftui
+- https://github.com/ObuchiYuki/DevToysMac
+
 The iOS Swift community is large enough that there's lots of example code. I've got almost 7000 urls in my database of Swift blogs:
 
 http://www.h4labs.com/dev/ios/swift.html?age=90 - Last 90 days
