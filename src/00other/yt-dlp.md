@@ -85,7 +85,14 @@ Change to `%(title)s-%(id)s.%(ext)s`
 
 Install ffmpeg or you may get file without audio https://www.ffmpeg.org/download.html
 
-## download mp3
+## download mp3 or acc
+
+```
+$ yt-dlp --extract-audio "https://www.youtube.com/watch?v=GXeAOtb1VeA"
+$ ffmpeg -i output.opus output.aac
+```
+
+`yt-dlp --extract-audio --audio-format aac "https://www.youtube.com/watch?v=GXeAOtb1VeA"`
 
 `youtube-dl --extract-audio --audio-format mp3 -f bestaudio <Video-URL>`
 
