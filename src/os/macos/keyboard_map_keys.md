@@ -110,6 +110,8 @@ hidutil property --matching '{"ProductID":0xc534}' --set '{"UserKeyMapping":[
 
 Reset with `hidutil property --set '{"UserKeyMapping":[]}'`
 
+Also this `printf '%X\n' "$(( 0x700000000 | 0x100108 ))"`
+
 - https://apple.stackexchange.com/questions/329085/tilde-and-plus-minus-±-in-wrong-place-on-keyboard/393989#393989
   - https://gist.github.com/heiner/ca5b66b673d5514e520ad8099a9c905e#file-hidutil-remapping-py
 - I have used `--matching` as adviced here https://stackoverflow.com/questions/54392510/how-to-assign-a-key-remapping-to-specific-device-using-hidutil/58981641#58981641
