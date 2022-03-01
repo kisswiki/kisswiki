@@ -2,6 +2,8 @@
 
 `brew install --cask karabiner-elements`
 
+Run Karabiner-EventViewer and you can click add and it will be added to Karabiner-Elements.
+
 I use below config for Logitech G915 TKL Keyboard. Taken from `~/.config/karabiner/karabiner.json`.
 
 ```json
@@ -13,16 +15,6 @@ I use below config for Logitech G915 TKL Keyboard. Taken from `~/.config/karabin
                             "to": [
                                 {
                                     "key_code": "right_command"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "caps_lock"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "escape"
                                 }
                             ]
                         },
@@ -92,6 +84,12 @@ check with `plist /Library/LaunchDaemons/com.local.KeyRemapping.plist`
 % sudo chown root:wheel /Library/LaunchDaemons/com.local.KeyRemapping.plist
 # 644 also worked
 % sudo chmod 600 /Library/LaunchDaemons/com.local.KeyRemapping.plist
+```
+
+Initial state is no active key remappings:
+
+```
+hidutil property --get UserKeyMapping
 ```
 
 and reboot or
