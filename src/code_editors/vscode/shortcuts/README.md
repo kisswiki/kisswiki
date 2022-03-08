@@ -131,3 +131,9 @@ from vscode>=1.16
 `ctrl+shift+t`
 
 https://github.com/Microsoft/vscode/issues/5586
+
+## go to symbol
+
+`⇧⌘O`
+
+https://code.visualstudio.com/docs/editor/editingevolved
