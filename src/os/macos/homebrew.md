@@ -30,6 +30,7 @@ https://superuser.com/questions/203707/how-to-uninstall-homebrew#295772
 ```
 brew update
 brew outdated
+# below didn't upgraded visual-studio-code. I needed to do `brew upgrade visual-studio-code`.
 brew upgrade
 brew upgrade <formula>
 brew cleanup -n
