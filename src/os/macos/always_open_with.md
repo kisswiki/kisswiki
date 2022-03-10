@@ -1,3 +1,9 @@
+rom the Finder, select a PDF file, open the Info panel (File ➔ Get Info or ⌘I), select your preferred application and then click Change All…
+
+https://apple.stackexchange.com/questions/780/problem-with-always-open-with-in-os-x/784#784
+
+## Old
+
 Always open with: `right click + alt` - doesn't work, use dutti, look at mpv.md or phiever.md
 
 - https://github.com/moretension/duti
