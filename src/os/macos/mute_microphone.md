@@ -1,0 +1,2 @@
+- https://superuser.com/questions/172970/hotkey-to-mute-mic-on-mac-os-x/882417#882417
+  - https://itunes.apple.com/pl/app/mutemymicfree/id567195825?mt=12
