@@ -1,0 +1,2 @@
+- https://new.reddit.com/r/ProgrammerHumor/comments/td2nnq/utc_is_not_the_end_game_dst_timezone_rules/
+  - https://zachholman.com/talk/utc-is-enough-for-everyone-right
