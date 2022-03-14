@@ -41,3 +41,10 @@ Conversely, this “consistency” principle also explains why I had such an eas
 Even though I’m only a dozen hours in, I feel like I can already be productive with Zig without an Internet connection. It feels like Zig is a language that I’d be able to master; to fully internalize such that I can use it without thinking about it. This feels super exciting and empowering.
 
 https://kevinlynagh.com/rust-zig/
+
+##
+
+Zig is one of the most interesting languages I've seen in a very long time, and possibly the first radical breakthrough in low-level programming design in decades. Maybe it will become a big success and maybe it will tank, but after having two visions for low-level programming -- that of C's "syntax-sugared Assembly", or that of C++'s "zero-cost abstractions" whose low-level, low-abstraction code appears high level on the page, once you get all the pieces to fit (Rust, while introducing the ingenious borrow checking, still firmly follows C++'s design philosophy and can be seen as a C++ that checks your work) -- Zig shows a third way by rethinking, from the ground up, how low-level programming could and should be done.
+It manages to address all of C++'s biggest shortcomings, which, in my view, are 1. language complexity, 2. compilation time, 3. safety -- in this order -- and it does so in a language that is arguably simpler than C, can be fully learned in a day or two (although the full implications of the design might take longer to sink in), and also inspires a new approach to partial evaluation, replacing generics and value templates, concepts/traits/typeclasses, constexprs/procedural macros, macros (or, at least, the "good parts" of macros) and conditional compilation with a single, simple feature.
+
+https://news.ycombinator.com/item?id=24616672
