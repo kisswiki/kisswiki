@@ -47,8 +47,9 @@ https://lubimyczytac.pl/ksiazka/130550/zen-to-done/opinia/31162134#opinia3116213
 - https://gitjournal.io/
   - https://github.com/GitJournal/GitJournal
   - https://play.google.com/store/apps/details?id=io.gitjournal.gitjournal&pcampaignid=website
-  - https://apps.apple.com/us/app/gitjournal/id1466519634?uo=4
+  - https://apps.apple.com/us/app/gitjournal/id1466519634
   - https://alternativeto.net/software/gitjournal/
+  - generate ssh keys by hand and paste them
 - GitJournal, obisidian https://www.reddit.com/r/ObsidianMD/comments/o5itzj/is_there_an_android_app_that_can_sync_a_git/
 - https://github.com/wbrawner/SimpleMarkdown
 - https://gsantner.net/project/markor.html
