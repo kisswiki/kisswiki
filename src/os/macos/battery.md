@@ -70,3 +70,4 @@ Satechi also highlights that the charger itself is equipped with short circuit a
 - https://allegro.pl/oferta/100w-xiaomi-ladowarka-samochodowa-szybkiego-1a1c-10609522265
 - https://pancernik.eu/ladowarka-samochodowa/baseus-superme-digital-display-pps-100w-usb-c-usb-a-czarna
 - 139 zł https://www.cortland.pl/satechi-ladowarka-samochodowa-usb-c-usb-a-72w-czarny.html
+- https://allegro.pl/oferta/mio-smartbox-zasilacz-na-stale-tryb-parkingowy-9524207539
