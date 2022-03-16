@@ -1,0 +1,1 @@
+- Medytacja Zen http://samadi.ovh/pmed03.htm
