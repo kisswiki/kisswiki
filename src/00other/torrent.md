@@ -4,8 +4,16 @@
 - http://predb.me
 - https://predb.org
 
+## meta search
+
+- https://www.btsearch.ml
+- https://snowfl.com
+- https://troypoint.com/best-torrent-search-engine/
+- https://fossbytes.com/best-torrent-search-engine/
+
 ## torrent
 
+- https://torrentgalaxy.to
 - polish http://electro-torrent.pl/
 - https://rarbg.to/
 - https://www.limetorrents.cc/
