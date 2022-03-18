@@ -47,7 +47,8 @@ https://docs.brew.sh/FAQ
 However this will not update casks that do not have versioning information (version :latest) or applications that have a built-in upgrade mechanism (auto_updates true). To reinstall these casks (and consequently upgrade them if upgrades are available), run the upgrade command with the --greedy flag like this:
 
 ```shell
-brew cask outdated --greedy --verbose
+brew outdated --cask --verbose
+brew outdated --cask --verbose --greedy
 brew upgrade --cask --greedy
 ```
 
