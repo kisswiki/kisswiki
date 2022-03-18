@@ -40,6 +40,19 @@ brew cleanup <formula>
 
 https://docs.brew.sh/FAQ
 
+## update cask
+
+`brew upgrade --cask`
+
+However this will not update casks that do not have versioning information (version :latest) or applications that have a built-in upgrade mechanism (auto_updates true). To reinstall these casks (and consequently upgrade them if upgrades are available), run the upgrade command with the --greedy flag like this:
+
+```shell
+brew cask outdated --greedy --verbose
+brew upgrade --cask --greedy
+```
+
+- https://stackoverflow.com/questions/31968664/upgrade-all-the-casks-installed-via-homebrew-cask
+
 ## node & yarn
 
 ```

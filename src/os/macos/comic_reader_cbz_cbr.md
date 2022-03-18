@@ -1,0 +1,3 @@
+- `brew install --cask yacreader` https://github.com/YACReader/yacreader
+- https://github.com/arauchfuss/Simple-Comic
+- https://www.reddit.com/r/MacOS/comments/djgf16/what_is_the_best_free_app_to_read_cbr_and_cbz/
