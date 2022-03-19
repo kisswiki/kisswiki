@@ -69,3 +69,9 @@ https://yarnpkg.com/cli/info
 if you cd out of your project directory and run yarn --version again, you’ll once again get the global Yarn’s version number, 1.22.11 in this case. Every time you run yarn, you are using the globally installed version of the command. The global yarn command first checks to see if it’s in a Yarn project directory with a .yarnrc.yml file, and if it is, it hands the command off to the project-specific version of Yarn configured in the project’s yarnPath setting.
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-yarn-package-manager-for-node-js
+
+## Usage Error: The nearest package directory doesn't seem to be part of the project
+
+After `yarn set version latest` the error was more detailed. I needed to remove `~/package.json`.
+
+https://stackoverflow.com/questions/64048830/yarn-2-init-add-failing
