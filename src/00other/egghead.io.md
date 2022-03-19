@@ -1,5 +1,15 @@
 - https://instructor.egghead.io
 
+## download paid materials
+
+Download button does not work currently for course https://twitter.com/rofrol/status/1504839045372915714
+
+You can download single lesson by clicking download icon.
+
+But you cannot download free lesson from course that way.
+
+For that I need to use yt-dlp.
+
 ## download free materials
 
 ```
