@@ -41,7 +41,8 @@ Oburzenie władz stanowych wywołał okólnik wydany przez federalne resorty spr
 Zgodnie z zaleceniami szkoły miały brać pod uwagę zmienioną tożsamość płciową ucznia od momentu zawiadomienia o tym fakcie przez rodziców bądź opiekunów. Miało to być bezwzględnie przestrzegane, nawet jeśli powodowało zakłopotanie innych osób.
 
 Okólnik był reakcją na decyzję stanu Karolina Północna, w którym zobowiązano ludzi do korzystania z toalet zgodnie z płcią zapisaną w akcie urodzenia. Rząd federalny podważył tę decyzję w sądzie.
-rump-uniewaznil-zalecenia-obamy-dot-transseksualistow,nId,2357327#utm_source=paste&utm_medium=paste&utm_campaign=chrome
+
+https://forsal.pl/artykuly/1021948,usa-trump-uniewaznil-zalecenia-obamy-ws-toalet-dla-transseksualistow.html
 
 http://fakty.interia.pl/swiat/news-trump-uniewaznil-zalecenia-obamy-dot-transseksualistow,nId,2357327
 

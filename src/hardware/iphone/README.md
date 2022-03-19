@@ -61,7 +61,7 @@
   - http://ispot.pl/doki-i-uchwyty/kidigi-dock-white-stacja-dokujaca-dla-iphone-5-5c-5s-6-6s-6,id-76358
   - 209 zł ale do szyby, z ładowarką http://www.mobilefun.pl/56114-kidigi-iphone-6s-plus-6-plus-6s-6-car-mount-kit.htm
   - 199 zł http://www.cortland.pl/ibolt-ipro2-uchwyt-do-samochodu-z-kablem-lightining-2m.html
-  - 234 zł uchwyt samochodowy qi samsung do 5.7 cala http://www.redcoon.pl/B570357-Samsung-EP-HN910IBEGWW-black_Uchwyty-do-telefon%C3%B3w?refId=skapiec&utm_source=skapiec.pl&utm_medium=referral
+  - 234 zł uchwyt samochodowy qi samsung do 5.7 cala http://www.redcoon.pl/B570357-Samsung-EP-HN910IBEGWW-black_Uchwyty-do-telefon%C3%B3w
   - https://ibolt.co/car-docks/smartphone-mounts/dock-n-drive-for-iphone/ipro2-for-iphone-6-and-6-plus
   - http://www.mobilefun.pl/50949-ibolt-ipro2-mfi-iphone-6-5-series-active-car-holder.htm
   - http://allegro.pl/etui-spigen-sgp-ultra-hybrid-do-iphone-6-plus-5-5-i4837535238.html
@@ -104,8 +104,8 @@
 - Nexus 5X to zdecydowanie najgorszy Nexus w historii http://www.spidersweb.pl/2016/02/nexus-5x-recenzja.html
 - ios vs android
   - Over the past two years, Android has retained 82 percent of users according to the study, while Apple has retained 78 percent of users. Less than 20 percent of Windows users stuck with a Windows-powered phone, while Blackberry retained just 4 percent of users.  
-  As for where new users came from, almost all movement was between iOS and Android. About 16 percent of all Android users who bought a new phone in the past two years came from iOS while 20 percent of all iOS users had previously used an Android device.  
-    http://www.geekwire.com/2015/android-vs-ios-the-mobile-os-wars-are-basically-over-according-to-new-study-of-smartphone-switchers/
+    As for where new users came from, almost all movement was between iOS and Android. About 16 percent of all Android users who bought a new phone in the past two years came from iOS while 20 percent of all iOS users had previously used an Android device.  
+     http://www.geekwire.com/2015/android-vs-ios-the-mobile-os-wars-are-basically-over-according-to-new-study-of-smartphone-switchers/
   - Apps deployed to the Google Play store are available for download by users within a few hours, compared to a few weeks for Apple’s App Store. An app can literally be updated multiple times a day on the Google play store, in response to user complaints and/or issues, while on the App store, your app would have to pass through the same lengthy process whenever you submit an update and/or bug fix. For a new app or game that might need to be constantly and speedily refined and updated in response to user feedback, the Play Store is the perfect platform. http://www.androidauthority.com/develop-apps-for-android-rather-than-ios-607219/
   - some common reasons for developing for iOS first is because it is easier, and more lucrative. You only have so many iOS devices to support and test for, and it is easy to target the latest version of the OS because you know that majority of users are already on them. The hardware is pretty standard.  
     for Flappy Birds it generates more revenue on Android since its revenue was based on ads and more people downloaded it on Android than iOS.
@@ -133,7 +133,7 @@ http://www.spidersweb.pl/2016/09/iphone-7-dxo.html
 ## Storage
 
 > Może się równać z iPhone co do wielkości pamięci, ale nie co do szybkości. Pamięć XiaomiMi Mix to UFS 2.0 - uniwersalna szybka pamięć NAND, typowa pamięć w małych niskonapięciowych urządzeniach. iPhone używa za to pamięci połączonej z płytą przez interfejs PCI z kontrolerem NVM - to rodzaj pamięci podobny do tych używanych przez najnowsze dyski SSD. To jeden z powodów dla którego pamięć iPhona jest znacznie (1.5x-5x razy) od rozwiązań opartych o UFS. Jeden z testów (to test dla iPhone 6s i galaxy S7 ale pokazuje różnice):
-http://bgr.com/2016/08/18/iphone-vs-galaxy-note-storage-speed/
+> http://bgr.com/2016/08/18/iphone-vs-galaxy-note-storage-speed/
 > -- http://www.wykop.pl/link/3417679/mi-mix-xiaomi-zawstydza-konkurentow-bezramkowym-smartfonem/#comment-40391903
 
 ## Plus GSM
@@ -154,5 +154,5 @@ http://bgr.com/2016/08/18/iphone-vs-galaxy-note-storage-speed/
 
 - http://antyweb.pl/youtube-w-tle-na-androidzie/
   - https://itunes.apple.com/us/app/musi-unlimited-music-for-youtube/id591560124
-  -  odpalić youtube.com w przeglądarce w telefonie (wersja komputerowa, kliknąć w 3kropki i wybrać "wersja na komputer) i działa pięknie na zablokowanym ekranie.
-Zarówno na iOS w Safari (w Chrome tak samo, whatever). jak zablokujesz ekran, to musisz wybudzić ekran bez odblokowania. i wtedy na widgecie do kontroli muzyki naciskasz play. Ale pauza nie działa wtedy.
+  - odpalić youtube.com w przeglądarce w telefonie (wersja komputerowa, kliknąć w 3kropki i wybrać "wersja na komputer) i działa pięknie na zablokowanym ekranie.
+    Zarówno na iOS w Safari (w Chrome tak samo, whatever). jak zablokujesz ekran, to musisz wybudzić ekran bez odblokowania. i wtedy na widgecie do kontroli muzyki naciskasz play. Ale pauza nie działa wtedy.
