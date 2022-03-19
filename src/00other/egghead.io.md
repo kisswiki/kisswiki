@@ -2,6 +2,8 @@
 
 ## download paid materials
 
+yt-dlp does not work currently for paid materials https://github.com/ytdl-org/youtube-dl/issues/30740
+
 Download button does not work currently for course https://twitter.com/rofrol/status/1504839045372915714
 
 You can download single lesson by clicking download icon.
