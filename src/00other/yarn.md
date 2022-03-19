@@ -75,3 +75,5 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-yarn
 After `yarn set version latest` the error was more detailed. I needed to remove `~/package.json`.
 
 https://stackoverflow.com/questions/64048830/yarn-2-init-add-failing
+
+or maybe `touch yarn.lock` https://github.com/yarnpkg/berry/issues/625#issuecomment-1055033608
