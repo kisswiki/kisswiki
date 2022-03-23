@@ -30,3 +30,11 @@ delete a file: cmd+delete
 
 - https://apple.stackexchange.com/questions/91168/command-delete-shortcut-is-not-working-for-me/91169#91169
 - https://apple.stackexchange.com/questions/16042/how-do-i-delete-a-file-from-my-desktop-using-keyboard/16043
+
+## delete
+
+- text in front of the cursor by fn + Delete or Control + D
+- entire word behind the cursor by Control + Delete or Option + Delete
+- the entire line of text or paragraph behind the cursor by Command + Delete
+
+https://lifehacker.com/the-mac-os-x-delete-key-it-goes-both-ways-5803041
