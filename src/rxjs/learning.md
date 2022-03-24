@@ -37,3 +37,5 @@ publishLast is a multicast(new AsyncSubject())
 subjectFactory is when multicast(() => new Subject())
 
 subjectFactory is when subscriber subscribe after completion of last subject, new subject is created
+
+multicast(() => new Subject(), function selector(shared) {})
