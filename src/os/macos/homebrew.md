@@ -32,7 +32,8 @@ brew update
 brew outdated
 # below didn't upgraded visual-studio-code. I needed to do `brew upgrade visual-studio-code`.
 brew upgrade
-brew upgrade <formula>
+brew upgrade --cask --greedy
+#brew upgrade <formula>
 brew cleanup -n
 brew cleanup
 brew cleanup <formula>
