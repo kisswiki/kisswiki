@@ -70,3 +70,7 @@ PONG
 `keydb-cli shutdown`
 
 https://stackoverflow.com/questions/6910378/how-can-i-stop-redis-server/6910506#6910506
+
+## Error: MISCONF Redis is configured to save RDB snapshots
+
+`keydb-server` or better `launchctl load ~/Library/LaunchAgents/homebrew.mxcl.keydb.plist`
