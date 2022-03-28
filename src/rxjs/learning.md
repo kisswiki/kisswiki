@@ -40,6 +40,12 @@ subjectFactory is when subscriber subscribe after completion of last subject, ne
 
 multicast(() => new Subject(), function selector(shared) {})
 
+## mergeMap
+
+mergeMap is map().mergeAll()
+
+https://egghead.io/lessons/rxjs-flatten-a-higher-order-observable-with-mergeall-in-rxjs
+
 ## defer
 
 ```
