@@ -39,3 +39,19 @@ subjectFactory is when multicast(() => new Subject())
 subjectFactory is when subscriber subscribe after completion of last subject, new subject is created
 
 multicast(() => new Subject(), function selector(shared) {})
+
+## defer
+
+```
+const source = Observable.defer(() => Observable.of(
+  Math.floor(Math.random() * 100)
+));
+```
+
+Why don't just set the source Observable to of(Math.floor(Math.random() \* 100)?
+
+Because if we do that the expression Math.floor(Math.random() \* 100) will run right away and be available in source as a value before we subscribe to source.
+
+We want to delay the evaluation of the expression so we wrap of in defer. Now the expression Math.floor(Math.random() \* 100) will be evaluated when source is subscribed to and not any time earlier.
+
+https://stackoverflow.com/questions/38764578/rxjs-understanding-defer/53017413#53017413
