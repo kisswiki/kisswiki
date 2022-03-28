@@ -78,7 +78,7 @@ Copy the configuration below to /Library/LaunchDaemons/com.local.KeyRemapping.pl
 </plist>
 ```
 
-check with `plist /Library/LaunchDaemons/com.local.KeyRemapping.plist`
+check with `plutil /Library/LaunchDaemons/com.local.KeyRemapping.plist` https://stackoverflow.com/questions/15488872/how-to-know-which-line-of-plist-file-is-incorrect
 
 ```shell
 % sudo chown root:wheel /Library/LaunchDaemons/com.local.KeyRemapping.plist
