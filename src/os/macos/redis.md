@@ -14,6 +14,6 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
 ## clear database
 
-`redis flushdb`
+`redis-cli flushdb`
 
 https://www.cyberciti.biz/faq/how-to-flush-redis-cache-and-delete-everything-using-the-cli/
