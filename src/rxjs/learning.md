@@ -1,6 +1,9 @@
 - [André Staltz (@andrestaltz): You will learn RxJS at ng-europe 2016 - YouTube](https://www.youtube.com/watch?v=uQ1zhJHclvs)
 - https://egghead.io/courses/rxjs-subjects-and-multicasting-operators
 - [André Staltz: Two Fundamental Abstractions - Uphill Conf 2018 - YouTube](https://www.youtube.com/watch?v=fdol03pcvMA)
+- https://v6.rxjs.dev/guide/v6/migration
+  - https://medium.com/@swapnilkls29/rxjs-6-0-migration-37a6f3de0000
+- https://rxjs.dev/6-to-7-change-summary
 
 Subject is a bridgeObservable to share the execution
 
