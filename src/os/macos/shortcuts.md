@@ -38,3 +38,9 @@ delete a file: cmd+delete
 - the entire line of text or paragraph behind the cursor by Command + Delete
 
 https://lifehacker.com/the-mac-os-x-delete-key-it-goes-both-ways-5803041
+
+## emoji
+
+`Control+Command+Space`
+
+https://www.howtogeek.com/684025/how-to-type-emoji-on-your-mac-with-a-keyboard-shortcut/
