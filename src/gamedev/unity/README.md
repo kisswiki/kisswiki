@@ -18,3 +18,4 @@ Close Visual Studio and open cs file in Visual Studio.
 
 - Changing the External Script Editor to Visual Studio caused the options to appear for me http://answers.unity.com/answers/1865629/view.html
 - https://stackoverflow.com/questions/68013013/visual-studio-code-intellisense-not-workingmac/68013672#68013672
+- https://forum.unity.com/threads/intellisense-not-working-with-visual-studio-fix.836599/
