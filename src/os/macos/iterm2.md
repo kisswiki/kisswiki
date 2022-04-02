@@ -29,3 +29,7 @@ https://apple.stackexchange.com/questions/337377/iterm2-split-vertically-with-cu
 ## restore split panes
 
 https://apple.stackexchange.com/questions/22445/how-can-i-save-tabs-in-iterm-2-so-they-restore-the-next-time-the-app-is-run
+
+## scroll lines amount
+
+`Preferences > Profiles > Default > Terminal > Scrollback lines > 5000`

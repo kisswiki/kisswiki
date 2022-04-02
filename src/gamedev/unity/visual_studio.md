@@ -1,6 +1,6 @@
 ## Intellisens does not work
 
-`Unity > (Edit >) Preferences > External Tools`
+In Unity go to `Preferences > External Tools`
 
 Make sure External Script Editor is Visual Studio so checkboxes appear
 
