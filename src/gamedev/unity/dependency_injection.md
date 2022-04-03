@@ -1,0 +1,8 @@
+- Fortunately, a code-centric approach to Unity development (ex., via Zenject) can minimize these kinds of problems, while also supporting numerous software development best practices that are often lacking in Unity development. https://thoughtbot.com/blog/how-to-git-with-unity
+- I'm personally in love with VContainer https://forum.unity.com/threads/di-ioc-alternatives-to-zenject.1065593/#post-7245200
+- https://github.com/danielpalme/IocPerformance
+- https://vcontainer.hadashikick.jp
+  - https://github.com/hadashiA/VContainer
+  - https://vcontainer.hadashikick.jp/integrations/messagepipe
+    - https://github.com/Cysharp/MessagePipe#unity
+  - https://medium.com/kadinche-engineering/learning-architecture-messagepipe-and-vcontainer-by-creating-a-game-requested-by-my-own-daughter-8ee8303a718
