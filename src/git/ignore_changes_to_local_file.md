@@ -1,3 +1,11 @@
+`git update-index --assume-unchanged src/file/to/ignore`
+
+`git update-index --no-assume-unchanged src/file/to/ignore`
+
+https://stackoverflow.com/questions/24983762/git-ignore-local-file-changes/44652029#44652029
+
+## Old
+
 `git update-index --skip-worktree <file>`
 
 To cancel
