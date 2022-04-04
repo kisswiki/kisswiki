@@ -11,6 +11,8 @@
 
 ## cons
 
+Pro AAA projects do not use DI for game or engine code. 15 years as a pro AAA game developer. I've worked on every conceivable engine and framework and I can say with 100% confidence that not a single one uses DI.
+
 DI in unity - and even in games in general - is far more trouble than what it's worth.
 
 A few reasons -
@@ -42,3 +44,39 @@ If you are concerned about the performance or under the hood magic of dependency
 https://www.the-data-wrangler.com/dependency-injection-for-unity-part-3/#dependency-injection-alternative-the-service-locator-pattern
 
 https://moderncsharpinunity.github.io/post/dependency-injection-on-unity/
+
+- He talks that it was hard to understand what is going on when you use big DI library. [KISS Dependency Injection in Unity — The Non-Overengineered Way!](https://www.youtube.com/watch?v=ScD-ZqYhYf4)
+
+Unity's inbuilt serialization system is dependency injection. When you make a serialized field, you're telling Unity to inject a value into that field from the data saved in the scene or prefab. This makes your system flexible since you can drag and drop references from anywhere instead of specifically limiting your script to GetComponentInChildren and it makes debugging easy because you can see what's referencing what in the Inspector.
+With that in mind, the only other place I use dependency injection is for injecting asset references into static fields since Unity doesn't have a good inbuilt way to do that so I made my own system for it.
+
+A better solution would be to use "FindObtectOfType()" instead so you don't need to drag and drop, but this doesn't work with interfaces, so you lose some flexibility.
+
+I’ve worked on some large projects that used DI and it’s definitely a significant overhead. There’s cost in boilerplate as well as maintenance and debugging (what is really being called here?). Generally I use DI only when I have to and design my code to need it as little as possible.
+My recommendation is to, as much as possible, factor your code into small which don’t have complicated dependencies and do have good unit tests. Lightweight reliable components don’t need to be mocked when testing so there’s no real reason to inject them.
+Injection is most useful for components which take a too long for a unit test, don’t have predictable behavior, or have heavy external dependencies (like a database).
+
+You solve the "problem" of injecting dependencies in start/awake or through modular editor drag and drop, and in doing so create the problem of relying on and constantly updating/maintaining a giant god object that handles all of your dependencies through a bloated framework...
+Not the best tradeoff IMHO.
+
+My advice, from 2 decades of non-Unity professional software development experience, and someone who loves DI, is, if you have never used DI before, don't start with Unity. As others have noted, Unity itself holds the configuration root (others have called that a "god object" which isn't correct, if you've implemented DI correctly). If you start using something like Zenject in Unity, you've now got your configuration in two places, and one of those (the Unity editor) has it spread out all over the place.
+Build some non-unity projects with DI (.Net Core comes with a capable system) and experiment with it to see the benefits and drawbacks it provides. When you really start to understand DI, then you can start thinking about adding an additional DI framework in your Unity projects.
+You are right to worry about mixing patterns, that can cause confusion later when you have to maintain your code if there isn't an immediately obvious answer to "where is this dependency configured?"
+Unity's GetComponent methods are the Service Locator Pattern. There is a very good article comparing that to DI here: https://martinfowler.com/articles/injection.html
+
+https://www.reddit.com/r/Unity3D/comments/oxeiqy/should_i_use_dependecy_injection_for_everything/
+
+Whereas the old form of DI is as rigid as it comes, most frameworks are built on IoC (Inheritence over composition) and ECS on the other hand is strictly CoI (composition over inheritance).
+
+You can argue the point which one is better but the tech industry has moved to CoI and even Unity encourages using CoI and ECS over the old rigid OOP paradigm with custom IoC code. C# IoC, unlike C++ IoC is just not machine, nor memory friendly so it has a conceptual flaw when judged by the raw performance.
+
+ECS is based on DI. But it uses DI for CoI (composition over Inheritance) in contrast to IoC which most DI frameworks prefer.
+So, same concepts but from a different angle. After all both ECS and DI are concepts to solve programming problems and more to the point, memory related problems. But one actually solves it and the other turns into a non-performant mess. Tech companies moved away from IoC because they know it's a mess. It was mostly popular in C++ and historically made total sense there. But even the C++ programmers have moved on to CoI. In C#, DI makes sense for open source modules but for Unity games? When the game is so complicated it needs a framework, why choose a framework that's known for not scaling well?
+
+https://www.reddit.com/r/Unity3D/comments/brdr3j/dependency_injection_in_unity/
+
+Every time you use a serialized field, that's dependency injection. Instead of your class being responsible for finding the thing it needs, you mark a field with [SerializeField] (or make it public) to move that responsibility to the scene/prefab/etc.
+The only other place I use a framework for dependency injection is the [Asset Injection](https://kybernetikgames.github.io/weaver/docs/asset-injection/the-problem) system I implemented in [Weaver](https://kybernetikgames.github.io/weaver) which is specifically for static fields and properties to reference assets so I can set up global/shared references without littering my scenes with pseudo-singletons and other nonsense.
+I've tried a few general purpose dependency injection systems like Zenject over the years, but gave up on them pretty quickly because it just didn't seem like my code was any easier to debug and maintain.
+
+https://www.reddit.com/r/Unity2D/comments/dg9p5i/how_do_you_use_dependency_injection_in_unity_or/
