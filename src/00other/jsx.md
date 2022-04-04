@@ -31,4 +31,8 @@ JSX - the syntax for HTML templates inside JavaScript http://2ality.com/2017/11/
 >
 > Because React is JS, people are let loose to do wildly inefficient operations and do them over and over and over whenever _anything_ in that component changes.
 
+> > So you end up with a secondary full featured language
+
+> Gilad Bracha calls these "shadow worlds" https://gbracha.blogspot.com/2014/09/a-domain-of-shadows.html
+
 https://news.ycombinator.com/item?id=30512151
