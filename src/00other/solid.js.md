@@ -51,3 +51,19 @@ https://news.ycombinator.com/item?id=30509806
 I do worry that Solid also has these "If you know, you know" edges though. So I'm trading looking at a function and assuming it'll run over and over with, looking at a function and thinking, "how can I make this thing run again when it needs to?" I'm not saying it's wrong, it's just another piece of tacit knowledge one has to learn when adopting a new framework.
 
 https://news.ycombinator.com/item?id=30514749
+
+That said, I think that easily the most difficult aspects of react revolve around how re-renders are triggered. Maintaining referential equality to stop unnecessary renders gets tricky when you are passing functions or objects. Suddenly you need to be using `useMemo` and `useCallback` and passing dependency lists that all have to be primitive values unless you want to memoize them as well. It can become such a headache that the official line around it mostly seems to be "make the render fast, don't worry about unnecessary re-renders" – good advice, until you hit a use-case where you need to worry.
+
+Solid takes these problems and just vanishes them. UI state knows what its dependencies are automatically and only updates when they change – even in a sub-component level!
+
+To be fair, I've never used Solid in anger, and moving to it would be a big ask when there is such a good ecosystem built up around react. That said it is easily one of the most exciting projects on my radar, and the developer Ryan Carniato seems extremely knowledgeable in the area.
+
+https://news.ycombinator.com/item?id=30510391
+
+Knockout was similar to Solid.js in that they both have functions that you call which then log a data dependency, then when the data changes the UI updates. This led to lots of pain, because instead of a plain value, you have functions which return values, and you need to be very careful about when those functions are called, otherwise the data dependency might not be tracked properly.
+
+Angular had a similar issue, as its state-based observation relied on special scopes. Updates in the wrong scope could be lost or delayed.
+
+React’s approach of only diffing the rendered UI rather than trying to drive updates based on diffs of the input data was vastly simpler, it was much easier to understand the data flow through explicit state and props.
+
+https://news.ycombinator.com/item?id=30511640
