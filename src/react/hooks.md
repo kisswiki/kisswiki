@@ -1,3 +1,7 @@
+> With Class components it was often easier to create Pure components, or do a shouldcomponent update check to optimize performace. They later introduced memo for functional components.
+
+https://news.ycombinator.com/item?id=30512884
+
 ## `useSelector` and `dispatch`
 
 Use can use `useSelector` and `dispatch` instead of `connect` and `mapStateToProps` https://thoughtbot.com/blog/using-redux-with-react-hooks
