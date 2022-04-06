@@ -46,7 +46,7 @@ save/update function in mongodb (function available after restarting robo3t):
 
 ```javascript
 db.system.js.save({
-  _id: "toProperJSON",
+  _id: "toProperJson",
   value: function (cursor) {
     return JSON.stringify(
       cursor.map((obj) => {
@@ -71,13 +71,13 @@ and use it:
 
 ```javascript
 db.loadServerScripts();
-toProperJSON(db.getCollection("users").find({}));
+toProperJson(db.getCollection("users").find({}));
 ```
 
 to remove function
 
 ```javascript
-db.system.js.remove({ _id: "toProperJSON" });
+db.system.js.remove({ _id: "toProperJson" });
 ```
 
 - https://stackoverflow.com/questions/28733692/how-to-export-json-from-mongodb-using-robomongo/38784785#38784785
