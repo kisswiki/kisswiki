@@ -65,3 +65,9 @@ Because if we do that the expression Math.floor(Math.random() \* 100) will run r
 We want to delay the evaluation of the expression so we wrap of in defer. Now the expression Math.floor(Math.random() \* 100) will be evaluated when source is subscribed to and not any time earlier.
 
 https://stackoverflow.com/questions/38764578/rxjs-understanding-defer/53017413#53017413
+
+## shareReplay
+
+shareReplay is the multicast operator with a ReplaySubject, followed by a refCount. So I would bet that publishReplay(x).refCount() should be quite close to the shareReplay behaviour.
+
+https://stackoverflow.com/questions/34600088/pattern-for-sharereplay1-in-rxjs5/34603009#34603009
