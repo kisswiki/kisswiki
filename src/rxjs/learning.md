@@ -32,7 +32,7 @@ share is publish().refCount()
 
 publish is shortcut for multicast(new Subscriber())
 
-publisReplay(100) is a mutlicast(new ReplaySubject(100))
+publishReplay(100) is a mutlicast(new ReplaySubject(100))
 
 publishBehavior(0) is a multicast(new BehaviorSubject(0))
 
