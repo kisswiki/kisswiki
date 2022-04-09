@@ -1,4 +1,3 @@
-
 - https://github.com/neovim/neovim/wiki/FAQ
 
 ## Install on Ubuntu
@@ -8,6 +7,7 @@ sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install -y neovim
 ```
+
 https://github.com/neovim/neovim/wiki/Installing-Neovim
 
 ## vim-plug
@@ -64,7 +64,6 @@ https://github.com/junegunn/vim-plug/issues/472
 > If you're on neovim, I'd put my vote in for deoplete + vim-racer. deoplete in my experience is much faster and much easier to configure.
 > https://www.reddit.com/r/rust/comments/4y6teu/how_do_i_use_rust_on_vim/d6ln6je
 
-
 1. install with vim-plug: `Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }`
 2. `deoplete#enable()` in init.vim
 3. `sudo -E pip3 install neovim`
@@ -94,7 +93,7 @@ Testing in Ubuntu on Windows 10
   - doesn't work, inserts 'Q' `set pastetoggle=<F2>`
   - works http://stackoverflow.com/questions/2514445/turning-off-auto-indent-when-pasting-text-into-vim/31998340#31998340
 - http://superuser.com/questions/437730/always-use-set-paste-is-it-a-good-idea
-- doesn't work  https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
+- doesn't work https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
 - http://stackoverflow.com/questions/2555559/pasting-from-clipboard-and-automatically-toggling-set-paste
 - http://vim.wikia.com/wiki/Toggle_auto-indenting_for_code_paste
 
@@ -163,9 +162,9 @@ https://vi.stackexchange.com/questions/11221/is-there-an-incsearch-for-the-repla
 
 Start maximized with `--maximized` parameter
 
-## Run kissw.sh
+## Run sync.sh
 
-`:!.\kissw.sh`
+`:!.\sync.sh`
 
 ## vs vim
 
@@ -189,7 +188,6 @@ https://github.com/smudge/dotfiles/blob/3b9e9474150131458c3846ad2d3a4ab0c342dabb
 - https://www.reddit.com/r/neovim/comments/df0szy/dependencies_for_plugins_in_lua/
 
 ## .nvim_session.vim
-
 
 ```
 e src/main.rs

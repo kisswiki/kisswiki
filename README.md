@@ -8,6 +8,7 @@ npm start
 ```
 
 I edit it in atom.io
+
 - I use commands `fold-all` and `unfold-all`
 - key strokes
   - `Ctrl+[` to decrease indent and `Ctrl+]` to increase indent. Those key bindings work even when you are in the middle of line, contrary to `tab` and `Shift+Tab`.
@@ -22,14 +23,13 @@ I edit it in atom.io
 
 ## alias
 
-`./kissw.sh`
+`./sync.sh`
 
 or
 
 copy alias from `src/.bashrc` to `~/.bashrc` and `source ~/.bashrc`.
 
 Then run `kissw`.
-
 
 ## osx shortcut
 
