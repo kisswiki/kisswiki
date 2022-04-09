@@ -21,15 +21,11 @@ I edit it in atom.io
 
 `run_task_automatically.md`
 
-## alias
+## sync
 
-`./sync.sh`
+`git sync`
 
-or
-
-copy alias from `src/.bashrc` to `~/.bashrc` and `source ~/.bashrc`.
-
-Then run `kissw`.
+https://github.com/rofrol/dotfiles/blob/master/bin/git-sync
 
 ## osx shortcut
 
