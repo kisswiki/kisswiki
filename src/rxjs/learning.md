@@ -40,7 +40,7 @@ publishLast is a multicast(new AsyncSubject())
 
 subjectFactory is when multicast(() => new Subject())
 
-subjectFactory is when subscriber subscribe after completion of last subject, new subject is created
+subjectFactory is when subscriber subscribes after completion of last subject, new subject is created
 
 multicast(() => new Subject(), function selector(shared) {})
 
@@ -68,6 +68,6 @@ https://stackoverflow.com/questions/38764578/rxjs-understanding-defer/53017413#5
 
 ## shareReplay
 
-shareReplay is the multicast operator with a ReplaySubject, followed by a refCount. So I would bet that publishReplay(x).refCount() should be quite close to the shareReplay behaviour.
+shareReplay is the multicast operator with a ReplaySubject, followed by a refCount. So I would bet that `publishReplay(x).refCount()` should be quite close to the shareReplay behaviour.
 
 https://stackoverflow.com/questions/34600088/pattern-for-sharereplay1-in-rxjs5/34603009#34603009
