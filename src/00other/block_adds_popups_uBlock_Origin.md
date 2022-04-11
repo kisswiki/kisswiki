@@ -13,3 +13,7 @@ www.youtube.com##.ytp-scroll-min.ytp-pause-overlay
 
 - https://github.com/lawfx/YoutubeNonStop
   - https://www.reddit.com/r/youtube/comments/9hjbz2/how_do_i_remove_video_paused_continue_watching/e91q53o/
+
+## Facebook ads and suggested
+
+https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_facebook
