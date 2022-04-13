@@ -1,0 +1,4 @@
+- No popcorn time in homebrew https://docs.brew.sh/Acceptable-Casks#rejected-casks
+- https://www.reddit.com/r/PopCornTimeApp/wiki/faq
+  - https://popcorn-time.ga/build/
+    - https://popcorn-time.ga/build/Popcorn-Time-0.4.7-Mac.zip
