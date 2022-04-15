@@ -1,3 +1,5 @@
+Below creates object, not enum:
+
 ```typescript
 function strEnum<T extends string>(o: Array<T>): { [K in T]: K } {
   return o.reduce((res, key) => {
