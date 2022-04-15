@@ -71,3 +71,13 @@ https://stackoverflow.com/questions/38764578/rxjs-understanding-defer/53017413#5
 shareReplay is the multicast operator with a ReplaySubject, followed by a refCount. So I would bet that `publishReplay(x).refCount()` should be quite close to the shareReplay behaviour.
 
 https://stackoverflow.com/questions/34600088/pattern-for-sharereplay1-in-rxjs5/34603009#34603009
+
+## distinctUntilChanged
+
+Only emit when the current value is different than the last
+
+https://www.learnrxjs.io/learn-rxjs/operators/filtering/distinctuntilchanged
+
+## throttleDistinct
+
+https://stackoverflow.com/questions/53623221/rxjs-throttle-same-value-but-let-new-values-through
