@@ -81,3 +81,15 @@ https://www.learnrxjs.io/learn-rxjs/operators/filtering/distinctuntilchanged
 ## throttleDistinct
 
 https://stackoverflow.com/questions/53623221/rxjs-throttle-same-value-but-let-new-values-through
+
+## delayWhen instead of switchMap was causing problems
+
+## pairwise
+
+It needs 2 values to start emmiting, so before place `startWith`, but `distinctUntilChanged` should be before:
+
+```typescript
+      distinctUntilChanged(),
+      startWith(undefined),
+      pairwise()),
+```
