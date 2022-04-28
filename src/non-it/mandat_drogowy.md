@@ -9,4 +9,4 @@
 7. Jeśli wskazujemy na siebie, to w prawie jazdy data wydania dokumentu jest ogólna data, a data uzyskania uprawnień jest przy danej kategorii.
 8. Wysłać do podpisania przez epuap (kod z smsa).
 
-Uwaga: konto w canard zostanie zablokowane jeśli nie otworzy się w teminie przynajmniej dwóch linków które wyślą mailem. Czas na otworzenie to 14 dni.
+Uwaga: konto w canard zostanie zablokowane po nieotworzeniu w teminie przynajmniej dwóch linków, które wysyłają mailem. Czas na otworzenie to 14 dni.
