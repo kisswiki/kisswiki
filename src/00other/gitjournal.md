@@ -52,4 +52,4 @@ Antway, after setting git host and successfully syncing, set git to external rep
 
 You have to first set git host and then externl repository, othereise it fails.
 
-Go to `gitjournal > settings > storage and file format >
+Go to `gitjournal > settings > storage and file format > store repo externally`.
