@@ -2,7 +2,7 @@
 
 1. Zalogować się przez epuap (kod z smsa) na https://ebok.canard.gitd.gov.pl/ (nie działa w Firefox)
 2. https://ebok.canard.gitd.gov.pl/ebok/web/portal/katalog-uslug
-3. Oświadczenie Karta usług
+3. Oświadczenie > Karta usługi
 4. Na papierowym formularzu jest Znak pisma oraz kod.
 5. Wypełnić formularz
 6. Jeśli pesel wypełni się z autowypełnienia, to źle się wypełni data urodzenia. Skasować ostatni znak w peselu i wprowadzić go jeszcze raz.
