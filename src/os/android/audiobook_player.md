@@ -1,3 +1,3 @@
-- https://alternativeto.net/software/smart-audiobook-player/
+- https://alternativeto.net/software/smart-audiobook-player/?license=opensource&platform=android
   - f-droid only https://github.com/flackbash/AudioAnchor
   - https://github.com/PaulWoitaschek/Voice
