@@ -1,0 +1,3 @@
+- https://alternativeto.net/software/smart-audiobook-player/
+  - f-droid only https://github.com/flackbash/AudioAnchor
+  - https://github.com/PaulWoitaschek/Voice
