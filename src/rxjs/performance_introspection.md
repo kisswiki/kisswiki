@@ -1,0 +1,2 @@
+- https://github.com/cartant/rxjs-spy
+- https://github.com/mgechev/angular-performance-checklist
