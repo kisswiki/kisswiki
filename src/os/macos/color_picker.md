@@ -1,1 +1,2 @@
 - https://github.com/ripeworks/iro
+- in figma.com press i for color picker
