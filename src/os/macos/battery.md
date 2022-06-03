@@ -1,3 +1,15 @@
+## mds_stores high cpu usage
+
+I have excluded projects and personal_projects in `System Preferences > Spotlight > Privacy` but mds_stores was still using cpu much.
+
+Then I disabled spotlight indexing with:
+
+`sudo mdutil -a -i off`
+
+https://apple.stackexchange.com/questions/144474/mds-and-mds-stores-constantly-consuming-cpu/144494#144494
+
+## Links
+
 - https://apple.stackexchange.com/questions/110780/how-to-know-the-duration-of-battery-usage-in-one-session
 - [Determine battery cycle count for Mac notebooks - Apple Support](https://support.apple.com/en-us/HT201585)
 - https://www.reddit.com/r/MacOS/comments/l3ykb1/battery_drain_on_bigsur_anyway_to_fix_this_return/
