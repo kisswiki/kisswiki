@@ -1,0 +1,1 @@
+- https://www.digitalocean.com/community/tutorials/angular-change-detection-strategy
