@@ -1,2 +1,3 @@
 - https://www.osradar.com/how-to-control-the-volume-of-each-app-on-xiaomi-phones/
 - https://www.reddit.com/r/Xiaomi/comments/jkg2i6/til_its_possible_to_adjust_individual_app_volumes/
+- https://www.androidauthority.com/xiaomi-miui-12-sound-assistant-1133145/
