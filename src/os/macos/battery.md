@@ -1,5 +1,7 @@
 ## mds_stores high cpu usage
 
+I do not have Time Machine enabled like here https://apple.stackexchange.com/questions/144474/mds-and-mds-stores-constantly-consuming-cpu/343222#343222.
+
 I have excluded projects and personal_projects in `System Preferences > Spotlight > Privacy` but mds_stores was still using cpu much.
 
 Then I disabled spotlight indexing with:
