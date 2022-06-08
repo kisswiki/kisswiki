@@ -39,7 +39,7 @@ function hsl2rgb([h, s, l]: [number, number, number]): [
   return [f(0), f(8), f(4)];
 }
 
-function hsl2cssrgb([h, s, l]: [number, number, number]): string {
+function hsl2cssRgb([h, s, l]: [number, number, number]): string {
   const hsl = `hsl(${Math.round(h)}, ${Math.round(s * 100)}%, ${Math.round(
     l * 100
   )}%)`;
@@ -96,6 +96,8 @@ function rgbToHex(rgb: number[]) {
   return rgb.map((c) => (0).toString(16).padStart(2, "0")).join("");
 }
 
+// https://news.ycombinator.com/item?id=7824684
+// https://colorbrewer2.org/#type=diverging&scheme=RdYlBu&n=11
 const brewerColors = [
   "hsl(3, 69%, 50%)",
   "hsl(8, 63%, 57%)",
