@@ -65,6 +65,7 @@ function cssHsl2hsl(c: string): [number, number, number] {
   return [h, s / 100, l / 100];
 }
 
+// https://stackoverflow.com/questions/10970958/get-a-color-component-from-an-rgb-string-in-javascript/11003212#11003212
 function cssRgb2rgb(c: string): [number, number, number] {
   const [r, g, b] = c.match(/\d+/g)!.map((c) => parseInt(c, 10) / 255);
   return [r, g, b];
@@ -95,7 +96,11 @@ function toBlob(canvas: HTMLCanvasElement): Promise<Blob> {
 function rgbToHex(rgb: number[]) {
   return rgb.map((c) => (0).toString(16).padStart(2, "0")).join("");
 }
+```
 
+## Colors distinguishable to humans
+
+```
 // https://news.ycombinator.com/item?id=7824684
 // https://colorbrewer2.org/#type=diverging&scheme=RdYlBu&n=11
 const brewerColors = [
@@ -143,3 +148,31 @@ const brewerColors = [
   "hsl(346, 100%, 32%)",
 ];
 ```
+
+- https://krazydad.com/tutorials/makecolors.php
+  - http://jsfiddle.net/rGL52/
+- https://stackoverflow.com/questions/10014271/generate-random-color-distinguishable-to-humans
+- https://stackoverflow.com/questions/470690/how-to-automatically-generate-n-distinct-colors
+- https://stackoverflow.com/questions/1168260/algorithm-for-generating-unique-colors
+- https://stackoverflow.com/questions/773226/generate-unique-colours
+- https://stackoverflow.com/questions/6823286/create-unique-colors-using-javascript
+- https://sashamaps.net/docs/resources/20-colors/
+- https://mokole.com/palette.html
+- https://graphicdesign.stackexchange.com/questions/3682/where-can-i-find-a-large-palette-set-of-contrasting-colors-for-coloring-many-d
+- Zeileis, Hornik and Murrell (2009): Escaping RGBland: Selecting Colors for Statistical Graphics // Computational Statistics & Data Analysis Volume 53, Issue 9, 1 July 2009 https://www.zeileis.org/papers/Zeileis+Hornik+Murrell-2009.pdf
+- https://graphicdesign.stackexchange.com/questions/7960/clearly-distinguishable-colours-for-scientific-figures
+- https://medialab.github.io/iwanthue/
+
+## Sort colors
+
+- https://stackoverflow.com/questions/51158179/given-a-finite-palette-how-to-sort-from-hot-to-cold-i-e-diverging
+- https://stackoverflow.com/questions/56554290/algorithm-to-sort-colors-like-the-rainbow
+- https://mathematica.stackexchange.com/questions/87588/how-to-sort-colors-properly
+- https://stackoverflow.com/questions/3014402/sorting-a-list-of-colors-in-one-dimension
+- https://tomekdev.com/posts/sorting-colors-in-js
+
+## Color manipulation and conversion
+
+- https://github.com/elchininet/ColorTranslator
+- https://github.com/carloscabo/colz
+- https://github.com/jakoivis/color-util
