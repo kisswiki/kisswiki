@@ -98,6 +98,9 @@ function rgbToHex(rgb: number[]) {
 }
 ```
 
+- https://stackoverflow.com/questions/5623838/rgb-to-hex-and-hex-to-rgb/5624139#5624139
+- https://stackoverflow.com/questions/21646738/convert-hex-to-rgba
+
 ## Colors distinguishable to humans
 
 ```
