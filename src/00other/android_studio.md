@@ -16,3 +16,17 @@ It was already created with new project. Thought there are these resources:
 ## Go back to application in Android Emulator
 
 Drag up white bar.
+
+## Go to layout - another method
+
+`Ctrl/Cmd and click fragment_game inside onCreateView(...)`
+
+## extract resources
+
+Alt-Enter to get an Extract Resource dialog
+
+## two gradle files
+
+The reason there are two Gradle files in the project is that we have one top-level file for all modules in our project and another for the app module.
+
+Michael Fazio - Kotlin and Android Development featuring Jetpack

@@ -22,6 +22,17 @@ Choosing Android 10 as base
 
 I didn't have to add `kotlinOptions { jvmTarget = '1.8' }` to `app/build.gradle` as it was already set.
 
+There is also kotlin-dsl https://stackoverflow.com/questions/41113268/how-to-set-up-kotlins-byte-code-version-in-gradle-project-to-java-8/45994990#45994990
+
 To open `AndroidManifest.xml` (`app/src/main/AndroidManifest.xml`) I needed to click xml icon on the side of `MainActivity.kt`.
 
 `MainActivity` has layout with file name backward `activity_main.xml`.
+
+These drawables are svg files:
+
+- `app/src/main/res/drawable-v24/ic_launcher_foreground.xml`
+- `app/src/main/res/drawable/ic_launcher_background.xml`
+
+https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive
+
+https://developer.android.com/studio/write/translations-editor
