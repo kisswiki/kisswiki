@@ -19,3 +19,5 @@ Android Studio and Split, `@Preview`, default value or `@PreviewParameter`, `bac
 https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide
 
 Choosing Android 10 as base
+
+I didn't have to add `kotlinOptions { jvmTarget = '1.8' }` to `app/build.gradle` as it was already set.
