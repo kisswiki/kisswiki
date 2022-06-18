@@ -12,3 +12,7 @@ It was already created with new project. Thought there are these resources:
 
 - https://github.com/github/gitignore/blob/main/Android.gitignore
 - https://stackoverflow.com/questions/16736856/what-should-be-in-my-gitignore-for-an-android-studio-project
+
+## Go back to application in Android Emulator
+
+Drag up white bar.

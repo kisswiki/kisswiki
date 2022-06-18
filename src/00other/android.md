@@ -21,3 +21,7 @@ https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide
 Choosing Android 10 as base
 
 I didn't have to add `kotlinOptions { jvmTarget = '1.8' }` to `app/build.gradle` as it was already set.
+
+To open `AndroidManifest.xml` (`app/src/main/AndroidManifest.xml`) I needed to click xml icon on the side of `MainActivity.kt`.
+
+`MainActivity` has layout with file name backward `activity_main.xml`.
