@@ -36,3 +36,7 @@ These drawables are svg files:
 https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive
 
 https://developer.android.com/studio/write/translations-editor
+
+Open 'Build' View
+
+> all buildscript {} blocks must appear before any plugins {} blocks in the script
