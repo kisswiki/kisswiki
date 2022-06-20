@@ -44,9 +44,9 @@ most used operators in pipeline: `$match`, `$group`, `$sort`, `$project`, `$unwi
 
 ### Query optimization
 
-finds matching query in plan cache
+if optimizer finds matching query in plan cache then uses it
 
-else query that has lowest number of work units which correlates mostly with the number of documents to process
+else uses query that has lowest number of work units which correlates mostly with the number of documents to process
 
 ### Storage engines
 
