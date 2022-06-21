@@ -509,6 +509,14 @@ In the example there is no longer `SORT` - MongoDB was able to use index to retu
 
 How do we find the statements that are generating that IO and from there identify the index required? This is where the MongoDB profiler comes in.
 
+```shell
+> db.getProfilingStatus()
+{ was: 0, slowms: 100, sampleRate: 1, ok: 1 }
+> db.getProfilingStatus()
+> db.setProfilingLevel(0)
+> db.createCollection("system.profile", {capped: true, size:10485760 })
+```
+
 ### Tuning MongoDB Code
 
 #### Tunning Aggregation Pipelines
