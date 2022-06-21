@@ -521,6 +521,10 @@ How do we find the statements that are generating that IO and from there identif
 { was: 2, slowms: 100, sampleRate: 1, ok: 1 }
 ```
 
+#### Tuning with MongoDB Logs
+
+https://github.com/rueckstiess/mtools
+
 ### Tuning MongoDB Code
 
 #### Tunning Aggregation Pipelines
@@ -528,3 +532,7 @@ How do we find the statements that are generating that IO and from there identif
 For `explain().aggregation(pipeline)`, `queryPlanner` resides in `stages[0].$cursor.queryPlanner`.
 
 `stages` array contains each of the aggregation stages as individual objects. `stages` arrays show information about each subsequent step in the aggregation pipeline. MongoDB can merge and reorder aggregation stages during execution.
+
+### Other
+
+`tail -f /opt/homebrew/var/log/mongodb/mongo.log`
