@@ -7,3 +7,7 @@ In fullscreen in vscode somehow the title bar is shown even when there is no mou
 ## Alt-tab
 
 When installing new version, you don't have preview of windows. You need to close app or create new window in it. gitk which uses wish, needs to be reopened.
+
+## iTerm
+
+Change size of window splits can take couple of minutes.
