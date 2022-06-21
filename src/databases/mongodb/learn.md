@@ -471,7 +471,7 @@ WiredTiger is the default storage engine.
 
 `explain()`, profiler, `ServerStatus()`, `CurrentOp()`, Compass tool - GUI
 
-#### explain
+#### Introduction to explain()
 
 ```javascript
 var cursor = db.customers.explain().find();
@@ -504,6 +504,10 @@ most significant stats
 `mongoTuning.executionStats(doc)`
 
 In the example there is no longer `SORT` - MongoDB was able to use index to return documents in sorted order without an explicit sort.
+
+#### The Query Profiler
+
+How do we find the statements that are generating that IO and from there identify the index required? This is where the MongoDB profiler comes in.
 
 ### Tuning MongoDB Code
 
