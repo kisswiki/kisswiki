@@ -10,6 +10,10 @@ Then I disabled spotlight indexing with:
 
 https://apple.stackexchange.com/questions/144474/mds-and-mds-stores-constantly-consuming-cpu/144494#144494
 
+Or maybe `System Preferences > Spotlight > Uncheck every item except for “Applications” and “System Preferences”`
+
+https://osxdaily.com/2010/07/06/turn-spotlight-into-an-application-launcher-only/
+
 ## Links
 
 - https://apple.stackexchange.com/questions/110780/how-to-know-the-duration-of-battery-usage-in-one-session
