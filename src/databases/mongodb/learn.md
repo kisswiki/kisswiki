@@ -515,6 +515,10 @@ How do we find the statements that are generating that IO and from there identif
 > db.getProfilingStatus()
 > db.setProfilingLevel(0)
 > db.createCollection("system.profile", {capped: true, size:10485760 })
+> db.setProfilingLevel(2)
+{ was: 0, slowms: 100, sampleRate: 1, ok: 1 }
+> db.getProfilingStatus()
+{ was: 2, slowms: 100, sampleRate: 1, ok: 1 }
 ```
 
 ### Tuning MongoDB Code
