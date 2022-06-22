@@ -30,3 +30,7 @@ Alt-Enter to get an Extract Resource dialog
 The reason there are two Gradle files in the project is that we have one top-level file for all modules in our project and another for the app module.
 
 Michael Fazio - Kotlin and Android Development featuring Jetpack
+
+## compact package names
+
+Switch to "Android" typu view in file explorer.
