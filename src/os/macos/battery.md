@@ -16,7 +16,13 @@ https://osxdaily.com/2010/07/06/turn-spotlight-into-an-application-launcher-only
 
 ## Last lid open
 
-`pmset -g log|grep -e " Sleep " -e " Wake "`
+uptime gives 3:58 hours. Last lid open 2 hours.
+
+```shell
+$ pmset -g log | grep " Wake  " | tail -n 1
+2022-06-23 10:41:48 +0200 Wake                	Wake from Deep Idle [CDNVA] : due to SMC.OutboxNotEmpty smc.70070000 lid/HID Activity Using BATT (Charge:100%)
+% uptime
+12:43  up 20 days,  3:58, 6 users, load averages: 2.61 2.54 2.74
 
 https://apple.stackexchange.com/questions/52064/how-to-find-out-the-start-time-of-last-sleep/84162#84162
 
@@ -95,3 +101,4 @@ Satechi also highlights that the charger itself is equipped with short circuit a
 - https://pancernik.eu/ladowarka-samochodowa/baseus-superme-digital-display-pps-100w-usb-c-usb-a-czarna
 - 139 zł https://www.cortland.pl/satechi-ladowarka-samochodowa-usb-c-usb-a-72w-czarny.html
 - https://allegro.pl/oferta/mio-smartbox-zasilacz-na-stale-tryb-parkingowy-9524207539
+```
