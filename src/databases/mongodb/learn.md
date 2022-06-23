@@ -523,7 +523,9 @@ true
 { was: 2, slowms: 100, sampleRate: 1, ok: 1 }
 ```
 
-`db.getProfilingStatus(); db.setProfilingLevel(0); db.system.profile.drop(); db.createCollection("system.profile", {capped: true, size:10485760 }); db.setProfilingLevel(2);`
+one-liner
+
+`db.getProfilingStatus(); db.setProfilingLevel(0); db.system.profile.drop(); db.createCollection("system.profile", {capped: true, size:10485760 }); db.setProfilingLevel(2); db.getProfilingStatus();`
 
 #### Tuning with MongoDB Logs
 
