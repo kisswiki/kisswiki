@@ -137,3 +137,9 @@ https://github.com/Microsoft/vscode/issues/5586
 `⇧⌘O`
 
 https://code.visualstudio.com/docs/editor/editingevolved
+
+## unfold all
+
+`ctrl+k ctrl+j`
+
+https://www.mongodb.com/community/forums/t/convert-aggregation-results-to-json/2458
