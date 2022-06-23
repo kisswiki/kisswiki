@@ -10,9 +10,15 @@ Then I disabled spotlight indexing with:
 
 https://apple.stackexchange.com/questions/144474/mds-and-mds-stores-constantly-consuming-cpu/144494#144494
 
-Or maybe `System Preferences > Spotlight > Uncheck every item except for “Applications” and “System Preferences”`
+Eventually I did `System Preferences > Spotlight > Uncheck every item except for “Applications” and “System Preferences”`
 
 https://osxdaily.com/2010/07/06/turn-spotlight-into-an-application-launcher-only/
+
+## Last lid open
+
+`pmset -g log|grep -e " Sleep " -e " Wake "`
+
+https://apple.stackexchange.com/questions/52064/how-to-find-out-the-start-time-of-last-sleep/84162#84162
 
 ## Links
 
