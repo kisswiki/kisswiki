@@ -7,13 +7,14 @@
 % node -p "process.arch"
 arm64
 % nvm install stable --reinstall-packages-from=current
-# nvm use stable
+# nvm alias default stable
 ```
 
 - https://stackoverflow.com/questions/65342769/install-node-on-m1-mac/65449002#65449002
 - https://stackoverflow.com/questions/64002438/installing-node-lts-with-nvm-on-windows/65532065#65532065
 - there is also https://github.com/jasongin/nvs
 - https://stackoverflow.com/questions/34810526/how-to-properly-upgrade-node-using-nvm/34810922#34810922
+- https://stackoverflow.com/questions/53785383/how-to-change-node-version-with-nvm
 
 ## yarn
 
