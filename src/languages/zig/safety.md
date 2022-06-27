@@ -1,0 +1,9 @@
+- https://twitter.com/ThePrimeagen/status/1532392532226744321
+  - https://twitter.com/maniacallemon/status/1532476346886152211
+    - https://www.scattered-thoughts.net/writing/how-safe-is-zig/
+      - [Generate checks for all forms of UB in Debug and ReleaseSafe modes · Issue #2301 · ziglang/zig] (https://github.com/ziglang/zig/issues/2301)
+        - [Adopt a Zig Memory Model · Issue #6396 · ziglang/zig](https://github.com/ziglang/zig/issues/6396)
+  - https://twitter.com/jorandirkgreef/status/1533466069125451776
+    - I/O stack, single-threaded, running over io_uring on Linux, and cross-platform https://github.com/coilhq/tigerbeetle/tree/main/src/io
+  - https://twitter.com/1mikegrn/status/1532399793871282179
+    - according to the all knowing drag race, it's certified blazingly fast https://github.com/PlummersSoftwareLLC/Primes/tree/drag-race/PrimeZig
