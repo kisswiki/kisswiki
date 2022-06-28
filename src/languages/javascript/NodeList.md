@@ -1,3 +1,17 @@
+## Array.from(nodeList, callback)
+
+`Array.from(nodeList).forEach(callback)`
+
+However, you are not optimising the use of `Array.from` here, because you first create the whole array, and then iterate over it with `forEach`.
+
+Instead use the second argument of `Array.from`:
+
+`Array.from(nodeList, callback)`
+
+Now the whole operation happens in one iteration.
+
+https://stackoverflow.com/questions/43449971/loop-through-nodelist-array-prototype-foreach-call-vs-array-from-foreach/43450279#43450279
+
 ## Only this worked
 
 ```javascript
