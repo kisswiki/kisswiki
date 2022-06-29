@@ -43,6 +43,8 @@ Open 'Build' View
 
 ## https://developer.android.com/jetpack/compose/tutorial
 
+I am starting this instead of "Michael Fazio - Kotlin and Android Development featuring Jetpack", beacuse this one uses Empty Compose Activity.
+
 I have read also prerequisites:
 
 - https://developer.android.com/topic/libraries/architecture/viewmodel
