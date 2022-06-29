@@ -128,3 +128,9 @@ There’s a “Manage Series” plugin that would be the easiest option. You can
 - https://manual.calibre-ebook.com/regexp.html
 - https://manual.calibre-ebook.com/regexp_quick_reference.html
 - [Importing Series information into Calibre - MobileRead Forums](https://www.mobileread.com/forums/showthread.php?t=119554)
+
+## Calibre viewer
+
+zoom in: ctrl++
+
+zoom out: ctrl+-
