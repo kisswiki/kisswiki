@@ -81,3 +81,14 @@ This worked:
             "Contact profile picture",
         )
 ```
+
+or without typo:
+
+```kotlin
+        Image(
+            painter = painterResource(R.drawable.profile_picture),
+            contentDescription = "Contact profile picture",
+        )
+```
+
+I couldn't import `.clip` with alt+enter, but hovering mouse and chosing import worked.
