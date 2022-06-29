@@ -57,3 +57,5 @@ After using `Column`, I needed to import it with `alt+enter` with cursor over `C
 Android Studio hanged on "Import Drawables" when I clicked "Downloads" in Finder. In Activity Monitor, Android Studio has adnotation "Not responding".
 
 Drag-and-drop from Finder worked. Also MacOS asked if I want to give Android Studio permission to view Downloads folder.
+
+Image showed in Resource Manager after I run "Build Refresh".
