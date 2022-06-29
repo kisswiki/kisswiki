@@ -52,6 +52,8 @@ When there is preview for composable, in split or design view at the top, there 
 
 After using `Column`, I needed to import it with `alt+enter` with cursor over `Column`.
 
+I needed to import `Image` by hand `import androidx.compose.foundation.Image`.
+
 `Image` does not use curly braces. Use `Image()`. Also first import is `import android.media.Image` which is wrong.
 
 Android Studio hanged on "Import Drawables" when I clicked "Downloads" in Finder. In Activity Monitor, Android Studio has adnotation "Not responding".
@@ -59,3 +61,23 @@ Android Studio hanged on "Import Drawables" when I clicked "Downloads" in Finder
 Drag-and-drop from Finder worked. Also MacOS asked if I want to give Android Studio permission to view Downloads folder.
 
 Image showed in Resource Manager after I run "Build Refresh".
+
+When using Image like in tutorial
+
+```kotlin
+        Image(
+            painter = painterResource(R.drawable.profile_picture),
+            contetDescription = "Contact profile picture",
+        )
+```
+
+I got error: "None of the following functions can be called with the arguments supplied."
+
+This worked:
+
+```kotlin
+        Image(
+            painterResource(R.drawable.profile_picture),
+            "Contact profile picture",
+        )
+```
