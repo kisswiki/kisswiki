@@ -94,3 +94,31 @@ or without typo:
 ```
 
 I couldn't import `.clip` with alt+enter, but hovering mouse and chosing import worked.
+
+Note: the Empty Compose Activity template generates a default theme for your project that allows you to customize MaterialTheme. If you named your project anything different from ComposeTutorial, you can find your custom theme in the Theme.kt file in the ui.theme subpackage.
+
+To fix indent in Text argument, I needed to use Reformat Code alt+cmd+l
+
+cmd+shift+f12 to hide unneeded sidebars in Android Studio.
+
+UNSOLVED: `uiMode = Configuration.UI_MODE_NIGHT_YES` does not show dark background. Clicking in Android studio on uiMode doc gives us 404 https://developer.android.com/reference/android/android/content/res/Configuration.html#uiMode.
+
+https://stackoverflow.com/questions/72806571/android-jetpack-compose-preview-ui-mode-night-yes-does-not-show-dark-background
+
+I got error when trying "Run Preview": `INSTALL_FAILED_INSUFFICIENT_STORAGE`
+
+Solution was to close emulator with x, go to Device Manager and from dropdown select "Wipe Data" and "Run Preview" again.
+
+https://stackoverflow.com/questions/39430470/android-studio-install-failed-insufficient-storage/58210876#58210876
+
+`@Preview(name = "Full Preview", showSystemUi = true)` https://alexzh.com/jetpack-compose-preview/
+
+I needed to add import by hand `import androidx.compose.foundation.lazy.items`
+
+To import dataset
+
+To import it right click in Project tab, Android selected in dropdown.
+
+Right-click on `app > java > dev.yourname.composetutorial` then `New > Kotlin Class/File` and just paste content from this gist.
+
+https://gist.github.com/yrezgui/26a1060d67bf0ec2a73fa12695166436?permalink_comment_id=4216621#gistcomment-4216621
