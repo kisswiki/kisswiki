@@ -195,3 +195,8 @@ To have Android Emulator in separate window:
 
 - https://stackoverflow.com/questions/70986530/android-studio-emulator-in-a-separate-window/70986750#70986750
 - https://developer.android.com/studio/run/emulator#run-emulator-studio
+
+I could not show device frame with any of these:
+
+- https://stackoverflow.com/questions/55172445/how-do-you-disable-device-frame-on-android-studio-3-3/55178961#55178961
+- https://android.stackexchange.com/questions/105439/how-to-start-avd-emulator-without-device-frame/127951#127951
