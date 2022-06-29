@@ -193,4 +193,5 @@ To have Android Emulator in separate window:
 
 `Preferences -> Tools -> Emulator > uncheck "Launch in a tool window"`
 
-https://stackoverflow.com/questions/70986530/android-studio-emulator-in-a-separate-window/70986750#70986750
+- https://stackoverflow.com/questions/70986530/android-studio-emulator-in-a-separate-window/70986750#70986750
+- https://developer.android.com/studio/run/emulator#run-emulator-studio
