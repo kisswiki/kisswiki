@@ -178,3 +178,19 @@ com.intellij.util.IncorrectOperationException: Sorry but parent: NlModel for Lig
 That error never happend again.
 
 Interesting when I changed to dark mode in emulator (drop from up multiple times until you see cog icon > Display > Dark mode), Conversation was displayed that Survace had dark background.
+
+Be aware that surfaceColor is val not var `val surfaceColor`
+
+Finished
+
+## https://developer.android.com/courses/pathways/compose
+
+I have sent my request to join https://goo.gle/compose-slack
+
+## Skillshare - To-Do App with Jetpack Compose MVVM - Android Development
+
+To have Android Emulator in separate window:
+
+`Preferences -> Tools -> Emulator > uncheck "Launch in a tool window"`
+
+https://stackoverflow.com/questions/70986530/android-studio-emulator-in-a-separate-window/70986750#70986750
