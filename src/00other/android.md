@@ -40,3 +40,20 @@ https://developer.android.com/studio/write/translations-editor
 Open 'Build' View
 
 > all buildscript {} blocks must appear before any plugins {} blocks in the script
+
+## https://developer.android.com/jetpack/compose/tutorial
+
+I have read also prerequisites:
+
+- https://developer.android.com/topic/libraries/architecture/viewmodel
+- https://developer.android.com/jetpack/compose/setup
+
+When there is preview for composable, in split or design view at the top, there is refresh icon: "Build Refresh" alt+cmd+shift+r
+
+After using `Column`, I needed to import it with `alt+enter` with cursor over `Column`.
+
+`Image` does not use curly braces. Use `Image()`. Also first import is `import android.media.Image` which is wrong.
+
+Android Studio hanged on "Import Drawables" when I clicked "Downloads" in Finder. In Activity Monitor, Android Studio has adnotation "Not responding".
+
+Drag-and-drop from Finder worked. Also MacOS asked if I want to give Android Studio permission to view Downloads folder.
