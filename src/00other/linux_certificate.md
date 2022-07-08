@@ -82,3 +82,135 @@ File System Hierarchy
 /dev - device files
 /run - info about running system
 ```
+
+`touch -c` or `touch --no-create` - to not create file if it does not exist. Useful when we want to update time stamps but do not create file accidentally.
+
+`touch -d`
+
+`touch -t`
+
+`cp -f` force
+
+`cp -i` asks
+
+`cp -p` preserve ownership
+
+use `cp -R` over `cp -r`
+
+`cp -a` as `cp -R` but preserves ownership and copies links as is
+
+`cp -u` update only if source is newer
+
+if you use hard links, you must delete all copies of file to delete the file itself.
+
+only root can create hard links to directories, as it can be to dangerous.
+
+WARNING: `cp file*` will copy first files to the last one
+
+`mkdir -p`
+
+`rmdir` can delete only empty directories. `rmdir p one/two` can delete nested dir without files.
+
+`rm -rf`
+
+`cp *`
+
+`cp [a-z]f`
+
+`cp b??l`
+
+grep
+
+`.*`
+
+`^workd$`
+
+`.?` one possible character excluding new line
+
+`[^t]` not t
+
+`car|truck` car or truck
+
+`grep -E` or `egrep` uses extended regular expressions
+
+`grep -E "(games|mail).*nologin" /etc/passwd`
+
+find
+
+wc
+
+`cut -f 6 -d : /etc/passwd`
+
+`sort -d` dictionary order
+
+`-f` ignore case
+
+`-n` numeric
+
+`-o` output
+
+`-r` reverse
+
+cat
+
+head
+
+tail
+
+`&>` new file (overwrites existing) contaning both stdout and stderr
+
+`2> /dev/null` discard stderr
+
+`find` CAN delete files with `exec` or `-delete`
+
+`find / -name .DS_Store -exec rm {} +`
+
+https://unix.stackexchange.com/questions/167823/finds-exec-rm-vs-delete/194348#194348
+
+xargs - build a command from it standard input
+
+`find / -name .DS_Store | xargs rm`
+
+```
+rm `find ./ -name "*~"`
+```
+
+or
+
+`rm $(find ./ -name "*~")`
+
+`tar xf file`
+
+`tar cf file.xz dir`
+
+`tar -tf file` list contents of an archive
+
+### Chapter 9 Exploring Processes and Data
+
+Kernel runs one program: `/lib/systemd` or `/sbin/init`
+
+Change starting program with `init=/bin/bash`
+
+all processes are children of init process. Process is adopted by init process when it's parent closes.
+
+PID - Process ID
+
+PPID - Parent PID
+
+Internally kernel maintains process information in the process table. ps and top enable to view and manipulate this table.
+
+on mac `ps u U romanfrolow` does not work. This works `ps u -U romanfrolow`
+
+Also there is no option `-forest`.
+
+in top and macos and iterm `P` or `M` does not change soring. Use `top -o cpu` or `top -o mem`.
+
+top and `load average`
+
+`sudo grep sshd /var/log/*`
+
+dmesg displays kernel ring buffer, stored in memory
+
+general messages in `/var/log/messages` or `/var/log/syslog`
+
+ASCII - American Standard Code for Information Interchange, 7-bit code, supports 2^7 or 128 characters. In practice ASCII uses 8 bits so supports additional 128 characters.
