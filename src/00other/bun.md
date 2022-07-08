@@ -1,3 +1,9 @@
+```
+% curl https://bun.sh/install | bash
+% echo 'export PATH=~/.bun/bin:$PATH' >> ~/.zprofile
+% . ~/.zprofile
+```
+
 - https://bun.sh/?launch
 - https://twitter.com/jarredsumner
 - https://jenil777007.hashnode.dev/lets-bun
