@@ -214,3 +214,16 @@ dmesg displays kernel ring buffer, stored in memory
 general messages in `/var/log/messages` or `/var/log/syslog`
 
 ASCII - American Standard Code for Information Interchange, 7-bit code, supports 2^7 or 128 characters. In practice ASCII uses 8 bits so supports additional 128 characters.
+
+`ipconfig getifaddr en0`
+
+https://apple.stackexchange.com/questions/20547/how-do-i-find-my-ip-address-from-the-command-line/20553#20553
+
+| CIDR | Wielkość w odniesieniu do klas | Liczba adresów | Maska podsieci       |
+| ---- | ------------------------------ | -------------- | -------------------- |
+| /24  | 1                              | C              | 256 255.255.255.000  |
+| /23  | 2                              | C              | 512 255.255.254.000  |
+| /22  | 4                              | C              | 1024 255.255.252.000 |
+
+- https://pl.m.wikipedia.org/wiki/Classless_Inter-Domain_Routing
+- https://pl.m.wikipedia.org/wiki/Maska_podsieci

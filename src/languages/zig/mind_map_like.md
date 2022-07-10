@@ -1,0 +1,26 @@
+- hello.zig
+  - const
+    - std
+      - @import
+        - "std"
+          - const std = @import("std");
+  - pub
+    - fn
+      - main
+        - !void
+          - pub fn main() !void {}
+  - https://ziglang.org/documentation/master/#toc-Hello-World
+- run
+  - zig
+    - build-exe
+      - zig build hello.zig
+  - ./hello
+  - https://ziglang.org/documentation/master/
+- init
+  - zig
+    - init-exe
+      - zig init-exe
+    - build
+      - zig build run
+  - https://ziglang.org/learn/getting-started/
+  - https://ziglang.org/documentation/master/#toc-Building-an-Executable
