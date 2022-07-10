@@ -19,6 +19,20 @@
                   - {s}
                     - .{"world}
                       - try stdout.print("Hello, {s}!\n", .{"world"});
+                    - // comments
+                    - anonymous struct literal
+                  - also
+                    - std.log
+                    - std.debug.print
+          - `<error set type>!<any data type>`
+        - pub fn main needed for executable
+        - main tells where the program starts
+        - library does not need main
+          - library code is called by
+            - other programs
+            - other libraries
+      - may not be public
+      - may return data
   - run
     - zig
       - build-exe
@@ -37,6 +51,7 @@
               - info
                 - .{}
                   - std.log.info("Hello", .{});
+                    - info: Hello
     - build
       - zig build run
   - https://ziglang.org/learn/getting-started/
@@ -45,3 +60,55 @@
   - zig-cache
   - zig-out
   - https://github.com/ziglang/zig/blob/master/.gitignore
+- zig
+  - build-exe
+  - init-exe
+  - build
+    - run
+- std
+  - log
+    - info
+      - std.log.info("Hello", .{});
+        - info: Hello
+  - io
+    - getStdOut
+      - writer
+        - const stdout = std.io.getStdOut().writer();
+        - try stdout.print("Hello", .{});
+- fn
+- pub
+- comments
+  - // single line comment
+  - /// multi line
+  - /// doc comment
+  - /// only allowed in certain places
+  - //! top level doc comment that does not belong to whatever immediately follows
+- const
+  - // top-level declarations are order-independent:
+  - const print = std.debug.print
+  - const std = @import("std");
+  - const print = @import("std").debug.print;
+  - const two: i32 = 1 + 1;
+- var
+- values
+  - primitive types
+    - integer
+    - float
+    - boolean
+      - true and false
+      - true or false
+      - !true
+    - anyerror
+      - var number_or_error: anyerror!i32 = error.ArgNotFound
+  - other types
+    - optional
+    - error union
+- special
+  - @import
+  - @typeName
+    - @typeName(@TypeOf(number_or_error))
+  - @TypeOf
+- assert
+- error
+  - ArgNotFound
+    - var number_or_error: anyerror!i32 = error.ArgNotFound
