@@ -61,16 +61,6 @@
     - https://ziglang.org/documentation/master/#toc-Building-an-Executable
     - run
       - zig build run
-- std
-  - log
-    - info
-      - std.log.info("Hello", .{});
-        - info: Hello
-  - io
-    - getStdOut
-      - writer
-        - const stdout = std.io.getStdOut().writer();
-        - try stdout.print("Hello", .{});
 - language
   - functions
     - fn
@@ -133,3 +123,13 @@
     - error
       - ArgNotFound
         - var number_or_error: anyerror!i32 = error.ArgNotFound
+- std
+  - log
+    - info
+      - std.log.info("Hello", .{});
+        - info: Hello
+  - io
+    - getStdOut
+      - writer
+        - const stdout = std.io.getStdOut().writer();
+        - try stdout.print("Hello", .{});
