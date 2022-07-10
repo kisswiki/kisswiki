@@ -114,11 +114,12 @@
         - can be coerced to slices or null-terminated pointers
         - dereferencing converts to arrays
         - utf-8
-          - for not-utf-8 bytes use `\xNN` notation
           - unicode code points
             - comptime_int
-          - escape sequences
-  - other
+        - escape sequences
+          - for not-utf-8 bytes use `\xNN` notation
+        - multiline string literals with `\\`
+  - assert and error
     - assert
     - error
       - ArgNotFound
