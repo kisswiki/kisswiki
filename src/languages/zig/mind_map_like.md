@@ -86,14 +86,14 @@
     - /// doc comment
     - /// only allowed in certain places
     - //! top level doc comment that does not belong to whatever immediately follows
-  - const
-    - // top-level declarations are order-independent:
-    - const print = std.debug.print
-    - const std = @import("std");
-    - const print = @import("std").debug.print;
-    - const two: i32 = 1 + 1;
-  - var
   - values
+    - const
+      - // top-level declarations are order-independent:
+      - const print = std.debug.print
+      - const std = @import("std");
+      - const print = @import("std").debug.print;
+      - const two: i32 = 1 + 1;
+    - var
     - primitive types
       - integer
       - i2
