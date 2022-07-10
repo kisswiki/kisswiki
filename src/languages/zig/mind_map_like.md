@@ -39,23 +39,6 @@
         - zig build hello.zig
       - ./hello
   - https://ziglang.org/documentation/master/#toc-Hello-World
-- init
-  - zig
-    - init-exe
-      - zig init-exe
-        - build.zig
-        - src/main.zig
-          - const std = @import("std");
-          - std
-            - log
-              - info
-                - .{}
-                  - std.log.info("Hello", .{});
-                    - info: Hello
-    - build
-      - zig build run
-  - https://ziglang.org/learn/getting-started/
-  - https://ziglang.org/documentation/master/#toc-Building-an-Executable
 - .gitignore
   - zig-cache
   - zig-out
@@ -63,8 +46,21 @@
 - zig
   - build-exe
   - init-exe
+    - zig init-exe
+      - build.zig
+      - src/main.zig
+        - const std = @import("std");
+        - std
+          - log
+            - info
+              - .{}
+                - std.log.info("Hello", .{});
+                  - info: Hello
   - build
+    - https://ziglang.org/learn/getting-started/
+    - https://ziglang.org/documentation/master/#toc-Building-an-Executable
     - run
+      - zig build run
 - std
   - log
     - info
@@ -75,40 +71,47 @@
       - writer
         - const stdout = std.io.getStdOut().writer();
         - try stdout.print("Hello", .{});
-- fn
-- pub
-- comments
-  - // single line comment
-  - /// multi line
-  - /// doc comment
-  - /// only allowed in certain places
-  - //! top level doc comment that does not belong to whatever immediately follows
-- const
-  - // top-level declarations are order-independent:
-  - const print = std.debug.print
-  - const std = @import("std");
-  - const print = @import("std").debug.print;
-  - const two: i32 = 1 + 1;
-- var
-- values
-  - primitive types
-    - integer
-    - float
-    - boolean
+- language
+  - functions
+    - fn
+    - built-in functions
+    - @import
+    - @typeName
+      - @typeName(@TypeOf(number_or_error))
+    - @TypeOf
+  - pub
+  - comments
+    - // single line comment
+    - /// multi line
+    - /// doc comment
+    - /// only allowed in certain places
+    - //! top level doc comment that does not belong to whatever immediately follows
+  - const
+    - // top-level declarations are order-independent:
+    - const print = std.debug.print
+    - const std = @import("std");
+    - const print = @import("std").debug.print;
+    - const two: i32 = 1 + 1;
+  - var
+  - values
+    - primitive types
+      - integer
+      - i2
+      - i32
+      - float
+      - f3
+      - f24
+      - f32
+      - boolean
       - true and false
       - true or false
       - !true
-    - anyerror
+      - anyerror
       - var number_or_error: anyerror!i32 = error.ArgNotFound
-  - other types
-    - optional
-    - error union
-- special
-  - @import
-  - @typeName
-    - @typeName(@TypeOf(number_or_error))
-  - @TypeOf
-- assert
-- error
-  - ArgNotFound
-    - var number_or_error: anyerror!i32 = error.ArgNotFound
+    - other types
+      - optional
+      - error union
+  - assert
+  - error
+    - ArgNotFound
+      - var number_or_error: anyerror!i32 = error.ArgNotFound
