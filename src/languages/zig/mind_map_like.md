@@ -74,12 +74,12 @@
 - language
   - functions
     - fn
+      - pub
     - built-in functions
-    - @import
-    - @typeName
-      - @typeName(@TypeOf(number_or_error))
-    - @TypeOf
-  - pub
+      - @import
+      - @typeName
+        - @typeName(@TypeOf(number_or_error))
+      - @TypeOf
   - comments
     - // single line comment
     - /// multi line
@@ -87,31 +87,49 @@
     - /// only allowed in certain places
     - //! top level doc comment that does not belong to whatever immediately follows
   - values
-    - const
-      - // top-level declarations are order-independent:
-      - const print = std.debug.print
-      - const std = @import("std");
-      - const print = @import("std").debug.print;
-      - const two: i32 = 1 + 1;
-    - var
-    - primitive types
-      - integer
-      - i2
-      - i32
-      - float
-      - f3
-      - f24
-      - f32
-      - boolean
-      - true and false
-      - true or false
-      - !true
-      - anyerror
-      - var number_or_error: anyerror!i32 = error.ArgNotFound
-    - other types
-      - optional
-      - error union
-  - assert
-  - error
-    - ArgNotFound
-      - var number_or_error: anyerror!i32 = error.ArgNotFound
+    - const and var
+      - const
+        - // top-level declarations are order-independent:
+        - const print = std.debug.print
+        - const std = @import("std");
+        - const print = @import("std").debug.print;
+        - const two: i32 = 1 + 1;
+      - var
+    - types
+      - primitive types
+        - integer
+        - i2
+        - i32
+        - float
+        - f3
+        - f24
+        - f32
+        - boolean
+        - true and false
+        - true or false
+        - !true
+        - anyerror
+        - var number_or_error: anyerror!i32 = error.ArgNotFound
+      - other types
+        - optional
+        - error union
+      - string literals
+        - constant
+          - single-item
+            - pointers
+              - to null-terminated
+                - byte
+                  - arrays
+                    - constant single-item pointers to null-terminated byte arrays
+        - can be coerced to slices or null-terminated pointers
+        - dereferencing converts to arrays
+        - utf-8
+          - for not-utf-8 bytes use `\xNN` notation
+          - unicode code points
+            - comptime_int
+          - escape sequences
+  - other
+    - assert
+    - error
+      - ArgNotFound
+        - var number_or_error: anyerror!i32 = error.ArgNotFound
