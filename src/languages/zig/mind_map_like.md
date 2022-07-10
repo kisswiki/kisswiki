@@ -2,25 +2,46 @@
   - const
     - std
       - @import
-        - "std"
-          - const std = @import("std");
+        - const std = @import("std");
   - pub
     - fn
       - main
         - !void
           - pub fn main() !void {}
+            - std
+              - io
+                - getStdOut
+                  - writer
+                    - const stdout = std.io.getStdOut().writer();
+            - try
+              - stdout
+                - print
+                  - {s}
+                    - .{"world}
+                      - try stdout.print("Hello, {s}!\n", .{"world"});
+  - run
+    - zig
+      - build-exe
+        - zig build hello.zig
+      - ./hello
   - https://ziglang.org/documentation/master/#toc-Hello-World
-- run
-  - zig
-    - build-exe
-      - zig build hello.zig
-  - ./hello
-  - https://ziglang.org/documentation/master/
 - init
   - zig
     - init-exe
       - zig init-exe
+        - build.zig
+        - src/main.zig
+          - const std = @import("std");
+          - std
+            - log
+              - info
+                - .{}
+                  - std.log.info("Hello", .{});
     - build
       - zig build run
   - https://ziglang.org/learn/getting-started/
   - https://ziglang.org/documentation/master/#toc-Building-an-Executable
+- .gitignore
+  - zig-cache
+  - zig-out
+  - https://github.com/ziglang/zig/blob/master/.gitignore
