@@ -100,7 +100,7 @@
         - !true
         - anyerror
         - var number_or_error: anyerror!i32 = error.ArgNotFound
-      - other types
+      - optional and error union
         - optional
         - error union
       - string literals
