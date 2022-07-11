@@ -69,6 +69,7 @@
       - void
       - !void
       - anyerror!void
+      - `<error union set>!<any data type>`
     - built-in functions
       - @import
       - @typeName
@@ -159,6 +160,11 @@
         - const two: i32 = 1 + 1;
     - var
     - undefined
+      - var
+        - a: i32 = undefined; x = 1;
+      - coerced
+        - to any type
+        - after coerce, cannot detect that value is undefined
   - assert and error
     - assert
     - error
