@@ -66,10 +66,11 @@
       - pub
         - pub fn main
     - return type
-      - void
-      - !void
-      - anyerror!void
       - `<error union set>!<any data type>`
+        - void
+          - minimum required if no return
+        - !void
+        - anyerror!void
     - built-in functions
       - @import
       - @typeName
