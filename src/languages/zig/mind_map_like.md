@@ -188,3 +188,18 @@
   - mem
     - eql
       - std.debug.print("{}", .{std.mem.eql(u8, "hello", "h\x65llo")});
+  - fs
+    - cwd
+      - returns current Dir
+    - Dir
+      - openFile
+        - openFile(sub_path, OpenMode) OpenError!File
+        - openFile("filename.txt", .{ .read_write = true })
+    - File
+      - readAll
+        - readAll(buffer) Error!u64
+      - OpenMode (Enum)
+        - read_only = 0
+        - write_only = 1
+        - read_write = 2
+    - https://ziglearn.org/chapter-2/#filesystem
