@@ -88,18 +88,18 @@
     - types
       - primitive types
         - integer
-        - i2
-        - i32
+          - i2
+          - i32
         - float
-        - f3
-        - f24
-        - f32
+          - f3
+          - f24
+          - f32
         - boolean
-        - true and false
-        - true or false
-        - !true
+          - true and false
+          - true or false
+          - !true
         - anyerror
-        - var number_or_error: anyerror!i32 = error.ArgNotFound
+          - var number_or_error: anyerror!i32 = error.ArgNotFound
       - optional and error union
         - optional
         - error union
