@@ -76,14 +76,6 @@
     - /// only allowed in certain places
     - //! multiline top level doc comment that does not belong to whatever immediately follows
   - values
-    - const and var
-      - const
-        - // top-level declarations are order-independent:
-        - const print = std.debug.print
-        - const std = @import("std");
-        - const print = @import("std").debug.print;
-        - const two: i32 = 1 + 1;
-      - var
     - types
       - primitive types
         - integer
@@ -99,43 +91,42 @@
           - !true
         - anyerror
           - var number_or_error: anyerror!i32 = error.ArgNotFound
-      - other
-        - anonymous struct literal
-          - .{}
-            - .{"Hello"}
-        - optional
-          - ?
-        - error union
       - string literals
         - about
-          - constant
-            - single-item
-              - pointers
-                - to null-terminated
-                  - byte
-                    - arrays
-                      - constant single-item pointers to null-terminated byte arrays
-                        - `*const`
-                          - `[5:0]`
-                            - `u8`
-                              - `*const [5:0]u8`
+          - underlying data structure
+            - constant
+              - single-item
+                - pointers
+            - to null-terminated
+              - byte
+              - arrays
+            - constant single-item pointers to null-terminated byte arrays
+            - `*const`
+              - `[5:0]`
+              - `u8`
+                - `*const [5:0]u8`
           - coerced to
             - slices
-            - null-terminated pointers
+            - null-terminated
+              - pointers
           - dereferencing
-            - converts to arrays
+            - converts
+              - to arrays
           - utf-8
             - unicode code points
               - comptime_int
         - escape sequences
-          - '\n'
-          - '\\' backslash
-          - '\'' single quote
-          - '\"' double quote
+          - `\n`
+          - `\\` backslash
+          - `\'` single quote
+          - `\"` double quote
           - for not-utf-8 bytes use `\xNN` notation - hexadecimal 8-bit value (2 digits)
             - 8-bit value. 4 bits and 4 bits. 15*16^1 + 15*16^0 = 240 + 15 = 255
+          - `\u{NNNNNN}` hexadecimal Unicode code point UTF-8 encoded (1 or more digits)
         - multiline string literals
           - `\\`
+            - `\\multline string`
+            - `\\literal`
         - code
           - const bytes = "Hello";
             - bytes.len
@@ -147,6 +138,21 @@
             - std.debug.print("{u}", .{'⚡'});
           - std.mem.eql
             - std.debug.print("{}", .{std.mem.eql(u8, "hello", "h\x65llo")});
+      - other
+        - anonymous struct literal
+          - .{}
+            - .{"Hello"}
+        - optional
+          - ?
+        - error union
+  - assignment
+    - const
+      - // top-level declarations are order-independent:
+        - const print = std.debug.print
+        - const std = @import("std");
+        - const print = @import("std").debug.print;
+        - const two: i32 = 1 + 1;
+    - var
   - assert and error
     - assert
     - error
