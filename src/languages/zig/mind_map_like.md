@@ -104,29 +104,36 @@
           - .{}
             - .{"Hello"}
         - optional
+          - ?
         - error union
       - string literals
-        - constant
-          - single-item
-            - pointers
-              - to null-terminated
-                - byte
-                  - arrays
-                    - constant single-item pointers to null-terminated byte arrays
-                      - `*const`
-                        - `[5:0]`
-                          - `u8`
-                            - `*const [5:0]u8`
-        - coerced to
-          - slices
-          - null-terminated pointers
-        - dereferencing
-          - converts to arrays
-        - utf-8
-          - unicode code points
-            - comptime_int
+        - about
+          - constant
+            - single-item
+              - pointers
+                - to null-terminated
+                  - byte
+                    - arrays
+                      - constant single-item pointers to null-terminated byte arrays
+                        - `*const`
+                          - `[5:0]`
+                            - `u8`
+                              - `*const [5:0]u8`
+          - coerced to
+            - slices
+            - null-terminated pointers
+          - dereferencing
+            - converts to arrays
+          - utf-8
+            - unicode code points
+              - comptime_int
         - escape sequences
-          - for not-utf-8 bytes use `\xNN` notation
+          - '\n'
+          - '\\' backslash
+          - '\'' single quote
+          - '\"' double quote
+          - for not-utf-8 bytes use `\xNN` notation - hexadecimal 8-bit value (2 digits)
+            - 8-bit value. 4 bits and 4 bits. 15*16^1 + 15*16^0 = 240 + 15 = 255
         - multiline string literals
           - `\\`
         - code
@@ -134,8 +141,8 @@
             - bytes.len
             - bytes[1] == 'e'
             - bytes[5] == 0
-          - 'e' == '\x65'
-            - std.debug.print("{}", .{'e' == '\x65'});
+          - std.debug.print
+            - std.debug.print("{}", .{'e' == '\x65'}); // true
             - std.debug.print("{d}", .{'\u{1f4a9}'}); // 128169
             - std.debug.print("{u}", .{'⚡'});
           - std.mem.eql
