@@ -173,33 +173,43 @@
     - error
       - ArgNotFound
         - var number_or_error: anyerror!i32 = error.ArgNotFound
-- std
-  - log
-    - info
-      - std.log.info("Hello", .{});
-        - info: Hello
-  - io
-    - getStdOut
-      - writer
-        - const stdout = std.io.getStdOut().writer();
-        - try stdout.print("Hello", .{});
-  - debug
-    - print
-  - mem
-    - eql
-      - std.debug.print("{}", .{std.mem.eql(u8, "hello", "h\x65llo")});
-  - fs
-    - cwd
-      - returns current Dir
-    - Dir
-      - openFile
-        - openFile(sub_path, OpenMode) OpenError!File
-        - openFile("filename.txt", .{ .read_write = true })
-    - File
-      - readAll
-        - readAll(buffer) Error!u64
-      - OpenMode (Enum)
-        - read_only = 0
-        - write_only = 1
-        - read_write = 2
-    - https://ziglearn.org/chapter-2/#filesystem
+- packages
+  - std
+    - log
+      - info
+        - std.log.info("Hello", .{});
+          - info: Hello
+    - io
+      - getStdOut
+        - writer
+          - const stdout = std.io.getStdOut().writer();
+          - try stdout.print("Hello", .{});
+    - debug
+      - print
+    - mem
+      - eql
+        - std.debug.print("{}", .{std.mem.eql(u8, "hello", "h\x65llo")});
+      - Allocator
+        - alloc()
+    - fs
+      - cwd
+        - returns current Dir
+      - Dir
+        - openFile
+          - openFile(sub_path, OpenMode) OpenError!File
+            - openFile("filename.txt", .{ .mode = .read_write })
+      - File
+        - readAll
+          - readAll(buffer) Error!u64
+        - OpenMode (Enum)
+          - read_only = 0
+          - write_only = 1
+          - read_write = 2
+        - stat()
+          - .size
+        - reader(): Reader
+        - Reader
+          - readNoEof()
+      - https://stackoverflow.com/questions/70189554/how-can-you-create-a-buffer-of-the-same-size-as-a-file/72334950#72334950
+    - heap
+      - page_allocator(): Allocator
