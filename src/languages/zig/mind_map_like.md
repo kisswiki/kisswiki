@@ -58,6 +58,7 @@
       - zig build run
         - watchexec -e zig
           - watchexec -e zig zig build run
+            - watchexec -e zig 'zig build run -- get two'
     - https://ziglang.org/learn/getting-started/
     - https://ziglang.org/documentation/master/#toc-Building-an-Executable
 - language
@@ -223,6 +224,8 @@
         - reader(): Reader
         - Reader
           - readNoEof()
+            - var buffer = try std.heap.page_allocator.alloc(u8, (try file.stat()).size);
+            - try file.reader().readNoEof(buffer);
       - https://stackoverflow.com/questions/70189554/how-can-you-create-a-buffer-of-the-same-size-as-a-file/72334950#72334950
     - heap
       - page_allocator(): Allocator
