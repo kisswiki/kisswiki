@@ -111,10 +111,10 @@
                 - byte
                   - arrays
                     - constant single-item pointers to null-terminated byte arrays
-        - `*const`
-          - `[5:0]`
-            - `u8`
-              - `*const [5:0]u8`
+                      - `*const`
+                        - `[5:0]`
+                          - `u8`
+                            - `*const [5:0]u8`
         - can be coerced to slices or null-terminated pointers
         - dereferencing converts to arrays
         - utf-8
