@@ -231,7 +231,10 @@
             - try file.reader().readNoEof(buffer);
       - https://stackoverflow.com/questions/70189554/how-can-you-create-a-buffer-of-the-same-size-as-a-file/72334950#72334950
     - heap
-      - page_allocator(): Allocator
+      - page_allocator: Allocator
+        - page_allocator.alloc(u8, file_size)
+      - ArenaAllocator
+        - std.heap.AreanAllocator.init(std.testing.allocator)
     - StringHashMap
       - init
         - var map = std.StringHashMap([] const u8).init(allocator); // cannot be const
@@ -253,3 +256,19 @@
         - { .key_ptr, .value_ptr }
         - https://github.com/ziglang/zig/blob/3e2e6c108a4306ed890b3034e2ad47c8d4caf2f7/lib/std/hash_map.zig#L737
         - https://ziglang.org/documentation/master/std/#std;HashMapUnmanaged.Entry
+    - process
+      - argsWithAllocator
+        ```zig
+        var arena = std.heap.ArenaAllocator.init(std.testing.allocator);
+        defer arena.deinit();
+        var a = arena.allocator();
+        var arg_it = std.process.argsWithAllocator(a);
+        _ = arg_it.skip(); // skip own name
+        var first = arg.it.next() orelse {
+          std.debug.print("No first argument", .{});
+          return error.InvalidArgs;
+        }
+        ```
+        - https://github.com/ziglang/zig/blob/3e2e6c108a4306ed890b3034e2ad47c8d4caf2f7/test/cli.zig#L11
+    - testing
+      - allocator
