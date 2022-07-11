@@ -117,16 +117,18 @@
                         - `[5:0]`
                           - `u8`
                             - `*const [5:0]u8`
-        - coerce to
+        - coerced to
           - slices
           - null-terminated pointers
-        - dereferencing converts to arrays
+        - dereferencing
+          - converts to arrays
         - utf-8
           - unicode code points
             - comptime_int
         - escape sequences
           - for not-utf-8 bytes use `\xNN` notation
-        - multiline string literals with `\\`
+        - multiline string literals
+          - `\\`
         - code
           - const bytes = "Hello";
             - bytes.len
