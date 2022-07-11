@@ -179,6 +179,7 @@
       - info
         - std.log.info("Hello", .{});
           - info: Hello
+        - printed only in Debug and ReleaseSafe build modes
     - io
       - getStdOut
         - writer
@@ -191,22 +192,33 @@
         - std.debug.print("{}", .{std.mem.eql(u8, "hello", "h\x65llo")});
       - Allocator
         - alloc()
+      - tokenize()
+        - var lines = std.mem.tokenize(u8, buffer, "\n"); // cannot be const
+        - while(lines.next()) |line| { std.debub.print("{s}", .{ line }); }
+        - returns TokenIterator
+          - std.debug.print("{s}\n", .{lines});
+            - std.mem.TokenIterator(u8){ .buffer = { 111, 110, 101, 61, 49, 10, 116, 119, 111, 61, 50, 10 }, .delimiter_bytes = { 10 }, .index = 0 }
+        - https://github.com/ziglang/zig/blob/a4369918b19e4920f51f40a2b05781dda45462f7/tools/generate_linux_syscalls.zig#L54
+      - TokenIterator
+        - next()
     - fs
       - cwd
         - returns current Dir
       - Dir
         - openFile
           - openFile(sub_path, OpenMode) OpenError!File
-            - openFile("filename.txt", .{ .mode = .read_write })
+            - try openFile("filename.txt", .{ .mode = .read_write })
       - File
         - readAll
           - readAll(buffer) Error!u64
+          - vs readNoEof?
         - OpenMode (Enum)
           - read_only = 0
           - write_only = 1
           - read_write = 2
         - stat()
           - .size
+            - (try file.stat()).size
         - reader(): Reader
         - Reader
           - readNoEof()
