@@ -64,6 +64,11 @@
   - functions
     - fn
       - pub
+        - pub fn main
+    - return type
+      - void
+      - !void
+      - anyerror!void
     - built-in functions
       - @import
       - @typeName
@@ -153,6 +158,7 @@
         - const print = @import("std").debug.print;
         - const two: i32 = 1 + 1;
     - var
+    - undefined
   - assert and error
     - assert
     - error
