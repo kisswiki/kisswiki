@@ -201,6 +201,7 @@
         - https://github.com/ziglang/zig/blob/a4369918b19e4920f51f40a2b05781dda45462f7/tools/generate_linux_syscalls.zig#L54
       - TokenIterator
         - next()
+        - https://github.com/ziglang/zig/blob/b88151e0e1553607cbebc197e1111ec4bf53a595/lib/std/mem.zig#L1882
     - fs
       - cwd
         - returns current Dir
@@ -225,3 +226,24 @@
       - https://stackoverflow.com/questions/70189554/how-can-you-create-a-buffer-of-the-same-size-as-a-file/72334950#72334950
     - heap
       - page_allocator(): Allocator
+    - StringHashMap
+      - init
+        - var map = std.StringHashMap([] const u8).init(allocator); // cannot be const
+          - std.heap.page_allocator
+      - put
+        - map.put(key, value);
+        - map.putNoClobber(key, value);
+      - iterator
+        - var iterator = map.iterator();
+          - HashMapUnmanaged.Iterator
+        - `while(iterator.next()) |entry| { std.debug.print("{s}={s}", .{ entry.key_ptr.*, entry.value_ptr.* })}`
+          - https://github.com/ziglang/zig/blob/3e2e6c108a4306ed890b3034e2ad47c8d4caf2f7/lib/std/hash_map.zig#L737
+          - https://ziglang.org/documentation/master/std/#std;HashMapUnmanaged.Entry
+      - https://devlog.hexops.com/2022/zig-hashmaps-explained/
+    - HashMapUnmanaged
+      - Iterator
+        - no `reset()`? https://github.com/ziglang/zig/blob/3e2e6c108a4306ed890b3034e2ad47c8d4caf2f7/lib/std/hash_map.zig#L813
+      - Entry
+        - { .key_ptr, .value_ptr }
+        - https://github.com/ziglang/zig/blob/3e2e6c108a4306ed890b3034e2ad47c8d4caf2f7/lib/std/hash_map.zig#L737
+        - https://ziglang.org/documentation/master/std/#std;HashMapUnmanaged.Entry
