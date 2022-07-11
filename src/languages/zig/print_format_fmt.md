@@ -1,6 +1,7 @@
 - https://ziglang.org/documentation/master/std/#std;fmt.format
 - https://github.com/ziglang/zig/blob/master/lib/std/fmt.zig
 - https://zig.news/kristoff/where-is-print-in-zig-57e9
+- 2s complement is not represented as how the memory actually looks [overhaul std.fmt formatting api · Issue #1358 · ziglang/zig](https://github.com/ziglang/zig/issues/1358#issuecomment-991884315)
 
 ## How to print array?
 
@@ -162,3 +163,22 @@ But not pointers to pointers to arrays
 Since their length is a comptime known value
 Doing [0..] is the same as putting a comptime known index in that last index position
 The reason span manages to force it into a slice is because when it's given a pointer to an array, it explicitly coerces it to an appropriate slice type
+
+## binary
+
+```zig
+    std.log.info("----", .{});
+    std.log.info("{d}", .{'W'});
+    std.log.info("{d}", .{'I'});
+    std.log.info("{d}", .{'K'});
+    std.log.info("{d}", .{'T'});
+    std.log.info("{d}", .{'O'});
+    std.log.info("{d}", .{'R'});
+    std.log.info("----", .{});
+    std.log.info("{b}", .{'W'});
+    std.log.info("{b}", .{'I'});
+    std.log.info("{b}", .{'K'});
+    std.log.info("{b}", .{'T'});
+    std.log.info("{b}", .{'O'});
+    std.log.info("{b}", .{'R'});
+```
