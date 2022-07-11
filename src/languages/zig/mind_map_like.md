@@ -33,11 +33,6 @@
             - other libraries
       - may not be public
       - may return data
-  - run
-    - zig
-      - build-exe
-        - zig build hello.zig
-      - ./hello
   - https://ziglang.org/documentation/master/#toc-Hello-World
 - .gitignore
   - zig-cache
@@ -45,6 +40,8 @@
   - https://github.com/ziglang/zig/blob/master/.gitignore
 - zig
   - build-exe
+    - zig build-exe hello.zig
+    - ./hello
   - init-exe
     - zig init-exe
       - build.zig
@@ -74,10 +71,10 @@
       - @TypeOf
   - comments
     - // single line comment
-    - /// multi line
+    - /// multiline
     - /// doc comment
     - /// only allowed in certain places
-    - //! top level doc comment that does not belong to whatever immediately follows
+    - //! multiline top level doc comment that does not belong to whatever immediately follows
   - values
     - const and var
       - const
@@ -102,7 +99,10 @@
           - !true
         - anyerror
           - var number_or_error: anyerror!i32 = error.ArgNotFound
-      - optional and error union
+      - other
+        - anonymous struct literal
+          - .{}
+            - .{"Hello"}
         - optional
         - error union
       - string literals
@@ -127,7 +127,17 @@
         - escape sequences
           - for not-utf-8 bytes use `\xNN` notation
         - multiline string literals with `\\`
-        - ## code
+        - code
+          - const bytes = "Hello";
+            - bytes.len
+            - bytes[1] == 'e'
+            - bytes[5] == 0
+          - 'e' == '\x65'
+            - std.debug.print("{}", .{'e' == '\x65'});
+            - std.debug.print("{d}", .{'\u{1f4a9}'}); // 128169
+            - std.debug.print("{u}", .{'⚡'});
+          - std.mem.eql
+            - std.debug.print("{}", .{std.mem.eql(u8, "hello", "h\x65llo")});
   - assert and error
     - assert
     - error
@@ -143,3 +153,8 @@
       - writer
         - const stdout = std.io.getStdOut().writer();
         - try stdout.print("Hello", .{});
+  - debug
+    - print
+  - mem
+    - eql
+      - std.debug.print("{}", .{std.mem.eql(u8, "hello", "h\x65llo")});
