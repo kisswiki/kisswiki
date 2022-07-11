@@ -54,12 +54,12 @@
                 - std.log.info("Hello", .{});
                   - info: Hello
   - build
-    - https://ziglang.org/learn/getting-started/
-    - https://ziglang.org/documentation/master/#toc-Building-an-Executable
     - run
       - zig build run
         - watchexec -e zig
-          - zig build run
+          - watchexec -e zig zig build run
+    - https://ziglang.org/learn/getting-started/
+    - https://ziglang.org/documentation/master/#toc-Building-an-Executable
 - language
   - functions
     - fn
