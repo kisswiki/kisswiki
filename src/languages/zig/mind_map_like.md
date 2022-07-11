@@ -161,10 +161,12 @@
     - var
     - undefined
       - var
-        - a: i32 = undefined; x = 1;
+        - var a: i32 = undefined; x = 1;
       - coerced
         - to any type
         - after coerce, cannot detect that value is undefined
+      - in debug mode
+        - zig writes `0xaa` to undefined to catch bugs early
   - assert and error
     - assert
     - error
