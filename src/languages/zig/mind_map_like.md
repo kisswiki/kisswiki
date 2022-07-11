@@ -146,6 +146,9 @@
             - std.debug.print("{u}", .{'⚡'});
           - std.mem.eql
             - std.debug.print("{}", .{std.mem.eql(u8, "hello", "h\x65llo")});
+            - always compare string literals with std.mem.eql otherwise you may get error
+              - error: operator not allowed for type '[:0]const u8'
+                - The problem is that `==` is defined for strings of the same length but not strings of differing lengths. So `"foo" == "bar"` compiles because these are both `*const [3:0]u8`, but `"foo" == "quux"` does not. In this case, the two operands are `*const [3:0]u8` and` *const [4:0]u8`, so the compiler performs peer type resolution to `[:0]const u8`, and then attempts to do `==`, which causes a compile error. https://github.com/ziglang/zig/issues/8290#issuecomment-802473796
       - other
         - anonymous struct literal
           - .{}
