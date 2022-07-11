@@ -61,6 +61,8 @@
     - https://ziglang.org/documentation/master/#toc-Building-an-Executable
     - run
       - zig build run
+        - watchexec -e zig
+          - zig build run
 - language
   - functions
     - fn
@@ -115,7 +117,9 @@
                         - `[5:0]`
                           - `u8`
                             - `*const [5:0]u8`
-        - can be coerced to slices or null-terminated pointers
+        - coerce to
+          - slices
+          - null-terminated pointers
         - dereferencing converts to arrays
         - utf-8
           - unicode code points
@@ -123,6 +127,7 @@
         - escape sequences
           - for not-utf-8 bytes use `\xNN` notation
         - multiline string literals with `\\`
+        - ## code
   - assert and error
     - assert
     - error
