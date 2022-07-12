@@ -238,8 +238,9 @@
         - reader(): Reader
         - Reader
           - readNoEof()
-            - var buffer = try std.heap.page_allocator.alloc(u8, (try file.stat()).size);
-            - try file.reader().readNoEof(buffer);
+            - code
+              - var buffer = try std.heap.page_allocator.alloc(u8, (try file.stat()).size);
+              - try file.reader().readNoEof(buffer);
       - https://stackoverflow.com/questions/70189554/how-can-you-create-a-buffer-of-the-same-size-as-a-file/72334950#72334950
     - heap
       - page_allocator: Allocator
