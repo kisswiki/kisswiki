@@ -311,12 +311,15 @@
         - only for ArrayList(u8)
       - appendSlice()
       - toOwnedSlice()
+      - clearAndFree()
+        - https://github.com/batiati/mustache-zig/blob/52738a64d7f5207a60ba4998160254b3766d0087/src/rendering/context.zig#L545
       - code
         - var gpa: std.heap.GeneralPurposeAllocator(.{}) = .{};
         - var al = std.ArrayList(u8).init(gpa.allocator());
         - defer al.deinit();
         - try al.appendSlice(e);
         - var joined = al.toOwnedSlice();
+        - al.clearAndFree();
     - fmt
       - allocPrint()
         - code
