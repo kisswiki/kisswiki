@@ -319,4 +319,4 @@
     - fmt
       - allocPrint()
         - code
-          - var e = try std.fmt.allocPrint(std.heap.page_allocator, "{s}={}", { "one", "2" });
+          - var e = try std.fmt.allocPrint(std.heap.page_allocator, "{s}={s}", { "one", "2" });
