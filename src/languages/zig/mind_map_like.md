@@ -217,6 +217,10 @@
       - TokenIterator
         - next()
         - https://github.com/ziglang/zig/blob/b88151e0e1553607cbebc197e1111ec4bf53a595/lib/std/mem.zig#L1882
+      - startsWith
+        - code
+          - std.mem.startsWith(u8, "one", "on");
+        - https://github.com/watzon/zhtml/blob/84f8f6964305df2038f1d1158591d944004347ca/src/parser.zig#L180
     - fs
       - cwd()
         - returns current Dir
@@ -277,7 +281,7 @@
         var a = arena.allocator();
         var arg_it = std.process.argsWithAllocator(a);
         _ = arg_it.skip(); // skip own name
-        var first = arg.it.next() orelse {
+        var first = arg_it.next() orelse {
           std.debug.print("No first argument", .{});
           return error.InvalidArgs;
         }
