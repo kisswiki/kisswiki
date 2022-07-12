@@ -315,8 +315,8 @@
         - var al = std.ArrayList(u8).init(gpa.allocator());
         - defer al.deinit();
         - try al.appendSlice(e);
-        - var flattened = al.toOwnedSlice();
+        - var joined = al.toOwnedSlice();
     - fmt
       - allocPrint()
         - code
-          - var e = try std.fmt.allocPrint(std.heap.page_allocator, "one" + "=" "2");
+          - var e = try std.fmt.allocPrint(std.heap.page_allocator, "{s}={}", { "one", "2" });
