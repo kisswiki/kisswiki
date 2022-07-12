@@ -245,12 +245,24 @@
             - code
               - var buffer = try std.heap.page_allocator.alloc(u8, (try file.stat()).size);
               - try file.reader().readNoEof(buffer);
+        - to read file line by line
+          - look at std.io.bufferedReader code
+        - seekTo()
+        - sendEndPos()
+        - to clear file
+          - code
+            - try file.seekTo(0);
+            - try file.sendEndPos(0);
       - https://stackoverflow.com/questions/70189554/how-can-you-create-a-buffer-of-the-same-size-as-a-file/72334950#72334950
     - heap
       - page_allocator: Allocator
         - page_allocator.alloc(u8, file_size)
       - ArenaAllocator
         - std.heap.AreanAllocator.init(std.testing.allocator)
+        - example in std.process.argsWithAllocator
+      - GeneralPurposeAllocator
+        - allocator()
+        - example at std.ArrayList
     - StringHashMap
       - init
         - var map = std.StringHashMap([] const u8).init(allocator); // cannot be const
@@ -289,3 +301,16 @@
         - https://github.com/ziglang/zig/blob/3e2e6c108a4306ed890b3034e2ad47c8d4caf2f7/test/cli.zig#L11
     - testing
       - allocator
+    - ArrayList
+      - used for concatenating string to itself
+      - init()
+      - writer()
+        - only for ArrayList(u8)
+      - appendSlice()
+      - toOwnedSlice()
+      - code
+        - var gpa: std.heap.GeneralPurposeAllocator(.{}) = .{};
+        - var al = std.ArrayList(u8).init(gpa.allocator());
+        - defer al.deinit();
+        - try al.appendSlice(e);
+        - var flattened = al.toOwnedSlice();
