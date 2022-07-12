@@ -316,3 +316,7 @@
         - defer al.deinit();
         - try al.appendSlice(e);
         - var flattened = al.toOwnedSlice();
+    - fmt
+      - allocPrint()
+        - code
+          - var e = try std.fmt.allocPrint(std.heap.page_allocator, "one" + "=" "2");
