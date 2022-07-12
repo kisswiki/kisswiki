@@ -16,7 +16,7 @@ So that we change `id => F => T => E`.
 
 Though in this article about "parsing demystified" it's written:
 
->Knowing the parsing context makes it possible to extend grammars with rich regex-like operators like repetition, alternation anywhere (not just at the top level), etc. Basically each rule can form a DFA. This is possible with top-down parsing because the parser knows what rule it is in and can step through that rule’s state machine as it is parsing it. I don’t believe this is possible with bottom-up parsing
+> Knowing the parsing context makes it possible to extend grammars with rich regex-like operators like repetition, alternation anywhere (not just at the top level), etc. Basically each rule can form a DFA. This is possible with top-down parsing because the parser knows what rule it is in and can step through that rule’s state machine as it is parsing it. I don’t believe this is possible with bottom-up parsing
 
 But LALRPOP is actually LR(1) parser and supports regexes.
 
@@ -40,9 +40,9 @@ But LALRPOP is actually LR(1) parser and supports regexes.
 - CF G Experimenter includes algorithms for calculating First and Follow sets, canonical collections of LR(1) items, Action and Goto tables, and determining whether a context-free grammar is LL(1) or LR(1) parseable. CFG Experimenter can also animate LL(1) and LR(1) parsing, and allows students to “scrub through” the animation to check their understanding. http://curtclifton.net/cfg-experimenter
 - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-035-computer-language-engineering-spring-2010/lecture-notes/MIT6_035S10_lec03b.pdf
 - https://pl.m.wikipedia.org/wiki/Analiza_wst%C4%99puj%C4%85ca
-  -  https://pl.m.wikipedia.org/wiki/Analiza_sk%C5%82adniowa
-     - https://pl.m.wikipedia.org/wiki/Metoda_przesuni%C4%99cie-redukcja
-       - Ullman JD Kompilatory Reguły metody i narzędzia, 4.5 Analiza wstępująca
+  - https://pl.m.wikipedia.org/wiki/Analiza_sk%C5%82adniowa
+    - https://pl.m.wikipedia.org/wiki/Metoda_przesuni%C4%99cie-redukcja
+      - Ullman JD Kompilatory Reguły metody i narzędzia, 4.5 Analiza wstępująca
 - https://stackoverflow.com/questions/5467244/limitations-of-ll-vs-lr-parsers
 - https://softwareengineering.stackexchange.com/questions/19541/what-are-the-main-advantages-and-disadvantages-of-ll-and-lr-parsing
 - https://www.reddit.com/r/compsci/comments/kgpjv/can_somebody_please_explain_the_difference/
@@ -83,7 +83,7 @@ Why LR(1)? After all, aren’t LR(1) generators kind of annoying, what with thos
 - http://dfockler.github.io/2016/09/15/lalrpop.html
   - https://www.reddit.com/r/rust/comments/52ziax/lets_build_a_replparser_in_rust_lalrpop/
 - http://fitzgeraldnick.com/2018/11/15/program-synthesis-is-possible-in-rust.html
-- >I imagine the turning point was actually release 0.13; that is when we changed from generating our own regex to using the regex library. I imagine this is what made it slower (but it also vastly improved compilation time). [Performance degredation with noddy csv parser · Issue #269 · lalrpop/lalrpop](https://github.com/lalrpop/lalrpop/issues/269)
+- > I imagine the turning point was actually release 0.13; that is when we changed from generating our own regex to using the regex library. I imagine this is what made it slower (but it also vastly improved compilation time). [Performance degredation with noddy csv parser · Issue #269 · lalrpop/lalrpop](https://github.com/lalrpop/lalrpop/issues/269)
 
 ### Parsers in Rust
 
@@ -129,15 +129,15 @@ Are PEGs the answer to our problems? Alas - at least as things stand - I now dou
 
 I’m not a compiler expert, though I have written a couple of parsers, sometimes for some quite complex grammars, ranging from recursive descent hand-written parsers, lex/yacc, Irony parsers (C# parser where the grammer is declared in the language), GoldParser, ANTLR v3 and ANTLR v4. While there are indeed some valid points described in this post, I would like to revisit this with ANTLR v4, as the new version is really able to tackle nicely and efficiently some of your concerns.
 
-1) Context lexer/parser: ANTLR v4 is coming with predicates to modify the grammar or behavior of the lexers and/or parsers based on dynamic contexts. You can even switch the grammar to contextual modes, to accept specifics tokens for part of the grammar at specifics points…etc. There is also the opportunity to develop a “filter” lexer on top of the existing generated lexer in order to generate/modify the flow of the tokens (for example, handle correctly indent grammars like Python)
+1. Context lexer/parser: ANTLR v4 is coming with predicates to modify the grammar or behavior of the lexers and/or parsers based on dynamic contexts. You can even switch the grammar to contextual modes, to accept specifics tokens for part of the grammar at specifics points…etc. There is also the opportunity to develop a “filter” lexer on top of the existing generated lexer in order to generate/modify the flow of the tokens (for example, handle correctly indent grammars like Python)
 
-2) Shift/Reduce and Grammar Conflicts: definitely yes, either with lex/yacc or with ANTLR3, I had some serious fight sometimes to correctly handle a grammar. But ANTLR v4 is just fantastic for this, at it allows to use left recursive grammar (with a very little restriction). Take a look at the v4 ANTLR grammar for Java for example (https://github.com/antlr/grammars-v4/blob/master/java/Java.g4 ), the way to describe an expression is just ridiculously easy. So far, working with ANTLR v4, I have not been hit by anykind of grammar conflicts.
+2. Shift/Reduce and Grammar Conflicts: definitely yes, either with lex/yacc or with ANTLR3, I had some serious fight sometimes to correctly handle a grammar. But ANTLR v4 is just fantastic for this, at it allows to use left recursive grammar (with a very little restriction). Take a look at the v4 ANTLR grammar for Java for example (https://github.com/antlr/grammars-v4/blob/master/java/Java.g4 ), the way to describe an expression is just ridiculously easy. So far, working with ANTLR v4, I have not been hit by anykind of grammar conflicts.
 
-3) Concerning syntax tree, I usually don’t use them directly in the language, as I’m always writing an AST that is independent of the parser. Afaik, ANTLR v4 doesn’t have syntax rewriting capabilities, but the new listener/visitor patterns make things quite easy to build a custom ast.
+3. Concerning syntax tree, I usually don’t use them directly in the language, as I’m always writing an AST that is independent of the parser. Afaik, ANTLR v4 doesn’t have syntax rewriting capabilities, but the new listener/visitor patterns make things quite easy to build a custom ast.
 
-4) Mixed code: I agree. But again, ANTLR v4 allows to write a grammar almost entirely decoupled from the generated code (look the Java grammar). You can still use custom embedded actions in ANTLR, but they are most of the time not necessary and can be done entirely outside the grammar definition. Predicates in the grammar are usually quite light and they don’t mess up readability of the grammar.
+4. Mixed code: I agree. But again, ANTLR v4 allows to write a grammar almost entirely decoupled from the generated code (look the Java grammar). You can still use custom embedded actions in ANTLR, but they are most of the time not necessary and can be done entirely outside the grammar definition. Predicates in the grammar are usually quite light and they don’t mess up readability of the grammar.
 
-5) Concerning parser context mode, as I said, It is working nicely in ANTLR v4. For source location, I have not experienced much of your problems with most of the parsers I have been using. I think that ANTLR v4 is quite good at hitting the right spot, column wise.
+5. Concerning parser context mode, as I said, It is working nicely in ANTLR v4. For source location, I have not experienced much of your problems with most of the parsers I have been using. I think that ANTLR v4 is quite good at hitting the right spot, column wise.
 
 Plus on the things that you don’t mention, and with ANTLR v4 in mind I would say:
 – Create a full effective grammar from scratch just takes a few hours for a quite complex language (all languages like C#, Java, Python…etc. are really easy to describe). You are much more productive this way.
@@ -152,3 +152,42 @@ I would still recommend developing some hand-written parsers in some specific ca
 – For performance reasons, though, quite often the bottleneck in a parser is the lexer. Naive hand-written lexers will most certainly perform much worse than an efficient generated DFA table lexer.
 
 - https://mortoray.com/2012/07/20/why-i-dont-use-a-parser-generator/
+
+  - https://news.ycombinator.com/item?id=6350286
+
+- https://notes.eatonphil.com/parser-generators-vs-handwritten-parsers-survey-2021.html
+  - https://news.ycombinator.com/item?id=28258945
+
+Hello, I work on the C# compiler and we use a handwritten recursive-descent parser. Here are a few of the more important reasons for doing so:
+
+- Incremental re-parsing. If a user in the IDE changes the document, we need to reparse the file, but we want to do this while using as little memory as possible. To this end, we re-use AST nodes from previous parses.
+
+- Better error reporting. Parser generators are known for producing terrible errors. While you can hack around this, by using recursive-descent, you can get information from further "up" the tree to make your more relevant to the context in which the error occurred.
+
+- Resilient parsing. This is the big one! If you give our parser a string that is illegal according to the grammar, our parser will still give you a syntax tree! (We'll also spit errors out). But getting a syntax tree regardless of the actual validity of the program being passed in means that the IDE can give autocomplete and report type-checking error messages. As an example, the code "var x = velocity." is invalid C#. However, in order to give autocomplete on "velocity", that code needs to be parsed into an AST, and then typechecked, and then we can extract the members on the type in order to provide a good user experience.
+
+My personal opinion is that everyone should just use s-expressions. Get rid of this whole debate :P
+
+https://news.ycombinator.com/item?id=13915150
+
+While I agree with you those 3 points are extremely important, it turns out there is at least one parser generator that can do all of it: http://gallium.inria.fr/~fpottier/menhir/
+It supports both incremental parsing and an API to inspect and recover incomplete ASTs (which powers Merlin, the IDE-like thing for OCaml). It provides stellar debugging features for ambiguous grammars and a way to have good error messages (which is used in compcert's C parser and facebook's reason).
+
+So, it's not impossible. Most parser generators are not that good, though.
+
+https://news.ycombinator.com/item?id=13915817
+
+Or you could take the middle ground and use a library meant to make it easier to create hand built parsers. as opposed to a library that generates a parser for you.
+
+- Repo: https://github.com/SAP/chevrotain
+
+- Online Playground: http://sap.github.io/chevrotain/playground/
+
+This handles the repetitive parts such as lookahead functions creation or Parse Tree building, while also providing advanced features such as error recovery or syntactic content assist (auto complete).
+
+- ECMAScript family of languages supported (JavaScript/TypeScript/CoffeeScript).
+
+https://news.ycombinator.com/item?id=13921483
+
+- https://softwareengineering.stackexchange.com/questions/17824/should-i-use-a-parser-generator-or-should-i-roll-my-own-custom-lexer-and-parser
+- https://softwareengineering.stackexchange.com/questions/250256/do-modern-languages-still-use-parser-generators
