@@ -189,6 +189,7 @@
         - writer
           - const stdout = std.io.getStdOut().writer();
           - try stdout.print("Hello", .{});
+      - bufferedReader
     - debug
       - print
     - mem
@@ -240,8 +241,8 @@
         - var map = std.StringHashMap([] const u8).init(allocator); // cannot be const
           - std.heap.page_allocator
       - put
-        - map.put(key, value);
-        - map.putNoClobber(key, value);
+        - try map.put(key, value);
+        - try map.putNoClobber(key, value);
       - iterator
         - var iterator = map.iterator();
           - HashMapUnmanaged.Iterator
@@ -252,6 +253,7 @@
     - HashMapUnmanaged
       - Iterator
         - no `reset()`? https://github.com/ziglang/zig/blob/3e2e6c108a4306ed890b3034e2ad47c8d4caf2f7/lib/std/hash_map.zig#L813
+        - to string
       - Entry
         - { .key_ptr, .value_ptr }
         - https://github.com/ziglang/zig/blob/3e2e6c108a4306ed890b3034e2ad47c8d4caf2f7/lib/std/hash_map.zig#L737
