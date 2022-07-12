@@ -246,7 +246,7 @@
               - var buffer = try std.heap.page_allocator.alloc(u8, (try file.stat()).size);
               - try file.reader().readNoEof(buffer);
         - to read whole file to buffer of the file size
-          - look at code in std.fs.File.Reader.readNoEof()
+          - look at code in std.fs.File.reader()
         - to read file line by line
           - look at std.io.bufferedReader code
         - seekTo()
