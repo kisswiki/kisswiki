@@ -190,6 +190,16 @@
           - const stdout = std.io.getStdOut().writer();
           - try stdout.print("Hello", .{});
       - bufferedReader
+        - reader()
+          - readUntilDelimiterOrEof()
+        - code
+          - var file = std.fs.cwd().openFile("file.txt", .{});
+          - var buf_reader = std.io.bufferedReader(file.reader());
+          - var in_stream = buf_reader.reader();
+          - var buf: [1024]u8 = undefined;
+          - while(try in_stream.readUntilDelimiterOrEof(&buf, '\n')) |line| {
+          - }
+        - https://stackoverflow.com/questions/68368122/how-to-read-a-file-in-zig/68879352#68879352
     - debug
       - print
     - mem
@@ -208,7 +218,7 @@
         - next()
         - https://github.com/ziglang/zig/blob/b88151e0e1553607cbebc197e1111ec4bf53a595/lib/std/mem.zig#L1882
     - fs
-      - cwd
+      - cwd()
         - returns current Dir
       - Dir
         - openFile
