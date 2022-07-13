@@ -191,3 +191,9 @@ https://news.ycombinator.com/item?id=13921483
 
 - https://softwareengineering.stackexchange.com/questions/17824/should-i-use-a-parser-generator-or-should-i-roll-my-own-custom-lexer-and-parser
 - https://softwareengineering.stackexchange.com/questions/250256/do-modern-languages-still-use-parser-generators
+
+Also, old legacy languages -like C11 or C++11- (which are conceptually old, even if their latest revision is only three years old) are not at all context-free. Dealing with that context sensitiveness in grammars for parser generators (i.e. bison or even menhir) is boringly difficult.
+
+https://softwareengineering.stackexchange.com/questions/250256/do-modern-languages-still-use-parser-generators/250273#250273
+
+What most people don’t realize is that regular and context-free languages almost never arise in practice. http://trevorjim.com/parsing-not-solved/
