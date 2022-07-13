@@ -1,0 +1,13 @@
+- go
+  - export
+    - Capital letter
+  - default value
+    - https://stackoverflow.com/questions/37135193/how-to-set-default-values-in-go-structs
+  - test
+    - to see fmt.Println when running test add `-v`: go test -v ./lexer
+      - https://stackoverflow.com/questions/23205419/how-do-you-print-in-a-go-test-using-the-testing-package/23205902#23205902
+  - zero value
+    - https://programming.guide/go/default-zero-value.html
+    - https://go.dev/ref/spec#The_zero_value
+    - https://stackoverflow.com/questions/28625794/structs-zero-value/28625828#28625828
+    - https://sher-chowdhury.medium.com/go-structs-part-2-zero-value-structs-786f670de99d

@@ -3,6 +3,10 @@
   - neither. Do Elements of Computing Systems, and augment chapters 10 and 11 with either of the books in the post https://www.reddit.com/r/Compilers/comments/oosy2i/comment/h61bhnj/
     - https://www.coursera.org/learn/build-a-computer/
     - project files from https://www.nand2tetris.org/software
+      - https://github.com/itzhak-razi/Elements-of-Computing-Systems-Assignments
+      - https://github.com/topics/elements-of-computing-systems
+        - https://github.com/Bozar/Nand2Tetris
+        - https://github.com/captn3m0/nand2tetris
   - [Writing An Interpreter In Go (2016) | Hacker News](https://news.ycombinator.com/item?id=21626972)
   - https://joeprevite.com/book-review-writing-an-interpreter-in-go/
   - https://www.toptal.com/scala/writing-an-interpreter
@@ -27,6 +31,7 @@
         - eof
       - ident + liter
         - identifiers
+          - all user-defined identifiers
         - literals
       - operators
         - assign
