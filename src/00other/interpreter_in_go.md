@@ -2,6 +2,7 @@
 
   - neither. Do Elements of Computing Systems, and augment chapters 10 and 11 with either of the books in the post https://www.reddit.com/r/Compilers/comments/oosy2i/comment/h61bhnj/
     - https://www.coursera.org/learn/build-a-computer/
+    - project files from https://www.nand2tetris.org/software
   - [Writing An Interpreter In Go (2016) | Hacker News](https://news.ycombinator.com/item?id=21626972)
   - https://joeprevite.com/book-review-writing-an-interpreter-in-go/
   - https://www.toptal.com/scala/writing-an-interpreter
