@@ -197,3 +197,7 @@ Also, old legacy languages -like C11 or C++11- (which are conceptually old, even
 https://softwareengineering.stackexchange.com/questions/250256/do-modern-languages-still-use-parser-generators/250273#250273
 
 What most people don’t realize is that regular and context-free languages almost never arise in practice. http://trevorjim.com/parsing-not-solved/
+
+Almost all programming languages, as well as most other formal languages used for describing the syntax of complex file types, can be specified using formalisms known as context-free grammars. A context-free grammar is a set of rules specifying how syntactic elements in some language can be formed from simpler ones.
+
+Noam Nisan - The Elements of Computing Systems, 10.1.2 Grammars
