@@ -165,6 +165,48 @@
                       - minus,
                     - }
               - next
+                - `fn next(self: *Lexer)`
+                  - `pub fn next(self: *Lexer) Token {`
+                    - token
+                      - var token
+                        - var token = Token{
+                          - .tag
+                            - .tag = .start,
+                          - .loc
+                            - .loc = .{},
+                              - .loc = {
+                                - .start
+                                  - .start = self.pos,
+                                - .end
+                                  - .end = undefined,
+                              - }
+                        - };
+                    - state
+                      - var state
+                        - var state: State
+                          - var state: State = .start;
+                    - while
+                      - while(true) (self.pos += 1) {
+                        - if
+                          - if(self.pos >= self.input.len) {
+                            - token
+                              - token.end = self.pos;
+                            - return
+                              - return token;
+                          - }
+                        - c
+                          - c = self.input[self.pos];
+                        - switch
+                          - switch(state) {
+                            0 => break,
+                            else => break,
+                          - }
+                      - }
+                    - token.loc.end
+                      - tokne.loc.end = self.pos;
+                    - return
+                      - return token;
+                  - }
             - };
     - test
       - test "next token - complete program" {
