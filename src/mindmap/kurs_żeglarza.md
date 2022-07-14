@@ -1,52 +1,47 @@
 - Przepisy cz. 1 https://youtu.be/kIdzyww_niw
-  - Prawo
-    - Akty
-      - Akty prawne i definicje
-        - Ustawy i rozporządzenia
-          - Ustawa
-          - Rozporządzenie
-          - Ustawa
-          - Rozporządzenie
-        - Dyrektorzy
-          - Zarządzenia
-          - Siedziby
-        - COLREG
-          - Collision Regulations
-        - Definicje
-          - Statek
-            - Rodzaje
-              - Statek żegluga śródlądowa
-              - Prom
-              - Urządzenie pływające
-              - Statek morski
-            - Napęd
-              - Statek o napędzie mechanicznym
-              - Statek żaglowy
-                - żagle i napęd mechaniczny uznawany za statek o napędzie mechaniczym
-            - Kwalifikacja
-              - Mały statek
-                - Długość kadłuba < 20 m i dopuszczony przewóz < 12 pasażerów
-                - Nie prom
-                - Nie statek przystosowany do prowadzenia zestawów holowanych, pchanych lub sprzężonych
-              - Statek pasażerski
-                - zbudowany lub przystosowany do przewozu więcej niż 12 pasażerów
-              - Prom
-                - zakwalifikowany przez Dyrektora Urzędu Żeglugi Śródlądowej
-                  - jako prom
-                  - służący do przewozu
-                    - osób i ładunków
-                    - w poprzek drogi wodnej
-    - Uprawnienia
-      - Upraweniania i obowiązki kapitana i załogi
-    - Wyposażenie
-      - Obowiązkowe wyposażenie jachtu
+  - Akty prawne i definicje
+    - Ustawy i rozporządzenia
+      - Ustawa
+      - Rozporządzenie
+      - Ustawa
+      - Rozporządzenie
+    - Dyrektorzy
+      - Zarządzenia
+      - Siedziby
+    - COLREG
+      - Collision Regulations
+    - Definicje
+      - Statek
+        - Rodzaje
+          - Statek żegluga śródlądowa
+          - Prom
+          - Urządzenie pływające
+          - Statek morski
+        - Napęd
+          - Statek o napędzie mechanicznym
+          - Statek żaglowy
+            - żagle i napęd mechaniczny uznawany za statek o napędzie mechaniczym
+        - Kwalifikacja
+          - Mały statek
+            - Długość kadłuba < 20 m i dopuszczony przewóz < 12 pasażerów
+            - Nie prom
+            - Nie statek przystosowany do prowadzenia zestawów holowanych, pchanych lub sprzężonych
+          - Statek pasażerski
+            - zbudowany lub przystosowany do przewozu więcej niż 12 pasażerów
+          - Prom
+            - zakwalifikowany przez Dyrektora Urzędu Żeglugi Śródlądowej
+              - jako prom
+              - służący do przewozu
+                - osób i ładunków
+                - w poprzek drogi wodnej
   - Wizja i fonia
     - Sygnały
       - Sygnały wzrokowe i dźwiękowe
-        - Krótki dźwięk
-        - Długi dźwięk
-        - Seria bardzo krótkich dźwięków
+        - Krótki dźwięk 1 s
+        - Długi dźwięk 4 s
+        - Seria bardzo krótkich dźwięków 0.25 s i 0.25 s
     - Noc i dzień
+      - wschód i zachód
     - Światła
       - Światła nawigacyjne statków i jachtów
   - Ruch
@@ -87,7 +82,7 @@
       - stopnie
         - żeglarskie
           - żeglarz jachtowy
-            - małe statki na wodach śródlądowych
+            - małe statki żaglowe na wodach śródlądowych
             - do 12 m kadłub
               - po morskich wodach wewnętrznych
               - po pozostałych wodach morskich do 2 mil morskich Mm od brzegu
@@ -97,12 +92,12 @@
                 - posiadająca międzynarodowe uprawnienia SRC
                   - Short Range Certificate
             - egzamin
-            - osoba powyżej 14 roku życia
+            - osoba ukończyła 14 lat
           - jachtowy sternik morski
           - kapitan jachtowy
         - motorowodne
           - sternik motorowodny
-            - małe statki po wodach śródlądowych
+            - małe statki motorowe po wodach śródlądowych
               - bez ograniczenia mocy silnika
               - osoby poniżej 16 roku życia
                 - moc silnika do 60 kW
@@ -111,8 +106,32 @@
                 - posiadająca międzynarodowe uprawnienia SRC
                   - Short Range Certificate
             - egzamin
+            - osoba ukończyła 14 lat
           - motorwodny sternik morski
           - kapitan motorowodny
+  - Obowiązki
+    - kierownika statku
+      - kierownik na wodach śródlądowych, na morzu kapitan
+      - stan techniczny
+      - warunki na drodze
+      - odstąpienie od przepisów jak tego wymaga sytuacja
+    - kapitana jachtu morskiego
+      - planować
+      - stan techniczny i wyposażenie
+        - w tym środki ratunkowe
+        - w tym środki do wzywania pomocy
+      - zaznajomić i przeszkolić
+      - ciągła obserwacja akwenu
+      - kamizelki ratunkowe
+        - dla nieumiejących pływać
+        - w nocy
+        - ryzyko wywrócenia się jachtu
+        - trudne warunki atmosferyczne
+    - załogi
+      - wszyscy człokowie załogi (wykonywjący obowiązki?)
+        - nie mogą być przemęczeni
+        - intoksynowani
+    - kierownik, jeśli wypadek na własnym statku lub innym, powinien chronić zdrowie i życie ludzi oraz mienie, jeśli nie zagraża to zdrowiu i życiu
   - Statek
     - Kategorie
       - Kategorie projektowe jachtów
