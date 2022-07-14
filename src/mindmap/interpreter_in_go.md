@@ -174,7 +174,7 @@
                             - .tag = .start,
                           - .loc
                             - .loc = .{},
-                              - .loc = {
+                              - .loc = .{
                                 - .start
                                   - .start = self.pos,
                                 - .end
