@@ -92,14 +92,25 @@
               - po morskich wodach wewnętrznych
               - po pozostałych wodach morskich do 2 mil morskich Mm od brzegu
               - w dzień
-            - gdy jacht wyposażony w radiotelefon UKF (ang. VHF)
+            - jacht morski i wyposażony w radiotelefon UKF (ang. VHF)
               - na pokładzie musi być osoba
                 - posiadająca międzynarodowe uprawnienia SRC
                   - Short Range Certificate
+            - egzamin
+            - osoba powyżej 14 roku życia
           - jachtowy sternik morski
           - kapitan jachtowy
         - motorowodne
           - sternik motorowodny
+            - małe statki po wodach śródlądowych
+              - bez ograniczenia mocy silnika
+              - osoby poniżej 16 roku życia
+                - moc silnika do 60 kW
+            - jacht morski i wyposażony w radiotelefon UKF (ang. VHF)
+              - na pokładzie musi być osoba
+                - posiadająca międzynarodowe uprawnienia SRC
+                  - Short Range Certificate
+            - egzamin
           - motorwodny sternik morski
           - kapitan motorowodny
   - Statek
