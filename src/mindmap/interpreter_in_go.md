@@ -104,40 +104,32 @@
     - Token
       - const Token
         - const Token = struct {};
-          - pub const Token = struct {};
-      - const Tag
-        - const Tag = enum {};
-          - pub const Tag = enum {};
-            - pub const Tag = enum {
-              - illegal,
-              - keyword_fn,
-            - };
-      - const Keywords
-        - const Keywords = std.CompTimeStringMap();
-          - pub const Keywords = std.CompTimeStringMap(Tag, .{});
-            - pub const Keywords = std.CompTimeStringMap(Tag, .{
-              - .{ "fn", .keyword_fn },
-            - });
-      - code
-        - pub const Token = struct {
-          - tag
-            - tag: Tag,
-          - loc
-            - loc: Loc,
-          - Loc
-            - pub const Loc = struct {
-              - start: usize,
-              - end: usize,
-            - };
-          - Tag
-            - pub const Tag = enum {
-              - illegal,
-            - };
-          - Keywords
-            - pub const Keywords = std.CompTimeStringMap(Tag, .{
-              - .{ "fn", .keyword_fn },
-            - });
-        - };
+          - pub const Token = struct {
+            - tag
+              - tag: Tag,
+            - loc
+              - loc: Loc,
+            - Loc
+              - pub const Loc = struct {
+                - start: usize,
+                - end: usize,
+              - };
+            - Tag
+              - const Tag
+                - const Tag = enum {};
+                  - pub const Tag = enum {};
+                    - pub const Tag = enum {
+                      - illegal,
+                      - keyword_fn,
+                    - };
+            - Keywords
+              - const Keywords
+                - const Keywords = std.CompTimeStringMap();
+                  - pub const Keywords = std.CompTimeStringMap(Tag, .{});
+                    - pub const Keywords = std.CompTimeStringMap(Tag, .{
+                      - .{ "fn", .keyword_fn },
+                    - });
+          - };
     - Lexer
       - const Lexer
         - const Lexer = struct {};
@@ -186,7 +178,7 @@
                         - var state: State
                           - var state: State = .start;
                     - while
-                      - while(true) (self.pos += 1) {
+                      - while(true) : (self.pos += 1) {
                         - if
                           - if(self.pos >= self.input.len) {
                             - token
@@ -210,5 +202,23 @@
             - };
     - test
       - test "next token - complete program" {
+        - input
+          - const input
+            - const input =
+            - \\ let
+            - ;
+        - l
+          - var l
+            - var l = Lexer.init(input);
+        - Expectation
+          - const Expectation
+            - const Expectation = struct {
+              - .tag
+                - .tag: Token.Tag,
+              - .literal
+                - .literal: []const u8,
+            - };
+        - expectations
+        - for
       - }
   - main.go
