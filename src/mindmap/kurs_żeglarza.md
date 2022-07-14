@@ -1,0 +1,71 @@
+- Przepisy cz. 1 https://youtu.be/kIdzyww_niw
+  - Prawo
+    - Akty
+      - Akty prawne i definicje
+        - Ustawy i rozporządzenia
+          - Ustawa
+          - Rozporządzenie
+          - Ustawa
+          - Rozporządzenie
+        - Dyrektorzy
+          - Zarządzenia
+          - Siedziby
+        - COLREG
+        - Definicje
+          - Statek
+            - Rodzaje
+              - Statek żegluga śródlądowa
+              - Prom
+              - Urządzenie pływające
+              - Statek morski
+            - Napęd
+              - Statek o napędzie mechanicznym
+              - Statek żaglowy
+                - żagle i napęd mechaniczny uznawany za statek o napędzie mechaniczym
+            - Kwalifikacja
+              - Mały statek
+                - Długość kadłuba < 20 m i dopuszczony przewóz < 12 pasażerów
+                - Nie prom
+                - Nie statek przystosowany do prowadzenia zestawów holowanych, pchanych lub sprzężonych
+              - Statek pasażerski
+                - zbudowany lub przystosowany do przewozu więcej niż 12 pasażerów
+              - Prom
+                - zakwalifikowany przez Dyrektora Urzędu Żeglugi Śródlądowej
+                  - jako prom
+                  - służący do przewozu
+                    - osób i ładunków
+                    - w poprzek drogi wodnej
+    - Uprawnienia
+      - Upraweniania i obowiązki kapitana i załogi
+    - Wyposażenie
+      - Obowiązkowe wyposażenie jachtu
+  - Wizja i fonia
+    - Sygnały
+      - Sygnały wzrokowe i dźwiękowe
+        - Krótki dźwięk
+        - Długi dźwięk
+        - Seria bardzo krótkich dźwięków
+    - Noc i dzień
+    - Światła
+      - Światła nawigacyjne statków i jachtów
+  - Ruch
+    - W ruchu
+      - nie połączony z lądem stałym ani dnem
+        - niezacumowany
+        - nie na kotwicy
+        - nie ma mieliźnie
+      - zatrzymać się
+        - dotyczy statku w ruchu
+      - zapalone światła nawigacyjne
+        - statki w drodze w nocy lub ograniczonej widzialności
+    - Zasady
+      - Zasady ruchu żeglowego
+    - Droga
+      - Prawo drogi
+  - Statek
+    - Kategorie
+      - Kategorie projektowe jachtów
+    - Identyfikacja
+      - Identyfikacja jachtów
+    - Rejestracja
+      - Rejestracja i przeglądy jachtów
