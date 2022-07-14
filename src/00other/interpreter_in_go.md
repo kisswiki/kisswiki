@@ -71,3 +71,63 @@
   - abstract syntax tree
   - internal object system
   - evaluator
+- ch 01
+  - code
+    - lexer
+      - Lexer
+        - type Lexer struct {
+          - input string
+          - position int
+          - readPosition int
+          - ch byte
+        - }
+      - New()
+        - `func New(input string) *Lexer {`
+          - l := &Lexer{input: input}
+          - l.readChar()
+          - return l
+        - }
+      - NextToken()\*
+        - `func (l *Lexer) NextToken() token.Token {`
+          - var tok token.Token
+        - }
+      - skipWhiteSpace()
+      - readChar()
+      - peekChar()
+      - readIdentifier()
+      - readNumber()
+      - isLetter()
+      - isDigit()
+      - newToken()
+- github.com/benclmnt/zig-interpreter
+  - lexer.zig
+    - Token
+      - pub const Token = struct {
+        - tag
+          - tag: Tag
+        - loc
+          - loc: Loc
+        - Loc
+          - pub const Loc = struct {
+            - start: usize,
+            - end: usize,
+          - }
+        - Tag
+          - pub const Tag = enum {
+            - illegal,
+          - }
+        - Keywords
+      - };
+    - Lexer
+      - pub const Lexer = struct {
+        - input
+        - pos
+        - dump
+        - init
+        - State
+        - next
+      - };
+    - test
+      - test "next token - complete program" {
+      - }
+  - main.go
