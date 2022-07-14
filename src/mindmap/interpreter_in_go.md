@@ -105,101 +105,98 @@
       - const Token
         - const Token = struct {};
           - pub const Token = struct {
-            - tag
-              - tag: Tag,
-            - loc
-              - loc: Loc,
             - Loc
+              - loc: Loc,
               - pub const Loc = struct {
                 - start: usize,
                 - end: usize,
               - };
             - Tag
+              - tag: Tag,
               - const Tag
                 - const Tag = enum {};
                   - pub const Tag = enum {};
                     - pub const Tag = enum {
                       - illegal,
-                      - keyword_fn,
+                      - keyword_let,
                     - };
             - Keywords
               - const Keywords
                 - const Keywords = std.CompTimeStringMap();
                   - pub const Keywords = std.CompTimeStringMap(Tag, .{});
                     - pub const Keywords = std.CompTimeStringMap(Tag, .{
-                      - .{ "fn", .keyword_fn },
+                      - .{ "let", .keyword_let },
                     - });
           - };
     - Lexer
       - const Lexer
         - const Lexer = struct {};
-          - pub const Lexer = struct {};
-            - pub const Lexer = struct {
-              - input
-                - input: []const u8,
-              - pos
-                - pos: usize = 0,
-              - init
-                - fn init
-                  - fn init(input: [] const u8) {}
-                    - fn init(input: []const u8) Lexer {}
-                      - pub fn init(input: []const u8) Lexer {}
-                        - pub fn init(input: []const u8) Lexer {
-                          - return Lexer{};
-                            - return Lexer{ .input = input };
-                        - }
-              - State
-                - const State
-                  - const State = enum { start };
-                    - const State = enum {
-                      - start,
-                      - plus,
-                      - minus,
-                    - }
-              - next
-                - `fn next(self: *Lexer)`
-                  - `pub fn next(self: *Lexer) Token {`
-                    - token
-                      - var token
-                        - var token = Token{
-                          - .tag
-                            - .tag = .start,
-                          - .loc
-                            - .loc = .{},
-                              - .loc = .{
-                                - .start
-                                  - .start = self.pos,
-                                - .end
-                                  - .end = undefined,
-                              - }
-                        - };
-                    - state
-                      - var state
-                        - var state: State
-                          - var state: State = .start;
-                    - while
-                      - while(true) : (self.pos += 1) {
-                        - if
-                          - if(self.pos >= self.input.len) {
-                            - token
-                              - token.loc.end = self.pos;
-                            - return
-                              - return token;
-                          - }
-                        - c
-                          - c = self.input[self.pos];
-                        - switch
-                          - switch(state) {
-                            0 => break,
-                            else => break,
-                          - }
+          - pub const Lexer = struct {
+            - input
+              - input: []const u8,
+            - pos
+              - pos: usize = 0,
+            - init
+              - fn init
+                - fn init(input: [] const u8) {}
+                  - fn init(input: []const u8) Lexer {}
+                    - pub fn init(input: []const u8) Lexer {}
+                      - pub fn init(input: []const u8) Lexer {
+                        - return Lexer{};
+                          - return Lexer{ .input = input };
                       - }
-                    - token.loc.end
-                      - tokne.loc.end = self.pos;
-                    - return
-                      - return token;
+            - State
+              - const State
+                - const State = enum { start };
+                  - const State = enum {
+                    - start,
+                    - plus,
+                    - minus,
                   - }
-            - };
+            - next
+              - `fn next(self: *Lexer)`
+                - `pub fn next(self: *Lexer) Token {`
+                  - token
+                    - var token
+                      - var token = Token{
+                        - .tag
+                          - .tag = .start,
+                        - .loc
+                          - .loc = .{},
+                            - .loc = .{
+                              - .start
+                                - .start = self.pos,
+                              - .end
+                                - .end = undefined,
+                            - }
+                      - };
+                  - state
+                    - var state
+                      - var state: State
+                        - var state: State = .start;
+                  - while
+                    - while(true) : (self.pos += 1) {
+                      - if
+                        - if(self.pos >= self.input.len) {
+                          - token
+                            - token.loc.end = self.pos;
+                          - return
+                            - return token;
+                        - }
+                      - c
+                        - c = self.input[self.pos];
+                      - switch
+                        - switch(state) {
+                          0 => break,
+                          else => break,
+                        - }
+                    - }
+                  - token.loc.end
+                    - tokne.loc.end = self.pos;
+                  - return
+                    - return token;
+                - }
+          - };
     - test
       - test "next token - complete program" {
         - input
