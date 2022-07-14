@@ -99,7 +99,7 @@
       - isLetter()
       - isDigit()
       - newToken()
-- github.com/benclmnt/zig-interpreter
+- github.com/rofrol/monkey-zig
   - lexer.zig
     - Token
       - const Token
