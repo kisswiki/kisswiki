@@ -1,0 +1,3 @@
+- close window without closing buffer
+  - ctrl-w c
+    - https://neovim.io/doc/user/windows.html
