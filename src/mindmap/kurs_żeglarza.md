@@ -11,6 +11,7 @@
           - Zarządzenia
           - Siedziby
         - COLREG
+          - Collision Regulations
         - Definicje
           - Statek
             - Rodzaje
@@ -53,11 +54,13 @@
       - nie połączony z lądem stałym ani dnem
         - niezacumowany
         - nie na kotwicy
-        - nie ma mieliźnie
+        - nie na mieliźnie
+        - ani pośrednio ani bezpośrednio
       - zatrzymać się
         - dotyczy statku w ruchu
-      - zapalone światła nawigacyjne
-        - statki w drodze w nocy lub ograniczonej widzialności
+        - względem lądu
+      - światła nawigacyjne
+        - statki w drodze w nocy lub ograniczonej widzialności (około mniej niż 1 km)
     - Zasady
       - Zasady ruchu żeglowego
     - Droga
