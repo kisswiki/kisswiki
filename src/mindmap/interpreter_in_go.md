@@ -190,7 +190,7 @@
                         - if
                           - if(self.pos >= self.input.len) {
                             - token
-                              - token.end = self.pos;
+                              - token.loc.end = self.pos;
                             - return
                               - return token;
                           - }
