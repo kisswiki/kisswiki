@@ -102,31 +102,70 @@
 - github.com/benclmnt/zig-interpreter
   - lexer.zig
     - Token
-      - pub const Token = struct {
-        - tag
-          - tag: Tag
-        - loc
-          - loc: Loc
-        - Loc
-          - pub const Loc = struct {
-            - start: usize,
-            - end: usize,
-          - }
-        - Tag
-          - pub const Tag = enum {
-            - illegal,
-          - }
-        - Keywords
-      - };
+      - const Token
+        - const Token = struct {};
+          - pub const Token = struct {};
+      - const Tag
+        - const Tag = enum {};
+          - pub const Tag = enum {};
+            - pub const Tag = enum {
+              - illegal,
+              - keyword_fn,
+            - };
+      - const Keywords
+        - const Keywords = std.CompTimeStringMap();
+          - pub const Keywords = std.CompTimeStringMap(Tag, .{});
+            - pub const Keywords = std.CompTimeStringMap(Tag, .{
+              - .{ "fn", .keyword_fn },
+            - });
+      - code
+        - pub const Token = struct {
+          - tag
+            - tag: Tag,
+          - loc
+            - loc: Loc,
+          - Loc
+            - pub const Loc = struct {
+              - start: usize,
+              - end: usize,
+            - };
+          - Tag
+            - pub const Tag = enum {
+              - illegal,
+            - };
+          - Keywords
+            - pub const Keywords = std.CompTimeStringMap(Tag, .{
+              - .{ "fn", .keyword_fn },
+            - });
+        - };
     - Lexer
-      - pub const Lexer = struct {
-        - input
-        - pos
-        - dump
-        - init
-        - State
-        - next
-      - };
+      - const Lexer
+        - const Lexer = struct {};
+          - pub const Lexer = struct {};
+            - pub const Lexer = struct {
+              - input
+                - input: []const u8,
+              - pos
+                - pos: usize = 0,
+              - init
+                - fn init
+                  - fn init(input: [] const u8) {}
+                    - fn init(input: []const u8) Lexer {}
+                      - pub fn init(input: []const u8) Lexer {}
+                        - pub fn init(input: []const u8) Lexer {
+                          - return Lexer{};
+                            - return Lexer{ .input = input };
+                        - }
+              - State
+                - const State
+                  - const State = enum { start };
+                    - const State = enum {
+                      - start,
+                      - plus,
+                      - minus,
+                    - }
+              - next
+            - };
     - test
       - test "next token - complete program" {
       - }
