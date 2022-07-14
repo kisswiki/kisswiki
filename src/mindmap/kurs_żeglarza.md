@@ -65,6 +65,43 @@
       - Zasady ruchu żeglowego
     - Droga
       - Prawo drogi
+  - Przemęczenie i intoksykacja
+  - Wypadek
+    - rozstrój zdrowia
+    - śmierci
+    - uszkodzenie mienia znacznej wartości
+  - Uprawnienia
+    - wymagania
+      - wiedza i umięjętność
+      - przestrzeganie zasad bezpieczeństwa
+    - bez uprawnień
+      - żaglowe i kadłub do 7.5 m
+      - motorowe i moc silnika poniżej 10 kW
+      - motorowe
+        - moc silnika poniżej 75 kW
+        - kadłub do 13 m
+        - prędkość maksymalna ograniczona konstrukcyjnie do 15 km/h
+      - kadłub do 7.5 m i moc silnika od 10 kW
+        - wymaga posiadania dokumentu kwalifikacyjnego
+          - wydanego przez odpowiedni związek sportowy
+      - stopnie
+        - żeglarskie
+          - żeglarz jachtowy
+            - małe statki na wodach śródlądowych
+            - do 12 m kadłub
+              - po morskich wodach wewnętrznych
+              - po pozostałych wodach morskich do 2 mil morskich Mm od brzegu
+              - w dzień
+            - gdy jacht wyposażony w radiotelefon UKF (ang. VHF)
+              - na pokładzie musi być osoba
+                - posiadająca międzynarodowe uprawnienia SRC
+                  - Short Range Certificate
+          - jachtowy sternik morski
+          - kapitan jachtowy
+        - motorowodne
+          - sternik motorowodny
+          - motorwodny sternik morski
+          - kapitan motorowodny
   - Statek
     - Kategorie
       - Kategorie projektowe jachtów
