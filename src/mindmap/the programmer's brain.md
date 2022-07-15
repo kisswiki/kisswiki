@@ -27,4 +27,13 @@
       - confirm or refute hypothesis about the source
     - types
       - simple
+        - like variable names
       - compound
+        - self.left and self.right
+          - form a compound beacon
+        - `for` can be a compound beacon
+          - because contains
+            - variable
+            - initial assignment
+            - increment
+            - boundary values
