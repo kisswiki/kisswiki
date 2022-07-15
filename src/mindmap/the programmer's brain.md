@@ -16,18 +16,28 @@
   - all 3 processes are at work while reading code
     - the complement each other
 - speed reading
-  - design patterns
-  - high-level comments
+  - STM
+    - 30 seconds
+      - stores for 30 seconds
+        - after 30 seconds you have to store it in LTM
+          - or it will be lost forever
+    - 2 to 6
+      - can store from 2 to 6 elements
+  - chunking
+    - helps overcoming size limits of STM
+  - what helps
+    - design patterns
+    - high-level comments
     - low-level like "decrement"
       - create a burden
-  - beacons
-    - part of program
+    - beacons
+      - part of program
       - help understand what a program does
-    - narrows your hypothesis
+      - narrows your hypothesis
       - confirm or refute hypothesis about the source
-    - types
+      - types
       - simple
-        - like variable names
+        - like variable names, class names, method names
       - compound
         - self.left and self.right
           - form a compound beacon
@@ -37,3 +47,6 @@
             - initial assignment
             - increment
             - boundary values
+      - smaller than chunks
+      - expert programmers, but not novices
+        - make havy use of beacons
