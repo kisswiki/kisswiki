@@ -9,3 +9,6 @@
     - comprehension process
 - burden
   - ciężar
+- chunk
+  - kawałek
+    - divide information into chunks
