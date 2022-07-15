@@ -1,3 +1,11 @@
 - sustain
   - sustainability
     - zrównoważony rozwój
+- refute
+  - obalić
+    - confirm or refute hypothesis
+- comprehension
+  - zrozumienie
+    - comprehension process
+- burden
+  - ciężar

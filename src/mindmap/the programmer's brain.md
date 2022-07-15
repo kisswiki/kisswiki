@@ -1,0 +1,27 @@
+- confusion
+  - knowledge
+    - LTM
+      - long term memory
+        - lack of knowledge - issue in LTM
+          - LTM is like hard drive
+  - information
+    - STM
+      - short term memory
+        - lack of information - issue in STM
+          - STM is like RAM
+  - processing power
+    - working memory
+      - lack of processing power - issue in working memory
+        - processor of the brain
+  - all 3 processes are at work while reading code
+    - the complement each other
+- speed reading
+  - design patterns
+  - high-level comments
+    - low-level like "decrement"
+      - create a burden
+  - beacon
+    - part of program
+      - help understand what a program does
+    - narrows your hypothesis
+      - confirm or refute hypothesis about the source
