@@ -25,6 +25,15 @@
       - can store from 2 to 6 elements
   - chunking
     - helps overcoming size limits of STM
+    - the more information you have stored about specific topic
+      - the easier it is to effectively divide information into chunks
+  - iconic memory
+    - cache for sight
+    - information first enters sensory memory like iconic memory
+      - then reaches STM
+    - stores visual stimuli
+      - by an image you saw
+        - for a little while
   - what helps
     - design patterns
     - high-level comments
