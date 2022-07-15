@@ -20,8 +20,11 @@
   - high-level comments
     - low-level like "decrement"
       - create a burden
-  - beacon
+  - beacons
     - part of program
       - help understand what a program does
     - narrows your hypothesis
       - confirm or refute hypothesis about the source
+    - types
+      - simple
+      - compound
