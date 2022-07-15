@@ -1,0 +1,9 @@
+- python
+  - idle
+    - run from command line
+      - https://stackoverflow.com/questions/8792044/how-do-i-launch-idle-the-development-environment-for-python-on-mac-os-10-7
+      - IDLE can't import Tkinter
+        - brew install python-tk
+          - https://stackoverflow.com/questions/67839043/macos-python-3-9-idle-idle-cant-import-tkinter
+    - File > New File
+      - not new Window like in a book

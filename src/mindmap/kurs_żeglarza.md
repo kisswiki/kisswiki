@@ -10,40 +10,32 @@
       - Siedziby
     - COLREG
       - Collision Regulations
-    - Definicje
-      - Statek
-        - Rodzaje
-          - Statek żegluga śródlądowa
-          - Prom
-          - Urządzenie pływające
-          - Statek morski
-        - Napęd
-          - Statek o napędzie mechanicznym
-          - Statek żaglowy
-            - żagle i napęd mechaniczny uznawany za statek o napędzie mechaniczym
-        - Kwalifikacja
-          - Mały statek
-            - Długość kadłuba < 20 m i dopuszczony przewóz < 12 pasażerów
-            - Nie prom
-            - Nie statek przystosowany do prowadzenia zestawów holowanych, pchanych lub sprzężonych
-          - Statek pasażerski
-            - zbudowany lub przystosowany do przewozu więcej niż 12 pasażerów
-          - Prom
-            - zakwalifikowany przez Dyrektora Urzędu Żeglugi Śródlądowej
-              - jako prom
-              - służący do przewozu
-                - osób i ładunków
-                - w poprzek drogi wodnej
-  - Wizja i fonia
-    - Sygnały
-      - Sygnały wzrokowe i dźwiękowe
-        - Krótki dźwięk 1 s
-        - Długi dźwięk 4 s
-        - Seria bardzo krótkich dźwięków 0.25 s i 0.25 s
+  - Kategorie jachtu
+    - Różne kategorie
+      - Statek żegluga śródlądowa
+      - Prom
+      - Urządzenie pływające
+      - Statek morski
+    - Napęd - Statek o napędzie mechanicznym - Statek żaglowy - żagle i napęd mechaniczny uznawany za statek o napędzie mechaniczym
+    - Kwalifikacja
+      - Mały statek
+        - Długość kadłuba < 20 m i dopuszczony przewóz < 12 pasażerów
+        - Nie prom
+        - Nie statek przystosowany do prowadzenia zestawów holowanych, pchanych lub sprzężonych
+      - Statek pasażerski
+        - zbudowany lub przystosowany do przewozu więcej niż 12 pasażerów
+      - Prom
+        - zakwalifikowany przez Dyrektora Urzędu Żeglugi Śródlądowej
+          - jako prom
+          - służący do przewozu
+            - osób i ładunków
+            - w poprzek drogi wodnej
+  - Sygnały wzrokowe i dźwiękowe
+    - Krótki dźwięk 1 s
+    - Długi dźwięk 4 s
+    - Seria bardzo krótkich dźwięków 0.25 s i 0.25 s
     - Noc i dzień
-      - wschód i zachód
-    - Światła
-      - Światła nawigacyjne statków i jachtów
+      - wschód i zachód słońca
   - Ruch
     - W ruchu
       - nie połączony z lądem stałym ani dnem
@@ -110,12 +102,12 @@
           - motorwodny sternik morski
           - kapitan motorowodny
   - Obowiązki
-    - kierownika statku
+    - kierownik statku
       - kierownik na wodach śródlądowych, na morzu kapitan
       - stan techniczny
       - warunki na drodze
       - odstąpienie od przepisów jak tego wymaga sytuacja
-    - kapitana jachtu morskiego
+    - kapitan jachtu morskiego
       - planować
       - stan techniczny i wyposażenie
         - w tym środki ratunkowe
@@ -127,15 +119,42 @@
         - w nocy
         - ryzyko wywrócenia się jachtu
         - trudne warunki atmosferyczne
-    - załogi
+    - załoga
       - wszyscy człokowie załogi (wykonywjący obowiązki?)
         - nie mogą być przemęczeni
         - intoksynowani
-    - kierownik, jeśli wypadek na własnym statku lub innym, powinien chronić zdrowie i życie ludzi oraz mienie, jeśli nie zagraża to zdrowiu i życiu
-  - Statek
-    - Kategorie
-      - Kategorie projektowe jachtów
-    - Identyfikacja
-      - Identyfikacja jachtów
-    - Rejestracja
-      - Rejestracja i przeglądy jachtów
+    - Wypadek
+      - kierownik, jeśli wypadek na własnym statku lub innym, powinien chronić zdrowie i życie ludzi oraz mienie, jeśli nie zagraża to zdrowiu i życiu
+  - Wyposażenie
+    - obowiązkowe na śródlądziu
+      - środki ratunkowe
+        - pasy ratunkowe
+        - kamizelki ratunkowe CE
+        - liczba środków powinna odpowiadać liczbie osób
+      - koło ratunkowe
+        - nie dla < 4 m
+      - gaśnice
+        - do 10 m - 1 gaśnica
+        - 10 - 15 m - 2 gaśnice
+        - > 15 m - 3 gaśnice
+      - odbijacze
+        - minimum 4
+        - liczba w zależności od rodzaju i wymiarów statku
+      - bosak
+      - apteczka pierwszej pomocy
+- Wzrokowa sygnalizacja jachtów
+  - pozycja
+    - wyprzedzająca
+    - wyprzedzana
+    - na kursie kolizyjnym
+  - wielkość
+  - czynności
+    - w ruchu
+    - na kotwicy
+    - mieliźnie
+    - połów
+    - holowanie
+  - TODO
+- Identyfikacja jachtów
+- Rejestracja
+  - Rejestracja i przeglądy jachtów

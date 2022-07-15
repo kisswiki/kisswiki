@@ -1,0 +1,9 @@
+- preview app
+  - pdf in fullscreen default to continuous scroll
+    - can't
+      - Use `cmd+1`
+        - https://apple.stackexchange.com/questions/130798/how-to-switch-previews-full-screen-default-setting-from-two-pages-to-continu/130913#130913
+      - `brew install --cask skim`
+        - https://www.reddit.com/r/macapps/comments/qunxh5/comment/hkzlfyt/
+      - `brew install --cask adobe-acrobat-reader`
+        - https://www.reddit.com/r/macapps/comments/qunxh5/comment/hl0ot9n/
