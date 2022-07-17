@@ -34,8 +34,11 @@
     - stores visual stimuli
       - by an image you saw
         - for a little while
-  - what helps
+    - not everything store in iconic memory
+      - can be processed by STM
+  - how to write code to help chunking
     - design patterns
+      - observer shorter time than decorator
     - high-level comments
     - low-level like "decrement"
       - create a burden

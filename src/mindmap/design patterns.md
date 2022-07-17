@@ -1,0 +1,2 @@
+- every general reusable solution can be considered a design pattern
+  - https://softwareengineering.stackexchange.com/questions/124109/is-there-a-canonical-book-on-design-patterns/124114#124114

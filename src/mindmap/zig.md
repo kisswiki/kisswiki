@@ -304,6 +304,8 @@
         - https://github.com/ziglang/zig/blob/3e2e6c108a4306ed890b3034e2ad47c8d4caf2f7/test/cli.zig#L11
     - testing
       - allocator
+      - expectEqualStrings
+        - try expectEqualStrings("one", "one")
     - ArrayList
       - used for concatenating string to itself
       - init()
