@@ -7,3 +7,5 @@
         - https://www.reddit.com/r/macapps/comments/qunxh5/comment/hkzlfyt/
       - `brew install --cask adobe-acrobat-reader`
         - https://www.reddit.com/r/macapps/comments/qunxh5/comment/hl0ot9n/
+- date iso
+  - `date -u '%FT%TZ'` https://stackoverflow.com/questions/7216358/date-command-on-os-x-doesnt-have-iso-8601-i-option/16360942#16360942
