@@ -213,6 +213,16 @@
     - error
       - ArgNotFound
         - var number_or_error: anyerror!i32 = error.ArgNotFound
+  - control flow
+    - switch
+      - code
+        ```zig
+        const c = "let";
+        switch(c) {
+          "let" => std.debug.print("keyword", .{});
+          else => std.debug.print("else", .{});
+        }
+        ```
 - packages
   - std
     - log
