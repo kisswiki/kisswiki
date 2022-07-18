@@ -342,8 +342,10 @@
       - allocator
       - expectEqualStrings
         - try expectEqualStrings("one", "one")
+      - expectEqual
+        - try expectEqual(tag1, tag2)
       - using watchexec
-        - `watchexec -w lexer.zig 'echo -e "\n\n------ test run"; zig test ./lexer.zig'`
+        - `watchexec -w lexer.zig 'echo -e "\n\n------ test run"; zig test ./lexer.zig'` or zigtestfile
     - ArrayList
       - used for concatenating string to itself
       - init()
