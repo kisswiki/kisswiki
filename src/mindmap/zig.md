@@ -242,7 +242,7 @@
       - eql
         - std.debug.print("{}", .{std.mem.eql(u8, "hello", "h\x65llo")});
       - Allocator
-        - where is used?
+        - where is it used?
         - alloc()
       - tokenize()
         - var lines = std.mem.tokenize(u8, buffer, "\n"); // cannot be const
