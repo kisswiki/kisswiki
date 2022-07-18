@@ -77,6 +77,10 @@
       - @typeName
         - @typeName(@TypeOf(number_or_error))
       - @TypeOf
+    - error: unused function parameter
+      ```zig
+      _ = self
+      ```
   - comments
     - // single line comment
     - /// multiline
@@ -153,6 +157,16 @@
         - anonymous struct literal
           - .{}
             - .{"Hello"}
+          - error: cannot assign to const
+            ```zig
+            const Token = struct {
+              tag: []const u8,
+            };
+            // should be:
+            // var t = Token{ .tag = "Hello" };
+            var t = .{ .tag = "Hello" };
+            t.tag = "World";
+            ```
         - error: expected 0 argument(s), found 1
           ```zig
             const Lexer = struct {
