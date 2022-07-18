@@ -1,0 +1,4 @@
+- alias
+  - with params
+    - use function
+      - function zigtestfile() { zig test $1 }
