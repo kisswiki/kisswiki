@@ -2,3 +2,4 @@
   - with params
     - use function
       - function zigtestfile() { zig test $1 }
+        - https://stackoverflow.com/questions/7131670/make-a-bash-alias-that-takes-a-parameter/7131683#7131683
