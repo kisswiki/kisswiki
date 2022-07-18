@@ -165,14 +165,15 @@
             l.next(); // error
           ```
       - enum
-        ```zig
-        const Tag = enum { let };
-        const t = Tag.let;
-        // this does not work:
-        // const tag = .let;
-        const tag: Tag = .let;
-        try std.testing.expectEqual(tag, t);
-        ```
+        - error: expected type '@Type(.EnumLiteral)', found 'Tag'
+          ```zig
+          const Tag = enum { let };
+          const t = Tag.let;
+          // this does not work:
+          // const tag = .let;
+          const tag: Tag = .let;
+          try std.testing.expectEqual(tag, t);
+          ```
       - other
         - optional
           - ?
