@@ -306,6 +306,8 @@
       - allocator
       - expectEqualStrings
         - try expectEqualStrings("one", "one")
+      - using watchexec
+        - `watchexec -w lexer.zig 'echo -e "\n\n------ test run"; zig test ./lexer.zig'`
     - ArrayList
       - used for concatenating string to itself
       - init()
