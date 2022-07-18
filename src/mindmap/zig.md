@@ -164,6 +164,15 @@
             var l = Lexer{};
             l.next(); // error
           ```
+      - enum
+        ```zig
+        const Token = struct {
+          const Tag = enum { let };
+        };
+        cosnt t = Token.Tag.let
+        const tag = .let
+        std.testing.expectEqual(tag, t)
+        ```
       - other
         - optional
           - ?
