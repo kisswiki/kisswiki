@@ -188,6 +188,13 @@
           const tag: Tag = .let;
           try std.testing.expectEqual(tag, t);
           ```
+        - error: variable of type '@Type(.EnumLiteral)' must be const or comptime
+          ```zig
+          const State = {.start};
+          // should be:
+          // var state: State = .start;
+          var state = .start;
+          ```
       - other
         - optional
           - ?
