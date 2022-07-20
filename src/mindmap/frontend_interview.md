@@ -1,0 +1,19 @@
+- angular
+  - authentication: with canAtivate
+  - lazy loading: canLoad. Why lazy loading?
+  - communcation parent child: @Input and @Output
+  - lifecycle: onOnInit ngAfterContentInit
+  - @Input i ngOnInit: allows changing @Input, constructor cannot
+  - directives
+  - pipe
+  - encapsulation: css shadow
+  - inject template: ng-content
+  - conditionally display part of template: ngIf, ngSwitch, ng-template
+  - references: #id let-user
+  - what can be injected other than service?
+- rxjs
+  - tap
+  - promise vs observable: promise
+  - observable: can be cancelled with switch, etc.
+- scss
+  - scss vs css: what is mixin, include, for
