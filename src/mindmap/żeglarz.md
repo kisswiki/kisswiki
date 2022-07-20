@@ -1,0 +1,9 @@
+- Żeglarz jachtowy podręcznik - Małgorata Czarnomska & Tomasz Michalak
+  - meteorologia
+    - masy powietrza
+    - chmury
+    - wiatr
+    - niż
+    - zjawiska lokalne
+    - parametry wiatru
+    - pogoda
