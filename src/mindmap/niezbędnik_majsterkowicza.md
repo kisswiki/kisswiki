@@ -1,0 +1,6 @@
+- https://allegro.pl/artykul/niezbednik-domowego-majsterkowicza-przeglad-narzedzi-i-akcesoriow-ktore-zawsze-warto-miec-w-domu-4RADnzabmsl
+- [Jakie narzędzia są potrzebne czyli niezbędnik Majsterkowicza. - YouTube](https://www.youtube.com/watch?v=oZ5D-qC3bYc)
+- https://muratordom.pl/remont-domu/sprzet-i-narzedzia/dla-niego-niezbednik-majsterkowicza-te-narzedzia-musisz-miec-w-domowym-warsztacie-aa-dKEj-HPRU-s7BB.html
+- https://inzynieria.com/budownictwo/wiadomosci/61652,niezbednik-kazdego-majsterkowicza,podstawowy-zestaw-majsterkowicza
+- https://regiodom.pl/pila-do-metalu-5-w-1/ar/c9-15538916
+- https://www.obi.pl/porady/technika/niezbednik-majsterkowicza/
