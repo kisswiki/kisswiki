@@ -7,3 +7,6 @@
     - zjawiska lokalne
     - parametry wiatru
     - pogoda
+- testy
+  - https://sztormgrupa.pl/index.php/testy/testy-probne-na-stopien-jachtowego-sternika-morskiego/
+    - `console.log(document.querySelector('.QuestionLabel').innerText.replace(/:$/,'')); Array.from(document.querySelectorAll('.AnswerLabel'), ({innerText}) => innerText).forEach(item => console.log(item))`
