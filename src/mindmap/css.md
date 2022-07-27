@@ -1,0 +1,3 @@
+- disable selection
+  - `user-select: none`
+    - https://stackoverflow.com/questions/25066819/disable-text-selection-with-angular-directive
