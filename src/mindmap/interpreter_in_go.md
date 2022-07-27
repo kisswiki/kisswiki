@@ -141,9 +141,9 @@
       - curPrecedence
       - parseIdentifier
       - parseIntegerLiteral
+      - parseBoolean
       - parsePrefixExpression
       - parseInfixExpression
-      - parseBoolean
       - parseGroupedExpression
       - parseIfExpression
       - parseBlockStatement
