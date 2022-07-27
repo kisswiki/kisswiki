@@ -148,7 +148,7 @@
             - std.debug.print("{}", .{'e' == '\x65'}); // true
             - std.debug.print("{d}", .{'\u{1f4a9}'}); // 128169
             - std.debug.print("{u}", .{'⚡'});
-          - std.mem.eql
+          - == compare strings
             - std.debug.print("{}", .{std.mem.eql(u8, "hello", "h\x65llo")});
             - always compare string literals with std.mem.eql otherwise you may get error
               - error: operator not allowed for type '[:0]const u8'
