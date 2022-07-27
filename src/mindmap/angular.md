@@ -1,0 +1,30 @@
+- sharing data between parent and child
+  - `@Input() data` and `@Output() close = new EventEmitter();` and `import { Input, EventEmitter } from '@angular/core'`
+    - @Output() close = new EventEmitter();
+- iterate
+  - `<div *ngFor="let node of files">{{node.name}}</div>`
+    - https://angular.io/api/common/NgForOf
+- iterate and pass data in attribute
+  - `<div *ngFor="let node of files" [node]="node"></div>`
+    - https://stackoverflow.com/questions/43712445/how-to-pass-object-as-component-input-in-ngfor/43712481#43712481
+- get content of child passed inside tags
+  - <app-file>{{node.name}}</app-file>`and in file.component.html `file: <ng-content></ng-content>`
+    - https://stackoverflow.com/questions/50042050/how-to-pass-child-nodes-to-an-angular-component/50042182#50042182
+- error: Experimental support for decorators is a feature
+  - in tsconfig.json `{ "compilerOptions": { "experimentalDecorators": true } }`
+    - https://stackoverflow.com/questions/38271273/experimental-decorators-warning-in-typescript-compilation/44571765#44571765
+- error: No inputs were found in config file
+  - Add an empty typescript file to the typescript scripts folder
+    - https://stackoverflow.com/questions/41211566/tsconfig-json-buildno-inputs-were-found-in-config-file/41211721#41211721
+- create project
+  - `npm i -g @angular/cli` and `ng new my-app` and `cd my-app && ng serve`
+    - https://angular.io/guide/setup-local
+- create component
+  - `ng g c file` will create directive `app-file`
+    - https://stackoverflow.com/questions/44151427/how-to-create-a-new-component-in-angular-4-using-cli
+- ng-template
+  - won't be displayed unless...
+  - https://blog.angular-university.io/angular-ng-template-ng-container-ngtemplateoutlet/
+- empty html element
+  - `<ng-container></ng-container>`
+    - https://www.digitalocean.com/community/tutorials/angular-ng-container-element
