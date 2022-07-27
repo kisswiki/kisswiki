@@ -99,6 +99,61 @@
       - isLetter()
       - isDigit()
       - newToken()
+- ch 02
+  - ast.go
+    - package
+    - import
+    - Node
+    - Statement
+    - Expression
+    - Program
+    - LetStatement
+    - ReturnStatement
+    - ExpressionStatement
+    - BlockStatement
+    - Identifier
+    - Boolean
+    - IntegerLiteral
+    - IfExpression
+    - CallExpression
+  - parser.go
+    - package
+    - import
+    - iota
+    - precedences
+    - prefixParserFn
+    - infixParserFn
+    - Parser
+      - nextToken
+      - curTokenIs
+      - peekTokenIs
+      - expectPeek
+      - Errors
+      - peekError
+      - noPrefixParseFnError
+      - ParseProgram
+      - parseStatement
+      - parseLetStatement
+      - parseReturnStatement
+      - parseExpressionStatement
+      - parseExpression
+      - peekPrecedence
+      - curPrecedence
+      - parseIdentifier
+      - parseIntegerLiteral
+      - parsePrefixExpression
+      - parseInfixExpression
+      - parseBoolean
+      - parseGroupedExpression
+      - parseIfExpression
+      - parseBlockStatement
+      - parseFunctionLiteral
+      - parseFunctionParameters
+      - parseCallExpression
+      - parseCallArguments
+      - registerPrefix
+      - registerInfix
+    - New
 - github.com/rofrol/monkey-zig
   - lexer.zig
     - Token
@@ -218,4 +273,5 @@
         - expectations
         - for
       - }
+  - ## parser.zig
   - main.go
