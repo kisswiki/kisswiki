@@ -131,28 +131,31 @@
       - Errors
       - peekError
       - noPrefixParseFnError
-      - ParseProgram
-      - parseStatement
-      - parseLetStatement
-      - parseReturnStatement
-      - parseExpressionStatement
-      - parseExpression
       - peekPrecedence
       - curPrecedence
-      - parseIdentifier
-      - parseIntegerLiteral
-      - parseBoolean
-      - parsePrefixExpression
-      - parseInfixExpression
-      - parseGroupedExpression
-      - parseIfExpression
-      - parseBlockStatement
-      - parseFunctionLiteral
-      - parseFunctionParameters
-      - parseCallExpression
-      - parseCallArguments
-      - registerPrefix
-      - registerInfix
+      - ParseProgram
+      - `parse*`
+        - parseStatement
+        - parseLetStatement
+        - parseReturnStatement
+        - parseExpressionStatement
+        - parseExpression
+        - parseIdentifier
+        - parseIntegerLiteral
+        - parseBoolean
+        - `parse*Expression`
+          - parsePrefixExpression
+          - parseInfixExpression
+          - parseGroupedExpression
+          - parseIfExpression
+        - parseBlockStatement
+        - parseFunctionLiteral
+        - parseFunctionParameters
+        - parseCallExpression
+        - parseCallArguments
+      - `register*`
+        - registerPrefix
+        - registerInfix
     - New
 - github.com/rofrol/monkey-zig
   - lexer.zig

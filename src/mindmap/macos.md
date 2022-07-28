@@ -9,3 +9,7 @@
         - https://www.reddit.com/r/macapps/comments/qunxh5/comment/hl0ot9n/
 - date iso
   - `date -u '%FT%TZ'` https://stackoverflow.com/questions/7216358/date-command-on-os-x-doesnt-have-iso-8601-i-option/16360942#16360942
+- google chrome
+  - disable two-finger swipe to go back
+    - `defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE`
+      - https://apple.stackexchange.com/questions/21236/how-do-i-disable-chromes-two-finger-back-forward-navigation/80163#80163
