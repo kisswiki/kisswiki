@@ -1,2 +1,15 @@
 - deselct region
   - C-g
+- https://github.com/rexim/dotfiles/blob/master/.emacs
+  - mc/edit-lines is from https://github.com/magnars/multiple-cursors.el
+- multiple-cursrors or mc
+  - mc/mark-all-lines-like-this-dwim
+  - [Emacs Multiple Cursors - YouTube](https://www.youtube.com/watch?v=mDDeSKRc3Zo)
+- reload emacs config
+  - `M-: (load user-init-file)`
+    - https://stackoverflow.com/questions/2580650/how-can-i-reload-emacs-after-changing-it/51781491#51781491
+- paredit-mode
+  - for lispy languages https://calva.io/paredit/
+- whitespace-mode
+  - minor mode to visualize TAB, (HARD) SPACE, NEWLINE
+    - https://git.savannah.gnu.org/cgit/emacs.git/tree/lisp/whitespace.el
