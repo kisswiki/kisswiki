@@ -13,3 +13,6 @@
 - whitespace-mode
   - minor mode to visualize TAB, (HARD) SPACE, NEWLINE
     - https://git.savannah.gnu.org/cgit/emacs.git/tree/lisp/whitespace.el
+- open file
+  - C-x C-f
+    - https://www.oreilly.com/library/view/learning-gnu-emacs/1565921526/ch02s07.html
