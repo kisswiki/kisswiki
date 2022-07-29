@@ -43,3 +43,20 @@
 - reactivate region (selection)
   - `C-x C-x`
     - https://superuser.com/questions/455331/emacs-how-to-re-mark-a-previously-marked-region/1148161#1148161
+- Attempt to delete minibuffer or sole ordinary window
+  - https://emacs.stackexchange.com/questions/34343/attempt-to-delete-minibuffer-or-sole-ordinary-window
+- dired
+  - `C-x d`
+  - `M-x dired-mark-files-regexp`
+- helm
+  - `M-x helm-buffers-list`
+  - `M-x helm-mini`
+  - `M-x helm-for-files`
+  - https://www.reddit.com/r/emacs/comments/4r2p0f/hide_some_buffers_in_helmbufferslist/
+- recent files
+  - `M-x recentf-open-files`
+  - `M-x recentf-edit-list`
+    - https://emacs.stackexchange.com/questions/44589/how-show-recent-files/44590#44590
+  - ignore/exclude
+    - `(add-to-list 'recentf-exclude "ido\\.list\\'")` and `M-x recentf-cleanup` to update `recentf-list`
+      - https://stackoverflow.com/questions/8025119/force-emacs-recent-files-using-recentf-to-ignore-specified-files-windows-and/8025312#8025312
