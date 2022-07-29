@@ -2,6 +2,7 @@
   - `C-g`
 - configs
   - tsoding https://github.com/rexim/dotfiles/blob/master/.emacs
+    - .emacs.rc - rc from refresh-contents?
 - multiple-cursrors or mc/
   - mc/mark-all-lines-like-this-dwim
   - [Emacs Multiple Cursors - YouTube](https://www.youtube.com/watch?v=mDDeSKRc3Zo)
@@ -20,3 +21,8 @@
   - `C-,`
     - rc/duplicate-line
       - https://github.com/rexim/dotfiles/blob/a529f79ffe3bac19fe1ce842c3296ad792757df7/.emacs.rc/misc-rc.el#L120
+    - https://stackoverflow.com/questions/88399/how-do-i-duplicate-a-whole-line-in-emacs
+- undo and redo
+  - `M-x undo-only`
+  - `M-x undo-redo`
+  - https://www.gnu.org/software/emacs/manual/html_node/emacs/Undo.html
