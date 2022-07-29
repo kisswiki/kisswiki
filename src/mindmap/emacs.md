@@ -1,5 +1,5 @@
-- deselct region
-  - C-g
+- deselect region
+  - `C-g`
 - configs
   - tsoding https://github.com/rexim/dotfiles/blob/master/.emacs
 - multiple-cursrors or mc/
@@ -14,5 +14,9 @@
   - minor mode to visualize TAB, (HARD) SPACE, NEWLINE
     - https://git.savannah.gnu.org/cgit/emacs.git/tree/lisp/whitespace.el
 - open file
-  - C-x C-f
+  - `C-x C-f`
     - https://www.oreilly.com/library/view/learning-gnu-emacs/1565921526/ch02s07.html
+- duplicate line
+  - `C-,`
+    - rc/duplicate-line
+      - https://github.com/rexim/dotfiles/blob/a529f79ffe3bac19fe1ce842c3296ad792757df7/.emacs.rc/misc-rc.el#L120
