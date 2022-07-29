@@ -32,3 +32,14 @@
 - select text
   - `C-SPC`
     - https://www.gnu.org/software/emacs/manual/html_node/emacs/Setting-Mark.html
+- smex
+  - https://github.com/nonsequitur/smex
+  - https://github.com/DarwinAwardWinner/amx
+    - https://www.reddit.com/r/emacs/comments/g9wx81/comment/fow9evp/
+  - https://wikemacs.org/wiki/Smex
+- move to beginning or end of line
+  - `C-a` and `C-e`. Also `M-m` to begninning of indentation
+    - https://emacsredux.com/blog/2013/05/22/smarter-navigation-to-the-beginning-of-a-line/
+- reactivate region (selection)
+  - `C-x C-x`
+    - https://superuser.com/questions/455331/emacs-how-to-re-mark-a-previously-marked-region/1148161#1148161

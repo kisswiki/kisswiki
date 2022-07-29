@@ -1,13 +1,15 @@
-- go
-  - export
-    - Capital letter
-  - default value
-    - https://stackoverflow.com/questions/37135193/how-to-set-default-values-in-go-structs
-  - test
-    - to see fmt.Println when running test add `-v`: go test -v ./lexer
-      - https://stackoverflow.com/questions/23205419/how-do-you-print-in-a-go-test-using-the-testing-package/23205902#23205902
-  - zero value
-    - https://programming.guide/go/default-zero-value.html
-    - https://go.dev/ref/spec#The_zero_value
-    - https://stackoverflow.com/questions/28625794/structs-zero-value/28625828#28625828
-    - https://sher-chowdhury.medium.com/go-structs-part-2-zero-value-structs-786f670de99d
+- export
+  - Capital letter
+- default value
+  - https://stackoverflow.com/questions/37135193/how-to-set-default-values-in-go-structs
+- test
+  - to see fmt.Println when running test add `-v`: go test -v ./lexer
+    - https://stackoverflow.com/questions/23205419/how-do-you-print-in-a-go-test-using-the-testing-package/23205902#23205902
+- zero value
+  - https://programming.guide/go/default-zero-value.html
+  - https://go.dev/ref/spec#The_zero_value
+  - https://stackoverflow.com/questions/28625794/structs-zero-value/28625828#28625828
+  - https://sher-chowdhury.medium.com/go-structs-part-2-zero-value-structs-786f670de99d
+- http
+  - fasthttp - don't use it?
+    - fasthttp shouldn't be used other than for very very veeeery specific scenarios -- it doesn't actually implement HTTP, it implements something "like HTTP", and thus you will find all sorts of fun compatibility problems with it in the real world, where you might not be able to control the clients hitting the server. Additionally, it's very unlikely that the http server portion of this was the bottleneck. 99% of the time it's the logic inside of the handlers, not the http stack itself. I.e. even if fasthttp is "10x faster than net/http", if net/http currently only impacts 1% of the performance, 10x means almost nothing. Not to mention that "10x" is only in specific scenarios, not regular scenarios, where performance is often only marginally better. https://www.youtube.com/watch?v=RSY85SLXzwk&lc=UgzlV-vKA-I92bDD_Kt4AaABAg.9e1IXEHWuo09e1pSfTArLC
