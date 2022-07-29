@@ -29,3 +29,6 @@
   - https://www.gnu.org/software/emacs/manual/html_node/emacs/Undo.html
 - macos
   - ~/.zshrc is not loaded, use ~/.zprofile
+- select text
+  - `C-SPC`
+    - https://www.gnu.org/software/emacs/manual/html_node/emacs/Setting-Mark.html
