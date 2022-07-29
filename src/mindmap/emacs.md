@@ -2,7 +2,7 @@
   - `C-g`
 - configs
   - tsoding https://github.com/rexim/dotfiles/blob/master/.emacs
-    - .emacs.rc - rc from refresh-contents?
+    - .emacs.rc - rc from refresh-contents or rexim-config?
 - multiple-cursrors or mc/
   - mc/mark-all-lines-like-this-dwim
   - [Emacs Multiple Cursors - YouTube](https://www.youtube.com/watch?v=mDDeSKRc3Zo)
