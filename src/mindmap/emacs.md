@@ -1,8 +1,8 @@
 - deselct region
   - C-g
-- https://github.com/rexim/dotfiles/blob/master/.emacs
-  - mc/edit-lines is from https://github.com/magnars/multiple-cursors.el
-- multiple-cursrors or mc
+- configs
+  - tsoding https://github.com/rexim/dotfiles/blob/master/.emacs
+- multiple-cursrors or mc/
   - mc/mark-all-lines-like-this-dwim
   - [Emacs Multiple Cursors - YouTube](https://www.youtube.com/watch?v=mDDeSKRc3Zo)
 - reload emacs config
