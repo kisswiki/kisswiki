@@ -10,7 +10,7 @@
   - `M-: (load user-init-file)`
     - https://stackoverflow.com/questions/2580650/how-can-i-reload-emacs-after-changing-it/51781491#51781491
 - paredit-mode
-  - for lispy languages https://calva.io/paredit/
+  - for s-expr languages https://calva.io/paredit/
 - whitespace-mode
   - minor mode to visualize TAB, (HARD) SPACE, NEWLINE
     - https://git.savannah.gnu.org/cgit/emacs.git/tree/lisp/whitespace.el
