@@ -53,6 +53,9 @@
   - `M-x helm-mini`
   - `M-x helm-for-files`
   - https://www.reddit.com/r/emacs/comments/4r2p0f/hide_some_buffers_in_helmbufferslist/
+  - `M-x helm-imenu`
+    - https://www.emacswiki.org/emacs/ImenuMode#h5o-11
+    - https://www.masteringemacs.org/article/effective-editing-movement
 - recent files
   - `M-x recentf-open-files`
   - `M-x recentf-edit-list`
