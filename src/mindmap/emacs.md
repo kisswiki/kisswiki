@@ -1,5 +1,3 @@
-- deselect region
-  - `C-g`
 - configs
   - tsoding https://github.com/rexim/dotfiles/blob/master/.emacs
     - .emacs.rc - rc from refresh-contents or rexim-config?
@@ -29,9 +27,16 @@
   - https://www.gnu.org/software/emacs/manual/html_node/emacs/Undo.html
 - macos
   - ~/.zshrc is not loaded, use ~/.zprofile
-- select text
-  - `C-SPC`
-    - https://www.gnu.org/software/emacs/manual/html_node/emacs/Setting-Mark.html
+- text selection
+  - set mark
+    - `C-SPC` or `C-@`
+      - https://www.gnu.org/software/emacs/manual/html_node/emacs/Setting-Mark.html
+      - when cmd switched with control and cmd-spc fires spotlight, you may use `cmd-shift-space` to set mark or `C-@`
+  - reactivate region
+    - `C-x C-x`
+      - https://superuser.com/questions/455331/emacs-how-to-re-mark-a-previously-marked-region/1148161#1148161
+  - deselect region
+    - `C-g`
 - smex
   - https://github.com/nonsequitur/smex
   - https://github.com/DarwinAwardWinner/amx
@@ -40,9 +45,6 @@
 - move to beginning or end of line
   - `C-a` and `C-e`. Also `M-m` to begninning of indentation
     - https://emacsredux.com/blog/2013/05/22/smarter-navigation-to-the-beginning-of-a-line/
-- reactivate region (selection)
-  - `C-x C-x`
-    - https://superuser.com/questions/455331/emacs-how-to-re-mark-a-previously-marked-region/1148161#1148161
 - Attempt to delete minibuffer or sole ordinary window
   - https://emacs.stackexchange.com/questions/34343/attempt-to-delete-minibuffer-or-sole-ordinary-window
 - dired
@@ -54,6 +56,8 @@
   - rename file
     - `R`
       - https://www.reddit.com/r/emacs/comments/rejjrq/how_to_stop_fidomode_from_autocompleting_in_dired/
+      - Note that this is a general convention when querying text input from the minibuffer. Pressing the ↓-button gives you the default value(s), pressing the ↑-button gives you the input history elements.
+        - https://emacs.stackexchange.com/questions/55529/how-to-rename-a-file-with-dired-with-the-current-file-name-as-default/55532#55532
   - stop ido from searching in parent directories
     - `C-f` or `(setq ido-auto-merge-work-directories-length -1)`
       - https://stackoverflow.com/questions/17986194/emacs-disable-automatic-file-search-in-ido-mode
