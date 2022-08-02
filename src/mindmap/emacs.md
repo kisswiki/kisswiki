@@ -48,6 +48,15 @@
 - dired
   - `C-x d`
   - `M-x dired-mark-files-regexp`
+  - refresh buffer
+    - g
+      - https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired-Updating.html
+  - rename file
+    - `R`
+      - https://www.reddit.com/r/emacs/comments/rejjrq/how_to_stop_fidomode_from_autocompleting_in_dired/
+  - stop ido from searching in parent directories
+    - `C-f` or `(setq ido-auto-merge-work-directories-length -1)`
+      - https://stackoverflow.com/questions/17986194/emacs-disable-automatic-file-search-in-ido-mode
 - helm
   - `M-x helm-buffers-list`
   - `M-x helm-mini`
@@ -64,5 +73,7 @@
     - `(add-to-list 'recentf-exclude "ido\\.list\\'")` and `M-x recentf-cleanup` to update `recentf-list`
       - https://stackoverflow.com/questions/8025119/force-emacs-recent-files-using-recentf-to-ignore-specified-files-windows-and/8025312#8025312
 - buffer-menu
-  - C-x C-b
+  - `C-x C-b`
     - more help on buffer-menu-mode
+- emacs without config
+  - `emacs -q `
