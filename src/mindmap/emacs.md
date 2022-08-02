@@ -63,3 +63,6 @@
   - ignore/exclude
     - `(add-to-list 'recentf-exclude "ido\\.list\\'")` and `M-x recentf-cleanup` to update `recentf-list`
       - https://stackoverflow.com/questions/8025119/force-emacs-recent-files-using-recentf-to-ignore-specified-files-windows-and/8025312#8025312
+- buffer-menu
+  - C-x C-b
+    - more help on buffer-menu-mode
