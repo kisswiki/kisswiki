@@ -25,7 +25,7 @@
   - `M-x undo-redo`
   - https://stackoverflow.com/questions/3527142/how-do-you-redo-changes-after-undo-with-emacs/60163018#60163018
   - https://www.gnu.org/software/emacs/manual/html_node/emacs/Undo.html
-- macos
+- macos and $PATH not read
   - ~/.zshrc is not loaded, use ~/.zprofile
 - text selection
   - set mark
@@ -81,3 +81,7 @@
     - more help on buffer-menu-mode
 - emacs without config
   - `emacs -q `
+- scroll position
+  - https://stackoverflow.com/questions/66615910/emacs-scroll-past-top-of-buffer
+  - https://stackoverflow.com/questions/72301525/how-to-prevent-emacs-from-changing-cursor-position-when-scrolling-the-page
+  - https://www.reddit.com/r/emacs/comments/fwmqc8/how_to_stop_emacs_from_half_scrolling_from_bottom/
