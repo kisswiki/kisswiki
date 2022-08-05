@@ -4,6 +4,21 @@
 - multiple-cursrors or mc/
   - mc/mark-all-lines-like-this-dwim
   - [Emacs Multiple Cursors - YouTube](https://www.youtube.com/watch?v=mDDeSKRc3Zo)
+  - [Emacs Rocks! Episode 13: multiple-cursors](https://emacsrocks.com/e13.html)
+  - `mc-hide-unmatched-lines-mode`
+    - Use `mc-hide-unmatched-lines-mode` to highlight what's more relevant while editing a greater number of cursors. If that's still not enough you probably should be using `query-replace-regexp` instead
+    - https://www.reddit.com/r/emacs/comments/iu0euj/comment/g5kg8t2/
+  - has working `set-rectangular-region-anchor`
+    - More in `text selection > rectangular select`.
+  - skip a match
+    - multiple-cursors comes with the command `mc/mark-more-like-this-extended` after which you can do `mark-next-like-this` with `down-arrow` and jump over a match with `right-arrow`. There also is a `mc/mark-more-like-this-extended-keymap` if you want to rebind that.
+      - https://www.reddit.com/r/emacs/comments/iu0euj/comment/g5kqpr6/
+  - selection spanning multiple lines
+    - convert to multiple vertical cursors
+      - `mc/edit-lines`
+    - put cursors at end or beginning of lines
+      - `mc/edit-beginnings-of-lines` and `mc/edit-ends-of-lines`
+    - https://www.reddit.com/r/emacs/comments/iu0euj/comment/g5kra5y/
 - reload emacs config
   - `M-: (load user-init-file)`
     - https://stackoverflow.com/questions/2580650/how-can-i-reload-emacs-after-changing-it/51781491#51781491
@@ -37,6 +52,12 @@
       - https://superuser.com/questions/455331/emacs-how-to-re-mark-a-previously-marked-region/1148161#1148161
   - deselect region
     - `C-g`
+  - rectangular select
+    - Use `set-rectangular-region-anchor` from `multiple-cursors`
+      - https://github.com/magnars/multiple-cursors.el/blob/225fc0e889e094bfd2913cfd448084cb49211ac6/rectangular-region-mode.el#L52
+      - https://superuser.com/questions/77314/how-to-do-select-column-then-do-editing-in-gnu-emacs/1735433#1735433
+      - https://www.reddit.com/r/emacs/comments/iu0euj/comment/g5i3lcr/
+      - [Emacs Rocks! Episode 13: multiple-cursors](https://emacsrocks.com/e13.html)
 - smex
   - https://github.com/nonsequitur/smex
   - https://github.com/DarwinAwardWinner/amx
@@ -85,3 +106,19 @@
   - https://stackoverflow.com/questions/66615910/emacs-scroll-past-top-of-buffer
   - https://stackoverflow.com/questions/72301525/how-to-prevent-emacs-from-changing-cursor-position-when-scrolling-the-page
   - https://www.reddit.com/r/emacs/comments/fwmqc8/how_to_stop_emacs_from_half_scrolling_from_bottom/
+- keybinding
+  - modifiers
+    - `C-` Control
+    - `M-` Meta (mostly same as Alt)
+    - `S-` Shift
+    - `s-` Super
+    - `H-` Hyper
+    - `A-` Alt
+    - https://www.gnu.org/software/emacs/manual/html_node/emacs/Modifier-Keys.html
+    - [Adding Hyper and Super Keys for Emacs | Irreal](https://irreal.org/blog/?p=6645)
+    - http://xahlee.info/emacs/emacs/emacs_hyper_super_keys.html
+  - https://www.masteringemacs.org/article/mastering-key-bindings-emacs
+- load mode for specific extension
+  - `(add-to-list 'auto-mode-alist '("\\.ya?ml\\'" . yaml-mode))`
+    - https://emacs.stackexchange.com/questions/636/how-do-i-automatically-load-a-mode-for-a-specific-set-of-file-extensions/637#637
+    - https://emacs.stackexchange.com/questions/17887/how-do-i-associate-a-file-extension-with-a-specific-mode/17888#17888
