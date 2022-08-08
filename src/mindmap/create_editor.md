@@ -1,0 +1,7 @@
+- https://viewsourcecode.org/snaptoken/kilo/01.setup.html
+- https://wiki.nikiv.dev/text-editors/
+- https://github.com/paulsmith/texteditor-zig
+- https://github.com/jamii/focus
+- https://www.youtube.com/watch?v=XCvM_xRtWBg&list=PLp9tIOjPeMvtwQej_NhbC1k9NHWxDSpzx
+  - https://github.com/greenfork/kisa
+- http://www.finseth.com/craft/
