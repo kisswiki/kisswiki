@@ -23,6 +23,12 @@
 
     https://www.reddit.com/r/Compilers/comments/oosy2i/comment/h60oa82/
 
+  - Wirth
+    - https://github.com/tpn/pdfs/blob/master/Compiler%20Construction%20-%20Niklaus%20Wirth%20-%201996%20(CBEAll).pdf
+    - https://people.inf.ethz.ch/wirth/CompilerConstruction/CompilerConstruction1.pdf
+    - https://people.inf.ethz.ch/wirth/CompilerConstruction/CompilerConstruction2.pdf
+    - https://www.reddit.com/r/Jai/comments/wektz8/comment/iioz8ut/
+
 - parts
   - lexer
     - token types
