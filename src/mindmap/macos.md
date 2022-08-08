@@ -16,4 +16,5 @@
 - gnu coreutils
   - `brew install coreutils`
   - `alias ls="/opt/homebrew/opt/coreutils/libexec/gnubin/ls"`
-    - https://stackoverflow.com/questions/57972341/how-to-install-and-use-gnu-ls-on-macos
+  - `man /opt/homebrew/opt/coreutils/libexec/gnuman/man1/ls.1`
+  - https://stackoverflow.com/questions/57972341/how-to-install-and-use-gnu-ls-on-macos
