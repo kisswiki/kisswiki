@@ -14,4 +14,6 @@
     - `defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE`
       - https://apple.stackexchange.com/questions/21236/how-do-i-disable-chromes-two-finger-back-forward-navigation/80163#80163
 - gnu coreutils
-  - https://stackoverflow.com/questions/57972341/how-to-install-and-use-gnu-ls-on-macos
+  - `brew install coreutils`
+  - `alias ls="/opt/homebrew/opt/coreutils/libexec/gnubin/ls"`
+    - https://stackoverflow.com/questions/57972341/how-to-install-and-use-gnu-ls-on-macos
