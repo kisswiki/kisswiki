@@ -8,3 +8,7 @@
 - https://cryptopals.com/
   - https://github.com/steveklabnik/cryptopals/
   - https://github.com/SomMeri/matasano-cryptopals-solutions
+- You should own Ferguson and Schneier’s follow-up, Cryptography Engineering (C.E.). Cryptography Engineering, used to be called Practical Cryptography. The two books are practically identical.Written partly in penance, the new book deftly handles material the older book stumbles over. C.E. wants to teach you the right way to work with cryptography without wasting time on GOST and El Gamal. https://sockpuppet.org/blog/2013/07/22/applied-practical-cryptography/
+  - https://www.amazon.com/gp/product/0470474246/
+- https://security.stackexchange.com/questions/2202/lessons-learned-and-misconceptions-regarding-encryption-and-cryptology
+- https://stackoverflow.com/questions/6552704/cryptography-for-p2p-card-game
