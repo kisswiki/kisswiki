@@ -121,3 +121,7 @@
 - load mode for specific extension
   - `(add-to-list 'auto-mode-alist '("\\.ya?ml\\'" . yaml-mode))`
     - https://emacs.stackexchange.com/questions/636/how-do-i-automatically-load-a-mode-for-a-specific-set-of-file-extensions/637#637
+- project.el
+  - `C-x p p`
+  - `C-x p f`
+  - `M-x project-remember-projects-under`
