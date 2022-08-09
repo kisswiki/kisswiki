@@ -1,0 +1,4 @@
+- connection string uri
+  - mongodb://localhost:27017/jwt-project
+    - If the connection string does not specify a database/ you must specify a slash (/) between the last host and the question mark (?) that begins the string of options.
+      - https://www.mongodb.com/docs/manual/reference/connection-string/
