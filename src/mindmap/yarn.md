@@ -1,3 +1,1 @@
-- npx prettier
-  - yarn prettier
-    - https://stackoverflow.com/questions/69586166/yarn-2-how-to-run-a-script-from-the-node-modules-bin-directory/69586233#69586233
+- yarn+pnp+esm+typescript does not work yet
