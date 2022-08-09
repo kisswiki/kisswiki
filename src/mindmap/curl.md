@@ -1,0 +1,3 @@
+- POST json
+  - `curl -q -d '{"key1":"value1"}' -H "Content-Type: application/json" -X POST http://localhost/data`
+    - https://gist.github.com/subfuzion/08c5d85437d5d4f00e58
