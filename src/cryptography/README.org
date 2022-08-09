@@ -5,3 +5,6 @@
   - https://www.amazon.com/Network-Security-Private-Communication-Edition/dp/0130460192
   - https://www.amazon.com/Cryptography-Engineering-Principles-Practical-Applications/dp/0470474246
 - [[https://www.amazon.com/Best-Sellers-Books-Computer-Cryptography/zgbs/books/3875][Amazon Best Sellers: Best Computer Cryptography]]
+- https://cryptopals.com/
+  - https://github.com/steveklabnik/cryptopals/
+  - https://github.com/SomMeri/matasano-cryptopals-solutions
