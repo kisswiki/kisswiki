@@ -1,1 +1,2 @@
-- https://www.tesla.com/blog/master-plan-part-deux
+- master plan 2
+  - https://www.tesla.com/blog/master-plan-part-deux
