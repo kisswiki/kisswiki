@@ -1,0 +1,7 @@
+- redirect to English
+  - Google Chrome extension
+    - https://chrome.google.com/webstore/detail/mdn-language-redirector/phkkdccpgglghcdikkcalajiigdccnbo
+      - https://github.com/mdn/kuma/issues/5854#issuecomment-1069062028
+  - Firefox extension
+    - https://addons.mozilla.org/en-US/firefox/addon/english-content/
+      - https://discourse.mozilla.org/t/faq-how-do-i-read-mdn-in-english/32085
