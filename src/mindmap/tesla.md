@@ -1,0 +1,1 @@
+- https://www.tesla.com/blog/master-plan-part-deux
