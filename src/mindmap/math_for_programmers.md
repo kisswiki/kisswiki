@@ -10,3 +10,4 @@
   - `python -m notebook`
 - multiple input boxes
   - press `shift+enter`
+- quit jupyter, not just close browser tab, to ensure files are saved
