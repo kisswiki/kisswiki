@@ -113,6 +113,9 @@
     - [Adding Hyper and Super Keys for Emacs | Irreal](https://irreal.org/blog/?p=6645)
     - http://xahlee.info/emacs/emacs/emacs_hyper_super_keys.html
   - https://www.masteringemacs.org/article/mastering-key-bindings-emacs
+  - The EmacsManual says that the combination of C-c followed by a plain letter, and the function keys f5 through f9 are reserved for users.
+    - https://www.emacswiki.org/emacs/ChoosingKeysToBind
+    - https://www.gnu.org/software/emacs/manual/
 - load mode for specific extension
   - `(add-to-list 'auto-mode-alist '("\\.ya?ml\\'" . yaml-mode))`
     - https://emacs.stackexchange.com/questions/636/how-do-i-automatically-load-a-mode-for-a-specific-set-of-file-extensions/637#637
