@@ -3,3 +3,11 @@
     - use function
       - function zigtestfile() { zig test $1 }
         - https://stackoverflow.com/questions/7131670/make-a-bash-alias-that-takes-a-parameter/7131683#7131683
+- echo
+  - not portable, use printf
+    - Zsh's interpretes escape sequences by default unless the "BSD_ECHO" option is used, bash's doesn't unless "xpg_echo" is on. And xpg_echo is on by default for bash on macOS, so for users on macOS it looks like echo interprets escapes by default. This is one of the reasons why echo is hopelessly unportable
+      - https://news.ycombinator.com/item?id=32435316
+      - https://unix.stackexchange.com/a/65819/55665
+- clock
+  - `printf '\033c'; while true; do printf " $(date)\r"; sleep 1; done`
+    - https://news.ycombinator.com/item?id=32435123
