@@ -1,0 +1,16 @@
+- ceramic nib
+  - https://goodereader.com/blog/electronic-readers/review-of-the-supernote-ceramic-stylus-nib
+- [a very LONG-TERM Supernote review | Supernote A5X vs A6X - vs Remarkable / Boox - daily use | 2022 - YouTube](https://www.youtube.com/watch?v=SMmbWTNsF6w)
+- which pen
+  - https://www.reddit.com/r/Supernote/comments/kvkklp/my_new_favorite_pen_for_a6x/
+  - https://www.reddit.com/r/Supernote/comments/q3uq2a/styluspens/
+  - https://www.reddit.com/r/Supernote/comments/q1y7un/comment/hfna3ht/
+  - Heart of metal pen: I ordered this pen few days ago and... I'm in love with this pen. In my opinion this is the best pen for Supernote. This pen is better than the standard. Is more premium (also more expensive), the materials are nice and it looks so nicely if you are an employee. It's heavy (quite similar than the standard one) but more ergonomic. If you use it without the pen's cap, you It'll be thinner. The feeling when you are writting is amazing. https://www.reddit.com/r/Supernote/comments/m3n0tn/my_experience_about_pens_for_supernote_which_one/
+  - [Supernote A5X Pen comparisons with samsung pen - YouTube](https://www.youtube.com/watch?v=4kTyWx3SsqA)
+  - [The Supernote Pens Compared. Which is my favorite? - YouTube](https://www.youtube.com/watch?v=VjlW1MSn_54)
+- great consumer service
+  - https://howchoo.com/supernote/10-reasons-to-pick-supernote-a6x-over-remarkable-2
+- vs remarkable 2
+  - https://www.reddit.com/r/Supernote/comments/v1wkgq/remarkable_2_vs_supernote_a5x/
+  - [Remarkable 2 vs Supernote A5X vs Boox Note Air 2 - in-depth comparison - YouTube](https://www.youtube.com/watch?v=BLNY8umHzVE)
+  - https://www.reddit.com/r/Supernote/comments/mwqelv/remarkable_2_or_supernote_a_5_x_for_note_taking/
