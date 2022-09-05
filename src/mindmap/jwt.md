@@ -1,11 +1,12 @@
 - JSON Web Token
 - mean for safety passing claims
+  - in space contrained environments
   - claims are definitions or assertions about party or object
   - jwt standarizes claims
     - identity of a party
-    - sub for subproject
-- token can be signed and encrypted
-- uses
+    - sub for subject
+- token can be signed (integrity protection) and encrypted
+- uses of jwt
   - authentication
   - authorization
   - federated identity
