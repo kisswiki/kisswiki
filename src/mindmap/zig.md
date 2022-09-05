@@ -385,3 +385,5 @@
     - ComptimeStringMap
 - wasm
   - https://wasm4.org/blog/jam-2-results/
+- stm32
+  - https://www.kuon.ch/post/2022-09-04-stm32-crc/
