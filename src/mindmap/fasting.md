@@ -1,0 +1,2 @@
+- ingesting food increases the firing rate of certain neurons in the brain
+  - People claim that fasting helps them achieve mental clarity & focus better. However, ingesting food increases the firing rates of certain neurons in the brain. I explain why fed OR fasted both increase mental focus on the Huberman Lab Podcast “Toolkit for Focus” out tomorrow. https://twitter.com/hubermanlab/status/1566638601735065600
