@@ -13,3 +13,6 @@
       }
       ```
       - https://stackoverflow.com/questions/17072605/break-for-loop-from-inside-of-switch-case-in-javascript/17072675#17072675
+- sort
+  - if array elements is less than 10 than insertion sort, else quick sort
+    - https://towardsdev.com/the-cost-of-array-sort-in-javascript-fabfeb5ff137

@@ -90,3 +90,9 @@ OpenGL might achieve comparable performance to Vulkan, in draw calls per second,
 - Future extensions such as `NV_command_list` (see [Tristan Lorach's Siggraph Asia 2014 presentation](http://www.slideshare.net/tlorach/opengl-nvidia-commandlistapproaching-zerodriveroverhead))) are likely to provide to OpenGL the same "GPU feeding paradigm" as Vulkan.
 
 https://gamedev.stackexchange.com/questions/96014/what-is-vulkan-and-how-does-it-differ-from-opengl/96125#96125
+
+##
+
+Polecam przemyśleć, czy chcesz przepisywać na Vulkan API, ponieważ ja szczerze mówiąc polecam Ci DirectX 12. Jest to też niskopoziomowe API, które pozwala na dostęp do tych samych rzeczy w GPU, a jest o klasę wygodniejsze pod każdym względem.
+
+https://www.wykop.pl/link/6749185/#comment-108213251
