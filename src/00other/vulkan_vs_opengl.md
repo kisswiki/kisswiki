@@ -95,4 +95,9 @@ https://gamedev.stackexchange.com/questions/96014/what-is-vulkan-and-how-does-it
 
 Polecam przemyśleć, czy chcesz przepisywać na Vulkan API, ponieważ ja szczerze mówiąc polecam Ci DirectX 12. Jest to też niskopoziomowe API, które pozwala na dostęp do tych samych rzeczy w GPU, a jest o klasę wygodniejsze pod każdym względem.
 
+Vulkan z założenia działa wszędzie, w praktyce bywa z tym różnie, bo nawet na tym samym systemie operacyjnym jesteś w stanie napisać poprawny kod, który działa na AMD a wywala się na Nvidii.
+
+@Henrar:
+Potwierdzam. Sterowniki kart graficznych od różnych firm dość luźnie podchodzą do specyfikacji Vulkana. Często jedna karta rzuci błędem z warstwy walidacji, a druga nie. Także Vulkan API nie jest taki idealny i często kod może działać, ale nie wszędzie.
+
 https://www.wykop.pl/link/6749185/#comment-108213251
