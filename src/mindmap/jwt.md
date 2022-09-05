@@ -14,8 +14,25 @@
       - signature
   - encrypted
 - uses of jwt
-  - authentication
-  - authorization
+  - auth
+    - authentication
+    - authorization
   - federated identity
-  - client-side sessions ("stateless" sessions) - just means client-side data
-  - client-side secrets
+  - client-side
+    - sessions ("stateless" sessions) - just means client-side data
+      - security
+        - signature stripping
+          - server must only accept signed
+        - Cross-Site Request Forgery (CSRF)
+          - only possible if JWT send stored as cookie
+          - `<img src="http://target-site.com/add-user?user=name&grant=admin">`
+            - cookie will be sent
+          - mitigations
+            - short-liveds JWTs
+            - special headers
+              - added to requests only when they are performed from the right origin
+            - per session cookies
+            - per request cookies
+      - is added bandwidth overthrow reduced latency in the backend?
+      - One particular advantage of JWTs is that servers are no longer responsible for maintaining access to a common database of credentials, as only the issuing authority need validate an initial sign-in. There is no need to maintain a session store when using JWTs. The issued token (think of it as an access card) can therefore be used within any domain (or server) that recognizes and accepts it. In terms of performance, the cost of a request is now the cost of decrypting a hash versus the cost of making a database call to validate credentials. We also avoid the problems one can face using cookies on mobile devices, cross-domain issues (cookies are domain-bound), certain types of request forgery attacks, and so on. - Mastering Node.js 2nd edition - Sandro Pasquali
+    - secrets
