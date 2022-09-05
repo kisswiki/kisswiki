@@ -6,3 +6,6 @@
   - If you want clean IPs for self-hosting a mail server, you can use a service we created called Hoppy Network:
     https://hoppy.network
     - I also just found out about a service called Tailscale
+- https://twitter.com/cfenollosa/status/1566484145446027265
+  - https://news.ycombinator.com/item?id=32715437
+- https://news.ycombinator.com/item?id=32720234
