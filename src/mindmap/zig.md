@@ -383,3 +383,5 @@
       - allocPrint()
         - var e = try std.fmt.allocPrint(std.heap.page_allocator, "{s}={s}", { "one", "2" });
     - ComptimeStringMap
+- wasm
+  - https://wasm4.org/blog/jam-2-results/
