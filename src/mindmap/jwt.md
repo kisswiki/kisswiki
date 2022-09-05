@@ -1,0 +1,13 @@
+- JSON Web Token
+- mean for safety passing claims
+  - claims are definitions or assertions about party or object
+  - jwt standarizes claims
+    - identity of a party
+    - sub for subproject
+- token can be signed and encrypted
+- uses
+  - authentication
+  - authorization
+  - federated identity
+  - client-side sessions ("stateless" sessions)
+  - client-side secrets
