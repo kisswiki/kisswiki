@@ -5,10 +5,17 @@
   - jwt standarizes claims
     - identity of a party
     - sub for subject
-- token can be signed (integrity protection) and encrypted
+      - mostly used for identification
+- crypto
+  - signed (integrity protection)
+    - three parts encoded separately
+      - header
+      - payload
+      - signature
+  - encrypted
 - uses of jwt
   - authentication
   - authorization
   - federated identity
-  - client-side sessions ("stateless" sessions)
+  - client-side sessions ("stateless" sessions) - just means client-side data
   - client-side secrets
