@@ -1,0 +1,3 @@
+- 10 saltRounds
+  - `node -e 'const bcrypt = require("bcryptjs"); bcrypt.hash("letmein", 10, (err, hash) => { console.log(hash); })'`
+    - from Node Cookbook - Bethany Griggs, page 288
