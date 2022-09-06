@@ -1,0 +1,6 @@
+- https://devdocs.io/
+- https://formulae.brew.sh/cask/dash
+  - 30 days trial
+  - full text search
+- https://zealdocs.org/
+  - no macos
