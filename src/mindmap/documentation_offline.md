@@ -1,3 +1,4 @@
+- https://alternativeto.net/software/dashexpander/
 - https://devdocs.io/
 - https://formulae.brew.sh/cask/dash
   - 30 days trial
