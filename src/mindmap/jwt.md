@@ -10,7 +10,7 @@
   - signed (integrity protection)
     - three parts encoded separately
       - header
-      - payload
+      - payload (claims)
       - signature
   - encrypted
 - uses of jwt
