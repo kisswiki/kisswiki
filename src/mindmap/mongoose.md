@@ -14,3 +14,5 @@
     const Geolocation = require("./model/geolocation");
     const geolocation = await Geolocation.create({ url_or_ip, data });
     ```
+
+    - https://devdocs.io/mongoose/models
