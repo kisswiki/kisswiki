@@ -1,0 +1,2 @@
+- plugins
+  - https://obsproject.com/kb/obs-studio-28-plugin-compatibility
