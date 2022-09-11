@@ -1,0 +1,4 @@
+- routing
+  - route params
+    - `app.get('/staff/:name', (req, res, next) => { console.log(req.params.name); });`
+      - Web Development with Node and Express - Ethan Brown, page 282
