@@ -37,6 +37,8 @@
     ```shell
     # fatal: '/storage/shared/calibre-library' does not appear to be a git repository
     # solution is to add ~
+    # this gave no clue `ssh localhost -p 9022 ls -l`
+    # https://serverfault.com/questions/242176/is-there-a-way-to-do-a-remote-ls-much-like-scp-does-a-remote-copy/242178#242178
     % git remote add android ssh://localhost:8022/~/storage/shared/.gitrepos/calibre
     % git push android
     ```
