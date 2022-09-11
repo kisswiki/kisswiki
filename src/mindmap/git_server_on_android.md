@@ -21,7 +21,7 @@
     - set "USB computer connection" to "Camera (PTP)" https://stackoverflow.com/questions/23081263/adb-android-device-unauthorized/26665521#26665521
   - port forwarding
     - `adb forward tcp:8022 tcp:8022`
-  - on android
+  - git
 
     ```shell
     % sh localhost -p 8022
@@ -35,6 +35,8 @@
     on host
 
     ```shell
+    # I was getting `fatal: '/storage/shared/calibre-library' does not appear to be a git repository`
+    # without ~
     % git remote add android ssh://localhost:8022/~/storage/shared/.gitrepos/calibre
     % git push android
     ```
