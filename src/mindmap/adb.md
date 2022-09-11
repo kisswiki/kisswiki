@@ -1,2 +1,0 @@
-- `adb devices`: unauthorized
-  - setting "USB computer connection" to "Camera (PTP)" https://stackoverflow.com/questions/23081263/adb-android-device-unauthorized/26665521#26665521
