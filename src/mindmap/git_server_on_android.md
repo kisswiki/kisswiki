@@ -21,18 +21,28 @@
     - set "USB computer connection" to "Camera (PTP)" https://stackoverflow.com/questions/23081263/adb-android-device-unauthorized/26665521#26665521
   - port forwarding
     - `adb forward tcp:8022 tcp:8022`
-  - ```shell
-    sh localhost -p 8022
-    mkdir ~/shared/calibre-library
-    cd ~/shared/calibre-library
-    git init
+  - on android
+
+    ```shell
+    % sh localhost -p 8022
+    % mkdir ~/shared/calibre-library
+    % cd ~/shared/calibre-library
+    calibre-library % git init
+    # remote: error: By default, updating the current branch in a non-bare repository is denied
+    calibre-library % git config receive.denyCurrentBranch ignore
     ```
 
     on host
 
     ```shell
-    git remote add android ssh://localhost:8022/~/storage/shared/.gitrepos/calibre
-    git push android
+    % git remote add android ssh://localhost:8022/~/storage/shared/.gitrepos/calibre
+    % git push android
+    ```
+
+    on android
+
+    ```shell
+    calibre-library % git checkout # or restore?
     ```
 
     - https://stackoverflow.com/questions/10391522/git-does-not-appear-to-be-a-git-repository/70400751#70400751
