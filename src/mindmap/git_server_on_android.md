@@ -35,8 +35,8 @@
     on host
 
     ```shell
-    # I was getting `fatal: '/storage/shared/calibre-library' does not appear to be a git repository`
-    # without ~
+    # fatal: '/storage/shared/calibre-library' does not appear to be a git repository
+    # solution is to add ~
     % git remote add android ssh://localhost:8022/~/storage/shared/.gitrepos/calibre
     % git push android
     ```
