@@ -6,6 +6,9 @@ If the sync gets worse (gets more and more ahead or behind) as the playback prog
 
 https://superuser.com/questions/153143/how-to-perfectly-synchronize-subtitles-with-movie
 
+- [kaegi/alass: "Automatic Language-Agnostic Subtitle Synchronization"](https://github.com/kaegi/alass)
+- https://openai.com/blog/whisper/
+
 ## edit timing
 
 - https://www.videohelp.com/software/Subtitle-Edit
@@ -49,7 +52,7 @@ or specify track type like `a1`:
 
 Remove forced flag and reorder:
 
-`mkvpropedit -v movie.mkv -v --edit track:2 --set track-number=3 --edit track:3 --set track-number=2  --set flag-forced=0`
+`mkvpropedit -v movie.mkv -v --edit track:2 --set track-number=3 --edit track:3 --set track-number=2 --set flag-forced=0`
 
 - list of options `mkvpropedit.exe -l`
 - https://mkvtoolnix.download/doc/mkvpropedit.html
@@ -74,7 +77,7 @@ Remove forced flag and reorder:
 
 ## How to download for specific hash from napiprojekt without installing napi?
 
-For example [list of subtitles](https://www.napiprojekt.pl/napisy1,1,1-dla-54910-Green-Book-(2018)), but can be downloaded with windows program napiprojekt.
+For example [list of subtitles](<https://www.napiprojekt.pl/napisy1,1,1-dla-54910-Green-Book-(2018)>), but can be downloaded with windows program napiprojekt.
 
 There is `_download_getSubtitlesForHashes` https://gitlab.com/hesperos/napi/blob/master/actions/libnapi_download.sh
 
@@ -182,7 +185,6 @@ https://github.com/QNapi/qnapi/issues/151
 Change `qnapi.desktop` so it has `Exec=qnapi %U`
 
 - https://github.com/QNapi/qnapi/issues/160
-
 
 ## Links
 
