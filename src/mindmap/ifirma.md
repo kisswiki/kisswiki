@@ -1,0 +1,4 @@
+- seria numeracji faktur
+  - https://pomoc.ifirma.pl/pomoc-artykul/seria-numeracji-faktur-sprzedazy/
+- GTU
+  - https://www.ifirma.pl/blog/poradnik-przedsiebiorcy/prowadzenie-biznesu/programista-kody-gtu.html
