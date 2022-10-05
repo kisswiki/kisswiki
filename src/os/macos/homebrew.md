@@ -76,12 +76,19 @@ https://apple.stackexchange.com/questions/33354/how-to-know-what-packages-are-av
 
 https://stackoverflow.com/questions/19010784/list-all-files-in-a-homebrew-package
 
-## list installed packages
+## list packages installed manually
 
 ```shell
-brew leaves
-brew ls --versions $( brew leaves )
+brew ls --versions $( {brew leaves --installed-on-request & brew list --cask -1;} | sort | uniq )
 ```
+
+Also to see which packages are installed by both cask and not cask
+
+```shell
+{brew leaves --installed-on-request & brew list --cask -1;} | sort | uniq -d
+```
+
+- https://apple.stackexchange.com/questions/101090/list-of-all-packages-installed-using-homebrew/448627#448627
 
 or if you need handling of optional/recommended dependencies:
 
