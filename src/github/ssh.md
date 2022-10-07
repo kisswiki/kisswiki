@@ -10,6 +10,30 @@ For Windows: [Set the HOME environment variable](http://stackoverflow.com/questi
 
 - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+For multiple accounts
+
+`ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/id_ed25519_company`
+
+in ~/.ssh/config (needs to have correct privilieges):
+
+```
+# Personal account
+Host github.com
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_ed25519
+
+# Company account
+Host github.com2
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_ed25519_outlook
+```
+
+test with `ssh -T git@github.com2`
+
+https://stackoverflow.com/questions/2419566/best-way-to-use-multiple-ssh-private-keys-on-one-client/38454037#38454037
+
 ## Add key to github
 
 Copy to clipboard with one of below methods an then add it to https://github.com/settings/keys.
