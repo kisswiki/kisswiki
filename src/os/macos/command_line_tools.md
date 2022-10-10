@@ -11,6 +11,8 @@ sudo rm -rf /Library/Developer/CommandLineTools
 sudo xcode-select --install
 ```
 
+`xcodebuild -runFirstLaunch` maybe needed.
+
 Alternatively, manually download them from:
 
 https://developer.apple.com/download/all/.
