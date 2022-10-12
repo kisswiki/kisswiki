@@ -2,6 +2,9 @@
 - https://wiki.nikiv.dev/text-editors/
 - https://github.com/paulsmith/texteditor-zig
 - https://github.com/jamii/focus
+  - https://web.archive.org/web/20220314192641/https://www.scattered-thoughts.net/writing/focus-intro/
+  - https://www.scattered-thoughts.net/writing/focus-rendering/
+  - https://www.scattered-thoughts.net/writing/focus-text/
 - https://www.youtube.com/watch?v=XCvM_xRtWBg&list=PLp9tIOjPeMvtwQej_NhbC1k9NHWxDSpzx
   - https://github.com/greenfork/kisa
 - http://www.finseth.com/craft/
