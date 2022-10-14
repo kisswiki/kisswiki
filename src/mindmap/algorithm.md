@@ -1,2 +1,2 @@
-- fibnacci without recursion
+- fibonacci without recursion
   - https://github.com/mateusz-szczyrzyca/gocracow3/tree/master/fibonacci
