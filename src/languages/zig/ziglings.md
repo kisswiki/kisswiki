@@ -25,3 +25,7 @@ Also `ctrl+shift+p > Tasks: Manage Automatic Tasks in Folder > Allow...`
 ```
 
 - https://dev.to/robole/how-to-run-webpack-automatically-in-vs-code-when-you-open-a-project-1c19
+
+to update zig
+
+`~/personal_projects/zig/zig-utils/scripts/zupd aarch64-macos`
