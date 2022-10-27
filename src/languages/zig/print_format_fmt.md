@@ -1,7 +1,12 @@
-- https://ziglang.org/documentation/master/std/#std;fmt.format
+- https://ziglang.org/documentation/master/std/#root;fmt.format
 - https://github.com/ziglang/zig/blob/master/lib/std/fmt.zig
 - https://zig.news/kristoff/where-is-print-in-zig-57e9
 - 2s complement is not represented as how the memory actually looks [overhaul std.fmt formatting api · Issue #1358 · ziglang/zig](https://github.com/ziglang/zig/issues/1358#issuecomment-991884315)
+- https://stackoverflow.com/questions/68552110/zig-print-float-precision
+
+## print float
+
+`format(w, "{d:.1}", .{0.05}) == "0.1"`
 
 ## How to print array?
 
