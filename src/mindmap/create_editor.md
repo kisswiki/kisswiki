@@ -5,6 +5,9 @@
   - https://web.archive.org/web/20220314192641/https://www.scattered-thoughts.net/writing/focus-intro/
   - https://www.scattered-thoughts.net/writing/focus-rendering/
   - https://www.scattered-thoughts.net/writing/focus-text/
-- https://www.youtube.com/watch?v=XCvM_xRtWBg&list=PLp9tIOjPeMvtwQej_NhbC1k9NHWxDSpzx
-  - https://github.com/greenfork/kisa
+- - [Text Editor in ⚡ Zig ⚡: The Beginning [#1] - YouTube](https://www.youtube.com/watch?v=XCvM_xRtWBg&list=PLp9tIOjPeMvtwQej_NhbC1k9NHWxDSpzx)
+  - Text editor of the new world https://github.com/greenfork/kisa
 - http://www.finseth.com/craft/
+- The Zig text editor (not maintained) https://github.com/Hejsil/zte
+- make your own text editor (in Zig) https://github.com/paulsmith/texteditor-zig
+- https://www.reddit.com/r/Zig/comments/ufhdx5/introducing_zeal_closedsource_zig_ide_written_in/
