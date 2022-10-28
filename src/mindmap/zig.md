@@ -388,3 +388,6 @@
   - https://wasm4.org/blog/jam-2-results/
 - stm32
   - https://www.kuon.ch/post/2022-09-04-stm32-crc/
+- http
+  - https://github.com/Luukdegram/apple_pie
+  - https://www.reddit.com/r/Zig/comments/xupw9d/i_want_to_run_simple_http_server_that_i_also_know/

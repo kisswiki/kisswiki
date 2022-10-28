@@ -1,4 +1,5 @@
 - https://github.com/nrdmn/awesome-zig
+- https://github.com/C-BJ/awesome-zig
 
 ## Learn
 
