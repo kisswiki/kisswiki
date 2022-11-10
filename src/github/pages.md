@@ -2,6 +2,8 @@
 
 1. in admin page of example.com add for entries with IPs with A record. I.e. go to https://porkbun.com/account/domains > your domain > Details > DNS RECORDS > Edit
 
+> On the Manage DNS Records screen, scroll down and locate any ALIAS or CNAME records that are currently pointing at the wrong web server. Click the trash can icons to the right of the bad records to remove them. https://kb.porkbun.com/article/54-how-to-use-a-records-to-point-your-domain-at-a-web-host
+
 - Type A
 - Answer: 185.199.108.153
 - Add
