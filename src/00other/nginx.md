@@ -96,7 +96,7 @@ Setting up a proxy in your browser so that Netflix doesn't know what country you
 
 A reverse proxy is also known as "Load Balancer" and acts on the server-side (distribute load to different servers), while a forward proxy supports the client side.
 
-![](./1914_fwdrevproxy)
+![](./1914_fwdrevproxy.png)
 
 https://stackoverflow.com/questions/224664/whats-the-difference-between-a-proxy-server-and-a-reverse-proxy-server/39241016#39241016
 
