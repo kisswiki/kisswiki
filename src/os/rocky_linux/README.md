@@ -42,3 +42,7 @@ Remarks
 - local registry wasn't corrupt `rm -rf ~/.cargo/registry` https://blog.illixion.com/2021/10/fix-failed-to-select-a-version-cargo/
 - didn't help `cargo install --locked fd-find` https://github.com/rust-lang/cargo/issues/9091#issuecomment-763858781
 - this helped: You probably need to update your rust version to 1.60 or higher. https://www.reddit.com/r/rust/comments/whzy5g/comment/ij9gs04/
+
+## dnf
+
+- https://unix.stackexchange.com/questions/4705/which-fedora-package-does-a-specific-file-belong-to

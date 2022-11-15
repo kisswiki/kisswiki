@@ -1,14 +1,27 @@
+- certbot advices to use it from snap or docker, but the one in rocky linux repo works ok.
+  - https://eff-certbot.readthedocs.io/en/stable/install.html
+  - https://repology.org/project/certbot/information
+
 ## nginx
 
 - https://eff-certbot.readthedocs.io/en/stable/using.html#nginx
+- https://certbot.eff.org/instructions?ws=nginx&os=fedora
+- https://github.com/certbot/certbot/blob/21ef8e4332b41a7dd87ac83e548620cefe794d68/certbot/docs/using.rst#nginx
+
+certbot's nginx plugin, when it needs to do a ACME challenge via http, will modify nginx's configuration. The config parser they wrote is capable of reverting the challenge configuration, as it is cleaned up you won't see it persist.
+
+- https://serverfault.com/questions/1102493/operation-of-certbot-and-nginx/1102508#1102508
+- https://github.com/certbot/certbot/blob/21ef8e4332b41a7dd87ac83e548620cefe794d68/certbot/certbot/reverter.py#L72
 
 ## hooks
 
 renewal-hook superseded by deploy-hook
 
-systemd reload-or-restart
+`systemd try-reload-or-restart nginx` - it restarts if no reload is available for the service and does not even do that if the service is disabled. https://blog.arnonerba.com/2019/01/lets-encrypt-how-to-automatically-restart-nginx-with-certbot#comment-769
 
-## certbot starts nginx that cannot be kiled
+## certbot starts nginx that cannot be killed
+
+- https://eff-certbot.readthedocs.io/en/stable/using.html#renewing-certificates
 
 `systemctl status nginx.service` showed failed.
 
@@ -34,6 +47,7 @@ Eventually I have restarted machine.
   - if the webroot plugin is working well for you, that's great and you should keep using it! We certainly recommend Nginx users use our Nginx plugin though. On top of automating certificate installation and Nginx reloads for you, we're able to configure your server to use sane ciphersuites, HTTP->HTTPS redirects, OCSP stapling, HSTS, etc. If you have time to share any suggestions for how we can make the Nginx plugin work better for you and others, please open an issue! https://github.com/certbot/certbot/issues/5486#issuecomment-417002271
   - In my case starting nginx directly causes additional issues or does not work at all. I have had all the services go down due to renewal not being able to properly start up nginx again. There is a posthook that tries to start nginx through systemctl, however by that time there is a rogue process already started and fails due to that. Its not clear to me how the 'rogue process' is started, but for example it does not write pid file in --dry-run, so that nginx -s stop has no effect either and it is apparently either crashing soon after or failing to server files. https://github.com/certbot/certbot/issues/5486#issuecomment-426606285
   - While we should try and find a way to fix this, the best way to work around the problem is to not use Certbot's standalone plugin and use the webroot or nginx plugin instead if possible. With these approaches, no hooks are needed to start/stop nginx. https://github.com/certbot/certbot/issues/5486#issuecomment-476307444
+- https://stackoverflow.com/questions/74007149/nginx-failed-to-restart-process
 
 A conflict with nginx can result using the nginx plug-in as after it makes the temp changes to your nginx conf it reloads it using SIGHUP. That's fine but if that fails it will start nginx but not using systemd. This creates an nginx that cannot be managed by systemd and the two nginx fight each other for ports leading to the symptom you saw.
 
