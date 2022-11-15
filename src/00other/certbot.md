@@ -2,6 +2,9 @@
   - https://eff-certbot.readthedocs.io/en/stable/install.html
   - https://repology.org/project/certbot/information
 - https://letsencrypt.org/docs/allow-port-80/
+- https://wiki.archlinux.org/title/certbot
+- https://serverfault.com/questions/768509/lets-encrypt-with-an-nginx-reverse-proxy
+- https://serverfault.com/questions/938419/nginx-as-reverse-proxy-with-several-domains-hosts
 
 ## nginx
 
@@ -67,6 +70,24 @@ reload nginx on remote hosts
 An ssh key in authorized_keys can also restrict which commands a user authenticated through that key is allowed to run
 
 https://community.letsencrypt.org/t/will-lets-encrypt-work-for-me-multiple-servers-serving-one-domain/6830/20
+
+## webroot and restart
+
+> you’d prefer not to stop the webserver during the certificate issuance process, you can use the webroot plugin to obtain a cert by including certonly and --webroot on the command line
+
+Does it mean the apache plugin will restart webserver?
+
+That’s indeed slightly confusing given its position right after the apache plugin description. It’s actually a reference to the standalone plugin, which works by binding to port 80 or 443 - meaning you would have to stop any existing web server listening on that port during renewal. Webroot would use your existing web server to serve the challenge files, so no restart needed.
+
+The apache plugin itself doesn’t stop apache, but it reloads the configuration multiple times. Apache does this gracefully, basically starting a new process that handles new connections, while the old process is kept around until all existing connections are drained. This doesn’t involve any downtime. If the new configuration is somehow broken, certbot performs a rollback.
+
+https://community.letsencrypt.org/t/is-server-restart-needed-when-obtaining-certs-using-certbot-and-apache-module/17267/2
+
+## force-renewal
+
+`certbot renew --force-renewal`
+
+limit of 5 per week
 
 ## certbot starts nginx that cannot be killed
 
