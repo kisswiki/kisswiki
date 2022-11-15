@@ -1,0 +1,1 @@
+- https://blog.devgenius.io/does-the-gitops-emperor-have-no-clothes-ab1762a77096
