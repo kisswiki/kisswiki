@@ -90,6 +90,15 @@ server {
 - https://serverfault.com/questions/730883/nginx-reverse-proxy-gzip-to-client
 - https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-22-04
   - https://stackoverflow.com/questions/42589781/django-nginx-emerg-open-etc-nginx-proxy-params-failed-2-no-such-file/42591098#42591098
+- https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+
+Setting up a proxy in your browser so that Netflix doesn't know what country you're in is a forward proxy; an upstream service that directs an incoming request (perhaps you want to send one request to two servers) is a reverse proxy
+
+A reverse proxy is also known as "Load Balancer" and acts on the server-side (distribute load to different servers), while a forward proxy supports the client side.
+
+![](./1914_fwdrevproxy)
+
+https://stackoverflow.com/questions/224664/whats-the-difference-between-a-proxy-server-and-a-reverse-proxy-server/39241016#39241016
 
 ## static content
 
