@@ -1,0 +1,46 @@
+## nginx
+
+- https://eff-certbot.readthedocs.io/en/stable/using.html#nginx
+
+## hooks
+
+renewal-hook superseded by deploy-hook
+
+systemd reload-or-restart
+
+## certbot starts nginx that cannot be kiled
+
+`systemctl status nginx.service` showed failed.
+
+After getting nginx pid with `ss -tulnap` and killing with `kill -9 <pid>`, nginx process was restarted.
+
+`nginx -s stop` didn't work - "[certbot] does not write pid file in --dry-run".
+
+Eventually I have restarted machine.
+
+`certbot renew --dry-run` should reproduce error
+
+- [Certbot starts nginx after renew and bypasses systemd · Issue #5486 · certbot/certbot](https://github.com/certbot/certbot/issues/5486)
+- [Nginx Certbot installer spawns rogue process, causing cert renewals to fail · Issue #160 · datamade/how-to](https://github.com/datamade/how-to/issues/160)
+  - workaround cron job without nginx plugin using certonly certbot method https://github.com/certbot/certbot/issues/5486#issuecomment-362884553
+  - Running the renew command with --installer none works as well as a workaround
+    - `sudo certbot renew --installer none --pre-hook "service nginx stop" --post-hook "service nginx start`
+    - https://github.com/certbot/certbot/issues/5486#issuecomment-363338838
+  - ATTENTION! possible explanation https://github.com/certbot/certbot/issues/5486#issuecomment-363970559
+    - The main problem here occurs if Certbot's Nginx plugin has to start Nginx and you later try to stop/start Nginx with systemctl. Nginx is stopped using the value ExecStop which isn't run if the service wasn't started with ExecStart as described here.
+  - I eventually used getssl to get a new certificate https://github.com/certbot/certbot/issues/5486#issuecomment-375300746
+    - https://github.com/srvrco/getssl
+  - We switched to a combination of certbot timer for renewal, renewal-hook deploy to reload nginx and --webroot for not having to start and stop nginx instances https://github.com/certbot/certbot/issues/5486#issuecomment-408064621
+  - if the webroot plugin is working well for you, that's great and you should keep using it! We certainly recommend Nginx users use our Nginx plugin though. On top of automating certificate installation and Nginx reloads for you, we're able to configure your server to use sane ciphersuites, HTTP->HTTPS redirects, OCSP stapling, HSTS, etc. If you have time to share any suggestions for how we can make the Nginx plugin work better for you and others, please open an issue! https://github.com/certbot/certbot/issues/5486#issuecomment-417002271
+  - In my case starting nginx directly causes additional issues or does not work at all. I have had all the services go down due to renewal not being able to properly start up nginx again. There is a posthook that tries to start nginx through systemctl, however by that time there is a rogue process already started and fails due to that. Its not clear to me how the 'rogue process' is started, but for example it does not write pid file in --dry-run, so that nginx -s stop has no effect either and it is apparently either crashing soon after or failing to server files. https://github.com/certbot/certbot/issues/5486#issuecomment-426606285
+  - While we should try and find a way to fix this, the best way to work around the problem is to not use Certbot's standalone plugin and use the webroot or nginx plugin instead if possible. With these approaches, no hooks are needed to start/stop nginx. https://github.com/certbot/certbot/issues/5486#issuecomment-476307444
+
+A conflict with nginx can result using the nginx plug-in as after it makes the temp changes to your nginx conf it reloads it using SIGHUP. That's fine but if that fails it will start nginx but not using systemd. This creates an nginx that cannot be managed by systemd and the two nginx fight each other for ports leading to the symptom you saw.
+
+Now, various things can cause the SIGHUP to fail. A common one is not having nginx running before doing the renew. Of course then the sighup will fail. You said nginx was running so likely not your cause.
+
+I mention perl only because that explained the SEGV that the nginx sighup was failing with in the thread I linked to. We would have to dig through your system logs like we did in this linked thread. But, it would be a quick test if you had perl just to disable it.
+
+A work-around is to use webroot as that avoids the nginx plug-in altogether. Webroot uses your running nginx as it is.
+
+https://community.letsencrypt.org/t/auto-renewal-nginx-pid-disappears-nginx-doest-restart/179794/8
