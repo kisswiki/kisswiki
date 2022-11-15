@@ -85,9 +85,11 @@ server {
 
 - config to allow CORS (cross-site) uploads to Amazon S3, with added config e.g. timeouts & security https://gist.github.com/zefer/833647
 
-## Another forward proxy with gzip
+## reverse proxy
 
-https://serverfault.com/questions/730883/nginx-reverse-proxy-gzip-to-client
+- https://serverfault.com/questions/730883/nginx-reverse-proxy-gzip-to-client
+- https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-22-04
+  - https://stackoverflow.com/questions/42589781/django-nginx-emerg-open-etc-nginx-proxy-params-failed-2-no-such-file/42591098#42591098
 
 ## static content
 
@@ -246,21 +248,22 @@ $ curl -s http://localhost:8080/App.js | file -
 
 ### try_files and ungzipped files need to be present
 
-
->try_files is not aware of gzip_static; but nginx will still
->honour it if both the non-gz and .gz files exist. This differs from
->the "normal" gzip_static handling which will serve the .gz version if
->appropriate, whether or not non-gz exists.
->- http://mailman.nginx.org/pipermail/nginx/2012-June/034102.html
+> try_files is not aware of gzip_static; but nginx will still
+> honour it if both the non-gz and .gz files exist. This differs from
+> the "normal" gzip_static handling which will serve the .gz version if
+> appropriate, whether or not non-gz exists.
+>
+> - http://mailman.nginx.org/pipermail/nginx/2012-June/034102.html
 
 - http://mailman.nginx.org/pipermail/nginx/2017-July/054394.html
   - http://mailman.nginx.org/pipermail/nginx/2017-July/054355.html
 - https://serverfault.com/questions/571733/nginx-gzip-static-why-are-the-non-compressed-files-required/965094#965094
 - https://stackoverflow.com/questions/11066258/nginx-with-try-files-and-gzip-static-serves-only-uncompressed/48504621#48504621
 
->It seems that try_files requires the original file to work there and is not affected by gzip_static always.
->That's because try_files $uri =404 requires the <root>$uri file to exist.
->- https://trac.nginx.org/nginx/ticket/1570
+> It seems that try_files requires the original file to work there and is not affected by gzip_static always.
+> That's because try_files $uri =404 requires the <root>$uri file to exist.
+>
+> - https://trac.nginx.org/nginx/ticket/1570
 
 `nginx -V 2>&1 | grep "\-\-with\-http_gunzip_module"`
 
@@ -268,7 +271,7 @@ $ curl -s http://localhost:8080/App.js | file -
 
 ## default_server
 
->default server is the first one — which is nginx’s standard default behaviour. It can also be set explicitly which server should be default, with the default_server parameter in the listen directive
+> default server is the first one — which is nginx’s standard default behaviour. It can also be set explicitly which server should be default, with the default_server parameter in the listen directive
 
 - http://nginx.org/en/docs/http/request_processing.html
 - https://serverfault.com/questions/524813/nginx-default-server
@@ -285,7 +288,7 @@ sendfile(2) allows to transfer data from a file descriptor to another directly i
 
 Unfortunately, sendfile(2) requires a file descriptor that supports mmap(2) and friends, which excludes UNIX sockets, for example as a way to send data to a local Rails backend without all the network latency.
 
->The in_fd argument must correspond to a file which supports mmap(2)-like operations (i.e., it cannot be a socket).
+> The in_fd argument must correspond to a file which supports mmap(2)-like operations (i.e., it cannot be a socket).
 
 Depending on your needs, sendfile can be either totally useless or completely essential.
 
@@ -341,12 +344,12 @@ server {
   listen 80;
   server_name example.com;
   keepalive_timeout 65;
- 
+
   proxy_connect_timeout       600;
   proxy_send_timeout          600;
   proxy_read_timeout          600;
   send_timeout                600;
-  
+
   location / {
    proxy_set_header X-Forwarded-For $remote_addr;
    proxy_pass http://localhost:3000;
