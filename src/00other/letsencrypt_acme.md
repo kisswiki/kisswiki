@@ -2,6 +2,7 @@
 - standalone stops server, webroot does not, nginx plugin reloads server `systemd reload nginx`, so it is a graceful shutdown.
 - with nginx plugin, for every domain there will be nginx reload.
 - https://docs.rockylinux.org/guides/security/generating_ssl_keys_lets_encrypt/#using-certbot-with-nginx
+- https://certbot.eff.org/faq
 
 ## Challenge
 
@@ -9,4 +10,7 @@
 
 ## limits
 
-Renewals are treated specially: they don’t count against your Certificates per Registered Domain limit, but they are subject to a Duplicate Certificate limit of 5 per week https://www.cryptologie.net/article/274/lets-encrypt-overview/
+Renewals are treated specially: they don’t count against your Certificates per Registered Domain limit, but they are subject to a Duplicate Certificate limit of 5 per week
+
+- https://www.cryptologie.net/article/274/lets-encrypt-overview/
+  - https://certbot.eff.org/faq#will-certbot-issue-extended-validation-ev-certificates

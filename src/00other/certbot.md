@@ -1,6 +1,7 @@
 - certbot advices to use it from snap or docker, but the one in rocky linux repo works ok.
   - https://eff-certbot.readthedocs.io/en/stable/install.html
   - https://repology.org/project/certbot/information
+- https://letsencrypt.org/docs/allow-port-80/
 
 ## nginx
 
@@ -13,13 +14,65 @@ certbot's nginx plugin, when it needs to do a ACME challenge via http, will modi
 - https://serverfault.com/questions/1102493/operation-of-certbot-and-nginx/1102508#1102508
 - https://github.com/certbot/certbot/blob/21ef8e4332b41a7dd87ac83e548620cefe794d68/certbot/certbot/reverter.py#L72
 
-## hooks
+## renewal-hook superseded by deploy-hook
 
 renewal-hook superseded by deploy-hook
 
 `systemd try-reload-or-restart nginx` - it restarts if no reload is available for the service and does not even do that if the service is disabled. https://blog.arnonerba.com/2019/01/lets-encrypt-how-to-automatically-restart-nginx-with-certbot#comment-769
 
+## post hook vs deploy hook
+
+it’s not a restart, it’s a graceful reload. Traffic isn’t interrupted.
+
+To do it only once, you should use --post-hook rather than --deploy-hook.
+
+Even if you had 150 certificates all with --post-hook "systemctl reload apache2", it would only do it once, at the very end. It’s de-duplicating that way.
+
+You can also drop an executable script in /etc/letsencrypt/renewal-hooks/post with the same effect.
+
+https://community.letsencrypt.org/t/is-renew-hook-run-after-each-certificate-renewal-if-more-than-one-renewal/134104/2
+
+## sub.sub.domain
+
+https://community.letsencrypt.org/t/nginx-multiple-domains-multiple-certificates-wildcard-certificate/125672/2
+
+## rewnew and running 2 times a day
+
+The renew command is smart enough not to create useless load on the Let's Encrypt servers, so running it more frequently only impacts the machine running the command https://wiki.archlinux.org/title/Talk:Certbot
+
+## caddy
+
+CertMagic, a Go library I wrote (stating for disclosure purposes), supports coordinated certificate management across a cluster: https://github.com/mholt/certmagic/#behind-a-load-balancer-or-in-a-cluster 86
+
+Caddy, a web server I wrote (stating for disclosure purposes), uses CertMagic, so you can set up a fleet of Caddy instances behind a load balancer and they will automatically coordinate cert management as long as they’re configured with the same storage backend (e.g. same folder, or same database, or whatever): https://caddyserver.com/docs/automatic-https#storage
+
+https://community.letsencrypt.org/t/multiple-servers-what-are-all-the-options-and-requirements-to-get-it-working/112931/19
+
+## mutliple domains
+
+This is commonly solved by using a central validation server (e.g. acme-validate.example.com) and having all your web server instances redirect requests for /.well-known/acme-challenge/\* to this server (with a regular HTTP 301). The validation server could be running the client in standalone mode, and Let’s Encrypt will happily follow the redirect to that server.
+
+Another option is to use a DNS-based challenge with one of the alternative clients. Lego 88, for example, comes with a plugin (or provider, as they call it) for Route 53.
+
+https://community.letsencrypt.org/t/dual-nginx-dual-application-servers/16449/2
+
+copy certs to remote hosts
+
+`scp /path/to/privkey.pem root@host:/path/to/privkey.pem`
+
+reload nginx on remote hosts
+
+`ssh root@host service nginx reload`
+
+An ssh key in authorized_keys can also restrict which commands a user authenticated through that key is allowed to run
+
+https://community.letsencrypt.org/t/will-lets-encrypt-work-for-me-multiple-servers-serving-one-domain/6830/20
+
 ## certbot starts nginx that cannot be killed
+
+you aren't allowed to use two wildcards in a wildcard certificate. I.e., _._.example.com isn't allowed.
+
+This aren't Let's Encrypt rules, but the rules every CA has to adhere to, the CA/Browser Forum Baseline Requirements.
 
 - https://eff-certbot.readthedocs.io/en/stable/using.html#renewing-certificates
 
