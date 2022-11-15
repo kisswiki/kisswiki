@@ -46,3 +46,6 @@ Remarks
 ## dnf
 
 - https://unix.stackexchange.com/questions/4705/which-fedora-package-does-a-specific-file-belong-to
+- https://superuser.com/questions/294662/how-to-get-list-of-dependencies-of-non-installed-rpm-package/294666#294666
+  - `dnf repoquery --requires <package>`
+  - `dnf repoquery --requires --resolve <package>` to see which additional RPM packages are needed to satisfy the dependencies
