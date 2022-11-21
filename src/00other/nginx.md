@@ -100,6 +100,12 @@ A reverse proxy is also known as "Load Balancer" and acts on the server-side (di
 
 https://stackoverflow.com/questions/224664/whats-the-difference-between-a-proxy-server-and-a-reverse-proxy-server/39241016#39241016
 
+Proxy: It is making the request on behalf of the client.v
+
+Reverse Proxy: It is receiving the request on behalf of the server.
+
+https://stackoverflow.com/questions/224664/whats-the-difference-between-a-proxy-server-and-a-reverse-proxy-server/35523676#35523676
+
 ## static content
 
 Next, we will configure a virtual host `static.example.com` for serving static data.
