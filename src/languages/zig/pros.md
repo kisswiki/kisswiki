@@ -49,3 +49,9 @@ It manages to address all of C++'s biggest shortcomings, which, in my view, are 
 
 - https://news.ycombinator.com/item?id=24616672
   - https://twitter.com/MichalZiulek/status/1502983958233034753
+
+##
+
+As someone who knows C and not Zig, Zig is very interesting. It has incremental compilation, in-place binary patching, the ability to use code before declaration in a file, compile-time code execution, and extremely low compile times. Rust itself doesn't have most of those.
+
+https://news.ycombinator.com/item?id=26651603
