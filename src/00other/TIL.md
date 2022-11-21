@@ -1,3 +1,4 @@
 - [Falsehoods programmers believe about time, in a single list](https://gist.github.com/timvisee/fcda9bbdff88d45cc9061606b4b923ca)
 - `zig run --watch` and then `run` https://www.jakubkonka.com/2022/03/16/hcs-zig.html
 - github actions run when file with extension changes https://github.com/zigtools/zls/commit/0c3d5df58342bf8cfd15777dd318bd6a9a8152f7
+- bypass paywall https://github.com/iamadamdev/bypass-paywalls-chrome
