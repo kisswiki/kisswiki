@@ -1,0 +1,3 @@
+- paste unformatted
+  - Shift + Option + Command + V
+    - https://techcommunity.microsoft.com/t5/microsoft-teams/copy-formatted-text-and-paste-as-plain-text/m-p/1330332
