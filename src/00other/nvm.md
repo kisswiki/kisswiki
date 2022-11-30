@@ -1,3 +1,9 @@
+## list
+
+`nvm ls`
+
+`nvm ls-remote`
+
 ## install latest
 
 `nvm install node`
