@@ -6,7 +6,7 @@
   - http://williamdickersonfilmmaker.com/why-whiplash-won-an-oscar-for-best-editing/
   - https://www.reddit.com/r/movies/comments/2nn52y/those_whove_seen_whiplash_what_do_you_think_of/
   - http://www.vulture.com/2014/10/ask-an-expert-juilliard-professor-whiplash.html
-  - BUDDY RICH IMPOSSIBLE DRUM SOLO *HQ* https://youtu.be/9esWG6A6g-k
+  - BUDDY RICH IMPOSSIBLE DRUM SOLO _HQ_ https://youtu.be/9esWG6A6g-k
   - https://www.quora.com/Is-the-song-Whiplash-a-real-song
 - Defiance (2008)
   - http://www.wykop.pl/artykul/4802553/hollywoodzki-film-opor-falszuje-historie/
@@ -47,7 +47,7 @@ https://culturacolectiva.com/movies/six-buddhist-movies-that-explore-the-seasons
 - [ ] Groundhog Day (1993)
 - [ ] For the Benefit of All Beings (2011)
 - [ ] Brilliant Moon (2010)
-https://www.lionsroar.com/top-ten-buddhist-films/
+      https://www.lionsroar.com/top-ten-buddhist-films/
 
 ### Anime
 
@@ -99,3 +99,17 @@ https://www.lionsroar.com/top-ten-buddhist-films/
 - [ ] El Clan (2015)
 - [ ] Coffee and Cigarettes (2003)
 - [ ] El orfanato (2007)
+
+## Firefly TV 2002-2003
+
+So, here's how I figure the continuity actually goes for the last few episodes:
+
+11: Trash
+
+12: Heart of Gold
+
+13: Objects in Space
+
+14: The Message
+
+https://www.reddit.com/r/firefly/comments/2ohj99/comment/cmnkj4m/
