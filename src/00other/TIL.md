@@ -2,3 +2,4 @@
 - `zig run --watch` and then `run` https://www.jakubkonka.com/2022/03/16/hcs-zig.html
 - github actions run when file with extension changes https://github.com/zigtools/zls/commit/0c3d5df58342bf8cfd15777dd318bd6a9a8152f7
 - bypass paywall https://github.com/iamadamdev/bypass-paywalls-chrome
+- `npx commitgpt -c` https://github.com/RomanHotsiy/commitgpt
