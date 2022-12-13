@@ -193,3 +193,7 @@ I’m going to keep poking away at some toy Rust problems as a learning exercise
 PS: I’m no longer surprised at Rust’s slow compiles times, this type of “bulk impl for dozens of concrete types using macros” is a common pattern. The lines of code might look fine to a human, but the in-memory bloat must be hideous…
 
 https://users.rust-lang.org/t/rust-beginner-notes-questions/14928
+
+##
+
+- Theo - t3․gg [Don't Learn Rust - YouTube](https://www.youtube.com/watch?v=kOFWIvNowXo)
