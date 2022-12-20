@@ -89,7 +89,7 @@ $ md5sum monkey2.pak.patched
 
 - man page for xdelta1 https://github.com/jmacd/xdelta-gpl/blob/release3_1/xdelta1/README#L124
 
-7. Go back to host terminal
+7. Go back to macos terminal
 
 ```shell
 % docker cp eb9f00699182:/root/monkey2.pak.patched ~/Downloads/
