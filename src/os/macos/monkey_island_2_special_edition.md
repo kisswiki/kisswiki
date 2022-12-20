@@ -58,7 +58,7 @@ cd "$HOME/Applications/Monkey Island 2 SE.app"
 % find . -iname 'monkey2.pak'
 ./Contents/SharedSupport/prefix/drive_c/GOG Games/Monkey Island 2 SE/monkey2.pak
 % md5 "./Contents/SharedSupport/prefix/drive_c/GOG Games/Monkey Island 2 SE/monkey2.pak"
-MD5 (./Contents/SharedSupport/prefix/drive_c/GOG Games/Monkey Island 2 SE/monkey2.pak) = 8425a729f1a59ddd8f64f6c423a9ef9c
+MD5 (./Contents/SharedSupport/prefix/drive_c/GOG Games/Monkey Island 2 SE/monkey2.pak) = f3cddedea04512fcaf61468ff0b55274
 ```
 
 md5 sum is the same as in instruction on https://grajpopolsku.pl/forum/viewtopic.php?t=2473
