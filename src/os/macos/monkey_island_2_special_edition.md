@@ -54,7 +54,7 @@ In Finder there is bread crumb with path at the bottom. Right-click on last posi
 In terminal find the monkey2.pak and check it's md5 sum:
 
 ```shell
-cd "$HOME/Applications/Monkey Island 2 SE.app"
+% cd "$HOME/Applications/Monkey Island 2 SE.app"
 % find . -iname 'monkey2.pak'
 ./Contents/SharedSupport/prefix/drive_c/GOG Games/Monkey Island 2 SE/monkey2.pak
 % md5 "./Contents/SharedSupport/prefix/drive_c/GOG Games/Monkey Island 2 SE/monkey2.pak"
