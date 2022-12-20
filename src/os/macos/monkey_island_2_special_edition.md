@@ -33,7 +33,8 @@ https://forums.docker.com/t/run-x86-intel-and-arm-based-images-on-apple-silicon-
 
 ```shell
 % brew instal 7za
-% cd ~/Downloads
+% mkdir ~/Downloads/mi2temp
+% cd ~/Downloads/mi2temp
 % unzip misec_pl_user.zip
 % 7za x misec_pl_user_v1-4.7z
 % unzip misec_pl_user_v1-4.zip
@@ -63,14 +64,14 @@ MD5 (./Contents/SharedSupport/prefix/drive_c/GOG Games/Monkey Island 2 SE/monkey
 
 md5 sum is the same as in instruction on https://grajpopolsku.pl/forum/viewtopic.php?t=2473
 
-Now we will copy monkey2.pak and monkey2.pak.xdelta to alt linux running in docker.
+Now we will copy `monkey2.pak` and `monkey2.pak.xdelta` to alt linux running in docker.
 
 ```shell
 % docker ps
 CONTAINER ID   IMAGE     COMMAND   CREATED       STATUS       PORTS     NAMES
 eb9f00699182   alt       "bash"    2 hours ago   Up 2 hours             funny_noyce
 % docker cp "$HOME/Applications/Monkey Island 2 SE.app/Contents/SharedSupport/prefix/drive_c/GOG Games/Monkey Island 2 SE/monkey2.pak" eb9f00699182:/root/
-% docker cp ~/Downloads/misec_pl_user/diffs/mi2_2010_steam/pl1/monkey2.pak.xdelta eb9f00699182:/root/
+% docker cp ~/Downloads/mi2temp/misec_pl_user/diffs/mi2_2010_steam/pl1/monkey2.pak.xdelta eb9f00699182:/root/
 ```
 
 - https://stackoverflow.com/questions/22049212/docker-copying-files-from-docker-container-to-host
@@ -92,8 +93,9 @@ $ md5sum monkey2.pak.patched
 7. Go back to macos terminal
 
 ```shell
-% docker cp eb9f00699182:/root/monkey2.pak.patched ~/Downloads/
-% cp ~/Downloads/monkey2.pak.patched "$HOME/Applications/Monkey Island 2 SE.app/Contents/SharedSupport/prefix/drive_c/GOG Games/Monkey Island 2 SE/monkey2.pak"
+% docker cp eb9f00699182:/root/monkey2.pak.patched ~/Downloads/mi2temp/
+% cp ~/Downloads/mi2temp/monkey2.pak.patched "$HOME/Applications/Monkey Island 2 SE.app/Contents/SharedSupport/prefix/drive_c/GOG Games/Monkey Island 2 SE/monkey2.pak"
+% rm -rf ~/Downloads/mi2temp/
 ```
 
 8. Now we need to change language to French to make Polish translations work. Go `Porting Kit > right-click on "Monkey Island 2 SE" > Properties`. Change Target from `"C:\GOG Games\Monkey Island 2 SE\Monkey2.exe" ` to `C:\GOG Games\Monkey Island 2 SE\language_setup.exe`.
