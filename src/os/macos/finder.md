@@ -14,3 +14,20 @@ Works also in file picker dialogs.
 ## breadcrumbs
 
 `cmd+option+p`
+
+## script to convert video
+
+- `Automator > Quick Action`
+  - `Workflow receives current: files or folders`
+  - `in Finder.app`
+  - on the left search for `Run Shell Script` and drag-and-drop it to the right.
+
+The conent will be:
+
+```bash
+. $HOME/.zprofile
+video_for_whatsup.sh "$@"
+```
+
+- https://apple.stackexchange.com/questions/129929/automating-ffmpeg-using-automator-service/129931#129931
+- [Creating Custom Finder Quick Actions With Automator - YouTube](https://www.youtube.com/watch?v=0BEPkM_gkGU)

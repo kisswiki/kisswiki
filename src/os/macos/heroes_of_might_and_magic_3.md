@@ -10,6 +10,7 @@ Then install gog version
 
 - https://wiki.vcmi.eu/Installation_on_macOS
 - https://forum.linuxmint.pl/showthread.php?tid=1807
+- Android https://www.vcmi.acidcave.net/poradniki_instalacje.html
 
 ## Mods
 
