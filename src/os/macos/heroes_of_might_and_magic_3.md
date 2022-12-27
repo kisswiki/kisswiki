@@ -5,10 +5,11 @@
 Then install gog version
 
 ```shell
-% cp -r "$HOME/Applications/Heroes of Might and Magic 3.app/Contents/SharedSupport/prefix/drive_c/Program Files/GOG.com/Heroes of Might and Magic 3 Complete/{Data,Maps,Mp3}" "$HOME/Library/Application Support/vcmi/"
+% cp -r "$HOME/Applications/Heroes of Might and Magic 3.app/Contents/SharedSupport/prefix/drive_c/Program Files/GOG.com/Heroes of Might and Magic 3 Complete/{Data,Maps,Mp3,Games,random_maps}" "$HOME/Library/Application Support/vcmi/"
 ```
 
 - https://wiki.vcmi.eu/Installation_on_macOS
+- https://forum.linuxmint.pl/showthread.php?tid=1807
 
 ## Mods
 
