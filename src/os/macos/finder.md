@@ -19,7 +19,7 @@ Works also in file picker dialogs.
 
 - `Automator > Quick Action`
   - `Workflow receives current: files or folders`
-  - `in Finder.app`
+  - `in: Finder.app`
   - on the left search for `Run Shell Script` and drag-and-drop it to the right.
 
 The conent will be:
