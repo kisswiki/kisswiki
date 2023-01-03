@@ -10,3 +10,5 @@ szybciej porusza sie kamien spadajacy na ziemie pod wptywem
 grawitacji. -> opór powietrza ustala górną granicę prędkości.
 
 z piasku na skałę, z piasku na skałę -> z piasku na skałę, ze skały na piasek
+
+zawszesię odbija w naszej emocjonalności -> zawsze się odbija w naszej emocjonalności
