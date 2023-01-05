@@ -4,10 +4,43 @@
 
 ## DRM
 
-- DeDRM https://apprenticealf.wordpress.com/2012/09/10/drm-removal-tools-for-ebooks/
+- https://github.com/noDRM/DeDRM_tools/releases/tag/v10.0.3
 - http://www.geoffstratton.com/remove-drm-amazon-kindle-books
   - about fkx https://www.mobileread.com/forums/showthread.php?t=291290
 - https://askubuntu.com/questions/1017461/how-can-i-remove-the-drm-from-a-kindle-book
+
+### Invalid dylib load: libsystem_c.dylib
+
+` "asi" : {"libcrypto.dylib":["Invalid dylib load. Clients should not load the unversioned libcrypto dylib as it does not have a stable ABI."],"libsystem_c.dylib":["abort() called"]},`
+
+Install newer dedrm plugin
+
+- https://www.mobileread.com/forums/showthread.php?t=350063
+- https://developer.apple.com/forums/thread/119429
+
+### kfx-zip
+
+If you see a kfx-zip it almost certainly means that the DeDRM has failed. The whole kfx and Kindle-for-PC is a huge and constantly changing minefield. Look at the more recent posts in [this huge thread](https://github.com/noDRM/DeDRM_tools/issues/240) and maybe you'll see an answer.
+
+- https://www.reddit.com/r/Calibre/comments/q67ten/comment/hgadb3n/
+- https://www.mobileread.com/forums/showthread.php?t=283371&page=108
+- https://github.com/noDRM/DeDRM_tools/issues/240
+- https://github.com/noDRM/DeDRM_tools/issues/239
+- https://github.com/apprenticeharper/DeDRM_tools/issues/1406
+
+SOLVED:
+
+1. Install https://s3.amazonaws.com/kindleformac/60175/KindleForMac-1.31.60175.dmg
+   - more versions https://gist.github.com/marccarre/645fe68da31678f9191cd3aafecfea1b
+   - https://www.mobileread.com/forums/showpost.php?p=3819708&postcount=508
+2. Install calibre plugins:
+   - https://github.com/noDRM/DeDRM_tools/releases/tag/v10.0.3
+   - KFX input plugin 1.50 https://www.mobileread.com/forums/showthread.php?t=291290
+3. Close calibre and add from cli to see progress info:
+   `cd /Applications/calibre.app/Contents/MacOS && ./calibredb add /Users/rfrolow/Library/Application\ Support/Kindle/My\ Kindle\ Content/B01CLR25ZW_EBOK/B01CLR25ZW_EBOK.azw`
+4. In calibre appeared azw4 file which need to be unpacked with another plugin
+   - https://github.com/dougmassay/kindleunpack-calibre-plugin/releases/download/v0.83.1/kindle_unpack_v0831_plugin.zip
+   - https://www.mobileread.com/forums/showthread.php?t=335259
 
 ## scroll flow in reader
 
