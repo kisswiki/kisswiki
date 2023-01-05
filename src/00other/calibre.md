@@ -4,10 +4,52 @@
 
 ## DRM
 
-- https://github.com/noDRM/DeDRM_tools/releases/tag/v10.0.3
-- http://www.geoffstratton.com/remove-drm-amazon-kindle-books
-  - about fkx https://www.mobileread.com/forums/showthread.php?t=291290
-- https://askubuntu.com/questions/1017461/how-can-i-remove-the-drm-from-a-kindle-book
+1. Because I was unable to "Download & transfer via USB" for newly bought book I needed to downgrade Kindle for Mac to 1.31
+   - Install https://s3.amazonaws.com/kindleformac/60175/KindleForMac-1.31.60175.dmg
+   - more versions https://gist.github.com/marccarre/645fe68da31678f9191cd3aafecfea1b
+   - https://www.mobileread.com/forums/showthread.php?t=283371
+   - https://www.mobileread.com/forums/showpost.php?p=3819708&postcount=508
+   - https://askubuntu.com/questions/1017461/how-can-i-remove-the-drm-from-a-kindle-book/1448876#1448876
+   - https://geoffstratton.com/remove-drm-amazon-kindle-books/
+2. Disable kindle updates with chmod. Unchecking in kindle preferences does not work.
+   `chmod 000 ~/Library/Application\ Support/Kindle/updates`
+   - https://www.reddit.com/r/kindle/comments/k6c0hj/permanent_fix_for_kindle_app_autoupdate_from_117/
+3. Close Kindle and disable kfx
+   `chmod -x /Applications/Kindle.app/Contents/MacOS/renderer-test`
+   - https://www.mobileread.com/forums/showthread.php?t=283371
+4. Reopen Kindle and download book.
+5. Install calibre plugins:
+   - https://github.com/noDRM/DeDRM_tools/releases/tag/v10.0.3
+   - KFX input plugin 1.50 https://www.mobileread.com/forums/showthread.php?t=291290
+6. Close calibre and add from cli to see progress info:
+
+```shell
+% cd /Applications/calibre.app/Contents/MacOS
+% calibredb add /Users/rfrolow/Library/Application\ Support/Kindle/My\ Kindle\ Content/B01CLR25ZW_EBOK/B01CLR25ZW_EBOK.azw
+Gather KFX-ZIP (from KFX Input) 1.50.0: Importing /Users/rfrolow/Library/Application Support/Kindle/My Kindle Content/B01CLR25ZW_EBOK/B01CLR25ZW_EBOK.azw
+Gather KFX-ZIP (from KFX Input): File is not KFX format
+DeDRM v10.0.3: Trying to decrypt B01CLR25ZW_EBOK.azw
+Using Library AlfCrypto Python
+MobiDeDrm v1.1.
+Copyright © 2008-2020 The Dark Reverser, Apprentice Harper et al.
+Decrypting Mobipocket 4 ebook: 70 Best Recipes For Health And Weight Loss: The Guerrilla Diet Way
+Got DSN key from database kindle_key_1672926759_1
+Got DSN key from database kindle_key_1672926759_2
+Found 4 keys to try after 0.2 seconds
+Crypto Type is: 2
+File is encoded with PID JD7sabsBM2.
+Decrypting. Please wait . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . done
+Decryption succeeded after 184.7 seconds
+DeDRM v10.0.3: Finished after 184.8 seconds
+Added book ids: 1161
+```
+
+- https://github.com/apprenticeharper/DeDRM_tools/blob/master/CALIBRE_CLI_INSTRUCTIONS.md
+- https://www.mobileread.com/forums/showthread.php?t=345902
+
+7. In calibre appeared azw4 file which need to be unpacked with another plugin
+   - https://github.com/dougmassay/kindleunpack-calibre-plugin/releases/download/v0.83.1/kindle_unpack_v0831_plugin.zip
+   - https://www.mobileread.com/forums/showthread.php?t=335259
 
 ### Invalid dylib load: libsystem_c.dylib
 
@@ -27,20 +69,6 @@ If you see a kfx-zip it almost certainly means that the DeDRM has failed. The wh
 - https://github.com/noDRM/DeDRM_tools/issues/240
 - https://github.com/noDRM/DeDRM_tools/issues/239
 - https://github.com/apprenticeharper/DeDRM_tools/issues/1406
-
-SOLVED:
-
-1. Install https://s3.amazonaws.com/kindleformac/60175/KindleForMac-1.31.60175.dmg
-   - more versions https://gist.github.com/marccarre/645fe68da31678f9191cd3aafecfea1b
-   - https://www.mobileread.com/forums/showpost.php?p=3819708&postcount=508
-2. Install calibre plugins:
-   - https://github.com/noDRM/DeDRM_tools/releases/tag/v10.0.3
-   - KFX input plugin 1.50 https://www.mobileread.com/forums/showthread.php?t=291290
-3. Close calibre and add from cli to see progress info:
-   `cd /Applications/calibre.app/Contents/MacOS && ./calibredb add /Users/rfrolow/Library/Application\ Support/Kindle/My\ Kindle\ Content/B01CLR25ZW_EBOK/B01CLR25ZW_EBOK.azw`
-4. In calibre appeared azw4 file which need to be unpacked with another plugin
-   - https://github.com/dougmassay/kindleunpack-calibre-plugin/releases/download/v0.83.1/kindle_unpack_v0831_plugin.zip
-   - https://www.mobileread.com/forums/showthread.php?t=335259
 
 ## scroll flow in reader
 
