@@ -200,3 +200,7 @@ $
 wincmd k
 stopinsert
 ```
+
+## news
+
+- https://this-week-in-neovim.org/
