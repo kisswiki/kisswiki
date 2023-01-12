@@ -1,0 +1,25 @@
+## Question 167. Curiosity
+
+https://www.newadvent.org/summa/3167.htm
+
+via https://news.ycombinator.com/item?id=34279082
+
+### English
+
+On the other hand, the desire or study in pursuing the knowledge of truth may be right or wrong. First, when one tends by his study to the knowledge of truth as having evil accidentally annexed to it, for instance those who study to know the truth that they may take pride in their knowledge. Hence Augustine says (De Morib. Eccl. 21): "Some there are who forsaking virtue, and ignorant of what God is, and of the majesty of that nature which ever remains the same, imagine they are doing something great, if with surpassing curiosity and keenness they explore the whole mass of this body which we call the world. So great a pride is thus begotten, that one would think they dwelt in the very heavens about which they argue." On like manner, those who study to learn something in order to sin are engaged in a sinful study, according to the saying of Jeremiah 9:5, "They have taught their tongue to speak lies, they have labored to commit iniquity."
+
+Secondly, there may be sin by reason of the appetite or study directed to the learning of truth being itself inordinate; and this in four ways. First, when a man is withdrawn by a less profitable study from a study that is an obligation incumbent on him; hence Jerome says [Epist. xxi ad Damas]: "We see priests forsaking the gospels and the prophets, reading stage-plays, and singing the love songs of pastoral idylls." Secondly, when a man studies to learn of one, by whom it is unlawful to be taught, as in the case of those who seek to know the future through the demons. This is superstitious curiosity, of which Augustine says (De Vera Relig. 4): "Maybe, the philosophers were debarred from the faith by their sinful curiosity in seeking knowledge from the demons."
+
+Thirdly, when a man desires to know the truth about creatures, without referring his knowledge to its due end, namely, the knowledge of God. Hence Augustine says (De Vera Relig. 29) that "in studying creatures, we must not be moved by empty and perishable curiosity; but we should ever mount towards immortal and abiding things."
+
+Fourthly, when a man studies to know the truth above the capacity of his own intelligence, since by so doing men easily fall into error: wherefore it is written (Sirach 3:22): "Seek not the things that are too high for thee, and search not into things above thy ability . . . and in many of His works be not curious," and further on (Sirach 3:26), "For . . . the suspicion of them hath deceived many, and hath detained their minds in vanity."
+
+### Polish
+
+Z drugiej strony dążenie do poznania prawdy może być słuszne lub niesłuszne. Po pierwsze, kiedy ktoś poprzez swoje studia dąży do poznania prawdy jako przypadkowo przyłączonego do niej zła, na przykład ci, którzy studiują, aby poznać prawdę, aby mogli być dumni ze swojej wiedzy. Dlatego Augustyn mówi (De Morib. Eccl. 21): „Są tacy, którzy porzucając cnotę i nie wiedząc, czym jest Bóg i majestat tej natury, która zawsze pozostaje ta sama, wyobrażają sobie, że czynią coś wielkiego, choć z niezrównaną ciekawość i bystrość badają całą masę tego ciała, które nazywamy światem. W ten sposób rodzi się tak wielka duma, że można by pomyśleć, że mieszkają w tych samych niebiosach, o które się spierają. W podobny sposób ci, którzy studiują, aby się czegoś nauczyć, aby zgrzeszyć, pogrążają się w grzesznych studiach, zgodnie z powiedzeniem Jeremiasza 9:5: „Nauczyli swój język mówić kłamstwa, trudzili się, aby popełnić nieprawość”.
+
+Po drugie, może istnieć grzech z powodu apetytu lub studiów skierowanych na poznanie prawdy, które same w sobie są nieuporządkowane; i to na cztery sposoby. Po pierwsze, kiedy człowiek jest odciągany przez mniej dochodowe studia od studiów, które są dla niego obowiązkiem; stąd Hieronim mówi [Epist. XXI ad Damas]: „Widzimy księży porzucających ewangelie i proroków, czytających sztuki teatralne i śpiewających pieśni miłosne sielankowych sielanek”. Po drugie, kiedy człowiek studiuje, aby uczyć się od kogoś, od kogo nie wolno się uczyć, jak w przypadku tych, którzy chcą poznać przyszłość przez demony. Jest to zabobonna ciekawość, o której mówi Augustyn (De Vera Relig. 4): „Być może filozofowie zostali odsunięci od wiary przez grzeszną ciekawość szukania wiedzy u demonów”.
+
+Po trzecie, gdy człowiek pragnie poznać prawdę o stworzeniach, nie odnosząc swojej wiedzy do jej właściwego celu, jakim jest poznanie Boga. Dlatego Augustyn mówi (De Vera Relig. 29), że „w badaniu stworzeń nie powinniśmy kierować się próżną i nietrwałą ciekawością, ale zawsze powinniśmy dążyć do rzeczy nieśmiertelnych i trwałych”.
+
+Po czwarte, kiedy człowiek stara się poznać prawdę ponad możliwości własnego rozumu, ponieważ czyniąc to, ludzie łatwo popadają w błąd: dlatego jest napisane (Syr 3,22): „Nie szukaj tego, co jest dla ciebie za wzniosłe i nie dociekaj rzeczy przekraczających twoje możliwości… i nie bądź ciekawski w wielu Jego dziełach” i dalej (Syr 3:26): „Albowiem… podejrzliwość wobec nich zwiodła wielu i zatrzymała ich umysły w próżności”.
