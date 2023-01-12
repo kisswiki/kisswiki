@@ -1,4 +1,4 @@
-- https://github.com/nrdmn/awesome-zig
+- https://github.com/catdevnull/awesome-zig
 - https://github.com/C-BJ/awesome-zig
 
 ## Learn
@@ -578,3 +578,5 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - [Zig in 30 Minutes | Hacker News](https://news.ycombinator.com/item?id=25618302)
 - [Zig Live Coding - Advent of Code 2018 Day 7 on Vimeo](https://vimeo.com/488248001)
 - [Zig Live Coding - “Hello World” x86 Kernel on Vimeo](https://vimeo.com/483928663)
+- https://dev.to/akio_tanaka/my-cheatsheet-for-ziglang-21jg
+- Zig Doesn’t Have Interfaces. The type of the writer has to be known at compile time. In this regard, Zig feel a bit like a script language in some regards. https://itnext.io/a-refresh-for-zig-programmers-and-dabblers-d33f02c6a362

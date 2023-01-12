@@ -391,3 +391,5 @@
 - http
   - https://github.com/Luukdegram/apple_pie
   - https://www.reddit.com/r/Zig/comments/xupw9d/i_want_to_run_simple_http_server_that_i_also_know/
+  - https://github.com/MasterQ32/zig-serve/blob/master/examples/http.zig
+  - https://github.com/MasterQ32/zig-serve/blob/master/examples/tls-server.zig

@@ -63,3 +63,10 @@ $ zig build test-stage2 -Denable-wasmtime
   - https://news.ycombinator.com/item?id=32
 - https://github.com/appcypher/awesome-wasm-runtimes
 - https://blog.logrocket.com/webassembly-runtimes-compared/
+- Use Zig in node.js projects https://github.com/pluvial/node-zig
+- https://github.com/pluvial/vite-plugin-zig
+- https://zig.news/klltkr/webassembly-interpreter-optimisation-part-1-3559
+  - Zig WebAssembly Runtime Engine https://github.com/malcolmstill/zware
+    - https://github.com/malcolmstill/zware/blob/master/docs/REFERENCES.md
+      - http://troubles.md/wasm-is-not-a-stack-machine/
+- https://zig.news/samhattangady/porting-my-game-to-the-web-4194
