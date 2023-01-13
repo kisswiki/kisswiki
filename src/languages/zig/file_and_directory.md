@@ -1,7 +1,7 @@
 - https://stackoverflow.com/questions/70189554/how-can-you-create-a-buffer-of-the-same-size-as-a-file/72334950#72334950
 - https://stackoverflow.com/questions/68368122/how-to-read-a-file-in-zig/68879352#68879352
 - outdated https://ziglearn.org/chapter-2/#filesystem
-- nice `fn nextLine` https://ziglearn.org/chapter-2/
+- nice `fn nextLine` https://ziglearn.org/chapter-2/#readers-and-writers
 
 ##
 
