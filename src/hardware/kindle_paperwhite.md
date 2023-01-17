@@ -16,3 +16,9 @@ Otherwise you will get error "We are having difficulty starting spooler on your 
 
 - https://kb4sp.wordpress.com/2013/02/02/send-to-kindle-on-windows-8/
 - https://www.reddit.com/r/kindle/comments/csf6ow/gmail_refuses_to_send_files_bigger_than_25mb/exee7w5/
+
+## strange character in kindle when epub sent with send to kindle
+
+Open epub in calibre, convert to epub, done.
+
+https://www.reddit.com/r/kindle/comments/qo0tf8/why_theres_always_some_weird_text_on_the_book/
