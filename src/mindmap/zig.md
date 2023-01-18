@@ -264,7 +264,7 @@
         - alloc()
       - tokenize()
         - var lines = std.mem.tokenize(u8, buffer, "\n"); // cannot be const
-        - while(lines.next()) |line| { std.debub.print("{s}", .{ line }); }
+        - while(lines.next()) |line| { std.debug.print("{s}", .{ line }); }
         - returns TokenIterator
           - std.debug.print("{s}\n", .{lines});
             - std.mem.TokenIterator(u8){ .buffer = { 111, 110, 101, 61, 49, 10, 116, 119, 111, 61, 50, 10 }, .delimiter_bytes = { 10 }, .index = 0 }
