@@ -19,4 +19,4 @@ Vat to 225091886 lub 87 ale nikt nie odbiera
 
 225091851 - typowe upomnienia
 
-Oddzwoniła do mnie osoba z numeru 225091882, wysłałem maila na anna.zmudzka@ms.gov.pl
+Oddzwoniła do mnie osoba z numeru 225091882, wysłałem maila na anna.zmudzka@mf.gov.pl
