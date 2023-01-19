@@ -1,4 +1,4 @@
-```
+```ppm
 P3
 #the P3 means colors are in ascii, then 4 columns and 24 rows, then 255 for max color, then RGB triplets
 4 4
