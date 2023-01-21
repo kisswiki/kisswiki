@@ -195,3 +195,9 @@ There’s a “Manage Series” plugin that would be the easiest option. You can
 zoom in: ctrl++
 
 zoom out: ctrl+-
+
+## "Added" column
+
+The normal date column is the date the book was added to the library
+
+http://www.mobileread.mobi/forums/showthread.php?t=180120
