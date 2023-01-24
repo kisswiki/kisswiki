@@ -216,11 +216,6 @@ https://news.ycombinator.com/item?id=15429960
 
 ## ncdu > du
 
-- https://dev.yorhel.nl/ncdu
-- https://github.com/jarun/nnn
-- https://github.com/bootandy/dust
-- https://github.com/vmchale/tin-summer
-
 `ncdu`
 
 Same file system
@@ -228,6 +223,55 @@ Same file system
 `ncdu -x /`
 
 `man ncdu`
+
+On Mac OS, run for example:
+
+`ncdu -x --exclude /Volumes --exclude /System/Volumes /`
+
+This scans the root filesystem but excludes the Volume mounts specifically (the -x option to limit the scan to the current filesystem doesn't work properly on mac os). Navigate through the folders, sorted by size, from there. Press d to delete a folder.
+
+https://news.ycombinator.com/item?id=33006181
+
+The other big advantage over just being a gui is that it Scans the filesystem ahead of time and keeps the data across your navigation into directories.
+
+The subsequent scans feel a lot faster, I suspect due to caching.
+
+https://news.ycombinator.com/item?id=33894342
+
+- https://dev.yorhel.nl/ncdu
+- https://github.com/jarun/nnn
+- https://github.com/bootandy/dust
+- https://github.com/vmchale/tin-summer
+- https://news.ycombinator.com/item?id=33893815
+  - `homebrew install broot`, run with br https://github.com/Canop/broot
+  - free for personal use , claims to be many times faster than windirstat https://diskanalyzer.com/
+  - https://github.com/Byron/dua-cli
+  - https://github.com/dundee/gdu
+  - use a cronjob for duc index, then you can use duc ui to see the index https://github.com/zevv/duc
+  - run `dua i` to get an interface similar to ncdu https://github.com/Byron/dua-cli
+  - like ncdu but show progressive result asap https://github.com/beenotung/jsdu
+  - https://github.com/KSXGitHub/parallel-disk-usage
+- https://github.com/ariccio/altWinDirStat
+- https://github.com/nachoparker/dutree
+- https://news.ycombinator.com/item?id=30871896
+  - https://github.com/imsnif/diskonaut
+  - The only one that worked well for me on Windows is SpaceSniffer. It correctly treated symlinks and junctions (most tools duplicate those) and alternate data streams (which most tools ignore). http://www.uderzo.it/main_products/space_sniffer/index.html
+  - https://github.com/alanbernstein/treemonger
+  - https://www.diskanalyzer.com/
+  - https://daisydiskapp.com/
+  - Disk Inventory X `brew install --cask disk-inventory-x` https://www.derlien.com/
+  - https://sourceforge.net/projects/grandperspectiv/
+  - https://apps.kde.org/pl/filelight/
+  - https://www.jam-software.com/treesize_free
+  - rclone ncdu runs locally and on your favourite cloud storage. It also runs on Windows, macOS, Linux https://rclone.org/commands/rclone_ncdu/
+  - Scanner.exe http://www.steffengerlach.de/freeware/
+  - Directory Report https://www.file-utilities.com/
+  - `brew install --cask disk-expert` https://nektony.com/disk-expert
+- https://news.ycombinator.com/item?id=33893815
+  - http://www.jgoodies.com/freeware/jdiskreport/
+  - https://github.com/muesli/duf
+  - https://fsv.sourceforge.net/
+  - https://github.com/dankamongmen/growlight
 
 ### Keys
 
