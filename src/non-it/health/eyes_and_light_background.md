@@ -80,3 +80,12 @@ For instance, a positive polarity advantage has been found in error rates and re
 - https://tidbits.com/2019/05/31/the-dark-side-of-dark-mode/
 - https://news.ycombinator.com/item?id=20074715
 - https://twitter.com/rofrol/status/1135659108219195393
+
+##
+
+I was a big believer in dark mode for a long time, until I started trying to reduce my SAD symptoms during the winter time. I read this blog post here [0] after seeing it on HN, and ended up buying 28 100W equivalent bulbs and a 500W equivalent corn bulb. I get a pretty decent amount of light in my home office now, and light mode is essential on my workstation or it's almost impossible to even SEE anything on screen, since the external light will wash out the backlights of the LED. I bought some higher brightness monitors but am starting to realize all those years of using dark mode was just lending itself to me spending 8 hours a day working in a dark room and was making me depressed, especially in the winter.
+It's been interesting because my wife is complaining about feeling glum but I've been in a much better mood than I've been in the last few winters. We're talking about spending a few thousand dollars to get ultra bright lighting throughout the house instead of just in my office.
+
+[0] https://www.benkuhn.net/lux/
+
+https://news.ycombinator.com/item?id=33949814
