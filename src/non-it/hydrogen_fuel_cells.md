@@ -98,3 +98,9 @@ https://youtu.be/PuhYNVSPjUM?t=435
 
 Z tego względu że nie ma stacji będziesz jeździł na baterii a w trasy wodór jako "range extender".
 Niestety koszmarnie droga - no i wszystkie wady wodoru a szczególnie mało miejsca w aucie.
+
+##
+
+Hydrogen is the smallest element and is a gas at room temperature. There is no possibility that existing combustion engines will be converted. Yes JCB have invented a hydrogen combustion engine. This is truly remarkable but it will have limited use. To avoid NOx emissions it runs at a low temperature. This means it has low torque and efficiency. That is fine for a remote quarry or building site but no good for a motorway. Hydrogen fuel cell cars are three times more expensive per mile than electric cars because of the law of physics. A hydrogen combustion car would be nine times more expensive if made from green hydrogen.
+
+https://www.dailymail.co.uk/news/article-11681341/How-lack-chargers-soaring-power-costs-sent-electric-vehicle-revolution-reverse.html
