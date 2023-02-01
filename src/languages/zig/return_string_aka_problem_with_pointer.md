@@ -9,6 +9,16 @@ Some options:
    But basically, you either have to heap allocate in the function or take in something that already created the space for the data
    I don't think it's applicable to this situation, but you can return a pointer to static data when it makes sense. String literals are static data, so it's perfectly fine to do e.g.
 
+To get allocator
+
+```zig
+    var gpa = std.heap.GeneralPurposeAllocator(.{}){};
+    defer if (gpa.deinit()) @panic("leaked");
+    const allocator = gpa.allocator();
+```
+
+https://github.com/Sobeston/ziglearn/blob/bd08cffcb115bae86747406b7efc5f30795b47e9/test-out.zig#L6
+
 4. Buffer:
 
 ```zig
