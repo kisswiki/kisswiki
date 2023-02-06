@@ -1,3 +1,7 @@
+## magazines
+
+https://freemagazines.top
+
 ## predb
 
 - https://torrentfreak.com/reporting-when-pirate-releases-hit-the-internet-is-apparently-illegal-now-190101/
