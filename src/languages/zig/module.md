@@ -1,0 +1,6 @@
+- [std.Build: support exposing and depending on zig modules by andrewrk · Pull Request #14538 · ziglang/zig](https://github.com/ziglang/zig/pull/14538)
+- [build system terminology update: package, project, module, dependency · Issue #14307 · ziglang/zig](https://github.com/ziglang/zig/issues/14307)
+- https://github.com/zigtools/zls/blob/1b3274aa9c4c79ece06427b1367d392b3849dfb0/build.zig#LL116C5-L116C58
+- https://github.com/andrewrk/jazmin/blob/main/build.zig
+- How to add as module https://github.com/getty-zig/json/
+- `thisDir()` https://github.com/michal-z/zig-gamedev/blob/0348e79b3927f6b4e3e635dbe0582cfa48efef36/libs/zgui/build.zig#L82
