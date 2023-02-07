@@ -6,3 +6,4 @@
 - `thisDir()` https://github.com/michal-z/zig-gamedev/blob/0348e79b3927f6b4e3e635dbe0582cfa48efef36/libs/zgui/build.zig#L82
 - update to latest build.zig API https://github.com/andrewrk/ffmpeg/commit/74e370d28e19b8c0411da846ebf3b0ebc90671d3
 - another example of build.zig API https://github.com/andrewrk/ffmpeg
+- [Package Manager MVP by andrewrk · Pull Request #14265 · ziglang/zig](https://github.com/ziglang/zig/pull/14265)
