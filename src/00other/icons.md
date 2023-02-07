@@ -25,6 +25,7 @@
 - https://github.com/microsoft/vscode-codicons
   - https://code.visualstudio.com/api/references/icons-in-labels
 - https://systemuicons.com/
+- https://atlasicons.vectopus.com/
 
 ## How Docker does this
 
