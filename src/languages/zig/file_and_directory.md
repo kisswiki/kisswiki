@@ -49,3 +49,15 @@ pub fn main() !void {
 ```
 
 https://discord.com/channels/605571803288698900/605572581046747136/935644438573752330
+
+## append file
+
+```zig
+var file = try std.fs.cwd().openFile(path, .{ .mode = .read_write });
+var stat = try file.stat();
+try file.seekTo(stat.size);
+
+try file.writer().writeAll(); // this will happen at the end of the file
+```
+
+https://github.com/ziglang/zig/issues/14375#issuecomment-1397306429
