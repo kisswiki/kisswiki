@@ -1,6 +1,7 @@
 ## http examples
 
 - https://www.reddit.com/r/Zig/comments/xupw9d/i_want_to_run_simple_http_server_that_i_also_know/
+- https://discord.com/channels/605571803288698900/1026547320340348978
 - https://github.com/rofrol/mini-http-server-in-zig
 - https://github.com/rofrol/http-client-zig-example
 - https://github.com/MasterQ32/zig-serve/blob/master/examples/http.zig
@@ -15,7 +16,6 @@
 - A simple HTTP client library for Zig https://github.com/haze/zelda
 - Basic HTTP server implementation in Zig https://github.com/Luukdegram/apple_pie
 - A Http server written in Zig https://github.com/frmdstryr/zhp
-- https://github.com/rofrol/mini-http-server-in-zig
 - [⚡ Live Coding A Web Server in Zig ⚡ - 01 - YouTube](https://www.youtube.com/watch?v=olOJbYP0ORE)
 - HTTP client for Zig 🦎 https://github.com/ducdetronquito/requestz/
 
@@ -89,3 +89,18 @@ pub fn main() !void {
 ```
 
 - https://github.com/ziglang/zig/issues/14573
+
+## send file using curl
+
+```zig
+    const ChildProc = @import("std").ChildProcess;
+    var child_proc = ChildProcess.init(
+        &.{ curl_path, "--upload-file", "myfile.png", "https://server.com" },
+        gpa,
+    ); //curl_path can be just curl, if it is in your PATH or otherwise relative or absolute path
+    try child_proc.spawn();
+    const ret_val = try child_proc.wait();
+    try testing.expectEqual(ret_val, .{ .Exited = 0 });
+```
+
+https://discord.com/channels/605571803288698900/1059912546892660796
