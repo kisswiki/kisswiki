@@ -1,5 +1,6 @@
 ## http examples
 
+- https://www.reddit.com/r/Zig/comments/xupw9d/i_want_to_run_simple_http_server_that_i_also_know/
 - https://github.com/rofrol/mini-http-server-in-zig
 - https://github.com/rofrol/http-client-zig-example
 - https://github.com/MasterQ32/zig-serve/blob/master/examples/http.zig
@@ -8,7 +9,19 @@
 - https://github.com/rofrol/ziggetty
 - https://github.com/Luukdegram/apple_pie
 - https://github.com/ducdetronquito/h11
+  - https://www.reddit.com/r/Zig/comments/g776wm/io_free_http11_implementation_for_zig/
 - https://github.com/MasterQ32/zig-serve/blob/master/examples/http.zig
+- cURL binding for Zig https://github.com/mattn/zig-curl
+- A simple HTTP client library for Zig https://github.com/haze/zelda
+- Basic HTTP server implementation in Zig https://github.com/Luukdegram/apple_pie
+- A Http server written in Zig https://github.com/frmdstryr/zhp
+- https://github.com/rofrol/mini-http-server-in-zig
+- [⚡ Live Coding A Web Server in Zig ⚡ - 01 - YouTube](https://www.youtube.com/watch?v=olOJbYP0ORE)
+- HTTP client for Zig 🦎 https://github.com/ducdetronquito/requestz/
+
+## HTML
+
+- The happy HTML parser ᕕ( ᐛ )ᕗ https://github.com/ducdetronquito/hppy
 
 ## download big file, stream, example
 
