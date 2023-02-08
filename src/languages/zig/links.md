@@ -122,7 +122,6 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://github.com/frmdstryr/zig-datetime - A date and time module for Zig
 - https://github.com/frmdstryr/zig-mimetypes - A mimetypes module for Zig
 - https://github.com/frmdstryr/zig-kiwi - A cassowary constraint solver in zig
-- https://git.sr.ht/~jamii/focus
 - https://git.sr.ht/~jamii/imp
   - https://scattered-thoughts.net/writing/imp-intro/
   - https://github.com/ziglibs/known-folders - Provides access to well-known folders across several operating systems
@@ -186,6 +185,11 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - https://github.com/devzero/parzival - A comptime-based parsing library for the Zig language
 - https://gist.github.com/tuket/3b657d8ccadb54ca69a9c0ac4d387789 - paint in zig using SDL2
 - Aims to provide high- and low-level utilites for building VST 2.4 plugins with Zig https://github.com/schroffl/zig-vst/
+
+## Text editor
+
+- https://git.sr.ht/~jamii/focus
+- https://github.com/MasterQ32/TextEditor
 
 ## Database
 

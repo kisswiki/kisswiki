@@ -6,6 +6,9 @@
 - https://github.com/mattnite/zig-libcurl
 - https://github.com/atemmel/zig-proxy
 - https://github.com/rofrol/ziggetty
+- https://github.com/Luukdegram/apple_pie
+- https://github.com/ducdetronquito/h11
+- https://github.com/MasterQ32/zig-serve/blob/master/examples/http.zig
 
 ## download big file, stream, example
 
