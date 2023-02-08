@@ -1,3 +1,12 @@
+## http examples
+
+- https://github.com/rofrol/mini-http-server-in-zig
+- https://github.com/rofrol/http-client-zig-example
+- https://github.com/MasterQ32/zig-serve/blob/master/examples/http.zig
+- https://github.com/mattnite/zig-libcurl
+- https://github.com/atemmel/zig-proxy
+- https://github.com/rofrol/ziggetty
+
 ## download big file, stream, example
 
 ```zig
