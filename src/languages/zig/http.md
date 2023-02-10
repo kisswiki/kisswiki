@@ -19,6 +19,10 @@
 - [⚡ Live Coding A Web Server in Zig ⚡ - 01 - YouTube](https://www.youtube.com/watch?v=olOJbYP0ORE)
 - HTTP client for Zig 🦎 https://github.com/ducdetronquito/requestz/
 
+## websocket
+
+- https://github.com/nikneym/ws
+
 ## HTML
 
 - The happy HTML parser ᕕ( ᐛ )ᕗ https://github.com/ducdetronquito/hppy
