@@ -1,0 +1,2 @@
+- https://www.forrestthewoods.com/blog/learning-jai-via-advent-of-code/
+  - https://news.ycombinator.com/item?id=34785826
