@@ -18,3 +18,5 @@ pub fn main() void {
     }
 }
 ```
+
+Or you can import [zig-extras](https://github.com/nektro/zig-extras/blob/master/src/lib.zig#L13) and range function from it. Example of import https://github.com/rofrol/sha256sum-zig.
