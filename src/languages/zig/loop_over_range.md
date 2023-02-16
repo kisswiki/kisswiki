@@ -21,7 +21,7 @@ pub fn main() void {
 
 Or you can import [zig-extras](https://github.com/nektro/zig-extras/blob/master/src/lib.zig#L13) and range function from it. Example of import https://github.com/rofrol/sha256sum-zig.
 
-Or more advanced range function:
+Or comptime only example which has limited uses:
 
 ```zig
 const std = @import("std");
