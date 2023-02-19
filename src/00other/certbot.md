@@ -1,3 +1,13 @@
+Create nginx config for `/etc/nginx/conf.d/example.com.conf`, then
+
+`$ sudo certbot --nginx -d example.com`
+
+Certbot will add entries to example.com.conf.
+
+https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
+
+## Some links
+
 - certbot advices to use it from snap or docker, but the one in rocky linux repo works ok.
   - https://eff-certbot.readthedocs.io/en/stable/install.html
   - https://repology.org/project/certbot/information
