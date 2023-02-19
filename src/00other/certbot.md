@@ -1,10 +1,13 @@
+## Quick start
+
 Create nginx config for `/etc/nginx/conf.d/example.com.conf`, then
 
 `$ sudo certbot --nginx -d example.com`
 
 Certbot will add entries to example.com.conf.
 
-https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
+- https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
+- https://certbot.eff.org/instructions
 
 ## Some links
 
