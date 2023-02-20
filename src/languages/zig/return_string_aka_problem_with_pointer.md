@@ -84,4 +84,33 @@ We can work around this in a couple of ways:
 - Making the array global
 - Allocating the slice (returning an allocated copy of the slice) [most common]
 
+Passing the slice
+
+```zig
+const std = @import("std");
+
+/// Takes a slice as a parameter and fills it with a message.
+fn zigBits(slice: []u8) void {
+    // Create an array literal.
+    var message = [_]u8{ 'z', 'i', 'g', 'b', 'i', 't', 's' };
+
+    // Print the array as string.
+    std.log.debug("{s}", .{message});
+
+    // Update the slice.
+    std.mem.copy(u8, slice, &message);
+}
+
+pub fn main() void {
+    // Define the message buffer.
+    var message: [7]u8 = undefined;
+
+    // Get the message.
+    zigBits(&message);
+
+    // Print the message.
+    std.log.debug("{s}", .{message});
+}
+```
+
 - https://blog.orhun.dev/zig-bits-01/
