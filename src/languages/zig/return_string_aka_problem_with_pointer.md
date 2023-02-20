@@ -71,3 +71,4 @@ pub fn main() void {
 - Thanks to hryx#8355, Tetralux#0738 and n00byedge#2651 from zig discord https://discord.com/channels/605571803288698900/1068000302583787531
 - [Solving Common Pointer Conundrums - Loris Cro - YouTube](https://www.youtube.com/watch?v=VgjRyaRTH6E)
 - https://ikrima.dev/dev-notes/zig/zig-crash-course/#sentinel-termination
+- https://blog.orhun.dev/zig-bits-01/
