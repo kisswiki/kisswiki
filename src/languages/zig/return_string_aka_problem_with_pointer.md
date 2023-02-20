@@ -19,7 +19,11 @@ To get allocator
 
 https://github.com/Sobeston/ziglearn/blob/bd08cffcb115bae86747406b7efc5f30795b47e9/test-out.zig#L6
 
-4. Buffer:
+Tetralux
+
+To expand on Hyrx's suggestion:
+
+1. Buffer:
 
 ```zig
 fn f(out: []u8) []const u8 {
