@@ -90,7 +90,7 @@ Passing the slice
 const std = @import("std");
 
 /// Takes a slice as a parameter and fills it with a message.
-fn zigBits(slice: []u8) void {
+fn zigBits(slice: []u8) usize {
     // Create an array literal.
     var message = [_]u8{ 'z', 'i', 'g', 'b', 'i', 't', 's' };
 
@@ -99,17 +99,18 @@ fn zigBits(slice: []u8) void {
 
     // Update the slice.
     std.mem.copy(u8, slice, &message);
+    return message.len;
 }
 
 pub fn main() void {
     // Define the message buffer.
-    var message: [7]u8 = undefined;
+    var message: [9]u8 = undefined;
 
     // Get the message.
-    zigBits(&message);
+    const len = zigBits(&message);
 
     // Print the message.
-    std.log.debug("{s}", .{message});
+    std.log.debug("{s}", .{message[0..len]});
 }
 ```
 
