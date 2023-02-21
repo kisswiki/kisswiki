@@ -1,3 +1,5 @@
+- https://namnd.com/posts/build-zig-from-source/
+
 ## mlugg
 
 Step 1: building LLVM (only necessary if system LLVM is <15)
