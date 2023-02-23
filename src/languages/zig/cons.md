@@ -26,3 +26,15 @@ Zig, of course, is not the first language to explicitly seek simplicity. Go did 
 > Over and over, every piece of documentation for the Go language markets it as "simple". This is a lie. Or rather, it's a half-truth that conveniently covers up the fact that, when you make something simple, you move complexity elsewhere.
 
 https://viralinstruction.com/posts/defense/
+
+## No checker for opened file descriptors
+
+veloscillator
+
+Might be helpful to add a sanitizer step to check for this. valgrind can do it but may be slow.
+
+andrewrk
+
+Agreed, I was thinking it might be possible to do something similar to the std lib leak checker, but with file descriptors. Maybe even with arbitrary resources.
+
+https://github.com/ziglang/zig/pull/14703#issuecomment-1439298574
