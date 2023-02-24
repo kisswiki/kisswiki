@@ -11,6 +11,10 @@ Create new style in Stylus without specyfing domain/url:
 }
 ```
 
+- https://gist.github.com/alistairjcbrown/5d85072660f0b850cef68f4be278cdb1
+- https://stackoverflow.com/questions/15122959/how-can-my-script-change-a-specific-font-for-a-specific-class
+- https://superuser.com/questions/1209191/force-chrome-to-use-my-preferred-font-over-the-authors/1757204#1757204
+
 ## Didn't worked on freecodecamp.org
 
 In tampermonkey
