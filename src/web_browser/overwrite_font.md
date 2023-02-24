@@ -1,3 +1,18 @@
+## Stylus
+
+Create new style in Stylus without specyfing domain/url:
+
+```css
+@layer {
+  code,
+  pre {
+    font-family: Menlo !important;
+  }
+}
+```
+
+## Didn't worked on freecodecamp.org
+
 In tampermonkey
 
 ```javascript
