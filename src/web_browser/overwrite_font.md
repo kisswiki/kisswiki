@@ -16,7 +16,7 @@ Create new script:
 (function () {
   var styleNode = document.createElement("style");
   var styleText = document.createTextNode(
-    '@label { code, pre { font-family: "Monaco NFM", Monaco, Menlo, monospace !important; } }'
+    '* { font-family: sans-serif !important; } code, pre { font-family: "Monaco NFM", Monaco, Menlo, monospace !important; }'
   );
 
   styleNode.type = "text/css";
