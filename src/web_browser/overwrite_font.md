@@ -4,9 +4,9 @@ Create new script:
 
 ```javascript
 // ==UserScript==
-// @name         Monaco font to code, pre on all sites
-// @version      0.2
-// @description  Monaco font to code, pre on all sites
+// @name         Override fonts
+// @version      1.0
+// @description  Override fonts
 // @author       Roman Frołow <rofrol@gmail.com>
 // @match      *://*/*
 // @grant        none
@@ -16,7 +16,7 @@ Create new script:
 (function () {
   var styleNode = document.createElement("style");
   var styleText = document.createTextNode(
-    '* { font-family: sans-serif !important; } code, pre { font-family: "Monaco NFM", Monaco, Menlo, monospace !important; }'
+    '* { font-family: "Atkinson Hyperlegible", sans-serif !important; } code, pre { font-family: "Monaco NFM", Monaco, Menlo, monospace !important; }'
   );
 
   styleNode.type = "text/css";
