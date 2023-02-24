@@ -27,6 +27,8 @@ Create new script:
 ```
 
 - https://github.com/Karmenzind/monaco-nerd-fonts/blob/master/fonts/Monaco%20Nerd%20Font%20Complete%20Mono%20Windows%20Compatible.ttf
+- Atkinson-Hyperlegible-Regular-102.ttf https://brailleinstitute.org/freefont
+  - https://www.reddit.com/r/kindle/comments/lna87d/comment/go0tl2e/
 - https://gist.github.com/alistairjcbrown/5d85072660f0b850cef68f4be278cdb1
 - https://stackoverflow.com/questions/15475404/include-all-pages-in-tampermonkeyuserscript/15774782#15774782
 - https://stackoverflow.com/questions/15122959/how-can-my-script-change-a-specific-font-for-a-specific-class
