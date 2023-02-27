@@ -16,7 +16,7 @@ Create new script:
 (function () {
   var styleNode = document.createElement("style");
   var styleText = document.createTextNode(
-    'code *, pre *, .javascript *, .diff-table  * { font-weight: 400; font-family: "NotoMono Nerd Font Mono", "Red Hat Mono", "iA Writer Mono V", "Fantasque Sans Mono", "Monaco NFM", Monaco, Menlo, monospace !important; } * { font-family: "Open Sans", "Noto Sans", Lato, "Atkinson Hyperlegible", sans-serif !important; } '
+    'code *, pre *, .javascript *, .diff-table *, .react-code-file-contents * { font-weight: 400; font-family: "NotoMono Nerd Font Mono", "Red Hat Mono", "iA Writer Mono V", "Fantasque Sans Mono", "Monaco NFM", Monaco, Menlo, monospace !important; } * { font-family: "Open Sans", "Noto Sans", Lato, "Atkinson Hyperlegible", sans-serif !important; } '
   );
 
   styleNode.type = "text/css";
