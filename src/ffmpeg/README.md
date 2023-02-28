@@ -2,6 +2,14 @@
 - https://wiki.archlinux.org/title/FFmpeg
 - https://wiki.gentoo.org/wiki/FFmpeg
 - https://trac.ffmpeg.org/wiki/Encode/H.264
+- help with parameters https://news.ycombinator.com/item?id=34965961
+  - https://ffmpeg.guide/
+    - https://news.ycombinator.com/item?id=33383023
+  - https://img.ly/blog/ultimate-guide-to-ffmpeg/
+    - https://news.ycombinator.com/item?id=33771445
+  - https://github.com/kkroening/ffmpeg-python/tree/master/examples
+  - http://dranger.com/ffmpeg/tutorial05.html
+    - https://stackoverflow.com/questions/6044330/ffmpeg-c-what-are-pts-and-dts-what-does-this-code-block-do-in-ffmpeg-c
 
 ## AV1
 
