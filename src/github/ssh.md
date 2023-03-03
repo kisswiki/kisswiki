@@ -64,7 +64,7 @@ cat ~\.ssh\id_rsa.pub | Clip
 
 ## ssh config
 
-You can create multiple keys like that `ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f ~/.ssh/github_rsa`.
+You can create multiple keys like that `ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/github_rsa`.
 
 If the key does not have default name, you need to specify hosts for it:
 
