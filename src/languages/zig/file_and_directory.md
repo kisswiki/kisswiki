@@ -2,6 +2,7 @@
 - https://stackoverflow.com/questions/68368122/how-to-read-a-file-in-zig/68879352#68879352
 - outdated https://ziglearn.org/chapter-2/#filesystem
 - nice `fn nextLine` https://ziglearn.org/chapter-2/#readers-and-writers
+- https://www.reddit.com/r/Zig/comments/11intly/ive_been_trying_to_read_a_file_from_disk_into_a/
 
 ##
 
