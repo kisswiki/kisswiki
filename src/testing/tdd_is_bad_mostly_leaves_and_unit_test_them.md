@@ -3,6 +3,7 @@
   - https://www.infoq.com/news/2007/05/tdd-sudoku/
   - https://web.archive.org/web/20110926205016/https://www.writemoretests.com/2011/09/test-driven-development-give-me-break.html
   - http://norvig.com/sudoku.html
+
 ##
 
 There are some important differences between incremental progress in algorithms and TDD, though.
@@ -76,7 +77,6 @@ Test-first units leads to an overly complex web of intermediary objects and indi
 
 https://dhh.dk/2014/tdd-is-dead-long-live-testing.html
 
-
 ##
 
 Paweł Świątkowski Nie. Po prostu często nie można napisać testów kiedy nie wie się dokładnie jak ma wyglądać dana nowa rzecz. Wtedy piszę jej szkielet (kod taki który działa, ale potencjalnie niepoprawnie - zupełnie mnie to nie obchodzi). Kiedy jestem już zadowolony z API nowej klasy, modułu czy czego tam, WTEDY jest czas na napisanie pierwszych testów, zzielenienie ich, dopisanie testów do corner case'ów i EWENTUALNY refactoring.
@@ -101,3 +101,66 @@ Bartosz Kostrowiecki To nie jest TDD.
 W TDD Design API ma wyniknac z przypadkow uzycia testow, ktore napiszesz w pierwszej kolejnosci.
 
 https://www.facebook.com/groups/turingi/2416340711986664/?comment_id=2416352271985508&reply_comment_id=2416362641984471&notif_id=1568726119030354&notif_t=group_comment
+
+## Brad Fitzpatrick
+
+Seibel: How do you design software?
+Fitzpatrick: I start with interfaces between things. What are the common methods, or the common RPCs, or the common queries. If it’s storage, I try to think, what are the common queries? What indexes do we need? How are the data going to be laid out on disk? Then I write dummy mocks for different parts and flesh it out over time.
+Seibel: Do you write mocks in the test-first sense so you can test it as you go?
+Fitzpatrick: More and more. I always designed software this way, even before testing. I would just design interfaces and storage first, and then work up to an actual implementation later.
+Seibel: What form would the design take? Pseudocode? Actual code? Whiteboard scribbles?
+Fitzpatrick: Generally I would bring up an editor and just write notes with pseudocode for the schema. After it got good, I would make up a real schema and then I would copy-paste it in just to make sure that “create table” works. Once I got that all going, I’d actually go implement it. I always start with a spec.txt first.
+Seibel: After you write a bunch of code do you ever discover that you really need to reconsider your original plan?
+Fitzpatrick: Sometimes. But I’ve started with the hard bits or the parts I was unsure of, and tried to implement those parts first. I try not to put off anything hard or surprising to the end; I enjoy doing the hard things first. The projects that I never finish—my friends give me shit that it’s a whole bunch—it’s because I did the hard part and I learned what I wanted to learn and I never got around to doing the boring stuff.
+
+https://codersatwork.com/
+
+## ThePrimeagen
+
+I don't get unit test anxiety when
+
+I don't have unit tests what I like unit
+
+test for honestly is whenever I come to
+
+a piece of code in which I cannot
+
+Implement within 30 seconds inside my
+
+brain right like it's not like oh I know
+
+the answer to this thing
+
+for me that screams I use a unit test as
+
+a form of implementation meaning I
+
+Implement what I think I want then I go
+
+to a test and try to drive through
+
+completion
+
+the correctness of it all right so I I I
+
+don't like tdd because tdd is you write
+
+your test and then you write your code I
+
+like to write my code get it kind of how
+
+I want I believe I've done it correctly
+
+and then do some tests to make sure that
+
+it's correct right to make sure that
+
+I've done it I I rarely test my code but
+
+when I test it it's in places in which
+
+you can't immediately understand the
+
+code right
+
+[Prime Reacts: Is This NEW Language BETTER Than Rust? C++? (Zig First Impressions) - YouTube](https://youtu.be/alp_Sx5qhn0?t=747)
