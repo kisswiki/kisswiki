@@ -199,3 +199,7 @@ https://users.rust-lang.org/t/rust-beginner-notes-questions/14928
 - Theo - t3․gg [Don't Learn Rust - YouTube](https://www.youtube.com/watch?v=kOFWIvNowXo)
 - Rust - being a human GC https://mobile.twitter.com/_JamesWard/status/1622843275605590017
 - Why would we not choose Rust again? Slower iterations. When you first start with Rust, you’ll end up fighting the compiler a bit. This is natural and gets easier over time. However, at a new startup, one of the core problems is to figure out if you are building something useful. A quick MVP can be invaluable in determining if you are on the right path or lost in the woods. All that time spent making readable, performant code might be wasted. Additionally, every new employee that isn’t familiar with Rust will run into this. You’ll either need to prioritize Rust experience when hiring or get good at training people. https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again https://news.ycombinator.com/item?id=34835631
+
+##
+
+Rust is the inverse of Perl: It makes the easy stuff hard. https://news.ycombinator.com/item?id=35058803
