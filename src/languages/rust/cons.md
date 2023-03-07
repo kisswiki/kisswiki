@@ -202,4 +202,8 @@ https://users.rust-lang.org/t/rust-beginner-notes-questions/14928
 
 ##
 
-Rust is the inverse of Perl: It makes the easy stuff hard. https://news.ycombinator.com/item?id=35058803
+Rust is the inverse of Perl: It makes the easy stuff hard. Writing basic data structures isn't a niche, esoteric edge case. There may be a crate that "solves" what you're trying to do. But does it rely on the std---(i.e., is it unusable for systems programming)? Is it implemented making gratuitous copies of data everywhere? Does it have a hideous interface which will then pollute all of your interfaces? Does it rely on 'unstable' features?
+
+Then, there's the 'community.' It seems to consist solely of extremely online people who get a dopamine hit from both telling people they're doing things wrong and creating the most complex solutions possible. They do this under a thin veneer of forced niceness, but it's not nice at all.
+
+https://news.ycombinator.com/item?id=35058803
