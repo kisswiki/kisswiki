@@ -207,3 +207,9 @@ Rust is the inverse of Perl: It makes the easy stuff hard. Writing basic data st
 Then, there's the 'community.' It seems to consist solely of extremely online people who get a dopamine hit from both telling people they're doing things wrong and creating the most complex solutions possible. They do this under a thin veneer of forced niceness, but it's not nice at all.
 
 https://news.ycombinator.com/item?id=35058803
+
+##
+
+Sometimes Rust makes things hard because the invariants you want to express cannot be cleanly mapped onto Rust's type system. I described one such case here: https://blog.reverberate.org/2021/12/19/arenas-and-rust.html
+
+https://news.ycombinator.com/item?id=35061727
