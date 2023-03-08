@@ -21,6 +21,7 @@ Works also in file picker dialogs.
   - `Workflow receives current: files or folders`
   - `in: Finder.app`
   - on the left search for `Run Shell Script` and drag-and-drop it to the right.
+  - `Pass input: as arguments`
 
 The conent will be:
 
