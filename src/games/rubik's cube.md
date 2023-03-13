@@ -1,0 +1,5 @@
+- za 260 zł z dostawą https://strefa-kostek.pl/gan-11-m-pro-3x3x3-uv-coated-5305.html
+- gan 11 m pro jest najlepsza https://www.nytimes.com/wirecutter/reviews/best-speed-cubes/
+- uv coated jest lepsza od frosted https://www.reddit.com/r/GANCUBE_Official/comments/tko55l/frosted_or_uvcoated/
+- wideo z bicia rekordu https://www.youtube.com/watch?v=wL3uWO-KLUE
+- algorytm żeby szybko ułożyć http://www.cube20.org https://github.com/polylog-cs/rubiks-cube-video/blob/main/code/rubik_mitm_solution.cpp
