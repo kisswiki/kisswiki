@@ -1,0 +1,1 @@
+- `Settings > Webpages and uncheck Use Tab Zoom` https://www.reddit.com/r/vivaldibrowser/comments/ecbjcz/comment/fba9up3
