@@ -1,0 +1,1 @@
+`watchexec -i zig-cache -e zig zig test test*`
