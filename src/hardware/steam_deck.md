@@ -1,0 +1,5 @@
+- https://store.steampowered.com/steamdeck/mygames
+- https://store.steampowered.com/greatondeck/
+- https://www.emudeck.com/
+- https://www.reddit.com/r/SteamDeck/comments/10nq2g6/what_are_some_must_play_games_on_the_steam_deck/
+- https://www.reddit.com/r/SteamDeck/comments/10musuh/best_games_to_own_on_steam_deck_currently/
