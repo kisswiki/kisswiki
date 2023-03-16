@@ -1,0 +1,2 @@
+- https://dev.to/dev-academy/angular-architecture-patterns-and-best-practices-that-help-to-scale-507m
+  - https://github.com/cmandamiento/angular-architecture-base
