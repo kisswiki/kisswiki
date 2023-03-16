@@ -1,0 +1,2 @@
+- https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and
+  - https://news.ycombinator.com/item?id=35151088
