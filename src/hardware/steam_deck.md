@@ -20,3 +20,12 @@
   - Cemu is wiiu, yuzu is switch
   - Cemu for games that are on both switch and Wii U
 - [Steam Deck Emulation – Steam Deck Life](https://steamdecklife.com/category/steam-deck-emulation/)
+
+## Game Dev
+
+- [How to make a game on the Steam Deck - Full Tutorial - YouTube](https://www.youtube.com/watch?v=qz4G1tWE8cA)
+- [The ULTIMATE Steam Deck - YouTube](https://www.youtube.com/watch?v=JXhT13oZchA)
+- [The Steam Deck After 6 Months! - YouTube](https://www.youtube.com/watch?v=ouslfKIw9j0)
+- [Indie Game Funding Is a Nightmare - YouTube](https://www.youtube.com/watch?v=GG5m8NJoHoM)
+- [Developing for Steam Deck without a Dev-Kit (Steamworks Documentation)](https://partner.steamgames.com/doc/steamdeck/testing)
+- [Developing games on Steam Deck is surprisingly straightforward | GamesRadar+](https://www.gamesradar.com/developing-games-on-steam-deck-is-surprisingly-straightforward/)
