@@ -23,3 +23,5 @@ The reason I decided to abandon the book entirely at this point was because the 
 The original code was thread-safe; the new code is completely non-reentrant, and will give erratic or wrong results if used on multiple threads.
 
 https://www.reddit.com/r/programming/comments/11dyx43/comment/jabz1oz/
+
+- ["Clean" Code, Horrible Performance - YouTube](https://www.youtube.com/watch?v=tD5NrevFtbU)
