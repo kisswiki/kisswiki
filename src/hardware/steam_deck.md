@@ -4,3 +4,19 @@
 - https://www.reddit.com/r/SteamDeck/comments/10nq2g6/what_are_some_must_play_games_on_the_steam_deck/
 - https://www.reddit.com/r/SteamDeck/comments/10musuh/best_games_to_own_on_steam_deck_currently/
 - https://store.steampowered.com/account/registerkey
+
+## Emulation
+
+- [Games - yuzu](https://yuzu-emu.org/game/#)
+- [The PERFECT Breath of the Wild Experience on Steam Deck | Deck Dive - YouTube](https://www.youtube.com/watch?v=Iq-pgYlK7Ow)
+- [libvibrant/vibrantDeck: Plugin for the Steam Deck, to adjust color settings, like saturation or gamma](https://github.com/libvibrant/vibrantDeck)
+- [GameBanana on Twitter: "t3nka's Clarity Graphics Pack for #TheLegendofZeldaBreathoftheWildWiiU by t3nka https://t.co/3bsnm1nKLo #Mods #BotW https://t.co/L1JUSwRLEA" / Twitter](https://twitter.com/GameBanana/status/1239687904475131907)
+- [Steam Deck - ULTIMATE Starter Guide - YouTube](https://www.youtube.com/watch?v=MbpGPqacCos)
+- [YUZU Zelda BOTW : SteamDeck](https://www.reddit.com/r/SteamDeck/comments/xq9yn6/yuzu_zelda_botw/)
+  - Steam Deck just doesn’t have the horsepower for the Switch version of BOTW. It’s why we all use CEMU to play it.
+- [Which is better for BOTW? Yuzu or Cemu? : cemu](https://www.reddit.com/r/cemu/comments/wvl9qa/which_is_better_for_botw_yuzu_or_cemu/)
+  - Cemu had more developement time is thus a bit more mature than Yuzu, and BotW specifically has been optimized to death on Cemu because it's arguably one of the only three or four Wii U games that anyone is actually interested in playing.
+- [Cemu or yuzu for steam deck? Which one is the go to or the best one atm? : EmuDeck](https://www.reddit.com/r/EmuDeck/comments/ygrsnx/cemu_or_yuzu_for_steam_deck_which_one_is_the_go/)
+  - Cemu is wiiu, yuzu is switch
+  - Cemu for games that are on both switch and Wii U
+- [Steam Deck Emulation – Steam Deck Life](https://steamdecklife.com/category/steam-deck-emulation/)
