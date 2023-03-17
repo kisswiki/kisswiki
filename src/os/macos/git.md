@@ -1,5 +1,3 @@
-`brew install git git-gui`
-
 ## Old
 
 in `~/.bash_profile`
