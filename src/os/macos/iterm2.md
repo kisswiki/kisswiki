@@ -51,3 +51,9 @@ https://apple.stackexchange.com/questions/22445/how-can-i-save-tabs-in-iterm-2-s
 ## Hide Title Bar
 
 `Preferences > Profiles > Default > Window > Settings for New Window > Style > No Title Bar`
+
+use Rectangle app's key shortcut `option+cmd+enter` to maximize.
+
+## Disable sounds
+
+`Preferences > Profiles > Default > Terminal > Notifications > check "Silence bell"`
