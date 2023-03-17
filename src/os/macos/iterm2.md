@@ -40,7 +40,7 @@ https://apple.stackexchange.com/questions/22445/how-can-i-save-tabs-in-iterm-2-s
 
 - `Preferences > Appearance`
   - Panes
-    - uncheck all
+    - uncheck "Separate status bar per pane"
   - Dimming
     - uncheck all
 
