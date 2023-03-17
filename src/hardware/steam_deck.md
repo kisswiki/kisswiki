@@ -4,6 +4,7 @@
 - https://www.reddit.com/r/SteamDeck/comments/10nq2g6/what_are_some_must_play_games_on_the_steam_deck/
 - https://www.reddit.com/r/SteamDeck/comments/10musuh/best_games_to_own_on_steam_deck_currently/
 - https://store.steampowered.com/account/registerkey
+- playable https://steamdb.info/instantsearch/?range%5BuserScore%5D=93%3A&refinementList%5Boslist%5D%5B0%5D=Steam%20Deck%20Playable
 
 ## Emulation
 
