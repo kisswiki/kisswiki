@@ -33,3 +33,11 @@ https://apple.stackexchange.com/questions/22445/how-can-i-save-tabs-in-iterm-2-s
 ## scroll lines amount
 
 `Preferences > Profiles > Default > Terminal > Scrollback lines > 5000`
+
+## Panes
+
+- `Preferences > Appearance`
+  - Panes
+    - uncheck all
+  - Dimming
+    - uncheck all
