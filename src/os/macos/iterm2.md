@@ -23,8 +23,10 @@ https://apple.stackexchange.com/questions/337377/iterm2-split-vertically-with-cu
 
 ## full disc access
 
-- https://apple.stackexchange.com/questions/341644/iterm2-accessibility-and-full-disk-access
+`System Preferences > Security & Privacy > Privacy > Full Disk Access`
+
 - https://gitlab.com/gnachman/iterm2/-/wikis/fulldiskaccess
+- https://apple.stackexchange.com/questions/341644/iterm2-accessibility-and-full-disk-access
 
 ## restore split panes
 
