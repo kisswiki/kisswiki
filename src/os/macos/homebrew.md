@@ -138,3 +138,20 @@ Then re-install it:
 ## brew update - error with ruby
 
 https://apple.stackexchange.com/questions/153790/how-to-fix-brew-after-osx-upgrade-to-yosemite
+
+## link and unlink for neovim --HEAD
+
+```shell
+% brew info neovim
+% brew unlink neovim
+% brew install neovim --HEAD
+% brew link neovim --HEAD
+% brew unlink neovim
+% brew link neovim
+% brew link --dry-run neovim --HEAD
+```
+
+- https://stackoverflow.com/questions/21175235/what-does-linking-unlinking-with-homebrew-mean
+- https://stackoverflow.com/questions/64833482/do-you-need-to-run-brew-unlink-brew-link-before-after-brew-switch
+- https://docs.brew.sh/Tips-N%27-Tricks#activate-a-previously-installed-version-of-a-formula
+- https://stackoverflow.com/questions/13477363/how-can-i-brew-link-a-specific-version
