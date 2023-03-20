@@ -17,6 +17,8 @@ Works also in file picker dialogs.
 
 ## script to convert video
 
+`brew install ffmpeg`
+
 - `Automator > Quick Action`
   - `Workflow receives current: files or folders`
   - `in: Finder.app`
