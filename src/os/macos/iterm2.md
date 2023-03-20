@@ -57,3 +57,15 @@ use Rectangle app's key shortcut `option+cmd+enter` to maximize.
 ## Disable sounds
 
 `Preferences > Profiles > Default > Terminal > Notifications > check "Silence bell"`
+
+## cmd+. like alt+.
+
+`Preferences > Profiles > Default > Keys > Key Mappings`
+
+Keyboard Shorcut: `cmd+.`
+
+Action: `Send Escape Sequence`
+
+Esc+: `.`
+
+- https://superuser.com/questions/703911/iterm2-alt-dot-functionality-with-cmd-dot/704301#704301
