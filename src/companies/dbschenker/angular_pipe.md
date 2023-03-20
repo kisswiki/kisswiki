@@ -1,0 +1,3 @@
+- https://angular.io/guide/pipes-custom-data-trans
+  - example 404s https://angular.io/generated/live-examples/pipes-custom-data-trans/stackblitz.html
+    - but this works https://angular.io/generated/live-examples/pipes/stackblitz.html from https://angular.io/guide/pipes
