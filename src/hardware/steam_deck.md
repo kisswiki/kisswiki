@@ -30,3 +30,16 @@
 - [Indie Game Funding Is a Nightmare - YouTube](https://www.youtube.com/watch?v=GG5m8NJoHoM)
 - [Developing for Steam Deck without a Dev-Kit (Steamworks Documentation)](https://partner.steamgames.com/doc/steamdeck/testing)
 - [Developing games on Steam Deck is surprisingly straightforward | GamesRadar+](https://www.gamesradar.com/developing-games-on-steam-deck-is-surprisingly-straightforward/)
+
+## Titan Fall
+
+- Needed to click steam button after login to activision, so that to login popup goes away.
+
+## Proton GE
+
+In Desktop mode > Discover > ProtonUp-Qt > install Proton GE beta
+
+## Metro 2033 Redux
+
+- Works better with Proton GE
+
