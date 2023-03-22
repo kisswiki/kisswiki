@@ -1,0 +1,6 @@
+- https://material.angular.io/components/icon
+- Angular Material team expects developers to include the Google Material Design Icon Font themselves (Google Fonts/self-host/whatever you fancy). 
+- Add the following to your index.html: `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">` https://stackoverflow.com/questions/49796212/angular-material-icons-not-working/49796321#49796321
+- https://github.com/angular/components/issues/7948
+- https://stackoverflow.com/questions/50637666/is-there-an-official-or-exhaustive-list-of-all-mat-icons-in-angular
+  - https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/
