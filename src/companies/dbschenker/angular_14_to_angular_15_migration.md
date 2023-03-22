@@ -3,7 +3,7 @@
 - https://github.com/ngbracket/ngx-layout
   -  https://github.com/angular/flex-layout/issues/1426#issuecomment-1436066600
 
-Eventually:
+Alternatively:
 
 - https://github.com/angular/flex-layout/issues/1426#issuecomment-1342706122https://github.com/philmtd/css-fx-layouthttps://gist.github.com/emonney/6c635f2916773ec2f0033443fc0338a6
 - https://github.com/angular/flex-layout/issues/1426#issuecomment-1375585742https://github.com/angular/flex-layout/issues/1426#issuecomment-1422512784
