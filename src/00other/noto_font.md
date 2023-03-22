@@ -1,0 +1,4 @@
+- https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Noto/Mono/complete
+- https://en.wikipedia.org/wiki/Noto_fonts
+- https://www.monotype.com/resources/case-studies/more-than-800-languages-in-a-single-typeface-creating-noto-for-google
+- https://www.itsnicethat.com/news/ikea-changes-typeface-to-noto-monotype-google-graphic-design-210819
