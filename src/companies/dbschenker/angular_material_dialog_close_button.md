@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/58151512/angular-8-material-dialog-close-button-with-x-top-right/66455877#66455877
