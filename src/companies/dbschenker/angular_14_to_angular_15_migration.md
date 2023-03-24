@@ -14,4 +14,3 @@ I experienced follwing problems while migrating to other libraries:Migrating to 
 ## This helped to convert to Angular 15 and get rid of flex-layout
 
 - https://material.angular.io/components/table/overview
-- https://material.angular.io/components/dialog/examples_
