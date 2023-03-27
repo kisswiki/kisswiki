@@ -22,3 +22,11 @@ Press x.
 ## Hard restart of steam deck
 
 Press power button for 20s, wait 5 minutes.
+
+## Battery life
+
+Limit refresh rate to 40Hz and fps to 40. Limit TDP.
+
+Use Decky Settings https://steamdecklife.com/2023/01/10/decksettings-steam-deck-game-settings/ to see optimal settings for you, either for battery or performance.
+
+- [Steam Deck - 40 FPS is the new 60 - YouTube](https://www.youtube.com/watch?v=ZWZI3CKlByc)
