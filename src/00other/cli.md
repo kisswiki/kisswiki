@@ -31,6 +31,7 @@ nicer visuals, graph `alias ping='prettyping --nolegend'` https://github.com/den
 
 ## fzf > ctrl+r
 
+- also about fzf https://remysharp.com/2018/08/23/cli-improved
 - https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/
 - atuin + fzf https://news.ycombinator.com/item?id=35248098#35256206
 - https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861
