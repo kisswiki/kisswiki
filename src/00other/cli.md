@@ -1,6 +1,4 @@
 - https://remysharp.com/2018/08/23/cli-improved
-- https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861
-- [Navigating a filesystem quickly with fzf and fd](https://mike.place/2017/fzf-fd/)
 - https://darrenburns.net/posts/tools/
   - z > cd https://github.com/rupa/z
   - https://github.com/wting/autojump
@@ -34,6 +32,9 @@ nicer visuals, graph `alias ping='prettyping --nolegend'` https://github.com/den
 ## fzf > ctrl+r
 
 - https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/
+- atuin + fzf https://news.ycombinator.com/item?id=35248098#35256206
+- https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861
+- [Navigating a filesystem quickly with fzf and fd](https://mike.place/2017/fzf-fd/)
 
 fuzzy search against the terminal history, with a fully interactive preview of the possible matches, preview and open files https://github.com/junegunn/fzf
 
