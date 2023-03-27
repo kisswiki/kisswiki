@@ -60,3 +60,9 @@ To locate shader packs folder: `Desktop Mode > Prism Launcher > Minecraft > Opti
 To move worlds from one instance to another: `Desktop Mode > Prism Launcher > click on instance > Folder > hamburger menu > Show Hidden files > open .minecraft folder`.
 
 To close Prism in Game Mode: `steam button > Exit game`.
+
+To have left touchpad click working as right-mouse button click: `steam button > edit controller setup > left touchpad > click: right-mouse button click`.
+
+## Clear binding for left touchpad click
+
+Press x.
