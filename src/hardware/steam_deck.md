@@ -74,3 +74,7 @@ Press x.
 ## Rise of the Tomb Raider
 
 Aiming with gyro: community template with gyro
+
+## Hard restart of steam deck
+
+Press power button for 20s, wait 5 minutes.
