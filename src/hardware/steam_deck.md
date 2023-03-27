@@ -37,7 +37,11 @@
 
 ## Proton GE
 
-In Desktop mode > Discover > ProtonUp-Qt > install Proton GE beta
+Some games are supported only by https://github.com/GloriousEggroll/proton-ge-custom.
+
+`Desktop mode > Discover > ProtonUp-Qt > install Proton GE beta`
+
+There is button game list, but setting it here does nothing. You need to choose proton ge in game settings in steam.
 
 ## Metro 2033 Redux
 
