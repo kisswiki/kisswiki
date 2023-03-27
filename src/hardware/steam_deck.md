@@ -82,3 +82,13 @@ Aiming with gyro: community template with gyro
 ## Hard restart of steam deck
 
 Press power button for 20s, wait 5 minutes.
+
+## Nex Machina
+
+launch options
+
+`PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 PULSE_LATENCY_MSEC=60 %command%`
+
+online though does not work.
+
+https://www.protondb.com/app/404540#Bi7h95t971
