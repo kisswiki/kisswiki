@@ -43,3 +43,7 @@ launch options
 online though does not work.
 
 https://www.protondb.com/app/404540#Bi7h95t971
+
+## Resident Evil 4 Remake
+
+https://www.rockpapershotgun.com/resident-evil-4-remake-steam-deck-performance-and-best-settings
