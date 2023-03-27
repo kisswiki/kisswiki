@@ -66,3 +66,11 @@ To have left touchpad click working as right-mouse button click: `steam button >
 ## Clear binding for left touchpad click
 
 Press x.
+
+## Doom (2015) with Vulkan gives more fps
+
+`Doom > Settings > Advanced > GPU API > Vulkan`.
+
+## Rise of the Tomb Raider
+
+Aiming with gyro: community template with gyro
