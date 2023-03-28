@@ -6,6 +6,8 @@
 - https://store.steampowered.com/account/registerkey
 - playable https://steamdb.info/instantsearch/?range%5BuserScore%5D=93%3A&refinementList%5Boslist%5D%5B0%5D=Steam%20Deck%20Playable
 - https://www.gamingonlinux.com/articles/category/Steam_Deck
+- [GameBanana on Twitter: "t3nka's Clarity Graphics Pack for #TheLegendofZeldaBreathoftheWildWiiU by t3nka https://t.co/3bsnm1nKLo #Mods #BotW https://t.co/L1JUSwRLEA" / Twitter](https://twitter.com/GameBanana/status/1239687904475131907)
+- [Steam Deck - ULTIMATE Starter Guide - YouTube](https://www.youtube.com/watch?v=MbpGPqacCos)
 
 ## Proton GE
 

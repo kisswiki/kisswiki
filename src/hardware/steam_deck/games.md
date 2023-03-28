@@ -47,3 +47,17 @@ https://www.protondb.com/app/404540#Bi7h95t971
 ## Resident Evil 4 Remake
 
 https://www.rockpapershotgun.com/resident-evil-4-remake-steam-deck-performance-and-best-settings
+
+## Skyrim
+
+How to play Skyrim from desktop mode and use firefox to consult uesp.
+
+1. Desktop mode
+2. Steam
+3. Skyrim
+4. STEAM-x (brings up Steam overlay)
+5. STEAM (minimizes Skyrim and returns to Desktop mode)
+6. Do firefox or any other bidness
+7. Tap Skyrim in the bottom bar to return to the game
+
+https://www.reddit.com/r/SteamDeckTricks/comments/twukhk/rsteamdecktricks_lounge/

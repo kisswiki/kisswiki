@@ -1,0 +1,4 @@
+- I used Lutris to install all my GOG games on the steam deck, at this point you'll find the list of games that don't work is much smaller than the list of games that do. https://www.reddit.com/r/gog/comments/1061e2u/comment/j3febwy/
+- https://steamdecklife.com/2022/12/29/heroic-games-launcher-steam-deck/
+- https://lutris.net/games/epic-games-store/
+- https://lutris.net/games/gog-galaxy/

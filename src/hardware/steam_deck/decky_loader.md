@@ -1,2 +1,3 @@
 - https://steamdecklife.com/category/steam-deck-plugins/
   - https://steamdecklife.com/2023/02/19/decky-recorder-steam-deck-plugin/
+- [libvibrant/vibrantDeck: Plugin for the Steam Deck, to adjust color settings, like saturation or gamma](https://github.com/libvibrant/vibrantDeck)

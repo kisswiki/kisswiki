@@ -1,9 +1,7 @@
 - https://greatondeck.net/emulation-on-steam-deck-with-emudeck-complete-guide/
 - [Games - yuzu](https://yuzu-emu.org/game/#)
 - [The PERFECT Breath of the Wild Experience on Steam Deck | Deck Dive - YouTube](https://www.youtube.com/watch?v=Iq-pgYlK7Ow)
-- [libvibrant/vibrantDeck: Plugin for the Steam Deck, to adjust color settings, like saturation or gamma](https://github.com/libvibrant/vibrantDeck)
-- [GameBanana on Twitter: "t3nka's Clarity Graphics Pack for #TheLegendofZeldaBreathoftheWildWiiU by t3nka https://t.co/3bsnm1nKLo #Mods #BotW https://t.co/L1JUSwRLEA" / Twitter](https://twitter.com/GameBanana/status/1239687904475131907)
-- [Steam Deck - ULTIMATE Starter Guide - YouTube](https://www.youtube.com/watch?v=MbpGPqacCos)
+- https://www.reddit.com/r/EmuDeck/
 - [YUZU Zelda BOTW : SteamDeck](https://www.reddit.com/r/SteamDeck/comments/xq9yn6/yuzu_zelda_botw/)
   - Steam Deck just doesn’t have the horsepower for the Switch version of BOTW. It’s why we all use CEMU to play it.
 - [Which is better for BOTW? Yuzu or Cemu? : cemu](https://www.reddit.com/r/cemu/comments/wvl9qa/which_is_better_for_botw_yuzu_or_cemu/)
