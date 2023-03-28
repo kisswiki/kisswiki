@@ -11,7 +11,7 @@
 
 ## Minecraft
 
-Fabulously Optimized modpack: `Desktop Mode > Discover > Prism Launcher > Install` then `Add Instance > in the window opened on the left click Mondrinth > select Fabulously Optimized > Ok`. https://fabulously-optimized.gitbook.io/modpack/readme/install-instructions#steam-deck
+Fabulously Optimized modpack: `Desktop Mode > Discover > Prism Launcher > Install` then `Add Instance > window will open and on the left click Mondrinth > select Fabulously Optimized > Ok`. https://fabulously-optimized.gitbook.io/modpack/readme/install-instructions#steam-deck
 
 Controller setup: with Fabulously Optimized there is MidnightControls mod. Go to `Minecraft > Options > Controls > click on gamepad icon > Mode: Controller`. Left trigger to move does not work in Desktop Mode.
 
