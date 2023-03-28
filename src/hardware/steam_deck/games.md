@@ -1,3 +1,6 @@
+- https://www.reddit.com/r/gog/comments/1061e2u/is_there_a_list_of_gog_games_that_work_on_steam/
+- https://www.reddit.com/r/SteamDeck/comments/123u7e3/what_game_have_you_played_the_most_so_far_on_your/
+
 ## Titan Fall
 
 - Needed to click steam button after login to activision, so that to login popup goes away.
@@ -8,11 +11,11 @@
 
 ## Minecraft
 
-Fabulously Optimized modpack: `Desktop Mode > Discove > Prism Launcher > Install` then `Add Instance > in the window opened on the left click Mondrinth > select Fabulously Optimized > Ok`. https://fabulously-optimized.gitbook.io/modpack/readme/install-instructions#steam-deck
+Fabulously Optimized modpack: `Desktop Mode > Discover > Prism Launcher > Install` then `Add Instance > in the window opened on the left click Mondrinth > select Fabulously Optimized > Ok`. https://fabulously-optimized.gitbook.io/modpack/readme/install-instructions#steam-deck
 
 Controller setup: with Fabulously Optimized there is MidnightControls mod. Go to `Minecraft > Options > Controls > click on gamepad icon > Mode: Controller`. Left trigger to move does not work in Desktop Mode.
 
-Brightness: `edit instance > Mods > Add file > boosted-brightness-2.1.3+1.19.3.jar` downloaded from https://www.curseforge.com/minecraft/mc-mods/boosted-brightness/files. Then go to `Minecraft > Mods > Boosted Brightness > on the right click icon with sliders > set brightess`. You can bind shorcuts for brightness setting in game pad settings.
+Brightness: `edit instance > Mods > Add file > boosted-brightness-2.1.3+1.19.3.jar` downloaded from https://www.curseforge.com/minecraft/mc-mods/boosted-brightness/files. Then go to `Minecraft > Mods > Boosted Brightness > on the right click icon with sliders > set brightness`. You can bind shorcuts for brightness setting in game pad settings.
 
 To Rename instance, `right-click on instance (steam button + left trigger) > Rename` or `click instance > click on instance name on the right`.
 

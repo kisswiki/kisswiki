@@ -1,3 +1,4 @@
+- https://github.com/dragoonDorise/EmuDeck/wiki/
 - https://greatondeck.net/emulation-on-steam-deck-with-emudeck-complete-guide/
 - [Games - yuzu](https://yuzu-emu.org/game/#)
 - [The PERFECT Breath of the Wild Experience on Steam Deck | Deck Dive - YouTube](https://www.youtube.com/watch?v=Iq-pgYlK7Ow)

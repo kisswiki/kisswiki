@@ -8,6 +8,12 @@
 - https://www.gamingonlinux.com/articles/category/Steam_Deck
 - [GameBanana on Twitter: "t3nka's Clarity Graphics Pack for #TheLegendofZeldaBreathoftheWildWiiU by t3nka https://t.co/3bsnm1nKLo #Mods #BotW https://t.co/L1JUSwRLEA" / Twitter](https://twitter.com/GameBanana/status/1239687904475131907)
 - [Steam Deck - ULTIMATE Starter Guide - YouTube](https://www.youtube.com/watch?v=MbpGPqacCos)
+- https://www.reddit.com/r/SteamDeckTricks/
+- https://www.reddit.com/r/SteamDeck/
+- https://www.reddit.com/r/SteamDeckTricks/comments/twulqf/tips_and_tricks_megathread/
+- https://www.reddit.com/r/SteamDeck/comments/w16nio/a_kickstart_guide_of_nonsteam_games_prefixes/
+- https://wagnerstechtalk.com/steamdeck/
+- docks compared https://wagnerstechtalk.com/steamdeck/#Official_Steam_Deck_Docking_Station
 
 ## Proton GE
 
