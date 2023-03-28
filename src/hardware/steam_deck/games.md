@@ -29,6 +29,8 @@ To close Prism in Game Mode: `steam button > Exit game`.
 
 To have left touchpad click working as right-mouse button click: `steam button > edit controller setup > left touchpad > click: right-mouse button click`.
 
+https://www.reddit.com/r/SteamDeck/comments/124lft7/my_short_tutorial_for_minecraft/
+
 ## Doom (2015) with Vulkan gives more fps
 
 `Doom > Settings > Advanced > GPU API > Vulkan`.
