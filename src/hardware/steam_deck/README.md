@@ -52,6 +52,22 @@ https://www.youtube.com/watch?v=5uQcEyPzia4&lc=UgyLJr11zGd6ufCEHNR4AaABAg
 
 - [Steam Deck - Better Non-Steam Game and Windows Performance with One Setting Change - YouTube](https://www.youtube.com/watch?v=qt7l2_SmGnc&t=62s)
 
+AyuNeko
+2 months ago
+Hi, i am a programmer, i think i can help you understand some things better
+What you are right about: Allocating VRAM in BIOS reserves that memory for GPU only. If you set 1GB, GPU only has 1GB for textures. If you load more than 1GB of textures, the system will swap in and out textures between memory and swapfile.
+So for example if you set your game settings to high-res textures, and the game loads up to 1.5gb or 2gb of textures, but you only have 1GB reserved for GPU. The system needs to swap in and out textures to the swap file and back to the reserved 1GB GPU VRAM. This swapping in and out causes STUTTER!!
+
+Now about that VRAM number you are seeing on your top left display. I think here your understanding is wrong. The 2.8-3.1gb you saw in your 3 tests, is not how much VRAM is allocated to the GPU, no, that number says how much textures are loaded. But it doesn't say where those textues are, some of it are inside the reserved GPU VRAM, some of it are swapped out into a swap file. For the game to run stutterfree, you want all textures to be loaded into the VRAM.
+
+On your first test, where you had only 256mb reserved for GPU, but 3.1gb of textures loaded. Can you imagine how much the GPU needs to swap in textures between swapfile and that tiny 256mb VRAM? This is why it stutters so much, the framegraph, that green line is very shaky.
+
+On your last test, where you had 4Gb reserved for GPU, and 2.8gb of textures loaded. Here ALL the textures can be put into the GPU VRAM without swaping in and out of swapfile. The result is of not having to swap is a much more linear framegraph, a much more stable framerate. Not as shaky as in first test.
+
+Now, do we always want 4Gb reserved for GPU? No. It depends on the game, how much textures the game loads at the same time. What you want is to always have enough VRAM for the GPU, so it can have all textures without swapping.
+
+https://www.youtube.com/watch?v=F9jbfZxA6ew&lc=Ugz80I6C1FMcUTDv_YZ4AaABAg
+
 ## 24 hour time
 
 `Settings > General`
