@@ -73,3 +73,9 @@ Now, do we always want 4Gb reserved for GPU? No. It depends on the game, how muc
 ## 24 hour time
 
 `Settings > General`
+
+## Joystick deadzones
+
+`Steam Deck Gaming Mode > left Steam Menu button > Settings > Calibration & Advanced Settings`
+
+- https://www.reddit.com/r/SteamDeck/comments/w2gos4/psa_optimize_your_deadzones/
