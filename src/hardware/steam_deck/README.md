@@ -51,6 +51,7 @@ https://www.youtube.com/watch?v=5uQcEyPzia4&lc=UgyLJr11zGd6ufCEHNR4AaABAg
 ## 4GB VRAM smoother fps
 
 - [Steam Deck - Better Non-Steam Game and Windows Performance with One Setting Change - YouTube](https://www.youtube.com/watch?v=qt7l2_SmGnc&t=62s)
+  - game tested https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/
 
 AyuNeko
 2 months ago
@@ -66,7 +67,8 @@ On your last test, where you had 4Gb reserved for GPU, and 2.8gb of textures loa
 
 Now, do we always want 4Gb reserved for GPU? No. It depends on the game, how much textures the game loads at the same time. What you want is to always have enough VRAM for the GPU, so it can have all textures without swapping.
 
-https://www.youtube.com/watch?v=F9jbfZxA6ew&lc=Ugz80I6C1FMcUTDv_YZ4AaABAg
+- https://www.youtube.com/watch?v=F9jbfZxA6ew&lc=Ugz80I6C1FMcUTDv_YZ4AaABAg
+- [Steam Deck: VRAM - 1GB vs 4GB; Put To The Test on SteamOS and Windows - YouTube](https://www.youtube.com/watch?v=MbAK_n1aa2Y)
 
 ## 24 hour time
 
