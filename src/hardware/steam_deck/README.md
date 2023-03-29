@@ -80,5 +80,7 @@ Now, do we always want 4Gb reserved for GPU? No. It depends on the game, how muc
 
 By default it is set to 8192.
 
+Set to zero? Also set in game settings for dead zone to zero?
+
 - https://www.reddit.com/r/SteamDeck/comments/w2gos4/psa_optimize_your_deadzones/
 - [Steam Deck Thumbstick Dead Zone Demonstration UI & In-game. (Valve Customer Support Submission) - YouTube](https://www.youtube.com/watch?v=5Fmwerkb6yo)
