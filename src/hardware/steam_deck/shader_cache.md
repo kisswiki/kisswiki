@@ -1,0 +1,8 @@
+- https://www.reddit.com/r/SteamDeck/comments/yesghh/how_do_i_reset_shader_caches/
+  - https://www.reddit.com/r/SteamDeck/comments/yesghh/comment/iu4pplw/
+- https://steamdeckhq.com/tips-and-guides/save-storage-with-the-deck-cleaner/
+  - https://github.com/MiaPepsi/DeckCleaner/releases
+- https://www.reddit.com/r/SteamDeck/comments/xmauwt/zshadercachekiller_a_utility_to_selectively/
+  - https://steamdecklife.com/2022/09/24/heres-a-tool-to-selectively-delete-shader-cache-compatdata-on-the-steam-deck/
+  - https://github.com/scawp/Steam-Deck.Shader-Cache-Killer
+- https://www.reddit.com/r/SteamDeck/comments/tz9rza/is_shader_cache_and_compatdata_filling_your_64gb/

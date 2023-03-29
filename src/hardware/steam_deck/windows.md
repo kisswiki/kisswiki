@@ -1,0 +1,1 @@
+- [How to Dual/Triple/Quad Boot Steam Deck - SteamOS, Windows, Batocera, Ubuntu - YouTube](https://www.youtube.com/watch?v=zEpcBWX9K_o)

@@ -42,6 +42,16 @@ Look at remaining time in 3rd level of Performance Overlay https://www.partition
 - [Steam Deck - 40 FPS is the new 60 - YouTube](https://www.youtube.com/watch?v=ZWZI3CKlByc)
 - [CryoUtilities 2.0 - MASSIVE Performance Boosts & Space Savings! | Steam Deck - YouTube](https://www.youtube.com/watch?v=C9EjXYZUqUs)
 
+## FSR
+
+To get it to work, you have to LOWER the native resolution. It’s 1280x800 I’m pretty sure at standard, so lower that by like two notches to like 1120 x something or lower, hit the 3 dots button, go to performance and scroll to the bottom until You see the option for fsr. It’ll be this bar that has a couple of options, one of them saying “integer” You will know it’s activated when the actual resolution of your screen changes, since FSR is an upscaler. With FSR, I’m able to play way more AAA games like the Witcher 3 at a almost rock solid 60fps. Really awesome shit that people should utilize.
+
+https://www.youtube.com/watch?v=5uQcEyPzia4&lc=UgyLJr11zGd6ufCEHNR4AaABAg
+
+## 4GB VRAM smoother fps
+
+- [Steam Deck - Better Non-Steam Game and Windows Performance with One Setting Change - YouTube](https://www.youtube.com/watch?v=qt7l2_SmGnc&t=62s)
+
 ## 24 hour time
 
 `Settings > General`
