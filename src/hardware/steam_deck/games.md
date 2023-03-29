@@ -15,20 +15,27 @@ Fabulously Optimized modpack: `Desktop Mode > Discover > Prism Launcher > Instal
 
 Controller setup: with Fabulously Optimized there is MidnightControls mod. Go to `Minecraft > Options > Controls > click on gamepad icon > Mode: Controller`. Left trigger to move does not work in Desktop Mode.
 
-Brightness: `edit instance > Mods > Add file > boosted-brightness-2.1.3+1.19.3.jar` downloaded from https://www.curseforge.com/minecraft/mc-mods/boosted-brightness/files. Then go to `Minecraft > Mods > Boosted Brightness > on the right click icon with sliders > set brightness`. You can bind shorcuts for brightness setting in game pad settings.
+To have left touchpad click working as right-mouse button click: `steam button > edit controller setup > left touchpad > click: right-mouse button click`.
 
-To Rename instance, `right-click on instance (steam button + left trigger) > Rename` or `click instance > click on instance name on the right`.
+Brightness: `edit instance > Mods > Add file > boosted-brightness-2.1.3+1.19.3.jar` downloaded from https://www.curseforge.com/minecraft/mc-mods/boosted-brightness/files. Then go to `Minecraft > Mods > Boosted Brightness > on the right you have to click icon with sliders > set brightness`. You can bind shorcuts for brightness setting in game pad settings.
+
+To rename instance: `right-click on instance (steam button + left trigger) > Rename` or `click instance > click on instance name on the right`.
 
 To locate resources folder: `Desktop Mode > Prism Launcher > Minecraft > Options > Resource Packs > Open Pack Folder`. https://modrinth.com/resourcepacks
 
-To locate shader packs folder: `Desktop Mode > Prism Launcher > Minecraft > Options > Vide Settings > on the top right click Shader Packs`. https://modrinth.com/shaders
+To locate shader packs folder: `Desktop Mode > Prism Launcher > Minecraft > Options > Video Settings > on the top right click Shader Packs`. https://modrinth.com/shaders
 
 To move worlds from one instance to another: `Desktop Mode > Prism Launcher > click on instance > Folder > hamburger menu > Show Hidden files > open .minecraft folder`.
 
-To close Prism in Game Mode: `steam button > Exit game`.
+To close Prism Launcher in Game Mode: `steam button > Exit game`.
 
-To have left touchpad click working as right-mouse button click: `steam button > edit controller setup > left touchpad > click: right-mouse button click`.
+To make Prism Launcher start instance: `Desktop Mode > Prism Launcher > select instance > on the right click Folder.` Remember the folder name that was opened. For me it is "Fabulously Optimized". Go to `Game Mode > click icon near  Prism Launcher > LAUNCH OPTIONS > at the end add -l "Fabulously Optimized"`
 
+BONUS
+
+4GB VRAM: `Hold Volume UP and press Power Once while the Deck is turned off > Setup Utility > Advanced > UMA > 4G > Save & Exit`
+
+https://github.com/CryoByte33/steam-deck-utilities
 https://www.reddit.com/r/SteamDeck/comments/124lft7/my_short_tutorial_for_minecraft/
 
 ## Doom (2015) with Vulkan gives more fps
