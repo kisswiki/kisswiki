@@ -76,6 +76,9 @@ Now, do we always want 4Gb reserved for GPU? No. It depends on the game, how muc
 
 ## Joystick deadzones
 
-`Steam Deck Gaming Mode > left Steam Menu button > Settings > Calibration & Advanced Settings`
+`Steam Deck Gaming Mode > left Steam Menu button > Settings > Controller > Calibration & Advanced Settings`
+
+By default it is set to 8192.
 
 - https://www.reddit.com/r/SteamDeck/comments/w2gos4/psa_optimize_your_deadzones/
+- [Steam Deck Thumbstick Dead Zone Demonstration UI & In-game. (Valve Customer Support Submission) - YouTube](https://www.youtube.com/watch?v=5Fmwerkb6yo)
