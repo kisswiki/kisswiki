@@ -84,3 +84,8 @@ Set to zero? Also set in game settings for dead zone to zero?
 
 - https://www.reddit.com/r/SteamDeck/comments/w2gos4/psa_optimize_your_deadzones/
 - [Steam Deck Thumbstick Dead Zone Demonstration UI & In-game. (Valve Customer Support Submission) - YouTube](https://www.youtube.com/watch?v=5Fmwerkb6yo)
+- Reduce the dead zones on the analog sticks under settings/controller settings! By default they are about twice as large as they need to be. https://www.youtube.com/watch?v=5uQcEyPzia4&lc=UgyXtf6_zRC6zNx-hgF4AaABAg
+
+## Case for charger
+
+https://www.printables.com/pl/model/162557-new-version-35-with-xl-lid-steamdeck-usb-c-charger
