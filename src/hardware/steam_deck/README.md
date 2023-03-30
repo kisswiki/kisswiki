@@ -14,6 +14,7 @@
 - https://www.reddit.com/r/SteamDeck/comments/w16nio/a_kickstart_guide_of_nonsteam_games_prefixes/
 - https://wagnerstechtalk.com/steamdeck/
 - docks compared https://wagnerstechtalk.com/steamdeck/#Official_Steam_Deck_Docking_Station
+- https://lowcygier.pl/platforma/steam-deck/
 
 ## Proton GE
 
