@@ -4,7 +4,7 @@
 
 ```shell
 $ passwd
-$ sudo systemctl start sshd
+$ sudo systemctl enable --now sshd
 # get ip of steam deck
 $ ip addr
 ```
@@ -14,7 +14,6 @@ $ ip addr
 ```shell
 $ ssh-copy-id -i ~/.ssh/id_ed25519.pub deck@192.168.1.28
 $ ssh deck@192.168.1.28
-(130)(deck@steamdeck ~)$ sudo systemctl enable sshd
 ```
 
 ### Transfer files with midnight commander
