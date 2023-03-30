@@ -34,3 +34,7 @@ Install midnight commander (i.e. `brew install mc`)
 As someone who has tried warpinator and winSCP, warpinator isn't worth it because it's so finicky and breaks half the time unlike winSCP. It's not that much harder to set up winSCP anyway.
 
 https://www.youtube.com/watch?v=pvEZELnbPoI&lc=UgypVJgRsdMWkxCwlEd4AaABAg.9jQuaDtuQPt9jT0Mr3Lffx
+
+You can use warpinator, but I'd honestly suggest just getting SSH enabled. I had an issue where Warpinator wasn't reading between linux and windows devices (bug was fixed, but it shouldn't have really happened.)
+
+https://www.reddit.com/r/SteamDeckTricks/comments/xfst47/comment/ip4tg8k/
