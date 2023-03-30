@@ -36,8 +36,8 @@ BONUS
 
 4GB VRAM: `Hold Volume UP and press Power Once while the Deck is turned off > Setup Utility > Advanced > UMA > 4G > Save & Exit`
 
-https://github.com/CryoByte33/steam-deck-utilities
-https://www.reddit.com/r/SteamDeck/comments/124lft7/my_short_tutorial_for_minecraft/
+- https://github.com/CryoByte33/steam-deck-utilities
+- https://www.reddit.com/r/SteamDeck/comments/124lft7/my_short_tutorial_for_minecraft/
 
 ## Doom (2015) with Vulkan gives more fps
 
