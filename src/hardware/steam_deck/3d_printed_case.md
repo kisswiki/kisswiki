@@ -1,0 +1,3 @@
+- https://www.reddit.com/r/SteamDeck/comments/12563yo/figured_out_what_to_do_with_the_strap_on_the_back/
+- https://www.printables.com/pl/model/243652-steam-deck-charger-organizer-eu
+- https://www.printables.com/pl/model/377094-eu-steam-deck-charger-cradle
