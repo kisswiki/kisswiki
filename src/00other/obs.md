@@ -100,7 +100,10 @@ https://humandecoded.io/obs-settings-for-screen-recording-on-macbook-pro/
 
 - Base (Canvas) Resolution: 1920x1080
 - Output (Scaled) Resolution: 1920x1080
+- Custom FPS Values: 60
 
 `Sources > right click on Display Capture > Transform > Fit to screen`
 
 - [OBS Studio | Screen Resolution Issue | 16:10 | 16:9 | Black Bars | Resolved | Moreynchi - YouTube](https://www.youtube.com/watch?v=8lR5JFBTSqk)
+- [How to Screen Record on Mac (OBS + Quicktime) - YouTube](https://www.youtube.com/watch?v=Sy3NowFcbfk)
+- [🔴 How to use OBS for Screen Recording or Streaming - Beginner Tutorial - YouTube](https://www.youtube.com/watch?v=ySENWFIkL7c)
