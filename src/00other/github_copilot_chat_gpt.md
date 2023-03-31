@@ -3,3 +3,4 @@
 - https://github.com/features/copilot
 - https://stackoverflow.com/questions/75276040/can-i-customize-option-key-in-mac/75900265#75900265
 - https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment
+- `ctrl+enter` to Open GitHub Copilot (additional suggestions in separate pane)
