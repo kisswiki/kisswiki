@@ -74,3 +74,9 @@ You cannot pause if there is `Settings > Output > Recording > Recording Quality 
 Change to other quality.
 
 https://obsproject.com/forum/threads/how-to-pause-during-recording-of-display-capture.124412/#post-464529
+
+## display capture wrong size
+
+`Sources > right click on Display Capture > Resize output (source size)`
+
+- [FIX OBS Studio Screen Issue in MacBook Pro M1 - Use Display Capture - resize output! - YouTube](https://www.youtube.com/watch?v=HwbjJ271u2Q)
