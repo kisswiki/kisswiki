@@ -93,3 +93,14 @@ https://obsproject.com/forum/threads/how-to-pause-during-recording-of-display-ca
   - CPU Usage Preset: veryfast
 
 https://humandecoded.io/obs-settings-for-screen-recording-on-macbook-pro/
+
+## 1920x1080
+
+`Preferences > Video`
+
+- Base (Canvas) Resolution: 1920x1080
+- Output (Scaled) Resolution: 1920x1080
+
+`Sources > right click on Display Capture > Transform > Fit to screen`
+
+- [OBS Studio | Screen Resolution Issue | 16:10 | 16:9 | Black Bars | Resolved | Moreynchi - YouTube](https://www.youtube.com/watch?v=8lR5JFBTSqk)
