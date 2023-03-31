@@ -80,3 +80,16 @@ https://obsproject.com/forum/threads/how-to-pause-during-recording-of-display-ca
 `Sources > right click on Display Capture > Resize output (source size)`
 
 - [FIX OBS Studio Screen Issue in MacBook Pro M1 - Use Display Capture - resize output! - YouTube](https://www.youtube.com/watch?v=HwbjJ271u2Q)
+
+## Settings
+
+`Preferences > Output > Output Mode: Advanced > Recording`
+
+- Recording Settings
+  - Recording format: mp4
+  - Encoder: x264
+- Encoder Settings
+  - Bitrate: 40000 Kbps
+  - CPU Usage Preset: veryfast
+
+https://humandecoded.io/obs-settings-for-screen-recording-on-macbook-pro/
