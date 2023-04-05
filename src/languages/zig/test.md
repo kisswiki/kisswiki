@@ -1,3 +1,5 @@
+## run all tests
+
 purple
 
 is there a way to run "all" tests, or must one run zig test for each file that contains tests?
@@ -36,3 +38,17 @@ zig test ./test.zig --test-cmd gdb --test-cmd '--eval-command=run' --test-cmd-bi
 ```
 
 https://zigforum.org/t/how-to-debug-zig-tests-with-gdb-or-other-debugger/487/3
+
+## unable to resolve comptime value
+
+```zig
+try expectEqual(6, moves.items.len);
+```
+
+Solution
+
+```zig
+try expectEqual(@as(usize, 6), moves.items.len);
+```
+
+- [Proposal: flip expected and actual in std.testing.expectEqual · Issue #4437 · ziglang/zig](https://github.com/ziglang/zig/issues/4437#issuecomment-1439385595)
