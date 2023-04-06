@@ -28,3 +28,9 @@ https://www.pcgamer.com/steamos-35-is-almost-here-includes-a-fix-for-the-steam-d
   - game mode has a tweak to expose the CPU as 8c/8t instead of 4c/8t. This lets several games pick 6 or 8 threads instead of 4, yielding big gains from SMT scaling. Helps performance in HZD, Cyberpunk https://www.gamingonlinux.com/2022/04/steam-deck-client-update-out-plus-valve-dev-clarifies-a-tweak-for-gaming-mode/
   - There are performance improvements in the pipe on workloads that need SMT disabled to perform well. Those are being tested now and will release as part of the updated kernel we are working on for SteamOS 3.5. https://twitter.com/Plagman2/status/1626041563737645056
     - https://steamdeckhq.com/news/steamos-3-5-will-have-smt-disabled-performance-improvements/
+
+## Cemu
+
+To remove game: `Tools > Title Manager > right-click position on list`
+
+https://www.reddit.com/r/cemu/comments/ktxhy0/comment/giotzu4/
