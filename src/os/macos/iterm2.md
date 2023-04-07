@@ -69,3 +69,11 @@ Action: `Send Escape Sequence`
 Esc+: `.`
 
 - https://superuser.com/questions/703911/iterm2-alt-dot-functionality-with-cmd-dot/704301#704301
+
+## Font
+
+- `Preferences > Profiles > Default > Text`
+  - `Text Rendering`
+    - unchecke `Draw bold text in bold font`
+    - unchecke `Italic text`
+  - `Font > NotoMono Nerd Font 18pt`
