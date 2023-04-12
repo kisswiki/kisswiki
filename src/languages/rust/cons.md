@@ -213,3 +213,11 @@ https://news.ycombinator.com/item?id=35058803
 Sometimes Rust makes things hard because the invariants you want to express cannot be cleanly mapped onto Rust's type system. I described one such case here: https://blog.reverberate.org/2021/12/19/arenas-and-rust.html
 
 https://news.ycombinator.com/item?id=35061727
+
+##
+
+Maxime Chevalier
+
+Rust has strengths, but imo, the added cognitive overhead and syntactic noise of having to deal with things like `Rc<RefCell<Box<MyType>>>` and borrowing vs mutable borrowing are a huge step backwards in terms of usability. Completely sacrifice ergonomics to please the PLT gods.
+
+https://twitter.com/rumatoest/status/1645445208916500481
