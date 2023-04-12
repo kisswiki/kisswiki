@@ -1,0 +1,2 @@
+- https://borretti.me/article/effective-spaced-repetition
+  - https://news.ycombinator.com/item?id=35511357
