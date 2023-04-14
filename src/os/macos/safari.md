@@ -2,6 +2,8 @@
 
 - free https://apps.apple.com/pl/app/adguard-for-safari/id1440147259
   - https://stacksocial.com/sales/adguard-personal-plan-lifetime-subscription
+  - Enable all extentions in safari, also make sure that adguard application is running in the background https://www.reddit.com/r/MacOS/comments/ltubo2/ad_blocker_for_youtube_on_mac_safari/
+    -
 - https://imagazine.pl/2020/03/09/apple-popelnilo-blad-z-safari-i-przeniesieniem-content-blockerow-z-ios-na-mac/
 - https://www.reddit.com/r/Safari/comments/oqsbxo/with_ublock_origin_not_being_available_for_safari/
 
