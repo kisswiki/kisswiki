@@ -34,3 +34,112 @@ https://www.facebook.com/groups/startupy/permalink/1439017882808373/
 ##
 
 - [Tricks to start working despite not feeling like it | Hacker News](https://news.ycombinator.com/item?id=22105229)
+
+## How to avoid burnout. Get 7 types of rest
+
+How to avoid burnout.
+
+Get 7 types of rest:
+
+Have you ever slept 7+ hours but still felt EXHAUSTED?
+
+Me too.
+
+While sleeping is physical rest,
+
+You actually need 7 types of rest to avoid burnout
+
+(According to Dr. Saundra Dalton-Smith).
+
+So stay at your best with these 7 types of rest:
+
+1. Physical Rest
+
+Lack of sleep and overtraining deplete your body's energy.
+
+Get two types of physical rest, passive and active:
+
+Passive
+
+- Sleep 7+ hrs nightly
+- Take power naps (as needed)
+
+Active
+
+- Stretch
+- Get a massage
+- Use an ergonomic chair + desk
+
+2. Mental Rest
+
+Mental rest deficit is caused by overtaxing your thinking.
+
+- Write down your to-dos
+- Reference checklists (packing, groceries, etc.)
+- Create a shutdown ritual to separate work and life
+- Take a break from problem-solving
+- Meditate
+
+3. Social Rest
+
+Evaluate your relationships.
+
+- Spend more time with people who give you energy
+- Spend less time with people who steal your energy
+- If you're an introvert, block out time to be alone
+
+4. Spiritual Rest
+
+Be part of something bigger than yourself.
+
+- Volunteer
+- Work a job that feels purpose-driven
+- Participate in faith-based activities (if aligned to your belief system)
+
+5. Sensory Rest
+
+The modern individual is overstimulated.
+
+- Take a break from social media
+- Turn off notifications (sounds and visual alerts)
+- Limit video meetings
+- Set a relaxing evening ambiance (soothing music, candles, etc.)
+
+6. Emotional Rest
+
+Emotional rest deficit occurs when you feel like you can't be authentic.
+
+Ex: An airline attendant who must always smile, despite rude passengers.
+
+- Spend time with people you can be authentic around
+- Try speaking with a therapist to release emotional labor
+
+Appreciate beauty in any form, whether natural or human-created:
+
+Natural
+
+- Take in a sunrise or sunset
+- Go for a walk in nature
+
+Human-created
+
+- Visit a museum or art festival
+- Engage with inspiring music, books, documentaries, etc.
+
+Dr. Dalton-Smith recommends starting with your 1-2 biggest rest deficits
+
+(And not trying to eat the whole elephant at once).
+
+Then, over time, create daily and weekly habits to get all 7.
+
+Take her Rest Quiz to figure out where to start:
+
+https://www.restquiz.com/quiz/rest-quiz-test/
+
+Want to learn more about rest?
+
+Check out @DrDaltonSmith’s book:
+
+'Sacred Rest' https://www.amazon.com/Sacred-Rest-Recover-Energy-Restore-ebook/dp/B06Y12N4YK/
+
+https://twitter.com/SystemSunday/status/1564952491179008004
