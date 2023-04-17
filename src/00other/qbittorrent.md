@@ -36,3 +36,20 @@ https://www.reddit.com/r/qBittorrent/comments/jnou1z/why_is_my_text_so_tiny_how_
 7. Apply/OK your way back out
 
 https://www.reddit.com/r/torrents/comments/dg5rpn/how_do_i_fix_qbittorrent_this_scaling_issue_on_my/
+
+## jackett for search on macos
+
+```shell
+% brew install jackett
+# could not start service with `sudo brew services start jackett`
+# `brew services info jackett` showed that it is not Running
+# `brew services -help`
+% /opt/homebrew/Cellar/jackett/0.20.3920/bin/jackett
+```
+
+Open http://127.0.0.1:9117 and copy api key
+
+Edit `~/Library/Application Support/qBittorrent/nova3/engines/jackett.json` and paste api key.
+
+- https://github.com/qbittorrent/search-plugins/wiki/How-to-configure-Jackett-plugin
+- https://www.reddit.com/r/qBittorrent/comments/kzr0h5/guide_to_configure_jackett_plugin_on_qbittorrent/
