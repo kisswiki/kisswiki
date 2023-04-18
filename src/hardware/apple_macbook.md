@@ -17,3 +17,9 @@ https://news.ycombinator.com/item?id=28919633
 16/10 = 1.6
 
 16/9 = 1.777
+
+## External monitor
+
+If you want text to be as “crisp” as possible, you want the highest pixel density you can get. For 27”, that means a 5K (5120×2880) monitor with 219 pixels per inch (ppi). The LG UltraFine 5K is the only 5K monitor still available AFAIK.
+
+https://forums.macrumors.com/threads/which-27-28-monitor-for-16-inch-macbook-pro-m1-uhd-4k-or-5k.2333113/post-30818215
