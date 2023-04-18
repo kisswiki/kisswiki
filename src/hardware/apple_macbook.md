@@ -24,6 +24,10 @@ If you want text to be as “crisp” as possible, you want the highest pixel de
 
 https://forums.macrumors.com/threads/which-27-28-monitor-for-16-inch-macbook-pro-m1-uhd-4k-or-5k.2333113/post-30818215
 
+- https://formulae.brew.sh/cask/betterdisplay
+- https://apps.apple.com/us/app/display-menu/id549083868
+- https://apps.apple.com/us/app/easyres/id688211836
+
 ## Naprawa
 
 - Koszt naprawy ładowarki MagSafe wynosi 140 zł  
