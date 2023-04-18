@@ -23,3 +23,20 @@ https://news.ycombinator.com/item?id=28919633
 If you want text to be as “crisp” as possible, you want the highest pixel density you can get. For 27”, that means a 5K (5120×2880) monitor with 219 pixels per inch (ppi). The LG UltraFine 5K is the only 5K monitor still available AFAIK.
 
 https://forums.macrumors.com/threads/which-27-28-monitor-for-16-inch-macbook-pro-m1-uhd-4k-or-5k.2333113/post-30818215
+
+## Naprawa
+
+- Koszt naprawy ładowarki MagSafe wynosi 140 zł  
+  Koszt naprawy modułu ładowania w komputerze wynosi 325 zł  
+  Oczywiście potwierdzimy to podczas diagnozy
+  darmowy kurier
+  wystarczy wypełnić formularz na stronie http://www.applefix.pl/formularz
+- http://diagnoserwis.pl/
+- http://iphonewarszawa.pl/
+
+## Heat and throttling
+
+There is another video [1], in which a 2017 i7 outperforms a 2018 i9 in video compression due to its severe throttling. Sure the benchmarks look great and are better on the i9, but as someone mentioned, that's like looking at sprint compared to a longer race.
+[1] https://www.youtube.com/watch?v=ip-sZfWaVo0&t=04m37s
+
+https://news.ycombinator.com/item?id=17556266
