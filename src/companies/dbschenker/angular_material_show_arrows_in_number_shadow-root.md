@@ -11,3 +11,7 @@
 - https://stackoverflow.com/questions/45487647/input-number-in-angular-material-design/76057341#76057341
 - https://blog.consdata.tech/2019/08/22/view-encapsulation-w-angularze.html
 - https://stackoverflow.com/questions/71680436/how-to-apply-styling-to-shadow-root-element-in-angular
+- https://github.com/angular/components/issues?q=is%3Aissue+is%3Aopen+input+number+in%3Atitle
+  - https://github.com/angular/components/issues/14050
+  - https://github.com/angular/components/issues/14057
+  - https://github.com/angular/components/issues/23894
