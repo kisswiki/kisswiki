@@ -15,7 +15,7 @@ Also `ctrl+shift+p > Tasks: Manage Automatic Tasks in Folder > Allow...`
         {
             "label": "echo",
             "type": "shell",
-            "command": "watchexec -w exercises -i zig-cache -e zig zig build",
+            "command": "watchexec -w exercises -i zig-cache -e zig 'printf "\n\n\n-----------\n"; zig build'",
             "runOptions": {
                 "runOn": "folderOpen"
             }
