@@ -15,3 +15,4 @@
   - https://github.com/angular/components/issues/14050
   - https://github.com/angular/components/issues/14057
   - https://github.com/angular/components/issues/23894
+- https://stackoverflow.blog/2022/12/26/why-the-number-input-is-the-worst-input/
