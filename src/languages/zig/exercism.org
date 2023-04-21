@@ -2,6 +2,16 @@ https://github.com/rofrol/exercism-zig
 
 ## Sieve
 
+StaticBitSet uses IntegerBitSet or ArrayBitSet depending on size passed.
+
+Iterating over bit set will only iterate over set bits.
+
+You can return slice from slice `return buffer[0..j]`
+
+Or you can do `var buf = buffer; buf.len = 41; return buf;`. https://exercism.org/tracks/zig/exercises/sieve/solutions/kalev666
+
+Sieve of Erastothenes: next to sieve is `j = i * i`, but subsequent are `j += i`, because for 3, there will be 2 * 3 already set thanks to 2.
+
 Nice solution https://exercism.org/tracks/zig/exercises/sieve/solutions/citizen428
 
 ```zig
@@ -25,12 +35,4 @@ pub fn primes(buffer: []u32, comptime limit: u32) []u32 {
 }
 ```
 
-StaticBitSet uses IntegerBitSet or ArrayBitSet depending on size passed.
-
-Iterating over bit set will only iterate over set bits.
-
-You can return slice from slice `return buffer[0..j]`
-
-Or you can do `var buf = buffer; buf.len = 41; return buf;`. https://exercism.org/tracks/zig/exercises/sieve/solutions/kalev666
-
-Sieve of Erastothenes: next to sieve is `j = i * i`, but subsequent are `j += i`, because for 3, there will be 2 * 3 already set thanks to 2.
+Solution from benchmark https://github.com/PlummersSoftwareLLC/Primes/blob/drag-race/PrimeZig/solution_2/src/prime.zig
