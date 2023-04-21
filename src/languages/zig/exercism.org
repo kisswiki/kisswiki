@@ -1,1 +1,36 @@
 https://github.com/rofrol/exercism-zig
+
+## Sieve
+
+Nice solution https://exercism.org/tracks/zig/exercises/sieve/solutions/citizen428
+
+```zig
+const std = @import("std");
+pub fn primes(buffer: []u32, comptime limit: u32) []u32 {
+    var sieve = std.StaticBitSet(limit + 1).initEmpty();
+    sieve.set(0);
+    sieve.set(1);
+    var idx: u32 = 0;
+    var n: u32 = 2;
+    while (n <= limit) : (n += 1) {
+        if (sieve.isSet(n)) continue;
+        buffer[idx] = n;
+        idx += 1;
+        var j = n * n;
+        while (j <= limit) : (j += n) {
+            sieve.set(j);
+        }
+    }
+    return buffer[0..idx];
+}
+```
+
+StaticBitSet uses IntegerBitSet or ArrayBitSet depending on size passed.
+
+Iterating over bit set will only iterate over set bits.
+
+You can return slice from slice `return buffer[0..j]`
+
+Or you can do `var buf = buffer; buf.len = 41; return buf;`. https://exercism.org/tracks/zig/exercises/sieve/solutions/kalev666
+
+Sieve of Erastothenes: next to sieve is `j = i * i`, but subsequent are `j += i`, because for 3, there will be 2 * 3 already set thanks to 2.
