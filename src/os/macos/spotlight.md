@@ -24,6 +24,9 @@ Erase the current Spotlight index:
 
 https://gist.github.com/adamstac/1249295
 
-## Categories
+Categories: `System Settings > Siri & Spotlight > Search results`
 
-`System Settings > Siri & Spotlight > Search results`
+- https://apple.stackexchange.com/questions/424559/hide-safari-and-chrome-internet-results-in-spotlight-searches
+  - https://support.apple.com/pl-pl/guide/mac-help/mchl62db64f5/mac
+- https://apple.stackexchange.com/questions/265749/what-is-spotlight-indexing-and-should-i-turn-it-off
+- https://apple.stackexchange.com/questions/388882/how-to-disable-spotlight-and-mds-stores-on-mac-os-catalina
