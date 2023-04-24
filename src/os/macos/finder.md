@@ -36,3 +36,9 @@ video_for_whatsup.sh "$@"
 
 - https://apple.stackexchange.com/questions/129929/automating-ffmpeg-using-automator-service/129931#129931
 - [Creating Custom Finder Quick Actions With Automator - YouTube](https://www.youtube.com/watch?v=0BEPkM_gkGU)
+
+## Exclude folder from Recents
+
+`System Settings > Spotlight > Privacy`
+
+https://discussions.apple.com/thread/8384478
