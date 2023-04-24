@@ -1,5 +1,9 @@
 https://github.com/rofrol/exercism-zig
 
+## Watchexec
+
+`watchexec -i zig-cache -e zig -r -c reset 'zig test test* 2>&1| less'`
+
 ## Sieve
 
 StaticBitSet uses IntegerBitSet or ArrayBitSet depending on size passed.
