@@ -1,6 +1,8 @@
 - https://www.reddit.com/r/gog/comments/1061e2u/is_there_a_list_of_gog_games_that_work_on_steam/
 - https://www.reddit.com/r/SteamDeck/comments/123u7e3/what_game_have_you_played_the_most_so_far_on_your/
 - https://www.youtube.com/@pixeldeckgaming/videos
+- https://www.steamdeckgaming.net/gamesondeck
+  - https://www.steamdeckgaming.net/post/april-9-top-10-steam-deck-verified-and-playable-games-of-the-week
 
 ## Titan Fall
 

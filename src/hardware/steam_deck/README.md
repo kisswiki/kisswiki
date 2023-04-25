@@ -43,6 +43,7 @@ Look at remaining time in 3rd level of Performance Overlay https://www.partition
 
 - [Steam Deck - 40 FPS is the new 60 - YouTube](https://www.youtube.com/watch?v=ZWZI3CKlByc)
 - [CryoUtilities 2.0 - MASSIVE Performance Boosts & Space Savings! | Steam Deck - YouTube](https://www.youtube.com/watch?v=C9EjXYZUqUs)
+- [Push your Steam Deck BEYOND its limits with Undervolting and Overclocking! - YouTube](https://www.youtube.com/watch?v=LNEI7BTc87Q)
 
 ## FSR
 
