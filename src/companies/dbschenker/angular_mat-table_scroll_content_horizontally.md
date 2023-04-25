@@ -7,7 +7,9 @@
 }
 ```
 
-From https://stackoverflow.com/questions/19794211/horizontal-scroll-on-overflow-of-table/48930521#48930521
+- https://stackoverflow.com/questions/19794211/horizontal-scroll-on-overflow-of-table/48930521#48930521
+- https://github.com/mbrn/material-table/issues/2088#issuecomment-1521607406
+- https://github.com/angular/components/issues/8680
 
 This also worked, but columns were squashed together:
 
