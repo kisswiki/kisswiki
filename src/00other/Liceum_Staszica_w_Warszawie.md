@@ -95,4 +95,8 @@ W matex - przedmioty humanistyczne są, ale nacisk kładzie się na matematykę 
 Czy warto? tak. Szkoła uczy samodzielności w uczeniu się i rozwiązywaniu problemów. Acha - poza szkołą standardem jest uczenie się dodatkowo 3-4 godziny dziennie nad matematyką...
 Człowiek po matex-ie może dużo. Bardzo dużo. Kwestia przetrwania.
 
+W drugiej klasie na analizie robią też np. (olimpijską) teorię liczb, równania rekurencyjne. W pierwszej np. mieli algebrę - wielomiany, liczby zespolone, macierze, olimpijskie układy równań i nierówności ale też rzeczy z tzw. podstaw matematyki. Dużo podstawowych tematów z przedmiotów jakie są na matematyce/informatyce na I roku studiów - będą mieli lżej na studiach. Generalnie ta ich analiza matematyczna to chyba to wszystko co nie zmieściło się do geometrii i rachunku prawdopodobieństwa.
+
+Na matematyce w zwykłej szkole dużo czasu poświęca się na pałowanie wielu podobnych do siebie prostych przykładów, które realizują określone 'wymagania maturalne'. Tutaj natomiast mało jest takiego "powtarzania" a widać, że każde z zadań wnosi jakiś nowy materiał i nie są one treścią podobne do siebie. Jest też dużo więcej zadań na dowodzenie niż w zwykłym licealnym podręczniku. Przypomina to sposób prowadzenia ćwiczeń na studiach (dużo materiału a mało czasu) i podejście jakie jest na olimpiadzie matematycznej.
+
 https://matematyka.pl/viewtopic.php?t=411986
