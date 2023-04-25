@@ -40,3 +40,26 @@ pub fn primes(buffer: []u32, comptime limit: u32) []u32 {
 ```
 
 Solution from benchmark https://github.com/PlummersSoftwareLLC/Primes/blob/drag-race/PrimeZig/solution_2/src/prime.zig
+
+## binary search
+
+Nice solution:
+
+```zig
+pub fn binarySearch(comptime T: type, target: T, items: []const T) ?usize {
+    var low: usize = 0;
+    var high: usize = items.len;
+    while (low < high) {
+        const mid = low + (high - low) / 2;
+        if (items[mid] == target) return mid;
+        if (items[mid] > target) {
+            high = mid;
+        } else {
+            low = mid + 1;
+        }
+    }
+    return null;
+}
+```
+
+https://exercism.org/tracks/zig/exercises/binary-search/solutions/tdjordjevski
