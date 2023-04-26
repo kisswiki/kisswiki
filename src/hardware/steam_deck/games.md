@@ -76,3 +76,13 @@ How to play Skyrim from desktop mode and use firefox to consult uesp.
 7. Tap Skyrim in the bottom bar to return to the game
 
 https://www.reddit.com/r/SteamDeckTricks/comments/twukhk/rsteamdecktricks_lounge/
+
+## Valiant Hearts: The Great War
+
+On Windows machine I have installed ubisoft connect. After installing on running Valiant Hearts through Steam, Ubisoft Connect asked if I want to add it to Ubisoft Library. Then I could play it on Windows. But still I can't play it on Steam Deck.
+
+how did you launch the game?
+
+don't remember, but nothing special, I have the game bought on steam and i launch it.
+
+- https://www.youtube.com/watch?v=mVtTknWHTgc
