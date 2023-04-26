@@ -1,1 +1,2 @@
 - https://www.reddit.com/r/SteamDeck/comments/u90mqo/adding_ubisoft_games_the_right_way/
+- [Steam Deck - How To Install Ubisoft Game Launcher - YouTube](https://www.youtube.com/watch?v=nwZk97cPcfw)
