@@ -108,3 +108,19 @@ Chce być mateksem, to pewnie żadna siła go nie odwiedzie.
 Z tego co piszesz, to raczej preferuje informatykę. Tu nie ma znaczenia, jaką klasę wybierze. Algorytmiki nie nauczy się w szkole na 2 lekcjach w tygodniu. To koła, warsztaty, obozy no i praca w domu. Więcej osiągnięć w OI maja mateksy, bo z założenia idzie tam zdolniejsza i pracowitsza grupa. Dlatego napisałam, ze w mat-inf czeka go spokojne 4 lata a w mateksie będzie miał sporo pracy z matematyką i fizyką.
 
 https://forum.gazeta.pl/forum/w,427,169306209,169306209,Staszic_matex_czy_mat_inf_i_jak_trafne_wybory_.html#p169430455
+
+## Obóz
+
+Obóz w końcówce sierpnia. W pierwszej kolejności dla uczniów XIV LO, ale jeżdżą i inni, także z podstawówek. Aby zapisać dziecko, trzeba zachować czujność i śledzić komunikaty. Zakładka na stronie szkoły: uczniowie/warsztaty/WWI. Godzina 0 zwykle w marcu. Ewentualnie warto poprosić o info pro
+wadzacych kółko, bo miejsc mało i liczy się refleks.
+
+- https://forum.gazeta.pl/forum/w,427,169306209,169306209,Staszic_matex_czy_mat_inf_i_jak_trafne_wybory_.html#p169430455
+- https://staszic.waw.pl/uczniowie/warsztaty
+
+## Dlaczego Staszic?
+
+Nie bez powodu bohaterami tego tekstu są sami absolwenci zwykłych klas ze Staszica. Ci po matexach są zazwyczaj mniej widoczni. Przynajmniej biznesowo. Po szkole częściej zamykają się w uczelnianych murach i skupiają na pracy naukowej.
+
+Tak jest nie tylko w Warszawie. Od lat 90. zaczęła się budować silna czołówka najbardziej elitarnych szkół średnich. Każde większe miasto ma licea, których ukończenie daje absolwentowi niemal pewne wejście na najlepsze uczelnie, niezłą siatkę znajomości na przyszłe lata, a często również podstawy do zakładania prężnych biznesów. Tak jak w Stanach Zjednoczonych funkcjonują najlepsze uczelnie wyższe nazywane Ligą Bluszczową, tak i u nas wyrosła mała licealna liga.
+
+https://serwisy.gazetaprawna.pl/edukacja/artykuly/1100315,warszawa-liceum-im-staszica-kuznia-talentow-startup-i-nowych-technologii.html
