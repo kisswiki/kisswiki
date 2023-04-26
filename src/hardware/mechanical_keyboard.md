@@ -10,3 +10,7 @@ https://www.reddit.com/user/amirrajan/comments/8h9a9o/my_dev_setup/
 ## DIY
 
 - https://www.reddit.com/r/rust/comments/f2o9y8/a_handwired_unsplitted_ergo_keyboard_with_a/
+
+## Planck and Topro
+
+- https://ellie.wtf/my-planck-keyboard/
