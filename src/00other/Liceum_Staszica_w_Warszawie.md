@@ -124,3 +124,20 @@ Nie bez powodu bohaterami tego tekstu są sami absolwenci zwykłych klas ze Stas
 Tak jest nie tylko w Warszawie. Od lat 90. zaczęła się budować silna czołówka najbardziej elitarnych szkół średnich. Każde większe miasto ma licea, których ukończenie daje absolwentowi niemal pewne wejście na najlepsze uczelnie, niezłą siatkę znajomości na przyszłe lata, a często również podstawy do zakładania prężnych biznesów. Tak jak w Stanach Zjednoczonych funkcjonują najlepsze uczelnie wyższe nazywane Ligą Bluszczową, tak i u nas wyrosła mała licealna liga.
 
 https://serwisy.gazetaprawna.pl/edukacja/artykuly/1100315,warszawa-liceum-im-staszica-kuznia-talentow-startup-i-nowych-technologii.html
+
+## Korepetycje
+
+- [Łukasz - Kraków,Małopolskie : Jestem uczniem XIV LO im.Stanisława Staszica w Warszawie. Udzielam lekcji matematyki ogólnorozwojowych lub chętnie przygotuję Cię do matury z matematyki (podstawowej lub rozszerzonej). Z wielką przyje](https://www.superprof.pl/jestem-uczniem-xiv-stanis-awa-staszica-warszawie-udzielam-lekcji-matematyki-ogolnorozwojowych-lub-tnie-przygotuj.html)
+- [Paweł - Warszawa,Mazowieckie : Jestem Paweł, absolwent XIV LO Staszica, udzielam korepetycji z matematyki w Warszawie na każdym poziomie.](https://www.superprof.pl/jestem-pawe-absolwent-xiv-staszica-udzielam-korepetycji-matematyki-warszawie-dym-poziomie.html)
+- [Stanisław C - Matematyka, Fizyka - Korepetycje online na Lepiej z Nauką](https://www.lepiejznauka.pl/teachers/StanislawC)
+- [Korepetycje z matematyki wyższej w Warszawie online - 380 zł za 60 minut](https://www.e-korepetycje.net/sylwekb/matematyka-wyzsza)
+- [Korepetycje z matematyki w Warszawie - 40 zł za 60 minut](https://www.e-korepetycje.net/karol1896/matematyka)
+- [Korepetycje z matematyki w Warszawie online - 120 zł za 60 minut](https://www.e-korepetycje.net/frada1/matematyka)
+
+## Logia
+
+- https://logia.oeiizk.waw.pl/bankzadan
+
+## Podręcznik
+
+Nie-matex uczy się z podręczników https://www.taniaksiazka.pl/autor/henryk-pawlowski?webeId=webepartners&utm_source=pp&utm_medium=cps&utm_campaign=webepartners
