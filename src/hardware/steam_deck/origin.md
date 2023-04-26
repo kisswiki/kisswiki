@@ -1,0 +1,1 @@
+- https://www.reddit.com/r/SteamDeck/comments/tx6srv/guide_installing_origin_on_the_steam_deck_the/

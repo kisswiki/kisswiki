@@ -1,0 +1,1 @@
+- https://www.reddit.com/r/SteamDeck/comments/u90mqo/adding_ubisoft_games_the_right_way/
