@@ -63,3 +63,28 @@ pub fn binarySearch(comptime T: type, target: T, items: []const T) ?usize {
 ```
 
 https://exercism.org/tracks/zig/exercises/binary-search/solutions/tdjordjevski
+
+## Matching Brackets
+
+Nice solution:
+
+```zig
+const std = @import("std");
+const mem = std.mem;
+pub fn isBalanced(allocator: mem.Allocator, s: []const u8) !bool {
+    var stack = std.ArrayList(u8).init(allocator);
+    defer stack.deinit();
+    for (s) |char| {
+        switch (char) {
+            '(', '{', '[' => try stack.append(char),
+            ')' => if (stack.popOrNull() != @as(u8, '(')) return false,
+            '}' => if (stack.popOrNull() != @as(u8, '{')) return false,
+            ']' => if (stack.popOrNull() != @as(u8, '[')) return false,
+            else => continue,
+        }
+    }
+    return stack.popOrNull() == null;
+}
+```
+
+https://exercism.org/tracks/zig/exercises/matching-brackets/solutions/Eisenaxt
