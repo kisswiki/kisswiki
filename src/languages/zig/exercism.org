@@ -88,3 +88,29 @@ pub fn isBalanced(allocator: mem.Allocator, s: []const u8) !bool {
 ```
 
 https://exercism.org/tracks/zig/exercises/matching-brackets/solutions/Eisenaxt
+
+## Acronym
+
+Nice solution:
+
+```zig
+const std = @import("std");
+const mem = std.mem;
+pub fn abbreviate(allocator: mem.Allocator, words: []const u8) mem.Allocator.Error![]u8 {
+    var between_words: bool = true;
+    var abbr = std.ArrayList(u8).init(allocator);
+    for (words) |word_char| {
+        switch (word_char) {
+            ' ', '-', '_' => between_words = true,
+            else => if (between_words) {
+                try abbr.append(std.ascii.toUpper(word_char));
+                between_words = false;
+            },
+        }
+    }
+    return abbr.toOwnedSlice();
+}
+```
+
+https://exercism.org/tracks/zig/exercises/acronym/solutions/Eisenaxt
+    
