@@ -1,0 +1,3 @@
+- https://sprocketprinters.com
+- [Drukarka do zdjęć HP Sprocket Podręczniki użytkownika | Pomoc techniczna HP® dla klientów](https://support.hp.com/pl-pl/product/hp-sprocket-photo-printer/12635221/manuals)
+- [c05533223.pdf](http://h10032.www1.hp.com/ctg/Manual/c05533223.pdf)
