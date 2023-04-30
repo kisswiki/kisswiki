@@ -38,3 +38,35 @@ During game press `steam button > Controller settings`
 ## Gyro
 
 - [Gyro Steering Guide / How To / Best Settings - Steam Controller Tutorial / Tip - YouTube](https://www.youtube.com/watch?v=Wl_j6zO-jUo)
+- https://www.reddit.com/r/SteamController/comments/kg68tq/the_culmination_of_the_steam_controller_learning/
+
+i took a look at euro truck and it sounds like you've got gyro input as a directional pad instead of joystick move. go ahead and try this...
+
+1. joystick move
+2. output axis horizontal
+3. dead zone inner all the way down
+4. dead zone outer down a few notches to make it more responsive.
+5. dead zone shape circle
+
+https://steamcommunity.com/app/353370/discussions/0/144512942755840591/?l=polish#c144512942755992041\
+
+- Are you editing the desktop configuration? Because it can't have controller bindings. Try configuring a game, right click on it in the library and choose "Edit steam controller configuration". https://www.reddit.com/r/SteamController/comments/629nqf/support_i_dont_have_joystick_move/
+- https://www.reddit.com/r/EliteDangerous/comments/3s4cd8/steam_controller_works_great_for_ed_here_is_my/
+
+## Bluetooth
+
+- [Pomoc techniczna Steam :: Steam Controller w trybie BLE](https://help.steampowered.com/pl/faqs/view/1796-5FC3-88B3-C85F)
+- [Pairing a Steam controller using bluetooth way. - YouTube](https://www.youtube.com/watch?v=3OPiH86IGrw)
+- No, it's not possible. For whatever reason, the SC won't connect wirelessly when it's getting power via USB, even if there's no data connection on the USB cable. https://www.reddit.com/r/SteamController/comments/dctdo6/can_you_charge_the_steam_controller_via_usb_while/
+
+## New revisions have place for dongle
+
+- https://www.reddit.com/r/Steam/comments/111qymc/you_can_store_the_dongle_in_the_controller/
+
+## Batteries
+
+- AA batteries https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=353370&issueid=364&nodeid=46&return_nodeid=28
+
+## Setup
+
+- https://help.steampowered.com/en/faqs/view/41C5-7D8C-1671-411E
