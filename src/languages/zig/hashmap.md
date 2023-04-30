@@ -1,6 +1,37 @@
+- https://devlog.hexops.com/2022/zig-hashmaps-explained/
+- https://ziglearn.org/chapter-2/#hash-maps
+- https://zig.news/andrewrk/how-to-use-hash-map-contexts-to-save-memory-when-doing-a-string-table-3l33
+
+## Deinit
+
+```zig
+var map = std.StringHashMap(void).init(std.testing.allocator);
+defer {
+    while (map.keyIterator().next()) |key| {
+        std.testing.allocator.free(key.*);
+    }
+    map.deinit();
+}
+```
+
+- https://stackoverflow.com/questions/70307231/how-to-free-keys-of-stringhashmap/70311639#70311639
+
+```zig
+fn releaseDict(allocator: Allocator, dict: *Dict(i16)) void {
+    var iter = dict.iterator();
+    while (iter.next()) |entry|
+        allocator.free(entry.key_ptr.*);
+    dict.deinit();
+}
+```
+
+- https://itnext.io/a-refresh-for-zig-programmers-and-dabblers-d33f02c6a362
+
+## What is this?
+
 Igor Ferreira
 
-```
+```zig
 const codons_aminoacids = .{
   .UGU = "Cysteine",
   .UGC = "Cysteine",
