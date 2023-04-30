@@ -1,4 +1,4 @@
-przez wszystkie lata gry na rozmaitych padach nie udawało mi się zakładać headshotów korzystając z gałeczek w jakikolwiek sposób. Tutaj nie sprawia to najmniejszego problemu – ustawiam widok mniej więcej na wroga, włączam żyroskop do przycelowania i już wielka krwawa plama z jego mózgu ląduje na ścianie. 
+przez wszystkie lata gry na rozmaitych padach nie udawało mi się zakładać headshotów korzystając z gałeczek w jakikolwiek sposób. Tutaj nie sprawia to najmniejszego problemu – ustawiam widok mniej więcej na wroga, włączam żyroskop do przycelowania i już wielka krwawa plama z jego mózgu ląduje na ścianie.
 
 http://antyweb.pl/badamy-steam-controller-czesc-i/
 
@@ -34,3 +34,7 @@ During game press `steam button > Controller settings`
 - https://github.com/kozec/sc-controller/wiki/Running-SC-Controller-on-Windows
 - https://github.com/Alia5/GloSC
 - https://www.reddit.com/r/Steam/comments/8vs19v/does_the_steam_controller_work_outside_of_steam/
+
+## Gyro
+
+- [Gyro Steering Guide / How To / Best Settings - Steam Controller Tutorial / Tip - YouTube](https://www.youtube.com/watch?v=Wl_j6zO-jUo)
