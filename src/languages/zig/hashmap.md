@@ -1,6 +1,7 @@
 - https://devlog.hexops.com/2022/zig-hashmaps-explained/
 - https://ziglearn.org/chapter-2/#hash-maps
 - https://zig.news/andrewrk/how-to-use-hash-map-contexts-to-save-memory-when-doing-a-string-table-3l33
+- https://www.reddit.com/r/Zig/comments/krnuac/is_it_possible_to_create_hash_maps_at_compile_time/
 
 ## Deinit
 
