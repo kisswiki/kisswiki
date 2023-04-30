@@ -38,6 +38,7 @@ During game press `steam button > Controller settings`
 ## Gyro
 
 - [Gyro Steering Guide / How To / Best Settings - Steam Controller Tutorial / Tip - YouTube](https://www.youtube.com/watch?v=Wl_j6zO-jUo)
+- [DiRT 4 [Steam Controller] Gyro Steering Gameplay + Profile Overview - YouTube](https://www.youtube.com/watch?v=3gdwoTRrLGI)
 - https://www.reddit.com/r/SteamController/comments/kg68tq/the_culmination_of_the_steam_controller_learning/
 
 i took a look at euro truck and it sounds like you've got gyro input as a directional pad instead of joystick move. go ahead and try this...
