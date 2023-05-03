@@ -26,6 +26,12 @@ for ziglings
 
 `watchexec -w exercises -i zig-cache -e zig zig build`
 
+or start from 4, and delete lines until line with error
+
+`watchexec -i zig-cache -e zig -r -c reset 'zig build -Dn=4 start 2>&1 | awk "/error/{f=1}f" |less'`
+
+- https://askubuntu.com/questions/961462/how-to-delete-lines-from-a-file-until-a-specific-pattern/961541#961541
+
 ## syntax
 
 top-level consts are order-independent
