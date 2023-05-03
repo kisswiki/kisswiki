@@ -182,3 +182,34 @@ pub fn calculateHandshake(allocator: mem.Allocator, number: isize) mem.Allocator
 ```
 
 https://exercism.org/tracks/zig/exercises/secret-handshake/solutions/ErikSchierboom
+
+Also nice:
+
+```zig
+const std = @import("std");
+const mem = std.mem;
+pub const Signal = enum(u4) {
+    wink = 0b0001,
+    double_blink = 0b0010,
+    close_your_eyes = 0b0100,
+    jump = 0b1000,
+};
+const reverse = 0b10000;
+pub const signalValues = std.enums.values(Signal);
+pub fn calculateHandshake(
+    allocator: mem.Allocator,
+    number: isize
+) mem.Allocator.Error![]const Signal {
+    var signals = std.ArrayList(Signal).init(allocator);
+    errdefer signals.deinit();
+    inline for (signalValues) |signal| {
+        if (@enumToInt(signal) & number > 0)
+            try signals.append(signal);
+    }
+    if (number & reverse > 0)
+        mem.reverse(Signal, signals.items);
+    return signals.items;
+}
+```
+
+https://exercism.org/tracks/zig/exercises/secret-handshake/solutions/citizen428
