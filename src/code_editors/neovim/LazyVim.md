@@ -10,3 +10,13 @@ The leader key is the space in LazyVim.
 ## File explorer
 
 - `<leader> + fe` to open file explorer.
+
+## Disable plugin
+
+in ~/.config/nvim/lua/plugins/disable.lua or other in lua/plugins/ folder:
+
+```lua
+return {
+  { "echasnovski/mini.pairs", enabled = false },
+}
+```
