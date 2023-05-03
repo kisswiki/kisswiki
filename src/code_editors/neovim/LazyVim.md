@@ -20,3 +20,9 @@ return {
   { "echasnovski/mini.pairs", enabled = false },
 }
 ```
+
+## Comment code
+
+`gc` or `gcc` to comment current line
+
+https://github.com/echasnovski/mini.comment
