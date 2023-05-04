@@ -1,1 +1,0 @@
-- Zen mode remove top bar https://github.com/Microsoft/vscode/issues/30567
