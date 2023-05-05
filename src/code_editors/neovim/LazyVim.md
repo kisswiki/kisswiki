@@ -32,3 +32,7 @@ https://github.com/echasnovski/mini.comment
 # Delete buffer without chaning layout
 
 `<leader> + bd`
+
+## LSP
+
+- https://github.com/LazyVim/LazyVim/blob/f51719a12d86e557e2c38cd386ad68dc87a5c68f/lua/lazyvim/plugins/lsp/keymaps.lua#L17
