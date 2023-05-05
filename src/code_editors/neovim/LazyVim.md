@@ -33,3 +33,5 @@ return {
 - H to jump to the left buffer and L to jump to the right buffer (uses https://github.com/akinsho/bufferline.nvim)
 - `<leader>,` - fuzzy search over open buffers
 - `<leader><space>` - fuzzy search over any file
+
+- https://www.lazyvim.org/keymaps
