@@ -4,6 +4,7 @@
 2. To update starter to use newer LazyVim you need to `:Lazy update`.
 
 - [Zero to IDE with LazyVim - YouTube](https://www.youtube.com/watch?v=N93cTbtLCIM)
+- https://www.barbarianmeetscoding.com/notes/neovim-lazyvim/
 
 ## Leader
 
