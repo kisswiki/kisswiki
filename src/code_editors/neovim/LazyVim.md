@@ -6,14 +6,6 @@
 - [Zero to IDE with LazyVim - YouTube](https://www.youtube.com/watch?v=N93cTbtLCIM)
 - https://www.barbarianmeetscoding.com/notes/neovim-lazyvim/
 
-## Leader
-
-The leader key is the space in LazyVim.
-
-## File explorer
-
-- `<leader> + fe` to open file explorer.
-
 ## Disable plugin
 
 in ~/.config/nvim/lua/plugins/disable.lua or other in lua/plugins/ folder:
@@ -24,14 +16,11 @@ return {
 }
 ```
 
-## Comment code
-
-`gc` or `gcc` to comment current line
-
-https://github.com/echasnovski/mini.comment
-
 # keymaps
 
+- The leader key is the space in LazyVim.
+- `<leader> + fe` - open file explorer.
+- `gc` or `gcc` - comment current line (uses https://github.com/echasnovski/mini.comment)
 - `<leader>sk` or `:Telescope keymaps` to see all keymaps
 - `<leader> + bd` - delete buffer without chaning layout
 - LSP https://github.com/LazyVim/LazyVim/blob/f51719a12d86e557e2c38cd386ad68dc87a5c68f/lua/lazyvim/plugins/lsp/keymaps.lua#L17
@@ -41,6 +30,6 @@ https://github.com/echasnovski/mini.comment
   - `{ "gI", "<cmd>Telescope lsp_implementations<cr>", desc = "Goto Implementation" },`
   - `{ "gy", "<cmd>Telescope lsp_type_definitions<cr>", desc = "Goto T[y]pe Definition" },`
 - `<leader>fr` to find recent files
-- H to jump to the left buffer and L to jump to the right buffer (Uses https://github.com/akinsho/bufferline.nvim)
+- H to jump to the left buffer and L to jump to the right buffer (uses https://github.com/akinsho/bufferline.nvim)
 - `<leader>,` - fuzzy search over open buffers
 - `<leader><space>` - fuzzy search over any file
