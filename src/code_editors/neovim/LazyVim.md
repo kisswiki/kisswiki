@@ -41,4 +41,6 @@ https://github.com/echasnovski/mini.comment
   - `{ "gI", "<cmd>Telescope lsp_implementations<cr>", desc = "Goto Implementation" },`
   - `{ "gy", "<cmd>Telescope lsp_type_definitions<cr>", desc = "Goto T[y]pe Definition" },`
 - `<leader>fr` to find recent files
--
+- H to jump to the left buffer and L to jump to the right buffer (Uses https://github.com/akinsho/bufferline.nvim)
+- `<leader>,` - fuzzy search over open buffers
+- `<leader><space>` - fuzzy search over any file
