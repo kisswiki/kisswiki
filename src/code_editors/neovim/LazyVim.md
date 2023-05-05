@@ -30,8 +30,9 @@ return {
 
 https://github.com/echasnovski/mini.comment
 
-# mappings
+# keymaps
 
+- `<leader>sk` or `:Telescope keymaps` to see all keymaps
 - `<leader> + bd` - delete buffer without chaning layout
 - LSP https://github.com/LazyVim/LazyVim/blob/f51719a12d86e557e2c38cd386ad68dc87a5c68f/lua/lazyvim/plugins/lsp/keymaps.lua#L17
   - `{ "gd", "<cmd>Telescope lsp_definitions<cr>", desc = "Goto Definition", has = "definition" },`
@@ -40,3 +41,4 @@ https://github.com/echasnovski/mini.comment
   - `{ "gI", "<cmd>Telescope lsp_implementations<cr>", desc = "Goto Implementation" },`
   - `{ "gy", "<cmd>Telescope lsp_type_definitions<cr>", desc = "Goto T[y]pe Definition" },`
 - `<leader>fr` to find recent files
+-
