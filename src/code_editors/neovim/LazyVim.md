@@ -33,9 +33,7 @@ return {
 - H to jump to the left buffer and L to jump to the right buffer (uses https://github.com/akinsho/bufferline.nvim)
 - `<leader>,` - fuzzy search over open buffers
 - `<leader><space>` - fuzzy search over any file
+- `C-w q` or `:close` - close split
 
 - https://www.lazyvim.org/keymaps
-
-## commands
-
-- `:close` close split
+- https://stackoverflow.com/questions/4809729/cancel-split-window-in-vim/4809736#4809736
