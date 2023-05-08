@@ -213,3 +213,34 @@ pub fn calculateHandshake(
 ```
 
 https://exercism.org/tracks/zig/exercises/secret-handshake/solutions/citizen428
+
+## allergies
+
+Niece solution:
+
+```zig
+const std = @import("std");
+const EnumSet = std.EnumSet;
+const IntegerBitSet = std.bit_set.IntegerBitSet;
+pub const Allergen = enum(u8) {
+    eggs,
+    peanuts,
+    shellfish,
+    strawberries,
+    tomatoes,
+    chocolate,
+    pollen,
+    cats,
+};
+pub fn isAllergicTo(score: u8, allergen: Allergen) bool {
+    return initAllergenSet(score).contains(allergen);
+}
+pub fn initAllergenSet(score: usize) EnumSet(Allergen) {
+    return .{ .bits = IntegerBitSet(8){ .mask = @truncate(u8, score) } };
+}
+```
+
+https://exercism.org/tracks/zig/exercises/allergies/solutions/citizen428
+
+- https://github.com/ziglang/zig/blob/0.10.x/lib/std/enums.zig
+- https://github.com/exercism/zig/blob/main/exercises/practice/allergies/.meta/example.zig
