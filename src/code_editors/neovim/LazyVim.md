@@ -40,6 +40,7 @@ return {
 
 ### Telescope
 
+- `Esc` - switch to normal mode
 - `C-x` - Go to file selection as a split
 - `C-v` - Go to file selection as a vsplit
 - `C-t` - Go to a file in a new tab
