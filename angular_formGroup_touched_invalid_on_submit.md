@@ -1,6 +1,6 @@
 ```typescript
 Object.keys(this.form.controls).forEach((key) => {
-  this.form.get(key).markAsDirty();
+  this.form.get(key).markAsTouched();
 });
 ```
 
