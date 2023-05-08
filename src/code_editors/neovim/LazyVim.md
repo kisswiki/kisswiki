@@ -16,7 +16,7 @@ return {
 }
 ```
 
-# keymaps
+## keymaps
 
 - The leader key is the space in LazyVim.
 - `<leader>sk` or `:Telescope keymaps` - see all keymaps
@@ -46,5 +46,20 @@ return {
 - `C-x` - Go to file selection as a split
 - `C-v` - Go to file selection as a vsplit
 - `C-t` - Go to a file in a new tab
+- `C-n` and `C-p` to navigate file list
 
 https://github.com/nvim-telescope/telescope.nvim
+
+## File explorer
+
+- `<leader>e` - open file explorer.
+- `k` and `j` to navigate up and down
+- `/` filter, `C-p` and `C-n` to navigate up and down explorer
+
+## Lazygit
+
+Started working after I have installed with tap https://github.com/jesseduffield/lazygit#homebrew
+
+- `p` - pull
+- `P` - push
+- `c` - create commit, `Enter` to add all changed
