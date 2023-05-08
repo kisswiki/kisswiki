@@ -23,17 +23,19 @@ return {
 - `<leader>fe` - open file explorer.
 - `gc` or `gcc` - comment current line (uses https://github.com/echasnovski/mini.comment)
 - `<leader>bd` - delete buffer without chaning layout
-- LSP https://github.com/LazyVim/LazyVim/blob/f51719a12d86e557e2c38cd386ad68dc87a5c68f/lua/lazyvim/plugins/lsp/keymaps.lua#L17
+- LSP [keymaps.lua](https://github.com/LazyVim/LazyVim/blob/f51719a12d86e557e2c38cd386ad68dc87a5c68f/lua/lazyvim/plugins/lsp/keymaps.lua#L17)
   - `{ "gd", "<cmd>Telescope lsp_definitions<cr>", desc = "Goto Definition", has = "definition" },`
   - `{ "gr", "<cmd>Telescope lsp_references<cr>", desc = "References" },`
   - `{ "gD", vim.lsp.buf.declaration, desc = "Goto Declaration" },`
   - `{ "gI", "<cmd>Telescope lsp_implementations<cr>", desc = "Goto Implementation" },`
   - `{ "gy", "<cmd>Telescope lsp_type_definitions<cr>", desc = "Goto T[y]pe Definition" },`
 - `<leader>fr` to find recent files
-- H to jump to the left buffer and L to jump to the right buffer (uses https://github.com/akinsho/bufferline.nvim)
+- H to jump to the left buffer and L to jump to the right buffer (uses [bufferline.nvim](https://github.com/akinsho/bufferline.nvim))
 - `<leader>,` - fuzzy search over open buffers
 - `<leader><space>` or `<leader>ff` - fuzzy search over any file
 - `C-w q` or `:close` - close split
+- `gx` - open link [so](https://stackoverflow.com/questions/26919972/follow-link-in-vim-with-markdown-syntax/26920014#26920014)
+- `gf` - open file [so](https://stackoverflow.com/questions/26919972/follow-link-in-vim-with-markdown-syntax/26920014#comment42389405_26920014)
 
 - https://www.lazyvim.org/keymaps
 - https://stackoverflow.com/questions/4809729/cancel-split-window-in-vim/4809736#4809736
