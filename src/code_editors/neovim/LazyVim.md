@@ -35,3 +35,7 @@ return {
 - `<leader><space>` - fuzzy search over any file
 
 - https://www.lazyvim.org/keymaps
+
+## commands
+
+- `:close` close split
