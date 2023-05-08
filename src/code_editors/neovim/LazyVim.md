@@ -62,4 +62,6 @@ Started working after I have installed with tap https://github.com/jesseduffield
 
 - `p` - pull
 - `P` - push
-- `c` - create commit, `Enter` to add all changed
+- `c` - commit changes, `Enter` to add all changed https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md#files
+
+- https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md
