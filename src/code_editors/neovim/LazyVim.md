@@ -19,7 +19,7 @@ return {
 # keymaps
 
 - The leader key is the space in LazyVim.
-- `<leader>sk` or `:Telescope keymaps` to see all keymaps
+- `<leader>sk` or `:Telescope keymaps` - see all keymaps
 - `<leader>fe` - open file explorer.
 - `gc` or `gcc` - comment current line (uses https://github.com/echasnovski/mini.comment)
 - `<leader>bd` - delete buffer without chaning layout
@@ -32,8 +32,16 @@ return {
 - `<leader>fr` to find recent files
 - H to jump to the left buffer and L to jump to the right buffer (uses https://github.com/akinsho/bufferline.nvim)
 - `<leader>,` - fuzzy search over open buffers
-- `<leader><space>` - fuzzy search over any file
+- `<leader><space>` or `<leader>ff` - fuzzy search over any file
 - `C-w q` or `:close` - close split
 
 - https://www.lazyvim.org/keymaps
 - https://stackoverflow.com/questions/4809729/cancel-split-window-in-vim/4809736#4809736
+
+### Telescope
+
+- `C-x` - Go to file selection as a split
+- `C-v` - Go to file selection as a vsplit
+- `C-t` - Go to a file in a new tab
+
+https://github.com/nvim-telescope/telescope.nvim
