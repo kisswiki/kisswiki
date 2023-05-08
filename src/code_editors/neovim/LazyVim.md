@@ -20,7 +20,7 @@ return {
 
 - The leader key is the space in LazyVim.
 - `<leader>sk` or `:Telescope keymaps` - see all keymaps
-- `<leader>fe` - open file explorer.
+- `<leader>e` - open file explorer.
 - `gc` or `gcc` - comment current line (uses https://github.com/echasnovski/mini.comment)
 - `<leader>bd` - delete buffer without chaning layout
 - LSP [keymaps.lua](https://github.com/LazyVim/LazyVim/blob/f51719a12d86e557e2c38cd386ad68dc87a5c68f/lua/lazyvim/plugins/lsp/keymaps.lua#L17)
