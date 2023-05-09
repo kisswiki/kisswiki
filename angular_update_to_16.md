@@ -1,5 +1,7 @@
 `npm install typescript@4.9.3`
 
+- https://stackoverflow.com/questions/72597156/updating-typescript-version
+
 ```shell
 % ng update @angular/cli @angular/core
 The installed Angular CLI version is outdated.
