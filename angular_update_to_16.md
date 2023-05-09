@@ -1,3 +1,5 @@
+`npm install typescript@4.9.3`
+
 ```shell
 % ng update @angular/cli @angular/core
 The installed Angular CLI version is outdated.
@@ -48,3 +50,31 @@ UPDATE package.json (2080 bytes)
 - https://update.angular.io/?v=15.0-16.0
 
 For eslint codelyzer recomends https://github.com/angular-eslint/angular-eslint. Used this guide for migrate https://code.visualstudio.com/api/advanced-topics/tslint-eslint-migration.
+
+tslint-to-eslint-config.log
+
+```
+8 ESLint rules behave differently from their TSLint counterparts:
+  * arrow-body-style:
+    - ESLint will throw an error if the function body is multiline yet has a one-line return on it.
+  * no-console:
+    - Custom console methods, if they exist, will no longer be allowed.
+  * space-before-function-paren:
+    - Option "constructor" is not supported by ESLint.
+    - Option "method" is not supported by ESLint.
+  * no-underscore-dangle:
+    - Leading or trailing underscores (_) on identifiers will now be forbidden.
+  * no-invalid-this:
+    - Functions in methods will no longer be ignored.
+  * @typescript-eslint/no-unused-expressions:
+    - The TSLint optional config "allow-new" is the default ESLint behavior and will no longer be ignored.
+  * prefer-arrow/prefer-arrow-functions:
+    - ESLint does not support allowing standalone function declarations.
+    - ESLint does not support allowing named functions defined with the function keyword.
+  * eqeqeq:
+    - Option "smart" allows for comparing two literal values, evaluating the value of typeof and null comparisons.
+
+2 rules are not known by tslint-to-eslint-config to have ESLint equivalents:
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "import-spacing".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "whitespace".
+```
