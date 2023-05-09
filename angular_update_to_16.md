@@ -46,3 +46,5 @@ UPDATE package.json (2080 bytes)
 
 - https://angular.io/cli/update
 - https://update.angular.io/?v=15.0-16.0
+
+For eslint codelyzer recomends https://github.com/angular-eslint/angular-eslint. Used this guide for migrate https://code.visualstudio.com/api/advanced-topics/tslint-eslint-migration.
