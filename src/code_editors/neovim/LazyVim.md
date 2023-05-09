@@ -36,6 +36,7 @@ return {
 - `C-w q` or `:close` - close split
 - `gx` - open link [so](https://stackoverflow.com/questions/26919972/follow-link-in-vim-with-markdown-syntax/26920014#26920014)
 - `gf` - open file [so](https://stackoverflow.com/questions/26919972/follow-link-in-vim-with-markdown-syntax/26920014#comment42389405_26920014)
+- `10j` - [move ten lines down](https://stackoverflow.com/questions/4917030/move-cursor-x-lines-from-current-position-in-vi-vim)
 
 - https://www.lazyvim.org/keymaps
 - https://stackoverflow.com/questions/4809729/cancel-split-window-in-vim/4809736#4809736
@@ -49,6 +50,10 @@ return {
 - `C-n` and `C-p` to navigate file list
 
 https://github.com/nvim-telescope/telescope.nvim
+
+## commands
+
+- `:noa w` - [save without autoformat](https://stackoverflow.com/questions/41070645/prevent-vims-autocmd-from-running-on-write-just-once/41070678#41070678)
 
 ## File explorer
 
