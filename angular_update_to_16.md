@@ -1,6 +1,7 @@
 `npm install typescript@4.9.3`
 
 - https://stackoverflow.com/questions/72597156/updating-typescript-version
+- https://stackoverflow.com/questions/39677437/how-to-update-typescript-to-latest-version-with-npm
 
 ```shell
 % ng update @angular/cli @angular/core
@@ -48,11 +49,6 @@ UPDATE package.json (2080 bytes)
   Migration completed (No changes made).
 ```
 
-- https://angular.io/cli/update
-- https://update.angular.io/?v=15.0-16.0
-
-For eslint codelyzer recomends https://github.com/angular-eslint/angular-eslint. Used this guide for migrate https://code.visualstudio.com/api/advanced-topics/tslint-eslint-migration.
-
 tslint-to-eslint-config.log
 
 ```
@@ -80,3 +76,21 @@ tslint-to-eslint-config.log
   * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "import-spacing".
   * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "whitespace".
 ```
+
+- https://angular.io/cli/update
+- https://update.angular.io/?v=15.0-16.0
+- https://www.angular.love/2018/03/04/angular-i-zone-js/
+- for eslint codelyzer recomends https://github.com/angular-eslint/angular-eslint. Used this guide for migrate https://code.visualstudio.com/api/advanced-topics/tslint-eslint-migration
+- https://eslint.org/docs/latest/use/configure/configuration-files
+- https://stackoverflow.com/questions/65113268/having-angular-migrate-tslint-to-eslint-banana-in-box-error
+- after setting parser to `@angular-eslint/template-parser` I got this error https://stackoverflow.com/questions/75440350/error-while-loading-rule-typescript-eslint-await-thenable-you-have-used-a-ru
+
+## Angular material
+
+```shell
+npm update
+npm outdated
+ng update @schenker/eslint-config-angular
+```
+
+https://docs.npmjs.com/updating-packages-downloaded-from-the-registry

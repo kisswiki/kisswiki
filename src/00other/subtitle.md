@@ -7,6 +7,8 @@ If the sync gets worse (gets more and more ahead or behind) as the playback prog
 https://superuser.com/questions/153143/how-to-perfectly-synchronize-subtitles-with-movie
 
 - [kaegi/alass: "Automatic Language-Agnostic Subtitle Synchronization"](https://github.com/kaegi/alass)
+  - `cargo install alass-cli`
+  - `alass-cli reference_subtitle.ssa incorrect_subtitle.srt output.srt`
 - https://openai.com/blog/whisper/
 
 ## edit timing
@@ -146,7 +148,7 @@ https://www.cheatography.com/someone/cheat-sheets/mpv-media-player/
 
 ## extract subtitles
 
-Install mkvtoolnix with `sudo apt install mkvtoolnix`.
+Install mkvtoolnix with `sudo apt install mkvtoolnix` or `brew install mkvtoolnix`.
 
 Run from terminal: `mkvextract tracks <your_mkv_video> <track_numer>:<subtitle_file.srt>`
 
@@ -170,40 +172,4 @@ backup_language=en
 language_backup=en
 ```
 
-zamiast en wstaw język jaki chcesz wstawić.
-
-[Problem z zapasowym językiem napisów · Issue #122 · QNapi/qnapi](https://github.com/QNapi/qnapi/issues/122)
-
-### The repository 'http://ppa.launchpad.net/krzemin/qnapi/ubuntu disco Release' does not have a Release file
-
-Just install from unverse repositories.
-
-https://github.com/QNapi/qnapi/issues/151
-
-### Open With Other Application does not list qnapi
-
-Change `qnapi.desktop` so it has `Exec=qnapi %U`
-
-- https://github.com/QNapi/qnapi/issues/160
-
-## Links
-
-- https://github.com/Diaoul/subliminal
-- https://github.com/ajknol/Subliminal-Windows-right-click-menu
-- https://isubtitles.net/the-boy-and-the-beast-subtitles
-- https://news.ycombinator.com/item?id=16825379
-- https://www.reddit.com/r/programming/comments/8aou8p/subsync_automatically_download_subtitles_for_your/dx9n3r5/
-- https://www.reddit.com/r/subtitles/comments/8bu5g5/my_guide_how_to_search_download_adjust_subtitles/
-
-## subtitles sources
-
-- https://www.opensubtitles.org
-  - https://blog.opensubtitles.org/guides/how-to-upload-subtitles-to-opensubtitles-org-using-subtitle-edit
-  - https://blog.opensubtitles.org/guides/how-to-create-subtitles-using-subtitle-edit
-- Polish https://napisy24.pl
-- Polish https://www.napiprojekt.pl
-- http://thesubdb.com
-- https://www.podnapisi.net
-- https://subscene.com/
-- [More sources of subtitles · Issue #132 · QNapi/qnapi](https://github.com/QNapi/qnapi/issues/132)
-- https://www.yifysubtitles.com
+zamiast en wstaw język j
