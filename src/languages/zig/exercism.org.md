@@ -14,7 +14,7 @@ You can return slice from slice `return buffer[0..j]`
 
 Or you can do `var buf = buffer; buf.len = 41; return buf;`. https://exercism.org/tracks/zig/exercises/sieve/solutions/kalev666
 
-Sieve of Erastothenes: next to sieve is `j = i * i`, but subsequent are `j += i`, because for 3, there will be 2 * 3 already set thanks to 2.
+Sieve of Erastothenes: next to sieve is `j = i * i`, but subsequent are `j += i`, because for 3, there will be 2 \* 3 already set thanks to 2.
 
 Nice solution https://exercism.org/tracks/zig/exercises/sieve/solutions/citizen428
 
@@ -244,3 +244,53 @@ https://exercism.org/tracks/zig/exercises/allergies/solutions/citizen428
 
 - https://github.com/ziglang/zig/blob/0.10.x/lib/std/enums.zig
 - https://github.com/exercism/zig/blob/main/exercises/practice/allergies/.meta/example.zig
+
+## all your base
+
+```zig
+const std = @import("std");
+const mem = std.mem;
+
+pub const BaseError = error{
+    InvalidInputBase,
+    InvalidOutputBase,
+    InvalidDigit,
+};
+
+pub fn rebase(
+    allocator: mem.Allocator,
+    digits: []const usize,
+    from_base: usize,
+    to_base: usize,
+) ![]usize {
+    if (from_base < 2) return error.InvalidInputBase;
+    if (to_base < 2) return error.InvalidOutputBase;
+
+    var list = std.ArrayList(usize).init(allocator);
+    errdefer list.deinit();
+
+    if (digits.len == 0 or digits.len == 1 and digits[0] == 0) {
+        try list.append(0);
+        return list.toOwnedSlice();
+    }
+
+    var input: usize = 0;
+    for (digits) |digit, i| {
+        if (digit >= from_base) return error.InvalidDigit;
+        input += if (digit == 0) 0 else digit * try std.math.powi(usize, from_base, digits.len - 1 - i);
+        // std.debug.print("input: {}, digit: {}, i: {}\n", .{ input, digit, i });
+    }
+
+    if (input == 0) {
+        try list.append(0);
+        return list.toOwnedSlice();
+    }
+
+    while (input > 0) {
+        try list.append(input % to_base);
+        input /= to_base;
+    }
+    std.mem.reverse(usize, list.items);
+    return list.toOwnedSlice();
+}
+```
