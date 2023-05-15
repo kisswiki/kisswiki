@@ -518,9 +518,34 @@ pub fn main() !void {
 }
 ```
 
-- https://zig.news/sobeston/fahrenheit-to-celsius-akf
-- https://blog.orhun.dev/zig-bits-02/
+https://zig.news/sobeston/fahrenheit-to-celsius-akf
 
+```zig
+pub fn main() !void {
+    // Choose an allocator based on our needs.
+    const allocator = std.heap.page_allocator;
+    {
+
+        // Concatenate.
+        const path = try concatPath(allocator, "zig", "bits");
+        defer allocator.free(path); // free the memory at the end of the scope
+
+        // Print the final path.
+        std.log.debug("{s}", .{path});
+    }
+
+    {
+        // Concatenate.
+        const path = try concatPath(allocator, "zig", "bits2");
+        defer allocator.free(path); // free the memory at the end of the scope
+
+        // Print the final path.
+        std.log.debug("{s}", .{path});
+    }
+}
+```
+
+https://blog.orhun.dev/zig-bits-02/
 First argument is executable name. You do not provide it in command line. It is given.
 
 ```zig
