@@ -501,6 +501,26 @@ https://zigbin.io/0f4af2
 
 ## args
 
+```zig
+const std = @import("std");
+
+pub fn main() !void {
+    const stdout = std.io.getStdOut().writer();
+
+    const args = try std.process.argsAlloc(std.heap.page_allocator);
+    defer std.process.argsFree(std.heap.page_allocator, args);
+
+    if (args.len < 2) return error.ExpectedArgument;
+
+    const f = try std.fmt.parseFloat(f32, args[1]);
+    const c = (f - 32) * (5.0 / 9.0);
+    try stdout.print("{d:.1}c\n", .{c});
+}
+```
+
+- https://zig.news/sobeston/fahrenheit-to-celsius-akf
+- https://blog.orhun.dev/zig-bits-02/
+
 First argument is executable name. You do not provide it in command line. It is given.
 
 ```zig
