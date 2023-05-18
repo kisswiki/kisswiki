@@ -19,6 +19,8 @@
 - A Http server written in Zig https://github.com/frmdstryr/zhp
 - [⚡ Live Coding A Web Server in Zig ⚡ - 01 - YouTube](https://www.youtube.com/watch?v=olOJbYP0ORE)
 - HTTP client for Zig 🦎 https://github.com/ducdetronquito/requestz/
+- https://github.com/TheAlgorithms/Zig/blob/main/web/http/server.zig
+- https://github.com/TheAlgorithms/Zig/blob/main/web/http/client.zig
 
 ## websocket
 
