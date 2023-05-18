@@ -16,6 +16,8 @@
 - https://wagnerstechtalk.com/steamdeck/
 - docks compared https://wagnerstechtalk.com/steamdeck/#Official_Steam_Deck_Docking_Station
 - https://lowcygier.pl/platforma/steam-deck/
+- Games should be run in the default Gaming Mode wherever possible. This is because of a tweak to expose the CPU as 8 cores/8 threads instead of 4 cores/8 threads that are exposed in Desktop Mode. This lets several games pick 6 or 8 threads instead of 4, yielding big gains from SMT (Simultaneous Multithreading) scaling. One can launch Steam in Desktop Mode, and then go to Library, Games and Add a non-Steam game to My Library - once this is done it'll be available in Gaming Mode under Library, Non-Steam Games. https://www.pcgamingwiki.com/wiki/Steam_Deck
+- https://wiki.archlinux.org/title/Steam_Deck
 
 ## Proton GE
 
