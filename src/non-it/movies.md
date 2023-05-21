@@ -1,4 +1,6 @@
 - Favourite movies.md https://gist.github.com/rofrol/3d12293ae7f4165bdde2
+- filter how much feminism, homosexualism, marxism you want in movie, tv series, game https://zeitgeistreviews.com/search
+- https://www.youtube.com/@disparutoo
 - https://flickmetrix.com/
   - previously http://cinesift.com
 - http://www.rottentomatoes.com/

@@ -13,6 +13,7 @@
 - [Steam Deck Emulation – Steam Deck Life](https://steamdecklife.com/category/steam-deck-emulation/)
 - https://www.reddit.com/r/SteamDeck/comments/uv0us5/updated_guide_to_get_legend_of_zelda_breath_of/
 - https://www.reddit.com/r/SteamDeck/comments/11fj6kj/for_you_in_the_future_cemu_breath_of_the_wild/
+- - [ULTIMATE Steam Deck Emulation Guide (EmuDeck 2.1) - YouTube](https://www.youtube.com/watch?v=Mfef3ZH2IgE)
 
 ## SMT bug
 
