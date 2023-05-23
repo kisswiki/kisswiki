@@ -1,3 +1,15 @@
+## 2023-05-23
+
+to zasługa 5 rzeczy:
+
+- nie jem po osiemnastej, czasami nawet wcześniej, ewentualnie jakiś napój jak zbożowa z mlekiem owsianym lub kakao
+- dobrze wywietrzona i chłodna sypialnia
+- nie piję kawy
+- kobieta co nie pozwala mi po nocach coś robić
+- wiedza, że jak regularnie chodzę spać, to wystarczy poleżeć, żeby usnąć, nawet jak chce się na chwilę coś zobaczyć w telefonie
+
+## Old
+
 - http://antyweb.pl/sen-microsoft-band-bing/
 - https://news.ycombinator.com/item?id=17330736
 - https://www.trackinghappiness.com/effect-sleep-happiness/
