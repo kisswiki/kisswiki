@@ -7,6 +7,7 @@ to zasługa 5 rzeczy:
 - nie piję kawy
 - kobieta co nie pozwala mi po nocach coś robić
 - wiedza, że jak regularnie chodzę spać, to wystarczy poleżeć, żeby usnąć, nawet jak chce się na chwilę coś zobaczyć w telefonie
+- ćwiczę fizycznie codziennie 10 minut
 
 ## Old
 
