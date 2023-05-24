@@ -1,0 +1,4 @@
+- https://www.zoaibkhan.com/blog/angular-material-tabs-with-lazy-loaded-routes/
+  - https://github.dev/thisiszoaib/angular-material-tabs/blob/main/src/app/app.component.html
+- example from Angular Team is currently missing the Router-Outlet https://stackoverflow.com/questions/75200183/angular-15-1-mat-tab-nav-bar-require-tabpanel/75555162#75555162
+  - https://material.angular.io/components/tabs/overview#tabs-and-navigation
