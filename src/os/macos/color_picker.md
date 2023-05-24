@@ -1,2 +1,4 @@
 - https://github.com/ripeworks/iro
 - in figma.com press i for color picker
+- https://github.com/superhighfives/pika
+- https://sindresorhus.com/system-color-picker
