@@ -29,6 +29,8 @@ return {
   - `{ "gD", vim.lsp.buf.declaration, desc = "Goto Declaration" },`
   - `{ "gI", "<cmd>Telescope lsp_implementations<cr>", desc = "Goto Implementation" },`
   - `{ "gy", "<cmd>Telescope lsp_type_definitions<cr>", desc = "Goto T[y]pe Definition" },`
+  - { "]]", desc = "Next Reference" }, -- RRethy/vim-illuminate
+  - { "[[", desc = "Prev Reference" }, -- RRethy/vim-illuminate
 - `<leader>fr` to find recent files
 - H to jump to the left buffer and L to jump to the right buffer (uses [bufferline.nvim](https://github.com/akinsho/bufferline.nvim))
 - `<leader>,` - fuzzy search over open buffers
