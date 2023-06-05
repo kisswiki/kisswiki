@@ -77,3 +77,11 @@ Esc+: `.`
     - unchecke `Draw bold text in bold font`
     - unchecke `Italic text`
   - `Font > NotoMono Nerd Font 18pt`
+
+## Open iTerm2 in folder
+
+`System Settings > Keyboard > Keyboard Shortcuts > Services > Files and Folders > New iTerm2 Tab Here > and give preferred shortcut`.
+
+You can right-click on the folder where you want iTerm2 to open, then select `Services > New iTerm2 Tab here`
+
+https://stackoverflow.com/questions/50370854/is-it-possibile-to-open-iterm-in-current-finder-position
