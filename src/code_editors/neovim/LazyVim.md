@@ -70,3 +70,14 @@ Started working after I have installed with tap https://github.com/jesseduffield
 - `c` - commit changes, `Enter` to add all changed https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md#files
 
 - https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md
+
+## Terminal
+
+- `c-\` - toggle
+- `c-h`, `c-j`, `c-k`, `c-l` - movement
+- `c-w` - window mappings
+- `c-ws` - split horizontally
+- `c-wv` - split vertically
+  etc.
+
+https://github.com/LazyVim/LazyVim/discussions/193#discussioncomment-6088989
