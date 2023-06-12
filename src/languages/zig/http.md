@@ -145,4 +145,8 @@ pub fn main() !void {
 }
 ```
 
+```shell
+% zig build run | jq -r .origin
+```
+
 https://discord.com/channels/605571803288698900/1023625686327492761
