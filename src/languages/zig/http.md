@@ -111,3 +111,32 @@ pub fn main() !void {
 ```
 
 https://discord.com/channels/605571803288698900/1059912546892660796
+
+##
+
+```zig
+const std = @import("std");
+
+pub fn main() !void {
+    const allocator = std.heap.page_allocator;
+    const uri = std.Uri.parse("http://httpbin.org/ip")
+        catch unreachable;
+    var client = std.http.Client{
+        .allocator = allocator};
+    var headers = std.http.Headers{ .allocator = allocator };
+    defer headers.deinit();
+
+    try headers.append("accept", "*/*");
+    var req = try client.request(.GET, uri, headers, .{});
+    defer req.deinit();
+
+    try req.start();
+    try req.wait();
+
+    const body = try req.reader().readAllAlloc(allocator, 1024);
+    defer allocator.free(body);
+    std.debug.print("response: {s}", .{body});
+}
+```
+
+https://discord.com/channels/605571803288698900/1023625686327492761
