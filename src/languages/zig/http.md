@@ -118,11 +118,10 @@ https://discord.com/channels/605571803288698900/1059912546892660796
 const std = @import("std");
 
 pub fn main() !void {
+    // https://discord.com/channels/605571803288698900/1023625686327492761
     const allocator = std.heap.page_allocator;
-    const uri = std.Uri.parse("http://httpbin.org/ip")
-        catch unreachable;
-    var client = std.http.Client{
-        .allocator = allocator};
+    const uri = std.Uri.parse("http://httpbin.org/ip") catch unreachable;
+    var client = std.http.Client{ .allocator = allocator };
     var headers = std.http.Headers{ .allocator = allocator };
     defer headers.deinit();
 
@@ -135,7 +134,14 @@ pub fn main() !void {
 
     const body = try req.reader().readAllAlloc(allocator, 1024);
     defer allocator.free(body);
-    std.debug.print("response: {s}", .{body});
+
+    const stdout_file = std.io.getStdOut().writer();
+    var bw = std.io.bufferedWriter(stdout_file);
+    const stdout = bw.writer();
+
+    try stdout.print("{s}", .{body});
+
+    try bw.flush(); // don't forget to flush!
 }
 ```
 
