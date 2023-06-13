@@ -37,6 +37,8 @@ host_writeconfig
 
 ## crosshair
 
+s1mple CSGO-cFXe5-HCMJj-53On4-bdAkQ-97V5F https://www.youtube.com/watch?v=HdRDDUr787o&lc=Ugy1eB2gAIVFEM6PIXt4AaABAg.9lqA1HdgBlv9lqCz6R6UQW https://csgosettings.ru/files/polzovatelskie_komandy/polzovatelskie_nastrojki/tepazz/19-1-0-3186
+
 Example autoexec.cfg from [s1mple's crosshair config](https://liquipedia.net/counterstrike/S1mple):
 
 ```
