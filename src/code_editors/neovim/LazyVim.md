@@ -86,3 +86,9 @@ Started working after I have installed with tap https://github.com/jesseduffield
   etc.
 
 https://github.com/LazyVim/LazyVim/discussions/193#discussioncomment-6088989
+
+## Nvim-tree: How do you copy/duplicate files?
+
+c to copy a file and p to paste it
+
+https://www.reddit.com/r/neovim/comments/sews3r/comment/humd3me/
