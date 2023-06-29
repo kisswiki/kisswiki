@@ -92,3 +92,9 @@ https://github.com/LazyVim/LazyVim/discussions/193#discussioncomment-6088989
 c to copy a file and p to paste it
 
 https://www.reddit.com/r/neovim/comments/sews3r/comment/humd3me/
+
+## update plugins without from command line
+
+`nvim --headless "+Lazy! sync" "+TSUpdateSync" +qa`
+
+https://github.com/LazyVim/LazyVim/pull/944
