@@ -42,6 +42,8 @@ return {
 - `gx` - open link [so](https://stackoverflow.com/questions/26919972/follow-link-in-vim-with-markdown-syntax/26920014#26920014)
 - `gf` - open file [so](https://stackoverflow.com/questions/26919972/follow-link-in-vim-with-markdown-syntax/26920014#comment42389405_26920014)
 - `10j` - [move ten lines down](https://stackoverflow.com/questions/4917030/move-cursor-x-lines-from-current-position-in-vi-vim)
+- `<leader>bp` - pin tab - pin icon should show up in tab - thanks to bufferline
+- `<leader>bP` - close not-pinned tabs
 
 - https://www.lazyvim.org/keymaps
 - https://stackoverflow.com/questions/4809729/cancel-split-window-in-vim/4809736#4809736
