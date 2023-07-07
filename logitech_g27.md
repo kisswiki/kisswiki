@@ -1,2 +1,0 @@
-- [How to get your Logitech racing wheel to work with Steam Deck : SteamDeck](https://www.reddit.com/r/SteamDeck/comments/vs9foh/how_to_get_your_logitech_racing_wheel_to_work/)
-- [Logitech Racing Wheel - ArchWiki](https://wiki.archlinux.org/title/Logitech_Racing_Wheel)
