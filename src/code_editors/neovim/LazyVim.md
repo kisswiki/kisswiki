@@ -100,3 +100,37 @@ https://www.reddit.com/r/neovim/comments/sews3r/comment/humd3me/
 `nvim --headless "+Lazy! sync" "+TSUpdateSync" +qa`
 
 https://github.com/LazyVim/LazyVim/pull/944
+
+## save as in the same directory
+
+`:sav %:h/new-file-name`
+
+`:echo expand("%:h")`
+
+`:echo expand("%:p:h")`
+
+- https://blog.tomontheinternet.com/posts/vim-new-file-same-directory/
+  - https://www.reddit.com/r/vim/comments/k9k2it/make_a_new_file_in_the_current_directory/
+- https://vi.stackexchange.com/questions/2071/how-can-i-copy-the-current-file-and-start-editing-the-copy-instead-of-the-curren#comment76266_34474
+
+to open just use `:e %:h/filename`
+
+- https://stackoverflow.com/questions/13239464/create-a-new-file-in-the-directory-of-the-open-file-in-vim/13239757#13239757
+- more key mappings https://stackoverflow.com/questions/1708623/opening-files-in-the-same-folder-as-the-current-file-in-vim
+
+or this
+
+```vim
+"" Save as
+nnoremap <expr> <space>S printf(":saveas %s%s",
+            \ expand("%:p"),
+            \ empty(expand("%:e")) ? '' : repeat('<Left>', strchars(expand("%:e")) + 1))
+```
+
+- https://www.reddit.com/r/vim/comments/k9k2it/comment/gf57cvh/
+
+`:help cmdline-special`
+
+% Is replaced with the current file name
+
+- https://www.reddit.com/r/vim/comments/k8lsfy/comment/geyro17/
