@@ -1,5 +1,6 @@
 - https://tld-list.com/tld/net
 - https://tld-list.com/tld/jobs
+- https://tld-list.com/tld/pl
 - https://www.domcomp.com/tld/net
 - https://www.quora.com/Where-could-I-register-a-net-domain-at-the-cheapest-rates
 - https://www.quora.com/Which-service-offers-cheapest-domain-name-renewals
@@ -35,8 +36,13 @@ Good features:
 - DNS
 - Email Forwarding
 - SSL Certificate
-- 1 year WHOIS 
+- 1 year WHOIS
 
 ## regery.com
 
-Cheapest pl domain, register $3.99, renewal $11.89	
+Cheapest pl domain, register $3.99, renewal $11.89
+
+## gnum.pl
+
+- ns1.zenbox.pl
+- ns2.zenbox.pl
