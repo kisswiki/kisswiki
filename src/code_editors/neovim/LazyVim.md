@@ -134,3 +134,11 @@ nnoremap <expr> <space>S printf(":saveas %s%s",
 % Is replaced with the current file name
 
 - https://www.reddit.com/r/vim/comments/k8lsfy/comment/geyro17/
+
+## iterm2 command-r empties screen
+
+`iterm2 > Keys > command-r > Ignore`
+
+ad-hoc: C-z to suspend and fg to resume
+
+https://superuser.com/questions/800088/why-does-cmd-r-mess-up-vim-on-the-mac-what-is-it-actually-trying-to-do/1169889#1169889
