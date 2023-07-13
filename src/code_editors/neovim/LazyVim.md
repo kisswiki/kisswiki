@@ -165,3 +165,11 @@ https://www.youtube.com/watch?v=oy_-hQdkoXg&lc=Ugw8BXGw7-hwq8OIRBN4AaABAg
 opts is just a table that gets merged across all plugin specs of the same plugin. If config is not set then a default Implementation that calls setup with the opts table is used. If you define config then setup doesn't get called, the config function takes opts as the second parameter so you can still use opts but you have to call opts yourself.
 
 https://matrix.to/#/!cylwlNXSwagQmZSkzs:matrix.org/$N8m7EyuhH0P_KWrO1ptLIfw3UaMqLFsEwX_Qm22_chk
+
+## Which event to use?
+
+folke
+
+for ui stuff you need to load as quicklly as possible, ue VimEnter. For all the rest VeryLazy
+
+https://matrix.to/#/!cylwlNXSwagQmZSkzs:matrix.org/$mEj6Nu0KFRcdLHubttjf-Y0N7eVrHllmmvVym5sVy2U
