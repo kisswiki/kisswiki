@@ -142,3 +142,20 @@ nnoremap <expr> <space>S printf(":saveas %s%s",
 ad-hoc: C-z to suspend and fg to resume
 
 https://superuser.com/questions/800088/why-does-cmd-r-mess-up-vim-on-the-mac-what-is-it-actually-trying-to-do/1169889#1169889
+
+## Why LazyVim
+
+@avi7278
+
+LazyVim is by FAR the best distro. I've built upwards of 10 of my own configs, tried Lunar, Evo, Chad (almost all of them). Lazy first of all is the only one that had keymappings that were a) expected and b) very close to my own personal config. Further TJ mentioned it but the problem with most distros is that they feel very "proprietary" in terms of how they extended / customized. It's like learning a whole other thing than nvim. LazyVim on the other hand feels very much the same approach I would take just building my own configuration and extending nvim. I don't think I will ever maintain my own base config again. LazyVim is what I would have done anyway if I was more versed in neovim. It's very good. Only small neg is the documentation is sparse in places.
+
+@antoineleduc7611
+
+There is like 2 file in LazyVim (util/init.lua, and core/lazy.lua) which kinda seems like magic -> We know what they do mostly but lots of small details i wouldnt be able to implement on my own setup
+
+Apart from that i agree it reads very well, and the import of plugins to overwrite the one in lazyvim/plugins + the keymaps make absolute sense
+
+But i keep having stuff that break even on fresh install (notify.nvim is basically red everytime i telescope anything or try to use leap.nvim..) so i think ill just end up dropping it and make like my own config heavily inspired by lazyvim plugin configs, one plugin a day, little by little rebuilding the wheel for the most part
+debugging issues right after you clone and expect everything to work out the box is painful
+
+https://www.youtube.com/watch?v=oy_-hQdkoXg&lc=Ugw8BXGw7-hwq8OIRBN4AaABAg
