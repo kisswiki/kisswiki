@@ -172,4 +172,6 @@ folke
 
 for ui stuff you need to load as quicklly as possible, ue VimEnter. For all the rest VeryLazy
 
+any lazy handler triggers lazy loading. That's the whole point (my comment: i.e. setting keymaps triggers lazy loading)
+
 https://matrix.to/#/!cylwlNXSwagQmZSkzs:matrix.org/$mEj6Nu0KFRcdLHubttjf-Y0N7eVrHllmmvVym5sVy2U
