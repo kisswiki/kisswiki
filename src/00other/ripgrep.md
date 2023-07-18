@@ -187,3 +187,12 @@ $ rg --help | rg '^\s*\-u' -A 4
 ```
 
 - https://github.com/BurntSushi/ripgrep/issues/1029#issuecomment-416120007
+
+## dollar sign $
+
+```shell
+$ rg '\$timeout'
+$ rg "\\\$timeout"
+```
+
+https://github.com/ggreer/the_silver_searcher/issues/482#issuecomment-55115466

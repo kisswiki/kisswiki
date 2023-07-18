@@ -1,8 +1,20 @@
 - https://lowendbox.com/
+  - https://lowendbox.com/blog/1-vps-1-usd-vps-per-month/
+    - https://vpshostingservice.co/
+      - Linux VPS - SSD - 1 GB
+        - Operating System: Debian 11
+        - Region: Warsaw, Poland $1.00 USD
+        - Number of IPs: 1 IPv4 IP Address
+        - Monthly Bandwidth: Unmetered Bandwidth
+        - CPU Cores: 1
+        - Space: 15 GB SSD Space
+        - RAM: 1 GB
+        - Backup Services: None
+        - $1.20 USD Monthly
 - http://www.hostbenchmarker.com/
 - https://www.arubacloud.pl/
   - http://kb.arubacloud.pl/pl/computing/dostep-do-serwerow-cloud/polaczenie-do-serwera-cloud-poprzez-ssh.aspx
-  - Brak VNC przy pełnej wirtualizacji to trochę jak serwer dedykowany bez IPMI...  http://www.webhostingtalk.pl/topic/52633-aruba-cloud/page-9
+  - Brak VNC przy pełnej wirtualizacji to trochę jak serwer dedykowany bez IPMI... http://www.webhostingtalk.pl/topic/52633-aruba-cloud/page-9
 - http://www.webhostingtalk.pl/
 - https://www.trustpilot.com/categories/cloud_computing
 - http://www.wykop.pl/tag/hosting/
