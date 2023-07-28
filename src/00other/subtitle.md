@@ -8,6 +8,7 @@ https://superuser.com/questions/153143/how-to-perfectly-synchronize-subtitles-wi
 
 - [kaegi/alass: "Automatic Language-Agnostic Subtitle Synchronization"](https://github.com/kaegi/alass)
   - `cargo install alass-cli`
+  - `alass-cli movie.mp4 incorrect_subtitle.srt output.srt`
   - `alass-cli reference_subtitle.ssa incorrect_subtitle.srt output.srt`
 - https://openai.com/blog/whisper/
 
@@ -168,8 +169,5 @@ https://askubuntu.com/questions/452268/extract-subtitle-from-mkv-files
 w ~/.config/qnapi.ini musisz mieć 2 wpisy:
 
 ```
-backup_language=en
-language_backup=en
+backup_langu
 ```
-
-zamiast en wstaw język j
