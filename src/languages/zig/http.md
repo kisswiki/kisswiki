@@ -1,5 +1,10 @@
 ## http examples
 
+- https://github.com/rofrol/http-client-zig-example
+- https://github.com/rofrol/zig-http-client-parse-json-example
+- https://github.com/rofrol/mini-http-server-in-zig
+- https://blog.orhun.dev/zig-bits-04/
+- https://github.com/karlseguin/http.zig
 - https://zig.news/nameless/coming-soon-to-a-zig-near-you-http-client-5b81
 - https://www.reddit.com/r/Zig/comments/xupw9d/i_want_to_run_simple_http_server_that_i_also_know/
 - https://discord.com/channels/605571803288698900/1026547320340348978

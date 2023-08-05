@@ -1,6 +1,6 @@
 ## watchexec
 
-`watchexec -i zig-cache -e zig -r 'zig build 2>&1| less'
+`watchexec -i zig-cache -e zig -r 'zig build 2>&1 | ziglings_cut_passed.py`
 
 ## vscode task
 
