@@ -21,6 +21,8 @@
 - HTTP client for Zig 🦎 https://github.com/ducdetronquito/requestz/
 - https://github.com/TheAlgorithms/Zig/blob/main/web/http/server.zig
 - https://github.com/TheAlgorithms/Zig/blob/main/web/http/client.zig
+- https://git.mzte.de/LordMZTE/vidzig/src/branch/master/src/main.zig
+  - [error(gpa): memory address 0x102910100 leaked on macos aarch64 when compiling vidzig. Works on linux x86_64 · Issue #16685 · ziglang/zig: ](https://github.com/ziglang/zig/issues/16685)
 
 ## websocket
 
