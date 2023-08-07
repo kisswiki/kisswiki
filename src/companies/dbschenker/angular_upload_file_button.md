@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/48444168/how-to-trigger-the-file-upload-input-in-angular
