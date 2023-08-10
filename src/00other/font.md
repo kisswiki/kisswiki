@@ -2,6 +2,8 @@
 
 `0123456789 {}[]=<>{}|&;,.- 1lIi|`
 
+- https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Iosevka/Regular/IosevkaNerdFontMono-Regular.ttf
+  - inspired by tsoding usage of font - [Paid Zig Stream - YouTube](https://www.youtube.com/watch?v=eIX9zER9vjY)
 - https://www.programmingfonts.org/
   - https://github.com/ProgrammingFonts/ProgrammingFonts
 - https://www.s9w.io/font_compare/

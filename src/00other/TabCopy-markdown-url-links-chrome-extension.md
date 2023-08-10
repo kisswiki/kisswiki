@@ -1,6 +1,6 @@
 `Options > Simple mode > Custom`
 
-Tab: `- [[title]]([url])`
+Tab: `- [ ] [[title]]([url])`
 
 Tab Delimiter: `[n]`
 
