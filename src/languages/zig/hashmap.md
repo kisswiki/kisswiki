@@ -3,6 +3,26 @@
 - https://zig.news/andrewrk/how-to-use-hash-map-contexts-to-save-memory-when-doing-a-string-table-3l33
 - https://www.reddit.com/r/Zig/comments/krnuac/is_it_possible_to_create_hash_maps_at_compile_time/
 
+## Dupe
+
+```shell
+% cd ~/personal_projects/zig/vendor/exercism--zig
+% git sw implement-word-count
+% rg --hidden -tzig dupe
+% rg --hidden -tzig -g 'example.zig' dupe
+% cat exercises/practice/word-count/word_count.zig
+```
+
+```zig
+            const dupe = try allocator.dupe(u8, word.items);
+            // defer allocator.free(dupe);
+            errdefer allocator.free(dupe);
+            try map.put(dupe, if (map.get(dupe)) |count|
+                count + 1
+            else
+                1);
+```
+
 ## Deinit
 
 ```zig
