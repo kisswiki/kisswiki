@@ -188,4 +188,5 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 })
 ```
 
-https://www.lazyvim.org/configuration/tips#disable-autoformat-for-some-buffers
+- https://www.lazyvim.org/configuration/tips#disable-autoformat-for-some-buffers
+- [LazyVim: Linting and Formatting - YouTube](https://www.youtube.com/watch?v=a_ZpTPaSn38)
