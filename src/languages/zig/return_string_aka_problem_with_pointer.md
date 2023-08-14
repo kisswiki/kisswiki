@@ -116,3 +116,18 @@ pub fn main() void {
 ```
 
 - https://blog.orhun.dev/zig-bits-01/
+
+## returned concatenated strings is not pointer to stack-allocated memory
+
+```zig
+pub fn convert(buffer: []u8, comptime n: u32) []const u8 {
+    const pling = if (n % 3 == 0) "Pling" else "";
+    const plang = if (n % 5 == 0) "Plang" else "";
+    const plong = if (n % 7 == 0) "Plong" else "";
+    const result = pling ++ plang ++ plong;
+    return if (result.len > 0) result else std.fmt.bufPrint(buffer, "{}", .{n}) catch unreachable;
+}
+```
+
+- https://github.com/exercism/zig/pull/155#issuecomment-1664584315
+- https://github.com/exercism/zig/blob/8832cd5b7543989cc851868cbf7db08a26bf1765/exercises/practice/raindrops/.meta/example.zig 
