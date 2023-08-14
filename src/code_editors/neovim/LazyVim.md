@@ -44,6 +44,7 @@ return {
 - `10j` - [move ten lines down](https://stackoverflow.com/questions/4917030/move-cursor-x-lines-from-current-position-in-vi-vim)
 - `<leader>bp` - pin tab - pin icon should show up in tab - thanks to bufferline
 - `<leader>bP` - close not-pinned tabs
+- `<leader>uc` - toggle conceal level, hide/show * markup for bold and italic
 
 - https://www.lazyvim.org/keymaps
 - https://stackoverflow.com/questions/4809729/cancel-split-window-in-vim/4809736#4809736
