@@ -12,9 +12,10 @@
 - [Getting a Job in Tech | Prime Reacts - YouTube](https://www.youtube.com/watch?v=MZRs6w-Qy2U)
 - [Facade Design Pattern | Facade Design Pattern - Structural Patterns | Design Pattern in Delphi - YouTube](https://www.youtube.com/watch?v=R2-qUtVeCtA)
 
-# youtube
+## youtube
 
-- [ ] ## Zig
+### Zig
+
 - [ ] [Zig Data Structure Katas | TheVimeagen](https://youtu.be/xIPrwrBAU2c)
 - [ ] [Zig Game Development – Full Programming Course | Beau (previously Zizyo)](https://youtu.be/2co5DgL_-3s)
 - [ ] [Publishing Diagnostics From Three Years of ZLS - Auguste Rame - Software You Can Love Vancouver 2023 | Zig SHOWTIME](https://youtu.be/npb1rAYHpw8)
@@ -57,7 +58,9 @@
 - [ ] [How to Get Ahead of 99% of Programmers (Starting Today!) | Internet Made Coder](https://youtu.be/epfz1O7aID0)
 - [ ] [Learning to Code Was Hard Until I Changed THESE 3 THINGS | Internet Made Coder](https://youtu.be/UxRopkDEnww)
 - [ ] [Why 95% of Self-Taught Programmers Fail (Honest Advice) | Andy Sterkowitz](https://youtu.be/ueXjGMrmn8k)
-- [ ] ## PrimeAgen
+
+### PrimeAgen
+
 - [ ] [Have We Forgotten How To Program?? | Prime Reacts](https://www.youtube.com/watch?v=NmHUjxKpD90)
 - [ ] [How A Progress Bar Makes a Site FEEL SLOW | Prime Reacts](https://www.youtube.com/watch?v=l5XFWTA5E5k)
 - [ ] [This MF Website IS THE BEST MF Website | Prime Reacts](https://www.youtube.com/watch?v=PsEt2mXGbxM)
@@ -70,7 +73,9 @@
 - [ ] [Stop using COUNT(id) to count rows](https://www.youtube.com/watch?v=H6juZ8c_Nu8)
 - [ ] [Make your database queries 1000 times faster!](https://www.youtube.com/watch?v=sJVzvBLDqqw)
 - [ ] [Storing money in MySQL (the right way)](https://www.youtube.com/watch?v=fhwEFZ34c7g)
-- [ ] ## Learn IT
+
+### Learn IT
+
 - [ ] [My Computer Science Degree in 14 Minutes](https://www.youtube.com/watch?v=LvDlwmNo-hw)
 - [ ] [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD)
 - [ ] [CS50 2020 - Lecture 0 - Scratch](https://www.youtube.com/watch?v=YoXxevp1WRQ&list=PLhQjrBD2T382_R182iC2gNZI9HzWFMC_8)
@@ -87,3 +92,6 @@
 - [ ] [I Took The World’s HARDEST Cybersecurity Exam | Mad Hat](https://youtu.be/9BZaim2uQn0)
 - [ ] [How do computers read code? | Frame of Essence](https://youtu.be/QXjU9qTsYCc)
 - [ ] [Colourful in Theory - That Irks Me | Frame of Essence](https://youtu.be/qKPY2opi
+
+### Other
+
