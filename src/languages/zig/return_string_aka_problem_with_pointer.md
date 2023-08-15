@@ -161,22 +161,31 @@ pub fn convert(buffer: []u8, comptime n: u32) []const u8 {
 @InKryption
 
 string literals are not allocated on the stack
+
 note that `@TypeOf("Pling")` for example is `*const [5:0]u8`, not `[5:0]u8`
+
 that is to say, string literals point to a constant array that exists elsewhere
+
 if the string literal is referenced at runtime, that "elsewhere" is inside the executable binary itself
+
 so it's safe to pass these pointers around as you please
 
 @rofrol
 
 but I thought concatenation is something different
+
 there is some operation, so I thought I need to use ArrayList
 
 @InKryption
 
-++ is an operator that operates on indexables with a comptime-known length
+`++` is an operator that operates on indexables with a comptime-known length
+
 it produces a new indexable which also has a comptime-known length
+
 if both the operands were comptime-known, the result is also comptime-known
+
 in the case of concatenating two strings literals, you just get another "string literal" 
+
 it would make the type system very confusing if it were to produce an array
 
 https://discord.com/channels/605571803288698900/1140711147226529862
