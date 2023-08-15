@@ -191,3 +191,5 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 
 - https://www.lazyvim.org/configuration/tips#disable-autoformat-for-some-buffers
 - [LazyVim: Linting and Formatting - YouTube](https://www.youtube.com/watch?v=a_ZpTPaSn38)
+- this does not work https://vi.stackexchange.com/questions/42597/how-to-disable-autoformating-on-save-on-lazyvim/42598#42598
+  - https://github.com/LazyVim/LazyVim/blob/566049aa4a26a86219dd1ad1624f9a1bf18831b6/lua/lazyvim/plugins/lsp/init.lua#L43
