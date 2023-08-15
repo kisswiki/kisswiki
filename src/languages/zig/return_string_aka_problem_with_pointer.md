@@ -131,3 +131,52 @@ pub fn convert(buffer: []u8, comptime n: u32) []const u8 {
 
 - https://github.com/exercism/zig/pull/155#issuecomment-1664584315
 - https://github.com/exercism/zig/blob/8832cd5b7543989cc851868cbf7db08a26bf1765/exercises/practice/raindrops/.meta/example.zig 
+
+## How is it done that returning concatenation of string literals does not return pointer to stack allocated memory?
+
+convert function from https://github.com/exercism/zig/pull/155#issuecomment-1664584315
+
+```zig
+const std = @import("std");
+pub fn main() !void {
+    const buffer_size = 20;
+    var buffer: [buffer_size]u8 = undefined;
+    const result_from_convert = convert(&buffer, 105);
+
+    // []const u8
+    std.debug.print("@TypeOf(result_from_convert): {any}\n", .{@TypeOf(result_from_convert)});
+}
+
+pub fn convert(buffer: []u8, comptime n: u32) []const u8 {
+    const pling = if (n % 3 == 0) "Pling" else "";
+    const plang = if (n % 5 == 0) "Plang" else "";
+    const plong = if (n % 7 == 0) "Plong" else "";
+    const result = pling ++ plang ++ plong;
+    // *const [15:0]u8
+    std.debug.print("@TypeOf(result): {any}\n", .{@TypeOf(result)});
+    return if (result.len > 0) result else std.fmt.bufPrint(buffer, "{}", .{n}) catch unreachable;
+}
+```
+
+@InKryption
+
+string literals are not allocated on the stack
+note that `@TypeOf("Pling")` for example is `*const [5:0]u8`, not `[5:0]u8`
+that is to say, string literals point to a constant array that exists elsewhere
+if the string literal is referenced at runtime, that "elsewhere" is inside the executable binary itself
+so it's safe to pass these pointers around as you please
+
+@rofrol
+
+but I thought concatenation is something different
+there is some operation, so I thought I need to use ArrayList
+
+@InKryption
+
+++ is an operator that operates on indexables with a comptime-known length
+it produces a new indexable which also has a comptime-known length
+if both the operands were comptime-known, the result is also comptime-known
+in the case of concatenating two strings literals, you just get another "string literal" 
+it would make the type system very confusing if it were to produce an array
+
+https://discord.com/channels/605571803288698900/1140711147226529862
