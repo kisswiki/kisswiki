@@ -71,6 +71,8 @@
 - [ ] [Maintaining Motivation as a Software Engineer | ThePrimeagen](https://youtu.be/fBayRA8o3yQ)
 - [ ] [Golang is BAD for SMART PEOPLE | ThePrimeTime](https://youtu.be/rWJ1tPCnVJI)
 - [ ] [Getting a Job in Tech | Prime Reacts | ThePrimeTime](https://youtu.be/MZRs6w-Qy2U)
+- [ ] [Rust Experiment Failed - Static Dispatch IS Hard | Prime Reacts | ThePrimeTime](https://youtu.be/mgkFA-ia8fY)
+- [ ] [If Vim Makes You Faster? | Prime Reacts | ThePrimeTime](https://youtu.be/nhe-4_dFjLM)
 
 ### Database
 
@@ -97,9 +99,18 @@
 - [ ] [How do computers read code? | Frame of Essence](https://youtu.be/QXjU9qTsYCc)
 - [ ] [Colourful in Theory - That Irks Me | Frame of Essence](https://youtu.be/qKPY2opi
 
+### Health
+
+- [ ] [5 NEW Leg Exercises To Try! Resistance Band Exercises for Knee Stability and Power | Dr. Kristie Ennis](https://youtu.be/qHRbanTAY3U)
+- [ ] [WDOWI GARB - jak się go pozbyć - SKUTECZNE TECHNIKI - dr n. med. Marcin Wytrążek](https://www.youtube.com/watch?v=D8X1-E6PxjA&t=96s)
+- [ ] [How Marijuana Affects the Brain & Body | Dr. Andrew Huberman](https://www.youtube.com/watch?v=UCbqfBAhmPY)
+- [ ] [JAK CHODZIĆ (cz.2) żeby mieć zdrowsze plecy i sprawniejszy kręgosłup? | Dr n. med. Marcin Wytrążek - fizjoterapeuta](https://youtu.be/7vas5kOJR2I)
+- [ ] [BRAIN FOG - How I Cured My Brainfog by Holding My Breath | The Buteyko Method](https://youtu.be/wjZL0llp5Ac)
+- [ ] [How to Fix Neck and Upper Back Pain FOR GOOD | SpineCare Decompression and Chiropractic Center](https://youtu.be/-Ffd9KqjNyk)
+
 ### Other
 
-- [ ] [If Vim Makes You Faster? | Prime Reacts | ThePrimeTime](https://youtu.be/nhe-4_dFjLM)
+-- [ ] [Why Most Google Employees Quit After 1.1 Years (On Average)](https://www.youtube.com/watch?v=IZCfP13twxk)
 - [ ] [Zero to IDE with LazyVim | Elijah Manor](https://youtu.be/N93cTbtLCIM)
 - [ ] [Run and Debug TypeScript Unit Tests in Neovim | Elijah Manor](https://youtu.be/7Nt8n3rjfDY)
 - [ ] [But what is a neural network? | Chapter 1, Deep learning | 3Blue1Brown](https://youtu.be/aircAruvnKk)
@@ -116,3 +127,5 @@
 - [ ] [The Art of Code - Dylan Beattie | NDC Conferences](https://youtu.be/6avJHaC3C2U)
 - [ ] [My Brain after 569 Leetcode Problems | NeetCode](https://youtu.be/8wysIxzqgPI)
 - [ ] [Carl Sagan testifying before Congress in 1985 on climate change | carlsagandotcom](https://youtu.be/Wp-WiNXH6hI)
+- [ ] [Zaprosiłem 100 Kobiet Na Randkę. | Hej, co tam?](https://youtu.be/wMT2q5efHvo)
+- [ ] [The Bayesian Trap | Veritasium](https://youtu.be/R13BD8qKeTg)
