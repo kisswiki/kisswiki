@@ -69,7 +69,10 @@
 - [ ] [Thoughts About Unit Testing | Prime Reacts](https://www.youtube.com/watch?v=KzV0mTqBcZA)
 - [ ] [The biggest lie about programming? REACTING to tech twitter | ThePrimeagen](https://youtu.be/Nusg5dUjR0A)
 - [ ] [Maintaining Motivation as a Software Engineer | ThePrimeagen](https://youtu.be/fBayRA8o3yQ)
-- [ ] ## Database
+- [ ] [Golang is BAD for SMART PEOPLE | ThePrimeTime](https://youtu.be/rWJ1tPCnVJI)
+
+### Database
+
 - [ ] [Stop using COUNT(id) to count rows](https://www.youtube.com/watch?v=H6juZ8c_Nu8)
 - [ ] [Make your database queries 1000 times faster!](https://www.youtube.com/watch?v=sJVzvBLDqqw)
 - [ ] [Storing money in MySQL (the right way)](https://www.youtube.com/watch?v=fhwEFZ34c7g)
@@ -95,3 +98,12 @@
 
 ### Other
 
+- [ ] [If Vim Makes You Faster? | Prime Reacts | ThePrimeTime](https://youtu.be/nhe-4_dFjLM)
+- [ ] [Zero to IDE with LazyVim | Elijah Manor](https://youtu.be/N93cTbtLCIM)
+- [ ] [Run and Debug TypeScript Unit Tests in Neovim | Elijah Manor](https://youtu.be/7Nt8n3rjfDY)
+- [ ] [But what is a neural network? | Chapter 1, Deep learning | 3Blue1Brown](https://youtu.be/aircAruvnKk)
+- [ ] [Neovim Lua Plugin From Scratch | TJ DeVries](https://youtu.be/n4Lp4cV8YR0)
+- [ ] [How to Land a 100K/yr Tech Job - 10 Strategies | Fireship](https://youtu.be/Xg9ihH15Uto)
+- [ ] [What the Barefoot Shoe Community Doesn’t Want To Talk About | Ben Vallack](https://youtu.be/6hHifp9kpW4)
+- [ ] [How to get rich as a solo software developer - The Ultimate Guide | Fireship](https://youtu.be/A4_TFHzqAAg)
+- [ ] ["It's Not Natural" - Why Are 20% of Kids Suddenly LGBTQ? | Valuetainment](https://youtu.be/v3z4-lFckZ8)
