@@ -30,7 +30,35 @@ http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf
 
 Latest C standard spec http://stackoverflow.com/questions/17014835/where-can-i-find-the-c89-c90-standards-in-pdf-format/24925468#24925468
 
-## Minimu JSON
+## Minimum JSON
 
 - https://stackoverflow.com/questions/18419428/what-is-the-minimum-valid-json
 - empty string is not valid json https://stackoverflow.com/questions/30621802/why-does-json-parse-fail-with-the-empty-string
+
+## prettify
+
+```shell
+# python
+$ echo '{"hello":"world"}' | python3 -m json.tool
+{
+    "hello": "world"
+}
+
+# nodejs
+$ echo '{"hello":"world"}' | node -e "console.log(JSON.stringify(JSON.parse(require('fs').readFileSync(0)), 0, 1))"
+{
+ "hello": "world"
+}
+
+# jq
+$ echo '{"hello":"world"}' | jq '.'
+{
+  "hello": "world"
+}
+```
+
+- https://kerkour.com/format-prettify-curl-json-ouput
+- https://gist.github.com/soxofaan/957bf4ab53a6cdbd36ffd441d0567ee9
+- https://docs.python.org/3/library/json.html
+- https://stackoverflow.com/questions/12943819/how-to-prettyprint-a-json-file
+
