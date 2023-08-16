@@ -5,12 +5,10 @@
 - [Taking Care of Yourself While Working From Home | Notes for Michael Abon from Michael Abon](https://blog.michaelabon.ca/2020/03/10/working-from-home.html)
 - [borgbackup/borg: Deduplicating archiver with compression and authenticated encryption.](https://github.com/borgbackup/borg/)
 - [Containers and license compliance \[LWN.net\]](https://lwn.net/Articles/752982/)
-- [tRPC vs EVERY OTHER FRAMEWORK - YouTube](https://www.youtube.com/watch?v=zADNdGVIPBY)
-- [Refterm Lecture Part 1 - Philosophies of Optimization - YouTube](https://www.youtube.com/watch?v=pgoetgxecw8)
-- [What pro coders do differently to get ahead of the competition - YouTube](https://www.youtube.com/watch?v=q1qKv5TBaOA)
-- [Solving the subsets problem with dynamic programming - YouTube](https://www.youtube.com/watch?v=Kbsjju9PUuw)
-- [Getting a Job in Tech | Prime Reacts - YouTube](https://www.youtube.com/watch?v=MZRs6w-Qy2U)
-- [Facade Design Pattern | Facade Design Pattern - Structural Patterns | Design Pattern in Delphi - YouTube](https://www.youtube.com/watch?v=R2-qUtVeCtA)
+- [ ] [I Ranked Every Framework By Type Safety | Theo - t3․gg](https://youtu.be/zADNdGVIPBY)
+- [ ] [Refterm Lecture Part 1 - Philosophies of Optimization | Molly Rocket](https://youtu.be/pgoetgxecw8)
+- [ ] [How principled coders outperform the competition | Coderized](https://youtu.be/q1qKv5TBaOA)
+- [ ] [Solving the subsets problem with dynamic programming | The Art of Software Development](https://youtu.be/Kbsjju9PUuw)
 
 ## youtube
 
@@ -21,7 +19,9 @@
 - [ ] [Publishing Diagnostics From Three Years of ZLS - Auguste Rame - Software You Can Love Vancouver 2023 | Zig SHOWTIME](https://youtu.be/npb1rAYHpw8)
 - [ ] [Zig in 100 Seconds | Fireship](https://youtu.be/kxT8-C1vmd4)
 - [ ] [Paid Zig Stream | Tsoding Daily](https://youtu.be/eIX9zER9vjY)
-- [ ] ## Productivity, mind, motivation, learning
+
+### Productivity, mind, motivation, learning
+
 - [ ] [Advice from the Top 1% of Software Engineers](https://www.youtube.com/watch?v=ydYBRLoBUpY)
 - [ ] [OUTWORK Everyone By Being Bored](https://www.youtube.com/watch?v=1iNyqomXQt8&t=85s)
 - [ ] [FASTEST Way to Learn Coding and ACTUALLY Get a Job | Power Couple](https://www.youtube.com/watch?v=79pKwdiqcwI)
@@ -70,6 +70,7 @@
 - [ ] [The biggest lie about programming? REACTING to tech twitter | ThePrimeagen](https://youtu.be/Nusg5dUjR0A)
 - [ ] [Maintaining Motivation as a Software Engineer | ThePrimeagen](https://youtu.be/fBayRA8o3yQ)
 - [ ] [Golang is BAD for SMART PEOPLE | ThePrimeTime](https://youtu.be/rWJ1tPCnVJI)
+- [ ] [Getting a Job in Tech | Prime Reacts | ThePrimeTime](https://youtu.be/MZRs6w-Qy2U)
 
 ### Database
 
@@ -107,3 +108,11 @@
 - [ ] [What the Barefoot Shoe Community Doesn’t Want To Talk About | Ben Vallack](https://youtu.be/6hHifp9kpW4)
 - [ ] [How to get rich as a solo software developer - The Ultimate Guide | Fireship](https://youtu.be/A4_TFHzqAAg)
 - [ ] ["It's Not Natural" - Why Are 20% of Kids Suddenly LGBTQ? | Valuetainment](https://youtu.be/v3z4-lFckZ8)
+- [ ] [Writing a Physics Engine from scratch - collision detection optimization | Pezzza's Work](https://youtu.be/9IULfQH7E90)
+- [ ] [Neuroscientist: "You Will NEVER Feel Stressed Again" | Andrew Huberman | RESPIRE](https://youtu.be/u0OBgihk2f8)
+- [ ] [Email vs Capitalism, or, Why We Can't Have Nice Things - Dylan Beattie - NDC Oslo 2023 | NDC Conferences](https://youtu.be/mrGfahzt-4Q)
+- [ ] [A Programming Skill You Don’t Practice, but SHOULD! | Examples | Travis Media](https://youtu.be/fFKizS5oxrw)
+- [ ] [The 2 Most Important Skills For the Rest Of Your Life | Yuval Noah Harari on Impact Theory | Tom Bilyeu](https://youtu.be/x6tMLAjPVyo)
+- [ ] [The Art of Code - Dylan Beattie | NDC Conferences](https://youtu.be/6avJHaC3C2U)
+- [ ] [My Brain after 569 Leetcode Problems | NeetCode](https://youtu.be/8wysIxzqgPI)
+- [ ] [Carl Sagan testifying before Congress in 1985 on climate change | carlsagandotcom](https://youtu.be/Wp-WiNXH6hI)
