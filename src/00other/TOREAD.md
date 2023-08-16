@@ -110,7 +110,7 @@
 
 ### Other
 
--- [ ] [Why Most Google Employees Quit After 1.1 Years (On Average)](https://www.youtube.com/watch?v=IZCfP13twxk)
+- [ ] [Why Most Google Employees Quit After 1.1 Years (On Average)](https://www.youtube.com/watch?v=IZCfP13twxk)
 - [ ] [Zero to IDE with LazyVim | Elijah Manor](https://youtu.be/N93cTbtLCIM)
 - [ ] [Run and Debug TypeScript Unit Tests in Neovim | Elijah Manor](https://youtu.be/7Nt8n3rjfDY)
 - [ ] [But what is a neural network? | Chapter 1, Deep learning | 3Blue1Brown](https://youtu.be/aircAruvnKk)
