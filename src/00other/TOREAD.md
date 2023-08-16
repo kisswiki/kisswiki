@@ -99,6 +99,10 @@
 - [ ] [How do computers read code? | Frame of Essence](https://youtu.be/QXjU9qTsYCc)
 - [ ] [Colourful in Theory - That Irks Me | Frame of Essence](https://youtu.be/qKPY2opi
 
+## Steam Deck
+
+- [ ] [Aug 13 - Top 10 Verified and Playable Steam Deck Games This Week | Steam Deck Gaming](https://youtu.be/7qkTUcC9K_8)
+
 ### Health
 
 - [ ] [5 NEW Leg Exercises To Try! Resistance Band Exercises for Knee Stability and Power | Dr. Kristie Ennis](https://youtu.be/qHRbanTAY3U)
