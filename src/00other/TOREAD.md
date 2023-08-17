@@ -133,3 +133,5 @@
 - [ ] [Carl Sagan testifying before Congress in 1985 on climate change | carlsagandotcom](https://youtu.be/Wp-WiNXH6hI)
 - [ ] [Zaprosiłem 100 Kobiet Na Randkę. | Hej, co tam?](https://youtu.be/wMT2q5efHvo)
 - [ ] [The Bayesian Trap | Veritasium](https://youtu.be/R13BD8qKeTg)
+- [ ] [Life's an RPG And You Messed Up Your Build | HealthyGamerGG](https://youtu.be/JgkYRyqloVA)
+- [ ] [How Years Of Gaming Affects Your Brain | HealthyGamerGG](https://youtu.be/xaICKlp9kQc)
