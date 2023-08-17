@@ -3,6 +3,7 @@
     - racknerd.com
       - #1 TOP PROVIDER + #1 MOST PROFESSIONAL https://lowendtalk.com/discussion/176953/let-provider-poll-2021-results/p1
         - https://lowendbox.com/blog/lowendtalk-community-best-provider-award-voting-results-are-in-congrats-to-racknerd-buyvm-virmach-and-hetzner/
+      - https://lowendbox.com/blog/exciting-expansion-by-racknerd-kvm-vps-now-in-strasbourg-france-from-17-98-year/
         - I bought
           [FR] 2 GB KVM VPS
           
@@ -16,7 +17,7 @@
           KVM / SolusVM
           Available in Multiple Locations
           $24.89/YEAR!
-      - https://lowendbox.com/blog/exciting-expansion-by-racknerd-kvm-vps-now-in-strasbourg-france-from-17-98-year/
+      - https://my.racknerd.com/index.php?rp=/knowledgebase/59/Does-RackNerd-VPS-support-Custom-ISO.html
     - https://vpshostingservice.co/
       - Linux VPS - SSD - 1 GB
         - Operating System: Debian 11
