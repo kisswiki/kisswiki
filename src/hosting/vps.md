@@ -1,8 +1,3 @@
-- http://www.webhostingtalk.pl/forum/4-serwery-dedykowane-i-vps/
-- €2.232/month http://iwstack.com/price-calculator.php
-- "The Lowest Price for Storage" https://www.backblaze.com/b2/cloud-storage.html
-- 5 USD/month https://www.vultr.com/pricing/
-
 ## About
 
 > If a dedicated server is analagous to owning an entire house on the beach-front to yourself, and shared-hosting is like renting a room in the nearby hotel, then what's a VPS? It's like owning a caravan in the holiday park; you share some things like the shop and access to the beach, but mostly you have your own environment, and you're responsible for maintaining and looking after it.

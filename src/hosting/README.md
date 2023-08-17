@@ -20,3 +20,11 @@
 - http://www.wykop.pl/tag/hosting/
 - for startups 6 months https://www.ovh.ie/dlp/
 - http://lowendstock.com/
+- http://www.webhostingtalk.pl/forum/4-serwery-dedykowane-i-vps/
+- €2.232/month http://iwstack.com/price-calculator.php
+- "The Lowest Price for Storage" https://www.backblaze.com/b2/cloud-storage.html
+- 5 USD/month https://www.vultr.com/pricing/
+- serverhost.com
+  - https://lowendbox.com/blog/want-a-1-a-month-vps-with-unlimited-bandwidth-youll-be-kicking-yourself-if-you-dont-click/
+    - @meska: Ain’t working anymore
+    - @Simon: this host sucks.. 90% downtime.. i don’t recommend serverhost, vpshostingservice
