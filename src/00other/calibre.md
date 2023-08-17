@@ -201,3 +201,19 @@ zoom out: ctrl+-
 The normal date column is the date the book was added to the library
 
 http://www.mobileread.mobi/forums/showthread.php?t=180120
+
+## Trash
+
+Why?
+
+The system trash never worked to restore a file to Calibre. You had to "add" them, because the system trash only had the file and not the metadata.
+
+https://www.mobileread.com/forums/showthread.php?p=4324488#post4324488
+
+How to delete on close?
+
+`Right-click the book > Remove Books > Restore Recently Deleted > Permanently delete after: on close`
+
+Where is trash located?
+
+.caltrash
