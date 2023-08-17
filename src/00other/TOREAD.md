@@ -72,7 +72,7 @@
 - [ ] [Golang is BAD for SMART PEOPLE | ThePrimeTime](https://youtu.be/rWJ1tPCnVJI)
 - [ ] [Getting a Job in Tech | Prime Reacts | ThePrimeTime](https://youtu.be/MZRs6w-Qy2U)
 - [ ] [Rust Experiment Failed - Static Dispatch IS Hard | Prime Reacts | ThePrimeTime](https://youtu.be/mgkFA-ia8fY)
-- [ ] [If Vim Makes You Faster? | Prime Reacts | ThePrimeTime](https://youtu.be/nhe-4_dFjLM)
+- [ ] [How To Learn A New Programming Language | ThePrimeagen](https://youtu.be/E8cM12jRH7k)
 
 ### Database
 
@@ -112,13 +112,18 @@
 - [ ] [BRAIN FOG - How I Cured My Brainfog by Holding My Breath | The Buteyko Method](https://youtu.be/wjZL0llp5Ac)
 - [ ] [How to Fix Neck and Upper Back Pain FOR GOOD | SpineCare Decompression and Chiropractic Center](https://youtu.be/-Ffd9KqjNyk)
 
+### Neovim
+
+- [ ] [LazyVim: Tailwind CSS Support | Elijah Manor](https://youtu.be/_NiWhZeR-MY)
+- [ ] [Zero to IDE with LazyVim | Elijah Manor](https://youtu.be/N93cTbtLCIM)
+- [ ] [Run and Debug TypeScript Unit Tests in Neovim | Elijah Manor](https://youtu.be/7Nt8n3rjfDY)
+- [ ] [Neovim Lua Plugin From Scratch | TJ DeVries](https://youtu.be/n4Lp4cV8YR0)
+- [ ] [If Vim Makes You Faster? | Prime Reacts | ThePrimeTime](https://youtu.be/nhe-4_dFjLM)
+
 ### Other
 
 - [ ] [Why Most Google Employees Quit After 1.1 Years (On Average)](https://www.youtube.com/watch?v=IZCfP13twxk)
-- [ ] [Zero to IDE with LazyVim | Elijah Manor](https://youtu.be/N93cTbtLCIM)
-- [ ] [Run and Debug TypeScript Unit Tests in Neovim | Elijah Manor](https://youtu.be/7Nt8n3rjfDY)
 - [ ] [But what is a neural network? | Chapter 1, Deep learning | 3Blue1Brown](https://youtu.be/aircAruvnKk)
-- [ ] [Neovim Lua Plugin From Scratch | TJ DeVries](https://youtu.be/n4Lp4cV8YR0)
 - [ ] [How to Land a 100K/yr Tech Job - 10 Strategies | Fireship](https://youtu.be/Xg9ihH15Uto)
 - [ ] [What the Barefoot Shoe Community Doesn’t Want To Talk About | Ben Vallack](https://youtu.be/6hHifp9kpW4)
 - [ ] [How to get rich as a solo software developer - The Ultimate Guide | Fireship](https://youtu.be/A4_TFHzqAAg)
