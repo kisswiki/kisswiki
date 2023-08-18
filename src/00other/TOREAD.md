@@ -120,6 +120,10 @@
 - [ ] [Neovim Lua Plugin From Scratch | TJ DeVries](https://youtu.be/n4Lp4cV8YR0)
 - [ ] [If Vim Makes You Faster? | Prime Reacts | ThePrimeTime](https://youtu.be/nhe-4_dFjLM)
 
+### Artificial Intelligence
+
+- [ ] [Learn PyTorch for deep learning in a day. Literally. | ESL Counter-Strike Highlights](https://youtu.be/Z_ikDlimN6A)
+
 ### Other
 
 - [ ] [Why Most Google Employees Quit After 1.1 Years (On Average)](https://www.youtube.com/watch?v=IZCfP13twxk)
@@ -140,3 +144,12 @@
 - [ ] [The Bayesian Trap | Veritasium](https://youtu.be/R13BD8qKeTg)
 - [ ] [Life's an RPG And You Messed Up Your Build | HealthyGamerGG](https://youtu.be/JgkYRyqloVA)
 - [ ] [How Years Of Gaming Affects Your Brain | HealthyGamerGG](https://youtu.be/xaICKlp9kQc)
+- [ ] [Obsidian As A Second Brain: The ULTIMATE Tutorial | ESL Counter-Strike Highlights](https://youtu.be/WqKluXIra70)
+- [ ] [Cybersecurity Certificate Tier List (2023) | ESL Counter-Strike Highlights](https://youtu.be/YeWYlp9JP6g)
+- [ ] [Mózg - najwspanialsze narzędzie świata | Prof. Marek Kaczmarzyk | Podcast EduAkcji #29 | ESL Counter-Strike Highlights](https://youtu.be/VpQu59XwRnQ)
+- [ ] [LeanBeefPatty | WARMUP ROUTINE - full body mobility | ESL Counter-Strike Highlights](https://youtu.be/SotLyRb8XjE)
+- [ ] [The Continuity of Splines | ESL Counter-Strike Highlights](https://youtu.be/jvPPXbo87ds)
+- [ ] [Dr. Noam Sobel: How Smells Influence Our Hormones, Health & Behavior | Huberman Lab Podcast | ESL Counter-Strike Highlights](https://youtu.be/cS7cNaBrkxo)
+- [ ] [GPT-4 - How does it work, and how do I build apps with it? - CS50 Tech Talk | ESL Counter-Strike Highlights](https://youtu.be/vw-KWfKwvTQ)
+- [ ] [Oxford University Mathematician REACTS to "Animation vs. Math" | ESL Counter-Strike Highlights](https://youtu.be/2VQDqzT4SOM)
+- [ ] [Dr. Andy Galpin: How to Build Strength, Muscle Size & Endurance | Huberman Lab Podcast #65 | ESL Counter-Strike Highlights](https://youtu.be/IAnhFUUCq6c)
