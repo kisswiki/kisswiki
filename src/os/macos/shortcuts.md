@@ -24,6 +24,10 @@ Pinch your thumb and three fingers together
 
 https://www.wikihow.com/Quickly-Open-the-Launchpad-on-a-Mac
 
+Or go to `System Preferences > Keyboard > Shortcuts > Launchpad & Dock > Show Launchpad > F4`
+
+https://techwiser.com/ways-to-access-launchpad-on-mac/
+
 ## Finder
 
 delete a file: cmd+delete
