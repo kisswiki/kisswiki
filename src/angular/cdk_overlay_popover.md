@@ -1,8 +1,13 @@
 - https://netbasal.com/creating-powerful-components-with-angular-cdk-2cef53d81cea
-  - Use Angular CDK overlay feature to create popover service that exposes an API that allows us to
+  - using Angular CDK overlay feature to create popover service that exposes an API that allows us to
     - open a popover relative to any origin element
     - render
       - a custom component
       - template
       - simple text inside it
     - get notified when it’s closed.
+  - injecting the Popover service
+  - calling the open() method and passing
+    - the origin
+    - a custom component
+    - optional data object that will be available inside the component via DI
