@@ -192,10 +192,13 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - Aims to provide high- and low-level utilites for building VST 2.4 plugins with Zig https://github.com/schroffl/zig-vst/
 - a commandline fuzzy finder designed for filtering filepaths https://github.com/natecraddock/zf
 
-## Text editor
+## code editor
 
 - https://git.sr.ht/~jamii/focus
 - https://github.com/MasterQ32/TextEditor
+- https://github.com/sergey6661313/ScalpiEditor
+- https://github.com/greenfork/kisa
+  - https://www.youtube.com/watch?v=XCvM_xRtWBg&list=PLp9tIOjPeMvtwQej_NhbC1k9NHWxDSpzx
 
 ## Database
 
