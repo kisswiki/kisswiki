@@ -26,3 +26,9 @@ export type PopoverParams<T> = {
   height: string | number;
 };
 ```
+
+- injecting the CDK's Overlay service
+- using the create() method to obtain a reference to an overlay instance
+- Overlay provides a first-class method to render children into a DOM node that is appended to the body
+
+A typical use case for overlay: when a parent component has an `overflow: hidden` or `z-index` style, but you need the child to visually "break out" of its container.

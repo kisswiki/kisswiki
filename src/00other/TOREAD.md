@@ -153,3 +153,5 @@
 - [ ] [GPT-4 - How does it work, and how do I build apps with it? - CS50 Tech Talk | ESL Counter-Strike Highlights](https://youtu.be/vw-KWfKwvTQ)
 - [ ] [Oxford University Mathematician REACTS to "Animation vs. Math" | ESL Counter-Strike Highlights](https://youtu.be/2VQDqzT4SOM)
 - [ ] [Dr. Andy Galpin: How to Build Strength, Muscle Size & Endurance | Huberman Lab Podcast #65 | ESL Counter-Strike Highlights](https://youtu.be/IAnhFUUCq6c)
+- [ ] [Kiedy kobieta napotyka ŚCIANĘ? | Druga Strona Medalu](https://youtu.be/nx7fr_zlQ2s)
+- [ ] [AI - Początek. Zabije nas, czy ocali? | Good Times Bad Times Polska](https://youtu.be/I_Y6nvIMhKU)
