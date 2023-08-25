@@ -90,8 +90,13 @@ Everything I find about zig.
 - https://dev.to/mattnite/weaning-zig-off-of-git-submodules-1-3jen
 - https://dev.to/fabioarnold/setup-zig-for-gamedev-2bmf
 
-## Package managers
+## Package manager, import
 
+- [Zig tips: v0.11 std.build API / package manager changes | Hexops' devlog](https://devlog.hexops.com/2023/zig-0-11-breaking-build-changes/)
+- [@import() and Packages - Zig NEWS ⚡](https://zig.news/mattnite/import-and-packages-23mb)
+- [import zig package from another zig package - Stack Overflow](https://stackoverflow.com/questions/68421136/import-zig-package-from-another-zig-package/75301059#75301059)
+- [zigmod/docs at master · nektro/zigmod · GitHub](https://github.com/nektro/zigmod/tree/master/docs)
+- [mattnite/gyro: A Zig package manager with an index, build runner, and build dependencies.](https://github.com/mattnite/gyro)
 - https://github.com/topics/zig-package
 - https://github.com/zigtools/zpm - Express shipping for your Zig packages!
   - https://zpm.random-projects.net/
@@ -659,9 +664,8 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - [Game of Life: Zig Edition | WASM-4](https://wasm4.org/play/game-of-life-zig-edition/)
 - [davidroman0O/wasm4-game-of-life: Zig implementation of the famous Conway's Game of Life](https://github.com/davidroman0O/wasm4-game-of-life)
 - [Finish It! Motivation & Processes For Video Game Development | Udemy](https://www.udemy.com/course/finish-it/)
-- [Zig Programming Language - YouTube](https://www.youtube.com/watch?v=ygfGO5n1Oe4&list=PLS9MbmO_ssyCzjONn8v796nUGRXMX389H&index=7)
+- [Zig Programming Language - YouTube](https://www.youtube.com/watch?v=ygfGO5n1Oe4&list=PLS9MbmO_ssyCzjONn8v796nUGRXMX389H)
 - [The Zig Programming Language – GameFromScratch.com](https://gamefromscratch.com/the-zig-programming-language/)
-- [Zig Programming Language - YouTube](https://www.youtube.com/watch?v=ygfGO5n1Oe4&list=PLS9MbmO_ssyCzjONn8v796nUGRXMX389H&index=7&t=379s)
 - [Setup Zig for Gamedev - DEV Community 👩‍💻👨‍💻](https://dev.to/fabioarnold/setup-zig-for-gamedev-2bmf)
 - [Not-Nik/raylib-zig: Manually tweaked, auto generated raylib bindings for zig. https://github.com/raysan5/raylib](https://github.com/Not-Nik/raylib-zig)
 - https://dev.to/fabioarnold/setup-zig-for-gamedev-2bmf
@@ -730,14 +734,6 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - [capy-ui/zig-template: Simple template for creating a Capy app in Zig](https://github.com/capy-ui/zig-template)
 - [Porting Capy to Android](https://capy-ui.org/blog/porting-capy-to-android/)
 - [Installation | Capy UI](https://capy-ui.org/docs/getting-started/installation/)
-
-## Package manager, import
-
-- [Zig tips: v0.11 std.build API / package manager changes | Hexops' devlog](https://devlog.hexops.com/2023/zig-0-11-breaking-build-changes/)
-- [@import() and Packages - Zig NEWS ⚡](https://zig.news/mattnite/import-and-packages-23mb)
-- [import zig package from another zig package - Stack Overflow](https://stackoverflow.com/questions/68421136/import-zig-package-from-another-zig-package/75301059#75301059)
-- [zigmod/docs at master · nektro/zigmod · GitHub](https://github.com/nektro/zigmod/tree/master/docs)
-- [mattnite/gyro: A Zig package manager with an index, build runner, and build dependencies.](https://github.com/mattnite/gyro)
 
 ## Emulators
 
