@@ -1962,7 +1962,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - [SpexGuy/Zig-AoC-Template: A template for Advent of Code participants using Zig](https://github.com/SpexGuy/Zig-AoC-Template)
 - [holobeat/zig-adventofcode-2021-solutions](https://github.com/holobeat/zig-adventofcode-2021-solutions)
 - [Easy Interfaces with Zig 0.10.0 - Zig NEWS](https://zig.news/kristoff/easy-interfaces-with-zig-0100-2hc5)
-- [Pyrolistical/zig-wasm-canvas](https://github.com/Pyrolistical/zig-wasm-canvas/tree/master)
+- [Pyrolistical/zig-wasm-canvas](https://github.com/Pyrolistical/zig-wasm-canvas)
 - [@toxi@mastodon.thi.ng on Twitter: "@pyrolistical @typescript @ziglang Btw. If you're interested, here're a bunch of #ziglang #WebAssembly demos: - https://t.co/GgqsoA8HyH - canvas doodling - https://t.co/b0zSn5nVxj - delayed execution - https://t.co/PAplTAnJcf - task w/ localstorage serialization DOM related parts much simplified w/ next update!" / Twitter](https://twitter.com/toxi/status/1592295784120483840)
 - [Typescript in WebAssembly as Zig struct](https://blog.battlefy.com/typescript-in-webassembly-as-zig-struct)
 - [Easy Interfaces with Zig 0.10.0 - Zig NEWS](https://zig.news/kristoff/easy-interfaces-with-zig-0100-2hc5)
