@@ -31,11 +31,11 @@ Twoje ciało jest bardzo dobre w informowaniu Cię, kiedy potrzebujesz przerwy n
 Trzeba go tylko słuchać.
 
 W moim przypadku wiem, że potrzebuję dłuższej przerwy, gdy:
-⁃ Mam ochotę grać w wiele gier wideo
-⁃ Mam trudności z obudzeniem się rano
-⁃ Praca wydaje mi się przykrym obowiązkiem
-⁃ Mam niską motywację i napęd do działania
 
+- Mam ochotę grać w wiele gier wideo
+- Mam trudności z obudzeniem się rano
+- Praca wydaje mi się przykrym obowiązkiem
+- Mam niską motywację i napęd do działania
 - Mam ciągle suche oczy i bóle głowy.
 
 Może zabrzmi to tandetnie, ale nie przepracowuj się. Zapłacisz za to później.
