@@ -1,5 +1,31 @@
 ##
 
+Życzliwość dla samego siebie może wyglądać następująco:
+
+- usunięcie apki
+- wyciszenie czatu grupowego
+- powiedzenie "nie" kolejnemu zobowiązaniu
+- skrócenie listy rzeczy do zrobienia
+- ograniczenie konsumpcji złych wiadomości
+- spędzanie mniej czasu w toksycznych środowiskach
+
+https://twitter.com/StressLessLive/status/1705162351425552603
+
+##
+
+Self kindness can look like:
+
+- deleting an app
+- muting a group chat
+- saying no to another commitment
+- cutting down your to-do list
+- limiting your consumption of bad news
+- spending less time in toxic environments
+
+https://twitter.com/StressLessLive/status/1705162351425552603
+
+##
+
 Twoje ciało jest bardzo dobre w informowaniu Cię, kiedy potrzebujesz przerwy na odpoczynek.
 
 Trzeba go tylko słuchać.
