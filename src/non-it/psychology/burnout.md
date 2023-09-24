@@ -1,3 +1,234 @@
+##
+
+Jak uniknąć wypalenia.
+Uzyskaj 7 rodzajów odpoczynku:
+
+Czy kiedykolwiek spałeś ponad 7 godzin, ale nadal
+czułeś się WYCZERPANY?
+
+Ja też.
+
+Podczas gdy sen jest fizycznym odpoczynkiem,
+
+w rzeczywistości potrzebujesz 7 rodzajów odpoczynku, aby
+uniknąć wypalenia.
+
+(Według dr Saundry Dalton-Smith).
+
+Pozostań w najlepszej formie dzięki tym 7 rodzajom odpoczynku:
+odpoczynku:
+
+1. Odpoczynek fizyczny
+   Brak snu i przetrenowanie wyczerpują
+   energię organizmu.
+
+Uzyskaj dwa rodzaje odpoczynku fizycznego, pasywny
+i aktywny:
+
+Pasywny
+
+- Śpij ponad 7 godzin w nocy
+- Rób drzemki energetyczne (w razie potrzeby)
+
+Aktywny
+
+- Rozciąganie
+- Masaż
+- Używaj ergonomicznego krzesła + biurka
+
+2. Odpoczynek psychiczny
+   Deficyt odpoczynku psychicznego jest spowodowany przeciążaniem
+   myślenia.
+
+- Zapisz zadania do wykonania
+
+- Listy kontrolne (pakowanie, zakupy spożywcze itp.),
+
+- Stwórz rytuał wyłączenia, aby oddzielić
+  pracę od życia
+
+- Zrób sobie przerwę od rozwiązywania problemów
+- Medytuj
+
+3. Odpoczynek społeczny
+   Oceń swoje relacje.
+
+- Spędzaj więcej czasu z ludźmi, którzy
+  dodają ci energii
+
+- Spędzaj mniej czasu z ludźmi, którzy
+  kradną ci energię
+
+- Jeśli jesteś introwertykiem, zablokuj czas
+  na bycie samemu
+
+4. Odpoczynek duchowy
+   Bądź częścią czegoś większego niż
+   Ty sam.
+
+- Wolontariat
+
+- Wykonuj pracę, która jest ukierunkowana na cel
+
+- Uczestnicz w działaniach opartych na wierze
+  (jeśli są zgodne z twoim systemem wierzeń)
+
+5. Odpoczynek sensoryczny
+   Współczesny człowiek jest nadmiernie pobudzony.
+
+- Zrób sobie przerwę od mediów społecznościowych
+
+Wyłącz powiadomienia (dźwiękowe i wizualne alerty)
+
+- Ogranicz spotkania wideo
+
+- Ustaw relaksującą wieczorną atmosferę
+  (kojąca muzyka, świece itp.).
+
+6. Odpoczynek emocjonalny
+   Deficyt odpoczynku emocjonalnego występuje, gdy
+   czujesz, że nie możesz być autentyczny.
+
+Na przykład: stewardessa, która zawsze musi się uśmiechać, mimo nieuprzejmych pasażerów.
+
+- Spędzaj czas z ludźmi, przy których możesz być
+  autentyczny
+
+- Spróbuj porozmawiać z terapeutą, aby uwolnić
+  pracę emocjonalną
+
+7. Twórczy odpoczynek
+   Doceniaj piękno w każdej formie, zarówno
+   naturalnej lub stworzonej przez człowieka:
+
+Naturalne
+
+- Podziwiaj wschód lub zachód słońca
+- Wybierz się na spacer na łonie natury
+
+Stworzone przez człowieka
+
+- Odwiedź muzeum lub festiwal sztuki
+- Kontakt z inspirującą muzyką, książkami, filmami dokumentalnymi itp.
+
+##
+
+How to Avoid burnout.
+Get 7 types of rest:
+
+Have you ever slept 7+ hours but stilt
+felt EXHAUSTED?
+
+Me too.
+
+While sleeping is physical rest,
+
+you actually need 7 types of rest to
+avoid burnout.
+
+(According to Dr. Saundra Dalton-Smith).
+
+So stay at your best with these 7 types of rest:
+of rest:
+
+1. Physical Rest
+   Lack of sleep and overtraining deplete
+   your body's energy.
+
+Get two types of physical rest, passive
+and active:
+
+Passive
+
+- Sleep 7+ hrs nightly
+- Take power naps (as needed)
+
+Active
+
+- Stretch
+- Get a massage
+- Use an ergonomic chair + desk
+
+2. Mental Rest
+   Mental rest deficit is caused by overtaxing
+   your thinking.
+
+- Write down your to-dos
+
+- Reference checklists (packing, groceries,
+  etc.)
+
+- Create a shutdown ritual to separate
+  work and Life
+
+- Take a break from problem-solving
+- Meditate
+
+3. Social Rest
+   Evaluate your relationships.
+
+- Spend more time with people who
+  give you energy
+
+- Spend Less time with people who
+  steal your energy
+
+- If you're an introvert, block out time
+  to be alone
+
+4. Spiritual Rest
+   Be part of something bigger than
+   yourself.
+
+- Volunteer
+
+- Work a job that feels purpose-driven
+
+- Participate in faith-based activities
+  (if aligned to your belief system)
+
+5. Sensory Rest
+   The modern individual is overstimulated.
+
+- Take a break from social media
+
+.Turn off notifications (sounds and
+visual alerts)
+
+- Limit video meetings
+
+- Set a relaxing evening ambiance
+  (soothing music, candles, etc.)
+
+6. Emotional Rest
+   Emotional rest deficit occurs when you
+   feel like you can't be authentic.
+
+Ex: An airline attendant who must always
+smile, despite rude passengers.
+
+- Spend time with people you can be
+  authentic around
+
+- Try speaking with a therapist to release
+  emotional labor
+
+7. Creative Rest
+   Appreciate beauty in any form, whether
+   natural or human-created:
+
+Natural
+
+- Take in a sunrise or sunset
+- Go for a walk in nature
+
+Human-created
+
+- Visit a museum or art festival
+- Engage with inspiring music, books, documentaries, etc.
+
+##
+
 > Burnout is caused by mismatch between unconscious needs and job demands
 >
 > In the new study, researchers from the Universities of Zurich and Leipzig show that the unconscious needs of employees -- their so-called "implicit motives" -- play an important role in the development of burnout. The researchers focus on two important motives: the power motive, that is, the need to take responsibility for others, maintain discipline, and engage in arguments or negotiation, in order to feel strong and self-efficacious; and the affiliation motive, the need for positive personal relations, in order to feel trust, warmth, and belonging. A mismatch between job characteristics and either implicit motive can cause burnout, the results show. Moreover, a mismatch in either direction is risky: employees can get burned out when they have too much or not enough scope for power or affiliation compared to their individual needs.
@@ -109,146 +340,4 @@ The modern individual is overstimulated.
 
 Emotional rest deficit occurs when you feel like you can't be authentic.
 
-Ex: An airline attendant who must always smile, despite rude passengers.
-
-- Spend time with people you can be authentic around
-- Try speaking with a therapist to release emotional labor
-
-Appreciate beauty in any form, whether natural or human-created:
-
-Natural
-
-- Take in a sunrise or sunset
-- Go for a walk in nature
-
-Human-created
-
-- Visit a museum or art festival
-- Engage with inspiring music, books, documentaries, etc.
-
-Dr. Dalton-Smith recommends starting with your 1-2 biggest rest deficits
-
-(And not trying to eat the whole elephant at once).
-
-Then, over time, create daily and weekly habits to get all 7.
-
-Take her Rest Quiz to figure out where to start:
-
-https://www.restquiz.com/quiz/rest-quiz-test/
-
-Want to learn more about rest?
-
-Check out @DrDaltonSmith’s book:
-
-'Sacred Rest' https://www.amazon.com/Sacred-Rest-Recover-Energy-Restore-ebook/dp/B06Y12N4YK/
-
-https://twitter.com/SystemSunday/status/1564952491179008004
-
-## Jak uniknąć wypalenia zawodowego. Uzyskaj 7 rodzajów odpoczynku
-
-Jak uniknąć wypalenia zawodowego.
-
-Uzyskaj 7 rodzajów odpoczynku:
-
-Czy kiedykolwiek spałeś ponad 7 godzin, ale nadal czułeś się WYKOŃCZONY?
-
-Ja też.
-
-Podczas gdy sen jest fizycznym odpoczynkiem,
-
-W rzeczywistości potrzebujesz 7 rodzajów odpoczynku, aby uniknąć wypalenia
-
-(Według dr Saundry Dalton-Smith).
-
-Pozostań więc w najlepszej formie dzięki tym 7 rodzajom wypoczynku:
-
-1. Odpoczynek fizyczny
-
-Brak snu i przetrenowanie wyczerpują energię organizmu.
-
-Uzyskaj dwa rodzaje odpoczynku fizycznego, bierny i aktywny:
-
-Bierny
-
-- Śpij 7+ godzin w nocy
-- Weź drzemki (w razie potrzeby)
-
-Aktywny
-
-- Rozciągać się
-- Być masowany
-- Korzystaj z ergonomicznego krzesła + biurka
-
-2. Odpoczynek psychiczny
-
-Deficyt odpoczynku psychicznego jest spowodowany nadmiernym obciążeniem myślenia.
-
-- Zapisz swoje zadania
-- Referencyjne listy kontrolne (pakowanie, artykuły spożywcze itp.)
-- Stwórz rytuał zamknięcia, aby oddzielić pracę od życia
-- Zrób sobie przerwę od rozwiązywania problemów
-- Medytuj
-
-3. Odpoczynek towarzyski
-
-Oceń swoje relacje.
-
-- Spędzaj więcej czasu z ludźmi, którzy dodają ci energii
-- Spędzaj mniej czasu z ludźmi, którzy kradną Twoją energię
-- Jeśli jesteś introwertykiem, zablokuj czas na samotność
-
-4. Duchowy odpoczynek
-
-Bądź częścią czegoś większego niż ty sam.
-
-- Wolontariusz
-- Pracuj w pracy, która wydaje się ukierunkowana na cel
-- Weź udział w działaniach opartych na wierze (jeśli są zgodne z twoim systemem wierzeń)
-
-5. Odpoczynek sensoryczny
-
-Współczesny człowiek jest nadmiernie pobudzony.
-
-- Zrób sobie przerwę od mediów społecznościowych
-- Wyłącz powiadomienia (dźwięki i alerty wizualne)
-- Ogranicz spotkania wideo
-- Ustaw relaksującą wieczorną atmosferę (kojąca muzyka, świece itp.)
-
-6. Odpoczynek emocjonalny
-
-Deficyt odpoczynku emocjonalnego pojawia się, gdy czujesz, że nie możesz być autentyczny.
-
-Np.: steward linii lotniczych, który zawsze musi się uśmiechać, pomimo niegrzecznych pasażerów.
-
-- Spędzaj czas z ludźmi, wokół których możesz być autentyczny
-- Spróbuj porozmawiać z terapeutą, aby uwolnić się od pracy emocjonalnej
-
-Doceniaj piękno w każdej postaci, zarówno naturalnej, jak i stworzonej przez człowieka:
-
-Naturalny
-
-- Zachwyć się wschodem lub zachodem słońca
-- Idź na spacer na łonie natury
-
-Stworzony przez człowieka
-
-- Odwiedź muzeum lub festiwal sztuki
-- Zaangażuj się w inspirującą muzykę, książki, filmy dokumentalne itp.
-
-Dr Dalton-Smith zaleca rozpoczęcie od 1-2 największych deficytów odpoczynku
-
-(I nie próbować zjeść całego słonia na raz).
-
-Następnie z biegiem czasu stwórz codzienne i cotygodniowe nawyki, aby uzyskać wszystkie 7.
-
-Rozwiąż jej quiz na temat odpoczynku, aby dowiedzieć się, od czego zacząć:
-
-https://www.restquiz.com/quiz/rest-quiz-test/
-
-Chcesz dowiedzieć się więcej o wypoczynku?
-
-Sprawdź książkę @DrDaltonSmith:
-
-„Święty odpoczynek” https://www.amazon.com/Sacred-Rest-Recover-Energy-Restore-ebook/dp/B06Y12N4YK/
-
-https://twitter.com/SystemSunday/status/1564952491179008004
+Ex: An airline attendant
