@@ -1,5 +1,40 @@
 ##
 
+Twoje ciało jest bardzo dobre w informowaniu Cię, kiedy potrzebujesz przerwy na odpoczynek.
+
+Trzeba go tylko słuchać.
+
+W moim przypadku wiem, że potrzebuję dłuższej przerwy, gdy:
+⁃ Mam ochotę grać w wiele gier wideo
+⁃ Mam trudności z obudzeniem się rano
+⁃ Praca wydaje mi się przykrym obowiązkiem
+⁃ Mam niską motywację i napęd do działania
+
+- Mam ciągle suche oczy i bóle głowy.
+
+Może zabrzmi to tandetnie, ale nie przepracowuj się. Zapłacisz za to później.
+
+https://twitter.com/catalinmpit/status/1703495068361822405
+
+##
+
+Your body is very good at telling you when you need a break to rest.
+
+You just need to listen.
+
+In my case, I know I need a longer break when:
+⁃ I get the urge to play lots of video games
+⁃ I struggle to wake up in the morning
+⁃ Work feels like chore
+⁃ I have low motivation and drive
+⁃ I get constant dry eyes and headaches
+
+I might sound cheesy, but don’t overwork yourself. You’ll pay the price later.
+
+https://twitter.com/catalinmpit/status/1703495068361822405
+
+##
+
 Jak uniknąć wypalenia.
 Uzyskaj 7 rodzajów odpoczynku:
 
