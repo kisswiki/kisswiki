@@ -288,10 +288,7 @@ And never compromise on your plans.
 Do what needs to be done
 
 When it needs to be done.
-Holistic SelfMastery 👁️
-@themarvlee
-·
-Sep 28
+
 Practice the 5-count hack.
 
 Countdown from 5 and jump into action immediately.
