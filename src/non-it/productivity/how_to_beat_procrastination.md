@@ -175,8 +175,7 @@ Im bardziej czujesz się komfortowo z tym, co przyziemne, tym mniej będziesz po
 
 Stosuj podejście kija i marchewki:
 
-Nagradzaj się za wykonywanie zadań
-Lub opóźniaj pewne gratyfikacje do czasu ich wykonania.
+Nagradzaj się za wykonywanie zadań lub opóźniaj pewne gratyfikacje do czasu ich wykonania.
 
 Na przykład nie odbieraj telefonu rano, dopóki nie pójdziesz pobiegać.
 
