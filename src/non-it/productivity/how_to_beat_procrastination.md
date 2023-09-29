@@ -191,8 +191,7 @@ Stosuj podejście kija i marchewki;
 Nagradzaj się za wykonywanie zadań
 Lub opóźniaj pewne gratyfikacje do czasu ich wykonania.
 
-Na przykład
-Nie odbieraj telefonu rano, dopóki nie pójdziesz pobiegać.
+Na przykład nie odbieraj telefonu rano, dopóki nie pójdziesz pobiegać.
 
 Dla podkreślenia:
 
