@@ -18,9 +18,7 @@ Kiedyś byłem chronicznym prokrastynatorem.
 
 Nie uratowało mnie 100 poradników.
 
-W rzeczywistości
-
-Zachęcały do tego problemu.
+W rzeczywistości zachęcały do tego problemu.
 
 Potrzeba było lat samoświadomości, aby odkryć to, czym chcę się z tobą podzielić...
 
