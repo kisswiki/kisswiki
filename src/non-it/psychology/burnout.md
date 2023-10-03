@@ -401,4 +401,146 @@ The modern individual is overstimulated.
 
 Emotional rest deficit occurs when you feel like you can't be authentic.
 
-Ex: An airline attendant
+Ex: An airline attendant who must always smile, despite rude passengers.
+
+- Spend time with people you can be authentic around
+- Try speaking with a therapist to release emotional labor
+
+Appreciate beauty in any form, whether natural or human-created:
+
+Natural
+
+- Take in a sunrise or sunset
+- Go for a walk in nature
+
+Human-created
+
+- Visit a museum or art festival
+- Engage with inspiring music, books, documentaries, etc.
+
+Dr. Dalton-Smith recommends starting with your 1-2 biggest rest deficits
+
+(And not trying to eat the whole elephant at once).
+
+Then, over time, create daily and weekly habits to get all 7.
+
+Take her Rest Quiz to figure out where to start:
+
+https://www.restquiz.com/quiz/rest-quiz-test/
+
+Want to learn more about rest?
+
+Check out @DrDaltonSmith’s book:
+
+'Sacred Rest' https://www.amazon.com/Sacred-Rest-Recover-Energy-Restore-ebook/dp/B06Y12N4YK/
+
+https://twitter.com/SystemSunday/status/1564952491179008004
+
+## Jak uniknąć wypalenia zawodowego. Uzyskaj 7 rodzajów odpoczynku
+
+Jak uniknąć wypalenia zawodowego.
+
+Uzyskaj 7 rodzajów odpoczynku:
+
+Czy kiedykolwiek spałeś ponad 7 godzin, ale nadal czułeś się WYKOŃCZONY?
+
+Ja też.
+
+Podczas gdy sen jest fizycznym odpoczynkiem,
+
+W rzeczywistości potrzebujesz 7 rodzajów odpoczynku, aby uniknąć wypalenia
+
+(Według dr Saundry Dalton-Smith).
+
+Pozostań więc w najlepszej formie dzięki tym 7 rodzajom wypoczynku:
+
+1. Odpoczynek fizyczny
+
+Brak snu i przetrenowanie wyczerpują energię organizmu.
+
+Uzyskaj dwa rodzaje odpoczynku fizycznego, bierny i aktywny:
+
+Bierny
+
+- Śpij 7+ godzin w nocy
+- Weź drzemki (w razie potrzeby)
+
+Aktywny
+
+- Rozciągać się
+- Być masowany
+- Korzystaj z ergonomicznego krzesła + biurka
+
+2. Odpoczynek psychiczny
+
+Deficyt odpoczynku psychicznego jest spowodowany nadmiernym obciążeniem myślenia.
+
+- Zapisz swoje zadania
+- Referencyjne listy kontrolne (pakowanie, artykuły spożywcze itp.)
+- Stwórz rytuał zamknięcia, aby oddzielić pracę od życia
+- Zrób sobie przerwę od rozwiązywania problemów
+- Medytuj
+
+3. Odpoczynek towarzyski
+
+Oceń swoje relacje.
+
+- Spędzaj więcej czasu z ludźmi, którzy dodają ci energii
+- Spędzaj mniej czasu z ludźmi, którzy kradną Twoją energię
+- Jeśli jesteś introwertykiem, zablokuj czas na samotność
+
+4. Duchowy odpoczynek
+
+Bądź częścią czegoś większego niż ty sam.
+
+- Wolontariusz
+- Pracuj w pracy, która wydaje się ukierunkowana na cel
+- Weź udział w działaniach opartych na wierze (jeśli są zgodne z twoim systemem wierzeń)
+
+5. Odpoczynek sensoryczny
+
+Współczesny człowiek jest nadmiernie pobudzony.
+
+- Zrób sobie przerwę od mediów społecznościowych
+- Wyłącz powiadomienia (dźwięki i alerty wizualne)
+- Ogranicz spotkania wideo
+- Ustaw relaksującą wieczorną atmosferę (kojąca muzyka, świece itp.)
+
+6. Odpoczynek emocjonalny
+
+Deficyt odpoczynku emocjonalnego pojawia się, gdy czujesz, że nie możesz być autentyczny.
+
+Np.: steward linii lotniczych, który zawsze musi się uśmiechać, pomimo niegrzecznych pasażerów.
+
+- Spędzaj czas z ludźmi, wokół których możesz być autentyczny
+- Spróbuj porozmawiać z terapeutą, aby uwolnić się od pracy emocjonalnej
+
+Doceniaj piękno w każdej postaci, zarówno naturalnej, jak i stworzonej przez człowieka:
+
+Naturalny
+
+- Zachwyć się wschodem lub zachodem słońca
+- Idź na spacer na łonie natury
+
+Stworzony przez człowieka
+
+- Odwiedź muzeum lub festiwal sztuki
+- Zaangażuj się w inspirującą muzykę, książki, filmy dokumentalne itp.
+
+Dr Dalton-Smith zaleca rozpoczęcie od 1-2 największych deficytów odpoczynku
+
+(I nie próbować zjeść całego słonia na raz).
+
+Następnie z biegiem czasu stwórz codzienne i cotygodniowe nawyki, aby uzyskać wszystkie 7.
+
+Rozwiąż jej quiz na temat odpoczynku, aby dowiedzieć się, od czego zacząć:
+
+https://www.restquiz.com/quiz/rest-quiz-test/
+
+Chcesz dowiedzieć się więcej o wypoczynku?
+
+Sprawdź książkę @DrDaltonSmith:
+
+„Święty odpoczynek” https://www.amazon.com/Sacred-Rest-Recover-Energy-Restore-ebook/dp/B06Y12N4YK/
+
+https://twitter.com/SystemSunday/status/1564952491179008004
