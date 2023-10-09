@@ -193,3 +193,23 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 - [LazyVim: Linting and Formatting - YouTube](https://www.youtube.com/watch?v=a_ZpTPaSn38)
 - this does not work https://vi.stackexchange.com/questions/42597/how-to-disable-autoformating-on-save-on-lazyvim/42598#42598
   - https://github.com/LazyVim/LazyVim/blob/566049aa4a26a86219dd1ad1624f9a1bf18831b6/lua/lazyvim/plugins/lsp/init.lua#L43
+
+## Spell check
+
+`:set spell!` to toggle
+
+`:setlocal spell spelllang=en_us` - English dictionary
+
+`:setlocal spell spelllang=pl_pl` - Polish dictionary
+
+`]S` - next misspelled word
+
+`[S` - previous misspelled word
+
+`zg` - add word to dictionary
+
+`map("n", "<leader>us", function() Util.toggle("spell") end, { desc = "Toggle Spelling" })`
+
+- https://neovim.io/doc/user/spell.html
+- https://github.com/LazyVim/LazyVim/blob/eddd3af3512133f22eb26dda81c3c6f871453276/lua/lazyvim/config/autocmds.lua#L79C19-L79C24
+- https://github.com/LazyVim/LazyVim/blob/eddd3af3512133f22eb26dda81c3c6f871453276/lua/lazyvim/config/keymaps.lua#L105
