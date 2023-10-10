@@ -1,0 +1,3 @@
+- https://github.dev/kategable/functional-router-guards/tree/convert-to-inline-function/src/app
+  - https://blog.herodevs.com/functional-router-guards-in-angular-15-open-the-door-to-happier-code-4a53bb60f78a
+- https://jasonwatmore.com/post/2022/12/01/angular-14-redirect-to-previous-url-after-login-with-auth-guard
