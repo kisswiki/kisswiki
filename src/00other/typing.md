@@ -8,3 +8,4 @@
 - https://monkeytype.com
 - https://10fastfingers.com
 - https://www.keybr.com
+- https://www.edclub.com/typingclub/courses
