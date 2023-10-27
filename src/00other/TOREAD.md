@@ -97,3 +97,30 @@
 - [ ] [How a Computer Works - from silicon to apps | Improbable Matter](https://youtu.be/5f3NJnvnk7k)
 - [ ] [I Took The World’s HARDEST Cybersecurity Exam | Mad Hat](https://youtu.be/9BZaim2uQn0)
 - [ ] [How do computers read code? | Frame of Essence](https://
+
+## Misc
+
+- https://www.youtube.com/watch?v=F21ujn_6YSA
+- https://www.youtube.com/watch?v=mJj45i-P3Cs
+- https://www.youtube.com/watch?v=prMuDIiFyC4
+- https://www.youtube.com/watch?v=aQDOU3hPci0
+- https://www.youtube.com/watch?v=1O_BenficgE
+- https://www.youtube.com/watch?v=fMk1BOptVUs
+- https://www.youtube.com/watch?v=QmOF0crdyRU
+- https://www.youtube.com/watch?v=ygyiM0Ctibo
+- https://www.youtube.com/watch?v=dUjWMdR_Kw8
+- https://www.youtube.com/watch?v=REjATuWa5TY
+- https://www.youtube.com/watch?v=eFJGyT3C-Y0
+- https://www.youtube.com/watch?v=cKrxP44Gp_0
+- https://www.youtube.com/watch?v=AhPm8pv6dEs
+- https://www.youtube.com/watch?v=gSQoA4SYhJY
+- https://www.youtube.com/watch?v=gh2m0dj_lFk
+- https://www.youtube.com/watch?v=hJZ5v7dpKKM
+- https://www.youtube.com/watch?v=HDre_o2qz1o
+- https://www.youtube.com/watch?v=_yZiNnQftxU
+- https://www.youtube.com/watch?v=gwUz3E9AW0w
+- https://www.youtube.com/watch?v=IDB_3S1ezsc
+- https://www.youtube.com/watch?v=b0zxIfJJLAY
+- https://www.youtube.com/watch?v=31k6O2nQgHg
+- https://www.youtube.com/watch?v=6hHifp9kpW4
+- https://www.youtube.com/watch?v=poc4ctbnDYA
