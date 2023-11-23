@@ -18,7 +18,7 @@ https://stackoverflow.com/questions/18419500/how-to-make-mac-os-use-the-python-i
 
 ## python3
 
-`brew doctor && brew install python3`
+`brew doctor && brew install python`
 
 - http://docs.python-guide.org/en/latest/starting/install3/osx/
 - http://blog.manbolo.com/2013/02/04/how-to-install-python-3-and-pydev-on-osx
