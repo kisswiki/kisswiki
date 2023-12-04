@@ -10,7 +10,9 @@ https://freemagazines.top
 
 ## meta search
 
+- jackett: `brew install jackett` and then http://127.0.0.1:9117
 - https://www.btsearch.ml
+- https://btdig.com
 - https://snowfl.com
 - https://troypoint.com/best-torrent-search-engine/
 - https://fossbytes.com/best-torrent-search-engine/
