@@ -124,3 +124,4 @@
 - https://www.youtube.com/watch?v=31k6O2nQgHg
 - https://www.youtube.com/watch?v=6hHifp9kpW4
 - https://www.youtube.com/watch?v=poc4ctbnDYA
+- [ ] [How long does it take to "Learn to Code"? | Mr Sports](https://youtu.be/nUqwvfXMs0U)
