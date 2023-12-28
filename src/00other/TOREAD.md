@@ -172,3 +172,7 @@
 - [ ] [Bez Wi-Fi przez świat | Chaz NBA](https://youtu.be/_1j1OPrcWCU)
 - [ ] [CS50 FULL REVIEW - Best Course to Learn Computer Science in 2022? (edX, Harvard) | Chaz NBA](https://youtu.be/-Zj1kepwRuw)
 - [ ] [Psychiatrist Debunks Dopamine Fasting | Dr. K Explains | Chaz NBA](https://youtu.be/wK-s2qBU40A)
+- [ ] [Why New Software Engineers Have it Hard | Chaz NBA](https://youtu.be/J0p2Psy7NfA)
+- [ ] [The Science Of Catching Up In Life | Chaz NBA](https://youtu.be/IOWelVx5CUw)
+- [ ] [You are a 25 Year Old Loner | Chaz NBA](https://youtu.be/J4M5Den94M0)
+- [ ] [The Reality Behind Losing 5kg Of Fat | Chaz NBA](https://youtu.be/HDjVSLmQle8)
