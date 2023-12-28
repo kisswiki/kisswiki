@@ -164,3 +164,8 @@
 - [ ] [2023 Path to Master Programmer (for free) | Hoop Reports](https://youtu.be/OVwJ5EMTSK0)
 - [ ] [_SPOTIFY_ authorization | A Day In The Life of a Software Engineer (ep.05) | Hoop Reports](https://youtu.be/gEmpV5x-qz0)
 - [ ] [Brain Rot Is Holding You Back | Hoop Reports](https://youtu.be/mThU-sdywKw)
+- [ ] [The Truth About Visualization & Manifestation | Chaz NBA](https://youtu.be/gMBuMAtr8xk)
+- [ ] [Why Finding Purpose Is SO HARD Today | Chaz NBA](https://youtu.be/NuHEY7CjjTI)
+- [ ] [Remembering Bram - Creator of Vim | Chaz NBA](https://youtu.be/5fBkVjNryVQ)
+- [ ] [Leaving $450,000 a year Job | Prime Reacts | Chaz NBA](https://youtu.be/vK8gR3g5y0A)
+- [ ] [Finally! You can send messages ACROSS APPS soon | Chaz NBA](https://youtu.be/G7MlqRzi_w4)
