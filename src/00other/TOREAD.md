@@ -169,3 +169,6 @@
 - [ ] [Remembering Bram - Creator of Vim | Chaz NBA](https://youtu.be/5fBkVjNryVQ)
 - [ ] [Leaving $450,000 a year Job | Prime Reacts | Chaz NBA](https://youtu.be/vK8gR3g5y0A)
 - [ ] [Finally! You can send messages ACROSS APPS soon | Chaz NBA](https://youtu.be/G7MlqRzi_w4)
+- [ ] [Bez Wi-Fi przez świat | Chaz NBA](https://youtu.be/_1j1OPrcWCU)
+- [ ] [CS50 FULL REVIEW - Best Course to Learn Computer Science in 2022? (edX, Harvard) | Chaz NBA](https://youtu.be/-Zj1kepwRuw)
+- [ ] [Psychiatrist Debunks Dopamine Fasting | Dr. K Explains | Chaz NBA](https://youtu.be/wK-s2qBU40A)
