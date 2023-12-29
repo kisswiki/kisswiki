@@ -6,6 +6,8 @@
 - http://gen.lib.rus.ec/
 - https://en.m.wikipedia.org/wiki/Library_Genesis
 - Sci-Hub stores papers it downloads on its own servers. Books are stored on LibGen. https://en.m.wikipedia.org/wiki/Sci-Hub
+- working proxy in Italy https://library-genesis.llhlf.com/
+- https://librarygenesis.net/
 
 ## mibilism
 
