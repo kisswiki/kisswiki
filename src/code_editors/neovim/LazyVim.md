@@ -218,10 +218,12 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 
 - hotpot
   - https://github.com/avegancafe/VimStudio
-    - uses macro `pack` for mixed plugins, but maybe no need and do like https://github.com/rafaeldelboni/cajus-nfnl/blob/main/.config/nvim/fnl/plugins/cmp.fnl
+    - uses macro `pack` for mixed pluginsbut
+      - but maybe no need and do like https://github.com/rafaeldelboni/cajus-nfnl/blob/main/.config/nvim/fnl/plugins/cmp.fnl
+      - https://github.com/bakpakin/Fennel/issues/353#issuecomment-840015752
   - might be slow https://github.com/rktjmp/hotpot.nvim/issues/125
   - https://github.com/datwaft/nvim.conf/tree/6308a95f07f4d9c5cae4fffd49ed91e6b51d0427
-    - author reverted to lua
+    - author reverted to lua https://github.com/datwaft/nvim.conf/commit/0002d8cffe0c4b08c07f14b2082792325ca16695
     - https://github.com/rktjmp/hotpot.nvim/issues/97
 - nfnl
   - https://github.com/rafaeldelboni/cajus-nfnl
