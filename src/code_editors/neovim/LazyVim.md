@@ -44,7 +44,7 @@ return {
 - `10j` - [move ten lines down](https://stackoverflow.com/questions/4917030/move-cursor-x-lines-from-current-position-in-vi-vim)
 - `<leader>bp` - pin tab - pin icon should show up in tab - thanks to bufferline
 - `<leader>bP` - close not-pinned tabs
-- `<leader>uc` - toggle conceal level, hide/show * markup for bold and italic
+- `<leader>uc` - toggle conceal level, hide/show \* markup for bold and italic
 
 - https://www.lazyvim.org/keymaps
 - https://stackoverflow.com/questions/4809729/cancel-split-window-in-vim/4809736#4809736
@@ -213,3 +213,15 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 - https://neovim.io/doc/user/spell.html
 - https://github.com/LazyVim/LazyVim/blob/eddd3af3512133f22eb26dda81c3c6f871453276/lua/lazyvim/config/autocmds.lua#L79C19-L79C24
 - https://github.com/LazyVim/LazyVim/blob/eddd3af3512133f22eb26dda81c3c6f871453276/lua/lazyvim/config/keymaps.lua#L105
+
+## Fennel
+
+- hotpot
+  - https://github.com/avegancafe/VimStudio
+    - uses macro `pack` for mixed plugins, but maybe no need and do like https://github.com/rafaeldelboni/cajus-nfnl/blob/main/.config/nvim/fnl/plugins/cmp.fnl
+  - might be slow https://github.com/rktjmp/hotpot.nvim/issues/125
+  - https://github.com/datwaft/nvim.conf/tree/6308a95f07f4d9c5cae4fffd49ed91e6b51d0427
+    - author reverted to lua
+    - https://github.com/rktjmp/hotpot.nvim/issues/97
+- nfnl
+  - https://github.com/rafaeldelboni/cajus-nfnl
