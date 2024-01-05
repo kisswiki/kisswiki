@@ -51,3 +51,9 @@ Człowiek zdegenerowany przez technologię blockchain, nie wierzy w banki i syst
 - Bo to przecież Degen jest
 
 https://web.archive.org/web/20231003045739/https://www.miejski.pl/slowo-degen
+
+## Kim jest “degen”?
+
+Słowo “degen” ma wiele znaczeń. W tym kontekście to osoba entuzjastycznie nastawiona do innowacji, głęboko przekonana, że nowoczesne technologie mogą sprzyjać pozytywnej globalnej transformacji. Degen to buntownik przeciwko nieskutecznym strukturom i systemom, dążący do ich przekształcenia. Degeni wierzą w przyszłość zdecentralizowanego internetu, w której tradycyjne modele kontroli danych i zasobów są zastępowane przez systemy rozproszone.
+
+https://comparic.pl/degen-meetup-juz-02-wrzesnia-w-warszawie/
