@@ -21,9 +21,7 @@ Dla wyjaśnienia: przekładanie czegoś nie jest zawsze prokrastynacją.
 
 Odpowiedzialne zarządzanie czasem wymaga decydowania, które zadania są ważniejsze, a które mogą jeszcze poczekać.
 
-Prokrastynacją nazywamy moment, gdy unikamy wykonania zadania, którego obiecaliśmy, że wykonamy, bez ważnego powodu,
-
-mimo spodziewania się, że nasze zachowanie przyniesie negatywne konsekwencje.
+Prokrastynacją nazywamy moment, gdy unikamy wykonania zadania, które obiecaliśmy, że wykonamy, bez ważnego powodu, mimo spodziewania się, że nasze zachowanie przyniesie negatywne konsekwencje.
 
 Oczywiście irracjonalne jest robienie czegoś, co mogłoby wam zaszkodzić.
 
