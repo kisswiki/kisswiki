@@ -1,3 +1,108 @@
+prokrastynacja to ochrona nas przed czymś czego się boimy (to unikanie zadania, które postrzegamy jako zagrażające)
+
+Tłumaczenie: Marguerite Gurda
+Korekta: Ola Królikowska
+
+Jest siedemnasta, a właśnie uświadomiliście sobie, że raport, którego napisanie przekładaliście, ma być zrobiony na jutro.
+
+Czas wziąć się w garść, włączyć komputer i... sprawdzać telefon.
+
+Może nadrobicie zaległości w waszych ulubionych kanałach YouTube?
+
+Pewnie powinniście najpierw ugotować kolację. Zazwyczaj lubicie gotować, chociaż ciężko się tym nacieszyć, gdy ta praca wisi nad waszą głową, i... jest już całkiem późno!
+
+Może powinniście po prostu spróbować ponownie rano?
+
+To cykl prokrastynacji i gwarantuję, że wszyscy przez to przechodzili.
+
+Pytanie, dlaczego dalej prokrastynujemy, nawet jeśli wiemy, że jest to dla nas złe?
+
+Dla wyjaśnienia: przekładanie czegoś nie jest zawsze prokrastynacją.
+
+Odpowiedzialne zarządzanie czasem wymaga decydowania, które zadania są ważniejsze, a które mogą jeszcze poczekać.
+
+Prokrastynacją nazywamy moment, gdy unikamy wykonania zadania, którego obiecaliśmy, że wykonamy, bez ważnego powodu,
+
+mimo spodziewania się, że nasze zachowanie przyniesie negatywne konsekwencje.
+
+Oczywiście irracjonalne jest robienie czegoś, co mogłoby wam zaszkodzić.
+
+Ku ironii, prokrastynacja to wynik naszych ciał próbujących nas chronić,
+
+konkretnie przez unikanie zadania, które postrzegamy jako zagrażające.
+
+Gdy sobie uświadamiacie, że macie napisać raport, wasz mózg reaguje tak, jak zareagowałby w przypadku każdego zagrożenia.
+
+Wasze ciało migdałowate, zbiór neuronów zaangażowanych w przetwarzanie emocji i identyfikację zagrożeń, uwalnia hormony, włącznie z adrenaliną, która wywołuje reakcję strachu.
+
+Ta panika wywołana stresem może obezwładnić impulsy z kory przedczołowej, które pomagają myśleć długoterminowo i regulować emocje.
+
+To podczas tej reakcji walki, ucieczki lub paraliżu decydujecie, jak radzić sobie z zagrożeniem, unikając go na rzecz mniej stresujących zadań.
+
+Ta reakcja może wydawać się ekstremalna. W końcu to tylko termin, nie atak niedźwiedzia.
+
+Najczęściej prokrastynujemy, gdy zadania wzbudzają w nas negatywne emocje, jak lęk, brak kompetencji czy niepewność.
+
+Badania na prokrastynujących studentach dowiodły, że byli oni bardziej skłonni na odkładanie zadań, które postrzegali jako stresujące lub wymagające.
+
+Postrzeganie trudności danego zadania zwiększa się przy każdym przekładaniu.
+
+Podczas jednego eksperymentu przypominano uczniom, żeby uczyli się przez cały dzień.
+
+Gdy się uczyli, większość twierdziła, że nie jest tak źle.
+
+Ale gdy odkładali naukę, stale postrzegali pomysł uczenia się jako bardzo stresujący,
+
+co utrudniało im zabranie się do nauki. Ponieważ prokrastynację napędzają negatywne uczucia,
+
+niektóre osoby są na to bardziej podatne. Osoby, które mają problem z opanowaniem emocji,
+
+i te, które zmagają się z niską samooceną, są o wiele bardziej skłonne do prokrastynacji bez względu na to,
+
+jak dobre są w zarządzaniu czasem. Jednak sądzenie, że każdy prokrastynator jest leniwy, jest powszechnym błędem.
+
+W ciele i mózgu lenistwo nacechowane jest brakiem energii i ogólną apatią.
+
+Gdy czujecie się leniwi, raczej usiądziecie i nic nie zrobicie zamiast szukać rozrywki w mało istotnych zadaniach.
+
+Tak naprawdę wiele ludzi prokrastynuje, bo za bardzo się przejmuje.
+
+Prokrastynatorzy często zgłaszają lęk przed porażką, odkładając rzeczy na później, bo są zbyt przerażeni tym, że ich praca nie sprosta ich wysokim standardom.
+
+Wyniki są często takie same bez względu na przyczynę prokrastynacji.
+
+Regularni prokrastynatorzy skłonni są do popadania w stany lękowe, depresji, stałego poczucia wstydu, wyższego poziomu stresu i zmagania się z dolegliwościami fizycznymi związanymi z dużym stresem.
+
+Co gorsza, mimo że prokrastynacja zaszkodzi nam na dłuższą metę, tymczasowo obniża nasz poziom stresu, wzmacniając to jako reakcję organizmu, by radzić sobie ze stresującymi zadaniami.
+
+Jak przerwać cykl prokrastynacji?
+
+Zwykle ludzie uważali, że prokrastynatorzy powinni trzymać dyscyplinę i ściśle zarządzać czasem.
+
+Ale dziś wielu badaczy myśli dokładnie na odwrót.
+
+Bycie zbyt surowym dla siebie może nakładać dodatkowe złe emocje na zadanie,
+
+co sprawi, że zagrożenie stanie się jeszcze bardziej intensywne.
+
+Aby zniwelować reakcję na stres, musimy zawładnąć nad negatywnymi emocjami i je ograniczyć.
+
+Kilka prostych strategii obejmuje podział zadania na mniejsze części lub pisanie o powodach stresu i zajęcie się tymi podstawowymi obawami.
+
+Spróbujcie usunąć bliskie rozpraszacze powodujące odruchową prokrastynację.
+
+Ale najbardziej pomaga utrzymywanie postawy współczucia wobec samego siebie, wybaczanie sobie oraz sporządzenie planu, by następnym razem poradzić sobie lepiej.
+
+Kultura, która utrwala cykl stresu i prokrastynacji, na dłuższą metę szkodzi każdemu z nas.
+
+- [ ] [Why you procrastinate even when it feels bad | TED-Ed](https://youtu.be/FWTNMzK9vG4)
+
+##
+
+- każdy jest prokrastynatorem, małpy boi się tylko potwór panika [Tim Urban: Inside the mind of a master procrastinator | TED | Hanna Öberg](https://youtu.be/arj7oStGLkU)
+
+##
+
 https://twitter.com/themarvlee/status/1707449082598371705
 
 https://github.com/rofrol/articles/blob/master/HOW%20TO%20OVERCOME%20PROCRASTINATION%20FOR%20GOOD%20-%20Marv%20Lee.pl.md
@@ -12,11 +117,9 @@ http://lesswrong.com/lw/3w3/how_to_beat_procrastination/
 
 Part of the sequence: [The Science of Winning at Life](http://wiki.lesswrong.com/wiki/The_Science_of_Winning_at_Life)
 
-
 > My own behavior baffles me. I find myself doing what I hate, and not doing what I really want to do!
 >
->- Saint Paul (Romans 7:15)
-
+> - Saint Paul (Romans 7:15)
 
 Once you're trained in [BayesCraft](http://commonsenseatheism.com/?p=12147), it may be tempting to tackle classic problems "from scratch" with your new Rationality Powers. But often, it's more effective to [do a bit of scholarship](http://lesswrong.com/lw/3m3/the_neglected_virtue_of_scholarship/) first and at least start from [the state of our scientific knowledge](http://lesswrong.com/lw/3nn/scientific_selfhelp_the_state_of_our_knowledge/) on the subject.
 
@@ -42,14 +145,13 @@ Impulsiveness fits into a broader component of procrastination: time. An event's
 
 Expectancy, value, delay, and impulsiveness are the four major components of procrastination. [Piers Steel](http://haskayne.ucalgary.ca/profiles/piers-steel), a leading researcher on procrastination, [explains](http://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703613/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0131103628&linkCode=as2&tag=lesswrong-20):
 
->Decrease the certainty or the size of a task's reward - its expectancy or its value - and you are unlikely to pursue its completion with any vigor. Increase the delay for the task's reward and our susceptibility to delay - impulsiveness - and motivation also dips.
-
+> Decrease the certainty or the size of a task's reward - its expectancy or its value - and you are unlikely to pursue its completion with any vigor. Increase the delay for the task's reward and our susceptibility to delay - impulsiveness - and motivation also dips.
 
 ## The Procrastination Equation
 
 This leaves us with "the procrastination equation":
 
-`Motivation = (Expectancy x Value) / (Impulsiveness x Delay)` 
+`Motivation = (Expectancy x Value) / (Impulsiveness x Delay)`
 
 the procrastination equation
 
@@ -61,14 +163,12 @@ You might have noticed that this part of the equation is one of the basic equati
 
 Hence the denominator, which covers the effect of time on our motivation to do a task. The longer the delay before we reap a task's reward, the less motivated we are to do it. And the negative effect of this delay on our motivation is amplified by our level of impulsiveness. For highly impulsive people, delays do even greater damage to their motivation.
 
-
 ## The Procrastination Equation in Action
 
 As an example, consider the college student who must write a term paper.7 Unfortunately for her, colleges have created a perfect storm of procrastination components. First, though the value of the paper for her grades may be high, the more immediate value is very low, assuming she dreads writing papers as much as most college students do.8 Moreover, her expectancy is probably low. Measuring performance is hard, and any essay re-marked by another professor may get a very different grade: a B+ essay will get an A+ if she's lucky, or a C+ if she's unlucky.9 There is also a large delay, since the paper is due at the end of the semester. If our college student has an impulsive personality, the negative effect of this delay on her motivation to write the paper is greatly amplified. Writing a term paper is grueling (low value), the results are uncertain (low expectancy), and the deadline is far away (high delay).
 
-But there's more. College dorms, and college campuses in general, might be the most distracting places on earth. There are always pleasures to be had (campus clubs, parties, relationships, games, events, alcohol) that are reliable, immediate, and intense. No wonder that the task of writing a term paper can't compete. These potent distractions amplify the negative effect of the delay in the task's reward and the negative effect of the student's level of impulsiveness. 
+But there's more. College dorms, and college campuses in general, might be the most distracting places on earth. There are always pleasures to be had (campus clubs, parties, relationships, games, events, alcohol) that are reliable, immediate, and intense. No wonder that the task of writing a term paper can't compete. These potent distractions amplify the negative effect of the delay in the task's reward and the negative effect of the student's level of impulsiveness.
 
- 
 ## How to Beat Procrastination
 
 Although much is known about the neurobiology behind procrastination, I won't cover that subject here.10 Instead, let's jump right to the solutions to our procrastination problem.
@@ -83,11 +183,9 @@ You might think these things are out of your control, but researchers have found
 
 Most of the advice below is taken from the best book on procrastination available, Piers Steel's [The Procrastination Equation](http://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703613/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0131103628&linkCode=as2&tag=lesswrong-20), which explains these methods and others in more detail.
 
-
 ## Optimizing Optimism
 
 If you don't think you can succeed, you'll have little motivation to do the task that needs doing. You've probably heard the advice to "Be positive!" But how? So far, researchers have identified three major techniques for increasing optimism: Success Spirals, Vicarious Victory, and Mental Contrasting.
-
 
 ### Success Spirals
 
@@ -97,13 +195,11 @@ Steel recommends that for starters, "it is often best to have process or learnin
 
 Wilderness classes and adventure education (rafting, rock-climbing, camping, etc.) are excellent for this kind of thing.13 Learn a new skill, be it cooking or karate. Volunteer for more responsibilities at work or in your community. Push a favorite hobby to the next level. The key is to achieve one goal after another and pay attention to your successes.14 Your brain will reward you with increased expectancy for success, and therefore a better ability to beat procrastination.
 
-
 ### Vicarious Victory
 
 Pessimism and optimism are both contagious.15 Wherever you are, you probably have access to community groups that are great for fostering positivity: [Toastmasters](http://www.toastmasters.org/), [Rotary](http://www.rotary.org/), [Elks](http://www.elks.org/), [Shriners](http://www.beashrinernow.com/), and other local groups. I recommend you visit 5-10 such groups in your area and join the best one.
 
 You can also boost your optimism by [watching inspirational movies](http://rogerebert.suntimes.com/apps/pbcs.dll/article?AID=/20060616/COMMENTARY/60616003), [reading inspirational biographies](http://www.biographyonline.net/people/inspirational/index.html), and [listening to motivational speakers](http://www.motivational-well-being.com/motivational-speakers.html).
-
 
 ### Mental Contrasting
 
@@ -111,28 +207,23 @@ Many popular self-help books encourage creative visualization, the practice of r
 
 Unless, that is, you add a second crucial step: mental contrasting. After imagining what you want to achieve, mentally contrast that with where you are now. Visualize your old, rusty car and your small paycheck. This presents your current situation as an obstacle to be overcome to achieve your dreams, and jumpstarts planning and effort.17
 
-
 ### Guarding Against Too Much Optimism
 
 Finally, I should note that too much optimism can also be a problem,18 though this is less common. For example, too much optimism about [how long a task will take](http://lesswrong.com/lw/jg/planning_fallacy/) may cause you to put it off until the last minute, which turns out to be too late. Something like Rhonda Byrne's [The Secret](http://www.amazon.com/Secret-Rhonda-Byrne/dp/1582701709/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0131103628&linkCode=as2&tag=lesswrong-20) may be too optimistic.
 
 How can you guard against too much optimism? Plan for the worst but hope for the best.19 Pay attention to how you procrastinate, make backup plans for failure, but then use the methods in this article to succeed as much as possible.
 
- 
 ## Increasing Value
 
 It's hard to be motivated to do something that doesn't have much value to us - or worse, is downright unpleasant. The good news is that value is to some degree constructed and relative. The malleability of value is a well-studied area called psychophysics,20 and researchers have some advice for how we can inject value into necessary tasks.
-
 
 ### Flow
 
 If the task you're avoiding is boring, try to make it more difficult, right up to the point where the difficulty level matches your current skill, and you achieve "flow."21 This is what the state troopers of Super Troopers did: they devised strange games and challenges to make their boring job passable. [Myrtle Young](http://www.youtube.com/watch?v=EY3Lw_-bj5U) made her boring job at a potato chip factory more interesting and challenging by looking for potato chips that resembled celebrities and pulling them off the conveyor belts.
 
-
 ### Meaning
 
 It also helps to make sure tasks are connected to something you care about for its own sake,22 at least through a chain: you read the book so you can pass the test so you can get the grade so you can get the job you want and have a fulfilling career. Breaking the chain leaves a task feeling meaningless.
-
 
 ### Energy
 
@@ -147,7 +238,6 @@ Other things that have worked for many people are:
 - When tired, splash cold water on your face or take a shower or do jumping jacks or go running.
 - Listen to music that picks up your mood.
 - De-clutter your life, because clutter is cognitively exhausting for your brain to process all day long.
- 
 
 ### Rewards
 
@@ -155,16 +245,13 @@ One obvious way to inject more value into a task is to reward yourself for compl
 
 Also, mix bitter medicine with sweet honey. Pair a long-term interest with a short-term pleasure.28 Find a workout partner whose company you enjoy. Treat yourself to a specialty coffee when doing your taxes. I bribe myself with [Pinkberry frozen yogurt](http://www.pinkberry.com/) to do things I hate doing.
 
-
 ### Passion
 
-Of course, the most powerful way to increase the value of a task is to focus on doing what you love wherever possible. It doesn't take much extra motivation for me to [research meta-ethics](http://lesswrong.com/lw/43v/the_urgent_metaethics_of_friendly_artificial/) or write [summaries of scientific self-help](http://lesswrong.com/lw/3nn/scientific_selfhelp_the_state_of_our_knowledge/): that is what I love to do. Some people who love playing video games have made [careers](http://en.wikipedia.org/wiki/Gold_farming) out of it. To figure out which career might be full of tasks that you love to do, taking a [RIASEC](http://www.bigjobportal.com/riasec/) personality test might help. In the USA, [O*NET](http://www.onetonline.org/) can help you find jobs that are in-demand and fit your personality.
-
+Of course, the most powerful way to increase the value of a task is to focus on doing what you love wherever possible. It doesn't take much extra motivation for me to [research meta-ethics](http://lesswrong.com/lw/43v/the_urgent_metaethics_of_friendly_artificial/) or write [summaries of scientific self-help](http://lesswrong.com/lw/3nn/scientific_selfhelp_the_state_of_our_knowledge/): that is what I love to do. Some people who love playing video games have made [careers](http://en.wikipedia.org/wiki/Gold_farming) out of it. To figure out which career might be full of tasks that you love to do, taking a [RIASEC](http://www.bigjobportal.com/riasec/) personality test might help. In the USA, [O\*NET](http://www.onetonline.org/) can help you find jobs that are in-demand and fit your personality.
 
 ## Handling Impulsiveness
 
 Impulsiveness is, on average, the biggest factor in procrastination. Here are two of Steel's (2010a) methods for dealing with impulsiveness.
-
 
 ### Commit Now
 
@@ -173,7 +260,6 @@ Impulsiveness is, on average, the biggest factor in procrastination. Here are tw
 One method is to "throw away the key": Close off tempting alternatives. Many people see a productivity boost when they decide not to allow a TV in their home; I haven't owned one in years. But now, TV and more is available on the internet. To block that, you might need a tool like [RescueTime](http://www.rescuetime.com/). Or, unplug your router when you've got work to do.
 
 Another method is to make failure really painful. The website [stickK](http://www.stickk.com/) lets you set aside money you will lose if you don't meet your goal, and ensures that you have an outside referee to decide whether your met your goal or not. To "up the ante," set things up so that your money will go to an organization you hate if you fail. And have your chosen referee agree to post the details of your donation to Facebook if you don't meet your goal.
-
 
 ### Set Goals
 
@@ -185,7 +271,6 @@ Also: Are your goals measuring inputs or outputs? Is your goal to spend 30 minut
 
 Because we are creatures of habit, it helps to get into a routine.32 For example: Exercise at the same time, every day.
 
-
 ## Conclusion
 
 So there you have it. To beat procrastination, you need to increase your motivation to do each task on which you are tempted to procrastinate. To do that, you can (1) optimize your optimism for success on the task, (2) make the task more pleasant, and (3) take steps to overcome your impulsiveness. And to do each of those things, use the specific methods explained above (set goals, pre-commit, make use of success spirals, etc.).
@@ -196,15 +281,9 @@ But now you have the tools you need. Identify which parts of the procrastination
 
 (And, read [The Procrastination Equation](http://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703613/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0131103628&linkCode=as2&tag=lesswrong-20) if you want more detail than I included here.)
 
- 
-
 Next post: [My Algorithm for Beating Procrastination](http://lesswrong.com/lw/9wr/my_algorithm_for_beating_procrastination/)
 
 Previous post: [Scientific Self-Help: The State of Our Knowledge](http://lesswrong.com/lw/3nn/scientific_selfhelp_the_state_of_our_knowledge/)
-
- 
-
- 
 
 Notes
 
@@ -271,8 +350,6 @@ Notes
 31 Gropel & Steel (2008), Steel (2010a).
 
 32 Diefendorff et al. (2006), Gollwitzer (1996), Silver (1974).
-
- 
 
 References
 
@@ -374,7 +451,7 @@ Steel (2010a). The Procrastination Equation. New York: Harper.
 
 Steel (2010b). Arousal, avoidant and decisional procrastinators: Do they exist? Personality and Individual Differences, 48: 926-934.
 
-Steel & Konig (2006). Integrating theories of motivation. Academy of Management Review, 31(4): 889-913. 
+Steel & Konig (2006). Integrating theories of motivation. Academy of Management Review, 31(4): 889-913.
 
 Trope & Liberman (2003). Temporal construal. Psychological Review, 110: 403-421.
 
