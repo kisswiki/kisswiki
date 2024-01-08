@@ -1,4 +1,6 @@
-prokrastynacja to ochrona nas przed czymś czego się boimy (to unikanie zadania, które postrzegamy jako zagrażające)
+prokrastynacja to ochrona nas przed czymś czego się boimy
+
+to ja chcę stanąć do boju z tym strachem.
 
 Tłumaczenie: Marguerite Gurda
 Korekta: Ola Królikowska
