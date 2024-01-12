@@ -1,0 +1,4 @@
+- https://clojureverse.org/t/moving-from-leiningen-to-deps-edn/10241/13
+- https://news.ycombinator.com/item?id=35744677
+- https://github.com/practicalli/clojure-cli-config
+- https://practical.li/clojure/clojure-cli/projects/

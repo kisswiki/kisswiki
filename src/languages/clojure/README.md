@@ -5,6 +5,9 @@
   - https://github.com/nubank/morse/blob/main/docs/lein.adoc
   - https://clojure.org/news/2023/04/28/introducing-morse
   - https://vlaaad.github.io/replicant
+- https://github.com/nextjournal/clerk
+  - [Moldable Live Programming with Clerk (by Philippa Markovics) | London Clojurians](https://youtu.be/3bs3QX92kYA)
+  - https://news.ycombinator.com/item?id=35743261
 
 ## reveal
 
