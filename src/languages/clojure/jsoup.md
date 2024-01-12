@@ -8,6 +8,7 @@
 - old but nice https://github.com/mfornos/clojure-soup/blob/610e881780b35ce683929d8273d92d7e67e49950/src/jsoup/soup.clj
 - checks status == 200 and sets type for body when parsing https://github.com/cljdoc/cljdoc/blob/3895640b7236752da8fa5935992118cda88428b1/src/cljdoc/util/repositories.clj#L63
 - return hashmap of attributes, text etc. https://github.com/jaydeesimon/pod-jaydeesimon-jsoup/blob/3f387cdf366cd9cc65e46f2cf3fb6d3017e51dff/src/pod_jaydeesimon_jsoup/core.clj#L44
+- dosec, src, href https://github.com/jacobobryant/platypub/blob/48329d92581991db2665440229ad7589fa17e183/src/com/platypub/sites.clj#L76
 - very nice funtctions to process nodes, using https://github.com/weavejester/medley etc. https://github.com/ssrihari/kosha/blob/1d7a1858ec6578b146dca4b842020f9a093d479d/src/kosha/scrapers/karnatik/kriti.clj#L10
 - try catch, advanced usage to compare similarity between documents!!! https://github.com/shriphani/subotai/blob/634018499070b59538b0c79c720451c44087b21f/src/subotai/structural_similarity/utils.clj#L10
 - advanced usage of jsoup https://github.com/defold/defold/blob/90153c9c83d70de08c87325f1a3d56607197c568/editor/src/clj/editor/markdown.clj#L270
