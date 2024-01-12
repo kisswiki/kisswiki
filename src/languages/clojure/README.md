@@ -1,7 +1,10 @@
 ## data inspector
 
 - https://practical.li/clojure/data-inspector/
--
+- morse
+  - https://github.com/nubank/morse/blob/main/docs/lein.adoc
+  - https://clojure.org/news/2023/04/28/introducing-morse
+  - https://vlaaad.github.io/replicant
 
 ## reveal
 
