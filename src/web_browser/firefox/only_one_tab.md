@@ -19,4 +19,19 @@ about:preferences > Tabs > uncheck "Open new window in new tab only"
 
 https://support.mozilla.org/bm/questions/1066560
 
+## Force new tab opened in window
+
+- works https://addons.mozilla.org/en-US/firefox/addon/i-hate-tabs-sdi-for-firefox/
+  - https://support.mozilla.org/en-US/questions/1237154#answer-1164247
+- https://addons.mozilla.org/en-US/firefox/addon/disable_tabs/
+- https://addons.mozilla.org/en-US/firefox/addon/saynototabs/
+- https://addons.mozilla.org/en-US/firefox/addon/adsum-notabs/
+- https://addons.mozilla.org/en-US/firefox/addon/one-tab-per-window/
+- https://addons.mozilla.org/en-US/firefox/addon/no-tabs/
+- https://addons.mozilla.org/en-US/firefox/addon/tab-less-addon/
+- https://addons.mozilla.org/en-US/firefox/addon/detab-disable-tabs/
+- https://addons.mozilla.org/en-US/firefox/addon/tabs-are-windows/
+
+## Other
+
 - https://kb.mozillazine.org/About:config_entries
