@@ -18,3 +18,5 @@ https://support.mozilla.org/en-US/questions/1226151
 about:preferences > Tabs > uncheck "Open new window in new tab only"
 
 https://support.mozilla.org/bm/questions/1066560
+
+- https://kb.mozillazine.org/About:config_entries
