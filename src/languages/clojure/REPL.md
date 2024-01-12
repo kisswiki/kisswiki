@@ -1,0 +1,1 @@
+- [Learning CIDER - 1 - Jacking into the REPL | David Kay](https://youtu.be/mSRxiYNk3bY)

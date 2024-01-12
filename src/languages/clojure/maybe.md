@@ -1,0 +1,1 @@
+- [Maybe Not - Rich Hickey | ClojureTV](https://youtu.be/YR5WdGrpoug)
