@@ -9,6 +9,8 @@
 - https://github.com/nextjournal/clerk
   - [Moldable Live Programming with Clerk (by Philippa Markovics) | London Clojurians](https://youtu.be/3bs3QX92kYA)
   - https://news.ycombinator.com/item?id=35743261
+- https://stackoverflow.com/questions/23352830/is-there-a-var-dump-like-function-in-clojure
+- https://github.com/brandonbloom/fipp
 
 ## reveal
 

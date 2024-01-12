@@ -1,0 +1,2 @@
+- https://stackoverflow.com/questions/167262/how-do-you-make-a-web-application-in-clojure
+- from nubank? http://pedestal.io

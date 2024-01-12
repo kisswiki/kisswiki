@@ -12,9 +12,12 @@
 - try catch, advanced usage to compare similarity between documents!!! https://github.com/shriphani/subotai/blob/634018499070b59538b0c79c720451c44087b21f/src/subotai/structural_similarity/utils.clj#L10
 - advanced usage of jsoup https://github.com/defold/defold/blob/90153c9c83d70de08c87325f1a3d56607197c568/editor/src/clj/editor/markdown.clj#L270
 - extract-anchors, crawler https://github.com/rorygibson/linkin/blob/e2ec6960f414bcd97331fc183dedc649aea88c7a/src/linkin/html.clj#L15
+- create record https://github.com/kyleburton/sandbox/blob/d50044ee84a75cf002910405823fc2e772b54f1d/examples/java/jsoup/src/jsoup/core.clj#L10
 - another wraper for jsoup https://github.com/ckirkendall/enfocus/blob/54ee5d1ec4c1fd603d4766caac07bfc482f65abb/src/clj/enfocus/macros.clj#L57
 - another wraper for jsoup https://github.com/niwinz/cljsoup/blob/4d7465a48b7ae9b99b9b9605d807bfb59864b021/src/cljsoup/util.clj#L1
 - another wrapper for jsoup https://github.com/antoniogarrote/apricot-soup
+- another wrapper for jsoup https://github.com/mischov/reaver
+- tupelo.forst to process badly structrured html https://stackoverflow.com/questions/58961061/how-can-i-extract-text-from-an-html-element-containing-a-mix-of-p-tags-and-inn/59037379#59037379
 
 ## tidy
 

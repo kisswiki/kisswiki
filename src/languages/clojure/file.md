@@ -1,0 +1,2 @@
+- https://stackoverflow.com/questions/15996035/clojure-way-of-reading-large-files-and-transforming-data-therein
+- https://rosettacode.org/wiki/Read_entire_file#Clojure
