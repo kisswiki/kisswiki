@@ -1,5 +1,6 @@
 ## data inspector
 
+- https://clojure.org/guides/repl/data_visualization_at_the_repl
 - https://practical.li/clojure/data-inspector/
 - morse
   - https://github.com/nubank/morse/blob/main/docs/lein.adoc
