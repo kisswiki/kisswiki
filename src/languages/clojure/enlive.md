@@ -2,6 +2,7 @@
 
 - https://github.com/swannodette/enlive-tutorial/
 - https://github.com/cgrand/enlive/wiki/Table-and-Layout-Tutorial,-Part-1:-The-Goal
+- `take 1`, `doseq`, https://practical.li/blog/posts/web-scraping-with-clojure-hacking-hacker-news/
 
 ## different parser
 

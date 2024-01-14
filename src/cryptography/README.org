@@ -12,3 +12,4 @@
   - https://www.amazon.com/gp/product/0470474246/
 - https://security.stackexchange.com/questions/2202/lessons-learned-and-misconceptions-regarding-encryption-and-cryptology
 - https://stackoverflow.com/questions/6552704/cryptography-for-p2p-card-game
+- https://www.dcode.fr/caesar-cipher
