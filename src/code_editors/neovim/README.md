@@ -1,4 +1,5 @@
 - https://github.com/neovim/neovim/wiki/FAQ
+- https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/cheatsheet
 
 ## Install on Ubuntu
 
