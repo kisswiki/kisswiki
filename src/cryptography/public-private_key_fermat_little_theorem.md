@@ -1,0 +1,3 @@
+- https://www.quora.com/Why-do-cryptographic-keys-require-prime-numbers-to-multiply-why-doesnt-using-all-numbers-increase-the-strength-by-increasing-the-number-of-wrong-permutations/answer/Buddha-Buck
+- https://www.quora.com/How-is-RSA-related-to-Fermat%E2%80%99s-little-theorem/answers/41759602
+- https://gist.github.com/reddyanjali/0981938e0ee56c39ec4f48568b65235d
