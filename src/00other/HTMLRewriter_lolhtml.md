@@ -1,0 +1,26 @@
+- https://qwtel.com/posts/software/how-to-use-htmlrewriter-for-web-scraping/
+- Scraper https://github.com/cloudflare/workers-docs/issues/658#issuecomment-591476808
+- https://blog.cloudflare.com/serverless-rendering-with-cloudflare-workers/
+- https://github.com/worker-tools/html-rewriter
+- https://developers.cloudflare.com/workers/runtime-apis/html-rewriter/
+- https://blog.cloudflare.com/asynchronous-htmlrewriter-for-cloudflare-workers/
+- https://gist.github.com/reddyanjali/0981938e0ee56c39ec4f48568b65235d
+- https://github.com/AndreasMadsen/htmlparser-benchmark
+- https://gist.github.com/adamschwartz/d9ecd4c60d1ba719835349c7294035c7
+- https://github.com/adamschwartz/web.scraper.workers.dev
+- https://github.com/cloudflare/html-rewriter-wasm
+- https://github.com/adamschwartz/web.scraper.workers.dev/blob/995e0fd351bf349955724d403658be9a40c0bf18/index.js#L70-L128
+- https://github.com/marko-js/htmljs-parser
+- https://blog.cloudflare.com/html-parsing-1
+- https://developers.cloudflare.com/workers/runtime-apis/html-rewriter/
+- https://fershad.com/writing/dynamic-page-content-with-cloudflare-workers/
+- https://workers.cloudflare.com/built-with/projects/web-scraper/
+- prefer .arrayBuffer() to drive the parser, to avoid redundant text decoding/encoding. The Response constructor will later handle the resulting ArrayBuffer just fine. https://github.com/cloudflare/workers-docs/issues/658#issuecomment-589458603
+- https://developers.cloudflare.com/workers/examples/rewrite-links
+- https://stackoverflow.com/questions/70062230/use-cloudflare-htmlrewriter-to-modify-multiple-different-element-types
+- https://gist.github.com/adamschwartz/d9ecd4c60d1ba719835349c7294035c7
+- https://kian.org.uk/implementing-103-early-hints-with-cloudflare-workers-htmlrewriter/
+- https://www.learnwithjason.dev/blog/html-transform-edge-function/
+- https://github.com/remorses/htmlrewriter
+- https://vitaneri.com/posts/web-scraping-on-the-edge-using-htmlrewriter
+- https://gist.github.com/adamschwartz/d9ecd4c60d1ba719835349c7294035c7
