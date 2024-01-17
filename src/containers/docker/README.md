@@ -89,3 +89,11 @@ You can mount to host but cannot provide relative path
 
 - https://code.visualstudio.com/docs/remote/containers
 - https://github.com/Microsoft/vscode-docker
+
+## docker echo command output build
+
+`--progress=plain --no-cache` is needed. Example:
+
+`docker build --progress=plain --no-cache --platform linux/arm64 --tag 'test2' .`
+
+- https://stackoverflow.com/questions/64804749/why-is-docker-build-not-showing-any-output-from-commands/64805337#64805337
