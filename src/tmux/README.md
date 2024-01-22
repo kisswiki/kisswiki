@@ -40,8 +40,8 @@ Here is a list of a few basic tmux commands:
     prefix p — move to the (p)revious window.
     prefix d — close pane
     prefix z - maximize/unmaximize pane
-	prefix d - detach session
-	prefix s - interactive session list
+    prefix d - detach session
+    prefix s - interactive session list
 ```
 
 Other thing worth knowing is that scrolling is enabled by pressing `Ctrl+b PgUp/PgDown`. In fact, it enables the copy mode, which can also be done by pressing `Ctrl+b [`. When in copy mode, you can use `PgUp/PgDown` and arrow keys to scroll through the terminal contents. To (q)uit the copy mode, simply press the `q` key.
@@ -124,7 +124,6 @@ when we use tpm.
 Default save interval is 15 min https://github.com/tmux-plugins/tmux-continuum/blob/90f4a00c41de094864dd4e29231253bcd80d4409/scripts/variables.sh#L8
 
 https://github.com/tmux-plugins/tmux-resurrect
-
 
 ## tmux-continuum
 
@@ -221,11 +220,11 @@ https://github.com/neovim/neovim/issues/7764#issuecomment-411995268
 
 ## run-shell
 
->run-shell always uses /bin/sh (as defined by _PATH_BSHELL in tmux's source). To run a fish shell, you can use run "fish -c fish_prompt" https://stackoverflow.com/questions/47400291/tmux-run-fish-shell-functions-returns-error-127/47426623#47426623
+> run-shell always uses /bin/sh (as defined by \_PATH_BSHELL in tmux's source). To run a fish shell, you can use run "fish -c fish_prompt" https://stackoverflow.com/questions/47400291/tmux-run-fish-shell-functions-returns-error-127/47426623#47426623
 
 I was trying to execute non-existent file and was getting error 127
 
->The high-number exit codes (126 and 127) are given by the shell when there is a problem executing the command. Specifically, (per POSIX.1) 126 usually means that the file was not executable. https://stackoverflow.com/questions/10036772/tmux-run-command-returned-126-what-does-that-mean/10038458#10038458
+> The high-number exit codes (126 and 127) are given by the shell when there is a problem executing the command. Specifically, (per POSIX.1) 126 usually means that the file was not executable. https://stackoverflow.com/questions/10036772/tmux-run-command-returned-126-what-does-that-mean/10038458#10038458
 
 https://unix.stackexchange.com/questions/14700/how-can-i-bind-multiple-tmux-commands-to-one-keystroke
 
@@ -237,7 +236,7 @@ https://unix.stackexchange.com/questions/14700/how-can-i-bind-multiple-tmux-comm
 - https://devel.tech/tips/n/tMuXrSz9/resize-tmux-main-panes-by-percentage/
   - https://news.ycombinator.com/item?id=15804302
 
-``` bash
+```bash
 #!/bin/bash
 #run it like this: tmux set-hook -g client-resized 'run-shell "bash ~/bin/tmux_toggle.sh"'
 highest=$(tmux display-message -p '#{window_panes}')

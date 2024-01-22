@@ -1,3 +1,23 @@
 // https://www.squarefree.com/bookmarklets/zap.html
-//javascript:
-(function(){var newSS, styles='* { background: white !important; color: black !important;  text-shadow: unset !important; font-weight: normal !important; } :not(code) { font-family: sans-serif !important; } :link, :link * { color: #0000EE%20!important%20}%20:visited,%20:visited%20*%20{%20color:%20#551A8B%20!important%20}';%20if(document.createStyleSheet)%20{%20document.createStyleSheet("javascript:'"+styles+"'");%20}%20else%20{%20newSS=document.createElement('link');%20newSS.rel='stylesheet';%20newSS.href='data:text/css,'+escape(styles);%20document.getElementsByTagName("head")[0].appendChild(newSS);%20}%20})();
+// javascript:
+(function () {
+  var newSS,
+    styles = `
+@layer {
+  * {
+    background: white !important; color: black !important;  text-shadow: unset !important; font-weight: normal !important;
+  }
+  :not(code) { font-family: sans-serif !important; }
+  a, :link, :link * { color: #0000EE !important; }
+  :visited, :visited * { color: #551A8B !important; }
+}
+`;
+  if (document.createStyleSheet) {
+    document.createStyleSheet("javascript:'" + styles + "'");
+  } else {
+    newSS = document.createElement("link");
+    newSS.rel = "stylesheet";
+    newSS.href = "data:text/css," + encodeURIComponent(styles);
+    document.getElementsByTagName("head")[0].appendChild(newSS);
+  }
+})();
