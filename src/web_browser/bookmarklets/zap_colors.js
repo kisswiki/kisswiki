@@ -1,5 +1,6 @@
 // https://www.squarefree.com/bookmarklets/zap.html
 // https://stackoverflow.com/questions/11178673/how-to-override-important/75417604#75417604
+// https://stackoverflow.com/questions/26342123/replacement-for-javascript-escape/66749198#66749198
 // javascript:
 (function () {
   var newSS,
