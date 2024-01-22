@@ -56,6 +56,7 @@ return {
 - `C-v` - Go to file selection as a vsplit
 - `C-t` - Go to a file in a new tab
 - `C-n` and `C-p` to navigate file list
+- `Tab` or `S-Tab` to select multiple files, `<CR>` to to open them in harpoon. It uses custom function `select_one_or_multi` in telescope.lua.
 
 https://github.com/nvim-telescope/telescope.nvim
 
