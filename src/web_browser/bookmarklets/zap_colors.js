@@ -1,4 +1,5 @@
 // https://www.squarefree.com/bookmarklets/zap.html
+// https://stackoverflow.com/questions/11178673/how-to-override-important/75417604#75417604
 // javascript:
 (function () {
   var newSS,
