@@ -1,0 +1,2 @@
+- https://ohmyposh.dev/docs/configuration/transient
+  - transient prompt https://news.ycombinator.com/item?id=39141004
