@@ -229,4 +229,22 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
     - author reverted to lua https://github.com/datwaft/nvim.conf/commit/0002d8cffe0c4b08c07f14b2082792325ca16695
     - https://github.com/rktjmp/hotpot.nvim/issues/97
 - nfnl
+
   - https://github.com/rafaeldelboni/cajus-nfnl
+
+  ## neo-tree
+
+  ### disable mapping
+
+  ```lua
+        filesystem = {
+        window = {
+          mappings = {
+            -- disable fuzzy finder
+            ["/"] = "noop"
+          }
+        }
+      }
+  ```
+
+  https://github.com/nvim-neo-tree/neo-tree.nvim/discussions/1242
