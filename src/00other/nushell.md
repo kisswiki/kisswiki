@@ -61,3 +61,11 @@ Nushell completes with single quotes to `cd 'path with space'`
 ## starship
 
 https://starship.rs/#nushell
+
+## glob
+
+`for $i in (glob "*.{(?i)w(?i)e(?i)b(?i)p,pdf}") { echo $i }`
+
+`help glob`
+
+https://www.nushell.sh/commands/docs/glob.html
