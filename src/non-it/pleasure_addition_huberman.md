@@ -1,5 +1,11 @@
 - [ ] [Social Media, Porn & Netflix Destroy Your Brain! - QUIT THIS To End Laziness | Andrew Huberman | Tom Bilyeu](https://youtu.be/xLORsLlcT48)
 
+bo ja teraz zaczynam inaczej patrzeć ma tą dopaminę. że motywuje cię do dotarcia do przyjemności.
+
+I żeby obserwować czy ma się tą dopaminę w danej chwili i jak to stymulować.
+
+Żeby bardziej działać jako całość, a nie że gadzi mózg jest wrogiem.
+
 ## English
 
 the problem is not pleasures. the problem is that pleasure experienced without prior requirement for pursuit yes is terrible for us as individuals.
@@ -27,3 +33,5 @@ Jeśli spojrzeć na problem wzrostu użycia narkotyków lub leków na receptę, 
 To poważny problem, ponieważ tworzy cykl, w którym potrzebujesz więcej tej konkretnej rzeczy.
 
 Zawsze powtarzam, że uzależnienie to stopniowe zawężanie rzeczy, które przynoszą ci przyjemność.
+
+## Polish long

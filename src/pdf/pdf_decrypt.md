@@ -1,3 +1,5 @@
+## macos
+
 `brew install qpdf`
 
 `qpdf --decrypt --password=xxxxx encrypted-filename.pdf decrypted-filename.pdf`
