@@ -103,3 +103,13 @@ I wrote [Vivarium](
 Wayland (more specifically XWayland) doesn't support the rigging needed in order to have the SteamVR compositor yank a display for itself (specifically via the Vulkan extension VK_EXT_direct_mode_display), so it will probably never work until that is supported.
 
 https://christine.website/blog/nixos-vr-hell-2021-12-02
+
+## wayland vs xorg
+
+People who complain that there’s multiple Wayland compositors seem to forget that Xorg had multiple compositors and window managers, and in some cases they weren’t swappable (e.g gnome)
+
+All that’s happened is that the man in the middle (Xorg) has been removed and come up with a proper protocol to talk to the compositors directly.
+
+increasing performance, reducing battery usage, and mapping more to how modern graphics hardware is made.
+
+https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1442396-xfce-4-20-aiming-for-usable-wayland-support-while-maintaining-x11-compatibility?p=1442515#post1442515
