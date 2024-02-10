@@ -113,3 +113,20 @@ All that’s happened is that the man in the middle (Xorg) has been removed and 
 increasing performance, reducing battery usage, and mapping more to how modern graphics hardware is made.
 
 https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1442396-xfce-4-20-aiming-for-usable-wayland-support-while-maintaining-x11-compatibility?p=1442515#post1442515
+
+## fractional scaling
+
+True fractional scaling means letting HiDpi-aware apps render themselves directly at the target size rather than at next integer scale such as 2x and downsizing the image in the compositor to 1.25x, for example. The latter approach isn't ideal for crisp font rendering, but this is what is used at the moment.
+
+Getting externally scaled by the compositor also poses issues for image processing apps like GIMP that require pixel accuracy, as well as for VMs and remote desktop apps like Remmina (to the point of having a dedicated wiki page).
+
+The main problem seems to be the risk of breaking API which GTK tries to avoid until the next major version, so that's why we won't see proper fractional scaling support until GTK 5.
+
+Qt6 supports frac scaling
+
+- https://www.reddit.com/r/gnome/comments/10gx1cj/true_fractional_scaling_in_gnomegtk/
+  - HiDPI fractional scaling support https://gitlab.gnome.org/GNOME/gtk/-/issues/4345
+
+KDE already has VRR (left unmerged in GNOME for 3 years) and already has real fractional scaling (for GNOME it won't happen until GTK 5). Plasma 6 adds compositor hand-offs so KWin crashing won't take down your whole session (GTK devs think compositor hand-offs are "absolutely stupid"), it adds a nice overview / exposé mode that works just like GNOME's, it's soon to get triple buffering (also unmerged in GNOME for 3 years), soon to get session restore, soon to get HDR (KDE devs are at the forefront of developing HDR and colour management support on Wayland), has better core apps, and is customisable out of the box without needing 5000 flimsy extensions that break every update.
+
+- https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1442393-variable-refresh-rate-vrr-support-comes-down-to-the-wire-for-gnome-46?p=1442441#post1442441
