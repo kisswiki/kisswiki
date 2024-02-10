@@ -130,3 +130,21 @@ Qt6 supports frac scaling
 KDE already has VRR (left unmerged in GNOME for 3 years) and already has real fractional scaling (for GNOME it won't happen until GTK 5). Plasma 6 adds compositor hand-offs so KWin crashing won't take down your whole session (GTK devs think compositor hand-offs are "absolutely stupid"), it adds a nice overview / exposé mode that works just like GNOME's, it's soon to get triple buffering (also unmerged in GNOME for 3 years), soon to get session restore, soon to get HDR (KDE devs are at the forefront of developing HDR and colour management support on Wayland), has better core apps, and is customisable out of the box without needing 5000 flimsy extensions that break every update.
 
 - https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1442393-variable-refresh-rate-vrr-support-comes-down-to-the-wire-for-gnome-46?p=1442441#post1442441
+
+GTK 4.14 will have fractional scaling as well, so the only real difference is that GNOME still has fractional scaling behind a dconf option.
+
+- https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1442393-variable-refresh-rate-vrr-support-comes-down-to-the-wire-for-gnome-46?p=1442456#post1442456
+
+The blur that you see is because Xwayland does not support per-surface scaling. It's not a GNOME-specific issue. KDE ships a workaround for Xwayland scaling that only works with modern X11 apps, but leaves older apps completely unscaled. They do ship a toggle between two scaling modes, but it only looks good if you stick to the subset of apps that are compatible with the workaround. A GNOME/Red Hat developer is working on a generic solution, but I understand why you'd prefer having the workaround if you can't get rid of X11 apps.
+
+Anyway, my comment was aimed at the kind of people that criticized mutter's scaling support as not "real" because it used to scale Wayland apps to the next integer and scaled it down. They keep claiming that KDE supports "real" fractional scaling (i.e. drawing at fractional scales) when it hasn't shipped that yet for its own apps.
+
+- https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1442393-variable-refresh-rate-vrr-support-comes-down-to-the-wire-for-gnome-46?p=1442472#post1442472
+
+> I have a 32" 4k display. With GNOME 1.25 or 1.50 scaling is good for work but if I launch a Steam/Proton game then the game thinks 1440p is my max resolution. So I kept switching between 1.25/1.50 scaling for work and 1.00 for games. Annoying
+
+As far as I understand this will be fixed with Gnome Mutter 46:
+
+https://gitlab.gnome.org/GNOME/mutter/-/commit/bd6196f4ca8d7b63012f193836b8baf1dcbfeeef
+
+https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1442393-variable-refresh-rate-vrr-support-comes-down-to-the-wire-for-gnome-46?p=1442518#post1442518
