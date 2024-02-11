@@ -9,3 +9,7 @@ For a static library in a known location, I'd probably use `exe.addObjectFile(.{
 However, the best way to do this is to use Zig to build your static library in the first place, and then you can link the artifact in very easily using `exe.linkLibrary(lib)`
 
 - https://discord.com/channels/605571803288698900/1019652020308824145/threads/1197845845043859497
+
+##
+
+https://ziggit.dev/t/a-simple-example-of-calling-a-c-library-from-zig/2225
