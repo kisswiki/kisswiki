@@ -1,3 +1,5 @@
+## example
+
 squirl — 01/19/2024 11:20 AM
 
 `addLibraryPath` provides a directory to search libraries in, not a path to a library
@@ -10,6 +12,7 @@ However, the best way to do this is to use Zig to build your static library in t
 
 - https://discord.com/channels/605571803288698900/1019652020308824145/threads/1197845845043859497
 
-##
+## Other example
 
-https://ziggit.dev/t/a-simple-example-of-calling-a-c-library-from-zig/2225
+- https://ziggit.dev/t/a-simple-example-of-calling-a-c-library-from-zig/2225
+  - https://mtlynch.io/notes/zig-call-c-simple/
