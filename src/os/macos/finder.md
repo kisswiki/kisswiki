@@ -42,3 +42,9 @@ video_for_whatsup.sh "$@"
 `System Settings > Spotlight > Privacy`
 
 https://discussions.apple.com/thread/8384478
+
+## Search in current folder
+
+`Settings > Advanced tab > When performing a search: Search the current folder`
+
+https://apple.stackexchange.com/questions/14046/how-to-type-to-search-in-current-folder/14110#14110
