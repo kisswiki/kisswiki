@@ -180,6 +180,14 @@ any lazy handler triggers lazy loading. That's the whole point (my comment: i.e.
 
 https://matrix.to/#/!cylwlNXSwagQmZSkzs:matrix.org/$mEj6Nu0KFRcdLHubttjf-Y0N7eVrHllmmvVym5sVy2U
 
+## disable autoformat termporarily
+
+`<Leader>uF` - current buffer
+
+`<Leader>uf` - globally
+
+https://www.lazyvim.org/configuration/tips#disable-autoformat-for-some-buffers
+
 ## disable autoformat for some file type
 
 ```lua
