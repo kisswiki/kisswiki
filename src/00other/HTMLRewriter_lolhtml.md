@@ -24,3 +24,4 @@
 - https://github.com/remorses/htmlrewriter
 - https://vitaneri.com/posts/web-scraping-on-the-edge-using-htmlrewriter
 - https://gist.github.com/adamschwartz/d9ecd4c60d1ba719835349c7294035c7
+- https://vitaneri.com/posts/web-scraping-on-the-edge-using-htmlrewriter
