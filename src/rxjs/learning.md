@@ -93,3 +93,15 @@ It needs 2 values to start emmiting, so before place `startWith`, but `distinctU
       startWith(undefined),
       pairwise()),
 ```
+
+## forkJoin
+
+The more straightforward alternative for emulating Promise.all is to use the forkJoin operator (it starts all observables in parallel and join their last elements)
+
+https://stackoverflow.com/questions/35608025/promise-all-behavior-with-rxjs-observables/35608836#35608836
+
+## zip
+
+If one of the observables complete,then the operator stops emitting any value even if the other observables have not completed.
+
+https://javascript.plainenglish.io/practical-examples-to-explain-forkjoin-zip-withlatestfrom-and-combinelatest-operators-2a1a9cd862cf
