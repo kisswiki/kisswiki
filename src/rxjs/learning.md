@@ -104,4 +104,16 @@ https://stackoverflow.com/questions/35608025/promise-all-behavior-with-rxjs-obse
 
 If one of the observables complete,then the operator stops emitting any value even if the other observables have not completed.
 
-https://javascript.plainenglish.io/practical-examples-to-explain-forkjoin-zip-withlatestfrom-and-combinelatest-operators-2a1a9cd862cf
+```javascript
+zip(
+  interval(1000).pipe(take(3)),
+  interval(1000).pipe(take(4)),
+  interval(1000).pipe(take(5)),
+).subscribe((x) => console.log(x));
+```
+
+As you can see, the first observable will complete first after emitting 0,1 and 2. zip operator will stop firing after this even when other 2 observables emit values.
+
+- https://javascript.plainenglish.io/practical-examples-to-explain-forkjoin-zip-
+- https://rxmarbles.com/#zip
+- https://reactivex.io/documentation/operators/zip.html
