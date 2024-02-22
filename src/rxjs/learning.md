@@ -68,6 +68,14 @@ https://stackoverflow.com/questions/38764578/rxjs-understanding-defer/53017413#5
 
 ## shareReplay
 
+`shareReplay(1)` basically caches the last emitted value
+
+https://stackoverflow.com/questions/67955183/where-to-put-sharereplay1-pipe/67955389#67955389
+
+shareReplay is often used to keep around expensive to setup observables which we want to keep running instead of having to do the expensive setup again.
+
+https://rxjs.dev/api/operators/shareReplay
+
 shareReplay is the multicast operator with a ReplaySubject, followed by a refCount. So I would bet that `publishReplay(x).refCount()` should be quite close to the shareReplay behaviour.
 
 https://stackoverflow.com/questions/34600088/pattern-for-sharereplay1-in-rxjs5/34603009#34603009
