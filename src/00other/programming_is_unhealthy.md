@@ -54,3 +54,4 @@ And I’m still not rich.
 
 - https://www.quora.com/What-is-the-saddest-part-of-being-a-programmer/answer/Dmitry-Burlakov-2
 - https://flowingdata.com/2022/10/26/feelings-at-work/
+- https://www.facebook.com/groups/ppbit/posts/3658662217680763
