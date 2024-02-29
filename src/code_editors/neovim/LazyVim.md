@@ -256,3 +256,20 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
   ```
 
   https://github.com/nvim-neo-tree/neo-tree.nvim/discussions/1242
+
+## move windows
+
+- CTRL-W SHIFT-H: Move window to the far left
+- CTRL-W SHIFT-J: Move window to the very bottom
+- CTRL-W SHIFT-K: Move window to the very top
+- CTRL-W SHIFT-L: Move window to the far right
+
+These are the same keys used for navigation, without SHIFT (lowercase navigation letters):
+
+- CTRL-W H: Move focus to the left window
+- CTRL-W J: Move focus to the bottom window
+- CTRL-W K: Move focus to the top window
+- CTRL-W L: Move focus to the right window
+
+- https://stackoverflow.com/questions/15583346/how-can-i-temporarily-make-the-window-im-working-on-to-be-fullscreen-in-vim/69650669#69650669
+- https://neovim.io/doc/user/windows.html#window-moving
