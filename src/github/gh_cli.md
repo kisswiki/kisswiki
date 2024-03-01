@@ -10,4 +10,5 @@ gh repo clone rofrol/steamdeck-games-popularity
 ```
 
 - https://gotofritz.net/blog/using-gh-to-generate-a-new-repo/
+- https://cli.github.com/manual/gh_repo_create
 - https://stackoverflow.com/questions/69413752/how-to-set-gitignore-file-and-license-to-none-and-set-add-origin-git-remote-to
