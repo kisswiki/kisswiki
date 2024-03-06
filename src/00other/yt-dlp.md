@@ -158,7 +158,10 @@ notice that youtube-dl has labeled the last option 1280x720 as the 'best' qualit
 
 ## Please sign in to view this video - cookies
 
-https://github.com/rg3/youtube-dl/blob/master/README.md#how-do-i-pass-cookies-to-youtube-dl
+`yt-dlp --cookies ~/Downloads/twitter.com_cookies.txt <url>`
+
+- https://github.com/rg3/youtube-dl/blob/master/README.md#how-do-i-pass-cookies-to-youtube-dl
+  - https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc
 
 ## egghead.io
 
