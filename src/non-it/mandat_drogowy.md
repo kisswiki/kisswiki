@@ -10,3 +10,6 @@
 8. Wysłać do podpisania przez epuap (kod z smsa).
 
 Uwaga: konto w canard zostanie zablokowane po nieotworzeniu w teminie przynajmniej dwóch linków, które wysyłają mailem. Czas na otworzenie to 14 dni.
+
+- https://www.canard.gitd.gov.pl/cms/web/guest/kontakt-z-canard
+- https://wykop.pl/wpis/71211551/mirki-dostalem-mandat-z-canard-jest-opcja-niewskaz
