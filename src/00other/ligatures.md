@@ -1,0 +1,3 @@
+- https://github.com/madmalik/mononoki/issues/29#issuecomment-220626523
+- https://practicaltypography.com/ligatures-in-programming-fonts-hell-no.html
+- https://news.ycombinator.com/item?id=30011775
