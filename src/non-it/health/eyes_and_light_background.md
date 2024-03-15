@@ -12,34 +12,6 @@
 
 https://www.facebook.com/groups/257881290932879/
 
-- https://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes
-
-##
-
-Ok, moje ustawienia:
-
-https://marketplace.visualstudio.com/items?itemName=Hyzeta.vscode-theme-github-light
-
-settings:
-
-```json
-{
-  "workbench.colorCustomizations": {
-    "[Github Light]": {
-      "editor.background": "#ffffff",
-      "statusBar.background": "#ffffff",
-      "sideBar.background": "#ffffff",
-      "activityBar.background": "#ffffff",
-      "editorIndentGuide.activeBackground": "#888"
-    }
-  }
-}
-```
-
-Dodatkowo wieczorem w osx Night Shift i warmer o jeden stopień.
-
-Jasność ekranu ok 60%.
-
 ##
 
 "Eyestrain can occur when the eyes are fixed on an object for a long period of time, there is poor lighting, or there is glare," explains John Bullough, Ph.D., lighting scientist at the LRC and lead researcher on the television study. "One scenario believed to cause eyestrain is watching television in a dark room. In this case, visual discomfort is caused by the large difference in luminance between the television screen and the room's dark background."
@@ -62,6 +34,7 @@ https://www.apartmenttherapy.com/is-watching-tv-in-the-dark-bad-152622
 - https://stackoverflow.com/questions/503103/best-background-color-for-your-editor
   - https://blog.codinghorror.com/is-your-ide-hot-or-not/
 - https://www.quora.com/Should-I-have-a-black-background-with-white-text-when-using-my-PC-or-vice-versa-If-I-read-on-my-PC-but-mostly-just-watch-shows-which-is-better-for-the-eyes
+- https://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes
 
 ##
 
