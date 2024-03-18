@@ -155,3 +155,14 @@ https://apple.stackexchange.com/questions/153790/how-to-fix-brew-after-osx-upgra
 - https://stackoverflow.com/questions/64833482/do-you-need-to-run-brew-unlink-brew-link-before-after-brew-switch
 - https://docs.brew.sh/Tips-N%27-Tricks#activate-a-previously-installed-version-of-a-formula
 - https://stackoverflow.com/questions/13477363/how-can-i-brew-link-a-specific-version
+
+## wireshark cannot uninstall
+
+`~/bin/brew_reinstall_wireshark.sh`
+
+```
+Error: Failure while executing; `/usr/bin/sudo -u root -E -- /usr/sbin/installer -pkg /opt/homebrew/Caskroom/wireshark/4.2.2/Uninstall\ ChmodBPF.pkg -target /` exited with 1. Here's the output:
+installer: Error - the package path specified was invalid: '/opt/homebrew/Caskroom/wireshark/4.2.2/Uninstall ChmodBPF.pkg'.
+```
+
+https://github.com/orgs/Homebrew/discussions/4190#discussioncomment-8075275
