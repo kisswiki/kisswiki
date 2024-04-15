@@ -27,3 +27,9 @@ inactive_tab_background #bbb
 Normal split and then `ctrl+shift+l` to change layout.
 
 https://stackoverflow.com/questions/66127831/split-screen-in-kitty#comment132654699_66543260
+
+## macos key repeat rate
+
+`Settings > Keyboard > Key repeat rate > Fast`
+
+https://twitter.com/dillon_mulroy/status/1778762742729465897
