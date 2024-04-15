@@ -22,3 +22,62 @@ https://stackoverflow.com/questions/66127831/split-screen-in-kitty#comment132654
 `Settings > Keyboard > Key repeat rate > Fast`
 
 https://twitter.com/dillon_mulroy/status/1778762742729465897
+
+## open links
+
+`cmd+click` works with this:
+
+`mouse_map cmd+left release grabbed,ungrabbed mouse_click_url`
+
+https://github.com/kovidgoyal/kitty/issues/3718#issuecomment-860184706
+
+`shift+click` works by default. `ctrl+shift+click` should be faster.
+
+Also you can `ctrl+shift+e` and select link to open.
+
+Defaults in kitty.conf:
+
+```
+# mouse_map left click ungrabbed mouse_handle_click selection link prompt
+
+#::  First check for a selection and if one exists do nothing. Then
+#::  check for a link under the mouse cursor and if one exists, click
+#::  it. Finally check if the click happened at the current shell
+#::  prompt and if so, move the cursor to the click location. Note
+#::  that this requires shell integration
+#::  <https://sw.kovidgoyal.net/kitty/shell-integration/> to work.
+
+#: Click the link under the mouse or move the cursor even when grabbed
+
+# mouse_map shift+left click grabbed,ungrabbed mouse_handle_click selection link prompt
+
+#::  Same as above, except that the action is performed even when the
+#::  mouse is grabbed by the program running in the terminal.
+
+#: Click the link under the mouse cursor
+
+# mouse_map ctrl+shift+left release grabbed,ungrabbed mouse_handle_click link
+
+#::  Variant with Ctrl+Shift is present because the simple click based
+#::  version has an unavoidable delay of click_interval, to
+#::  disambiguate clicks from double clicks.
+```
+
+- https://www.reddit.com/r/KittyTerminal/comments/tx7rt2/disable_url_opening_on_just_single_click/
+- https://sw.kovidgoyal.net/kitty/kittens/hints/
+
+## rectangle selection
+
+`mouse_map cmd+alt+left press ungrabbed mouse_selection rectangle`
+
+https://github.com/kovidgoyal/kitty/issues/3718#issuecomment-860206166
+
+## debug and config reload
+
+Run `kitty --debug-input and you will see what events are being processed
+
+https://github.com/kovidgoyal/kitty/issues/3718#issuecomment-860185312
+
+`ctrl+shift+f5` to reload config
+
+https://www.reddit.com/r/KittyTerminal/comments/14kdcdx/comment/jppuoek/
