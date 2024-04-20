@@ -22,4 +22,10 @@ byroot
 
 Ruby handle that no problem
 
+gf0
+
+But the claimed error trace is not different from an exception stacktrace in, say, java.
+
+You don’t add it to every function, most functions don’t handle error cases, exceptions just bubble through them. You only have to do any form of “bookkeeping” when you explicitly catch an exception (that is, stop it in its track), and you throw another exception from there. Then it most often makes sense to attach the exception responsible for getting there in the first place. But this is mostly an API boundary task, not at all common code to worry about it being a nuisance.
+
 https://lobste.rs/s/oicggq/go_s_error_handling_is_perfect_actually#c_h7tzdv
