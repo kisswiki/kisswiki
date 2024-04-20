@@ -18,4 +18,8 @@ In constrast, errtrace records the caller information incrementally, following t
 
 Since it only captures a frame at a time, it performs much better than stacktrace (entire stack) per wrapped error.
 
+byroot
+
+Ruby handle that no problem
+
 https://lobste.rs/s/oicggq/go_s_error_handling_is_perfect_actually#c_h7tzdv
