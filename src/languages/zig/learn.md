@@ -143,3 +143,4 @@ https://news.ycombinator.com/item?id=26651603
 - [ ] [Numeric Types in Zig - Loris Cro | Zig SHOWTIME](https://youtu.be/La2Xl6Ewxuk)
 - [ ] [A tour of std.crypto in Zig 0.7.0 - Frank Denis | Zig SHOWTIME](https://youtu.be/9t6Y7KoCvyk)
 - [ ] [Zig SHOWTIME | Zig SHOWTIME](https://www.youtube.com/@ZigSHOWTIME/videos)
+- [ ] [Exploring Zig with Fermyon Spin | Fermyon](https://youtu.be/pknRk7a8-cM)
