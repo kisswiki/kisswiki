@@ -29,3 +29,11 @@ But the claimed error trace is not different from an exception stacktrace in, sa
 You don’t add it to every function, most functions don’t handle error cases, exceptions just bubble through them. You only have to do any form of “bookkeeping” when you explicitly catch an exception (that is, stop it in its track), and you throw another exception from there. Then it most often makes sense to attach the exception responsible for getting there in the first place. But this is mostly an API boundary task, not at all common code to worry about it being a nuisance.
 
 https://lobste.rs/s/oicggq/go_s_error_handling_is_perfect_actually#c_h7tzdv
+
+gf0
+
+Go’s error handling is only marginally better than C’s, and both of them are far below any other mainstream language’s, both exceptions and sum typed ones.
+
+It’s literally checking for errno, I thought we were well past that phase. It makes the business logic hard to follow, while trains the eyes to disregard the actual error handling logic (you learn to skip the if err part). Plus, makes it easy to “handle” the error cases with useless, lazy attempts, like printing some error message you have to grep for in the code base.. a stacktrace is million times more useful.
+
+https://lobste.rs/s/oicggq/go_s_error_handling_is_perfect_actually#c_9t94ei
