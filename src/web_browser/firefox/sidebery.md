@@ -8,6 +8,10 @@ https://github.com/mbnuqw/sidebery
 
 https://news.ycombinator.com/item?id=40055025
 
+## Toggle with Ctrl+e
+
+`Settings > Keybindings > General > Open/Close sidebar panel > ^E`
+
 ## Add a close tree button to the menu
 
 `Settings > Menu Editor > Tabs > click "Close branch"`

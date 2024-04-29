@@ -86,3 +86,23 @@ https://www.reddit.com/r/KittyTerminal/comments/14kdcdx/comment/jppuoek/
 
 This may result in some configurations (like notification settings or location in the Dock/Launchpad) being lost.
 To fix this, go to System Settings > Privacy & Security > App Management and add or enable your terminal.
+
+## Resize window
+
+`ctrl+shift+r`
+
+https://sw.kovidgoyal.net/kitty/overview/#windows
+
+## Next layout aka move tab horizontally
+
+`ctrl+shift+l`
+
+https://sw.kovidgoyal.net/kitty/overview/#tabs
+
+## Move tab
+
+Move tab forward `ctrl+shift+.`
+
+Move tab backward `ctrl+shift+,`
+
+https://sw.kovidgoyal.net/kitty/overview/#tabs
