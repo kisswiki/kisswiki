@@ -40,6 +40,22 @@ drag your Outline header over the Terminal header which will then allow you the 
 
 https://stackoverflow.com/questions/36702207/how-to-display-vs-code-output-window-to-side-rather-than-below/62265304#62265304
 
+## pointers
+
+```zig
+*u8 // pointer var u8
+
+&foo // reference to foo
+
+*const u8 <- pointer to const u8
+
+var a: u8;
+
+var p1 = &a; // var pointer to var u8
+const p2 = &a; // const pointer to var u8
+const p3: *const u8 = &a; // const pointer to const u8 <- this pointer does not allow changing value it points to, even though a is var.
+```
+
 ## .?
 
 `.?` is equivalent of `orelse unreachable`
