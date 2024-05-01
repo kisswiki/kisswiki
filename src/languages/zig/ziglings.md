@@ -43,3 +43,5 @@ https://stackoverflow.com/questions/36702207/how-to-display-vs-code-output-windo
 ## .?
 
 `.?` is equivalent of `orelse unreachable`
+
+similar to `someErrorUnion catch unreachable`
