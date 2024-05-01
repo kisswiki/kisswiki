@@ -54,6 +54,18 @@ var a: u8;
 var p1 = &a; // var pointer to var u8
 const p2 = &a; // const pointer to var u8
 const p3: *const u8 = &a; // const pointer to const u8 <- this pointer does not allow changing value it points to, even though a is var.
+
+p1.* = 'b';
+```
+
+43_pointers5.zig
+
+when accessing struct fields, we don't have to dereference pointer:
+
+```zig
+fn foo(pv: *Vertex) {
+  pv.x += 2;
+}
 ```
 
 ## .?
