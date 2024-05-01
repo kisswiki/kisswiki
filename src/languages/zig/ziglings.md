@@ -30,13 +30,13 @@ Also `ctrl+shift+p > Tasks: Manage Automatic Tasks in Folder > Allow...`
 
 - https://dev.to/robole/how-to-run-webpack-automatically-in-vs-code-when-you-open-a-project-1c19
 
-to update zig
+To update zig
 
 `~/personal_projects/zig/zig-utils/scripts/zupd aarch64-macos`
 
 ## Move output to the right
 
-drag your Outline header over the Terminal header which will then allow you the option of putting it to the left or right of the Terminal
+Drag your Outline header over the Terminal header which will then allow you the option of putting it to the left or right of the Terminal
 
 https://stackoverflow.com/questions/36702207/how-to-display-vs-code-output-window-to-side-rather-than-below/62265304#62265304
 
@@ -60,7 +60,7 @@ p1.* = 'b';
 
 43_pointers5.zig
 
-when accessing struct fields, we don't have to dereference pointer:
+When accessing struct fields, we don't have to dereference pointer:
 
 ```zig
 fn foo(pv: *Vertex) {
@@ -72,4 +72,4 @@ fn foo(pv: *Vertex) {
 
 `.?` is equivalent of `orelse unreachable`
 
-similar to `someErrorUnion catch unreachable`
+Similar to `someErrorUnion catch unreachable`
