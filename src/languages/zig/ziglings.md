@@ -64,11 +64,14 @@ When accessing struct fields, we don't have to dereference pointer:
 
 ```zig
 fn foo(pv: *Vertex) {
+  // p.*.x += 2;
   pv.x += 2;
 }
 ```
 
 ## .?
+
+46_optionals2.zig
 
 `.?` is equivalent of `orelse unreachable`
 
