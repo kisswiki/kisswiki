@@ -55,3 +55,27 @@ It manages to address all of C++'s biggest shortcomings, which, in my view, are 
 As someone who knows C and not Zig, Zig is very interesting. It has incremental compilation, in-place binary patching, the ability to use code before declaration in a file, compile-time code execution, and extremely low compile times. Rust itself doesn't have most of those.
 
 https://news.ycombinator.com/item?id=26651603
+
+## Zig vs Rust vs C vs C++
+
+Od dłuższego czasu planuję bardzo duży projekt. Jest to projekt symulacyjny, który wymaga niskopoziomowego kodu dla wydajności. Przez wiele lat byłem wielkim fanem Rusta i pisałem w nim duże projekty. Ale w zeszłym roku zacząłem mieć wrażenie, że Rust wpada w pułapkę C++, polegającą na dodawaniu funkcji za funkcją bez wyraźnego powodu. Staje się coraz bardziej złożony, ale niekoniecznie łatwiejszy w użyciu. I mają obietnicę kompatybilności wstecznej, więc utknęli z tym, co dodali.
+
+Wiele projektów, które napisałem w Rust, wymaga również zaprojektowania architektury z myślą o borrow checkerze, czasami trzeba zaprojektować abstrakcje w oparciu o to, co właścicielem pamięci, a nie o to, co ma największy sens. Zwłaszcza do celów cache'owania nie można wskazywać pamięci należącej do pola w tej samej strukturze, więc trzeba utworzyć kolejny poziom, aby to obejść.
+
+Z tych powodów szukałem innych języków do wykorzystania w moim następnym dużym projekcie. Nie przepadam za C++ ze względu na jego rozdęcie i spuściznę, nowy system modułów rozwiązuje niektóre z moich problemów z C++, ale nie ma dla niego jeszcze nawet wsparcia LSP. C był językiem, na który się zdecydowałem, ale to trochę wytrąciło mnie z nastroju do kontynuowania. Moim głównym problemem z C jest to, że nie ma przestrzeni nazw, więc zaczynasz się zderzać, jeśli nie wymyślisz i nie zastosujesz strategii nazewnictwa. Brakuje mu również dobrego metaprogramowania, co utrudnia budowanie i szlifowanie pracy.
+
+Rozważałem również Adę i spróbowałem, ale wydawała mi się zbyt sztywna i rozwlekła. Jedną z cech, które uwielbiałem w Adzie, był sposób, w jaki radziła sobie z generycznymi typami poprzez generowanie typów z danych wejściowych w czasie kompilacji, coś w rodzaju szablonów w C++, ale wydaje się bardziej typu runtime.
+
+Kilka dni temu słuchałem podcastu z Andrew Kelleyem, w którym mówił, że celem Zig jest bycie prostym językiem, a kiedy zostanie wydana wersja v1.0, planują ledwo go dotknąć. Wyjaśnił, że martwi się, jak to zrobić na dłuższą metę.
+
+To naprawdę mnie poruszyło, wydaje mi się, że właśnie tego potrzebujemy. Zasadniczo nowy C, ale z funkcjami metaprogramowania i dobrymi odstępami między nazwami.
+
+Spędziłem cały weekend pisząc w Zigu dla mojej symulacji, aby spróbować. I jestem całkowicie przekonany. Nie utknąłem ani razu, za każdym razem, gdy napotykałem problemy, udało mi się je rozwiązać w ciągu kilku minut za pomocą logicznego myślenia. Jedyną nauką, jaką przeprowadziłem, było przeczytanie samouczka na stronie zig.guide, zanim zacząłem.
+
+Podoba mi się to, że wszystkie importy są obsługiwane jako struct i można ich używać tak jak zwykłych stałych. Uwielbiam czas kompilacji, który pozwala uzyskać funkcjonalność szablonu z C++ lub funkcję generyczną z Ady i makra z Rusta bez konieczności myślenia o tym. Uwielbiam to, jak łatwo jest połączyć się z C bez żadnego boilerplate. Obsługa błędów jest bardzo podobna do tej w Rust, co bardzo mi się podoba.
+
+Jedyną rzeczą, za którą myślę, że będę tęsknić, są klasy typów/cechy/interfejsy. Jeszcze za tym nie tęskniłem, ale podoba mi się ten rodzaj projektu, w którym można rozszerzyć dowolny typ, aby był zgodny z nowymi kontraktami. Można to jednak obejść (C tego nie ma i można w nim zrobić wszystko), więc myślę, że nie mam nic przeciwko brakowi tych funkcji, jeśli Andrew sprawi, że projekt będzie trzymał się filozofii prostego języka.
+
+Naprawdę mam nadzieję, że Zig przetrwa i stanie się nowym C za około 10 lat. Myślę, że branża oprogramowania przechodzi na coraz bardziej złożone systemy bez powodu, Zig jest jak powiew świeżego powietrza.
+
+https://www.reddit.com/r/Zig/comments/1ckstjv/im_sold_on_zigs_simplicity/
