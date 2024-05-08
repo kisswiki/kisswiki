@@ -166,3 +166,12 @@ installer: Error - the package path specified was invalid: '/opt/homebrew/Caskro
 ```
 
 https://github.com/orgs/Homebrew/discussions/4190#discussioncomment-8075275
+
+## background-music cannot uninstall
+
+```shell
+rm -rf $(brew --prefix)/Caskroom/background-music
+brew reinstall --cask background-music
+```
+
+https://github.com/Homebrew/homebrew-cask/issues/171570#issuecomment-2065573181
