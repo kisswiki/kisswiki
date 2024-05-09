@@ -35,3 +35,5 @@ Works only with local file, does not work with url.
 ## beware of drag and drop panel to another panel
 
 It will add all tabs as pinned tabs.
+
+https://github.com/mbnuqw/sidebery/issues/1615#issuecomment-2102485286
