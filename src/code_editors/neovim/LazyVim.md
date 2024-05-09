@@ -209,9 +209,12 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 
 `:set spell!` to toggle
 
-`:setlocal spell spelllang=en_us` - English dictionary
+switch between languages
 
-`:setlocal spell spelllang=pl_pl` - Polish dictionary
+```lua
+map('n', '<leader>sp', ':setlocal spell spelllang=pl<CR>:setlocal spellfile=$HOME/.config/nvim/spell/pl.utf-8.add<CR>:echo "Spelling set to Polish"<CR>', { noremap = true, silent = true })
+map('n', '<leader>se', ':setlocal spell spelllang=en_us<CR>:setlocal spellfile=$HOME/.config/nvim/spell/en.utf-8.add<CR>:echo "Spelling set to English (US)"<CR>', { noremap = true, silent = true })
+```
 
 `]S` - next misspelled word
 
@@ -220,6 +223,8 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 `zg` - add word to dictionary
 
 `map("n", "<leader>us", function() Util.toggle("spell") end, { desc = "Toggle Spelling" })`
+
+`:mkspell! %` - regenerate spell file binary after manually editing list
 
 - https://neovim.io/doc/user/spell.html
 - https://github.com/LazyVim/LazyVim/blob/eddd3af3512133f22eb26dda81c3c6f871453276/lua/lazyvim/config/autocmds.lua#L79C19-L79C24
