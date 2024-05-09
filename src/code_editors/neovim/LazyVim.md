@@ -295,3 +295,11 @@ select visually and then `gsa'` to surround with single quotes
 `g,` - next edit
 
 https://vi.stackexchange.com/questions/6749/after-copying-a-visual-selection-return-to-original-location/6755#6755
+
+## move to first or last character of the selection
+
+built-in marks holding the positions of the first and last characters of the last visual selection in the current buffer
+
+`` `< `` and `` `> ``
+
+https://stackoverflow.com/questions/11176159/how-to-jump-to-the-start-or-the-end-of-visual-selection-in-vim/11176286#11176286

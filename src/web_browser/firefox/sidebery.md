@@ -27,3 +27,11 @@ https://github.com/mbnuqw/sidebery/issues/436#issuecomment-2070786297
 `Settings > Mouse > Tab actions > Activate previously active tab when clicking on the active tab (Tab flip) > off`
 
 https://github.com/mbnuqw/sidebery/issues/1272#issuecomment-1772495028
+
+## setting custom icon for panel
+
+Works only with local file, does not work with url.
+
+## beware of drag and drop panel to another panel
+
+It will add all tabs as pinned tabs.
