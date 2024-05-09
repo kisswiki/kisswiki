@@ -278,3 +278,10 @@ These are the same keys used for navigation, without SHIFT (lowercase navigation
 
 - https://stackoverflow.com/questions/15583346/how-can-i-temporarily-make-the-window-im-working-on-to-be-fullscreen-in-vim/69650669#69650669
 - https://neovim.io/doc/user/windows.html#window-moving
+
+## surround with character
+
+`gsaiw'`
+
+- https://github.com/LazyVim/LazyVim/blob/530e94a9fa19577401e968a9673282c3d79f01e3/lua/lazyvim/plugins/coding.lua#L191
+- https://github.com/echasnovski/mini.surround?tab=readme-ov-file#demo
