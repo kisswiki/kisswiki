@@ -287,3 +287,11 @@ select visually and then `gsa'` to surround with single quotes
 
 - [link](https://github.com/LazyVim/LazyVim/blob/530e94a9fa19577401e968a9673282c3d79f01e3/lua/lazyvim/plugins/coding.lua#L191)
 - https://github.com/echasnovski/mini.surround?tab=readme-ov-file#demo
+
+## previous and next edit positions
+
+`g;` - previous edit
+
+`g,` - next edit
+
+https://vi.stackexchange.com/questions/6749/after-copying-a-visual-selection-return-to-original-location/6755#6755
