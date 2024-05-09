@@ -281,9 +281,9 @@ These are the same keys used for navigation, without SHIFT (lowercase navigation
 
 ## surround with character
 
-`gsaiw'`
+`gsaiw'` to surround word with single quotes
 
-select visually and then `gsa'`
+select visually and then `gsa'` to surround with single quotes
 
-- https://github.com/LazyVim/LazyVim/blob/530e94a9fa19577401e968a9673282c3d79f01e3/lua/lazyvim/plugins/coding.lua#L191
+- [link](https://github.com/LazyVim/LazyVim/blob/530e94a9fa19577401e968a9673282c3d79f01e3/lua/lazyvim/plugins/coding.lua#L191)
 - https://github.com/echasnovski/mini.surround?tab=readme-ov-file#demo
