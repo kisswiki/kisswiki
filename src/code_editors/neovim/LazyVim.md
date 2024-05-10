@@ -222,6 +222,8 @@ map('n', '<leader>se', ':setlocal spell spelllang=en_us<CR>:setlocal spellfile=$
 
 `zg` - add word to dictionary
 
+`z=` - suggest spelling
+
 `map("n", "<leader>us", function() Util.toggle("spell") end, { desc = "Toggle Spelling" })`
 
 `:mkspell! %` - regenerate spell file binary after manually editing list
