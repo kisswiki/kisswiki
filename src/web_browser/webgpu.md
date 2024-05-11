@@ -1,1 +1,3 @@
 - https://surma.dev/things/webgpu/
+- WebGPU having only one global queue seems concerning https://www.reddit.com/r/gamedev/comments/1864s5a/comment/kb5vcno/
+- https://caniuse.com/webgpu
