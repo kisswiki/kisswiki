@@ -1,4 +1,6 @@
 - https://surma.dev/things/webgpu/
 - WebGPU having only one global queue seems concerning https://www.reddit.com/r/gamedev/comments/1864s5a/comment/kb5vcno/
+- WebGPU still has poor coverage, and they used WebGL as a fallback. https://www.reddit.com/r/gamedev/comments/1864s5a/comment/kb5x06n/
+- They even seem to note native Metal was about ~40% faster than MoltenVk, which is a nice comparison of the "one API everywhere" approach. https://www.reddit.com/r/gamedev/comments/1864s5a/comment/kb5zo8k/
 - https://caniuse.com/webgpu
 - only supports 14 "varyings", meaning variables that are created in the vertex shader and reused in the fragment shader. some materials that would work in WebGL won't work in WebGPU because of that. https://doc.babylonjs.com/setup/support/webGPU/webGPULimitations
