@@ -1,3 +1,4 @@
 - https://surma.dev/things/webgpu/
 - WebGPU having only one global queue seems concerning https://www.reddit.com/r/gamedev/comments/1864s5a/comment/kb5vcno/
 - https://caniuse.com/webgpu
+- only supports 14 "varyings", meaning variables that are created in the vertex shader and reused in the fragment shader. some materials that would work in WebGL won't work in WebGPU because of that. https://doc.babylonjs.com/setup/support/webGPU/webGPULimitations
