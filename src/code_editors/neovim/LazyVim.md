@@ -6,6 +6,16 @@
 - [Zero to IDE with LazyVim - YouTube](https://www.youtube.com/watch?v=N93cTbtLCIM)
 - https://www.barbarianmeetscoding.com/notes/neovim-lazyvim/
 
+## Config
+
+By default in ~/.config/nvim
+
+You can see what is included in LazVim locally at ~/.local/share/nvim/lazy/LazyVim
+
+For example ~/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/editor/harpoon2.lua
+
+Or ~/.local/share/nvim/lazy/flash.nvim/
+
 ## Disable plugin
 
 in ~/.config/nvim/lua/plugins/disable.lua or other in lua/plugins/ folder:
