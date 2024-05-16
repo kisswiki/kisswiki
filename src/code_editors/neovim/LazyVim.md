@@ -333,4 +333,5 @@ If using LazyVim, pin to previous version for now
 
 And do `:Lazy update`
 
-https://github.com/folke/noice.nvim/issues/805#issuecomment-2114947709
+- https://www.reddit.com/r/neovim/comments/16uemhy/how_do_i_pin_a_specific_version_in_lazynvim/
+- https://github.com/folke/noice.nvim/issues/805#issuecomment-2114947709
