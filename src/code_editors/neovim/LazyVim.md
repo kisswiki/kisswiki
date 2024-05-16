@@ -315,3 +315,22 @@ built-in marks holding the positions of the first and last characters of the las
 `` `< `` and `` `> ``
 
 https://stackoverflow.com/questions/11176159/how-to-jump-to-the-start-or-the-end-of-visual-selection-in-vim/11176286#11176286
+
+## Non brake space entered with alt+space
+
+`d d`
+
+## Pin dependency
+
+If using LazyVim, pin to previous version for now
+
+```lua
+  {
+    "folke/noice.nvim",
+    tag = "v2.0.2",
+  }
+```
+
+And do `:Lazy update`
+
+https://github.com/folke/noice.nvim/issues/805#issuecomment-2114947709
