@@ -106,3 +106,9 @@ Move tab forward `ctrl+shift+.`
 Move tab backward `ctrl+shift+,`
 
 https://sw.kovidgoyal.net/kitty/overview/#tabs
+
+## ssh backspace does not work
+
+Do "export TERM=xterm" in the ssh session and you should be gtg. I think installing kitty-terminfo in the target machine will work as well.
+
+https://www.reddit.com/r/KittyTerminal/comments/qflzyq/comment/hi2glib/
