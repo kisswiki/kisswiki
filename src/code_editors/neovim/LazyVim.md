@@ -335,3 +335,13 @@ And do `:Lazy update`
 
 - https://www.reddit.com/r/neovim/comments/16uemhy/how_do_i_pin_a_specific_version_in_lazynvim/
 - https://github.com/folke/noice.nvim/issues/805#issuecomment-2114947709
+
+## What command is bind to a key
+
+`:verbose map <leader>`
+
+or
+
+`:verbose map <C-n>`
+
+https://stackoverflow.com/questions/4218035/how-to-find-out-in-vim-which-command-is-triggered-by-some-shortcut/4218331#4218331
