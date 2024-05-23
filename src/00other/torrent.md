@@ -193,4 +193,4 @@ https://www.reddit.com/r/Piracy/comments/80ipng/warning_the_pirate_bay_currently
 
 You should research the operation of 10 bit LE. Even though the source data and final display are both 8 bits, the use of 10 bits produced a higher quality final result. It justifies a higher file size. I am comfortable with the devices I own that can display 10 bit HEVC, and more will follow.
 
-[link](<https://thepiratebay.org/torrent/15551791/Gomorra_(Gomorrah)_Season_2_Blu-Ray_HEVC_10-Bit_AC3>)
+[link](https://thepiratebay.org/torrent/15551791/Gomorra_(Gomorrah)_Season_2_Blu-Ray_HEVC_10-Bit_AC3)

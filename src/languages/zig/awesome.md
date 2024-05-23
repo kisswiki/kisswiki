@@ -1120,7 +1120,7 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - [⚡ Live Coding a Web Server in Zig ⚡ - 02 - YouTube](https://www.youtube.com/watch?v=gnTI9PNsu1U)
 - [⚡ Live Coding a Web Server in Zig ⚡ - 03 - YouTube](https://www.youtube.com/watch?v=BTXHalxmHvs)
 - [Proposal: Short Vector Primitives · Issue #7295 · ziglang/zig](https://github.com/ziglang/zig/issues/7295)
-- [Array (data structure) - Wikipedia](<https://en.m.wikipedia.org/wiki/Array_(data_structure)>)
+- [Array (data structure) - Wikipedia](https://en.m.wikipedia.org/wiki/Array_(data_structure))
 - [zig array resizable - Szukaj w Google](https://www.google.com/search?q=zig+array+resizable&rlz=1C5CHFA_enPL1026PL1026&oq=zig+array+resizable+&aqs=chrome..69i57j69i64l3.4472j0j7&sourceid=chrome&ie=UTF-8)
 - [cr in zig](https://gist.github.com/zickzackv/c12039a7b85484f9681851612a11ec58)
 - [Unable to Create Array with Runtime Variable : Zig](https://www.reddit.com/r/Zig/comments/iy86jk/unable_to_create_array_with_runtime_variable/)
@@ -1271,7 +1271,6 @@ curl -H 'Accept: application/vnd.github.mercy-preview+json' \
 - [Code search results · GitHub](https://github.com/search?q=repo%3ASobeston%2Fziglearn%20allocator&type=code)
 - [ziglearn/test-out.zig at bd08cffcb115bae86747406b7efc5f30795b47e9 · Sobeston/ziglearn](https://github.com/Sobeston/ziglearn/blob/bd08cffcb115bae86747406b7efc5f30795b47e9/test-out.zig#L4)
 - [std.builtin: renamings by r00ster91 · Pull Request #13930 · ziglang/zig](https://github.com/ziglang/zig/pull/13930/files)
-- [ziglang warning(link): library not found - Szukaj w Google](<https://www.google.com/search?q=ziglang+warning(link)%3A+library+not+found&rlz=1C5CHFA_enPL1026PL1026&oq=ziglang+warning(link)%3A+library+not+found&aqs=chrome..69i57.2425j0j7&sourceid=chrome&ie=UTF-8>)
 - [Setting up Visual Studio Code for writing Zig - Zig NEWS](https://zig.news/jarredsumner/setting-up-visual-studio-code-for-writing-zig-kcj)
 - [(13) Discord | #zig-help | Zig Programming Language](https://discord.com/channels/605571803288698900/1019652020308824145/threads/1067548360082464879)
 

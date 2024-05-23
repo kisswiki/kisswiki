@@ -45,7 +45,7 @@ Defaults in kitty.conf:
 #::  it. Finally check if the click happened at the current shell
 #::  prompt and if so, move the cursor to the click location. Note
 #::  that this requires shell integration
-#::  <https://sw.kovidgoyal.net/kitty/shell-integration/> to work.
+#::  https://sw.kovidgoyal.net/kitty/shell-integration/ to work.
 
 #: Click the link under the mouse or move the cursor even when grabbed
 

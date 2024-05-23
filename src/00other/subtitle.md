@@ -80,7 +80,7 @@ Remove forced flag and reorder:
 
 ## How to download for specific hash from napiprojekt without installing napi?
 
-For example [list of subtitles](<https://www.napiprojekt.pl/napisy1,1,1-dla-54910-Green-Book-(2018)>), but can be downloaded with windows program napiprojekt.
+For example [list of subtitles](https://www.napiprojekt.pl/napisy1,1,1-dla-54910-Green-Book-(2018)), but can be downloaded with windows program napiprojekt.
 
 There is `_download_getSubtitlesForHashes` https://gitlab.com/hesperos/napi/blob/master/actions/libnapi_download.sh
 
