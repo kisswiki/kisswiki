@@ -1,0 +1,8 @@
+{
+  // Default state for all rules
+  "default": true,
+  // Path to configuration file to extend
+  "extends": null,
+  // MD034/no-bare-urls : Bare URL used : https://github.com/DavidAnson/markdownlint/blob/v0.32.1/doc/md034.md
+  "MD034": false,
+}

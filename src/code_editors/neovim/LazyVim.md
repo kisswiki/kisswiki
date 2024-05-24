@@ -356,21 +356,63 @@ If markdown and markdown_inline are not installed, it should be `TSInstall markd
 
 ## Disable format on save for some file types
 
-To disable formatting for markdown files, I've added this to `nvim/lua/config/options.lua`:
+## Disable formatting for markdown files
+
+I've added this to `nvim/lua/config/options.lua`:
 
 ```lua
 -- disable autoformat for markdown files
 vim.api.nvim_create_autocmd({ "FileType" }, {
   pattern = { "markdown" },
   callback = function()
-    vim.g.autoformat = false
+    vim.b.autoformat = false
   end,
 })
 ```
 
-To get info what formatter is used `:LazyFormatInfo` [link](https://github.com/stevearc/conform.nvim/issues/138). It shows `markdownlint` for markdown files.
+To get info what formatter is used `:LazyFormatInfo` [link](https://github.com/stevearc/conform.nvim/issues/138). It shows `markdownlint` for markdown files. Or if you toggle autoformat with `<leader>uF` it will show `markdownlint` for markdown files.
+
+So LazyVim usess conform.nvim and `markdownlint` for markdown files.
 
 There is also `:ConformInfo` [link](https://www.reddit.com/r/neovim/comments/17x6syl/cant_seem_to_get_conformnvim_autoformatting_to/)..
 
+Another option is with conform.nvim to change default:
+
+`["markdown"] = { { "prettierd", "prettier" }, "markdownlint", "markdown-toc" }` to omit markdownlint.
+
+```lua
+  {
+    "stevearc/conform.nvim",
+    optional = true,
+    opts = {
+      formatters_by_ft = {
+        ["markdown"] = { { "prettierd", "prettier" }, "markdown-toc" }
+    },
+  },
+```
+
+But we can also disable just specific rules placing `.markdownlint.jsonc` in the root of the project. For example:
+
+```json
+  // Default state for all rules
+  "default": true,
+  // Path to configuration file to extend
+  "extends": null,
+  // MD034/no-bare-urls : Bare URL used : https://github.com/DavidAnson/markdownlint/blob/v0.32.1/doc/md034.md
+  "MD034": true,
+```
+
+- https://github.com/LazyVim/LazyVim/issues/3295#issuecomment-2127750247
 - https://vi.stackexchange.com/questions/42597/how-to-disable-autoformating-on-save-on-lazyvim/43698#43698
 - https://www.reddit.com/r/neovim/comments/1766fl1/lazyvim_1000_has_been_released/
+- https://www.lazyvim.org/plugins/formatting
+
+## Mason and update external packages like markdownlint-cli2
+
+`:Mason` or `<leader>cm`.
+
+And then press `U` to update all outdated packages or `u` to update specific package.
+
+Packages are installed in `~/.local/share/nvim/mason/` and symlinks are created in `~/.local/share/nvim/mason/bin`.
+
+https://github.com/williamboman/mason.nvim?tab=readme-ov-file#introduction
