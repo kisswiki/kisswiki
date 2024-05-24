@@ -1,5 +1,9 @@
-## libgen
+## books - libgen and annas-archive.org
 
+- https://annas-archive.org
+  - To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.
+    - `dom.confirm_repost.testing.always_accept` to `true` in `about:config`
+      - https://www.reddit.com/r/firefox/comments/nnluzz/comment/gzyoia4/
 - https://www.reddit.com/r/libgen/
 - http://libgen.io/
 - http://libgen.is/
