@@ -391,7 +391,7 @@ Another option is with conform.nvim to change default:
   },
 ```
 
-But we can also disable just specific rules placing `.markdownlint.jsonc` in the root of the project. For example:
+But we can also disable just specific [rules](https://github.com/DavidAnson/markdownlint/blob/v0.32.1/README.md#rules--aliases) placing `.markdownlint.jsonc` in the root of the project. For example:
 
 ```json
   // Default state for all rules
@@ -406,6 +406,7 @@ But we can also disable just specific rules placing `.markdownlint.jsonc` in the
 - https://vi.stackexchange.com/questions/42597/how-to-disable-autoformating-on-save-on-lazyvim/43698#43698
 - https://www.reddit.com/r/neovim/comments/1766fl1/lazyvim_1000_has_been_released/
 - https://www.lazyvim.org/plugins/formatting
+- Disables rules that may conflict with Prettier https://github.com/DavidAnson/markdownlint/blob/main/style/prettier.json
 
 ## Mason and update external packages like markdownlint-cli2
 
@@ -415,4 +416,5 @@ And then press `U` to update all outdated packages or `u` to update specific pac
 
 Packages are installed in `~/.local/share/nvim/mason/` and symlinks are created in `~/.local/share/nvim/mason/bin`.
 
-https://github.com/williamboman/mason.nvim?tab=readme-ov-file#introduction
+- https://github.com/williamboman/mason.nvim?tab=readme-ov-file#introduction
+- https://mason-registry.dev/registry/list
