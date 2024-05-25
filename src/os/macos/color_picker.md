@@ -1,5 +1,10 @@
-- https://github.com/superhighfives/pika
-- https://alternativeto.net/software/pika/
 - https://sindresorhus.com/system-color-picker
+  - https://github.com/sindresorhus/System-Color-Picker
+  - no homebrew package
+- https://github.com/superhighfives/pika
+  - shows wrong color #88d0f8 instead of #6fd2fc https://github.com/superhighfives/pika/issues/102#issuecomment-2131170460
+- https://alternativeto.net/software/pika/
 - https://github.com/ripeworks/iro
 - in figma.com press i for color picker
+- https://formulae.brew.sh/cask/toinane-colorpicker
+- Simply fire up `Applications > AppleScript Editor` and enter this text: `choose color`. Now, save it as an application (`File > Save As`, and set the `File Format` pop-up to `Application`), and you're done https://stackoverflow.com/questions/6601341/how-to-start-color-picker-on-mac-os/6601436#6601436
