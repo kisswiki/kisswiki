@@ -56,6 +56,11 @@ return {
 - `<leader>bP` - close not-pinned tabs
 - `<leader>uc` - toggle conceal level, hide/show \* markup for bold and italic
 
+needs `macos_option_as_alt yes` in kitty.conf https://www.reddit.com/r/neovim/comments/18ck6uq/comment/kcb9d8q/
+
+- `<A-j>` - move line down // need
+- `<A-k>` - move line up
+
 - https://www.lazyvim.org/keymaps
 - https://stackoverflow.com/questions/4809729/cancel-split-window-in-vim/4809736#4809736
 
