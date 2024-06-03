@@ -237,6 +237,10 @@ map('n', '<leader>se', ':setlocal spell spelllang=en_us<CR>:setlocal spellfile=$
 
 `zg` - add word to dictionary
 
+`zw` - Like "zg" but mark the word as a wrong (bad) word
+
+`zuw`, `zug` - Undo `zw` and `zg`, remove the word from the entry in 'spellfile'. Count used as with `zg`.
+
 `z=` - suggest spelling
 
 `map("n", "<leader>us", function() Util.toggle("spell") end, { desc = "Toggle Spelling" })`
