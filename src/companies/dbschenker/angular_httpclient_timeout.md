@@ -1,0 +1,9 @@
+- https://stackoverflow.com/questions/68024676/does-the-browser-have-a-max-time-limit-for-network-requests
+- The default value is 0, which means there is no timeout https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout
+- XMLHttpRequest is default https://github.com/angular/angular/blob/73e84e2d22dd89f284866266eaa96cbff8be484e/packages/common/http/src/xhr.ts#L78
+  - https://stackoverflow.com/questions/59348500/is-there-an-http-connection-timeout-in-client-side-js-angular/59349014#59349014
+- change to fetch https://angular.dev/guide/http/setup
+  - The Fetch Api does not support progress file uploads https://stackoverflow.com/questions/52469425/how-can-i-switch-to-fetch-instead-of-xhr-when-using-angular-6-with-httpclient#comment137837036_76458203
+- you loose the automatic 'abort' events when unsubscribing. There's https://rxjs.dev/api/fetch/fromFetch
+- set timeout with rxjs https://stackoverflow.com/questions/45938931/default-and-specific-request-timeout
+- https://stackoverflow.com/questions/46946380/fetch-api-request-timeout
