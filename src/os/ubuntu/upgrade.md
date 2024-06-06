@@ -32,11 +32,70 @@ https://askubuntu.com/questions/91815/how-to-install-software-or-upgrade-from-an
 
 I have done `do-release-upgrade'  multiple  times until I got to Ubuntu 22.04
 
-## flickering
+## screen glitches in settings - shows on mouse hover
 
-## extra display
+Just update /etc/environment
+
+`GSK_RENDERER=gl`
+
+and restart.
+
+https://askubuntu.com/questions/1511575/ubuntu-24-04-screen-glitches-on-gnome-apps-after-install
+
+## extra display None-1-1
+
+Disable simpledrm with kernel parameter https://askubuntu.com/questions/1509661/could-not-switch-the-monitor-configuration-on-none-1-1-connected-output/1514074#1514074
+
+There is video about simpledrm https://www.youtube.com/watch?v=laFx6RQ3XJ4 - [source](https://www.reddit.com/r/pop_os/comments/1bvguqd/comment/ky1z1wn/)
+
+This also worked for me, to disable this extra display with xorg, but kernel parameter seems better https://askubuntu.com/questions/1516532/how-do-disable-get-rid-of-prime-display/1516571#1516571
 
 ## homebrew
 
-- neovim
-- lazyvim
+`brew install neovim lazygit gdu`
+
+I wanted to install neovim 0.10 but in Ubuntu there is 0.9.5. This thread suggested couple of ways https://www.reddit.com/r/neovim/comments/173sorr/the_neovim_ubuntu_ppa_is_a_year_behind/.
+
+- compiling from source
+- bob - neovim version manager https://github.com/MordechaiHadad/bob
+- appimage but no automatic updates https://github.com/neovim/neovim/blob/master/INSTALL.md#appimage-universal-linux-package
+- pacstall but not tracked by repology https://repology.org/repository/pacstall
+- asdf https://github.com/richin13/asdf-neovim
+- brew https://docs.brew.sh/Homebrew-on-Linux
+- unstable neovim ppa but it has v0.10-dev https://launchpad.net/~neovim-ppa/+archive/ubuntu/unstable
+- mpr https://docs.makedeb.org/using-the-mpr/installing-packages/
+
+Many people recommended brew to have up-to-date kubernetes etc. Also here https://news.ycombinator.com/item?id=31509790.
+
+I've done comparision of brew and mpr:
+
+- neovim 0.10 on brew and mpr https://repology.org/project/neovim/versions
+- lazygit 0.42 on brew and mpr https://repology.org/project/lazygit/versions
+- kubernetes 1.30.1 on brew and 1.26.3 on mpr https://repology.org/project/kubernetes/versions
+
+More links:
+
+- https://docs.makedeb.org/makedeb/comparisons-to-other-tools/
+- https://stackoverflow.com/questions/77530952/how-to-fix-the-version-issue-between-neovim-and-lazyvim-on-ubuntu-20-or-22-versi
+
+## gnome terminal
+
+ctrl+click on link
+
+ctrl+shift+c to copy
+
+ctrl+shift+v to paste
+
+Can't map in neovim to using `<C-number>` because it strangely mapped https://vi.stackexchange.com/questions/19358/cannot-map-ctrl-number-except-6-or/19359#19359
+
+## SymbolsNerdFontMono-Regular.ttf
+
+https://github.com/ryanoasis/nerd-fonts/releases > NerdFontsSymbolsOnly.tar.xz > SymbolsNerdFontMono-Regular.ttf
+
+## github ssh
+
+I needed to update ssh to newer crypto
+
+## Firefox
+
+- Couldn't sync - too old version
