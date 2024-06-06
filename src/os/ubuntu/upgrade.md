@@ -29,3 +29,14 @@ sudo do-release-upgrade
 ```
 
 https://askubuntu.com/questions/91815/how-to-install-software-or-upgrade-from-an-old-unsupported-release/91821#91821
+
+I have done `do-release-upgrade'  multiple  times until I got to Ubuntu 22.04
+
+## flickering
+
+## extra display
+
+## homebrew
+
+- neovim
+- lazyvim
