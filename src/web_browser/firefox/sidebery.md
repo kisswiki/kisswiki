@@ -37,3 +37,7 @@ Works only with local file, does not work with url.
 It will add all tabs as pinned tabs.
 
 https://github.com/mbnuqw/sidebery/issues/1615#issuecomment-2102485286
+
+## Place new tab openend from pinned tab
+
+`Settings > Tabs > Position of new tab > Place new tab openend from pinned tab > panel end`
