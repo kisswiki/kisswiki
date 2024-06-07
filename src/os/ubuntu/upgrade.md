@@ -54,9 +54,11 @@ This also worked for me, to disable this extra display with xorg, but kernel par
 
 `brew install neovim lazygit gdu`
 
+`go-gdu`
+
 I wanted to install neovim 0.10 but in Ubuntu there is 0.9.5. This thread suggested couple of ways https://www.reddit.com/r/neovim/comments/173sorr/the_neovim_ubuntu_ppa_is_a_year_behind/.
 
-- compiling from source
+- compiling from source https://github.com/wookayin/dotfiles/blob/master/etc/linux-locals.sh#L314-L370
 - bob - neovim version manager https://github.com/MordechaiHadad/bob
 - appimage but no automatic updates https://github.com/neovim/neovim/blob/master/INSTALL.md#appimage-universal-linux-package
 - pacstall but not tracked by repology https://repology.org/repository/pacstall
@@ -80,6 +82,8 @@ More links:
 
 ## gnome terminal
 
+Alt+number to switch to tabs
+
 ctrl+click on link
 
 ctrl+shift+c to copy
@@ -99,3 +103,19 @@ I needed to update ssh to newer crypto
 ## Firefox
 
 - Couldn't sync - too old version
+
+### userChrome.css
+
+`about:profiles`
+
+`ln -s ~/.mozilla/firefox/shared/chrome ~/snap/firefox/ ~/snap/firefox/common/.mozilla/firefox/4nponp9u.default/`
+
+`about:config`
+
+`toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
+
+https://www.userchrome.org/how-create-userchrome-css.html
+
+## kitty
+
+- https://sw.kovidgoyal.net/kitty/binary/
