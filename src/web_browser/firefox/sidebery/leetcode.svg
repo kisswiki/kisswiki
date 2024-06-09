@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="93.999992"
+   height="110.92"
+   viewBox="0 0 93.999992 110.92"
+   version="1.1"
+   id="svg156"
+   sodipodi:docname="logo_english_dark.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview158"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.860262"
+     inkscape:cx="192.8145"
+     inkscape:cy="56.463359"
+     inkscape:window-width="1687"
+     inkscape:window-height="1371"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg156" />
+  <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title140">logo_english_dark</title>
+  <desc
+     id="desc142">Created with Sketch.</desc>
+  <defs
+     id="defs144" />
+  <g
+     id="g152"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       id="Logo_English">
+      <g
+         id="Group-10">
+        <path
+           d="m 67.506834,83.066414 c 2.493704,-2.490035 6.530306,-2.483532 9.016002,0.01453 2.485696,2.498057 2.479204,6.541706 -0.0145,9.031741 L 65.435145,103.16958 C 55.219233,113.37074 38.560466,113.51867 28.172258,103.5132 28.112217,103.45568 23.486583,98.920133 8.2270259,83.957019 -1.9247848,74.002889 -2.9361494,58.074874 6.6169755,47.846364 L 24.428694,28.774546 c 9.48131,-10.152687 26.958755,-11.262321 37.799297,-2.495623 l 16.1773,13.0831 c 2.739605,2.215606 3.167519,6.236474 0.955774,8.980861 -2.211744,2.744387 -6.225606,3.173049 -8.96521,0.957443 L 54.218663,36.217315 C 48.549281,31.63251 38.631911,32.26216 33.739854,37.500627 L 15.927906,56.57269 c -4.650699,4.979492 -4.141345,13.001326 1.218222,18.256529 11.205406,10.98772 19.841279,19.455402 19.851271,19.465006 5.400758,5.201759 14.133463,5.124213 19.436181,-0.170851 z"
+           id="Combined-Shape"
+           fill="#ffa116"
+           fill-rule="nonzero" />
+        <path
+           d="m 40.606991,72.001412 c -3.520972,0 -6.375284,-2.859295 -6.375284,-6.386414 0,-3.527119 2.854312,-6.386413 6.375284,-6.386413 h 47.017724 c 3.520973,0 6.375285,2.859294 6.375285,6.386413 0,3.527119 -2.854312,6.386414 -6.375285,6.386414 z"
+           id="Path-2"
+           fill="#b3b3b3" />
+        <path
+           d="m 49.412431,2.02335 c 2.405467,-2.57567045 6.439838,-2.71024394 9.01102,-0.3005783 2.571182,2.4096657 2.705521,6.4510791 0.300055,9.0267493 L 15.928228,56.57287 c -4.650862,4.979114 -4.141511,13.000899 1.217703,18.256313 L 36.909424,94.20911 c 2.516127,2.467295 2.559199,6.51072 0.0962,9.03124 -2.462996,2.52052 -6.499373,2.56367 -9.015501,0.0964 L 8.2265429,83.956704 C -1.9246741,74.0021 -2.9360353,58.07414 6.6175153,47.846311 Z"
+           id="Stroke-3"
+           fill="#000000" />
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata474">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>logo_english_dark</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
