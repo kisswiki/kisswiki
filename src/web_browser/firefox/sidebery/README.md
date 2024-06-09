@@ -41,3 +41,11 @@ https://github.com/mbnuqw/sidebery/issues/1615#issuecomment-2102485286
 ## Place new tab openend from pinned tab
 
 `Settings > Tabs > Position of new tab > Place new tab openend from pinned tab > panel end`
+
+## Panel logos
+
+- Look at icons directory
+- https://github.com/neovim/neovim.github.io/blob/master/logos/neovim-mark-flat.svg
+- https://github.com/ziglang/logo/blob/master/zig-mark.svg
+- https://upload.wikimedia.org/wikipedia/commons/0/0a/LeetCode_Logo_black_with_text.svg
+- https://pl.wikipedia.org/wiki/Plik:DB_Schenker_logo.svg
