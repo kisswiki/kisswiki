@@ -44,6 +44,8 @@ https://askubuntu.com/questions/1511575/ubuntu-24-04-screen-glitches-on-gnome-ap
 
 ## extra display None-1-1
 
+`echo 'GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT initcall_blacklist=simpledrm_platform_driver_init"' | sudo tee /etc/default/grub.d/99_disable_simpledrm.cfg && sudo update-grub`
+
 Disable simpledrm with kernel parameter https://askubuntu.com/questions/1509661/could-not-switch-the-monitor-configuration-on-none-1-1-connected-output/1514074#1514074
 
 There is video about simpledrm https://www.youtube.com/watch?v=laFx6RQ3XJ4 - [source](https://www.reddit.com/r/pop_os/comments/1bvguqd/comment/ky1z1wn/)
