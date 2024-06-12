@@ -98,7 +98,7 @@ https://github.com/ryanoasis/nerd-fonts/releases > NerdFontsSymbolsOnly.tar.xz >
 
 ## github ssh
 
-I needed to update ssh to newer crypto
+I needed to update ssh keys to newer crypto
 
 ## Firefox
 
