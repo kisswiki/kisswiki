@@ -1,3 +1,7 @@
+- https://www.reddit.com/r/Zig/comments/1ckstjv/im_sold_on_zigs_simplicity/
+
+##
+
 There are many erroneous claims made regarding Zig allocators. Contrary to what is claimed, the fact that you pass an explicit allocator does not affect:
 
 - That an out-of-memory condition is elegantly handled or not.
