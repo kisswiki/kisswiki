@@ -14,6 +14,8 @@ https://shelter.pl/produkt/nuphy-air75-v2-wireless-mechanical-keyboard-bezprzewo
 
 https://www.tomshardware.com/reviews/nuphy-air75-v2
 
+Halo75 is normal profile, Air75 is low profile.
+
 ## Switches
 
 Brown and wisteria are similar but most people seem to think wisteria feel lighter and quieter, but it's close. I have both and prefer wisteria slightly.
