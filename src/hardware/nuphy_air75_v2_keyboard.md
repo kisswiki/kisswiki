@@ -117,3 +117,7 @@ Follow instruction on https://nuphy.com/pages/qmk-firmwares
 I consider VIA abandoned software and don't recommend it. No updates for nearly two years. Vial is a much better, open-source alternative, and it has far more features and frequent updates. You do have to work a little to get a firmware built, but their [guide](https://get.vial.today/docs/) is pretty good. It's certainly much easier than coding your own QMK firmware, which is really the only other alternative.
 
 https://www.reddit.com/r/MechanicalKeyboards/comments/tx7ewl/creating_multikey_macro_with_via_or_qmk/
+
+## Mods
+
+- https://www.tiktok.com/@adimology/video/7204029549204540699
