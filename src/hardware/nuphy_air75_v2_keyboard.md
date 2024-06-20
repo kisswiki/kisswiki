@@ -14,7 +14,7 @@ Nasza roślinna linia niskoprofilowych przełączników spotkała się z rosnąc
 
 https://shelter.pl/produkt/nuphy-air75-v2-wireless-mechanical-keyboard-bezprzewodowa-klawiatura-mechaniczna-slim/
 
-699 zł na shelter.pl,  769 zł na allegro.pl od shelter.
+699 zł na shelter.pl, 769 zł na allegro.pl od shelter.
 
 https://www.tomshardware.com/reviews/nuphy-air75-v2
 
