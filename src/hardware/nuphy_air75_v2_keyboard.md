@@ -10,19 +10,36 @@ Nasza roślinna linia niskoprofilowych przełączników spotkała się z rosnąc
 
 https://shelter.pl/produkt/nuphy-air75-v2-wireless-mechanical-keyboard-bezprzewodowa-klawiatura-mechaniczna-slim/
 
-699 zł
+699 zł, allegro 769 zł.
+
+https://www.tomshardware.com/reviews/nuphy-air75-v2
+
+## Switches
+
+Brown and wisteria are similar but most people seem to think wisteria feel lighter and quieter, but it's close. I have both and prefer wisteria slightly.
+
+From what I've gathered from YouTube videos, Wisteria switches appear to be a smoother and slightly quieter alternative to brown switches.
+
+https://www.reddit.com/r/NuPhy/comments/16isi4i/how_do_i_know_which_switch_to_pick/
 
 ## Connect
 
-`FN+1`, `FN+2`, `FN+3`.
+Switch your keyboard to Bluetooth
+
+Press `Fn+1`
+
+Look for it on the MacOS Bluetooth devices.
+
+`Fn+1`, `Fn+2`, `Fn+3` are reserved for Bluetooth. `Fn+4` is for the dongle.
 
 Short press to switch between device.
 
 Long press 3 seconds enter pairing mode.
 
-Plug the 2.40hz receiver Into your computer before pressing `FN+4`.
+Plug the 2.40hz receiver Into your computer before pressing `Fn+4`.
 
-https://manuals.plus/nuphy/air75-wireless-mechanical-keyboard-manual
+- https://www.reddit.com/r/NuPhy/comments/18jsjd5/nuphy_air_75_bluetooth_mac_connection_without/
+- https://manuals.plus/nuphy/air75-wireless-mechanical-keyboard-manual
 
 ## Connecting to Android Xiaomi - Polish layout
 
@@ -34,23 +51,25 @@ https://manuals.plus/nuphy/air75-wireless-mechanical-keyboard-manual
 
 ## LED
 
-`FN+up/down` - Backlight
+`Fn+up/down` - Backlight
 
-`FN+m+up/down` - Side indicators
+`Fn+m+up/down` - Side indicators
 
-`FN+\` - Battery indicator
+`Fn+\` - Battery indicator
 
-`FN+]` - Flashes the current battery level color
+`Fn+]` - Flashes the current battery level color
 
 https://manuals.plus/nuphy/air75-wireless-mechanical-keyboard-manual
 
-## Disable Apple Internal Keyboard when connected
+## Disable Apple Internal Keyboard when connected with Karabiner-Elements
 
 `~/bin/karabiner_toggle_internal_keyboard_when_nuphy_air75_v2_is_connected.js`.
 
 I have also created system keyboard shortcut.
 
-## Karabiner-Elements
+https://karabiner-elements.pqrs.org/docs/manual/configuration/disable-built-in-keyboard/
+
+## Karabiner-Elements not seeing bluetooth keyboard
 
 Karabiner-Elements does not see keyboard as Nuphy but as Apple Internal Keyboard, when connected via bluetooth.
 
