@@ -1,3 +1,13 @@
+## Description in Polish
+
+NuPhy Air75 to innowacyjna w 75% ultracienka bezprzewodowa klawiatura mechaniczna. Dzięki najcieńszej na świecie kulistej nasadce klawiszy PBT, połączeniu bezprzewodowemu 2.4G o niskim opóźnieniu i funkcji hot-swap, Air75 ma stać się nowym standardem dla smukłych klawiatur mechanicznych. Kompaktowy 75% układ Air75 jest kompatybilny zarówno z komputerami Mac, jak i Windows. Możesz podłączyć do 4 urządzeń z niskimi opóźnieniami 2.4G i Bluetooth 5.0, aby jak najlepiej obsługiwać wszystkie Twoje potrzeby w zakresie wielozadaniowości.
+
+Dzięki ultracienkiej aluminiowej ramie i nasadkom klawiszy PBT oraz najnowszym niskoprofilowym przełącznikom mechanicznym Gateron, najcieńsza część Air75 ma tylko 16 mm. Ponadto wbudowana bateria 2500 mAh ma o 39% więcej mocy niż NuType F1, co zapewnia do 48 godzin (dane laboratoryjne) pracy na baterii, umożliwiając cały tydzień użytkowania. Dzięki ewolucyjnemu procesowi tłoczenia stopu aluminium Nuphy był w stanie całkowicie ukryć mechaniczne przełączniki pod aluminiową ramą i nasadkami klawiszy, zachowując jednocześnie prostą konstrukcję. Ta elegancka konstrukcja sprawia, że Nuphy Air75 wyróżnia się wyjątkową obecnością na rynku cienkich klawiatur mechanicznych.
+
+Air75 od samego początku został zaprojektowany tak, aby był idealnie kompatybilny z macOS i Windows. Dostarczyliśmy układ klawiszy multimedialnych Mac dla użytkowników komputerów Mac i klawisze skrótów, w tym zrzuty ekranu sekcji, zrzuty ekranu pełnoekranowego i Siri/Cortana. Każdą klawiaturę Air75 posiada również opcję Hot-Swappable, co pozwala na łatwą wymianę lub modernizację przełączników bez lutowania i korzystanie z innego sposobu pisania bez ograniczeń.
+
+https://shelter.pl/produkt/nuphy-air75-wireless-mechanical-keyboard-bezprzewodowa-klawiatura-mechaniczna-slim/
+
 ## Connect
 
 `FN+1`, `FN+2`, `FN+3`.
