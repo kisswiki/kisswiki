@@ -52,6 +52,8 @@ There is video about simpledrm https://www.youtube.com/watch?v=laFx6RQ3XJ4 - [so
 
 This also worked for me, to disable this extra display with xorg, but kernel parameter seems better https://askubuntu.com/questions/1516532/how-do-disable-get-rid-of-prime-display/1516571#1516571
 
+> I have updated my kernel to 6.9.3-76060903-generic which seems to have fixed this issue https://github.com/pop-os/pop/issues/3257#issuecomment-2179857725
+
 ## homebrew
 
 `brew install neovim lazygit gdu`
