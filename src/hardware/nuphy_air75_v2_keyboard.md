@@ -1,3 +1,7 @@
+## FAQ
+
+https://nuphy.com/pages/faq
+
 ## Description in Polish
 
 „Mniej znaczy więcej” to nasza mantra, jeśli chodzi o projektowanie, ale wymaga od nas, aby każda zmiana wprowadzona w celu ewolucji naszych projektów miała znaczenie. Podczas gdy górna ramka Nuphy Air75 V2 zachowuje swój minimalistyczny wygląd (z wyjątkiem jednego dodatkowego koloru – Basalt Black), dolna obudowa przeszła fundamentalne, ale subtelne zmiany. Dzięki ulepszonemu procesowi teksturowania laserowego, dolna obudowa jest teraz zarówno bardziej przezroczysta, jak i drobniej teksturowana, dzięki czemu wnętrze Air75 jest wyraźnie widoczne i wpływa na jego ogólną estetykę.
@@ -106,3 +110,9 @@ Separate VIA app from homebrew didn't work.
 `brew install --cask qmk-toolbox`
 
 Follow instruction on https://nuphy.com/pages/qmk-firmwares
+
+## VIAL vs VIA
+
+I consider VIA abandoned software and don't recommend it. No updates for nearly two years. Vial is a much better, open-source alternative, and it has far more features and frequent updates. You do have to work a little to get a firmware built, but their [guide](https://get.vial.today/docs/) is pretty good. It's certainly much easier than coding your own QMK firmware, which is really the only other alternative.
+
+https://www.reddit.com/r/MechanicalKeyboards/comments/tx7ewl/creating_multikey_macro_with_via_or_qmk/
