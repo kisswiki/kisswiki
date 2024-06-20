@@ -34,7 +34,8 @@ Brown and wisteria are similar but most people seem to think wisteria feel light
 
 From what I've gathered from YouTube videos, Wisteria switches appear to be a smoother and slightly quieter alternative to brown switches.
 
-https://www.reddit.com/r/NuPhy/comments/16isi4i/how_do_i_know_which_switch_to_pick/
+- https://www.reddit.com/r/NuPhy/comments/16isi4i/how_do_i_know_which_switch_to_pick/
+- [V2 As Requested | NuPhy Air75 V2 switch test | ASMR | AUnboxing](https://youtu.be/H9jJgBxAsNc)
 
 ## Connect
 
