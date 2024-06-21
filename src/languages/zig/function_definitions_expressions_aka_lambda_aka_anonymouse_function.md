@@ -1,0 +1,9 @@
+Ultimately, Zig code will output to an object file format, an executable binary, or an intermediate format such as LLVM IR or C code that is ultimately destined for such a place. In those places, functions have symbol names. These symbol names show up in stack traces, performance measurements, debugging tools, and various other things. In other words, functions are not unnamed. This is different from constants and types, which may exist ephemerally and be unnamed.
+
+So, I think the syntax inconsistency appropriately models reality, making Zig a better abstraction over the artifacts that it produces.
+
+In Zig, using functions as lambdas is generally discouraged. It interferes with shadowing of locals, and introduces more function pointer chasing into the Function Call Graph of the compiler. Avoiding function pointers in the FCG is good for all Ahead Of Time compiled programming languages, but it is particularly important to zig for async functions and for computing stack upper bound usage for avoiding stack overflow. In particular, on embedded devices, it can be valuable to have no function pointer chasing whatsoever, allowing the stack upper bound to be statically computed by the compiler. Since one of the main goals of Zig is code reusability, it is important to encourage zig programmers to generally avoid virtual function calls. Not having anonymous function body expressions is one way to sprinkle a little bit of friction in an important place.
+
+Finally, I personally despise the functional programming style that uses lambdas everywhere. I find it very difficult to read and maintain code that makes heavy use of inversion of control flow. By not accepting this proposal, Zig will continue to encourage programmers to stick to an imperative programming style, using for loops and iterators.
+
+https://github.com/ziglang/zig/issues/1717#issuecomment-1627790251
