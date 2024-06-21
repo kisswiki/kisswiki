@@ -66,8 +66,9 @@ This does not work:
 - http://snippets.cacher.io/snippet/680be444961d1a3e0459
 - function tabclose https://github.com/tridactyl/tridactyl/blob/507ea9d8be4a4987f72ad15f24e1908d6e92c22b/src/excmds.ts#L3008
 - https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/create
+- https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
 
-## bind
+## bind ? for help
 
 `bind ? tabopen https://github.com/tridactyl/tridactyl/blob/master/src/lib/config.ts#220`
 
@@ -84,7 +85,7 @@ https://github.com/tridactyl/tridactyl/issues/4738
 @PurpleRamen
 
 Can native message fix the fundamental problems in keyhandling? Meaning it can react to keys without the site fully loaded? Work on all sites and dialogs? Have a predictable behaviour instead of timing-problems which can happen now if you type to fast? For example, opening the commandline and typing something to fast can have the effect that the typed text does not end in the commandline but instead is handled outside of it.
- 
+
 @Jaepa
 
 Sadly no. There are some issues still that may not ever be addressable with how Firefox's WebExtensions currently exist.
@@ -92,3 +93,19 @@ Sadly no. There are some issues still that may not ever be addressable with how 
 Some things have Bugzilla tickets to fix in a future release, but something just won't be possible as it stands today.
 
 https://news.ycombinator.com/item?id=17363415
+
+## bind
+
+In tridactyl, every keypress is bound to an ex command. If you want to know what : is bound to, you need to run `bind :`. This will tell you that `:` is bound to `fillcmdline_notrail`. You can then bind `;` to `fillcmdline_notrail` with `bind ; fillcmdline_notrail`.
+If you'd rather have `;` be translated to `:` for all default bindings, you can use `:keymap`, like this: `keymap : ;`. I believe `:keymap` only works in normal mode for now though.
+
+to switch `:` with `;`:
+
+```
+keymap ; :
+keymap : ;
+```
+
+The order is important - you won't be able to open the command line if you run the second command first.
+
+https://github.com/tridactyl/tridactyl/issues/1367#issuecomment-464599820
