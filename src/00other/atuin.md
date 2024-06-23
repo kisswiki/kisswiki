@@ -2,6 +2,8 @@
 
 No reset.
 
-`atuin delete`
+`atuin account delete`
 
 `atuin register`
+
+https://forum.atuin.sh/t/delete-account-without-password/240/2
