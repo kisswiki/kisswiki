@@ -120,6 +120,23 @@ I needed to update ssh keys to newer crypto
 
 https://www.userchrome.org/how-create-userchrome-css.html
 
+### local fonts not visible in snap Firefox
+
+```bash
+ln -s ~/.local/share/fonts ~/snap/firefox/current/.local/share/fonts
+ln -s ~/.config/fontconfig ~/snap/firefox/current/.config/fontconfig
+# to force Firefox to use the refreshed font cache.
+fc-cache -f -r
+```
+
+Finally, restart Firefox to make the change take effect.
+
+https://askubuntu.com/questions/1427695/how-to-make-snap-firefox-use-locally-installed-fonts/1460014#1460014
+
 ## kitty
 
 - https://sw.kovidgoyal.net/kitty/binary/
+
+## counter strike 2
+
+deb version didn't work. Snap version worked.
