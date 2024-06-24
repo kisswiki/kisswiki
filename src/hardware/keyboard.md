@@ -1,0 +1,3 @@
+you can build a dactyl manuform for less than 60$, using amoeba PCB, pi-2040 and 3d printed case
+
+https://www.youtube.com/watch?v=bHdYbviOhSA&lc=UgzPUv8i9xroAkWuTqR4AaABAg
