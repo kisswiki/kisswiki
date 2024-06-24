@@ -68,10 +68,6 @@ This does not work:
 - https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/create
 - https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
 
-## bind ? for help
-
-`bind ? tabopen https://github.com/tridactyl/tridactyl/blob/master/src/lib/config.ts#220`
-
 ## Disable mode indicator
 
 `:set modeindicator false`
