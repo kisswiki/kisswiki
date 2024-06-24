@@ -24,6 +24,12 @@ I see that tree vertical tabs like TreeStyleTabs or Sidebery does not work for m
 
 `bind --mode=normal J tabnext`
 
+### tab duplicate
+
+`:bind yd tabduplicate`
+
+https://github.com/tridactyl/tridactyl/issues/2074#issuecomment-571052962
+
 ### Restricted sites
 
 Going prev and next tab does not work on all tabs, for example suport.mozilla.com, addons.mozilla.org or extension pages. So I am using `cmd+opt+left/rigth`.
