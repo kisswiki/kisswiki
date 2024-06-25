@@ -1,5 +1,7 @@
 - https://github.com/danieldk/awesome-glove80
 - https://www.reddit.com/r/ErgoMechKeyboards/comments/16n9dpa/glove80_with_a_trackpoint/
+- https://hackaday.com/2023/03/22/glove80-keyboard-sure-fits-like-one/
+- [Glove80 with Maltron-like curvature (lower thumb and higher index), chair-mounted | bueny](https://youtu.be/J1Zs8SP61s4)
 
 ##
 
