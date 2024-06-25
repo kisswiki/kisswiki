@@ -140,3 +140,32 @@ https://askubuntu.com/questions/1427695/how-to-make-snap-firefox-use-locally-ins
 ## counter strike 2
 
 deb version didn't work. Snap version worked.
+
+## changing super+left/right
+
+Find what is mapping
+
+```bash
+$ (for schema in $(gsettings list-schemas); do gsettings list-recursively $schema; done) | grep '<Super>Left'
+...
+org.gnome.shell.extensions.tiling-assistant tile-left-half ['<Super>Left', '<Super>KP_4']
+$ (for schema in $(gsettings list-schemas); do gsettings list-recursively $schema; done) | grep '<Control><Alt>Left'
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-left ['<Control><Alt>Left']
+org.gnome.desktop.wm.keybindings switch-to-workspace-left ['<Super>Page_Up', '<Super><Alt>Left', '<Control><Alt>Left']
+$ (for schema in $(gsettings list-schemas); do gsettings list-recursively $schema; done) | grep '<Alt><Control>Left'
+```
+
+- https://askubuntu.com/questions/1069580/ubuntu-18-04-supero-cant-trigger-shortcut-event/1187318#1187318
+
+`sudo apt install dconf-edtior`
+
+1. Run dconf-edtior
+2. Navigate to `org.gnome.shell.extensions.tiling-assistant`
+3. Go to tile-left-half
+4. Uncheck `Use default value`
+5. Change value from `['<Super>Left', '<Super>KP_4']` to `['<Ctrl><Alt>Left', '<Super>KP_4']` -- this didn't work
+5. Go to `Switch to workspace left`
+6. Uncheck `Use default value`
+7. Change `['<Super>Page_Up', '<Super><Alt>Left', '<Control><Alt>Left']` to `['<Super>Page_Up', '<Super><Alt>Left']`
+
+- https://discourse.ubuntubudgie.org/t/how-can-i-change-the-default-keybinding-for-the-super-key/2223
