@@ -1,3 +1,15 @@
+- https://github.com/danieldk/awesome-glove80
+- https://www.reddit.com/r/ErgoMechKeyboards/comments/16n9dpa/glove80_with_a_trackpoint/
+
+##
+
+A recurring issue that I have with the Glove80 tenting stilts is that they tend to unscrew over time, making the keyboard less stable. The second revision of the Glove80 comes with additional o-rings that can be put on the bolts to increase the friction of the screws. I have used o-rings on the short (outer) stilts. They markedly improve the sturdiness of the short stilts, but I still have to readjust them from time to time. Another solution, that only works for the long legs due to space constraints, is to get some additional nuts that have a nylon (or other plastic) locking mechanism (DIN985). They can be had for a few cents each in most hardware stores. These nuts lock in the tenting tightly. They also make it much easier to recover the exact tenting degree if you remove the stilts (e.g. for travel).
+
+The Glove80 lineup is slanted towards heavier switches. All the switches except the Pro Reds are 50gf or heavier. Since finger fatigue or RSI is quite a common issue among frequent typists, it would be nice if there was at least one more light linear switch option, such as Pink (20gf) or Purple (25gf). These switches fit in well with the ergonomic mission of the Glove80 – they make typing very light. In my experience, the great palm rest of the Glove80 carries most of the hand’s weight, which avoids the accidental actuations that you would have with light switches on most other keyboards. I have personally settled on two custom units with my beloved Choc Pink switches.
+
+- https://danieldk.eu/Posts/2023-09-03-Glove80
+
+##
 
 TLDR: Glove80 wins for me.
 
@@ -100,5 +112,12 @@ Agreed. This is an annoyance that I have too. The pro of the Glove80 is that the
 @BikeForCoffee
 
 I have gorilla-like hands with giant meaty palms and blunt, inarticulate thumbs. I can't text one-handed. They are not typical hands, and not even typical "big hands", but they aren't that uncommon. For MY hands, the Kinesis thumb cluster is much less tiring, because on the Glove, the stretch to the furthest thumb keys starts to hurt at the end of the day. This is because of how they chose to lay them out. On the Kinesis, I can reach out my thumb and hit Pg Dn with the inner edge of the knuckle and bend my thumb to hit Pg Up with the tip. On the Glove, jumping between the equivalent of those outer keys requires a lift and pivot at the lower thumb joint that eventually gets sore. So yes, the Glove80's thumb cluster is preferable for most hand sizes, large and small, but if you have XL, beefy hands (think construction workers, mechanics, landscapers, weight lifters, etc) and your thumbs are more like small elbows than fingers, the Kinesis-style thumb cluster might be a better fit.
+
+@[deleted]
+Cherry Browns feel like a proper tactile switch compared to the Choc Browns.
+
+@Stunning-Road-6924
+
+Choc Browns are quite terrible and almost not tactile at all. Sunset is the only non-clicky good tactile available at the moment. I’m looking forward to Sunrise (silent version) being released this spring as well, alongside with silent linear 20g and 35g.
 
 https://www.reddit.com/r/ErgoMechKeyboards/comments/1af0b9a/ask_all_the_comparison_questions_you_have_i_wont/
