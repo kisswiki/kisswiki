@@ -97,4 +97,8 @@ FWIW, my 360 Pro had scratches after a few days (and more once I started using t
 
 Agreed. This is an annoyance that I have too. The pro of the Glove80 is that the tenting doesn't add significant height (which the 360 does) and that you can microtune it to your liking (I could never find the right angle on the 360, since it was between two of the settings). But man would it be nice if it was easier to change the angle quickly on the Glove80. (I'd love something like the Moonlander Platform.)
 
+@BikeForCoffee
+
+I have gorilla-like hands with giant meaty palms and blunt, inarticulate thumbs. I can't text one-handed. They are not typical hands, and not even typical "big hands", but they aren't that uncommon. For MY hands, the Kinesis thumb cluster is much less tiring, because on the Glove, the stretch to the furthest thumb keys starts to hurt at the end of the day. This is because of how they chose to lay them out. On the Kinesis, I can reach out my thumb and hit Pg Dn with the inner edge of the knuckle and bend my thumb to hit Pg Up with the tip. On the Glove, jumping between the equivalent of those outer keys requires a lift and pivot at the lower thumb joint that eventually gets sore. So yes, the Glove80's thumb cluster is preferable for most hand sizes, large and small, but if you have XL, beefy hands (think construction workers, mechanics, landscapers, weight lifters, etc) and your thumbs are more like small elbows than fingers, the Kinesis-style thumb cluster might be a better fit.
+
 https://www.reddit.com/r/ErgoMechKeyboards/comments/1af0b9a/ask_all_the_comparison_questions_you_have_i_wont/
