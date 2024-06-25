@@ -169,3 +169,7 @@ $ (for schema in $(gsettings list-schemas); do gsettings list-recursively $schem
 7. Change `['<Super>Page_Up', '<Super><Alt>Left', '<Control><Alt>Left']` to `['<Super>Page_Up', '<Super><Alt>Left']`
 
 - https://discourse.ubuntubudgie.org/t/how-can-i-change-the-default-keybinding-for-the-super-key/2223
+
+## Disable super+left with tiling manager
+
+`Settings > Ubuntu Desktop > Enhanced Tiling > disable`
