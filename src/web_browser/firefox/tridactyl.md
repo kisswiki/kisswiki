@@ -26,7 +26,9 @@ I see that tree vertical tabs like TreeStyleTabs or Sidebery does not work for m
 
 ### tab duplicate
 
-`:bind yd tabduplicate`
+TODO: how to duplicate in background?
+
+`:bind yd composite tabduplicate; tabprev`
 
 https://github.com/tridactyl/tridactyl/issues/2074#issuecomment-571052962
 
