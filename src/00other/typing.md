@@ -9,3 +9,4 @@
 - https://10fastfingers.com
 - https://www.keybr.com
 - https://www.edclub.com/typingclub/courses
+- https://www.freetypinggame.net/score.asp?page=1&lesson=26&game=5&school=-&location=-&date=7
