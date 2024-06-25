@@ -1,3 +1,2 @@
-you can build a dactyl manuform for less than 60$, using amoeba PCB, pi-2040 and 3d printed case
-
-https://www.youtube.com/watch?v=bHdYbviOhSA&lc=UgzPUv8i9xroAkWuTqR4AaABAg
+- you can build a dactyl manuform for less than 60$, using amoeba PCB, pi-2040 and 3d printed case https://www.youtube.com/watch?v=bHdYbviOhSA&lc=UgzPUv8i9xroAkWuTqR4AaABAg
+- https://www.reddit.com/r/ErgoMechKeyboards/comments/13zschg/glove80_vs_kinesis_advantage_360_pro_quick/
