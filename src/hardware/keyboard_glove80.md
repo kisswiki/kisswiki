@@ -123,3 +123,11 @@ Cherry Browns feel like a proper tactile switch compared to the Choc Browns.
 Choc Browns are quite terrible and almost not tactile at all. Sunset is the only non-clicky good tactile available at the moment. I’m looking forward to Sunrise (silent version) being released this spring as well, alongside with silent linear 20g and 35g.
 
 https://www.reddit.com/r/ErgoMechKeyboards/comments/1af0b9a/ask_all_the_comparison_questions_you_have_i_wont/
+
+##
+
+One switch I've not seen mentioned here yet is the Kailh Sunset switch [0], developed in collaboration with Darryl from lowprokb.ca. It is my favourite low profile switch, and the closest in feel to my X220-and-previous-generation Thinkpad keyboards.
+
+[0]: https://lowprokb.ca/products/sunset-tactile-choc-switches
+
+https://news.ycombinator.com/item?id=37380542
