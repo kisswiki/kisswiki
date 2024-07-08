@@ -1,1 +1,2 @@
-https://github.com/daschaa/billboard
+- https://github.com/daschaa/billboard
+  - `System Settings > General > Login items > Open at login`
