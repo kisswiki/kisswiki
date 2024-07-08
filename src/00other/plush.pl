@@ -1,3 +1,5 @@
+# Plush
+
 ## Wypowiedzenie umowy
 
 Początkowo należy wypowiedzieć umowę w ofercie abonamentowej, następnie przed wskazaną datą dezaktywacji wysyłać bezpłatnego SMS-a o treści PRZENIES na numer 80107. Wszystkie informacje tutaj: https://bok.plus.pl/article/448
