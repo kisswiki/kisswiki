@@ -15,3 +15,19 @@ Considering that the truck has eight axles and the sedan has two, the relative d
 - https://www.insidescience.org/news/how-much-damage-do-heavy-trucks-do-our-roads
 - https://urbanmilwaukee.com/2017/06/22/murphys-law-how-trucks-destroy-our-roads/
 - https://truecostblog.com/2009/06/02/the-hidden-trucking-industry-subsidy/
+
+## Polish
+
+Raport zawierał obszerną listę równań opisujących dane zebrane z testów, a z tych równań narodziło się uogólnione prawo czwartej potęgi. Jest to reguła praktyczna służąca do porównywania wielkości uszkodzeń nawierzchni spowodowanych przez pojazdy o różnej masie pod względem obciążeń osi:
+
+(W1/W2)^4
+
+W równaniu W1 to masa osi pojazdu 1, którą porównalibyśmy z W2, masą osi pojazdu 2.
+
+Przyjrzyjmy się kilku liczbom dla porównania.
+
+Rozważmy standardowy sedan z dwiema osiami i całkowitą masą 2 ton. Zakładając równomierny rozkład, każda z jego osi udźwignęłaby ciężar 1 tony. Teraz rozważmy ciężarówkę z ośmioma osiami i masą 40 ton — każda z jej osi ważyłaby 5 ton. Względne uszkodzenia wyrządzone przez każdą oś ciężarówki można obliczyć za pomocą następującego równania, które wynosi 625 razy więcej niż uszkodzenia wyrządzone przez każdą oś sedana.
+
+(5 ton/1 tona)^4 = 625
+
+Biorąc pod uwagę, że ciężarówka ma osiem osi, a sedan ma dwie, względne uszkodzenia spowodowane przez cały naczepę wyniosłyby 625 x (8/2) -- 2500 razy więcej niż w przypadku sedana.
