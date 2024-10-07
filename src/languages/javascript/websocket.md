@@ -122,6 +122,42 @@ server.on('upgrade', (request, socket, head) => {
 
 from https://masteringjs.io/tutorials/express/websockets, but when pasted code to bigger application, it wasn't working without `http.createServer(app)`.
 
+### https
+
+```shell
+
+openssl genrsa -out client-key.pem 2048
+openssl req -new -key client-key.pem -out client.csr
+openssl x509 -req -in client.csr -signkey client-key.pem -out client-cert.pem
+```
+
+https://stackoverflow.com/questions/34835859/node-js-https-example-error-unknown-ssl-protocol-error-in-connection-to-localh/35053638#35053638
+
+```javascript
+const port = 8888;
+const https = require('https');
+const express = require('express');
+const websocket = require('ws');
+const app = express();
+
+app.use( express.static('public') );
+app.get('/curl', (req, res) => res.send('Hello World'));
+
+var options = {
+  key: fs.readFileSync('key.pem'),
+  cert: fs.readFileSync('')
+};
+
+const httpsServer = https.createServer( credentials, app );
+const wss = new websocket.Server({ server: httpsServer });
+
+httpsServer.listen( port, function listening(){
+    console.log( 'listening on ' + port );
+});
+```
+
+https://stackoverflow.com/questions/52562695/expressjs-routes-websockets-share-port/52563668#52563668
+
 ### Links
 
 - https://codeburst.io/why-you-don-t-need-socket-io-6848f1c871cd
