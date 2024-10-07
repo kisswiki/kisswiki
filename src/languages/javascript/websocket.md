@@ -126,9 +126,9 @@ from https://masteringjs.io/tutorials/express/websockets, but when pasted code t
 
 ```shell
 
-openssl genrsa -out client-key.pem 2048
-openssl req -new -key client-key.pem -out client.csr
-openssl x509 -req -in client.csr -signkey client-key.pem -out client-cert.pem
+openssl genrsa -out server-key.pem 2048
+openssl req -new -key server-key.pem -out server.csr
+openssl x509 -req -in server.csr -signkey server-key.pem -out server-cert.pem
 ```
 
 https://stackoverflow.com/questions/34835859/node-js-https-example-error-unknown-ssl-protocol-error-in-connection-to-localh/35053638#35053638
@@ -144,19 +144,20 @@ app.use( express.static('public') );
 app.get('/curl', (req, res) => res.send('Hello World'));
 
 var options = {
-  key: fs.readFileSync('key.pem'),
-  cert: fs.readFileSync('')
+  key: fs.readFileSync('server-key.pem'),
+  cert: fs.readFileSync('server-cert.pem')
 };
 
-const httpsServer = https.createServer( credentials, app );
-const wss = new websocket.Server({ server: httpsServer });
+const httpsServer = https.createServer(options, app);
+const wss = new websocket.Server({server: httpsServer});
 
 httpsServer.listen( port, function listening(){
     console.log( 'listening on ' + port );
 });
 ```
 
-https://stackoverflow.com/questions/52562695/expressjs-routes-websockets-share-port/52563668#52563668
+- https://stackoverflow.com/questions/52562695/expressjs-routes-websockets-share-port/52563668#52563668
+- https://stackoverflow.com/questions/5998694/how-to-create-an-https-server-in-node-js
 
 ### Links
 
