@@ -2,10 +2,11 @@
 
 ## Websockets and expess.js
 
-### Socket.io is for very old browsers. > IE10 supports Websockets. Use https://github.com/websockets/ws.
-  - https://stackoverflow.com/questions/10112178/differences-between-socket-io-and-websockets/38558531#38558531
-  - https://www.reddit.com/r/webdev/comments/fcuyb2/ws_vs_socketio/
-  - https://www.npmtrends.com/socket.io-vs-websocket-vs-ws
+### Socket.io is for very old browsers. > IE10 supports Websockets. Use https://github.com/websockets/ws
+
+- https://stackoverflow.com/questions/10112178/differences-between-socket-io-and-websockets/38558531#38558531
+- https://www.reddit.com/r/webdev/comments/fcuyb2/ws_vs_socketio/
+- https://www.npmtrends.com/socket.io-vs-websocket-vs-ws
 
 ### ws or wss
 
@@ -28,6 +29,7 @@ https://github.com/Maxim-Mazurok/nodejs-ws-chat/blob/4b546718193a0e66117bb5c7d28
 First use example from https://github.com/websockets/ws#usage-examples.
 
 To have websockets server running on the same port as your http server, try these two:
+
 - https://github.com/websockets/ws#external-https-server
 - https://github.com/websockets/ws#multiple-servers-sharing-a-single-https-server
 
@@ -128,3 +130,8 @@ from https://masteringjs.io/tutorials/express/websockets, but when pasted code t
 - https://developer.mozilla.org/en-US/docs/Web/API/WebSocket
 - https://github.com/facundofarias/awesome-websockets#nodejs
 - https://www.websocket.org/echo.html
+
+## bun
+
+- https://bun.sh/docs/api/websockets
+- https://bun.sh/guides/websocket/simple
