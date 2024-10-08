@@ -169,8 +169,6 @@ httpsServer.listen( port, function listening(){
 npm i -D @types/ws
 ```
 
-@types/ws -D
-
 ### Links
 
 - https://codeburst.io/why-you-don-t-need-socket-io-6848f1c871cd
