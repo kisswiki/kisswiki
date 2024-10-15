@@ -23,3 +23,16 @@ conn.onopen = () => conn.send("Message");
 ```
 
 https://stackoverflow.com/questions/23051416/uncaught-invalidstateerror-failed-to-execute-send-on-websocket-still-in-co/61697857#61697857
+
+## client
+
+```javascript
+var ws = new WebSocket("wss://localhost:5000");
+ws.onopen = function() {
+  console.log("open");
+  ws.send("client here")
+}
+ws.onmessage = function(e) {
+  console.log("message: " + e.data);
+}
+```
