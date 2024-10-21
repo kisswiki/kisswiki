@@ -16,6 +16,7 @@ https://www.reddit.com/r/programming/comments/aquok0/postgresql_11_reestablishes
 
 - https://www.reddit.com/r/PostgreSQL/comments/t5ahe9/why_does_postgres_use_1_process_per_connection/
 - https://x.com/thdxr/status/1847106854347813206
+- https://github.com/pgbouncer/pgbouncer
 
 ## outdated storage
 
