@@ -11,3 +11,13 @@ I could make a much longer list of reasons to choose Postgres, and I would defin
 But I don't think that's actually why people choose MySQL. I think it's either a legacy decision they inherited, or it's because MySQL is (or at least used to be) slightly easier to get started with. It's also more tolerant of your bullshit -- Postgres won't ever quietly decide to parse a string as a number and drop data, but if you're just trying to get something to work, databases and languages that have the equivalent of VB's "on error resume next" make it easier to get something running, even if it's buggy as shit.
 
 https://www.reddit.com/r/programming/comments/aquok0/postgresql_11_reestablishes_window_functions/egjyd0j/
+
+## one process per connection
+
+- https://www.reddit.com/r/PostgreSQL/comments/t5ahe9/why_does_postgres_use_1_process_per_connection/
+- https://x.com/thdxr/status/1847106854347813206
+
+## outdated storage
+
+- https://news.ycombinator.com/item?id=41895951
+  - https://www.cs.cmu.edu/~pavlo/blog/2023/04/the-part-of-postgresql-we-hate-the-most.html
