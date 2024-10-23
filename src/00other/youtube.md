@@ -1,3 +1,10 @@
+## block unwanted
+
+- my stylus styles
+- https://addons.mozilla.org/en-US/firefox/addon/youtube-addon/ or https://addons.mozilla.org/en-US/firefox/addon/youtube-recommended-videos
+- block scroll to next short video with ublock `www.youtube.com###shorts-inner-container > .ytd-shorts:not(:first-of-type)` https://www.reddit.com/r/uBlockOrigin/comments/yngmko/how_to_block_youtube_shorts_scrolling_to_next/
+- add search keyword with `y` so that I don't go to home page
+
 ## json
 
 Create API key and then enable it https://www.wonderplugin.com/youtube-api-key-and-playlist-id/
