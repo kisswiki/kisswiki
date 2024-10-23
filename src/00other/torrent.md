@@ -20,6 +20,7 @@ https://freemagazines.top
 ## torrent
 
 - https://torrentgalaxy.to
+- https://ext.to/
 - polish http://electro-torrent.pl/
 - https://rarbg.to/
 - https://www.limetorrents.cc/
