@@ -1,3 +1,8 @@
+- https://www.phoronix.com/news/Rustls-Faster-Than-OpenSSL
+  - based on https://github.com/aws/aws-lc-rs
+    - based on https://github.com/aws/aws-lc
+      - based on Google BoringSSL project and the OpenSSL project
+## Old
 Awesomeness
 
 Totally secure until the next major flaw, that isn't present in LibreSSL, is found.
