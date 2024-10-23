@@ -21,6 +21,7 @@ https://freemagazines.top
 
 - https://torrentgalaxy.to
 - https://ext.to/
+  - https://www.reddit.com/r/torrents/comments/19an6c7/comment/kiqrzgx/
 - polish http://electro-torrent.pl/
 - https://rarbg.to/
 - https://www.limetorrents.cc/
