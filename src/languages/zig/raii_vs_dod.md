@@ -29,3 +29,5 @@ Extremely popular talk on the advantages of looking at problems as data transfor
 Andrew Kelley also [gave a related talk](https://www.youtube.com/watch?v=IroPQ150F6c) at Handmade Seattle and more recently Matthew Lugg [gave another](https://www.youtube.com/watch?v=KOZcJwGdQok) at Software You Can Love.
 
 https://kristoff.it/blog/raii-rust-linux/
+
+[Replace RAII with batch operations](https://lobste.rs/s/i6khvj/introduction_zig#c_talzv2) 
