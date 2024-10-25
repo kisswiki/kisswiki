@@ -1,3 +1,5 @@
+- https://lobste.rs/s/g9ob2p/unsafe_rust_is_harder_than_c
+
 - [Rust is a hard way to make a web API - macwright.com](https://macwright.com/2021/01/15/rust.html)
 
 > You can obtain similar quality in a C modern code-base, using tools like static and dynamic analyzers. In fact, today the hardest issues came from multi-threading. I won't even dare to write multi-threading apps without helgrind/TSAN.
