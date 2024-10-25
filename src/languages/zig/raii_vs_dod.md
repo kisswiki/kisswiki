@@ -4,6 +4,10 @@ I personally love defer because in Zig allocations are always explicit: if a fun
 
 Even better than defer is errdefer, which makes resource cleanup very natural.
 
+Unlike defer, RAII branches on code not explicitly defined in the function. This means you have to chase down 1) the type 2) type declaration 3) drop impl instead of following the deferred function.
+
+When tons of similar Futures on a shared resource cancel at the same time, the contention may cause them to block and the destructor (which you never call explicitly when using the Future) can block for a while.
+
 https://lobste.rs/s/lalx23/zig_bits_0x2_using_defer_defeat_memory#c_j1hgkc
 
 More generally, RAII is a feature that exists in tension with the approach of operating on items in batches, which is an essential technique when writing performance-oriented software.
