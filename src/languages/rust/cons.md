@@ -1,4 +1,5 @@
 - https://lobste.rs/s/g9ob2p/unsafe_rust_is_harder_than_c
+- [Why do developers hate Rust? | Let's Get Rusty](https://youtu.be/fknamfNtKk0)
 
 - [Rust is a hard way to make a web API - macwright.com](https://macwright.com/2021/01/15/rust.html)
 
