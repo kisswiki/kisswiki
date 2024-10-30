@@ -19,7 +19,8 @@ on macos in `~/Library/Application\ Support/Quake3`
 
 `open -na ioquake3 --args +wait`
 
-https://ioquake3.ioquake.narkive.com/28FmCUro/id-intro-movie
+- https://ioquake3.ioquake.narkive.com/28FmCUro/id-intro-movie
+- https://superuser.com/questions/16750/how-can-i-run-an-application-with-command-line-arguments-in-mac-os
 
 can also make it an app on macos:
 
