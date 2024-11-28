@@ -27,8 +27,8 @@ Yeah, they aren't referenced so they aren't semantically analyzed by the compile
 ## debug
 
 ```
-$ zig test file.zig -femit-bin=./tests-binary
-$ gdb ./tests-binary
+zig test file.zig -femit-bin=./tests-binary
+gdb ./tests-binary
 ```
 
 or
@@ -56,11 +56,14 @@ try expectEqual(@as(usize, 6), moves.items.len);
 ## Reverse
 
 ```zig
-pub fn expectEq(expected: anytype, actual: anytype) !void {
+// reversed order, taken from zigimg
+// I expect a + b to equal 42
+pub fn expectEq(actual: anytype, expected: anytype) !void {
     try std.testing.expectEqual(@as(@TypeOf(actual), expected), actual);
 }
 ```
 
+- https://github.com/ziglang/zig/issues/4437#issuecomment-1523061747
 - https://github.com/ziglang/zig/issues/4437#issuecomment-683309291
 - https://github.com/ziglang/zig/issues/4437#issuecomment-585408987
 - https://github.com/zigimg/zigimg/blob/e57148bf6c6df395ef308e559ec833639940220c/tests/helpers.zig#LL14C5-L16C2
