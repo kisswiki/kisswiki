@@ -1,3 +1,32 @@
+## Why avoid interface?
+
+Tetralux
+
+It's a similar thing to "why avoid OOP?" essentially; you just don't need it in most cases.
+
+And if you do, it may be an indication that you're making things complicated.
+
+For instance, maybe you can just have an array for each type of entity or whatever, rather than insisting on putting all entities into a single array, and therefore requiring them to all have the same type or whatever.
+
+It's a lot more code to use interfaces, and generally makes things harder to reason about.
+
+It also affects performance because of the function pointer (though it may not as much depending on how many different things it has to predict).
+
+_InKryption
+
+to add to Tetralux's excellent points:
+
+at a fundamental level, interfaces, abstraction, decoupling, and all of the adjacent, come at a cost; obviously there is the potential performance cost, but even outside of that - e.g. comptime-generics don't have a huge perf cost outside of maybe binary bloat -, there is an even greater cost: it eats into the design space. When you decouple two pieces of code, you are declaring "these two pieces of code do not need to interact very closely in order to do what they need to do". This can be beneficial for organization, separating responsibilities, etc, but it also prevents you from making optimizations, assumptions based on the more tight-knit interactions of those two pieces of code, and from discovering different and potentially better designs for their interaction, because all of those interactions are obfuscated through said abstraction.
+
+https://discord.com/channels/605571803288698900/1302353523870269490/1302462134650929242
+
+## interface implemented in comptime
+
+- https://x.com/nilslice/status/1856393566001738112
+- https://github.com/nilslice/zig-interface
+
+## old
+
 @jarredredditaccount
 
 - TypeScript-like interfaces, Go-like interfaces, Rust-like traits — something that loosely describes the type without strictly typing it. anytype makes code hard to understand. Comptime wrapper types would sort of work if you could define functions at comptime like @Type but you cannot
