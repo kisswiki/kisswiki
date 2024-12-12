@@ -14,3 +14,7 @@ Wiedza to potęga, więc warto wiedzieć, że niski poziom energii nie oznacza, 
 Korzyści i zyski, jakich można oczekiwać po treningu, wynikają z adaptacji ciała do wyzwań. Pamiętaj, że trening w przypadku osłabienia, braku snu lub nadmiernego stresu oznacza, że ciało prawdopodobnie nie osiągnie maksymalnych korzyści.
 
 https://www.garmin.com/pl-PL/garmin-technology/health-science/body-battery/
+
+## pulse
+
+- [Can Polar Beat Garmin? Polar's New Heart Rate Algorithm Tested! | The Quantified Scientist](https://youtu.be/_XYmcjWlTLE)
