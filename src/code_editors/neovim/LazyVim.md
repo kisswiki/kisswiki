@@ -428,3 +428,15 @@ Packages are installed in `~/.local/share/nvim/mason/` and symlinks are created 
 
 - https://github.com/williamboman/mason.nvim?tab=readme-ov-file#introduction
 - https://mason-registry.dev/registry/list
+
+## marks aka bookmarks
+
+- ma - add mark a
+- 'a - go to mark a
+- <leader>sm - jump to mark
+- delete all marks `delm! | delm \"<>[]^.A-Za-z0-9`
+
+- https://neovim.io/doc/user/motion.html#mark-motions
+- https://stackoverflow.com/questions/24589526/setting-a-vim-bookmark/24589584#24589584
+- https://stackoverflow.com/questions/11450817/vim-how-do-i-clear-all-marks/11450865#11450865
+- https://www.reddit.com/r/neovim/comments/1ae2bbs/comment/kk532it/
