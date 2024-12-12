@@ -5,6 +5,6 @@
 ## RWS
 
 - nie korzystałem z pomocy publicznej de minimis
-- PKD 62.01
+- PKD 6201Z
 
 https://www.zus.pl/documents/10182/24202/Instrukcja+wype%C5%82niania+wnioksu+RWS+o+wakacje+sk%C5%82adkowe.pdf/68a1a5c8-291f-a0c9-033a-d7ff8438bd75?t=1730405997311
