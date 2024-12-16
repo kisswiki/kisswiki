@@ -53,7 +53,7 @@ Added book ids: 1161
 
 ### Invalid dylib load: libsystem_c.dylib
 
-` "asi" : {"libcrypto.dylib":["Invalid dylib load. Clients should not load the unversioned libcrypto dylib as it does not have a stable ABI."],"libsystem_c.dylib":["abort() called"]},`
+`"asi" : {"libcrypto.dylib":["Invalid dylib load. Clients should not load the unversioned libcrypto dylib as it does not have a stable ABI."],"libsystem_c.dylib":["abort() called"]},`
 
 Install newer dedrm plugin
 
@@ -220,3 +220,33 @@ https://www.reddit.com/r/Calibre/comments/14nyrye/how_to_permanently_delete_remo
 
 .caltrash
 
+## convert cbr and cbz to pdf
+
+- Right-click > Convert
+  - PDF
+  - Comic Input > Disable comic processing (option otherwise the colorful comic will turn into black-and-white one)
+
+- https://www.epubor.com/convert-cbr-to-pdf.html
+  - https://www.reddit.com/r/Calibre/comments/i1scu3/comment/g0ejf6s/
+
+### ebook-convert
+
+- `Automator > Quick Action`
+  - `Workflow receives current: files or folders`
+  - `in: Finder.app`
+  - on the left search for `Run Shell Script` and drag-and-drop it to the right.
+  - `Pass input: as arguments`
+
+The conent will be:
+
+```zsh
+. $HOME/.zprofile
+~/bin/ebook-convert2pdf.sh "$@"
+```
+
+Then `File > Save`
+
+https://askubuntu.com/questions/344339/how-do-i-convert-epub-to-mobi-using-calibre
+
+- https://apple.stackexchange.com/questions/129929/automating-ffmpeg-using-automator-service/129931#129931
+- [Creating Custom Finder Quick Actions With Automator - YouTube](https://www.youtube.com/watch?v=0BEPkM_gkGU)
