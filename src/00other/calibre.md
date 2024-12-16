@@ -228,6 +228,7 @@ https://www.reddit.com/r/Calibre/comments/14nyrye/how_to_permanently_delete_remo
 
 - https://www.epubor.com/convert-cbr-to-pdf.html
   - https://www.reddit.com/r/Calibre/comments/i1scu3/comment/g0ejf6s/
+- https://www.reddit.com/r/mangapiracy/comments/15oyt7s/lack_a_decent_continuous_vertical_smooth/
 
 ### ebook-convert
 
@@ -246,7 +247,8 @@ The conent will be:
 
 Then `File > Save`
 
-https://askubuntu.com/questions/344339/how-do-i-convert-epub-to-mobi-using-calibre
+- https://askubuntu.com/questions/344339/how-do-i-convert-epub-to-mobi-using-calibre
+- https://www.reddit.com/r/mangapiracy/comments/15oyt7s/lack_a_decent_continuous_vertical_smooth/
 
 - https://apple.stackexchange.com/questions/129929/automating-ffmpeg-using-automator-service/129931#129931
 - [Creating Custom Finder Quick Actions With Automator - YouTube](https://www.youtube.com/watch?v=0BEPkM_gkGU)
