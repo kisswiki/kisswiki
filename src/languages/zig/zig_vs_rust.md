@@ -2,6 +2,12 @@
 
 The drop trait has its warts too. Zig's version sets up a point in time where the given cleanup code _will_ run (ignoring power outages and the like), and Rust's sets up a point in time where the given cleanup code is _allowed_ to run. It solves UAF, but it makes performance harder to reason about and makes leaks easier to write (a common theme in my complaints about Rust -- it's mostly a nice language, but many of the design choices slightly encourage leaky code, so most projects of any size and complexity have leaks). Having drops be that easy to write also encourages programmers to think in terms of small units of data rather than collections and common lifetimes, typically resulting in increased execution times.
 
+Safe Rust prevents use-after-free, double-free, accessing uninitialized memory, (an extremely constrained form of) data races, and a number of other things. It doesn't give a rip about leaks beyond a best effort. Leaks do not violate memory safety.
+
+Part of the reason it doesn't care is because it's hard to infer your intent. A common class of bug is accidentally boxing a reference to something you'd like to drop (this and similar flaws afflicted Actix till at least the 3.0 release). Rust confirms you don't have UAF and that you don't drop the data before you're done with it, but by accidentally writing it so that it lives nearly forever that drop is never executed.
+
+Rust, similarly, makes no guarantees about drop's behavior at any point in time (other than that it won't be executed to soon and should usually attempt to be executed eventually), but definitely not near program shutdown or similar. It's especially dangerous because a huge fraction of programs run correctly regardless most of the time.
+
 https://news.ycombinator.com/item?id=42549072
 
 ## Primeagen: Zig vs Rust
