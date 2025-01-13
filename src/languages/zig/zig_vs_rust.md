@@ -1,3 +1,9 @@
+## the drop trait
+
+The drop trait has its warts too. Zig's version sets up a point in time where the given cleanup code _will_ run (ignoring power outages and the like), and Rust's sets up a point in time where the given cleanup code is _allowed_ to run. It solves UAF, but it makes performance harder to reason about and makes leaks easier to write (a common theme in my complaints about Rust -- it's mostly a nice language, but many of the design choices slightly encourage leaky code, so most projects of any size and complexity have leaks). Having drops be that easy to write also encourages programmers to think in terms of small units of data rather than collections and common lifetimes, typically resulting in increased execution times.
+
+https://news.ycombinator.com/item?id=42549072
+
 ## Primeagen: Zig vs Rust
 
 Summary cons/pros
