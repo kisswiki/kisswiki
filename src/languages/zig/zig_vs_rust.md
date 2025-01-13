@@ -10,6 +10,10 @@ Rust, similarly, makes no guarantees about drop's behavior at any point in time 
 
 https://news.ycombinator.com/item?id=42549072
 
+##
+
+https://old.reddit.com/r/Zig/comments/1cu3bj7/advantagedisadvantages_to_rust/
+
 ## Primeagen: Zig vs Rust
 
 Summary cons/pros
