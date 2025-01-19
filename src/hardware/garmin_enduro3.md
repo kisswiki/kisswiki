@@ -1,3 +1,14 @@
+## domyślna tarcza zegarka
+
+domyślnie na tarczy mam wyświetlane:
+
+- [gotowość treningowa](https://www.garmin.com/pl-PL/garmin-technology/running-science/physiological-measurements/training-readiness/)
+- [ocena wytrzymałości](https://www.garmin.com/pl-PL/garmin-technology/running-science/physiological-measurements/endurance-score/)
+
+w danych mogę jeszcze wyświetlać:
+
+- [krótkoterminowe obciążenie](https://www.garmin.com/pl-PL/garmin-technology/running-science/physiological-measurements/training-load/)
+
 ## body battery
 
 - https://news.ycombinator.com/item?id=29200993
