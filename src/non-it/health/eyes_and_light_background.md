@@ -62,3 +62,13 @@ It's been interesting because my wife is complaining about feeling glum but I've
 [0] https://www.benkuhn.net/lux/
 
 https://news.ycombinator.com/item?id=33949814
+
+## funny
+
+It's always been strange to me how many people without a medical reason for doing so want to sit in dark rooms like cave trolls, but there we are.
+
+At least now operating systems all have switchable modes that get reported to the browser. The browser can/should adapt to whatever setting the OS reports.
+
+But UI design is, with a few islands of rationality in history from people like Paul Fitts, mostly a cascade of poorly applied vibes and fads. First people say that contrast is bad, so then people don't use enough contrast. Then people say that brightness is bad, so people don't use enough brightness. Then people realize why contrast and brightness were important all along and the circle of life continues.
+
+https://news.ycombinator.com/item?id=42762416
