@@ -1,0 +1,3 @@
+I did a little experiment where I tried to create a raylib-style API, but with a Vulkan backend. What I ultimately found is that it works for simple pipelines, but the moment you need flexibility, you really just need access to the Vulkan primitives. Compute was one of those things that just ended up being easier to have access to the lower level stuff (i.e. less abstraction was better). The problem with trying to abstract away things in Vulkan is you end up eventually wanting access to everything, at least that has been my experience.
+
+https://www.youtube.com/watch?v=PuE98lipGU8&lc=UgxMcLMj-mwoGsBpjNF4AaABAg
