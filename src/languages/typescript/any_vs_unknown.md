@@ -76,4 +76,9 @@ unknown.ts:10:1 - error TS2349: This expression is not callable.
 Found 2 errors in the same file, starting at: unknown.ts:9
 ```
 
-Watchout for bun, as it does not type check, only transpile.
+Watch out for bun, as it does not type check, only transpile.
+
+
+The compiler effectively treats any as “please turn off type checking for this thing”.
+
+https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html#any
