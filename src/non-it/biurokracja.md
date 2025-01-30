@@ -2,4 +2,4 @@ Urzędnik, który dopuścił się nadużyć przy zatrudnianiu na potrzeby służ
 ...
 Wskazuje się, iż rzymska administracja finansowa w okresie dominatu była sparaliżowana i niewydolna. Jej ocena w dostępnych opracowaniach i źródłach jest w większości negatywna. Nie chodziło tu o zbyt niską wysokość nakładanych podatków, ale o to, iż większość z nich przez zbierających podatki urzędników, nigdy nie trafiała do skarbu państwa.
 
-https://repozytorium.uwb.edu.pl/jspui/bitstream/11320/7289/1/P_Sawicki_Sluzby_skarbowe_w_Starozytnym_Rzymie_w_okresie_Dominatu.pdf?utm_source=chatgpt.com
+https://repozytorium.uwb.edu.pl/jspui/bitstream/11320/7289/1/P_Sawicki_Sluzby_skarbowe_w_Starozytnym_Rzymie_w_okresie_Dominatu.pdf
