@@ -1,10 +1,10 @@
 ## Start
 
-1. Go to https://github.com/LazyVim/starter and click "Use thie template" button. You may need to decrease font size to see this button.
+1. Go to <https://github.com/LazyVim/starter> and click "Use thie template" button. You may need to decrease font size to see this button.
 2. To update starter to use newer LazyVim you need to `:Lazy update`.
 
 - [Zero to IDE with LazyVim - YouTube](https://www.youtube.com/watch?v=N93cTbtLCIM)
-- https://www.barbarianmeetscoding.com/notes/neovim-lazyvim/
+- <https://www.barbarianmeetscoding.com/notes/neovim-lazyvim/>
 
 ## Config
 
@@ -31,7 +31,7 @@ return {
 - The leader key is the space in LazyVim.
 - `<leader>sk` or `:Telescope keymaps` - see all keymaps
 - `<leader>e` - open file explorer.
-- `gc` or `gcc` - comment current line (uses https://github.com/echasnovski/mini.comment)
+- `gc` or `gcc` - comment current line (uses <https://github.com/echasnovski/mini.comment>)
 - `<leader>bd` - delete buffer without chaning layout
 - LSP [keymaps.lua](https://github.com/LazyVim/LazyVim/blob/f51719a12d86e557e2c38cd386ad68dc87a5c68f/lua/lazyvim/plugins/lsp/keymaps.lua#L17)
   - `Ctrl-t` go back
@@ -57,13 +57,13 @@ return {
 - `<leader>bP` - close not-pinned tabs
 - `<leader>uc` - toggle conceal level, hide/show \* markup for bold and italic
 
-needs `macos_option_as_alt yes` in kitty.conf https://www.reddit.com/r/neovim/comments/18ck6uq/comment/kcb9d8q/
+needs `macos_option_as_alt yes` in kitty.conf <https://www.reddit.com/r/neovim/comments/18ck6uq/comment/kcb9d8q/>
 
 - `<A-j>` - move line down // need
 - `<A-k>` - move line up
 
-- https://www.lazyvim.org/keymaps
-- https://stackoverflow.com/questions/4809729/cancel-split-window-in-vim/4809736#4809736
+- <https://www.lazyvim.org/keymaps>
+- <https://stackoverflow.com/questions/4809729/cancel-split-window-in-vim/4809736#4809736>
 
 ### Telescope
 
@@ -76,7 +76,7 @@ needs `macos_option_as_alt yes` in kitty.conf https://www.reddit.com/r/neovim/co
 - `<C-u>` - Scroll up in preview window
 - `<C-d>` - Scroll down in preview window
 
-https://github.com/nvim-telescope/telescope.nvim
+<https://github.com/nvim-telescope/telescope.nvim>
 
 ## commands
 
@@ -90,13 +90,13 @@ https://github.com/nvim-telescope/telescope.nvim
 
 ## Lazygit
 
-Started working after I have installed with tap https://github.com/jesseduffield/lazygit#homebrew
+Started working after I have installed with tap <https://github.com/jesseduffield/lazygit#homebrew>
 
 - `p` - pull
 - `P` - push
-- `c` - commit changes, `Enter` to add all changed https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md#files
+- `c` - commit changes, `Enter` to add all changed <https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md#files>
 
-- https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md
+- <https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md>
 
 ## Terminal
 
@@ -107,19 +107,19 @@ Started working after I have installed with tap https://github.com/jesseduffield
 - `c-wv` - split vertically
   etc.
 
-https://github.com/LazyVim/LazyVim/discussions/193#discussioncomment-6088989
+<https://github.com/LazyVim/LazyVim/discussions/193#discussioncomment-6088989>
 
 ## Nvim-tree: How do you copy/duplicate files?
 
 c to copy a file and p to paste it
 
-https://www.reddit.com/r/neovim/comments/sews3r/comment/humd3me/
+<https://www.reddit.com/r/neovim/comments/sews3r/comment/humd3me/>
 
 ## update plugins without from command line
 
 `nvim --headless "+Lazy! sync" "+TSUpdateSync" +qa`
 
-https://github.com/LazyVim/LazyVim/pull/944
+<https://github.com/LazyVim/LazyVim/pull/944>
 
 ## save as in the same directory
 
@@ -129,14 +129,14 @@ https://github.com/LazyVim/LazyVim/pull/944
 
 `:echo expand("%:p:h")`
 
-- https://blog.tomontheinternet.com/posts/vim-new-file-same-directory/
-  - https://www.reddit.com/r/vim/comments/k9k2it/make_a_new_file_in_the_current_directory/
-- https://vi.stackexchange.com/questions/2071/how-can-i-copy-the-current-file-and-start-editing-the-copy-instead-of-the-curren#comment76266_34474
+- <https://blog.tomontheinternet.com/posts/vim-new-file-same-directory/>
+  - <https://www.reddit.com/r/vim/comments/k9k2it/make_a_new_file_in_the_current_directory/>
+- <https://vi.stackexchange.com/questions/2071/how-can-i-copy-the-current-file-and-start-editing-the-copy-instead-of-the-curren#comment76266_34474>
 
 to open just use `:e %:h/filename`
 
-- https://stackoverflow.com/questions/13239464/create-a-new-file-in-the-directory-of-the-open-file-in-vim/13239757#13239757
-- more key mappings https://stackoverflow.com/questions/1708623/opening-files-in-the-same-folder-as-the-current-file-in-vim
+- <https://stackoverflow.com/questions/13239464/create-a-new-file-in-the-directory-of-the-open-file-in-vim/13239757#13239757>
+- more key mappings <https://stackoverflow.com/questions/1708623/opening-files-in-the-same-folder-as-the-current-file-in-vim>
 
 or this
 
@@ -147,13 +147,13 @@ nnoremap <expr> <space>S printf(":saveas %s%s",
             \ empty(expand("%:e")) ? '' : repeat('<Left>', strchars(expand("%:e")) + 1))
 ```
 
-- https://www.reddit.com/r/vim/comments/k9k2it/comment/gf57cvh/
+- <https://www.reddit.com/r/vim/comments/k9k2it/comment/gf57cvh/>
 
 `:help cmdline-special`
 
 % Is replaced with the current file name
 
-- https://www.reddit.com/r/vim/comments/k8lsfy/comment/geyro17/
+- <https://www.reddit.com/r/vim/comments/k8lsfy/comment/geyro17/>
 
 ## iterm2 command-r empties screen
 
@@ -161,7 +161,7 @@ nnoremap <expr> <space>S printf(":saveas %s%s",
 
 ad-hoc: C-z to suspend and fg to resume
 
-https://superuser.com/questions/800088/why-does-cmd-r-mess-up-vim-on-the-mac-what-is-it-actually-trying-to-do/1169889#1169889
+<https://superuser.com/questions/800088/why-does-cmd-r-mess-up-vim-on-the-mac-what-is-it-actually-trying-to-do/1169889#1169889>
 
 ## Why LazyVim
 
@@ -178,13 +178,13 @@ Apart from that i agree it reads very well, and the import of plugins to overwri
 But i keep having stuff that break even on fresh install (notify.nvim is basically red everytime i telescope anything or try to use leap.nvim..) so i think ill just end up dropping it and make like my own config heavily inspired by lazyvim plugin configs, one plugin a day, little by little rebuilding the wheel for the most part
 debugging issues right after you clone and expect everything to work out the box is painful
 
-https://www.youtube.com/watch?v=oy_-hQdkoXg&lc=Ugw8BXGw7-hwq8OIRBN4AaABAg
+<https://www.youtube.com/watch?v=oy_-hQdkoXg&lc=Ugw8BXGw7-hwq8OIRBN4AaABAg>
 
 ## opts vs setup
 
 opts is just a table that gets merged across all plugin specs of the same plugin. If config is not set then a default Implementation that calls setup with the opts table is used. If you define config then setup doesn't get called, the config function takes opts as the second parameter so you can still use opts but you have to call opts yourself.
 
-https://matrix.to/#/!cylwlNXSwagQmZSkzs:matrix.org/$N8m7EyuhH0P_KWrO1ptLIfw3UaMqLFsEwX_Qm22_chk
+<https://matrix.to/#/!cylwlNXSwagQmZSkzs:matrix.org/$N8m7EyuhH0P_KWrO1ptLIfw3UaMqLFsEwX_Qm22_chk>
 
 ## Which event to use?
 
@@ -194,7 +194,7 @@ for ui stuff you need to load as quicklly as possible, ue VimEnter. For all the 
 
 any lazy handler triggers lazy loading. That's the whole point (my comment: i.e. setting keymaps triggers lazy loading)
 
-https://matrix.to/#/!cylwlNXSwagQmZSkzs:matrix.org/$mEj6Nu0KFRcdLHubttjf-Y0N7eVrHllmmvVym5sVy2U
+<https://matrix.to/#/!cylwlNXSwagQmZSkzs:matrix.org/$mEj6Nu0KFRcdLHubttjf-Y0N7eVrHllmmvVym5sVy2U>
 
 ## disable autoformat termporarily
 
@@ -202,7 +202,7 @@ https://matrix.to/#/!cylwlNXSwagQmZSkzs:matrix.org/$mEj6Nu0KFRcdLHubttjf-Y0N7eVr
 
 `<Leader>uf` - globally
 
-https://www.lazyvim.org/configuration/tips#disable-autoformat-for-some-buffers
+<https://www.lazyvim.org/configuration/tips#disable-autoformat-for-some-buffers>
 
 ## disable autoformat for some file type
 
@@ -216,10 +216,10 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 })
 ```
 
-- https://www.lazyvim.org/configuration/tips#disable-autoformat-for-some-buffers
+- <https://www.lazyvim.org/configuration/tips#disable-autoformat-for-some-buffers>
 - [LazyVim: Linting and Formatting - YouTube](https://www.youtube.com/watch?v=a_ZpTPaSn38)
-- this does not work https://vi.stackexchange.com/questions/42597/how-to-disable-autoformating-on-save-on-lazyvim/42598#42598
-  - https://github.com/LazyVim/LazyVim/blob/566049aa4a26a86219dd1ad1624f9a1bf18831b6/lua/lazyvim/plugins/lsp/init.lua#L43
+- this does not work <https://vi.stackexchange.com/questions/42597/how-to-disable-autoformating-on-save-on-lazyvim/42598#42598>
+  - <https://github.com/LazyVim/LazyVim/blob/566049aa4a26a86219dd1ad1624f9a1bf18831b6/lua/lazyvim/plugins/lsp/init.lua#L43>
 
 ## Spell check
 
@@ -248,24 +248,24 @@ map('n', '<leader>se', ':setlocal spell spelllang=en_us<CR>:setlocal spellfile=$
 
 `:mkspell! %` - regenerate spell file binary after manually editing list
 
-- https://neovim.io/doc/user/spell.html
-- https://github.com/LazyVim/LazyVim/blob/eddd3af3512133f22eb26dda81c3c6f871453276/lua/lazyvim/config/autocmds.lua#L79C19-L79C24
-- https://github.com/LazyVim/LazyVim/blob/eddd3af3512133f22eb26dda81c3c6f871453276/lua/lazyvim/config/keymaps.lua#L105
+- <https://neovim.io/doc/user/spell.html>
+- <https://github.com/LazyVim/LazyVim/blob/eddd3af3512133f22eb26dda81c3c6f871453276/lua/lazyvim/config/autocmds.lua#L79C19-L79C24>
+- <https://github.com/LazyVim/LazyVim/blob/eddd3af3512133f22eb26dda81c3c6f871453276/lua/lazyvim/config/keymaps.lua#L105>
 
 ## Fennel
 
 - hotpot
-  - https://github.com/avegancafe/VimStudio
+  - <https://github.com/avegancafe/VimStudio>
     - uses macro `pack` for mixed pluginsbut
-      - but maybe no need and do like https://github.com/rafaeldelboni/cajus-nfnl/blob/main/.config/nvim/fnl/plugins/cmp.fnl
-      - https://github.com/bakpakin/Fennel/issues/353#issuecomment-840015752
-  - might be slow https://github.com/rktjmp/hotpot.nvim/issues/125
-  - https://github.com/datwaft/nvim.conf/tree/6308a95f07f4d9c5cae4fffd49ed91e6b51d0427
-    - author reverted to lua https://github.com/datwaft/nvim.conf/commit/0002d8cffe0c4b08c07f14b2082792325ca16695
-    - https://github.com/rktjmp/hotpot.nvim/issues/97
+      - but maybe no need and do like <https://github.com/rafaeldelboni/cajus-nfnl/blob/main/.config/nvim/fnl/plugins/cmp.fnl>
+      - <https://github.com/bakpakin/Fennel/issues/353#issuecomment-840015752>
+  - might be slow <https://github.com/rktjmp/hotpot.nvim/issues/125>
+  - <https://github.com/datwaft/nvim.conf/tree/6308a95f07f4d9c5cae4fffd49ed91e6b51d0427>
+    - author reverted to lua <https://github.com/datwaft/nvim.conf/commit/0002d8cffe0c4b08c07f14b2082792325ca16695>
+    - <https://github.com/rktjmp/hotpot.nvim/issues/97>
 - nfnl
 
-  - https://github.com/rafaeldelboni/cajus-nfnl
+  - <https://github.com/rafaeldelboni/cajus-nfnl>
 
 ## neo-tree
 
@@ -282,7 +282,7 @@ map('n', '<leader>se', ':setlocal spell spelllang=en_us<CR>:setlocal spellfile=$
     }
 ```
 
-https://github.com/nvim-neo-tree/neo-tree.nvim/discussions/1242
+<https://github.com/nvim-neo-tree/neo-tree.nvim/discussions/1242>
 
 ## move windows
 
@@ -298,8 +298,8 @@ These are the same keys used for navigation, without SHIFT (lowercase navigation
 - CTRL-W K: Move focus to the top window
 - CTRL-W L: Move focus to the right window
 
-- https://stackoverflow.com/questions/15583346/how-can-i-temporarily-make-the-window-im-working-on-to-be-fullscreen-in-vim/69650669#69650669
-- https://neovim.io/doc/user/windows.html#window-moving
+- <https://stackoverflow.com/questions/15583346/how-can-i-temporarily-make-the-window-im-working-on-to-be-fullscreen-in-vim/69650669#69650669>
+- <https://neovim.io/doc/user/windows.html#window-moving>
 
 ## surround with character
 
@@ -308,7 +308,7 @@ These are the same keys used for navigation, without SHIFT (lowercase navigation
 select visually and then `gsa'` to surround with single quotes
 
 - [link](https://github.com/LazyVim/LazyVim/blob/530e94a9fa19577401e968a9673282c3d79f01e3/lua/lazyvim/plugins/coding.lua#L191)
-- https://github.com/echasnovski/mini.surround?tab=readme-ov-file#demo
+- <https://github.com/echasnovski/mini.surround?tab=readme-ov-file#demo>
 
 ## previous and next edit positions
 
@@ -316,7 +316,7 @@ select visually and then `gsa'` to surround with single quotes
 
 `g,` - next edit
 
-https://vi.stackexchange.com/questions/6749/after-copying-a-visual-selection-return-to-original-location/6755#6755
+<https://vi.stackexchange.com/questions/6749/after-copying-a-visual-selection-return-to-original-location/6755#6755>
 
 ## move to first or last character of the selection
 
@@ -324,7 +324,7 @@ built-in marks holding the positions of the first and last characters of the las
 
 `` `< `` and `` `> ``
 
-https://stackoverflow.com/questions/11176159/how-to-jump-to-the-start-or-the-end-of-visual-selection-in-vim/11176286#11176286
+<https://stackoverflow.com/questions/11176159/how-to-jump-to-the-start-or-the-end-of-visual-selection-in-vim/11176286#11176286>
 
 ## Non brake space entered with alt+space
 
@@ -343,8 +343,8 @@ If using LazyVim, pin to previous version for now
 
 And do `:Lazy update`
 
-- https://www.reddit.com/r/neovim/comments/16uemhy/how_do_i_pin_a_specific_version_in_lazynvim/
-- https://github.com/folke/noice.nvim/issues/805#issuecomment-2114947709
+- <https://www.reddit.com/r/neovim/comments/16uemhy/how_do_i_pin_a_specific_version_in_lazynvim/>
+- <https://github.com/folke/noice.nvim/issues/805#issuecomment-2114947709>
 
 ## What command is bind to a key
 
@@ -354,7 +354,7 @@ or
 
 `:verbose map <C-n>`
 
-https://stackoverflow.com/questions/4218035/how-to-find-out-in-vim-which-command-is-triggered-by-some-shortcut/4218331#4218331
+<https://stackoverflow.com/questions/4218035/how-to-find-out-in-vim-which-command-is-triggered-by-some-shortcut/4218331#4218331>
 
 ## Zig code highlighting in markdown
 
@@ -362,7 +362,7 @@ https://stackoverflow.com/questions/4218035/how-to-find-out-in-vim-which-command
 
 If markdown and markdown_inline are not installed, it should be `TSInstall markdown markdown_inline zig`.
 
-- https://www.reddit.com/r/neovim/comments/11zi78s/treesitter_is_amazing_syntax_highlight_code
+- <https://www.reddit.com/r/neovim/comments/11zi78s/treesitter_is_amazing_syntax_highlight_code>
 
 ## Disable format on save for some file types
 
@@ -412,11 +412,11 @@ But we can also disable just specific [rules](https://github.com/DavidAnson/mark
   "MD034": true,
 ```
 
-- https://github.com/LazyVim/LazyVim/issues/3295#issuecomment-2127750247
-- https://vi.stackexchange.com/questions/42597/how-to-disable-autoformating-on-save-on-lazyvim/43698#43698
-- https://www.reddit.com/r/neovim/comments/1766fl1/lazyvim_1000_has_been_released/
-- https://www.lazyvim.org/plugins/formatting
-- Disables rules that may conflict with Prettier https://github.com/DavidAnson/markdownlint/blob/main/style/prettier.json
+- <https://github.com/LazyVim/LazyVim/issues/3295#issuecomment-2127750247>
+- <https://vi.stackexchange.com/questions/42597/how-to-disable-autoformating-on-save-on-lazyvim/43698#43698>
+- <https://www.reddit.com/r/neovim/comments/1766fl1/lazyvim_1000_has_been_released/>
+- <https://www.lazyvim.org/plugins/formatting>
+- Disables rules that may conflict with Prettier <https://github.com/DavidAnson/markdownlint/blob/main/style/prettier.json>
 
 ## Mason and update external packages like markdownlint-cli2
 
@@ -426,8 +426,8 @@ And then press `U` to update all outdated packages or `u` to update specific pac
 
 Packages are installed in `~/.local/share/nvim/mason/` and symlinks are created in `~/.local/share/nvim/mason/bin`.
 
-- https://github.com/williamboman/mason.nvim?tab=readme-ov-file#introduction
-- https://mason-registry.dev/registry/list
+- <https://github.com/williamboman/mason.nvim?tab=readme-ov-file#introduction>
+- <https://mason-registry.dev/registry/list>
 
 ## marks aka bookmarks
 
@@ -436,7 +436,16 @@ Packages are installed in `~/.local/share/nvim/mason/` and symlinks are created 
 - <leader>sm - jump to mark
 - delete all marks `delm! | delm \"<>[]^.A-Za-z0-9`
 
-- https://neovim.io/doc/user/motion.html#mark-motions
-- https://stackoverflow.com/questions/24589526/setting-a-vim-bookmark/24589584#24589584
-- https://stackoverflow.com/questions/11450817/vim-how-do-i-clear-all-marks/11450865#11450865
-- https://www.reddit.com/r/neovim/comments/1ae2bbs/comment/kk532it/
+- <https://neovim.io/doc/user/motion.html#mark-motions>
+- <https://stackoverflow.com/questions/24589526/setting-a-vim-bookmark/24589584#24589584>
+- <https://stackoverflow.com/questions/11450817/vim-how-do-i-clear-all-marks/11450865#11450865>
+- <https://www.reddit.com/r/neovim/comments/1ae2bbs/comment/kk532it/>
+
+## no parser for "css" language, see :help treesitter-parsers
+
+```
+:TSInstall css
+:checkhealth nvim-treesitter
+```
+
+- <https://github.com/nvim-treesitter/nvim-treesitter/issues/6494#issuecomment-2070081206>
