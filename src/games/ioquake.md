@@ -1,4 +1,4 @@
-## macos
+## macos arm64 apple silicon install
 
 https://files.ioquake3.org/ioquake3_notarized.zip from https://ioquake3.org/get-it/
 
@@ -16,7 +16,7 @@ https://www.reddit.com/r/quake/comments/w4iqbn/comment/ih2tr9y/
 
 in baseq3/autoexec.cfg
 
-on macos in `~/Library/Application\ Support/Quake3`
+on macos `nvim ~/Library/Application\ Support/Quake3/baseq3/autoexec.cfg`
 
 - https://ioquake3.org/help/players-guide/#macoswhere
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2608518812

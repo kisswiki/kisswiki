@@ -48,3 +48,11 @@ https://discussions.apple.com/thread/8384478
 `Settings > Advanced tab > When performing a search: Search the current folder`
 
 https://apple.stackexchange.com/questions/14046/how-to-type-to-search-in-current-folder/14110#14110
+
+## Open finder in Downloads
+
+`Finder > Settings > General > New Finder window show: Downloads`
+
+## Show hidden files
+
+`cmd+shift+.`
