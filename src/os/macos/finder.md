@@ -56,3 +56,9 @@ https://apple.stackexchange.com/questions/14046/how-to-type-to-search-in-current
 ## Show hidden files
 
 `cmd+shift+.`
+
+or
+
+`defaults write com.apple.finder AppleShowAllFiles YES`
+
+https://discussions.apple.com/thread/7581737?answerId=7581737021&sortBy=rank#7581737021

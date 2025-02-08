@@ -1,6 +1,8 @@
 ## macos arm64 apple silicon install
 
-https://files.ioquake3.org/ioquake3_notarized.zip from https://ioquake3.org/get-it/
+`brew install --cask ioquake3`
+
+or https://files.ioquake3.org/ioquake3_notarized.zip from https://ioquake3.org/get-it/
 
 Install, go to Applications, ioquake3 > right click > Show Package Contents > Contents > MacOS > baseq3 > paste all *.pk3 files 
 
