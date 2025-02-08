@@ -1,3 +1,9 @@
+## macos
+
+https://files.ioquake3.org/ioquake3_notarized.zip from https://ioquake3.org/get-it/
+
+Install, go to Applications, ioquake3 > right click > Show Package Contents > Contents > MacOS > baseq3 > paste all *.pk3 files 
+
 ## cd key
 
 22222....
