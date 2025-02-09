@@ -16,3 +16,14 @@ In short, while Lisp syntax used to serve a purpose (facilitation of macros/modi
 For comparison, I think OCaml syntax is really nice: light and readable.
 
 https://news.ycombinator.com/item?id=27310739
+
+## fun
+
+```lisp
+(Well that's not (a very annoying (way to read (and write things out)
+  (at all)
+  (It's like (Python but (more))
+  (annoying)))
+```
+
+https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1525089-gnu-g-golf-v0-8-released-for-writing-gtk-apps-in-guile-scheme?p=1525106#post1525106
