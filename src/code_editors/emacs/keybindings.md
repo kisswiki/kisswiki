@@ -30,3 +30,4 @@ https://stackoverflow.com/questions/7549259/is-there-a-quick-way-to-unbind-keys-
 ## misc
 
 - delete line C-S-k https://stackoverflow.com/questions/3958528/how-can-i-delete-the-current-line-in-emacs
+- C-c C-b zig-compile (zig build)
