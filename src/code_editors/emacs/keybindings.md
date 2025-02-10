@@ -33,3 +33,9 @@ https://stackoverflow.com/questions/7549259/is-there-a-quick-way-to-unbind-keys-
 - C-c C-b zig-compile (zig build)
 - M-; compile  watchexec -r zig build
 - C-x ` go to next error, C-h f compile for more
+
+## smarparens
+
+mark text with C-SPC then (. Why it does not go after closing paren by default? You can exchange point and mark before with C-x C-x.
+
+go after closing paren with M-x sp-up-sexp
