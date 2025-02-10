@@ -4,7 +4,7 @@
 
 Go to https://support.hp.com/us-en/drivers/selfservice/hp-laserjet-pro-p1102-printer-series/4110394/model/4110303
 
-Choose macos version, download driver, unpack dmg, run `pacifist > open package > select unpacked pkg > install > choose not to update files`.
+Choose macos version, download driver, unpack dmg, run `pacifist > open package > select unpacked pkg > install with administrative privilieges > choose not to update files`.
 
 Go to printers, add, select driver for hp laserjet p1102
 

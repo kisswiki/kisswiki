@@ -26,3 +26,7 @@ https://stackoverflow.com/questions/19781529/how-to-disable-emacs-messages-like-
 `(global-unset-key key)`
 
 https://stackoverflow.com/questions/7549259/is-there-a-quick-way-to-unbind-keys-in-emacs
+
+## misc
+
+- delete line C-S-k https://stackoverflow.com/questions/3958528/how-can-i-delete-the-current-line-in-emacs
