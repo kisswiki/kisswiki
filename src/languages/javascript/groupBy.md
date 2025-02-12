@@ -21,7 +21,7 @@ var g2 = people.reduce((group, person) => {
 }, {});
 console.log(g2);
 
-var g3 = { ...Object.groupBy(people, (person) => person.name) };
+var g3 = { ...Object.groupBy(people, ({name}) => name) };
 console.log(g3);
 
 var g4 = {
