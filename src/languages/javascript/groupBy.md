@@ -31,4 +31,4 @@ console.log(g4);
 ```
 
 - <https://www.youtube.com/shorts/L6btUQ8mDZo>
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy>
