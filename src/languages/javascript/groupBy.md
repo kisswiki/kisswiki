@@ -32,3 +32,4 @@ console.log(g4);
 
 - <https://www.youtube.com/shorts/L6btUQ8mDZo>
 - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy>
+- <https://stackoverflow.com/questions/14446511/most-efficient-method-to-groupby-on-an-array-of-objects>
