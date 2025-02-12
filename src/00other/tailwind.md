@@ -13,6 +13,13 @@ Mixing of Concerns is a design methodology whereby "concerns" of various kinds a
 
 <https://x.com/htmx_org/status/1843830823113634132>
 
+## Links
+
+- https://github.com/luckasRanarison/tailwind-tools.nvim
+- [Watching Tailwind Tutorials Is A Waste Of Time | Web Dev Simplified](https://youtu.be/Ksn1tThNTjI)
+- [Tailwind Is Ugly Code But.... | ThePrimeTime](https://youtu.be/t-eR4hA7obg)
+  - https://boot-and-shoe.vercel.app/posts/skeptics-guide-to-tailwind
+
 ## using tailwindcss from cdn and directives like @apply
 
 This will work only with style in the same file as html
