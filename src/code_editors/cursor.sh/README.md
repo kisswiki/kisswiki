@@ -12,4 +12,12 @@ Then do:
 
 And restart Cursor with quit and reopen.
 
-https://forum.cursor.sh/t/key-down-repeat-with-vim-extension/1581/3
+<https://forum.cursor.sh/t/key-down-repeat-with-vim-extension/1581/3>
+
+## AI
+
+- <https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/>
+  - <https://news.ycombinator.com/item?id=43094006>
+- <https://ghuntley.com/stdlib/>
+- <https://github.com/eastlondoner/cursor-tools>
+- <https://github.com/cline/cline>
