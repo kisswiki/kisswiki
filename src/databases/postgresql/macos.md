@@ -1,13 +1,14 @@
-```
+```shell
 brew install postgres
 brew services start postgresql
+# or createdb dating_app
 psql postgres -c "CREATE ROLE graylangur LOGIN PASSWORD 'g12345'"
 psql postgres -c "CREATE DATABASE graylangur WITH OWNER = graylangur"
 ```
 
 load service with plist instead of brew services:
 
-```
+```shell
 brew ls --verbose postgres | grep plist
 launchctl load path/to/plist
 ```
