@@ -4,6 +4,8 @@ brew services start postgresql
 # or createdb dating_app
 psql postgres -c "CREATE ROLE graylangur LOGIN PASSWORD 'g12345'"
 psql postgres -c "CREATE DATABASE graylangur WITH OWNER = graylangur"
+psql dating_app < database/schema.sql
+psql dating_app < database/seed.sql
 ```
 
 load service with plist instead of brew services:
