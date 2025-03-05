@@ -21,7 +21,7 @@ $ pkg upgrade
 # then run again
 # $ pkg upgrade
 # Don't use apt or apt-get, but use pkg instead
-# <https://github.com/termux/termux-app/issues/1802#issuecomment-716877183>
+# https://github.com/termux/termux-app/issues/1802#issuecomment-716877183
 $ pkg install openssh
 $ pkg install rsync
 $ sshd
