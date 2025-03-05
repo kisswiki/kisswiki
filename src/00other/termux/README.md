@@ -1,12 +1,12 @@
 ## Use version from F-Droid
 
-- https://github.com/termux/termux-app/issues/2067
-- https://stackoverflow.com/questions/67647518/i-want-to-ask-how-to-fix-this-termux-repository/68881710#68881710
-- https://github.com/termux/termux-packages/wiki/Package-Management#package-command-errors
+- <https://github.com/termux/termux-app/issues/2067>
+- <https://stackoverflow.com/questions/67647518/i-want-to-ask-how-to-fix-this-termux-repository/68881710#68881710>
+- <https://github.com/termux/termux-packages/wiki/Package-Management#package-command-errors>
 
 ## Youtube downloader
 
-https://github.com/rofrol/termux-yt-dlp
+<https://github.com/rofrol/termux-yt-dlp>
 
 ## ssh server and rsync
 
@@ -37,12 +37,12 @@ $ ip -j route get 8.8.8.8 | jq -r '.[] | select(length>0) | .prefsrc'
 
 ## Links
 
-- https://android.stackexchange.com/questions/218354/-ow-do-i-access-home-storage-outside-of-termux-with-a-file-explorer
-- https://www.reddit.com/r/termux/comments/ga5bcd/bug_tasker_plugin/
-- https://www.reddit.com/r/termux/comments/cbttkm/-ermission_denied_when_trying_to_enter_folder/
-- https://wiki.termux.com/wiki/Internal_and_external_storage
-- https://wiki.termux.com/wiki/FAQ
-- https://wiki.termux.com/wiki/Package_Management
-- https://wiki.termux.com/wiki/Termux-setup-storage
-- https://wiki.termux.com/wiki/Termux:API
-- https://github.com/termux/termux-packages/wiki/Package-Management#package-command-errors
+- <https://android.stackexchange.com/questions/218354/-ow-do-i-access-home-storage-outside-of-termux-with-a-file-explorer>
+- <https://www.reddit.com/r/termux/comments/ga5bcd/bug_tasker_plugin/>
+- <https://www.reddit.com/r/termux/comments/cbttkm/-ermission_denied_when_trying_to_enter_folder/>
+- <https://wiki.termux.com/wiki/Internal_and_external_storage>
+- <https://wiki.termux.com/wiki/FAQ>
+- <https://wiki.termux.com/wiki/Package_Management>
+- <https://wiki.termux.com/wiki/Termux-setup-storage>
+- <https://wiki.termux.com/wiki/Termux:API>
+- <https://github.com/termux/termux-packages/wiki/Package-Management#package-command-errors>

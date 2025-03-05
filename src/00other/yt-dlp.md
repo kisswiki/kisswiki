@@ -1,3 +1,7 @@
+##
+
+> I recommend using the app called "userland" for android way better and it has various Linux os <https://github.com/termux/termux-app/issues/2067#issuecomment-2302754719>
+
 ## Install on windows, linux
 
 Somehow version installed with pip reported older version with `youtube-dl --version`.
