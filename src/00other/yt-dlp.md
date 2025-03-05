@@ -1,3 +1,5 @@
+## termux from Google Play works now
+
 ##
 
 > I recommend using the app called "userland" for android way better and it has various Linux os <https://github.com/termux/termux-app/issues/2067#issuecomment-2302754719>
