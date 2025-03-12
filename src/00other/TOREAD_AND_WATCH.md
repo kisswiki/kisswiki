@@ -48,7 +48,7 @@
 - [ ] [The danger of a distracted life | Zach Highley](https://youtu.be/QnbmNqX7OC4)
 - [ ] [How To ABSORB TEXTBOOKS Like A Sponge | Matt DiMaio](https://youtu.be/nqYmmZKY4sA)o
 - [ ] [A Full Guide To Reinvent Your Life (In 6-12 Months) | Dan Koe](https://youtu.be/EdrNo3w_EWc)
-- [ ] [How to Make HIGH QUALITY Anki Flashcards With AI (Low Effort) | Jake Romm ](https://youtu.be/5vh_bWsztPc)
+- [ ] [How to Make HIGH QUALITY Anki Flashcards With AI (Low Effort) | Jake Romm](https://youtu.be/5vh_bWsztPc)
 - [ ] [3-Minute Mental Hack to Take Control of Your Subconscious | Colin Galen](https://youtu.be/zHECSAdJjTQ)
 - [ ] [How to Train Yourself to Visualize Anything (6 Simple Tips & Habits) | Colin Galen](https://youtu.be/p4xFVJTyJZg)
 - [ ] [Unlocking Your Intuition: How to Solve Hard Problems Easily | Colin Galen](https://youtu.be/1f6N2UrCK6o)
@@ -100,30 +100,30 @@
 
 ## Misc
 
-- https://www.youtube.com/watch?v=F21ujn_6YSA
-- https://www.youtube.com/watch?v=mJj45i-P3Cs
-- https://www.youtube.com/watch?v=prMuDIiFyC4
-- https://www.youtube.com/watch?v=aQDOU3hPci0
-- https://www.youtube.com/watch?v=1O_BenficgE
-- https://www.youtube.com/watch?v=fMk1BOptVUs
-- https://www.youtube.com/watch?v=QmOF0crdyRU
-- https://www.youtube.com/watch?v=ygyiM0Ctibo
-- https://www.youtube.com/watch?v=dUjWMdR_Kw8
-- https://www.youtube.com/watch?v=REjATuWa5TY
-- https://www.youtube.com/watch?v=eFJGyT3C-Y0
-- https://www.youtube.com/watch?v=cKrxP44Gp_0
-- https://www.youtube.com/watch?v=AhPm8pv6dEs
-- https://www.youtube.com/watch?v=gSQoA4SYhJY
-- https://www.youtube.com/watch?v=gh2m0dj_lFk
-- https://www.youtube.com/watch?v=hJZ5v7dpKKM
-- https://www.youtube.com/watch?v=HDre_o2qz1o
-- https://www.youtube.com/watch?v=_yZiNnQftxU
-- https://www.youtube.com/watch?v=gwUz3E9AW0w
-- https://www.youtube.com/watch?v=IDB_3S1ezsc
-- https://www.youtube.com/watch?v=b0zxIfJJLAY
-- https://www.youtube.com/watch?v=31k6O2nQgHg
-- https://www.youtube.com/watch?v=6hHifp9kpW4
-- https://www.youtube.com/watch?v=poc4ctbnDYA
+- <https://www.youtube.com/watch?v=F21ujn_6YSA>
+- <https://www.youtube.com/watch?v=mJj45i-P3Cs>
+- <https://www.youtube.com/watch?v=prMuDIiFyC4>
+- <https://www.youtube.com/watch?v=aQDOU3hPci0>
+- <https://www.youtube.com/watch?v=1O_BenficgE>
+- <https://www.youtube.com/watch?v=fMk1BOptVUs>
+- <https://www.youtube.com/watch?v=QmOF0crdyRU>
+- <https://www.youtube.com/watch?v=ygyiM0Ctibo>
+- <https://www.youtube.com/watch?v=dUjWMdR_Kw8>
+- <https://www.youtube.com/watch?v=REjATuWa5TY>
+- <https://www.youtube.com/watch?v=eFJGyT3C-Y0>
+- <https://www.youtube.com/watch?v=cKrxP44Gp_0>
+- <https://www.youtube.com/watch?v=AhPm8pv6dEs>
+- <https://www.youtube.com/watch?v=gSQoA4SYhJY>
+- <https://www.youtube.com/watch?v=gh2m0dj_lFk>
+- <https://www.youtube.com/watch?v=hJZ5v7dpKKM>
+- <https://www.youtube.com/watch?v=HDre_o2qz1o>
+- <https://www.youtube.com/watch?v=_yZiNnQftxU>
+- <https://www.youtube.com/watch?v=gwUz3E9AW0w>
+- <https://www.youtube.com/watch?v=IDB_3S1ezsc>
+- <https://www.youtube.com/watch?v=b0zxIfJJLAY>
+- <https://www.youtube.com/watch?v=31k6O2nQgHg>
+- <https://www.youtube.com/watch?v=6hHifp9kpW4>
+- <https://www.youtube.com/watch?v=poc4ctbnDYA>
 - [ ] [How long does it take to "Learn to Code"? | Mr Sports](https://youtu.be/nUqwvfXMs0U)
 - [ ] [How I Routinely Study With a Full Time Job when I'm TIRED | Hoop Reports](https://youtu.be/ifZWcPXDyFc)
 - [ ] [Functional Programming in 40 Minutes • Russ Olsen • GOTO 2018 | Hoop Reports](https://youtu.be/0if71HOyVjY)
@@ -199,3 +199,24 @@
 - [ ] [The Real Reason You Never Follow Through (And How to Fix It) | POD HARDCORE FAN](https://youtu.be/0hePvDEOZYs)
 - [ ] [1994 Intern Question #1: Rectangle Copy | POD HARDCORE FAN](https://youtu.be/ielZBraKsw8)
 - [ ] [I'm Not Masculine Enough | POD HARDCORE FAN](https://youtu.be/bbvz4j-oPrM)
+- [ ] [When Life Hurts, Care Less About It | The Philosophy of Marcus Aurelius | Einzelgänger](https://youtu.be/LGXRpbDuDGE)
+- [ ] [the hidden truth behind our declining attention spans | The Book Leo](https://youtu.be/aDfeOvUZ7Kk)
+- [ ] [5 Habits that Destroy Your Productivity | HealthyGamerGG](https://youtu.be/Pa51EGS7Hnc)
+- [ ] [I burned out. Here's how I recovered. | Thomas Frank](https://youtu.be/T8SpvrWNL6E)
+- [ ] [Train Your Brain to Think Like a Genius | The Math Sorcerer](https://youtu.be/-1g7koF4PaE)
+- [ ] [Masterclass: AI-driven Development for Programmers | Fireship](https://youtu.be/iO1mwxPNP5A)
+- [ ] [If You're Feeling Overwhelmed Watch This | HealthyGamerGG](https://youtu.be/7VfSCQnGfk4)
+- [ ] [Have We Forgotten How To Program?? | Prime Reacts | ThePrimeTime](https://youtu.be/NmHUjxKpD90)
+- [ ] [Problem-Solving for Developers - A Beginner's Guide | Fireship](https://youtu.be/UFc-RPbq8kg)
+- [ ] [Dr. K, How Do I Focus? | HealthyGamerGG](https://youtu.be/BZPRX9X5V5I)
+- [ ] [Learn to Code Without Burning Out: How I Did It | James Cross](https://youtu.be/4bAZXEjxDDE)
+- [ ] [This is Why You're Living Life on Autopilot | HealthyGamerGG](https://youtu.be/aEGukyCsHMg)
+- [ ] [How To Get Into Software | Prime Reacts | ThePrimeTime](https://youtu.be/ijQvgERWKjA)
+- [ ] [How to get rich as a solo software developer - The Ultimate Guide | Fireship](https://youtu.be/A4_TFHzqAAg)
+- [ ] [My Bleeding Edge Tech Stack for 2025 | Fireship](https://youtu.be/rFP7rUYtOOg)
+- [ ] [Build an API SaaS using Next.js, Prisma, Stripe in under an hour (Get paid for your API) | Roman](https://youtu.be/Vk5owoZRvO4)
+- [ ] [How to Start to Find Purpose in Your Life | HealthyGamerGG](https://youtu.be/TGGwCG6AFz4)
+- [ ] [Software Engineering Anxiety | Prime Reacts | ThePrimeTime](https://youtu.be/D1sGvTU-sZU)
+- [ ] [How To Never Get A Job | ThePrimeTime](https://youtu.be/YFhxQ8kmJw0)
+- [ ] [The Most Amazing Software Ever Created | ThePrimeTime](https://youtu.be/QwUPs5N9I6I)
+- [ ] [Stop Being A JR Software Engineer | Prime Reacts | ThePrimeTime](https://youtu.be/ztZphO13iIY)
