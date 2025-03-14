@@ -1,4 +1,4 @@
-If root.std_options.page_size_min is not null accessing std.heap.page_size_min results in the error: expected optional type, found 'usize'.
+If std_options.page_size_min is not null accessing std.heap.page_size_min results in the error: expected optional type, found 'usize'.
 
 To summarize: With comptime known values the right side of `orelse` is not evaluated. This is why value `orelse @compileError(...)` is possible, since if both sides would be evaluated this would always be a compile error. Now if value is comptime known to be not null, the type of `value orelse expr_that_is_not_evaluated` is the type of `value`, but without the optional. This is why `?usize orelse ?usize` has the type `usize`. Because `?usize orelse ?usize orelse @compilerError` is evaluated as `(?usize orelse ?usize) orelse @compilerError` and the type  of `?usize orelse ?usize` is `usize`, this error is expected, since `usize` is not an optional.
 
