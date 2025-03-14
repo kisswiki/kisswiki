@@ -18,7 +18,7 @@ const page_size_min_default: ?usize;
 
 `?usize orelse ?usize orelse @compilerError` -> `(?usize orelse ?usize) orelse @compilerError` -> `usize orelse @compilerError`
 
-`?usize orelse (?usize orelse @compilerError)` -> `?usize orelse @compilerError`
+`?usize orelse (?usize orelse @compilerError)`
 
 - <https://discord.com/channels/605571803288698900/1346095127441178644>
 - <https://github.com/ziglang/zig/pull/23043/files>
