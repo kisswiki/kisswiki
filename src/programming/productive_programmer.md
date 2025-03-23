@@ -27,4 +27,5 @@
 8. wiki <https://www.reddit.com/r/learnprogramming/comments/5pgq5r/comment/dcrfra0/>
 9. John from <https://SimpleProgrammer.com> advises to master at least on langauge <https://www.reddit.com/r/learnprogramming/comments/5pgq5r/comment/dcs86kg/>
 10. Simple-Programmer-PEAK-PERFORMANCE-HABITS-FOR-SOFTWARE-DEVELOPERS.pdf from <https://SimpleProgrammer.com>
+    - SMART goals… specific, measurable, achievable, realistic, and time bound...
 11. <https://understandlegacycode.com/first-aid-kit/>
