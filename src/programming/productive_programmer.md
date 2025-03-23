@@ -4,4 +4,4 @@
 3. żebym pamiętał składnię języka, jej bibliotekę standardową, inne biblioteki, jak działa dany framework - abym mógł szybko pisać bez przeszukiwania
 4. żebym miał w głowie 20 algorytmów, 10 struktur danych i 5 podejść <https://x.com/ChShersh/status/1875179438599807183>
     - [A&DS S01E01. Algorithms. Time complexity. Merge sort. | Pavel Mavrin](https://youtu.be/oWgLjhM-6XE)
-    - brilliant poleca Algorytmy bez tajemnic - Thomas H. Cormen <https://brilliant.org/wiki/computer-programming-resources-for-beginners/>
+    - <https://brilliant.org> poleca Algorytmy bez tajemnic - Thomas H. Cormen <https://brilliant.org/wiki/computer-programming-resources-for-beginners/>
