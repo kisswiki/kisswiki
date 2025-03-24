@@ -5,7 +5,11 @@
 4. żebym miał w głowie 20 algorytmów, 10 struktur danych i 5 podejść <https://x.com/ChShersh/status/1875179438599807183>
     - [A&DS S01E01. Algorithms. Time complexity. Merge sort. | Pavel Mavrin](https://youtu.be/oWgLjhM-6XE)
     - <https://brilliant.org> poleca Algorytmy bez tajemnic - Thomas H. Cormen <https://brilliant.org/wiki/computer-programming-resources-for-beginners/>
-    - from Primeagen <https://frontendmasters.com/courses/algorithms>
+    - from Primeagen:
+      - <https://frontendmasters.com/courses/algorithms>
+      - <https://frontendmasters.com/courses/advanced-algorithms/>
+      - <https://frontendmasters.com/courses/blazingly-fast-js/>
+    - <https://eloquentjavascript.net/>
 5. keep notes <https://www.reddit.com/r/learnprogramming/comments/5pgq5r/comment/dcrdkhf/>
     <details>
       <summary>keep notes of the things I do</summary>
@@ -28,4 +32,35 @@
 9. John from <https://SimpleProgrammer.com> advises to master at least on langauge <https://www.reddit.com/r/learnprogramming/comments/5pgq5r/comment/dcs86kg/>
 10. Simple-Programmer-PEAK-PERFORMANCE-HABITS-FOR-SOFTWARE-DEVELOPERS.pdf from <https://SimpleProgrammer.com>
     - SMART goals… specific, measurable, achievable, realistic, and time bound...
+    <details>
+      <summary>TURN SYSTEMS INTO HABITS</summary>
+
+      Czy cały czas się wahasz?
+
+      Chcesz wiedzieć, dlaczego tak trudno jest uzyskać wyniki?
+
+      Chcesz szybciej uzyskać długoterminowe wyniki?
+
+      Widzisz, większość programistów po prostu spędza swój dzień losowo...
+
+      Kodują przez 30 minut... a potem sprawdzają Facebooka przez 40 minut.
+
+      Odpisują na e-mail... a potem sprawdzają najnowsze wiadomości.
+
+      A potem wysyłają zabawne memy na Slacku. A potem narzekają znajomym na kierowników projektów (tych z dyplomami z Computer Science, którzy nigdy nie napisali ani jednej linijki kodu)...
+
+      Nic dziwnego, że tak wielu programistów pracuje po godzinach.
+
+      Cały dzień to jedno rozproszenie po drugim. Nie ma w tym żadnego prawdziwego procesu.
+
+      Więc pod koniec dnia jesteś sfrustrowany i zestresowany — próbując wcisnąć wszystkie swoje priorytetowe obowiązki.
+
+      Co sprawia, że zastanawiasz się...
+
+      „Czy jestem tak dobry, jak mówię? I dlaczego nie mogę dostarczać wyników szybciej?”
+
+      Brzmi znajomo?
+
+      PEAK PERFORMANCE HABITS FOR SOFTWARE DEVELOPERS: The 7 Simple Habits I Developed To Become A 7 Figure Developer - John Z. Sonmez
+    </details>
 11. <https://understandlegacycode.com/first-aid-kit/>
