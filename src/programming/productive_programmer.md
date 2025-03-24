@@ -28,9 +28,9 @@
 
     Generally I just memorize things I think I will use for many years to come or concepts that are tough for me to fully grasp. I actually enjoy using the flash cards a lot and it really turns on my brain to do a round before coding.
     </details>
-8. wiki <https://www.reddit.com/r/learnprogramming/comments/5pgq5r/comment/dcrfra0/>
-9. John from <https://SimpleProgrammer.com> advises to master at least on langauge <https://www.reddit.com/r/learnprogramming/comments/5pgq5r/comment/dcs86kg/>
-10. Simple-Programmer-PEAK-PERFORMANCE-HABITS-FOR-SOFTWARE-DEVELOPERS.pdf from <https://SimpleProgrammer.com>
+7. wiki <https://www.reddit.com/r/learnprogramming/comments/5pgq5r/comment/dcrfra0/>
+8. John from <https://SimpleProgrammer.com> advises to master at least on language <https://www.reddit.com/r/learnprogramming/comments/5pgq5r/comment/dcs86kg/>
+9. Simple-Programmer-PEAK-PERFORMANCE-HABITS-FOR-SOFTWARE-DEVELOPERS.pdf from <https://SimpleProgrammer.com>
     - SMART goals… specific, measurable, achievable, realistic, and time bound...
     <details>
       <summary>TURN SYSTEMS INTO HABITS</summary>
@@ -63,4 +63,4 @@
 
       PEAK PERFORMANCE HABITS FOR SOFTWARE DEVELOPERS: The 7 Simple Habits I Developed To Become A 7 Figure Developer - John Z. Sonmez
     </details>
-11. <https://understandlegacycode.com/first-aid-kit/>
+10. <https://understandlegacycode.com/first-aid-kit/>
