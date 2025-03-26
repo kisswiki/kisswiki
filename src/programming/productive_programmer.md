@@ -29,7 +29,7 @@
     Generally I just memorize things I think I will use for many years to come or concepts that are tough for me to fully grasp. I actually enjoy using the flash cards a lot and it really turns on my brain to do a round before coding.
     </details>
 7. wiki <https://www.reddit.com/r/learnprogramming/comments/5pgq5r/comment/dcrfra0/>
-8. John from <https://SimpleProgrammer.com> advises to master at least on language <https://www.reddit.com/r/learnprogramming/comments/5pgq5r/comment/dcs86kg/>
+8. John from <https://SimpleProgrammer.com> advises to master at least one language <https://www.reddit.com/r/learnprogramming/comments/5pgq5r/comment/dcs86kg/>
 9. Simple-Programmer-PEAK-PERFORMANCE-HABITS-FOR-SOFTWARE-DEVELOPERS.pdf from <https://SimpleProgrammer.com>
     - SMART goals… specific, measurable, achievable, realistic, and time bound...
     <details>
