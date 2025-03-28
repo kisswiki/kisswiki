@@ -1,6 +1,6 @@
 `zig fmt` tries to upgrade code to current zig version.
 
-Open bugs https://github.com/ziglang/zig/labels/zig%20fmt
+Open bugs <https://github.com/ziglang/zig/labels/zig%20fmt>
 
 ## Bug 1
 
@@ -20,7 +20,7 @@ const DAYS_IN_MONTH = [12]u8{
 
 This is a bug. Put a closing brace in the next line as a workaround:
 
-```
+```zig
 const DAYS_IN_MONTH = [12]u8{
     31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
 };
@@ -74,4 +74,4 @@ g_w1
 
 you can define a custom format method on tokens to make it print even better if you want
 
-https://github.com/ziglang/zig/blob/master/lib/std/net.zig#L148
+[`posix.AF.INET6 => self.in6.setPort(port)`](https://github.com/ziglang/zig/blob/master/lib/std/net.zig#L148)
