@@ -61,7 +61,8 @@ or
 
 `defaults write com.apple.finder AppleShowAllFiles YES`
 
-<https://discussions.apple.com/thread/7581737?answerId=7581737021&sortBy=rank#7581737021>
+- <https://discussions.apple.com/thread/7581737?answerId=7581737021&sortBy=rank#7581737021>
+- <https://apple.stackexchange.com/questions/302954/permanently-enable-to-show-hidden-system-files-when-searching-in-finder>
 
 ## Show all filename extensions
 
@@ -75,4 +76,4 @@ or
 
 Drag with option key
 
-https://www.reddit.com/r/MacOS/comments/1b2y8i6/moving_a_folder_over_a_folder_with_the_same_name/
+<https://www.reddit.com/r/MacOS/comments/1b2y8i6/moving_a_folder_over_a_folder_with_the_same_name/>
