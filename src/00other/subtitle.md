@@ -155,7 +155,10 @@ Run from terminal: `mkvextract tracks <your_mkv_video> <track_numer>:<subtitle_f
 
 Use `mkvinfo` to get information about tracks.
 
-<https://askubuntu.com/questions/452268/extract-subtitle-from-mkv-files>
+If the mkvinfo shows for subtitles: Codec ID: S_HDMV/PGS, change extension to sup and convert to srt with <https://pgs-to-srt.com/>
+
+- <https://askubuntu.com/questions/452268/extract-subtitle-from-mkv-files>
+- To translate srt subtitles to other language <https://translatesubtitles.co>
 
 ## napiprojekt
 
