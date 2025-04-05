@@ -66,3 +66,13 @@ or
 ## Show all filename extensions
 
 `Finder > Settings > Advanced > Show all filename extensions`
+
+## Keep directories on top
+
+`Settings > Advanced > Keep folders on top > In windows when sorting by name`
+
+## Merge directories
+
+Drag with option key
+
+https://www.reddit.com/r/MacOS/comments/1b2y8i6/moving_a_folder_over_a_folder_with_the_same_name/
