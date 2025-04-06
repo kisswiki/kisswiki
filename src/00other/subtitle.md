@@ -157,6 +157,8 @@ Use `mkvinfo` to get information about tracks.
 
 If the mkvinfo shows for subtitles: Codec ID: S_HDMV/PGS, change extension to sup and convert to srt with <https://pgs-to-srt.com/>
 
+- for S_VOBSUB: `mkvextract tracks file.mkv 3:track3` will produce track3.idx and track3.sub. Convert to srt with <https://subtitletools.com>.
+
 - <https://askubuntu.com/questions/452268/extract-subtitle-from-mkv-files>
 - To translate srt subtitles to other language <https://translatesubtitles.co>
 
