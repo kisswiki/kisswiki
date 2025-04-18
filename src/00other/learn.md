@@ -1,5 +1,5 @@
-- https://devfreebooks.github.io/
-- http://warsztatywww.pl/
+- <https://devfreebooks.github.io/>
+- <http://warsztatywww.pl/>
 
 ## Feynman's technique
 
@@ -8,7 +8,15 @@
 3. Identify problem areas, then go back to the sources to review.
 4. Pinpoint any complicated terms and challenge yourself to simplify them.
 
-https://www.youtube.com/watch?v=_f-qkGJBPts&lc=UgyOO5P5sf5B8eE4zvV4AaABAg
+<https://www.youtube.com/watch?v=_f-qkGJBPts&lc=UgyOO5P5sf5B8eE4zvV4AaABAg>
+
+## building toy versions of programs
+
+One of the most ridiculously effective ways of learning for me is building toy versions of programs. This is slightly more specific than “to learn to code, code”: I claim that you can learn more by spending a week building your own very bad version of an application from scratch that you’d learn from working full-time for a year on a production ready codebase. Case in point: although the code in this post is lifted from TigerBeetle, and I’ve been working with it for a couple of years, I’ve learned a bunch of new things myself in the evening of hacking on the code for the post.
+
+The hard part about the toy problem approach is finding the right toy! I remember, early in my career, spending about a year pestering everything with “what is your favorite model problem?” question, and not getting a real answer. Until one day @zmacter asked “have you tried a raytracer?” and that became my model problem for learning programming languages. Seriously, if you want to learn Zig, go write yourself a raytracer, I have some notes for that here.
+
+https://matklad.github.io/2025/03/19/comptime-zig-orm.html
 
 ## Why Gifted Kids Are Actually Special Needs
 
@@ -25,4 +33,4 @@ Ukończyłem studia licencjackie, ukończyłem studia magisterskie i teraz robi�
 
 Uczenie się, jak radzić sobie z porażkami, jak zacząć od nowa, jak się zmagać i jak faktycznie się czegoś nauczyć, to jedyne ważne rzeczy, których może nas nauczyć szkoła.
 
-https://www.youtube.com/watch?v=QUjYy4Ksy1E
+<https://www.youtube.com/watch?v=QUjYy4Ksy1E>
