@@ -16,7 +16,7 @@ One of the most ridiculously effective ways of learning for me is building toy v
 
 The hard part about the toy problem approach is finding the right toy! I remember, early in my career, spending about a year pestering everything with “what is your favorite model problem?” question, and not getting a real answer. Until one day @zmacter asked “have you tried a raytracer?” and that became my model problem for learning programming languages. Seriously, if you want to learn Zig, go write yourself a raytracer, I have some notes for that here.
 
-https://matklad.github.io/2025/03/19/comptime-zig-orm.html
+<https://matklad.github.io/2025/03/19/comptime-zig-orm.html>
 
 ## Why Gifted Kids Are Actually Special Needs
 
