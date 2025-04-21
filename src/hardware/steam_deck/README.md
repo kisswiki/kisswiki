@@ -40,6 +40,7 @@ or
 0. unplug
 1. Press and hold the power button for 15 seconds to ensure the unit is completely powered off.
 2. Hold the volume (-) button and the QAM (three dots) button together. While holding these, press the power button once.
+3. wait
 
 - https://steamcommunity.com/app/1675200/discussions/0/4358995818048874100/
 - https://www.reddit.com/r/SteamDeck/comments/1heefl0/steam_deck_black_screen_fix_it_worked_for_me/
