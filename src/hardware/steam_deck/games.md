@@ -14,7 +14,9 @@
 
 ## Minecraft
 
-In prism settings add Java 21, needed for minecraft 1.21.5
+Java 21, needed for minecraft 1.21.5: `Prism > Settings > Java > Management > Download > Mojang > 21.0.3 > Download`
+
+Error: The tasks failed. Failed urls. Solution: close other minecraft instance.
 
 Fabulously Optimized modpack: `Desktop Mode > Discover > Prism Launcher > Install` then `Add Instance > window will open and on the left click Curseforge > select Fabulously Optimized > Ok`. <https://fabulously-optimized.gitbook.io/modpack/readme/install-instructions#steam-deck>
 
