@@ -3,6 +3,7 @@
   - no homebrew package
 - <https://github.com/superhighfives/pika>
   - shows wrong color #88d0f8 instead of #6fd2fc <https://github.com/superhighfives/pika/issues/102#issuecomment-2131170460>
+    - `Settings > Color Format > sRGB IEC61966-2.1`
 - <https://alternativeto.net/software/pika/>
 - <https://github.com/ripeworks/iro>
 - in figma.com press i for color picker
