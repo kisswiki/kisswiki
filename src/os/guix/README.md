@@ -1,7 +1,7 @@
-- https://bitbucket.org/julien1001/guix-packages
-- https://www.gnu.org/software/guix/blog/2018/a-packaging-tutorial-for-guix/
+- <https://bitbucket.org/julien1001/guix-packages>
+- <https://www.gnu.org/software/guix/blog/2018/a-packaging-tutorial-for-guix/>
 - `./pre-inst-env guix` [Re: Guix packaging tutorial with hand holding](https://lists.gnu.org/archive/html/help-guix/2019-05/msg00496.html)
-- temporary place for videos https://archive.org/details/guix-videos
+- temporary place for videos <https://archive.org/details/guix-videos>
 
 ## pin
 
@@ -13,24 +13,24 @@ Right. You can pin it by running something like
 
 in a git checkout that still has conqueror.
 
-https://lists.gnu.org/archive/html/help-guix/2019-06/msg00021.html
+<https://lists.gnu.org/archive/html/help-guix/2019-06/msg00021.html>
 
 ## Guix matters
 
-- https://gitlab.com/ambrevar/ambrevar.gitlab.io/tree/master/source/guix-matters
-  - https://lists.gnu.org/archive/html/help-guix/2020-01/msg00002.html
-  - https://ambrevar.xyz/guix-matters
-  - https://www.reddit.com/r/GUIX/comments/esdhui/why_gnu_guix_matters/
+- <https://gitlab.com/ambrevar/ambrevar.gitlab.io/tree/master/source/guix-matters>
+  - <https://lists.gnu.org/archive/html/help-guix/2020-01/msg00002.html>
+  - <https://ambrevar.xyz/guix-matters>
+  - <https://www.reddit.com/r/GUIX/comments/esdhui/why_gnu_guix_matters/>
 
 ## Linux kernel with non-free firmware
 
-- https://gitlab.com/nonguix/nonguix
+- <https://gitlab.com/nonguix/nonguix>
 
 ## Tutorials
 
-- https://zge.us.to/guix.html
-  - https://www.reddit.com/r/linux/comments/dkm7u4/attempting_to_use_gnu_guix/
-  - https://www.reddit.com/r/GUIX/comments/dkq2zr/attempting_to_use_gnu_guix/
+- <https://zge.us.to/guix.html>
+  - <https://www.reddit.com/r/linux/comments/dkm7u4/attempting_to_use_gnu_guix/>
+  - <https://www.reddit.com/r/GUIX/comments/dkq2zr/attempting_to_use_gnu_guix/>
 
 ## Some package does not build anymore
 
@@ -38,7 +38,7 @@ I'm not familiar with the fenics package, but presumably it built just fine when
 
 They don't do this for every package update, but for larger disruptive changes they do try to minimize breakage. As a small volunteer project though, they do tolerate some broken packages to avoid grinding development to a halt.
 
-https://www.reddit.com/r/GUIX/comments/dkq2zr/attempting_to_use_gnu_guix/f4kcsbz/
+<https://www.reddit.com/r/GUIX/comments/dkq2zr/attempting_to_use_gnu_guix/f4kcsbz/>
 
 ## Links
 
@@ -64,11 +64,11 @@ https://www.reddit.com/r/GUIX/comments/dkq2zr/attempting_to_use_gnu_guix/f4kcsbz
 - [Skribilo User Manual](http://www.nongnu.org/skribilo/doc/user-3.html#skribe-syntax)
 - [guix-users/guix-nonfree: Unofficial collection of packages that are not going to be accepted in to guix](https://github.com/guix-users/guix-nonfree)
 - [Post your custom free and non free channels! : GUIX](https://www.reddit.com/r/GUIX/comments/d22ve3/post_your_custom_free_and_non_free_channels/)
-- [BIMSBbioinfo/guix-bimsb-nonfree: GNU Guix package definitions for proprietary software, or software with unclear licenses.](https://github.com/BIMSBbioinfo/- guix-bimsb-nonfree)
-- [thomassgn/guixsd-configuration: Configuration files for GuixSD. @ e8404bd617547b41d57bceaaa880ca8109360e03 - NotABug.org: Free code hosting](https://notabug.org/- thomassgn/guixsd-configuration/src/e8404bd617547b41d57bceaaa880ca8109360e03/modules/linux-nonfree.scm)
+- [BIMSBbioinfo/guix-bimsb-nonfree: GNU Guix package definitions for proprietary software, or software with unclear licenses.](<https://github.com/BIMSBbioinfo/-> guix-bimsb-nonfree)
+- [thomassgn/guixsd-configuration: Configuration files for GuixSD. @ e8404bd617547b41d57bceaaa880ca8109360e03 - NotABug.org: Free code hosting](<https://notabug.org/-> thomassgn/guixsd-configuration/src/e8404bd617547b41d57bceaaa880ca8109360e03/modules/linux-nonfree.scm)
 - [Installing Guix as a Complete GNU/Linux System - System Crafters](https://systemcrafters.cc/craft-your-system-with-guix/full-system-install/)
 - [Guix: A most advanced operating system](https://ambrevar.xyz/guix-advance/)
-- [Is it possible to run only specific non-free firmware with the libre-kernel? : GUIX](https://www.reddit.com/r/GUIX/comments/nvvfdq/- is_it_possible_to_run_only_specific_nonfree/)
+- [Is it possible to run only specific non-free firmware with the libre-kernel? : GUIX](<https://www.reddit.com/r/GUIX/comments/nvvfdq/-> is_it_possible_to_run_only_specific_nonfree/)
 - [Why GNU Guix matters](https://ambrevar.xyz/guix-matters/index.html)
 - [Solene'% : Extend Guix Linux with the nonguix repository](https://dataswamp.org/~solene/2021-05-27-guix-non-free.html)
 - [Issues · Nonguix / nonguix · GitLab](https://gitlab.com/nonguix/nonguix/-/issues)
@@ -94,11 +94,11 @@ https://www.reddit.com/r/GUIX/comments/dkq2zr/attempting_to_use_gnu_guix/f4kcsbz
 - [Best way to do declarative package management - Learn - NixOS Discourse](https://discourse.nixos.org/t/best-way-to-do-declarative-package-management/7920)
 - [guix-users/guix-nonfree: Unofficial collection of packages that are not going to be accepted in to guix](https://github.com/guix-users/guix-nonfree)
 - [Post your custom free and non free channels! : GUIX](https://www.reddit.com/r/GUIX/comments/d22ve3/post_your_custom_free_and_non_free_channels/)
-- [BIMSBbioinfo/guix-bimsb-nonfree: GNU Guix package definitions for proprietary software, or software with unclear licenses.](https://github.com/BIMSBbioinfo/- guix-bimsb-nonfree)
-- [thomassgn/guixsd-configuration: Configuration files for GuixSD. @ e8404bd617547b41d57bceaaa880ca8109360e03 - NotABug.org: Free code hosting](https://notabug.org/- thomassgn/guixsd-configuration/src/e8404bd617547b41d57bceaaa880ca8109360e03/modules/linux-nonfree.scm)
+- [BIMSBbioinfo/guix-bimsb-nonfree: GNU Guix package definitions for proprietary software, or software with unclear licenses.](<https://github.com/BIMSBbioinfo/-> guix-bimsb-nonfree)
+- [thomassgn/guixsd-configuration: Configuration files for GuixSD. @ e8404bd617547b41d57bceaaa880ca8109360e03 - NotABug.org: Free code hosting](<https://notabug.org/-> thomassgn/guixsd-configuration/src/e8404bd617547b41d57bceaaa880ca8109360e03/modules/linux-nonfree.scm)
 - [Installing Guix as a Complete GNU/Linux System - System Crafters](https://systemcrafters.cc/craft-your-system-with-guix/full-system-install/)
 - [Guix: A most advanced operating system](https://ambrevar.xyz/guix-advance/)
-- [Is it possible to run only specific non-free firmware with the libre-kernel? : GUIX](https://www.reddit.com/r/GUIX/comments/nvvfdq/- is_it_possible_to_run_only_specific_nonfree/)
+- [Is it possible to run only specific non-free firmware with the libre-kernel? : GUIX](<https://www.reddit.com/r/GUIX/comments/nvvfdq/-> is_it_possible_to_run_only_specific_nonfree/)
 - [Why GNU Guix matters](https://ambrevar.xyz/guix-matters/index.html)
 - [Solene'% : Extend Guix Linux with the nonguix repository](https://dataswamp.org/~solene/2021-05-27-guix-non-free.html)
 - [Issues · Nonguix / nonguix · GitLab](https://gitlab.com/nonguix/nonguix/-/issues)
