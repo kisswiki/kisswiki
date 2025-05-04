@@ -5,4 +5,4 @@ emacs +1508 file
 emacs +1508:32 file
 ```
 
-https://stackoverflow.com/questions/3139970/open-a-file-at-line-with-filenameline-syntax
+<https://stackoverflow.com/questions/3139970/open-a-file-at-line-with-filenameline-syntax>
