@@ -15,6 +15,8 @@ I have used uv to install openai: `uv add ipykernel openai`.
 
 I have run `uv venv`. Also in `windsurf > cmd+shift+p > Jupyter: Select Interpreter to Start Jupyter Server` and selected one in `.venv`.
 
+Or maybe it was `Notebook: Select Notebook Kernel`.
+
 I have hardcoded api key:
 
 ```python
