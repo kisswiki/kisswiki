@@ -13,4 +13,4 @@ I have added billing information for invoice <https://platform.openai.com/settin
 
 I have used uv to install openai: `uv add ipykernel openai`.
 
-I have run `uv venv`. Also in `windsurf > cmd+shift+p > Jupyter: Select Interpreter to Start Jupyter Server` and selected one in `.venv.`.
+I have run `uv venv`. Also in `windsurf > cmd+shift+p > Jupyter: Select Interpreter to Start Jupyter Server` and selected one in `.venv`.
