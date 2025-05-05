@@ -10,7 +10,7 @@ sidebar.revamp false
 
 Hide native horizontal tabs <https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/hide_tabs_toolbar.css>
 
-Also <https://addons.mozilla.org/en-US/firefox/addon/open-tabs-next-to-current/>
+`Sideberry > Settings > Tabs > Position of new tab > Place new tab (general rule): after active tab`
 
 Width of sidebar in userChrome.css
 
