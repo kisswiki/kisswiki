@@ -1,5 +1,11 @@
 - <https://apple.stackexchange.com/questions/4699/how-to-set-to-open-folder-with-enter-in-finder>
 
+## cut and paste
+
+copy cmd_c, paste with cmd+opt+v
+
+## Select multiple files and folders and finder offers to move to new folder
+
 ## Copy path and paste path
 
 `cmd+option+c` to copy
@@ -66,7 +72,7 @@ or
 
 ## Show all filename extensions
 
-`Finder > Settings > Advanced > Show all filename extensions`
+`Finder > Settings > Advanced > Show all filename extensionsFinder > Settings > Advanced > Show all filename extensions`
 
 ## Keep directories on top
 
