@@ -83,3 +83,7 @@ or
 Drag with option key
 
 <https://www.reddit.com/r/MacOS/comments/1b2y8i6/moving_a_folder_over_a_folder_with_the_same_name/>
+
+## Open folder in ghostty or other terminal
+
+`right click in breadcrumbs > services > open in new tab in ghostty`
