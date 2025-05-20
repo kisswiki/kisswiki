@@ -6,6 +6,10 @@ to open file press space and e or f
 
 to quit press space and q
 
+to collapse selections press `$`
+
+to collapse cursors press `alt+i` which is scroll
+
 ## Tutorial <https://ki-editor.github.io/ki-editor/docs/tutorial/>
 
 ### Change the first two word
