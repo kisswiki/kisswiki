@@ -2,13 +2,13 @@
 
 to select character press E <https://github.com/ki-editor/ki-editor/issues/649>
 
-to open file press space and e or f
+to open file press `space e` or `space f`
 
-to quit press space and q
+to quit press `space q`
 
 to collapse selections press `$`
 
-to collapse cursors press `alt+i` which is scroll
+to collapse cursors press `alt+i` (scroll)
 
 ## Tutorial <https://ki-editor.github.io/ki-editor/docs/tutorial/>
 
