@@ -4,13 +4,15 @@ to open help press `alt+m`
 
 to select character press E <https://github.com/ki-editor/ki-editor/issues/649>
 
-to open file press `space e` or `space f`
+to open file press `Space e` or `Space f`
 
-to quit press `space q`
+to quit press `Space q`
 
 to collapse selections press `$`
 
 to collapse cursors press `alt+i` (scroll)
+
+to save file press `Enter` in normal mode or `Space s`
 
 ## Tutorial <https://ki-editor.github.io/ki-editor/docs/tutorial/>
 
