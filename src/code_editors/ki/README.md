@@ -1,5 +1,7 @@
 # Read me
 
+to open help press `alt+m`
+
 to select character press E <https://github.com/ki-editor/ki-editor/issues/649>
 
 to open file press `space e` or `space f`
