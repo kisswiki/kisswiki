@@ -23,3 +23,5 @@ to quit press space and q
 ### Invert nesting (JSX)
 
 `shift+c` pastes over selected text, and copies what was replaced.
+
+Like normal pasting in vim https://stackoverflow.com/questions/25267062/after-pasting-a-yanked-line-in-vim-why-cant-i-paste-it-again
