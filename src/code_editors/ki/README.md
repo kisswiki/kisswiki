@@ -22,7 +22,7 @@ to save file press `Enter` in normal mode or `Space s`
 
 ### Raise / Replace parent node with current node
 
-`shit+t` can also be done with `t` followed by `i`
+`Shit+t` can also be done with `t` followed by `i`
 
 ### Remove all sibling nodes except the current node
 
@@ -30,6 +30,20 @@ to save file press `Enter` in normal mode or `Space s`
 
 ### Invert nesting (JSX)
 
-`shift+c` pastes over selected text, and copies what was replaced.
+`Shift+c` pastes over selected text, and copies what was replaced.
 
 Like normal pasting in vim <https://stackoverflow.com/questions/25267062/after-pasting-a-yanked-line-in-vim-why-cant-i-paste-it-again>
+
+### Select from current selection until end of line
+
+$ is collapse direction end.
+
+```rust
+            Keymap::new(
+                "$",
+                Direction::End.format_action("Collapse selection"),
+                Dispatch::ToEditor(DispatchEditor::CollapseSelection(Direction::End)),
+            ),
+```
+
+so in this example, `f a $` will leave selection at `bar spam`. Because it was `f` (extend)?

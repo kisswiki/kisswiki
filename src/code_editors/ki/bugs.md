@@ -2,6 +2,8 @@
 
 Cannot save with `space s` when help mode with `alt+m` displayed.
 
+How to display keymap_actions (from code source)?
+
 ## Bugs in documentation
 
 ### Why Ki? <https://ki-editor.github.io/ki-editor/docs/pitch/>
@@ -51,3 +53,9 @@ Why Vim `u` Vim `ctrl+r` and not Vim `u` `ctrl+r`?
 #### Repeat last non-contigous selection mode
 
 No Vim equivalent
+
+### Components
+
+#### File Explorer
+
+To add a folder, append / to the file name -> To add a folder, append / to the path
