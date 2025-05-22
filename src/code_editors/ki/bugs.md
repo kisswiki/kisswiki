@@ -4,6 +4,8 @@ Cannot save with `space s` when help mode with `alt+m` displayed.
 
 How to display keymap_actions (from code source)?
 
+When opening file explorer with space+e, and there was query done, how to clear query?
+
 ## Bugs in documentation
 
 ### Why Ki? <https://ki-editor.github.io/ki-editor/docs/pitch/>
