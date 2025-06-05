@@ -14,6 +14,8 @@ to collapse cursors press `alt+i` (scroll)
 
 to save file press `Enter` in normal mode or `Space s`
 
+to undo press `z`, to redo press `shift+z`
+
 ## Tutorial <https://ki-editor.github.io/ki-editor/docs/tutorial/>
 
 ### Change the first two word
