@@ -4,7 +4,7 @@ to open help press `alt+m`
 
 to select character press E <https://github.com/ki-editor/ki-editor/issues/649>
 
-to open file press `Space e` or `Space f`, you can search with `q`.
+to open file press `Space e` and search with `q`. Or `Space f` which has completion.
 
 to quit press `Space q`
 
