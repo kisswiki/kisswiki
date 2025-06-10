@@ -99,3 +99,11 @@ export class TableComponent implements OnInit, AfterViewInit {
   });
 }
 ```
+
+## Syntax*
+
+<https://github.com/ki-editor/ki-editor/issues/659>
+
+but d does not select whole expression. It selects hello.world().foo().bar().spam().
+
+Also after that, i does not shrinks the selections but enlarges it.
