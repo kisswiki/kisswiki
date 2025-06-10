@@ -61,3 +61,35 @@ No Vim equivalent
 #### File Explorer
 
 To add a folder, append / to the file name -> To add a folder, append / to the path
+
+## Navigate named sibling nodes via Next/Previous movement
+
+When on 2nd line, `private readonly http ...` and selecting node with `d`, then selecting more with `i` until whole line selected.
+You cannot go to next right node with `l`, only to beta with `.`. Then you can go with `j` or `l`, but when you reach this same line,
+it blocks and you cannot select next node.
+
+Also it strangely jumps when pressing `l` from line starting with `events` to line starting with comment `// Events ...`.
+But going back from this line with `j`, goes to all previous nodes.
+
+```typescript
+export class TableComponent implements OnInit, AfterViewInit {
+  private readonly http = inject(HttpClient);
+  dataSource = new MatTableDataSource<Container>();
+  shipments: string[] = [];
+  events: string[] = []; // all events for reference
+  backendData: BackendEventData[] = [];
+
+  // Events available under current carrier/shipment filters (used for iteration)
+  filteredEvents = computed(() => {
+    const carrier = this.selectedCarrier();
+    const shipment = this.selectedShipment();
+
+    const relevant = this.dataSource.data.filter((c: Container) => {
+      const matchCarrier = !carrier || c.carrier === carrier;
+      const matchShipment = !shipment || c.shipment === shipment;
+      return matchCarrier && matchShipment;
+    });
+    return [...new Set(relevant.map((c: Container) => c.event))];
+  });
+}
+```
