@@ -64,11 +64,15 @@ To add a folder, append / to the file name -> To add a folder, append / to the p
 
 ## Navigate named sibling nodes via Next/Previous movement
 
+<https://github.com/ki-editor/ki-editor/issues/658>
+
 <https://ki-editor.github.io/ki-editor/docs/normal-mode/selection-modes/primary/>
 
 When on 2nd line, `private readonly http ...` and selecting node with `d`, then selecting more with `i` until whole line selected.
 You cannot go to next right node with `l`, only to beta with `.`. Then you can go with `j` or `l`, but when you reach this same line,
 it blocks and you cannot select next node.
+
+I can work around this with switching to fine node select with `shift+d`, then pressing `i` to select line and then going to next node with `l`. But it is worse as it selects `;` and other elements.
 
 Also it strangely jumps when pressing `l` from line starting with `events` to line starting with comment `// Events ...`.
 But going back from this line with `j`, goes to all previous nodes.
