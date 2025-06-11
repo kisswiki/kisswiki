@@ -1,5 +1,26 @@
 ##
 
+The article touches on this very briefly, but IMO a lot of the blame for Rust’s reputation for slow compilation rests on the shoulders of Cargo and crates.io.
+
+In a typical C/C++ project the build system works by taking each source file (*.c*.cc) and executing a compiler process to convert that source file into object code. This is inherently scalable to very large amounts of CPU cores – a big C++ project will happily run hundreds of gcc processes at once. The only real scalability limit is RAM, because you can shard the compilation but you can’t shard ld.
+
+In Rust the unit of compilation isn’t source files, it’s libraries (“crates”) – you run one rustc per library, it spits out metadata and object code, and if you change one source file then you have to recompile the entire library. This implies that the natural translation from C++ to Rust would have each Rust project consist of dozens or hundreds of small libraries, and indeed if you structure a Rust project that way then the compilation is as fast or faster than C.
+
+However, the Rust project’s official build system (Cargo) and official package registry (crates.io) are in practice incompatible with this approach:
+
+- Cargo projects map 1:1 with libraries. Each Cargo.toml describes a set of source files to compile together; if you want to have your big project split into hundreds of compilation units then you’ll need a hundred Cargo.toml files. Unlike C/C++ build systems there’s generally no wildcarding, you can’t say “generate a virtual Cargo.toml for each *.rs in this directory”, so the practical upper limit is a structure like that of Cranelift.
+- Cargo has a thing called “features”, where libraries higher up in the dependency tree can alter the compilation settings of their dependencies. This inhibits reuse of compiled outputs – in C you can have Bazel (etc) share object code outputs of low-level libraries regardless of which higher-level targets are being built, but Cargo features turn the tree upside-down and make lower-level targets depend on the definition of higher-level targets. This also means that a per-user object code cache (ala Bazel’s --disk-cache) isn’t of much use, the cache hit rate for Cargo is too low.
+- crates.io requires a separate package registration for each library. If you have a C project like GLib with hundreds of compilation units in it, it’s still just a single package and single tarball. Cargo and crates.io do not work like this – using Cranelift as an example again, each Cargo.toml corresponds to a separate crates.io package, which in principle has its own version, independent dependency sets, maintainers, and so on. The burden of maintaining a multi-library package on crates.io is overwhelmingly larger than the C/C++ equivalent.
+- Cargo doesn’t support remote build execution, so larger projects are limited to the hardware of a single machine. That’s why running Cargo in CI sucks so much, you can’t just point your build at a swarm of beefy build machines.
+- Cargo doesn’t support downloading dependencies via HTTP(S) except via a registry – non-registry dependencies must be obtained via Git (sloooow!) or pre-fetched and placed at some file path hardcoded into the Cargo.toml.
+
+I think if the Bazel/Buck/Pants approach was more visible to Rust maintainers, and they got to experience what it’s like to build a truly large project in ~10s and run the full test suite in ~30s, then they would take a step back and look at Cargo and ask themselves “what the hell are we doing here?”.
+
+- <https://lobste.rs/s/hrk5y5/why_doesn_t_rust_care_more_about_compiler#c_49b29s>
+- <https://x.com/HSVSphere/status/1932421880449052700>
+
+##
+
 @pdgiddie
 4 months ago
 Rust is almost as bad as this point. Compile time is just as long, and a significant portion of development time is spent thinking about language semantics instead of the actual problem you're trying to solve. This kind of context switching is devastating to productivity.
@@ -10,7 +31,7 @@ Rust is almost as bad as this point. Compile time is just as long, and a signifi
 
 1. It is not "just as long", it can be way faster, do you have any objective metrics?
 
-+ Compile times says nothing per se.
+- Compile times says nothing per se.
 
 2. "a significant portion of dev time is spent thinking about language semantics instead of (...)" What exactly do you mean?
 You are literally always thinking in the problem you are solving, you are saying something with virtually zero meaning. The language semantics cannot be segregated from the problem solving, if you are solving something in C you solve with C semantics, you deal with C problems and consequences, if you do in C#, the same, in Zig, the same, and in Rust is not different.
@@ -60,10 +81,10 @@ Rust hasn't killed anything. The language is barely used in industry and only us
 
 ##
 
-+ <https://lobste.rs/s/g9ob2p/unsafe_rust_is_harder_than_c>
-+ [Why do developers hate Rust? | Let's Get Rusty](https://youtu.be/fknamfNtKk0)
+- <https://lobste.rs/s/g9ob2p/unsafe_rust_is_harder_than_c>
+- [Why do developers hate Rust? | Let's Get Rusty](https://youtu.be/fknamfNtKk0)
 
-+ [Rust is a hard way to make a web API - macwright.com](https://macwright.com/2021/01/15/rust.html)
+- [Rust is a hard way to make a web API - macwright.com](https://macwright.com/2021/01/15/rust.html)
 
 > You can obtain similar quality in a C modern code-base, using tools like static and dynamic analyzers. In fact, today the hardest issues came from multi-threading. I won't even dare to write multi-threading apps without helgrind/TSAN.
 > And Rust doesn't help in this regard. From: <https://doc.rust-lang.org/nomicon/races.html> 'So it's perfectly "fine" for a Safe Rust program to get deadlocked or do something incredibly stupid with incorrect synchronization.'
@@ -89,13 +110,13 @@ There are a few workarounds, but all of them are less ergonomic than any mainstr
 
 I like Rust so far, but there's a few things I think aren't true:
 
-+ That Rust is only harder because it enforces 'correctness.' It certainly is harder because it enforces correctness, but it's also harder because of how. I'm not saying there's a better approach to this, but I think a lot of people are implying that there isn't, and I don't think that's a safe assumption. I think that we could find ways to make equally memory-safe languages that go about enforcing safety in entirely different manners than with ownership and lifetime semantics.
+- That Rust is only harder because it enforces 'correctness.' It certainly is harder because it enforces correctness, but it's also harder because of how. I'm not saying there's a better approach to this, but I think a lot of people are implying that there isn't, and I don't think that's a safe assumption. I think that we could find ways to make equally memory-safe languages that go about enforcing safety in entirely different manners than with ownership and lifetime semantics.
 
-+ In fact, the entire idea that Rust enforces correctness. Only if your definition of 'correctness' to be memory-safety, but I would normally define 'correctness' to include rigorous mathematical proofs. Rust's safety guarantees are often accidentally blown out of proportion; they mainly aid in preventing security and concurrency bugs, but only a certain class of each. This is still useful, but this caveat really needs to be in your face more often, as a lot of people will not mention it when touting the benefits of Rust, and beginners can get easily confused about what exactly Rust prevents you from doing.
+- In fact, the entire idea that Rust enforces correctness. Only if your definition of 'correctness' to be memory-safety, but I would normally define 'correctness' to include rigorous mathematical proofs. Rust's safety guarantees are often accidentally blown out of proportion; they mainly aid in preventing security and concurrency bugs, but only a certain class of each. This is still useful, but this caveat really needs to be in your face more often, as a lot of people will not mention it when touting the benefits of Rust, and beginners can get easily confused about what exactly Rust prevents you from doing.
 
-+ The idea that Rust's approach is always worth the trade-offs. Go is another programming language I like, and there are definitely things that are simply easier to write in Go with few disadvantages. Fearless concurrency is a wonderful feature, but for embarrassingly parallel problems like, often, web servers, where each thread is usually independent in terms of mutable state, Go works wonderfully. It also lets you shoot yourself in the foot in a way that Rust wouldn't, but often for a lot of simpler apps it still ends up being easier.
+- The idea that Rust's approach is always worth the trade-offs. Go is another programming language I like, and there are definitely things that are simply easier to write in Go with few disadvantages. Fearless concurrency is a wonderful feature, but for embarrassingly parallel problems like, often, web servers, where each thread is usually independent in terms of mutable state, Go works wonderfully. It also lets you shoot yourself in the foot in a way that Rust wouldn't, but often for a lot of simpler apps it still ends up being easier.
 
-+ The idea that solving the compiler errors makes you understand the problems correctly. For example, you could always just clone memory at every occasion, return the input instead of borrowing, etc. In fact, these things might be easier for a beginner to do. There will probably be a ton of Rust anti-patterns that come about from trying to resolve compiler errors.
+- The idea that solving the compiler errors makes you understand the problems correctly. For example, you could always just clone memory at every occasion, return the input instead of borrowing, etc. In fact, these things might be easier for a beginner to do. There will probably be a ton of Rust anti-patterns that come about from trying to resolve compiler errors.
 
 <https://news.ycombinator.com/item?id=16202373>
 
@@ -109,10 +130,10 @@ Blow: And so Rust has a good set of ingredients there. The problem that I have w
 
 "Go is the result of C programmers designing a new programming language, and Rust is the result of C++ programmers designing a new programming language"
 
-+ C: 0.73 new features per year, measured by the number of bullet points in the C11 article on Wikipedia which summarizes the changes from C99, adjusted to account for the fact that C18 introduced no new features.
-+ Go: 2 new features per year, measured by the number of new features listed on the Wikipedia summary of new Go versions.
-+ C++: 11.3 new features per year, measured by the number of bullet points in the C++17 article which summarizes the changes from C++14.
-+ Rust: 15 new features per year, measured by the number of headers in the release notes of major Rust versions over the past year, minus things like linters.
+- C: 0.73 new features per year, measured by the number of bullet points in the C11 article on Wikipedia which summarizes the changes from C99, adjusted to account for the fact that C18 introduced no new features.
+- Go: 2 new features per year, measured by the number of new features listed on the Wikipedia summary of new Go versions.
+- C++: 11.3 new features per year, measured by the number of bullet points in the C++17 article which summarizes the changes from C++14.
+- Rust: 15 new features per year, measured by the number of headers in the release notes of major Rust versions over the past year, minus things like linters.
 
 ##
 
@@ -194,18 +215,18 @@ For years Rust slowly boiled in its own poor compile times, not realizing how ba
 
 Looking at some of these in retrospect, I am tempted to think that “well, of course Rust must have feature foo", and it's true that Rust would be a completely different language without many of these features. However, language designs are tradeoffs and none of these were predestined to be part of Rust.
 
-+ Borrowing — Rust's defining feature. Its sophisticated pointer analysis spends compile-time to make run-time safe.
-+ Monomorphization — Rust translates each generic instantiation into its own machine code, creating code bloat and increasing compile time.
-+ Stack unwinding — stack unwinding after unrecoverable exceptions traverses the callstack backwards and runs cleanup code. It requires lots of compile-time book-keeping and code generation.
-+ Build scripts — build scripts allow arbitrary code to be run at compile-time, and pull in their own dependencies that need to be compiled. Their unknown side-effects and unknown inputs and outputs limit assumptions tools can make about them, which e.g. limits caching opportunities.
-+ Macros — macros require multiple passes to expand, expand to often surprising amounts of hidden code, and impose limitations on partial parsing. Procedural macros have negative impacts similar to build scripts.
-+ LLVM backend — LLVM produces good machine code, but runs relatively slowly.
-+ Relying too much on the LLVM optimizer — Rust is well-known for generating a large quantity of LLVM IR and letting LLVM optimize it away. This is exacerbated by duplication from monomorphization.
-+ Split compiler/package manager — although it is normal for languages to have a package manager separate from the compiler, in Rust at least this results in both cargo and rustc having imperfect and redundant information about the overall compilation pipeline. As more parts of the pipeline are short-circuited for efficiency, more metadata needs to be transferred between instances of the compiler, mostly through the filesystem, which has overhead.
-+ Per-compilation-unit code-generation — rustc generates machine code each time it compiles a crate, but it doesn't need to — with most Rust projects being statically linked, the machine code isn't needed until the final link step. There may be efficiencies to be achieved by completely separating analysis and code generation.
-+ Single-threaded compiler — ideally, all CPUs are occupied for the entire compilation. This is not close to true with Rust today. And with the original compiler being single-threaded, the language is not as friendly to parallel compilation as it might be. There are efforts going into parallelizing the compiler, but it may never use all your cores.
-+ Trait coherence — Rust's traits have a property called “coherence”, which makes it impossible to define implementations that conflict with each other. Trait coherence imposes restrictions on where code is allowed to live. As such, it is difficult to decompose Rust abstractions into, small, easily-parallelizable compilation units.
-+ Tests next to code — Rust encourages tests to reside in the same codebase as the code they are testing. With Rust's compilation model, this requires compiling and linking that code twice, which is expensive, particularly for large crates.
+- Borrowing — Rust's defining feature. Its sophisticated pointer analysis spends compile-time to make run-time safe.
+- Monomorphization — Rust translates each generic instantiation into its own machine code, creating code bloat and increasing compile time.
+- Stack unwinding — stack unwinding after unrecoverable exceptions traverses the callstack backwards and runs cleanup code. It requires lots of compile-time book-keeping and code generation.
+- Build scripts — build scripts allow arbitrary code to be run at compile-time, and pull in their own dependencies that need to be compiled. Their unknown side-effects and unknown inputs and outputs limit assumptions tools can make about them, which e.g. limits caching opportunities.
+- Macros — macros require multiple passes to expand, expand to often surprising amounts of hidden code, and impose limitations on partial parsing. Procedural macros have negative impacts similar to build scripts.
+- LLVM backend — LLVM produces good machine code, but runs relatively slowly.
+- Relying too much on the LLVM optimizer — Rust is well-known for generating a large quantity of LLVM IR and letting LLVM optimize it away. This is exacerbated by duplication from monomorphization.
+- Split compiler/package manager — although it is normal for languages to have a package manager separate from the compiler, in Rust at least this results in both cargo and rustc having imperfect and redundant information about the overall compilation pipeline. As more parts of the pipeline are short-circuited for efficiency, more metadata needs to be transferred between instances of the compiler, mostly through the filesystem, which has overhead.
+- Per-compilation-unit code-generation — rustc generates machine code each time it compiles a crate, but it doesn't need to — with most Rust projects being statically linked, the machine code isn't needed until the final link step. There may be efficiencies to be achieved by completely separating analysis and code generation.
+- Single-threaded compiler — ideally, all CPUs are occupied for the entire compilation. This is not close to true with Rust today. And with the original compiler being single-threaded, the language is not as friendly to parallel compilation as it might be. There are efforts going into parallelizing the compiler, but it may never use all your cores.
+- Trait coherence — Rust's traits have a property called “coherence”, which makes it impossible to define implementations that conflict with each other. Trait coherence imposes restrictions on where code is allowed to live. As such, it is difficult to decompose Rust abstractions into, small, easily-parallelizable compilation units.
+- Tests next to code — Rust encourages tests to reside in the same codebase as the code they are testing. With Rust's compilation model, this requires compiling and linking that code twice, which is expensive, particularly for large crates.
 
 <https://pingcap.com/blog/rust-compilation-model-calamity/>
 
@@ -227,7 +248,7 @@ If you do not want to expose the lifetime information in the interface, you need
 
 ##
 
-+ <https://www.reddit.com/r/rust/comments/4o6nd7/problem_in_rust_adoption/>
+- <https://www.reddit.com/r/rust/comments/4o6nd7/problem_in_rust_adoption/>
 
 ##
 
@@ -261,9 +282,9 @@ PS: I’m no longer surprised at Rust’s slow compiles times, this type of “b
 
 ##
 
-+ Theo - t3․gg [Don't Learn Rust - YouTube](https://www.youtube.com/watch?v=kOFWIvNowXo)
-+ Rust - being a human GC <https://mobile.twitter.com/_JamesWard/status/1622843275605590017>
-+ Why would we not choose Rust again? Slower iterations. When you first start with Rust, you’ll end up fighting the compiler a bit. This is natural and gets easier over time. However, at a new startup, one of the core problems is to figure out if you are building something useful. A quick MVP can be invaluable in determining if you are on the right path or lost in the woods. All that time spent making readable, performant code might be wasted. Additionally, every new employee that isn’t familiar with Rust will run into this. You’ll either need to prioritize Rust experience when hiring or get good at training people. <https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again> <https://news.ycombinator.com/item?id=34835631>
+- Theo - t3․gg [Don't Learn Rust - YouTube](https://www.youtube.com/watch?v=kOFWIvNowXo)
+- Rust - being a human GC <https://mobile.twitter.com/_JamesWard/status/1622843275605590017>
+- Why would we not choose Rust again? Slower iterations. When you first start with Rust, you’ll end up fighting the compiler a bit. This is natural and gets easier over time. However, at a new startup, one of the core problems is to figure out if you are building something useful. A quick MVP can be invaluable in determining if you are on the right path or lost in the woods. All that time spent making readable, performant code might be wasted. Additionally, every new employee that isn’t familiar with Rust will run into this. You’ll either need to prioritize Rust experience when hiring or get good at training people. <https://www.propelauth.com/post/i-love-building-a-startup-in-rust-i-wouldnt-pick-it-again> <https://news.ycombinator.com/item?id=34835631>
 
 ##
 
