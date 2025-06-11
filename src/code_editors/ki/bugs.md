@@ -107,3 +107,11 @@ export class TableComponent implements OnInit, AfterViewInit {
 but d does not select whole expression. It selects hello.world().foo().bar().spam().
 
 Also after that, i does not shrinks the selections but enlarges it.
+
+## different all 3 keymaps -> different all 3 keymaps
+
+in <https://ki-editor.github.io/ki-editor/docs/normal-mode/selection-modes/secondary/#initialization>
+
+## In this case, we need t -> In this case, we need to
+
+<https://ki-editor.github.io/ki-editor/docs/normal-mode/selection-modes/secondary/#repeat>
