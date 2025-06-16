@@ -18,3 +18,4 @@ const result = await query(queryText, [page * size, size]);
 - <https://stackoverflow.com/questions/59619956/pagination-and-filtering-on-a-very-large-table-in-postgresql-keyset-pagination>
 - <https://stackoverflow.com/questions/53280333/javascript-postgres-db-how-to-use-a-prepared-statement-with-an-array-as-para>
 - <https://readyset.io/blog/optimizing-sql-pagination-in-postgres>
+- <https://node-postgres.com/features/queries#parameterized-query>
