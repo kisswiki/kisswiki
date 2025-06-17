@@ -186,8 +186,6 @@ you even if you aren't looking for them
 there you have it a photo that will
 dramatically improve your manifestation
 results
-that said there's an even faster way to
-manifest your dreams
 
 <https://www.youtube.com/watch?v=h9_gwvtCnKM>
 
