@@ -1,0 +1,20 @@
+I’ve never really talked about this publicly, but I feel like someone out there probably needs to hear it. A few years ago, i hit what felt like absolute rock bottom. Not just a bad week or a rough patch, this was the full collapse. Anxiety, burnout, financial stress, deep emotional exhaustion. I felt stuck, like life was moving for everyone else except me. And every ‘positive mindset’ video told me the same things: stay grateful, think light, raise your vibration. I tried all of it, forced smiles, affirmations, visualizations, but it all felt hollow, nothing really changed.
+
+It wasn’t until I stopped pretending that things actually started to shift. One night, after feeling completely drained, i just sat with it all. The heaviness, the frustration, the sadness, i let it move through me without trying to fix it or fight it. And then it hit me: all of that emotion I’d been running from… it wasn’t wrong, it was energy. Unprocessed, raw energy that i could work with instead of push away.
+
+That’s when things slowly started changing. I began to experiment, not by chasing positivity, but by turning those deeper emotions into momentum. I used discomfort to move, fear to prepare, uncertainty to clarify, i wasn’t trying to be peaceful, i was becoming powerful, and weirdly, that’s when my life started aligning.
+
+Recently i came across a book called Manifestation with Dark Energy by Dante Malrick, and honestly, it felt like someone had written my journey out before i even knew how to put it into words. It’s not about pretending everything’s fine, it’s about turning what you’ve survived into strength. Not everyone will connect with it, but if you’ve ever felt like the usual self help advice just doesn’t fit your experience, this book might actually speak to you. I found it through Wisdom Bookshelf, just stumbled on it and yeah, i’m glad i did
+
+<https://www.youtube.com/watch?v=jvHimO85vtI&lc=UgwU_Zf1HVOA1bxVufV4AaABAg>
+
+Nigdy tak naprawdę nie mówiłem o tym publicznie, ale czuję, że ktoś tam pewnie potrzebuje to usłyszeć. Kilka lat temu znalazłem się na absolutnym dnie. To nie był tylko zły tydzień czy trudniejszy okres, to był całkowity upadek. Lęk, wypalenie, stres finansowy, głębokie emocjonalne wyczerpanie. Czułem się uwięziony, jakby życie toczyło się dla wszystkich innych, tylko nie dla mnie. Każdy filmik o „pozytywnym nastawieniu” mówił to samo: bądź wdzięczny, myśl pozytywnie, podnieś swoje wibracje. Próbowałem wszystkiego, wymuszonych uśmiechów, afirmacji, wizualizacji, ale to wszystko wydawało się puste, nic się naprawdę nie zmieniało.
+
+Dopiero gdy przestałem udawać, coś zaczęło się zmieniać. Pewnej nocy, czując się całkowicie wyczerpany, po prostu usiadłem z tym wszystkim. Z ciężarem, frustracją, smutkiem, pozwoliłem, by to przez mnie przepływało, bez prób naprawiania czy walki z tym. I wtedy to do mnie dotarło: wszystkie te emocje, przed którymi uciekałem… one nie były złe, to była energia. Nieprzetworzona, surowa energia, z którą mogłem pracować, zamiast ją odpychać.
+
+Wtedy rzeczy zaczęły się powoli zmieniać. Zacząłem eksperymentować, nie goniąc za pozytywnością, ale przekuwając te głębsze emocje w motywację. Wykorzystywałem dyskomfort, by działać, strach, by się przygotować, niepewność, by uzyskać jasność. Nie próbowałem być spokojny, stawałem się silny, i, co dziwne, wtedy moje życie zaczęło się układać.
+
+Niedawno natknąłem się na książkę „Manifestation with Dark Energy” autorstwa Dantego Malricka i szczerze, czułem, jakby ktoś opisał moją podróż, zanim jeszcze potrafiłem ubrać ją w słowa. Nie chodzi o udawanie, że wszystko jest w porządku, ale o przekształcenie tego, co przetrwałeś, w siłę. Nie każdy się z tym połączy, ale jeśli kiedykolwiek czułeś, że typowe porady samorozwojowe po prostu nie pasują do twoich doświadczeń, ta książka może do ciebie przemówić. Znalazłem ją przez Wisdom Bookshelf, przypadkiem na nią trafiłem i tak, cieszę się, że to zrobiłem.
+
+- <https://www.youtube.com/watch?v=jvHimO85vtI&lc=UgwU_Zf1HVOA1bxVufV4AaABAg>
+- <https://www.reddit.com/r/Manifestation/comments/1kliwpo/after_2_years_of_practicing_manifestation_nothing>
