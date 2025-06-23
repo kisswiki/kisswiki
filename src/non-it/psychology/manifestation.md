@@ -215,6 +215,7 @@ połącz się szczerze z intencją posiadania tego i uwierz, że to otrzymasz,
 jeśli o to poprosisz.
 
 2. Pozbądź się przeszkód
+
 Niestety, prawie zawsze coś będzie stać na drodze do sukcesu.
 Nie powinno Cię to przestraszyć, to po prostu część procesu manifestacji.
 Zwróć uwagę na trzy najczęstsze blokady manifestacji:
@@ -289,4 +290,5 @@ ale to dopiero początek.
 
 Te oznaki pojawią się nawet, jeśli ich nie szukasz.
 
-<https://www.youtube.com/watch?v=h9_gwvtCnKM>
+- <https://www.youtube.com/watch?v=h9_gwvtCnKM>
+- [How to OUTSMART The Game of “Reality” | Nero Knowledge](https://youtu.be/9nt6FBWi2Sg)

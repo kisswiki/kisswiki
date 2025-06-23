@@ -237,3 +237,5 @@
 - [ ] [Reacting to Controversial Opinions of Software Engineers | Fireship](https://youtu.be/goy4lZfDtCE)
 - [ ] [How to -10x Engineer Correctly | ThePrimeTime](https://youtu.be/pHJmmTivG1k)
 - [ ] [Programming a first person shooter from scratch like it's 1995 | jdh](https://youtu.be/fSjc8vLMg8c)
+- [ ] [ThePrimeagen: Programming, AI, ADHD, Productivity, Addiction, and God | Lex Fridman Podcast #461 | Lex Fridman](https://youtu.be/tNZnLkRBYA8)
+- [ ] [The Hidden Art Of Reinventing Yourself - Matthew McConaughey (4K) | Chris Williamson](https://youtu.be/Eu1kHIztT24)
