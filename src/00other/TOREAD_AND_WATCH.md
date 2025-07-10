@@ -239,3 +239,5 @@
 - [ ] [Programming a first person shooter from scratch like it's 1995 | jdh](https://youtu.be/fSjc8vLMg8c)
 - [ ] [ThePrimeagen: Programming, AI, ADHD, Productivity, Addiction, and God | Lex Fridman Podcast #461 | Lex Fridman](https://youtu.be/tNZnLkRBYA8)
 - [ ] [The Hidden Art Of Reinventing Yourself - Matthew McConaughey (4K) | Chris Williamson](https://youtu.be/Eu1kHIztT24)
+- [ ] [60 minutes Flow60 practice | Mike Chang](https://youtu.be/RwaLPJta8IU)
+- [ ] [Focus Toolkit: Tools to Improve Your Focus & Concentration | Huberman Lab Podcast #88 | Andrew Huberman](https://youtu.be/yb5zpo5WDG4)
