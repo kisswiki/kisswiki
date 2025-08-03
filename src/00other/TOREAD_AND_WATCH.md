@@ -241,3 +241,6 @@
 - [ ] [The Hidden Art Of Reinventing Yourself - Matthew McConaughey (4K) | Chris Williamson](https://youtu.be/Eu1kHIztT24)
 - [ ] [60 minutes Flow60 practice | Mike Chang](https://youtu.be/RwaLPJta8IU)
 - [ ] [Focus Toolkit: Tools to Improve Your Focus & Concentration | Huberman Lab Podcast #88 | Andrew Huberman](https://youtu.be/yb5zpo5WDG4)
+- [ ] [Why You Have Love & Relationships All Wrong： Alain De Botton](https://youtu.be/FMnkCoSN3t0)
+- [ ] [Outsmart The “Old” Version Of You That WON’T Let You Go](https://youtu.be/4a73FmcoM5U)
+- [ ] [uploader--Nero Knowledge__playlist--NA__plstidNA__title--You NEED To Be As RICH As Possible To Awaken “God”](https://youtu.be/B3Msjw_HI7k)
