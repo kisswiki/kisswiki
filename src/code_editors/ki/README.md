@@ -2,7 +2,51 @@
 
 to open help press `alt+m`
 
-to select character press E <https://github.com/ki-editor/ki-editor/issues/649>
+```
+1│Press space to toggle alt/shift keys.
+2│╭──────────┬─────────┬────────┬──────────────┬──────────┬───┬───────────────┬──────────┬───────┬──────────┬────────╮
+3││ Search → ┆   Word  ┆  This  ┆ Multi-cursor ┆   Swap   ┆ ∅ ┆    Previous   ┆ ← Insert ┆   ▲   ┆ Insert → ┆  Next  │
+4│├╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌┤
+5││   Line   ┆  Token  ┆ Syntax ┆    Extend    ┆  Open →  ┆ ∅ ┆    Delete →   ┆     ◀    ┆   ▼   ┆     ▶    ┆  Jump  │
+6│├╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌┤
+7││   Undo   ┆ Replace ┆  Copy  ┆    Paste →   ┆ Mark Sel ┆ ∅ ┆ Last Search → ┆  Change  ┆ First ┆   Last   ┆ ⇋ Curs │
+8│╰──────────┴─────────┴────────┴──────────────┴──────────┴───┴───────────────┴──────────┴───────┴──────────┴────────╯
+```
+
+in QWERTY this maps to:
+
+`q Search | w word | e This | r Multi-cursor | t Swap |`
+
+etc.
+
+Press `space` to see additional bindings. You may need to decrease font size to see bottom of help.
+
+from top to bottom it is alt+key, shift+key, single key. So for `w`, it is:
+
+```
+alt+w Config
+shift+w Char
+w Word
+```
+
+```
+ 1│Press space to toggle alt/shift keys.
+ 2│╭──────────┬───────────┬───────────┬──────────────┬───────────┬───┬───────────────┬───────────┬──────────┬───────────┬──────────╮
+ 3││          ┆   Config  ┆           ┆              ┆           ┆ ⌥ ┆     ← Nav     ┆           ┆ Scroll ↑ ┆           ┆   Nav →  │
+ 4││ ← Search ┆    Char   ┆           ┆              ┆   Raise   ┆ ⇧ ┆     ← Curs    ┆ ← Replace ┆   Join   ┆ Replace → ┆  Curs →  │
+ 5││ Search → ┆    Word   ┆    This   ┆ Multi-cursor ┆    Swap   ┆ ∅ ┆    Previous   ┆  ← Insert ┆     ▲    ┆  Insert → ┆   Next   │
+ 6│├╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┤
+ 7││          ┆           ┆           ┆              ┆           ┆ ⌥ ┆               ┆  ← Marked ┆ Scroll ↓ ┆  Marked → ┆  ⇋ Align │
+ 8││   Line*  ┆           ┆  Syntax*  ┆   Transform  ┆   ← Open  ┆ ⇧ ┆    ← Delete   ┆   Dedent  ┆   Break  ┆   Indent  ┆   Index  │
+ 9││   Line   ┆   Token   ┆   Syntax  ┆    Extend    ┆   Open →  ┆ ∅ ┆    Delete →   ┆     ◀     ┆     ▼    ┆     ▶     ┆   Jump   │
+10│├╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┤
+11││          ┆           ┆   Close   ┆    Paste →   ┆           ┆ ⌥ ┆               ┆    Help   ┆          ┆           ┆ ⇋ Window │
+12││   Redo   ┆ Replace # ┆ Replace X ┆    ← Paste   ┆ Mark File ┆ ⇧ ┆ ← Last Search ┆  Change X ┆          ┆           ┆ ⇋ Anchor │
+13││   Undo   ┆  Replace  ┆    Copy   ┆    Paste →   ┆  Mark Sel ┆ ∅ ┆ Last Search → ┆   Change  ┆   First  ┆    Last   ┆  ⇋ Curs  │
+14│╰──────────┴───────────┴───────────┴──────────────┴───────────┴───┴───────────────┴───────────┴──────────┴───────────┴──────────╯
+```
+
+to select character press `shift+w` <https://github.com/ki-editor/ki-editor/issues/649>
 
 to open file press `Space e` and search with `q`. Or `Space f` which has completion.
 
