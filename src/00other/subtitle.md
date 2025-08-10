@@ -68,6 +68,13 @@ Remove forced flag and reorder:
 - `Options > Settings > Video player > Download mpv lib > Download mpv lib` - needed to click this couple of times for it to download it
 - then `Video engine > mpv`
 
+## ass to srt
+
+```
+uv tool install 'pyasstosrt[cli]'
+pyasstosrt export en.ass
+```
+
 ## Download subtitles
 
 - Search subtitles on <https://www.opensubtitles.org>. Choose language, sort by `Downloaded`. Sometimes the most downloaded might be low quality. Look for badges on uploaders. Try with less downloads but from earlier day.

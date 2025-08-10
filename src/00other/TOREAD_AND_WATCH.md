@@ -244,3 +244,8 @@
 - [ ] [Why You Have Love & Relationships All Wrong： Alain De Botton](https://youtu.be/FMnkCoSN3t0)
 - [ ] [Outsmart The “Old” Version Of You That WON’T Let You Go](https://youtu.be/4a73FmcoM5U)
 - [ ] [uploader--Nero Knowledge__playlist--NA__plstidNA__title--You NEED To Be As RICH As Possible To Awaken “God”](https://youtu.be/B3Msjw_HI7k)
+- [ ] [How To Detach And INSTANTLY “Manifest” Anything You Want | Nero Knowledge](https://youtu.be/uRgY58-JmjI)
+- [ ] [Give Me 42 Minutes And You’ll Change Your Frequency Forever | Nero Knowledge](https://youtu.be/JJDhG5VCxOI)
+- [ ] [I’m 30 if youre in your 20s watch this | Infinite Prototype](https://youtu.be/hLbpI4LnNQo)
+- [ ] [Why You're Still Broke (Pain is the Price of Progress – Alex Hormozi) #shorts #alexhormozi #money | Wake Up & Grind](https://youtu.be/null)
+- [ ] [How To Be PAID By “God” | Nero Knowledge](https://youtu.be/hUvRwzxkZ3A)

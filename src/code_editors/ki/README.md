@@ -21,7 +21,7 @@ etc.
 
 Press `space` to see additional bindings. You may need to decrease font size to see bottom of help.
 
-from top to bottom it is alt+key, shift+key, single key. So for `w`, it is:
+from top to bottom it is alt+key, shift+key, single key. So for `w`, it is
 
 ```
 alt+w Config
