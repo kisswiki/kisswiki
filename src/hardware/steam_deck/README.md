@@ -1,27 +1,27 @@
-- https://store.steampowered.com/steamdeck/mygames
-- https://store.steampowered.com/greatondeck/
-- https://www.emudeck.com/
-- https://www.reddit.com/r/SteamDeck/comments/10nq2g6/what_are_some_must_play_games_on_the_steam_deck/
-- https://www.reddit.com/r/SteamDeck/comments/10musuh/best_games_to_own_on_steam_deck_currently/
-- https://store.steampowered.com/account/registerkey
-- playable https://steamdb.info/instantsearch/?range%5BuserScore%5D=93%3A&refinementList%5Boslist%5D%5B0%5D=Steam%20Deck%20Playable
-- verified and playable https://steamdb.info/instantsearch/?refinementList%5Boslist%5D%5B0%5D=Steam%20Deck%20Verified&refinementList%5Boslist%5D%5B1%5D=Steam%20Deck%20Playable
-- https://www.gamingonlinux.com/articles/category/Steam_Deck
+- <https://store.steampowered.com/steamdeck/mygames>
+- <https://store.steampowered.com/greatondeck/>
+- <https://www.emudeck.com/>
+- <https://www.reddit.com/r/SteamDeck/comments/10nq2g6/what_are_some_must_play_games_on_the_steam_deck/>
+- <https://www.reddit.com/r/SteamDeck/comments/10musuh/best_games_to_own_on_steam_deck_currently/>
+- <https://store.steampowered.com/account/registerkey>
+- playable <https://steamdb.info/instantsearch/?range%5BuserScore%5D=93%3A&refinementList%5Boslist%5D%5B0%5D=Steam%20Deck%20Playable>
+- verified and playable <https://steamdb.info/instantsearch/?refinementList%5Boslist%5D%5B0%5D=Steam%20Deck%20Verified&refinementList%5Boslist%5D%5B1%5D=Steam%20Deck%20Playable>
+- <https://www.gamingonlinux.com/articles/category/Steam_Deck>
 - [GameBanana on Twitter: "t3nka's Clarity Graphics Pack for #TheLegendofZeldaBreathoftheWildWiiU by t3nka https://t.co/3bsnm1nKLo #Mods #BotW https://t.co/L1JUSwRLEA" / Twitter](https://twitter.com/GameBanana/status/1239687904475131907)
 - [Steam Deck - ULTIMATE Starter Guide - YouTube](https://www.youtube.com/watch?v=MbpGPqacCos)
-- https://www.reddit.com/r/SteamDeckTricks/
-- https://www.reddit.com/r/SteamDeck/
-- https://www.reddit.com/r/SteamDeckTricks/comments/twulqf/tips_and_tricks_megathread/
-- https://www.reddit.com/r/SteamDeck/comments/w16nio/a_kickstart_guide_of_nonsteam_games_prefixes/
-- https://wagnerstechtalk.com/steamdeck/
-- docks compared https://wagnerstechtalk.com/steamdeck/#Official_Steam_Deck_Docking_Station
-- https://lowcygier.pl/platforma/steam-deck/
-- Games should be run in the default Gaming Mode wherever possible. This is because of a tweak to expose the CPU as 8 cores/8 threads instead of 4 cores/8 threads that are exposed in Desktop Mode. This lets several games pick 6 or 8 threads instead of 4, yielding big gains from SMT (Simultaneous Multithreading) scaling. One can launch Steam in Desktop Mode, and then go to Library, Games and Add a non-Steam game to My Library - once this is done it'll be available in Gaming Mode under Library, Non-Steam Games. https://www.pcgamingwiki.com/wiki/Steam_Deck
-- https://wiki.archlinux.org/title/Steam_Deck
+- <https://www.reddit.com/r/SteamDeckTricks/>
+- <https://www.reddit.com/r/SteamDeck/>
+- <https://www.reddit.com/r/SteamDeckTricks/comments/twulqf/tips_and_tricks_megathread/>
+- <https://www.reddit.com/r/SteamDeck/comments/w16nio/a_kickstart_guide_of_nonsteam_games_prefixes/>
+- <https://wagnerstechtalk.com/steamdeck/>
+- docks compared <https://wagnerstechtalk.com/steamdeck/#Official_Steam_Deck_Docking_Station>
+- <https://lowcygier.pl/platforma/steam-deck/>
+- Games should be run in the default Gaming Mode wherever possible. This is because of a tweak to expose the CPU as 8 cores/8 threads instead of 4 cores/8 threads that are exposed in Desktop Mode. This lets several games pick 6 or 8 threads instead of 4, yielding big gains from SMT (Simultaneous Multithreading) scaling. One can launch Steam in Desktop Mode, and then go to Library, Games and Add a non-Steam game to My Library - once this is done it'll be available in Gaming Mode under Library, Non-Steam Games. <https://www.pcgamingwiki.com/wiki/Steam_Deck>
+- <https://wiki.archlinux.org/title/Steam_Deck>
 
 ## Proton GE
 
-Some games are supported only by https://github.com/GloriousEggroll/proton-ge-custom.
+Some games are supported only by <https://github.com/GloriousEggroll/proton-ge-custom>.
 
 `Desktop mode > Discover > ProtonUp-Qt > install Proton GE beta`
 
@@ -42,17 +42,17 @@ or
 2. Hold the volume (-) button and the QAM (three dots) button together. While holding these, press the power button once.
 3. wait
 
-- https://steamcommunity.com/app/1675200/discussions/0/4358995818048874100/
-- https://www.reddit.com/r/SteamDeck/comments/1heefl0/steam_deck_black_screen_fix_it_worked_for_me/
-- https://www.reddit.com/r/SteamDeck/comments/ugizcn/steam_deck_black_screen_after_update/ 
+- <https://steamcommunity.com/app/1675200/discussions/0/4358995818048874100/>
+- <https://www.reddit.com/r/SteamDeck/comments/1heefl0/steam_deck_black_screen_fix_it_worked_for_me/>
+- <https://www.reddit.com/r/SteamDeck/comments/ugizcn/steam_deck_black_screen_after_update/>
 
 ## Battery life and performance
 
 Limit refresh rate to 40Hz and fps to 40. Limit TDP.
 
-Use Decky Settings https://steamdecklife.com/2023/01/10/decksettings-steam-deck-game-settings/ to see optimal settings for you, either for battery or performance.
+Use Decky Settings <https://steamdecklife.com/2023/01/10/decksettings-steam-deck-game-settings/> to see optimal settings for you, either for battery or performance.
 
-Look at remaining time in 3rd level of Performance Overlay https://www.partitionwizard.com/partitionmanager/steam-deck-fps.html
+Look at remaining time in 3rd level of Performance Overlay <https://www.partitionwizard.com/partitionmanager/steam-deck-fps.html>
 
 - [Steam Deck - 40 FPS is the new 60 - YouTube](https://www.youtube.com/watch?v=ZWZI3CKlByc)
 - [CryoUtilities 2.0 - MASSIVE Performance Boosts & Space Savings! | Steam Deck - YouTube](https://www.youtube.com/watch?v=C9EjXYZUqUs)
@@ -62,12 +62,12 @@ Look at remaining time in 3rd level of Performance Overlay https://www.partition
 
 To get it to work, you have to LOWER the native resolution. It’s 1280x800 I’m pretty sure at standard, so lower that by like two notches to like 1120 x something or lower, hit the 3 dots button, go to performance and scroll to the bottom until You see the option for fsr. It’ll be this bar that has a couple of options, one of them saying “integer” You will know it’s activated when the actual resolution of your screen changes, since FSR is an upscaler. With FSR, I’m able to play way more AAA games like the Witcher 3 at a almost rock solid 60fps. Really awesome shit that people should utilize.
 
-https://www.youtube.com/watch?v=5uQcEyPzia4&lc=UgyLJr11zGd6ufCEHNR4AaABAg
+<https://www.youtube.com/watch?v=5uQcEyPzia4&lc=UgyLJr11zGd6ufCEHNR4AaABAg>
 
 ## 4GB VRAM smoother fps
 
 - [Steam Deck - Better Non-Steam Game and Windows Performance with One Setting Change - YouTube](https://www.youtube.com/watch?v=qt7l2_SmGnc&t=62s)
-  - game tested https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/
+  - game tested <https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits/>
 
 AyuNeko
 2 months ago
@@ -83,7 +83,7 @@ On your last test, where you had 4Gb reserved for GPU, and 2.8gb of textures loa
 
 Now, do we always want 4Gb reserved for GPU? No. It depends on the game, how much textures the game loads at the same time. What you want is to always have enough VRAM for the GPU, so it can have all textures without swapping.
 
-- https://www.youtube.com/watch?v=F9jbfZxA6ew&lc=Ugz80I6C1FMcUTDv_YZ4AaABAg
+- <https://www.youtube.com/watch?v=F9jbfZxA6ew&lc=Ugz80I6C1FMcUTDv_YZ4AaABAg>
 - [Steam Deck: VRAM - 1GB vs 4GB; Put To The Test on SteamOS and Windows - YouTube](https://www.youtube.com/watch?v=MbAK_n1aa2Y)
 
 ## 24 hour time
@@ -98,10 +98,10 @@ By default it is set to 8192.
 
 Set to zero? Also set in game settings for dead zone to zero?
 
-- https://www.reddit.com/r/SteamDeck/comments/w2gos4/psa_optimize_your_deadzones/
+- <https://www.reddit.com/r/SteamDeck/comments/w2gos4/psa_optimize_your_deadzones/>
 - [Steam Deck Thumbstick Dead Zone Demonstration UI & In-game. (Valve Customer Support Submission) - YouTube](https://www.youtube.com/watch?v=5Fmwerkb6yo)
-- Reduce the dead zones on the analog sticks under settings/controller settings! By default they are about twice as large as they need to be. https://www.youtube.com/watch?v=5uQcEyPzia4&lc=UgyXtf6_zRC6zNx-hgF4AaABAg
+- Reduce the dead zones on the analog sticks under settings/controller settings! By default they are about twice as large as they need to be. <https://www.youtube.com/watch?v=5uQcEyPzia4&lc=UgyXtf6_zRC6zNx-hgF4AaABAg>
 
 ## Case for charger
 
-https://www.printables.com/pl/model/162557-new-version-35-with-xl-lid-steamdeck-usb-c-charger
+<https://www.printables.com/pl/model/162557-new-version-35-with-xl-lid-steamdeck-usb-c-charger>
