@@ -8,3 +8,5 @@
 - filter out all but `POST`: `-method:GET -method:OPTIONS -method:PUT` <https://stackoverflow.com/questions/42202686/chrome-developer-tools-network-how-to-filter-only-post-and-patch-requests>
 
 - scheme:http <https://stackoverflow.com/questions/14637278/is-there-a-way-to-filter-network-requests-using-google-chrome-developer-tools/56318298#56318298>
+
+- <https://developer.chrome.com/docs/devtools/network/reference>
