@@ -56,6 +56,8 @@ Use the steam button plus b on the steam controller to start it in Bluetooth mod
 
 you actually need to use steam button + Y to launch in Bluetooth pairing mode, steam button + x just launches it in regular Bluetooth mode without the pairing
 
+If you cannot connect, delete in steam deck old pairings and try again in pairing mode.
+
 <https://www.reddit.com/r/SteamDeck/comments/1auf58h/comment/kr47qyr/>
 
 - [Pomoc techniczna Steam :: Steam Controller w trybie BLE](https://help.steampowered.com/pl/faqs/view/1796-5FC3-88B3-C85F)
