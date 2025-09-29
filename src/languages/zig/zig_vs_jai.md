@@ -6,4 +6,10 @@ Jai is designed to fully rebuild a project limited to tens of thousands of lines
 
 [1]: source: Jon’s Twitch stream from like 8 years ago
 
-https://lobste.rs/s/nvv46t/using_jai_s_unique_powerful_compiler_for#c_n5qewt
+<https://lobste.rs/s/nvv46t/using_jai_s_unique_powerful_compiler_for#c_n5qewt>
+
+##
+
+Too bad Valgrind on Go executables can’t catch uninitialized variables! This is one example of why I think default zero init hides bugs.
+
+<https://lobste.rs/c/csuxjk>
