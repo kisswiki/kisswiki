@@ -6,6 +6,12 @@ Zig is practically optimized for this: comptime is extremely dynamically typed c
 
 ##
 
+One of the downsides of comptime over generics is that, because it's low-level and procedural instead of high-level and declarative, things like automatically inserting coercions become harder.
+
+<https://news.ycombinator.com/item?id=43873719>
+
+##
+
 - <https://www.reddit.com/r/Zig/comments/1ckstjv/im_sold_on_zigs_simplicity/>
 
 ##
