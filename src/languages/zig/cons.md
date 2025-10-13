@@ -1,4 +1,12 @@
-- https://www.reddit.com/r/Zig/comments/1ckstjv/im_sold_on_zigs_simplicity/
+##
+
+Zig is practically optimized for this: comptime is extremely dynamically typed compared to actual generics, and the lack of memory safety is often "a breath of fresh air"--until you have to actually fix bugs (including security bugs) resulting from it.
+
+<https://news.ycombinator.com/item?id=43873587>
+
+##
+
+- <https://www.reddit.com/r/Zig/comments/1ckstjv/im_sold_on_zigs_simplicity/>
 
 ##
 
@@ -9,7 +17,7 @@ There are many erroneous claims made regarding Zig allocators. Contrary to what 
 - That is simplifies WebAssembly support; whatver you put in the allocator your could put into malloc.
 - That it easily allows arena allocators; you can only use an arena allocator if you intimately know every single uses of the passed in allocator, allo the implementation details of the libraries you call and of _all_ its dependencies. If a dependency, for example, implements a cache, the arena allocator will corrupt it when deallocated.
 
-https://news.ycombinator.com/item?id=27145943
+<https://news.ycombinator.com/item?id=27145943>
 
 ## "A simple language"
 
@@ -29,7 +37,7 @@ Zig, of course, is not the first language to explicitly seek simplicity. Go did 
 
 > Over and over, every piece of documentation for the Go language markets it as "simple". This is a lie. Or rather, it's a half-truth that conveniently covers up the fact that, when you make something simple, you move complexity elsewhere.
 
-https://viralinstruction.com/posts/defense/
+<https://viralinstruction.com/posts/defense/>
 
 ## No checker for opened file descriptors
 
@@ -41,7 +49,7 @@ andrewrk
 
 Agreed, I was thinking it might be possible to do something similar to the std lib leak checker, but with file descriptors. Maybe even with arbitrary resources.
 
-https://github.com/ziglang/zig/pull/14703#issuecomment-1439298574
+<https://github.com/ziglang/zig/pull/14703#issuecomment-1439298574>
 
 ## What features is Zig missing?
 
@@ -283,7 +291,7 @@ In short: defer can make sure something happens at the end of your function, but
 
 Now that we see the differences between Higher RAII and RAII and defer, let's see some more examples!
 
-https://verdagon.dev/blog/higher-raii-uses-linear-types#whats-the-difference-between-raii-and-defer
+<https://verdagon.dev/blog/higher-raii-uses-linear-types#whats-the-difference-between-raii-and-defer>
 
 @qudat
 
@@ -297,7 +305,7 @@ Edit: To be clear, yes, it would be great to have something to make concurrent p
 
 @unservant
 
-1. Runtime type information, doesn't need to be as much as Jai or Odin – see how for example how C3 does it: https://c3-lang.org/references/docs/reflection/ and also https://c3-lang.org/references/docs/anyinterfaces/
+1. Runtime type information, doesn't need to be as much as Jai or Odin – see how for example how C3 does it: <https://c3-lang.org/references/docs/reflection/> and also <https://c3-lang.org/references/docs/anyinterfaces/>
 
 2. Built in vtable support to make working with those less error prone.
 
@@ -317,4 +325,4 @@ A non-asshole project lead who would focus on language features
 
 Gtfo, wrong language bud.
 
-https://www.reddit.com/r/Zig/comments/1csv0it/what_features_is_zig_missing/
+<https://www.reddit.com/r/Zig/comments/1csv0it/what_features_is_zig_missing/>
