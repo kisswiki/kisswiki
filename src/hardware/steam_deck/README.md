@@ -31,6 +31,10 @@ There is button game list, but setting it here does nothing. You need to choose 
 
 Press x.
 
+## Black screeb after battery depleted
+
+Press and hold the power button for 10-12 seconds, then release and press once briefly. - chatgpt
+
 ## Hard restart of steam deck
 
 Press power button for 20s, wait 5 minutes.
