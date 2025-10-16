@@ -1,4 +1,4 @@
-## Minimal example
+## Minimal example that shows some modification from us
 
 ```odin
 package game
