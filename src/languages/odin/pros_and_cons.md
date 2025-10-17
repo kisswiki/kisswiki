@@ -7,3 +7,19 @@ So will Zig semantics change (which would be a big change indeed), or will Zig p
 Before I’d declare Zig the winner due to a package manager I’d be sure to figure that one out.
 
 <https://news.ycombinator.com/item?id=38840602>
+
+Odin is a general purpose language, in the same way C.
+
+Professionally, we use Odin to create all of our software at JangaFX: EmberGen, LiquiGen, and GeoGen.
+
+Many people have been using Odin for similar purposes:
+
+- game development
+- application development
+- 3D graphics
+- physics related stuff
+- etc
+
+This is what a lot of people feel Odin's "niche" is, even if it is not restricted to that. A good example of this is Odin's first class features for array-programming, swizzling, matrices, quaternions, and many other things useful when dealing with 3D related things (graphics, physics, games, etc).
+
+<https://news.ycombinator.com/item?id=38840727>
