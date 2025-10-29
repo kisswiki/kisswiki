@@ -1,3 +1,17 @@
+## update firmware
+
+first customize your layout at https://my.glove80.com
+
+On the default key layout, you can do so by
+
+- First connect a USB cable from the host to the half of Glove80 you want to load firmware
+- Pressing `Magic + Esc` for the left half
+- Pressing `Magic + '` for the right half
+
+https://docs.moergo.com/glove80-user-guide/customizing-key-layout/#putting-glove80-into-bootloader-for-firmware-loading
+
+##
+
 - https://github.com/danieldk/awesome-glove80
 - https://www.reddit.com/r/ErgoMechKeyboards/comments/16n9dpa/glove80_with_a_trackpoint/
 - https://hackaday.com/2023/03/22/glove80-keyboard-sure-fits-like-one/
