@@ -1,0 +1,2 @@
+- https://piaseczno.eu/solectwa/obwody.htm
+- flash in web browser needed https://chrome.google.com/webstore/detail/ruffle/donbcfbmhbcapadipfkeojnmajbakjdc
