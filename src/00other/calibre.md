@@ -159,6 +159,16 @@ https://www.reddit.com/r/Calibre/comments/ancn4u/getting_calibre_to_rename_actua
 
 https://www.mobileread.com/forums/showpost.php?p=3308062&postcount=5
 
+## Viewer epub continuous scroll
+
+If chapter are separate files, you still will encounter jumps when scrolling. To overcome it:
+
+- convert to mobi
+- join all chapter files to one
+- add css but this will make big spaces between chapters
+
+https://www.reddit.com/r/Calibre/comments/ru1810/is_it_possible_to_enable_truly_continuous/
+
 ## Filter by published date
 
 `pubdate:>=1945-1-1 and pubdate:<=1950-12-31`
