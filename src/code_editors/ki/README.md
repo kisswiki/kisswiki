@@ -57,7 +57,7 @@ to undo: `z`
 
 new line below: `Open (,)`
 
-new line above: change direction with `/` then `Open (,)`
+new line above: change direction with `⇋ Curs (/)` then `Open (,)`
 
 search: `Search (q)`
 
