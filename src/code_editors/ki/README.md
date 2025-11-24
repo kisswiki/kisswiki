@@ -1,4 +1,16 @@
-# Read me
+## 2025-11-24
+
+help: `Space > ?`
+
+Movement is here https://ki-editor.github.io/ki-editor/docs/normal-mode/core-movements
+
+Actions like undo is here https://ki-editor.github.io/ki-editor/docs/normal-mode/actions/
+
+to quit: `Space > Editor (j) > Quit No Save (v)`
+
+to undo: `z`
+
+## 2025-05-20
 
 to open help press `alt+m`
 
