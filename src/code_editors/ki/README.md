@@ -63,6 +63,8 @@ exit search: `$` - collapse selections
 
 save: `Enter` or `space > Editor (j) > Save all (c)`
 
+selection character: `shift+w`
+
 ## Odin nightly and ols
 
 Download nightly odin https://odin-lang.org/docs/nightly/ to ~/bin/odin
