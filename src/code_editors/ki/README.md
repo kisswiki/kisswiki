@@ -1,4 +1,4 @@
-## 2025-11-24
+# 2025-11-24
 
 help: `Space > ?`
 
@@ -10,7 +10,15 @@ to quit: `Space > Editor (j) > Quit No Save (v)`
 
 to undo: `z`
 
-## 2025-05-20
+## Odin nightly and ols
+
+Download nightly odin https://odin-lang.org/docs/nightly/ to ~/bin/odin
+
+May need to remove security protection with commands like `xattr -d com.apple.quarantine ~/bin/odin/libs/libzstd.1.5.7.dylib`
+
+Nightly odin needed to compile ols from source. For example this commit https://github.com/DanielGavin/ols/commit/8d189a07 introduced `all_or_none` which is not in currently released odin 2025-11 released in homebrew https://github.com/Homebrew/homebrew-core/blob/d16c0c8ef91b088a2c33f719b93fa1b520022198/Formula/o/odin.rb
+
+# 2025-05-20
 
 to open help press `alt+m`
 
