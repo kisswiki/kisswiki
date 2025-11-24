@@ -2,6 +2,39 @@
 
 help: `Space > /`
 
+```
+╭──────────┬───────────┬──────────────────┬──────────────┬───────────┬───┬──────────┬───────────┬──────────┬─────────────┬──────────╮
+│          ┆           ┆                  ┆              ┆           ┆ ⌥ ┆   ← Nav  ┆           ┆ Scroll ↑ ┆             ┆   Nav →  │
+│   With   ┆    Char   ┆ Search Clipboard ┆              ┆   Raise   ┆ ⇧ ┆          ┆ ← Replace ┆   Join   ┆  Replace →  ┆          │
+│ ← Search ┆  Subword  ┆    Search This   ┆ Multi-cursor ┆    Swap   ┆ ∅ ┆   First  ┆  ← Insert ┆     ▲    ┆   Insert →  ┆   Last   │
+├╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┤
+│          ┆           ┆                  ┆              ┆           ┆ ⌥ ┆          ┆  ← Marked ┆ Scroll ↓ ┆   Marked →  ┆  ⇋ Align │
+│   Line*  ┆           ┆      Syntax*     ┆   Change X   ┆ Transform ┆ ⇧ ┆  ← Curs  ┆   Dedent  ┆   Break  ┆    Indent   ┆  Curs →  │
+│   Line   ┆    Word   ┆      Syntax      ┆    Change    ┆   Extend  ┆ ∅ ┆ Previous ┆     ◀     ┆     ▼    ┆      ▶      ┆   Next   │
+├╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┤
+│          ┆           ┆                  ┆     Close    ┆ Mark File ┆ ⌥ ┆          ┆           ┆          ┆             ┆ ⇋ Window │
+│   Redo   ┆ Replace # ┆     Replace X    ┆ Delete 0 Gap ┆           ┆ ⇧ ┆          ┆   Index   ┆          ┆ Paste 0 Gap ┆ ⇋ Anchor │
+│   Undo   ┆  Replace  ┆       Copy       ┆   Delete →   ┆  Mark Sel ┆ ∅ ┆  Local → ┆    Jump   ┆  Open →  ┆   Paste →   ┆  ⇋ Curs  │
+╰──────────┴───────────┴──────────────────┴──────────────┴───────────┴───┴──────────┴───────────┴──────────┴─────────────┴──────────╯
+* Pick Keyboard
+```
+
+`Space` - bindings shown at the bottom
+
+```
+╭────────┬───────┬──────────────────┬───────────────┬──────────┬───┬────────┬─────────────┬──────────┬─────────┬──────────╮
+│  With  ┆       ┆ Search Clipboard ┆               ┆          ┆ ⇧ ┆        ┆             ┆          ┆         ┆          │
+│ Search ┆       ┆    Search This   ┆ Repeat Search ┆ Quickfix ┆ ∅ ┆        ┆ ÷ Selection ┆ ÷ Cursor ┆  ÷ Mark ┆          │
+├╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┤
+│        ┆       ┆                  ┆      Info     ┆   Hunk^  ┆ ⇧ ┆        ┆             ┆          ┆         ┆          │
+│   All  ┆ Error ┆       Warn       ┆      Hint     ┆   Hunk@  ┆ ∅ ┆        ┆    Editor   ┆   Pick   ┆ Context ┆ Explorer │
+├╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┤
+│        ┆  Decl ┆                  ┆      Ref+     ┆          ┆ ⇧ ┆        ┆             ┆          ┆         ┆          │
+│  Impl  ┆  Def  ┆       Type       ┆      Ref-     ┆   Mark   ┆ ∅ ┆ Repeat ┆             ┆          ┆         ┆   Help   │
+╰────────┴───────┴──────────────────┴───────────────┴──────────┴───┴────────┴─────────────┴──────────┴─────────┴──────────╯
+* Pick Keyboard
+```
+
 Movement is here https://ki-editor.github.io/ki-editor/docs/normal-mode/core-movements
 
 Actions like undo is here https://ki-editor.github.io/ki-editor/docs/normal-mode/actions/
@@ -11,6 +44,8 @@ to quit: `Space > Editor (j) > Quit No Save (v)`
 to undo: `z`
 
 new line below: `Open (,)`
+
+search:
 
 ## Odin nightly and ols
 
