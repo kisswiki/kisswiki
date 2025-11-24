@@ -35,6 +35,18 @@ help: `Space > /`
 * Pick Keyboard
 ```
 
+Editor: `Space > j`
+
+```
+╭───┬─────────────┬─────────────┬──────────────┬──────────────┬───┬───┬───┬───┬───┬───╮
+│   ┆             ┆             ┆              ┆ TS Node Sexp ┆ ∅ ┆   ┆   ┆   ┆   ┆   │
+├╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┤
+│   ┆             ┆ Reload File ┆     Pipe     ┆              ┆ ∅ ┆   ┆   ┆   ┆   ┆   │
+├╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┤
+│   ┆ Replace all ┆   Save All  ┆ Quit No Save ┆              ┆ ∅ ┆   ┆   ┆   ┆   ┆   │
+╰───┴─────────────┴─────────────┴──────────────┴──────────────┴───┴───┴───┴───┴───┴───╯
+```
+
 Movement is here https://ki-editor.github.io/ki-editor/docs/normal-mode/core-movements
 
 Actions like undo is here https://ki-editor.github.io/ki-editor/docs/normal-mode/actions/
@@ -45,7 +57,11 @@ to undo: `z`
 
 new line below: `Open (,)`
 
-search:
+search: `Search (q)`
+
+exit search: `$` - collapse selections
+
+save: `Enter` or `Space > Editor (j) > Save all (c)`
 
 ## Odin nightly and ols
 
