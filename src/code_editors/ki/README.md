@@ -65,6 +65,8 @@ save: `Enter` or `space > Editor (j) > Save all (c)`
 
 selection character: `shift+w`
 
+delete: `shift+v`
+
 ## Odin nightly and ols
 
 Download nightly odin https://odin-lang.org/docs/nightly/ to ~/bin/odin
