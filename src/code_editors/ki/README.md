@@ -57,6 +57,8 @@ to undo: `z`
 
 new line below: `Open (,)`
 
+new line above: change direction with `/` then `Open (,)`
+
 search: `Search (q)`
 
 exit search: `$` - collapse selections
