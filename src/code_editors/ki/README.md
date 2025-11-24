@@ -1,6 +1,6 @@
 # 2025-11-24
 
-help: `Space > ?`
+help: `Space > /`
 
 Movement is here https://ki-editor.github.io/ki-editor/docs/normal-mode/core-movements
 
@@ -9,6 +9,8 @@ Actions like undo is here https://ki-editor.github.io/ki-editor/docs/normal-mode
 to quit: `Space > Editor (j) > Quit No Save (v)`
 
 to undo: `z`
+
+new line below: `Open (,)`
 
 ## Odin nightly and ols
 
