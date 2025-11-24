@@ -1,6 +1,6 @@
 # 2025-11-24
 
-help: `Space > /`
+help: `space > /`
 
 ```
 ╭──────────┬───────────┬──────────────────┬──────────────┬───────────┬───┬──────────┬───────────┬──────────┬─────────────┬──────────╮
@@ -19,7 +19,7 @@ help: `Space > /`
 * Pick Keyboard
 ```
 
-`Space` - bindings shown at the bottom
+`space` - bindings shown at the bottom
 
 ```
 ╭────────┬───────┬──────────────────┬───────────────┬──────────┬───┬────────┬─────────────┬──────────┬─────────┬──────────╮
@@ -35,7 +35,7 @@ help: `Space > /`
 * Pick Keyboard
 ```
 
-Editor: `Space > j`
+Editor: `space > j`
 
 ```
 ╭───┬─────────────┬─────────────┬──────────────┬──────────────┬───┬───┬───┬───┬───┬───╮
@@ -51,7 +51,7 @@ Movement is here https://ki-editor.github.io/ki-editor/docs/normal-mode/core-mov
 
 Actions like undo is here https://ki-editor.github.io/ki-editor/docs/normal-mode/actions/
 
-to quit: `Space > Editor (j) > Quit No Save (v)`
+to quit: `space > Editor (j) > Quit No Save (v)`
 
 to undo: `z`
 
@@ -61,7 +61,7 @@ search: `Search (q)`
 
 exit search: `$` - collapse selections
 
-save: `Enter` or `Space > Editor (j) > Save all (c)`
+save: `Enter` or `space > Editor (j) > Save all (c)`
 
 ## Odin nightly and ols
 
