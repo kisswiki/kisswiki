@@ -67,7 +67,11 @@ save: `Enter` or `space > Editor (j) > Save all (c)`
 
 selection character: `shift+w`
 
-delete: `shift+v`
+delete (cut): `shift+v` or `v`
+
+paste: `.` or `shift+.` for zero gap
+
+extend selection: `g`
 
 ## Odin nightly and ols
 
