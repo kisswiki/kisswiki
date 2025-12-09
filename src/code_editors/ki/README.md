@@ -65,7 +65,7 @@ exit search: `$` - collapse selections
 
 save: `Enter` or `space > Editor (j) > Save all (c)`
 
-selection character: `shift+w`
+character selection: `shift+w`
 
 delete (cut): `shift+v` or `v`
 

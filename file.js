@@ -1,0 +1,1 @@
+hello.world().foo().bar().spam().wise();
