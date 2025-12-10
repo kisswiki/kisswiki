@@ -17,3 +17,5 @@ Jeśli dywersyfikacja to ja bym już wolał: s&p500, emerging markets, a z Polsk
 https://x.com/DziennikInwesto/status/1998652250026062274
 
 https://inwestomat.eu/jaki-zysk-daje-inwestowanie-pasywne/
+
+https://www.linkedin.com/in/naithai/recent-activity/all/
