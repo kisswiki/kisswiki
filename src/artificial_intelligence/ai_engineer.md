@@ -20,3 +20,7 @@ konfiguracja przez env,
 observability: logi, metrics, trace (np. Prometheus + Grafana, albo jakis managed stack),
 feature flags / toggles, rollouty,
 hardening: rate limiting, auth, input validation
+
+https://www.linkedin.com/in/naithai/recent-activity/all/
+
+https://github.com/natiixnt?tab=repositories
