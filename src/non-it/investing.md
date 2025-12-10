@@ -15,3 +15,5 @@ CruelReality @TomaszBud
 Jeśli dywersyfikacja to ja bym już wolał: s&p500, emerging markets, a z Polski wig40TR. Krypto jeśli już to tylko BTC i zdecydowanie mniej niż 10% portfela 😉. Giełd europejskich bym raczej unikał, tu serio prawie nic dobrego nie ma...
 
 https://x.com/DziennikInwesto/status/1998652250026062274
+
+https://inwestomat.eu/jaki-zysk-daje-inwestowanie-pasywne/
