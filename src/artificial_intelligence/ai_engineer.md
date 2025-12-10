@@ -1,3 +1,5 @@
+## 2025-12-10 22:48
+
 1. ogolne LLMy podstawy, ogarniecie jak to dziala DeepLearning.AI "Building Systems with the ChatGPT API"
 
 2. RAGi i frameworki to po prostu trzeba nauczyc sie ktoregos frameworku (LangChain + LangGraph: to z LangChain docs; LangGraph quickstart - grafy bazowe jakies; LlamaIndex "Starter Tutorial (Using OpenAI)"; jakies blogi i tutoriale
