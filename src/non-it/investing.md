@@ -19,3 +19,5 @@ https://x.com/DziennikInwesto/status/1998652250026062274
 https://inwestomat.eu/jaki-zysk-daje-inwestowanie-pasywne/
 
 https://www.linkedin.com/in/naithai/recent-activity/all/
+
+https://github.com/natiixnt?tab=repositories
