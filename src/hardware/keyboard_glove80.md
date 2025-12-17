@@ -6,7 +6,7 @@ On the default key layout, you can do so by
 
 - First connect a USB cable from the host to the half of Glove80 you want to load firmware
 - Pressing `Magic + Esc` for the left half
-- Pressing `Magic + '` for the right half
+- Pressing `Magic + Page Up` for the right half
 
 https://docs.moergo.com/glove80-user-guide/customizing-key-layout/#putting-glove80-into-bootloader-for-firmware-loading
 
