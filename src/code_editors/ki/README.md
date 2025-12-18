@@ -75,6 +75,12 @@ extend selection: `g`
 
 collapse cursors: `alt+i` (scroll)
 
+tabs:
+
+1. mark file with `alt+b` https://ki-editor.github.io/ki-editor/docs/normal-mode/actions/#mark-file
+2. mark another file
+3. switch between files with `alt+j` and `alt+l`
+
 ## Odin nightly and ols
 
 Download nightly odin https://odin-lang.org/docs/nightly/ to ~/bin/odin
