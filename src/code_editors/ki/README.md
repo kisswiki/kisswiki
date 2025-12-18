@@ -153,7 +153,7 @@ to undo press `z`, to redo press `shift+z`
 
 ## Tutorial <https://ki-editor.github.io/ki-editor/docs/tutorial/>
 
-### Change the first two word
+### Change the first two words
 
 `m` is same as `h` followed by `u` or `i`?
 
