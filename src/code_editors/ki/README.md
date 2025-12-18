@@ -73,6 +73,8 @@ paste: `.` or `shift+.` for zero gap
 
 extend selection: `g`
 
+collapse cursors: `alt+i` (scroll)
+
 ## Odin nightly and ols
 
 Download nightly odin https://odin-lang.org/docs/nightly/ to ~/bin/odin
