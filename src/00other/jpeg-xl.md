@@ -1,0 +1,1 @@
+- https://cloudinary.com/blog/jpeg-xl-and-the-pareto-front
