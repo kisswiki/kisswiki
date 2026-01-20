@@ -1,4 +1,6 @@
-# 2025-11-24
+## 2026-01-20 19:58
+
+## 2025-11-24
 
 help: `space > /`
 
@@ -89,7 +91,7 @@ May need to remove security protection with commands like `xattr -d com.apple.qu
 
 Nightly odin needed to compile ols from source. For example this commit https://github.com/DanielGavin/ols/commit/8d189a07 introduced `all_or_none` which is not in currently released odin 2025-11 released in homebrew https://github.com/Homebrew/homebrew-core/blob/d16c0c8ef91b088a2c33f719b93fa1b520022198/Formula/o/odin.rb
 
-# 2025-05-20
+## 2025-05-20
 
 to open help press `alt+m`
 
@@ -151,21 +153,21 @@ to save file press `Enter` in normal mode or `Space s`
 
 to undo press `z`, to redo press `shift+z`
 
-## Tutorial <https://ki-editor.github.io/ki-editor/docs/tutorial/>
+### Tutorial <https://ki-editor.github.io/ki-editor/docs/tutorial/>
 
-### Change the first two words
+#### Change the first two words
 
 `m` is same as `h` followed by `u` or `i`?
 
-### Raise / Replace parent node with current node
+#### Raise / Replace parent node with current node
 
 `Shit+t` can also be done with `t` followed by `i`
 
-### Remove all sibling nodes except the current node
+#### Remove all sibling nodes except the current node
 
 `x` replaces
 
-### Invert nesting (JSX)
+#### Invert nesting (JSX)
 
 `Shift+c` pastes over selected text, and copies what was replaced.
 
