@@ -1,5 +1,7 @@
 ## 2026-01-20 19:58
 
+comment line: Transform (shift+g) > Comment line (k)
+
 ## 2025-11-24
 
 help: `space > /`
