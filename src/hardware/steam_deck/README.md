@@ -31,7 +31,7 @@ There is button game list, but setting it here does nothing. You need to choose 
 
 Press x.
 
-## Black screeb after battery depleted
+## Black screen after battery depleted
 
 Press and hold the power button for 10-12 seconds, then release and press once briefly. - chatgpt
 

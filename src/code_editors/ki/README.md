@@ -2,6 +2,10 @@
 
 comment line: Transform (shift+g) > Comment line (k)
 
+new line below: `Open (,)`
+
+new line above: change direction with `⇋ Curs (/)` then `Open (,)`
+
 ## 2025-11-24
 
 help: `space > /`
