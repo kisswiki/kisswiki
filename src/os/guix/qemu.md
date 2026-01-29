@@ -59,7 +59,7 @@ then run these commands:
 brew install qemu libvirt gcc
 brew services start libvirt
 virsh define guix.xml
-virsh start
+virsh start guix
 ```
 
 now you can open window with GUI:
@@ -74,7 +74,39 @@ and login as `guest`.
 
 To exit `virst console`: `Ctrl+]` or `Ctrl+5`.
 
+More virsh:
+
+```shell
+virsh edit Guix
+#virsh shutdown Guix
+virsh destroy Guix
+virsh list --all
+virsh edit Guix
+virsh domrename Guix guix
+virsh list --all
+virsh start guix
+guix-bare-bones
+virsh undefine guix2-bare-bones
+```
+
 - https://n8henrie.com/2022/09/linux-vms-on-my-m1-mac/
 - https://n8henrie.com/2022/10/guix-system-guixsd-vm-on-an-m1-mac/
 - https://askubuntu.com/questions/1417854/how-to-open-the-graphical-console-of-a-qemu-kvm-vm-with-virsh#comment2467149_1417860
 - https://superuser.com/questions/637669/how-to-exit-a-virsh-console-connection
+
+## guix pull OOM kill
+
+```shell
+hint: Consider setting the necessary environment variables by running:
+
+     GUIX_PROFILE="/root/.config/guix/current"
+     . "$GUIX_PROFILE/etc/profile"
+     unset GUIX_PROFILE
+
+Alternately, see `guix package --search-paths -p "/root/.config/guix/current"'.
+
+
+hint: After setting `PATH', run `hash guix' to make sure your shell refers to `/root/.config/guix/current/bin/guix'.
+```
+
+```
