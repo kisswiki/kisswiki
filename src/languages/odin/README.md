@@ -34,4 +34,10 @@ shadow_test :: proc(seed: int) -> int {
 
 `odin run main.odin -file -vet` or `odin run main.odin -file -vet-shadowing`
 
-> Just wanted to mention that, with ols (the lsp server for Odin), we can actually have it both ways: red squiggly lines in our editor by setting the vet in the ols config, and then - in our terminals - not use the vet flag to compile anyway :slight_smile: https://forum.odin-lang.org/t/vet-flags-as-warnings-instead-of-errors/971
+https://forum.odin-lang.org/t/multiple-shadowing-mistakes/1530
+
+## vetting as errors
+
+- Just wanted to mention that, with ols (the lsp server for Odin), we can actually have it both ways: red squiggly lines in our editor by setting the vet in the ols config, and then - in our terminals - not use the vet flag to compile anyway https://forum.odin-lang.org/t/vet-flags-as-warnings-instead-of-errors/971
+- https://forum.odin-lang.org/t/what-features-of-odin-do-you-dislike/132/64
+- A useful idiom is `var := var`, which expresses a variable shadowing itself. When used at the top of a procedure the compiler understands the use case of enabling local modification of the otherwise immutable parameter variable, and won’t complain about the shadowing when you compile with `-vet`. https://odin-lang.org/docs/overview/
