@@ -74,3 +74,4 @@ and login as guest.
 
 - https://n8henrie.com/2022/09/linux-vms-on-my-m1-mac/
 - https://n8henrie.com/2022/10/guix-system-guixsd-vm-on-an-m1-mac/
+- https://askubuntu.com/questions/1417854/how-to-open-the-graphical-console-of-a-qemu-kvm-vm-with-virsh#comment2467149_1417860
