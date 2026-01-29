@@ -16,3 +16,22 @@ It needs `odinfmt.json` in project directory <https://github.com/DanielGavin/ols
  "tabs_width": 4
 }
 ```
+
+## prevent shadowing
+
+```odin
+package shadow
+
+main :: proc() {
+    shadow_test(2)
+}
+
+shadow_test :: proc(seed: int) -> int {
+    seed := 2
+    return seed
+}
+```
+
+`odin run main.odin -file -vet` or `odin run main.odin -file -vet-shadowing`
+
+- https://forum.odin-lang.org/t/vet-flags-as-warnings-instead-of-errors/971
