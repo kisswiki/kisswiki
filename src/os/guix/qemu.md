@@ -70,8 +70,11 @@ or console:
 
 `virsh console guix`
 
-and login as guest.
+and login as `guest`.
+
+To exit `virst console`: `Ctrl+]` or `Ctrl+5`.
 
 - https://n8henrie.com/2022/09/linux-vms-on-my-m1-mac/
 - https://n8henrie.com/2022/10/guix-system-guixsd-vm-on-an-m1-mac/
 - https://askubuntu.com/questions/1417854/how-to-open-the-graphical-console-of-a-qemu-kvm-vm-with-virsh#comment2467149_1417860
+- https://superuser.com/questions/637669/how-to-exit-a-virsh-console-connection
