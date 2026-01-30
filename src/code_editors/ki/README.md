@@ -1,3 +1,7 @@
+## 2026-01-30 01:23
+
+close file/buffer: `alt+v`
+
 ## 2026-01-20 19:58
 
 comment line: Transform (shift+g) > Comment line (k)
