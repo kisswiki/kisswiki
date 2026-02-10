@@ -1,6 +1,6 @@
-## 2026-01-30 01:23
+## 2026-02-10 14:55
 
-close file/buffer: `alt+v`
+Close buffer: `Buffer (hold-e) > Close (n) > release-e`
 
 ## 2026-01-20 19:58
 
