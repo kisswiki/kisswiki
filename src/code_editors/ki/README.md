@@ -2,6 +2,10 @@
 
 Close buffer: `Buffer (hold-e) > Close (n) > release-e`
 
+go to line: `Line (a) > Index (M) > <number>`
+
+From multiple cursors to one cursor: `hold Multi-cursor (r) > Multi-cursor Menu (Space) > release Multi-cursor (r) > Keep Primary Curs (l)` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/How.20to.20collapse.20cursors.20to.20one.20cursor.3F/with/572275825)
+
 ## 2026-01-20 19:58
 
 comment line: Transform (shift+g) > Comment line (k)
