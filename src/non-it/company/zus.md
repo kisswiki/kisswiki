@@ -1,6 +1,7 @@
 - numer rachunku https://eskladka.pl
 - kalkulator odsetek http://www.zus.pl/firmy/rozliczenia-z-zus/kalkulator-odsetkowy-dla-platnikow-skladek-zus-25
 - ten umożliwia obliczenia w poprzednim roku https://www.podatki.gov.pl/kalkulatory-podatkowe/kalkulator-odsetek-za-zwloke-od-zaleglosci-podatkowych-oraz-oplaty-prolongacyjnej/
+- pełnomocnictwo PEL https://www.youtube.com/watch?v=mDyH08Q20Nc
 
 ## RWS
 
