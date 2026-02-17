@@ -1,5 +1,6 @@
 ## 2026-02-10 14:55
 
+Select two lines, cut and do not leave empty line afterwards: `LINE (a) → Extend (g) → >> (l) → hold Cut (x) → >> (l) → release Cut (x)` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20line.20.3E.20extend.20.3E.20cut.20should.20not.20leave.20empty.20line/with/573074129)
 Close buffer: `Buffer (hold-e) > Close (n) > release-e`
 
 go to line: `Line (a) > Index (M) > <number>`
