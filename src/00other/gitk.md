@@ -1,3 +1,7 @@
+## misc
+
+- https://gitolite.com/gitk.html
+
 ## dark
 
 on  windows in file ~/.config/git/gitk
@@ -48,3 +52,4 @@ set circleoutlinecolor #3f3f3f
 - https://superuser.com/questions/30175/gitk-looks-ugly-doesnt-honor-theme-settings
 - https://superuser.com/questions/30175/gitk-looks-ugly-doesnt-honor-theme-settings
 - http://git.661346.n2.nabble.com/Using-Zenburn-color-scheme-in-gitk-td6406964.html
+
