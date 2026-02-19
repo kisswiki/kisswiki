@@ -17,6 +17,9 @@ For multiple accounts
 in ~/.ssh/config (needs to have correct privilieges):
 
 ```
+Host *
+    IdentityFile ~/.ssh/id_ed25519
+
 # Personal account
 Host github.com
 HostName github.com
@@ -47,8 +50,8 @@ https://stackoverflow.com/questions/16638092/copying-a-rsa-public-key-to-clipboa
 ### Ubuntu
 
 ```bash
-$ sudo apt install xsel
-$ xsel -b < ~/.ssh/id_rsa.pub
+sudo apt install xsel
+xsel -b < ~/.ssh/id_rsa.pub
 ```
 
 https://askubuntu.com/questions/382767/how-to-pipe-dump-clipboard-contents-to-a-file/382775#382775
@@ -78,7 +81,7 @@ Host *.github.com github.com
 Set permissions:
 
 ```bash
-$ chmod 600 ~/.ssh/config
+chmod 600 ~/.ssh/config
 ```
 
 http://unix.stackexchange.com/questions/61655/multiple-similar-entries-in-ssh-config
