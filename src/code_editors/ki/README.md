@@ -1,3 +1,9 @@
+## 2026-02-25 19:23
+
+Select inside quotes: `Extend (g) > Inside (h) > " (i)` or if it works (works in ts, rs. does [not in sql](https://github.com/ki-editor/ki-editor/issues/1371) atm) with node selection: `Node (d) > v (k)` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20How.20to.20select.20text.20inside.20quotes.20like.20.22user2.40example.2Ecom.22.3F/with/575777175)
+
+Search and replace: `Local → (n)` then `Search This (f)` then `hold Multi-cursor≡ (r)` then `Multi-cursor Menu (Space)` then `Curs All (j)` then `Insert≡ (f)` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/Search.20and.20replace.20selection.20.28word.29.20in.20current.20buffer.3F/with/575776024)
+
 ## 2026-02-10 14:55
 
 Select two lines, cut and do not leave empty line afterwards: `LINE (a) → Extend (g) → >> (l) → hold Cut (x) → >> (l) → release Cut (x)` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20line.20.3E.20extend.20.3E.20cut.20should.20not.20leave.20empty.20line/with/573074129)
@@ -6,6 +12,8 @@ Close buffer: `Buffer (hold-e) > Close (n) > release-e`
 go to line: `Line (a) > Index (M) > <number>`
 
 From multiple cursors to one cursor: `hold Multi-cursor (r) > Multi-cursor Menu (Space) > release Multi-cursor (r) > Keep Primary Curs (l)` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/How.20to.20collapse.20cursors.20to.20one.20cursor.3F/with/572275825)
+
+create new file: `Space > Explorer (;) > Add Path (;) > file name > Enter` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20how.20to.20create.20an.20empty.20file.3F/with/574507273)
 
 ## 2026-01-20 19:58
 
@@ -20,25 +28,29 @@ new line above: change direction with `⇋ Curs (/)` then `Open (,)`
 help: `space > /`
 
 ```
+
 ╭──────────┬───────────┬──────────────────┬──────────────┬───────────┬───┬──────────┬───────────┬──────────┬─────────────┬──────────╮
 │          ┆           ┆                  ┆              ┆           ┆ ⌥ ┆   ← Nav  ┆           ┆ Scroll ↑ ┆             ┆   Nav →  │
 │   With   ┆    Char   ┆ Search Clipboard ┆              ┆   Raise   ┆ ⇧ ┆          ┆ ← Replace ┆   Join   ┆  Replace →  ┆          │
 │ ← Search ┆  Subword  ┆    Search This   ┆ Multi-cursor ┆    Swap   ┆ ∅ ┆   First  ┆  ← Insert ┆     ▲    ┆   Insert →  ┆   Last   │
 ├╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┤
 │          ┆           ┆                  ┆              ┆           ┆ ⌥ ┆          ┆  ← Marked ┆ Scroll ↓ ┆   Marked →  ┆  ⇋ Align │
-│   Line*  ┆           ┆      Syntax*     ┆   Change X   ┆ Transform ┆ ⇧ ┆  ← Curs  ┆   Dedent  ┆   Break  ┆    Indent   ┆  Curs →  │
+│   Line*┆           ┆      Syntax*     ┆   Change X   ┆ Transform ┆ ⇧ ┆  ← Curs  ┆   Dedent  ┆   Break  ┆    Indent   ┆  Curs →  │
 │   Line   ┆    Word   ┆      Syntax      ┆    Change    ┆   Extend  ┆ ∅ ┆ Previous ┆     ◀     ┆     ▼    ┆      ▶      ┆   Next   │
 ├╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┤
 │          ┆           ┆                  ┆     Close    ┆ Mark File ┆ ⌥ ┆          ┆           ┆          ┆             ┆ ⇋ Window │
 │   Redo   ┆ Replace # ┆     Replace X    ┆ Delete 0 Gap ┆           ┆ ⇧ ┆          ┆   Index   ┆          ┆ Paste 0 Gap ┆ ⇋ Anchor │
 │   Undo   ┆  Replace  ┆       Copy       ┆   Delete →   ┆  Mark Sel ┆ ∅ ┆  Local → ┆    Jump   ┆  Open →  ┆   Paste →   ┆  ⇋ Curs  │
 ╰──────────┴───────────┴──────────────────┴──────────────┴───────────┴───┴──────────┴───────────┴──────────┴─────────────┴──────────╯
+
 * Pick Keyboard
+
 ```
 
 `space` - bindings shown at the bottom
 
 ```
+
 ╭────────┬───────┬──────────────────┬───────────────┬──────────┬───┬────────┬─────────────┬──────────┬─────────┬──────────╮
 │  With  ┆       ┆ Search Clipboard ┆               ┆          ┆ ⇧ ┆        ┆             ┆          ┆         ┆          │
 │ Search ┆       ┆    Search This   ┆ Repeat Search ┆ Quickfix ┆ ∅ ┆        ┆ ÷ Selection ┆ ÷ Cursor ┆  ÷ Mark ┆          │
@@ -49,12 +61,15 @@ help: `space > /`
 │        ┆  Decl ┆                  ┆      Ref+     ┆          ┆ ⇧ ┆        ┆             ┆          ┆         ┆          │
 │  Impl  ┆  Def  ┆       Type       ┆      Ref-     ┆   Mark   ┆ ∅ ┆ Repeat ┆             ┆          ┆         ┆   Help   │
 ╰────────┴───────┴──────────────────┴───────────────┴──────────┴───┴────────┴─────────────┴──────────┴─────────┴──────────╯
+
 * Pick Keyboard
+
 ```
 
 Editor: `space > j`
 
 ```
+
 ╭───┬─────────────┬─────────────┬──────────────┬──────────────┬───┬───┬───┬───┬───┬───╮
 │   ┆             ┆             ┆              ┆ TS Node Sexp ┆ ∅ ┆   ┆   ┆   ┆   ┆   │
 ├╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┤
@@ -62,6 +77,7 @@ Editor: `space > j`
 ├╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┼╌╌╌┤
 │   ┆ Replace all ┆   Save All  ┆ Quit No Save ┆              ┆ ∅ ┆   ┆   ┆   ┆   ┆   │
 ╰───┴─────────────┴─────────────┴──────────────┴──────────────┴───┴───┴───┴───┴───┴───╯
+
 ```
 
 Movement is here https://ki-editor.github.io/ki-editor/docs/normal-mode/core-movements
@@ -111,6 +127,7 @@ Nightly odin needed to compile ols from source. For example this commit https://
 to open help press `alt+m`
 
 ```
+
 1│Press space to toggle alt/shift keys.
 2│╭──────────┬─────────┬────────┬──────────────┬──────────┬───┬───────────────┬──────────┬───────┬──────────┬────────╮
 3││ Search → ┆   Word  ┆  This  ┆ Multi-cursor ┆   Swap   ┆ ∅ ┆    Previous   ┆ ← Insert ┆   ▲   ┆ Insert → ┆  Next  │
@@ -119,6 +136,7 @@ to open help press `alt+m`
 6│├╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌┤
 7││   Undo   ┆ Replace ┆  Copy  ┆    Paste →   ┆ Mark Sel ┆ ∅ ┆ Last Search → ┆  Change  ┆ First ┆   Last   ┆ ⇋ Curs │
 8│╰──────────┴─────────┴────────┴──────────────┴──────────┴───┴───────────────┴──────────┴───────┴──────────┴────────╯
+
 ```
 
 in QWERTY this maps to:
@@ -132,12 +150,15 @@ Press `space` to see additional bindings. You may need to decrease font size to 
 from top to bottom it is alt+key, shift+key, single key. So for `w`, it is
 
 ```
+
 alt+w Config
 shift+w Char
 w Word
+
 ```
 
 ```
+
  1│Press space to toggle alt/shift keys.
  2│╭──────────┬───────────┬───────────┬──────────────┬───────────┬───┬───────────────┬───────────┬──────────┬───────────┬──────────╮
  3││          ┆   Config  ┆           ┆              ┆           ┆ ⌥ ┆     ← Nav     ┆           ┆ Scroll ↑ ┆           ┆   Nav →  │
@@ -145,13 +166,14 @@ w Word
  5││ Search → ┆    Word   ┆    This   ┆ Multi-cursor ┆    Swap   ┆ ∅ ┆    Previous   ┆  ← Insert ┆     ▲    ┆  Insert → ┆   Next   │
  6│├╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┤
  7││          ┆           ┆           ┆              ┆           ┆ ⌥ ┆               ┆  ← Marked ┆ Scroll ↓ ┆  Marked → ┆  ⇋ Align │
- 8││   Line*  ┆           ┆  Syntax*  ┆   Transform  ┆   ← Open  ┆ ⇧ ┆    ← Delete   ┆   Dedent  ┆   Break  ┆   Indent  ┆   Index  │
+ 8││   Line*┆           ┆  Syntax*  ┆   Transform  ┆   ← Open  ┆ ⇧ ┆    ← Delete   ┆   Dedent  ┆   Break  ┆   Indent  ┆   Index  │
  9││   Line   ┆   Token   ┆   Syntax  ┆    Extend    ┆   Open →  ┆ ∅ ┆    Delete →   ┆     ◀     ┆     ▼    ┆     ▶     ┆   Jump   │
 10│├╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌╌┼╌╌╌╌╌╌╌╌╌╌┤
 11││          ┆           ┆   Close   ┆    Paste →   ┆           ┆ ⌥ ┆               ┆    Help   ┆          ┆           ┆ ⇋ Window │
 12││   Redo   ┆ Replace # ┆ Replace X ┆    ← Paste   ┆ Mark File ┆ ⇧ ┆ ← Last Search ┆  Change X ┆          ┆           ┆ ⇋ Anchor │
 13││   Undo   ┆  Replace  ┆    Copy   ┆    Paste →   ┆  Mark Sel ┆ ∅ ┆ Last Search → ┆   Change  ┆   First  ┆    Last   ┆  ⇋ Curs  │
 14│╰──────────┴───────────┴───────────┴──────────────┴───────────┴───┴───────────────┴───────────┴──────────┴───────────┴──────────╯
+
 ```
 
 to select character press `shift+w` <https://github.com/ki-editor/ki-editor/issues/649>
