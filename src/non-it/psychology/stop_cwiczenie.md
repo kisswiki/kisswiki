@@ -1,4 +1,5 @@
 Ćwiczenie STOP:
+
 Rozwinięcie akronimu STOP:
 
 1. S – Stop (Zatrzymaj się)
