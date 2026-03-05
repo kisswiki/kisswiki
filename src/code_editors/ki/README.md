@@ -4,6 +4,8 @@ Select inside quotes: `Extend (g) > Inside (h) > " (i)` or if it works (works in
 
 Search and replace: `Local → (n)` then `Search This (f)` then `hold Multi-cursor≡ (r)` then `Multi-cursor Menu (Space)` then `Curs All (j)` then `Insert≡ (f)` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/Search.20and.20replace.20selection.20.28word.29.20in.20current.20buffer.3F/with/575776024)
 
+alternate between current file and last visited file: `Buffer > Alternate`
+
 ## 2026-02-10 14:55
 
 Select two lines, cut and do not leave empty line afterwards: `LINE (a) → Extend (g) → >> (l) → hold Cut (x) → >> (l) → release Cut (x)` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20line.20.3E.20extend.20.3E.20cut.20should.20not.20leave.20empty.20line/with/573074129)
