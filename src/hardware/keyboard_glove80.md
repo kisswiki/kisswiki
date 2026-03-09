@@ -21,6 +21,8 @@ https://docs.moergo.com/glove80-user-guide/customizing-key-layout/#putting-glove
 
 To switch to USG, press MagickKey and right bottom key on left thumb section.
 
+https://docs.moergo.com/glove80-user-guide/operating-glove80-wirelessly/#selecting-bt-profile-and-usb-connected-device
+
 ##
 
 A recurring issue that I have with the Glove80 tenting stilts is that they tend to unscrew over time, making the keyboard less stable. The second revision of the Glove80 comes with additional o-rings that can be put on the bolts to increase the friction of the screws. I have used o-rings on the short (outer) stilts. They markedly improve the sturdiness of the short stilts, but I still have to readjust them from time to time. Another solution, that only works for the long legs due to space constraints, is to get some additional nuts that have a nylon (or other plastic) locking mechanism (DIN985). They can be had for a few cents each in most hardware stores. These nuts lock in the tenting tightly. They also make it much easier to recover the exact tenting degree if you remove the stilts (e.g. for travel).
