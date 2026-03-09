@@ -19,7 +19,7 @@ https://docs.moergo.com/glove80-user-guide/customizing-key-layout/#putting-glove
 
 ## Bluetooth vs USB
 
-To switch to USG, press MagickKey and right bottom key on left thumb section.
+To switch to USB, press MagickKey and right bottom key on left thumb section.
 
 https://docs.moergo.com/glove80-user-guide/operating-glove80-wirelessly/#selecting-bt-profile-and-usb-connected-device
 
