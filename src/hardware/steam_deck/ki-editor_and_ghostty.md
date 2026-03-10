@@ -28,6 +28,8 @@ How to fix it?
 
 ## On-screen keyboard is shown in desktop mode in ghostty
 
+The only solution that works for me, is to have external display and then OSK (on-screen keyboard) is displayed on steam deck internal display. In desktop mode for tv I needed to change in KDE `System Settings > Display & Monitor > Display Configuration > Resoultion: 1280x800`. 
+
 You need to cancel it couple of times. I do not know how to disable it.
 
 To hide it, press `B` on gamepad.
@@ -76,3 +78,9 @@ You may also disable showing tabs in ghostty with `window-show-tab-bar = never`,
 next tab: ctrl+pgup
 
 previous tab: ctrl+pgdown
+
+context menu: shift+right mouse click
+
+split right: shift+ctrl+o
+
+split down: shift+ctrl+e
