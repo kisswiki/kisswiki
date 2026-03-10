@@ -28,7 +28,7 @@ How to fix it?
 
 ## On-screen keyboard is shown in desktop mode in ghostty
 
-The only solution that works for me, is to have external display and then OSK (on-screen keyboard) is displayed on steam deck internal display. In desktop mode for tv I needed to change in KDE `System Settings > Display & Monitor > Display Configuration > Resoultion: 1280x800`. 
+The only solution that works for me, is to have external display and then OSK (on-screen keyboard) is displayed on steam deck internal display. In desktop mode for tv I needed to change in KDE `System Settings > Display & Monitor > Display Configuration > Resoultion: 1920x1080`. 
 
 You need to cancel it couple of times. I do not know how to disable it.
 
