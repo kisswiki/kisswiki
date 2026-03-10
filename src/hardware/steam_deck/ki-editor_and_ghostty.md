@@ -35,8 +35,8 @@ You need to cancel it couple of times. I do not know how to disable it.
 To hide it, press `B` on gamepad.
 
 - https://github.com/ghostty-org/ghostty/discussions/9302
-- https://github.com/ghostty-org/ghostty/issues/7987
 
+- https://github.com/ghostty-org/ghostty/issues/7987
 Maybe this will help https://steamcommunity.com/discussions/forum/1/5560306947037841392/
 
 ## KDE titlebar takes to much space in ki and ghostty
@@ -48,6 +48,8 @@ set
 `window-decoration = none`
 
 And reopen ghostty.
+
+To move windows: win+mouse move
 
 https://ghostty.org/docs/config/reference#window-decoration
 
