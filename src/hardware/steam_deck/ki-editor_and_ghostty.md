@@ -26,7 +26,11 @@ How to fix it?
 
 `System Settings > Keyboard > Key Bindings > Caps Lock behavior > Make Caps Lock an additional Esc > Apply`
 
-## KDE titlebar takes to much space.
+## On-screen keyboard is shown in desktop mode in ghostty
+
+You need to cancel it couple of times. I do not know how to disable it.
+
+## KDE titlebar takes to much space in ki and ghostty
 
 In ~/.config/ghostty/config
 
@@ -60,7 +64,7 @@ decrease font-size: ctrl+-
 
 reset font-size: ctrl+0
 
-You may also disable showing tabs in ghostty with `window-show-tab-bar = never`
+You may also disable showing tabs in ghostty with `window-show-tab-bar = never`, but only on Linux (GTK). https://ghostty.org/docs/config/reference#window-show-tab-bar
 
 next tab: ctrl+pgup
 
