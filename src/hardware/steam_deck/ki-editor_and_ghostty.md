@@ -22,6 +22,10 @@ https://ki-editor.org/docs/installation/#build-from-source-without-nix
 
 How to fix it?
 
+## Capslock as Escape
+
+`System Settings > Keyboard > Key Bindings > Caps Lock behavior > Make Caps Lock an additional Esc > Apply`
+
 ## KDE titlebar takes to much space.
 
 In ~/.config/ghostty/config
@@ -31,6 +35,8 @@ set
 `window-decoration = none`
 
 And reopen ghostty.
+
+https://ghostty.org/docs/config/reference#window-decoration
 
 But ghostty then will be under taskbar.
 
@@ -53,3 +59,9 @@ increase font-size: ctrl+=
 decrease font-size: ctrl+-
 
 reset font-size: ctrl+0
+
+You may also disable showing tabs in ghostty with `window-show-tab-bar = never`
+
+next tab: ctrl+pgup
+
+previous tab: ctrl+pgdown
