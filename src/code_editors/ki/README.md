@@ -6,6 +6,8 @@ Search and replace: `Local → (n)` then `Search This (f)` then `hold Multi-curs
 
 alternate between current file and last visited file: `Buffer > Alternate`
 
+typescript formatting: `npm i -g @fsouza/prettierd`, then change something in file and Enter to save. Look at file `language.rs` in ki-editor repository.
+
 ## 2026-02-10 14:55
 
 Select two lines, cut and do not leave empty line afterwards: `LINE (a) → Extend (g) → >> (l) → hold Cut (x) → >> (l) → release Cut (x)` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20line.20.3E.20extend.20.3E.20cut.20should.20not.20leave.20empty.20line/with/573074129)
