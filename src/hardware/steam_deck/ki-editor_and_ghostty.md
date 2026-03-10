@@ -14,7 +14,7 @@ echo 'export PATH=$HOME/.cargo/bin:$PATH' >> ~/.bashrc
 . ~/.bashrc  
 ```
 
-As system libs and rustup and paths are set, follow instructions
+As system libs and rustup and paths are set, follow instructions:
 
 https://ki-editor.org/docs/installation/#build-from-source-without-nix
 
