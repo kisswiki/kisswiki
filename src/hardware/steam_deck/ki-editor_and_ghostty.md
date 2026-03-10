@@ -30,7 +30,10 @@ How to fix it?
 
 You need to cancel it couple of times. I do not know how to disable it.
 
-https://github.com/ghostty-org/ghostty/discussions/9302
+To hide it, press `B` on gamepad.
+
+- https://github.com/ghostty-org/ghostty/discussions/9302
+- https://github.com/ghostty-org/ghostty/issues/7987
 
 ## KDE titlebar takes to much space in ki and ghostty
 
