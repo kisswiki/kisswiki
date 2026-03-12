@@ -26,6 +26,11 @@ How to fix it?
 
 `System Settings > Keyboard > Key Bindings > Caps Lock behavior > Make Caps Lock an additional Esc > Apply`
 
+## Install ghostty
+
+`sudo pacman -S ghostty`
+
+
 ## On-screen keyboard is shown in desktop mode in ghostty
 
 The only solution that works for me, is to have external display and then OSK (on-screen keyboard) is displayed on steam deck internal display. In desktop mode for tv I needed to change in KDE `System Settings > Display & Monitor > Display Configuration > Resoultion: 1920x1080`. https://www.forbes.com/sites/jasonevangelho/2022/03/04/steam-deck-desktop-mode-challenge-day-1-get-a-hub-and-get-docked/ 
@@ -37,6 +42,7 @@ To hide it, press `B` on gamepad.
 - https://github.com/ghostty-org/ghostty/discussions/9302
 
 - https://github.com/ghostty-org/ghostty/issues/7987
+
 Maybe this will help https://steamcommunity.com/discussions/forum/1/5560306947037841392/
 
 ## KDE titlebar takes to much space in ki and ghostty
