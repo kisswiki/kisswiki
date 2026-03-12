@@ -10,19 +10,25 @@ https://news.ycombinator.com/item?id=40055025
 
 ## Hide Firefox tabs and sidebar revamped
 
-In Firefox `Settings > Vertical tabs`
-
 Then:
 
 about:config
 
 to hide vertical tabs:
 
-sidebar.verticalTabs false
+`sidebar.verticalTabs: false`
+
+or disable in `Settings > Vertical tabs`.
 
 to disable sidebar icons on the left:
 
-sidebar.revamp false
+`sidebar.revamp: false`
+
+Also `toolkit.legacyUserProfileCustomizations.stylesheets: true` 
+
+and add css to hide horizontal tabs as in Sidebery settings.
+
+or `ln -s ~/.mozilla/firefox/shared/chrome ~/Library/Application\ Support/Firefox/Profiles/<profile>`
 
 ## New tab after active tab
 
