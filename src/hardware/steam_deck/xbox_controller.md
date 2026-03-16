@@ -3,3 +3,5 @@ xbox controller > power button > double click pairing button (small round button
 steam deck > settings > bluetooth > select xbox controller and connect
 
 https://www.youtube.com/watch?v=cVwhLEgTjtc
+
+To pair Steam Controller, look at steam_controller.md
