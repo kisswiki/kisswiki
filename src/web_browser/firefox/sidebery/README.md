@@ -30,6 +30,8 @@ and add css to hide horizontal tabs as in Sidebery settings.
 
 or `ln -s ~/.mozilla/firefox/shared/chrome ~/Library/Application\ Support/Firefox/Profiles/<profile>`
 
+https://github.com/rofrol/dotfiles/blob/master/.mozilla/firefox/shared/chrome/userChrome.css
+
 ## New tab after active tab
 
 `Sideberry > Settings > Tabs > Position of new tab > Place new tab (general rule): after active tab`

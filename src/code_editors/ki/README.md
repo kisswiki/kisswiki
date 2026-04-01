@@ -1,3 +1,19 @@
+## 2026-04-01 14:16
+
+WJH: You can use the mini search language, which consists of 5 sections,
+
+`[mode] [search] [replacement] [include glob] [exclude glob]`
+
+WJH: These sections are separated by a separator (which can be any character), to demonstrate, I'll use `/` as the separator, if you want to define the search term as hello and the replacement as bye, you can do:
+
+`l/hello/bye`
+
+`l` here means the Literal search mode, which is most commonly usedWJH: After that, press enter, then you can use `hold-b m release-b` to replace the current selection(s) with the search query
+
+WJH: But, most of the time, I would not recommend using this search language, it will be easier to just add cursors, and modify all selections in-place
+
+https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20Search.20and.20replace.20selection.20.28word.29.20in.20current.20buffer.3F/near/575786117
+
 ## 2026-02-25 19:23
 
 Select inside quotes: `Extend (g) > Inside (h) > " (i)` or if it works (works in ts, rs. does [not in sql](https://github.com/ki-editor/ki-editor/issues/1371) atm) with node selection: `Node (d) > v (k)` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20How.20to.20select.20text.20inside.20quotes.20like.20.22user2.40example.2Ecom.22.3F/with/575777175)
