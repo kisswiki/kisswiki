@@ -1,3 +1,9 @@
+## 2026-04-02 12:14
+
+Go back to previous selection: `hold-q u` https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20Is.20there.20command.20to.20go.20back.20to.20previous.20selection.2Fstate.3F/with/583216773
+
+select all elements inside array's brackets/parens: `g g` or `g p` https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20How.20to.20select.20all.20elements.20inside.20array.27s.20brackets.20or.20p.2E.2E.2E/with/583215552
+
 ## 2026-04-01 14:16
 
 WJH: You can use the mini search language, which consists of 5 sections,
