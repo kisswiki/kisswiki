@@ -2,6 +2,10 @@
 
 Markdown needs marksman `brew install marksman`
 
+Bash `brew install bash-language-server`
+
+Python `brew install ruff pyright`
+
 ## 2026-04-02 12:14
 
 Go back to previous selection: `hold-q u` https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20Is.20there.20command.20to.20go.20back.20to.20previous.20selection.2Fstate.3F/with/583216773
