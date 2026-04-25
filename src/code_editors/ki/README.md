@@ -2,7 +2,7 @@
 
 Markdown needs marksman `brew install marksman`
 
-Bash `brew install bash-language-server`
+Bash `brew install bash-language-server shfmt`
 
 Python `brew install ruff pyright`
 
