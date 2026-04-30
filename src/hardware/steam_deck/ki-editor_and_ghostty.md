@@ -91,3 +91,13 @@ context menu: shift+right mouse click
 split right: shift+ctrl+o
 
 split down: shift+ctrl+e
+
+## Terminfo
+
+> the terminfo authors have deliberately chosen to ship their own version of the terminfo definition under a different name (ghostty instead of xterm-ghostty), with their own modifications that make it substantially different from our own terminfo definition, so it wouldn't even work out-of-the-box like what we had expected. https://github.com/ghostty-org/ghostty/discussions/8268#discussioncomment-16744849
+
+Copy Ghostty's terminfo entry to the remote machine. The easiest way is using the following one-liner:
+
+`infocmp -x xterm-ghostty | ssh YOUR-SERVER -- tic -x -`
+
+https://ghostty.org/docs/help/terminfo
