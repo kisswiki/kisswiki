@@ -240,8 +240,8 @@ set +o allexport
 # https://stackoverflow.com/questions/13713101/rsync-exclude-according-to-gitignore-hgignore-svnignore-like-filter-c/50059607#50059607
 # also there is --exclude=.DS_Store https://apple.stackexchange.com/questions/95871/skipping-ds-store-files-when-copying-between-two-external-drives
 
-# --no-o --no-go: neded so that rsync does not set owner and group to the one who is sending files
-# otherwise it sets user to 501 and owner to staff
+# --no-o --no-go: needed because `rsync -a` sets `-o` and `-g` and then rsync sets owner and group to the one who is sending files
+# i.e. sending from macOS sets user to 501 and group to staff on the remote.
 
 # from man rsync:
 # If  you specify "--chown=foo:bar", this is exactly the same as specifying "--usermap=*:foo --groupmap=*:bar",
