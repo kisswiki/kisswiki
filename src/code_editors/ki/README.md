@@ -2,13 +2,15 @@
 
 Markdown needs marksman `brew install marksman`
 
-Bash `brew install bash-language-server shfmt`
+Bash `brew install bash-language-server shfmt shellcheck`
 
 Python `brew install ruff pyright`
 
 Rust `rustup component add rust-analyzer` when error `Unknown binary 'rust-analyzer' in official toolchain '1.89.0-aarch64-apple-darwin'.`
 
 HTML `npm i -g @olrtg/emmet-language-server`
+
+sql `brew install sql-formatter`
 
 ## 2026-04-02 12:14
 
