@@ -1,0 +1,21 @@
+```sql
+create table users (
+  id bigint PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  email text unique
+);
+
+create table profiles (
+  id bigint PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  name text,
+  photo text,
+  users_id bigint references users
+);
+```
+
+> An identity column, however, does not guarantee uniqueness. (A sequence normally returns unique values, but a sequence could be reset, or values could be inserted manually into the identity column, as discussed above.) Uniqueness would need to be enforced using a PRIMARY KEY or UNIQUE constraint. https://www.postgresql.org/docs/current/ddl-identity-columns.html
+
+- https://stackoverflow.com/questions/65947502/do-i-need-to-declare-a-unique-constraint-for-bigint-generated-always-as-identit/79003524#79003524
+- https://stackoverflow.com/questions/55300370/postgresql-serial-vs-identity
+- https://www.crunchydata.com/blog/postgres-serials-should-be-bigint-and-how-to-migrate
+- https://stackoverflow.com/questions/78836298/how-do-i-create-a-generated-always-as-identity-or-generated-by-default-as-ide
+- https://github.com/oslabs-beta/Allok8/blob/80580e09ca8646a6f1e92629e2cee74864ca8dbb/init.sql#L15
