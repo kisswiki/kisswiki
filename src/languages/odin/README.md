@@ -1,6 +1,7 @@
 ## ols - LSP and formatter
 
 ```
+$ brew upgrade odin
 $ cd ~/personal_projects/odin/vendor/
 $ git clone https://github.com/DanielGavin/ols
 $ cd ols
