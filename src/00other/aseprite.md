@@ -1,3 +1,5 @@
+## Build
+
 ```
 # cd ~/personal_projects/vendor
 $ git clone https://github.com/aseprite/aseprite.git
