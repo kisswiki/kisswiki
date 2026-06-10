@@ -4,6 +4,10 @@
 
 `--sub-format vtt`
 
+and full example:
+
+`yt-dlp --no-playlist --write-auto-subs --sub-format vtt --sub-langs en 2piGF24kFrI`
+
 ## timing
 
 If the sync gets worse (gets more and more ahead or behind) as the playback progresses then you have a timing issue.
