@@ -1,3 +1,25 @@
+## ols - LSP and formatter
+
+```
+$ cd ~/personal_projects/odin/vendor/
+$ git clone https://github.com/DanielGavin/ols
+$ cd ols
+$ ./build.sh
+$ ./odinfmt.sh
+```
+
+There will be two binaries: ols and odinfmt.
+
+Copy it to `$PATH` od add current dir to `$PATH`.
+
+### Odin nightly and ols
+
+Download nightly odin https://odin-lang.org/docs/nightly/ to ~/bin/odin
+
+May need to remove security protection with commands like `xattr -d com.apple.quarantine ~/bin/odin/libs/libzstd.1.5.7.dylib`
+
+Nightly odin needed to compile ols from source. For example this commit https://github.com/DanielGavin/ols/commit/8d189a07 introduced `all_or_none` which is not in currently released odin 2025-11 released in homebrew https://github.com/Homebrew/homebrew-core/blob/d16c0c8ef91b088a2c33f719b93fa1b520022198/Formula/o/odin.rb
+
 ## is struct copied like a pass by value parameter?
 
 It automatically passes by immutable reference if the parameter is larger than 16 bytes. The immutability makes sure you don't change it by accident.
@@ -10,10 +32,10 @@ It needs `odinfmt.json` in project directory <https://github.com/DanielGavin/ols
 
 ```json
 {
- "$schema": "https://raw.githubusercontent.com/DanielGavin/ols/master/misc/odinfmt.schema.json",
- "character_width": 120,
- "tabs": false,
- "tabs_width": 4
+  "$schema": "https://raw.githubusercontent.com/DanielGavin/ols/master/misc/odinfmt.schema.json",
+  "character_width": 120,
+  "tabs": false,
+  "tabs_width": 4
 }
 ```
 

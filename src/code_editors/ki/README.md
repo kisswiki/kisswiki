@@ -44,7 +44,6 @@ Search and replace: `Local → (n)` then `Search This (f)` then `hold Multi-curs
 
 alternate between current file and last visited file: `Buffer > Alternate`
 
-
 ## 2026-02-10 14:55
 
 Select two lines, cut and do not leave empty line afterwards: `LINE (a) → Extend (g) → >> (l) → hold Cut (x) → >> (l) → release Cut (x)` [link](https://ki-editor.zulipchat.com/#narrow/channel/538719-.E2.84.B9.EF.B8.8F-Help/topic/.E2.9C.94.20line.20.3E.20extend.20.3E.20cut.20should.20not.20leave.20empty.20line/with/573074129)
@@ -155,13 +154,9 @@ tabs:
 2. mark another file
 3. switch between files with `alt+j` and `alt+l`
 
-## Odin nightly and ols
+## Odin
 
-Download nightly odin https://odin-lang.org/docs/nightly/ to ~/bin/odin
-
-May need to remove security protection with commands like `xattr -d com.apple.quarantine ~/bin/odin/libs/libzstd.1.5.7.dylib`
-
-Nightly odin needed to compile ols from source. For example this commit https://github.com/DanielGavin/ols/commit/8d189a07 introduced `all_or_none` which is not in currently released odin 2025-11 released in homebrew https://github.com/Homebrew/homebrew-core/blob/d16c0c8ef91b088a2c33f719b93fa1b520022198/Formula/o/odin.rb
+ols and odinfmt needs to be in `$PATH`. Look at `src/languages/odin/README.md`.
 
 ## 2025-05-20
 
