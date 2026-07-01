@@ -30,7 +30,7 @@ WJH: These sections are separated by a separator (which can be any character), t
 
 `l/hello/bye`
 
-`l` here means the Literal search mode, which is most commonly usedWJH: After that, press enter, then you can use `hold-b m release-b` to replace the current selection(s) with the search query
+`l` here means the Literal search mode, which is most commonly usedWJH: After that, press enter, then you can use `hold-Copy/≡ Dup > m > release-Copy/≡ Dup` to replace the current selection(s) with the search query
 
 WJH: But, most of the time, I would not recommend using this search language, it will be easier to just add cursors, and modify all selections in-place
 
