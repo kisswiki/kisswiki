@@ -1,0 +1,6 @@
+- A gdyby tak połączyć svalboard https://www.youtube.com/watch?v=1aLmO97Y2Is
+- z Even Realities G2 glasses https://www.youtube.com/watch?v=RG0ppccMJ8w
+- Można też samemu 3d drukować plastiki https://svalboard.com/pages/self-print
+- https://svalboard.com/products/svalboard-self-print-kit
+- Tu test pisania https://www.youtube.com/watch?v=1aLmO97Y2Is
+- I połączyć z tym https://www.printables.com/model/1706651-magnetic-keyboard-thigh-mount
