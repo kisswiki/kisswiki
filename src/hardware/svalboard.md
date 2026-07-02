@@ -4,3 +4,7 @@
 - https://svalboard.com/products/svalboard-self-print-kit
 - Tu test pisania https://www.youtube.com/watch?v=1aLmO97Y2Is
 - I połączyć z tym https://www.printables.com/model/1706651-magnetic-keyboard-thigh-mount
+- https://news.ycombinator.com/item?id=44759171
+- https://twey.io/hci/svalboard/
+- https://pappp.net/?p=59817
+- Fitment Guide https://docs.google.com/presentation/d/1GnWTA1rkspQECpYGpojspFwLH1Yve-2vgQR3afrVYJo
