@@ -7,4 +7,10 @@
 
 `brew install sevenzip`
 
-`7zz a -tzip -mem=AES256 -p archive.zip <folder>`
+no compression:
+
+`7zz a -tzip -mem=AES256 -mx=1 -mmt=on -p archive.zip Folder_or_File`
+
+compression:
+
+`7zz a -tzip -mem=AES256 -p archive.zip Folder_or_File`
