@@ -172,7 +172,7 @@ You can satisfy this particular use case relatively easily with `rg foo | rg -v 
 - https://github.com/BurntSushi/ripgrep/issues/644
 - https://docs.rs/regex/1.5.4/regex/
 
-## search hidden files and directories
+## search hidden and ignored files and directories
 
 ```bash
 $ rg -uu 'portal,' -g '!node_modules'
@@ -185,6 +185,8 @@ $ rg --help | rg '^\s*\-u' -A 4
             and directories (-./--hidden). Three -u flags will additionally search binary
             files (--binary).
 ```
+
+`-uuu` will also search binary files.
 
 - https://github.com/BurntSushi/ripgrep/issues/1029#issuecomment-416120007
 
