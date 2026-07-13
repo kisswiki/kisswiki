@@ -24,6 +24,12 @@ https://github.com/BurntSushi/ripgrep/issues/262#issuecomment-264364685
 
 `rg -g '!yarn.lock' -g '!package.json' babel`
 
+`rg foo -g '!bar/'`
+
+without the /, a file called bar will also be ignored
+
+https://blog.wxm.be/2020/11/08/ignore-folder-in-ripgrep.html
+
 ## file type
 
 list of types `rg --type-list`
