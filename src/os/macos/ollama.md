@@ -1,6 +1,11 @@
 ## Disable Ollama autostart
 
+Open Settings and search for "Login Items", find the Ollama entry under Allow in the Background, then click the slider to disable
+
+https://github.com/ollama/ollama/blob/main/docs/faq.mdx#how-can-i-stop-ollama-from-starting-when-i-login-to-my-computer
+
 Ollama is still forcing the open at login thing. I didn't want to compromise on not being able to run it in the background so I found a solution:
+
 - First, as you have probably done already remove Ollama from the "Open at Login" menu in System Settings --> General
 - THEN open Ollama's nagging-ass LaunchAgent with your favorite text editor (for instance, textedit) you can paste this in the terminal:
 
@@ -28,5 +33,5 @@ EDIT: I've just realized this procedure means an app will modify another app, an
 - App management.
 - For each app in the list that you are using to modify the file, turn the ability to control other apps on. It might be Terminal, your text editor or whatever. Whatever you need to turn on will appear automagically when trying to go through the steps above.
 - Restart whichever app you had to turn the setting on and try to edit the file again. :)
-    
+
 https://www.reddit.com/r/ollama/comments/1lx45fg/comment/nmglr1t/
