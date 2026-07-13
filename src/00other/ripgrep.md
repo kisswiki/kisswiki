@@ -1,5 +1,7 @@
 ## install
 
+`brew install ripgrep`
+
 `cargo install ripgrep --features 'pcre2'`
 
 ## match crlf
