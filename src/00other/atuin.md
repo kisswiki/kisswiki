@@ -22,3 +22,7 @@ atuin search --delete 'r/^time\b/'
 
 - https://docs.atuin.sh/cli/guide/delete-history/
 - about regex support https://blog.atuin.sh/release-v18-1/ https://github.com/atuinsh/atuin/pull/1745
+
+## dotfiles
+
+atuin help dotfiles
