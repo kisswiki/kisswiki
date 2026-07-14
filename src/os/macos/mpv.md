@@ -1,12 +1,22 @@
-`brew install mpv`
+## Install
 
-or better
-
-`brew cask install mpv` to have mpv in Applications
+`brew install mpv` and https://github.com/vitorgalvao/mpv-dummy/
 
 - https://mpv.io/installation/
 - https://apple.stackexchange.com/questions/288689/installed-mpv-with-brew-but-nothing-in-applications
 - https://github.com/mpv-player/mpv/issues/572#issuecomment-35679696
+- https://github.com/Homebrew/homebrew-cask/issues/86226#issuecomment-1405765824
+- https://www.reddit.com/r/mpv/comments/1fhp8yv/setting_native_mpv_player_as_default_on_macos/
+
+### stolendata-mpv
+
+- https://github.com/orgs/Homebrew/discussions/6516
+- https://github.com/Homebrew/homebrew-cask/issues/86226
+- https://github.com/orgs/Homebrew/discussions/5270
+
+## Thumbnails
+
+- https://github.com/po5/thumbfast
 
 ## Power usage
 
