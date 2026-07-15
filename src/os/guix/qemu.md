@@ -25,7 +25,7 @@ save below as guix.xml:
         <controller type='usb' model='qemu-xhci'/>
         <disk type='file' device='disk'>
             <driver name='qemu' type='qcow2'/>
-            <source file='/Users/roman.frolow/personal_projects/guix/guix-system-vm-image-1.5.0.aarch64-linux.qcow2'/>
+            <source file='/Users/romanfrolow/personal_projects/guix/guix-system-vm-image-1.5.0.aarch64-linux.qcow2'/>
             <target dev='vda' bus='virtio'/>
             <boot order='1'/>
         </disk>
@@ -87,7 +87,8 @@ virsh list --all
 virsh start guix
 guix-bare-bones
 virsh undefine guix2-bare-bones
-# virsh undefine guix --remove-all-storage --nvram
+#virsh undefine guix2-bare-bones --nvram
+#virsh undefine guix --remove-all-storage --nvram
 ```
 
 - https://n8henrie.com/2022/09/linux-vms-on-my-m1-mac/
