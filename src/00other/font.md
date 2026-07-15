@@ -16,6 +16,17 @@ https://fonts.adobe.com/fonts/vs/AQHXbB5pOrzHoNSV8XXKWw?x_max=871&x_min=114&y_ma
 - https://draculatheme.com/blog/best-free-fonts-for-programming
 - https://hadrysmateusz.medium.com/best-free-programming-fonts-2020-f243a6b4749a
 
+## Nerd Fonts fallback
+
+`brew install --cask font-symbols-only-nerd-font`
+
+vscode `"editor.fontFamily": "'Reddit Mono', 'Symbols Nerd Font'",`
+
+zed `"buffer_font_fallbacks": ["Symbols Nerd Font"],`
+
+- https://www.nickcernis.com/blog/you-might-not-need-a-nerdfont/
+- https://github.com/zed-industries/zed/discussions/9150#discussioncomment-12864589
+
 ## Ubuntu Mono
 
 - My favourite monospace font, though r could be different.

@@ -108,5 +108,3 @@ Alternately, see `guix package --search-paths -p "/root/.config/guix/current"'.
 
 hint: After setting `PATH', run `hash guix' to make sure your shell refers to `/root/.config/guix/current/bin/guix'.
 ```
-
-```

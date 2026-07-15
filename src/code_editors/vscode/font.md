@@ -11,6 +11,6 @@ You need to restart vscode to use new font.
 
 `brew install --cask font-symbols-only-nerd-font`
 
-`"editor.fontFamily": "'Reddit Mono', 'Symbols Nerd Font'", // NotoMono Nerd Font`
+`"editor.fontFamily": "'Reddit Mono', 'Symbols Nerd Font'",`
 
 - https://www.nickcernis.com/blog/you-might-not-need-a-nerdfont/
