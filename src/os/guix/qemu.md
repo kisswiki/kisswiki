@@ -87,6 +87,7 @@ virsh list --all
 virsh start guix
 guix-bare-bones
 virsh undefine guix2-bare-bones
+# virsh undefine guix --remove-all-storage --nvram
 ```
 
 - https://n8henrie.com/2022/09/linux-vms-on-my-m1-mac/
