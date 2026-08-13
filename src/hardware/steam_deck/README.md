@@ -33,7 +33,23 @@ Press x.
 
 ## Black screen after battery depleted
 
-Press and hold the power button for 10-12 seconds, then release and press once briefly. - chatgpt
+After the Steam Deck battery has been completely drained, the device may appear to be dead for a while. Valve recommends trying the following first:
+
+Connect the original charger directly to the Steam Deck, without using a dock or USB hub.
+
+Check the LED next to the USB-C port. If it flashes when you press the Power button, the battery may still be too deeply discharged.
+
+Leave the Steam Deck plugged in for at least 15 minutes. If the battery was completely drained, I would leave it charging for 30–60 minutes.
+
+Then press the Power button normally.
+
+If the screen is still black, perform a forced shutdown/reset:
+
+LCD: Hold the Power button for 10 seconds.
+OLED: Hold the Power button for 16 seconds.
+Release the button, wait a few seconds, then press Power normally.
+
+If the screen is still black, try entering the BIOS: hold Volume + and press the Power button. If the BIOS appears, select Continue. This is also a procedure recommended by Valve when the Steam Deck is charging but does not boot normally.
 
 ## Hard restart of steam deck
 
