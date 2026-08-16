@@ -1,4 +1,5 @@
-from https://github.com/can1357/oh-my-pi/issues/6451#issuecomment-5305656166
+- from https://github.com/can1357/oh-my-pi/issues/6451#issuecomment-5305656166
+- flex pricing https://developers.openai.com/api/docs/pricing?latest-pricing=flex
 
 It works for me, but chatgpt says openai-codex does not support flex but openai-api does support it. But we can see the requests and responses.
 
