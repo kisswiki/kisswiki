@@ -93,6 +93,8 @@ Install ffmpeg or you may get file without audio <https://www.ffmpeg.org/downloa
 
 ## download mp3 or acc
 
+`yt-dlp -x --audio-format mp3 --audio-quality 0`
+
 ```
 yt-dlp --extract-audio "https://www.youtube.com/watch?v=GXeAOtb1VeA"
 ffmpeg -i output.opus output.aac
