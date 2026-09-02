@@ -19,3 +19,42 @@ Be aware that in the discussion above, Vulkan can be substituted with Direct12 o
 Which is actually probably the end result of all of this. We're probably going to wind up with some version of Win32/DX12 APIs on Linux thanks to Steam as that would give you portability betweeen Linux and the biggest OS platform. And, to be fair, most users would probably be happier...
 
 <https://news.ycombinator.com/item?id=44307285>
+
+## ChatGPT answer
+
+- Claim: Vulkan is newer, so applications should render directly to a Vulkan surface and control presentation.
+  Counter: Wayland applications already render locally using Vulkan, OpenGL, or software rendering. They submit GPU buffers to the compositor. Vulkan cannot replace the compositor because something must coordinate overlapping windows, multiple monitors, cursors, scaling, HDR, and multiple GPUs.
+
+- Claim: Applications should choose their own refresh-rate synchronization.
+  Counter: They can express presentation preferences, including allowing tearing through `tearing-control-v1`. The compositor must retain final control because multiple applications can share one physical display. Fullscreen applications may use direct scanout.
+
+- Claim: Wayland always prevents tearing.
+  Counter: That was effectively the historical default, but modern Wayland supports asynchronous presentation where tearing is acceptable.
+
+- Claim: Zink should handle OpenGL instead of Wayland providing OpenGL.
+  Counter: Wayland does not provide OpenGL. Mesa or the driver does. Zink can already translate OpenGL to Vulkan while the application uses Wayland for window-system integration.
+
+- Claim: Fractional scaling always renders at 2× and downsamples.
+  Counter: This describes an older GNOME/XWayland approach. `fractional-scale-v1` lets native clients render directly at scales such as 150%. Legacy applications can still require inefficient scaling.
+
+- Claim: Wayland compositors waste VRAM.
+  Counter: Compositing, scaling, and multi-GPU transfers can consume substantial VRAM, especially with implementation or driver problems. But Windows and macOS compositors also require buffers. This is not necessarily a fundamental Wayland flaw.
+
+- Claim: Client-side decorations force applications to use C/C++ libraries.
+  Counter: They do not. Decorations can be implemented in any language. The valid criticism is that GNOME’s preference for client-side decorations shifts complexity to applications and encourages dependence on GTK or Qt.
+
+- Claim: Wayland security broke screenshots, automation, input methods, and accessibility.
+  Counter: Largely fair. X11 exposed powerful but insecure global access; Wayland removed it before complete secure replacements were available. Portals and PipeWire solve some cases, but accessibility, automation, and input-method support took far too long.
+
+- Claim: Refresh timing is deliberately disturbed to prevent fingerprinting.
+  Counter: That is more likely a browser or compositor-specific privacy mechanism, not a fundamental Wayland rule. The claim needs a concrete example.
+
+- Claim: Vulkan, D3D12, and Metal are effectively identical.
+  Counter: They belong to the same generation of explicit, low-level graphics APIs, but differ significantly in memory, synchronization, shaders, presentation, and OS integration.
+
+- Claim: Linux will probably adopt Win32/DX12 because of Steam.
+  Counter: Steam’s actual direction is Win32/D3D compatibility through Proton, DXVK, and vkd3d-proton, translating D3D to Vulkan. Gamescope itself is a Wayland compositor. This strengthens compatibility with Windows software, not native adoption of Win32/DX12.
+
+Overall: The criticism of Wayland’s slow delivery, accessibility gaps, and implementation problems is reasonable. The central technical mistake is treating Vulkan as an alternative to Wayland, when they solve different layers of the graphics stack.
+
+https://chatgpt.com/s/t_6a981031026081918ea3879e3e08bccf
