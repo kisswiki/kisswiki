@@ -1,2 +1,2 @@
-- https://www.lofiatc.com/
+- https://finalapproach.fm/ (successor to lofiatc.com, which went dark in 2025; ATC recorded in person)
   - https://news.ycombinator.com/item?id=35126914
