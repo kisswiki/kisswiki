@@ -83,8 +83,12 @@ permissions, not the tool set.
   extension-backed session comes from the extension's `AllowFileAccess`
   permission. Fix: `chrome://extensions` → the Playwright extension →
   Details → **Allow access to file URLs**. It is an explicit permission grant,
-  so the owner decides; a reconnect or reload may be needed. Verified
-  mechanism (Chromium source), the toggle itself was not yet tested here.
+  so the owner decides, and it needs a reconnect: right after the change the
+  bridge timed out until it reconnected. Verified end to end on 2026-09-30 —
+  with the permission on, the upload attached the PDF (`input.files` showed the
+  expected name and size) and the application submitted successfully. So file
+  inputs work in extension mode; the earlier "Not allowed" was only this
+  permission.
 - **Uploads only from allowed roots.** The MCP server refuses paths outside the
   workspace with a clear message (`Allowed roots: <workspace>/.playwright-mcp,
   <workspace>`), so a `/tmp` copy of a CV was rejected. That means personal
