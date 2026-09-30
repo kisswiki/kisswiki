@@ -98,6 +98,17 @@ permissions, not the tool set.
   `Drop target did not accept the drop - its dragover handler did not call
   preventDefault()` on every element tried, and most widgets have no drop
   handler. Page JavaScript cannot read a file from disk either.
+- **Selectize widgets are scriptable (2026-09-30).** A Traffit availability
+  field exposed `element.selectize` with `getOption(key).text()` and
+  `setValue(key)`. The dropdown's visual order differed from the option keys,
+  so positional clicking could pick the wrong value; matching the label and
+  reading the committed item back is reliable. Selectize clears an uncommitted
+  value on blur.
+- **A background tab may render nothing.** Two SPAs (Connectis Hub and an
+  eRecruiter application form) served an empty body while the form existed in
+  the DOM with zero height. Selecting the tab with `browser_tabs`/`select`
+  made `document.hasFocus()` true and the page rendered immediately. Do not
+  diagnose a broken app before focusing its tab.
 - **The first request can time out while the connection dialog is open.** The
   initial `browser_tabs` call failed after 60 s because approval had not
   happened yet. Ask the owner, then make one fresh call; do not loop.
