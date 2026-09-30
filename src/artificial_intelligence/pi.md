@@ -10,29 +10,23 @@ reasoning level is stored per model under `modelThinkingLevels` in `settings.jso
 step cancels without changing anything. Models without reasoning skip the second
 step. When model scoping is configured, `/m` lists the scoped models.
 
+`/m` is the only command here that remembers a reasoning level, and it always
+ties that level to one model. The same extension also saves an interactive
+`/model` choice as the default model.
+
 The picker comes from the personal extension
 `~/.pi/agent/extensions/remember-model.ts`; run `/reload` after changing it.
+The index of that directory is `~/.pi/agent/extensions/README.md`, which keeps
+one line per extension and points here for usage details.
 
 ## Thinking / reasoning level
 
-The same extension provides `/reasoning`: select a supported level and press Enter
-to apply it to the current session and save it as the global default. No Ctrl+S is
-needed. You can also set it directly:
+Use `/thinking` or **Shift+Tab** to change the level for the current session only.
+In the built-in `/thinking` picker, **Ctrl+S** saves the level as the global
+default for new sessions. That default applies to models without a level saved by
+`/m`, unless overridden by project settings, per-model settings or startup
+options; resumed sessions retain their saved level.
 
-```text
-/reasoning medium
-```
-
-Run `/reload` after installing or changing the extension. Cancelling the picker
-or entering an unsupported level leaves the session and defaults unchanged.
-The global default applies to new sessions unless overridden by project settings,
-per-model settings, or startup options; resumed sessions retain their saved level.
-
-For temporary changes, use `/thinking` or **Shift+Tab**. In the built-in
-`/thinking` picker, **Ctrl+S** explicitly saves the default. Shift+Tab alone does
-not save it. Model changes do not cause this extension to save a reasoning default.
-
-The same extension automatically saves interactive model choices as the default.
 Run `/hotkeys` to check the active shortcuts if the defaults were customized.
 
 Reference: Pi 0.99.1, `docs/models.md` and `docs/settings.md`.
