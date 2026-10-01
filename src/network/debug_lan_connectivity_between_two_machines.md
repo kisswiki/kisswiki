@@ -1,6 +1,6 @@
 Debugging "machine A cannot reach machine B on the LAN" when you can only type on one of them
 
-Worked example: M1 MacBook (Wi-Fi) could not reach a Linux Mint MacBook Pro (Wi-Fi, live USB), Mint could reach the Mac. Cause in the end: see `os/macos/no_route_to_host_local_network_permission.md`. The method below is what found it.
+Worked example: M1 MacBook (Wi-Fi) could not reach a Linux Mint MacBook Pro (Wi-Fi, live USB), Mint could reach the Mac. Cause in the end: see [no_route_to_host_local_network_permission.md](../os/macos/no_route_to_host_local_network_permission.md). The method below is what found it.
 
 ## 1. Get a way in that does not depend on the broken path
 

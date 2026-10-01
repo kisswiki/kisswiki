@@ -21,3 +21,5 @@ Debug order for "No route to host" on the LAN:
 3. Only then `tcpdump` on both ends.
 
 `/usr/bin/log` is needed in zsh, because `log` is a shell builtin there.
+
+Full debugging walkthrough (reverse SSH tunnel loop on Linux Mint, tcpdump on both ends, third-device control): [debug_lan_connectivity_between_two_machines.md](../../network/debug_lan_connectivity_between_two_machines.md)
