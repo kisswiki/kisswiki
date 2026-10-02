@@ -33,8 +33,22 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
 - **musicdb**: merges plays from all sources (ListenBrainz after the scrobbler went live, the MPD log before, skips filtered out), writes stickers `playCount`, `plays`, `lastPlayed`, `favorite`. History is kept as JSONL in a private git repo; the SQLite DB is a rebuildable cache.
 - **hits**: top 10/100/1000 of a decade from the Billboard Year-End Hot 100 (1959–), genre filter like `"rock -country"` (word match on MusicBrainz genres), ranked by chart points or ListenBrainz listens; writes an MPD playlist of the songs I have, `--download` fetches the rest.
 
+## Everyday use
+
+- `r` in rmpc: like / dislike (rmpc's own `like` sticker). musicdb sends changes to ListenBrainz as love / clear / hate.
+- `Y` / `P`: sort the queue by year / by my play count.
+- `Ctrl-x`: delete the selected song: it goes to the Trash and its ListenBrainz listens are queued. Nothing
+  irreversible happens until `musicdb deletions` (review) and `musicdb deletions --confirm` (deletes the listens;
+  LB applies deletions within about an hour). `--cancel ID` restores the file.
+- `hits all -n 10 -g "+rock -thrash metal" --playlist`: top 10 of every decade in one playlist; `--owned` picks
+  the top 10 I already have.
+- ListenBrainz recommendations (Daily/Weekly Jams, Weekly Exploration) appear as MPD playlists `LB …`
+  once LB generates them; `musicdb lb-playlists --download` fetches the missing tracks.
+
 ## rmpc
 
+- Year column: `Transform(Truncate(content: (kind: Property(Other("date"))), length: 4))` (0.11 has no `Date` property).
+  mbtag writes the MusicBrainz first release date to TDRC/TDOR; yt-dlp's upload date goes to `TXXX:YouTube Upload Date`.
 - Song table columns from stickers: `(kind: Sticker("plays"))`, `(kind: Sticker("favorite"))`.
 - `SortByColumn(n)` (1-based) sorts the queue; I bind `P` to the Plays column.
 - rmpc compares sticker values as text, so `"10"` sorts before `"9"`: musicdb writes `plays` space-padded to a fixed width.
