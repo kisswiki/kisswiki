@@ -30,7 +30,7 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
 
 - **yt-mp3-mb**: yt-dlp → mp3 → identifies the song on MusicBrainz (URL relation, AcoustID, ListenBrainz lookup), writes clean artist/title/MBIDs, embeds a cover (Cover Art Archive, else the YouTube thumbnail cropped square) and sets an album tag (clients cache art per album).
 - **listenbrainz-mpd**: counts a listen after half the song or 4 min and sends the MBID from the file. It only scrobbles while running, so it runs as a LaunchAgent (`KeepAlive`); plays while it was down are lost.
-- **musicdb**: merges plays from all sources (ListenBrainz after the scrobbler went live, the MPD log before, skips filtered out), writes stickers `playCount`, `plays`, `lastPlayed`, `favorite`. History is kept as JSONL in a private git repo; the SQLite DB is a rebuildable cache.
+- **musicdb**: merges plays from all sources (ListenBrainz after the scrobbler went live, the MPD log before, skips filtered out), writes stickers `playCount`, `plays`, `lastPlayed`; likes come from rmpc's own `like` sticker. History is kept as JSONL in a private git repo; the SQLite DB is a rebuildable cache.
 - **hits**: top 10/100/1000 of a decade from the Billboard Year-End Hot 100 (1959–), genre filter like `"rock -country"` (word match on MusicBrainz genres), ranked by chart points or ListenBrainz listens; writes an MPD playlist of the songs I have, `--download` fetches the rest.
 
 ## Everyday use
@@ -49,8 +49,8 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
 
 - Year column: `Transform(Truncate(content: (kind: Property(Other("date"))), length: 4))` (0.11 has no `Date` property).
   mbtag writes the MusicBrainz first release date to TDRC/TDOR; yt-dlp's upload date goes to `TXXX:YouTube Upload Date`.
-- Song table columns from stickers: `(kind: Sticker("plays"))`, `(kind: Sticker("favorite"))`.
-- `SortByColumn(n)` (1-based) sorts the queue; I bind `P` to the Plays column.
+- Song table columns from stickers: `(kind: Sticker("plays"))`; likes via `Transform(Replace(content: (kind: Sticker("like")), replacements: [(match: "2", replace: (kind: Text("♥")))]))`.
+- `SortByColumn(n)` (1-based) sorts the queue; I bind `Y` to Year and `P` to Plays.
 - rmpc compares sticker values as text, so `"10"` sorts before `"9"`: musicdb writes `plays` space-padded to a fixed width.
 - Covers: M.A.L.P. (Android) and rmpc read embedded art via MPD `readpicture`.
 
