@@ -9,7 +9,7 @@ the tools are in my dotfiles (`~/scripts`, see `~/scripts/README.md`).
 brew install mpd mpc
 mkdir -p ~/.config/mpd/playlists
 brew services start mpd        # LaunchAgent sh.brew.mpd (KeepAlive)
-cargo install rmpc --locked    # TUI client
+cargo install rmpc --locked    # TUI client (I use my fork rormpc: github.com/rofrol/rormpc, config in ~/.config/rormpc)
 cargo install listenbrainz-mpd # scrobbler
 mpc update && mpc add / && rmpc
 ```
@@ -50,7 +50,9 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
 - Spotify history: `musicdb import-spotify <zip>` for local counts, `musicdb lb-import-spotify` to send it to
   ListenBrainz; details in [spotify_history_import.md](../../listenbrainz/spotify_history_import.md).
 
-## rmpc
+## rmpc / rormpc
+
+- My fork rormpc adds a Hits pane (table of `hits --json` output) and `Status(BuildRevision)` (sha + commit subject in the footer); see its RORMPC.md.
 
 - Year column: `Transform(Truncate(content: (kind: Property(Other("date"))), length: 4))` (0.11 has no `Date` property).
   mbtag writes the MusicBrainz first release date to TDRC/TDOR; yt-dlp's upload date goes to `TXXX:YouTube Upload Date`.
