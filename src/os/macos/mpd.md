@@ -61,6 +61,19 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
 - rmpc compares sticker values as text, so `"10"` sorts before `"9"`: musicdb writes `plays` space-padded to a fixed width.
 - Covers: M.A.L.P. (Android) and rmpc read embedded art via MPD `readpicture`.
 
+## Media keys (Now Playing)
+
+macOS sends keyboard media keys and Bluetooth headphone buttons to the app registered with Now Playing, so
+MPD needs a bridge: [mpd-now-playable](https://git.00dani.me/00dani/mpd-now-playable) (Python/PyObjC).
+
+```
+uv tool install mpd-now-playable
+mpd-now-playable install-launchagent    # ~/Library/LaunchAgents/me.00dani.mpd-now-playable.plist, starts it
+```
+
+Remapping keys with skhd/Karabiner is not a substitute: headphone buttons never become key events. A browser
+that starts playing takes over Now Playing until MPD plays again.
+
 ## Troubleshooting
 
 - Scrobbles stopped → `launchctl print gui/$(id -u)/com.rofrol.listenbrainz-mpd`; log in `~/Library/Logs/`.
