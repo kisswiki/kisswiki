@@ -10,7 +10,7 @@ brew install mpd mpc
 mkdir -p ~/.config/mpd/playlists
 brew services start mpd        # LaunchAgent sh.brew.mpd (KeepAlive)
 cargo install rmpc --locked    # TUI client (I use my fork rormpc: github.com/rofrol/rormpc, config in ~/.config/rormpc)
-cargo install listenbrainz-mpd # scrobbler
+music-companions install       # scrobbler ro-listenbrainz-mpd (my fork) + launchd agents, from my dotfiles ~/scripts
 mpc update && mpc add / && rmpc
 ```
 
@@ -23,13 +23,13 @@ mpc update && mpc add / && rmpc
 
 ```
 YouTube ──yt-mp3-mb──▶ mp3 (MusicBrainz tags, MBIDs, embedded cover) ──▶ MPD library
-MPD ──listenbrainz-mpd (LaunchAgent)──▶ ListenBrainz
+MPD ──ro-listenbrainz-mpd (LaunchAgent)──▶ ListenBrainz
 ListenBrainz, MPD log, Takeout, Spotify export ──musicdb (hourly LaunchAgent)──▶ play history ──▶ MPD stickers ──▶ rmpc columns
 Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists ("Hits 1980s rock top100")
 ```
 
 - **yt-mp3-mb**: yt-dlp → mp3 → identifies the song on MusicBrainz (URL relation, AcoustID, ListenBrainz lookup), writes clean artist/title/MBIDs, embeds a cover (Cover Art Archive, else the YouTube thumbnail cropped square) and sets an album tag (clients cache art per album).
-- **listenbrainz-mpd**: counts a listen after half the song or 4 min and sends the MBID from the file. It only scrobbles while running, so it runs as a LaunchAgent (`KeepAlive`); plays while it was down are lost.
+- **ro-listenbrainz-mpd**: my fork of [listenbrainz-mpd](https://codeberg.org/elomatreb/listenbrainz-mpd) ([github.com/rofrol/ro-listenbrainz-mpd](https://github.com/rofrol/ro-listenbrainz-mpd)). It counts a listen only after 90% of the song played in one run: pauses don't matter, a seek or a stop starts the run again, a song without a known duration is never sent (upstream: half the song or 4 min). It sends the MBID from the file. It only scrobbles while running, so it runs as a LaunchAgent (`KeepAlive`); plays while it was down are lost. A different package name than upstream, so `cargo install listenbrainz-mpd` would add a second scrobbler instead of replacing it: don't. Config and token stay in upstream's `listenbrainz-mpd` directory.
 - **musicdb**: merges plays from all sources (ListenBrainz after the scrobbler went live, the MPD log before, skips filtered out), writes stickers `playCount`, `plays`, `lastPlayed`; likes come from rmpc's own `like` sticker. History is kept as JSONL in a private git repo; the SQLite DB is a rebuildable cache.
 - **hits**: top 10/100/1000 of a decade from the Billboard Year-End Hot 100 (1959–), genre filter like `"rock -country"` (word match on MusicBrainz genres), ranked by chart points or ListenBrainz listens; writes an MPD playlist of the songs I have, `--download` fetches the rest.
 
@@ -76,8 +76,9 @@ that starts playing takes over Now Playing until MPD plays again.
 
 ## Troubleshooting
 
-- Scrobbles stopped → `launchctl print gui/$(id -u)/com.rofrol.listenbrainz-mpd`; log in `~/Library/Logs/`.
-- After `cargo install listenbrainz-mpd`: `launchctl kickstart -k gui/$(id -u)/com.rofrol.listenbrainz-mpd`.
-- `listenbrainz-mpd` 2.6 needs a recent rustc (`cfg_select`); `rustup default stable` if an old toolchain is pinned.
+- Scrobbles stopped → `music-companions status`; log in `~/Library/Logs/ro-listenbrainz-mpd.log`.
+- Changing the scrobbler: commit and tag in the fork, bump `RO_LB_TAG` in `music-companions`, run `music-companions install`
+  (`install --local` builds the checkout without a tag, for trying a change).
+- `ro-listenbrainz-mpd` 2.6 needs a recent rustc (`cfg_select`); `rustup default stable` if an old toolchain is pinned.
 - Play counts not updating → `~/Library/Logs/musicdb.log`; `musicdb update` by hand.
 - listenbrainz.org "Loading chunk … failed" is a front-end deploy/cache issue, not lost data: hard reload.
