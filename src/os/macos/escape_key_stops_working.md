@@ -40,21 +40,18 @@ Run it with `swift taps.swift`, then `ps -o comm= -p <pid>`.
 ## Workaround: Hammerspoon forwards Escape to the app
 
 Hammerspoon still receives plain Escape as a hotkey. Posting a new key event to
-the frontmost app's process (`event:post(app)`) skips whatever swallows it. The
-file is in my dotfiles, `~/.hammerspoon/esc-workaround.lua`, and `init.lua` does
-not load it.
-
-Load it while the bug is there (it lasts until Hammerspoon reloads or I log out):
+the frontmost app's process (`event:post(app)`) skips whatever swallows it.
+The command is `esc-workaround` in my dotfiles (`~/scripts`, on `PATH`):
 
 ```sh
-hs -c 'dofile(os.getenv("HOME") .. "/.hammerspoon/esc-workaround.lua")'
+esc-workaround on      # install the binding in the running Hammerspoon
+esc-workaround off     # remove it
+esc-workaround status
 ```
 
-Remove it:
-
-```sh
-hs -c 'escFix.hk:delete(); escFix = nil'
-```
+The binding lives only in the running Hammerspoon, so a Hammerspoon reload or a
+logout removes it. After logging in, try Escape first; run `esc-workaround on`
+only if it is still dead.
 
 The core of it:
 
