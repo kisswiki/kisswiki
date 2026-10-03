@@ -47,6 +47,9 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
 - ListenBrainz recommendations (Daily/Weekly Jams, Weekly Exploration) appear as MPD playlists `LB …`
   once LB generates them; `musicdb lb-playlists --download` fetches the missing tracks.
 
+- Spotify history: `musicdb import-spotify <zip>` for local counts, `musicdb lb-import-spotify` to send it to
+  ListenBrainz; details in [spotify_history_import.md](../../listenbrainz/spotify_history_import.md).
+
 ## rmpc
 
 - Year column: `Transform(Truncate(content: (kind: Property(Other("date"))), length: 4))` (0.11 has no `Date` property).
