@@ -39,7 +39,8 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
 - `Y` / `P`: sort the queue by year / by my play count.
 - `Ctrl-x`: delete the selected song: it goes to the Trash and its ListenBrainz listens are queued. Nothing
   irreversible happens until `musicdb deletions` (review) and `musicdb deletions --confirm` (deletes the listens;
-  LB applies deletions within about an hour). `--cancel ID` restores the file.
+  LB applies deletions within about an hour). `Ctrl-y` undoes the last `Ctrl-x` (repeat to go further back),
+  restoring the file and its stickers; `--cancel ID` restores an older one. Irreversible steps never run on a timer.
 - `hits all -n 10 -g "+rock -thrash metal" --playlist`: top 10 of every decade in one playlist; `--owned` picks
   the top 10 I already have.
 - ListenBrainz recommendations (Daily/Weekly Jams, Weekly Exploration) appear as MPD playlists `LB …`
