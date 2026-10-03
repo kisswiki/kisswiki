@@ -10,7 +10,7 @@ brew install mpd mpc
 mkdir -p ~/.config/mpd/playlists
 brew services start mpd        # LaunchAgent sh.brew.mpd (KeepAlive)
 cargo install rmpc --locked    # TUI client (I use my fork rormpc: github.com/rofrol/rormpc, config in ~/.config/rormpc)
-music-companions install       # scrobbler ro-listenbrainz-mpd (my fork) + launchd agents, from my dotfiles ~/scripts
+~/personal_projects/rormpc/scripts/rormpc_install.sh companions   # scrobbler ro-listenbrainz-mpd + mpd-gap as launchd agents
 mpc update && mpc add / && rmpc
 ```
 
@@ -36,7 +36,7 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
   sets the `skips` sticker (skips since the last play) and lists songs with 2+ in the MPD playlist `Skipped`,
   to review in rormpc and delete with Ctrl-x. Past ListenBrainz listens stay: deleting them would rewrite old
   years' statistics, which is where a change of taste shows.
-- **mpd-gap**: 3 s of silence between songs. While a song plays it sets single to oneshot; MPD 0.24 then pauses
+- **mpd-gap** (in rormpc, installed by `rormpc_install.sh companions`): 3 s of silence between songs. While a song plays it sets single to oneshot; MPD 0.24 then pauses
   at 0:00 of the next song (queue or random order) and mpd-gap resumes it. A user pause is never resumed.
 - **hits**: top 10/100/1000 of a decade from the Billboard Year-End Hot 100 (1959–), genre filter like `"rock -country"` (word match on MusicBrainz genres), ranked by chart points or ListenBrainz listens; writes an MPD playlist of the songs I have, `--download` fetches the rest.
 
@@ -83,9 +83,9 @@ that starts playing takes over Now Playing until MPD plays again.
 
 ## Troubleshooting
 
-- Scrobbles stopped → `music-companions status`; log in `~/Library/Logs/ro-listenbrainz-mpd.log`.
-- Changing the scrobbler: commit and tag in the fork, bump `RO_LB_TAG` in `music-companions`, run `music-companions install`
-  (`install --local` builds the checkout without a tag, for trying a change).
+- Scrobbles stopped → `rormpc_install.sh status`; log in `~/Library/Logs/ro-listenbrainz-mpd.log`.
+- Changing the scrobbler: commit and tag in the fork, bump `RO_LB_TAG` in rormpc's `scripts/rormpc_install.sh`, run `rormpc_install.sh companions`
+  (`companions --local` builds the checkout without a tag, for trying a change).
 - `ro-listenbrainz-mpd` 2.6 needs a recent rustc (`cfg_select`); `rustup default stable` if an old toolchain is pinned.
 - Play counts not updating → `~/Library/Logs/musicdb.log`; `musicdb update` by hand.
 - listenbrainz.org "Loading chunk … failed" is a front-end deploy/cache issue, not lost data: hard reload.
