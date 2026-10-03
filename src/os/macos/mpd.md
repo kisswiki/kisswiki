@@ -1,7 +1,8 @@
 # MPD music stack on macOS
 
 How my local music setup fits together. Tool usage lives in each tool's `--help`;
-the tools are in my dotfiles (`~/scripts`, see `~/scripts/README.md`).
+the tools are [rormpc-tools](https://github.com/rofrol/rormpc-tools) (`hits`, `musicdb`, `mpd-gap`, `yt-mp3-mb`,
+`yt-playlist`), my settings for them in `~/.config/rormpc-tools/config.toml`.
 
 ## Install
 
@@ -10,7 +11,7 @@ brew install mpd mpc
 mkdir -p ~/.config/mpd/playlists
 brew services start mpd        # LaunchAgent sh.brew.mpd (KeepAlive)
 cargo install rmpc --locked    # TUI client (I use my fork rormpc: github.com/rofrol/rormpc, config in ~/.config/rormpc)
-~/personal_projects/rormpc/scripts/rormpc_install.sh companions   # scrobbler ro-listenbrainz-mpd + mpd-gap as launchd agents
+~/personal_projects/rormpc/scripts/rormpc_install.sh companions   # rormpc-tools, scrobbler, mpd-gap, hourly musicdb (launchd)
 mpc update && mpc add / && rmpc
 ```
 
@@ -36,7 +37,7 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
   sets the `skips` sticker (skips since the last play) and lists songs with 2+ in the MPD playlist `Skipped`,
   to review in rormpc and delete with Ctrl-x. Past ListenBrainz listens stay: deleting them would rewrite old
   years' statistics, which is where a change of taste shows.
-- **mpd-gap** (in rormpc, installed by `rormpc_install.sh companions`): 3 s of silence between songs. While a song plays it sets single to oneshot; MPD 0.24 then pauses
+- **mpd-gap** (rormpc-tools): 3 s of silence between songs. While a song plays it sets single to oneshot; MPD 0.24 then pauses
   at 0:00 of the next song (queue or random order) and mpd-gap resumes it. A user pause is never resumed.
 - **hits**: top 10/100/1000 of a decade from the Billboard Year-End Hot 100 (1959–), genre filter like `"rock -country"` (word match on MusicBrainz genres), ranked by chart points or ListenBrainz listens; writes an MPD playlist of the songs I have, `--download` fetches the rest.
 
@@ -83,7 +84,7 @@ that starts playing takes over Now Playing until MPD plays again.
 
 ## Troubleshooting
 
-- Scrobbles stopped → `rormpc_install.sh status`; log in `~/Library/Logs/ro-listenbrainz-mpd.log`.
+- Scrobbles stopped, counts not updating → `rormpc_install.sh status`; logs in `~/Library/Logs/` (`ro-listenbrainz-mpd.log`, `musicdb.log`, `mpd-gap.log`).
 - Changing the scrobbler: commit and tag in the fork, bump `RO_LB_TAG` in rormpc's `scripts/rormpc_install.sh`, run `rormpc_install.sh companions`
   (`companions --local` builds the checkout without a tag, for trying a change).
 - `ro-listenbrainz-mpd` 2.6 needs a recent rustc (`cfg_select`); `rustup default stable` if an old toolchain is pinned.
