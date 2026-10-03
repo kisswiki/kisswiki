@@ -31,6 +31,13 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
 - **yt-mp3-mb**: yt-dlp → mp3 → identifies the song on MusicBrainz (URL relation, AcoustID, ListenBrainz lookup), writes clean artist/title/MBIDs, embeds a cover (Cover Art Archive, else the YouTube thumbnail cropped square) and sets an album tag (clients cache art per album).
 - **ro-listenbrainz-mpd**: my fork of [listenbrainz-mpd](https://codeberg.org/elomatreb/listenbrainz-mpd) ([github.com/rofrol/ro-listenbrainz-mpd](https://github.com/rofrol/ro-listenbrainz-mpd)). It counts a listen only after 90% of the song played in one run: pauses don't matter, a seek or a stop starts the run again, a song without a known duration is never sent (upstream: half the song or 4 min). It sends the MBID from the file. It only scrobbles while running, so it runs as a LaunchAgent (`KeepAlive`); plays while it was down are lost. A different package name than upstream, so `cargo install listenbrainz-mpd` would add a second scrobbler instead of replacing it: don't. Config and token stay in upstream's `listenbrainz-mpd` directory.
 - **musicdb**: merges plays from all sources (ListenBrainz after the scrobbler went live, the MPD log before, skips filtered out), writes stickers `playCount`, `plays`, `lastPlayed`; likes come from rmpc's own `like` sticker. History is kept as JSONL in a private git repo; the SQLite DB is a rebuildable cache.
+- **Skips**: ro-listenbrainz-mpd appends a song left for another song before its end (not a listen, not a
+  stop) to `skips.jsonl` next to its cache; `musicdb` imports it (private data repo, never sent to ListenBrainz),
+  sets the `skips` sticker (skips since the last play) and lists songs with 2+ in the MPD playlist `Skipped`,
+  to review in rormpc and delete with Ctrl-x. Past ListenBrainz listens stay: deleting them would rewrite old
+  years' statistics, which is where a change of taste shows.
+- **mpd-gap**: 3 s of silence between songs. While a song plays it sets single to oneshot; MPD 0.24 then pauses
+  at 0:00 of the next song (queue or random order) and mpd-gap resumes it. A user pause is never resumed.
 - **hits**: top 10/100/1000 of a decade from the Billboard Year-End Hot 100 (1959–), genre filter like `"rock -country"` (word match on MusicBrainz genres), ranked by chart points or ListenBrainz listens; writes an MPD playlist of the songs I have, `--download` fetches the rest.
 
 ## Everyday use
