@@ -1,7 +1,7 @@
 # MPD music stack on macOS
 
 How my local music setup fits together. Tool usage lives in each tool's `--help`;
-the tools are [rormpc-tools](https://github.com/rofrol/rormpc-tools) (`hits`, `musicdb`, `mpd-gap`, `yt-mp3-mb`,
+the tools are [rormpc-tools](https://github.com/rofrol/rormpc-tools) (`hits`, `musicdb`, `mpd-player`, `yt-mp3-mb`,
 `yt-playlist`), my settings for them in `~/.config/rormpc-tools/config.toml`.
 
 ## Install
@@ -10,9 +10,9 @@ the tools are [rormpc-tools](https://github.com/rofrol/rormpc-tools) (`hits`, `m
 brew install mpd mpc
 mkdir -p ~/.config/mpd/playlists
 brew services start mpd        # LaunchAgent sh.brew.mpd (KeepAlive)
-cargo install rmpc --locked    # TUI client (I use my fork rormpc: github.com/rofrol/rormpc, config in ~/.config/rormpc)
-~/personal_projects/rormpc/scripts/rormpc_install.sh companions   # rormpc-tools, scrobbler, mpd-gap, hourly musicdb (launchd)
-mpc update && mpc add / && rmpc
+~/personal_projects/rormpc/scripts/rormpc_install.sh install      # TUI client: my rmpc fork rormpc (github.com/rofrol/rormpc) -> ~/.cargo/bin/rormpc, config in ~/.config/rormpc
+~/personal_projects/rormpc/scripts/rormpc_install.sh companions   # rormpc-tools, ro-listenbrainz-mpd, mpd-player, hourly musicdb update (launchd)
+mpc update && mpc add / && rormpc
 ```
 
 `~/.mpdconf` must set, besides `music_directory`, `playlist_directory`, `db_file`, `log_file`:
@@ -37,19 +37,30 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
   sets the `skips` sticker (skips since the last play) and lists songs with 2+ in the MPD playlist `Skipped`,
   to review in rormpc and delete with Ctrl-x. Past ListenBrainz listens stay: deleting them would rewrite old
   years' statistics, which is where a change of taste shows.
-- **mpd-gap** (rormpc-tools): 3 s of silence between songs. While a song plays it sets single to oneshot; MPD 0.24 then pauses
-  at 0:00 of the next song (queue or random order) and mpd-gap resumes it. A user pause is never resumed.
+- **mpd-player** (rormpc-tools, formerly `mpd-gap`): the playback daemon next to MPD, runs with or without rormpc
+  (LaunchAgent, `KeepAlive`); clients send it commands over MPD messages on channel `rormpc`
+  (`mpc sendmessage rormpc "gap set 5"`). Modules:
+  - gap: N seconds of silence between songs (default 3, `gap set N`, 0 = off, remembered). While a song plays it sets
+    single to oneshot; MPD 0.24 then pauses at 0:00 of the next song (queue or random order) and mpd-player resumes
+    it. A user pause is never resumed.
+  - upnext: songs asked for with "Play next" play before the rest of the queue.
+  - shuffle: with random on, the next song is drawn by weight (plays, likes) with "heard enough" cooldowns;
+    `shuffle prev` goes back through the songs that really played without counting a skip.
+  - pause: pause for a while; MPD plays on at the deadline unless someone did anything meanwhile.
 - **hits**: top 10/100/1000 of a decade from the Billboard Year-End Hot 100 (1959–), genre filter like `"rock -country"` (word match on MusicBrainz genres), ranked by chart points or ListenBrainz listens; writes an MPD playlist of the songs I have, `--download` fetches the rest.
 
 ## Everyday use
 
 - `r` in rmpc: like / dislike (rmpc's own `like` sticker). musicdb sends changes to ListenBrainz as love / clear / hate.
 - `Y` / `P`: sort the queue by year / by my play count.
-- `Ctrl-x`: delete the selected song: it goes to the Trash and its ListenBrainz listens are queued. Nothing
-  irreversible happens until `musicdb deletions` (review) and `musicdb deletions --confirm` (deletes the listens,
-  LB applies deletions within about an hour, and removes the video from my YouTube music playlists via
-  `yt-playlist`, YouTube Data API with my own published-but-unverified OAuth app). `Ctrl-y` undoes the last `Ctrl-x` (repeat to go further back),
-  restoring the file and its stickers; `--cancel ID` restores an older one. Irreversible steps never run on a timer.
+- `Ctrl-x`: rormpc's delete menu for the selection (else the playing song): Move to Trash, Move to Trash + delete
+  the history, Delete permanently, Delete permanently + delete the history (`musicdb delete [--permanent]
+  [--listenbrainz]`). "History" = the song's ListenBrainz listens (irreversible; LB applies deletions within about
+  an hour), the video in my chosen YouTube playlists (via `yt-playlist`, YouTube Data API with my own OAuth app)
+  and the local plays; `musicdb delete --preview [--youtube]` fills in what goes, and everything except plain
+  Trash asks first. Failed remote steps stay in the journal (`musicdb deletions`, `--retry`) and the hourly
+  `musicdb update` retries them. `Ctrl-y` (`musicdb undo`, repeat to go further back) restores the last trashed
+  file; `musicdb undo --id ID` (ids from `musicdb deletions --json`) an older one. Deleted history does not come back.
 - `hits all -n 10 -g "+rock -thrash metal" --playlist`: top 10 of every decade in one playlist; `--owned` picks
   the top 10 I already have.
 - ListenBrainz recommendations (Daily/Weekly Jams, Weekly Exploration) appear as MPD playlists `LB …`
@@ -63,7 +74,7 @@ Billboard year-end charts + MusicBrainz genres ──hits──▶ MPD playlists
 - My fork rormpc adds a Hits pane (table of `hits --json` output) and `Status(BuildRevision)` (sha + commit subject in the footer); see its RORMPC.md.
 
 - Year column: `Transform(Truncate(content: (kind: Property(Other("date"))), length: 4))` (0.11 has no `Date` property).
-  mbtag writes the MusicBrainz first release date to TDRC/TDOR; yt-dlp's upload date goes to `TXXX:YouTube Upload Date`.
+  yt-mp3-mb (its `mbtag` module) writes the MusicBrainz first release date to TDRC/TDOR; yt-dlp's upload date goes to `TXXX:YouTube Upload Date`.
 - Song table columns from stickers: `(kind: Sticker("plays"))`; likes via `Transform(Replace(content: (kind: Sticker("like")), replacements: [(match: "2", replace: (kind: Text("♥")))]))`.
 - `SortByColumn(n)` (1-based) sorts the queue; I bind `Y` to Year and `P` to Plays.
 - rmpc compares sticker values as text, so `"10"` sorts before `"9"`: musicdb writes `plays` space-padded to a fixed width.
@@ -84,7 +95,7 @@ that starts playing takes over Now Playing until MPD plays again.
 
 ## Troubleshooting
 
-- Scrobbles stopped, counts not updating → `rormpc_install.sh status`; logs in `~/Library/Logs/` (`ro-listenbrainz-mpd.log`, `musicdb.log`, `mpd-gap.log`).
+- Scrobbles stopped, counts not updating → `rormpc_install.sh status`; logs in `~/Library/Logs/` (`ro-listenbrainz-mpd.log`, `musicdb.log`, `mpd-player.log`).
 - Changing the scrobbler: commit and tag in the fork, bump `RO_LB_TAG` in rormpc's `scripts/rormpc_install.sh`, run `rormpc_install.sh companions`
   (`companions --local` builds the checkout without a tag, for trying a change).
 - `ro-listenbrainz-mpd` 2.6 needs a recent rustc (`cfg_select`); `rustup default stable` if an old toolchain is pinned.
