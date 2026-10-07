@@ -57,9 +57,8 @@ macOS may be blocking reads of the profile directory. The explicit
 Chrome `Default` profile, without copying its data, changing disk permissions or
 enabling remote debugging.
 
-A browser call can time out while the owner reviews the connection dialog.
-Finish the approval before making one new call; do not retry in a loop. If a
-screenshot exposes the extension token, regenerate it and restart Chrome; never
+A browser call can time out while the owner reviews the connection dialog (see
+the gaps below). If a screenshot exposes the extension token, regenerate it and restart Chrome; never
 paste it into the agent conversation or the MCP configuration.
 
 Reference: [official extension setup](https://github.com/microsoft/playwright/tree/main/packages/extension#readme).
@@ -121,10 +120,10 @@ permissions, not the tool set.
   refused. Cancel it with `browser_file_upload` and no paths.
 - **Snapshots are large.** Use `browser_snapshot` with `target` and `depth`,
   or read one region, instead of dumping the page; full snapshots get truncated.
-- **Custom widgets.** Selectize dropdowns worked by clicking the option with a
-  real mouse click (`div.selectize-dropdown:visible .option:nth-child(n)`) and
-  then verifying the committed value; mousedown-driven widgets may ignore a
-  synthetic JS `click()`.
+- **Custom widgets.** When not scripting Selectize directly, click the option
+  whose label matches (not by position, since the visual order can differ from
+  the option keys) with a real mouse click, then verify the committed value;
+  mousedown-driven widgets may ignore a synthetic JS `click()`.
 - **Richer tool set than Claude in Chrome.** `browser_fill_form`,
   `browser_find`, `browser_select_option`, `browser_take_screenshot`,
   `browser_console_messages`, `browser_network_request(s)`,
