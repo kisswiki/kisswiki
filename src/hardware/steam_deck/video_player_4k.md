@@ -24,9 +24,9 @@ sudo steamos-readonly enable
 
 ## Setup suggested by the models (untested by me)
 
-- Player: Kodi from Flathub (Discover in Desktop mode), add as a non-Steam game, enable VAAPI. Control with Steam Input or the Kore/Yatse phone app. The dock has no CEC.
+- Player: Kodi from Flathub (Discover in Desktop mode), add as a non-Steam game, enable VAAPI. Control with Steam Input or the Kore/Yatse phone app. Note 2026-10: Valve's official Docking Station supports HDMI-CEC (TV remote, waking the TV) since a 2023 SteamOS update; third-party docks may not.
 - mpv (`--hwdec=auto --vo=gpu-next`) is better for testing HDR and tone mapping; VLC is weaker as a couch UI.
 - HEVC 8/10-bit, VP9 and AV1 decode in hardware; dock output is 4K60 over HDMI 2.0. Dolby Vision does not work fully: profile 8 falls back to HDR10, profile 5 shows wrong colours.
-- Files: USB SSD in the dock, or an SMB/NFS share. Wi-Fi N 5 GHz gives roughly 50-150 Mbit/s, which is too little for peaks of 4K remuxes (average 50-80, peaks above 100): use the dock's gigabit Ethernet and wire the server too.
+- Files: USB SSD in the dock, or an SMB/NFS share. Wi-Fi 5 (802.11ac, 5 GHz; the OLED has Wi-Fi 6E) gives roughly 50-150 Mbit/s, which is too little for peaks of 4K remuxes (average 50-80, peaks above 100): use the dock's gigabit Ethernet and wire the server too.
 - Jellyfin is not needed for this: Kodi reads SMB/NFS shares and keeps metadata and watched state locally. You lose cross-device sync and web access.
 - Exit playback before suspending the Deck; sleep during playback can desync audio or crash the session.
