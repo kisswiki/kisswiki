@@ -6,7 +6,7 @@
 ## RWS
 
 - nie korzystałem z pomocy publicznej de minimis
-- PKD 6201Z
+- PKD 6201Z (PKD 2007; Note 2026-10: since 2025-01-01 PKD 2025 applies, where programming is 62.10.B)
 - mikroprzedsiębiorca
 - Jeżeli Pan Jan chce skorzystać z pomocy de minimis 15 listopada 2024 roku, to przy jej udzielaniu pod uwagę bierze się 3 minione lata, czyli okres od 14 listopada 2021 roku. Jeśli od tej daty przedsiębiorca ubiegał się o jakąkolwiek pomoc de minimis – pula środków przeznaczonych do wypłaty będzie uszczuplona o te kwoty. ... Pomocą de minimis będą m.in. wakacje składkowe od ZUS https://www.infakt.pl/blog/wakacje-od-zus-a-pomoc-de-minimis/
 
