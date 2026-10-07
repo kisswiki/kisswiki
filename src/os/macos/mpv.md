@@ -45,6 +45,8 @@ Yes! There's a couple, but it depends on your use case. The big one is having a 
 
 The Homebrew cask currently sources "mpv.app" from someone only doing Intel builds. On an M1 Mac, those have to run using Rosetta 2 to translate all of the x86-64 instructions into ARM64 instructions. Rosetta 2 is extremely impressive, but it's still less efficient than just running a native ARM64 binary. You're guaranteed better performance.
 
+Note 2026-10: outdated. The cask is now `stolendata-mpv` (see above), and mpv's GitHub releases ship macOS arm64 app bundles (since about 0.38).
+
 The Homebrew formula does produce ARM64 binaries, but there's no "mpv.app" bundle, making it effectively command-line only.
 
 mpv version numbering is arbitrary, but Homebrew still has to wait for it to increment. Building it yourself from the latest source lets you use the absolute most recent version of mpv.
@@ -70,7 +72,7 @@ subcp=cp1250
 
 mpvs worked https://unix.stackexchange.com/questions/279884/play-subtitles-automatically-with-mpv
 
-inna allows select subtitles with the gui https://lhc70000.github.io/iina/ or maybe https://www.smplayer.info/pl/mpv
+iina allows select subtitles with the gui https://iina.io/ or maybe https://www.smplayer.info/pl/mpv
 
 - https://askubuntu.com/questions/901120/can-i-make-mpv-player-to-pick-up-any-subtitles-available-in-the-folder
 
@@ -84,6 +86,8 @@ inna allows select subtitles with the gui https://lhc70000.github.io/iina/ or ma
 ```bash
 $ brew install mpv --with-bundle
 ```
+
+Note 2026-10: obsolete. Homebrew removed formula options such as `--with-bundle` in 2019, so this fails; use the `stolendata-mpv` cask or an mpv release build. The `/usr/local/Cellar` path below is the Intel prefix (`/opt/homebrew` on Apple Silicon).
 
 If you need alias in Applications/Launchpad, open Finder window at /usr/local/Cellar/mpv/your_mpv_version/. In there the mpv.app bundle was generated. While holding Cmd+Alt drag this .app onto Applications folder.
 

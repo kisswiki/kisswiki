@@ -1,4 +1,4 @@
-## HP driver does not want to install, wants macos 12 or earlier. I have macos 12.2.1
+## HP driver does not want to install on macOS 12.2.1 (the installer refuses this macOS version)
 
 `brew install --cask pacifist`
 

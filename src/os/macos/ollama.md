@@ -31,7 +31,7 @@ EDIT: I've just realized this procedure means an app will modify another app, an
 
 - Choose Apple menu > System Settings, then click Privacy & Security in the sidebar. (You may need to scroll down.) Open Privacy & Security settings.
 - App management.
-- For each app in the list that you are using to modify the file, turn the ability to control other apps on. It might be Terminal, your text editor or whatever. Whatever you need to turn on will appear automagically when trying to go through the steps above.
+- For each app in the list that you are using to modify the file, turn on its permission to update or delete other apps. It might be Terminal, your text editor or whatever. Whatever you need to turn on will appear automagically when trying to go through the steps above.
 - Restart whichever app you had to turn the setting on and try to edit the file again. :)
 
 https://www.reddit.com/r/ollama/comments/1lx45fg/comment/nmglr1t/
