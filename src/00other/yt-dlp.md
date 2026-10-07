@@ -1,10 +1,12 @@
-## termux from Google Play works now
+## Termux
 
-##
+Termux from Google Play works now.
 
 > I recommend using the app called "userland" for android way better and it has various Linux os <https://github.com/termux/termux-app/issues/2067#issuecomment-2302754719>
 
 ## Install on windows, linux
+
+Note 2026-10: youtube-dl is superseded by yt-dlp, the actively maintained fork; most `youtube-dl` commands below work with `yt-dlp` unchanged.
 
 Somehow version installed with pip reported older version with `youtube-dl --version`.
 
@@ -69,6 +71,8 @@ for f in *.mkv ; do ffmpeg -i ${f} -i ${f%.*}.en.vtt -c:v copy -c:a copy -map 0:
 
 in a bash/zsh-like shell (so works on Windows via WSL, MacOS, & Linux etc.)
 
+Note 2026-10: quote the variables (`"$f"`, `"${f%.*}.en.vtt"`, `"${f%.*}_sub.mkv"`), otherwise filenames with spaces break.
+
 You can do it for MP4s too - just change the extension of course, and add `-c:s mov_text -metadata:s:s:0 language=en` between the last `copy` and the first `-map`.
 
 <https://www.reddit.com/r/youtubedl/comments/p4b2r7/comment/h8y4x8z/>
@@ -80,10 +84,12 @@ Open termux
 ```
 apt update
 pkg install vim
-vim ~/.config/youtube-dl/config
+vim ~/.config/yt-dlp/config
 ```
 
 Change to `%(title)s-%(id)s.%(ext)s`
+
+yt-dlp's default output template is already `%(title)s [%(id)s].%(ext)s`, so this is only needed for a different format.
 
 - <https://github.com/yt-dlp/yt-dlp#differences-in-default-behavior>
 
@@ -91,7 +97,7 @@ Change to `%(title)s-%(id)s.%(ext)s`
 
 Install ffmpeg or you may get file without audio <https://www.ffmpeg.org/download.html>
 
-## download mp3 or acc
+## download mp3 or aac
 
 `yt-dlp -x --audio-format mp3 --audio-quality 0`
 
@@ -151,7 +157,8 @@ Your playlist URL <https://www.youtube.com/playlist?list=PLNffuWEygffbbT9Vz-Y1NX
 
 ## download specific format
 
-youtube-dl -f 22 "<http://www.youtube.com/watch?v=P9pzm5b6FFY>"
+`youtube-dl -f 22 "http://www.youtube.com/watch?v=P9pzm5b6FFY"`
+
 Or optionally use the following flags to automatically download the best audio and video tracks available:
 
 `youtube-dl -f bestvideo+bestaudio "http://www.youtube.com/watch?v=P9pzm5b6FFY"`
@@ -163,6 +170,8 @@ If you encounter an error during the muxing process, instead try the following:
 notice that youtube-dl has labeled the last option 1280x720 as the 'best' quality and that's what it will download by default, but that the line starting with 137 is actually higher quality 1920x1080. Youtube has separated the video and audio streams for the lines labeled DASH so we also need to pick the highest quality audio which in this case is the line starting with 141. Then we run youtube-dl again this time specifying the audio and video:
 
 `youtube-dl -f 137+141 https://www.youtube.com/watch\?v\=-pxRXP3w-sQ`
+
+Note 2026-10: YouTube stopped serving format 22 (720p progressive MP4) in 2024 and format 141 is rarely available, so fixed format ids like these usually fail now. Use `yt-dlp -F` to list formats and `yt-dlp -f 'bv*+ba'` for the best video and audio.
 
 ## Please sign in to view this video - cookies
 
@@ -186,7 +195,7 @@ or using user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 
 ## Autonumbering from file
 
-`youtube-dl -i -o "%(autonumber)s-%(title)s.%(ext)s" -a list.txt --cookie ../cookies.txt`
+`youtube-dl -i -o "%(autonumber)s-%(title)s.%(ext)s" -a list.txt --cookies ../cookies.txt`
 
 <https://github.com/ellerbrock/egghead-video-download>
 
