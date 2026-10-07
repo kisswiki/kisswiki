@@ -11,7 +11,7 @@ $ ./odinfmt.sh
 
 There will be two binaries: ols and odinfmt.
 
-Copy it to `$PATH` od add current dir to `$PATH`.
+Copy it to `$PATH` or add current dir to `$PATH`.
 
 ### Odin nightly and ols
 

@@ -28,12 +28,26 @@ Unless you add directive.
 
 Or use fixed array enumerated.
 
+The snippets below are alternative solutions, not one file. All of them use this enum:
+
 ```odin
+package space_age
+
 Planet :: enum {
 	Mercury,
 	Venus,
+	Earth,
+	Mars,
+	Jupiter,
+	Saturn,
+	Uranus,
+	Neptune,
 }
+```
 
+Fixed array indexed by enum:
+
+```odin
 // Use fixed array indexed by enum
 // https://exercism.org/tracks/odin/exercises/space-age/solutions/gspitz01
 // https://odin-lang.org/docs/overview/#enumerated-array
@@ -49,7 +63,11 @@ ratios_fixed_array_enumerated := [Planet]f64 {
 	.Uranus  = 84.016846,
 	.Neptune = 164.79132,
 }
+```
 
+Global map literal (`#+feature` must be at the top of the file, before `package`):
+
+```odin
 #+feature dynamic-literals
 // https://odin-lang.org/docs/overview/#feature
 // https://odin-lang.org/docs/overview/#maps
@@ -58,7 +76,11 @@ EarthYearsPerPlanetYear := map[Planet]f64 {
 	.Mercury = 0.2408467,
 	.Venus   = 0.61519726,
 }
+```
 
+Map created inside the procedure:
+
+```odin
 age :: proc(planet: Planet, seconds: int) -> f64 {
 	years: f64 = f64(seconds) / 60 / 60 / 24 / 365.25
 	ratios := make(map[Planet]f64)
@@ -68,7 +90,11 @@ age :: proc(planet: Planet, seconds: int) -> f64 {
 	ratios[.Venus] = 0.61519726
 	return years / ratios[planet]
 }
+```
 
+Switch:
+
+```odin
 EARTH_YEAR :: 31_557_600
 //EARTH_YEAR : f64 : 31_557_600
 //SECONDS_IN_EARTH_YEAR :: 365.25 * 24 * 3600
@@ -90,8 +116,12 @@ age_using_switch :: proc(planet: Planet, seconds: int) -> f64 {
 	//return f64(seconds) / (seconds_per_earth_year * factor) 
 	return f64(seconds) / (EARTH_YEAR * factor)
 }
+```
 
-EARTH_YEAR_SECONDS := [8]f64{
+Enumerated array multiplied by a scalar:
+
+```odin
+EARTH_YEAR_SECONDS := [Planet]f64{
     Planet.Mercury = 0.2408467,
     Planet.Venus   = 0.61519726,
     Planet.Earth   = 1,
@@ -101,20 +131,11 @@ EARTH_YEAR_SECONDS := [8]f64{
     Planet.Uranus  = 84.016846,
     Planet.Neptune = 164.79132,
 } * 31557600
+```
 
-package space_age
+`@(static)` local:
 
-Planet :: enum {
-	Mercury,
-	Venus,
-	Earth,
-	Mars,
-	Jupiter,
-	Saturn,
-	Uranus,
-	Neptune,
-}
-
+```odin
 // https://odin-lang.org/docs/overview/#static
 get_orbital_period :: proc(planet: Planet) -> f64 {
     @(static) periods := [Planet]f64 {
