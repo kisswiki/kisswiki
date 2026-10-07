@@ -1,4 +1,4 @@
-Wniosek
+## Wniosek
 
 reconfigure nie doszedł do przełączenia generacji systemu. Nie zawiodły config.scm, 9p, nginx ani --skip-checks; zawiodła lokalna kompilacja samego Guiksa
 w fazie make check.
@@ -12,7 +12,7 @@ Historia powłoki pokazuje poprawne polecenie:
 reconfigurereconfigure jest tylko literówką w pytaniu. Gdyby została wykonana dosłownie, Guix odrzuciłby akcję przed rozpoczęciem jakiejkolwiek
 kompilacji.
 
-Co dokładnie się nie udało
+## Co dokładnie się nie udało
 
 Podsumowanie testów Guiksa:
 
@@ -69,7 +69,7 @@ Odtworzyłem dokładnie ten sam backtrace poza testami. Samo kolejne guix pull t
 --skip-checks tu nie pomaga. Zgodnie z guix system --help pomija wyłącznie kontrole bezpieczeństwa systemów plików i modułów initrd, nie fazę testów
 pakietów.
 
-Ważna zmiana obecnego stanu VM
+## Ważna zmiana obecnego stanu VM
 
 Podczas diagnozy polecenie guix build guix -d pobrało z Bordeaux gotowy substytut:
 
@@ -90,7 +90,7 @@ Potwierdzone przez guix gc --derivers. Obecnie:
 - pozostaje 16 innych derywacji do lokalnego zbudowania;
 - dla samego guix pozostaje tylko tani graft, nie ponowne make check.
 
-Zalecany plan teraz
+## Zalecany plan teraz
 
 Najpierw dokończyć pobranie/graft Guiksa, potem oddzielić budowę systemu od aktywacji:
 
@@ -113,7 +113,7 @@ Dopiero gdy system build zakończy się sukcesem:
 [INFERENCE] Ponieważ dokładny wynik nieudanej derywacji jest już w store, następna próba nie powinna ponownie uruchamiać tych 2718 testów. Może natomiast
 ujawnić problem w jednej z pozostałych 16 derywacji.
 
-Co robić przy następnych guix pull
+## Co robić przy następnych guix pull
 
 Po guix pull nie przechodzić od razu do reconfigure:
 
@@ -134,7 +134,7 @@ To pozwala:
 Log derywacji nie zawiera decyzji substitutera. [INFERENCE] W chwili pierwotnego reconfigure substytut albo nie był jeszcze dostępny, albo jego pobieranie
 zakończyło się problemem NAR opisanym w Twoim zgłoszeniu; dlatego Guix przeszedł do kompilacji lokalnej.
 
-Utwardzenie konfiguracji
+## Utwardzenie konfiguracji
 
 W config.scm:88 masz:
 

@@ -1,4 +1,10 @@
-This should reclaim dead store paths while retaining current system generations. If more space is needed:
+Reclaim dead store paths while retaining current system generations:
+
+```sh
+guix gc
+```
+
+If more space is needed:
 
 ```sh
 guix system delete-generations
@@ -21,7 +27,8 @@ guix system delete-generations 2w
 
 guix system delete-generations removes rollback generations, so omit it if those are needed.
 
-For recurring builds, enlarge the VM filesystem. qemu.sh uses the 20-GiB guix-system-vm-image-1.5.0.aarch64-linux-modified.qcow2; increasing -m 8G will
+For recurring builds, enlarge the VM filesystem. qemu.sh uses the 20-GiB guix-system-vm-image-1.5.0.aarch64-linux-modified.qcow2 (the libvirt setup in [qemu.md](qemu.md) uses
+guix-system-vm-image-1.5.0.aarch64-linux.qcow2; resize whichever image the VM boots); increasing -m 8G will
 not help. With the VM shut down:
 
 ```sh

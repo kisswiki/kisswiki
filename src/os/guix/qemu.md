@@ -72,7 +72,7 @@ or console:
 
 and login as `guest`.
 
-To exit `virst console`: `Ctrl+]` or `Ctrl+5`.
+To exit `virsh console`: `Ctrl+]` or `Ctrl+5`.
 
 More virsh:
 
@@ -98,7 +98,12 @@ virsh undefine guix2-bare-bones
 
 ## guix pull OOM kill
 
-```shell
+`guix pull` can be OOM-killed with the 2 GiB set by `<memory unit='GiB'>2</memory>` above; give the VM more memory
+(`virsh edit guix`).
+
+After a successful `guix pull` as root it prints:
+
+```text
 hint: Consider setting the necessary environment variables by running:
 
      GUIX_PROFILE="/root/.config/guix/current"
