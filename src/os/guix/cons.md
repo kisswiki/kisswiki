@@ -22,6 +22,8 @@ Ten post mówi:
 
 Czyli:
 
+Note 2026-10: this gloss overstates the post. Shepherd does not require PID files: `make-forkexec-constructor` tracks the child process directly, and `#:pid-file` is optional, needed only for daemons that fork themselves; Shepherd also has `make-systemd-constructor` (socket activation). See the Shepherd manual, "Service De- and Constructors": https://www.gnu.org/software/shepherd/manual/
+
 Shepherd zamiast robić nowocześniejsze reliable tracking (np. przez cgroups / pidfd / proces rodzica), wymaga staromodnych pid-file’ów, które są wadliwe i często nie działają dobrze.
 
 W domyśle:
