@@ -77,18 +77,14 @@ To exit `virsh console`: `Ctrl+]` or `Ctrl+5`.
 More virsh:
 
 ```shell
-virsh edit Guix
-#virsh shutdown Guix
-virsh destroy Guix
-virsh list --all
-virsh edit Guix
-virsh domrename Guix guix
-virsh list --all
+virsh list --all                  # all domains, running or not
+virsh edit guix                   # edit the domain XML (memory, CPUs, disks)
+virsh shutdown guix               # clean shutdown
+virsh destroy guix                # hard power-off
 virsh start guix
-guix-bare-bones
-virsh undefine guix2-bare-bones
-#virsh undefine guix2-bare-bones --nvram
-#virsh undefine guix --remove-all-storage --nvram
+virsh domrename OldName guix      # rename a (shut off) domain
+virsh undefine guix --nvram       # remove the domain, keep the disk image
+#virsh undefine guix --remove-all-storage --nvram   # remove the domain and its disk images
 ```
 
 - https://n8henrie.com/2022/09/linux-vms-on-my-m1-mac/

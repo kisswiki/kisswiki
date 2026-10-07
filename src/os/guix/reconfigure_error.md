@@ -132,7 +132,7 @@ To pozwala:
 4.  oddzielić błędy kompilacji od przełączenia konfiguracji systemu.
 
 Log derywacji nie zawiera decyzji substitutera. [INFERENCE] W chwili pierwotnego reconfigure substytut albo nie był jeszcze dostępny, albo jego pobieranie
-zakończyło się problemem NAR opisanym w Twoim zgłoszeniu; dlatego Guix przeszedł do kompilacji lokalnej.
+zakończyło się problemem NAR opisanym w zgłoszeniu #9996 (zob. Źródła); dlatego Guix przeszedł do kompilacji lokalnej.
 
 ## Utwardzenie konfiguracji
 
@@ -172,6 +172,3 @@ Jeżeli Guix musi być budowany lokalnie, właściwa naprawa upstream to fallbac
 - Bieżące guix/cpu.scm — brak fallbacku dla Apple CPU part 0
   (https://codeberg.org/guix/guix/raw/commit/47b41dced835020f803dc56f52e949c94d2f7061/guix/cpu.scm)
 - Zgłoszenie #9996 dotyczące błędu NAR/substytutów (https://codeberg.org/guix/guix/issues/9996)
-
-※ recap: Zdiagnozowaliśmy błąd rekonfiguracji Guix i pobraliśmy gotowy substytut nieudanej derywacji. Teraz uruchom guix system build --skip-checks
-/mnt/share/config.scm.
