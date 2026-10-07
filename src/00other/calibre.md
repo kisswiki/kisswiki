@@ -4,6 +4,8 @@
 
 ## DRM
 
+Note 2026-10: Amazon removed "Download & Transfer via USB" on 2025-02-26, so the steps below no longer work for books bought since then.
+
 1. Because I was unable to "Download & transfer via USB" for newly bought book I needed to downgrade Kindle for Mac to 1.31
    - Install https://s3.amazonaws.com/kindleformac/60175/KindleForMac-1.31.60175.dmg
    - more versions https://gist.github.com/marccarre/645fe68da31678f9191cd3aafecfea1b
@@ -44,7 +46,7 @@ DeDRM v10.0.3: Finished after 184.8 seconds
 Added book ids: 1161
 ```
 
-- https://github.com/apprenticeharper/DeDRM_tools/blob/master/CALIBRE_CLI_INSTRUCTIONS.md
+- https://github.com/apprenticeharper/DeDRM_tools/blob/master/CALIBRE_CLI_INSTRUCTIONS.md (archived; maintained fork: https://github.com/noDRM/DeDRM_tools)
 - https://www.mobileread.com/forums/showthread.php?t=345902
 
 7. In calibre appeared azw4 file which need to be unpacked with another plugin
@@ -90,7 +92,7 @@ https://www.reddit.com/r/Calibre/comments/fw8qk7/how_to_change_the_default_viewe
 
 ## Automatically merge added books
 
-`Preferences > Adding books > Auto-merge added books if they already exist: Ignore ducplicate incomming formats`.
+`Preferences > Adding books > Auto-merge added books if they already exist: Ignore duplicate incoming formats`.
 
 https://www.mobileread.com/forums/showpost.php?p=1808947&postcount=3
 
@@ -119,7 +121,7 @@ You can also specify that one is contributor `Audrey Pavia & Shannon Sand (Contr
 
 ## Changing Library Folder
 
-`Library icon in the top row > dropdown arrow > Switch/create library > Move current library to new location
+`Library icon in the top row > dropdown arrow > Switch/create library > Move current library to new location`
 
 https://www.mobileread.com/forums/showpost.php?p=1105741&postcount=3
 
