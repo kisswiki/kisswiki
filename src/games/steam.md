@@ -10,7 +10,7 @@
 
 `Settings > Account > View Account Details > In section "STORE AND PURCHASE HISTORY" click "Update store country"`
 
-https://support.steampowered.com/kb_article.php?ref=6627-QSNM-5276
+https://help.steampowered.com/en/faqs/view/2B3F-DAEF-846B-A0E8
 
 ## list of games
 
@@ -27,9 +27,9 @@ curl -sG 'https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/' \
   --data-urlencode 'format=json' \
   -o games.json
 
- jq -r '.response.games[].name' games.json | sort > games.txt
+jq -r '.response.games[].name' games.json | sort > games.txt
 
- jq -r '
+jq -r '
   ["appid", "name", "playtime_hours"],
   (.response.games[] | [.appid, .name, (.playtime_forever / 60)])
   | @csv
@@ -47,7 +47,7 @@ jq -r '
     | "<li><a href=\"https://store.steampowered.com/app/\(.appid)\">\( .name | @html )</a></li>"
   ),
   "</ul>"
-' games.json > games.html
+' games.json > games-list.html
 
 jq '[.response.games[] | {appid, name}]' games.json > games-simple.json
 
