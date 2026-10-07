@@ -46,7 +46,9 @@ Also consider adding `--numeric-ids` to avoid mapping uid/gid values by user/gro
 
 > I had to replace `X` and `A` with `E`, because extended attributes and ACLs are covered by E on my mac.
 
-The contents of `/dev`, `/proc`, `/sys`, `/tmp`, and `/run` are excluded in the above command, because they are populated at boot, although the folders themselves are not created.
+Note 2026-10: that holds only for Apple's old rsync 2.6.9. In rsync 3.x (e.g. from Homebrew) `-E` is `--executability`, and `-A`/`-X` preserve ACLs and extended attributes.
+
+The contents of `/dev`, `/proc`, `/sys`, `/tmp`, and `/run` are excluded in the above command, because they are populated at boot. The `/*` patterns exclude only their contents, so the directories themselves are still created on the destination.
 
 - https://wiki.archlinux.org/index.php/Rsync#As_a_backup_utility
 - https://superuser.com/questions/307541/copy-entire-file-system-hierarchy-from-one-drive-to-another/307542#307542
@@ -240,7 +242,7 @@ set +o allexport
 # https://stackoverflow.com/questions/13713101/rsync-exclude-according-to-gitignore-hgignore-svnignore-like-filter-c/50059607#50059607
 # also there is --exclude=.DS_Store https://apple.stackexchange.com/questions/95871/skipping-ds-store-files-when-copying-between-two-external-drives
 
-# --no-o --no-go: needed because `rsync -a` sets `-o` and `-g` and then rsync sets owner and group to the one who is sending files
+# --no-o --no-g: needed because `rsync -a` sets `-o` and `-g` and then rsync sets owner and group to the one who is sending files
 # i.e. sending from macOS sets user to 501 and group to staff on the remote.
 
 # from man rsync:
@@ -293,34 +295,6 @@ set +o allexport
 # nginx   736 www-data 6u  IPv4   5933      0t0  TCP *:http (LISTEN)
 # nginx   736 www-data 7u  IPv6   5934      0t0  TCP *:http (LISTEN)
 #
-# https://stackoverflow.com/questions/35220654/how-to-verify-if-nginx-is-running-or-not/35231900#35231900 problem is that rsync by default sets owner and group according to local user:
-#
-# # ls -l /var/www/matchalove.frolow.dev
-# total 4
-# drwxr-xr-x 3 501 staff 4096 Apr 26 06:01 html
-#
-# Files are owned by `501:staff` so looks like local macOS user.
-#
-# On debian nginx runs as user `www-data`:
-#
-# # nginx -T | grep user
-# 2026/04/30 10:12:26 [warn] 76149#76149: conflicting server name "frolow.dev" on 0.0.0.0:80, ignored
-# nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
-# nginx: configuration file /etc/nginx/nginx.conf test is successful
-# user www-data;
-# # ps -eo pid,comm,euser,supgrp | grep nginx
-#     734 nginx           root     -
-#     735 nginx           www-data www-data
-#     736 nginx           www-data www-data
-# # lsof -i TCP:80
-# COMMAND PID     USER FD   TYPE DEVICE SIZE/OFF NODE NAME
-# nginx   734     root 6u  IPv4   5933      0t0  TCP *:http (LISTEN)
-# nginx   734     root 7u  IPv6   5934      0t0  TCP *:http (LISTEN)
-# nginx   735 www-data 6u  IPv4   5933      0t0  TCP *:http (LISTEN)
-# nginx   735 www-data 7u  IPv6   5934      0t0  TCP *:http (LISTEN)
-# nginx   736 www-data 6u  IPv4   5933      0t0  TCP *:http (LISTEN)
-# nginx   736 www-data 7u  IPv6   5934      0t0  TCP *:http (LISTEN)
-
 # https://stackoverflow.com/questions/35220654/how-to-verify-if-nginx-is-running-or-not/35231900#35231900
 
 # > At scale, I've seen the use of the acl system, or other data stored in the xattr scope of an object result in performance penalties. As depending on the implementation, application and client may incur additional IOPS to the filesystem to figure out how to enforce the permissions. reddit.com/r/linuxadmin/comments/mvrgzl/comment/gvdt1y3
@@ -365,8 +339,8 @@ set +o allexport
 # RESTRICTED DELETION FLAG OR STICKY BIT
 # sticky bit t does not mean sticky in modern systems, but rather protection from removing
 # chmod g+t does nothing.
-# it is only displayed as t (or T when -x) for unpriviliged users (o - other): rwxrwxr-t
-# so other can only delete file if they own t
+# it is displayed as t (or T when -x) in the other-execute position: rwxrwxr-t
+# in such a directory a file can be deleted or renamed only by its owner, the directory's owner or root
 
 # check permissions with:
 # # namei -l /var/www/example.com/html/index.html
