@@ -4,7 +4,7 @@ This is the instruction to setup ssh with multiple keys.
 
 ## Generate key
 
-For Windows: [Set the HOME environment variable](http://stackoverflow.com/questions/9513712/git-ssh-client-for-windows-and-wrong-path-for-ssh-config-file/21451748#21451748) pointing to `%USERPROFILE%` for ssh to pick it up.
+For Windows (old Git for Windows only; Windows 10/11 built-in OpenSSH already uses `%USERPROFILE%\.ssh`): [Set the HOME environment variable](http://stackoverflow.com/questions/9513712/git-ssh-client-for-windows-and-wrong-path-for-ssh-config-file/21451748#21451748) pointing to `%USERPROFILE%` for ssh to pick it up.
 
 `ssh-keygen -t ed25519 -C "your_email@example.com"`
 
@@ -14,24 +14,25 @@ For multiple accounts
 
 `ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/id_ed25519_company`
 
-in ~/.ssh/config (needs to have correct privilieges):
+in ~/.ssh/config (needs to have correct privileges):
 
 ```
-Host *
-    IdentityFile ~/.ssh/id_ed25519
-
 # Personal account
 Host github.com
 HostName github.com
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_ed25519
+IdentitiesOnly yes
 
 # Company account
 Host github.com2
 HostName github.com
 PreferredAuthentications publickey
-IdentityFile ~/.ssh/id_ed25519_outlook
+IdentityFile ~/.ssh/id_ed25519_company
+IdentitiesOnly yes
 ```
+
+Do not put a `Host *` block with `IdentityFile` before these: ssh collects IdentityFile from every matching block and tries them in order, so `github.com2` would offer the personal key first and log in as the personal account.
 
 test with `ssh -T git@github.com2`
 
@@ -43,7 +44,7 @@ Copy to clipboard with one of below methods an then add it to https://github.com
 
 ### Mac OS
 
-`pbcopy < ~/.ssh/id_rsa.pub`
+`pbcopy < ~/.ssh/id_ed25519.pub`
 
 https://stackoverflow.com/questions/16638092/copying-a-rsa-public-key-to-clipboard/50696510#50696510
 
@@ -51,7 +52,7 @@ https://stackoverflow.com/questions/16638092/copying-a-rsa-public-key-to-clipboa
 
 ```bash
 sudo apt install xsel
-xsel -b < ~/.ssh/id_rsa.pub
+xsel -b < ~/.ssh/id_ed25519.pub
 ```
 
 https://askubuntu.com/questions/382767/how-to-pipe-dump-clipboard-contents-to-a-file/382775#382775
@@ -59,7 +60,7 @@ https://askubuntu.com/questions/382767/how-to-pipe-dump-clipboard-contents-to-a-
 ### Powershell
 
 ```ps1
-cat ~\.ssh\id_rsa.pub | Clip
+cat ~\.ssh\id_ed25519.pub | Clip
 ```
 
 - https://thepracticalsysadmin.com/copy-text-to-clipboard-using-powershell/
@@ -67,7 +68,7 @@ cat ~\.ssh\id_rsa.pub | Clip
 
 ## ssh config
 
-You can create multiple keys like that `ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/github_rsa`.
+You can create multiple keys like that `ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/github_ed25519`.
 
 If the key does not have default name, you need to specify hosts for it:
 
@@ -75,7 +76,7 @@ Add entry in file `~/.ssh/config` (`~` means home directory)
 
 ```
 Host *.github.com github.com
-  IdentityFile ~/.ssh/github_rsa
+  IdentityFile ~/.ssh/github_ed25519
 ```
 
 Set permissions:
@@ -88,7 +89,7 @@ http://unix.stackexchange.com/questions/61655/multiple-similar-entries-in-ssh-co
 
 ## Test
 
-Type `yes` when asked about fingeprint when running one of below commands:
+Type `yes` when asked about fingerprint when running one of below commands:
 
 ```
 ssh -T git@github.com
@@ -105,7 +106,8 @@ ssh-copy-id -i ~/.ssh/file.pub id@server
 
 ## Links
 
-- https://help.github.com/articles/generating-an-ssh-key/
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 - http://www.cloudvps.com/community/knowledge-base/regenerating-ssh-host-keys/
 - RSA vs DSA: Verification is generally what you want to be faster: use RSA http://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys
-- remove password from key: `ssh-keygen -p`, enter file in which the key is in, i.e. `~/.ssh/id_rsa)`
+  - Note 2026-10: outdated; DSA keys were deprecated in OpenSSH 7.0 and removed in OpenSSH 10.0. Use ed25519.
+- remove password from key: `ssh-keygen -p`, enter file in which the key is in, i.e. `~/.ssh/id_ed25519`
