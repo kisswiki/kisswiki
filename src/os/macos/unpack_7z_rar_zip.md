@@ -1,4 +1,4 @@
-`brew cask install the-unarchiver`
+`brew install --cask the-unarchiver`
 
 - http://7-zip.org/download.html
 - https://superuser.com/questions/548349/how-can-i-install-7zip-so-i-can-run-it-from-terminal-on-os-x
@@ -9,7 +9,7 @@
 
 no compression:
 
-`7zz a -tzip -mem=AES256 -mx=1 -mmt=on -p archive.zip Folder_or_File`
+`7zz a -tzip -mem=AES256 -mx=0 -mmt=on -p archive.zip Folder_or_File`
 
 compression:
 

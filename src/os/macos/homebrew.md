@@ -3,7 +3,8 @@
 ## uninstall homebrew
 
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+# (the old Ruby script /usr/bin/ruby -e "$(curl … install/master/uninstall)" was removed in 2020)
 #...
 The following possible Homebrew files were not deleted:
 /usr/local/.com.apple.installer.keep
@@ -79,13 +80,13 @@ brew install yarn
 ## list packages installed manually
 
 ```shell
-brew ls --versions $( {brew leaves --installed-on-request & brew list --cask -1;} | sort | uniq )
+brew ls --versions $( { brew leaves --installed-on-request; brew list --cask -1; } | sort | uniq )
 ```
 
 Also to see which packages are installed by both cask and not cask
 
 ```shell
-{brew leaves --installed-on-request & brew list --cask -1;} | sort | uniq -d
+{ brew leaves --installed-on-request; brew list --cask -1; } | sort | uniq -d
 ```
 
 - <https://apple.stackexchange.com/questions/101090/list-of-all-packages-installed-using-homebrew/448627#448627>
@@ -121,19 +122,17 @@ brew deps --installed | \
 
 Uninstall Homebrew:
 
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"`
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"`
 
 Then re-install it:
 
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
-/usr/bin/ruby -e "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/master/install>)"
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 ## cask search
 
-- <https://caskroom.github.io/search>
+- <https://formulae.brew.sh/cask/>
 
-`brew cask search | rg mono`
+`brew search --cask mono`
 
 ## brew update - error with ruby
 
@@ -145,10 +144,10 @@ Then re-install it:
 % brew info neovim
 % brew unlink neovim
 % brew install neovim --HEAD
-% brew link neovim --HEAD
+% brew link neovim
 % brew unlink neovim
 % brew link neovim
-% brew link --dry-run neovim --HEAD
+% brew link --dry-run neovim
 ```
 
 - <https://stackoverflow.com/questions/21175235/what-does-linking-unlinking-with-homebrew-mean>
