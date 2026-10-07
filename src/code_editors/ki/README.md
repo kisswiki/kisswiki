@@ -32,7 +32,9 @@ WJH: These sections are separated by a separator (which can be any character), t
 
 `l/hello/bye`
 
-`l` here means the Literal search mode, which is most commonly usedWJH: After that, press enter, then you can use `hold-Copy/≡ Dup > m > release-Copy/≡ Dup` to replace the current selection(s) with the search query
+`l` here means the Literal search mode, which is most commonly used
+
+WJH: After that, press enter, then you can use `hold-Copy/≡ Dup > m > release-Copy/≡ Dup` to replace the current selection(s) with the search query
 
 WJH: But, most of the time, I would not recommend using this search language, it will be easier to just add cursors, and modify all selections in-place
 
@@ -218,7 +220,7 @@ to select character press `shift+w` <https://github.com/ki-editor/ki-editor/issu
 
 to open file press `Space e` and search with `q`. Or `Space f` which has completion.
 
-to quit press `Space q`
+to quit press `Space q` (Note: outdated, newer binding in 2025-11-24: `space > Editor (j) > Quit No Save (v)`)
 
 to collapse selections press `$`
 
@@ -236,7 +238,7 @@ to undo press `z`, to redo press `shift+z`
 
 #### Raise / Replace parent node with current node
 
-`Shit+t` can also be done with `t` followed by `i`
+`Shift+t` can also be done with `t` followed by `i`
 
 #### Remove all sibling nodes except the current node
 
