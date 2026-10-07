@@ -1,4 +1,4 @@
-- obama hope effect http://registry.gimp.org/node/14291
+- obama hope effect http://registry.gimp.org/node/14291 (Note 2026-10: registry.gimp.org was shut down around 2015; try the Wayback Machine)
 - http://shallowsky.com/blog/gimp/saver.html
 
 ## cons
@@ -17,7 +17,6 @@ https://news.ycombinator.com/item?id=49330228
 
 > The big remaining thing I can think of is the "layer boundary" thing, which (it seems to me) is very confusing for new users and inconvenient for all users.
 >
-> I basically agree with the people complaining about Save and Export being unexpectedly separate, although also it's not that hard to press Ctrl+E instead of Ctrl+S.​
-> ​
+> I basically agree with the people complaining about Save and Export being unexpectedly separate, although also it's not that hard to press Ctrl+E instead of Ctrl+S.
 
 https://news.ycombinator.com/item?id=49330228

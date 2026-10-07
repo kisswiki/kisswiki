@@ -50,6 +50,5 @@ set circleoutlinecolor #3f3f3f
 
 - https://stackoverflow.com/questions/24208933/how-to-change-ui-colors-for-gitk
 - https://superuser.com/questions/30175/gitk-looks-ugly-doesnt-honor-theme-settings
-- https://superuser.com/questions/30175/gitk-looks-ugly-doesnt-honor-theme-settings
 - http://git.661346.n2.nabble.com/Using-Zenburn-color-scheme-in-gitk-td6406964.html
 
