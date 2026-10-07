@@ -1,20 +1,20 @@
-##
+## Comptime and memory safety
 
 Zig is practically optimized for this: comptime is extremely dynamically typed compared to actual generics, and the lack of memory safety is often "a breath of fresh air"--until you have to actually fix bugs (including security bugs) resulting from it.
 
 <https://news.ycombinator.com/item?id=43873587>
 
-##
+## Comptime vs generics
 
 One of the downsides of comptime over generics is that, because it's low-level and procedural instead of high-level and declarative, things like automatically inserting coercions become harder.
 
 <https://news.ycombinator.com/item?id=43873719>
 
-##
+## Simplicity
 
 - <https://www.reddit.com/r/Zig/comments/1ckstjv/im_sold_on_zigs_simplicity/>
 
-##
+## Allocators
 
 There are many erroneous claims made regarding Zig allocators. Contrary to what is claimed, the fact that you pass an explicit allocator does not affect:
 
@@ -58,6 +58,8 @@ Agreed, I was thinking it might be possible to do something similar to the std l
 <https://github.com/ziglang/zig/pull/14703#issuecomment-1439298574>
 
 ## What features is Zig missing?
+
+Note 2026-10: this thread is from May 2024; remarks about async/await being gone predate the async support in the new `std.Io` interface (Zig 0.16).
 
 @jarredredditaccount
 
@@ -196,7 +198,7 @@ fn f(arg_or_null: anytype) i32 {
   return arg;
 }
 
-fn arg_or_default(arg: anytype, default: anytype) u/TypeOf(default) {
+fn arg_or_default(arg: anytype, default: anytype) @TypeOf(default) {
    return if(@typeInfo(@TypeOf(arg)) == .Null) default else arg;
 }
 ```
