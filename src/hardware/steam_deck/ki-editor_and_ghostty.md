@@ -32,7 +32,7 @@ How to fix it?
 
 ## On-screen keyboard is shown in desktop mode in ghostty
 
-The only solution that works for me, is to have external display and then OSK (on-screen keyboard) is displayed on steam deck internal display. In desktop mode for tv I needed to change in KDE `System Settings > Display & Monitor > Display Configuration > Resoultion: 1920x1080`. https://www.forbes.com/sites/jasonevangelho/2022/03/04/steam-deck-desktop-mode-challenge-day-1-get-a-hub-and-get-docked/
+The only solution that works for me, is to have external display and then OSK (on-screen keyboard) is displayed on steam deck internal display. In desktop mode for tv I needed to change in KDE `System Settings > Display & Monitor > Display Configuration > Resolution: 1920x1080`. https://www.forbes.com/sites/jasonevangelho/2022/03/04/steam-deck-desktop-mode-challenge-day-1-get-a-hub-and-get-docked/
 
 You need to cancel it couple of times. I do not know how to disable it.
 
@@ -82,9 +82,9 @@ reset font-size: ctrl+0
 
 You may also disable showing tabs in ghostty with `window-show-tab-bar = never`, but only on Linux (GTK). https://ghostty.org/docs/config/reference#window-show-tab-bar
 
-next tab: ctrl+pgup
+next tab: ctrl+pgdown
 
-previous tab: ctrl+pgdown
+previous tab: ctrl+pgup
 
 context menu: shift+right mouse click
 
