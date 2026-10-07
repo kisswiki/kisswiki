@@ -6,11 +6,11 @@ On the default key layout, you can do so by
 
 - First connect a USB cable from the host to the half of Glove80 you want to load firmware
 - Pressing `Magic + Esc` for the left half
-- Pressing `Magic + Page Up` for the right half
+- Pressing `Magic + '` for the right half
 
 https://docs.moergo.com/glove80-user-guide/customizing-key-layout/#putting-glove80-into-bootloader-for-firmware-loading
 
-##
+## Links
 
 - https://github.com/danieldk/awesome-glove80
 - https://www.reddit.com/r/ErgoMechKeyboards/comments/16n9dpa/glove80_with_a_trackpoint/
@@ -19,11 +19,11 @@ https://docs.moergo.com/glove80-user-guide/customizing-key-layout/#putting-glove
 
 ## Bluetooth vs USB
 
-To switch to USB, press MagickKey and right bottom key on left thumb section.
+To switch to USB, press `Magic + Left-Alt`.
 
 https://docs.moergo.com/glove80-user-guide/operating-glove80-wirelessly/#selecting-bt-profile-and-usb-connected-device
 
-##
+## Tenting stilts and switches (danieldk)
 
 A recurring issue that I have with the Glove80 tenting stilts is that they tend to unscrew over time, making the keyboard less stable. The second revision of the Glove80 comes with additional o-rings that can be put on the bolts to increase the friction of the screws. I have used o-rings on the short (outer) stilts. They markedly improve the sturdiness of the short stilts, but I still have to readjust them from time to time. Another solution, that only works for the long legs due to space constraints, is to get some additional nuts that have a nylon (or other plastic) locking mechanism (DIN985). They can be had for a few cents each in most hardware stores. These nuts lock in the tenting tightly. They also make it much easier to recover the exact tenting degree if you remove the stilts (e.g. for travel).
 
@@ -31,7 +31,7 @@ The Glove80 lineup is slanted towards heavier switches. All the switches except 
 
 - https://danieldk.eu/Posts/2023-09-03-Glove80
 
-##
+## Glove80 vs Kinesis Advantage 360 Pro
 
 TLDR: Glove80 wins for me.
 
@@ -51,9 +51,9 @@ Incidentally, the hardware problems were what made me have to switch back and fo
 
 https://www.reddit.com/r/ErgoMechKeyboards/comments/13zschg/glove80_vs_kinesis_advantage_360_pro_quick/
 
-##
+## Glove80 vs Kinesis Advantage2 (HN)
 
-If'm very happy with my Glove80. I started with a prototype 3D printed model last year: the creators are friends of mine, and I wrote the LED status display code for them. I also dropped the prototype down a flight of concrete stairs (sorry! It still works though).
+I'm very happy with my Glove80. I started with a prototype 3D printed model last year: the creators are friends of mine, and I wrote the LED status display code for them. I also dropped the prototype down a flight of concrete stairs (sorry! It still works though).
 
 I now have a production model with the white clicky keyswitches. Ultra happy with it. I've been using Kinesis Advantage2s for a shade over two decades - the same model DanielDK used for a long time. The Glove80 is simply better. I prefer the clicky keyswitches. Ergonomics are great. It's really repairable - everything is held together with screws (spare parts for my Advantage2s are not available, and the function keys are not repairable). Open firmware so you can make it do wacky stuff if the need arises. Small and light enough for travel - I should get a proper case but it's survived a fair few trips stuffed into my backpack.
 
@@ -61,7 +61,7 @@ Yeah, adaptation to new keyboard layouts is hard. I used a layout that mimicked 
 
 https://news.ycombinator.com/item?id=37376686
 
-##
+## Glove80 vs Kinesis geometry
 
 The geometry is better, your hands and fingers rest more comfortably. Kinesis keywell is different than glove. It's a little more curved, but also more cramped. In the beginning, the glove 80 felt a bit weird, but after a while I think the geometry is superior.
 
@@ -73,7 +73,7 @@ The thumb cluster is still not optimal for my small-medium hands, but MUCH more 
 
 https://www.reddit.com/r/ErgoMechKeyboards/comments/1af0b9a/comment/ko8tvun/
 
-##
+## Kinesis Advantage 360 preferred over Glove80
 
 @BikeForCoffee
 
@@ -94,13 +94,9 @@ Finally, there are the keys and switches themselves. I'm sure there's a good rea
 My honest recommendations for the everyday user who does not plan on modding, owns/likes prebuilt mechanical keyboards, knows the purpose of these 2 keyboards, understands the learning curve, etc, and just wants to buy one to be their daily driver and help with pain:
 
 - If you already own the Glove80 or the Kinesis 360, and don’t have any complaints on their physical day-to-day use that make you consider getting rid of them, stick with what you have unless you're just curious. You probably picked the right one.
--
 - If you’re considering the Glove80 and my issues with it (too light/delicate for a busy desk, sharp edges and corners, shallow laptop-like keys) don’t bother you, get the Glove80, especially if you’re coming from shallow keys already.
--
 - If my issues with the Glove80 sound like they might bother you, they probably will. Get the Kinesis first, try it for a few weeks, and if you have a lot of complaints or feel like it’d be way better if your keypresses felt more like typing on a Macbook/less resistant keys, or if it doesn’t help with the pain, return it and try the Glove80.
--
 - If you’re considering the Advantage 360 and feel like what you see in the pics/videos would be a good fit for you, ignore the reviews and get it first, especially if you’re coming from tactile MX switches. It looks, feels, and sounds exactly how you think it will, if not better. The 3 tenting positions are plenty, the thumb cluster is fine, and if it doesn't work for you, you’ll know long before the return window is up.
--
 - If you’re torn and the specs aren’t swaying you in either direction, pull up test/review videos for each, jump to scenes where you see and hear typing on these keyboards clearly, and just order the one that your gut says you’ll like more, because you’ll probably be right. I had no major surprises with either keyboard and wish I had gone with my gut from the start.
 
 Note that I didn’t incorporate my opinions about sound, looks, software, connectivity, portability, warranties, durability, customer service, extras in the box, etc. This is because I was willing to compromise on any/all of them in exchange for the best tool to help me do my job without pain, and I think that taking this approach will help you find your best fit too.
@@ -144,7 +140,7 @@ Choc Browns are quite terrible and almost not tactile at all. Sunset is the only
 
 https://www.reddit.com/r/ErgoMechKeyboards/comments/1af0b9a/ask_all_the_comparison_questions_you_have_i_wont/
 
-##
+## Kailh Sunset switch
 
 One switch I've not seen mentioned here yet is the Kailh Sunset switch [0], developed in collaboration with Darryl from lowprokb.ca. It is my favourite low profile switch, and the closest in feel to my X220-and-previous-generation Thinkpad keyboards.
 
