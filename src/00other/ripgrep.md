@@ -10,6 +10,10 @@
 
 ## autocomplete
 
+Note 2026-10: since ripgrep 14 the release archives no longer contain `rg.bash-completion`, so the steps below are outdated. Generate the completion instead: `rg --generate complete-bash > ~/.local/share/bash-completion/completions/rg` (see ripgrep's FAQ.md). Package managers install it automatically.
+
+Old steps:
+
 1. Download musl release from https://github.com/BurntSushi/ripgrep/releases.
 2. Extract `rg.bash-completion` to `~/`.
 3. In `~/.bash_profile`: `source ~/rg.bash-completion`
@@ -48,11 +52,11 @@ https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md#manual-filtering-file
 
 ## path separator
 
-`rg --files -telm --path-separator //`
+`rg --files -telm --path-separator /`
 
 Works in cmd.exe, but not in git bash.
 
-For git bash use `//` ot '\x2F'.
+For git bash use `//` or '\x2F'.
 
 Or better add to config. In `~/.bashrc`:
 
@@ -89,6 +93,8 @@ https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md
 https://docs.rs/regex
 
 ## no negative lookahead, works in ag
+
+Note 2026-10: this applies to ripgrep's default regex engine only. With PCRE2 (`-P`, see the `pcre2` build above) lookaround and backreferences work: `rg -P 'foo(?!.*bar)'`.
 
 ```
 ag 'foo(?!.*bar)'
@@ -133,6 +139,8 @@ $ rg "\('Sign up.*" -NoI | sort | uniq
 
 Only `ts` extension and exclude `spec.ts` extension.
 
+Note: `xargs -d` is GNU-only; the BSD xargs on macOS has no `-d` (use `gxargs` from `findutils`, or `tr '\n' '\0' | xargs -0`).
+
 ```bash
 ~/projects/codecharm/magma $ rg receiveEmails -l -tts -g '!*.spec.ts' | xargs -d '\n' -I {} sh -c 'echo $(basename $(dirname {}))/$(basename {})' | sort | uniq
 common/interfaces.ts
@@ -172,9 +180,7 @@ $ rg '(a*)*c' foo
 
 The Silver Searcher completely drops the second match because it's using a backtracking regex engine, which is required for supporting arbitrary lookaround.
 
-This would find all rows with "foo", but not with "bar" somewhere after that on the same line.
-
-You can satisfy this particular use case relatively easily with `rg foo | rg -v 'foo.*bar'`.
+Note 2026-10: `rg -P` (PCRE2) supports lookaround and backreferences.
 
 - https://github.com/BurntSushi/ripgrep/issues/188
 - https://github.com/BurntSushi/ripgrep/issues/644
