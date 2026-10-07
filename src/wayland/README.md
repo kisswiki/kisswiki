@@ -20,6 +20,8 @@ Next was they did not like the GBM model where every process has its own memory 
 
 Yes the Nvidia developer putting support for EGLStreams into KDE end up in a rock and hard place between the KDE lead developer and what he could do with EGLStreams. Yes the KDE lead developer did a demo restarting the wayland compositor on intel and amd and arm and qualcom and broadcom GPUs and it works then the Nvidia developer was completely and totally screwed when the KDE lead developer asked the Nvidia lead developer to show how because this would be a future KDE feature. Every route the Nvidia developer tried with KDE lead back the the memory issue where restarting the compositor lead applications segfaulting that required him to go to the Nvidia driver developer team and ask if they could fix EGLStreams to make this work. This leads to the 470.xx Nvidia driver work with GBM support and DMA BUF support as the Nvidia DGPU drivers developers find they are totally screws EGLStreams simply is not going to work.
 
+Note 2026-10: GBM support shipped in driver 495.44 (see above), not 470.xx.
+
 https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277113-nvidia-confirms-sway-wayland-compositor-works-fine-with-their-new-gbm-driver-support?p=1277249#post1277249
 
 ## Tearing and gaming
@@ -28,6 +30,8 @@ In the mean time, Wayland needs to implement tearing to be truly reliable for co
 
 - https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277113-nvidia-confirms-sway-wayland-compositor-works-fine-with-their-new-gbm-driver-support?p=1277279#post1277279
 - https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/65
+
+Note 2026-10: outdated. `tearing-control-v1` is in wayland-protocols since 1.30 (2022) and KWin 6 and others support it.
 
 ## Remaining features
 
@@ -59,6 +63,8 @@ https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277036-
 
 And another showstopper for me is that colord/icc profiles aren't supported on wayland yet
 
+Note 2026-10: outdated. `color-management-v1` is in wayland-protocols since 2025, and Plasma 6 supports ICC profiles.
+
 https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1277036-kde-s-plasma-wayland-session-is-finally-reaching-stability-following-many-fixes?p=1277064#post1277064
 
 ## KDE
@@ -89,12 +95,11 @@ https://news.ycombinator.com/item?id=28798050
 
 ## Vivarium and River (written in zig language)
 
-I wrote [Vivarium](
-- [0] https://github.com/inclement/vivarium) specifically to be a wayland compositor that behaves exactly like my (fairly simple) xmonad config, but it's a relatively new/unstable compositor and nothing like xmonad internally.
+I wrote [Vivarium](https://github.com/inclement/vivarium) specifically to be a wayland compositor that behaves exactly like my (fairly simple) xmonad config, but it's a relatively new/unstable compositor and nothing like xmonad internally.
 
 [River](https://github.com/ifreund/river) has a fantastic tiling model via user-provided executables, which makes it very flexible and probably a good fit for many people wanting something xmonad-like.
 
-- A wlroots and dwl based tiling wayland compositor based around creating layoutshttps://github.com/werererer/japokwm
+- A wlroots and dwl based tiling wayland compositor based around creating layouts https://github.com/werererer/japokwm
   - https://github.com/djpohly/dwl
 - https://news.ycombinator.com/item?id=28796959
 
@@ -102,7 +107,9 @@ I wrote [Vivarium](
 
 Wayland (more specifically XWayland) doesn't support the rigging needed in order to have the SteamVR compositor yank a display for itself (specifically via the Vulkan extension VK_EXT_direct_mode_display), so it will probably never work until that is supported.
 
-https://christine.website/blog/nixos-vr-hell-2021-12-02
+https://christine.website/blog/nixos-vr-hell-2021-12-02 (the blog is now at xeiaso.net)
+
+Note 2026-10: outdated. Wayland's `wp_drm_lease_v1` (2021) lets SteamVR lease a headset display on KWin, sway and others.
 
 ## wayland vs xorg
 
@@ -121,6 +128,8 @@ True fractional scaling means letting HiDpi-aware apps render themselves directl
 Getting externally scaled by the compositor also poses issues for image processing apps like GIMP that require pixel accuracy, as well as for VMs and remote desktop apps like Remmina (to the point of having a dedicated wiki page).
 
 The main problem seems to be the risk of breaking API which GTK tries to avoid until the next major version, so that's why we won't see proper fractional scaling support until GTK 5.
+
+Note 2026-10: outdated. GTK 4.14 (2024) supports `wp_fractional_scale_v1`, see below.
 
 Qt6 supports frac scaling
 
