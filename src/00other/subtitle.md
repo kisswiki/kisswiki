@@ -160,6 +160,8 @@ z / x Increase / decrease subtitle delay
 r / t Move subtitles up / down
 ```
 
+Note 2026-10: per mpv's `etc/input.conf`, `z` shifts subtitles 100 ms earlier (`sub-delay -0.1`) and `x` delays them (`+0.1`), and `j` / `J` switch to the next / previous subtitle track, not the next subtitle line.
+
 <https://www.cheatography.com/someone/cheat-sheets/mpv-media-player/>
 
 ## extract subtitles
@@ -191,3 +193,5 @@ w ~/.config/qnapi.ini musisz mieć 2 wpisy:
 ```
 backup_langu
 ```
+
+Note 2026-10: this note was cut off here; the two entries were never written down.
