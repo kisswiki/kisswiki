@@ -14,7 +14,7 @@ z = zipfile.ZipFile("my_spotify_data.zip")
 plays = []
 for name in sorted(n for n in z.namelist() if "Streaming_History_Audio" in n and n.endswith(".json")):
     for e in json.loads(z.read(name)):
-        # skip podcasts/skips: count a play from 30 s, like Spotify and ListenBrainz do
+        # skip podcasts/skips: count a play from 30 s, like Spotify does (ListenBrainz's guideline is half the track or 4 min)
         if not e.get("master_metadata_track_name") or (e.get("ms_played") or 0) < 30000:
             continue
         ts = int(datetime.fromisoformat(e["ts"].replace("Z", "+00:00")).timestamp())
