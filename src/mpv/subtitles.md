@@ -10,7 +10,7 @@ mpv.conf
 - https://github.com/libass/libass/issues/657#issuecomment-1297571043
 - https://github.com/mpv-player/mpv/issues/486
 
-##
+## Open external subtitles
 
 - https://superuser.com/questions/1097227/open-external-subtitles-on-mpv-on-linux-without-terminal
 

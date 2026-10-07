@@ -20,7 +20,7 @@ ssh -p 2222 mint@localhost
 
 ## 2. Drive the remote shell non-interactively without leaking the password
 
-Keep the password in a gitignored file (`~/.config/.env.<host>`, `chmod 600`) and use `expect` with echo off:
+Keep the password in a gitignored file (`~/.config/.env.<host>`, `chmod 600`, containing `MINT_PW=...`), load it into the environment (`set -a; . ~/.config/.env.<host>; set +a`) and use `expect` with echo off:
 
 ```tcl
 log_user 0
