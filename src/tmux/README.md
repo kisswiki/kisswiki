@@ -26,23 +26,82 @@ More about copy/paste http://www.rushiagr.com/blog/2016/06/16/everything-you-nee
 
 ## Keybindings
 
-Here is a list of a few basic tmux commands:
+`prefix` is `Ctrl+b` (`C-b`): press it, release it, then the key. `prefix ?` lists every binding
+that is active in the running server, which always beats a cheat sheet.
 
-`prefix` is `Ctrl+b` by default.
+### Sessions
 
+| key | does |
+|---|---|
+| `prefix d` | detach: the session and its programs keep running |
+| `prefix s` | pick a session from a list (also `:choose-tree`) |
+| `prefix $` | rename the session |
+| `prefix :kill-session` | kill the current session (and everything in it) |
+
+### Windows (tabs)
+
+| key | does |
+|---|---|
+| `prefix c` | new window |
+| `prefix 1` … `prefix 9` | jump to that window (this machine numbers from 1) |
+| `prefix n` / `prefix p` | next / previous window |
+| `prefix ,` | rename the window |
+| `prefix w` | pick a window from a list |
+| `prefix &` | kill the window (asks first) |
+
+### Panes
+
+| key | does |
+|---|---|
+| `prefix %` | split vertically (side by side) |
+| `prefix "` | split horizontally (stacked) |
+| `prefix ←/→/↑/↓` | move to that pane |
+| `prefix o` | move to the next pane |
+| `prefix z` | zoom the pane to the whole window, again to undo |
+| `prefix x` | kill the pane (asks first) |
+| `prefix {` / `prefix }` | move the pane left / right in the layout |
+| `prefix space` | cycle the pane layouts |
+| hold `prefix` and an arrow, or drag the border with the mouse | resize the pane |
+
+### Copy mode (vi keys here)
+
+| key | does |
+|---|---|
+| `prefix [` or the mouse wheel | enter copy mode |
+| `/` then a pattern | search inside copy mode |
+| `hjkl`, `v`, `y`, `q` | move, select, copy, leave copy mode |
+| `prefix ]` | paste the tmux buffer |
+
+### From outside: controlling a session
+
+```bash
+tmux ls                                          # what is running
+tmux attach -t NAME                              # enter (leave with prefix d)
+tmux capture-pane -p -t NAME | tail -30          # read the pane without entering
+tmux send-keys -t NAME 'command' Enter           # type into the pane
+tmux kill-session -t NAME                        # kill it (and its programs)
 ```
-    prefix " — split pane horizontally.
-    prefix % — split pane vertically.
-    prefix arrow key — switch pane.
-    Hold prefix, don’t release it and hold one of the arrow keys — resize pane.
-    prefix c — (c)reate a new window.
-    prefix n — move to the (n)ext window.
-    prefix p — move to the (p)revious window.
-    prefix d — close pane
-    prefix z - maximize/unmaximize pane
-    prefix d - detach session
-    prefix s - interactive session list
-```
+
+### This machine's own bindings (`~/.tmux.conf`)
+
+- `mouse on`: a click selects a pane, dragging a border resizes, the wheel scrolls (and enters copy
+  mode).
+- `mode-keys vi`, `base-index 1`, `pane-base-index 1`, `renumber-windows on`.
+- `Shift+←/→/↑/↓` (no prefix) run `~/scripts/tmux_navigate.sh`, which moves between panes and is
+  aware of neovim and emacs splits.
+- `C-\` (no prefix) sends `C-\` to neovim or emacs when one of them owns the pane, and otherwise
+  jumps to the last pane.
+- Copying with a mouse drag runs `xsel`, which is a Linux tool; on macOS use `y` in copy mode or
+  the terminal's own selection.
+
+### Fixed 2026-10-19
+
+- `bind -n C-\ run "…"` failed with `unknown key: C- run`: tmux reads a backslash as an escape, so
+  `\ ` glued the key and the command into one word. Doubling it (`C-\\`) makes it the
+  `C-backslash` key again.
+- `run -b '~/.tmux/plugins/tpm/tpm'` printed `returned 127` on a machine where
+  `~/.tmux/plugins/` does not exist. The line now runs only when that file is executable:
+  `run -b '[ -x "$HOME/.tmux/plugins/tpm/tpm" ] && "$HOME/.tmux/plugins/tpm/tpm"'`.
 
 Other thing worth knowing is that scrolling is enabled by pressing `Ctrl+b PgUp/PgDown`. In fact, it enables the copy mode, which can also be done by pressing `Ctrl+b [`. When in copy mode, you can use `PgUp/PgDown` and arrow keys to scroll through the terminal contents. To (q)uit the copy mode, simply press the `q` key.
 
