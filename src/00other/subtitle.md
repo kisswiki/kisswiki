@@ -172,7 +172,16 @@ Run from terminal: `mkvextract tracks <your_mkv_video> <track_numer>:<subtitle_f
 
 Use `mkvinfo` to get information about tracks.
 
-If the mkvinfo shows for subtitles: Codec ID: S_HDMV/PGS, change extension to sup and convert to srt with <https://pgs-to-srt.com/>
+Codec ID `S_HDMV/PGS` (Blu-ray) is images, not text: `mkvextract` gives `.sup`, and `.srt` needs OCR.
+[mkv-subs-to-srt](https://github.com/rofrol/dotfiles/blob/master/scripts/mkv-subs-to-srt)
+(uv script, pgsrip + tesseract) writes one `.srt` per English and Polish track next to the file:
+
+```sh
+mkv-subs-to-srt [-l en -l pl] [--vtt] Movie.mkv
+```
+
+Polish needs `brew install tesseract-lang`. Check the result: OCR confuses l/I/1 and italics.
+Online alternative: <https://pgs-to-srt.com/>
 
 - for S_VOBSUB: `mkvextract tracks file.mkv 3:track3` will produce track3.idx and track3.sub. Convert to srt with <https://subtitletools.com>.
 
