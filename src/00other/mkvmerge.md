@@ -2,49 +2,44 @@
 
 `brew install mkvtoolnix`. Remuxing copies the streams; nothing is re-encoded.
 
-## Blu-ray playlist to MKV
+## Blu-ray to MKV
 
-How to back up a disc and find the right playlist: [bluray.md](bluray.md).
+1. MakeMKV → Backup (decrypted): a folder with `BDMV/`.
+2. Find the main playlist: the film's running time, all tracks (video, audio,
+   dubs, subtitles), the biggest file in `BDMV/STREAM/`. Its number differs
+   per disc; `00000.mpls` is often an intro, and a long playlist with one
+   track is a loop of a short clip.
 
-```sh
-cd /path/to/DISC   # the folder that contains BDMV/
-mkvmerge -i BDMV/PLAYLIST/00001.mpls                   # list tracks and chapters
-time mkvmerge -o Movie.mkv BDMV/PLAYLIST/00001.mpls    # all tracks, chapters included
-```
+   ```sh
+   cd DISC   # contains BDMV/
+   for f in BDMV/PLAYLIST/*.mpls; do
+     mkvmerge -J "$f" | python3 -I -c '
+   import json, sys
+   d = json.load(sys.stdin); c = d["container"]["properties"]
+   print(round(c.get("playlist_duration", 0) / 6e10), "min",
+         len(d["tracks"]), "tracks", sys.argv[1])' "$f"
+   done | sort -nr | head
+   ```
 
-The output is about as big as the playlist (Cast Away: ~42 GiB), so check free space first (`df -h .`).
+3. Remux (output ≈ playlist size, check `df -h .`):
 
-Keep only some tracks (IDs from `mkvmerge -i`):
+   ```sh
+   mkvmerge -o Movie.mkv BDMV/PLAYLIST/00001.mpls
+   ```
 
-```sh
-mkvmerge -o Movie.mkv --audio-tracks 1 --subtitle-tracks 9,10 BDMV/PLAYLIST/00001.mpls
-```
+Only some tracks (IDs from `mkvmerge -i FILE`):
+`mkvmerge -o Movie.mkv --audio-tracks 1 --subtitle-tracks 9,10 BDMV/PLAYLIST/00001.mpls`
 
-Track languages: `mkvmerge -J BDMV/PLAYLIST/00001.mpls`, field `tracks[].properties.language`.
-
-## Chapters
-
-mkvmerge copies chapters from the playlist by itself. To get them as a file:
-
-```sh
-mkvmerge -A -D -S BDMV/PLAYLIST/00001.mpls -o chapters.mkv   # no audio, video, subtitles
-mkvextract chapters.mkv chapters chapters.xml
-```
-
-## Split one playlist into episodes (TV series disc)
-
-When a series disc has all episodes in one playlist (Mr. Inbetween S01):
+## Series disc: one playlist into episodes
 
 ```sh
-time mkvmerge BDMV/PLAYLIST/00000.mpls -o remux.mkv
-mkvmerge -o output_%02d.mkv --split chapters:all remux.mkv                # one file per chapter
-mkvmerge -o output_%02d.mkv --split timestamps:00:26:17.472,00:51:20.864 remux.mkv   # at given times
+mkvmerge -o all.mkv BDMV/PLAYLIST/00000.mpls
+mkvmerge -o ep_%02d.mkv --split chapters:all all.mkv
 ```
-
-Get the episode boundaries from `chapters.xml` (above).
 
 ## Other
 
-- Keep one audio track and make it default, drop subtitles:
-  `mkvmerge -o output.mkv --audio-tracks 2 --default-track-flag 2:1 --no-subtitles input.mkv`
-- Extract a track: `mkvextract tracks input.mkv 2:en.srt` (more in [subtitle.md](subtitle.md)).
+- Chapters to XML: `mkvextract input.mkv chapters chapters.xml`
+- One audio track as default, no subtitles:
+  `mkvmerge -o out.mkv --audio-tracks 2 --default-track-flag 2:1 --no-subtitles in.mkv`
+- Extract a track: `mkvextract tracks input.mkv 2:en.srt` ([subtitle.md](subtitle.md))
