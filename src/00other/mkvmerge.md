@@ -15,7 +15,10 @@
    bluray-playlists DISC   # DISC contains BDMV/
    ```
 
-3. Remux (output ≈ playlist size, check `df -h .`):
+3. Remux the main playlist with only the English and Polish audio and
+   subtitles: [bluray-remux](https://github.com/rofrol/dotfiles/blob/master/scripts/bluray-remux)
+   `[-n] DISC OUT.mkv` (`-n` shows the plan). By hand, all tracks
+   (output ≈ playlist size, check `df -h .`):
 
    ```sh
    mkvmerge -o Movie.mkv BDMV/PLAYLIST/00001.mpls
