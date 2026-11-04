@@ -8,7 +8,7 @@
 2. Find the main playlist: the film's running time, all tracks (video, audio,
    dubs, subtitles), the biggest file in `BDMV/STREAM/`. Its number differs
    per disc; `00000.mpls` is often an intro, and a long playlist with one
-   track is a loop of a short clip. List them, longest first, with
+   track is a loop of a short clip. List them, most tracks first, with
    [bluray-playlists](https://github.com/rofrol/dotfiles/blob/master/scripts/bluray-playlists):
 
    ```sh
