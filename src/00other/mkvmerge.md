@@ -13,11 +13,8 @@
    ```sh
    cd DISC   # contains BDMV/
    for f in BDMV/PLAYLIST/*.mpls; do
-     mkvmerge -J "$f" | python3 -I -c '
-   import json, sys
-   d = json.load(sys.stdin); c = d["container"]["properties"]
-   print(round(c.get("playlist_duration", 0) / 6e10), "min",
-         len(d["tracks"]), "tracks", sys.argv[1])' "$f"
+     mkvmerge -J "$f" | jq -r --arg f "$f" \
+       '"\(.container.properties.playlist_duration / 6e10 | round) min \(.tracks | length) tracks \($f)"'
    done | sort -nr | head
    ```
 
