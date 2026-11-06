@@ -3,9 +3,9 @@
 Script: `~/scripts/hevc-encode IN.mkv [OUT.mkv]` (dotfiles), which runs:
 
 ```
-caffeinate -i taskpolicy -b ffmpeg -i IN.mkv -map 0 \
+caffeinate -i nice -n 19 ffmpeg -i IN.mkv -map 0 \
   -c:v libx265 -pix_fmt yuv420p10le -preset slow -crf 18 \
-  -x265-params "no-sao=1:aq-mode=3:psy-rd=2.0:psy-rdoq=1.0" \
+  -x265-params "pools=4:no-sao=1:aq-mode=3:psy-rd=2.0:psy-rdoq=1.0" \
   -filter:a:0 channelmap=channel_layout=5.1 -c:a libopus -b:a 384k -mapping_family 1 \
   -c:s copy OUT.mkv
 ```
@@ -21,12 +21,19 @@ caffeinate -i taskpolicy -b ffmpeg -i IN.mkv -map 0 \
   `channelmap=channel_layout=5.1` relabels the side pair as back.
 - On laptop speakers or headphones lossless DTS-HD MA 5.1 buys nothing (it is
   downmixed to stereo): Opus 384k is ~0.4 GB instead of ~4.5 GB.
-- `nice -n 19` is not enough: it only yields to other work, so with the Mac
-  otherwise idle x265 took all 10 cores of an M1 Pro (~690% CPU, 89 C, loud
-  fan). `taskpolicy -b` (background QoS) keeps it on the efficiency cores
-  (~130-145% CPU), quiet but several times slower. A running encode can be
-  moved with `taskpolicy -b -p PID` and paused/resumed with `kill -STOP` /
-  `kill -CONT PID`. `caffeinate -i` keeps the Mac from sleeping.
+- Keeping the Mac usable during the encode (M1 Pro, x265 slow, 1080p):
+
+  | How | CPU | Speed | Full film |
+  |---|---|---|---|
+  | `nice -n 19` only | ~690% (all 10 cores, 89 C, loud fan) | ~4.8 fps | ~11 h |
+  | `taskpolicy -c utility` | ~630% | ~4.8 fps | ~11 h |
+  | `taskpolicy -b` (background QoS) | ~80-140% | ~0.15 fps | ~380 h |
+  | `-x265-params pools=4` + `nice -n 19` | ~380% | ~2.3 fps | ~25 h |
+
+  `nice` only yields to other work; background QoS throttles far more than
+  "efficiency cores only" suggests. `pools=N` is the knob that works. A
+  running encode can be paused with `kill -STOP PID` and resumed with
+  `kill -CONT PID`; `caffeinate -i` keeps the Mac from sleeping.
 
 ## Measurements (2026-11-06, M1 Pro, ffmpeg 9.0.2)
 
