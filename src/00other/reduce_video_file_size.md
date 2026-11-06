@@ -20,3 +20,5 @@ libx265 is giving better quality but cannot be played in page in github isse.
 - https://unix.stackexchange.com/questions/28803/how-can-i-reduce-a-videos-size-with-ffmpeg/38380#38380
 - https://unix.stackexchange.com/questions/346902/need-to-convert-bytes-to-gb-mb-kb-in-normal-decimal-format/504728#504728
   https://unix.stackexchange.com/questions/28803/how-can-i-reduce-a-videos-size-with-ffmpeg/498642#498642
+
+Shrinking a Blu-ray remux for watching on a Mac (x265 vs SVT-AV1, measured): [hevc_encode_film.md](../ffmpeg/hevc_encode_film.md)
