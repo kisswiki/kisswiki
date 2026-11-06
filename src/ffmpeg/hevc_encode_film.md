@@ -3,7 +3,7 @@
 Script: `~/scripts/hevc-encode IN.mkv [OUT.mkv]` (dotfiles), which runs:
 
 ```
-caffeinate -i nice -n 19 ffmpeg -i IN.mkv -map 0 \
+caffeinate -i taskpolicy -b ffmpeg -i IN.mkv -map 0 \
   -c:v libx265 -pix_fmt yuv420p10le -preset slow -crf 18 \
   -x265-params "no-sao=1:aq-mode=3:psy-rd=2.0:psy-rdoq=1.0" \
   -filter:a:0 channelmap=channel_layout=5.1 -c:a libopus -b:a 384k -mapping_family 1 \
@@ -21,8 +21,12 @@ caffeinate -i nice -n 19 ffmpeg -i IN.mkv -map 0 \
   `channelmap=channel_layout=5.1` relabels the side pair as back.
 - On laptop speakers or headphones lossless DTS-HD MA 5.1 buys nothing (it is
   downmixed to stereo): Opus 384k is ~0.4 GB instead of ~4.5 GB.
-- `nice -n 19` keeps the Mac usable during a ~10 h encode; `caffeinate -i`
-  keeps it from sleeping.
+- `nice -n 19` is not enough: it only yields to other work, so with the Mac
+  otherwise idle x265 took all 10 cores of an M1 Pro (~690% CPU, 89 C, loud
+  fan). `taskpolicy -b` (background QoS) keeps it on the efficiency cores
+  (~130-145% CPU), quiet but several times slower. A running encode can be
+  moved with `taskpolicy -b -p PID` and paused/resumed with `kill -STOP` /
+  `kill -CONT PID`. `caffeinate -i` keeps the Mac from sleeping.
 
 ## Measurements (2026-11-06, M1 Pro, ffmpeg 9.0.2)
 
