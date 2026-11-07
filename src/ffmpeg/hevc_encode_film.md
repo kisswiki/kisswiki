@@ -18,7 +18,10 @@ caffeinate -i nice -n 19 ffmpeg -i IN.mkv -map 0 \
 - 10-bit (`yuv420p10le`) even from an 8-bit source: less banding at the same size.
 - libopus refuses `5.1(side)` (the usual Blu-ray layout) with
   `Invalid channel layout 5.1(side) for specified mapping family 1`;
-  `channelmap=channel_layout=5.1` relabels the side pair as back.
+  `channelmap=channel_layout=5.1` relabels the side pair as back. The script
+  adds `-filter:a:N` for every audio track with that layout: a disc often
+  carries the same mix twice (DTS-HD MA and AC3), and a filter on the first
+  track only fails on the second.
 - On laptop speakers or headphones lossless DTS-HD MA 5.1 buys nothing (it is
   downmixed to stereo): Opus 384k is ~0.4 GB instead of ~4.5 GB.
 - Keeping the Mac usable during the encode (M1 Pro, x265 slow, 1080p):
