@@ -64,3 +64,26 @@ Playback in mpv, 60 s per sample, `top` %CPU / energy impact of the mpv process:
   deband has no banding to remove (and `deband-grain` adds fake grain), and
   24 fps already divides the 120 Hz display evenly.
 - VMAF can reward smoothed grain; look at dark, grainy scenes too.
+
+## Matching AV1 CRF 16 with x265, and why x265 is slower
+
+Same 30 s of the source, 10-bit, x265 options as above, 4 threads each:
+
+| Encode | Mb/s | VMAF mean / min |
+|---|---|---|
+| SVT-AV1 preset 4, CRF 16 | 7.1 | 97.3 / 91.5 |
+| x265 medium, CRF 17 | 14.0 | 97.4 / 91.7 |
+| x265 medium, CRF 16 | 17.3 | 97.8 / 92.6 |
+| x265 slow, CRF 20 | 9.6 | 97.7 / 92.9 |
+| x265 slow, CRF 18 | 14.3 | 98.3 / 94.1 |
+
+- x265 slow CRF ~20 matches AV1 CRF 16 at ~35% more bits; medium needs
+  about twice the bits for the same quality on grainy film. Medium alone was
+  2.7x faster than slow (6.7 vs 2.5 fps, 4 threads).
+- A `sample` profile of x265 slow (10-bit, M1 Pro) spends ~67% of its CPU in
+  NEON code: sub-pixel interpolation (`interp_hv_pp_neon`), SATD/SAD block
+  costs, motion search and `rdoQuant`. So x265 is not slow on Arm for lack of
+  SIMD; it is slow because `slow` evaluates many candidates per block.
+  HEVC's smaller toolset needs that search to reach the quality AV1's richer
+  tools (more prediction modes and transforms, CDEF, loop restoration) reach
+  with SVT-AV1's aggressive pruning.
