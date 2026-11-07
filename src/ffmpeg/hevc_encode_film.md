@@ -1,6 +1,8 @@
 # Shrinking a Blu-ray remux: HEVC vs AV1 for playback on an M1 Mac
 
-Script: `~/scripts/hevc-encode IN.mkv [OUT.mkv]` (dotfiles), which runs:
+Script: `~/scripts/hevc-encode IN.mkv [OUT.mkv]` (dotfiles), which runs the
+command below (`hevc-encode-no-subs`, or `-S`, leaves out the input's
+subtitles with `-map -0:s` instead of copying them):
 
 ```
 caffeinate -i nice -n 19 ffmpeg -i IN.mkv -map 0 \
