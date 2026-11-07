@@ -34,6 +34,24 @@ mkvmerge -o all.mkv BDMV/PLAYLIST/00000.mpls
 mkvmerge -o ep_%02d.mkv --split chapters:all all.mkv
 ```
 
+## Add .srt subtitles
+
+[mkv-add-srt](https://github.com/rofrol/dotfiles/blob/master/scripts/mkv-add-srt)
+`[-n] Film.mkv Film.pl.srt [Film.en.srt ...]` adds them in place: the
+language comes from the name (`pl` is "Polski", `en` "English"), the first
+becomes the default track, and the original is replaced only after the
+remux has the expected number of tracks. By hand:
+
+```sh
+mkvmerge -o out.mkv Film.mkv --language 0:pl --track-name 0:Polski \
+  --default-track-flag 0:yes Film.pl.srt
+```
+
+The `.srt` must be UTF-8 (mkvmerge assumes it); convert CP1250 first with
+[subtitles_encoding_and_line_ending.sh](https://github.com/rofrol/dotfiles/blob/master/scripts/subtitles_encoding_and_line_ending.sh).
+To encode a film without the disc's own subtitles first, use
+`hevc-encode-no-subs` ([hevc_encode_film.md](../ffmpeg/hevc_encode_film.md)).
+
 ## Other
 
 - Chapters to XML: `mkvextract input.mkv chapters chapters.xml`
