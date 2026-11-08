@@ -188,6 +188,33 @@ Online alternative: <https://pgs-to-srt.com/>
 - <https://askubuntu.com/questions/452268/extract-subtitle-from-mkv-files>
 - To translate srt subtitles to other language <https://translatesubtitles.co>
 
+## add srt to mkv
+
+[mkv-add-srt](https://github.com/rofrol/dotfiles/blob/master/scripts/mkv-add-srt)
+adds `.srt` files to the mkv in place, without re-encoding; the language comes
+from the name (`Movie.pl.srt` is "Polski"), the first becomes the default:
+
+```sh
+mkv-add-srt Movie.mkv Movie.pl.srt [Movie.en.srt]
+```
+
+The `.srt` must be UTF-8. By hand, and other mkvmerge recipes:
+[mkvmerge.md](mkvmerge.md). To drop a disc's own subtitles while encoding,
+use `hevc-encode-no-subs` ([hevc_encode_film.md](../ffmpeg/hevc_encode_film.md)).
+
+To fix a track already in the file: extract it (`mkvextract Movie.mkv tracks 2:pl.srt`),
+edit it, and remux with the old track left out
+(`mkvmerge -o new.mkv --subtitle-tracks 3 Movie.mkv --language 0:pl pl.srt`,
+where `--subtitle-tracks` keeps the others); then replace the file.
+
+## check subtitles before muxing
+
+- Polish subtitles often get the speaker's grammatical gender wrong (a man
+  saying "Myślałam"); search for `-łam`/`-łem`, `byłam`/`byłem` and check who
+  speaks in the scene.
+- English subtitles (OCR'd ones especially) can have capitals mid-sentence ("I Knew", "a Sail");
+  look for a capitalized word after a lowercase one that is not a name.
+
 ## napiprojekt
 
 - <http://pym.uce.pl/pym-player/>
