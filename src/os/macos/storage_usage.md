@@ -5,3 +5,5 @@
 - https://alternativeto.net/software/windirstat/?platform=mac
 
 `brew cask install grandperspective`
+
+Why du and gdu overcount on APFS, and gdu --exclusive-size: [disk_usage_apfs_clones.md](disk_usage_apfs_clones.md)
